@@ -62,6 +62,11 @@ def get_similar_ids(kolid, TARGET_ORGANISMS_FILEPATH):
 
     return [gene for gene in targetGenes if gene in koSet]
 
+#returns an ARRAY of unipro IDs
+def get_unipro_ids(koID, TARGET_FILEPATH):
+
+
+    return
 
 def main():
     """Main function to test fetching genes for a specified KO ID."""
