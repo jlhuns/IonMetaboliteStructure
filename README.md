@@ -11,6 +11,8 @@
 #
 #
 # Simple git commands:
+#   git pull
+#
 #   git add .
 #   git push 
 #   git commit -m "message"
