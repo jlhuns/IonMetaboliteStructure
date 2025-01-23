@@ -17,3 +17,7 @@
 #   git push 
 #   git commit -m "message"
 # 
+#   
+# Creating a new branch
+#   checkout <userID>/nameOfBranch          takes you to that branch or creates a new branch named that
+#   
