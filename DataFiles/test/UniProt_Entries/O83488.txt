@@ -1,0 +1,111 @@
+ID   G6PI_TREPA              Reviewed;         535 AA.
+AC   O83488;
+DT   02-NOV-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   27-NOV-2024, entry version 123.
+DE   RecName: Full=Glucose-6-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=GPI {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            EC=5.3.1.9 {ECO:0000255|HAMAP-Rule:MF_00473};
+DE   AltName: Full=Phosphoglucose isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=PGI {ECO:0000255|HAMAP-Rule:MF_00473};
+DE   AltName: Full=Phosphohexose isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=PHI {ECO:0000255|HAMAP-Rule:MF_00473};
+GN   Name=pgi {ECO:0000255|HAMAP-Rule:MF_00473}; Synonyms=gpi;
+GN   OrderedLocusNames=TP_0475;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Treponemataceae;
+OC   Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M., Utterback T.R.,
+RA   McDonald L.A., Artiach P., Bowman C., Cotton M.D., Fujii C., Garland S.A.,
+RA   Hatch B., Horst K., Roberts K.M., Sandusky M., Weidman J.F., Smith H.O.,
+RA   Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the reversible isomerization of glucose-6-phosphate
+CC       to fructose-6-phosphate. {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 6-phosphate = beta-D-fructose 6-phosphate;
+CC         Xref=Rhea:RHEA:11816, ChEBI:CHEBI:57634, ChEBI:CHEBI:58225;
+CC         EC=5.3.1.9; Evidence={ECO:0000255|HAMAP-Rule:MF_00473};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 2/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- SIMILARITY: Belongs to the GPI family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00473, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65462.1; -; Genomic_DNA.
+DR   PIR; A71319; A71319.
+DR   RefSeq; WP_010881924.1; NC_021490.2.
+DR   AlphaFoldDB; O83488; -.
+DR   SMR; O83488; -.
+DR   STRING; 243276.TP_0475; -.
+DR   EnsemblBacteria; AAC65462; AAC65462; TP_0475.
+DR   KEGG; tpa:TP_0475; -.
+DR   KEGG; tpw:TPANIC_0475; -.
+DR   eggNOG; COG0166; Bacteria.
+DR   HOGENOM; CLU_017947_3_1_12; -.
+DR   OrthoDB; 140919at2; -.
+DR   UniPathway; UPA00109; UER00181.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0004347; F:glucose-6-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048029; F:monosaccharide binding; IEA:TreeGrafter.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051156; P:glucose 6-phosphate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd05015; SIS_PGI_1; 1.
+DR   CDD; cd05016; SIS_PGI_2; 1.
+DR   Gene3D; 1.10.1390.10; -; 1.
+DR   HAMAP; MF_00473; G6P_isomerase; 1.
+DR   InterPro; IPR001672; G6P_Isomerase.
+DR   InterPro; IPR023096; G6P_Isomerase_C.
+DR   InterPro; IPR018189; Phosphoglucose_isomerase_CS.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   InterPro; IPR035476; SIS_PGI_1.
+DR   InterPro; IPR035482; SIS_PGI_2.
+DR   PANTHER; PTHR11469; GLUCOSE-6-PHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR11469:SF1; GLUCOSE-6-PHOSPHATE ISOMERASE; 1.
+DR   Pfam; PF00342; PGI; 1.
+DR   PRINTS; PR00662; G6PISOMERASE.
+DR   SUPFAM; SSF53697; SIS domain; 1.
+DR   PROSITE; PS00174; P_GLUCOSE_ISOMERASE_2; 1.
+DR   PROSITE; PS51463; P_GLUCOSE_ISOMERASE_3; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase; Reference proteome.
+FT   CHAIN           1..535
+FT                   /note="Glucose-6-phosphate isomerase"
+FT                   /id="PRO_0000180761"
+FT   ACT_SITE        359
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+FT   ACT_SITE        390
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+FT   ACT_SITE        505
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+SQ   SEQUENCE   535 AA;  58418 MW;  44C251C52ECEE33A CRC64;
+     MNWRNLDECA AYARLQAIRA PSLKTVLCGP EGIERVRRYC TDAGAGLRYH YAAKTVNEEI
+     LTALAALADE QELVAKYDAL RAGAQINTGE KRKVLHHLTR LGVQGSSLAS LPCEVRDMHA
+     FYTKEYERVC AFARQVHEGG LRTSRGAPFT DVVQIGIGGS DLGPRALYLA LEGWAQRHQA
+     VKMRTHFISN VDPDDAALVL SKLPLETTLF ILVSKSGTTL ETLSNELFVA HVLRQAGLEP
+     HTQFVAVTSE TSPLANNPQY LASFYMDDFI GGRYSSSSVC GAVVLTLAFG PQVFGHFLSG
+     AAEADRAAQE QDIRRNAALL DALIGVYERT ILGYEHTAVL PYSQALARFP AHLQQLDMES
+     NGKSVNRFGI PITYKTGPVI FGEPGTNGQH SFYQHLHQGT SVVPLQFIAF QHSQLGQDPI
+     IRGSTGQQKL LANVVAQIVA FARGKEHADA NKTFSGERPS SLLYAKALTP QTLGALLAHF
+     ENKIMFQGFA WNLNSFDQEG VQLGKTLAQH ILAGEVEGVL RAYADLFDLA HAPTC
+//

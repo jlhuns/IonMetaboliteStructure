@@ -29,10 +29,8 @@ def GET_KOID_UNIPROT_ENTRYS_PATH(KOID: str) -> str:
     check_Folder_Exsits(folder_path)
     return folder_path
 
+def GET_UNPROT_ENTRY_FILE_PATH(KOID: str, UniprotID: str, type: str) -> str:
+    return os.path.join(GET_KOID_UNIPROT_ENTRYS_PATH(KOID), UniprotID) + type
 
-
-
-if __name__ == "__main__":
-    print(HOME_DIRECTORY)
-    print(DATAFILES)
-    print(getKOID("K00937"))
+def CHECK_FILE_EXISTS(file_path: str) -> bool:
+    return os.path.exists(file_path)
