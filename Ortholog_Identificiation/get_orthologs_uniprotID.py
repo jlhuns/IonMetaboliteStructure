@@ -2,6 +2,7 @@
 #This will just be an array of the KO's
 #May need faster search function.
 import requests
+import pandas as pd
 
 # KEGG API base URL
 KEGG_API_BASE_URL = "http://rest.kegg.jp"
@@ -23,31 +24,44 @@ def get_genes_for_kolid(kolid):
             return []
 
         # Parse the genes section from the response text
-        genes_section = []
-        is_genes_section = False
+        genesSection = []
+        isGenesSection = False
         for line in data.splitlines():
             if line.startswith("GENES"):
-                is_genes_section = True
-            if is_genes_section:
+                isGenesSection = True
+            if isGenesSection:
                 if line.strip() == "///":  # End of GENES section
                     break
-                genes_section.append(line.strip())
+                # Extract the part before the colon in each line
+                partBeforeColon = line.split(":")[0].strip()  # Split by ":" and get the first part
+                genesSection.append(partBeforeColon)
 
-        return genes_section  # Return the genes section
+        return genesSection  # Return the genes section
 
     except requests.exceptions.RequestException as e:
         print(f"Error fetching KO ID {kolid}: {e}")
         return []  # Return an empty list on error
 
-def get_target_gene_codes():
+def get_target_gene_codes(TARGET_ORGANISMS_FILEPATH):
     # filter the list of genes for the appropriate organisms (if applicable)
-    organisms_df = pd.read_csv(target_organisms_filepath) 
-    ortholog_genes_df['kegg_organism_code'] = ortholog_genes_df.apply(get_organism_code_from_row, axis=1)
-    filtered_genes = ortholog_genes_df.loc[ortholog_genes_df['kegg_organism_code'].isin(organisms_df['kegg_organism_code'])]
+    organismsDf = pd.read_csv(TARGET_ORGANISMS_FILEPATH) 
+    keggCodes = organismsDf['kegg_organism_code'].tolist()
+    
+    return(keggCodes)
 
-def get_orthologs(kolid):
+def get_orthologs(kolid, TARGET_ORGANISMS_FILEPATH):
     #get the target genes
+    targetGenes = get_target_gene_codes(TARGET_ORGANISMS_FILEPATH)
 
+    #get genes from K0 id
+    get_genes_for_kolid(kolid)
+
+    #get IDs for the K0 ids
+
+
+
+    print(targetGenes)
+    return "not done yet"
 
 
 def main():
