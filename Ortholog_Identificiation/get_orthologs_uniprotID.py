@@ -49,35 +49,40 @@ def get_target_gene_codes(TARGET_ORGANISMS_FILEPATH):
     
     return(keggCodes)
 
-def get_orthologs(kolid, TARGET_ORGANISMS_FILEPATH):
+def get_similar_ids(kolid, TARGET_ORGANISMS_FILEPATH):
     #get the target genes
     targetGenes = get_target_gene_codes(TARGET_ORGANISMS_FILEPATH)
 
-    #get genes from K0 id
-    get_genes_for_kolid(kolid)
+    #get genes IDS from K0 id
+    koGenes = get_genes_for_kolid(kolid)
 
-    #get IDs for the K0 ids
+    #make sure all lowercase for comparison and change ko IDs to a set
+    koSet = set(gene.lower() for gene in koGenes)  
+    targetGenesLower = [gene.lower() for gene in targetGenes]
 
-
-
-    print(targetGenes)
-    return "not done yet"
+    return [gene for gene in targetGenes if gene in koSet]
 
 
 def main():
     """Main function to test fetching genes for a specified KO ID."""
     ko_id = 'K00973'  # Example KO ID (can change to any KO ID you want to query)
     
+    #This must be the relative file path
+    targetFilePath = "/Users/kristinbillings/Our Structure data/IonMetaboliteStructure/target_prokaryotes.csv"
+    
     # Get the genes for the specified KO ID
     genes = get_genes_for_kolid(ko_id)
     
     # Print the result (the genes associated with the KO ID)
-    if genes:
-        print(f"Genes for KO ID {ko_id}:")
-        for gene in genes:
-            print(gene)
-    else:
-        print(f"No genes found for KO ID {ko_id} or there was an error.")
+    # if genes:
+    #     print(f"Genes for KO ID {ko_id}:")
+    #     for gene in genes:
+    #         print(gene)
+    # else:
+    #     print(f"No genes found for KO ID {ko_id} or there was an error.")
+
+    mylist = get_similar_ids(ko_id, targetFilePath)
+    print(mylist)
 
 if __name__ == "__main__":
     main()
