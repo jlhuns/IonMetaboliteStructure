@@ -19,5 +19,5 @@
 # 
 #   
 # Creating a new branch
-#   checkout <userID>/nameOfBranch          takes you to that branch or creates a new branch named that
+#   git checkout -b <userID>/nameOfBranch          takes you to that branch or creates a new branch named that
 #   
