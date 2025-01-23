@@ -1,0 +1,5 @@
+#Get Orthologs from KEGG using KOID and target csv. (RETURN VALUE: ARRAY of uniprot ID)
+#Use UNIPROT ID to get uniprot Entries (CREATE FILES UNDER DATAFILES MSA UNIPROT)
+#Make a fasta file using UNIPROT ENTRIES (ADD FILE UNDER KOID MSA)
+#RUN MSA (ADD file to MSA under correct KOID)
+#Analyze MSA (binding or not, return DF )
