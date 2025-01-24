@@ -20,7 +20,7 @@ def get_genes_for_kolid(kolid):
         
         data = response.text  # Get the response text
 
-        # Check if the response contains the entry for KO ID (i.e., data contains "ENTRY")
+        # Check if the response contains the entry for KO ID (i.e., d ata contains "ENTRY")
         if "ENTRY" not in data:
             print(f"KO ID {kolid} not found.")
             return []
