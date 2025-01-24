@@ -5,9 +5,12 @@ import requests
 import re
 import pandas as pd
 from Bio.KEGG import REST
+import os
+import file_paths as FILEPATH
 
 # KEGG API base URL
 KEGG_API_BASE_URL = "http://rest.kegg.jp"
+PERSISTENCE_FILE = FILEPATH.PERSISTANCE_FILE_LOCATION + "/orthologs_uniprotID.csv"
 
 # returns an DICTIONARY of the the genes in the ortholog (K0) and their identifier number thing
 def get_genes_for_kolid(kolid):
@@ -62,6 +65,7 @@ def get_similar_gene_ids(kolid, TARGET_ORGANISMS_FILEPATH):
 
     #get genes IDS from K0 id
     koGenes = get_genes_for_kolid(kolid)
+
     koGeneIDs = koGenes.keys()
 
     #make sure all lowercase for comparison and change ko IDs to a set
@@ -70,24 +74,8 @@ def get_similar_gene_ids(kolid, TARGET_ORGANISMS_FILEPATH):
 
     return [gene for gene in targetGenesLower if gene in koSet], koGenes
 
-# def get_uniprot_ids_by_gene(gene_name):
-#     gene_response = REST.kegg_get(gene_name).read()
-#     # Regular expression pattern to match UniProt ID
-#     pattern = r'UniProt:\s+(\S+)'
-
-#     # Extracting UniProt ID using regular expression
-#     match = re.search(pattern, gene_response)
-#     if match:
-#         uniprot_id = match.group(1)
-#     else:
-#         uniprot_id = None
-
-#     # print(f'gene: {gene_name} --> uniprot_id: {uniprot_id}') # TODO: remove after testing
-#     return uniprot_id
-
 def get_uniprot_from_kegg(gene,kegg_id):
     # KEGG REST API endpoint
-    #url = f"http://rest.kegg.jp/get/{kegg_id}"
     url = f"https://rest.kegg.jp/get/{gene}:{kegg_id}"
     # Send a GET request to the endpoint
     response = requests.get(url)
@@ -106,42 +94,30 @@ def get_uniprot_from_kegg(gene,kegg_id):
 
 #returns an ARRAY of unipro IDs
 def get_uniprot_ids(koID, TARGET_FILEPATH):
+    if os.path.exists(PERSISTENCE_FILE):
+        kegg_entry_df = pd.read_csv(PERSISTENCE_FILE, index_col="gene")
+    else:
+        # DataFrame with UniProtID as the index for fast lookups
+        kegg_entry_df = pd.DataFrame(columns=["gene","gene_identifier", "UniprotID"]).set_index("gene")
+
     similarGenes, dictIdAndIdentifier = get_similar_gene_ids(koID,TARGET_FILEPATH)
+
 
     orthologKOIDs = []
 
     for gene in similarGenes:
-        #gene = gene.upper()
-        id = get_uniprot_from_kegg(gene, dictIdAndIdentifier[gene.upper()])
-       
-        if not id.startswith("Error"):
-            orthologKOIDs.append(id)
+        if gene in kegg_entry_df.index:
+            uniprotID = kegg_entry_df.loc[gene, "UniprotID"]
+            if not uniprotID.startswith("Error"):
+                print(uniprotID)
+                orthologKOIDs.append(uniprotID)
+        else:
+            gene_identifier = dictIdAndIdentifier[gene.upper()]
+            id = get_uniprot_from_kegg(gene, gene_identifier)
+            kegg_entry_df.loc[gene] = {"gene_identifier": gene_identifier, "UniprotID": id}
         
+            if not id.startswith("Error"):
+                orthologKOIDs.append(id)
+    
+    kegg_entry_df.to_csv(PERSISTENCE_FILE)        
     return orthologKOIDs
-
-def main():
-    """Main function to test fetching genes for a specified KO ID."""
-    ko_id = 'K00973'  # Example KO ID (can change to any KO ID you want to query)
-    
-    #This must be the relative file path
-    targetFilePath = "/Users/kristinbillings/Our Structure data/IonMetaboliteStructure/target_prokaryotes.csv"
-    
-    # Get the genes for the specified KO ID
-    genes = get_genes_for_kolid(ko_id)
-    
-    # Print the result (the genes associated with the KO ID)
-    # if genes:
-    #     print(f"Genes for KO ID {ko_id}:")
-    #     for gene in genes:
-    #         print(gene)
-    # else:
-    #     print(f"No genes found for KO ID {ko_id} or there was an error.")
-
-    #mylist, yes = get_similar_gene_ids(ko_id, targetFilePath)
-    #print(mylist)
-    yeet = get_uniprot_ids(ko_id, targetFilePath)
-    print(yeet)
-
-if __name__ == "__main__":
-    main()
-

@@ -52,9 +52,3 @@ def create_uniprot_entires(uniprotIDs: List[str], KOID: str, targetOrganism: str
             uniprot_entry_df.loc[uniprotID] = relative_file_path
 
     uniprot_entry_df.to_csv(PERSISTENCE_FILE)
-
-if __name__ == "__main__":
-    uniprots = ["P37779"]
-    KOID = "test KOID"
-    target_organism = "test_organism2"
-    create_uniprot_entires(uniprots, KOID, target_organism)
