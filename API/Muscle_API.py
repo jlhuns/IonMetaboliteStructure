@@ -68,61 +68,14 @@ def get_results(job_id, result_type):
         return response.text  # Returns the result data
     else:
         return f'Error: {response.status_code}'
- 
-    #MOVE LATER
-def readDirectoryContents(folder_path):
-    fileList = os.listdir(folder_path)
-    sequences = ""
-    for fileName in fileList:
-        filePath = os.path.join(folder_path, fileName)
-        with open(filePath, 'r', encoding="utf-8") as inF:
-            sequences += inF.read()
-            sequences += "\n"
-    return sequences
 
+#USE INSTEAD OF CHECK_JOB_STATUS to prevent ERRORS!
 def checkStatus(jobID):
     keepChecking = True
     while keepChecking:
-        time.sleep(5)
+        time.sleep(2)
         status = check_job_status(jobID)
         if status == "FINISHED":
             keepChecking = False
         else:
             print("Waiting for results...")
-
-
-# Example usage
-if __name__ == '__main__':
-    # Step 1: Get parameters
-    print('Getting available parameters...')
-    parameters = get_parameters()
-    print(parameters)
-
-    print("checking a parameter description")
-    description = get_parameter_details('sequence')
-    print(description)
-    
-    folderPath = r"C:\Users\joshu\Desktop\Structure Research\IonMetaboliteStructure\DataFiles\target_prokaryotes\K00973\UniProt_Entries"
-
-    sequence = readDirectoryContents(folderPath)
-
-    # Step 2: Submit a job (replace with actual input data)
-    print('Submitting job...')
-    job_id = submit_job("joshua.l.hunsaker@gmail.com", "test", sequence)
-    print(job_id)
-    
-    # Step 3: Check job status (replace with actual job ID)
-    print('Checking job status...')
-    job_status = checkStatus(job_id)
-    print(job_status)
-    
-    # Step 4: Get result types (replace with actual job ID)
-    print('Getting result types...')
-    result_types = get_result_types(job_id)
-    print(result_types)
-    
-    # Step 5: Get results (replace with actual result type)
-    result_type = 'aln-clustalw'  # Replace with actual result type
-    print('Getting results...')
-    results = get_results(job_id, result_type)
-    print(results)
