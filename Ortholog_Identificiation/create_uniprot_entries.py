@@ -4,7 +4,6 @@ import file_paths as FILEPATH
 import os
 import pandas as pd
 import shutil
-#To test run in root directory use python -m Ortholog_Identificiation.create_uniprot_entries
 
 PERSISTENCE_FILE = FILEPATH.PERSISTANCE_FILE_LOCATION + "/uniprot_entry_file_locations.csv"
 
@@ -21,14 +20,14 @@ def create_uniprot_entires(uniprotIDs: List[str], KOID: str, targetOrganism: str
     for uniprotID in uniprotIDs:
         if uniprotID in uniprot_entry_df.index:
             # If UniProt ID already exists, print its location
-            print(f"UniProt ID {uniprotID} already exists at: {uniprot_entry_df.loc[uniprotID, 'File_Location']}")
+            # print(f"UniProt ID {uniprotID} already exists at: {uniprot_entry_df.loc[uniprotID, 'File_Location']}")
             sourcePath = uniprot_entry_df.loc[uniprotID, "File_Location"]
             destinationPath = FILEPATH.GET_KOID_UNIPROT_ENTRYS_PATH(KOID, targetOrganism)
 
             #Check if the same file exsists in the current folder
             try:
                 os.path.samefile(sourcePath, destinationPath + "\\" + uniprotID + ".txt")
-                print(f"Source and destination are the same, skipping copy: {sourcePath}")
+                # print(f"Source and destination are the same, skipping copy: {sourcePath}")
                 continue
             except Exception as e:
                 print("")

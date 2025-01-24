@@ -109,7 +109,6 @@ def get_uniprot_ids(koID, TARGET_FILEPATH):
         if gene in kegg_entry_df.index:
             uniprotID = kegg_entry_df.loc[gene, "UniprotID"]
             if not uniprotID.startswith("Error"):
-                print(uniprotID)
                 orthologKOIDs.append(uniprotID)
         else:
             gene_identifier = dictIdAndIdentifier[gene.upper()]
