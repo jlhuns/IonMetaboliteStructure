@@ -105,7 +105,7 @@ def get_uniprot_from_kegg(gene,kegg_id):
         return f"Error: {response.status_code} - Unable to retrieve data"
 
 #returns an ARRAY of unipro IDs
-def get_unipro_ids(koID, TARGET_FILEPATH):
+def get_uniprot_ids(koID, TARGET_FILEPATH):
     similarGenes, dictIdAndIdentifier = get_similar_gene_ids(koID,TARGET_FILEPATH)
 
     orthologKOIDs = []
@@ -139,7 +139,7 @@ def main():
 
     #mylist, yes = get_similar_gene_ids(ko_id, targetFilePath)
     #print(mylist)
-    yeet = get_unipro_ids(ko_id, targetFilePath)
+    yeet = get_uniprot_ids(ko_id, targetFilePath)
     print(yeet)
 
 if __name__ == "__main__":
