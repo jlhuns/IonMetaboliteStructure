@@ -8,7 +8,6 @@ PERSISTANCE_FILE_LOCATION = os.path.join(HOME_DIRECTORY, "Persistance_Files")
 def GET_RELATIVE_PATH(FILE_PATH: str, start = os.getcwd()) -> str:
     return os.path.relpath(FILE_PATH, start)
 
-
 def CHECK_FOLDER_EXISTS(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
@@ -32,13 +31,24 @@ def GET_KOID_MSA_PATH(KOID: str, targetOrganism: str) -> str:
     CHECK_FOLDER_EXISTS(folder_path)
     return folder_path
 
-def GET_KOID_UNIPROT_ENTRYS_PATH(KOID: str, targetOrganism: str) -> str:
+def GET_KOID_UNIPROT_ENTRIES_PATH(KOID: str, targetOrganism: str) -> str:
     folder_path = os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "UniProt_Entries")
     CHECK_FOLDER_EXISTS(folder_path)
     return folder_path
 
 def GET_UNPROT_ENTRY_FILE_PATH(KOID: str, UniprotID: str, type: str, targetOrganism: str) -> str:
-    return os.path.join(GET_KOID_UNIPROT_ENTRYS_PATH(KOID, targetOrganism), UniprotID) + type
+    return os.path.join(GET_KOID_UNIPROT_ENTRIES_PATH(KOID, targetOrganism), UniprotID) + type
 
 def CHECK_PATH_EXISTS(file_path: str) -> bool:
     return os.path.exists(file_path)
+
+#Concatenates all files from a specified folder
+def readDirectoryContents(folder_path):
+    fileList = os.listdir(folder_path)
+    data = ""
+    for fileName in fileList:
+        filePath = os.path.join(folder_path, fileName)
+        with open(filePath, 'r', encoding="utf-8") as inF:
+            data += inF.read()
+            data += "\n"
+    return data

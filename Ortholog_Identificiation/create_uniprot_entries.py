@@ -20,9 +20,8 @@ def create_uniprot_entires(uniprotIDs: List[str], KOID: str, targetOrganism: str
     for uniprotID in uniprotIDs:
         if uniprotID in uniprot_entry_df.index:
             # If UniProt ID already exists, print its location
-            # print(f"UniProt ID {uniprotID} already exists at: {uniprot_entry_df.loc[uniprotID, 'File_Location']}")
             sourcePath = uniprot_entry_df.loc[uniprotID, "File_Location"]
-            destinationPath = FILEPATH.GET_KOID_UNIPROT_ENTRYS_PATH(KOID, targetOrganism)
+            destinationPath = FILEPATH.GET_KOID_UNIPROT_ENTRIES_PATH(KOID, targetOrganism)
 
             #Check if the same file exsists in the current folder
             try:
@@ -44,7 +43,7 @@ def create_uniprot_entires(uniprotIDs: List[str], KOID: str, targetOrganism: str
             if(FILEPATH.CHECK_PATH_EXISTS(filePath)):
                 print("File exsits: ", filePath)
             else:
-                Uniprot_API.fetch_uniprot_file(uniprotID, FILEPATH.GET_KOID_UNIPROT_ENTRYS_PATH(KOID, targetOrganism), "txt")
+                Uniprot_API.fetch_uniprot_file(uniprotID, FILEPATH.GET_KOID_UNIPROT_ENTRIES_PATH(KOID, targetOrganism), "txt")
 
             # Add the new entry to the DataFrame
             relative_file_path = FILEPATH.GET_RELATIVE_PATH(filePath)

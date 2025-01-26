@@ -28,13 +28,12 @@ def get_parameter_details(parameter):
         return f'Error: {response.status_code}'
 
 #Returns Job_ID
-def submit_job(email, title, sequence, parameters = None)-> str:
+def submit_job(email, title, sequence)-> str:
     url = f'{BASE_URL}/run'
     data = {
         'email': email,
         'title': title,
         'sequence': sequence,
-        # 'parameters': parameters  # Replace with actual parameters
     }
     response = requests.post(url, data=data) 
     if response.status_code == 200:
@@ -73,7 +72,7 @@ def get_results(job_id, result_type):
 def checkStatus(jobID):
     keepChecking = True
     while keepChecking:
-        time.sleep(2)
+        time.sleep(1)
         status = check_job_status(jobID)
         if status == "FINISHED":
             keepChecking = False
