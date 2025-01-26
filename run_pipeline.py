@@ -5,9 +5,12 @@
 #Analyze MSA (binding or not, return DF )
 
 from Ortholog_Identificiation import create_uniprot_entries, get_orthologs_uniprotID
+from MSA import run_msa
 
 
 
 if __name__ == "__main__":
     uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids("K00973", "target_prokaryotes.csv")
     create_uniprot_entries.create_uniprot_entires(uniprot_ids, "K00973", "target_prokaryotes.csv")
+    run_msa.create_msa_file("K00973", "target_prokaryotes.csv")
+

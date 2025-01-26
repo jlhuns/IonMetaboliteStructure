@@ -17,7 +17,7 @@ def create_msa_file(KOID: str, targetOrganism: str):
 
     filePath = os.path.join(FILEPATH.GET_KOID_MSA_PATH(KOID, targetOrganism), f"{KOID}_MSA_Results.aln")
     if FILEPATH.CHECK_PATH_EXISTS(filePath):
-        print(f"File aready exists at: {filePath}")
+        print(f"MSA File aready exists at: {filePath}")
     else:
         jobID = Muscle_API.submit_job(inputData.get("email"), inputData.get("title"), inputData.get("data"))
         Muscle_API.checkStatus(jobID)
