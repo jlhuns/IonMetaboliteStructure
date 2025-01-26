@@ -27,14 +27,3 @@ def create_msa_file(KOID: str, targetOrganism: str):
         with open(filePath, 'w') as file:
             file.write(response)
         file.close()
-
-    
-
-
-
-
-
-if __name__ == "__main__":
-    create_msa_file("K00973", "target_prokaryotes.csv")
-    
-    
