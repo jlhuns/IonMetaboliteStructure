@@ -6,11 +6,19 @@
 
 from Ortholog_Identificiation import create_uniprot_entries, get_orthologs_uniprotID
 from MSA import run_msa
+import time
 
 
 
 if __name__ == "__main__":
-    uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids("K00973", "target_prokaryotes.csv")
-    create_uniprot_entries.create_uniprot_entires(uniprot_ids, "K00973", "target_prokaryotes.csv")
-    run_msa.create_msa_file("K00973", "target_prokaryotes.csv")
+    start_time = time.time()
+    
+    uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids("K00937", "target_bacteria.csv")
+    create_uniprot_entries.create_uniprot_entires(uniprot_ids, "K00937", "target_bacteria.csv")
+    run_msa.create_msa_file("K00937", "target_bacteria.csv")
+
+    
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"The program ran for {elapsed_time:.6f} seconds.")
 
