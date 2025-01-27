@@ -51,8 +51,8 @@ def read_uniprot_file_to_analyze_active_sites(directory, filename):
                         # Process the current FT line (active site or binding site)
                         if entry[1] == act_str:
                             position = convert_uniprot_data_to_position(entry)
-                            if isinstance(position, list):
-                                print(position[0], position[-1])
+                            # if isinstance(position, list):
+                            #     print(position[0], position[-1])
                             data.append({
                                 "UniProt_ID": uniProt_ID,
                                 "Type": act_str,
@@ -143,4 +143,4 @@ def Create_Analysis_DF(KOID: str, targetOrganism: str):
     final_dataframe = pd.concat(dataFrames, ignore_index=True)
 
     ActiveSitesDF = FindActiveSitesInMSA(final_dataframe, PATH_TO_MSA_FILE)
-    print(ActiveSitesDF.to_string())
+    ActiveSitesDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, targetOrganism), "ActiveSitesDF"))
