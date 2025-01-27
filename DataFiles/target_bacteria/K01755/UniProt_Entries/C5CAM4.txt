@@ -1,0 +1,124 @@
+ID   C5CAM4_MICLC            Unreviewed;       486 AA.
+AC   C5CAM4;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   27-NOV-2024, entry version 91.
+DE   RecName: Full=Argininosuccinate lyase {ECO:0000256|ARBA:ARBA00012338, ECO:0000256|HAMAP-Rule:MF_00006};
+DE            Short=ASAL {ECO:0000256|HAMAP-Rule:MF_00006};
+DE            EC=4.3.2.1 {ECO:0000256|ARBA:ARBA00012338, ECO:0000256|HAMAP-Rule:MF_00006};
+DE   AltName: Full=Arginosuccinase {ECO:0000256|HAMAP-Rule:MF_00006};
+GN   Name=argH {ECO:0000256|HAMAP-Rule:MF_00006,
+GN   ECO:0000313|EMBL:SQG47350.1};
+GN   OrderedLocusNames=Mlut_14330 {ECO:0000313|EMBL:ACS30928.1};
+GN   ORFNames=NCTC2665_00109 {ECO:0000313|EMBL:SQG47350.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Actinomycetota; Actinomycetes; Micrococcales; Micrococcaceae;
+OC   Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30928.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30928.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30928.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG47350.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG47350.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(N(omega)-L-arginino)succinate = fumarate + L-arginine;
+CC         Xref=Rhea:RHEA:24020, ChEBI:CHEBI:29806, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:57472; EC=4.3.2.1; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00006};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 3/3.
+CC       {ECO:0000256|ARBA:ARBA00004941, ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   -!- SIMILARITY: Belongs to the lyase 1 family. Argininosuccinate lyase
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30928.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG47350.1; -; Genomic_DNA.
+DR   RefSeq; WP_012750941.1; NZ_WBMF01000050.1.
+DR   AlphaFoldDB; C5CAM4; -.
+DR   STRING; 465515.Mlut_14330; -.
+DR   EnsemblBacteria; ACS30928; ACS30928; Mlut_14330.
+DR   KEGG; mlu:Mlut_14330; -.
+DR   PATRIC; fig|465515.4.peg.1369; -.
+DR   eggNOG; COG0165; Bacteria.
+DR   HOGENOM; CLU_027272_2_2_11; -.
+DR   UniPathway; UPA00068; UER00114.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004056; F:argininosuccinate lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:UniProtKB-UniRule.
+DR   CDD; cd01359; Argininosuccinate_lyase; 1.
+DR   FunFam; 1.10.40.30:FF:000001; Argininosuccinate lyase; 1.
+DR   FunFam; 1.20.200.10:FF:000015; argininosuccinate lyase isoform X2; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   HAMAP; MF_00006; Arg_succ_lyase; 1.
+DR   InterPro; IPR029419; Arg_succ_lyase_C.
+DR   InterPro; IPR009049; Argininosuccinate_lyase.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   NCBIfam; TIGR00838; argH; 1.
+DR   PANTHER; PTHR43814; ARGININOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR43814:SF1; ARGININOSUCCINATE LYASE; 1.
+DR   Pfam; PF14698; ASL_C2; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00145; ARGSUCLYASE.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00006};
+KW   Arginine biosynthesis {ECO:0000256|ARBA:ARBA00022571, ECO:0000256|HAMAP-
+KW   Rule:MF_00006}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00006};
+KW   Lyase {ECO:0000256|HAMAP-Rule:MF_00006, ECO:0000313|EMBL:ACS30928.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          19..314
+FT                   /note="Fumarate lyase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00206"
+FT   DOMAIN          377..444
+FT                   /note="Argininosuccinate lyase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF14698"
+SQ   SEQUENCE   486 AA;  51926 MW;  688034F28670D515 CRC64;
+     MTENTDARHG TNEGALWGGR FAGGPSEALA ALSKSTHFDW RLAPYDIAGS RAHARVLHTA
+     GLLSADDLDG MIAALDRLEA DVRSGAFTPA ASDEDVHGSL ERGLIERAGP ELGGRLRAGR
+     SRNDQVATLG RMFLRDHARI IAQGVIATVD ALLDQARARP YAPMPGRTHL QHAQPVLLSH
+     HLLAHAWAFA RDLQRLADWD ARAAVSPYGS GALAGSSLGL DPNAVAAELG FESAVWNSID
+     GTAARDVYAE FAWVAAMVGV DLSRISEEVI FWATKEAGFV RLHDAYSTGS SIMPQKKNPD
+     VAELARGKSG RLIGDLTGLL ATLKGMPLAY NRDLQEDKEP VFDAADTLEL LLPAVYGMIA
+     TLEFQTERMA ELAPQGFALA TDVAEWLVRQ GVPFREAHEL SGEAVKAAEA RGVELWDLTD
+     EEYAAISPAL TPQVREVLST EGSLASRDAQ GGTAPTAVAV QIGALEDALE PLRRWADTPG
+     SVVDAR
+//

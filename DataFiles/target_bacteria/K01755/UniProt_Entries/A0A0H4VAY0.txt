@@ -1,0 +1,102 @@
+ID   A0A0H4VAY0_9SPHN        Unreviewed;       458 AA.
+AC   A0A0H4VAY0;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   27-NOV-2024, entry version 36.
+DE   RecName: Full=Argininosuccinate lyase {ECO:0000256|ARBA:ARBA00012338, ECO:0000256|HAMAP-Rule:MF_00006};
+DE            Short=ASAL {ECO:0000256|HAMAP-Rule:MF_00006};
+DE            EC=4.3.2.1 {ECO:0000256|ARBA:ARBA00012338, ECO:0000256|HAMAP-Rule:MF_00006};
+DE   AltName: Full=Arginosuccinase {ECO:0000256|HAMAP-Rule:MF_00006};
+GN   Name=argH {ECO:0000256|HAMAP-Rule:MF_00006};
+GN   ORFNames=CP97_06520 {ECO:0000313|EMBL:AKQ41747.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41747.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41747.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(N(omega)-L-arginino)succinate = fumarate + L-arginine;
+CC         Xref=Rhea:RHEA:24020, ChEBI:CHEBI:29806, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:57472; EC=4.3.2.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000985, ECO:0000256|HAMAP-
+CC         Rule:MF_00006};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 3/3.
+CC       {ECO:0000256|ARBA:ARBA00004941, ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   -!- SIMILARITY: Belongs to the lyase 1 family. Argininosuccinate lyase
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41747.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885264.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VAY0; -.
+DR   STRING; 1648404.CP97_06520; -.
+DR   KEGG; ery:CP97_06520; -.
+DR   PATRIC; fig|1648404.4.peg.1361; -.
+DR   OrthoDB; 9769623at2; -.
+DR   UniPathway; UPA00068; UER00114.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004056; F:argininosuccinate lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:UniProtKB-UniRule.
+DR   CDD; cd01359; Argininosuccinate_lyase; 1.
+DR   FunFam; 1.10.40.30:FF:000001; Argininosuccinate lyase; 1.
+DR   FunFam; 1.20.200.10:FF:000015; argininosuccinate lyase isoform X2; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   HAMAP; MF_00006; Arg_succ_lyase; 1.
+DR   InterPro; IPR029419; Arg_succ_lyase_C.
+DR   InterPro; IPR009049; Argininosuccinate_lyase.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   NCBIfam; TIGR00838; argH; 1.
+DR   PANTHER; PTHR43814; ARGININOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR43814:SF1; ARGININOSUCCINATE LYASE; 1.
+DR   Pfam; PF14698; ASL_C2; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00145; ARGSUCLYASE.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00006};
+KW   Arginine biosynthesis {ECO:0000256|ARBA:ARBA00022571, ECO:0000256|HAMAP-
+KW   Rule:MF_00006}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00006};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00006};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          4..298
+FT                   /note="Fumarate lyase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00206"
+FT   DOMAIN          361..430
+FT                   /note="Argininosuccinate lyase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF14698"
+SQ   SEQUENCE   458 AA;  49667 MW;  B5D3F354151C65A0 CRC64;
+     MWGGRFAEGP SAIMREINAS IPFDKALWRQ DIAASKAHVA MLAACDIVSD DDAGTIIGGL
+     ETIASEYDTD GVPEDWDLED IHMTTEARLA ELVGPVAGRL HTARSRNDQV ATDFRLWVRD
+     TCDAMIDGLK GLQRALVSRA GEHAASIMPG FTHLQTAQPV TMGHHLMAYY EMAARDISRL
+     EDARRRLNQC PLGSAALAGT GFPIDREMTA QALGFDVPTA NSLDSVSDRD FALDFLGAAS
+     QCALHLSRLA EEMVIWASQP FGFIRMPDTL STGSSIMPQK KNPDAAELVR GHTGRIVGCQ
+     MSLMMTMKGL PLAYSKDMQD DKPPVFEAAH LLQLCIAAMT GMVDGAEFRT GRMREAAELG
+     YATATDLADW LVREADIPFR EAHHITGAAV KLAESRGQSL EALSLDDLTA IDARIDERVY
+     RALSVEASVA ARNSHGGTAP DEVNKRVAEA RKALGMKE
+//

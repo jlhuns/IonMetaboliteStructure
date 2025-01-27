@@ -1,0 +1,118 @@
+ID   ODO1_BACCR              Reviewed;         955 AA.
+AC   Q81GF2;
+DT   24-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 113.
+DE   RecName: Full=2-oxoglutarate dehydrogenase E1 component {ECO:0000255|HAMAP-Rule:MF_01169};
+DE            EC=1.2.4.2 {ECO:0000255|HAMAP-Rule:MF_01169};
+DE   AltName: Full=Alpha-ketoglutarate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01169};
+GN   Name=odhA {ECO:0000255|HAMAP-Rule:MF_01169};
+GN   OrderedLocusNames=BC_1252;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: E1 component of the 2-oxoglutarate dehydrogenase (OGDH)
+CC       complex which catalyzes the decarboxylation of 2-oxoglutarate, the
+CC       first step in the conversion of 2-oxoglutarate to succinyl-CoA and
+CC       CO(2). {ECO:0000255|HAMAP-Rule:MF_01169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-[(R)-lipoyl]-L-lysyl-[dihydrolipoyllysine-residue
+CC         succinyltransferase] + 2-oxoglutarate + H(+) = N(6)-[(R)-S(8)-
+CC         succinyldihydrolipoyl]-L-lysyl-[dihydrolipoyllysine-residue
+CC         succinyltransferase] + CO2; Xref=Rhea:RHEA:12188, Rhea:RHEA-
+CC         COMP:10483, Rhea:RHEA-COMP:10484, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83120; EC=1.2.4.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01169};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01169};
+CC   -!- SUBUNIT: Homodimer. Part of the 2-oxoglutarate dehydrogenase (OGDH)
+CC       complex composed of E1 (2-oxoglutarate dehydrogenase), E2
+CC       (dihydrolipoamide succinyltransferase) and E3 (dihydrolipoamide
+CC       dehydrogenase); the complex contains multiple copies of the three
+CC       enzymatic components (E1, E2 and E3). {ECO:0000255|HAMAP-
+CC       Rule:MF_01169}.
+CC   -!- SIMILARITY: Belongs to the alpha-ketoglutarate dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01169}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08237.1; -; Genomic_DNA.
+DR   RefSeq; NP_831036.1; NC_004722.1.
+DR   RefSeq; WP_000197160.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GF2; -.
+DR   SMR; Q81GF2; -.
+DR   STRING; 226900.BC_1252; -.
+DR   KEGG; bce:BC1252; -.
+DR   PATRIC; fig|226900.8.peg.1225; -.
+DR   HOGENOM; CLU_004709_1_0_9; -.
+DR   OrthoDB; 9759785at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0045252; C:oxoglutarate dehydrogenase complex; IBA:GO_Central.
+DR   GO; GO:0004591; F:oxoglutarate dehydrogenase (succinyl-transferring) activity; IBA:GO_Central.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IBA:GO_Central.
+DR   CDD; cd02016; TPP_E1_OGDC_like; 1.
+DR   FunFam; 3.40.50.11610:FF:000002; 2-oxoglutarate dehydrogenase E1 component; 1.
+DR   FunFam; 3.40.50.970:FF:000036; 2-oxoglutarate dehydrogenase E1 component; 1.
+DR   Gene3D; 3.40.50.12470; -; 1.
+DR   Gene3D; 3.40.50.970; -; 1.
+DR   Gene3D; 3.40.50.11610; Multifunctional 2-oxoglutarate metabolism enzyme, C-terminal domain; 1.
+DR   HAMAP; MF_01169; SucA_OdhA; 1.
+DR   InterPro; IPR011603; 2oxoglutarate_DH_E1.
+DR   InterPro; IPR023784; 2oxoglutarate_DH_E1_bac.
+DR   InterPro; IPR001017; DH_E1.
+DR   InterPro; IPR042179; KGD_C_sf.
+DR   InterPro; IPR031717; ODO-1/KGD_C.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   NCBIfam; TIGR00239; 2oxo_dh_E1; 1.
+DR   PANTHER; PTHR23152:SF4; 2-OXOADIPATE DEHYDROGENASE COMPLEX COMPONENT E1; 1.
+DR   PANTHER; PTHR23152; 2-OXOGLUTARATE DEHYDROGENASE; 1.
+DR   Pfam; PF00676; E1_dh; 1.
+DR   Pfam; PF16870; OxoGdeHyase_C; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   PIRSF; PIRSF000157; Oxoglu_dh_E1; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+PE   3: Inferred from homology;
+KW   Glycolysis; Oxidoreductase; Reference proteome; Thiamine pyrophosphate.
+FT   CHAIN           1..955
+FT                   /note="2-oxoglutarate dehydrogenase E1 component"
+FT                   /id="PRO_0000162163"
+SQ   SEQUENCE   955 AA;  106412 MW;  99F267C26CA28433 CRC64;
+     MTRKNTTTNP WAKFHGPNLG YVIEQYDLYV TGAGSVDPEL QELFEIFGAP SFQDDVVTGD
+     NTATHFSPQN TGNIEKILKV VQLVEQIRSF GHTLAHINPM EDAANGQSLL EKAMSELSDA
+     DLKAIPAKTV WQDAPEGIHT ALDVIHRLKD VYTKSLAYEF SHIQDSEERA WLHQMVESNS
+     LRQPLSNKKR TALLKRLTAV EGFEQFLHKT FVGQKRFSIE GVDMLVPVLD EIVLEGAKNG
+     VEDVMIGMAH RGRLSVLAHV LEKPYSHMFA EFKHAKIEGA VANSGWTGDV KYHLGREQVV
+     SNEEVSTRVT LANNPSHLEF VNPVVEGFAR AAQENRKKSG LPDQDTSKSF VILVHGDAAF
+     PGQGIVSETL NLSRLNAYQT GGTIHVIANN AVGFTTDSYD SRSTKYSSDL AKGFDIPIVH
+     VNADDPEACL AAANLAIQYR MLFKKDFLID LIGYRRYGHN EMDDPAVTQP QVYKKIKNHP
+     TVRAIYADQL QAAGVLNADE VETITQFTQE QLKSDYAQVP PADTSDATIH VKVPDVVAKG
+     IQPIDTGVEI DSLRAINEGL LSWPEGFNVY PKVKKILERR KDALEENGKI EWALAESLAF
+     ASILQEGTPI RLTGQDSQRG TFAHRHIVLH DTDTNETYSP LHRLPNINAS FSVHNSPLSE
+     AAVVGYEYGY NVFAPETLVM WEAQYGDFSN TAQALFDQYV SAGRAKWGQK SGLVLLLPHG
+     YEGQGPEHSS ARPERFLQLA AENNWTVANL TSAAQYFHIL RRQASILGTE AVRPLVLMTP
+     KSLLRHPLTL STASQLSEGR FQPALEQENL GMKPNKVKRL VLSTGKMAID LAAEIESGKH
+     EYNLDEVHVV RIEQLYPFPA EKVQSIIKRF KNLEEIIWVQ EEPRNMGAWH YMAPILFELA
+     GDKVKTGYIG RPDRSSPSGG DPFAHKAEQE LIVAHALDVK YNFRQDKQEI EVYSN
+//

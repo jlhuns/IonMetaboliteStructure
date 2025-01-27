@@ -1,0 +1,137 @@
+ID   Q6N0N3_RHOPA            Unreviewed;       327 AA.
+AC   Q6N0N3;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 131.
+DE   RecName: Full=Arginase {ECO:0000256|ARBA:ARBA00018123, ECO:0000256|RuleBase:RU361159};
+DE            EC=3.5.3.1 {ECO:0000256|ARBA:ARBA00012168, ECO:0000256|RuleBase:RU361159};
+GN   Name=rocF {ECO:0000313|EMBL:CAE30169.1};
+GN   OrderedLocusNames=RPA4729 {ECO:0000313|EMBL:CAE30169.1};
+GN   ORFNames=TX73_024575 {ECO:0000313|EMBL:WCL94935.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE30169.1};
+RN   [1] {ECO:0000313|EMBL:WCL94935.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94935.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE30169.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE30169.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94935.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94935.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-arginine + H2O = urea + L-ornithine; Xref=Rhea:RHEA:20569,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16199, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:46911; EC=3.5.3.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000227,
+CC         ECO:0000256|RuleBase:RU361159};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR036979-1,
+CC         ECO:0000256|RuleBase:RU361159};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR036979-1, ECO:0000256|RuleBase:RU361159};
+CC   -!- PATHWAY: Nitrogen metabolism; urea cycle; L-ornithine and urea from L-
+CC       arginine: step 1/1. {ECO:0000256|ARBA:ARBA00005098}.
+CC   -!- SIMILARITY: Belongs to the arginase family. {ECO:0000256|PROSITE-
+CC       ProRule:PRU00742, ECO:0000256|RuleBase:RU003684}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572608; CAE30169.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94935.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160261.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4729; -.
+DR   GeneID; 66895888; -.
+DR   KEGG; rpa:TX73_024575; -.
+DR   eggNOG; COG0010; Bacteria.
+DR   HOGENOM; CLU_039478_6_2_5; -.
+DR   PhylomeDB; Q6N0N3; -.
+DR   UniPathway; UPA00158; UER00270.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004053; F:arginase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:TreeGrafter.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:TreeGrafter.
+DR   GO; GO:0000050; P:urea cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd09989; Arginase; 1.
+DR   FunFam; 3.40.800.10:FF:000012; Arginase; 1.
+DR   Gene3D; 3.40.800.10; Ureohydrolase domain; 1.
+DR   InterPro; IPR014033; Arginase.
+DR   InterPro; IPR006035; Ureohydrolase.
+DR   InterPro; IPR023696; Ureohydrolase_dom_sf.
+DR   InterPro; IPR020855; Ureohydrolase_Mn_BS.
+DR   NCBIfam; TIGR01229; rocF_arginase; 1.
+DR   PANTHER; PTHR43782; ARGINASE; 1.
+DR   PANTHER; PTHR43782:SF3; ARGINASE; 1.
+DR   Pfam; PF00491; Arginase; 1.
+DR   PIRSF; PIRSF036979; Arginase; 2.
+DR   PRINTS; PR00116; ARGINASE.
+DR   SUPFAM; SSF52768; Arginase/deacetylase; 1.
+DR   PROSITE; PS01053; ARGINASE_1; 1.
+DR   PROSITE; PS51409; ARGINASE_2; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism {ECO:0000256|ARBA:ARBA00022503,
+KW   ECO:0000256|RuleBase:RU361159};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003684};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   BINDING         110
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         137
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         139
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         141
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         241
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         243
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+SQ   SEQUENCE   327 AA;  34835 MW;  8253F3342194759A CRC64;
+     MSQTDIAHSE SARRVALLGV PIEIGAGLRG TLMGPAALRT AGIGRVLDQL GFAVEDHGDM
+     TRPALDGGND PVPANANYYS EVRSWVGAIS ARAYELARSG AVPLFMGGDH SLSMGSVNGV
+     ARYWQSEGKP LFVLWLDAHA DYNTPATTLT ANMHGMSAAF LCGEPGLDDL LGDEPRVSIP
+     PSRLDLFGIR SIDPLEKDLV RQRAIPVVDM RAIDEFGVGV LIRRVIDRVR AAGGVLHLSF
+     DVDVLDPSVA PGVGTTVPGG ATYREAHLVM ELLHDSGLVR SVDIVELNPF LDERGRTARV
+     AVELLGSLFG MQITDRVTPS NAVLPEG
+//

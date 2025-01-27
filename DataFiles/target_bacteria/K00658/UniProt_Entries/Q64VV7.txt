@@ -1,0 +1,92 @@
+ID   Q64VV7_BACFR            Unreviewed;       455 AA.
+AC   Q64VV7;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 111.
+DE   RecName: Full=Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex {ECO:0000256|RuleBase:RU003423};
+DE            EC=2.3.1.- {ECO:0000256|RuleBase:RU003423};
+GN   OrderedLocusNames=BF1621 {ECO:0000313|EMBL:BAD48369.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD48369.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD48369.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD48369.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001938,
+CC         ECO:0000256|RuleBase:RU003423};
+CC   -!- SIMILARITY: Belongs to the 2-oxoacid dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00007317, ECO:0000256|RuleBase:RU003423}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD48369.1; -; Genomic_DNA.
+DR   RefSeq; WP_009291985.1; NC_006347.1.
+DR   RefSeq; YP_098903.1; NC_006347.1.
+DR   AlphaFoldDB; Q64VV7; -.
+DR   STRING; 295405.BF1621; -.
+DR   KEGG; bfr:BF1621; -.
+DR   PATRIC; fig|295405.11.peg.1575; -.
+DR   HOGENOM; CLU_016733_10_1_10; -.
+DR   OrthoDB; 9805770at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProt.
+DR   GO; GO:0016407; F:acetyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0031405; F:lipoic acid binding; IEA:TreeGrafter.
+DR   CDD; cd06849; lipoyl_domain; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   Gene3D; 3.30.559.10; Chloramphenicol acetyltransferase-like domain; 1.
+DR   Gene3D; 4.10.320.10; E3-binding domain; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR001078; 2-oxoacid_DH_actylTfrase.
+DR   InterPro; IPR050743; 2-oxoacid_DH_E2_comp.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR023213; CAT-like_dom_sf.
+DR   InterPro; IPR036625; E3-bd_dom_sf.
+DR   InterPro; IPR004167; PSBD.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   PANTHER; PTHR43178; DIHYDROLIPOAMIDE ACETYLTRANSFERASE COMPONENT OF PYRUVATE DEHYDROGENASE COMPLEX; 1.
+DR   PANTHER; PTHR43178:SF5; LIPOAMIDE ACYLTRANSFERASE COMPONENT OF BRANCHED-CHAIN ALPHA-KETO ACID DEHYDROGENASE COMPLEX, MITOCHONDRIAL; 1.
+DR   Pfam; PF00198; 2-oxoacid_dh; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF02817; E3_binding; 1.
+DR   SUPFAM; SSF52777; CoA-dependent acyltransferases; 1.
+DR   SUPFAM; SSF47005; Peripheral subunit-binding domain of 2-oxo acid dehydrogenase complex; 1.
+DR   SUPFAM; SSF51230; Single hybrid motif; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+DR   PROSITE; PS51826; PSBD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|RuleBase:RU003423};
+KW   Lipoyl {ECO:0000256|ARBA:ARBA00022823, ECO:0000256|RuleBase:RU003423};
+KW   Transferase {ECO:0000256|RuleBase:RU003423, ECO:0000313|EMBL:BAD48369.1}.
+FT   DOMAIN          3..78
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50968"
+FT   DOMAIN          126..166
+FT                   /note="Peripheral subunit-binding (PSBD)"
+FT                   /evidence="ECO:0000259|PROSITE:PS51826"
+FT   REGION          185..225
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   455 AA;  48782 MW;  D5A0033DB4898988 CRC64;
+     MARFEIKMPK LGESITEGTI LSWSVQVGDV VNEDDVLFEV NTAKVSAEIP SPVAGKVVEI
+     LFKEGDTVPV GTVVAIVDMD GEGSGEASET AGSVETASAP KAAEVSGTAS VPKVQAEVTA
+     PKVERWYSPA VLQLAREAKI SQEELDSIPG TGYEGRLSKK DIRTYIEMKK GAPAADVSTT
+     VVSTVSANNS GSSPVPSAEV QKKAAAAAPQ AQHGQSASAV SSDASVEVKE MDRVRRIIAD
+     HMVMSKKVSP HVTNVVEVDV TRLVRWREKT KDDFFRREGV KLTYMPAIAE ATAQALAAYP
+     QVNVSVDGYN ILYKKHINVG IAVSQDDGNL IVPVVHDADR LNLNGLAVAI DSLAKKARVN
+     KLMPDDIDGG TFTITNFGTF KMLFGTPIIN QPQVAILGVG VIEKKPAVVE TPEGDVIAIR
+     HKMYLSLSYD HRVVDGSLGG NFLHFIADYL ENWKE
+//

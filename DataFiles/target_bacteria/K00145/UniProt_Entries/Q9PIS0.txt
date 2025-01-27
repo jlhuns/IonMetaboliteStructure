@@ -1,0 +1,133 @@
+ID   ARGC_CAMJE              Reviewed;         342 AA.
+AC   Q9PIS0; Q0PBT0; Q9RH00;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 135.
+DE   RecName: Full=N-acetyl-gamma-glutamyl-phosphate reductase {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            Short=AGPR {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            EC=1.2.1.38 {ECO:0000255|HAMAP-Rule:MF_00150};
+DE   AltName: Full=N-acetyl-glutamate semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            Short=NAGSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00150};
+GN   Name=argC {ECO:0000255|HAMAP-Rule:MF_00150}; OrderedLocusNames=Cj0224;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43431 / TGH 9011 / Serotype O:3;
+RX   PubMed=10588044; DOI=10.1139/w99-095;
+RA   Hani E.K., Ng D., Chan V.-L.;
+RT   "Arginine biosynthesis in Campylobacter jejuni TGH9011: determination of
+RT   the argCOBD cluster.";
+RL   Can. J. Microbiol. 45:959-969(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of N-acetyl-5-
+CC       glutamyl phosphate to yield N-acetyl-L-glutamate 5-semialdehyde.
+CC       {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-L-glutamate 5-semialdehyde + phosphate + NADP(+) = N-
+CC         acetyl-L-glutamyl 5-phosphate + NADPH + H(+); Xref=Rhea:RHEA:21588,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29123, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57936, ChEBI:CHEBI:58349; EC=1.2.1.38;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00150};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00150}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   -!- SIMILARITY: Belongs to the NAGSA dehydrogenase family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF093219; AAF21802.1; -; Genomic_DNA.
+DR   EMBL; AL111168; CAL34379.1; -; Genomic_DNA.
+DR   PIR; H81439; H81439.
+DR   RefSeq; WP_002851634.1; NZ_SZUC01000006.1.
+DR   RefSeq; YP_002343667.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PIS0; -.
+DR   SMR; Q9PIS0; -.
+DR   IntAct; Q9PIS0; 35.
+DR   STRING; 192222.Cj0224; -.
+DR   PaxDb; 192222-Cj0224; -.
+DR   EnsemblBacteria; CAL34379; CAL34379; Cj0224.
+DR   GeneID; 906012; -.
+DR   KEGG; cje:Cj0224; -.
+DR   PATRIC; fig|192222.6.peg.218; -.
+DR   eggNOG; COG0002; Bacteria.
+DR   HOGENOM; CLU_006384_0_1_7; -.
+DR   OrthoDB; 9801289at2; -.
+DR   UniPathway; UPA00068; UER00108.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003942; F:N-acetyl-gamma-glutamyl-phosphate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0070401; F:NADP+ binding; IEA:InterPro.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.360.10:FF:000014; N-acetyl-gamma-glutamyl-phosphate reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00150; ArgC_type1; 1.
+DR   InterPro; IPR023013; AGPR_AS.
+DR   InterPro; IPR000706; AGPR_type-1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR050085; NAGSA_dehydrogenase.
+DR   InterPro; IPR000534; Semialdehyde_DH_NAD-bd.
+DR   NCBIfam; TIGR01850; argC; 1.
+DR   PANTHER; PTHR32338:SF10; N-ACETYL-GAMMA-GLUTAMYL-PHOSPHATE REDUCTASE, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR32338; N-ACETYL-GAMMA-GLUTAMYL-PHOSPHATE REDUCTASE, CHLOROPLASTIC-RELATED-RELATED; 1.
+DR   Pfam; PF01118; Semialdhyde_dh; 1.
+DR   Pfam; PF22698; Semialdhyde_dhC_1; 1.
+DR   SMART; SM00859; Semialdhyde_dh; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS01224; ARGC; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm; NADP;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN           1..342
+FT                   /note="N-acetyl-gamma-glutamyl-phosphate reductase"
+FT                   /id="PRO_0000112393"
+FT   ACT_SITE        147
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00150"
+FT   CONFLICT        76
+FT                   /note="K -> E (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        119
+FT                   /note="E -> D (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        168
+FT                   /note="S -> N (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        194
+FT                   /note="V -> I (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        202
+FT                   /note="N -> G (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        205
+FT                   /note="L -> S (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        296
+FT                   /note="V -> I (in Ref. 1; AAF21802)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   342 AA;  38896 MW;  D5CE90039C63179C CRC64;
+     MKIKVGILGA SGYAGNELVR ILLNHPKVEI SYLGSSSSVG QNYQDLYPNT PLNLCFENKN
+     LDELELDLLF LATPHKFSAK LLNENLLKKM KIIDLSADFR LKNPKDYELW YKFTHPNQEL
+     LQNAVYGLCE LYKEEIKKAS LVANPGCYTT CSILSLYPLF KEKIIDFSSV IIDAKSGVSG
+     AGRSAKVENL FCEVNENIKA YNLALHRHTP EIEEHLSYAA KEKITLQFTP HLVPMQRGIL
+     ISAYANLKED LQEQDIRDIY TKYYQNNKFI RLLPPQSLPQ TRWVKSSNFA DINFSVDQRT
+     KRVIVLGAID NLIKGAAGQA VQNMNLMFDF DEDEGLKFFA NL
+//

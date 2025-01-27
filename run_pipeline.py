@@ -7,19 +7,29 @@
 from Ortholog_Identificiation import create_uniprot_entries, get_orthologs_uniprotID
 from MSA import analyze_active_sites, run_msa
 import time
+import sys
 
-
-
-if __name__ == "__main__":
+def main(KOID_file, target_organism_file):
     start_time = time.time()
-    
-    uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids("K00937", "target_prokaryotes.csv")
-    create_uniprot_entries.create_uniprot_entires(uniprot_ids, "K00937", "target_prokaryotes.csv")
-    run_msa.create_msa_file("K00937", "target_prokaryotes.csv")
-    analyze_active_sites.Create_Analysis_DF("K00937", "target_prokaryotes.csv")
-    
-    
+
+    with open(KOID_file, 'r') as inF:
+        lines = inF.readlines()
+
+        for KOID_line in lines:
+            KOID = KOID_line.replace("\n", "")
+            uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids(KOID, target_organism_file)
+            create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
+            run_msa.create_msa_file(KOID, target_organism_file)
+            # analyze_active_sites.Create_Analysis_DF(KOID, target_organism_file) 
+
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"The program ran for {elapsed_time:.6f} seconds.")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 2:
+        main(sys.argv[1], sys.argv[2])
+    else:
+        print("Please provide at least two arguments.")
 

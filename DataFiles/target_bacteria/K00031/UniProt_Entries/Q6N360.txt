@@ -1,0 +1,164 @@
+ID   Q6N360_RHOPA            Unreviewed;       408 AA.
+AC   Q6N360;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 124.
+DE   RecName: Full=Isocitrate dehydrogenase [NADP] {ECO:0000256|PIRNR:PIRNR000108};
+DE            EC=1.1.1.42 {ECO:0000256|PIRNR:PIRNR000108};
+GN   Name=idh {ECO:0000313|EMBL:CAE29275.1};
+GN   OrderedLocusNames=RPA3834 {ECO:0000313|EMBL:CAE29275.1};
+GN   ORFNames=TX73_019855 {ECO:0000313|EMBL:WCL94012.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29275.1};
+RN   [1] {ECO:0000313|EMBL:WCL94012.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94012.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29275.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29275.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94012.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94012.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-threo-isocitrate + NADP(+) = 2-oxoglutarate + CO2 + NADPH;
+CC         Xref=Rhea:RHEA:19629, ChEBI:CHEBI:15562, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.42;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000108};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000108,
+CC         ECO:0000256|PIRSR:PIRSR000108-3};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000108,
+CC         ECO:0000256|PIRSR:PIRSR000108-3};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit.
+CC       {ECO:0000256|PIRNR:PIRNR000108, ECO:0000256|PIRSR:PIRSR000108-3};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- SIMILARITY: Belongs to the isocitrate and isopropylmalate
+CC       dehydrogenases family. {ECO:0000256|ARBA:ARBA00007769,
+CC       ECO:0000256|PIRNR:PIRNR000108}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572605; CAE29275.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94012.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159372.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3834; -.
+DR   GeneID; 66894943; -.
+DR   KEGG; rpa:TX73_019855; -.
+DR   eggNOG; COG0538; Bacteria.
+DR   HOGENOM; CLU_023296_1_1_5; -.
+DR   PhylomeDB; Q6N360; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0004450; F:isocitrate dehydrogenase (NADP+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0006102; P:isocitrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.40.718.10:FF:000018; Isocitrate dehydrogenase [NADP]; 1.
+DR   Gene3D; 3.40.718.10; Isopropylmalate Dehydrogenase; 1.
+DR   InterPro; IPR019818; IsoCit/isopropylmalate_DH_CS.
+DR   InterPro; IPR004790; Isocitrate_DH_NADP.
+DR   InterPro; IPR024084; IsoPropMal-DH-like_dom.
+DR   NCBIfam; TIGR00127; nadp_idh_euk; 1.
+DR   PANTHER; PTHR11822:SF21; ISOCITRATE DEHYDROGENASE [NADP], MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11822; NADP-SPECIFIC ISOCITRATE DEHYDROGENASE; 1.
+DR   Pfam; PF00180; Iso_dh; 1.
+DR   PIRSF; PIRSF000108; IDH_NADP; 1.
+DR   SMART; SM01329; Iso_dh; 1.
+DR   SUPFAM; SSF53659; Isocitrate/Isopropylmalate dehydrogenase-like; 1.
+DR   PROSITE; PS00470; IDH_IMDH; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRNR:PIRNR000108};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|PIRNR:PIRNR000108};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRNR:PIRNR000108};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|PIRNR:PIRNR000108};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|PIRNR:PIRNR000108};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532,
+KW   ECO:0000256|PIRNR:PIRNR000108}.
+FT   DOMAIN          9..394
+FT                   /note="Isopropylmalate dehydrogenase-like"
+FT                   /evidence="ECO:0000259|SMART:SM01329"
+FT   BINDING         75..77
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-4"
+FT   BINDING         77
+FT                   /ligand="D-threo-isocitrate"
+FT                   /ligand_id="ChEBI:CHEBI:15562"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-2"
+FT   BINDING         82
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-4"
+FT   BINDING         94..100
+FT                   /ligand="D-threo-isocitrate"
+FT                   /ligand_id="ChEBI:CHEBI:15562"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-2"
+FT   BINDING         109
+FT                   /ligand="D-threo-isocitrate"
+FT                   /ligand_id="ChEBI:CHEBI:15562"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-2"
+FT   BINDING         132
+FT                   /ligand="D-threo-isocitrate"
+FT                   /ligand_id="ChEBI:CHEBI:15562"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-2"
+FT   BINDING         250
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-3"
+FT   BINDING         258
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-4"
+FT   BINDING         273
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-3"
+FT   BINDING         308..313
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-4"
+FT   BINDING         326
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-4"
+FT   SITE            139
+FT                   /note="Critical for catalysis"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-1"
+FT   SITE            210
+FT                   /note="Critical for catalysis"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000108-1"
+SQ   SEQUENCE   408 AA;  45410 MW;  11BCC08BA38D2F2E CRC64;
+     MAKIKVKNPV VELDGDEMTR IIWQMIKDKL ITPFLDVELM YFDLGMEHRD KTDDQVTIDA
+     ANAIKQVGVG VKCATITPDE ARVKEFGLKS MWKSPNGTIR NILGGVIFRE PIICKNVPRL
+     VPGWTKPIVI GRHAYGDQYR ATDIKFPGPG TLTMKFVGED GSVIEREVFK APGAGVAMSM
+     YNLDESIKDF ARASLNYGLM RNYPVYLSTK NTIMKVYDGR FKDIFQEIFD AEFKKEYDAK
+     GLTYEHRLID DMVASALKWS GGYVWACKNY DGDVQSDTVA QGYGSLGLMT SVLMTPDGKT
+     VEAEAAHGTV TRHYREHQKG KATSTNSIAS IFAWTRGLAH RAKLDSNEEL ARFADLLEKV
+     CVDTVEAGAM TKDLALLVGA DQRWLSTEGF LDKVAQNLNK AMEDAKAA
+//

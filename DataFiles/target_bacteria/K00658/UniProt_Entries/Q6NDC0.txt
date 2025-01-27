@@ -1,0 +1,142 @@
+ID   Q6NDC0_RHOPA            Unreviewed;       417 AA.
+AC   Q6NDC0;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 137.
+DE   RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex {ECO:0000256|RuleBase:RU361138};
+DE            EC=2.3.1.61 {ECO:0000256|RuleBase:RU361138};
+DE   AltName: Full=2-oxoglutarate dehydrogenase complex component E2 {ECO:0000256|RuleBase:RU361138};
+GN   Name=sucB {ECO:0000313|EMBL:CAE25632.1};
+GN   Synonyms=odhB {ECO:0000313|EMBL:WCL90313.1};
+GN   OrderedLocusNames=RPA0188 {ECO:0000313|EMBL:CAE25632.1};
+GN   ORFNames=TX73_000975 {ECO:0000313|EMBL:WCL90313.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25632.1};
+RN   [1] {ECO:0000313|EMBL:WCL90313.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90313.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25632.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25632.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90313.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90313.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: E2 component of the 2-oxoglutarate dehydrogenase (OGDH)
+CC       complex which catalyzes the second step in the conversion of 2-
+CC       oxoglutarate to succinyl-CoA and CO(2). {ECO:0000256|ARBA:ARBA00004052,
+CC       ECO:0000256|RuleBase:RU361138}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-[(R)-dihydrolipoyl]-L-lysyl-[2-oxoglutarate dehydrogenase
+CC         complex component E2] + succinyl-CoA = N(6)-[(R)-S(8)-
+CC         succinyldihydrolipoyl]-L-lysyl-[2-oxoglutarate dehydrogenase complex
+CC         component E2] + CoA; Xref=Rhea:RHEA:15213, Rhea:RHEA-COMP:10581,
+CC         Rhea:RHEA-COMP:10582, ChEBI:CHEBI:57287, ChEBI:CHEBI:57292,
+CC         ChEBI:CHEBI:83100, ChEBI:CHEBI:83120; EC=2.3.1.61;
+CC         Evidence={ECO:0000256|ARBA:ARBA00043693,
+CC         ECO:0000256|RuleBase:RU361138};
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088;
+CC         Evidence={ECO:0000256|RuleBase:RU361138};
+CC       Note=Binds 1 lipoyl cofactor covalently.
+CC       {ECO:0000256|RuleBase:RU361138};
+CC   -!- PATHWAY: Amino-acid degradation; L-lysine degradation via saccharopine
+CC       pathway; glutaryl-CoA from L-lysine: step 6/6.
+CC       {ECO:0000256|ARBA:ARBA00005145, ECO:0000256|RuleBase:RU361138}.
+CC   -!- SIMILARITY: Belongs to the 2-oxoacid dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00007317, ECO:0000256|RuleBase:RU361138}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572593; CAE25632.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90313.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155756.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0188; -.
+DR   GeneID; 66891193; -.
+DR   KEGG; rpa:TX73_000975; -.
+DR   eggNOG; COG0508; Bacteria.
+DR   HOGENOM; CLU_016733_0_0_5; -.
+DR   PhylomeDB; Q6NDC0; -.
+DR   UniPathway; UPA00868; UER00840.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0045252; C:oxoglutarate dehydrogenase complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004149; F:dihydrolipoyllysine-residue succinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033512; P:L-lysine catabolic process to acetyl-CoA via saccharopine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   CDD; cd06849; lipoyl_domain; 1.
+DR   FunFam; 3.30.559.10:FF:000007; Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   Gene3D; 3.30.559.10; Chloramphenicol acetyltransferase-like domain; 1.
+DR   Gene3D; 4.10.320.10; E3-binding domain; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR050537; 2-oxoacid_dehydrogenase.
+DR   InterPro; IPR001078; 2-oxoacid_DH_actylTfrase.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR023213; CAT-like_dom_sf.
+DR   InterPro; IPR036625; E3-bd_dom_sf.
+DR   InterPro; IPR004167; PSBD.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   InterPro; IPR006255; SucB.
+DR   NCBIfam; TIGR01347; sucB; 1.
+DR   PANTHER; PTHR43416:SF5; DIHYDROLIPOYLLYSINE-RESIDUE SUCCINYLTRANSFERASE COMPONENT OF 2-OXOGLUTARATE DEHYDROGENASE COMPLEX, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43416; DIHYDROLIPOYLLYSINE-RESIDUE SUCCINYLTRANSFERASE COMPONENT OF 2-OXOGLUTARATE DEHYDROGENASE COMPLEX, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00198; 2-oxoacid_dh; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   Pfam; PF02817; E3_binding; 1.
+DR   SUPFAM; SSF52777; CoA-dependent acyltransferases; 1.
+DR   SUPFAM; SSF47005; Peripheral subunit-binding domain of 2-oxo acid dehydrogenase complex; 1.
+DR   SUPFAM; SSF51230; Single hybrid motif; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+DR   PROSITE; PS51826; PSBD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|RuleBase:RU361138};
+KW   Lipoyl {ECO:0000256|ARBA:ARBA00022823, ECO:0000256|RuleBase:RU361138};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|RuleBase:RU361138, ECO:0000313|EMBL:CAE25632.1};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532,
+KW   ECO:0000256|RuleBase:RU361138}.
+FT   DOMAIN          1..76
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50968"
+FT   DOMAIN          120..157
+FT                   /note="Peripheral subunit-binding (PSBD)"
+FT                   /evidence="ECO:0000259|PROSITE:PS51826"
+FT   REGION          100..148
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          162..188
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        100..117
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   417 AA;  43864 MW;  830F3D5D66AE5642 CRC64;
+     MTEIRVPTLG ESVTEATIGR WFKKPGEAVA VDEPLVELET DKVTIEVPAP SAGTLGEIVA
+     KDGETVAVGA LLGQITDGAA PAKPAAAAPA KAAAPAAAPA PAAPAPAAAP AAKAPPSDAP
+     LAPSVRRLST ESGVDASTVP GSGKDGRVTK GDMLAAIEKA ASAPTPVNQP AAAVQVRGPS
+     PADDAAREER VKMTRLRQTI ARRLKEVQNT AAMLTTFNEV DMTNVMALRA QYKDVFEKKH
+     GAKLGFMGFF TKACVQALKD IPAVNAEMDG TDLIYKNYYH IGVAVGTDKG LVVPVVRDCD
+     EKSIADIEKS IVDYGKRARD GQLKIEEMQG GTFTITNGGI YGSLMSTPIL NAPQSGILGM
+     HKIQERPVVI GGKIEVRPMM YLALSYDHRV IDGKEAVTFL VRVKESLEDP ARLVLDL
+//

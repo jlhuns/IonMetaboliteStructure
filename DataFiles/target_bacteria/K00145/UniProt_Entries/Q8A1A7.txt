@@ -1,0 +1,99 @@
+ID   ARGC_BACTN              Reviewed;         322 AA.
+AC   Q8A1A7;
+DT   02-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 127.
+DE   RecName: Full=N-acetyl-gamma-glutamyl-phosphate reductase {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            Short=AGPR {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            EC=1.2.1.38 {ECO:0000255|HAMAP-Rule:MF_00150};
+DE   AltName: Full=N-acetyl-glutamate semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00150};
+DE            Short=NAGSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00150};
+GN   Name=argC {ECO:0000255|HAMAP-Rule:MF_00150};
+GN   OrderedLocusNames=BT_3759;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of N-acetyl-5-
+CC       glutamyl phosphate to yield N-acetyl-L-glutamate 5-semialdehyde.
+CC       {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-L-glutamate 5-semialdehyde + phosphate + NADP(+) = N-
+CC         acetyl-L-glutamyl 5-phosphate + NADPH + H(+); Xref=Rhea:RHEA:21588,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29123, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57936, ChEBI:CHEBI:58349; EC=1.2.1.38;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00150};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00150}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   -!- SIMILARITY: Belongs to the NAGSA dehydrogenase family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00150}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO78864.1; -; Genomic_DNA.
+DR   RefSeq; NP_812670.1; NC_004663.1.
+DR   RefSeq; WP_008762696.1; NZ_UYXG01000036.1.
+DR   AlphaFoldDB; Q8A1A7; -.
+DR   SMR; Q8A1A7; -.
+DR   STRING; 226186.BT_3759; -.
+DR   PaxDb; 226186-BT_3759; -.
+DR   EnsemblBacteria; AAO78864; AAO78864; BT_3759.
+DR   GeneID; 60924929; -.
+DR   KEGG; bth:BT_3759; -.
+DR   PATRIC; fig|226186.12.peg.3821; -.
+DR   eggNOG; COG0002; Bacteria.
+DR   HOGENOM; CLU_006384_0_1_10; -.
+DR   InParanoid; Q8A1A7; -.
+DR   OrthoDB; 9801289at2; -.
+DR   UniPathway; UPA00068; UER00108.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003942; F:N-acetyl-gamma-glutamyl-phosphate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0070401; F:NADP+ binding; IEA:InterPro.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00150; ArgC_type1; 1.
+DR   InterPro; IPR023013; AGPR_AS.
+DR   InterPro; IPR000706; AGPR_type-1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR050085; NAGSA_dehydrogenase.
+DR   InterPro; IPR000534; Semialdehyde_DH_NAD-bd.
+DR   NCBIfam; TIGR01850; argC; 1.
+DR   PANTHER; PTHR32338:SF10; N-ACETYL-GAMMA-GLUTAMYL-PHOSPHATE REDUCTASE, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR32338; N-ACETYL-GAMMA-GLUTAMYL-PHOSPHATE REDUCTASE, CHLOROPLASTIC-RELATED-RELATED; 1.
+DR   Pfam; PF01118; Semialdhyde_dh; 1.
+DR   Pfam; PF22698; Semialdhyde_dhC_1; 1.
+DR   SMART; SM00859; Semialdhyde_dh; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS01224; ARGC; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm; NADP;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN           1..322
+FT                   /note="N-acetyl-gamma-glutamyl-phosphate reductase"
+FT                   /id="PRO_0000112386"
+FT   ACT_SITE        132
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00150"
+SQ   SEQUENCE   322 AA;  35838 MW;  074D784C4F7AB7F7 CRC64;
+     MIKAGIIGGA GYTAGELIRL LLNHPETEIV FINSSSNAGN RITDVHEGLY GETDLRFTDQ
+     LPLDAIDVLF FCTAHGDTKK FMESHNVPED LKIIDLSMDY RIKSDDHDFI YGLPELNRRA
+     TCTAKHVANP GCFATCIQLG LLPLAKNLML TGDVSVNAIT GSTGAGVKPG ATSHFSWRNN
+     NISIYKAFDH QHVPEIKQSL KQLQNSFDSE IDFIPYRGDF PRGIFATLVV KTKVALEEIV
+     RMYEEYYAKD SFVHIVDKNI DLKQVVNTNK CLIHLEKHGD KLLIISCIDN LLKGASGQAV
+     HNMNLMFNLE ETVGLRLKPS AF
+//

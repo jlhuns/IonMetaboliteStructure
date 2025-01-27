@@ -1,0 +1,117 @@
+ID   D4K343_9FIRM            Unreviewed;       256 AA.
+AC   D4K343;
+DT   18-MAY-2010, integrated into UniProtKB/TrEMBL.
+DT   18-MAY-2010, sequence version 1.
+DT   27-NOV-2024, entry version 74.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000256|HAMAP-Rule:MF_00147, ECO:0000256|RuleBase:RU363013};
+DE            Short=TIM {ECO:0000256|HAMAP-Rule:MF_00147};
+DE            Short=TPI {ECO:0000256|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000256|HAMAP-Rule:MF_00147, ECO:0000256|RuleBase:RU363013};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000256|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000256|HAMAP-Rule:MF_00147};
+GN   ORFNames=FP2_02560 {ECO:0000313|EMBL:CBK97936.1};
+OS   Faecalibacterium prausnitzii L2-6.
+OC   Bacteria; Bacillota; Clostridia; Eubacteriales; Oscillospiraceae;
+OC   Faecalibacterium.
+OX   NCBI_TaxID=718252 {ECO:0000313|EMBL:CBK97936.1, ECO:0000313|Proteomes:UP000008804};
+RN   [1] {ECO:0000313|EMBL:CBK97936.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RG   metaHIT consortium -- http://www.metahit.eu/;
+RA   Pajon A., Turner K., Parkhill J., Duncan S., Flint H.;
+RT   "The genome sequence of Faecalibacterium prausnitzii L2/6.";
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CBK97936.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RA   Pajon A.;
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the gluconeogenesis. Catalyzes stereospecifically
+CC       the conversion of dihydroxyacetone phosphate (DHAP) to D-
+CC       glyceraldehyde-3-phosphate (G3P). {ECO:0000256|HAMAP-Rule:MF_00147}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate = dihydroxyacetone phosphate;
+CC         Xref=Rhea:RHEA:18585, ChEBI:CHEBI:57642, ChEBI:CHEBI:59776;
+CC         EC=5.3.1.1; Evidence={ECO:0000256|HAMAP-Rule:MF_00147,
+CC         ECO:0000256|RuleBase:RU363013};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00147, ECO:0000256|RuleBase:RU363013}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_00147, ECO:0000256|RuleBase:RU363013}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-
+CC       Rule:MF_00147, ECO:0000256|RuleBase:RU363013}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00147,
+CC       ECO:0000256|RuleBase:RU363013}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000256|ARBA:ARBA00007422, ECO:0000256|HAMAP-Rule:MF_00147,
+CC       ECO:0000256|RuleBase:RU363013}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP929045; CBK97936.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D4K343; -.
+DR   STRING; 718252.FP2_02560; -.
+DR   KEGG; fpr:FP2_02560; -.
+DR   PATRIC; fig|718252.3.peg.1464; -.
+DR   eggNOG; COG0149; Bacteria.
+DR   HOGENOM; CLU_024251_2_3_9; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000008804; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046166; P:glyceraldehyde-3-phosphate biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00311; TIM; 1.
+DR   FunFam; 3.20.20.70:FF:000016; Triosephosphate isomerase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR035990; TIM_sf.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   NCBIfam; TIGR00419; tim; 1.
+DR   PANTHER; PTHR21139; TRIOSEPHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR21139:SF2; TRIOSEPHOSPHATE ISOMERASE; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; Triosephosphate isomerase (TIM); 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00147, ECO:0000256|RuleBase:RU363013};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432, ECO:0000256|HAMAP-
+KW   Rule:MF_00147};
+KW   Glycolysis {ECO:0000256|ARBA:ARBA00023152, ECO:0000256|HAMAP-
+KW   Rule:MF_00147};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_00147};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000008804}.
+FT   ACT_SITE        98
+FT                   /note="Electrophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+FT   ACT_SITE        170
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+FT   BINDING         13..15
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+FT   BINDING         176
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+FT   BINDING         216
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+FT   BINDING         237..238
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00147"
+SQ   SEQUENCE   256 AA;  27247 MW;  303102CA4CF5CB8E CRC64;
+     MDKAKRKAII AGNWKMNKTA SEAAVLVDEL IPAVKDASCE VVICTPYTDL VTAVAKTKGT
+     NIHVGAENVH FEKSGAFTGE ISADMLVDLG VEYVIVGHSE RRQYFAETDQ TVNKRALAAL
+     NAGLKVIICV GESLQQREEG VTEELVRMQT KIALRDVTAE QMANVVIAYE PIWAIGTGKT
+     ATADQAEEVC AQIRKVIGEV YGEAVAEATT VQYGGSMNAK NCEELLSKKD VDGGLIGGAS
+     LKAPDFAVIV NAATKG
+//
