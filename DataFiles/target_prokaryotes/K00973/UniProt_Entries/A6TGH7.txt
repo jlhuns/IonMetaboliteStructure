@@ -1,0 +1,87 @@
+ID   A6TGH7_KLEP7            Unreviewed;       294 AA.
+AC   A6TGH7;
+DT   21-AUG-2007, integrated into UniProtKB/TrEMBL.
+DT   21-AUG-2007, sequence version 1.
+DT   27-NOV-2024, entry version 81.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+DE            EC=2.7.7.24 {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+GN   Name=rmlA {ECO:0000313|EMBL:ABR79661.1};
+GN   ORFNames=KPN_04289 {ECO:0000313|EMBL:ABR79661.1};
+OS   Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella/Raoultella group; Klebsiella.
+OX   NCBI_TaxID=272620 {ECO:0000313|EMBL:ABR79661.1, ECO:0000313|Proteomes:UP000000265};
+RN   [1] {ECO:0000313|EMBL:ABR79661.1, ECO:0000313|Proteomes:UP000000265}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578 {ECO:0000313|Proteomes:UP000000265};
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2] {ECO:0000313|EMBL:ABR79661.1, ECO:0000313|Proteomes:UP000000265}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578 {ECO:0000313|Proteomes:UP000000265};
+RG   The Klebsiella pneumonia Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Spieth J., Clifton W.S., Latreille P.,
+RA   Sabo A., Pepin K., Bhonagiri V., Porwollik S., Ali J., Wilson R.K.;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000256|ARBA:ARBA00037065, ECO:0000256|RuleBase:RU003706}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + alpha-D-glucose 1-phosphate + H(+) = dTDP-alpha-D-
+CC         glucose + diphosphate; Xref=Rhea:RHEA:15225, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37568, ChEBI:CHEBI:57477,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.24;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001095,
+CC         ECO:0000256|RuleBase:RU003706};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate thymidylyltransferase
+CC       family. {ECO:0000256|ARBA:ARBA00010480, ECO:0000256|RuleBase:RU003706}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000647; ABR79661.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A6TGH7; -.
+DR   STRING; 272620.KPN_04289; -.
+DR   PaxDb; 272620-KPN_04289; -.
+DR   EnsemblBacteria; ABR79661; ABR79661; KPN_04289.
+DR   KEGG; kpn:KPN_04289; -.
+DR   HOGENOM; CLU_029499_9_0_6; -.
+DR   Proteomes; UP000000265; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   CDD; cd02538; G1P_TT_short; 1.
+DR   FunFam; 3.90.550.10:FF:000023; Glucose-1-phosphate thymidylyltransferase; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   NCBIfam; TIGR01207; rmlA; 1.
+DR   PANTHER; PTHR43532; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43532:SF4; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE 2; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU003706};
+KW   Metal-binding {ECO:0000256|RuleBase:RU003706};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU003706};
+KW   Transferase {ECO:0000256|RuleBase:RU003706}.
+FT   DOMAIN          3..239
+FT                   /note="Nucleotidyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00483"
+SQ   SEQUENCE   294 AA;  32928 MW;  74B9C1AB4A56DCA3 CRC64;
+     MMKGIILAGG SGTRLHPITR GVSKQLLPIY DKPMIYYPLS VLMLAGIREI LIITTPDDLR
+     DFQRLLGDGS EFGIALHYAV QPTPDGLAQA FIIGEAFLNG EPACLVLGDN IFFGQSFSPK
+     LRSVAARTEG ATIFGYQVMD PERFGVVEFD DNFRALSLEE KPKQPKSNWA VTGLYFYDGK
+     VTEYAKRVKP SERGELEITS INQMYLEDGA LTVELLGRGF AWLDTGTHDS LIEASMFVQT
+     VEKRQGFKIA CLEEIGWRNG WLDDDGVKRA AKRLEKTGYG QYLLDLLRAR PRQY
+//

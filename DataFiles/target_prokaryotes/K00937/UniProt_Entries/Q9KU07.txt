@@ -1,0 +1,160 @@
+ID   PPK1_VIBCH              Reviewed;         701 AA.
+AC   Q9KU07; O86073;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 120.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=VC_0723;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=El Tor Inaba 92A1552;
+RA   Ogawa N., Fraley C., Kornberg A.;
+RT   "The polyphosphate kinase and exopolyphosphatase genes of Vibrio
+RT   cholerae.";
+RL   Submitted (AUG-1998) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal phosphate
+CC       of ATP to form a long-chain polyphosphate (polyP). {ECO:0000255|HAMAP-
+CC       Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[phosphate](n) + ATP = [phosphate](n+1) + ADP;
+CC         Xref=Rhea:RHEA:19573, Rhea:RHEA-COMP:9859, Rhea:RHEA-COMP:14280,
+CC         ChEBI:CHEBI:16838, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216; EC=2.7.4.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00347};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00347};
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated ppk in
+CC       which a phosphate is covalently linked to a histidine residue through a
+CC       N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase 1 (PPK1) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF083928; AAC32883.1; -; Genomic_DNA.
+DR   EMBL; AE003852; AAF93888.1; -; Genomic_DNA.
+DR   PIR; D82289; D82289.
+DR   RefSeq; NP_230372.1; NC_002505.1.
+DR   RefSeq; WP_001271572.1; NZ_LT906614.1.
+DR   AlphaFoldDB; Q9KU07; -.
+DR   SMR; Q9KU07; -.
+DR   STRING; 243277.VC_0723; -.
+DR   DNASU; 2615732; -.
+DR   EnsemblBacteria; AAF93888; AAF93888; VC_0723.
+DR   GeneID; 69720522; -.
+DR   KEGG; vch:VC_0723; -.
+DR   PATRIC; fig|243277.26.peg.691; -.
+DR   eggNOG; COG0855; Bacteria.
+DR   HOGENOM; CLU_009678_6_1_6; -.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016310; P:phosphorylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09164; PLDc_EcPPK1_C1_like; 1.
+DR   CDD; cd09167; PLDc_EcPPK1_C2_like; 1.
+DR   FunFam; 1.20.58.310:FF:000001; Polyphosphate kinase; 1.
+DR   FunFam; 3.30.870.10:FF:000001; Polyphosphate kinase; 1.
+DR   Gene3D; 3.30.870.10; Endonuclease Chain A; 2.
+DR   Gene3D; 3.30.1840.10; Polyphosphate kinase middle domain; 1.
+DR   Gene3D; 1.20.58.310; Polyphosphate kinase N-terminal domain; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR001736; PLipase_D/transphosphatidylase.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR041108; PP_kinase_C_1.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR036830; PP_kinase_middle_dom_sf.
+DR   InterPro; IPR025200; PPK_C_dom2.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   InterPro; IPR036832; PPK_N_dom_sf.
+DR   NCBIfam; TIGR03705; poly_P_kin; 1.
+DR   PANTHER; PTHR30218; POLYPHOSPHATE KINASE; 1.
+DR   PANTHER; PTHR30218:SF0; POLYPHOSPHATE KINASE; 1.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF17941; PP_kinase_C_1; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF56024; Phospholipase D/nuclease; 2.
+DR   SUPFAM; SSF143724; PHP14-like; 1.
+DR   SUPFAM; SSF140356; PPK N-terminal domain-like; 1.
+DR   PROSITE; PS50035; PLD; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Reference proteome; Repeat; Transferase.
+FT   CHAIN           1..701
+FT                   /note="Polyphosphate kinase"
+FT                   /id="PRO_0000128666"
+FT   DOMAIN          428..462
+FT                   /note="PLD phosphodiesterase 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   DOMAIN          585..615
+FT                   /note="PLD phosphodiesterase 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   ACT_SITE        433
+FT                   /note="Phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         45
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         373
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         403
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         466
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         562
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         590
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   CONFLICT        130..131
+FT                   /note="EV -> VM (in Ref. 1; AAC32883)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   701 AA;  81645 MW;  8BDECAEE7687C9D4 CRC64;
+     MSADKLYIDK ELSWLSFNER VLQEAADKTV PLIERIRFLG IFSNNLDEFY KVRFADVKRQ
+     ILINRERGGN DISKHLLSRM QSKALKLNQD FDNLYNELIL EMARRRIFLV NETQLDEIQL
+     KWVKKYFHKE VLPHVTPIML RDDIDVMQFL KDEYAYIAVE MRSGDEFKYA LIEIPTDQLP
+     RFVMLPEQKG KRRKTIILLD NIIRLCLDEI FRGFYDYDTL NGYAMKMTRD AEYDLRHEVE
+     YSLLEQMSEG LSQRLTALPV RFVYEREMPE AMLKFLCYKL KISHYDSLIP GGRYHNFKDF
+     ISFPNVGRDY LENKPLPPMT CADFEGYANA FDAIRAQDIL LHYPYHSFEH MTELVRQASF
+     DPKVVSIKIN IYRVAKDSKL MNSLVDAVHN GKRVVVVVEL QARFDEEANI EWSRILTDAG
+     VHVIFGVPGM KIHAKLLLIT RKEGDEFVRY AHIGTGNFHE RTARIYTDFA LLTANQELAA
+     EVRAVFGYIE NPFRPVKFNH LIVSPRNSRT QIYRLLDSEI ANAKAGKKAA ITLKVNNLVD
+     KGLINKLYGA SAAGVKIRMI IRGMCSLVPG VEGVSDNIEI ISIIDRFLEH PRVLVVHNDG
+     NPQVFISSAD WMERNIDHRI EVMAPIRDER LKQRIIDILN IQFIDTVKAR RIDKEMSNQY
+     VERGNRRKVR SQIAIYDYLK NVEKQTRKAK GQQETNDNSS Q
+//

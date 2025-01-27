@@ -26,11 +26,14 @@ def GET_KOID_FOLDER_PATH(KOID: str, targetOrganism: str) -> str:
     CHECK_FOLDER_EXISTS(folder_path)
     return folder_path
 
-def GET_KOID_MSA_PATH(KOID: str, targetOrganism: str) -> str:
+def GET_KOID_MSA_FOLDER_PATH(KOID: str, targetOrganism: str) -> str:
     folder_path = os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "MSA")
     CHECK_FOLDER_EXISTS(folder_path)
     return folder_path
 
+def GET_KOID_MSA_ANALYSIS_FILE_PATH(KOID:str, targetOrganism: str) -> str:
+    return os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "MSA", f"{KOID}_MSA_RESULTS.aln")
+    
 def GET_KOID_UNIPROT_ENTRIES_PATH(KOID: str, targetOrganism: str) -> str:
     folder_path = os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "UniProt_Entries")
     CHECK_FOLDER_EXISTS(folder_path)

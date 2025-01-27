@@ -1,0 +1,158 @@
+ID   A6TCB5_KLEP7            Unreviewed;       686 AA.
+AC   A6TCB5;
+DT   21-AUG-2007, integrated into UniProtKB/TrEMBL.
+DT   21-AUG-2007, sequence version 1.
+DT   27-NOV-2024, entry version 105.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000256|HAMAP-Rule:MF_00347, ECO:0000256|RuleBase:RU003800};
+DE            EC=2.7.4.1 {ECO:0000256|HAMAP-Rule:MF_00347, ECO:0000256|RuleBase:RU003800};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000256|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000256|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000256|HAMAP-Rule:MF_00347,
+GN   ECO:0000313|EMBL:ABR78236.1};
+GN   ORFNames=KPN_02826 {ECO:0000313|EMBL:ABR78236.1};
+OS   Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella/Raoultella group; Klebsiella.
+OX   NCBI_TaxID=272620 {ECO:0000313|EMBL:ABR78236.1, ECO:0000313|Proteomes:UP000000265};
+RN   [1] {ECO:0000313|EMBL:ABR78236.1, ECO:0000313|Proteomes:UP000000265}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578 {ECO:0000313|Proteomes:UP000000265};
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2] {ECO:0000313|EMBL:ABR78236.1, ECO:0000313|Proteomes:UP000000265}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578 {ECO:0000313|Proteomes:UP000000265};
+RG   The Klebsiella pneumonia Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Spieth J., Clifton W.S., Latreille P.,
+RA   Sabo A., Pepin K., Bhonagiri V., Porwollik S., Ali J., Wilson R.K.;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal phosphate
+CC       of ATP to form a long-chain polyphosphate (polyP). {ECO:0000256|HAMAP-
+CC       Rule:MF_00347, ECO:0000256|RuleBase:RU003800}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[phosphate](n) + ATP = [phosphate](n+1) + ADP;
+CC         Xref=Rhea:RHEA:19573, Rhea:RHEA-COMP:9859, Rhea:RHEA-COMP:14280,
+CC         ChEBI:CHEBI:16838, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216; EC=2.7.4.1;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00347,
+CC         ECO:0000256|RuleBase:RU003800};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00347};
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated ppk in
+CC       which a phosphate is covalently linked to a histidine residue through a
+CC       N-P bond. {ECO:0000256|HAMAP-Rule:MF_00347,
+CC       ECO:0000256|RuleBase:RU003800}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase 1 (PPK1) family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00347, ECO:0000256|RuleBase:RU003800}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000647; ABR78236.1; -; Genomic_DNA.
+DR   RefSeq; WP_002913838.1; NC_009648.1.
+DR   AlphaFoldDB; A6TCB5; -.
+DR   STRING; 272620.KPN_02826; -.
+DR   PaxDb; 272620-KPN_02826; -.
+DR   EnsemblBacteria; ABR78236; ABR78236; KPN_02826.
+DR   GeneID; 69754077; -.
+DR   KEGG; kpn:KPN_02826; -.
+DR   HOGENOM; CLU_009678_6_1_6; -.
+DR   Proteomes; UP000000265; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016310; P:phosphorylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09164; PLDc_EcPPK1_C1_like; 1.
+DR   CDD; cd09167; PLDc_EcPPK1_C2_like; 1.
+DR   FunFam; 1.20.58.310:FF:000001; Polyphosphate kinase; 1.
+DR   FunFam; 3.30.1840.10:FF:000001; Polyphosphate kinase; 1.
+DR   FunFam; 3.30.870.10:FF:000001; Polyphosphate kinase; 1.
+DR   FunFam; 3.30.870.10:FF:000007; Polyphosphate kinase; 1.
+DR   Gene3D; 3.30.870.10; Endonuclease Chain A; 2.
+DR   Gene3D; 3.30.1840.10; Polyphosphate kinase middle domain; 1.
+DR   Gene3D; 1.20.58.310; Polyphosphate kinase N-terminal domain; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR001736; PLipase_D/transphosphatidylase.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR041108; PP_kinase_C_1.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR036830; PP_kinase_middle_dom_sf.
+DR   InterPro; IPR025200; PPK_C_dom2.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   InterPro; IPR036832; PPK_N_dom_sf.
+DR   NCBIfam; TIGR03705; poly_P_kin; 1.
+DR   PANTHER; PTHR30218; POLYPHOSPHATE KINASE; 1.
+DR   PANTHER; PTHR30218:SF0; POLYPHOSPHATE KINASE; 1.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF17941; PP_kinase_C_1; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF56024; Phospholipase D/nuclease; 2.
+DR   SUPFAM; SSF143724; PHP14-like; 1.
+DR   SUPFAM; SSF140356; PPK N-terminal domain-like; 1.
+DR   PROSITE; PS50035; PLD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00347};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00347};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_00347};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00347};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00347};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553, ECO:0000256|HAMAP-
+KW   Rule:MF_00347};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00347}.
+FT   DOMAIN          428..462
+FT                   /note="PLD phosphodiesterase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50035"
+FT   ACT_SITE        433
+FT                   /note="Phosphohistidine intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         45
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         373
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         403
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         466
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         562
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+FT   BINDING         590
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00347"
+SQ   SEQUENCE   686 AA;  80184 MW;  6D75B3A2B425262E CRC64;
+     MGQEKLYIEK ELSWLSFNER VLQEAADKSN PLIERMRFLG IYSNNLDEFY KVRFAELKRR
+     IIISEEQGST AHSRHLLGKI QARVLKADQE FDSLYNELLL EMARNQIFLI NERQLSVNQQ
+     AWLRNYFKQY LRQHISPILI NRETDLVQFL KDDYTYLAVE IIRGENINYA LLEIPSDKVP
+     RFVNLPPEAP RRRKPMILLD NILRYCLDDI FKGFFDYDAL NAYSMKMTRD AEYDLVHEME
+     SSLMELMSSS LKQRLTAEPV RFVYQRDMPD AMVEMLRDKL SISNYDSMLP GGRYHNFKDF
+     IGFPNVGKAN LVNKPMPRLR HLWFDKFRNG FDAIRERDVL LYYPYHTFEH VLELLRQASF
+     DPSVLAIKIN IYRVAKDSRI IDAMIHAAHN GKKVTVVVEL QARFDEEANI HWAKRLTEAG
+     VHVIFSAPGL KIHAKLFLIS RKEGDEVVRY AHIGTGNFNE KTARIYTDYS LLTADARITN
+     EVRRVFNFIE NPYRPVSFDY LLVSPQNSRR LLYEMIDREI ANAQNGQPSG ITLKLNNLVD
+     KGLVDRLYAA SSSGVPVNLL IRGMCSLIPG LEGISENIRV ISIVDRFLEH DRVYCFENGG
+     DKQVWLSSAD WMTRNIDYRI EVAAPLLDPR LKQRVLDIFD ILFNDTVKAR YLDKELSNRY
+     VPRGNRRKVR AQMAIYDYLK SLEQPD
+//

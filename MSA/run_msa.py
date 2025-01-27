@@ -15,7 +15,7 @@ def create_msa_file(KOID: str, targetOrganism: str):
         "data": sequence_data
     }
 
-    filePath = os.path.join(FILEPATH.GET_KOID_MSA_PATH(KOID, targetOrganism), f"{KOID}_MSA_Results.aln")
+    filePath = os.path.join(FILEPATH.GET_KOID_MSA_FOLDER_PATH(KOID, targetOrganism), f"{KOID}_MSA_Results.aln")
     if FILEPATH.CHECK_PATH_EXISTS(filePath):
         print(f"MSA File aready exists at: {filePath}")
     else:
