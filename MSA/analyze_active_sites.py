@@ -1,146 +1,115 @@
 import os
 import re
+from typing import Counter
 import pandas as pd
 import file_paths as FILE_PATH
+from Bio import AlignIO
 
 CWD = os.getcwd()
 PARENT_DIR = os.path.dirname(CWD)
 
-# PATH_TO_DATAFILES = os.path.join(PARENT_DIR, "datafiles")
-# PATH_TO_UNIPROT_ENTRIES = os.path.join(PATH_TO_DATAFILES, "uniprot_entries")
-# PATH_TO_EVAL_FILES = os.path.join(PATH_TO_DATAFILES, "eval_files")
-# PATH_TO_MSA_FILE = os.path.join(PATH_TO_DATAFILES, "muscle_data", "alignment.aln")
-
-def convert_uniprot_data_to_position(entry):
-    value_str = entry[2]
-    # Check if the value string contains periods
-    if re.search(r'\.+', value_str):
-        # Split the string using regular expression to handle any number of periods
-        start_str, end_str = re.split(r'\.+', value_str)
-
-        # Convert the start and end strings to integers
-        start = int(start_str)
-        end = int(end_str)
-
-        # Generate the range of values
-        return list(range(start, end + 1))
-    else:
-        # Convert the string to an integer
-        return int(value_str)
-
-
-def read_uniprot_file_to_analyze_active_sites(directory, filename):
+def create_analysis_df(KOID: str, target_organism: str):
+    uniprotEntryFolder = FILE_PATH.GET_KOID_UNIPROT_ENTRIES_PATH(KOID, target_organism)
     data = []
-    act_str = 'ACT_SITE'
-    bind_str = 'BINDING'
-    for file in os.listdir(directory):
-        if file == filename:
-            filepath = os.path.join(directory, filename)
-            with open(filepath, 'r') as inF:
+
+    for file_name in os.listdir(uniprotEntryFolder):
+        file_path = os.path.join(uniprotEntryFolder, file_name)
+        proteinKOID = ""
+        siteType = ""
+        location = ""
+        conservationScore = "TBD"
+        locationDescription = ""
+
+        if os.path.isfile(file_path):
+            with open(file_path, 'r') as inF:
                 lines = inF.readlines()
-                for i in range(len(lines) - 1):  # Iterate through lines except the last one
-                    line = lines[i].strip()
-                    next_line = lines[i + 1].strip()
+                for i, line in enumerate(lines[:-1]):
+                    nextLine = lines[i + 1] if i + 1 < len(lines) else ""
+                    if(line.startswith("ID")):
+                        proteinKOID = line.split()[1]
+                    elif(line.startswith("FT")):
+                        if(line.split()[1] == "BINDING" or line.split()[1] == "ACT_SITE"):
+                            siteType = (line.split()[1])
+                            location = (line.split()[2])
+                            quotes_match = re.findall(r'"([^"]+)"', nextLine)
+                            locationDescription = quotes_match[0] if quotes_match else ""
 
-                    if line.startswith('ID'):
-                        uniProt_ID = line.split()[1].replace(';', '')
-                        # print(uniProt_ID)
-
-                    if line.startswith('FT'):
-                        entry = line.split()               
-                        # Process the current FT line (active site or binding site)
-                        if entry[1] == act_str:
-                            position = convert_uniprot_data_to_position(entry)
-                            # if isinstance(position, list):
-                            #     print(position[0], position[-1])
                             data.append({
-                                "UniProt_ID": uniProt_ID,
-                                "Type": act_str,
-                                "Position": position, #if there are two numbers like [450, 455] then the active sites goes from 450 to 455
-                                "Conservation_Score": "TBD",
-                                "Description": re.search(r'="([^"]+)"', ' '.join(next_line.split())).group(1)
-                            })                         
-                        if entry[1] == bind_str:
-                            position = convert_uniprot_data_to_position(entry)
-                            data.append({
-                                "UniProt_ID": uniProt_ID,
-                                "Type": bind_str,
-                                "Position": position,
-                                "Conservation_Score": "TBD",
-                                "Description": re.search(r'="([^"]+)"', next_line).group(1)
+                                "KOID": proteinKOID,
+                                "Type": siteType,
+                                "Binding_Location": location,
+                                "conservationScore": conservationScore,
+                                "Description": locationDescription
                             })
-    activeSitesDF = pd.DataFrame(data)
-    # print(activeSitesDF)
-    return activeSitesDF
+    analysisDF = pd.DataFrame(data)
+    return analysisDF
 
-def FindActiveSitesInMSA(activeSitesDF, MSAFile):
-    # print(activeSitesDF)
-    def find_char_position(full_string: str, non_hyphen_index) -> int:
-        non_hyphen_count = 0
-        for pos, char in enumerate(full_string):
-            if char != '-' and char != "\n":
-                if non_hyphen_count == non_hyphen_index:
-                    return pos - 1 #base 0 indexing
-                non_hyphen_count += 1
-        # print(sequence)
-        raise ValueError("Index out of range for non-hyphenated string.")
-    
-    with open(MSAFile, 'r') as inF:
-        lines = inF.readlines()
-        uniProtIDs = set(activeSitesDF.loc[:, "UniProt_ID"])
-        uniProtIDs = list(uniProtIDs)
-        results = []
+def get_conservation_score(analysisDF, KOID: str, target_organism: str):
+    # Function to determine Clustal-style conservation symbols
+    def clustal_symbol(column):
+        counts = Counter(column)
+        most_common_residue, max_count = counts.most_common(1)[0]
         
-        for uniProtID in uniProtIDs:
-            conservationScoreString = ""
-            sequence = ""
-            charactersToRemove = 0
+        if max_count == len(column):
+            return '*'  # Fully conserved
+        elif max_count >= len(column) * 0.8:  # Threshold for strong similarity
+            return ':'
+        elif max_count >= len(column) * 0.6:  # Threshold for weak similarity
+            return '.'
+        else:
+            return ' '  # No significant conservation
+        
+    def get_positions(seq_position, seq):
+        print(seq)
+        residue_index = 0
+        for MSA_index, value in enumerate(seq):
+            if value not in ("-", "\n", " "):
+                residue_index += 1
+            if(residue_index == seq_position):
+                return MSA_index, value     
             
+    MSA_RESULTS_FILE_PATH = FILE_PATH.GET_KOID_MSA_ANALYSIS_FILE_PATH(KOID, target_organism)
+    alignment = AlignIO.read(MSA_RESULTS_FILE_PATH, "clustal")
 
-            for i in range(len(lines)):
-                line = lines[i]
-                if(line.startswith(uniProtID)):
-                    newLineCount = line.count("\n")
-                    spaces = len([char for char in line if char.isspace()])
-                    match = re.search(r'\S+', line)
-                    charactersToRemove = spaces + match.end() - newLineCount
-                    line = line[charactersToRemove:]
-                    line = line.replace(" ", "")
-                    sequence += line
-
-                if(line.startswith(" ")):
-                    line = line[charactersToRemove:]
-                    conservationScoreString += (line)
-
-            filtered_df = activeSitesDF[activeSitesDF['UniProt_ID'].str.startswith(uniProtID)]
-            for index, row in filtered_df.iterrows():
-                if row['Type'] == "BINDING":
-                    position = find_char_position(sequence, row['Position'])  # Define or import this function
-                    #handles edge case where if conservation score is the last char then it returns "\n" but going back one will give the correct conservation score.
-                    if conservationScoreString[position] == "\n":
-                        filtered_df.loc[index, 'Conservation_Score'] = conservationScoreString[position-1]
-                    else:
-                        filtered_df.loc[index, 'Conservation_Score'] = conservationScoreString[position]
+    for index, row in analysisDF.iterrows():
 
 
+        seq_id = row["KOID"]  # Replace with the actual sequence ID
+        seq_record = next((record for record in alignment if record.id == seq_id), None)
+        binding_location = row["Binding_Location"]
 
-            results.append(filtered_df)
-            # print(results)
-        final_results = pd.concat(results, ignore_index=True)
-        return final_results
+        try:
+            # If it converts successfully, treat it as a single value
+            binding_location_int = int(binding_location)
+            print(f"Processing single binding location: {binding_location_int}")
 
-def Create_Analysis_DF(KOID: str, targetOrganism: str):
-    if targetOrganism.endswith('.csv'):
-        targetOrganism = targetOrganism.replace('.csv', "")
+            # Get position and conservation score for this single position
+            MSA_index, value = get_positions(binding_location_int, seq_record.seq)
+            column = [record.seq[MSA_index] for record in alignment]
+            conservation_score = clustal_symbol(column)
+
+            # Update the conservation score in the DataFrame
+            analysisDF.at[index, 'conservationScore'] = conservation_score
+
+        except ValueError:
+            # If conversion fails, it's likely a range (e.g., "15..23")
+            print(f"Binding location is a range or non-numeric: {binding_location}")
     
-    PATH_TO_UNIPROT_ENTRIES = FILE_PATH.GET_KOID_UNIPROT_ENTRIES_PATH(KOID, targetOrganism)
-    PATH_TO_MSA_FILE = FILE_PATH.GET_KOID_MSA_ANALYSIS_FILE_PATH(KOID, targetOrganism)
+    print(analysisDF.to_string())
 
-    file_names = [file for file in os.listdir(PATH_TO_UNIPROT_ENTRIES) if os.path.isfile(os.path.join(PATH_TO_UNIPROT_ENTRIES, file))]
-    dataFrames = []
-    for file in file_names:
-        dataFrames.append(read_uniprot_file_to_analyze_active_sites(PATH_TO_UNIPROT_ENTRIES, file))
-    final_dataframe = pd.concat(dataFrames, ignore_index=True)
 
-    ActiveSitesDF = FindActiveSitesInMSA(final_dataframe, PATH_TO_MSA_FILE)
-    ActiveSitesDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, targetOrganism), "ActiveSitesDF"))
+
+
+
+    
+
+                
+
+
+
+def analyze_MSA(KOID: str, target_organism: str):
+    if target_organism.endswith('.csv'):
+        target_organism = target_organism.replace('.csv', "")
+
+    analysisDF = create_analysis_df(KOID, target_organism)
+    get_conservation_score(analysisDF, KOID, target_organism)

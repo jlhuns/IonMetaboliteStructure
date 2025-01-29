@@ -17,10 +17,10 @@ def main(KOID_file, target_organism_file):
 
         for KOID_line in lines:
             KOID = KOID_line.replace("\n", "")
-            uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids(KOID, target_organism_file)
-            create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
+            # uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids(KOID, target_organism_file)
+            # create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
             run_msa.create_msa_file(KOID, target_organism_file)
-            # analyze_active_sites.Create_Analysis_DF(KOID, target_organism_file) 
+            analyze_active_sites.analyze_MSA(KOID, target_organism_file) 
 
     end_time = time.time()
     elapsed_time = end_time - start_time
