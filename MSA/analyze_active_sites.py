@@ -94,16 +94,7 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             # If conversion fails, it's likely a range (e.g., "15..23")
             print(f"Binding location is a range or non-numeric: {binding_location}")
     
-    print(analysisDF.to_string())
-
-
-
-
-
-    
-
-                
-
+    return analysisDF
 
 
 def analyze_MSA(KOID: str, target_organism: str):
@@ -111,4 +102,7 @@ def analyze_MSA(KOID: str, target_organism: str):
         target_organism = target_organism.replace('.csv', "")
 
     analysisDF = create_analysis_df(KOID, target_organism)
-    get_conservation_score(analysisDF, KOID, target_organism)
+    resultsDF = get_conservation_score(analysisDF, KOID, target_organism)
+    
+    resultsDF.to_csv(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism) + "_ConservationDF")
+
