@@ -60,7 +60,6 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             return ' '  # No significant conservation
         
     def get_positions(seq_position, seq):
-        print(seq)
         residue_index = 0
         for MSA_index, value in enumerate(seq):
             if value not in ("-", "\n", " "):
@@ -81,7 +80,7 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
         try:
             # If it converts successfully, treat it as a single value
             binding_location_int = int(binding_location)
-            print(f"Processing single binding location: {binding_location_int}")
+            # print(f"Processing single binding location: {binding_location_int}")
 
             # Get position and conservation score for this single position
             MSA_index, value = get_positions(binding_location_int, seq_record.seq)
