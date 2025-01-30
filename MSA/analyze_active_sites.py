@@ -39,9 +39,12 @@ def create_analysis_df(KOID: str, target_organism: str):
                                 "Type": siteType,
                                 "Binding_Location": location,
                                 "conservationScore": conservationScore,
+                                "Value": "",
                                 "Description": locationDescription
                             })
     analysisDF = pd.DataFrame(data)
+    if(analysisDF.empty):
+        print(f"analysisDF is empty for K0: {KOID}. No Binding or Active Sites Found")
     return analysisDF
 
 def get_conservation_score(analysisDF, KOID: str, target_organism: str):
@@ -80,6 +83,7 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
         pattern = r'(\d+)\.\.(\d+)'
         if re.match(pattern, binding_location):
             conservation_score_data = ""
+            values = ""
             binding_location_start = int(re.match(pattern, binding_location).group(1))
             binding_location_end = int(re.match(pattern, binding_location).group(2))
 
@@ -88,8 +92,10 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             
             for MSA_index in range(MSA_index_start, MSA_index_end + 1):
                 column = [record.seq[MSA_index] for record in alignment]
+                values += seq_record.seq[MSA_index]
                 conservation_score_data += (clustal_symbol(column))
             analysisDF.at[index, 'conservationScore'] = conservation_score_data
+            analysisDF.at[index, 'Value'] = values
             
         else:
             binding_location_int = int(binding_location)
@@ -101,15 +107,21 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
 
             # Update the conservation score in the DataFrame
             analysisDF.at[index, 'conservationScore'] = conservation_score
-
+            analysisDF.at[index, 'Value'] = value
+    if analysisDF.empty:
+        analysisDF.at[0, 'KOID'] = f"ERROR: analysisDF is empty for K0: {KOID}. No Binding or Active Sites Found"
     return analysisDF
 
 
 def analyze_MSA(KOID: str, target_organism: str):
     if target_organism.endswith('.csv'):
         target_organism = target_organism.replace('.csv', "")
-
+    if not (os.path.exists(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), f"{KOID}_MSA_Results.aln"))):
+       print(f"MSA file does not exist, skipping MSA analysis")
+       return
+    if target_organism.endswith('.csv'):
+        target_organism = target_organism.replace('.csv', "")
+    
     analysisDF = create_analysis_df(KOID, target_organism)
     resultsDF = get_conservation_score(analysisDF, KOID, target_organism)    
     resultsDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Conservation_DF"))
-

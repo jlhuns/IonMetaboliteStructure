@@ -1,0 +1,122 @@
+ID   A1B3P5_PARDP            Unreviewed;       306 AA.
+AC   A1B3P5;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 113.
+DE   RecName: Full=Arginase {ECO:0000256|ARBA:ARBA00018123, ECO:0000256|RuleBase:RU361159};
+DE            EC=3.5.3.1 {ECO:0000256|ARBA:ARBA00012168, ECO:0000256|RuleBase:RU361159};
+GN   OrderedLocusNames=Pden_2047 {ECO:0000313|EMBL:ABL70139.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL70139.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-arginine + H2O = urea + L-ornithine; Xref=Rhea:RHEA:20569,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16199, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:46911; EC=3.5.3.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000227,
+CC         ECO:0000256|RuleBase:RU361159};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR036979-1,
+CC         ECO:0000256|RuleBase:RU361159};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR036979-1, ECO:0000256|RuleBase:RU361159};
+CC   -!- PATHWAY: Nitrogen metabolism; urea cycle; L-ornithine and urea from L-
+CC       arginine: step 1/1. {ECO:0000256|ARBA:ARBA00005098}.
+CC   -!- SIMILARITY: Belongs to the arginase family. {ECO:0000256|PROSITE-
+CC       ProRule:PRU00742, ECO:0000256|RuleBase:RU003684}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL70139.1; -; Genomic_DNA.
+DR   RefSeq; WP_011748335.1; NC_008686.1.
+DR   AlphaFoldDB; A1B3P5; -.
+DR   STRING; 318586.Pden_2047; -.
+DR   EnsemblBacteria; ABL70139; ABL70139; Pden_2047.
+DR   GeneID; 75501537; -.
+DR   KEGG; pde:Pden_2047; -.
+DR   eggNOG; COG0010; Bacteria.
+DR   HOGENOM; CLU_039478_6_2_5; -.
+DR   OrthoDB; 9788689at2; -.
+DR   UniPathway; UPA00158; UER00270.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004053; F:arginase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:TreeGrafter.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:TreeGrafter.
+DR   GO; GO:0000050; P:urea cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd09989; Arginase; 1.
+DR   FunFam; 3.40.800.10:FF:000012; Arginase; 1.
+DR   Gene3D; 3.40.800.10; Ureohydrolase domain; 1.
+DR   InterPro; IPR014033; Arginase.
+DR   InterPro; IPR006035; Ureohydrolase.
+DR   InterPro; IPR023696; Ureohydrolase_dom_sf.
+DR   InterPro; IPR020855; Ureohydrolase_Mn_BS.
+DR   NCBIfam; TIGR01229; rocF_arginase; 1.
+DR   PANTHER; PTHR43782; ARGINASE; 1.
+DR   PANTHER; PTHR43782:SF3; ARGINASE; 1.
+DR   Pfam; PF00491; Arginase; 1.
+DR   PIRSF; PIRSF036979; Arginase; 1.
+DR   PRINTS; PR00116; ARGINASE.
+DR   SUPFAM; SSF52768; Arginase/deacetylase; 1.
+DR   PROSITE; PS01053; ARGINASE_1; 1.
+DR   PROSITE; PS51409; ARGINASE_2; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism {ECO:0000256|ARBA:ARBA00022503,
+KW   ECO:0000256|RuleBase:RU361159};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003684};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361}.
+FT   BINDING         97
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         124
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         126
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         128
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         226
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         228
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+SQ   SEQUENCE   306 AA;  32570 MW;  0F83B5E7A979CFA5 CRC64;
+     MTHCILIGAP VDEGQRRPGC LMGPAAYRVA GLASTLIDLG HTVEDRGDLS PAPGRGQACA
+     NPAVHHLPEI IAWTEALRAS GCSAMEEGMP IFLGGDHALA LGSLAGVAAH ARAAGRPQFV
+     LWLDAHSDFH TVETTTSGNL HGTPLAYASG RAGFDPFPAF PAPIPGRNIC MFGIRSVDSA
+     ESAALRETEI IVNDMRVLDE RGIVAPLREF LDRVQAENGM LHVSLDVDFL DPSIAPAVGT
+     TVPGGTTFRE AHLVCELLHE SGLMTSLDLV ELNPFLDERG RTAKLMVDLV GSLMGRKVFD
+     RPTHSY
+//

@@ -1,0 +1,88 @@
+ID   MQO_MICLC               Reviewed;         494 AA.
+AC   C5CAA3;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   27-NOV-2024, entry version 78.
+DE   RecName: Full=Probable malate:quinone oxidoreductase {ECO:0000255|HAMAP-Rule:MF_00212};
+DE            EC=1.1.5.4 {ECO:0000255|HAMAP-Rule:MF_00212};
+DE   AltName: Full=MQO {ECO:0000255|HAMAP-Rule:MF_00212};
+DE   AltName: Full=Malate dehydrogenase [quinone] {ECO:0000255|HAMAP-Rule:MF_00212};
+GN   Name=mqo {ECO:0000255|HAMAP-Rule:MF_00212};
+GN   OrderedLocusNames=Mlut_08440;
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Actinomycetota; Actinomycetes; Micrococcales; Micrococcaceae;
+OC   Micrococcus.
+OX   NCBI_TaxID=465515;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 / CCUG 5858 / IAM
+RC   1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230;
+RX   PubMed=19948807; DOI=10.1128/jb.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate + a quinone = a quinol + oxaloacetate;
+CC         Xref=Rhea:RHEA:46012, ChEBI:CHEBI:15589, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:132124; EC=1.1.5.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00212};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00212};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle;
+CC       oxaloacetate from (S)-malate (quinone route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00212}.
+CC   -!- SIMILARITY: Belongs to the MQO family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00212}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30372.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078988.1; NZ_WBMF01000002.1.
+DR   AlphaFoldDB; C5CAA3; -.
+DR   SMR; C5CAA3; -.
+DR   STRING; 465515.Mlut_08440; -.
+DR   EnsemblBacteria; ACS30372; ACS30372; Mlut_08440.
+DR   KEGG; mlu:Mlut_08440; -.
+DR   PATRIC; fig|465515.4.peg.807; -.
+DR   eggNOG; COG0579; Bacteria.
+DR   HOGENOM; CLU_028151_0_0_11; -.
+DR   UniPathway; UPA00223; UER01008.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0047545; F:2-hydroxyglutarate dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0008924; F:L-malate dehydrogenase (quinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.9.10; D-Amino Acid Oxidase, subunit A, domain 2; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   HAMAP; MF_00212; MQO; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR006231; MQO.
+DR   NCBIfam; TIGR01320; mal_quin_oxido; 1.
+DR   PANTHER; PTHR43104; L-2-HYDROXYGLUTARATE DEHYDROGENASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43104:SF2; L-2-HYDROXYGLUTARATE DEHYDROGENASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF06039; Mqo; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Oxidoreductase; Reference proteome;
+KW   Tricarboxylic acid cycle.
+FT   CHAIN           1..494
+FT                   /note="Probable malate:quinone oxidoreductase"
+FT                   /id="PRO_1000204201"
+SQ   SEQUENCE   494 AA;  53202 MW;  5952DD0742E06088 CRC64;
+     MPTTSSTATH DVVLIGGGIM SATLGVLLQK LEPTWSIALY ENLDQAGLES SDPWNNAGTG
+     HAALCELNYS PMDKNGRVDV TKALGINEQF WITRQFWSSL VVDGTLKDPK SFINPLPHMS
+     FVWGDDHADY LRARYEAMSA QPVFAGMEHS EDPEQIRAWA PLLIEGRESG QRLAASRHTG
+     GTDVDFGSLT RQLVTAMAGA GAEVRFGHKV TGLTRGTDGR WEVKVKNKAA GSEVVDRARF
+     VFVGAGGGAL PLLQKSGIPE IKGFGGFPVS GQFLRCTDES VVNQHMAKVY GQAAVGAPPM
+     SVPHLDTRFV NGKRSLLFGP YAGFSTNFLK TGSYLDLPLS VRPHNLTTML DVAKDNVDLT
+     KYLVTEVLKS RDKKIDALHE FYPEADGGEW ELITAGQRVQ VMKRKGRFGG VLQFGTEVVT
+     HADGSLGGLL GASPGASTAA PIMVKLLERC FPAKTAGWDG TLKELIPSLG HTLNDDPALL
+     DEVRTVTDAA LKLA
+//

@@ -1,0 +1,125 @@
+ID   A9BRG6_DELAS            Unreviewed;       321 AA.
+AC   A9BRG6;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 99.
+DE   RecName: Full=Arginase {ECO:0000256|ARBA:ARBA00018123, ECO:0000256|RuleBase:RU361159};
+DE            EC=3.5.3.1 {ECO:0000256|ARBA:ARBA00012168, ECO:0000256|RuleBase:RU361159};
+GN   OrderedLocusNames=Daci_0681 {ECO:0000313|EMBL:ABX33327.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33327.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33327.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-arginine + H2O = urea + L-ornithine; Xref=Rhea:RHEA:20569,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16199, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:46911; EC=3.5.3.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000227,
+CC         ECO:0000256|RuleBase:RU361159};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR036979-1,
+CC         ECO:0000256|RuleBase:RU361159};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR036979-1, ECO:0000256|RuleBase:RU361159};
+CC   -!- PATHWAY: Nitrogen metabolism; urea cycle; L-ornithine and urea from L-
+CC       arginine: step 1/1. {ECO:0000256|ARBA:ARBA00005098}.
+CC   -!- SIMILARITY: Belongs to the arginase family. {ECO:0000256|PROSITE-
+CC       ProRule:PRU00742, ECO:0000256|RuleBase:RU003684}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33327.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202613.1; NC_010002.1.
+DR   AlphaFoldDB; A9BRG6; -.
+DR   STRING; 398578.Daci_0681; -.
+DR   GeneID; 24118484; -.
+DR   KEGG; dac:Daci_0681; -.
+DR   eggNOG; COG0010; Bacteria.
+DR   HOGENOM; CLU_039478_6_2_4; -.
+DR   UniPathway; UPA00158; UER00270.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004053; F:arginase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:TreeGrafter.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:TreeGrafter.
+DR   GO; GO:0000050; P:urea cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd09989; Arginase; 1.
+DR   FunFam; 3.40.800.10:FF:000012; Arginase; 1.
+DR   Gene3D; 3.40.800.10; Ureohydrolase domain; 1.
+DR   InterPro; IPR014033; Arginase.
+DR   InterPro; IPR006035; Ureohydrolase.
+DR   InterPro; IPR023696; Ureohydrolase_dom_sf.
+DR   InterPro; IPR020855; Ureohydrolase_Mn_BS.
+DR   NCBIfam; TIGR01229; rocF_arginase; 1.
+DR   PANTHER; PTHR43782; ARGINASE; 1.
+DR   PANTHER; PTHR43782:SF3; ARGINASE; 1.
+DR   Pfam; PF00491; Arginase; 1.
+DR   PIRSF; PIRSF036979; Arginase; 1.
+DR   PRINTS; PR00116; ARGINASE.
+DR   SUPFAM; SSF52768; Arginase/deacetylase; 1.
+DR   PROSITE; PS01053; ARGINASE_1; 1.
+DR   PROSITE; PS51409; ARGINASE_2; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism {ECO:0000256|ARBA:ARBA00022503,
+KW   ECO:0000256|RuleBase:RU361159};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003684};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR036979-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   BINDING         111
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         138
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         140
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         142
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         243
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+FT   BINDING         245
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036979-1"
+SQ   SEQUENCE   321 AA;  33871 MW;  64E8EA6C7203A8E4 CRC64;
+     MGPMSMNTHT TPQTARALRL IGVPTDIGAS RLGSAMGPDA LRVAGLGPAL RQLGCQVSDI
+     GNLAGPPNPQ TPPEQGLRHL APARAWMDAV HQAVGQALDD GELPLMLGGD HSLAMGSISA
+     VAAHCRRRGR ALRVIWLDAH ADCNTPDISP SGNLHGMPVA SLCGLGPAAL TALSQGGDPA
+     LAAASLCQIG LRSVDDQEKR LLHSLGVEVY DMRAIDELGM REVMRRALED LEGSDTHLHL
+     SFDVDYLDPD IAPGTGTPVR GGPSYREAQL CMEMLADTGR LGSMDLVELN PALDVRNQTA
+     ELVVDLLESL FGKSTLVRAD R
+//

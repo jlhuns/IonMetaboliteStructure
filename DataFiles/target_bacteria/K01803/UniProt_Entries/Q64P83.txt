@@ -1,0 +1,110 @@
+ID   TPIS_BACFR              Reviewed;         251 AA.
+AC   Q64P83;
+DT   23-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 102.
+DE   RecName: Full=Triosephosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TIM {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            Short=TPI {ECO:0000255|HAMAP-Rule:MF_00147};
+DE            EC=5.3.1.1 {ECO:0000255|HAMAP-Rule:MF_00147};
+DE   AltName: Full=Triose-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00147};
+GN   Name=tpiA {ECO:0000255|HAMAP-Rule:MF_00147}; OrderedLocusNames=BF3956;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Involved in the gluconeogenesis. Catalyzes stereospecifically
+CC       the conversion of dihydroxyacetone phosphate (DHAP) to D-
+CC       glyceraldehyde-3-phosphate (G3P). {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate = dihydroxyacetone phosphate;
+CC         Xref=Rhea:RHEA:18585, ChEBI:CHEBI:57642, ChEBI:CHEBI:59776;
+CC         EC=5.3.1.1; Evidence={ECO:0000255|HAMAP-Rule:MF_00147};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate from glycerone phosphate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00147}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   -!- SIMILARITY: Belongs to the triosephosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00147}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50698.1; -; Genomic_DNA.
+DR   RefSeq; WP_005791115.1; NZ_UYXF01000028.1.
+DR   RefSeq; YP_101232.1; NC_006347.1.
+DR   AlphaFoldDB; Q64P83; -.
+DR   SMR; Q64P83; -.
+DR   STRING; 295405.BF3956; -.
+DR   GeneID; 66331438; -.
+DR   KEGG; bfr:BF3956; -.
+DR   PATRIC; fig|295405.11.peg.3802; -.
+DR   HOGENOM; CLU_024251_2_1_10; -.
+DR   OrthoDB; 9809429at2; -.
+DR   UniPathway; UPA00109; UER00189.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004807; F:triose-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046166; P:glyceraldehyde-3-phosphate biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00311; TIM; 1.
+DR   FunFam; 3.20.20.70:FF:000016; Triosephosphate isomerase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00147_B; TIM_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR035990; TIM_sf.
+DR   InterPro; IPR022896; TrioseP_Isoase_bac/euk.
+DR   InterPro; IPR000652; Triosephosphate_isomerase.
+DR   InterPro; IPR020861; Triosephosphate_isomerase_AS.
+DR   NCBIfam; TIGR00419; tim; 1.
+DR   PANTHER; PTHR21139; TRIOSEPHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR21139:SF2; TRIOSEPHOSPHATE ISOMERASE; 1.
+DR   Pfam; PF00121; TIM; 1.
+DR   SUPFAM; SSF51351; Triosephosphate isomerase (TIM); 1.
+DR   PROSITE; PS00171; TIM_1; 1.
+DR   PROSITE; PS51440; TIM_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase.
+FT   CHAIN           1..251
+FT                   /note="Triosephosphate isomerase"
+FT                   /id="PRO_0000307430"
+FT   ACT_SITE        96
+FT                   /note="Electrophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+FT   ACT_SITE        167
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+FT   BINDING         9..11
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+FT   BINDING         173
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+FT   BINDING         213
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+FT   BINDING         234..235
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00147"
+SQ   SEQUENCE   251 AA;  26593 MW;  E2DCA1F14835ED76 CRC64;
+     MRKNIVAGNW KMNKTLQEGI ALAKELNEAL ANEKPNCDVI ICTPFIHLAS VTPLVDAAKI
+     GVGAENCADK ESGAYTGEVS AAMVASTGAK YVILGHSERR AYYGETVEIL KDKVKLALAN
+     GLTPIFCIGE VLEEREANKQ NEVVAAQLAS VFDLSAEDFS KIVLAYEPVW AIGTGKTASP
+     AQAQEIHAFI RSAVAEKYGK EIADNTSILY GGSCKPSNAK ELFANPDVDG GLIGGAALKV
+     ADFKGIIDAF N
+//
