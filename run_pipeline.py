@@ -6,6 +6,7 @@
 
 from Ortholog_Identificiation import create_uniprot_entries, get_orthologs_uniprotID
 from MSA import analyze_active_sites, run_msa
+from Analysis import conservation_analysis
 import time
 import sys
 
@@ -21,6 +22,8 @@ def main(KOID_file, target_organism_file):
             create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
             run_msa.create_msa_file(KOID, target_organism_file)
             analyze_active_sites.analyze_MSA(KOID, target_organism_file) 
+            conservation_analysis.run_analysis(KOID, target_organism_file)
+
 
     end_time = time.time()
     elapsed_time = end_time - start_time
