@@ -10,7 +10,7 @@ def create_msa_file(KOID: str, targetOrganism: str):
     file_count = len([f for f in os.listdir(folderPath) if os.path.isfile(os.path.join(folderPath, f))])
 
     if(file_count < 3):
-        print("Not enough Data to run MSA")
+        print(f"Not enough Data to run MSA, only {file_count} uniprot entries")
     else:
         sequence_data = FILEPATH.readDirectoryContents(folderPath)
 

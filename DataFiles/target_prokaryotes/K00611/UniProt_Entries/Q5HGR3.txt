@@ -1,0 +1,124 @@
+ID   OTC_STAAC               Reviewed;         333 AA.
+AC   Q5HGR3;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   27-NOV-2024, entry version 115.
+DE   RecName: Full=Ornithine carbamoyltransferase;
+DE            Short=OTCase;
+DE            EC=2.1.3.3;
+GN   Name=argF; OrderedLocusNames=SACOL1181;
+OS   Staphylococcus aureus (strain COL).
+OC   Bacteria; Bacillota; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93062;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=COL;
+RX   PubMed=15774886; DOI=10.1128/jb.187.7.2426-2438.2005;
+RA   Gill S.R., Fouts D.E., Archer G.L., Mongodin E.F., DeBoy R.T., Ravel J.,
+RA   Paulsen I.T., Kolonay J.F., Brinkac L.M., Beanan M.J., Dodson R.J.,
+RA   Daugherty S.C., Madupu R., Angiuoli S.V., Durkin A.S., Haft D.H.,
+RA   Vamathevan J.J., Khouri H., Utterback T.R., Lee C., Dimitrov G., Jiang L.,
+RA   Qin H., Weidman J., Tran K., Kang K.H., Hance I.R., Nelson K.E.,
+RA   Fraser C.M.;
+RT   "Insights on evolution of virulence and resistance from the complete genome
+RT   analysis of an early methicillin-resistant Staphylococcus aureus strain and
+RT   a biofilm-producing methicillin-resistant Staphylococcus epidermidis
+RT   strain.";
+RL   J. Bacteriol. 187:2426-2438(2005).
+CC   -!- FUNCTION: Reversibly catalyzes the transfer of the carbamoyl group from
+CC       carbamoyl phosphate (CP) to the N(epsilon) atom of ornithine (ORN) to
+CC       produce L-citrulline. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-ornithine = L-citrulline + phosphate +
+CC         H(+); Xref=Rhea:RHEA:19513, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:46911, ChEBI:CHEBI:57743, ChEBI:CHEBI:58228; EC=2.1.3.3;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 1/3.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. OTCase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000046; AAW36560.1; -; Genomic_DNA.
+DR   RefSeq; WP_000793605.1; NC_002951.2.
+DR   AlphaFoldDB; Q5HGR3; -.
+DR   SMR; Q5HGR3; -.
+DR   KEGG; sac:SACOL1181; -.
+DR   HOGENOM; CLU_043846_3_1_9; -.
+DR   UniPathway; UPA00068; UER00112.
+DR   Proteomes; UP000000530; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004585; F:ornithine carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:TreeGrafter.
+DR   GO; GO:0019240; P:citrulline biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 3.40.50.1370:FF:000004; Ornithine carbamoyltransferase; 1.
+DR   Gene3D; 3.40.50.1370; Aspartate/ornithine carbamoyltransferase; 2.
+DR   HAMAP; MF_01109; OTCase; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   InterPro; IPR024904; OTCase_ArgI.
+DR   NCBIfam; TIGR00658; orni_carb_tr; 1.
+DR   PANTHER; PTHR45753:SF2; ORNITHINE CARBAMOYLTRANSFERASE, CATABOLIC; 1.
+DR   PANTHER; PTHR45753; ORNITHINE CARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; Aspartate/ornithine carbamoyltransferase; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm; Transferase.
+FT   CHAIN           1..333
+FT                   /note="Ornithine carbamoyltransferase"
+FT                   /id="PRO_0000113008"
+FT   BINDING         56..59
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         83
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         107
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         134..137
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         167
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         231
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         235..236
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         273..274
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         318
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+SQ   SEQUENCE   333 AA;  37517 MW;  1AEBBB4F95CFC36E CRC64;
+     MKNLRNRSFL TLLDFSRQEV EFLLTLSEDL KRAKYIGTEK PMLKNKNIAL LFEKDSTRTR
+     CAFEVAAHDQ GANVTYLGPT GSQMGKKETT KDTARVLGGM YDGIEYRGFS QRTVETLAEY
+     SGVPVWNGLT DEDHPTQVLA DFLTAKEVLK KDYADINFTY VGDGRNNVAN ALMQGAAIMG
+     MNFHLVCPKE LNPTDELLNR CKNIAAENGG NILITDDIDQ GVKGSDVIYT DVWVSMGEPD
+     EVWKERLELL KPYQVNKEIM DKTGNPNVIF EHCLPSFHNA DTKIGQQIFE KYGIREMEVT
+     DEVFESKASV VFQEAENRMH TIKAVMVATL GEF
+//

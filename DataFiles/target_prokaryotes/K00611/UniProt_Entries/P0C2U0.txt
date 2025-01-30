@@ -1,0 +1,139 @@
+ID   OTCC_LACLA              Reviewed;         354 AA.
+AC   P0C2U0; Q9CE14; Q9KGV4;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2007, sequence version 1.
+DT   27-NOV-2024, entry version 96.
+DE   RecName: Full=Ornithine carbamoyltransferase, catabolic;
+DE            Short=OTCase;
+DE            EC=2.1.3.3;
+GN   Name=arcB; OrderedLocusNames=LL2036; ORFNames=L0109;
+OS   Lactococcus lactis subsp. lactis (strain IL1403) (Streptococcus lactis).
+OC   Bacteria; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=272623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IL1403;
+RX   PubMed=11337471; DOI=10.1101/gr.gr-1697r;
+RA   Bolotin A., Wincker P., Mauger S., Jaillon O., Malarme K., Weissenbach J.,
+RA   Ehrlich S.D., Sorokin A.;
+RT   "The complete genome sequence of the lactic acid bacterium Lactococcus
+RT   lactis ssp. lactis IL1403.";
+RL   Genome Res. 11:731-753(2001).
+CC   -!- FUNCTION: Reversibly catalyzes the transfer of the carbamoyl group from
+CC       carbamoyl phosphate (CP) to the N(epsilon) atom of ornithine (ORN) to
+CC       produce L-citrulline. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-ornithine = L-citrulline + phosphate +
+CC         H(+); Xref=Rhea:RHEA:19513, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:46911, ChEBI:CHEBI:57743, ChEBI:CHEBI:58228; EC=2.1.3.3;
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via ADI
+CC       pathway; carbamoyl phosphate from L-arginine: step 2/2.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. OTCase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005176; AAK06134.1; -; Genomic_DNA.
+DR   PIR; D86879; D86879.
+DR   RefSeq; NP_268193.1; NC_002662.1.
+DR   RefSeq; WP_004254507.1; NC_002662.1.
+DR   AlphaFoldDB; P0C2U0; -.
+DR   SMR; P0C2U0; -.
+DR   PaxDb; 272623-L0109; -.
+DR   EnsemblBacteria; AAK06134; AAK06134; L0109.
+DR   GeneID; 89634389; -.
+DR   KEGG; lla:L0109; -.
+DR   PATRIC; fig|272623.7.peg.2193; -.
+DR   eggNOG; COG0078; Bacteria.
+DR   HOGENOM; CLU_043846_3_1_9; -.
+DR   OrthoDB; 9802587at2; -.
+DR   UniPathway; UPA00254; UER00365.
+DR   Proteomes; UP000002196; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004585; F:ornithine carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:TreeGrafter.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019240; P:citrulline biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 3.40.50.1370:FF:000008; Ornithine carbamoyltransferase; 1.
+DR   Gene3D; 3.40.50.1370; Aspartate/ornithine carbamoyltransferase; 2.
+DR   HAMAP; MF_01109; OTCase; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   InterPro; IPR024904; OTCase_ArgI.
+DR   NCBIfam; TIGR00658; orni_carb_tr; 1.
+DR   PANTHER; PTHR45753:SF1; ORNITHINE CARBAMOYLTRANSFERASE, CATABOLIC; 1.
+DR   PANTHER; PTHR45753; ORNITHINE CARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; Aspartate/ornithine carbamoyltransferase; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; Cytoplasm; Reference proteome; Transferase.
+FT   CHAIN           1..354
+FT                   /note="Ornithine carbamoyltransferase, catabolic"
+FT                   /id="PRO_0000112935"
+FT   BINDING         67..70
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         94
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         118
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         145..148
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         177
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         241
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         245..246
+FT                   /ligand="L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:46911"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         284..285
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         329
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   CONFLICT        162
+FT                   /note="H -> Y (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        204
+FT                   /note="T -> S (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        278
+FT                   /note="Q -> K (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        313
+FT                   /note="E -> A (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   354 AA;  39456 MW;  75C2F1BD423EFC98 CRC64;
+     MTSPLITKAE VNSVFQGRSL LAEKDFTPAE INYLVDFGLH LKALKQQNIP HHYLEGKNIA
+     LLFAKTSTRT RAAFTTAAID LGAHPEYLGA NDIQLGIKES TEDTARVLGS MFDAIERRGF
+     SQKEVEDLAK YSGVPVWNGL TDDWHPTQMI ADFMTVKENF GHLKGLTLVY VGDGRNNMAN
+     SLIVTGSMLG VNVHIVAPDS LHPTKEVMDI ANKFAEKSGA KPLATSNIEE GVKGANIIYS
+     DVWVSMGESN WEERVKLLTP YRITMDMLKM TGNADNGQLI FMHCLPAFHD TETEYGKEIK
+     EKYGLTEMEV TDEVFRSKYA RQFEEAENRM HSIKAIMAAT LGNLFIPAVP EDFK
+//
