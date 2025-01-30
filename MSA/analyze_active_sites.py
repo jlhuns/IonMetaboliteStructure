@@ -77,10 +77,22 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
         seq_record = next((record for record in alignment if record.id == seq_id), None)
         binding_location = row["Binding_Location"]
 
-        try:
-            # If it converts successfully, treat it as a single value
+        pattern = r'(\d+)\.\.(\d+)'
+        if re.match(pattern, binding_location):
+            conservation_score_data = ""
+            binding_location_start = int(re.match(pattern, binding_location).group(1))
+            binding_location_end = int(re.match(pattern, binding_location).group(2))
+
+            MSA_index_start, value = get_positions(binding_location_start, seq_record.seq)
+            MSA_index_end, value = get_positions(binding_location_end, seq_record.seq)
+            
+            for MSA_index in range(MSA_index_start, MSA_index_end + 1):
+                column = [record.seq[MSA_index] for record in alignment]
+                conservation_score_data += (clustal_symbol(column))
+            analysisDF.at[index, 'conservationScore'] = conservation_score_data
+            
+        else:
             binding_location_int = int(binding_location)
-            # print(f"Processing single binding location: {binding_location_int}")
 
             # Get position and conservation score for this single position
             MSA_index, value = get_positions(binding_location_int, seq_record.seq)
@@ -90,10 +102,6 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             # Update the conservation score in the DataFrame
             analysisDF.at[index, 'conservationScore'] = conservation_score
 
-        except ValueError:
-            # If conversion fails, it's likely a range (e.g., "15..23")
-            print(f"Binding location is a range or non-numeric: {binding_location}")
-    
     return analysisDF
 
 
@@ -102,7 +110,6 @@ def analyze_MSA(KOID: str, target_organism: str):
         target_organism = target_organism.replace('.csv', "")
 
     analysisDF = create_analysis_df(KOID, target_organism)
-    resultsDF = get_conservation_score(analysisDF, KOID, target_organism)
-    
-    resultsDF.to_csv(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism) + "_ConservationDF")
+    resultsDF = get_conservation_score(analysisDF, KOID, target_organism)    
+    resultsDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Conservation_DF"))
 
