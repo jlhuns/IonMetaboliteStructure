@@ -1,0 +1,152 @@
+ID   C5C8W8_MICLC            Unreviewed;       252 AA.
+AC   C5C8W8;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   27-NOV-2024, entry version 96.
+DE   RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase {ECO:0000256|HAMAP-Rule:MF_01039, ECO:0000256|RuleBase:RU004512};
+DE            Short=BPG-dependent PGAM {ECO:0000256|HAMAP-Rule:MF_01039};
+DE            Short=PGAM {ECO:0000256|HAMAP-Rule:MF_01039};
+DE            Short=Phosphoglyceromutase {ECO:0000256|HAMAP-Rule:MF_01039};
+DE            Short=dPGM {ECO:0000256|HAMAP-Rule:MF_01039};
+DE            EC=5.4.2.11 {ECO:0000256|HAMAP-Rule:MF_01039, ECO:0000256|RuleBase:RU004512};
+GN   Name=gpmA {ECO:0000256|HAMAP-Rule:MF_01039,
+GN   ECO:0000313|EMBL:SQG48872.1};
+GN   OrderedLocusNames=Mlut_03720 {ECO:0000313|EMBL:ACS29920.1};
+GN   ORFNames=NCTC2665_01394 {ECO:0000313|EMBL:SQG48872.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Actinomycetota; Actinomycetes; Micrococcales; Micrococcaceae;
+OC   Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS29920.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS29920.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS29920.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG48872.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG48872.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the interconversion of 2-phosphoglycerate and 3-
+CC       phosphoglycerate. {ECO:0000256|HAMAP-Rule:MF_01039,
+CC       ECO:0000256|RuleBase:RU004512}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2-phosphoglycerate = (2R)-3-phosphoglycerate;
+CC         Xref=Rhea:RHEA:15901, ChEBI:CHEBI:58272, ChEBI:CHEBI:58289;
+CC         EC=5.4.2.11; Evidence={ECO:0000256|ARBA:ARBA00000380,
+CC         ECO:0000256|HAMAP-Rule:MF_01039, ECO:0000256|RuleBase:RU004512};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 3/5. {ECO:0000256|HAMAP-Rule:MF_01039,
+CC       ECO:0000256|RuleBase:RU004512}.
+CC   -!- SIMILARITY: Belongs to the phosphoglycerate mutase family. BPG-
+CC       dependent PGAM subfamily. {ECO:0000256|ARBA:ARBA00006717,
+CC       ECO:0000256|HAMAP-Rule:MF_01039}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS29920.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG48872.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079453.1; NZ_WBMF01000090.1.
+DR   AlphaFoldDB; C5C8W8; -.
+DR   STRING; 465515.Mlut_03720; -.
+DR   EnsemblBacteria; ACS29920; ACS29920; Mlut_03720.
+DR   KEGG; mlu:Mlut_03720; -.
+DR   PATRIC; fig|465515.4.peg.350; -.
+DR   eggNOG; COG0588; Bacteria.
+DR   HOGENOM; CLU_033323_1_1_11; -.
+DR   UniPathway; UPA00109; UER00186.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0046538; F:2,3-bisphosphoglycerate-dependent phosphoglycerate mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07067; HP_PGM_like; 1.
+DR   FunFam; 3.40.50.1240:FF:000012; Phosphoglycerate mutase 1; 1.
+DR   Gene3D; 3.40.50.1240; Phosphoglycerate mutase-like; 1.
+DR   HAMAP; MF_01039; PGAM_GpmA; 1.
+DR   InterPro; IPR013078; His_Pase_superF_clade-1.
+DR   InterPro; IPR029033; His_PPase_superfam.
+DR   InterPro; IPR001345; PG/BPGM_mutase_AS.
+DR   InterPro; IPR005952; Phosphogly_mut1.
+DR   NCBIfam; TIGR01258; pgm_1; 1.
+DR   PANTHER; PTHR11931; PHOSPHOGLYCERATE MUTASE; 1.
+DR   PANTHER; PTHR11931:SF0; PHOSPHOGLYCERATE MUTASE; 1.
+DR   Pfam; PF00300; His_Phos_1; 1.
+DR   PIRSF; PIRSF000709; 6PFK_2-Ptase; 2.
+DR   SMART; SM00855; PGAM; 1.
+DR   SUPFAM; SSF53254; Phosphoglycerate mutase-like; 1.
+DR   PROSITE; PS00175; PG_MUTASE; 1.
+PE   3: Inferred from homology;
+KW   Gluconeogenesis {ECO:0000256|HAMAP-Rule:MF_01039};
+KW   Glycolysis {ECO:0000256|ARBA:ARBA00023152, ECO:0000256|HAMAP-
+KW   Rule:MF_01039};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01039};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   ACT_SITE        13
+FT                   /note="Tele-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-1"
+FT   ACT_SITE        91
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-1"
+FT   BINDING         12..19
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         25..26
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         64
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         91..94
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         102
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         118..119
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   BINDING         186..187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-2"
+FT   SITE            185
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01039,
+FT                   ECO:0000256|PIRSR:PIRSR613078-3"
+SQ   SEQUENCE   252 AA;  27798 MW;  C00D6BBF13483E67 CRC64;
+     MANTTYTLVL LRHGQSEWNE KNLFTGWVDV PLTEKGRAEA ARGGELLEAE GIHPDVVHTS
+     LLKRAITTAN LALEAADRQW IPVKRSWRLN ERHYGALQGK DKAQVKEEFG EEQFMVWRRS
+     FDTPPPALDD DSEFSQAGDE RYADLGKDAP RTEALKQVID RLLPYWEEQV LPDLKAGKTV
+     LIAAHGNSLR ALVKHLDGIS DEDIAGLNIP TGIPLVYELD QNFKPITANG RYLDPEAAAA
+     GAAAVAAQGS AH
+//

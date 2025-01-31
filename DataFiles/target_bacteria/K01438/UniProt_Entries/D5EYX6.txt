@@ -1,0 +1,85 @@
+ID   D5EYX6_XYLR2            Unreviewed;       354 AA.
+AC   D5EYX6;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 66.
+DE   RecName: Full=succinyl-diaminopimelate desuccinylase {ECO:0000256|ARBA:ARBA00011921};
+DE            EC=3.5.1.18 {ECO:0000256|ARBA:ARBA00011921};
+GN   OrderedLocusNames=PRU_2920 {ECO:0000313|EMBL:ADE82829.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82829.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82829.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-succinyl-(2S,6S)-2,6-diaminoheptanedioate + H2O =
+CC         (2S,6S)-2,6-diaminoheptanedioate + succinate; Xref=Rhea:RHEA:22608,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30031, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:58087; EC=3.5.1.18;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001246};
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001941};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (succinylase route): step 3/3. {ECO:0000256|ARBA:ARBA00005130}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82829.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064815.1; NC_014033.1.
+DR   AlphaFoldDB; D5EYX6; -.
+DR   STRING; 264731.PRU_2920; -.
+DR   GeneID; 69976800; -.
+DR   KEGG; pru:PRU_2920; -.
+DR   eggNOG; COG0624; Bacteria.
+DR   HOGENOM; CLU_021802_2_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0008777; F:acetylornithine deacetylase activity; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd05651; M20_ArgE_DapE-like; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR050072; Peptidase_M20A.
+DR   PANTHER; PTHR43808; ACETYLORNITHINE DEACETYLASE; 1.
+DR   PANTHER; PTHR43808:SF8; M20_DIMER DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+PE   4: Predicted;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833}.
+FT   DOMAIN          168..258
+FT                   /note="Peptidase M20 dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF07687"
+SQ   SEQUENCE   354 AA;  39650 MW;  67F1B128AEB814A5 CRC64;
+     MENKNYLYDA VALLKELIAI PSVSRDETRA ADKLADFLNM WNLPFGREGN NLWVGCPDWD
+     NNRPTVMLNA HIDTVKPVSS WTRDPFSPDQ EYDVIYGLGS NDCGGGLVSL LQAYRIMLYR
+     PRNYNLLWVA SAEEEISGQN GLSRVLPLLP KIDVAIVGEP TGMQPAIAEK GLMVIDGYAH
+     GKSGHAARNE GINAIYEALD DLVWLRDYKF RKVSPLLGPT KMTVTVVEGG TQHNVVPDTL
+     HFVIDVRTNE FYQNEYLFNF LCKKMTKCEL RARSFRLHSS AISPEHPLIK RCIDRGMQPF
+     GSPTLSDQAL MPFPSFKLGP GESSRSHSAN EFIKISEMEH AIDTYIGLLD GLTL
+//

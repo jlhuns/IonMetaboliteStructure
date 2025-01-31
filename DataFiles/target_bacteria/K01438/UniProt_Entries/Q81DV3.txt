@@ -1,0 +1,82 @@
+ID   Q81DV3_BACCR            Unreviewed;       422 AA.
+AC   Q81DV3;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 113.
+DE   SubName: Full=Acetylornithine deacetylase {ECO:0000313|EMBL:AAP09212.1};
+DE            EC=3.5.1.16 {ECO:0000313|EMBL:AAP09212.1};
+GN   OrderedLocusNames=BC_2248 {ECO:0000313|EMBL:AAP09212.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP09212.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP09212.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001941};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947};
+CC   -!- SIMILARITY: Belongs to the peptidase M20A family.
+CC       {ECO:0000256|ARBA:ARBA00006247}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP09212.1; -; Genomic_DNA.
+DR   RefSeq; NP_832011.1; NC_004722.1.
+DR   RefSeq; WP_000436698.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81DV3; -.
+DR   MEROPS; M20.A21; -.
+DR   KEGG; bce:BC2248; -.
+DR   PATRIC; fig|226900.8.peg.2270; -.
+DR   HOGENOM; CLU_021802_0_2_9; -.
+DR   OrthoDB; 9792335at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0008777; F:acetylornithine deacetylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR010182; ArgE/DapE.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR050072; Peptidase_M20A.
+DR   NCBIfam; TIGR01910; DapE-ArgE; 1.
+DR   PANTHER; PTHR43808; ACETYLORNITHINE DEACETYLASE; 1.
+DR   PANTHER; PTHR43808:SF3; ACETYLORNITHINE DEACETYLASE-RELATED; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+PE   3: Inferred from homology;
+KW   Cobalt {ECO:0000256|ARBA:ARBA00023285};
+KW   Hydrolase {ECO:0000313|EMBL:AAP09212.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833}.
+FT   DOMAIN          202..311
+FT                   /note="Peptidase M20 dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF07687"
+SQ   SEQUENCE   422 AA;  47165 MW;  6233481448F5A982 CRC64;
+     MEQLKKQVCD YIESHEEESV KFLKRLIQEK SVSGDESGAQ AIVIEKLREL GLELDIWEPS
+     FSKMKDHPYF VSPRTSFSDS PNIVATLKGS GDGKSMILNG HIDVVPEGDV NQWEHHPYSG
+     EKIGNRIYGR GTTDMKGGNV ALMLAMEAII ESNIELKGDI YFQSVIEEES GGAGTLATIL
+     RGYKADGVII PEPTNMKFFP KQQGSMWFRL RVKGKAAHGG TRYEGVSAIE KSMFVIEHVR
+     KLEEKRNSRI TDPLFKEIPI PIPINIGKIE GGSWPSSVPD ELILEGRCGV APNETIEAAK
+     EEFENWIAEL NDVDNWFVEN PVEVEWFGAR WVPGELEENH ELITTLHHNF VEIEGNEPII
+     EASPWGTDGG LFTQIANVPT IVFGPGETKV AHYPNEYIEV DKMIAAAKII ACTLLDWCEV
+     KK
+//

@@ -1,0 +1,160 @@
+ID   Q6N200_RHOPA            Unreviewed;       454 AA.
+AC   Q6N200;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 117.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit N {ECO:0000256|HAMAP-Rule:MF_00445};
+DE            EC=7.1.1.- {ECO:0000256|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NADH dehydrogenase I subunit N {ECO:0000256|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NDH-1 subunit N {ECO:0000256|HAMAP-Rule:MF_00445};
+GN   Name=nuoN2 {ECO:0000313|EMBL:CAE29693.1};
+GN   Synonyms=nuoN {ECO:0000256|HAMAP-Rule:MF_00445};
+GN   OrderedLocusNames=RPA4252 {ECO:0000313|EMBL:CAE29693.1};
+GN   ORFNames=TX73_022030 {ECO:0000313|EMBL:WCL94441.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29693.1};
+RN   [1] {ECO:0000313|EMBL:WCL94441.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94441.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29693.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29693.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94441.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94441.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000256|HAMAP-Rule:MF_00445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000256|HAMAP-Rule:MF_00445};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000256|HAMAP-Rule:MF_00445}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_00445}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_00445}. Endomembrane system {ECO:0000256|ARBA:ARBA00004127};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004127}. Membrane
+CC       {ECO:0000256|RuleBase:RU000320}; Multi-pass membrane protein
+CC       {ECO:0000256|RuleBase:RU000320}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 2 family.
+CC       {ECO:0000256|ARBA:ARBA00007012, ECO:0000256|HAMAP-Rule:MF_00445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572606; CAE29693.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94441.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159787.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4252; -.
+DR   GeneID; 66895378; -.
+DR   KEGG; rpa:TX73_022030; -.
+DR   eggNOG; COG1007; Bacteria.
+DR   HOGENOM; CLU_007100_1_5_5; -.
+DR   PhylomeDB; Q6N200; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0050136; F:NADH:ubiquinone reductase (non-electrogenic) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   HAMAP; MF_00445; NDH1_NuoN_1; 1.
+DR   InterPro; IPR010096; NADH-Q_OxRdtase_suN/2.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   PANTHER; PTHR22773; NADH DEHYDROGENASE; 1.
+DR   PANTHER; PTHR22773:SF41; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 2; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00445};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Oxidoreductase {ECO:0000313|EMBL:CAE29693.1};
+KW   Quinone {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Translocase {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_00445};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_00445}; Transport {ECO:0000256|HAMAP-Rule:MF_00445};
+KW   Ubiquinone {ECO:0000256|HAMAP-Rule:MF_00445}.
+FT   TRANSMEM        6..26
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        38..58
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        70..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        97..114
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        120..138
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        150..170
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        185..205
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        217..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        251..272
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        281..301
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        307..328
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        348..369
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        381..401
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        426..449
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00445"
+FT   DOMAIN          115..394
+FT                   /note="NADH:quinone oxidoreductase/Mrp antiporter membrane
+FT                   subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF00361"
+SQ   SEQUENCE   454 AA;  46273 MW;  52D2FC5D7094D113 CRC64;
+     MTAAQFAALS PLVVLAIAAV AAMMLVPLAR LQIVQASAAA GLAIAAALVL LRIGAPAAPM
+     GALFTDDGPA RFGIVFACLV SLGALVFLRT GHPAKEAPSL LVLVAIGAAT LAGAGHAATL
+     FLGIEILSLS LIALFAFRLT RQGLEAAYKF LVMSGLASSA LLLGIALIFA ETGALDFAGW
+     GGRGALTAFG TALLLAGLAF KFSLVPFHMW TPDAFEAAPA SAATLAGVVS KSAVAIVILR
+     LALTAHLPEP VWSQGLAALG GASVLIGNLL ALRQPQLPRM LGYSTIAHSG YIALIIASGT
+     PHAGEAVLFY LAIYAPAMLG ALCVSAALGR APTLPDLHGL MKRRPLEAIA LSLSLLSLAG
+     LPAAGGFIAK LFLLRVLIDG SLWVLVGIVV AGSSLGFFYY AKFFTAPFVG HTHDESEPLP
+     QLDRGLLIVC IALIVIFGVA PAGLMNVVAA TMAP
+//

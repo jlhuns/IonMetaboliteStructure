@@ -1,0 +1,153 @@
+ID   NUON_SALTI              Reviewed;         485 AA.
+AC   Q8Z530; Q7CB92;
+DT   19-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 2.
+DT   27-NOV-2024, entry version 126.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit N {ECO:0000255|HAMAP-Rule:MF_00445};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NADH dehydrogenase I subunit N {ECO:0000255|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NDH-1 subunit N {ECO:0000255|HAMAP-Rule:MF_00445};
+GN   Name=nuoN {ECO:0000255|HAMAP-Rule:MF_00445};
+GN   OrderedLocusNames=STY2546, t0548;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000255|HAMAP-Rule:MF_00445};
+CC   -!- SUBUNIT: NDH-1 is composed of 13 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00445}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00445}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO68254.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=CAD07548.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07548.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE014613; AAO68254.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_456858.3; NC_003198.1.
+DR   RefSeq; WP_000156669.1; NZ_WSUR01000039.1.
+DR   AlphaFoldDB; Q8Z530; -.
+DR   SMR; Q8Z530; -.
+DR   STRING; 220341.gene:17586445; -.
+DR   KEGG; stt:t0548; -.
+DR   KEGG; sty:STY2546; -.
+DR   PATRIC; fig|220341.7.peg.2576; -.
+DR   eggNOG; COG1007; Bacteria.
+DR   HOGENOM; CLU_007100_1_5_6; -.
+DR   OMA; FYIRVIV; -.
+DR   OrthoDB; 9768329at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0050136; F:NADH:ubiquinone reductase (non-electrogenic) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   HAMAP; MF_00445; NDH1_NuoN_1; 1.
+DR   InterPro; IPR010096; NADH-Q_OxRdtase_suN/2.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   NCBIfam; TIGR01770; NDH_I_N; 1.
+DR   PANTHER; PTHR22773; NADH DEHYDROGENASE; 1.
+DR   PANTHER; PTHR22773:SF41; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 2; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..485
+FT                   /note="NADH-quinone oxidoreductase subunit N"
+FT                   /id="PRO_0000249447"
+FT   TRANSMEM        8..28
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        35..55
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        71..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        105..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        127..147
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        203..223
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        235..255
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        271..291
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        297..317
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        326..346
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        373..393
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        408..430
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        455..475
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+SQ   SEQUENCE   485 AA;  51983 MW;  89654C1ACDBB4FA6 CRC64;
+     MTITPQHLIA LLPLLIVGLT VVVVMLSIAW RRNHFLNATL SVIGLNAALV SLWFVGQAGA
+     MDVTPLMRVD GFAMLYTGLV LLASLATCTF AYPWLEGYND NQEEFYLLVL IASLGGILLA
+     NANHLAALFL GIELISLPLF GLIGYAFRQK RSLEASIKYT ILSAAASSFL LFGMALVYAQ
+     SGNLSFEALG KSLGDGMLHE PLLLAGFGLM IVGLGFKLSL VPFHLWTPDV YQGAPAPVST
+     FLATASKIAI FGVVMRLFLY APVGDSEAVR VVLGIIAFAS IIFGNLMALS QTNIKRLLGY
+     SSISHLGYLL VALIALQSGE MSMEAVGVYL AGYLFSSLGA FGVVSLMSSP FRGPDADSLY
+     SYRGLFWHRP VLAAVMTVMM LSLAGIPMTL GFIGKFYVLA VGVQASLWWL VAAVVVGSAI
+     GLYYYLRVAV SLYLHAPQQP GRDAPTNWQY SAGGIVVLIS ALLVLVLGVW PQPLISLVQL
+     ATPLM
+//
