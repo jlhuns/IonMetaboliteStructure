@@ -1,0 +1,129 @@
+ID   W6RZ57_9HYPH            Unreviewed;       320 AA.
+AC   W6RZ57;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   27-NOV-2024, entry version 58.
+DE   RecName: Full=Malate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_00487};
+DE            EC=1.1.1.37 {ECO:0000256|HAMAP-Rule:MF_00487};
+GN   Name=mdh3 {ECO:0000313|EMBL:CDM59556.1};
+GN   Synonyms=mdh {ECO:0000256|HAMAP-Rule:MF_00487};
+GN   ORFNames=LPU83_3920 {ECO:0000313|EMBL:CDM59556.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM59556.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM59556.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM59556.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible oxidation of malate to oxaloacetate.
+CC       {ECO:0000256|ARBA:ARBA00003966, ECO:0000256|HAMAP-Rule:MF_00487}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate + NAD(+) = oxaloacetate + NADH + H(+);
+CC         Xref=Rhea:RHEA:21432, ChEBI:CHEBI:15378, ChEBI:CHEBI:15589,
+CC         ChEBI:CHEBI:16452, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.37;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00487};
+CC   -!- SIMILARITY: Belongs to the LDH/MDH superfamily. MDH type 3 family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00487}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM59556.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316819.1; NZ_JAIRAY010000048.1.
+DR   AlphaFoldDB; W6RZ57; -.
+DR   KEGG; rhl:LPU83_3920; -.
+DR   PATRIC; fig|348824.6.peg.4205; -.
+DR   eggNOG; COG0039; Bacteria.
+DR   HOGENOM; CLU_045401_2_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0004459; F:L-lactate dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0030060; F:L-malate dehydrogenase (NAD+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006089; P:lactate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006090; P:pyruvate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   CDD; cd01339; LDH-like_MDH; 1.
+DR   FunFam; 3.40.50.720:FF:000018; Malate dehydrogenase; 1.
+DR   FunFam; 3.90.110.10:FF:000004; Malate dehydrogenase; 1.
+DR   Gene3D; 3.90.110.10; Lactate dehydrogenase/glycoside hydrolase, family 4, C-terminal; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00487; Malate_dehydrog_3; 1.
+DR   InterPro; IPR001557; L-lactate/malate_DH.
+DR   InterPro; IPR022383; Lactate/malate_DH_C.
+DR   InterPro; IPR001236; Lactate/malate_DH_N.
+DR   InterPro; IPR015955; Lactate_DH/Glyco_Ohase_4_C.
+DR   InterPro; IPR011275; Malate_DH_type3.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR01763; MalateDH_bact; 1.
+DR   PANTHER; PTHR43128; L-2-HYDROXYCARBOXYLATE DEHYDROGENASE (NAD(P)(+)); 1.
+DR   PANTHER; PTHR43128:SF34; L-LACTATE DEHYDROGENASE; 1.
+DR   Pfam; PF02866; Ldh_1_C; 1.
+DR   Pfam; PF00056; Ldh_1_N; 1.
+DR   PIRSF; PIRSF000102; Lac_mal_DH; 1.
+DR   PRINTS; PR00086; LLDHDRGNASE.
+DR   SUPFAM; SSF56327; LDH C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_00487};
+KW   Oxidoreductase {ECO:0000256|HAMAP-Rule:MF_00487,
+KW   ECO:0000256|RuleBase:RU003369};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532, ECO:0000256|HAMAP-
+KW   Rule:MF_00487}.
+FT   DOMAIN          5..143
+FT                   /note="Lactate/malate dehydrogenase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00056"
+FT   DOMAIN          148..302
+FT                   /note="Lactate/malate dehydrogenase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02866"
+FT   ACT_SITE        176
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-1"
+FT   BINDING         10..15
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         34
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         83
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         89
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         96
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         119..121
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         121
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         152
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00487,
+FT                   ECO:0000256|PIRSR:PIRSR000102-2"
+SQ   SEQUENCE   320 AA;  33564 MW;  8BA41941F2589742 CRC64;
+     MARNKIALIG SGMIGGTLAH LAGLKELGDI VLFDIADGIP QGKGLDIAQS SPVEGFDANL
+     TGASDYSAIE GADVCIVTAG VARKPGMSRD DLLGINLKVM EQVGAGIKKY APNAFVICIT
+     NPLDAMVWAL QKFSGLPANK VVGMAGVLDS SRFRLFLSKE FNVSVQDITA FVLGGHGDTM
+     VPLARYSTVA GIPLTDLVTM GWVTKERLEE IIQRTRDGGA EIVGLLKTGS AYYAPAASAI
+     EMAESYLKDK KRVLPCAAQL TGQYGVKNMY VGVPTVIGAG GVERIIEIDL NKAEKEAFDK
+     SVGAVAGLCE ACINIAPALK
+//

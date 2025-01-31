@@ -1,0 +1,180 @@
+ID   A9BVK4_DELAS            Unreviewed;       863 AA.
+AC   A9BVK4;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 112.
+DE   RecName: Full=Aconitate hydratase B {ECO:0000256|ARBA:ARBA00019379, ECO:0000256|PIRNR:PIRNR036687};
+DE            EC=4.2.1.3 {ECO:0000256|ARBA:ARBA00012926, ECO:0000256|PIRNR:PIRNR036687};
+DE            EC=4.2.1.99 {ECO:0000256|ARBA:ARBA00013250, ECO:0000256|PIRNR:PIRNR036687};
+DE   AltName: Full=2-methylisocitrate dehydratase {ECO:0000256|PIRNR:PIRNR036687};
+GN   OrderedLocusNames=Daci_2433 {ECO:0000313|EMBL:ABX35071.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX35071.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX35071.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate = 2-methyl-cis-
+CC         aconitate + H2O; Xref=Rhea:RHEA:17941, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57429, ChEBI:CHEBI:57872; EC=4.2.1.99;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000118,
+CC         ECO:0000256|PIRNR:PIRNR036687};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate = D-threo-isocitrate; Xref=Rhea:RHEA:10336,
+CC         ChEBI:CHEBI:15562, ChEBI:CHEBI:16947; EC=4.2.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00023501,
+CC         ECO:0000256|PIRNR:PIRNR036687};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR036687-1};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR036687-1};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; isocitrate
+CC       from oxaloacetate: step 2/2. {ECO:0000256|ARBA:ARBA00004717,
+CC       ECO:0000256|PIRNR:PIRNR036687}.
+CC   -!- PATHWAY: Organic acid metabolism; propanoate degradation.
+CC       {ECO:0000256|ARBA:ARBA00005026}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family.
+CC       {ECO:0000256|ARBA:ARBA00007185, ECO:0000256|PIRNR:PIRNR036687}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX35071.1; -; Genomic_DNA.
+DR   RefSeq; WP_012204353.1; NC_010002.1.
+DR   AlphaFoldDB; A9BVK4; -.
+DR   STRING; 398578.Daci_2433; -.
+DR   GeneID; 24113498; -.
+DR   KEGG; dac:Daci_2433; -.
+DR   eggNOG; COG1049; Bacteria.
+DR   HOGENOM; CLU_016536_0_0_4; -.
+DR   UniPathway; UPA00223; UER00718.
+DR   UniPathway; UPA00946; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:InterPro.
+DR   GO; GO:0047456; F:2-methylisocitrate dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003994; F:aconitate hydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019629; P:propionate catabolic process, 2-methylcitrate cycle; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01581; AcnB; 1.
+DR   CDD; cd01576; AcnB_Swivel; 1.
+DR   FunFam; 1.25.40.310:FF:000001; Aconitate hydratase B; 1.
+DR   FunFam; 3.20.19.10:FF:000004; Aconitate hydratase B; 1.
+DR   FunFam; 3.30.499.10:FF:000001; Aconitate hydratase B; 1.
+DR   FunFam; 3.30.499.10:FF:000008; Aconitate hydratase B; 1.
+DR   Gene3D; 3.40.1060.10; Aconitase, Domain 2; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   Gene3D; 3.20.19.10; Aconitase, domain 4; 1.
+DR   Gene3D; 1.25.40.310; Aconitate B, HEAT-like domain; 1.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR015928; Aconitase/3IPM_dehydase_swvl.
+DR   InterPro; IPR050926; Aconitase/IPM_isomerase.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR004406; Aconitase_B.
+DR   InterPro; IPR015933; Aconitase_B_HEAT-like_dom.
+DR   InterPro; IPR036288; Aconitase_B_HEAT-like_dom_sf.
+DR   InterPro; IPR015929; Aconitase_B_swivel.
+DR   InterPro; IPR015932; Aconitase_dom2.
+DR   NCBIfam; TIGR00117; acnB; 1.
+DR   PANTHER; PTHR43160; ACONITATE HYDRATASE B; 1.
+DR   PANTHER; PTHR43160:SF4; ACONITATE HYDRATASE B; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   Pfam; PF06434; Aconitase_2_N; 1.
+DR   Pfam; PF11791; Aconitase_B_N; 1.
+DR   PIRSF; PIRSF036687; AcnB; 1.
+DR   SUPFAM; SSF74778; Aconitase B, N-terminal domain; 1.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|PIRSR:PIRSR036687-1};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRSR:PIRSR036687-1};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|PIRSR:PIRSR036687-
+KW   1}; Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|PIRNR:PIRNR036687};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR036687-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532,
+KW   ECO:0000256|PIRNR:PIRNR036687}.
+FT   DOMAIN          4..156
+FT                   /note="Aconitase B HEAT-like"
+FT                   /evidence="ECO:0000259|Pfam:PF11791"
+FT   DOMAIN          168..382
+FT                   /note="Aconitase B swivel"
+FT                   /evidence="ECO:0000259|Pfam:PF06434"
+FT   DOMAIN          474..817
+FT                   /note="Aconitase/3-isopropylmalate dehydratase large
+FT                   subunit alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF00330"
+FT   REGION          400..422
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+FT   BINDING         246..248
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+FT   BINDING         417..419
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+FT   BINDING         501
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+FT   BINDING         713
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-1"
+FT   BINDING         771
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-1"
+FT   BINDING         774
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-1"
+FT   BINDING         793
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+FT   BINDING         798
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR036687-2"
+SQ   SEQUENCE   863 AA;  92807 MW;  10CC58C614EC84A1 CRC64;
+     MLKAYRDHVA ERAALGIPPL PLEAKQVAEL IELIKNPPAG EDAFLLDLLT HRVPPGVDDA
+     AKVKASFLAA VAHGDIQVAL ISKAKATELL GTMVGGYNVH PLIELLDDAE VAGVAADALK
+     KTLLMFDFFN DVATKAKAGN AKAQEVMKSW ADAEWFTSRP EVDKKITVTV FKVPGETNTD
+     DLSPAPDAWS RPDIPLHYLA MLKNTRPDAA FKPEEDGKRG PMQFIDDLKK KGHLVAYVGD
+     VVGTGSSRKS ATNSIVWATG QDIPFVPNKR FGGVTLGGKI APIFFNTQED SGSLPIEVDV
+     TKLEMGDVID VLPYDGKLVK NGETVAEFQL KSDVLFDEVR AGGRINLIIG RSLTAKAREF
+     LGLSASTVFR LPQAPAASNA GFTLAQKMVG RAVGLPEGQG VRPGTYCEPR MTTVGSQDTT
+     GPMTRDELKD LACLGFSADM VMQSFCHTAA YPKPVDVKTH RELPAFISNR GGVALRPGDG
+     VIHSWLNRLL LPDTVGTGGD SHTRFPIGIS FPAGSGLVAF GAATGVMPLD MPESVLVRFK
+     GEMQPGVTLR DLVHAIPLYA IKAGALTVAK AGKKNIFSGR ILEIEGLPDL KVEQAFELSD
+     ASAERSAAGC TIKLNPEPIK EYLTSNIVLM KNMIADGYAD AKTLQRRIEK VEAWLAKPDL
+     LEADKDAEYA AVFEIDLADI KEPIVCCPND PDDAKFLSEV AGTKIDEAFI GSCMTNIGHF
+     RAAAKLLGGQ RDIPVKLWVA PPTKMDQNEL IKEGHYAAFG TAGARTEMPG CSLCMGNQAQ
+     VREGATVIST STRNFPNRLG KNTNVFLGSA ELAAIASRLG KLPTKEEYLK EMGVIDADKS
+     SVYRYMNFDQ IEEYADVARG VSA
+//
