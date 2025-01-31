@@ -71,9 +71,7 @@ K15633,BINDING,*,D,Mn(2+)
 K15633,BINDING,*,H,Mn(2+)
 K15633,BINDING,*,H,Mn(2+)
 K01940,BINDING,*.******:,AYSGGLDTS,ATP
-K01940,BINDING,-,A,ATP
 K01940,BINDING,*,Y,L-citrulline
-K01940,BINDING,-,S,L-citrulline
 K01940,BINDING,*,G,ATP
 K01940,BINDING,*,T,L-aspartate
 K01940,BINDING,*,N,L-aspartate
@@ -81,7 +79,6 @@ K01940,BINDING,*,N,L-citrulline
 K01940,BINDING,*,D,L-aspartate
 K01940,BINDING,*,R,L-citrulline
 K01940,BINDING,*,S,L-citrulline
-K01940,BINDING,.,S,L-citrulline
 K01940,BINDING,:,E,L-citrulline
 K01940,BINDING,:,Y,L-citrulline
 K00895,ACT_SITE,*,D,Proton acceptor
@@ -94,17 +91,17 @@ K00895,BINDING,*,E,substrate
 K00895,BINDING,*:.*,YEGR,substrate
 K00895,SITE,*,D,Important for catalytic activity and substrate...
 K00895,SITE,*,K,Important for catalytic activity; stabilizes the...
-K00031,BINDING,--:,TIT,NADP(+)
-K00031,BINDING,:,T,D-threo-isocitrate
-K00031,BINDING,-,R,NADP(+)
-K00031,BINDING,.-*--.*,SPNGTIR,D-threo-isocitrate
+K00031,BINDING,-,T,NADP(+)
+K00031,BINDING,.,S,D-threo-isocitrate
+K00031,BINDING,*,N,D-threo-isocitrate
+K00031,BINDING,*,R,D-threo-isocitrate
 K00031,BINDING,-,R,D-threo-isocitrate
 K00031,BINDING,.,R,D-threo-isocitrate
-K00031,BINDING,*,D,Mn(2+)
-K00031,BINDING,-,K,NADP(+)
-K00031,BINDING,.,D,Mn(2+)
-K00031,BINDING,*...--,GTVTRH,NADP(+)
+K00031,BINDING,.,D,Mg(2+)
+K00031,BINDING,..*...--,H-GTAPKY,NADP(+)
 K00031,BINDING,.,N,NADP(+)
+K00031,BINDING,-,Y,NADP(+)
+K00031,BINDING,-,R,NADP(+)
 K00031,SITE,:,Y,Critical for catalysis
 K00031,SITE,*,K,Critical for catalysis
 K00821,BINDING,*.,GA,pyridoxal 5'-phosphate
@@ -126,7 +123,7 @@ K02446 ,BINDING,*,E,Mn(2+)
 K00611,BINDING,*:**,STRT,carbamoyl phosphate
 K00611,BINDING,:,Q,carbamoyl phosphate
 K00611,BINDING,*,R,carbamoyl phosphate
-K00611,BINDING,**-*,HPCQ,carbamoyl phosphate
+K00611,BINDING,**-*,HPTQ,carbamoyl phosphate
 K00611,BINDING,*,N,L-ornithine
 K00611,BINDING,:,D,L-ornithine
 K00611,BINDING,::,SM,L-ornithine
@@ -168,8 +165,8 @@ K01476,BINDING,*,D,Mn(2+)
 K01476,BINDING,*,D,Mn(2+)
 K01476,BINDING,*,D,Mn(2+)
 K01810,ACT_SITE,*,E,Proton donor
-K01810,ACT_SITE,:,H,ECO:0000256|HAMAP-Rule:MF_00473
-K01810,ACT_SITE,:,K,ECO:0000256|HAMAP-Rule:MF_00473
+K01810,ACT_SITE,:,H,ECO:0000255|HAMAP-Rule:MF_00473
+K01810,ACT_SITE,:,K,ECO:0000255|HAMAP-Rule:MF_00473
 K01689,ACT_SITE,*,E,Proton donor
 K01689,ACT_SITE,*,K,Proton acceptor
 K01689,BINDING,*,H,substrate
