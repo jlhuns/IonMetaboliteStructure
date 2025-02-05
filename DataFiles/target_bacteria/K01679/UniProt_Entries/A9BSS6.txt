@@ -1,0 +1,86 @@
+ID   A9BSS6_DELAS            Unreviewed;       477 AA.
+AC   A9BSS6;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 76.
+DE   RecName: Full=fumarate hydratase {ECO:0000256|ARBA:ARBA00012921};
+DE            EC=4.2.1.2 {ECO:0000256|ARBA:ARBA00012921};
+GN   OrderedLocusNames=Daci_1437 {ECO:0000313|EMBL:ABX34081.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX34081.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX34081.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the class-II fumarase/aspartase family. Fumarase
+CC       subfamily. {ECO:0000256|ARBA:ARBA00009084}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX34081.1; -; Genomic_DNA.
+DR   RefSeq; WP_012203367.1; NC_010002.1.
+DR   AlphaFoldDB; A9BSS6; -.
+DR   STRING; 398578.Daci_1437; -.
+DR   GeneID; 24114550; -.
+DR   KEGG; dac:Daci_1437; -.
+DR   eggNOG; COG0114; Bacteria.
+DR   HOGENOM; CLU_021594_4_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0004333; F:fumarate hydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006106; P:fumarate metabolic process; IEA:InterPro.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:InterPro.
+DR   FunFam; 1.10.275.10:FF:000001; Fumarate hydratase, mitochondrial; 1.
+DR   FunFam; 1.20.200.10:FF:000001; Fumarate hydratase, mitochondrial; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   InterPro; IPR005677; Fum_hydII.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR018951; Fumarase_C_C.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   PANTHER; PTHR11444; ASPARTATEAMMONIA/ARGININOSUCCINATE/ADENYLOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR11444:SF1; FUMARATE HYDRATASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF10415; FumaraseC_C; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:ABX34081.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          25..354
+FT                   /note="Fumarate lyase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00206"
+FT   DOMAIN          421..472
+FT                   /note="Fumarase C C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF10415"
+FT   REGION          129..155
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   477 AA;  50935 MW;  731CD1F1D9BB2F26 CRC64;
+     MDQTRTQAQA PTQAHTRIEH DAFGPVHIPA DRLWGAQTQR ALELFTIGEE RFPQGLYRAF
+     GLQKLAAARA NRRLGVLDDE RGAAIEAAAA ELRDGLLDAH FPLTIWQTGS GTQTNMNANE
+     VIANRANQML GQPPGTRSPV HPNDHANASQ SSNDSFPTVM HLATALELRD HLLPALEQLQ
+     QRLQERALAF AGVLKVARTH LMDAVPMTLG QSFETFAHQV GHGIHRLQAT QPRLWSLAQG
+     GTAAGTGLNA PSGFDRVFCE EIQALTGLAV TPNPCKFEGM AAHDALIEVS GALNVVAGSL
+     AKMANDIRLL GSGPRCGLGE LVFPDDGLSS SIMPGKRNPT VAEVVVQAAY QAMGHHLTVT
+     LAGSAGHFEL NVAKPVLIHH LLRAMLALGD ASRVFAEKLV AGLQAHTERL EQQVSHSLLQ
+     ATALNPVLGY DAVARITREA MARGIAPRQA AVALGLITAA EYDRLVDLRA MAGLPPA
+//
