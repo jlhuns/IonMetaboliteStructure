@@ -67,7 +67,7 @@ def crate_target_analysis_file(targetOrganism: str):
             filtered_data = data[data['UniProtID'] == first_uniprotID].copy()
             filtered_data['UniProtID'] = filtered_data['UniProtID'].map(uniprot_to_koid_mapping)
             filtered_data.rename(columns={'UniProtID': 'KOID'}, inplace=True)
-            filtered_data.drop(columns=["Unnamed: 0", "MSA_Binding_Location", "Binding_Location"], inplace = True)
+            filtered_data.drop(columns=["Unnamed: 0", "MSA_Binding_Location", "Binding_Location", "Value"], inplace = True)
             all_data.append(filtered_data)
     if all_data:
         # Concatenate all DataFrames in the list into a single DataFrame
