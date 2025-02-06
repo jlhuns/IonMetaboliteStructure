@@ -32,9 +32,7 @@ def average_conservation_score(target_organism):
     df.to_csv(os.path.join(FILE_PATH.GET_ORGANISM_ANALYSIS_FOLDER_PATH(target_organism), "All_Average_Scores.csv"))
                 
 
-
 if __name__ == "__main__":
-
     average_conservation_score("target_bacteria")
 
     
