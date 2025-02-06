@@ -61,9 +61,9 @@ def main(KOID_FILE, target_organism_file):
             print(f"Skipping {KOID}: Already Seen KOID.")
             continue
         
-        seenKOIDS.add(KOID)
+        seenKOIDS.append(KOID)
         save_seen_koid(KOID)  # Save to file
-        
+
         folder_path = os.path.join(FILE_PATHS.GET_ORGANISM_FOLDER_PATH(target_organism_file).replace('.csv', ""), KOID)
         if KOID not in seenKOIDS:
             seenKOIDS.append(KOID)
