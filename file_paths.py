@@ -27,6 +27,11 @@ def GET_ORGANISM_ANALYSIS_FOLDER_PATH(targetOrganism: str) -> str:
     CHECK_FOLDER_EXISTS(folder_path)
     return folder_path
 
+def GET_ANALYSIS_RESULT_FILE(targetOrganism: str) -> str:
+    folder_path = GET_ORGANISM_ANALYSIS_FOLDER_PATH(targetOrganism)
+    file_path = os.path.join(folder_path + "simple_analysis_results.csv")
+    return file_path
+
 def GET_KOID_FOLDER_PATH(KOID: str, targetOrganism: str) -> str:
     folder_path = os.path.join(GET_ORGANISM_FOLDER_PATH(targetOrganism), KOID)
     CHECK_FOLDER_EXISTS(folder_path)
