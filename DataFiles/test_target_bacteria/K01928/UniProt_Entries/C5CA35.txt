@@ -1,0 +1,184 @@
+ID   C5CA35_MICLC            Unreviewed;       585 AA.
+AC   C5CA35;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   RecName: Full=UDP-N-acetylmuramyl-tripeptide synthetase {ECO:0000256|HAMAP-Rule:MF_00208};
+DE            EC=6.3.2.- {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=UDP-MurNAc-tripeptide synthetase {ECO:0000256|HAMAP-Rule:MF_00208};
+GN   Name=murE {ECO:0000256|HAMAP-Rule:MF_00208,
+GN   ECO:0000313|EMBL:SQG47289.1};
+GN   OrderedLocusNames=Mlut_13650 {ECO:0000313|EMBL:ACS30870.1};
+GN   ORFNames=NCTC2665_00042 {ECO:0000313|EMBL:SQG47289.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30870.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30870.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30870.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG47289.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG47289.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the addition of an amino acid to the nucleotide
+CC       precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the
+CC       biosynthesis of bacterial cell-wall peptidoglycan. {ECO:0000256|HAMAP-
+CC       Rule:MF_00208}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00208};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00208, ECO:0000256|RuleBase:RU004135}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00208,
+CC       ECO:0000256|RuleBase:RU004135}.
+CC   -!- PTM: Carboxylation is probably crucial for Mg(2+) binding and,
+CC       consequently, for the gamma-phosphate positioning of ATP.
+CC       {ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurE subfamily.
+CC       {ECO:0000256|ARBA:ARBA00005898, ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30870.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG47289.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078496.1; NZ_LS483396.1.
+DR   AlphaFoldDB; C5CA35; -.
+DR   STRING; 465515.Mlut_13650; -.
+DR   EnsemblBacteria; ACS30870; ACS30870; Mlut_13650.
+DR   KEGG; mlu:Mlut_13650; -.
+DR   PATRIC; fig|465515.4.peg.1307; -.
+DR   eggNOG; COG0769; Bacteria.
+DR   HOGENOM; CLU_022291_4_1_11; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016881; F:acid-amino acid ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.1390.10; MurE/MurF, N-terminal domain; 1.
+DR   HAMAP; MF_00208; MurE; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR035911; MurE/MurF_N.
+DR   InterPro; IPR005761; UDP-N-AcMur-Glu-dNH2Pim_ligase.
+DR   NCBIfam; TIGR01085; murE; 1.
+DR   PANTHER; PTHR23135; MUR LIGASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR23135:SF4; UDP-N-ACETYLMURAMOYL-L-ALANYL-D-GLUTAMATE--2,6-DIAMINOPIMELATE LIGASE MURE HOMOLOG, CHLOROPLASTIC; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+DR   SUPFAM; SSF63418; MurE/MurF N-terminal domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_00208, ECO:0000313|EMBL:ACS30870.1};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00208}; Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          55..132
+FT                   /note="Mur ligase N-terminal catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01225"
+FT   DOMAIN          147..366
+FT                   /note="Mur ligase central"
+FT                   /evidence="ECO:0000259|Pfam:PF08245"
+FT   DOMAIN          398..538
+FT                   /note="Mur ligase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02875"
+FT   REGION          1..26
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..11
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         60
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         62
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         149..155
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         191..192
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         218
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         226
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   MOD_RES         258
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+SQ   SEQUENCE   585 AA;  59798 MW;  3993DC8F1384797A CRC64;
+     MTTPSDPPAP LTPAQQDAAF RPSHTPATPW PVLAQALAEA GIAAHVHGAA PADGVTGVSL
+     DSRVVRPGDL YVAVPGARAH GAAFAATALE AGAVGVLTDA AGRALLAGQG LADVPVLEVD
+     AVRTAAGTVA ARVYGGGGDA GPRLVGVTGT NGKTTTSFLS AALLEALGRR SGIVGTILIR
+     AGEREVPSTL TTPEATQLHA LMALMREEQV DTAVMEVSSH AVAYQRIAGL RYAVAGFTNL
+     TQDHLDMHGS MQEYFAAKAG LFDPARTDHA VITLDGGEGP RWGVAMARAA GAPVTTLALG
+     PAAPTPGALA EHDPGLRADW EVAELAPDGL GHRFTLRHAA TGRELRASVG LPGRFNVANA
+     ALAVLLVLHA VGEEHLDALA AVLDVPAGEG PLAAAVPGRM EVVGREPDAV VDFAHNPDGM
+     VQALRSLADA RAAAGTRGRT LIVFGSAGDR DRDKRPVMGA IAARAADVVI VTDDTPHSED
+     PAPIRAHILA GARAEADRIA REEGRTVVIE EVADRFAAIR RAVELAGPQD GILLAGRGHE
+     TTMDYDGELV PLDDRVALRE ALAAGAAVAS ASVSGPVREG KVIES
+//

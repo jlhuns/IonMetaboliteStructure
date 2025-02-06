@@ -1,0 +1,87 @@
+ID   A1B2Y3_PARDP            Unreviewed;       451 AA.
+AC   A1B2Y3;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   SubName: Full=Efflux transporter, RND family, MFP subunit {ECO:0000313|EMBL:ABL69877.1};
+GN   OrderedLocusNames=Pden_1780 {ECO:0000313|EMBL:ABL69877.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL69877.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell envelope {ECO:0000256|ARBA:ARBA00004196}.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP) (TC 8.A.1)
+CC       family. {ECO:0000256|ARBA:ARBA00009477}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL69877.1; -; Genomic_DNA.
+DR   RefSeq; WP_011748075.1; NC_008686.1.
+DR   AlphaFoldDB; A1B2Y3; -.
+DR   STRING; 318586.Pden_1780; -.
+DR   EnsemblBacteria; ABL69877; ABL69877; Pden_1780.
+DR   GeneID; 75501267; -.
+DR   KEGG; pde:Pden_1780; -.
+DR   eggNOG; COG0845; Bacteria.
+DR   HOGENOM; CLU_018816_2_1_5; -.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0030313; C:cell envelope; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:TreeGrafter.
+DR   FunFam; 2.40.420.20:FF:000001; Efflux RND transporter periplasmic adaptor subunit; 1.
+DR   Gene3D; 2.40.30.170; -; 1.
+DR   Gene3D; 2.40.420.20; -; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   Gene3D; 1.10.287.470; Helix hairpin bin; 1.
+DR   InterPro; IPR032317; HlyD_D23.
+DR   InterPro; IPR051160; MFP_Efflux.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   NCBIfam; TIGR01730; RND_mfp; 1.
+DR   PANTHER; PTHR30158; ACRA/E-RELATED COMPONENT OF DRUG EFFLUX TRANSPORTER; 1.
+DR   PANTHER; PTHR30158:SF3; MULTIDRUG EFFLUX PUMP SUBUNIT ACRA-RELATED; 1.
+DR   Pfam; PF16576; HlyD_D23; 1.
+DR   SUPFAM; SSF111369; HlyD-like secretion proteins; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           28..451
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002632268"
+FT   DOMAIN          54..290
+FT                   /note="RND efflux pump membrane fusion protein barrel-
+FT                   sandwich"
+FT                   /evidence="ECO:0000259|Pfam:PF16576"
+FT   REGION          373..451
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          96..175
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   COMPBIAS        421..435
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   451 AA;  47169 MW;  BBFE88A8C73236C5 CRC64;
+     MFALSRRMAI SVILPLAAGL SPLAALGQDP SQMPPPAVTV VTLHAQDVAL TTTLPGRVTA
+     SAEAEVRPQV NGIVTERLFE EGSHVKVGDP LFRIDATTYQ AAVAQAEAAV AQARAQAEAA
+     RREAERVGAL RDRRVASEST TDNAIAARDS AEAAVKVAEA QLQTARIELE RTTIRAELDG
+     VIGLAQTSQG ALVTASQPTP LAVIRKLDPV HVDVTQSAAE LIRFRREMAA QDAEGQQDRK
+     VTLRLADGTQ YGHEGRLTAA EPYVNETTGV VTLRLSFANP DGILLPGMYV QAVVQQATAR
+     NVILAPQEGV TRDRRGQPVA LVANADNAVE QRPLTILQDM GNSWIVGEGL NDGDRIIVEG
+     LQKIGPGMTV APEERQAAAP AAAEGGAAPD AGEPTPEAAD TGEQPAPEAG EAEQPATQPE
+     IEAEAEAEAE AEGQGEDAQP ATEAGAEQPA N
+//

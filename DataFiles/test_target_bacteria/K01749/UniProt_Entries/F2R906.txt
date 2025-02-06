@@ -1,0 +1,110 @@
+ID   F2R906_STRVP            Unreviewed;       328 AA.
+AC   F2R906;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   RecName: Full=Porphobilinogen deaminase {ECO:0000256|HAMAP-Rule:MF_00260};
+DE            Short=PBG {ECO:0000256|HAMAP-Rule:MF_00260};
+DE            EC=2.5.1.61 {ECO:0000256|HAMAP-Rule:MF_00260};
+DE   AltName: Full=Hydroxymethylbilane synthase {ECO:0000256|HAMAP-Rule:MF_00260};
+DE            Short=HMBS {ECO:0000256|HAMAP-Rule:MF_00260};
+DE   AltName: Full=Pre-uroporphyrinogen synthase {ECO:0000256|HAMAP-Rule:MF_00260};
+GN   Name=hemC {ECO:0000256|HAMAP-Rule:MF_00260};
+GN   OrderedLocusNames=SVEN_3180 {ECO:0000313|EMBL:CCA56466.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA56466.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA56466.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Tetrapolymerization of the monopyrrole PBG into the
+CC       hydroxymethylbilane pre-uroporphyrinogen in several discrete steps.
+CC       {ECO:0000256|ARBA:ARBA00002869, ECO:0000256|HAMAP-Rule:MF_00260}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4 porphobilinogen + H2O = hydroxymethylbilane + 4 NH4(+);
+CC         Xref=Rhea:RHEA:13185, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57845, ChEBI:CHEBI:58126; EC=2.5.1.61;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048169, ECO:0000256|HAMAP-
+CC         Rule:MF_00260};
+CC   -!- COFACTOR:
+CC       Name=dipyrromethane; Xref=ChEBI:CHEBI:60342;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00260};
+CC       Note=Binds 1 dipyrromethane group covalently. {ECO:0000256|HAMAP-
+CC       Rule:MF_00260};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 2/4.
+CC       {ECO:0000256|HAMAP-Rule:MF_00260}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00260}.
+CC   -!- MISCELLANEOUS: The porphobilinogen subunits are added to the
+CC       dipyrromethane group. {ECO:0000256|HAMAP-Rule:MF_00260}.
+CC   -!- SIMILARITY: Belongs to the HMBS family. {ECO:0000256|ARBA:ARBA00005638,
+CC       ECO:0000256|HAMAP-Rule:MF_00260}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA56466.1; -; Genomic_DNA.
+DR   RefSeq; WP_015034382.1; NZ_JABVZO010000115.1.
+DR   AlphaFoldDB; F2R906; -.
+DR   STRING; 953739.SVEN_3180; -.
+DR   GeneID; 69865292; -.
+DR   KEGG; sve:SVEN_3180; -.
+DR   PATRIC; fig|953739.5.peg.5370; -.
+DR   eggNOG; COG0181; Bacteria.
+DR   HOGENOM; CLU_019704_1_0_11; -.
+DR   OrthoDB; 9810298at2; -.
+DR   UniPathway; UPA00251; UER00319.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004418; F:hydroxymethylbilane synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.160.40:FF:000001; Porphobilinogen deaminase; 1.
+DR   FunFam; 3.40.190.10:FF:000005; Porphobilinogen deaminase; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   Gene3D; 3.30.160.40; Porphobilinogen deaminase, C-terminal domain; 1.
+DR   HAMAP; MF_00260; Porphobil_deam; 1.
+DR   InterPro; IPR000860; HemC.
+DR   InterPro; IPR022419; Porphobilin_deaminase_cofac_BS.
+DR   InterPro; IPR022417; Porphobilin_deaminase_N.
+DR   InterPro; IPR022418; Porphobilinogen_deaminase_C.
+DR   InterPro; IPR036803; Porphobilinogen_deaminase_C_sf.
+DR   NCBIfam; TIGR00212; hemC; 1.
+DR   PANTHER; PTHR11557; PORPHOBILINOGEN DEAMINASE; 1.
+DR   PANTHER; PTHR11557:SF0; PORPHOBILINOGEN DEAMINASE; 1.
+DR   Pfam; PF01379; Porphobil_deam; 1.
+DR   Pfam; PF03900; Porphobil_deamC; 1.
+DR   PIRSF; PIRSF001438; 4pyrrol_synth_OHMeBilane_synth; 1.
+DR   PRINTS; PR00151; PORPHBDMNASE.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   SUPFAM; SSF54782; Porphobilinogen deaminase (hydroxymethylbilane synthase), C-terminal domain; 1.
+DR   PROSITE; PS00533; PORPHOBILINOGEN_DEAM; 1.
+PE   3: Inferred from homology;
+KW   Porphyrin biosynthesis {ECO:0000256|ARBA:ARBA00023244, ECO:0000256|HAMAP-
+KW   Rule:MF_00260}; Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00260}.
+FT   DOMAIN          6..219
+FT                   /note="Porphobilinogen deaminase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01379"
+FT   DOMAIN          234..315
+FT                   /note="Porphobilinogen deaminase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF03900"
+FT   MOD_RES         249
+FT                   /note="S-(dipyrrolylmethanemethyl)cysteine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00260"
+SQ   SEQUENCE   328 AA;  34111 MW;  3527724C1BDD7D65 CRC64;
+     MTERALRLGT RRSKLAMAQS GHVADAVRRL TGRPVELVEI TTYGDTSREH LAQIGGTGVF
+     VAALRDALLA DEVDFAVHSL KDLPTAQHPD LVLAAIPERE DPRDVLIARD GLTLDRLPEG
+     ARVGTGSPRR MAQLHAYARN HGLDITCVPI RGNVDTRVGY VRKGELDAVV LAAAGLNRIG
+     GTDELLGGLS AEPLPVDTVL PAPGQGALAV ECLASNTELV AALAPLDDPL TRAAVTAERS
+     LLAALEAGCS APVGALADLL ADDPGHGQVV TEMRLRGVVG TTDGSTLVQL STTGPVPTSH
+     DEAMALGREL ADEMLAKGAA GLMGERAL
+//

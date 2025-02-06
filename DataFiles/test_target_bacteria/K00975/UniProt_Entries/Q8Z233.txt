@@ -1,0 +1,177 @@
+ID   GLGC_SALTI              Reviewed;         431 AA.
+AC   Q8Z233;
+DT   25-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 128.
+DE   RecName: Full=Glucose-1-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            EC=2.7.7.27 {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            Short=ADPGlc PPase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose synthase {ECO:0000255|HAMAP-Rule:MF_00624};
+GN   Name=glgC {ECO:0000255|HAMAP-Rule:MF_00624};
+GN   OrderedLocusNames=STY4274, t3984;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of ADP-glucose, a building block
+CC       required for the elongation reactions to produce glycogen. Catalyzes
+CC       the reaction between ATP and alpha-D-glucose 1-phosphate (G1P) to
+CC       produce pyrophosphate and ADP-Glc. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate + ATP + H(+) = ADP-alpha-D-glucose
+CC         + diphosphate; Xref=Rhea:RHEA:12120, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57498,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.27; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00624};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by fructose-1,6-
+CC       bisphosphate (F16BP) and inhibited by AMP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00624}.
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SIMILARITY: Belongs to the bacterial/plant glucose-1-phosphate
+CC       adenylyltransferase family. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08092.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71454.1; -; Genomic_DNA.
+DR   RefSeq; NP_458382.1; NC_003198.1.
+DR   RefSeq; WP_000253993.1; NZ_WSUR01000001.1.
+DR   AlphaFoldDB; Q8Z233; -.
+DR   SMR; Q8Z233; -.
+DR   STRING; 220341.gene:17588105; -.
+DR   KEGG; stt:t3984; -.
+DR   KEGG; sty:STY4274; -.
+DR   PATRIC; fig|220341.7.peg.4367; -.
+DR   eggNOG; COG0448; Bacteria.
+DR   HOGENOM; CLU_029499_14_1_6; -.
+DR   OMA; YPLTKMR; -.
+DR   OrthoDB; 9801810at2; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008878; F:glucose-1-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02508; ADP_Glucose_PP; 1.
+DR   CDD; cd04651; LbH_G1P_AT_C; 1.
+DR   FunFam; 2.160.10.10:FF:000006; Glucose-1-phosphate adenylyltransferase; 1.
+DR   FunFam; 3.90.550.10:FF:000014; Glucose-1-phosphate adenylyltransferase; 1.
+DR   Gene3D; 2.160.10.10; Hexapeptide repeat proteins; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   HAMAP; MF_00624; GlgC; 1.
+DR   InterPro; IPR011831; ADP-Glc_PPase.
+DR   InterPro; IPR005836; ADP_Glu_pyroP_CS.
+DR   InterPro; IPR023049; GlgC_bac.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   NCBIfam; TIGR02091; glgC; 1.
+DR   PANTHER; PTHR43523:SF2; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43523; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE-RELATED; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+DR   SUPFAM; SSF51161; Trimeric LpxA-like enzymes; 1.
+DR   PROSITE; PS00808; ADP_GLC_PYROPHOSPH_1; 1.
+DR   PROSITE; PS00809; ADP_GLC_PYROPHOSPH_2; 1.
+DR   PROSITE; PS00810; ADP_GLC_PYROPHOSPH_3; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; ATP-binding; Carbohydrate metabolism;
+KW   Glycogen biosynthesis; Glycogen metabolism; Nucleotide-binding;
+KW   Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..431
+FT                   /note="Glucose-1-phosphate adenylyltransferase"
+FT                   /id="PRO_0000195326"
+FT   BINDING         39
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         40
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         46
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         52
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         114
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         179
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         194..195
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         212
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         370
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         386
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         419..423
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         429..431
+FT                   /ligand="beta-D-fructose 1,6-bisphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:32966"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   SITE            74
+FT                   /note="Could play a key role in the communication between
+FT                   the regulatory and the substrate sites"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   SITE            113
+FT                   /note="Could play a key role in the communication between
+FT                   the regulatory and the substrate sites"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+SQ   SEQUENCE   431 AA;  48436 MW;  D5F4991A2235A8BD CRC64;
+     MVSLEKNDRV MLARQLPLKS VALILAGGRG TRLKDLTNKR AKPAVHFGGK FRIIDFALSN
+     CLNSGIRRIG VITQYQSHTL VQHIQRGWSL FSEEMNEFVD LLPAQQRMKG ENWYRGTADA
+     VTQNLDIIRC YKAEYVVILA GDHIYKQDYS RMLIDHVEKG ARCTVACMPV PIKEATAFGV
+     MAVDENDKII DFVEKPANPP AMPGDASKSL ASMGIYVFDA DYLYELLAAD DKDDASSHDF
+     GKDIIPKITR EGMAYAHPFP LSCVQSDPQA EPYWRDVGTL EAYWKANLDL ASVTPELDMY
+     DQNWPIRTHM ESLPPAKFVQ DRSGSHGMTL NSLVSGGCII SGSVVVQSVL FPRVRINSFC
+     NIDSAVLLPE VWVGRSCRLR RCVIDRACII PEGMVIGENA EEDARRFYRS EEGIVLVTRE
+     MLRKLQVKQE R
+//

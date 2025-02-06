@@ -1,0 +1,91 @@
+ID   A0A1P8F8C2_9CHLR        Unreviewed;       318 AA.
+AC   A0A1P8F8C2;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 23.
+DE   SubName: Full=Electron transfer flavoprotein subunit alpha {ECO:0000313|EMBL:APV44652.1};
+GN   ORFNames=Dform_01328 {ECO:0000313|EMBL:APV44652.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44652.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000089-1};
+CC       Note=Binds 1 FAD per dimer. {ECO:0000256|PIRSR:PIRSR000089-1};
+CC   -!- SIMILARITY: Belongs to the ETF alpha-subunit/FixB family.
+CC       {ECO:0000256|ARBA:ARBA00005817}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44652.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A1P8F8C2; -.
+DR   STRING; 1839801.Dform_01328; -.
+DR   KEGG; dfo:Dform_01328; -.
+DR   OrthoDB; 9770286at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; IEA:TreeGrafter.
+DR   CDD; cd01715; ETF_alpha; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.40.50.1220; TPP-binding domain; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR001308; ETF_a/FixB.
+DR   InterPro; IPR033947; ETF_alpha_N.
+DR   InterPro; IPR014731; ETF_asu_C.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR43153; ELECTRON TRANSFER FLAVOPROTEIN ALPHA; 1.
+DR   PANTHER; PTHR43153:SF1; ELECTRON TRANSFER FLAVOPROTEIN SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   Pfam; PF01012; ETF; 1.
+DR   Pfam; PF00766; ETF_alpha; 1.
+DR   PIRSF; PIRSF000089; Electra_flavoP_a; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF52467; DHS-like NAD/FAD-binding domain; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|PIRSR:PIRSR000089-1};
+KW   Flavoprotein {ECO:0000256|PIRSR:PIRSR000089-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000185934}.
+FT   DOMAIN          3..183
+FT                   /note="Electron transfer flavoprotein alpha/beta-subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00893"
+FT   BINDING         205
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         230..231
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         244..248
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         261..268
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         282
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+SQ   SEQUENCE   318 AA;  32536 MW;  AA2C3C66B7F3A2AD CRC64;
+     MDILIIAEVK DGALSPVSTE LFTAARTISA DSRVSVVAIG NGVKSAVLSL ANLGASVVFL
+     AEPRDLTPQL AVSFIGKAAA ESRAAVILMA ESDLGADIAP QLASKLGTAA VTGVVALRND
+     NGQLIITRPV YGGNAMADFT IDTEPQIISI RPKVFAPAAS GGNQTAETIE LAAESPANIR
+     VIEHVAVQQQ GPRIEEAKVV VGGGRGLGGP EGFTQLKQLA DLLGGVVGAS RPPCDQGWWP
+     ETGQIGITGK IISPDLYIAV GISGSSQHVS GVTGSKTIVA INKDAEANIF KAATYGVTGD
+     WKKVVPALTV KIKELTGG
+//

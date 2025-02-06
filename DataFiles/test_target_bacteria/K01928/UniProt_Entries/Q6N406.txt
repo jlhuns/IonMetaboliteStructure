@@ -1,0 +1,201 @@
+ID   Q6N406_RHOPA            Unreviewed;       485 AA.
+AC   Q6N406;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase {ECO:0000256|HAMAP-Rule:MF_00208};
+DE            EC=6.3.2.13 {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=Meso-A2pm-adding enzyme {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=Meso-diaminopimelate-adding enzyme {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=UDP-MurNAc-tripeptide synthetase {ECO:0000256|HAMAP-Rule:MF_00208};
+DE   AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase {ECO:0000256|HAMAP-Rule:MF_00208};
+GN   Name=murE {ECO:0000256|HAMAP-Rule:MF_00208,
+GN   ECO:0000313|EMBL:CAE28976.1};
+GN   OrderedLocusNames=RPA3535 {ECO:0000313|EMBL:CAE28976.1};
+GN   ORFNames=TX73_018320 {ECO:0000313|EMBL:WCL93711.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28976.1};
+RN   [1] {ECO:0000313|EMBL:WCL93711.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93711.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28976.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28976.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93711.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93711.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the addition of meso-diaminopimelic acid to the
+CC       nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG)
+CC       in the biosynthesis of bacterial cell-wall peptidoglycan.
+CC       {ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate + meso-2,6-
+CC         diaminoheptanedioate + ATP = UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-
+CC         gamma-D-glutamyl-meso-2,6-diaminoheptanedioate + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:23676, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57791, ChEBI:CHEBI:83900,
+CC         ChEBI:CHEBI:83905, ChEBI:CHEBI:456216; EC=6.3.2.13;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00208};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00208};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00208, ECO:0000256|RuleBase:RU004135}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00208,
+CC       ECO:0000256|RuleBase:RU004135}.
+CC   -!- PTM: Carboxylation is probably crucial for Mg(2+) binding and,
+CC       consequently, for the gamma-phosphate positioning of ATP.
+CC       {ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurE subfamily.
+CC       {ECO:0000256|ARBA:ARBA00005898, ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572604; CAE28976.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93711.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159075.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3535; -.
+DR   GeneID; 66894637; -.
+DR   KEGG; rpa:TX73_018320; -.
+DR   eggNOG; COG0769; Bacteria.
+DR   HOGENOM; CLU_022291_3_1_5; -.
+DR   PhylomeDB; Q6N406; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008765; F:UDP-N-acetylmuramoylalanyl-D-glutamate-2,6-diaminopimelate ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.1390.10; MurE/MurF, N-terminal domain; 1.
+DR   HAMAP; MF_00208; MurE; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR035911; MurE/MurF_N.
+DR   InterPro; IPR005761; UDP-N-AcMur-Glu-dNH2Pim_ligase.
+DR   NCBIfam; TIGR01085; murE; 1.
+DR   PANTHER; PTHR23135; MUR LIGASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR23135:SF4; UDP-N-ACETYLMURAMOYL-L-ALANYL-D-GLUTAMATE--2,6-DIAMINOPIMELATE LIGASE MURE HOMOLOG, CHLOROPLASTIC; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+DR   SUPFAM; SSF63418; MurE/MurF N-terminal domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00208};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_00208, ECO:0000313|EMBL:CAE28976.1};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00208};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00208}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          22..95
+FT                   /note="Mur ligase N-terminal catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01225"
+FT   DOMAIN          105..310
+FT                   /note="Mur ligase central"
+FT                   /evidence="ECO:0000259|Pfam:PF08245"
+FT   DOMAIN          333..456
+FT                   /note="Mur ligase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02875"
+FT   MOTIF           406..409
+FT                   /note="Meso-diaminopimelate recognition motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         29
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         107..113
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         149..150
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         176
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         182
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         184
+FT                   /ligand="UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+FT                   glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:83900"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         382
+FT                   /ligand="meso-2,6-diaminoheptanedioate"
+FT                   /ligand_id="ChEBI:CHEBI:57791"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         406..409
+FT                   /ligand="meso-2,6-diaminoheptanedioate"
+FT                   /ligand_id="ChEBI:CHEBI:57791"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         454
+FT                   /ligand="meso-2,6-diaminoheptanedioate"
+FT                   /ligand_id="ChEBI:CHEBI:57791"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   BINDING         458
+FT                   /ligand="meso-2,6-diaminoheptanedioate"
+FT                   /ligand_id="ChEBI:CHEBI:57791"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+FT   MOD_RES         216
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00208"
+SQ   SEQUENCE   485 AA;  50119 MW;  6C1D567342C3A56F CRC64;
+     MKLRDIFSAE ADIAAPAADL TIGGLAVDSR AVKPGDLFFA LAGAKTDGAR FVAAAVAAGA
+     VAVAGEHRPE GDLSVPFVQL SNARLALAQA AARFYPRQPE VIAAVTGTSG KTSVAAFTRQ
+     IWQRLGHAAA SIGTIGLVTP TRSVYGSLTT PDPIALHRSL DEIAREGITH LALEASSHGL
+     DQFRLDGVRV AAGGFTNLSR DHMDYHPTVA HYLNAKLRLF RNLVQDGGAA VISADHDCSA
+     QVIEAAGARG LRLITIGRNG DPGAGIKLID AAVEGFAQQL TVEHAGKRHR IKLPLVGEFQ
+     IENALVAAGL VIGTGGDAAA SFAALEHLEG APGRLDLVGA RNGAPVFVDY AHKPDALAKT
+     LQALRPYAKR KLVVVFGAGG DRDSGKRPLM GAIAAENADV VIITDDNPRS EDPATIRAAI
+     LAAAPGAREI GDRAEAIRTA IGELQPGDAL VIAGKGHETG QIVGDRVLHF SDHDAAKAAL
+     SASAA
+//

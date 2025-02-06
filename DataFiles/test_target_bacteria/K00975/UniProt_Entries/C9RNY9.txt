@@ -1,0 +1,129 @@
+ID   C9RNY9_FIBSS            Unreviewed;       416 AA.
+AC   C9RNY9;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Glucose-1-phosphate adenylyltransferase {ECO:0000256|HAMAP-Rule:MF_00624};
+DE            EC=2.7.7.27 {ECO:0000256|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose pyrophosphorylase {ECO:0000256|HAMAP-Rule:MF_00624};
+DE            Short=ADPGlc PPase {ECO:0000256|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose synthase {ECO:0000256|HAMAP-Rule:MF_00624};
+GN   Name=glgC {ECO:0000256|HAMAP-Rule:MF_00624,
+GN   ECO:0000313|EMBL:ADL26328.1};
+GN   OrderedLocusNames=FSU_0133 {ECO:0000313|EMBL:ADL26328.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26328.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the biosynthesis of ADP-glucose, a building block
+CC       required for the elongation reactions to produce glycogen. Catalyzes
+CC       the reaction between ATP and alpha-D-glucose 1-phosphate (G1P) to
+CC       produce pyrophosphate and ADP-Glc. {ECO:0000256|HAMAP-Rule:MF_00624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate + ATP + H(+) = ADP-alpha-D-glucose
+CC         + diphosphate; Xref=Rhea:RHEA:12120, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57498,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.27; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00624};
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00624}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00624}.
+CC   -!- SIMILARITY: Belongs to the bacterial/plant glucose-1-phosphate
+CC       adenylyltransferase family. {ECO:0000256|ARBA:ARBA00010443,
+CC       ECO:0000256|HAMAP-Rule:MF_00624}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26328.1; -; Genomic_DNA.
+DR   RefSeq; WP_014544985.1; NC_017448.1.
+DR   AlphaFoldDB; C9RNY9; -.
+DR   STRING; 59374.FSU_0133; -.
+DR   KEGG; fsc:FSU_0133; -.
+DR   KEGG; fsu:Fisuc_2875; -.
+DR   PATRIC; fig|59374.8.peg.128; -.
+DR   eggNOG; COG0448; Bacteria.
+DR   HOGENOM; CLU_029499_14_1_0; -.
+DR   OrthoDB; 9801810at2; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008878; F:glucose-1-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02508; ADP_Glucose_PP; 1.
+DR   CDD; cd04651; LbH_G1P_AT_C; 1.
+DR   Gene3D; 2.160.10.10; Hexapeptide repeat proteins; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   HAMAP; MF_00624; GlgC; 1.
+DR   InterPro; IPR011831; ADP-Glc_PPase.
+DR   InterPro; IPR005836; ADP_Glu_pyroP_CS.
+DR   InterPro; IPR023049; GlgC_bac.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   NCBIfam; TIGR02091; glgC; 1.
+DR   PANTHER; PTHR43523:SF2; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43523; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE-RELATED; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+DR   SUPFAM; SSF51161; Trimeric LpxA-like enzymes; 1.
+DR   PROSITE; PS00808; ADP_GLC_PYROPHOSPH_1; 1.
+DR   PROSITE; PS00809; ADP_GLC_PYROPHOSPH_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Glycogen biosynthesis {ECO:0000256|ARBA:ARBA00023056, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Glycogen metabolism {ECO:0000256|ARBA:ARBA00022600, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_00624};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00624}.
+FT   DOMAIN          16..281
+FT                   /note="Nucleotidyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00483"
+FT   BINDING         105
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+FT   BINDING         170
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+FT   BINDING         185..186
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+FT   BINDING         203
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+FT   SITE            67
+FT                   /note="Could play a key role in the communication between
+FT                   the regulatory and the substrate sites"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+FT   SITE            104
+FT                   /note="Could play a key role in the communication between
+FT                   the regulatory and the substrate sites"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00624"
+SQ   SEQUENCE   416 AA;  46607 MW;  4D60101856A58EA7 CRC64;
+     MSWSYSREHQ KNILCMIMAG GQGSRLQPLT RDRAKPAVHF GGTYRIIDFV LNNFINSGIF
+     KIKVLTQFKS DSLNKHISAA WSLNASLDQY VDLVPAQMRT GDEWYRGTAD AIFQNINLIT
+     DERPDLVAIF GGDHIYKMDI NQMIDFHLSR AALLTIAAIP VPVEEAREFG IIEIDADNRM
+     IGFEEKPKEP KQMPNRPGWC LASMGNYLFT SKFLVRELLK GANDGATDFG KHIIPRLYKE
+     YPVYVYDFNT NIVRGEKAST KGYWRDVGTL DAFFEANMDL CSENPPFDLY NNYWPIRTYN
+     WNQPPARFFA GDNESHQGAA VDSIVSAGCI IGGGTVVKSI LSPGVTIQKD ALVEESILFP
+     NVTIGPGAKV RRAIVEKGLH IPAGFQIGYD LERDKQLFHV TESGIVVLAK DTIIKA
+//

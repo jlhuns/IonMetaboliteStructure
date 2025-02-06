@@ -1,0 +1,98 @@
+ID   A0A8B8TNG8_CAMFR        Unreviewed;       255 AA.
+AC   A0A8B8TNG8;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 14.
+DE   RecName: Full=Electron transfer flavoprotein subunit beta {ECO:0000256|ARBA:ARBA00016797, ECO:0000256|PIRNR:PIRNR000090};
+DE            Short=Beta-ETF {ECO:0000256|PIRNR:PIRNR000090};
+GN   Name=ETFB {ECO:0000313|RefSeq:XP_032343801.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032343801.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032343801.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032343801.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Heterodimeric electron transfer flavoprotein that accepts
+CC       electrons from several mitochondrial dehydrogenases, including acyl-CoA
+CC       dehydrogenases, glutaryl-CoA and sarcosine dehydrogenase. It transfers
+CC       the electrons to the main mitochondrial respiratory chain via ETF-
+CC       ubiquinone oxidoreductase. Required for normal mitochondrial fatty acid
+CC       oxidation and normal amino acid metabolism. ETFB binds an AMP molecule
+CC       that probably has a purely structural role.
+CC       {ECO:0000256|ARBA:ARBA00045835}.
+CC   -!- FUNCTION: The electron transfer flavoprotein serves as a specific
+CC       electron acceptor for several dehydrogenases, including five acyl-CoA
+CC       dehydrogenases, glutaryl-CoA and sarcosine dehydrogenase. It transfers
+CC       the electrons to the main mitochondrial respiratory chain via ETF-
+CC       ubiquinone oxidoreductase (ETF dehydrogenase).
+CC       {ECO:0000256|PIRNR:PIRNR000090}.
+CC   -!- SUBUNIT: Heterodimer composed of ETFA and ETFB. Identified in a complex
+CC       that contains ETFA, ETFB and ETFRF1. Interacts with ACADM.
+CC       {ECO:0000256|ARBA:ARBA00046893}.
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta subunit.
+CC       {ECO:0000256|PIRNR:PIRNR000090}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix
+CC       {ECO:0000256|ARBA:ARBA00004305, ECO:0000256|PIRNR:PIRNR000090}.
+CC   -!- SIMILARITY: Belongs to the ETF beta-subunit/FixA family.
+CC       {ECO:0000256|ARBA:ARBA00007557, ECO:0000256|PIRNR:PIRNR000090}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032343801.1; XM_032487910.1.
+DR   KEGG; cfr:102518396; -.
+DR   Proteomes; UP000694856; Chromosome 9.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0009063; P:amino acid catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; IEA:TreeGrafter.
+DR   CDD; cd01714; ETF_beta; 1.
+DR   FunFam; 3.40.50.620:FF:000011; Electron transfer flavoprotein subunit beta; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR000049; ET-Flavoprotein_bsu_CS.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR012255; ETF_b.
+DR   InterPro; IPR033948; ETF_beta_N.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21294; ELECTRON TRANSFER FLAVOPROTEIN BETA-SUBUNIT; 1.
+DR   PANTHER; PTHR21294:SF8; ELECTRON TRANSFER FLAVOPROTEIN SUBUNIT BETA; 1.
+DR   Pfam; PF01012; ETF; 1.
+DR   PIRSF; PIRSF000090; Beta-ETF; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   PROSITE; PS01065; ETF_BETA; 1.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982,
+KW   ECO:0000256|PIRNR:PIRNR000090};
+KW   Mitochondrion {ECO:0000256|PIRNR:PIRNR000090};
+KW   Transport {ECO:0000256|PIRNR:PIRNR000090}.
+FT   DOMAIN          26..218
+FT                   /note="Electron transfer flavoprotein alpha/beta-subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00893"
+FT   BINDING         9
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000090-1"
+FT   BINDING         39..42
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000090-1"
+FT   BINDING         66
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000090-1"
+FT   BINDING         123..134
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000090-1"
+SQ   SEQUENCE   255 AA;  27682 MW;  0A47A80B92E88D5E CRC64;
+     MAELRALVAV KRVIDFAVKI RVKPDRTGVV TDGVKHSMNP FCEIAVEEAV RLKEKKLVKE
+     VIAVSCGPAQ CQETIRTALA MGADRGIHVE VPAAEADRLG PLQVARVLAK LAEKEKVDLV
+     LLGKQAIDDD CNQTGQMTAG FLDWPQGTFA SQVTLEGDKV KVEREIDGGL ETLRLKLPAV
+     VTADLRLNEP RYATLPNIMK AKKKKIEVIK AGDLGVDLTS KLSVLSVEDP PQRTAGVKVE
+     TTEDLVAKLR ETGCI
+//

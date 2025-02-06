@@ -1,0 +1,84 @@
+ID   C9RR40_FIBSS            Unreviewed;       350 AA.
+AC   C9RR40;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 74.
+DE   SubName: Full=Peptidase, M48 family {ECO:0000313|EMBL:ADL25408.1};
+GN   OrderedLocusNames=FSU_1896 {ECO:0000313|EMBL:ADL25408.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25408.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|RuleBase:RU003983};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|RuleBase:RU003983};
+CC   -!- SIMILARITY: Belongs to the peptidase M48 family.
+CC       {ECO:0000256|RuleBase:RU003983}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25408.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546121.1; NC_017448.1.
+DR   AlphaFoldDB; C9RR40; -.
+DR   STRING; 59374.FSU_1896; -.
+DR   KEGG; fsc:FSU_1896; -.
+DR   KEGG; fsu:Fisuc_1428; -.
+DR   eggNOG; COG0501; Bacteria.
+DR   HOGENOM; CLU_042266_2_0_0; -.
+DR   OrthoDB; 15218at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd07340; M48B_Htpx_like; 1.
+DR   Gene3D; 3.30.2010.10; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   InterPro; IPR050083; HtpX_protease.
+DR   InterPro; IPR001915; Peptidase_M48.
+DR   PANTHER; PTHR43221; PROTEASE HTPX; 1.
+DR   PANTHER; PTHR43221:SF2; PROTEASE HTPX HOMOLOG; 1.
+DR   Pfam; PF01435; Peptidase_M48; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003983};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000256|RuleBase:RU003983};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000256|RuleBase:RU003983};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|RuleBase:RU003983}.
+FT   TRANSMEM        20..45
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        78..96
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        191..215
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        235..257
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          114..348
+FT                   /note="Peptidase M48"
+FT                   /evidence="ECO:0000259|Pfam:PF01435"
+SQ   SEQUENCE   350 AA;  39372 MW;  233C3618DE4559A9 CRC64;
+     MRYVGLQTQI WRNNRNTVIL LFMFPVILLG MVFLVILGLD FFGILCDFVG GGCPPSHASQ
+     TRYGAMHWSE IWLCFKAVVP YTLMIVGVWF IIAYCANTAI IRHATHAKPV ERKDNLRVYN
+     IVENLCIAGG IEMPQINIIQ DSGMNAFASG IDIPSFTITL TTGLIEKLDD RELSAVVGHE
+     LTHIKNRDTR LMVVCIVFVG IFATIQMVSM KLMSAIVRSP QRSSRRNRNS GRADIYILLI
+     LLLVFIWSSI GYVFTWLTRL AISRKREYVA DAGGAELCGD PLALASALRK ISKDPGLMSV
+     KRDDIAQLYV IHPDEEFDNN MGLKGWVAKA NIMFCTHPDT PERIQLLEQF
+//

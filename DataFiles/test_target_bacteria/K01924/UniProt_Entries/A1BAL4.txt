@@ -1,0 +1,103 @@
+ID   MURC_PARDP              Reviewed;         475 AA.
+AC   A1BAL4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=UDP-N-acetylmuramate--L-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00046};
+DE            EC=6.3.2.8 {ECO:0000255|HAMAP-Rule:MF_00046};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   Name=murC {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   OrderedLocusNames=Pden_4494;
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 2 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramate + L-alanine + ATP = UDP-N-
+CC         acetyl-alpha-D-muramoyl-L-alanine + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:23372, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57972, ChEBI:CHEBI:70757,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:456216; EC=6.3.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00046};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000490; ABL72558.1; -; Genomic_DNA.
+DR   RefSeq; WP_011750719.1; NC_008687.1.
+DR   AlphaFoldDB; A1BAL4; -.
+DR   SMR; A1BAL4; -.
+DR   STRING; 318586.Pden_4494; -.
+DR   EnsemblBacteria; ABL72558; ABL72558; Pden_4494.
+DR   GeneID; 93454160; -.
+DR   KEGG; pde:Pden_4494; -.
+DR   eggNOG; COG0773; Bacteria.
+DR   HOGENOM; CLU_028104_2_2_5; -.
+DR   OrthoDB; 9804126at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000361; Chromosome 2.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008763; F:UDP-N-acetylmuramate-L-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00046; MurC; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR050061; MurCDEF_pg_biosynth.
+DR   InterPro; IPR005758; UDP-N-AcMur_Ala_ligase_MurC.
+DR   NCBIfam; TIGR01082; murC; 1.
+DR   PANTHER; PTHR43445:SF3; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR43445; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE-RELATED; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF51984; MurCD N-terminal domain; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..475
+FT                   /note="UDP-N-acetylmuramate--L-alanine ligase"
+FT                   /id="PRO_1000004382"
+FT   BINDING         118..124
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00046"
+SQ   SEQUENCE   475 AA;  50865 MW;  207A23B4E7DAAE62 CRC64;
+     MNAATKLPGE LGPIHFVGIG GIGMSGIAEV LMTLGYQVQG SDAKRSKITD RLQTLGATIF
+     EGQRAENIGE AGVVVISTAI KKGNPELEEA RRRGLPVVRR AEMLAELMRL KSNVAIAGTH
+     GKTTTTTMVA TLLDAGGFDP TVINGGVIHA YGSNARAGAG EWMVVEADES DGSFNRLPAT
+     IAIVTNIDPE HMEHWGSFDA LRKGFQDFVS NIPFYGLAVC CTDHPEVQSL VGRLTDRRVA
+     TFGFNAQADV RAINLRYENG VAHFDIALQG EAELNEGEVP VIEGCTLPMP GDHNVSNALA
+     AVAVARHLGM KRAQIREALA RFGGVSRRFT RVGEVDGVTI IDDYGHHPVE IAAVLKAARQ
+     ATKGRVIAVH QPHRYSRLSS LFDDFCTCFN EADVVAIAEV YSAGEEPIPG ASRDDLVAGL
+     IAHGHRHARA VMDEGDLERL VREQARPGDM VVCLGAGTIS AWANNLPERL TEKAA
+//

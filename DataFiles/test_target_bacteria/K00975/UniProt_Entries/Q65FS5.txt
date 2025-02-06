@@ -1,0 +1,127 @@
+ID   GLGC_BACLD              Reviewed;         379 AA.
+AC   Q65FS5; Q62R82;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 109.
+DE   RecName: Full=Glucose-1-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            EC=2.7.7.27 {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            Short=ADPGlc PPase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose synthase {ECO:0000255|HAMAP-Rule:MF_00624};
+GN   Name=glgC {ECO:0000255|HAMAP-Rule:MF_00624};
+GN   OrderedLocusNames=BLi03229, BL01418;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Involved in the biosynthesis of ADP-glucose, a building block
+CC       required for the elongation reactions to produce glycogen. Catalyzes
+CC       the reaction between ATP and alpha-D-glucose 1-phosphate (G1P) to
+CC       produce pyrophosphate and ADP-Glc. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate + ATP + H(+) = ADP-alpha-D-glucose
+CC         + diphosphate; Xref=Rhea:RHEA:12120, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57498,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.27; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00624};
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SIMILARITY: Belongs to the bacterial/plant glucose-1-phosphate
+CC       adenylyltransferase family. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU42089.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU24728.1; -; Genomic_DNA.
+DR   RefSeq; WP_003184656.1; NC_006322.1.
+DR   AlphaFoldDB; Q65FS5; -.
+DR   SMR; Q65FS5; -.
+DR   STRING; 279010.BL01418; -.
+DR   GeneID; 92860179; -.
+DR   KEGG; bld:BLi03229; -.
+DR   KEGG; bli:BL01418; -.
+DR   PATRIC; fig|279010.13.peg.3302; -.
+DR   eggNOG; COG0448; Bacteria.
+DR   HOGENOM; CLU_029499_14_0_9; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   Bgee; BL01418; Expressed in testis and 4 other cell types or tissues.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008878; F:glucose-1-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02508; ADP_Glucose_PP; 1.
+DR   CDD; cd04651; LbH_G1P_AT_C; 1.
+DR   Gene3D; 2.160.10.10; Hexapeptide repeat proteins; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   HAMAP; MF_00624; GlgC; 1.
+DR   InterPro; IPR011831; ADP-Glc_PPase.
+DR   InterPro; IPR005836; ADP_Glu_pyroP_CS.
+DR   InterPro; IPR023049; GlgC_bac.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   NCBIfam; TIGR02091; glgC; 1.
+DR   PANTHER; PTHR43523:SF2; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43523; GLUCOSE-1-PHOSPHATE ADENYLYLTRANSFERASE-RELATED; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+DR   SUPFAM; SSF51161; Trimeric LpxA-like enzymes; 1.
+DR   PROSITE; PS00808; ADP_GLC_PYROPHOSPH_1; 1.
+DR   PROSITE; PS00809; ADP_GLC_PYROPHOSPH_2; 1.
+DR   PROSITE; PS00810; ADP_GLC_PYROPHOSPH_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Carbohydrate metabolism; Glycogen biosynthesis;
+KW   Glycogen metabolism; Nucleotide-binding; Nucleotidyltransferase;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..379
+FT                   /note="Glucose-1-phosphate adenylyltransferase"
+FT                   /id="PRO_0000195282"
+FT   BINDING         99
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         164
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         179..180
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         190
+FT                   /ligand="alpha-D-glucose 1-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58601"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+SQ   SEQUENCE   379 AA;  42379 MW;  4DA3C189EFF8FB62 CRC64;
+     MKEQCVAMLL AGGKGSRLNA LTKNLAKPAV PFGGKYRIID FALSNCANSG IHHVGVLTQY
+     QPLLLNSYIG IGEPWDLDRN DGGVSILSPY AEASEVKWYK GTASAIYENR HFLKELQPEH
+     VLILSGDHIY KMDYGKMLEY HAEKQADATI AVIEVSWAEA GRFGILHTND KMEITSFEEK
+     PKYPKSNLAS MGVYVFKWSV LEDALERDEK NSASSHDFGK DVIPALLEEN KRLNAYPFKG
+     YWKDVGTVRS LWEANMDLLG DHPPLDLFER NWRIYSVSPN LPPQFVADLA EIKESLVSEG
+     CTVYGSVTRS VIFQRVAIGR HSAIKRSVVM HDVSIGEYVE IENAIVSAGI RIPDGFCAKP
+     EDGEVLLITE EYVKKHKVV
+//

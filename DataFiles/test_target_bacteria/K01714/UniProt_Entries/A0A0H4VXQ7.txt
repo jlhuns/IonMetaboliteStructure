@@ -1,0 +1,129 @@
+ID   A0A0H4VXQ7_9SPHN        Unreviewed;       293 AA.
+AC   A0A0H4VXQ7;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 38.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate synthase {ECO:0000256|ARBA:ARBA00012086, ECO:0000256|HAMAP-Rule:MF_00418};
+DE            Short=HTPA synthase {ECO:0000256|HAMAP-Rule:MF_00418};
+DE            EC=4.3.3.7 {ECO:0000256|ARBA:ARBA00012086, ECO:0000256|HAMAP-Rule:MF_00418};
+GN   Name=dapA {ECO:0000256|HAMAP-Rule:MF_00418};
+GN   ORFNames=CP97_07505 {ECO:0000313|EMBL:AKQ41908.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41908.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41908.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of (S)-aspartate-beta-semialdehyde
+CC       [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA).
+CC       {ECO:0000256|ARBA:ARBA00003294, ECO:0000256|HAMAP-Rule:MF_00418}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate 4-semialdehyde + pyruvate = (2S,4S)-4-
+CC         hydroxy-2,3,4,5-tetrahydrodipicolinate + H2O + H(+);
+CC         Xref=Rhea:RHEA:34171, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:67139, ChEBI:CHEBI:537519; EC=4.3.3.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047836, ECO:0000256|HAMAP-
+CC         Rule:MF_00418};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 3/4.
+CC       {ECO:0000256|ARBA:ARBA00005120, ECO:0000256|HAMAP-Rule:MF_00418}.
+CC   -!- SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000256|HAMAP-
+CC       Rule:MF_00418}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00418}.
+CC   -!- SIMILARITY: Belongs to the DapA family. {ECO:0000256|ARBA:ARBA00007592,
+CC       ECO:0000256|HAMAP-Rule:MF_00418, ECO:0000256|PIRNR:PIRNR001365}.
+CC   -!- CAUTION: Was originally thought to be a dihydrodipicolinate synthase
+CC       (DHDPS), catalyzing the condensation of (S)-aspartate-beta-semialdehyde
+CC       [(S)-ASA] and pyruvate to dihydrodipicolinate (DHDP). However, it was
+CC       shown in E.coli that the product of the enzymatic reaction is not
+CC       dihydrodipicolinate but in fact (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-
+CC       dipicolinic acid (HTPA), and that the consecutive dehydration reaction
+CC       leading to DHDP is not spontaneous but catalyzed by DapB.
+CC       {ECO:0000256|HAMAP-Rule:MF_00418}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41908.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885421.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VXQ7; -.
+DR   STRING; 1648404.CP97_07505; -.
+DR   KEGG; ery:CP97_07505; -.
+DR   PATRIC; fig|1648404.4.peg.1564; -.
+DR   OrthoDB; 9782828at2; -.
+DR   UniPathway; UPA00034; UER00017.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008840; F:4-hydroxy-tetrahydrodipicolinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   CDD; cd00950; DHDPS; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00418; DapA; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005263; DapA.
+DR   InterPro; IPR002220; DapA-like.
+DR   InterPro; IPR020624; Schiff_base-form_aldolases_CS.
+DR   NCBIfam; TIGR00674; dapA; 1.
+DR   PANTHER; PTHR12128:SF66; 4-HYDROXY-2-OXOGLUTARATE ALDOLASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR12128; DIHYDRODIPICOLINATE SYNTHASE; 1.
+DR   Pfam; PF00701; DHDPS; 1.
+DR   PIRSF; PIRSF001365; DHDPS; 1.
+DR   PRINTS; PR00146; DHPICSNTHASE.
+DR   SMART; SM01130; DHDPS; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+DR   PROSITE; PS00665; DHDPS_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00418};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00418};
+KW   Diaminopimelate biosynthesis {ECO:0000256|ARBA:ARBA00022915,
+KW   ECO:0000256|HAMAP-Rule:MF_00418};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00418};
+KW   Lysine biosynthesis {ECO:0000256|ARBA:ARBA00023154, ECO:0000256|HAMAP-
+KW   Rule:MF_00418}; Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Schiff base {ECO:0000256|ARBA:ARBA00023270, ECO:0000256|HAMAP-
+KW   Rule:MF_00418}.
+FT   ACT_SITE        132
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418,
+FT                   ECO:0000256|PIRSR:PIRSR001365-1"
+FT   ACT_SITE        162
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418,
+FT                   ECO:0000256|PIRSR:PIRSR001365-1"
+FT   BINDING         44
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418,
+FT                   ECO:0000256|PIRSR:PIRSR001365-2"
+FT   BINDING         203
+FT                   /ligand="pyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:15361"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418,
+FT                   ECO:0000256|PIRSR:PIRSR001365-2"
+FT   SITE            43
+FT                   /note="Part of a proton relay during catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418"
+FT   SITE            106
+FT                   /note="Part of a proton relay during catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00418"
+SQ   SEQUENCE   293 AA;  31245 MW;  7EE0D5EF3C48F809 CRC64;
+     MFTGSIPALA TPFRDGAFDE SAYRRFIEWQ IDNGASALVP CGTTGESATL DNDEHHLIIK
+     TCAEAAAGRV PVIAGAGSND TQTALWHIKE AQIAGADALL LVAPYYNRPS QAGLLAHFSY
+     LAERTDLPIV LYNVPGRSVT DILPETVVEL HRRFPEKIVA LKDASGDLSR VVTHRIGAPQ
+     LCQLSGDDPL MLAGYALGQV GCISVTANVA PRMCADFHAA AAQGDFATAR EINERLYPLH
+     KAMFADASPS PAKYALSKLF DWFSPEVRLP IVDCSDAAKA AVDEAIEGAG VTP
+//

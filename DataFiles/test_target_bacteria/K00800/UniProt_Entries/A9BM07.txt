@@ -1,0 +1,228 @@
+ID   A9BM07_DELAS            Unreviewed;       675 AA.
+AC   A9BM07;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Multifunctional fusion protein {ECO:0000256|HAMAP-Rule:MF_00210, ECO:0000256|HAMAP-Rule:MF_00238};
+DE   Includes:
+DE     RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE              EC=2.5.1.19 {ECO:0000256|HAMAP-Rule:MF_00210};
+DE     AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE              Short=EPSP synthase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE              Short=EPSPS {ECO:0000256|HAMAP-Rule:MF_00210};
+DE   Includes:
+DE     RecName: Full=Cytidylate kinase {ECO:0000256|HAMAP-Rule:MF_00238};
+DE              Short=CK {ECO:0000256|HAMAP-Rule:MF_00238};
+DE              EC=2.7.4.25 {ECO:0000256|HAMAP-Rule:MF_00238};
+DE     AltName: Full=Cytidine monophosphate kinase {ECO:0000256|HAMAP-Rule:MF_00238};
+DE              Short=CMP kinase {ECO:0000256|HAMAP-Rule:MF_00238};
+GN   Name=cmk {ECO:0000256|HAMAP-Rule:MF_00238};
+GN   Synonyms=aroA {ECO:0000256|HAMAP-Rule:MF_00210};
+GN   OrderedLocusNames=Daci_4723 {ECO:0000313|EMBL:ABX37352.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX37352.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX37352.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of the enolpyruvyl moiety of
+CC       phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3-phosphate
+CC       (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic
+CC       phosphate. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phosphoshikimate + phosphoenolpyruvate = 5-O-(1-
+CC         carboxyvinyl)-3-phosphoshikimate + phosphate; Xref=Rhea:RHEA:21256,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701, ChEBI:CHEBI:58702,
+CC         ChEBI:CHEBI:145989; EC=2.5.1.19;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044633};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21257;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044633};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP + ATP = CDP + ADP; Xref=Rhea:RHEA:11600,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58069, ChEBI:CHEBI:60377,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048478, ECO:0000256|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dCMP + ATP = dCDP + ADP; Xref=Rhea:RHEA:25094,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57566, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047615, ECO:0000256|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       6/7. {ECO:0000256|ARBA:ARBA00004811, ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family.
+CC       {ECO:0000256|ARBA:ARBA00009948, ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SIMILARITY: Belongs to the cytidylate kinase family. Type 1 subfamily.
+CC       {ECO:0000256|ARBA:ARBA00009427, ECO:0000256|HAMAP-Rule:MF_00238}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37352.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206522.1; NC_010002.1.
+DR   AlphaFoldDB; A9BM07; -.
+DR   STRING; 398578.Daci_4723; -.
+DR   GeneID; 24116650; -.
+DR   KEGG; dac:Daci_4723; -.
+DR   eggNOG; COG0128; Bacteria.
+DR   eggNOG; COG0283; Bacteria.
+DR   HOGENOM; CLU_024321_2_0_4; -.
+DR   UniPathway; UPA00053; UER00089.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003866; F:3-phosphoshikimate 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036430; F:CMP kinase activity; IEA:RHEA.
+DR   GO; GO:0036431; F:dCMP kinase activity; IEA:RHEA.
+DR   GO; GO:0008652; P:amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02020; CMPK; 1.
+DR   CDD; cd01556; EPSP_synthase; 1.
+DR   FunFam; 3.65.10.10:FF:000004; 3-phosphoshikimate 1-carboxyvinyltransferase; 1.
+DR   Gene3D; 3.65.10.10; Enolpyruvate transferase domain; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00238; Cytidyl_kinase_type1; 1.
+DR   HAMAP; MF_00210; EPSP_synth; 1.
+DR   InterPro; IPR003136; Cytidylate_kin.
+DR   InterPro; IPR011994; Cytidylate_kinase_dom.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR006264; EPSP_synthase.
+DR   InterPro; IPR023193; EPSP_synthase_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   NCBIfam; TIGR01356; aroA; 1.
+DR   NCBIfam; TIGR00017; cmk; 1.
+DR   PANTHER; PTHR21090; AROM/DEHYDROQUINATE SYNTHASE; 1.
+DR   PANTHER; PTHR21090:SF5; PENTAFUNCTIONAL AROM POLYPEPTIDE; 1.
+DR   Pfam; PF02224; Cytidylate_kin; 1.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   SUPFAM; SSF55205; EPT/RTPC-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00104; EPSP_SYNTHASE_1; 1.
+DR   PROSITE; PS00885; EPSP_SYNTHASE_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00210};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023141,
+KW   ECO:0000256|HAMAP-Rule:MF_00210};
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00238};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00210};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00238};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00238}; Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00210}.
+FT   DOMAIN          13..441
+FT                   /note="Enolpyruvate transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00275"
+FT   DOMAIN          455..665
+FT                   /note="Cytidylate kinase"
+FT                   /evidence="ECO:0000259|Pfam:PF02224"
+FT   ACT_SITE        329
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         25
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         25
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         26
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         30
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         101
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         129
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         178
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         179
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         180
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         180
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         208
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         329
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         356
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         360
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         405
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         432
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         459..467
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00238"
+SQ   SEQUENCE   675 AA;  72875 MW;  98A9DA1CFEDD0435 CRC64;
+     MFSTAFLDIP PLSRAQGTVS LPGSKSISNR VLLLAALSQG TTVVHDLLDS DDTRVMLRAL
+     QQLGCTVEPA TITLGQPVRI TGLGGVLPSG ASAELFMGNA GTAMRPLTAA LSVLGGDFKL
+     SGVPRMHERP IGDLVDALRQ LGCRIDYLGN EGFPPLHIRQ PDFSQLPHSP IQVRGDVSSQ
+     FLTSLLMALP LLANTRDITI EVVDELISKP YIHITLELLA RFGIAVHNEN WQRFTIPAGS
+     RYSSPGEIHV EADASSASYF IALGAIASDS AEGIRILGVG LDSIQGDIRF VEAARAMGAE
+     VEGGPNWLRI RRGAWPLKAI DLDCNHIPDA AMTLAVMALY ADGTTTLRNI ASWRVKETDR
+     IAAMTKELRK LGADVEEGAD YIRITPPAST AAWRAASIHT YDDHRVAMCF SLAAFNPAAL
+     PVRIEDPKCV AKTFPDYFEA LFSVCETARA RIPVICIDGP TASGKGTIAA EVAQALGYHL
+     LDSGALYRLT GLAASRAGLV LDEPHAQQIA VLARELPVRF DAEQRIWLGD EDVTLILRSE
+     ESGMNASRVS ALPAVRDALV DLQLSFQQLP GLVADGRDMG TVIFPHAPLK VYLSASAACR
+     AERRHKQLIS KGIAANISAL RADLEARDAR DMNRSVAPLK PAQDSMLLDS SELSIEEVAE
+     QVLSWWQERQ PFGRD
+//

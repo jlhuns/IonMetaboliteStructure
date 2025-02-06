@@ -1,0 +1,104 @@
+ID   W6RKQ7_9HYPH            Unreviewed;       313 AA.
+AC   W6RKQ7;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   27-NOV-2024, entry version 38.
+DE   SubName: Full=Electron transfer flavoprotein subunit alpha {ECO:0000313|EMBL:CDM59448.1};
+GN   Name=etfA {ECO:0000313|EMBL:CDM59448.1};
+GN   ORFNames=LPU83_3811 {ECO:0000313|EMBL:CDM59448.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM59448.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM59448.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM59448.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May play a role in a redox process involved in nitrogen
+CC       fixation. {ECO:0000256|ARBA:ARBA00003554}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000089-1};
+CC       Note=Binds 1 FAD per dimer. {ECO:0000256|PIRSR:PIRSR000089-1};
+CC   -!- SUBUNIT: FixA and FixB form a heterodimer.
+CC       {ECO:0000256|ARBA:ARBA00011874}.
+CC   -!- SIMILARITY: Belongs to the ETF alpha-subunit/FixB family.
+CC       {ECO:0000256|ARBA:ARBA00005817}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM59448.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316211.1; NZ_HG916852.1.
+DR   AlphaFoldDB; W6RKQ7; -.
+DR   KEGG; rhl:LPU83_3811; -.
+DR   PATRIC; fig|348824.6.peg.4093; -.
+DR   eggNOG; COG2025; Bacteria.
+DR   HOGENOM; CLU_034178_0_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; IEA:TreeGrafter.
+DR   GO; GO:0009399; P:nitrogen fixation; IEA:UniProtKB-KW.
+DR   CDD; cd01715; ETF_alpha; 1.
+DR   FunFam; 3.40.50.1220:FF:000001; Electron transfer flavoprotein, alpha subunit; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.40.50.1220; TPP-binding domain; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR001308; ETF_a/FixB.
+DR   InterPro; IPR033947; ETF_alpha_N.
+DR   InterPro; IPR014731; ETF_asu_C.
+DR   InterPro; IPR018206; ETF_asu_C_CS.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR43153; ELECTRON TRANSFER FLAVOPROTEIN ALPHA; 1.
+DR   PANTHER; PTHR43153:SF1; ELECTRON TRANSFER FLAVOPROTEIN SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   Pfam; PF01012; ETF; 1.
+DR   Pfam; PF00766; ETF_alpha; 1.
+DR   PIRSF; PIRSF000089; Electra_flavoP_a; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF52467; DHS-like NAD/FAD-binding domain; 1.
+DR   PROSITE; PS00696; ETF_ALPHA; 1.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR000089-1};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Nitrogen fixation {ECO:0000256|ARBA:ARBA00023231};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448}.
+FT   DOMAIN          3..185
+FT                   /note="Electron transfer flavoprotein alpha/beta-subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00893"
+FT   BINDING         205
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         231..232
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         245..249
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         262..269
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         283
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+SQ   SEQUENCE   313 AA;  31902 MW;  604DCEEE0B7DFEE4 CRC64;
+     MAILLLADHD GNHLSDQTAK TLTAASKIAK EQASDVHVLV AGAGAKAAAE QAAKLSGVSK
+     VLVAEDASLA NNLAEPLAAL IVQLSGSYDT IIAAATSTGK NVMPRVAALL DVAQVSEIIE
+     VVSADTFKRP IYAGNAIQTV QATDARRVIT VRTASFAAAA EGGSAPVETI AAAANPGLST
+     FVKDALSASD RPELTSAKII ISGGRALGSA EKFREVILPV ADKLGAAVGA SRAAVDAGYA
+     PNDWQVGQTG KVVAPDLYIA CGISGAIQHL AGMKDSKVIV AINKDEEAPI FQVADYGLVA
+     DLFEALPELQ KAL
+//

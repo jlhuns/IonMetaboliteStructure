@@ -1,0 +1,101 @@
+ID   Q6N345_RHOPA            Unreviewed;       121 AA.
+AC   Q6N345;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 119.
+DE   RecName: Full=Glycine cleavage system H protein {ECO:0000256|HAMAP-Rule:MF_00272};
+GN   Name=gcvH {ECO:0000256|HAMAP-Rule:MF_00272,
+GN   ECO:0000313|EMBL:WCL94027.1};
+GN   OrderedLocusNames=RPA3849 {ECO:0000313|EMBL:CAE29290.1};
+GN   ORFNames=TX73_019930 {ECO:0000313|EMBL:WCL94027.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29290.1};
+RN   [1] {ECO:0000313|EMBL:WCL94027.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94027.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29290.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29290.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94027.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94027.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The glycine cleavage system catalyzes the degradation of
+CC       glycine. The H protein shuttles the methylamine group of glycine from
+CC       the P protein to the T protein. {ECO:0000256|HAMAP-Rule:MF_00272}.
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00272};
+CC       Note=Binds 1 lipoyl cofactor covalently. {ECO:0000256|HAMAP-
+CC       Rule:MF_00272};
+CC   -!- SUBUNIT: The glycine cleavage system is composed of four proteins: P,
+CC       T, L and H. {ECO:0000256|HAMAP-Rule:MF_00272}.
+CC   -!- SIMILARITY: Belongs to the GcvH family. {ECO:0000256|ARBA:ARBA00009249,
+CC       ECO:0000256|HAMAP-Rule:MF_00272}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572605; CAE29290.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94027.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159385.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3849; -.
+DR   GeneID; 66894958; -.
+DR   KEGG; rpa:TX73_019930; -.
+DR   eggNOG; COG0509; Bacteria.
+DR   HOGENOM; CLU_097408_2_0_5; -.
+DR   PhylomeDB; Q6N345; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005960; C:glycine cleavage complex; IEA:InterPro.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019464; P:glycine decarboxylation via glycine cleavage system; IEA:UniProtKB-UniRule.
+DR   CDD; cd06848; GCS_H; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   HAMAP; MF_00272; GcvH; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR002930; GCV_H.
+DR   InterPro; IPR033753; GCV_H/Fam206.
+DR   InterPro; IPR017453; GCV_H_sub.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   NCBIfam; TIGR00527; gcvH; 1.
+DR   PANTHER; PTHR11715; GLYCINE CLEAVAGE SYSTEM H PROTEIN; 1.
+DR   PANTHER; PTHR11715:SF3; GLYCINE CLEAVAGE SYSTEM H PROTEIN-RELATED; 1.
+DR   Pfam; PF01597; GCV_H; 1.
+DR   SUPFAM; SSF51230; Single hybrid motif; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+PE   3: Inferred from homology;
+KW   Lipoyl {ECO:0000256|ARBA:ARBA00022823, ECO:0000256|HAMAP-Rule:MF_00272};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000313|EMBL:CAE29290.1}.
+FT   DOMAIN          18..100
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50968"
+FT   MOD_RES         59
+FT                   /note="N6-lipoyllysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00272,
+FT                   ECO:0000256|PIRSR:PIRSR617453-50"
+SQ   SEQUENCE   121 AA;  12928 MW;  E11A0BA741D36696 CRC64;
+     MTTLYTPDHE WLKIEGDVAT IGITDYAQEQ LGDVVFVELP KVGRAVKKAE AAAVVESVKA
+     ASDVYAPISG EVLEVNETLG TEPGLVNSDA GGAAWFFKLR IADKSELDGL MDEAAYKTHT
+     A
+//

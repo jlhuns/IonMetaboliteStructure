@@ -1,0 +1,144 @@
+ID   D8GQV3_CLOLD            Unreviewed;       296 AA.
+AC   D8GQV3;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000256|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000256|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000256|HAMAP-Rule:MF_00047};
+GN   Name=ddl {ECO:0000256|HAMAP-Rule:MF_00047,
+GN   ECO:0000313|EMBL:ADK16258.1};
+GN   OrderedLocusNames=CLJU_c32110 {ECO:0000313|EMBL:ADK16258.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK16258.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK16258.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 D-alanine + ATP = D-alanyl-D-alanine + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57416, ChEBI:CHEBI:57822,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.4; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR039102-3};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR039102-3};
+CC       Note=Binds 2 magnesium or manganese ions per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR039102-3};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000256|ARBA:ARBA00010871, ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK16258.1; -; Genomic_DNA.
+DR   RefSeq; WP_013239841.1; NZ_LITS01000001.1.
+DR   AlphaFoldDB; D8GQV3; -.
+DR   STRING; 748727.CLJU_c32110; -.
+DR   KEGG; clj:CLJU_c32110; -.
+DR   PATRIC; fig|748727.19.peg.498; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   HOGENOM; CLU_039268_1_1_9; -.
+DR   OrthoDB; 9813261at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   FunFam; 3.40.50.20:FF:000031; D-alanine--D-alanine ligase; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PANTHER; PTHR23132; D-ALANINE--D-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR23132:SF23; D-ALANINE--D-ALANINE LIGASE B; 1.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 2.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 2.
+DR   SMART; SM01209; GARS_A; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+DR   PROSITE; PS00844; DALA_DALA_LIGASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00047};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR039102-3};
+KW   Manganese {ECO:0000256|PIRSR:PIRSR039102-3};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR039102-3};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00047}.
+FT   DOMAIN          99..293
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+FT   ACT_SITE        13
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-1"
+FT   ACT_SITE        142
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-1"
+FT   ACT_SITE        271
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-1"
+FT   BINDING         248
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-3"
+FT   BINDING         260
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-3"
+FT   BINDING         260
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-3"
+FT   BINDING         262
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR039102-3"
+SQ   SEQUENCE   296 AA;  32888 MW;  51D0130DB4878CCD CRC64;
+     MKIGVIMGGI SSEREVSLNS GKEIVNCLDK NKYEVVPIVI DKKRDVLEKV KDIDFAFIAL
+     HGKFGEDGTI QSVLETMDIP YSGCGPLTSA ICMDKDMSKK VLKSADINTA KWICVKSIEE
+     IDYDKLDEIG YPVVVKPNCG GSSVATNIVK KKEDIENNVK LALDYDTEVV IEKYIQGDEI
+     TCCMLKGKTL PVIAIKPNAE FFDYTAKYAD GGSDEIVVEL EKSLQEKVEK ICVQCWEVLK
+     CKSYARVDII VENGIPYVLE LNTLPGLTKN SLFPKSARGI DMSFTQLLDK VIQYSL
+//

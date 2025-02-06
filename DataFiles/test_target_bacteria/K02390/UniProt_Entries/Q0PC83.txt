@@ -1,0 +1,91 @@
+ID   Q0PC83_CAMJE            Unreviewed;       545 AA.
+AC   Q0PC83;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   SubName: Full=Flagellar hook protein {ECO:0000313|EMBL:CAL34223.1};
+GN   Name=flgE {ECO:0000313|EMBL:CAL34223.1};
+GN   OrderedLocusNames=Cj0043 {ECO:0000313|EMBL:CAL34223.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34223.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34223.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|RuleBase:RU362116}.
+CC   -!- SIMILARITY: Belongs to the flagella basal body rod proteins family.
+CC       {ECO:0000256|ARBA:ARBA00009677, ECO:0000256|RuleBase:RU362116}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34223.1; -; Genomic_DNA.
+DR   PIR; F81420; F81420.
+DR   RefSeq; WP_002805291.1; NZ_SZUC01000005.1.
+DR   RefSeq; YP_002343514.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PC83; -.
+DR   STRING; 192222.Cj0043; -.
+DR   PaxDb; 192222-Cj0043; -.
+DR   DNASU; 906016; -.
+DR   EnsemblBacteria; CAL34223; CAL34223; Cj0043.
+DR   GeneID; 906016; -.
+DR   KEGG; cje:Cj0043; -.
+DR   PATRIC; fig|192222.6.peg.43; -.
+DR   eggNOG; COG1749; Bacteria.
+DR   HOGENOM; CLU_013687_2_4_7; -.
+DR   OrthoDB; 9804559at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071978; P:bacterial-type flagellum-dependent swarming motility; IEA:TreeGrafter.
+DR   InterPro; IPR001444; Flag_bb_rod_N.
+DR   InterPro; IPR019776; Flagellar_basal_body_rod_CS.
+DR   InterPro; IPR020013; Flagellar_FlgE/F/G.
+DR   InterPro; IPR010930; Flg_bb/hook_C_dom.
+DR   InterPro; IPR037925; FlgE/F/G-like.
+DR   InterPro; IPR053967; LlgE_F_G-like_D1.
+DR   NCBIfam; TIGR03506; FlgEFG_subfam; 2.
+DR   PANTHER; PTHR30435:SF19; FLAGELLAR BASAL-BODY ROD PROTEIN FLGG; 1.
+DR   PANTHER; PTHR30435; FLAGELLAR PROTEIN; 1.
+DR   Pfam; PF00460; Flg_bb_rod; 1.
+DR   Pfam; PF06429; Flg_bbr_C; 1.
+DR   Pfam; PF22692; LlgE_F_G_D1; 1.
+DR   SUPFAM; SSF117143; Flagellar hook protein flgE; 1.
+DR   PROSITE; PS00588; FLAGELLA_BB_ROD; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|RuleBase:RU362116};
+KW   Cell projection {ECO:0000313|EMBL:CAL34223.1};
+KW   Cilium {ECO:0000313|EMBL:CAL34223.1};
+KW   Flagellum {ECO:0000313|EMBL:CAL34223.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          5..35
+FT                   /note="Flagellar basal body rod protein N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00460"
+FT   DOMAIN          87..130
+FT                   /note="Flagellar hook protein FlgE/F/G-like D1"
+FT                   /evidence="ECO:0000259|Pfam:PF22692"
+FT   DOMAIN          499..543
+FT                   /note="Flagellar basal-body/hook protein C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06429"
+SQ   SEQUENCE   545 AA;  58231 MW;  F7638D30F1971C32 CRC64;
+     MMNSFYNGIS GVKSNSFGID ITANNIANVN TTGFKYSDAQ FKDIFYTTIT TQSTNPAQGG
+     YGSGAASSQV VFEQGSPVAS DGEFDVALQG KGFFGVLGAD GNAYYTRNGS FRRDANGYLV
+     DSYGNFVLGT MNPAFTGINY SDRVAGLMGD YLNTGTPVNN GFTVNSNNSF SIGTTASQGA
+     IKVPVNMYLP PQVTQNVKWS GSLNTNTTTE VVKVDLDPSK FNITKTEDGK YVVSGSVSKE
+     DVFSAKAGDR IILNFTDDNG VKTSFEATLD ENLNFKSNEL DLKGLDENSI KLDTAQISTE
+     QQKANKDILE SPIYNADGSK STLRVTLERV LPQEGDNIQY KAIAQIYDSN GNAVGNPTEG
+     NMVFDKNGAL LQNNITSIAN PNGGTINIDL GSPYDANKPG SGYSGIYIKQ GVEKNVVTQQ
+     DGVAEGFFEQ YNISDDGSIV AQFSNGKNAI VGKLALYNFI NEQGLVAMGD NIFAATANSG
+     DASFIMKDGQ VVNTAKFKGG FLEQSNVDLS AELSNLIVTQ KAFDASSKSI TTSDQMIQKA
+     INMKR
+//

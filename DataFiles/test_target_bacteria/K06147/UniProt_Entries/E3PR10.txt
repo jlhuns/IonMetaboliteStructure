@@ -1,0 +1,105 @@
+ID   E3PR10_ACESD            Unreviewed;       604 AA.
+AC   E3PR10;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 64.
+DE   SubName: Full=Putative ABC lipid transporter (ATP-binding protein) {ECO:0000313|EMBL:CBH20225.1};
+GN   Name=ywjA {ECO:0000313|EMBL:CBH20225.1};
+GN   OrderedLocusNames=CLOST_0095 {ECO:0000313|EMBL:CBH20225.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20225.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20225.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PR10; -.
+DR   STRING; 1511.CLOST_0095; -.
+DR   KEGG; cst:CLOST_0095; -.
+DR   eggNOG; COG1132; Bacteria.
+DR   HOGENOM; CLU_000604_84_3_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015421; F:ABC-type oligopeptide transporter activity; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   CDD; cd18549; ABC_6TM_YwjA_like; 1.
+DR   CDD; cd03251; ABCC_MsbA; 1.
+DR   FunFam; 3.40.50.300:FF:000218; Multidrug ABC transporter ATP-binding protein; 1.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR43394:SF1; ATP-BINDING CASSETTE SUB-FAMILY B MEMBER 10, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43394; ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL; 1.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   4: Predicted;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000313|EMBL:CBH20225.1};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        30..50
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        70..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        159..186
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        267..285
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        291..308
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          34..316
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50929"
+FT   DOMAIN          350..585
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000259|PROSITE:PS50893"
+SQ   SEQUENCE   604 AA;  68376 MW;  9B9699B3306B9188 CRC64;
+     MAENVQNRKH STWELFKRFV PYFSKYKTTL YLDLFFASLT TLCELALPLI LRKIATVGME
+     DAALLTKELI WQMAGIYFVL RIIDVLGNYY MSSVGHIMGA KIETDMRRDA FSHLQNLSDS
+     FYNNTKVGQI MARITSDLFD VTEFAHHCPE EFFIGALKLV ISFAILAKID LVLTMAIFIF
+     IPIMLVSVTK FNRLMRSAFK SQRNHIGDLN AGIEDALLGM RVVRSFANEE IEKEKFERDN
+     QKFLGIKKQA YKYLAGFHSM TRIFDGIMYL MVILLGGFFI LNGRINAADL LAYIMYVTTL
+     LATVRRIVEF MEQFQRGMTG IERFIEIMDT DVDIKDEPDA VELKHVDGKI TFDNVSFEYP
+     DDHNKVLSKL SFVVEPGENI ALVGPSGGGK TTLCNLIPRF YDVTEGNISI DDSNIKNFTL
+     NSLRSKIGMV QQDVYLFSGS VFENIEYGRP GASKAEVEYA AKLAGAYDFI MNLHDGFDTY
+     VGERGVKLSG GQKQRISIAR VFLKNPPILI LDEATSALDN QSERIIQQSL VELSKGRTTL
+     TIAHRLSTIR GAHKILVLTE EGIKEQGSHS ELMALKGMYY DLYTQGNQEE DTLPEDIDAK
+     KKPK
+//

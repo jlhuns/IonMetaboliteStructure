@@ -1,0 +1,106 @@
+ID   F2RC00_STRVP            Unreviewed;       318 AA.
+AC   F2RC00;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 57.
+DE   SubName: Full=Electron transfer flavoprotein, alpha subunit {ECO:0000313|EMBL:CCA59251.1};
+GN   OrderedLocusNames=SVEN_5965 {ECO:0000313|EMBL:CCA59251.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA59251.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA59251.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA59251.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: The electron transfer flavoprotein serves as a specific
+CC       electron acceptor for other dehydrogenases. It transfers the electrons
+CC       to the main respiratory chain via ETF-ubiquinone oxidoreductase (ETF
+CC       dehydrogenase). {ECO:0000256|ARBA:ARBA00025649}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000089-1};
+CC       Note=Binds 1 FAD per dimer. {ECO:0000256|PIRSR:PIRSR000089-1};
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta subunit.
+CC       {ECO:0000256|ARBA:ARBA00011355}.
+CC   -!- SIMILARITY: Belongs to the ETF alpha-subunit/FixB family.
+CC       {ECO:0000256|ARBA:ARBA00005817}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA59251.1; -; Genomic_DNA.
+DR   RefSeq; WP_015037146.1; NZ_JABVZO010000178.1.
+DR   AlphaFoldDB; F2RC00; -.
+DR   STRING; 953739.SVEN_5965; -.
+DR   GeneID; 69868007; -.
+DR   KEGG; sve:SVEN_5965; -.
+DR   PATRIC; fig|953739.5.peg.1175; -.
+DR   eggNOG; COG2025; Bacteria.
+DR   HOGENOM; CLU_034178_0_1_11; -.
+DR   OrthoDB; 9770286at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; IEA:TreeGrafter.
+DR   FunFam; 3.40.50.1220:FF:000001; Electron transfer flavoprotein, alpha subunit; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.40.50.1220; TPP-binding domain; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR001308; ETF_a/FixB.
+DR   InterPro; IPR014731; ETF_asu_C.
+DR   InterPro; IPR018206; ETF_asu_C_CS.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR43153; ELECTRON TRANSFER FLAVOPROTEIN ALPHA; 1.
+DR   PANTHER; PTHR43153:SF1; ELECTRON TRANSFER FLAVOPROTEIN SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   Pfam; PF01012; ETF; 1.
+DR   Pfam; PF00766; ETF_alpha; 1.
+DR   PIRSF; PIRSF000089; Electra_flavoP_a; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF52467; DHS-like NAD/FAD-binding domain; 1.
+DR   PROSITE; PS00696; ETF_ALPHA; 1.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR000089-1};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448}.
+FT   DOMAIN          4..187
+FT                   /note="Electron transfer flavoprotein alpha/beta-subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00893"
+FT   BINDING         208
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         233..234
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         247..251
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         264..271
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+FT   BINDING         285
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000089-1"
+SQ   SEQUENCE   318 AA;  32056 MW;  0193F0E78BB89E72 CRC64;
+     MAEILVLVDH ADGAVRKPAL ELLTLARRIG EPTAVVLGAG EAAASIAATA GEYGAATVYV
+     ADGAEFTEQL VVPKVDALTQ LAKEKGAAAV LVTSSGEGKE IAARVALRLG SGLITDAVEL
+     EAGENAPVAT QSVFAASYQV KSTVTHGVPV ITVKPNSAAP EAAPAAGTVE NVTVAFTGNA
+     AKVVSRTARV STGRPELTES AIVVSGGRGV GAAEGFAVVE KLADSLGAAV GASRAAVDAG
+     WYPHSNQVGQ TGKQVSPQLY VAAGISGAIQ HRAGMQTSKT IVAVNKDPEA PIFDLVDYGV
+     VGDLFEVLPQ LTDEIGAR
+//

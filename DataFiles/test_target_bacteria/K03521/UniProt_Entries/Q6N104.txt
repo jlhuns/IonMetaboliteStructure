@@ -1,0 +1,89 @@
+ID   Q6N104_RHOPA            Unreviewed;       281 AA.
+AC   Q6N104;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Protein FixA {ECO:0000256|ARBA:ARBA00040635};
+GN   Name=fixA {ECO:0000313|EMBL:CAE30045.1};
+GN   OrderedLocusNames=RPA4605 {ECO:0000313|EMBL:CAE30045.1};
+GN   ORFNames=TX73_023920 {ECO:0000313|EMBL:WCL94810.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE30045.1};
+RN   [1] {ECO:0000313|EMBL:WCL94810.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94810.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE30045.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE30045.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94810.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94810.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May play a role in a redox process involved in nitrogen
+CC       fixation. {ECO:0000256|ARBA:ARBA00003554}.
+CC   -!- SUBUNIT: FixA and FixB form a heterodimer.
+CC       {ECO:0000256|ARBA:ARBA00011874}.
+CC   -!- SIMILARITY: Belongs to the ETF beta-subunit/FixA family.
+CC       {ECO:0000256|ARBA:ARBA00007557}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE30045.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94810.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160137.1; NZ_CP116810.1.
+DR   SMR; Q6N104; -.
+DR   STRING; 258594.RPA4605; -.
+DR   GeneID; 66895757; -.
+DR   KEGG; rpa:TX73_023920; -.
+DR   eggNOG; COG2086; Bacteria.
+DR   HOGENOM; CLU_060196_2_1_5; -.
+DR   PhylomeDB; Q6N104; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   CDD; cd01714; ETF_beta; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR000049; ET-Flavoprotein_bsu_CS.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR012255; ETF_b.
+DR   InterPro; IPR033948; ETF_beta_N.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21294; ELECTRON TRANSFER FLAVOPROTEIN BETA-SUBUNIT; 1.
+DR   PANTHER; PTHR21294:SF17; PROTEIN FIXA; 1.
+DR   Pfam; PF01012; ETF; 1.
+DR   PIRSF; PIRSF000090; Beta-ETF; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   PROSITE; PS01065; ETF_BETA; 1.
+PE   3: Inferred from homology;
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transport {ECO:0000256|ARBA:ARBA00022982}.
+FT   DOMAIN          22..219
+FT                   /note="Electron transfer flavoprotein alpha/beta-subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00893"
+SQ   SEQUENCE   281 AA;  30505 MW;  1E39A836517973A5 CRC64;
+     MHIVVCIKQV PDSAQIRVHP VTNTIMRQGV PTIINPYDLF ALEEALRLRD KFGGEVTVLT
+     MGPPTAEDSL RKALTIGANR AVLLTDRFFA GSDTLATSYA LAAAIRKIGS TFGAVDVVFT
+     GKQTIDGDTA QVGPGICKRL DFLQLTYVSK VSSLDLEART IEVERRSEGG VQVLRSNLPC
+     LITMLEGTNQ VRRGSMINAL NAARAEVVKW SAQDAGVEDI QKCGLRGSPT VVKRVFAPTP
+     RAEKAKVVEA AGQPPAEALI DEIFKLRPKL ENEMFELARG F
+//

@@ -1,0 +1,103 @@
+ID   Q64ST6_BACFR            Unreviewed;       839 AA.
+AC   Q64ST6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=Ribonucleoside-diphosphate reductase {ECO:0000256|ARBA:ARBA00012274, ECO:0000256|RuleBase:RU003410};
+DE            EC=1.17.4.1 {ECO:0000256|ARBA:ARBA00012274, ECO:0000256|RuleBase:RU003410};
+GN   OrderedLocusNames=BF2693 {ECO:0000313|EMBL:BAD49443.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD49443.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD49443.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD49443.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Provides the precursors necessary for DNA synthesis.
+CC       Catalyzes the biosynthesis of deoxyribonucleotides from the
+CC       corresponding ribonucleotides. {ECO:0000256|RuleBase:RU003410}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         disulfide + H2O = a ribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         dithiol; Xref=Rhea:RHEA:23252, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15377, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:73316; EC=1.17.4.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047754,
+CC         ECO:0000256|RuleBase:RU003410};
+CC   -!- SIMILARITY: Belongs to the ribonucleoside diphosphate reductase large
+CC       chain family. {ECO:0000256|ARBA:ARBA00010406,
+CC       ECO:0000256|RuleBase:RU003410}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD49443.1; -; Genomic_DNA.
+DR   RefSeq; WP_005788368.1; NC_006347.1.
+DR   RefSeq; YP_099977.1; NC_006347.1.
+DR   AlphaFoldDB; Q64ST6; -.
+DR   STRING; 295405.BF2693; -.
+DR   KEGG; bfr:BF2693; -.
+DR   PATRIC; fig|295405.11.peg.2605; -.
+DR   HOGENOM; CLU_000404_3_0_10; -.
+DR   OrthoDB; 9762933at2; -.
+DR   UniPathway; UPA00326; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005971; C:ribonucleoside-diphosphate reductase complex; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004748; F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor; IEA:UniProtKB-EC.
+DR   GO; GO:0009263; P:deoxyribonucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01679; RNR_I; 1.
+DR   Gene3D; 3.20.70.20; -; 1.
+DR   InterPro; IPR005144; ATP-cone_dom.
+DR   InterPro; IPR013346; NrdE_NrdA_C.
+DR   InterPro; IPR000788; RNR_lg_C.
+DR   InterPro; IPR013509; RNR_lsu_N.
+DR   InterPro; IPR008926; RNR_R1-su_N.
+DR   InterPro; IPR039718; Rrm1.
+DR   NCBIfam; TIGR02506; NrdE_NrdA; 1.
+DR   PANTHER; PTHR11573; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE LARGE CHAIN; 1.
+DR   PANTHER; PTHR11573:SF6; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE LARGE SUBUNIT; 1.
+DR   Pfam; PF03477; ATP-cone; 1.
+DR   Pfam; PF02867; Ribonuc_red_lgC; 1.
+DR   Pfam; PF00317; Ribonuc_red_lgN; 1.
+DR   PRINTS; PR01183; RIBORDTASEM1.
+DR   SUPFAM; SSF51998; PFL-like glycyl radical enzymes; 1.
+DR   SUPFAM; SSF48168; R1 subunit of ribonucleotide reductase, N-terminal domain; 1.
+DR   PROSITE; PS51161; ATP_CONE; 1.
+DR   PROSITE; PS00089; RIBORED_LARGE; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme {ECO:0000256|ARBA:ARBA00022533};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00492};
+KW   Deoxyribonucleotide synthesis {ECO:0000256|ARBA:ARBA00023116,
+KW   ECO:0000256|RuleBase:RU003410};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00492};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003410}.
+FT   DOMAIN          1..92
+FT                   /note="ATP-cone"
+FT                   /evidence="ECO:0000259|PROSITE:PS51161"
+SQ   SEQUENCE   839 AA;  95809 MW;  E4C4D6C95ACED367 CRC64;
+     MEITKRNGTT EPYDREKIAV AIRKSFASTG QEVSNEIIYS VVEEVENFVG KDTANRSVEQ
+     IQDKVEQSLM EHGFYAEAKN YILYRWQRTE RRKALNSIIN ELGDGTVMDV LKEIQKDFTT
+     HEYSLVVLYE KFSGFCKQEM PHSERLAALI KAAVELTTQE APDWEFIAAR LLNFQLSKKL
+     EKQAASAGIR SFYDKLRYLT EEGLYGSYIL AAYSQQEIEE AAGFICPDRD KLFNYSGLDL
+     LVKRYLIRTR LHEPAESVQE MYLGIALHLA MPEQKERMTW VKKFYDLLSR LEVTMATPTL
+     SNARKPYHQL SSCFIDTVPD SLEGIYRSID NFAMVSKFGG GMGMYFGKVR AAGGNIRGFK
+     GVAGGVIRWM KLVNDTAVAV DQLGMRQGAV AVYLDVWHKD LPEFLQLRTN NGDDRMKAHD
+     IFPSVCYPDL FWKMAKEDLN QPWYLFCPNE IMTIKGYCLE DYYGEEWEKR YHDCVNDTRL
+     SKRSISIKDI VRLVLRSAVE TGTPFTFNRD TVNRANPNAH RGIIYCSNLC TEIAQNMAAI
+     ETVSTEIRTE EGDTVVVKTV RPGDFVVCNL ASLSLGHLPL EDEEQIKEKV STVVRALDNV
+     IDLNFYPLPF AQITNQRYRS IGLGVSGYHH ALAIRNIRWE SEEHLRFVDR VFEQINYAAI
+     EASADLAKEK GRYEYFEGSD WQTGAYFGKR GYTSPEWNRL AAKVAENGMR NAYLLAIAPT
+     SSTSIIAGTT AGTDPVMKRF FLEEKKGAML PRVAPALSDK TFWLYKDAYT LDQKWSIRAA
+     GTRQLHIDQS QSLNLYITNE FTMRQVLDLY LLAWECGVKT VYYVRSKSLE VEECESCAS
+//

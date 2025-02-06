@@ -1,0 +1,110 @@
+ID   Q5ZTC5_LEGPH            Unreviewed;       612 AA.
+AC   Q5ZTC5;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   SubName: Full=Multidrug resistance ABC transporter ATP-binding protein (Fused permease/ATPase domains) {ECO:0000313|EMBL:AAU28302.1};
+GN   Name=abcT3 {ECO:0000313|EMBL:AAU28302.1};
+GN   OrderedLocusNames=lpg2237 {ECO:0000313|EMBL:AAU28302.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU28302.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU28302.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28302.1; -; Genomic_DNA.
+DR   RefSeq; YP_096249.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZTC5; -.
+DR   STRING; 272624.lpg2237; -.
+DR   PaxDb; 272624-lpg2237; -.
+DR   KEGG; lpn:lpg2237; -.
+DR   PATRIC; fig|272624.6.peg.2352; -.
+DR   eggNOG; COG1132; Bacteria.
+DR   HOGENOM; CLU_000604_84_3_6; -.
+DR   OrthoDB; 6336411at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015421; F:ABC-type oligopeptide transporter activity; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   FunFam; 3.40.50.300:FF:000287; Multidrug ABC transporter ATP-binding protein; 1.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR43394:SF1; ATP-BINDING CASSETTE SUB-FAMILY B MEMBER 10, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43394; ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL; 1.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   4: Predicted;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000313|EMBL:AAU28302.1};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        26..49
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        70..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        147..166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        172..192
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        250..277
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          44..314
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50929"
+FT   DOMAIN          350..584
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000259|PROSITE:PS50893"
+SQ   SEQUENCE   612 AA;  69595 MW;  BBB568980F2DA525 CRC64;
+     MNMSDLQQLP KTILRFSWHF IKKSPWLYAL FFIAPVVMVL ETNVIPYALK MIIDGITNHK
+     GGKDSIFQDI APALYLGGVA WFGVILVLRL HNWWQAYLVP QFQANIRMTL FGYLIQHSHH
+     FFSNQLAGNL ANKISDIPRS LEAIRKIVSC NVNTTFAAIV VSIVLMLTIN PWFAFILLSW
+     IIIQLFISFY SAKEINKLAR VNAEDKSILK GKIVDSLNNI NTVKLFVQNE YEKKYVWKTQ
+     NREVQSNKRL VLFINFFRLL VDVPVSIMLI AMIYSVISFW QRNLISTGDV VFIFATSFAI
+     MNQMWSLSNS LCDLFVEIGI VKQALAILSQ PIEVQDIANA KELKVTHGEI RFENVTFRHR
+     DGQVLFTNKS LVIPAKQKVG LVGYSGGGKT TFINLILRYF DVDSGRILID NQDISEITQY
+     SLRKSISMIP QDTNLFHRTL LENIQYGKED ADRDEVVTAA SLANCMDFIQ NLPQGFNTIV
+     GERGTKLSGG QRQRIAIARA FLHHTPILIL DEATSQLDSL TEECIQESLQ PLCEGKTTIV
+     VAHRLSTLLN MDRILVFDKG AIVEDGTHQE LIENNGLYKS MWDAQTSGFL PVEQEDETEL
+     AKEFDRPYLA QV
+//

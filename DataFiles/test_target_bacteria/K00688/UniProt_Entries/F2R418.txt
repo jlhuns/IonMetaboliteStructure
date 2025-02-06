@@ -1,0 +1,100 @@
+ID   F2R418_STRVP            Unreviewed;       860 AA.
+AC   F2R418;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 59.
+DE   RecName: Full=glycogen phosphorylase {ECO:0000256|ARBA:ARBA00012591};
+DE            EC=2.4.1.1 {ECO:0000256|ARBA:ARBA00012591};
+GN   OrderedLocusNames=SVEN_5104 {ECO:0000313|EMBL:CCA58390.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA58390.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA58390.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Phosphorylase is an important allosteric enzyme in
+CC       carbohydrate metabolism. Enzymes from different sources differ in their
+CC       regulatory mechanisms and in their natural substrates. However, all
+CC       known phosphorylases share catalytic and structural properties.
+CC       {ECO:0000256|ARBA:ARBA00025174}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1->4)-alpha-D-glucosyl](n) + phosphate = [(1->4)-alpha-D-
+CC         glucosyl](n-1) + alpha-D-glucose 1-phosphate; Xref=Rhea:RHEA:41732,
+CC         Rhea:RHEA-COMP:9584, Rhea:RHEA-COMP:9586, ChEBI:CHEBI:15444,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58601; EC=2.4.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001275};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- SIMILARITY: Belongs to the glycogen phosphorylase family.
+CC       {ECO:0000256|ARBA:ARBA00006047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA58390.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2R418; -.
+DR   STRING; 953739.SVEN_5104; -.
+DR   KEGG; sve:SVEN_5104; -.
+DR   PATRIC; fig|953739.5.peg.241; -.
+DR   eggNOG; COG0058; Bacteria.
+DR   HOGENOM; CLU_015112_0_0_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0008184; F:glycogen phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031220; F:maltodextrin phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 3.
+DR   InterPro; IPR011834; Agluc_phsphrylas.
+DR   InterPro; IPR000811; Glyco_trans_35.
+DR   InterPro; IPR052182; Glycogen/Maltodextrin_Phosph.
+DR   InterPro; IPR024517; Glycogen_phosphorylase_DUF3417.
+DR   InterPro; IPR035090; Pyridoxal_P_attach_site.
+DR   NCBIfam; TIGR02094; more_P_ylases; 1.
+DR   PANTHER; PTHR42655; GLYCOGEN PHOSPHORYLASE; 1.
+DR   PANTHER; PTHR42655:SF1; GLYCOGEN PHOSPHORYLASE; 1.
+DR   Pfam; PF11897; DUF3417; 1.
+DR   Pfam; PF00343; Phosphorylase; 1.
+DR   PIRSF; PIRSF000460; Pprylas_GlgP; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00102; PHOSPHORYLASE; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme {ECO:0000256|ARBA:ARBA00022533};
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676,
+KW   ECO:0000313|EMBL:CCA58390.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR000460-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:CCA58390.1}.
+FT   DOMAIN          16..127
+FT                   /note="DUF3417"
+FT                   /evidence="ECO:0000259|Pfam:PF11897"
+FT   MOD_RES         598
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000460-1"
+SQ   SEQUENCE   860 AA;  93664 MW;  1A97FF95300243C7 CRC64;
+     MEHVKAIRRF TVRPVLPDTL RPLADLAHNL RWSWHEPTRA LFDSLEPPGP AAPSGTDPVR
+     ILGALEAPRL AALAADQDFL ARLRAAAEDL DTYLHAPRWY QRTEGSAAGR PAALAYFSPE
+     FGVTAALPQY SGGLGILAGD HLKAASDLGV PLIGVGLLYR HGYFRQSLGR DGWQQEQYPV
+     LDPGELPVTL LREADGAPAR ITLALPGGRS LHAHLWIARV GRVPLLMLDS DVEENAPGER
+     SVTDRLYGGG SEHRLLQEML LGIGGVRAVR TYTRLTGTPE PEVFHTNEGH AGFLGLERIR
+     ELQGEGLDFD SALETVRAGT VFTTHTPVPA GIDRFDRSLV ARHLGEDGAL PGVDTGRVLA
+     LGDETPLGGE PGVFNMAAMG LRLAQRANGV STLHGAVSRA MFAGLWPGFD ADEVPITSIT
+     NGVHAPTWVA PEVGELGPEP TDRELWELRR TLRERLVTDV RQRLRASWRQ RGAAAAELGW
+     TDSVLDPDVL TIGFARRVPS YKRLTLMLRD KDRLRALLLH PERPVQLVVA GKAHPADDGG
+     KRLVQELVRF ADDPRVRHRI VFLPDYGMAM ARGLYPGCDV WLNNPLRPLE ACGTSGMKAA
+     LNGCLNLSVL DGWWDEWFEP DFGWAIPTAD GAAADDEDRR DDLEAAALYE LIERQVAPRF
+     YERGPDGVPA GWTAMVRRTL GDLGPKVLAD RMVREYVERL YVPAATARRA LTPDRARELA
+     TWKARVREAW PKVTVDHVEV GDDLADELAD AELGATPVVR VRVALGALAP DDVEVQAVTG
+     RVDADDTLAD TRAVPLKPAG GPDLEGRQPY AGTFELDRTG TFGCTVRVRP SHPLLAHPAE
+     LGLVALPEET TGEGAGVLLR
+//

@@ -1,0 +1,124 @@
+ID   Q6N0N5_RHOPA            Unreviewed;       848 AA.
+AC   Q6N0N5;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 109.
+DE   RecName: Full=Alpha-1,4 glucan phosphorylase {ECO:0000256|RuleBase:RU000587};
+DE            EC=2.4.1.1 {ECO:0000256|RuleBase:RU000587};
+GN   Name=glgA2 {ECO:0000313|EMBL:CAE30167.1};
+GN   OrderedLocusNames=RPA4727 {ECO:0000313|EMBL:CAE30167.1};
+GN   ORFNames=TX73_024565 {ECO:0000313|EMBL:WCL94933.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE30167.1};
+RN   [1] {ECO:0000313|EMBL:WCL94933.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94933.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE30167.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE30167.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94933.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94933.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Allosteric enzyme that catalyzes the rate-limiting step in
+CC       glycogen catabolism, the phosphorolytic cleavage of glycogen to produce
+CC       glucose-1-phosphate, and plays a central role in maintaining cellular
+CC       and organismal glucose homeostasis. {ECO:0000256|RuleBase:RU000587}.
+CC   -!- FUNCTION: Phosphorylase is an important allosteric enzyme in
+CC       carbohydrate metabolism. Enzymes from different sources differ in their
+CC       regulatory mechanisms and in their natural substrates. However, all
+CC       known phosphorylases share catalytic and structural properties.
+CC       {ECO:0000256|ARBA:ARBA00025174}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1->4)-alpha-D-glucosyl](n) + phosphate = [(1->4)-alpha-D-
+CC         glucosyl](n-1) + alpha-D-glucose 1-phosphate; Xref=Rhea:RHEA:41732,
+CC         Rhea:RHEA-COMP:9584, Rhea:RHEA-COMP:9586, ChEBI:CHEBI:15444,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58601; EC=2.4.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001275,
+CC         ECO:0000256|RuleBase:RU000587};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU000587};
+CC   -!- SIMILARITY: Belongs to the glycogen phosphorylase family.
+CC       {ECO:0000256|ARBA:ARBA00006047, ECO:0000256|RuleBase:RU000587}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572608; CAE30167.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94933.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160259.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4727; -.
+DR   CAZy; GT35; Glycosyltransferase Family 35.
+DR   GeneID; 66895886; -.
+DR   KEGG; rpa:TX73_024565; -.
+DR   eggNOG; COG0058; Bacteria.
+DR   HOGENOM; CLU_010198_1_1_5; -.
+DR   PhylomeDB; Q6N0N5; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0008184; F:glycogen phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031220; F:maltodextrin phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0005980; P:glycogen catabolic process; IEA:TreeGrafter.
+DR   CDD; cd04300; GT35_Glycogen_Phosphorylase; 1.
+DR   FunFam; 3.40.50.2000:FF:000003; Alpha-1,4 glucan phosphorylase; 1.
+DR   FunFam; 3.40.50.2000:FF:000153; Alpha-1,4 glucan phosphorylase; 1.
+DR   Gene3D; 3.40.50.2000; Glycogen Phosphorylase B; 2.
+DR   InterPro; IPR011833; Glycg_phsphrylas.
+DR   InterPro; IPR000811; Glyco_trans_35.
+DR   InterPro; IPR035090; Pyridoxal_P_attach_site.
+DR   NCBIfam; TIGR02093; P_ylase; 1.
+DR   PANTHER; PTHR11468; GLYCOGEN PHOSPHORYLASE; 1.
+DR   PANTHER; PTHR11468:SF3; GLYCOGEN PHOSPHORYLASE, LIVER FORM; 1.
+DR   Pfam; PF00343; Phosphorylase; 1.
+DR   PIRSF; PIRSF000460; Pprylas_GlgP; 1.
+DR   SUPFAM; SSF53756; UDP-Glycosyltransferase/glycogen phosphorylase; 1.
+DR   PROSITE; PS00102; PHOSPHORYLASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU000587};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676,
+KW   ECO:0000256|RuleBase:RU000587};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR000460-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU000587}.
+FT   MOD_RES         686
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000460-1"
+SQ   SEQUENCE   848 AA;  94541 MW;  AD0DDA4A2569B32A CRC64;
+     MVVVSSAWNG HLPVQSLPEK KSSQSAPLDE LALAEIKSAI LAKLTLAIGK EAAHATKHDW
+     YKASALALRD RIVHRWLVSE KESYDAGRKR VYYLSLEFLI GRLFTDSLNN MGLLAQFDAA
+     LGDLGVGLND LRKCEPDAAL GNGGLGRLAA CFMESMATLE IPAYGYGIRY DYGLFRQIIN
+     HGWQQEFPDE WLSFGNPWEL QRPEVVYQVK FGGHVDQVTD AKGYTRAVWT PGETVQAIAY
+     DTPIVGWRGE HVNALRLWSA RAPDPLLIDV FNTGDYLGAT AHEARAEAIC KFLYPNDESP
+     AGRELRLRQE YFFVSASLQD LIKRHLDSDG QIRNLAKKAA IQLNDTHPSL AVAELMRLLV
+     DVHGLRWDDA WQITVATLSY TNHTLLPEAL ETWPLDLFQR TLPRHLEIIY RINEVHLGLA
+     EARSPGDIEF RASVSLIDEK AGRRVRMGHL AFIGSHRVNG VSAMHSDLMK ETVFHDLNFL
+     YPGRITNKTN GITFRRWLTL ANPGLTELVR SVAGDEVLDD PTRLERLEAF AGDSAFQQQF
+     RSVKHRNKVA LARLIGERNN IRIDPSALFD VQIKRIHEYK RQLLNVLETI ALYQAIKDEP
+     NRDWVPRVKI FAGKAAASYR YAKLIIKLIN DVAEVVNNDA SIGGKLKVVF LADYNVSLAE
+     VIIPAADLSE QISTAGMEAS GTGNMKLALN GALTIGTLDG ANIEIRDLVG PKNIAIFGME
+     ALEVVARRAQ GLDATDVINR SPQLANAIRA IDSGVFSPDD RARFASVAHA LRHLDHYMVS
+     ADFDSYYEAQ RGIDARWRAG SAWTRAGILN VARMAWFSSD RTIREYAEEI WNVPTKPATQ
+     PSPARQAG
+//

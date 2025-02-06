@@ -1,0 +1,87 @@
+ID   E0RQQ5_SPITD            Unreviewed;       646 AA.
+AC   E0RQQ5;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 81.
+DE   SubName: Full=D-alanine-D-alanine ligase related protein {ECO:0000313|EMBL:ADN01559.1};
+GN   OrderedLocusNames=STHERM_c06000 {ECO:0000313|EMBL:ADN01559.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01559.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01559.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000256|ARBA:ARBA00010871}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01559.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E0RQQ5; -.
+DR   PaxDb; 665571-STHERM_c06000; -.
+DR   KEGG; sta:STHERM_c06000; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   eggNOG; COG2226; Bacteria.
+DR   HOGENOM; CLU_430627_0_0_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   FunFam; 3.30.470.20:FF:000105; Predicted protein; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   Gene3D; 2.20.25.110; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR041698; Methyltransf_25.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR23132; D-ALANINE--D-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR23132:SF23; D-ALANINE--D-ALANINE LIGASE B; 1.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF13649; Methyltransf_25; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|PROSITE-ProRule:PRU00409};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000313|EMBL:ADN01559.1};
+KW   Nucleotide-binding {ECO:0000256|PROSITE-ProRule:PRU00409}.
+FT   DOMAIN          423..637
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+SQ   SEQUENCE   646 AA;  73893 MW;  AD1D2FC207D98DDE CRC64;
+     MEEKVRDTDK PPERRRRRIP AARARCLGPL SDLESHVAPD WWSRIFNSYY MKTDGDVVDD
+     LAITRREVDL FTSVLDLRED EAVLDLCCGQ GRHSLELARR GFTKVEGLDR SHYLIQRAKA
+     QAAKEGIPVR FREGDARKLP HPPDQFDVVM ILGNSFGYFE TSKDDLLVLK EVARVLKPWG
+     RVLLDLADGD FLRAHYVPRS WEWIDPKHFV CRERALSADR QRLISREVIV HTEKGVEVDQ
+     FYAERLYTPE LIRSLLEEAG FQEVSFHGTL TPDSARGQDL GMMERRILVS ARIRKEWTPV
+     KPKKKNVSTQ VAVVMGDPSK PDPLKPFMVF DDDDFYTIDR LKAALKECTG YSFTYLSRHE
+     TLIQDLMRLK GKIDYVFNLC DEGFFNDPRK ELHVPALLEM LGIPYTGATP QGLAFCYDKS
+     LVRGVAKEMG VPVPRAFFID PTSIVFEVPF GFPMIVKPNL GDSSFGITQK SVVWSLDELS
+     ACISEIRDTF GYEKPVLVEE FLTGKDLTVG IIGNPPDDYM VLPIVEEDYS ALPPELPRIC
+     GYEAKWLPDS PYWKALQSIP AGLPEATEKS IVEWCVRLFE RLECRDYARF DWRCDADGNP
+     YLLEVNPNPG WCWDGHLAKM ARLAGMEYPQ MLQAILKAAE RRLGIR
+//

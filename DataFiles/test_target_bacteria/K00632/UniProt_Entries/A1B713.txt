@@ -1,0 +1,95 @@
+ID   A1B713_PARDP            Unreviewed;       373 AA.
+AC   A1B713;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   SubName: Full=Acetyl-CoA acetyltransferase {ECO:0000313|EMBL:ABL71307.1};
+DE            EC=2.3.1.16 {ECO:0000313|EMBL:ABL71307.1};
+GN   OrderedLocusNames=Pden_3226 {ECO:0000313|EMBL:ABL71307.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL71307.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 2 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- PATHWAY: Lipid metabolism. {ECO:0000256|ARBA:ARBA00005189}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Thiolase family.
+CC       {ECO:0000256|ARBA:ARBA00010982, ECO:0000256|RuleBase:RU003557}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000490; ABL71307.1; -; Genomic_DNA.
+DR   RefSeq; WP_011749492.1; NC_008687.1.
+DR   AlphaFoldDB; A1B713; -.
+DR   STRING; 318586.Pden_3226; -.
+DR   EnsemblBacteria; ABL71307; ABL71307; Pden_3226.
+DR   GeneID; 75502658; -.
+DR   KEGG; pde:Pden_3226; -.
+DR   eggNOG; COG0183; Bacteria.
+DR   HOGENOM; CLU_031026_0_0_5; -.
+DR   OrthoDB; 9764638at2; -.
+DR   Proteomes; UP000000361; Chromosome 2.
+DR   GO; GO:0003988; F:acetyl-CoA C-acyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IEA:TreeGrafter.
+DR   GO; GO:0010124; P:phenylacetate catabolic process; IEA:TreeGrafter.
+DR   CDD; cd00751; thiolase; 1.
+DR   FunFam; 3.40.47.10:FF:000010; Acetyl-CoA acetyltransferase (Thiolase); 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR002155; Thiolase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   InterPro; IPR050215; Thiolase-like_sf_Thiolase.
+DR   InterPro; IPR020615; Thiolase_acyl_enz_int_AS.
+DR   InterPro; IPR020617; Thiolase_C.
+DR   InterPro; IPR020613; Thiolase_CS.
+DR   InterPro; IPR020616; Thiolase_N.
+DR   NCBIfam; TIGR01930; AcCoA-C-Actrans; 1.
+DR   PANTHER; PTHR43853; 3-KETOACYL-COA THIOLASE, PEROXISOMAL; 1.
+DR   PANTHER; PTHR43853:SF21; STEROID 3-KETOACYL-COA THIOLASE; 1.
+DR   Pfam; PF02803; Thiolase_C; 1.
+DR   Pfam; PF00108; Thiolase_N; 1.
+DR   PIRSF; PIRSF000429; Ac-CoA_Ac_transf; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+DR   PROSITE; PS00098; THIOLASE_1; 1.
+DR   PROSITE; PS00737; THIOLASE_2; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|RuleBase:RU003557};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003557}.
+FT   DOMAIN          5..242
+FT                   /note="Thiolase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00108"
+FT   DOMAIN          252..371
+FT                   /note="Thiolase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02803"
+FT   REGION          179..202
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        90
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+FT   ACT_SITE        329
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+FT   ACT_SITE        359
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+SQ   SEQUENCE   373 AA;  38503 MW;  C48D052BBFDACD6F CRC64;
+     MQGAYIVDYI RTPFTPARKG ALAATRPDEL AGGLLSTMVE RSGFPAEEIE DIILGCAFPE
+     GEQGLNIARC AALHAGLPQT IAGSTVNRWC GSSMQAIQMA AGAIAMGAGD AFLAGGVESM
+     TRVPMMGFNP LPNPAWPSDR RMSLLNMGLT AEILADRYGI TRAEQDDYAA KSQSKALAAQ
+     SEGRLSDEIA SSADTDKDGC PRQTSVEKLA GLQPVFRADG SVTAGNSSPL TDGASLTLIC
+     SENFVKRHSL VPLARIVGYA VSGCAPEIMG IGPVEATRKA LARSAISAAD LDVIEMNEAF
+     AAQVLACCRE LDIDPARLNP DGGAIALGHP LGATGARLAG KAARLLVRGG GRYGLATQCI
+     GGGQGIAMVL EAA
+//

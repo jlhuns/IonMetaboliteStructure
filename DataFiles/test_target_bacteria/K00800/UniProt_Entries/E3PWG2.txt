@@ -1,0 +1,171 @@
+ID   E3PWG2_ACESD            Unreviewed;       428 AA.
+AC   E3PWG2;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE            EC=2.5.1.19 {ECO:0000256|HAMAP-Rule:MF_00210};
+DE   AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE            Short=EPSP synthase {ECO:0000256|HAMAP-Rule:MF_00210};
+DE            Short=EPSPS {ECO:0000256|HAMAP-Rule:MF_00210};
+GN   Name=aroA {ECO:0000256|HAMAP-Rule:MF_00210,
+GN   ECO:0000313|EMBL:CBH20777.1};
+GN   OrderedLocusNames=CLOST_0651 {ECO:0000313|EMBL:CBH20777.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20777.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Catalyzes the transfer of the enolpyruvyl moiety of
+CC       phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3-phosphate
+CC       (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic
+CC       phosphate. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phosphoshikimate + phosphoenolpyruvate = 5-O-(1-
+CC         carboxyvinyl)-3-phosphoshikimate + phosphate; Xref=Rhea:RHEA:21256,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701, ChEBI:CHEBI:58702,
+CC         ChEBI:CHEBI:145989; EC=2.5.1.19;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044633};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:21257;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044633};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       6/7. {ECO:0000256|ARBA:ARBA00004811, ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family.
+CC       {ECO:0000256|ARBA:ARBA00009948, ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00210}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20777.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PWG2; -.
+DR   STRING; 1511.CLOST_0651; -.
+DR   KEGG; cst:CLOST_0651; -.
+DR   eggNOG; COG0128; Bacteria.
+DR   HOGENOM; CLU_024321_0_0_9; -.
+DR   UniPathway; UPA00053; UER00089.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003866; F:3-phosphoshikimate 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01556; EPSP_synthase; 1.
+DR   Gene3D; 3.65.10.10; Enolpyruvate transferase domain; 2.
+DR   HAMAP; MF_00210; EPSP_synth; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR006264; EPSP_synthase.
+DR   InterPro; IPR023193; EPSP_synthase_CS.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   NCBIfam; TIGR01356; aroA; 1.
+DR   PANTHER; PTHR21090; AROM/DEHYDROQUINATE SYNTHASE; 1.
+DR   PANTHER; PTHR21090:SF5; PENTAFUNCTIONAL AROM POLYPEPTIDE; 1.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   PIRSF; PIRSF000505; EPSPS; 1.
+DR   SUPFAM; SSF55205; EPT/RTPC-like; 1.
+DR   PROSITE; PS00885; EPSP_SYNTHASE_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00210};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023141,
+KW   ECO:0000256|HAMAP-Rule:MF_00210};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00210};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00210}.
+FT   DOMAIN          8..416
+FT                   /note="Enolpyruvate transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00275"
+FT   ACT_SITE        309
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         21
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         21
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         22
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         26
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         96
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         124
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         167
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         168
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         169
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         169
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         195
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         309
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         336
+FT                   /ligand="3-phosphoshikimate"
+FT                   /ligand_id="ChEBI:CHEBI:145989"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         340
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         382
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+FT   BINDING         408
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00210"
+SQ   SEQUENCE   428 AA;  46794 MW;  BF7157351D5D4989 CRC64;
+     MKKVKIEPKE LSGEISIPPS KSISHRAVIA ASLSSGVSEI SNIVMSKDIK ATCEAMKQLG
+     AEISEVKAEN ERVKLIIKGI EVFKAPKASI DCNESGSTLR FMIPIAMMSN SEISFIGKGK
+     LVERPLDVYY KIFDEQGIHY ETKDNKLPLK INGSLTPGTF DIRGDVSSQF ITGLMFVLPL
+     LASDSKISIT GELESKGYID LTISVLSKYG IVIENDDYKA FYIKGRQVYK ACDYRVEGDF
+     SQAAFWLVAG CLGEKITSRD LNESSLQADK EVIDIIKSMA GKISCEDNSF IAQKSQTKRT
+     VIDASQIPDI IPVLSVLASV SKGTTIVKNG ARLRIKESDR LTATKTELNK LGADIKEEGD
+     TLIIKGVSKL RGANVDSWND HRIAMAMAVA SIRCEGSVII DGASSVDKSY PNFWQDFKML
+     GGDICEQS
+//

@@ -1,0 +1,144 @@
+ID   E0RTC1_SPITD            Unreviewed;       441 AA.
+AC   E0RTC1;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   RecName: Full=UDP-glucose 6-dehydrogenase {ECO:0000256|ARBA:ARBA00012954, ECO:0000256|PIRNR:PIRNR000124};
+DE            EC=1.1.1.22 {ECO:0000256|ARBA:ARBA00012954, ECO:0000256|PIRNR:PIRNR000124};
+GN   Name=ugdH {ECO:0000313|EMBL:ADN00987.1};
+GN   OrderedLocusNames=STHERM_c00110 {ECO:0000313|EMBL:ADN00987.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN00987.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN00987.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose + 2 NAD(+) + H2O = UDP-alpha-D-glucuronate
+CC         + 2 NADH + 3 H(+); Xref=Rhea:RHEA:23596, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:58052, ChEBI:CHEBI:58885; EC=1.1.1.22;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047473,
+CC         ECO:0000256|PIRNR:PIRNR000124};
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-alpha-D-glucuronate
+CC       biosynthesis; UDP-alpha-D-glucuronate from UDP-alpha-D-glucose: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004701}.
+CC   -!- SIMILARITY: Belongs to the UDP-glucose/GDP-mannose dehydrogenase
+CC       family. {ECO:0000256|ARBA:ARBA00006601, ECO:0000256|PIRNR:PIRNR000124}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN00987.1; -; Genomic_DNA.
+DR   RefSeq; WP_013312828.1; NC_014484.1.
+DR   AlphaFoldDB; E0RTC1; -.
+DR   PaxDb; 665571-STHERM_c00110; -.
+DR   KEGG; sta:STHERM_c00110; -.
+DR   eggNOG; COG1004; Bacteria.
+DR   HOGENOM; CLU_023810_1_2_12; -.
+DR   UniPathway; UPA00038; UER00491.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0003979; F:UDP-glucose 6-dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006065; P:UDP-glucuronate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.20.5.100; Cytochrome c1, transmembrane anchor, C-terminal; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 2.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR017476; UDP-Glc/GDP-Man.
+DR   InterPro; IPR014027; UDP-Glc/GDP-Man_DH_C.
+DR   InterPro; IPR036220; UDP-Glc/GDP-Man_DH_C_sf.
+DR   InterPro; IPR014026; UDP-Glc/GDP-Man_DH_dimer.
+DR   InterPro; IPR001732; UDP-Glc/GDP-Man_DH_N.
+DR   InterPro; IPR028357; UDPglc_DH_bac.
+DR   NCBIfam; TIGR03026; NDP-sugDHase; 1.
+DR   PANTHER; PTHR43750; UDP-GLUCOSE 6-DEHYDROGENASE TUAD; 1.
+DR   PANTHER; PTHR43750:SF3; UDP-GLUCOSE 6-DEHYDROGENASE TUAD; 1.
+DR   Pfam; PF00984; UDPG_MGDP_dh; 1.
+DR   Pfam; PF03720; UDPG_MGDP_dh_C; 1.
+DR   Pfam; PF03721; UDPG_MGDP_dh_N; 1.
+DR   PIRSF; PIRSF500134; UDPglc_DH_bac; 1.
+DR   PIRSF; PIRSF000124; UDPglc_GDPman_dh; 1.
+DR   SMART; SM00984; UDPG_MGDP_dh_C; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   SUPFAM; SSF52413; UDP-glucose/GDP-mannose dehydrogenase C-terminal domain; 1.
+PE   3: Inferred from homology;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRNR:PIRNR000124};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|PIRNR:PIRNR000124}.
+FT   DOMAIN          318..419
+FT                   /note="UDP-glucose/GDP-mannose dehydrogenase C-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00984"
+FT   ACT_SITE        264
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-1"
+FT   BINDING         32
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         37
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         88
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         123
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         153..156
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-2"
+FT   BINDING         156
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         208
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-2"
+FT   BINDING         253..257
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-2"
+FT   BINDING         261
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-2"
+FT   BINDING         267
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+FT   BINDING         325
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-2"
+FT   BINDING         332
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR500134-3"
+SQ   SEQUENCE   441 AA;  49430 MW;  2D3BE11C18548AB8 CRC64;
+     MPMKIAVVGT GYVGLTTCVG LADFGNHVVG VDIDREKVAR LSAGDPVIYE AGLEYYLREN
+     LAAGRLSFTT SMKEALRDAE VVFLAVGTPE KENGEADLSQ IEAVLEELAP LIDHYLVVVT
+     KSTVPVGTNR WIHEELSRMV DPRLFDVVSN PEFLREGKAI QDFFHPNRVV IGYENERVKE
+     VMHEIYRPLY LIETPFVWCS WETAELIKYA ANAFLATKIS FINQVANLAE EVGADVHVIA
+     KAMGMDGRIS PKFLHPGPGF GGSCFPKDTK ALVKIGERYG VDLSLVREVI RANEAQRVRM
+     VEKAKRLLGG SLEGRRIAVL GLAFKAETDD VRETPAYPII RAMLEEGAVV CAHDPLAMEN
+     FRRLVPSIEY AENEYEAARG ADLVLICTEW NEYRNLDLER VAELMRERKI LDTRNVLDPE
+     RARKTGFVYE GVGRILFRGK R
+//

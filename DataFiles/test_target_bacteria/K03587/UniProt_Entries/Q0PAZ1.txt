@@ -1,0 +1,89 @@
+ID   Q0PAZ1_CAMJE            Unreviewed;       602 AA.
+AC   Q0PAZ1;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   SubName: Full=Penicillin-binding protein {ECO:0000313|EMBL:CAL34671.1};
+GN   Name=pbpB {ECO:0000313|EMBL:CAL34671.1};
+GN   OrderedLocusNames=Cj0525c {ECO:0000313|EMBL:CAL34671.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34671.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34671.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004370}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34671.1; -; Genomic_DNA.
+DR   PIR; E81398; E81398.
+DR   RefSeq; WP_002858598.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002343956.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PAZ1; -.
+DR   IntAct; Q0PAZ1; 2.
+DR   STRING; 192222.Cj0525c; -.
+DR   PaxDb; 192222-Cj0525c; -.
+DR   EnsemblBacteria; CAL34671; CAL34671; Cj0525c.
+DR   GeneID; 904853; -.
+DR   KEGG; cje:Cj0525c; -.
+DR   PATRIC; fig|192222.6.peg.517; -.
+DR   eggNOG; COG0768; Bacteria.
+DR   HOGENOM; CLU_009289_6_4_7; -.
+DR   OrthoDB; 9789078at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0008658; F:penicillin binding; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:TreeGrafter.
+DR   Gene3D; 3.30.450.330; -; 1.
+DR   Gene3D; 3.40.710.10; DD-peptidase/beta-lactamase superfamily; 1.
+DR   Gene3D; 3.90.1310.10; Penicillin-binding protein 2a (Domain 2); 1.
+DR   InterPro; IPR050515; Bact_Transpept/Beta-Lactamase.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR005311; PBP_dimer.
+DR   InterPro; IPR036138; PBP_dimer_sf.
+DR   InterPro; IPR001460; PCN-bd_Tpept.
+DR   PANTHER; PTHR30627; PEPTIDOGLYCAN D,D-TRANSPEPTIDASE; 1.
+DR   PANTHER; PTHR30627:SF1; PEPTIDOGLYCAN D,D-TRANSPEPTIDASE FTSI; 1.
+DR   Pfam; PF03717; PBP_dimer; 1.
+DR   Pfam; PF00905; Transpeptidase; 1.
+DR   SUPFAM; SSF56601; beta-lactamase/transpeptidase-like; 1.
+DR   SUPFAM; SSF56519; Penicillin binding protein dimerisation domain; 1.
+PE   4: Predicted;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        12..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          50..233
+FT                   /note="Penicillin-binding protein dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF03717"
+FT   DOMAIN          277..580
+FT                   /note="Penicillin-binding protein transpeptidase"
+FT                   /evidence="ECO:0000259|Pfam:PF00905"
+SQ   SEQUENCE   602 AA;  68378 MW;  D4B4AC7E1B699C91 CRC64;
+     MQEYKKNRVS KVAFAYCMAL LFMIIFISST FFLTSKRHIP NTEKDQYALA LRGSIITKDN
+     FTITSSKQIY RAEIDLRSIN KDKFDLFLKL FQIYSGISND QVADIKKRMQ NQKKRSYNFV
+     LLQNLDSKQA SYLKDLAKKL YIQGFFKAFT NNSGRVETRG LNIIEHEEDR IYMSKDSFTP
+     IIGYTKMILD PESGILKNIG VKGLEKYYDA CLSPVQNEKI QGLKDIGGNI ILNLNSLQQK
+     KINGCDLYLN LSLKLQKSIE KAIDQRNEDL KANEIIVGVM ESKTGRILAL ASSRRYDPQN
+     RGKDLSVLNA SAIEYGYEAG SVIKPFIFTT ALRLGKIKMD EVINTYGGSY KLGRFTIKDD
+     HKMDKMTMEE VIRYSSNIGM IQIAKRLNNI EIVSGLKIFK FGEKSGIDLP YEQKGEIPNP
+     KRLRDIEKSV LSYGYGLKTT FIQLLAAYNV FNNDGFYITP RLAEKFYQNG RFTNLDDDVK
+     KEKILSSEAA KTMQNVLINV IEKGTGKKAI TQGIIAGGKT GTARIAERQG YTSNRYNASF
+     FGFANDLNHA YTIGVLVRHP TKPYSYYAAQ SALPMFKDVV DILINEEFLT PIQDNNQTST
+     NN
+//

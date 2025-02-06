@@ -1,0 +1,102 @@
+ID   Q64MI0_BACFR            Unreviewed;       714 AA.
+AC   Q64MI0;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Ribonuclease R {ECO:0000256|HAMAP-Rule:MF_01895};
+DE            Short=RNase R {ECO:0000256|HAMAP-Rule:MF_01895};
+DE            EC=3.1.13.1 {ECO:0000256|HAMAP-Rule:MF_01895};
+GN   Name=rnr {ECO:0000256|HAMAP-Rule:MF_01895};
+GN   OrderedLocusNames=BF4570 {ECO:0000313|EMBL:BAD51307.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD51307.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD51307.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD51307.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: 3'-5' exoribonuclease that releases 5'-nucleoside
+CC       monophosphates and is involved in maturation of structured RNAs.
+CC       {ECO:0000256|HAMAP-Rule:MF_01895}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exonucleolytic cleavage in the 3'- to 5'-direction to yield
+CC         nucleoside 5'-phosphates.; EC=3.1.13.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001849, ECO:0000256|HAMAP-
+CC         Rule:MF_01895};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01895}.
+CC   -!- SIMILARITY: Belongs to the RNR ribonuclease family. RNase R subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01895}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD51307.1; -; Genomic_DNA.
+DR   RefSeq; WP_005783524.1; NC_006347.1.
+DR   RefSeq; YP_101841.1; NC_006347.1.
+DR   AlphaFoldDB; Q64MI0; -.
+DR   STRING; 295405.BF4570; -.
+DR   GeneID; 66330870; -.
+DR   KEGG; bfr:BF4570; -.
+DR   PATRIC; fig|295405.11.peg.4396; -.
+DR   HOGENOM; CLU_002333_7_3_10; -.
+DR   OrthoDB; 9764149at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008859; F:exoribonuclease II activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:TreeGrafter.
+DR   CDD; cd04471; S1_RNase_R; 1.
+DR   FunFam; 2.40.50.140:FF:000227; Ribonuclease R; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 3.
+DR   HAMAP; MF_01895; RNase_R; 1.
+DR   InterPro; IPR040476; CSD2.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR001900; RNase_II/R.
+DR   InterPro; IPR022966; RNase_II/R_CS.
+DR   InterPro; IPR004476; RNase_II/RNase_R.
+DR   InterPro; IPR011805; RNase_R.
+DR   InterPro; IPR050180; RNR_Ribonuclease.
+DR   InterPro; IPR003029; S1_domain.
+DR   NCBIfam; TIGR00358; 3_prime_RNase; 1.
+DR   NCBIfam; TIGR02063; RNase_R; 1.
+DR   PANTHER; PTHR23355:SF9; DIS3-LIKE EXONUCLEASE 2; 1.
+DR   PANTHER; PTHR23355; RIBONUCLEASE; 1.
+DR   Pfam; PF17876; CSD2; 1.
+DR   Pfam; PF00773; RNB; 1.
+DR   Pfam; PF00575; S1; 1.
+DR   SMART; SM00955; RNB; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 3.
+DR   PROSITE; PS01175; RIBONUCLEASE_II; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01895};
+KW   Exonuclease {ECO:0000256|ARBA:ARBA00022839, ECO:0000256|HAMAP-
+KW   Rule:MF_01895};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01895};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|HAMAP-Rule:MF_01895};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_01895}.
+FT   DOMAIN          632..713
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000259|PROSITE:PS50126"
+SQ   SEQUENCE   714 AA;  81627 MW;  49D2249219EE3E13 CRC64;
+     MAKKKEKKAG KRMKKKELSK AVLDFFHAKQ DEVISLKYIF SELKLTTHPL KMLCMDILSD
+     LLADDYITEV DKNKYKLNNH GIEMTGTFQR KSNGKNSFIP EGGGDPIFVA ERNSAHAMNN
+     DKVRIAFYAK RRGCEAEGEV IEILQRANDT FVGTLEVEKS YAFLVTENRT LANDIFIPKD
+     KLKGGKTGDK AVVKVTEWPD KAKNPIGQVL DILGKAGDNT TEMHAILAEF GLPYVYPQSV
+     EKAADKIPAE ISAEEIARRE DFRKVTTFTI DPKDAKDFDD ALSIRPLKDG LWEVGVHIAD
+     VTHYVKEGSI IDKEAEKRAT SVYLVDRTIP MLPERLCNFI CSLRPNEEKL AFSAIFDITE
+     KGEVRDSRIV HTVIESDRRF TYEEAQQIIE TKEGDFKDEI LMLDTIAKAL REKRFTAGAI
+     NFDRYEVKFE IDEKGKPISV YFKESKDANK LVEEFMLLAN RTVAEKIGKA PKGKKPKVLP
+     YRIHDLPDPE KLDNLAQFIA RFGYRLRTSG TKTDVSKSIN HLLDDIQGKK EENLIETVSI
+     RAMQKARYST HNIGHYGLAF DYYTHFTSPI RRFPDMMVHR LVTRYMDGGR SVSETKYEDL
+     CDHSSNMEQI AANAERASIK YKQVEFMSER LGQTYDGVIS GVTEWGLYVE LNENKCEGMI
+     PIRDLDDDYY EFDEKNYCLR GRRKNRIYSL GDAITVKVAR ANLEKKQLDF ALVE
+//

@@ -1,0 +1,93 @@
+ID   Q819P7_BACCR            Unreviewed;       296 AA.
+AC   Q819P7;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=2-dehydropantoate 2-reductase {ECO:0000256|ARBA:ARBA00019465, ECO:0000256|RuleBase:RU362068};
+DE            EC=1.1.1.169 {ECO:0000256|ARBA:ARBA00013014, ECO:0000256|RuleBase:RU362068};
+DE   AltName: Full=Ketopantoate reductase {ECO:0000256|ARBA:ARBA00032024, ECO:0000256|RuleBase:RU362068};
+GN   OrderedLocusNames=BC_3920 {ECO:0000313|EMBL:AAP10841.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10841.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10841.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of ketopantoate into
+CC       pantoic acid. {ECO:0000256|ARBA:ARBA00002919,
+CC       ECO:0000256|RuleBase:RU362068}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + NADP(+) = 2-dehydropantoate + NADPH + H(+);
+CC         Xref=Rhea:RHEA:16233, ChEBI:CHEBI:11561, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.169; Evidence={ECO:0000256|ARBA:ARBA00048793,
+CC         ECO:0000256|RuleBase:RU362068};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; (R)-
+CC       pantoate from 3-methyl-2-oxobutanoate: step 2/2.
+CC       {ECO:0000256|ARBA:ARBA00004994, ECO:0000256|RuleBase:RU362068}.
+CC   -!- SIMILARITY: Belongs to the ketopantoate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00007870, ECO:0000256|RuleBase:RU362068}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10841.1; -; Genomic_DNA.
+DR   RefSeq; NP_833640.1; NC_004722.1.
+DR   AlphaFoldDB; Q819P7; -.
+DR   DNASU; 1206265; -.
+DR   KEGG; bce:BC3920; -.
+DR   PATRIC; fig|226900.8.peg.4042; -.
+DR   HOGENOM; CLU_031468_0_1_9; -.
+DR   UniPathway; UPA00028; UER00004.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0008677; F:2-dehydropantoate 2-reductase activity; IBA:GO_Central.
+DR   GO; GO:0050661; F:NADP binding; IBA:GO_Central.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1040.10; N-(1-d-carboxylethyl)-l-norvaline Dehydrogenase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR003710; ApbA.
+DR   InterPro; IPR050838; Ketopantoate_reductase.
+DR   InterPro; IPR013752; KPA_reductase.
+DR   InterPro; IPR013332; KPR_N.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00745; apbA_panE; 1.
+DR   PANTHER; PTHR43765:SF2; 2-DEHYDROPANTOATE 2-REDUCTASE; 1.
+DR   PANTHER; PTHR43765; 2-DEHYDROPANTOATE 2-REDUCTASE-RELATED; 1.
+DR   Pfam; PF02558; ApbA; 1.
+DR   Pfam; PF08546; ApbA_C; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|RuleBase:RU362068};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU362068};
+KW   Pantothenate biosynthesis {ECO:0000256|ARBA:ARBA00022655,
+KW   ECO:0000256|RuleBase:RU362068};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          5..147
+FT                   /note="Ketopantoate reductase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02558"
+FT   DOMAIN          174..293
+FT                   /note="Ketopantoate reductase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF08546"
+SQ   SEQUENCE   296 AA;  33407 MW;  07A0E9C0E30085B1 CRC64;
+     MKMKIGIVGP GAIGLLYTFY LQKSNQDVTL FTRTAKQAEE LNETGVTCIR DGRCETVYPP
+     VLPIESMVAQ NLDYIFISVK QYHIDDVLPF VEGASSLIFL QNGMSHLQKM LKIGSENIAV
+     GIVEHGAKKE GGHIVHHTGI GVTKFGVVCG QSIHFKKIFR YFPVTYFPVQ IETDWEEIMH
+     KKLVVNVCIN PLTALLGVKN GELITNRFFY QMMEQVFQEV AFLIRGEKEM VWQMVRNVCE
+     GTSRNTSSML ADVRANRQTE INAIVGYVLE EAKKQQLPVP TLQFLFDAIK GLETRV
+//

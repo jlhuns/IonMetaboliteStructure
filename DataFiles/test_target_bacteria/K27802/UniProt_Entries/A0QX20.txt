@@ -1,0 +1,179 @@
+ID   ACNA_MYCS2              Reviewed;         943 AA.
+AC   A0QX20; A4ZHS6; I7G8K0;
+DT   10-AUG-2010, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Aconitate hydratase A {ECO:0000250|UniProtKB:O53166};
+DE            Short=ACN {ECO:0000250|UniProtKB:O53166};
+DE            Short=Aconitase {ECO:0000250|UniProtKB:O53166};
+DE            EC=4.2.1.3 {ECO:0000250|UniProtKB:O53166};
+DE   AltName: Full=(2R,3S)-2-methylisocitrate dehydratase {ECO:0000250|UniProtKB:Q8ZP52};
+DE   AltName: Full=(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate dehydratase {ECO:0000250|UniProtKB:Q8ZP52};
+DE   AltName: Full=Iron-responsive protein-like {ECO:0000250|UniProtKB:O53166};
+DE            Short=IRP-like {ECO:0000250|UniProtKB:O53166};
+DE   AltName: Full=Probable 2-methyl-cis-aconitate hydratase {ECO:0000250|UniProtKB:Q8ZP52};
+DE            EC=4.2.1.99 {ECO:0000250|UniProtKB:Q8ZP52};
+DE   AltName: Full=RNA-binding protein {ECO:0000250|UniProtKB:O53166};
+GN   Name=acnA; Synonyms=acn; OrderedLocusNames=MSMEG_3143, MSMEI_3062;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   PUPYLATION AT LYS-394, AND IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=20094657; DOI=10.1039/b916104j;
+RA   Watrous J., Burns K., Liu W.T., Patel A., Hook V., Bafna V.,
+RA   Barry C.E. III, Bark S., Dorrestein P.C.;
+RT   "Expansion of the mycobacterial 'PUPylome'.";
+RL   Mol. Biosyst. 6:376-385(2010).
+CC   -!- FUNCTION: Involved in the catabolism of short chain fatty acids (SCFA)
+CC       via the tricarboxylic acid (TCA)(acetyl degradation route) and probably
+CC       via the 2-methylcitrate cycle I (propionate degradation route).
+CC       Catalyzes the reversible isomerization of citrate to isocitrate via
+CC       cis-aconitate. The apo form of AcnA functions as a RNA-binding
+CC       regulatory protein. Could catalyze the hydration of 2-methyl-cis-
+CC       aconitate to yield (2R,3S)-2-methylisocitrate.
+CC       {ECO:0000250|UniProtKB:O53166, ECO:0000250|UniProtKB:Q8ZP52}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate = D-threo-isocitrate; Xref=Rhea:RHEA:10336,
+CC         ChEBI:CHEBI:15562, ChEBI:CHEBI:16947; EC=4.2.1.3;
+CC         Evidence={ECO:0000250|UniProtKB:O53166};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate = 2-methyl-cis-
+CC         aconitate + H2O; Xref=Rhea:RHEA:17941, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57429, ChEBI:CHEBI:57872; EC=4.2.1.99;
+CC         Evidence={ECO:0000250|UniProtKB:Q8ZP52};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250|UniProtKB:P09339};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit.
+CC       {ECO:0000250|UniProtKB:P09339};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; isocitrate
+CC       from oxaloacetate: step 2/2. {ECO:0000250|UniProtKB:O53166}.
+CC   -!- PATHWAY: Organic acid metabolism; propanoate degradation.
+CC       {ECO:0000250|UniProtKB:O53166}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:O53166}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ866855; ABJ96316.1; -; Genomic_DNA.
+DR   EMBL; CP000480; ABK73859.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP39526.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728843.1; NZ_SIJM01000002.1.
+DR   RefSeq; YP_887458.1; NC_008596.1.
+DR   AlphaFoldDB; A0QX20; -.
+DR   SMR; A0QX20; -.
+DR   STRING; 246196.MSMEG_3143; -.
+DR   PaxDb; 246196-MSMEI_3062; -.
+DR   KEGG; msb:LJ00_15630; -.
+DR   KEGG; msg:MSMEI_3062; -.
+DR   KEGG; msm:MSMEG_3143; -.
+DR   PATRIC; fig|246196.19.peg.3103; -.
+DR   eggNOG; COG1048; Bacteria.
+DR   OrthoDB; 9764318at2; -.
+DR   SABIO-RK; A0QX20; -.
+DR   UniPathway; UPA00223; UER00718.
+DR   UniPathway; UPA00946; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0047456; F:2-methylisocitrate dehydratase activity; ISS:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0003994; F:aconitate hydratase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003730; F:mRNA 3'-UTR binding; ISS:UniProtKB.
+DR   GO; GO:0003729; F:mRNA binding; ISS:UniProtKB.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01580; AcnA_IRP_Swivel; 1.
+DR   FunFam; 3.20.19.10:FF:000001; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000002; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000009; Aconitate hydratase; 1.
+DR   Gene3D; 6.10.190.10; -; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   Gene3D; 3.20.19.10; Aconitase, domain 4; 1.
+DR   InterPro; IPR044137; AcnA_IRP_Swivel.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR015928; Aconitase/3IPM_dehydase_swvl.
+DR   InterPro; IPR006249; Aconitase/IRP2.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR000573; AconitaseA/IPMdHydase_ssu_swvl.
+DR   PANTHER; PTHR11670; ACONITASE/IRON-RESPONSIVE ELEMENT FAMILY MEMBER; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   Pfam; PF00694; Aconitase_C; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Iron; Iron-sulfur; Isopeptide bond; Lyase; Metal-binding;
+KW   Reference proteome; RNA-binding; Tricarboxylic acid cycle; Ubl conjugation.
+FT   CHAIN           1..943
+FT                   /note="Aconitate hydratase A"
+FT                   /id="PRO_0000396818"
+FT   REGION          422..449
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         478
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250|UniProtKB:P36683"
+FT   BINDING         544
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250|UniProtKB:P36683"
+FT   BINDING         547
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250|UniProtKB:P36683"
+FT   CROSSLNK        394
+FT                   /note="Isoglutamyl lysine isopeptide (Lys-Gln) (interchain
+FT                   with Q-Cter in protein Pup)"
+FT                   /evidence="ECO:0000269|PubMed:20094657"
+SQ   SEQUENCE   943 AA;  102171 MW;  BD10F939FA09F201 CRC64;
+     MSSENTGKSS LNSFGARDTL TVGDQSYEIY RLNAVPGTEK LPYSLKVLAE NLLRTEDGAN
+     ITKDHIEAIA NWDPNAEPSI EIQFTPARVI MQDFTGVPCI VDLATMREAV AALGGDPNKV
+     NPLAPAELVI DHSVILDVFG NASAFERNVE LEYERNAERY QFLRWGQGAF DDFKVVPPGT
+     GIVHQVNIEY LARTVMVRDG VAYPDTCVGT DSHTTMVNGL GVLGWGVGGI EAEAAMLGQP
+     VSMLIPRVVG FKLSGEIKPG VTATDVVLTV TDMLRRHGVV GKFVEFYGKG VAEVPLANRA
+     TLGNMSPEFG STAAIFPIDE ETINYLRLTG RTDEQLALVE AYAKAQGMWH DPEREPVFSE
+     YLELDLSTVV PSISGPKRPQ DRIELTDAKN AFRKDIHNYV EQNHPTPETK LDEAVEESFP
+     ASDPVSLSFA DDGAPDMRPS AANGATGRPT NPVLVHSEER GDFVLDHGAV VVAGITSCTN
+     TSNPSVMLGA ALLAKKAVEK GLTTKPWVKT NMAPGSQVVT DYYNKAGLWP YLEKLGYYLG
+     GYGCTTCIGN TGPLPEEISK AINDNDLAVT AVLSGNRNFE GRISPDVKMN YLASPPLVIA
+     YGIAGTMDFD FESDPLGQDS EGNDVFLRDI WPSAAEIEET IASSINREMF TESYADVFKG
+     DDRWRSLPTP EGDTFEWDPA STYVRKAPYF DGMPAEPEPV SDIKGARVLA LLGDSVTTDH
+     ISPAGAIKPG TPAAQYLDAN GVERKDYNSL GSRRGNHEVM IRGTFANIRL RNQLLDDVSG
+     GYTRDFTQPG GPQAFIYDAS ENYKKAGIPL VVLGGKEYGS GSSRDWAAKG TVLLGVKAVI
+     TESFERIHRS NLIGMGVIPL QFPAGESAAS LKLDGTETYD IEGIEELNSG KTPKTVHVTA
+     TKEDGSKVEF DAVVRIDTPG EADYYRNGGI LQYVLRNMLK SSK
+//

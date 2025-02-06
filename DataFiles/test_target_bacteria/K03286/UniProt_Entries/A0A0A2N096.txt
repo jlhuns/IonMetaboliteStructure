@@ -1,0 +1,91 @@
+ID   A0A0A2N096_ALCFA        Unreviewed;       198 AA.
+AC   A0A0A2N096; A0A0M9I4P6;
+DT   04-FEB-2015, integrated into UniProtKB/TrEMBL.
+DT   04-FEB-2015, sequence version 1.
+DT   05-FEB-2025, entry version 57.
+DE   SubName: Full=OmpA family protein {ECO:0000313|EMBL:PWE15658.1};
+GN   ORFNames=DF183_02695 {ECO:0000313|EMBL:PWE15658.1}, MXF72_06675
+GN   {ECO:0000313|EMBL:UPL22761.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:PWE15658.1, ECO:0000313|Proteomes:UP000245216};
+RN   [1] {ECO:0000313|EMBL:PWE15658.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE15658.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE15658.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE15658.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:UPL22761.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=D334 {ECO:0000313|EMBL:UPL22761.1};
+RA   Doan V.T., Quach N.T., Vu T.-H.-N., Phi Q.-T.;
+RT   "Genomic mining of Alcaligenes faecalis D334 producing ectoin and
+RT   derivatives.";
+RL   Submitted (APR-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane
+CC       {ECO:0000256|ARBA:ARBA00004442}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000001; PWE15658.1; -; Genomic_DNA.
+DR   EMBL; CP095873; UPL22761.1; -; Genomic_DNA.
+DR   RefSeq; WP_009464175.1; NZ_SRIW01000003.1.
+DR   AlphaFoldDB; A0A0A2N096; -.
+DR   STRING; 511.UZ73_02410; -.
+DR   GeneID; 29369085; -.
+DR   KEGG; afa:UZ73_02410; -.
+DR   eggNOG; COG2885; Bacteria.
+DR   OrthoDB; 1149075at2; -.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   Proteomes; UP000830925; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   CDD; cd07185; OmpA_C-like; 1.
+DR   Gene3D; 3.30.1330.60; OmpA-like domain; 1.
+DR   InterPro; IPR050330; Bact_OuterMem_StrucFunc.
+DR   InterPro; IPR006664; OMP_bac.
+DR   InterPro; IPR006665; OmpA-like.
+DR   InterPro; IPR036737; OmpA-like_sf.
+DR   NCBIfam; NF045787; OmpABordt; 1.
+DR   PANTHER; PTHR30329:SF21; LIPOPROTEIN YIAD-RELATED; 1.
+DR   PANTHER; PTHR30329; STATOR ELEMENT OF FLAGELLAR MOTOR COMPLEX; 1.
+DR   Pfam; PF00691; OmpA; 1.
+DR   PRINTS; PR01023; NAFLGMOTY.
+DR   PRINTS; PR01021; OMPADOMAIN.
+DR   SUPFAM; SSF103088; OmpA-like; 1.
+DR   PROSITE; PS51123; OMPA_2; 1.
+PE   4: Predicted;
+KW   Cell outer membrane {ECO:0000256|ARBA:ARBA00023237};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|PROSITE-
+KW   ProRule:PRU00473}; Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           25..198
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5005837914"
+FT   DOMAIN          80..197
+FT                   /note="OmpA-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51123"
+FT   REGION          169..198
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        178..191
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   198 AA;  21350 MW;  89E0063470BB26E0 CRC64;
+     MNKPSKIALV LAIAAASATS AVSAQESGEV NNWRNPFGDV WKNGTNELCW RNNFWTPATG
+     IPGCDGVPVA QAPEAPVVAP TVTKVTLNAD TFFDFDKSTI KPEGRQVLDQ VADTVQSIDL
+     ETLIATGHTD SIGAEAYNQK LSERRANAVK AYLVNKGVPA DRIYTEGKGE AQPVASNKTR
+     EGRAQNRRVE IEIVGNRK
+//

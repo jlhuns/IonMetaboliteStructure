@@ -1,0 +1,114 @@
+ID   E3PX93_ACESD            Unreviewed;       306 AA.
+AC   E3PX93;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000256|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000256|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000256|HAMAP-Rule:MF_00047};
+GN   Name=ddlA {ECO:0000313|EMBL:CBH21058.1};
+GN   Synonyms=ddl {ECO:0000256|HAMAP-Rule:MF_00047};
+GN   OrderedLocusNames=CLOST_0933 {ECO:0000313|EMBL:CBH21058.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21058.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 D-alanine + ATP = D-alanyl-D-alanine + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57416, ChEBI:CHEBI:57822,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.4; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000256|ARBA:ARBA00010871, ECO:0000256|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21058.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PX93; -.
+DR   STRING; 1511.CLOST_0933; -.
+DR   KEGG; cst:CLOST_0933; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   HOGENOM; CLU_039268_0_1_9; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.1490.20:FF:000007; D-alanine--D-alanine ligase; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PANTHER; PTHR23132; D-ALANINE--D-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR23132:SF25; D-ALANINE--D-ALANINE LIGASE A; 1.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 1.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00047};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00047};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00047}; Reference proteome {ECO:0000313|Proteomes:UP000007041}.
+FT   DOMAIN          137..296
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+SQ   SEQUENCE   306 AA;  34180 MW;  B8CF2755C294C16C CRC64;
+     MNIGLIFGGK SAEYEVSLQS AMHIYKRLNK DVHNVYLIGM DRDGFMHYFD GSIEEVSDGS
+     WFDKKTSAEV ILYSNKKKPG IYDNDKVIAE LELVFPVLHG PYGEDGKLQG LLELSGIPYV
+     GCSVLASANG MDKDMAKKIF SYEGINQVPH ITCYSYEQTQ EIVSRAEANL GYPCFIKPAN
+     MGSSVGISKA KDKQQLVLAM QKAFEYDHKI IIEKGVNARE IEVAVLGNCD NIRISVAGEI
+     IPSDEFYDYD AKYKSNASQL IIPADLSFEA DRQIQDMAYR AYKGLNAEGL CRIRFFCRQG
+     YSKGVS
+//

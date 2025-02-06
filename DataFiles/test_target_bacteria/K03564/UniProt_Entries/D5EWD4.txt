@@ -1,0 +1,87 @@
+ID   D5EWD4_XYLR2            Unreviewed;       152 AA.
+AC   D5EWD4;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=thioredoxin-dependent peroxiredoxin {ECO:0000256|ARBA:ARBA00013017};
+DE            EC=1.11.1.24 {ECO:0000256|ARBA:ARBA00013017};
+DE   AltName: Full=Thioredoxin peroxidase {ECO:0000256|ARBA:ARBA00032824};
+GN   Name=bcp {ECO:0000313|EMBL:ADE81228.1};
+GN   OrderedLocusNames=PRU_2409 {ECO:0000313|EMBL:ADE81228.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81228.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81228.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Thiol-specific peroxidase that catalyzes the reduction of
+CC       hydrogen peroxide and organic hydroperoxides to water and alcohols,
+CC       respectively. Plays a role in cell protection against oxidative stress
+CC       by detoxifying peroxides and as sensor of hydrogen peroxide-mediated
+CC       signaling events. {ECO:0000256|ARBA:ARBA00003330}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a hydroperoxide + [thioredoxin]-dithiol = an alcohol +
+CC         [thioredoxin]-disulfide + H2O; Xref=Rhea:RHEA:62620, Rhea:RHEA-
+CC         COMP:10698, Rhea:RHEA-COMP:10700, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:30879, ChEBI:CHEBI:35924,
+CC         ChEBI:CHEBI:50058; EC=1.11.1.24;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049091};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245}.
+CC   -!- SIMILARITY: Belongs to the peroxiredoxin family. BCP/PrxQ subfamily.
+CC       {ECO:0000256|ARBA:ARBA00038489}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81228.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D5EWD4; -.
+DR   STRING; 264731.PRU_2409; -.
+DR   KEGG; pru:PRU_2409; -.
+DR   eggNOG; COG1225; Bacteria.
+DR   HOGENOM; CLU_042529_14_1_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0008379; F:thioredoxin peroxidase activity; IEA:TreeGrafter.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:TreeGrafter.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; IEA:TreeGrafter.
+DR   CDD; cd03017; PRX_BCP; 1.
+DR   FunFam; 3.40.30.10:FF:000007; Thioredoxin-dependent thiol peroxidase; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR000866; AhpC/TSA.
+DR   InterPro; IPR024706; Peroxiredoxin_AhpC-typ.
+DR   InterPro; IPR050924; Peroxiredoxin_BCP/PrxQ.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR42801:SF4; AHPC_TSA FAMILY PROTEIN; 1.
+DR   PANTHER; PTHR42801; THIOREDOXIN-DEPENDENT PEROXIDE REDUCTASE; 1.
+DR   Pfam; PF00578; AhpC-TSA; 1.
+DR   PIRSF; PIRSF000239; AHPC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Antioxidant {ECO:0000256|ARBA:ARBA00022862};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Peroxidase {ECO:0000256|ARBA:ARBA00022559, ECO:0000313|EMBL:ADE81228.1};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          3..152
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51352"
+FT   ACT_SITE        45
+FT                   /note="Cysteine sulfenic acid (-SOH) intermediate; for
+FT                   peroxidase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000239-1"
+SQ   SEQUENCE   152 AA;  17124 MW;  BAD8237FF9F6CB2B CRC64;
+     MRMNIGDKAP EILGKDEQGR DIRLSDYRGR KLVLYFYPKD NTSGCTAEAC SLRDHYNELQ
+     GAGYEVVGVS KDSAASHVKF KEKHELPFPL IADVDKELLQ AMGAWGEKVM YGKKTEGTIR
+     TTFIINEEGV IEQIFAGKQV KTKEHAEQIL SR
+//

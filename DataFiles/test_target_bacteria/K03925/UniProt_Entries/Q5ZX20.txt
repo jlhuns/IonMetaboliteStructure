@@ -1,0 +1,90 @@
+ID   MRAZ_LEGPH              Reviewed;         152 AA.
+AC   Q5ZX20;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 2.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Transcriptional regulator MraZ;
+GN   Name=mraZ {ECO:0000255|HAMAP-Rule:MF_01008};
+GN   OrderedLocusNames=lpg0913;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- SUBUNIT: Forms oligomers. {ECO:0000255|HAMAP-Rule:MF_01008}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, nucleoid {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Belongs to the MraZ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU27000.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27000.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_011213343.1; NC_002942.5.
+DR   RefSeq; YP_094947.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZX20; -.
+DR   SMR; Q5ZX20; -.
+DR   STRING; 272624.lpg0913; -.
+DR   PaxDb; 272624-lpg0913; -.
+DR   GeneID; 57034901; -.
+DR   KEGG; lpn:lpg0913; -.
+DR   PATRIC; fig|272624.6.peg.945; -.
+DR   eggNOG; COG2001; Bacteria.
+DR   HOGENOM; CLU_107907_2_0_6; -.
+DR   OrthoDB; 9807753at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009295; C:nucleoid; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000976; F:transcription cis-regulatory region binding; IEA:TreeGrafter.
+DR   GO; GO:2000143; P:negative regulation of DNA-templated transcription initiation; IEA:TreeGrafter.
+DR   CDD; cd16321; MraZ_C; 1.
+DR   CDD; cd16320; MraZ_N; 1.
+DR   Gene3D; 3.40.1550.20; Transcriptional regulator MraZ domain; 1.
+DR   HAMAP; MF_01008; MraZ; 1.
+DR   InterPro; IPR003444; MraZ.
+DR   InterPro; IPR035644; MraZ_C.
+DR   InterPro; IPR020603; MraZ_dom.
+DR   InterPro; IPR035642; MraZ_N.
+DR   InterPro; IPR038619; MraZ_sf.
+DR   InterPro; IPR007159; SpoVT-AbrB_dom.
+DR   InterPro; IPR037914; SpoVT-AbrB_sf.
+DR   NCBIfam; TIGR00242; division/cell wall cluster transcriptional repressor MraZ; 1.
+DR   PANTHER; PTHR34701; TRANSCRIPTIONAL REGULATOR MRAZ; 1.
+DR   PANTHER; PTHR34701:SF1; TRANSCRIPTIONAL REGULATOR MRAZ; 1.
+DR   Pfam; PF02381; MraZ; 2.
+DR   SUPFAM; SSF89447; AbrB/MazE/MraZ-like; 1.
+DR   PROSITE; PS51740; SPOVT_ABRB; 2.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA-binding; Reference proteome; Repeat; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..152
+FT                   /note="Transcriptional regulator MraZ"
+FT                   /id="PRO_0000108492"
+FT   DOMAIN          5..52
+FT                   /note="SpoVT-AbrB 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01076"
+FT   DOMAIN          81..124
+FT                   /note="SpoVT-AbrB 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01076"
+SQ   SEQUENCE   152 AA;  17276 MW;  A52F29D9CB105869 CRC64;
+     MFRGINAITI DTKGRLAIPT RYRSALGAED KIPLVVTIDT EETCLLLYTA AQWQIIEDNL
+     QKLPSFNAAA RRIQRLLIGH ATDVEVDANG RVLLPTVLRN YAKLEKDVVM IGQGNKFEVW
+     NKELWESKRE QWLAEEASMT DGLPEEMKTF SL
+//

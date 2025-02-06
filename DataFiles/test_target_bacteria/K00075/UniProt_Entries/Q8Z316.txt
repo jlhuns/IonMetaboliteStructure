@@ -1,0 +1,127 @@
+ID   MURB_SALTI              Reviewed;         342 AA.
+AC   Q8Z316;
+DT   25-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase {ECO:0000255|HAMAP-Rule:MF_00037};
+DE            EC=1.3.1.98 {ECO:0000255|HAMAP-Rule:MF_00037};
+DE   AltName: Full=UDP-N-acetylmuramate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00037};
+GN   Name=murB {ECO:0000255|HAMAP-Rule:MF_00037};
+GN   OrderedLocusNames=STY3742, t3489;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramate + NADP(+) = UDP-N-acetyl-3-O-(1-
+CC         carboxyvinyl)-alpha-D-glucosamine + NADPH + H(+);
+CC         Xref=Rhea:RHEA:12248, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:68483, ChEBI:CHEBI:70757; EC=1.3.1.98;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00037};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00037};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- SIMILARITY: Belongs to the MurB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00037}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09498.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71001.1; -; Genomic_DNA.
+DR   RefSeq; NP_457928.1; NC_003198.1.
+DR   RefSeq; WP_000149790.1; NZ_WSUR01000069.1.
+DR   AlphaFoldDB; Q8Z316; -.
+DR   SMR; Q8Z316; -.
+DR   STRING; 220341.gene:17587603; -.
+DR   KEGG; stt:t3489; -.
+DR   KEGG; sty:STY3742; -.
+DR   PATRIC; fig|220341.7.peg.3817; -.
+DR   eggNOG; COG0812; Bacteria.
+DR   HOGENOM; CLU_035304_0_0_6; -.
+DR   OMA; APLTWFR; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0008762; F:UDP-N-acetylmuramate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.465.10:FF:000018; UDP-N-acetylenolpyruvoylglucosamine reductase; 1.
+DR   FunFam; 3.90.78.10:FF:000002; UDP-N-acetylenolpyruvoylglucosamine reductase; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   Gene3D; 3.90.78.10; UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain; 1.
+DR   Gene3D; 3.30.43.10; Uridine Diphospho-n-acetylenolpyruvylglucosamine Reductase, domain 2; 1.
+DR   HAMAP; MF_00037; MurB; 1.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR003170; MurB.
+DR   InterPro; IPR011601; MurB_C.
+DR   InterPro; IPR036635; MurB_C_sf.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   NCBIfam; TIGR00179; murB; 1.
+DR   PANTHER; PTHR21071; UDP-N-ACETYLENOLPYRUVOYLGLUCOSAMINE REDUCTASE; 1.
+DR   PANTHER; PTHR21071:SF4; UDP-N-ACETYLENOLPYRUVOYLGLUCOSAMINE REDUCTASE; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   Pfam; PF02873; MurB_C; 1.
+DR   SUPFAM; SSF56176; FAD-binding/transporter-associated domain-like; 1.
+DR   SUPFAM; SSF56194; Uridine diphospho-N-Acetylenolpyruvylglucosamine reductase, MurB, C-terminal domain; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell shape; Cell wall biogenesis/degradation;
+KW   Cytoplasm; FAD; Flavoprotein; NADP; Oxidoreductase;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..342
+FT                   /note="UDP-N-acetylenolpyruvoylglucosamine reductase"
+FT                   /id="PRO_0000179252"
+FT   DOMAIN          13..183
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        159
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        229
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        325
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+SQ   SEQUENCE   342 AA;  37741 MW;  3274A5CEC2E21644 CRC64;
+     MTHSLKPWNT FGIDHCAKHI VCAENEQQLL SAWQQATREG LPVMILGEGS NVLFLENYAG
+     TVILNRLKGI EVNETADAWH LHVGAGENWH QLVRYALDNN MPGLENLALI PGCVGSSPIQ
+     NIGAYGVELH RVCDYVDCVE LETGKRLRLS AAECRFGYRD SIFKNEYQDR VAIVAVGLRL
+     SKQWQPVLTY GDLTRLDPKT VTAQQVFDAV CHMRTTKLPD PKVNGNAGSF FKNPVVAADI
+     AMELLERFPN APHYPQADGS VKLAAGWLID QCQLKGVTIG GAAVHRQQAL VLINANDATS
+     KDVVALAHHV RQKVGEKFNV WLEPEVRFIG QFGEVNAVES IA
+//

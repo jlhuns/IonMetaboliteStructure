@@ -1,0 +1,109 @@
+ID   RSMH_MICLC              Reviewed;         331 AA.
+AC   C5CA38;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW;
+GN   OrderedLocusNames=Mlut_13680;
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 / CCUG 5858 / IAM
+RC   1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230;
+RX   PubMed=19948807; DOI=10.1128/jb.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1402) in 16S rRNA + S-adenosyl-L-methionine = N(4)-
+CC         methylcytidine(1402) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42928, Rhea:RHEA-COMP:10286, Rhea:RHEA-COMP:10287,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74506, ChEBI:CHEBI:82748; EC=2.1.1.199;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01007};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30873.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078493.1; NZ_WBMF01000132.1.
+DR   AlphaFoldDB; C5CA38; -.
+DR   SMR; C5CA38; -.
+DR   STRING; 465515.Mlut_13680; -.
+DR   EnsemblBacteria; ACS30873; ACS30873; Mlut_13680.
+DR   GeneID; 93343250; -.
+DR   KEGG; mlu:Mlut_13680; -.
+DR   PATRIC; fig|465515.4.peg.1310; -.
+DR   eggNOG; COG0275; Bacteria.
+DR   HOGENOM; CLU_038422_0_0_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.150.170; Putative methyltransferase TM0872, insert domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00006; 16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH; 1.
+DR   PANTHER; PTHR11265:SF0; 12S RRNA N4-METHYLCYTIDINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11265; S-ADENOSYL-METHYLTRANSFERASE MRAW; 1.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   PIRSF; PIRSF004486; MraW; 1.
+DR   SUPFAM; SSF81799; Putative methyltransferase TM0872, insert domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..331
+FT                   /note="Ribosomal RNA small subunit methyltransferase H"
+FT                   /id="PRO_0000386981"
+FT   REGION          297..331
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        298..312
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         48..50
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         67
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         115
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         122
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+SQ   SEQUENCE   331 AA;  36012 MW;  5DCC50E7798D8791 CRC64;
+     MDAGQPRPED RHLPVMRDRV VDLLAPAVQA ALEAGRTPVA VDGTLGMGGH TEALLTRFPH
+     LRVIGIDRDA HAQAMAAERL GPLADRVIPF HGTYDRVPEA MAAAGVTKVD AALYDLGVSS
+     YQLDDRERGF AYSYDAPLDM RMDDTAERSA ATLVAELDEQ ELRRIIRRDG EERFAGPIAR
+     AIVRARAEAP IETTGRLVEV IRSAVPVAAG ATGGHPAKRT FQALRIAVNE ELDILDAAVP
+     AILDALHVGG RLVVMSYHSL EDRITKRHLS AWATSTAPPG FPVVLEEHEP VVRVLTRGTE
+     KPTEEEISEN RRASSAKVRA VEKIRTSRTT A
+//

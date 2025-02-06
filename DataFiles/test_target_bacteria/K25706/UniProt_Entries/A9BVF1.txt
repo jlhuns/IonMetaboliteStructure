@@ -1,0 +1,139 @@
+ID   A9BVF1_DELAS            Unreviewed;       346 AA.
+AC   A9BVF1;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE            EC=2.3.1.234 {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000256|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000256|HAMAP-Rule:MF_01445};
+GN   OrderedLocusNames=Daci_2380 {ECO:0000313|EMBL:ABX35018.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX35018.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX35018.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is involved in the transfer of the threonylcarbamoyl
+CC       moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37,
+CC       together with TsaE and TsaB. TsaD likely plays a direct catalytic role
+CC       in this reaction. {ECO:0000256|HAMAP-Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonylcarbamoyladenylate + adenosine(37) in tRNA = N(6)-L-
+CC         threonylcarbamoyladenosine(37) in tRNA + AMP + H(+);
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048117, ECO:0000256|HAMAP-
+CC         Rule:MF_01445};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01445}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX35018.1; -; Genomic_DNA.
+DR   RefSeq; WP_012204300.1; NC_010002.1.
+DR   AlphaFoldDB; A9BVF1; -.
+DR   STRING; 398578.Daci_2380; -.
+DR   GeneID; 24117891; -.
+DR   KEGG; dac:Daci_2380; -.
+DR   eggNOG; COG0533; Bacteria.
+DR   HOGENOM; CLU_023208_0_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061711; F:N(6)-L-threonylcarbamoyladenine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008233; F:peptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.420.40:FF:000012; tRNA N6-adenosine threonylcarbamoyltransferase; 1.
+DR   FunFam; 3.30.420.40:FF:000040; tRNA N6-adenosine threonylcarbamoyltransferase; 1.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   InterPro; IPR022450; TsaD.
+DR   NCBIfam; TIGR00329; gcp_kae1; 1.
+DR   NCBIfam; TIGR03723; T6A_TsaD_YgjD; 1.
+DR   PANTHER; PTHR11735; TRNA N6-ADENOSINE THREONYLCARBAMOYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11735:SF6; TRNA N6-ADENOSINE THREONYLCARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01445};
+KW   Hydrolase {ECO:0000313|EMBL:ABX35018.1};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01445};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}; Protease {ECO:0000313|EMBL:ABX35018.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01445};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}.
+FT   DOMAIN          31..314
+FT                   /note="Gcp-like"
+FT                   /evidence="ECO:0000259|Pfam:PF00814"
+FT   BINDING         118
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         122
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         141..145
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         174
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         280
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         308
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+SQ   SEQUENCE   346 AA;  36299 MW;  EDCCC317245A8435 CRC64;
+     MSLLILGIES SCDETGVALV EAPDGTGVPT LLSHALHSQI DMHRAYGGVV PELASRDHIR
+     RVLPLTENVL GESGRSLDQV DVIAFTRGPG LAGALLVGAG VACAMAAALN KPVLGVHHLE
+     GHLLSPFLSA DPPEFPFVAL LVSGGHTQLM RVDGVGSYAI LGETIDDAAG EAFDKSAKLM
+     GLPYPGGPVL SRLAEGGDAQ AFKLPRPLLH SGDLDFSFAG LKTAVLTQAK KLGDDLEARK
+     ADLAASTQAA IVEVLVKKTL AALQQTGMKR VVVAGGVGAN RLLRSQLDAA CAKRKLRVHY
+     PELHLCTDNG AMIAMAAAMR LQAGREVANR HYAFDVKPRW PLDSLA
+//

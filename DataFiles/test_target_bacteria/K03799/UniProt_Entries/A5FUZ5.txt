@@ -1,0 +1,101 @@
+ID   HTPX_ACICJ              Reviewed;         287 AA.
+AC   A5FUZ5;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   24-JUL-2024, entry version 89.
+DE   RecName: Full=Protease HtpX homolog {ECO:0000255|HAMAP-Rule:MF_00188};
+DE            EC=3.4.24.- {ECO:0000255|HAMAP-Rule:MF_00188};
+GN   Name=htpX {ECO:0000255|HAMAP-Rule:MF_00188};
+GN   OrderedLocusNames=Acry_0199;
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00188};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00188};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00188}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00188}.
+CC   -!- SIMILARITY: Belongs to the peptidase M48B family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00188}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29427.1; -; Genomic_DNA.
+DR   RefSeq; WP_011941346.1; NC_009484.1.
+DR   AlphaFoldDB; A5FUZ5; -.
+DR   SMR; A5FUZ5; -.
+DR   STRING; 349163.Acry_0199; -.
+DR   KEGG; acr:Acry_0199; -.
+DR   eggNOG; COG0501; Bacteria.
+DR   HOGENOM; CLU_042266_3_0_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd07336; M48B_HtpX_like; 1.
+DR   Gene3D; 3.30.2010.10; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   HAMAP; MF_00188; Pept_M48_protease_HtpX; 1.
+DR   InterPro; IPR050083; HtpX_protease.
+DR   InterPro; IPR022919; Pept_M48_protease_HtpX.
+DR   InterPro; IPR001915; Peptidase_M48.
+DR   PANTHER; PTHR43221; PROTEASE HTPX; 1.
+DR   PANTHER; PTHR43221:SF1; PROTEASE HTPX; 1.
+DR   Pfam; PF01435; Peptidase_M48; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Hydrolase; Membrane; Metal-binding;
+KW   Metalloprotease; Protease; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Zinc.
+FT   CHAIN           1..287
+FT                   /note="Protease HtpX homolog"
+FT                   /id="PRO_1000077441"
+FT   TRANSMEM        5..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   TRANSMEM        28..48
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   TRANSMEM        146..166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   TRANSMEM        174..194
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   ACT_SITE        132
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   BINDING         131
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   BINDING         135
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+FT   BINDING         203
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00188"
+SQ   SEQUENCE   287 AA;  30460 MW;  3C2E3BBECDFA23D4 CRC64;
+     MPNLIRTGLL MAALTALFVA IGYWIGRGAG AAIALAFAAA GNFVAYWVSD RAVLAMYGAQ
+     PANQAAFPRL VAQVDRLASK AGLPPPRVYV IDNDQPNAFA TGRNPQHAAI AVTTGLLGAL
+     DEAELAGVIA HELSHIRHRD TLTMTVTATL AGAIGMISNL AIFFGGSDER RSSPFAGIAG
+     LLLLLLAPLT ATLVQLAISR TREYAADARA ASLTGQPLAL ARALMRIDEM ARWVPNDDAE
+     RNPATASLFI VNPLSGTTFD TLFATHPPIR ERVARLRHMA QFDVSKN
+//
