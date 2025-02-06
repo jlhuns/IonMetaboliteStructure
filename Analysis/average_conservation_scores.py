@@ -29,7 +29,7 @@ def average_conservation_score(target_organism):
     # Create pandas DataFrame
     df = pd.DataFrame(rows, columns=['Description', 'conservationScore', 'Count'])
 
-    df.to_csv(os.path.join(FILE_PATH.GET_ORGANISM_ANALYSIS_FOLDER_PATH(target_organism), "All_Average_Scores.csv"))
+    df.to_csv(os.path.join(FILE_PATH.GET_ORGANISM_ANALYSIS_FOLDER_PATH(target_organism), "all_average_scores.csv"))
                 
 
 if __name__ == "__main__":
