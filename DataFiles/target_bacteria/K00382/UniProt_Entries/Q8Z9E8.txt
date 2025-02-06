@@ -1,0 +1,164 @@
+ID   Q8Z9E8_SALTI            Unreviewed;       475 AA.
+AC   Q8Z9E8; Q7CBS6;
+DT   01-MAR-2002, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 159.
+DE   RecName: Full=Dihydrolipoyl dehydrogenase {ECO:0000256|ARBA:ARBA00016961, ECO:0000256|RuleBase:RU003692};
+DE            EC=1.8.1.4 {ECO:0000256|ARBA:ARBA00012608, ECO:0000256|RuleBase:RU003692};
+GN   Name=lpdA {ECO:0000313|EMBL:CAD01313.1};
+GN   OrderedLocusNames=STY0177 {ECO:0000313|EMBL:CAD01313.1}, t0160
+GN   {ECO:0000313|EMBL:AAO67892.1};
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370 {ECO:0000313|EMBL:CAD01313.1, ECO:0000313|Proteomes:UP000000541};
+RN   [1] {ECO:0000313|EMBL:CAD01313.1, ECO:0000313|Proteomes:UP000000541}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18 {ECO:0000313|EMBL:CAD01313.1,
+RC   ECO:0000313|Proteomes:UP000000541};
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.,
+RA   Rutherford K., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2] {ECO:0000313|EMBL:AAO67892.1, ECO:0000313|Proteomes:UP000002670}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2 {ECO:0000313|Proteomes:UP000002670}, and Ty2
+RC   {ECO:0000313|EMBL:AAO67892.1};
+RX   PubMed=12644504; DOI=10.1128/JB.185.7.2330-2337.2003;
+RA   Deng W., Liou S.R., Plunkett G.III., Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-[(R)-dihydrolipoyl]-L-lysyl-[protein] + NAD(+) = N(6)-
+CC         [(R)-lipoyl]-L-lysyl-[protein] + NADH + H(+); Xref=Rhea:RHEA:15045,
+CC         Rhea:RHEA-COMP:10474, Rhea:RHEA-COMP:10475, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83100; EC=1.8.1.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00043836,
+CC         ECO:0000256|RuleBase:RU003692};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000350-3,
+CC         ECO:0000256|RuleBase:RU003692};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|PIRSR:PIRSR000350-3,
+CC       ECO:0000256|RuleBase:RU003692};
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC       {ECO:0000256|RuleBase:RU003692}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00007532,
+CC       ECO:0000256|RuleBase:RU003692}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO67892.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD01313.1; -; Genomic_DNA.
+DR   RefSeq; NP_454768.1; NC_003198.1.
+DR   AlphaFoldDB; Q8Z9E8; -.
+DR   STRING; 220341.gene:17584215; -.
+DR   KEGG; stt:t0160; -.
+DR   KEGG; sty:STY0177; -.
+DR   PATRIC; fig|220341.7.peg.178; -.
+DR   eggNOG; COG1249; Bacteria.
+DR   HOGENOM; CLU_016755_0_1_6; -.
+DR   OMA; DAKYGEW; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0004148; F:dihydrolipoyl dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   FunFam; 3.30.390.30:FF:000001; Dihydrolipoyl dehydrogenase; 1.
+DR   FunFam; 3.50.50.60:FF:000014; Dihydrolipoyl dehydrogenase; 1.
+DR   FunFam; 3.50.50.60:FF:000001; Dihydrolipoyl dehydrogenase, mitochondrial; 1.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR050151; Class-I_Pyr_Nuc-Dis_Oxidored.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR006258; Lipoamide_DH.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   NCBIfam; TIGR01350; lipoamide_DH; 1.
+DR   PANTHER; PTHR22912:SF160; DIHYDROLIPOYL DEHYDROGENASE; 1.
+DR   PANTHER; PTHR22912; DISULFIDE OXIDOREDUCTASE; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Nucleotide-binding {ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284,
+KW   ECO:0000256|RuleBase:RU003692}.
+FT   DOMAIN          9..329
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+FT   DOMAIN          348..456
+FT                   /note="Pyridine nucleotide-disulphide oxidoreductase
+FT                   dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF02852"
+FT   ACT_SITE        446
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-2"
+FT   BINDING         55
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         118
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         183..190
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         206
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         273
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         314
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         320..323
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   DISULFID        46..51
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-4"
+SQ   SEQUENCE   475 AA;  50785 MW;  27FFD8008179E4C2 CRC64;
+     MMSTEIKTQV VVLGAGPAGY SAAFRCADLG LETVIVERYN TLGGVCLNVG CIPSKALLHV
+     AKVIEEAKAL AEHGIVFGEP KTDIDKIRTW KEKVITQLTG GLAGMAKGRK VKVVNGLGKF
+     TGANTLEVEG ENGKTVINFD NAIIAAGSRP IQLPFIPHED PRVWDSTDAL ELKEVPKRML
+     VMGGGIIGLE MGTVYHALGS EIDVVEMFDQ VIPAADKDIV KVFTKRISKK FNLMLETKVT
+     AVEAKEDGIY VSMEGKKAPA EAQRYDAVLV AIGRVPNGKN LDAGKAGVEV DDRGFIRVDK
+     QLRTNVPHIF AIGDIVGQPM LAHKGVHEGH VAAEVIAGKK HYFDPKVIPS IAYTEPEVAW
+     VGLTEKEAKE KGISYETATF PWAASGRAIA SDCADGMTKL IFDKESHRVI GGAIVGTNGG
+     ELLGEIGLAI EMGCDAEDIA LTIHAHPTLH ESVGLAAEIF EGSITDLPNP KAKKK
+//

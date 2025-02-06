@@ -1,0 +1,90 @@
+ID   A0A0H4VEV2_9SPHN        Unreviewed;       507 AA.
+AC   A0A0H4VEV2;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   06-JUL-2016, sequence version 2.
+DT   27-NOV-2024, entry version 26.
+DE   RecName: Full=phosphoglucomutase (alpha-D-glucose-1,6-bisphosphate-dependent) {ECO:0000256|ARBA:ARBA00012728};
+DE            EC=5.4.2.2 {ECO:0000256|ARBA:ARBA00012728};
+GN   ORFNames=CP97_05740 {ECO:0000313|EMBL:AKQ43207.2};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ43207.2, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ43207.2, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate = alpha-D-glucose 6-phosphate;
+CC         Xref=Rhea:RHEA:23536, ChEBI:CHEBI:58225, ChEBI:CHEBI:58601;
+CC         EC=5.4.2.2; Evidence={ECO:0000256|ARBA:ARBA00000443};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the phosphohexose mutase family.
+CC       {ECO:0000256|ARBA:ARBA00010231}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ43207.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VEV2; -.
+DR   STRING; 1648404.CP97_05740; -.
+DR   KEGG; ery:CP97_05740; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004614; F:phosphoglucomutase activity; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   FunFam; 3.30.310.50:FF:000002; Phosphoglucomutase 5; 1.
+DR   FunFam; 3.40.120.10:FF:000004; Phosphoglucomutase 5; 1.
+DR   Gene3D; 3.40.120.10; Alpha-D-Glucose-1,6-Bisphosphate, subunit A, domain 3; 3.
+DR   Gene3D; 3.30.310.50; Alpha-D-phosphohexomutase, C-terminal domain; 1.
+DR   InterPro; IPR005844; A-D-PHexomutase_a/b/a-I.
+DR   InterPro; IPR016055; A-D-PHexomutase_a/b/a-I/II/III.
+DR   InterPro; IPR005845; A-D-PHexomutase_a/b/a-II.
+DR   InterPro; IPR005846; A-D-PHexomutase_a/b/a-III.
+DR   InterPro; IPR036900; A-D-PHexomutase_C_sf.
+DR   InterPro; IPR005841; Alpha-D-phosphohexomutase_SF.
+DR   InterPro; IPR045244; PGM.
+DR   PANTHER; PTHR22573:SF2; PHOSPHOGLUCOMUTASE; 1.
+DR   PANTHER; PTHR22573; PHOSPHOHEXOMUTASE FAMILY MEMBER; 1.
+DR   Pfam; PF02878; PGM_PMM_I; 1.
+DR   Pfam; PF02879; PGM_PMM_II; 1.
+DR   Pfam; PF02880; PGM_PMM_III; 1.
+DR   PRINTS; PR00509; PGMPMM.
+DR   SUPFAM; SSF55957; Phosphoglucomutase, C-terminal domain; 1.
+DR   SUPFAM; SSF53738; Phosphoglucomutase, first 3 domains; 3.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          2..112
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02878"
+FT   DOMAIN          148..250
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02879"
+FT   DOMAIN          259..371
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02880"
+SQ   SEQUENCE   507 AA;  54920 MW;  07ABDF3CC9CEB693 CRC64;
+     MQSIFGAVRE KGRESLVIGG DGRFFNREAI QTCIKMATAS GYERLIIGRE GLLSTPAASH
+     LIRKRSASGG VIFTASHNPG GEDGDFGVKY NAANGGPASD QINRAIEELS RTLAAYRIVD
+     TPDVDLNRLG SFMLGNTIIE IVDPVADYAA LMESLFDFDE LGELFEKNEF RMRFDAMHAI
+     TGPYARTIFE DRLGAPAGSV VNAVPSPDFG GGKPDPNLAR ARDLVGHMFA SSAPDFGAAS
+     DGDGDRNMIL GRNIFVTPSD SLAILAANMQ LAPGYGDGPV GVARSMPTSR ALDYVAEELG
+     IPCFETPTGW KYFGNLLDAG MVTLCGEESF GTGSNHMREK DGLWAVLLWL TILAKRRQPV
+     ARIVQDHWRK YGRHYYSRHD YDAVETDAAL SLMQSLRERA KTLLGQTPGG ARALAAEDFS
+     YTDPVDQSVA EHQGVRLSLE GGARIVYRLS GTASAASTLR VYLELYEPRA DMQDRDTQSV
+     LEHLAETASD LAGIPARLGR SRPSVIT
+//

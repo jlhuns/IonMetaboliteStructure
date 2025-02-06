@@ -1,0 +1,172 @@
+ID   ARGD_SALTI              Reviewed;         405 AA.
+AC   Q8Z1Z3;
+DT   12-FEB-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   27-NOV-2024, entry version 154.
+DE   RecName: Full=Acetylornithine/succinyldiaminopimelate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01107};
+DE            Short=ACOAT {ECO:0000255|HAMAP-Rule:MF_01107};
+DE            Short=DapATase {ECO:0000255|HAMAP-Rule:MF_01107};
+DE            Short=Succinyldiaminopimelate transferase {ECO:0000255|HAMAP-Rule:MF_01107};
+DE            EC=2.6.1.11 {ECO:0000255|HAMAP-Rule:MF_01107};
+DE            EC=2.6.1.17 {ECO:0000255|HAMAP-Rule:MF_01107};
+GN   Name=argD {ECO:0000255|HAMAP-Rule:MF_01107};
+GN   Synonyms=dapC {ECO:0000255|HAMAP-Rule:MF_01107};
+GN   OrderedLocusNames=STY4328, t4037;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in both the arginine and lysine biosynthetic
+CC       pathways. {ECO:0000255|HAMAP-Rule:MF_01107}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(2)-acetyl-L-ornithine + 2-oxoglutarate = N-acetyl-L-
+CC         glutamate 5-semialdehyde + L-glutamate; Xref=Rhea:RHEA:18049,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29123, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:57805; EC=2.6.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01107};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-succinyl-(2S,6S)-2,6-diaminoheptanedioate + 2-oxoglutarate =
+CC         (S)-2-succinylamino-6-oxoheptanedioate + L-glutamate;
+CC         Xref=Rhea:RHEA:11960, ChEBI:CHEBI:15685, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58087; EC=2.6.1.17;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01107};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01107};
+CC       Note=Binds 1 pyridoxal phosphate per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01107};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 4/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01107}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (succinylase route): step 2/3. {ECO:0000255|HAMAP-Rule:MF_01107}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01107}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01107}.
+CC   -!- MISCELLANEOUS: The reaction catalyzed by ACOAT is highly reversible.
+CC       This enzyme may also transaminate ornithine (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-III pyridoxal-phosphate-dependent
+CC       aminotransferase family. ArgD subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01107}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08145.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71506.1; -; Genomic_DNA.
+DR   RefSeq; NP_458434.1; NC_003198.1.
+DR   RefSeq; WP_000190017.1; NZ_WSUR01000001.1.
+DR   AlphaFoldDB; Q8Z1Z3; -.
+DR   SMR; Q8Z1Z3; -.
+DR   STRING; 220341.gene:17588158; -.
+DR   KEGG; stt:t4037; -.
+DR   KEGG; sty:STY4328; -.
+DR   PATRIC; fig|220341.7.peg.4423; -.
+DR   eggNOG; COG4992; Bacteria.
+DR   HOGENOM; CLU_016922_10_1_6; -.
+DR   OMA; RSAWDLC; -.
+DR   OrthoDB; 9801052at2; -.
+DR   UniPathway; UPA00034; UER00020.
+DR   UniPathway; UPA00068; UER00109.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042802; F:identical protein binding; IEA:TreeGrafter.
+DR   GO; GO:0003992; F:N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009016; F:succinyldiaminopimelate transaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   CDD; cd00610; OAT_like; 1.
+DR   FunFam; 3.40.640.10:FF:000004; Acetylornithine aminotransferase; 1.
+DR   FunFam; 3.90.1150.10:FF:000009; Succinylornithine transaminase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_01107; ArgD_aminotrans_3; 1.
+DR   InterPro; IPR017652; Ac/SucOrn_transaminase_bac.
+DR   InterPro; IPR004636; AcOrn/SuccOrn_fam.
+DR   InterPro; IPR005814; Aminotrans_3.
+DR   InterPro; IPR049704; Aminotrans_3_PPA_site.
+DR   InterPro; IPR050103; Class-III_PLP-dep_AT.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR03246; arg_catab_astC; 1.
+DR   NCBIfam; TIGR00707; argD; 1.
+DR   PANTHER; PTHR11986:SF113; ACETYLORNITHINE_SUCCINYLDIAMINOPIMELATE AMINOTRANSFERASE; 1.
+DR   PANTHER; PTHR11986; AMINOTRANSFERASE CLASS III; 1.
+DR   Pfam; PF00202; Aminotran_3; 1.
+DR   PIRSF; PIRSF000521; Transaminase_4ab_Lys_Orn; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00600; AA_TRANSFER_CLASS_3; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Arginine biosynthesis;
+KW   Cytoplasm; Lysine biosynthesis; Pyridoxal phosphate; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..405
+FT                   /note="Acetylornithine/succinyldiaminopimelate
+FT                   aminotransferase"
+FT                   /id="PRO_0000112776"
+FT   BINDING         108..109
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   BINDING         141
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   BINDING         144
+FT                   /ligand="N(2)-acetyl-L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:57805"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   BINDING         226..229
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   BINDING         283
+FT                   /ligand="N(2)-acetyl-L-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:57805"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   BINDING         284
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+FT   MOD_RES         255
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01107"
+SQ   SEQUENCE   405 AA;  43584 MW;  030A92960E3F0455 CRC64;
+     MATEQTAITR ATFDEVILPV YAPADFIPVK GKGSRVWDQQ GKEYIDFAGG IAVTALGHCH
+     PALVEALKSQ GETLWHTSNV FTNEPALCLG RKLIDATFAE RVLFMNSGTE ANETAFKLAR
+     HYACVRHSPF KTKIIAFQNA FHGRSLFTVS VGGQPKYSDG FGPKPADIIH VPFNDLHAVK
+     AVMDDHTCAV VVEPIQGEGG VQAATPEFLK GLRDLCDKHQ ALLVFDEVQC GMGRTGDLFA
+     YMHYGVTPDI LTSAKALGGG FPVSAMLTTQ EIASAFHVGS HGSTYGGNPL ACAVAGAAFD
+     IINTPEVLQG IHTKRQQFVQ HLQAIDEQFD IFSDIRGMGL LIGAELKPKY KGRARDFLYA
+     GAEAGVMVLN AGADVMRFAP SLVVEEADIN EGMQRFAQAV GKVVA
+//

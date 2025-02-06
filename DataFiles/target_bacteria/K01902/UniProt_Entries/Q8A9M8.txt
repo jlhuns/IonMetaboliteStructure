@@ -1,0 +1,146 @@
+ID   Q8A9M8_BACTN            Unreviewed;       286 AA.
+AC   Q8A9M8;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 147.
+DE   RecName: Full=Succinate--CoA ligase [ADP-forming] subunit alpha {ECO:0000256|HAMAP-Rule:MF_01988};
+DE            EC=6.2.1.5 {ECO:0000256|HAMAP-Rule:MF_01988};
+DE   AltName: Full=Succinyl-CoA synthetase subunit alpha {ECO:0000256|HAMAP-Rule:MF_01988};
+DE            Short=SCS-alpha {ECO:0000256|HAMAP-Rule:MF_01988};
+GN   Name=sucD {ECO:0000256|HAMAP-Rule:MF_01988};
+GN   OrderedLocusNames=BT_0787 {ECO:0000313|EMBL:AAO75894.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186 {ECO:0000313|EMBL:AAO75894.1, ECO:0000313|Proteomes:UP000001414};
+RN   [1] {ECO:0000313|EMBL:AAO75894.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2] {ECO:0000313|EMBL:AAO75894.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   -!- FUNCTION: Succinyl-CoA synthetase functions in the citric acid cycle
+CC       (TCA), coupling the hydrolysis of succinyl-CoA to the synthesis of
+CC       either ATP or GTP and thus represents the only step of substrate-level
+CC       phosphorylation in the TCA. The alpha subunit of the enzyme binds the
+CC       substrates coenzyme A and phosphate, while succinate binding and
+CC       nucleotide specificity is provided by the beta subunit.
+CC       {ECO:0000256|HAMAP-Rule:MF_01988, ECO:0000256|RuleBase:RU000699}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=succinate + ATP + CoA = succinyl-CoA + ADP + phosphate;
+CC         Xref=Rhea:RHEA:17661, ChEBI:CHEBI:30031, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57287, ChEBI:CHEBI:57292,
+CC         ChEBI:CHEBI:456216; EC=6.2.1.5; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01988, ECO:0000256|RuleBase:RU000699};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + succinate + CoA = succinyl-CoA + GDP + phosphate;
+CC         Xref=Rhea:RHEA:22120, ChEBI:CHEBI:30031, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57287, ChEBI:CHEBI:57292,
+CC         ChEBI:CHEBI:58189; Evidence={ECO:0000256|HAMAP-Rule:MF_01988};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; succinate
+CC       from succinyl-CoA (ligase route): step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_01988, ECO:0000256|RuleBase:RU000699}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta subunits.
+CC       {ECO:0000256|HAMAP-Rule:MF_01988, ECO:0000256|RuleBase:RU000699}.
+CC   -!- SIMILARITY: Belongs to the succinate/malate CoA ligase alpha subunit
+CC       family. {ECO:0000256|HAMAP-Rule:MF_01988,
+CC       ECO:0000256|RuleBase:RU000677}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01988}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO75894.1; -; Genomic_DNA.
+DR   RefSeq; NP_809700.1; NC_004663.1.
+DR   RefSeq; WP_008765646.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A9M8; -.
+DR   STRING; 226186.BT_0787; -.
+DR   PaxDb; 226186-BT_0787; -.
+DR   EnsemblBacteria; AAO75894; AAO75894; BT_0787.
+DR   GeneID; 60926756; -.
+DR   KEGG; bth:BT_0787; -.
+DR   PATRIC; fig|226186.12.peg.805; -.
+DR   eggNOG; COG0074; Bacteria.
+DR   HOGENOM; CLU_052104_0_0_10; -.
+DR   InParanoid; Q8A9M8; -.
+DR   OrthoDB; 9807196at2; -.
+DR   UniPathway; UPA00223; UER00999.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0009361; C:succinate-CoA ligase complex (ADP-forming); IBA:GO_Central.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004775; F:succinate-CoA ligase (ADP-forming) activity; IBA:GO_Central.
+DR   GO; GO:0004776; F:succinate-CoA ligase (GDP-forming) activity; IBA:GO_Central.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IBA:GO_Central.
+DR   FunFam; 3.40.50.261:FF:000006; Succinate--CoA ligase [ADP-forming] subunit alpha; 1.
+DR   FunFam; 3.40.50.720:FF:000205; Succinate--CoA ligase [ADP-forming] subunit alpha; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.40.50.261; Succinyl-CoA synthetase domains; 1.
+DR   HAMAP; MF_01988; Succ_CoA_alpha; 1.
+DR   InterPro; IPR017440; Cit_synth/succinyl-CoA_lig_AS.
+DR   InterPro; IPR033847; Citrt_syn/SCS-alpha_CS.
+DR   InterPro; IPR003781; CoA-bd.
+DR   InterPro; IPR005810; CoA_lig_alpha.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005811; SUCC_ACL_C.
+DR   InterPro; IPR016102; Succinyl-CoA_synth-like.
+DR   NCBIfam; TIGR01019; sucCoAalpha; 1.
+DR   PANTHER; PTHR11117:SF2; SUCCINATE--COA LIGASE [ADP_GDP-FORMING] SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11117; SUCCINYL-COA LIGASE SUBUNIT ALPHA; 1.
+DR   Pfam; PF02629; CoA_binding; 1.
+DR   Pfam; PF00549; Ligase_CoA; 1.
+DR   PIRSF; PIRSF001553; SucCS_alpha; 1.
+DR   PRINTS; PR01798; SCOASYNTHASE.
+DR   SMART; SM00881; CoA_binding; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   SUPFAM; SSF52210; Succinyl-CoA synthetase domains; 1.
+DR   PROSITE; PS01216; SUCCINYL_COA_LIG_1; 1.
+DR   PROSITE; PS00399; SUCCINYL_COA_LIG_2; 1.
+PE   3: Inferred from homology;
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01988};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01988}; Reference proteome {ECO:0000313|Proteomes:UP000001414};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532, ECO:0000256|HAMAP-
+KW   Rule:MF_01988}.
+FT   DOMAIN          4..100
+FT                   /note="CoA-binding"
+FT                   /evidence="ECO:0000259|SMART:SM00881"
+FT   ACT_SITE        247
+FT                   /note="Tele-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01988,
+FT                   ECO:0000256|PIRSR:PIRSR001553-1"
+FT   BINDING         17..20
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01988"
+FT   BINDING         43
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01988"
+FT   BINDING         159
+FT                   /ligand="substrate"
+FT                   /ligand_note="ligand shared with subunit beta"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01988"
+SQ   SEQUENCE   286 AA;  29904 MW;  E9D9F8A462CB74A9 CRC64;
+     MSILIDKSTR LIVQGITGRD GLFHAKKMKE YGTNVVGGTS PGKGGTEVDG IPVFNTMHEA
+     VKQTQANTSI IFVPARFAAD TIMEAADAGI RLIVCIAEGI PTLDVIKAHR FAEQRGAMLV
+     GPNCPGLISP GESMVGILPG QVFQKGNVGV ISRSGTLTYE IVYHLTTNGM GQSTAIGIGG
+     DPVVGLHFLK LLEMFQNDPE TKAIVLIGEI GGNAEEQAAE YIRSHVNKPV VAFIAGQSAP
+     PGKQMGHAGA IISGGSGSAK DKIEALEAAG IRVAQEPSDI PKLLKR
+//

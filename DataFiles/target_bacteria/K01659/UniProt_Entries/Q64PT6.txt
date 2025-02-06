@@ -1,0 +1,82 @@
+ID   Q64PT6_BACFR            Unreviewed;       447 AA.
+AC   Q64PT6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   RecName: Full=Citrate synthase {ECO:0000256|PIRNR:PIRNR001369};
+GN   OrderedLocusNames=BF3753 {ECO:0000313|EMBL:BAD50495.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50495.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50495.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50495.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=oxaloacetate + acetyl-CoA + H2O = citrate + CoA + H(+);
+CC         Xref=Rhea:RHEA:16845, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16452, ChEBI:CHEBI:16947, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288; EC=2.3.3.16;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000308};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle.
+CC       {ECO:0000256|ARBA:ARBA00005163}.
+CC   -!- SIMILARITY: Belongs to the citrate synthase family.
+CC       {ECO:0000256|ARBA:ARBA00010566, ECO:0000256|PIRNR:PIRNR001369}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50495.1; -; Genomic_DNA.
+DR   RefSeq; WP_005790680.1; NZ_UYXF01000023.1.
+DR   RefSeq; YP_101029.3; NC_006347.1.
+DR   AlphaFoldDB; Q64PT6; -.
+DR   STRING; 295405.BF3753; -.
+DR   GeneID; 66331614; -.
+DR   KEGG; bfr:BF3753; -.
+DR   PATRIC; fig|295405.11.peg.3601; -.
+DR   HOGENOM; CLU_025068_2_2_10; -.
+DR   OrthoDB; 9800864at2; -.
+DR   UniPathway; UPA00223; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004108; F:citrate (Si)-synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd06113; citrate_synt_like_1_2; 1.
+DR   FunFam; 1.10.230.10:FF:000008; Citrate synthase; 1.
+DR   Gene3D; 1.10.580.10; Citrate Synthase, domain 1; 1.
+DR   Gene3D; 1.10.230.10; Cytochrome P450-Terp, domain 2; 1.
+DR   InterPro; IPR016142; Citrate_synth-like_lrg_a-sub.
+DR   InterPro; IPR016143; Citrate_synth-like_sm_a-sub.
+DR   InterPro; IPR002020; Citrate_synthase.
+DR   InterPro; IPR024176; Citrate_synthase_bac-typ.
+DR   InterPro; IPR036969; Citrate_synthase_sf.
+DR   PANTHER; PTHR11739; CITRATE SYNTHASE; 1.
+DR   PANTHER; PTHR11739:SF4; CITRATE SYNTHASE, PEROXISOMAL; 1.
+DR   Pfam; PF00285; Citrate_synt; 1.
+DR   PIRSF; PIRSF001369; Citrate_synth; 1.
+DR   PRINTS; PR00143; CITRTSNTHASE.
+DR   SUPFAM; SSF48256; Citrate synthase; 1.
+PE   3: Inferred from homology;
+KW   Transferase {ECO:0000256|PIRNR:PIRNR001369}.
+FT   ACT_SITE        324
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001369-1"
+FT   ACT_SITE        383
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001369-1"
+SQ   SEQUENCE   447 AA;  50967 MW;  BE40E09DDC3F4E2C CRC64;
+     MKKEYLIYKL SEAMKDCTRI DNELFPKFDV KRGLRNEDGT GVLVGLTKIG NVVGYERIPG
+     GGLKPIPGKL FYRGYDLEDL AHAILKEKRF GFEEVAYLLL SGSLPDKEEL ASFRELINDN
+     MPLEQKTKMN IIELEGNNIM NILARSVLEM YRFDPNPDDT SRDNLMRQSI DLISKFPTII
+     AYAFNMLRHA TFGRSLHIRH PQENLSIAEN FLYMLKRDYT ELDARTLDLL LVLQAEHGGG
+     NNSTFTVRVT SSTGTDTYSA IAAGIGSLKG PLHGGANIQV ADMFHHLQEN IQDWTNVDEI
+     DTYFTRMLNK EVYNKTGLIY GIGHAVYTIS DPRAVLLKEL ARDLAHEKGR EREFAFLELL
+     EERAIATFGK IKNNGKTVSS NVDFYSGFVY EMIGLPQEIY TPLFAMARIV GWCAHRNEEL
+     NFEGKRIIRP AYKNVLEEEQ YVPLKKR
+//

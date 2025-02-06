@@ -1,0 +1,118 @@
+ID   Q6N9Q4_RHOPA            Unreviewed;       550 AA.
+AC   Q6N9Q4;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 121.
+DE   RecName: Full=Phosphoglucomutase {ECO:0000256|NCBIfam:TIGR01132};
+DE            EC=5.4.2.2 {ECO:0000256|NCBIfam:TIGR01132};
+GN   Name=pgm2 {ECO:0000313|EMBL:CAE26926.1};
+GN   Synonyms=pgm {ECO:0000313|EMBL:WCL91623.1};
+GN   OrderedLocusNames=RPA1484 {ECO:0000313|EMBL:CAE26926.1};
+GN   ORFNames=TX73_007630 {ECO:0000313|EMBL:WCL91623.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE26926.1};
+RN   [1] {ECO:0000313|EMBL:WCL91623.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91623.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE26926.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE26926.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91623.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91623.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the phosphohexose mutase family.
+CC       {ECO:0000256|ARBA:ARBA00010231, ECO:0000256|RuleBase:RU004326}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572597; CAE26926.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91623.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157045.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1484; -.
+DR   GeneID; 66892514; -.
+DR   KEGG; rpa:TX73_007630; -.
+DR   eggNOG; COG0033; Bacteria.
+DR   HOGENOM; CLU_016950_8_1_5; -.
+DR   PhylomeDB; Q6N9Q4; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004614; F:phosphoglucomutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008973; F:phosphopentomutase activity; IEA:TreeGrafter.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006166; P:purine ribonucleoside salvage; IEA:TreeGrafter.
+DR   CDD; cd05801; PGM_like3; 1.
+DR   Gene3D; 3.40.120.10; Alpha-D-Glucose-1,6-Bisphosphate, subunit A, domain 3; 3.
+DR   Gene3D; 3.30.310.50; Alpha-D-phosphohexomutase, C-terminal domain; 1.
+DR   InterPro; IPR005844; A-D-PHexomutase_a/b/a-I.
+DR   InterPro; IPR016055; A-D-PHexomutase_a/b/a-I/II/III.
+DR   InterPro; IPR005845; A-D-PHexomutase_a/b/a-II.
+DR   InterPro; IPR005846; A-D-PHexomutase_a/b/a-III.
+DR   InterPro; IPR005843; A-D-PHexomutase_C.
+DR   InterPro; IPR036900; A-D-PHexomutase_C_sf.
+DR   InterPro; IPR016066; A-D-PHexomutase_CS.
+DR   InterPro; IPR005841; Alpha-D-phosphohexomutase_SF.
+DR   InterPro; IPR005852; PGM_a-D-Glc-sp.
+DR   NCBIfam; TIGR01132; pgm; 1.
+DR   PANTHER; PTHR45745:SF1; PHOSPHOGLUCOMUTASE 2A-RELATED; 1.
+DR   PANTHER; PTHR45745; PHOSPHOMANNOMUTASE 45A; 1.
+DR   Pfam; PF02878; PGM_PMM_I; 1.
+DR   Pfam; PF02879; PGM_PMM_II; 1.
+DR   Pfam; PF02880; PGM_PMM_III; 1.
+DR   Pfam; PF00408; PGM_PMM_IV; 1.
+DR   PRINTS; PR00509; PGMPMM.
+DR   SUPFAM; SSF55957; Phosphoglucomutase, C-terminal domain; 1.
+DR   SUPFAM; SSF53738; Phosphoglucomutase, first 3 domains; 3.
+DR   PROSITE; PS00710; PGM_PMM; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000313|EMBL:CAE26926.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU004326};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU004326};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          42..182
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02878"
+FT   DOMAIN          213..317
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02879"
+FT   DOMAIN          324..441
+FT                   /note="Alpha-D-phosphohexomutase alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF02880"
+FT   DOMAIN          495..539
+FT                   /note="Alpha-D-phosphohexomutase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00408"
+SQ   SEQUENCE   550 AA;  58363 MW;  7EE408F4E5278B1A CRC64;
+     MAAKVSPLAG KTVDPNSLVN VPRLVTAYFA GKPDPAVATE RVAFGTSGHR GSSLNNAFNE
+     SHIVAVSQAV CDHRRAAGIT GPLYIGIDTH ALAEPALVSA LEVFAANEID VVIDERGGYT
+     PTPVISHAIL THNRGRTDGL ADGVVVTPSH NPPEDGGFKY NPPNGGPADT DITSAVEKAA
+     NAMLENGLKG IKRISYDRAR KASCVHRRDY ITPYVEDLAN VVDMEAIRSS GVKLGIDPLG
+     GAAVHYWQPI IERYKLDAKV VSDAVDPTFR FMTADWDGKV RMDCSSPYAM ARLIGMRNDF
+     DVAFANDTDA DRHGIVTRSS GLMNPNHYLS VAIAYLFAHR PHWGRDAAIG KTAVSSAMID
+     RVASKIGRKV VETPVGFKWF VDGLIGGSFG FAGEESAGAS FLRRDGSVWT TDKDGIILGL
+     LAAEITAVSK ADPGELYQRL TAELGAPFYA RIDAAASPAQ KALFKTLTAE KLGVKQLAGE
+     PVTATLTKAP GNGQSIGGVK VTTANGWFAA RPSGTEDVYK IYAESFVSAD HLSKIQHEAQ
+     AALSAMFAAG
+//

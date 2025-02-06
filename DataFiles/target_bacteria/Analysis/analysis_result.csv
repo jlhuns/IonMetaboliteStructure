@@ -1,20 +1,29 @@
 KOID,Type,conservationScore,Description
+K00024,ACT_SITE,*,Proton acceptor
+K00024,BINDING,::-:-.:,NAD(+)
+K00024,BINDING,.,NAD(+)
+K00024,BINDING,*,substrate
+K00024,BINDING,*,substrate
+K00024,BINDING,*,NAD(+)
+K00024,BINDING,--*,NAD(+)
+K00024,BINDING,*,substrate
+K00024,BINDING,*,substrate
+K00031,BINDING,--:,NADP(+)
+K00031,BINDING,:,D-threo-isocitrate
 K00031,BINDING,-,NADP(+)
-K00031,BINDING,.,D-threo-isocitrate
-K00031,BINDING,*,D-threo-isocitrate
-K00031,BINDING,*,D-threo-isocitrate
+K00031,BINDING,.-*--.*,D-threo-isocitrate
 K00031,BINDING,-,D-threo-isocitrate
 K00031,BINDING,.,D-threo-isocitrate
-K00031,BINDING,.,Mg(2+)
-K00031,BINDING,..*...--,NADP(+)
+K00031,BINDING,*,Mn(2+)
+K00031,BINDING,-,NADP(+)
+K00031,BINDING,.,Mn(2+)
+K00031,BINDING,*...--,NADP(+)
 K00031,BINDING,.,NADP(+)
-K00031,BINDING,-,NADP(+)
-K00031,BINDING,-,NADP(+)
 K00031,SITE,:,Critical for catalysis
 K00031,SITE,*,Critical for catalysis
 K00134,ACT_SITE,:,Nucleophile
 K00134,BINDING,:*,NAD(+)
-K00134,BINDING,:,NAD(+)
+K00134,BINDING,.,NAD(+)
 K00134,BINDING,:,NAD(+)
 K00134,BINDING,:::,D-glyceraldehyde 3-phosphate
 K00134,BINDING,*,D-glyceraldehyde 3-phosphate
@@ -23,11 +32,9 @@ K00134,BINDING,:,D-glyceraldehyde 3-phosphate
 K00134,BINDING,:,NAD(+)
 K00134,SITE,*,Activates thiol group during catalysis
 K00145,ACT_SITE,*,"ECO:0000256|HAMAP-Rule:MF_01110,..."
-K00241,BINDING,.,heme
 K00382,ACT_SITE,*,Proton acceptor
 K00382,BINDING,*,FAD
 K00382,BINDING,-,FAD
-K00382,BINDING,.*:,FAD
 K00382,BINDING,*-*-:*-*,NAD(+)
 K00382,BINDING,:,NAD(+)
 K00382,BINDING,*,NAD(+)
@@ -41,11 +48,9 @@ K00611,BINDING,:,L-ornithine
 K00611,BINDING,::,L-ornithine
 K00611,BINDING,*:,carbamoyl phosphate
 K00611,BINDING,*,carbamoyl phosphate
-K00821,BINDING,*.,pyridoxal 5'-phosphate
 K00821,BINDING,:,pyridoxal 5'-phosphate
 K00821,BINDING,*,N(2)-acetyl-L-ornithine
 K00821,BINDING,**.*,pyridoxal 5'-phosphate
-K00821,BINDING,.,N(2)-acetyl-L-ornithine
 K00821,BINDING,:,pyridoxal 5'-phosphate
 K00873,BINDING,*,substrate
 K00873,BINDING,*-.*,ATP
@@ -61,23 +66,12 @@ K00873,BINDING,:,Mg(2+)
 K00873,BINDING,:,substrate
 K00873,BINDING,*,substrate
 K00873,SITE,*,Transition state stabilizer
-K00895,ACT_SITE,*,Proton acceptor
-K00895,BINDING,*,diphosphate
-K00895,BINDING,*,Mg(2+)
-K00895,BINDING,*:*,substrate
-K00895,BINDING,::,substrate
-K00895,BINDING,***,substrate
-K00895,BINDING,*,substrate
-K00895,BINDING,*:.*,substrate
-K00895,SITE,*,Important for catalytic activity and substrate...
-K00895,SITE,*,Important for catalytic activity; stabilizes the...
 K00927,BINDING,*.*,substrate
 K00927,BINDING,*,substrate
 K00927,BINDING,*.::,substrate
 K00927,BINDING,*,substrate
 K00927,BINDING,*,substrate
 K00927,BINDING,*,ATP
-K00927,BINDING,-,ATP
 K00927,BINDING,*,ATP
 K00927,BINDING,***-,ATP
 K00930,BINDING,*:,substrate
@@ -85,24 +79,38 @@ K00930,BINDING,*,substrate
 K00930,BINDING,*,substrate
 K00930,SITE,*,Transition state stabilizer
 K00930,SITE,*,Transition state stabilizer
-K01438,ACT_SITE,*,ECO:0000255|HAMAP-Rule:MF_01108
-K01438,ACT_SITE,-,ECO:0000255|HAMAP-Rule:MF_01108
 K01438,BINDING,*,Zn(2+)
 K01438,BINDING,*,Zn(2+)
+K01438,BINDING,.,Zn(2+)
+K01438,BINDING,-,Zn(2+)
 K01438,BINDING,*,Zn(2+)
-K01438,BINDING,:,Zn(2+)
 K01438,BINDING,*,Zn(2+)
-K01438,BINDING,*,Zn(2+)
-K01476,BINDING,:,Mn(2+)
-K01476,BINDING,*,Mn(2+)
-K01476,BINDING,*,Mn(2+)
-K01476,BINDING,*,Mn(2+)
-K01476,BINDING,*,Mn(2+)
-K01476,BINDING,*,Mn(2+)
+K01610,BINDING,:,substrate
+K01610,BINDING,*,substrate
+K01610,BINDING,*,ATP
+K01610,BINDING,*,Mn(2+)
+K01610,BINDING,*,substrate
+K01610,BINDING,*,ATP
+K01610,BINDING,*,Mn(2+)
+K01610,BINDING,****:**:*,ATP
+K01610,BINDING,*,Mn(2+)
+K01610,BINDING,:,ATP
+K01610,BINDING,*,ATP
+K01610,BINDING,*,substrate
+K01610,BINDING,:,ATP
 K01647,ACT_SITE,*,ECO:0000256|PIRSR:PIRSR001369-1
 K01647,ACT_SITE,.,ECO:0000256|PIRSR:PIRSR001369-1
 K01659,ACT_SITE,*,ECO:0000256|PIRSR:PIRSR001369-1
 K01659,ACT_SITE,*,ECO:0000256|PIRSR:PIRSR001369-1
+K01679,ACT_SITE,*,Proton donor/acceptor
+K01679,ACT_SITE,*,ECO:0000256|HAMAP-Rule:MF_00743
+K01679,BINDING,***,substrate
+K01679,BINDING,::**,substrate
+K01679,BINDING,***,substrate
+K01679,BINDING,*,substrate
+K01679,BINDING,*,substrate
+K01679,BINDING,*:*,substrate
+K01679,SITE,*,Important for catalytic activity
 K01689,ACT_SITE,*,Proton donor
 K01689,ACT_SITE,*,Proton acceptor
 K01689,BINDING,*,substrate
@@ -126,30 +134,24 @@ K01803,BINDING,*,substrate
 K01803,BINDING,:,substrate
 K01803,BINDING,::,substrate
 K01810,ACT_SITE,*,Proton donor
-K01810,ACT_SITE,:,ECO:0000255|HAMAP-Rule:MF_00473
-K01810,ACT_SITE,:,ECO:0000255|HAMAP-Rule:MF_00473
-K01834,ACT_SITE,*,Tele-phosphohistidine intermediate
-K01834,ACT_SITE,*,Proton donor/acceptor
-K01834,BINDING,**:.::-..,substrate
-K01834,BINDING,.:,substrate
-K01834,BINDING,*,substrate
-K01834,BINDING,*...,substrate
-K01834,BINDING,.,substrate
-K01834,BINDING,:.,substrate
-K01834,BINDING,*:,substrate
-K01834,SITE,*,Transition state stabilizer
-K01899,ACT_SITE,.,Tele-phosphohistidine intermediate
-K01899,BINDING,***.,CoA
-K01899,BINDING,*,CoA
-K01899,BINDING,*..,CoA
-K01899,BINDING,*,substrate
+K01810,ACT_SITE,:,ECO:0000256|HAMAP-Rule:MF_00473
+K01810,ACT_SITE,:,ECO:0000256|HAMAP-Rule:MF_00473
 K01902,ACT_SITE,*,Tele-phosphohistidine intermediate
 K01902,BINDING,**--,CoA
-K01902,BINDING,:,CoA
 K01902,BINDING,*:*,CoA
 K01902,BINDING,*,substrate
+K01903,BINDING,*,ATP
+K01903,BINDING,***,ATP
+K01903,BINDING,-,ATP
+K01903,BINDING,*,ATP
+K01903,BINDING,*,Mg(2+)
+K01903,BINDING,*,Mg(2+)
+K01903,BINDING,*,substrate
+K01903,BINDING,**-,substrate
 K01940,BINDING,*.******:,ATP
+K01940,BINDING,-,ATP
 K01940,BINDING,*,L-citrulline
+K01940,BINDING,-,L-citrulline
 K01940,BINDING,*,ATP
 K01940,BINDING,*,L-aspartate
 K01940,BINDING,*,L-aspartate
@@ -157,20 +159,9 @@ K01940,BINDING,*,L-citrulline
 K01940,BINDING,*,L-aspartate
 K01940,BINDING,*,L-citrulline
 K01940,BINDING,*,L-citrulline
+K01940,BINDING,.,L-citrulline
 K01940,BINDING,:,L-citrulline
 K01940,BINDING,:,L-citrulline
-K02446,BINDING,*,Mn(2+)
-K02446,BINDING,*,Mn(2+)
-K02446,BINDING,*,Mn(2+)
-K02446,BINDING,-**,substrate
-K02446,BINDING,-,Mn(2+)
-K02446,BINDING,*,substrate
-K02446,BINDING,:.*,substrate
-K02446,BINDING,***,substrate
-K02446,BINDING,*,substrate
-K02446,BINDING,*,Mn(2+)
-K11645,ACT_SITE,*,Proton donor
-K11645,ACT_SITE,*,Schiff-base intermediate with dihydroxyacetone-P
 K15633,ACT_SITE,*,Phosphoserine intermediate
 K15633,BINDING,*,Mn(2+)
 K15633,BINDING,*,Mn(2+)
