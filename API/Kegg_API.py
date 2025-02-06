@@ -1,5 +1,6 @@
 from typing import List
 import requests
+import re
 
 #URL FORM = https://rest.kegg.jp/<operation>/<argument>[/<argument2[/<argument3> ...]]
 BASE_URL = "https://rest.kegg.jp"
@@ -66,6 +67,15 @@ def list_entries(database, *args):
     else:
         return f"Error: {response.status_code}"
     
+def link_gene_to_KOID(gene):
+    url = f'{BASE_URL}/link/ko/{gene}'
+    response = requests.get(url)
+    if response.status_code == 200:
+        ko_ids = re.findall(r'ko:(K\d+)', response.text)
+        return ko_ids
+    else:
+        return f'Error: {response.status_code}'
+    
 def find_genes(KOID:str):
     url = f'{BASE_URL}/find/genes/{KOID}'
     response = requests.get(url)
@@ -74,7 +84,6 @@ def find_genes(KOID:str):
     else:
         return f'Error: {response.status_code}'
 
-    
 
 def convert_KeggID_to_UniprotID(GeneIdentifier: List[str], DataBase = "uniprot"):
     genes = "+".join(GeneIdentifier)
@@ -88,4 +97,5 @@ def convert_KeggID_to_UniprotID(GeneIdentifier: List[str], DataBase = "uniprot")
 if __name__ == "__main__":
     # Test examples
     genes = ["tma:TM0862", "aeo:O23A_p0654", "dra:DR_A0031"]
-    print(find_genes("k00937"))
+    gene = 'acr'
+    print(link_gene_to_KOID(gene))
