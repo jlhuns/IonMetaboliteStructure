@@ -1,0 +1,107 @@
+ID   Q64YY6_BACFR            Unreviewed;       333 AA.
+AC   Q64YY6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 119.
+DE   SubName: Full=Malate dehydrogenase {ECO:0000313|EMBL:BAD47290.1};
+GN   OrderedLocusNames=BF0541 {ECO:0000313|EMBL:BAD47290.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD47290.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD47290.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD47290.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- SIMILARITY: Belongs to the LDH/MDH superfamily. MDH type 2 family.
+CC       {ECO:0000256|ARBA:ARBA00009613}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD47290.1; -; Genomic_DNA.
+DR   RefSeq; WP_011202049.1; NC_006347.1.
+DR   RefSeq; YP_097824.1; NC_006347.1.
+DR   AlphaFoldDB; Q64YY6; -.
+DR   STRING; 295405.BF0541; -.
+DR   KEGG; bfr:BF0541; -.
+DR   PATRIC; fig|295405.11.peg.557; -.
+DR   HOGENOM; CLU_045401_2_0_10; -.
+DR   OrthoDB; 9802969at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0030060; F:L-malate dehydrogenase (NAD+) activity; IEA:TreeGrafter.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   GO; GO:0006734; P:NADH metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:TreeGrafter.
+DR   Gene3D; 3.90.110.10; Lactate dehydrogenase/glycoside hydrolase, family 4, C-terminal; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR001557; L-lactate/malate_DH.
+DR   InterPro; IPR022383; Lactate/malate_DH_C.
+DR   InterPro; IPR001236; Lactate/malate_DH_N.
+DR   InterPro; IPR015955; Lactate_DH/Glyco_Ohase_4_C.
+DR   InterPro; IPR010945; Malate_DH_type2.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR23382; MALATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR23382:SF0; MALATE DEHYDROGENASE 2, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF02866; Ldh_1_C; 1.
+DR   Pfam; PF00056; Ldh_1_N; 1.
+DR   PIRSF; PIRSF000102; Lac_mal_DH; 1.
+DR   SUPFAM; SSF56327; LDH C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   NAD {ECO:0000256|PIRSR:PIRSR000102-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003369};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532}.
+FT   DOMAIN          8..145
+FT                   /note="Lactate/malate dehydrogenase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00056"
+FT   DOMAIN          150..311
+FT                   /note="Lactate/malate dehydrogenase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02866"
+FT   ACT_SITE        180
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-1"
+FT   BINDING         13..19
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         39
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         86
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         99
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         123..125
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-3"
+FT   BINDING         125
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-2"
+FT   BINDING         155
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000102-2"
+SQ   SEQUENCE   333 AA;  36749 MW;  969451EC063B8964 CRC64;
+     MEFLTNEKLT IVGAAGMIGS NMAQTALMMK LTPNICLYDP YAPALEGVAE ELYHCAFEGV
+     NLTYTSDIKE ALSGAKYIVS SGGAARKAGM TREDLLKGNA EIAAQFGKDI RQYCPDVKHV
+     VVVFNPADIT GLIVLLYAGL KPSQVSTLAA LDSTRLQNEL VKYLHIPASE IVNCRTYGGH
+     GEQMAVFAST TKVQGEALTK IIDTPRMPMQ DWEDLKVRVI QGGKHIIDLR GRSSFQSPAY
+     LSIEMIAAAM GGQPFRWPAG TYVSDKKFDH ILMAMETSIT KEGVSYKEIQ GTPEEQKEME
+     ESYTHLCKLR DEVIAMGILP EINKWHELNK HIN
+//
