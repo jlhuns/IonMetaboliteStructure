@@ -94,13 +94,18 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
 
             MSA_index_start, value = get_positions(binding_location_start, seq_record.seq)
             MSA_index_end, value = get_positions(binding_location_end, seq_record.seq)
-            
+            residue_counts = []
             for MSA_index in range(MSA_index_start, MSA_index_end + 1):
                 column = [record.seq[MSA_index] for record in alignment]
                 values += seq_record.seq[MSA_index]
                 conservation_score_data += (clustal_symbol(column))
+                residue_counts.append(dict(Counter(column)))
+
+            
+
             analysisDF.at[index, 'conservationScore'] = conservation_score_data
             analysisDF.at[index, 'Value'] = values
+            analysisDF.at[index, 'Residue_Counts'] = str(residue_counts)
             analysisDF.at[index, 'MSA_Binding_Location'] = f'{MSA_index_start}..{MSA_index_end}'
             
         else:
@@ -111,9 +116,11 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             column = [record.seq[MSA_index] for record in alignment]
             conservation_score = clustal_symbol(column)
 
+            residue_counts = dict(Counter(column))
             # Update the conservation score in the DataFrame
             analysisDF.at[index, 'conservationScore'] = conservation_score
             analysisDF.at[index, 'Value'] = value
+            analysisDF.at[index, 'Residue_Counts'] = str(residue_counts)
             analysisDF.at[index, 'MSA_Binding_Location'] = f'{MSA_index}'
     return analysisDF
 
