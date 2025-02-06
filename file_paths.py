@@ -77,6 +77,7 @@ def crate_target_analysis_file(targetOrganism: str):
         
         # Ensure you're passing a full path with filename to save the CSV
         output_file_path = GET_ORGANISM_ANALYSIS_FOLDER_PATH(targetOrganism) + "/simple_analysis_result.csv"
+        analysisDF = analysisDF.drop(["Unnamed: 0", "UniProtID"], axis=1)
         analysisDF.to_csv(output_file_path, index=False)
         print(f"Analysis saved to {output_file_path}")
     else:

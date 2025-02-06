@@ -41,6 +41,7 @@ def create_analysis_df(KOID: str, target_organism: str):
                                 locationDescription = quotes_match[0] if quotes_match else ""
 
                             data.append({
+                                "KOID": KOID,
                                 "UniProtID": proteinKOID,
                                 "Type": siteType,
                                 "MSA_Binding_Location": "",
