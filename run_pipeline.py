@@ -9,6 +9,7 @@ from MSA import analyze_active_sites, run_msa
 from Analysis import conservation_analysis
 import time
 import sys
+import file_paths as FILE_PATHS
 
 def main(KOID_file, target_organism_file):
     start_time = time.time()
@@ -22,6 +23,7 @@ def main(KOID_file, target_organism_file):
             create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
             run_msa.create_msa_file(KOID, target_organism_file)
             analyze_active_sites.analyze_MSA(KOID, target_organism_file) 
+        FILE_PATHS.crate_target_analysis_file(target_organism_file)
 
 
     end_time = time.time()

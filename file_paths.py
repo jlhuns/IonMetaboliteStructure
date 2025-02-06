@@ -42,6 +42,9 @@ def GET_KOID_MSA_ANALYSIS_FILE_PATH(KOID:str, targetOrganism: str) -> str:
 
 def GET_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID:str, targetOrganism: str) -> str:
     return os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "MSA", f"Conservation_DF.csv")
+
+def GET_SIMPLE_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID:str, targetOrganism: str) -> str:
+    return os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "MSA", f"Simple_Conservation_DF.csv")
     
 def GET_KOID_UNIPROT_ENTRIES_PATH(KOID: str, targetOrganism: str) -> str:
     folder_path = os.path.join(GET_KOID_FOLDER_PATH(KOID, targetOrganism), "UniProt_Entries")
@@ -60,21 +63,15 @@ def crate_target_analysis_file(targetOrganism: str):
     KOIDs = os.listdir(GET_ORGANISM_FOLDER_PATH(targetOrganism))
     all_data = []
     for KOID in KOIDs:
-        if os.path.exists(GET_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID, targetOrganism)):
-            data = pd.read_csv(GET_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID, targetOrganism))
-            first_uniprotID = data.at[0, 'UniProtID']
-            uniprot_to_koid_mapping = {first_uniprotID: KOID}
-            filtered_data = data[data['UniProtID'] == first_uniprotID].copy()
-            filtered_data['UniProtID'] = filtered_data['UniProtID'].map(uniprot_to_koid_mapping)
-            filtered_data.rename(columns={'UniProtID': 'KOID'}, inplace=True)
-            filtered_data.drop(columns=["Unnamed: 0", "MSA_Binding_Location", "Binding_Location", "Value"], inplace = True)
-            all_data.append(filtered_data)
+        if os.path.exists(GET_SIMPLE_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID, targetOrganism)):
+            data = pd.read_csv(GET_SIMPLE_KOID_MSA_ANALYSIS_DF_FILE_PATH(KOID, targetOrganism))
+            all_data.append(data)
     if all_data:
         # Concatenate all DataFrames in the list into a single DataFrame
         analysisDF = pd.concat(all_data, ignore_index=True)
         
         # Ensure you're passing a full path with filename to save the CSV
-        output_file_path = GET_ORGANISM_ANALYSIS_FOLDER_PATH(targetOrganism) + "/analysis_result.csv"
+        output_file_path = GET_ORGANISM_ANALYSIS_FOLDER_PATH(targetOrganism) + "/simple_analysis_result.csv"
         analysisDF.to_csv(output_file_path, index=False)
         print(f"Analysis saved to {output_file_path}")
     else:
