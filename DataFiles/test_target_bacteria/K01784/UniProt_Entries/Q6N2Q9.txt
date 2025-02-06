@@ -1,0 +1,99 @@
+ID   Q6N2Q9_RHOPA            Unreviewed;       337 AA.
+AC   Q6N2Q9;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=UDP-glucose 4-epimerase {ECO:0000256|ARBA:ARBA00018569, ECO:0000256|RuleBase:RU366046};
+DE            EC=5.1.3.2 {ECO:0000256|ARBA:ARBA00013189, ECO:0000256|RuleBase:RU366046};
+GN   Name=galE1 {ECO:0000313|EMBL:CAE29431.1};
+GN   Synonyms=galE {ECO:0000313|EMBL:WCL94175.1};
+GN   OrderedLocusNames=RPA3990 {ECO:0000313|EMBL:CAE29431.1};
+GN   ORFNames=TX73_020675 {ECO:0000313|EMBL:WCL94175.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29431.1};
+RN   [1] {ECO:0000313|EMBL:WCL94175.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94175.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29431.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29431.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94175.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94175.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2; Evidence={ECO:0000256|ARBA:ARBA00000083,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC       {ECO:0000256|ARBA:ARBA00004947, ECO:0000256|RuleBase:RU366046}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU366046}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00007637, ECO:0000256|RuleBase:RU366046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572605; CAE29431.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94175.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159526.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3990; -.
+DR   GeneID; 66895107; -.
+DR   KEGG; rpa:TX73_020675; -.
+DR   eggNOG; COG1087; Bacteria.
+DR   HOGENOM; CLU_007383_1_10_5; -.
+DR   PhylomeDB; Q6N2Q9; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IEA:TreeGrafter.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   NCBIfam; TIGR01179; galE; 1.
+DR   PANTHER; PTHR43725:SF53; UDP-ARABINOSE 4-EPIMERASE 1; 1.
+DR   PANTHER; PTHR43725; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU366046};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU366046};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|RuleBase:RU366046};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          3..252
+FT                   /note="NAD-dependent epimerase/dehydratase"
+FT                   /evidence="ECO:0000259|Pfam:PF01370"
+SQ   SEQUENCE   337 AA;  35943 MW;  9F362E9F322656B8 CRC64;
+     MTVLVTGGAG YIGSHTVLAL VEAGESVVVI DNLSTGFSQF VPEGVPLFIG DAGDENLVDG
+     VIASHRVDAI IHFAGSVIVS ASMRDPLGYY RNNTSTSRSL LSAATRRGVK NFIFSSTAAV
+     YGNPDRIPVG EDAPTRPLSP YGRSKLMTEI MLHDAAEAYG VNYVALRYFN VAGADPLGRV
+     GLATEGATHL IKIAVEAATG QRSRIDVYGT DYPTTDGSCI RDFIHVTDLA EAHGAALGYL
+     RAGGGPVTLN CGYGHGYSVF ETIDAVKRVA GRNFAVAAAS RRPGDIMTMI ADTSRIRRTL
+     DWIPRYDDLD TIAAHALGWE EKLLRQRQAV ELQAIPA
+//

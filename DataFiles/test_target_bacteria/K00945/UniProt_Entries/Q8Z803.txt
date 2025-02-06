@@ -1,0 +1,106 @@
+ID   KCY_SALTI               Reviewed;         227 AA.
+AC   Q8Z803;
+DT   26-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Cytidylate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CK {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            EC=2.7.4.25 {ECO:0000255|HAMAP-Rule:MF_00238};
+DE   AltName: Full=Cytidine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CMP kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   Name=cmk {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   OrderedLocusNames=STY0980, t1954;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP + ATP = CDP + ADP; Xref=Rhea:RHEA:11600,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58069, ChEBI:CHEBI:60377,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dCMP + ATP = dCDP + ADP; Xref=Rhea:RHEA:25094,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57566, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   -!- SIMILARITY: Belongs to the cytidylate kinase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD05380.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69568.1; -; Genomic_DNA.
+DR   RefSeq; NP_455467.1; NC_003198.1.
+DR   RefSeq; WP_000125007.1; NZ_WSUR01000013.1.
+DR   AlphaFoldDB; Q8Z803; -.
+DR   SMR; Q8Z803; -.
+DR   STRING; 220341.gene:17584971; -.
+DR   KEGG; stt:t1954; -.
+DR   KEGG; sty:STY0980; -.
+DR   PATRIC; fig|220341.7.peg.989; -.
+DR   eggNOG; COG0283; Bacteria.
+DR   HOGENOM; CLU_079959_0_2_6; -.
+DR   OMA; RAITWWM; -.
+DR   OrthoDB; 9807434at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036430; F:CMP kinase activity; IEA:RHEA.
+DR   GO; GO:0036431; F:dCMP kinase activity; IEA:RHEA.
+DR   GO; GO:0015949; P:nucleobase-containing small molecule interconversion; IEA:TreeGrafter.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02020; CMPK; 1.
+DR   FunFam; 3.40.50.300:FF:000262; Cytidylate kinase; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00238; Cytidyl_kinase_type1; 1.
+DR   InterPro; IPR003136; Cytidylate_kin.
+DR   InterPro; IPR011994; Cytidylate_kinase_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00017; cmk; 1.
+DR   PANTHER; PTHR21299:SF2; CYTIDYLATE KINASE; 1.
+DR   PANTHER; PTHR21299; CYTIDYLATE KINASE/PANTOATE-BETA-ALANINE LIGASE; 1.
+DR   Pfam; PF02224; Cytidylate_kin; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..227
+FT                   /note="Cytidylate kinase"
+FT                   /id="PRO_0000131968"
+FT   BINDING         12..20
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00238"
+SQ   SEQUENCE   227 AA;  24760 MW;  9B2F27B403A2B54F CRC64;
+     MTAIAPVITI DGPSGAGKGT LCKAMAEALQ WHLLDSGAIY RVLALAALHH HVDLASEDAL
+     VPLASHLDVR FVSTDGNLEV ILEGEDVSGE IRTQEVANAA SQVAAFPRVR EALLRRQRAF
+     REAPGLIADG RDMGTVVFPD APVKIFLDAS SEERAHRRML QLQENGFSVN FERLLAEIKE
+     RDDRDRNRAV APLVPAADAL VLDSTRLSIE QVIEKALQYA RQKLALA
+//

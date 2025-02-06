@@ -1,0 +1,97 @@
+ID   MURC_CLOB1              Reviewed;         458 AA.
+AC   A7FPH5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=UDP-N-acetylmuramate--L-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00046};
+DE            EC=6.3.2.8 {ECO:0000255|HAMAP-Rule:MF_00046};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   Name=murC {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   OrderedLocusNames=CLB_3629;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramate + L-alanine + ATP = UDP-N-
+CC         acetyl-alpha-D-muramoyl-L-alanine + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:23372, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57972, ChEBI:CHEBI:70757,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:456216; EC=6.3.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00046};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS32482.1; -; Genomic_DNA.
+DR   RefSeq; WP_012048388.1; NC_009697.1.
+DR   AlphaFoldDB; A7FPH5; -.
+DR   SMR; A7FPH5; -.
+DR   GeneID; 5187804; -.
+DR   KEGG; cba:CLB_3629; -.
+DR   HOGENOM; CLU_028104_1_0_9; -.
+DR   UniPathway; UPA00219; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008763; F:UDP-N-acetylmuramate-L-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00046; MurC; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR050061; MurCDEF_pg_biosynth.
+DR   InterPro; IPR005758; UDP-N-AcMur_Ala_ligase_MurC.
+DR   NCBIfam; TIGR01082; murC; 1.
+DR   PANTHER; PTHR43445:SF3; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR43445; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE-RELATED; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF51984; MurCD N-terminal domain; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..458
+FT                   /note="UDP-N-acetylmuramate--L-alanine ligase"
+FT                   /id="PRO_1000004332"
+FT   BINDING         118..124
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00046"
+SQ   SEQUENCE   458 AA;  51146 MW;  1CB0B785D7761A4E CRC64;
+     MSFDFIKDKN KHIHFIGIGG ISMSGLAEIL LYNNFSISGS DMNSSPITEK LKDKGAKIYI
+     GHKKENVKDA DLIVYTAAIA SDNPEITKAK EKNIKLMDRA DFLGNLMKGY KYNIAISGTH
+     GKTTTTSMLS HVALKANVDP TILVGGNLDI INGNVRVGES DFFITEACEY KSSFLKFFPY
+     IGVILNIDAD HLDYYKDLDD IKNAFSKFIK LIPKDGYLVA YGEDKNIQSI IKEASCNVIT
+     YGINSGDIQA HNIEYDEKAC GNFDVVKDNQ KLFSVKLNVP GKHNILNSLA SICIGLASNM
+     KDKDIIEGIE SFFGTHRRFE LKGCKNNITV IDDYAHHPTE ISATLDAAKK YPHNKLFCVF
+     QPHTYSRTLT LFDDFTKCFD NADEIILADI YAAREKDTGI ISSDMLGDKL RDRGLKCTNF
+     HKFDDIKNYL IENTKDGDLI LTVGAGDIYK VGEMYINL
+//

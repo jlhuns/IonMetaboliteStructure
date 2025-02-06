@@ -1,0 +1,113 @@
+ID   F2RAM9_STRVP            Unreviewed;       910 AA.
+AC   F2RAM9;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   RecName: Full=Aconitate hydratase {ECO:0000256|RuleBase:RU361275};
+DE            Short=Aconitase {ECO:0000256|RuleBase:RU361275};
+DE            EC=4.2.1.3 {ECO:0000256|RuleBase:RU361275};
+GN   OrderedLocusNames=SVEN_5812 {ECO:0000313|EMBL:CCA59098.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA59098.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA59098.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Catalyzes the isomerization of citrate to isocitrate via cis-
+CC       aconitate. {ECO:0000256|RuleBase:RU361275}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate = D-threo-isocitrate; Xref=Rhea:RHEA:10336,
+CC         ChEBI:CHEBI:15562, ChEBI:CHEBI:16947; EC=4.2.1.3;
+CC         Evidence={ECO:0000256|RuleBase:RU361275};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family.
+CC       {ECO:0000256|ARBA:ARBA00007185, ECO:0000256|RuleBase:RU361275}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA59098.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2RAM9; -.
+DR   STRING; 953739.SVEN_5812; -.
+DR   KEGG; sve:SVEN_5812; -.
+DR   PATRIC; fig|953739.5.peg.1025; -.
+DR   eggNOG; COG1048; Bacteria.
+DR   HOGENOM; CLU_013476_2_1_11; -.
+DR   UniPathway; UPA00223; UER00718.
+DR   UniPathway; UPA00946; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0047456; F:2-methylisocitrate dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003994; F:aconitate hydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01580; AcnA_IRP_Swivel; 1.
+DR   FunFam; 3.20.19.10:FF:000001; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000002; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000009; Aconitate hydratase; 1.
+DR   Gene3D; 6.10.190.10; -; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   Gene3D; 3.20.19.10; Aconitase, domain 4; 1.
+DR   InterPro; IPR044137; AcnA_IRP_Swivel.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR015928; Aconitase/3IPM_dehydase_swvl.
+DR   InterPro; IPR006249; Aconitase/IRP2.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR000573; AconitaseA/IPMdHydase_ssu_swvl.
+DR   NCBIfam; TIGR01341; aconitase_1; 1.
+DR   PANTHER; PTHR11670; ACONITASE/IRON-RESPONSIVE ELEMENT FAMILY MEMBER; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   Pfam; PF00694; Aconitase_C; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|RuleBase:RU361275};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU361275};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU361275};
+KW   Lyase {ECO:0000256|RuleBase:RU361275, ECO:0000313|EMBL:CCA59098.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   DOMAIN          69..578
+FT                   /note="Aconitase/3-isopropylmalate dehydratase large
+FT                   subunit alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF00330"
+FT   DOMAIN          708..837
+FT                   /note="Aconitase A/isopropylmalate dehydratase small
+FT                   subunit swivel"
+FT                   /evidence="ECO:0000259|Pfam:PF00694"
+FT   REGION          404..432
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   910 AA;  97573 MW;  F6BC109C9E2BC067 CRC64;
+     MKETVVSANS FDARSTLRVG DESYEIFKLD KVEGSARLPY SLKVLLENLL RTEDGANITA
+     DHIRALGNWD SQAQPSQEIQ FTPARVIMQD FTGVPCVVDL ATMREAVKEL GGDPAKVNPL
+     SPAELVIDHS VIADKFGTKD AFGQNVELEY GRNKERYQFL RWGQTAFDDF KVVPPGTGIV
+     HQVNIEHLAR TVMVRGGQAY PDTLVGTDSH TTMVNGLGVL GWGVGGIEAE AAMLGQPVSM
+     LIPRVVGFKL TGELPAGTTA TDLVLTITEM LRKHGVVGKF VEFYGEGVAA TSLANRATIG
+     NMSPEFGSTA AIFPIDGETL NYLKLTGRSE QQVALVEAYA KEQGLWLDPA AEPDFSEKLE
+     LDLSTVVPSI AGPKRPQDRI VLANAAAQFA QDVRNYVDDV DEAGKESFPA SDAPANTPNG
+     APSKPVTVTA PDGSTYEIDH GAVTVAAITS CTNTSNPYVM VAAALVAKKA VEKGLTRKPW
+     VKTTLAPGSK VVTDYFDKAG LTPYLDKVGF NLVGYGCTTC IGNSGPLPEE VSKAVNDHDL
+     AVTSVLSGNR NFEGRINPDV KMNYLASPPL VVAYALAGSM KVDITKDALG VDQDGKPVYL
+     ADIWPTEAEV NDVVANAIGE DMFNKSYSDV FAGDAQWQAL PIPTGNTFEW DSESTYVRKP
+     PYFEGMTMET TPVTDIVGAR VLAKLGDSVT TDHISPAGAI KADTPAGKYL TEHGVERRDF
+     NSYGSRRGNH EVMIRGTFAN IRLRNQIAPG TEGGYTRDFT VEGAPVSFIY DASQNYQAAG
+     TPLVILGGKE YGSGSSRDWA AKGTALLGVK AVITESYERI HRSNLIGMGV LPLQFPAGQT
+     ADSLGLTGEE TFSITGVTEL NEGTTPSTVK VTTDTGVEFD AVVRIDTPGE ADYYRNGGIM
+     QYVLRNLIRG
+//

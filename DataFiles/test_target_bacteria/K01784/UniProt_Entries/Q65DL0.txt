@@ -1,0 +1,86 @@
+ID   Q65DL0_BACLD            Unreviewed;       329 AA.
+AC   Q65DL0; Q62P31;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 127.
+DE   RecName: Full=UDP-glucose 4-epimerase {ECO:0000256|ARBA:ARBA00018569, ECO:0000256|RuleBase:RU366046};
+DE            EC=5.1.3.2 {ECO:0000256|ARBA:ARBA00013189, ECO:0000256|RuleBase:RU366046};
+GN   Name=galE {ECO:0000313|EMBL:AAU25480.1};
+GN   OrderedLocusNames=BL03870 {ECO:0000313|EMBL:AAU25480.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25480.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25480.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2; Evidence={ECO:0000256|ARBA:ARBA00000083,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC       {ECO:0000256|ARBA:ARBA00004947, ECO:0000256|RuleBase:RU366046}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU366046}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00007637, ECO:0000256|RuleBase:RU366046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25480.1; -; Genomic_DNA.
+DR   RefSeq; WP_003186203.1; NC_006322.1.
+DR   AlphaFoldDB; Q65DL0; -.
+DR   STRING; 279010.BL03870; -.
+DR   KEGG; bld:BLi04041; -.
+DR   KEGG; bli:BL03870; -.
+DR   PATRIC; fig|279010.13.peg.4117; -.
+DR   eggNOG; COG1087; Bacteria.
+DR   HOGENOM; CLU_007383_1_10_9; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IEA:TreeGrafter.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   NCBIfam; TIGR01179; galE; 1.
+DR   PANTHER; PTHR43725:SF53; UDP-ARABINOSE 4-EPIMERASE 1; 1.
+DR   PANTHER; PTHR43725; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU366046};
+KW   Galactose metabolism {ECO:0000256|ARBA:ARBA00023144};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU366046};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|RuleBase:RU366046};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          3..252
+FT                   /note="NAD-dependent epimerase/dehydratase"
+FT                   /evidence="ECO:0000259|Pfam:PF01370"
+SQ   SEQUENCE   329 AA;  36286 MW;  1490594B8E0359F1 CRC64;
+     MAILVCGGAG YIGSHAVAEL LSRNEDVVII DNLQTGHEEA ALKGASFYNG DLRDEAFLRK
+     VFQENDIEAV MHFAADSLVG ESVTDPLKYY DNNVYGAVCL LKVMKEFDVK QIVFSSTAAT
+     YGEPDRVPIM ETDPTDPTNP YGETKLAIEK MLKWSEKAYG IRHVVLRYFN VAGAHVDGLI
+     GEDHQPETHL IPIILQVALG KRDKIMIFGD DYPTPDGTCI RDYIHVMDLV DAHILAVERL
+     RNGGESAVYN LGNGTGFSVK EVVETARKVT GCPIPAEVAE RRAGDPAQLI ASSEKAVKEL
+     GWQPKYAELE TIIDSAWKWF KAHPNGYQS
+//

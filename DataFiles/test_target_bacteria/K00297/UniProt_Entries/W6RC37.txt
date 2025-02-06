@@ -1,0 +1,86 @@
+ID   W6RC37_9HYPH            Unreviewed;       348 AA.
+AC   W6RC37;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 54.
+DE   RecName: Full=Methylenetetrahydrofolate reductase {ECO:0000256|RuleBase:RU003862};
+DE            EC=1.5.1.54 {ECO:0000256|RuleBase:RU003862};
+GN   Name=metF {ECO:0000313|EMBL:CDM58409.1};
+GN   ORFNames=LPU83_2757 {ECO:0000313|EMBL:CDM58409.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM58409.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM58409.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM58409.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-methyl-5,6,7,8-tetrahydrofolate + NAD(+) = (6R)-5,10-
+CC         methylene-5,6,7,8-tetrahydrofolate + NADH + H(+);
+CC         Xref=Rhea:RHEA:19821, ChEBI:CHEBI:15378, ChEBI:CHEBI:15636,
+CC         ChEBI:CHEBI:18608, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.5.1.54;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048628};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:19823;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048628};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU003862};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway. {ECO:0000256|ARBA:ARBA00034478}.
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000256|ARBA:ARBA00004777, ECO:0000256|RuleBase:RU003862}.
+CC   -!- SIMILARITY: Belongs to the methylenetetrahydrofolate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00006743, ECO:0000256|RuleBase:RU003862}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM58409.1; -; Genomic_DNA.
+DR   AlphaFoldDB; W6RC37; -.
+DR   KEGG; rhl:LPU83_2757; -.
+DR   PATRIC; fig|348824.6.peg.2972; -.
+DR   eggNOG; COG0685; Bacteria.
+DR   HOGENOM; CLU_025841_0_0_5; -.
+DR   UniPathway; UPA00193; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:InterPro.
+DR   GO; GO:0071949; F:FAD binding; IEA:TreeGrafter.
+DR   GO; GO:0106312; F:methylenetetrahydrofolate reductase (NADH) activity; IEA:RHEA.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00537; MTHFR; 1.
+DR   Gene3D; 3.20.20.220; -; 1.
+DR   InterPro; IPR029041; FAD-linked_oxidoreductase-like.
+DR   InterPro; IPR003171; Mehydrof_redctse-like.
+DR   InterPro; IPR004620; MTHF_reductase_bac.
+DR   NCBIfam; TIGR00676; fadh2; 1.
+DR   PANTHER; PTHR45754; METHYLENETETRAHYDROFOLATE REDUCTASE; 1.
+DR   PANTHER; PTHR45754:SF3; METHYLENETETRAHYDROFOLATE REDUCTASE (NADPH); 1.
+DR   Pfam; PF02219; MTHFR; 1.
+DR   SUPFAM; SSF51730; FAD-linked oxidoreductase; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU003862};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003862};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003862}.
+FT   REGION          13..49
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   348 AA;  37405 MW;  2D6E8E1AC912F865 CRC64;
+     MSSRSSTFIR VIKAGRGSPS PSGLRATPGV SWPPQRAKAP NPYLPGDNDM ALNSDARRKI
+     GISFEFFPPK SEEMEGQLWN AVSELQDWDP DFVSVTYGAG GTTKAPTLAT VSRFLAETPL
+     ATASHLTCVG ATKDETHSVI ETFRKVGVKH FVALRGDAPG GVGAPYQPHP GGYANAAALV
+     AGLREIGDFE ISVSAYPEKH PESRDTAADI DMLKQKADNG ATRALTQFFF DNDSFERYLE
+     KVRAAGINIP VVPGIMPIQN LTQLKRFAGA CGTIIPAFLD ERFAGFDDKP EERAKVAADV
+     AAEQIEDLAR RGLTDFHLYT MNRAPLVSAV LTHLGFTREG AKKAGAAA
+//

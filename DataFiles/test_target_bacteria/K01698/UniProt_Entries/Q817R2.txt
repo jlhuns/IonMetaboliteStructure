@@ -1,0 +1,138 @@
+ID   Q817R2_BACCR            Unreviewed;       329 AA.
+AC   Q817R2;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   RecName: Full=Delta-aminolevulinic acid dehydratase {ECO:0000256|ARBA:ARBA00020771, ECO:0000256|RuleBase:RU000515};
+DE            EC=4.2.1.24 {ECO:0000256|ARBA:ARBA00012053, ECO:0000256|RuleBase:RU000515};
+GN   OrderedLocusNames=BC_4469 {ECO:0000313|EMBL:AAP11382.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11382.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11382.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes an early step in the biosynthesis of tetrapyrroles.
+CC       Binds two molecules of 5-aminolevulinate per subunit, each at a
+CC       distinct site, and catalyzes their condensation to form
+CC       porphobilinogen. {ECO:0000256|ARBA:ARBA00025628}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 5-aminolevulinate = porphobilinogen + 2 H2O + H(+);
+CC         Xref=Rhea:RHEA:24064, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58126, ChEBI:CHEBI:356416; EC=4.2.1.24;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047651,
+CC         ECO:0000256|RuleBase:RU000515};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 1/4.
+CC       {ECO:0000256|ARBA:ARBA00004694}.
+CC   -!- SUBUNIT: Homooctamer. {ECO:0000256|ARBA:ARBA00011823,
+CC       ECO:0000256|RuleBase:RU000515}.
+CC   -!- SIMILARITY: Belongs to the ALAD family. {ECO:0000256|ARBA:ARBA00008055,
+CC       ECO:0000256|RuleBase:RU004161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11382.1; -; Genomic_DNA.
+DR   RefSeq; NP_834181.1; NC_004722.1.
+DR   RefSeq; WP_001087065.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q817R2; -.
+DR   SMR; Q817R2; -.
+DR   KEGG; bce:BC4469; -.
+DR   PATRIC; fig|226900.8.peg.4622; -.
+DR   HOGENOM; CLU_035731_0_0_9; -.
+DR   OrthoDB; 9805001at2; -.
+DR   UniPathway; UPA00251; UER00318.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004655; F:porphobilinogen synthase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IBA:GO_Central.
+DR   GO; GO:0006783; P:heme biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00384; ALAD_PBGS; 1.
+DR   FunFam; 3.20.20.70:FF:000019; Delta-aminolevulinic acid dehydratase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR001731; ALAD.
+DR   InterPro; IPR030656; ALAD_AS.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   PANTHER; PTHR11458; DELTA-AMINOLEVULINIC ACID DEHYDRATASE; 1.
+DR   PANTHER; PTHR11458:SF0; DELTA-AMINOLEVULINIC ACID DEHYDRATASE; 1.
+DR   Pfam; PF00490; ALAD; 1.
+DR   PIRSF; PIRSF001415; Porphbilin_synth; 1.
+DR   PRINTS; PR00144; DALDHYDRTASE.
+DR   SMART; SM01004; ALAD; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+DR   PROSITE; PS00169; D_ALA_DEHYDRATASE; 1.
+PE   3: Inferred from homology;
+KW   Heme biosynthesis {ECO:0000256|ARBA:ARBA00023133};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU000515};
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR001415-5};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR001415-3};
+KW   Porphyrin biosynthesis {ECO:0000256|ARBA:ARBA00023244,
+KW   ECO:0000256|RuleBase:RU000515};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR001415-3}.
+FT   ACT_SITE        196
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-1"
+FT   ACT_SITE        249
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-1"
+FT   BINDING         121
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-3"
+FT   BINDING         123
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-3"
+FT   BINDING         131
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-3"
+FT   BINDING         206
+FT                   /ligand="5-aminolevulinate"
+FT                   /ligand_id="ChEBI:CHEBI:356416"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-2"
+FT   BINDING         218
+FT                   /ligand="5-aminolevulinate"
+FT                   /ligand_id="ChEBI:CHEBI:356416"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-2"
+FT   BINDING         234
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-5"
+FT   BINDING         275
+FT                   /ligand="5-aminolevulinate"
+FT                   /ligand_id="ChEBI:CHEBI:356416"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-2"
+FT   BINDING         314
+FT                   /ligand="5-aminolevulinate"
+FT                   /ligand_id="ChEBI:CHEBI:356416"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001415-2"
+SQ   SEQUENCE   329 AA;  36339 MW;  8BABDBA4BC32B499 CRC64;
+     MNSLQFNRHR RLRQSGGMRA LVRETFLHTE DFIYPIFVLE GENVRNEVPS MPGVYQMSLD
+     LLQAEMQEVV DLGIRSVIVF GLPAEKDEVG SSAYCDHGIV QRAIQQIKGD FPELVVVADT
+     CLCQFTSHGH CGVIEDGIIL NDESLAVLAK TAVSQAKAGA DIIAPSNMMD GFVTAIRHAL
+     DENGFGHVPV MSYAVKYSSA FYGPFRDAAH GAPQFGDRKT YQMDPANRME AFREAESDVM
+     EGADFLIVKP ALSYLDIVRD VKNNFNLPVV AYNVSGEYSM IKAAAQNGWI NEKEVVLEKL
+     ISMKRAGADL IITYHAKDAA RWLQEGGAK
+//

@@ -1,0 +1,110 @@
+ID   MURC_CAMJE              Reviewed;         432 AA.
+AC   Q9PNN7; Q0P9J8;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 135.
+DE   RecName: Full=UDP-N-acetylmuramate--L-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00046};
+DE            EC=6.3.2.8 {ECO:0000255|HAMAP-Rule:MF_00046};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   Name=murC {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   OrderedLocusNames=Cj1054c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramate + L-alanine + ATP = UDP-N-
+CC         acetyl-alpha-D-muramoyl-L-alanine + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:23372, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57972, ChEBI:CHEBI:70757,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:456216; EC=6.3.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00046};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35172.1; -; Genomic_DNA.
+DR   PIR; C81308; C81308.
+DR   RefSeq; WP_010891904.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344449.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PNN7; -.
+DR   SMR; Q9PNN7; -.
+DR   IntAct; Q9PNN7; 22.
+DR   STRING; 192222.Cj1054c; -.
+DR   PaxDb; 192222-Cj1054c; -.
+DR   EnsemblBacteria; CAL35172; CAL35172; Cj1054c.
+DR   GeneID; 905346; -.
+DR   KEGG; cje:Cj1054c; -.
+DR   PATRIC; fig|192222.6.peg.1036; -.
+DR   eggNOG; COG0773; Bacteria.
+DR   HOGENOM; CLU_028104_2_2_7; -.
+DR   OrthoDB; 9804126at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008763; F:UDP-N-acetylmuramate-L-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00046; MurC; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR050061; MurCDEF_pg_biosynth.
+DR   InterPro; IPR005758; UDP-N-AcMur_Ala_ligase_MurC.
+DR   NCBIfam; TIGR01082; murC; 1.
+DR   PANTHER; PTHR43445:SF3; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR43445; UDP-N-ACETYLMURAMATE--L-ALANINE LIGASE-RELATED; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF51984; MurCD N-terminal domain; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..432
+FT                   /note="UDP-N-acetylmuramate--L-alanine ligase"
+FT                   /id="PRO_0000182073"
+FT   BINDING         109..115
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00046"
+SQ   SEQUENCE   432 AA;  48372 MW;  E7130AAA56D9AFBD CRC64;
+     MMQNIHFIGI GGIGISALAR FLREKGFKIS GSDLKESKIT KELEKEGVKV SIPHHKDNIL
+     NKDLVIYSAA IKEENPEFKY AKELGIKCLS RKEALPLILE DKRVFAVAGA HGKSTTSSIL
+     ASLLDDASVI IGAILKEFGS NMIYKESQNL VFEADESDSS FLNSNPYLAI VTNAEAEHLD
+     HYGNEVSKLH HAYTQFLDVA KIRVINAEDE FLKNYKNESI KLYPSKDIKN CTMCIENFKP
+     FTSFELKDLG EFKVFGMGYH LALDASLAIL AALNFLDIET IRTRLKNYQG IKKRFDILHA
+     DENLVLIDDY GHHPTEIKAT LSAAQEYVKL GGYKKITAIF EPHRYTRLAT NLKEFAKAFE
+     GVDELVILPV YAAGEEPIEL DLKAVFPKAL FVEDIKREGK FLVASKGQVF EEGLIIGFGA
+     GDISNKLRQK NE
+//

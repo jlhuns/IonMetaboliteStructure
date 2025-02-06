@@ -1,0 +1,129 @@
+ID   FADI_SALTI              Reviewed;         436 AA.
+AC   Q8Z4Y9; Q7CBC7;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=3-ketoacyl-CoA thiolase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE            EC=2.3.1.16 {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=ACSs {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Acetyl-CoA acyltransferase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Acyl-CoA ligase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Beta-ketothiolase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Fatty acid oxidation complex subunit beta {ECO:0000255|HAMAP-Rule:MF_01618};
+GN   Name=fadI {ECO:0000255|HAMAP-Rule:MF_01618};
+GN   OrderedLocusNames=STY2621, t0475;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the final step of fatty acid oxidation in which
+CC       acetyl-CoA is released and the CoA ester of a fatty acid two carbons
+CC       shorter is formed. {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an acyl-CoA + acetyl-CoA = a 3-oxoacyl-CoA + CoA;
+CC         Xref=Rhea:RHEA:21564, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:58342, ChEBI:CHEBI:90726; EC=2.3.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01618};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid beta-oxidation.
+CC       {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha chains (FadJ) and two beta chains
+CC       (FadI). {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Thiolase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07621.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68182.1; -; Genomic_DNA.
+DR   RefSeq; NP_456930.1; NC_003198.1.
+DR   RefSeq; WP_001248124.1; NZ_WSUR01000045.1.
+DR   AlphaFoldDB; Q8Z4Y9; -.
+DR   SMR; Q8Z4Y9; -.
+DR   STRING; 220341.gene:17586518; -.
+DR   KEGG; stt:t0475; -.
+DR   KEGG; sty:STY2621; -.
+DR   PATRIC; fig|220341.7.peg.2654; -.
+DR   eggNOG; COG0183; Bacteria.
+DR   HOGENOM; CLU_031026_2_0_6; -.
+DR   OMA; MTAFPEP; -.
+DR   OrthoDB; 8951704at2; -.
+DR   UniPathway; UPA00659; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003988; F:acetyl-CoA C-acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00751; thiolase; 1.
+DR   FunFam; 3.40.47.10:FF:000011; 3-ketoacyl-CoA thiolase; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   HAMAP; MF_01618; FadI; 1.
+DR   InterPro; IPR012806; Ac-CoA_C-AcTrfase_FadI.
+DR   InterPro; IPR002155; Thiolase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   InterPro; IPR020615; Thiolase_acyl_enz_int_AS.
+DR   InterPro; IPR020610; Thiolase_AS.
+DR   InterPro; IPR020617; Thiolase_C.
+DR   InterPro; IPR020613; Thiolase_CS.
+DR   InterPro; IPR020616; Thiolase_N.
+DR   NCBIfam; TIGR01930; AcCoA-C-Actrans; 1.
+DR   NCBIfam; TIGR02446; FadI; 1.
+DR   PANTHER; PTHR18919:SF107; ACETYL-COA ACETYLTRANSFERASE, CYTOSOLIC; 1.
+DR   PANTHER; PTHR18919; ACETYL-COA C-ACYLTRANSFERASE; 1.
+DR   Pfam; PF02803; Thiolase_C; 1.
+DR   Pfam; PF00108; Thiolase_N; 1.
+DR   PIRSF; PIRSF000429; Ac-CoA_Ac_transf; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+DR   PROSITE; PS00098; THIOLASE_1; 1.
+DR   PROSITE; PS00737; THIOLASE_2; 1.
+DR   PROSITE; PS00099; THIOLASE_3; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Fatty acid metabolism; Lipid degradation;
+KW   Lipid metabolism; Transferase.
+FT   CHAIN           1..436
+FT                   /note="3-ketoacyl-CoA thiolase"
+FT                   /id="PRO_0000206445"
+FT   ACT_SITE        99
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+FT   ACT_SITE        392
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+FT   ACT_SITE        422
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+SQ   SEQUENCE   436 AA;  46530 MW;  BAC03A00984E77A8 CRC64;
+     MRQALPLVTR QGDRIAIVSG LRTPFARQAT AFHGIPAVDL GKMVVGELLA RSEIPADAIE
+     QLVFGQVVQM PEAPNIAREI VLGTGMNVHT DAYSVSRACA TSFQAVANVA ESLMAGTIRA
+     GIAGGADSSS VLPIGVSKAL ARVLVDVNKA RTTRQRLTLF SRLRLRDLLP VPPAVAEYST
+     GLRMGDTAEQ MAKTYGITRE QQDALAHRSH QRAAQAWAEG KLAEEVMTTY VPPYKNPFAE
+     DNNIRGASTL ADYAKLRPAF DRKHGSVTAA NSTPLTDGAA AVILMTESRA KELGLRPLGY
+     LRSYAFTAID VWQDMLLGPA WSTPLALERA GLTMADLTLF DMHEAFAAQT LANLQLLGSE
+     RFAREVFGRA QATGEVDDAK FNVLGGSIAY GHPFAATGAR MITQTLHELR RRGGGFGLVT
+     ACAAGGLGAA MVLEAE
+//

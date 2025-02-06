@@ -1,0 +1,138 @@
+ID   Q6NDA7_RHOPA            Unreviewed;       905 AA.
+AC   Q6NDA7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Aconitate hydratase {ECO:0000256|RuleBase:RU361275};
+DE            Short=Aconitase {ECO:0000256|RuleBase:RU361275};
+DE            EC=4.2.1.3 {ECO:0000256|RuleBase:RU361275};
+GN   Name=acnA {ECO:0000313|EMBL:CAE25646.1};
+GN   OrderedLocusNames=RPA0202 {ECO:0000313|EMBL:CAE25646.1};
+GN   ORFNames=TX73_001045 {ECO:0000313|EMBL:WCL90327.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25646.1};
+RN   [1] {ECO:0000313|EMBL:WCL90327.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90327.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25646.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25646.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90327.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90327.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the isomerization of citrate to isocitrate via cis-
+CC       aconitate. {ECO:0000256|RuleBase:RU361275}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate = 2-methyl-cis-
+CC         aconitate + H2O; Xref=Rhea:RHEA:17941, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:57429, ChEBI:CHEBI:57872; EC=4.2.1.99;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000118};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate = D-threo-isocitrate; Xref=Rhea:RHEA:10336,
+CC         ChEBI:CHEBI:15562, ChEBI:CHEBI:16947; EC=4.2.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00023501,
+CC         ECO:0000256|RuleBase:RU361275};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; isocitrate
+CC       from oxaloacetate: step 2/2. {ECO:0000256|ARBA:ARBA00004717}.
+CC   -!- PATHWAY: Organic acid metabolism; propanoate degradation.
+CC       {ECO:0000256|ARBA:ARBA00005026}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family.
+CC       {ECO:0000256|ARBA:ARBA00007185, ECO:0000256|RuleBase:RU361275}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572593; CAE25646.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90327.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155770.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0202; -.
+DR   GeneID; 66891207; -.
+DR   KEGG; rpa:TX73_001045; -.
+DR   eggNOG; COG1048; Bacteria.
+DR   HOGENOM; CLU_013476_2_1_5; -.
+DR   PhylomeDB; Q6NDA7; -.
+DR   UniPathway; UPA00223; UER00718.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003994; F:aconitate hydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01586; AcnA_IRP; 1.
+DR   CDD; cd01580; AcnA_IRP_Swivel; 1.
+DR   FunFam; 3.20.19.10:FF:000001; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000002; Aconitate hydratase; 1.
+DR   FunFam; 3.30.499.10:FF:000020; Aconitate hydratase A; 1.
+DR   Gene3D; 6.10.190.10; -; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   Gene3D; 3.20.19.10; Aconitase, domain 4; 1.
+DR   InterPro; IPR044137; AcnA_IRP_Swivel.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR015928; Aconitase/3IPM_dehydase_swvl.
+DR   InterPro; IPR006249; Aconitase/IRP2.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR000573; AconitaseA/IPMdHydase_ssu_swvl.
+DR   NCBIfam; TIGR01341; aconitase_1; 1.
+DR   PANTHER; PTHR11670; ACONITASE/IRON-RESPONSIVE ELEMENT FAMILY MEMBER; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   Pfam; PF00694; Aconitase_C; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU361275};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU361275};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU361275};
+KW   Lyase {ECO:0000256|RuleBase:RU361275, ECO:0000313|EMBL:CAE25646.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          77..569
+FT                   /note="Aconitase/3-isopropylmalate dehydratase large
+FT                   subunit alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF00330"
+FT   DOMAIN          699..831
+FT                   /note="Aconitase A/isopropylmalate dehydratase small
+FT                   subunit swivel"
+FT                   /evidence="ECO:0000259|Pfam:PF00694"
+SQ   SEQUENCE   905 AA;  98544 MW;  1ED3A22C5E7C6AA0 CRC64;
+     MTSLDSFKCR KILKVGSKSY VYYSLPTAEK NGLKGISRLP YSMKVLLENL LRNEDDRTVK
+     KADIMAVAKW MRKKALEHEI AFRPARVLMQ DFTGVPAVVD LAAMRNAMQK LGGDAEKINP
+     LVPVDLVIDH SVIVNFFGNN QAFKKNVAEE YKQNQERYEF LKWGQKAFSN FAVVPPGTGI
+     CHQVNLEYLA QTVWTKKEKM TIGRKTGTFE VAYPDTLVGT DSHTTMVNGL AVLGWGVGGI
+     EAEAAMLGQP LSMLLPEVVG FKLKGALKEG VTATDLVLTV TQMLRKQGVV GKFVEFFGPG
+     LDNLSVADKA TIANMAPEYG ATCGFFPVDG ETIDYLKTSG RASARVALVE KYAKAQGLFR
+     TAKSPDPVFT VTLTLDLADV VPSLAGPKRP EGRVALPAVA EGFTTAMDAE YKKALDGARY
+     KVEGRNFDIG HGDVVIAAIT SCTNTSNPSV LIGAGLLARN AAAKGLKAAP WVKTSLAPGS
+     QVVAEYLANS GLQKDLDKVG FNLVGFGCTT CIGNSGPLPE EISKSINDNG IVAAAVLSGN
+     RNFEGRVSPD VQANYLASPP LVVAYALAGS VTKNLAVDPI GTGKDGKPVY LKDIWPSTKE
+     INAFVKKYVT SKIFKARYAD VFKGDTNWRK IKTVESETYK WNMSSTYVQN PPYFEGMTKQ
+     PEPITDVVDA RVLALFGDKI TTDHISPAGS IKLTSPAGKY LTERQVRPAD FNQYGTRRGN
+     HEVMMRGTFA NIRIKNHMLK GADGNIPEGG LTKHWPDGEQ MSIYDAAMKY QEEKVPLVVF
+     AGAEYGNGSS RDWAAKGTRL LGVRAVICQS FERIHRSNLV GMGVLPLTFE EGTSWASLGL
+     KGDEKVTIRG LEGDLKPRQM LEAEITSAAG KRKRVPLLCR IDTLDELDYY RNGGILHYVL
+     RKLAA
+//

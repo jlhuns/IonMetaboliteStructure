@@ -1,0 +1,164 @@
+ID   Q0P9C3_CAMJE            Unreviewed;       328 AA.
+AC   Q0P9C3;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 107.
+DE   RecName: Full=UDP-glucose 4-epimerase {ECO:0000256|ARBA:ARBA00018569, ECO:0000256|RuleBase:RU366046};
+DE            EC=5.1.3.2 {ECO:0000256|ARBA:ARBA00013189, ECO:0000256|RuleBase:RU366046};
+GN   Name=gne {ECO:0000313|EMBL:CAL35248.1};
+GN   OrderedLocusNames=Cj1131c {ECO:0000313|EMBL:CAL35248.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35248.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35248.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2] {ECO:0007829|PDB:7K3P}
+RP   X-RAY CRYSTALLOGRAPHY (2.04 ANGSTROMS) OF 2-328, AND DISULFIDE BONDS.
+RX   DOI=10.1101/2020.09.22.308395;
+RA   Yun H.G., Jang K.S., Tanaka S., Clemons W.M.;
+RT   "The structure of the UDP-Glc/GlcNAc 4-epimerase from the human pathogen
+RT   <Campylobacter jejun.";
+RL   bioRxiv 0:0-0(2020).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2; Evidence={ECO:0000256|ARBA:ARBA00000083,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC       {ECO:0000256|ARBA:ARBA00004947, ECO:0000256|RuleBase:RU366046}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU366046}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00007637, ECO:0000256|RuleBase:RU366046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35248.1; -; Genomic_DNA.
+DR   PIR; F81317; F81317.
+DR   RefSeq; WP_002858414.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344524.1; NC_002163.1.
+DR   PDB; 7K3P; X-ray; 2.04 A; A/B=2-328.
+DR   AlphaFoldDB; Q0P9C3; -.
+DR   SMR; Q0P9C3; -.
+DR   IntAct; Q0P9C3; 44.
+DR   STRING; 192222.Cj1131c; -.
+DR   PaxDb; 192222-Cj1131c; -.
+DR   EnsemblBacteria; CAL35248; CAL35248; Cj1131c.
+DR   GeneID; 905422; -.
+DR   KEGG; cje:Cj1131c; -.
+DR   PATRIC; fig|192222.6.peg.1113; -.
+DR   eggNOG; COG1087; Bacteria.
+DR   HOGENOM; CLU_007383_1_10_7; -.
+DR   OrthoDB; 9801785at2; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IEA:TreeGrafter.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   NCBIfam; TIGR01179; galE; 1.
+DR   PANTHER; PTHR43725:SF53; UDP-ARABINOSE 4-EPIMERASE 1; 1.
+DR   PANTHER; PTHR43725; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:7K3P};
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU366046};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU366046};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|RuleBase:RU366046};
+KW   Nucleotide-binding {ECO:0007829|PDB:7K3P};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          3..257
+FT                   /note="NAD-dependent epimerase/dehydratase"
+FT                   /evidence="ECO:0000259|Pfam:PF01370"
+FT   BINDING         11
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         12
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         31
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         34
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         35
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         36
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         56
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         57
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         78
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         97
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         101
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         146
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         150
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         174
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   BINDING         177
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+FT   DISULFID        181..328
+FT                   /evidence="ECO:0007829|PDB:7K3P"
+SQ   SEQUENCE   328 AA;  36734 MW;  7372DDC08F8F5676 CRC64;
+     MKILISGGAG YIGSHTLRQF LKTDHEICVL DNLSKGSKIA IEDLQKTRAF KFFEQDLSDF
+     QGVKALFERE KFDAIVHFAA SIEVFESMQN PLKYYMNNTV NTTNLIETCL QTGVNKFIFS
+     STAATYGEPQ TPVVSETSPL APINPYGRSK LMSEEVLRDA SMANPEFKHC ILRYFNVAGA
+     CMDYTLGQRY PKATLLIKVA AECAAGKRDK LFIFGDDYDT KDGTCIRDFI HVDDISSAHL
+     AALDYLKENE SNVFNVGYGH GFSVKEVIEA MKKVSGVDFK VELAPRRAGD PSVLISDASK
+     IRNLTSWQPK YDDLELICKS AFDWEKQC
+//

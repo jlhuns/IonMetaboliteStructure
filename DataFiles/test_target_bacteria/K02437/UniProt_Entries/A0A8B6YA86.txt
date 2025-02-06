@@ -1,0 +1,84 @@
+ID   A0A8B6YA86_CAMFR        Unreviewed;       173 AA.
+AC   A0A8B6YA86;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=Glycine cleavage system H protein {ECO:0000256|RuleBase:RU364055};
+GN   Name=LOC102513146 {ECO:0000313|RefSeq:XP_006178970.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_006178970.1};
+RN   [1] {ECO:0000313|RefSeq:XP_006178970.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006178970.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: The H protein shuttles the methylamine group of glycine from
+CC       the P protein to the T protein. {ECO:0000256|RuleBase:RU364055}.
+CC   -!- FUNCTION: The glycine cleavage system catalyzes the degradation of
+CC       glycine. The H protein (GCSH) shuttles the methylamine group of glycine
+CC       from the P protein (GLDC) to the T protein (GCST). Has a pivotal role
+CC       in the lipoylation of enzymes involved in cellular energetics such as
+CC       the mitochondrial dihydrolipoyllysine-residue acetyltransferase
+CC       component of pyruvate dehydrogenase complex (DLAT), and the
+CC       mitochondrial dihydrolipoyllysine-residue succinyltransferase component
+CC       of 2-oxoglutarate dehydrogenase complex (DLST).
+CC       {ECO:0000256|ARBA:ARBA00046240}.
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088;
+CC         Evidence={ECO:0000256|RuleBase:RU364055};
+CC       Note=Binds 1 lipoyl cofactor covalently.
+CC       {ECO:0000256|RuleBase:RU364055};
+CC   -!- SUBUNIT: The glycine cleavage system is composed of four proteins: P,
+CC       T, L and H. {ECO:0000256|RuleBase:RU364055}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000256|ARBA:ARBA00004173,
+CC       ECO:0000256|RuleBase:RU364055}.
+CC   -!- SIMILARITY: Belongs to the GcvH family. {ECO:0000256|ARBA:ARBA00009249,
+CC       ECO:0000256|RuleBase:RU364055}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006178970.1; XM_006178908.3.
+DR   GeneID; 102513146; -.
+DR   KEGG; cfr:102513146; -.
+DR   OrthoDB; 4320at91561; -.
+DR   Proteomes; UP000694856; Chromosome 18.
+DR   GO; GO:0005960; C:glycine cleavage complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019464; P:glycine decarboxylation via glycine cleavage system; IEA:UniProtKB-UniRule.
+DR   CDD; cd06848; GCS_H; 1.
+DR   FunFam; 2.40.50.100:FF:000045; Glycine cleavage system H protein; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   HAMAP; MF_00272; GcvH; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR002930; GCV_H.
+DR   InterPro; IPR033753; GCV_H/Fam206.
+DR   InterPro; IPR017453; GCV_H_sub.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   NCBIfam; TIGR00527; gcvH; 1.
+DR   PANTHER; PTHR11715; GLYCINE CLEAVAGE SYSTEM H PROTEIN; 1.
+DR   PANTHER; PTHR11715:SF42; GLYCINE CLEAVAGE SYSTEM H PROTEIN, MITOCHONDRIAL; 1.
+DR   Pfam; PF01597; GCV_H; 1.
+DR   SUPFAM; SSF51230; Single hybrid motif; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+PE   3: Inferred from homology;
+KW   Lipoyl {ECO:0000256|ARBA:ARBA00022823, ECO:0000256|PIRSR:PIRSR617453-50};
+KW   Mitochondrion {ECO:0000256|ARBA:ARBA00023128,
+KW   ECO:0000256|RuleBase:RU364055};
+KW   Transit peptide {ECO:0000256|ARBA:ARBA00022946,
+KW   ECO:0000256|RuleBase:RU364055}.
+FT   DOMAIN          66..148
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50968"
+FT   MOD_RES         107
+FT                   /note="N6-lipoyllysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR617453-50"
+SQ   SEQUENCE   173 AA;  18867 MW;  A02901E29202A8BE CRC64;
+     MALLAARSVR ATVCSLSAIS VPATPCLPRP CGLRVGAVQT LRTGPALLPV RKFTDKHEWI
+     TKENGVGTVG ISNFAQEAWG DVVYCSLPEV GTKLNKQEEF GALESVKAAS ELYTPLSGEV
+     TEINEALAEN PRLVNKSCYE DGWLIKMTLS NPSELDELMS EEAYEKYIKS TEE
+//

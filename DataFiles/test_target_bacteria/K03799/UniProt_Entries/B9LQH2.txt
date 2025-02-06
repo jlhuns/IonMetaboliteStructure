@@ -1,0 +1,92 @@
+ID   B9LQH2_HALLT            Unreviewed;       323 AA.
+AC   B9LQH2;
+DT   24-MAR-2009, integrated into UniProtKB/TrEMBL.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 71.
+DE   SubName: Full=Peptidase M48 Ste24p {ECO:0000313|EMBL:ACM57593.1};
+GN   OrderedLocusNames=Hlac_2015 {ECO:0000313|EMBL:ACM57593.1};
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348 {ECO:0000313|EMBL:ACM57593.1, ECO:0000313|Proteomes:UP000000740};
+RN   [1] {ECO:0000313|EMBL:ACM57593.1, ECO:0000313|Proteomes:UP000000740}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34
+RC   {ECO:0000313|Proteomes:UP000000740};
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|RuleBase:RU003983};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|RuleBase:RU003983};
+CC   -!- SIMILARITY: Belongs to the peptidase M48 family.
+CC       {ECO:0000256|RuleBase:RU003983}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM57593.1; -; Genomic_DNA.
+DR   RefSeq; WP_015910718.1; NC_012029.1.
+DR   AlphaFoldDB; B9LQH2; -.
+DR   GeneID; 7402034; -.
+DR   KEGG; hla:Hlac_2015; -.
+DR   eggNOG; arCOG01331; Archaea.
+DR   HOGENOM; CLU_042266_0_2_2; -.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.2010.10; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   InterPro; IPR050083; HtpX_protease.
+DR   InterPro; IPR001915; Peptidase_M48.
+DR   PANTHER; PTHR43221; PROTEASE HTPX; 1.
+DR   PANTHER; PTHR43221:SF2; PROTEASE HTPX HOMOLOG; 1.
+DR   Pfam; PF01435; Peptidase_M48; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003983};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000256|RuleBase:RU003983};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000256|RuleBase:RU003983};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000740};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|RuleBase:RU003983}.
+FT   TRANSMEM        12..36
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        42..63
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        169..194
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        206..227
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          81..302
+FT                   /note="Peptidase M48"
+FT                   /evidence="ECO:0000259|Pfam:PF01435"
+FT   REGION          299..323
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   323 AA;  34655 MW;  A358F68C0BE96961 CRC64;
+     MSRLAFRAAA AVVGVALLAV YLAAAAFVAD ALLFLWATRP DLPVLLALLA VVAVGSAYLS
+     YWIGTAQVLA SLEGDRLPRE RAPDLHHRID ALAARMAVDR PALYVTDARA PNAFAVGGGS
+     GGGALVMDRS LFRILSAREV EAIVAHELAH LETNDGLALA MADGIGRAVV GFTTVLALPA
+     LLALSGLAAA SAWIRGRPGD RSGPFAWLHR ALTNGLFAGF VLATLLARSR SRKREFAADD
+     RAAEVTGDPI ALARALRRIE RAAEPSWPFT PLSTYKRTEN PAERWLSTHP SIEERVERLR
+     RRAAAQESTR RIPIGPSRGG RRR
+//

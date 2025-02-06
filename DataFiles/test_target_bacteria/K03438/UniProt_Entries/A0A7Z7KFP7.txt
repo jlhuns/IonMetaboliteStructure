@@ -1,0 +1,107 @@
+ID   A0A7Z7KFP7_MICLC        Unreviewed;       331 AA.
+AC   A0A7Z7KFP7;
+DT   02-JUN-2021, integrated into UniProtKB/TrEMBL.
+DT   02-JUN-2021, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000256|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000256|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000256|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000256|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000256|HAMAP-Rule:MF_01007,
+GN   ECO:0000313|EMBL:SQG47292.1};
+GN   ORFNames=NCTC2665_00045 {ECO:0000313|EMBL:SQG47292.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:SQG47292.1, ECO:0000313|Proteomes:UP000248985};
+RN   [1] {ECO:0000313|EMBL:SQG47292.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG47292.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1402) in 16S rRNA + S-adenosyl-L-methionine = N(4)-
+CC         methylcytidine(1402) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42928, Rhea:RHEA-COMP:10286, Rhea:RHEA-COMP:10287,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74506, ChEBI:CHEBI:82748; EC=2.1.1.199;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01007};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH family.
+CC       {ECO:0000256|ARBA:ARBA00010396, ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LS483396; SQG47292.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078493.1; NZ_WBMF01000132.1.
+DR   AlphaFoldDB; A0A7Z7KFP7; -.
+DR   SMR; A0A7Z7KFP7; -.
+DR   KEGG; mlu:Mlut_13680; -.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.150.170; Putative methyltransferase TM0872, insert domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00006; 16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH; 1.
+DR   PANTHER; PTHR11265:SF0; 12S RRNA N4-METHYLCYTIDINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11265; S-ADENOSYL-METHYLTRANSFERASE MRAW; 1.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   PIRSF; PIRSF004486; MraW; 1.
+DR   SUPFAM; SSF81799; Putative methyltransferase TM0872, insert domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01007};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_01007};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552, ECO:0000256|HAMAP-
+KW   Rule:MF_01007};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_01007};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01007}.
+FT   REGION          297..331
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        298..312
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         48..50
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01007"
+FT   BINDING         67
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01007"
+FT   BINDING         94
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01007"
+FT   BINDING         115
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01007"
+FT   BINDING         122
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01007"
+SQ   SEQUENCE   331 AA;  36012 MW;  5DCC50E7798D8791 CRC64;
+     MDAGQPRPED RHLPVMRDRV VDLLAPAVQA ALEAGRTPVA VDGTLGMGGH TEALLTRFPH
+     LRVIGIDRDA HAQAMAAERL GPLADRVIPF HGTYDRVPEA MAAAGVTKVD AALYDLGVSS
+     YQLDDRERGF AYSYDAPLDM RMDDTAERSA ATLVAELDEQ ELRRIIRRDG EERFAGPIAR
+     AIVRARAEAP IETTGRLVEV IRSAVPVAAG ATGGHPAKRT FQALRIAVNE ELDILDAAVP
+     AILDALHVGG RLVVMSYHSL EDRITKRHLS AWATSTAPPG FPVVLEEHEP VVRVLTRGTE
+     KPTEEEISEN RRASSAKVRA VEKIRTSRTT A
+//

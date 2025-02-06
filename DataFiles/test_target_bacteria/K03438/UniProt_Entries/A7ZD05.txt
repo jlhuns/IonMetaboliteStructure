@@ -1,0 +1,101 @@
+ID   RSMH_CAMC1              Reviewed;         307 AA.
+AC   A7ZD05;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-NOV-2009, sequence version 2.
+DT   27-NOV-2024, entry version 88.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW;
+GN   OrderedLocusNames=Ccon26_07890; ORFNames=CCC13826_1083;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1402) in 16S rRNA + S-adenosyl-L-methionine = N(4)-
+CC         methylcytidine(1402) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42928, Rhea:RHEA-COMP:10286, Rhea:RHEA-COMP:10287,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74506, ChEBI:CHEBI:82748; EC=2.1.1.199;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01007};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EAT97839.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97839.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_048809796.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZD05; -.
+DR   SMR; A7ZD05; -.
+DR   STRING; 360104.CCC13826_1083; -.
+DR   KEGG; cco:CCC13826_1083; -.
+DR   eggNOG; COG0275; Bacteria.
+DR   HOGENOM; CLU_038422_3_0_7; -.
+DR   OrthoDB; 9806637at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.150.170; Putative methyltransferase TM0872, insert domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00006; 16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH; 1.
+DR   PANTHER; PTHR11265:SF0; 12S RRNA N4-METHYLCYTIDINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11265; S-ADENOSYL-METHYLTRANSFERASE MRAW; 1.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   PIRSF; PIRSF004486; MraW; 1.
+DR   SUPFAM; SSF81799; Putative methyltransferase TM0872, insert domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; rRNA processing; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..307
+FT                   /note="Ribosomal RNA small subunit methyltransferase H"
+FT                   /id="PRO_0000386784"
+FT   BINDING         32..34
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         51
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         82
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         99
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         106
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+SQ   SEQUENCE   307 AA;  33905 MW;  661B7E545E77F4F7 CRC64;
+     MQSPHISVLL DEVLSFFKDL RGNFIDCTLG YAGHSSAILS QNENLNLIAC DKDIEAINFS
+     LKKLEPFGSR VKIYKSNFSE LISKLSSDEI SNVRGILADI GVSSLQIDKD DRGFGLGSSA
+     LDMRMDKERG FSAYDVVNGY SFDELVRIFR DYGELKNASG IANKIINARN LGEITSAKEL
+     ANIIGIAQIK GRGVSPAILA FQAIRIEVNG ELDELTNLLD SIEKGGFKDC LVTIITFHSL
+     EDRIVKERFK KWANSCICPP GIYRCECGNN HELGEILTKK PLTASQSELA QNSRSKSAKL
+     RVFKIKG
+//

@@ -1,0 +1,177 @@
+ID   GALE_SALTI              Reviewed;         338 AA.
+AC   Q56093;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   05-DEC-2001, sequence version 2.
+DT   05-FEB-2025, entry version 152.
+DE   RecName: Full=UDP-glucose 4-epimerase;
+DE            EC=5.1.3.2;
+DE   AltName: Full=Galactowaldenase;
+DE   AltName: Full=UDP-galactose 4-epimerase;
+GN   Name=galE; OrderedLocusNames=STY0809, t2111;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=7551062; DOI=10.1099/13500872-141-8-1993;
+RA   McKenna A.J., Bygraves J.A., Maiden M.C.J., Feavers I.M.;
+RT   "Attenuated typhoid vaccine Salmonella typhi Ty21a: fingerprinting and
+RT   quality control.";
+RL   Microbiology 141:1993-2002(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in the metabolism of galactose. Catalyzes the
+CC       conversion of UDP-galactose (UDP-Gal) to UDP-glucose (UDP-Glc) through
+CC       a mechanism involving the transient reduction of NAD (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2;
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X83927; CAA58779.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD05224.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69728.1; -; Genomic_DNA.
+DR   PIR; S51328; S51328.
+DR   RefSeq; NP_455318.1; NC_003198.1.
+DR   RefSeq; WP_001265456.1; NZ_WSUR01000021.1.
+DR   AlphaFoldDB; Q56093; -.
+DR   SMR; Q56093; -.
+DR   STRING; 220341.gene:17584814; -.
+DR   KEGG; stt:t2111; -.
+DR   KEGG; sty:STY0809; -.
+DR   PATRIC; fig|220341.7.peg.813; -.
+DR   eggNOG; COG1087; Bacteria.
+DR   HOGENOM; CLU_007383_1_10_6; -.
+DR   OMA; GEHLICN; -.
+DR   OrthoDB; 9803010at2; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006012; P:galactose metabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   FunFam; 3.40.50.720:FF:000040; UDP-glucose 4-epimerase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   NCBIfam; TIGR01179; galE; 1.
+DR   PANTHER; PTHR43725; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   PANTHER; PTHR43725:SF47; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   Pfam; PF16363; GDP_Man_Dehyd; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Galactose metabolism; Isomerase; NAD.
+FT   CHAIN           1..338
+FT                   /note="UDP-glucose 4-epimerase"
+FT                   /id="PRO_0000183217"
+FT   ACT_SITE        149
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         11..12
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         31..36
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         58..59
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         80..84
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         99
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         124
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         124
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         149
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         149
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         153
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         178
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         199..200
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         216..218
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         231
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         292..295
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         299
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        335
+FT                   /note="G -> A (in Ref. 1; CAA58779)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   338 AA;  37096 MW;  7F25FE2F0B3D5ADB CRC64;
+     MRVLVTGGSG YIGSHTCVQL LQNGHDVVIL DNLCNSKRSV LPVIERLGGK HPTFVEGDIR
+     NEALITEILH DHAIDTVIHF AGLKAVGESV AKPLEYYDNN VNGTLRLVSA MRAANVKNLI
+     FSSSATVYGD QPKIPYVESF PTGTPQSPYG KSKLMVEQIL TDLQKAQPEW SIALLRYFNP
+     VGAHPSGDMG EDPQGIPNNL MPYIAQVAVG RRESLAVFGN DYPTEDGTGV RDYIHVMDLA
+     DGHVVAMEKL ADKSGVHIYN LGAGVGSSVL DVVNAFSKAC GKPINYHFAP RRDGDLPAYW
+     ADASKADREL NWRVTRTLDE MAQDTWHWQS RHPQGYSD
+//

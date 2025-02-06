@@ -1,0 +1,127 @@
+ID   A0AAE9XTQ0_RHOPA        Unreviewed;       357 AA.
+AC   A0AAE9XTQ0;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE            EC=2.3.1.234 {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000256|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000256|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000256|HAMAP-Rule:MF_01445,
+GN   ECO:0000313|EMBL:WCL90383.1};
+GN   ORFNames=TX73_001325 {ECO:0000313|EMBL:WCL90383.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90383.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90383.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is involved in the transfer of the threonylcarbamoyl
+CC       moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37,
+CC       together with TsaE and TsaB. TsaD likely plays a direct catalytic role
+CC       in this reaction. {ECO:0000256|HAMAP-Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonylcarbamoyladenylate + adenosine(37) in tRNA = N(6)-L-
+CC         threonylcarbamoyladenosine(37) in tRNA + AMP + H(+);
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048117, ECO:0000256|HAMAP-
+CC         Rule:MF_01445};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90383.1; -; Genomic_DNA.
+DR   RefSeq; WP_042440680.1; NZ_CP116810.1.
+DR   GeneID; 66891263; -.
+DR   KEGG; rpa:TX73_001325; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016747; F:acyltransferase activity, transferring groups other than amino-acyl groups; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.420.40:FF:000012; tRNA N6-adenosine threonylcarbamoyltransferase; 1.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   InterPro; IPR022450; TsaD.
+DR   NCBIfam; TIGR00329; gcp_kae1; 1.
+DR   NCBIfam; TIGR03723; T6A_TsaD_YgjD; 1.
+DR   PANTHER; PTHR11735; TRNA N6-ADENOSINE THREONYLCARBAMOYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11735:SF6; TRNA N6-ADENOSINE THREONYLCARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01445};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01445};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01445};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01445}.
+FT   DOMAIN          28..316
+FT                   /note="Gcp-like"
+FT                   /evidence="ECO:0000259|Pfam:PF00814"
+FT   BINDING         115
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         119
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         137..141
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         170
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         183
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         281
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+FT   BINDING         309
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01445"
+SQ   SEQUENCE   357 AA;  36864 MW;  15C9D983B4D5B3C1 CRC64;
+     MLVLGIETTC DETAAAVVER RADGSGRLLS NIVRSQTDEH APFGGVVPEI AARAHVDVLD
+     GIIAAAMNEA GVAFASLSGV AAAAGPGLIG GVIVGLTTAK AIALVHGTPL IAVNHLEAHA
+     LTPRLTDSVE FPYCLFLASG GHTQIVAVLG VGNYVRLGTT VDDAIGEAFD KIAKMLGLPY
+     PGGPQVERAA EAGDPNRFAF PRPMLGRQDA NFSLSGLKTA VRNEAGKLTP LDPQDINDLC
+     AGFQAAVLES VADRLGAGLR LFKERFGPPK ALVAAGGAAA NQAIRRMLRE VAAKVQTTLI
+     VPPPALCTDN GAMIAWAGAE RLALGLTDTM DTAPRARWLL DANATAPAKF ANTRAGF
+//

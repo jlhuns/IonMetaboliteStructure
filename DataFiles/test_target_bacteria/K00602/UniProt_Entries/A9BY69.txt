@@ -1,0 +1,125 @@
+ID   A9BY69_DELAS            Unreviewed;       532 AA.
+AC   A9BY69;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 99.
+DE   RecName: Full=Bifunctional purine biosynthesis protein PurH {ECO:0000256|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase {ECO:0000256|HAMAP-Rule:MF_00139};
+DE              EC=2.1.2.3 {ECO:0000256|HAMAP-Rule:MF_00139};
+DE     AltName: Full=AICAR transformylase {ECO:0000256|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=IMP cyclohydrolase {ECO:0000256|HAMAP-Rule:MF_00139};
+DE              EC=3.5.4.10 {ECO:0000256|HAMAP-Rule:MF_00139};
+DE     AltName: Full=ATIC {ECO:0000256|HAMAP-Rule:MF_00139};
+DE     AltName: Full=IMP synthase {ECO:0000256|HAMAP-Rule:MF_00139};
+DE     AltName: Full=Inosinicase {ECO:0000256|HAMAP-Rule:MF_00139};
+GN   Name=purH {ECO:0000256|HAMAP-Rule:MF_00139};
+GN   OrderedLocusNames=Daci_1564 {ECO:0000313|EMBL:ABX34208.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX34208.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX34208.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-10-formyltetrahydrofolate + 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide = 5-formamido-1-(5-phospho-D-
+CC         ribosyl)imidazole-4-carboxamide + (6S)-5,6,7,8-tetrahydrofolate;
+CC         Xref=Rhea:RHEA:22192, ChEBI:CHEBI:57453, ChEBI:CHEBI:58467,
+CC         ChEBI:CHEBI:58475, ChEBI:CHEBI:195366; EC=2.1.2.3;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00139};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + H2O = 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-
+CC         carboxamide; Xref=Rhea:RHEA:18445, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58467; EC=3.5.4.10;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00139};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-
+CC       1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (10-formyl THF route):
+CC       step 1/1. {ECO:0000256|ARBA:ARBA00004954, ECO:0000256|HAMAP-
+CC       Rule:MF_00139}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; IMP
+CC       from 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004844, ECO:0000256|HAMAP-Rule:MF_00139}.
+CC   -!- DOMAIN: The IMP cyclohydrolase activity resides in the N-terminal
+CC       region. {ECO:0000256|HAMAP-Rule:MF_00139}.
+CC   -!- SIMILARITY: Belongs to the PurH family. {ECO:0000256|ARBA:ARBA00007667,
+CC       ECO:0000256|HAMAP-Rule:MF_00139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX34208.1; -; Genomic_DNA.
+DR   RefSeq; WP_012203494.1; NC_010002.1.
+DR   AlphaFoldDB; A9BY69; -.
+DR   STRING; 398578.Daci_1564; -.
+DR   GeneID; 24118005; -.
+DR   KEGG; dac:Daci_1564; -.
+DR   eggNOG; COG0138; Bacteria.
+DR   HOGENOM; CLU_016316_5_2_4; -.
+DR   UniPathway; UPA00074; UER00133.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003937; F:IMP cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004643; F:phosphoribosylaminoimidazolecarboxamide formyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01421; IMPCH; 1.
+DR   FunFam; 3.40.140.20:FF:000001; Bifunctional purine biosynthesis protein PurH; 1.
+DR   FunFam; 3.40.140.20:FF:000002; Bifunctional purine biosynthesis protein PurH; 1.
+DR   FunFam; 3.40.50.1380:FF:000001; Bifunctional purine biosynthesis protein PurH; 1.
+DR   Gene3D; 3.40.140.20; -; 2.
+DR   Gene3D; 3.40.50.1380; Methylglyoxal synthase-like domain; 1.
+DR   HAMAP; MF_00139; PurH; 1.
+DR   InterPro; IPR024051; AICAR_Tfase_dup_dom_sf.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR002695; PurH-like.
+DR   NCBIfam; TIGR00355; purH; 1.
+DR   PANTHER; PTHR11692:SF0; BIFUNCTIONAL PURINE BIOSYNTHESIS PROTEIN ATIC; 1.
+DR   PANTHER; PTHR11692; BIFUNCTIONAL PURINE BIOSYNTHESIS PROTEIN PURH; 1.
+DR   Pfam; PF01808; AICARFT_IMPCHas; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PIRSF; PIRSF000414; AICARFT_IMPCHas; 1.
+DR   SMART; SM00798; AICARFT_IMPCHas; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF53927; Cytidine deaminase-like; 1.
+DR   SUPFAM; SSF52335; Methylglyoxal synthase-like; 1.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00139};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268, ECO:0000256|HAMAP-
+KW   Rule:MF_00139};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_00139}; Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00139}.
+FT   DOMAIN          1..143
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51855"
+SQ   SEQUENCE   532 AA;  56883 MW;  130CD9F89C4BD60F CRC64;
+     MNALLSVSDK TGIVEFAQGL HALGIKLLST GGTAKLLAEA GLPVTEVAEV TQFPEMLDGR
+     VKTLHPKVHG GLLARRELPA HMAALKEHGI DTIDLLVVNL YPFEATVAKA GCTLADAIEN
+     IDIGGPAMVR SAAKNWADVG VITDAGQYEA VLGELKASGK LSDKLRFALS VAAFNRIAQY
+     DGAISDYLSS VKFEDEKLSE AYVPERSPFP GQSNGHFTKV QDLRYGENSH QQAALYRDLY
+     PAPGSLVTGE QLQGKELSYN NIADADAAWE CVKSFEQPAC VIVKHANPCG VAVGKDAHEA
+     YAKAFQTDPT SAFGGIIAFN RTVDKAAAEA VVKQFVEVLM APDFTSEALE IFKPKVNVRL
+     MKIALPAGGE RAWDQGRNAM DAKRVGSGLL LQTADNHELA LADLKVVTVK QPTPEELQDL
+     LFAWKVAKYV KSNAIVFCKN GMTMGVGAGQ MSRLDSARIA SIKAEAAKLS LQGTVVASDA
+     FFPFRDGLDV VVDAGATCVA QPGGSMRDQE VIDAANERGV AMVFTGVRHF RH
+//

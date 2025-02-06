@@ -1,0 +1,101 @@
+ID   PRMA_BACTN              Reviewed;         280 AA.
+AC   Q8AAZ8;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Ribosomal protein L11 methyltransferase {ECO:0000255|HAMAP-Rule:MF_00735};
+DE            Short=L11 Mtase {ECO:0000255|HAMAP-Rule:MF_00735};
+DE            EC=2.1.1.- {ECO:0000255|HAMAP-Rule:MF_00735};
+GN   Name=prmA {ECO:0000255|HAMAP-Rule:MF_00735};
+GN   OrderedLocusNames=BT_0314;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Methylates ribosomal protein L11. {ECO:0000255|HAMAP-
+CC       Rule:MF_00735}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-lysyl-[protein] + 3 S-adenosyl-L-methionine =
+CC         N(6),N(6),N(6)-trimethyl-L-lysyl-[protein] + 3 S-adenosyl-L-
+CC         homocysteine + 3 H(+); Xref=Rhea:RHEA:54192, Rhea:RHEA-COMP:9752,
+CC         Rhea:RHEA-COMP:13826, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:61961;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00735};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00735}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. PrmA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00735}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO75421.1; -; Genomic_DNA.
+DR   RefSeq; NP_809227.1; NC_004663.1.
+DR   RefSeq; WP_008766150.1; NC_004663.1.
+DR   AlphaFoldDB; Q8AAZ8; -.
+DR   SMR; Q8AAZ8; -.
+DR   STRING; 226186.BT_0314; -.
+DR   PaxDb; 226186-BT_0314; -.
+DR   DNASU; 1075493; -.
+DR   EnsemblBacteria; AAO75421; AAO75421; BT_0314.
+DR   GeneID; 60926275; -.
+DR   KEGG; bth:BT_0314; -.
+DR   PATRIC; fig|226186.12.peg.314; -.
+DR   eggNOG; COG2264; Bacteria.
+DR   HOGENOM; CLU_049382_0_0_10; -.
+DR   InParanoid; Q8AAZ8; -.
+DR   OrthoDB; 9785995at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042054; F:histone methyltransferase activity; IEA:RHEA.
+DR   GO; GO:0008276; F:protein methyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_00735; Methyltr_PrmA; 1.
+DR   InterPro; IPR050078; Ribosomal_L11_MeTrfase_PrmA.
+DR   InterPro; IPR004498; Ribosomal_PrmA_MeTrfase.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR43648; ELECTRON TRANSFER FLAVOPROTEIN BETA SUBUNIT LYSINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43648:SF1; ELECTRON TRANSFER FLAVOPROTEIN BETA SUBUNIT LYSINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF06325; PrmA; 1.
+DR   PIRSF; PIRSF000401; RPL11_MTase; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..280
+FT                   /note="Ribosomal protein L11 methyltransferase"
+FT                   /id="PRO_0000192240"
+FT   BINDING         131
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00735"
+FT   BINDING         152
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00735"
+FT   BINDING         174
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00735"
+FT   BINDING         217
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00735"
+SQ   SEQUENCE   280 AA;  31658 MW;  18F880793888A4FA CRC64;
+     MKYFEFTFHT SPCTETVNDV LAAVLGEAGF ESFVESEGGL TAYIQQALCD ENTIKNAITE
+     FPLPDTEITY TYVEAEDKDW NEEWEKNFFQ PIVIDNRCVI HSTFHKDVPQ ATYDIVINPQ
+     MAFGTGHHET TSLIIGELLD NELKDKSLLD MGCGTSILAI LARMRGARPC IAIDIDEWCV
+     RNSIENIELN HVDDIAVSQG DASSLVGKGP FDIIIANINR NILLNDMKQY VACMHPGSEL
+     YMSGFYVDDI PFIRREAEKN GLTFVHHKEK NRWAAVKFTY
+//

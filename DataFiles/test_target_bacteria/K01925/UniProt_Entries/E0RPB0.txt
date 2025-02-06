@@ -1,0 +1,111 @@
+ID   E0RPB0_SPITD            Unreviewed;       459 AA.
+AC   E0RPB0;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   27-NOV-2024, entry version 76.
+DE   RecName: Full=UDP-N-acetylmuramoylalanine--D-glutamate ligase {ECO:0000256|HAMAP-Rule:MF_00639};
+DE            EC=6.3.2.9 {ECO:0000256|HAMAP-Rule:MF_00639};
+DE   AltName: Full=D-glutamic acid-adding enzyme {ECO:0000256|HAMAP-Rule:MF_00639};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase {ECO:0000256|HAMAP-Rule:MF_00639};
+GN   Name=murD {ECO:0000256|HAMAP-Rule:MF_00639};
+GN   OrderedLocusNames=STHERM_c03310 {ECO:0000313|EMBL:ADN01304.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01304.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01304.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Cell wall formation. Catalyzes the addition of glutamate to
+CC       the nucleotide precursor UDP-N-acetylmuramoyl-L-alanine (UMA).
+CC       {ECO:0000256|HAMAP-Rule:MF_00639}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramoyl-L-alanine + D-glutamate + ATP =
+CC         UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate + ADP + phosphate
+CC         + H(+); Xref=Rhea:RHEA:16429, ChEBI:CHEBI:15378, ChEBI:CHEBI:29986,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:83898,
+CC         ChEBI:CHEBI:83900, ChEBI:CHEBI:456216; EC=6.3.2.9;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00639};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00004752, ECO:0000256|HAMAP-Rule:MF_00639}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00639}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00639}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01304.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313145.1; NC_014484.1.
+DR   AlphaFoldDB; E0RPB0; -.
+DR   PaxDb; 665571-STHERM_c03310; -.
+DR   KEGG; sta:STHERM_c03310; -.
+DR   eggNOG; COG0771; Bacteria.
+DR   HOGENOM; CLU_032540_0_1_12; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008764; F:UDP-N-acetylmuramoylalanine-D-glutamate ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00639; MurD; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR005762; MurD.
+DR   NCBIfam; TIGR01087; murD; 1.
+DR   PANTHER; PTHR43692; UDP-N-ACETYLMURAMOYLALANINE--D-GLUTAMATE LIGASE; 1.
+DR   PANTHER; PTHR43692:SF1; UDP-N-ACETYLMURAMOYLALANINE--D-GLUTAMATE LIGASE; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   Pfam; PF21799; MurD-like_N; 1.
+DR   SUPFAM; SSF51984; MurCD N-terminal domain; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00639}; Cell cycle {ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00639};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00639}; Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_00639}.
+FT   DOMAIN          117..299
+FT                   /note="Mur ligase central"
+FT                   /evidence="ECO:0000259|Pfam:PF08245"
+FT   BINDING         119..125
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00639"
+SQ   SEQUENCE   459 AA;  49986 MW;  04B17C833E822DF0 CRC64;
+     MYSDVRSLLE GKKVLVMGLG AHGGGAAAAR FCVEEGAIVT VTDLRTEEEL APSLEALAGY
+     DIRYVLGTHR EEDFLEADVV IKNPAVPRTS RFLSLARHVE TDISLFLKAC RSPILAVTGS
+     KGKSTTASAL HHILSAAFPG ARLGGNITTS PLTFLRELSE ESPVVLELSS WQLGDLGGRI
+     SFTPQVAALT NIYPDHQNAY ASMEAYVEDK FWITATQDPS QTFLYPASDP WGRWMAANTP
+     ATALPFFEER PTSPPPRAAF LTEQEGLFLD HGKEIPLLPE RLLVPGAHNR LNLLLAGAMA
+     YTFGTDPALI RTRLSSFPGI PHRLELVREK GGVSFYNDSA ATIPDAVLAA VSAFECPVHL
+     ITGGTDKNLD LSPYRGLAGM PVTIYLLEGS ATRRLIPLLH ESGIPYLGPY RSLEEALAEA
+     HHRASSGEVV LFSPGAASFE MFRHEFHRGE VFRDLVRRL
+//

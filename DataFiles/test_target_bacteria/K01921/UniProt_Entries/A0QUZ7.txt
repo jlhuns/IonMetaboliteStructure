@@ -1,0 +1,151 @@
+ID   DDL_MYCS2               Reviewed;         373 AA.
+AC   A0QUZ7; I7FJ47;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000255|HAMAP-Rule:MF_00047};
+GN   Name=ddl {ECO:0000255|HAMAP-Rule:MF_00047};
+GN   OrderedLocusNames=MSMEG_2395, MSMEI_2335;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 D-alanine + ATP = D-alanyl-D-alanine + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57416, ChEBI:CHEBI:57822,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.4; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK70518.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP38803.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728314.1; NZ_SIJM01000012.1.
+DR   RefSeq; YP_886735.1; NC_008596.1.
+DR   AlphaFoldDB; A0QUZ7; -.
+DR   SMR; A0QUZ7; -.
+DR   STRING; 246196.MSMEG_2395; -.
+DR   PaxDb; 246196-MSMEI_2335; -.
+DR   GeneID; 93457186; -.
+DR   KEGG; msb:LJ00_11910; -.
+DR   KEGG; msg:MSMEI_2335; -.
+DR   KEGG; msm:MSMEG_2395; -.
+DR   PATRIC; fig|246196.19.peg.2359; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   OrthoDB; 9813261at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.470.20:FF:000008; D-alanine--D-alanine ligase; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PANTHER; PTHR23132; D-ALANINE--D-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR23132:SF25; D-ALANINE--D-ALANINE LIGASE A; 1.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 1.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+DR   PROSITE; PS00844; DALA_DALA_LIGASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell shape; Cell wall biogenesis/degradation; Cytoplasm;
+KW   Ligase; Magnesium; Manganese; Metal-binding; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..373
+FT                   /note="D-alanine--D-alanine ligase"
+FT                   /id="PRO_1000030469"
+FT   DOMAIN          156..363
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         184..239
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         318
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         330
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         330
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         332
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+SQ   SEQUENCE   373 AA;  39232 MW;  FE7151D858C39D43 CRC64;
+     MTAPNHPPGR TRVAVVYGGR SSEHAISCVS AGSILRNLDP ERFEVVAIGI TPDGSWVLTD
+     GRPETLAITD GKLPAVTEAS GTELALPAAP NRSGQLLALG NGPGEILAAV DVVFPVLHGP
+     YGEDGTIQGL LELAGVPYVG SGVLASAAGM DKEYTKKLLA AEGLPIGDQV VLRPGVETLD
+     LEQRERLGLP VFVKPARGGS SIGVSRVTAW DELPAAVALA RRHDPKVIVE AAVIGRELEC
+     GVLEFPDGRL EASTVGEIRV AGVRGREDGF YDFATKYLED AAELDVPAKV DDDVADEIRQ
+     LAVRAFTAIG CQGLARVDFF LTDDGPVINE INTMPGFTTI SMYPRMWAAG GIDYPTLLAA
+     MVDTAIARGT GLR
+//

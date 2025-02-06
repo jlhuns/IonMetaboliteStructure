@@ -1,0 +1,145 @@
+ID   C5CC95_MICLC            Unreviewed;       399 AA.
+AC   C5CC95;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase {ECO:0000256|HAMAP-Rule:MF_00037};
+DE            EC=1.3.1.98 {ECO:0000256|HAMAP-Rule:MF_00037};
+DE   AltName: Full=UDP-N-acetylmuramate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_00037};
+GN   Name=murB {ECO:0000256|HAMAP-Rule:MF_00037,
+GN   ECO:0000313|EMBL:SQG47665.1};
+GN   OrderedLocusNames=Mlut_17500 {ECO:0000313|EMBL:ACS31236.1};
+GN   ORFNames=NCTC2665_00426 {ECO:0000313|EMBL:SQG47665.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS31236.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS31236.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS31236.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG47665.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG47665.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000256|ARBA:ARBA00003921,
+CC       ECO:0000256|HAMAP-Rule:MF_00037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-N-acetyl-alpha-D-muramate + NADP(+) = UDP-N-acetyl-3-O-(1-
+CC         carboxyvinyl)-alpha-D-glucosamine + NADPH + H(+);
+CC         Xref=Rhea:RHEA:12248, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:68483, ChEBI:CHEBI:70757; EC=1.3.1.98;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048914, ECO:0000256|HAMAP-
+CC         Rule:MF_00037};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974, ECO:0000256|HAMAP-
+CC         Rule:MF_00037};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00004752, ECO:0000256|HAMAP-Rule:MF_00037}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00037}.
+CC   -!- SIMILARITY: Belongs to the MurB family. {ECO:0000256|ARBA:ARBA00010485,
+CC       ECO:0000256|HAMAP-Rule:MF_00037}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS31236.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG47665.1; -; Genomic_DNA.
+DR   RefSeq; WP_010080355.1; NZ_WBMF01000097.1.
+DR   AlphaFoldDB; C5CC95; -.
+DR   STRING; 465515.Mlut_17500; -.
+DR   EnsemblBacteria; ACS31236; ACS31236; Mlut_17500.
+DR   KEGG; mlu:Mlut_17500; -.
+DR   PATRIC; fig|465515.4.peg.1689; -.
+DR   eggNOG; COG0812; Bacteria.
+DR   HOGENOM; CLU_035304_0_1_11; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0008762; F:UDP-N-acetylmuramate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   Gene3D; 3.90.78.10; UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain; 1.
+DR   Gene3D; 3.30.43.10; Uridine Diphospho-n-acetylenolpyruvylglucosamine Reductase, domain 2; 1.
+DR   HAMAP; MF_00037; MurB; 1.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR003170; MurB.
+DR   InterPro; IPR011601; MurB_C.
+DR   InterPro; IPR036635; MurB_C_sf.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   PANTHER; PTHR21071; UDP-N-ACETYLENOLPYRUVOYLGLUCOSAMINE REDUCTASE; 1.
+DR   PANTHER; PTHR21071:SF4; UDP-N-ACETYLENOLPYRUVOYLGLUCOSAMINE REDUCTASE; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   Pfam; PF02873; MurB_C; 1.
+DR   SUPFAM; SSF56176; FAD-binding/transporter-associated domain-like; 1.
+DR   SUPFAM; SSF56194; Uridine diphospho-N-Acetylenolpyruvylglucosamine reductase, MurB, C-terminal domain; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00037};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00037};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00037};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00037};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00037};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|HAMAP-Rule:MF_00037};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630, ECO:0000256|HAMAP-
+KW   Rule:MF_00037};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_00037};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00037};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00037}; Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          13..211
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51387"
+FT   ACT_SITE        181
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        270
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        391
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00037"
+SQ   SEQUENCE   399 AA;  41311 MW;  FFC7CA165975629F CRC64;
+     MSERLADHTT TRVGGPARAW VTARTEAEAI EAVRAADEAG EPLFVLGGGS NTLMADAGFP
+     GTVVRLAFEG IHVLDGPVPG EGETPPAGDG ARPADHEGEA VVVRVAAGHP WDDAVAWTVA
+     HGLGGIEALS GIPGSAGATP VQNVGAYGAD VSQVLVALRA WDREAGDVVE LTPADLRFGY
+     RDSVIKRSML ETDAPSPRWI VLSIDLRLRR ASSDAEPTAP VRYGQLAAAL DVEEGAHAPL
+     AVVRREVLAL RAAKGMVSDL ADPDTWSTGS YFTNPIVPAS VRASLPEGAP AFAAGEAEDG
+     TPLVKLSAAW LIDRAGFSKG FGLPEVAPRE GGPDGRGVDG TGLAGGRASV STKHTLAMTN
+     RGDASTEDVL TIARTVRDGV RERFGVELHP EPMIIGTSL
+//

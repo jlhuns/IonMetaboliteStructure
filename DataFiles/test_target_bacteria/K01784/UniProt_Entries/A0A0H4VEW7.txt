@@ -1,0 +1,80 @@
+ID   A0A0H4VEW7_9SPHN        Unreviewed;       351 AA.
+AC   A0A0H4VEW7;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   06-JUL-2016, sequence version 2.
+DT   05-FEB-2025, entry version 30.
+DE   RecName: Full=UDP-glucose 4-epimerase {ECO:0000256|ARBA:ARBA00018569, ECO:0000256|RuleBase:RU366046};
+DE            EC=5.1.3.2 {ECO:0000256|ARBA:ARBA00013189, ECO:0000256|RuleBase:RU366046};
+GN   ORFNames=CP97_04030 {ECO:0000313|EMBL:AKQ41381.2};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41381.2, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41381.2, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2; Evidence={ECO:0000256|ARBA:ARBA00000083,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911,
+CC         ECO:0000256|RuleBase:RU366046};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC       {ECO:0000256|ARBA:ARBA00004947, ECO:0000256|RuleBase:RU366046}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU366046}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00007637, ECO:0000256|RuleBase:RU366046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41381.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VEW7; -.
+DR   STRING; 1648404.CP97_04030; -.
+DR   KEGG; ery:CP97_04030; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IEA:TreeGrafter.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   NCBIfam; TIGR01179; galE; 1.
+DR   PANTHER; PTHR43725:SF53; UDP-ARABINOSE 4-EPIMERASE 1; 1.
+DR   PANTHER; PTHR43725; UDP-GLUCOSE 4-EPIMERASE; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU366046};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU366046};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|RuleBase:RU366046};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          19..260
+FT                   /note="NAD-dependent epimerase/dehydratase"
+FT                   /evidence="ECO:0000259|Pfam:PF01370"
+SQ   SEQUENCE   351 AA;  37149 MW;  34CAF74FDE2DABF5 CRC64;
+     MLLKKIVLGD CPMTKKTSVL VTGGAGYIGS HAVLVLRDAG WPVAVIDNLS TGFRFAVPED
+     VPLYEGDIAD GALVARIFAE QGMGGGTGAI MHFAGSIVVP ESVEKPLCYY ANNTVKSRAL
+     MEAAVDGGVP HFIFSSTAAT YGVPDVSPVD EDAPKQPINP YGWSKLMTEQ MLADTAAAHD
+     LNFCALRYFN VAGADPQGRS GQSTAGATHL IKVAVEAALG KRASVSVFGS DYDTADGTGV
+     RDYIHVSDLA AAHVLALDAL IAQPDVSMTM NCGYGRGFSV LEVLDAVDRV TNLKIERVQE
+     GRRAGDPDSL ISDPARIKAT LPWQPQHANL DTIVTHALAW ERKLAEIRGN G
+//

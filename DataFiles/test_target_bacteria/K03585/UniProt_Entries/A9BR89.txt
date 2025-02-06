@@ -1,0 +1,99 @@
+ID   A9BR89_DELAS            Unreviewed;       430 AA.
+AC   A9BR89;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   SubName: Full=Efflux transporter, RND family, MFP subunit {ECO:0000313|EMBL:ABX33147.1};
+GN   OrderedLocusNames=Daci_0501 {ECO:0000313|EMBL:ABX33147.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33147.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33147.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|ARBA:ARBA00004519}; Lipid-anchor
+CC       {ECO:0000256|ARBA:ARBA00004519}.
+CC   -!- SIMILARITY: Belongs to the membrane fusion protein (MFP) (TC 8.A.1)
+CC       family. {ECO:0000256|ARBA:ARBA00009477}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33147.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202433.1; NC_010002.1.
+DR   AlphaFoldDB; A9BR89; -.
+DR   STRING; 398578.Daci_0501; -.
+DR   GeneID; 24115889; -.
+DR   KEGG; dac:Daci_0501; -.
+DR   eggNOG; COG0845; Bacteria.
+DR   HOGENOM; CLU_018816_2_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:TreeGrafter.
+DR   FunFam; 2.40.420.20:FF:000001; Efflux RND transporter periplasmic adaptor subunit; 1.
+DR   Gene3D; 2.40.30.170; -; 1.
+DR   Gene3D; 2.40.420.20; -; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   Gene3D; 1.10.287.470; Helix hairpin bin; 1.
+DR   InterPro; IPR043602; CusB_dom_1.
+DR   InterPro; IPR032317; HlyD_D23.
+DR   InterPro; IPR051160; MFP_Efflux.
+DR   InterPro; IPR006143; RND_pump_MFP.
+DR   NCBIfam; TIGR01730; RND_mfp; 1.
+DR   PANTHER; PTHR30158; ACRA/E-RELATED COMPONENT OF DRUG EFFLUX TRANSPORTER; 1.
+DR   PANTHER; PTHR30158:SF3; MULTIDRUG EFFLUX PUMP SUBUNIT ACRA-RELATED; 1.
+DR   Pfam; PF00529; CusB_dom_1; 1.
+DR   Pfam; PF16576; HlyD_D23; 1.
+DR   SUPFAM; SSF111369; HlyD-like secretion proteins; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Lipoprotein {ECO:0000256|ARBA:ARBA00023288};
+KW   Membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Palmitate {ECO:0000256|ARBA:ARBA00023139};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           35..430
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002733014"
+FT   DOMAIN          55..376
+FT                   /note="Cation efflux system protein CusB"
+FT                   /evidence="ECO:0000259|Pfam:PF00529"
+FT   DOMAIN          75..310
+FT                   /note="RND efflux pump membrane fusion protein barrel-
+FT                   sandwich"
+FT                   /evidence="ECO:0000259|Pfam:PF16576"
+FT   REGION          388..430
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        388..397
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   430 AA;  45169 MW;  C850A0C52043467E CRC64;
+     MPSTRSNVSA APSPYSSLRL TTVALAVTAA MAMAACGKKP EEKAAAQQQM PAVPVGVVVA
+     TPADVGLVTE LPGRVDARRV AQIRARSAGI VQERLFREGS DVKAGQVLYR IDPAPYQATL
+     QSAKATQARA EANQAQALAQ LERYRPLVAA NAISKQDFVN AEAAYKQAQA DVAAGKASVR
+     TAEINLGYTN VTAPISGRIG QSLVTEGALV GQGEATPLAV VQQINPVYVN FTQSSSEAFR
+     LRRAMEQGKL KKADGAEAAS VEVRLDDGTA YELKGKLLFT DLTVDSSTGQ VTLRAEVPNP
+     KGLLLPGMYV RVRMEQAQAS NAIAVPQQAV TRTETGDTVS VVSDDGKITK RQVKVTTAQN
+     NQWLVSEGLQ AGEKVMVDGF QKLQMLPPGT PVKPVPWQPE AAGAQKPAGA AAPAPQAAAD
+     AKPADQADKK
+//

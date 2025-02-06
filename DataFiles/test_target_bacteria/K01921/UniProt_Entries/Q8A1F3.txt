@@ -1,0 +1,134 @@
+ID   DDL_BACTN               Reviewed;         324 AA.
+AC   Q8A1F3;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000255|HAMAP-Rule:MF_00047};
+GN   Name=ddl {ECO:0000255|HAMAP-Rule:MF_00047}; OrderedLocusNames=BT_3713;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 D-alanine + ATP = D-alanyl-D-alanine + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57416, ChEBI:CHEBI:57822,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.4; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO78818.1; -; Genomic_DNA.
+DR   RefSeq; NP_812624.1; NC_004663.1.
+DR   RefSeq; WP_008762649.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A1F3; -.
+DR   SMR; Q8A1F3; -.
+DR   STRING; 226186.BT_3713; -.
+DR   PaxDb; 226186-BT_3713; -.
+DR   EnsemblBacteria; AAO78818; AAO78818; BT_3713.
+DR   GeneID; 60924882; -.
+DR   KEGG; bth:BT_3713; -.
+DR   PATRIC; fig|226186.12.peg.3773; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   HOGENOM; CLU_039268_1_1_10; -.
+DR   InParanoid; Q8A1F3; -.
+DR   OrthoDB; 9813261at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.1490.20:FF:000022; D-alanine--D-alanine ligase; 1.
+DR   FunFam; 3.40.50.20:FF:000032; D-alanine--D-alanine ligase; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PANTHER; PTHR23132; D-ALANINE--D-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR23132:SF23; D-ALANINE--D-ALANINE LIGASE B; 1.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 1.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+DR   PROSITE; PS00844; DALA_DALA_LIGASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell shape; Cell wall biogenesis/degradation; Cytoplasm;
+KW   Ligase; Magnesium; Manganese; Metal-binding; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..324
+FT                   /note="D-alanine--D-alanine ligase"
+FT                   /id="PRO_0000177786"
+FT   DOMAIN          121..321
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         149..204
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         275
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         288
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         288
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   BINDING         290
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+SQ   SEQUENCE   324 AA;  36106 MW;  FFA3A4D7FC8D170A CRC64;
+     MKRTIAIVAG GDTSEFHVSL RSAQGIYSFI DKEKYTLYIV EMQGTRWEVQ LPDGAKAPVD
+     RNDFSFMLGT EKIRFDFAYI TIHGTPGEDG RLQGYFDMMH IPYSCCGVLA AAITYDKFTC
+     NQYLKAFGVR IAESLLLRQG QSVSDEDVME KIGLPCFIKP SLGGSSFGVT KVKTKEQIQP
+     AIVKAFEEAQ EVLVEAFMEG TELTCGCYKT KDKTVIFPPT EVVTHNEFFD YDAKYNGQVD
+     EITPARISDE LTNRVQMLTS AIYDILGCSG IIRVDYIVTA GEKINLLEVN TTPGMTTTSF
+     IPQQVRAAGL DIKDVMTDII ENKF
+//
