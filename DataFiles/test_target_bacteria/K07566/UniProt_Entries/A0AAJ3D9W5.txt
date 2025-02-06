@@ -1,0 +1,101 @@
+ID   A0AAJ3D9W5_ACIHA        Unreviewed;       189 AA.
+AC   A0AAJ3D9W5;
+DT   24-JUL-2024, integrated into UniProtKB/TrEMBL.
+DT   24-JUL-2024, sequence version 1.
+DT   05-FEB-2025, entry version 4.
+DE   RecName: Full=Threonylcarbamoyl-AMP synthase {ECO:0000256|HAMAP-Rule:MF_01852};
+DE            Short=TC-AMP synthase {ECO:0000256|HAMAP-Rule:MF_01852};
+DE            EC=2.7.7.87 {ECO:0000256|HAMAP-Rule:MF_01852};
+DE   AltName: Full=L-threonylcarbamoyladenylate synthase {ECO:0000256|HAMAP-Rule:MF_01852};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaC {ECO:0000256|HAMAP-Rule:MF_01852};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaC {ECO:0000256|HAMAP-Rule:MF_01852};
+GN   Name=tsaC {ECO:0000256|HAMAP-Rule:MF_01852};
+GN   ORFNames=GPS52_13545 {ECO:0000313|EMBL:NAR74486.1}, J5N55_11465
+GN   {ECO:0000313|EMBL:MBO3658690.1};
+OS   Acinetobacter haemolyticus.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Moraxellales; Moraxellaceae;
+OC   Acinetobacter.
+OX   NCBI_TaxID=29430 {ECO:0000313|EMBL:NAR74486.1, ECO:0000313|Proteomes:UP000451048};
+RN   [1] {ECO:0000313|EMBL:NAR74486.1, ECO:0000313|Proteomes:UP000451048}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AN10 {ECO:0000313|EMBL:NAR74486.1,
+RC   ECO:0000313|Proteomes:UP000451048};
+RA   Castro-Jaimes S., Bello-Lopez E., Velazquez-Acosta C., Volkow-Fernandez P.,
+RA   Lozano-Zarain P., Castillo Ramirez S., Cevallos M.A.;
+RT   "Acinetobacter haemolyticus comparative genomics.";
+RL   Submitted (DEC-2019) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:MBO3658690.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AC1502 {ECO:0000313|EMBL:MBO3658690.1};
+RA   Mohd Rani F.;
+RT   "Acinetobacter spp. whole-genome sequenced from Terengganu.";
+RL   Submitted (MAR-2021) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Catalyzes the conversion of L-threonine, HCO(3)(-)/CO(2)
+CC       and ATP to give threonylcarbamoyl-AMP (TC-AMP) as the acyladenylate
+CC       intermediate, with the release of diphosphate. {ECO:0000256|HAMAP-
+CC       Rule:MF_01852}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine + hydrogencarbonate + ATP = L-
+CC         threonylcarbamoyladenylate + diphosphate + H2O; Xref=Rhea:RHEA:36407,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:73682; EC=2.7.7.87;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048366, ECO:0000256|HAMAP-
+CC         Rule:MF_01852};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01852}.
+CC   -!- SIMILARITY: Belongs to the SUA5 family. TsaC subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01852}.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:NAR74486.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JAGFOT010000011; MBO3658690.1; -; Genomic_DNA.
+DR   EMBL; WTTO01000049; NAR74486.1; -; Genomic_DNA.
+DR   RefSeq; WP_005085670.1; NZ_WTTY01000059.1.
+DR   KEGG; ahl:AHTJS_15950; -.
+DR   Proteomes; UP000451048; Unassembled WGS sequence.
+DR   Proteomes; UP000670925; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003725; F:double-stranded RNA binding; IEA:InterPro.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:TreeGrafter.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:TreeGrafter.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   HAMAP; MF_01852; TsaC; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR006070; Sua5-like_dom.
+DR   InterPro; IPR023535; TC-AMP_synthase.
+DR   InterPro; IPR050156; TC-AMP_synthase_SUA5.
+DR   PANTHER; PTHR17490; SUA5; 1.
+DR   PANTHER; PTHR17490:SF18; THREONYLCARBAMOYL-AMP SYNTHASE; 1.
+DR   Pfam; PF01300; Sua5_yciO_yrdC; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+DR   PROSITE; PS51163; YRDC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01852};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01852};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01852};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_01852};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01852};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01852}.
+FT   DOMAIN          3..189
+FT                   /note="YrdC-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51163"
+SQ   SEQUENCE   189 AA;  20746 MW;  3527BC793F07FC5C CRC64;
+     MITSSVADAA QLLKQGQVLA YPTEAVWGLG CDPFNEQAFQ NVLECKHRPI EKGVILLAGC
+     IEQVEHLLQD LEPAIRHQVI NSWSDRVETE RATTWLLPAD QHIPTWIKGQ HPLVAVRVTT
+     HPLCVQLCHH FGGFVVSTSA NPAGLAPARS LEEAHNYFGH SLHYLAGNLG LSQEPSRILN
+     ALTGEVVRA
+//

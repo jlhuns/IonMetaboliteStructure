@@ -1,0 +1,147 @@
+ID   Q812W6_BACCR            Unreviewed;       272 AA.
+AC   Q812W6;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Purine nucleoside phosphorylase {ECO:0000256|RuleBase:RU361274};
+GN   OrderedLocusNames=BC_3901 {ECO:0000313|EMBL:AAP10822.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10822.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10822.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+RN   [2] {ECO:0007829|PDB:7FBG}
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) IN COMPLEX WITH CA(2+) AND ZN(2+).
+RA   Seok J., Kim K.-J.;
+RT   "Kinetic and structural analysis by Peptidoglycan editing factor from
+RT   Bacillus cereus ATCC 14579.";
+RL   Submitted (JUL-2021) to the PDB data bank.
+CC   -!- FUNCTION: Purine nucleoside enzyme that catalyzes the phosphorolysis of
+CC       adenosine and inosine nucleosides, yielding D-ribose 1-phosphate and
+CC       the respective free bases, adenine and hypoxanthine. Also catalyzes the
+CC       phosphorolysis of S-methyl-5'-thioadenosine into adenine and S-methyl-
+CC       5-thio-alpha-D-ribose 1-phosphate. Also has adenosine deaminase
+CC       activity. {ECO:0000256|ARBA:ARBA00003215}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5'-thioadenosine + phosphate = 5-(methylsulfanyl)-
+CC         alpha-D-ribose 1-phosphate + adenine; Xref=Rhea:RHEA:11852,
+CC         ChEBI:CHEBI:16708, ChEBI:CHEBI:17509, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58533; EC=2.4.2.28;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049113};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11853;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049113};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + H2O + H(+) = inosine + NH4(+);
+CC         Xref=Rhea:RHEA:24408, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16335, ChEBI:CHEBI:17596, ChEBI:CHEBI:28938; EC=3.5.4.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047989};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24409;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047989};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + phosphate = alpha-D-ribose 1-phosphate + adenine;
+CC         Xref=Rhea:RHEA:27642, ChEBI:CHEBI:16335, ChEBI:CHEBI:16708,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048968};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27643;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048968};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=inosine + phosphate = alpha-D-ribose 1-phosphate +
+CC         hypoxanthine; Xref=Rhea:RHEA:27646, ChEBI:CHEBI:17368,
+CC         ChEBI:CHEBI:17596, ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000553};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27647;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000553};
+CC   -!- SIMILARITY: Belongs to the purine nucleoside phosphorylase YfiH/LACC1
+CC       family. {ECO:0000256|ARBA:ARBA00007353, ECO:0000256|RuleBase:RU361274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10822.1; -; Genomic_DNA.
+DR   RefSeq; NP_833621.1; NC_004722.1.
+DR   RefSeq; WP_001209009.1; NC_004722.1.
+DR   PDB; 7FBG; X-ray; 1.60 A; A=1-272.
+DR   AlphaFoldDB; Q812W6; -.
+DR   SMR; Q812W6; -.
+DR   KEGG; bce:BC3901; -.
+DR   PATRIC; fig|226900.8.peg.4023; -.
+DR   HOGENOM; CLU_065784_0_0_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0046936; F:2'-deoxyadenosine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004000; F:adenosine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005507; F:copper ion binding; IBA:GO_Central.
+DR   GO; GO:0017061; F:S-methyl-5-thioadenosine phosphorylase activity; IEA:UniProtKB-EC.
+DR   CDD; cd16833; YfiH; 1.
+DR   Gene3D; 3.60.140.10; CNF1/YfiH-like putative cysteine hydrolases; 1.
+DR   InterPro; IPR003730; Cu_polyphenol_OxRdtase.
+DR   InterPro; IPR038371; Cu_polyphenol_OxRdtase_sf.
+DR   InterPro; IPR011324; Cytotoxic_necrot_fac-like_cat.
+DR   NCBIfam; TIGR00726; peptidoglycan editing factor PgeF; 1.
+DR   PANTHER; PTHR30616:SF2; PURINE NUCLEOSIDE PHOSPHORYLASE LACC1; 1.
+DR   PANTHER; PTHR30616; UNCHARACTERIZED PROTEIN YFIH; 1.
+DR   Pfam; PF02578; Cu-oxidase_4; 1.
+DR   SUPFAM; SSF64438; CNF1/YfiH-like putative cysteine hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:7FBG}; Calcium {ECO:0007829|PDB:7FBG};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0007829|PDB:7FBG};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0007829|PDB:7FBG}.
+FT   BINDING         80
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         125
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         142
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         181
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         194
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         197
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         239
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+FT   BINDING         242
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0007829|PDB:7FBG"
+SQ   SEQUENCE   272 AA;  30124 MW;  8609B297DB6DBF28 CRC64;
+     MREPFKYVDG ILYLQAWKEL GNITAGFTTK DGGISTGSFH AMNLGLHVND IVENVHENRR
+     ILANKLQKPL ENWICSEQVH AHHVEKVGQQ EKGSGVYSYE DGISKTDGIY TSNEDVLLTS
+     CYADCVPLYF YAPSHGMIGL AHAGWKGTVQ EIAKEMIQKW NAQGISSDEI HVAIGPSIGS
+     CCYVVDDRVL TAAQEVVSGA VPHQKISDGQ YAINLKEINR ILCVQAGIKE EHIVMSSLCT
+     SCEEQLFFSH RRDQGKTGRM LSFIGFKEEG SK
+//

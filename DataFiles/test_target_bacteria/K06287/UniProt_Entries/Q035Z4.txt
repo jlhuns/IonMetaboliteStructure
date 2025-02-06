@@ -1,0 +1,107 @@
+ID   NTPPA_LACP3             Reviewed;         185 AA.
+AC   Q035Z4;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=dTTP/UTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            Short=dTTPase/UTPase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            EC=3.6.1.9 {ECO:0000255|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleoside triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleotide pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            Short=Nucleotide PPase {ECO:0000255|HAMAP-Rule:MF_00528};
+GN   OrderedLocusNames=LSEI_2233;
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441;
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K.S., Slesarev A., Wolf Y.I., Sorokin A., Mirkin B., Koonin E.V.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.-H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J.R., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M.H. Jr., Klaenhammer T.,
+RA   Richardson P., Kozyavkin S., Weimer B.C., Mills D.A.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Nucleoside triphosphate pyrophosphatase that hydrolyzes dTTP
+CC       and UTP. May have a dual role in cell division arrest and in preventing
+CC       the incorporation of modified nucleotides into cellular nucleic acids.
+CC       {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + H2O = dTMP + diphosphate + H(+); Xref=Rhea:RHEA:28534,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37568, ChEBI:CHEBI:63528; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UTP + H2O = UMP + diphosphate + H(+); Xref=Rhea:RHEA:29395,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46398, ChEBI:CHEBI:57865; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   -!- SIMILARITY: Belongs to the Maf family. YhdE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70978.1; -; Genomic_DNA.
+DR   RefSeq; WP_011674830.1; NC_008526.1.
+DR   RefSeq; YP_807420.1; NC_008526.1.
+DR   AlphaFoldDB; Q035Z4; -.
+DR   SMR; Q035Z4; -.
+DR   STRING; 321967.LSEI_2233; -.
+DR   PaxDb; 321967-LSEI_2233; -.
+DR   KEGG; lca:LSEI_2233; -.
+DR   PATRIC; fig|321967.11.peg.2195; -.
+DR   HOGENOM; CLU_040416_0_0_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106379; F:8-oxo-(d)RTP hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0036221; F:UTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00555; Maf; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_00528; Maf; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR003697; Maf-like.
+DR   NCBIfam; TIGR00172; maf; 1.
+DR   PANTHER; PTHR43213; BIFUNCTIONAL DTTP/UTP PYROPHOSPHATASE/METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR43213:SF5; BIFUNCTIONAL DTTP_UTP PYROPHOSPHATASE_METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   Pfam; PF02545; Maf; 1.
+DR   PIRSF; PIRSF006305; Maf; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Nucleotide metabolism; Reference proteome.
+FT   CHAIN           1..185
+FT                   /note="dTTP/UTP pyrophosphatase"
+FT                   /id="PRO_1000060942"
+FT   ACT_SITE        67
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            10
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            68
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            151
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+SQ   SEQUENCE   185 AA;  20155 MW;  DE51F88C7555303C CRC64;
+     MIILASHSPR RQELLKRIVP DFESHPASIN ERALPVLDPP AYVQSLATAK GQSLVPSYPG
+     ATIIAADTMV AFQGKLLGKP HDRAEAKQMI TALGGQTHQV YTGLWVRLDN GSVRQQVVTT
+     DVTFWPLSEA DVESYLAEDA YQDKAGAYGI QDAGALLVKS IQGDFYNVMG LPSSTLYRML
+     LAEPQ
+//

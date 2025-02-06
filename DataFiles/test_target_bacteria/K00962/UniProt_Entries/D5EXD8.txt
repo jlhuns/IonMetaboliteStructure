@@ -1,0 +1,145 @@
+ID   D5EXD8_XYLR2            Unreviewed;       792 AA.
+AC   D5EXD8;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 85.
+DE   RecName: Full=Polyribonucleotide nucleotidyltransferase {ECO:0000256|HAMAP-Rule:MF_01595};
+DE            EC=2.7.7.8 {ECO:0000256|HAMAP-Rule:MF_01595};
+DE   AltName: Full=Polynucleotide phosphorylase {ECO:0000256|HAMAP-Rule:MF_01595};
+DE            Short=PNPase {ECO:0000256|HAMAP-Rule:MF_01595};
+GN   Name=pnp {ECO:0000256|HAMAP-Rule:MF_01595,
+GN   ECO:0000313|EMBL:ADE82211.1};
+GN   OrderedLocusNames=PRU_2633 {ECO:0000313|EMBL:ADE82211.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82211.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82211.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Involved in mRNA degradation. Catalyzes the phosphorolysis of
+CC       single-stranded polyribonucleotides processively in the 3'- to 5'-
+CC       direction. {ECO:0000256|HAMAP-Rule:MF_01595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=RNA(n+1) + phosphate = RNA(n) + a ribonucleoside 5'-
+CC         diphosphate; Xref=Rhea:RHEA:22096, Rhea:RHEA-COMP:14527, Rhea:RHEA-
+CC         COMP:17342, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:140395;
+CC         EC=2.7.7.8; Evidence={ECO:0000256|HAMAP-Rule:MF_01595};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01595};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01595}.
+CC   -!- SIMILARITY: Belongs to the polyribonucleotide nucleotidyltransferase
+CC       family. {ECO:0000256|ARBA:ARBA00007404, ECO:0000256|HAMAP-
+CC       Rule:MF_01595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82211.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064198.1; NC_014033.1.
+DR   AlphaFoldDB; D5EXD8; -.
+DR   STRING; 264731.PRU_2633; -.
+DR   KEGG; pru:PRU_2633; -.
+DR   eggNOG; COG1185; Bacteria.
+DR   HOGENOM; CLU_004217_2_2_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0000175; F:3'-5'-RNA exonuclease activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004654; F:polyribonucleotide nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   CDD; cd02393; KH-I_PNPase; 1.
+DR   CDD; cd11364; RNase_PH_PNPase_2; 1.
+DR   FunFam; 2.40.50.140:FF:000178; Polyribonucleotide nucleotidyltransferase; 1.
+DR   FunFam; 3.30.1370.10:FF:000001; Polyribonucleotide nucleotidyltransferase; 1.
+DR   FunFam; 3.30.230.70:FF:000001; Polyribonucleotide nucleotidyltransferase; 1.
+DR   Gene3D; 3.30.230.70; GHMP Kinase, N-terminal domain; 2.
+DR   Gene3D; 3.30.1370.10; K Homology domain, type 1; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_01595; PNPase; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR012162; PNPase.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR015848; PNPase_PH_RNA-bd_bac/org-type.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR003029; S1_domain.
+DR   NCBIfam; TIGR03591; polynuc_phos; 1.
+DR   PANTHER; PTHR11252; POLYRIBONUCLEOTIDE NUCLEOTIDYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11252:SF0; POLYRIBONUCLEOTIDE NUCLEOTIDYLTRANSFERASE 1, MITOCHONDRIAL; 1.
+DR   Pfam; PF00013; KH_1; 1.
+DR   Pfam; PF03726; PNPase; 1.
+DR   Pfam; PF01138; RNase_PH; 2.
+DR   Pfam; PF03725; RNase_PH_C; 2.
+DR   Pfam; PF00575; S1; 1.
+DR   PIRSF; PIRSF005499; PNPase; 1.
+DR   SMART; SM00322; KH; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF54791; Eukaryotic type KH-domain (KH-domain type I); 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF55666; Ribonuclease PH domain 2-like; 2.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 2.
+DR   PROSITE; PS50084; KH_TYPE_1; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01595};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01595};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01595};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_01595}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_01595};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01595}.
+FT   DOMAIN          634..704
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000259|PROSITE:PS50126"
+FT   REGION          717..792
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        717..767
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        774..784
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         495
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01595"
+FT   BINDING         501
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01595"
+SQ   SEQUENCE   792 AA;  88233 MW;  FDA8CA975C406BCB CRC64;
+     MNVITKTLQL ADGRTITIET GKVAKQTDGS VVLRMNNTVL LATVCAAKDA VPGTDFMPLQ
+     VDYREQYSAA GRFPGGFTKR EGKASDNEIL TSRLVDRVLR PLFPSNYHAE VFVNVMLLSA
+     DGIDQPDALA GFAASAALAC SDIPFECPIS EVRVARVNGE YVIDPTFEQM KNADMDIMVG
+     ASAENIMMVE GEMKEVSEQD MIGALKAAMA AIKPMCELQA ELSKELGKDV KREYDHEVND
+     EELRERMSKE LYQPAYDVTK QALPKQDRAD AFEKILTDFK EKYAAEHADL TEDELEEKYA
+     MMERYYHDVE RDAMRRCILD EGIRLDGRKT DEIRPIWCEV SPLPMPHGSS IFTRGETQSL
+     STCTLGTKLD EKMVDDVLEH GYQRFLLHYN FPPFCTGEAK AQRGVGRREI GHGHLAWRGL
+     KGQIPEDFPY TVRLVSQILE SNGSSSMATV CAGTLALMDA GVPMKKPVSG IAMGLIKNPG
+     EDKYAVLSDI LGDEDHLGDM DFKTTGTKDG LTATQMDIKC DGLSFDILEK ALMQAKAGRE
+     HILKCLTDTI AEPRAEMKPQ VPRIVQMEIP KEFIGAVIGP GGKIIQQMQE DTGATITIDE
+     VDGVGKVQVS APNKESIDAA IGKIKAIVAI PEVGEVYDGV VRSIMPYGCF VEIMPGKDGL
+     LHISEIDWKR LETVEEAGIK EGDHIQVKLL EIDPKTGKYK LSHRVLIEKP ADYVERPARG
+     ERRERPERNG ERRDRRPDRG DRRNGERHGE RQRVGDSSES GMRRPRPEQQ QTEAPKEEKP
+     KDFSDSLDNM DF
+//

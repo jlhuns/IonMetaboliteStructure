@@ -1,0 +1,137 @@
+ID   OBG_CAMJE               Reviewed;         350 AA.
+AC   Q0PC41;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   27-NOV-2024, entry version 99.
+DE   RecName: Full=GTPase Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+DE            EC=3.6.5.- {ECO:0000255|HAMAP-Rule:MF_01454};
+DE   AltName: Full=GTP-binding protein Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+GN   Name=obg {ECO:0000255|HAMAP-Rule:MF_01454}; OrderedLocusNames=Cj0096;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: An essential GTPase which binds GTP, GDP and possibly
+CC       (p)ppGpp with moderate affinity, with high nucleotide exchange rates
+CC       and a fairly low GTP hydrolysis rate. Plays a role in control of the
+CC       cell cycle, stress response, ribosome biogenesis and in those bacteria
+CC       that undergo differentiation, in morphogenesis control.
+CC       {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01454};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34267.1; -; Genomic_DNA.
+DR   PIR; H81425; H81425.
+DR   RefSeq; WP_002851611.1; NZ_SZUC01000005.1.
+DR   RefSeq; YP_002343556.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PC41; -.
+DR   SMR; Q0PC41; -.
+DR   STRING; 192222.Cj0096; -.
+DR   PaxDb; 192222-Cj0096; -.
+DR   EnsemblBacteria; CAL34267; CAL34267; Cj0096.
+DR   GeneID; 905891; -.
+DR   KEGG; cje:Cj0096; -.
+DR   PATRIC; fig|192222.6.peg.94; -.
+DR   eggNOG; COG0536; Bacteria.
+DR   HOGENOM; CLU_011747_2_0_7; -.
+DR   OrthoDB; 9807318at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd01898; Obg; 1.
+DR   FunFam; 2.70.210.12:FF:000001; GTPase Obg; 1.
+DR   Gene3D; 2.70.210.12; GTP1/OBG domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_01454; GTPase_Obg; 1.
+DR   InterPro; IPR031167; G_OBG.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR014100; GTP-bd_Obg/CgtA.
+DR   InterPro; IPR006074; GTP1-OBG_CS.
+DR   InterPro; IPR006169; GTP1_OBG_dom.
+DR   InterPro; IPR036726; GTP1_OBG_dom_sf.
+DR   InterPro; IPR045086; OBG_GTPase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR02729; Obg_CgtA; 1.
+DR   PANTHER; PTHR11702; DEVELOPMENTALLY REGULATED GTP-BINDING PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR11702:SF31; MITOCHONDRIAL RIBOSOME-ASSOCIATED GTPASE 2; 1.
+DR   Pfam; PF01018; GTP1_OBG; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF002401; GTP_bd_Obg/CgtA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF82051; Obg GTP-binding protein N-terminal domain; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+DR   PROSITE; PS00905; GTP1_OBG; 1.
+DR   PROSITE; PS51883; OBG; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..350
+FT                   /note="GTPase Obg"
+FT                   /id="PRO_0000385802"
+FT   DOMAIN          1..158
+FT                   /note="Obg"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01231"
+FT   DOMAIN          159..339
+FT                   /note="OBG-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         165..172
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         172
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         190..194
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         192
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         212..215
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         280..283
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   BINDING         320..322
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+SQ   SEQUENCE   350 AA;  38384 MW;  DE37F70D42E1D504 CRC64;
+     MFIDSVKITL ASGDGGKGAV SFRREKHVPL GGPDGGDGGN GGDIIFVCDN NTHTLVNFKG
+     KRELRAQNGA GGMGRNKNGK KGENLELIVP EGTQVIDAQT NEILLDLTKE GQRELFLKGG
+     KGGLGNTHFK HATNQRPDYA QPGIKGESRL VRLELKLIAD VGLVGFPNVG KSTLISVVSN
+     AKPEIANYEF TTLTPKLGLV DVNEYNSFVM ADIPGIIEGA SGGKGLGLAF LKHIERTSFL
+     LFVLDPMRQM PLKEQFIVLR KELEKFSNEL FGRKFGIMIS KSDSVRLGEE FAEQIALNIN
+     ELDNYLKEIN NPQSFLIKVS SLEKTGLKEL KFMLLEEIKT LRNNKKNLTI
+//

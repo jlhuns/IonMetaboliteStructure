@@ -1,0 +1,87 @@
+ID   APT_BACCR               Reviewed;         170 AA.
+AC   Q817X3;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Adenine phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00004};
+DE            Short=APRT {ECO:0000255|HAMAP-Rule:MF_00004};
+DE            EC=2.4.2.7 {ECO:0000255|HAMAP-Rule:MF_00004};
+GN   Name=apt {ECO:0000255|HAMAP-Rule:MF_00004}; OrderedLocusNames=BC_4402;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes a salvage reaction resulting in the formation of
+CC       AMP, that is energically less costly than de novo synthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AMP + diphosphate = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         adenine; Xref=Rhea:RHEA:16609, ChEBI:CHEBI:16708, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58017, ChEBI:CHEBI:456215; EC=2.4.2.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00004};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via salvage pathway; AMP
+CC       from adenine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11315.1; -; Genomic_DNA.
+DR   RefSeq; NP_834114.1; NC_004722.1.
+DR   RefSeq; WP_000346215.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q817X3; -.
+DR   SMR; Q817X3; -.
+DR   STRING; 226900.BC_4402; -.
+DR   MetOSite; Q817X3; -.
+DR   GeneID; 67468703; -.
+DR   KEGG; bce:BC4402; -.
+DR   PATRIC; fig|226900.8.peg.4553; -.
+DR   HOGENOM; CLU_063339_3_0_9; -.
+DR   OrthoDB; 9803963at2; -.
+DR   UniPathway; UPA00588; UER00646.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003999; F:adenine phosphoribosyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006168; P:adenine salvage; IEA:InterPro.
+DR   GO; GO:0044209; P:AMP salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006166; P:purine ribonucleoside salvage; IEA:UniProtKB-KW.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   FunFam; 3.40.50.2020:FF:000004; Adenine phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_00004; Aden_phosphoribosyltr; 1.
+DR   InterPro; IPR005764; Ade_phspho_trans.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR050054; UPRTase/APRTase.
+DR   NCBIfam; TIGR01090; apt; 1.
+DR   PANTHER; PTHR32315; ADENINE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR32315:SF3; ADENINE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Glycosyltransferase; Purine salvage; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..170
+FT                   /note="Adenine phosphoribosyltransferase"
+FT                   /id="PRO_0000149347"
+SQ   SEQUENCE   170 AA;  18630 MW;  A491A98F47D58FF7 CRC64;
+     MDFKQHIAIV PDYPKEGIVF KDITPLMNDG KAYKAATDAI VEYAKERDID VVVGPEARGF
+     IIGCPVSYAL EVGFAPVRKL GKLPREVITV DYGKEYGKDV LTIHKDAIKP GQRVLITDDL
+     LATGGTIEAT IKLVEELGGV VAGIAFLVEL TYLDGRKMLD GYDVLVLEKY
+//

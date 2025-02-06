@@ -1,0 +1,96 @@
+ID   D8GRZ6_CLOLD            Unreviewed;       337 AA.
+AC   D8GRZ6;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=Phosphate acyltransferase {ECO:0000256|ARBA:ARBA00024069, ECO:0000256|HAMAP-Rule:MF_00019};
+DE            EC=2.3.1.274 {ECO:0000256|ARBA:ARBA00024069, ECO:0000256|HAMAP-Rule:MF_00019};
+DE   AltName: Full=Acyl-ACP phosphotransacylase {ECO:0000256|HAMAP-Rule:MF_00019};
+DE   AltName: Full=Acyl-[acyl-carrier-protein]--phosphate acyltransferase {ECO:0000256|HAMAP-Rule:MF_00019};
+DE   AltName: Full=Phosphate-acyl-ACP acyltransferase {ECO:0000256|HAMAP-Rule:MF_00019};
+GN   Name=plsX {ECO:0000256|HAMAP-Rule:MF_00019,
+GN   ECO:0000313|EMBL:ADK14349.1};
+GN   OrderedLocusNames=CLJU_c12810 {ECO:0000313|EMBL:ADK14349.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14349.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14349.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Catalyzes the reversible formation of acyl-phosphate (acyl-
+CC       PO(4)) from acyl-[acyl-carrier-protein] (acyl-ACP). This enzyme
+CC       utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA.
+CC       {ECO:0000256|HAMAP-Rule:MF_00019}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a fatty acyl-[ACP] + phosphate = an acyl phosphate + holo-
+CC         [ACP]; Xref=Rhea:RHEA:42292, Rhea:RHEA-COMP:9685, Rhea:RHEA-
+CC         COMP:14125, ChEBI:CHEBI:43474, ChEBI:CHEBI:59918, ChEBI:CHEBI:64479,
+CC         ChEBI:CHEBI:138651; EC=2.3.1.274;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001232, ECO:0000256|HAMAP-
+CC         Rule:MF_00019};
+CC   -!- PATHWAY: Lipid metabolism; phospholipid metabolism. {ECO:0000256|HAMAP-
+CC       Rule:MF_00019}.
+CC   -!- SUBUNIT: Homodimer. Probably interacts with PlsY.
+CC       {ECO:0000256|ARBA:ARBA00046608, ECO:0000256|HAMAP-Rule:MF_00019}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00019}.
+CC       Note=Associated with the membrane possibly through PlsY.
+CC       {ECO:0000256|HAMAP-Rule:MF_00019}.
+CC   -!- SIMILARITY: Belongs to the PlsX family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00019}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14349.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237946.1; NZ_LITS01000006.1.
+DR   AlphaFoldDB; D8GRZ6; -.
+DR   STRING; 748727.CLJU_c12810; -.
+DR   KEGG; clj:CLJU_c12810; -.
+DR   PATRIC; fig|748727.19.peg.3153; -.
+DR   eggNOG; COG0416; Bacteria.
+DR   HOGENOM; CLU_039379_1_1_9; -.
+DR   OrthoDB; 9806408at2; -.
+DR   UniPathway; UPA00085; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043811; F:phosphate:acyl-[acyl carrier protein] acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.718.10; Isopropylmalate Dehydrogenase; 1.
+DR   HAMAP; MF_00019; PlsX; 1.
+DR   InterPro; IPR003664; FA_synthesis.
+DR   InterPro; IPR012281; Phospholipid_synth_PlsX-like.
+DR   NCBIfam; TIGR00182; plsX; 1.
+DR   PANTHER; PTHR30100; FATTY ACID/PHOSPHOLIPID SYNTHESIS PROTEIN PLSX; 1.
+DR   PANTHER; PTHR30100:SF1; PHOSPHATE ACYLTRANSFERASE; 1.
+DR   Pfam; PF02504; FA_synthesis; 1.
+DR   PIRSF; PIRSF002465; Phsphlp_syn_PlsX; 1.
+DR   SUPFAM; SSF53659; Isocitrate/Isopropylmalate dehydrogenase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00019};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_00019};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_00019};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209,
+KW   ECO:0000256|HAMAP-Rule:MF_00019};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264, ECO:0000256|HAMAP-
+KW   Rule:MF_00019};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00019}.
+SQ   SEQUENCE   337 AA;  36320 MW;  1CA026F7EF0E4C17 CRC64;
+     MIIAVDGMGG DFAPCAVVEG VVEAVKKQNV NIIITGQKEQ IENELAKYNY PKDKIDILST
+     KEVITTGESP VMALRKKKDS SLVKALNLVK EGKADAVISA GSTGAFMAGS TLIVGRIRGV
+     DRVALAPIMP GKNGNFMVID AGANVDCKPQ YLQQFSLMGK IYFESILKVN NPSIGLINIG
+     EEEEKGNELA KSAYKLLKSM DFNFVGNVEP RDVTNGDVNV LVCDGVVGNT VLKMYEGVAL
+     NLFSMLREEV MKSFSSKLAA FILKPAFKSL KGKLDYTEYG GSPFLGCKGI CVKAHGSSNG
+     KAFKNAVMQA ISCYENNVVG KIKSEIEKIH NVESNNI
+//

@@ -1,0 +1,110 @@
+ID   E0RTE5_SPITD            Unreviewed;       324 AA.
+AC   E0RTE5;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   27-NOV-2024, entry version 70.
+DE   RecName: Full=Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase {ECO:0000256|HAMAP-Rule:MF_01147};
+DE            EC=2.5.1.145 {ECO:0000256|HAMAP-Rule:MF_01147};
+GN   Name=lgt {ECO:0000256|HAMAP-Rule:MF_01147,
+GN   ECO:0000313|EMBL:ADN01011.1};
+GN   OrderedLocusNames=STHERM_c00350 {ECO:0000313|EMBL:ADN01011.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01011.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01011.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Catalyzes the transfer of the diacylglyceryl group from
+CC       phosphatidylglycerol to the sulfhydryl group of the N-terminal cysteine
+CC       of a prolipoprotein, the first step in the formation of mature
+CC       lipoproteins. {ECO:0000256|HAMAP-Rule:MF_01147}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteinyl-[prolipoprotein] + a 1,2-diacyl-sn-glycero-3-
+CC         phospho-(1'-sn-glycerol) = an S-1,2-diacyl-sn-glyceryl-L-cysteinyl-
+CC         [prolipoprotein] + sn-glycerol 1-phosphate + H(+);
+CC         Xref=Rhea:RHEA:56712, Rhea:RHEA-COMP:14679, Rhea:RHEA-COMP:14680,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:57685,
+CC         ChEBI:CHEBI:64716, ChEBI:CHEBI:140658; EC=2.5.1.145;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01147};
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (diacylglyceryl
+CC       transfer). {ECO:0000256|HAMAP-Rule:MF_01147}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01147}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01147}.
+CC   -!- SIMILARITY: Belongs to the Lgt family. {ECO:0000256|ARBA:ARBA00007150,
+CC       ECO:0000256|HAMAP-Rule:MF_01147}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01011.1; -; Genomic_DNA.
+DR   RefSeq; WP_013312852.1; NC_014484.1.
+DR   AlphaFoldDB; E0RTE5; -.
+DR   PaxDb; 665571-STHERM_c00350; -.
+DR   KEGG; sta:STHERM_c00350; -.
+DR   eggNOG; COG0682; Bacteria.
+DR   HOGENOM; CLU_013386_1_0_12; -.
+DR   UniPathway; UPA00664; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008961; F:phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042158; P:lipoprotein biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01147; Lgt; 1.
+DR   InterPro; IPR001640; Lgt.
+DR   NCBIfam; TIGR00544; lgt; 1.
+DR   PANTHER; PTHR30589:SF0; PHOSPHATIDYLGLYCEROL--PROLIPOPROTEIN DIACYLGLYCERYL TRANSFERASE; 1.
+DR   PANTHER; PTHR30589; PROLIPOPROTEIN DIACYLGLYCERYL TRANSFERASE; 1.
+DR   Pfam; PF01790; LGT; 1.
+DR   PROSITE; PS01311; LGT; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01147};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01147};
+KW   Glycosyltransferase {ECO:0000313|EMBL:ADN01011.1};
+KW   Lipoprotein {ECO:0000313|EMBL:ADN01011.1};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01147};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01147, ECO:0000313|EMBL:ADN01011.1};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01147};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01147}.
+FT   TRANSMEM        20..42
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        54..77
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        106..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        241..259
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        279..307
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+FT   BINDING         149
+FT                   /ligand="a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-
+FT                   glycerol)"
+FT                   /ligand_id="ChEBI:CHEBI:64716"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01147"
+SQ   SEQUENCE   324 AA;  36983 MW;  0527A849CBC6BC69 CRC64;
+     MAYVFYPSWL SPEIIPGLPF RWYSLMYLVA FAIAYVLMAH QVRERRLPVT TDELLNFFFW
+     GIVGLLLGAR IFAALVYDPS GTYLRNPLLI FWPFDEHGRF VGLRGMSYHG GLIGGTLGVL
+     LYCLRHKKDV LEWGDMLTAS IPLGYTFGRL GNFINGELYG RVSALPWAMI FPEAERFPAK
+     ESWVQEFAQR TGFPLPSSNV LVNLPRHPSQ LYEAFFEGIV LWALLWFLVR PRRPFKGAVL
+     AWYLVGYGGF RFVLEYFRQP DAGIGFPLML EPSKANPHLL LSPFNFTTGQ ILSFFMVLAG
+     VILLLVLPRM QGRTRRKGTA SHTE
+//

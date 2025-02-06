@@ -1,0 +1,155 @@
+ID   PYRC_BACCR              Reviewed;         428 AA.
+AC   Q819S1;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Dihydroorotase {ECO:0000255|HAMAP-Rule:MF_00220};
+DE            Short=DHOase {ECO:0000255|HAMAP-Rule:MF_00220};
+DE            EC=3.5.2.3 {ECO:0000255|HAMAP-Rule:MF_00220};
+GN   Name=pyrC {ECO:0000255|HAMAP-Rule:MF_00220};
+GN   OrderedLocusNames=BC_3888;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the reversible cyclization of carbamoyl aspartate
+CC       to dihydroorotate. {ECO:0000255|HAMAP-Rule:MF_00220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + H2O = N-carbamoyl-L-aspartate + H(+);
+CC         Xref=Rhea:RHEA:24296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:32814; EC=3.5.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00220};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00220};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 3/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       DHOase family. Class I DHOase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10809.1; -; Genomic_DNA.
+DR   RefSeq; NP_833608.1; NC_004722.1.
+DR   RefSeq; WP_001108367.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819S1; -.
+DR   SMR; Q819S1; -.
+DR   STRING; 226900.BC_3888; -.
+DR   KEGG; bce:BC3888; -.
+DR   PATRIC; fig|226900.8.peg.4010; -.
+DR   HOGENOM; CLU_015572_1_0_9; -.
+DR   OrthoDB; 9765462at2; -.
+DR   UniPathway; UPA00070; UER00117.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004038; F:allantoinase activity; IBA:GO_Central.
+DR   GO; GO:0004151; F:dihydroorotase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006145; P:purine nucleobase catabolic process; IBA:GO_Central.
+DR   CDD; cd01317; DHOase_IIa; 1.
+DR   FunFam; 2.30.40.10:FF:000007; Dihydroorotase; 1.
+DR   FunFam; 3.20.20.140:FF:000025; Dihydroorotase; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   Gene3D; 2.30.40.10; Urease, subunit C, domain 1; 2.
+DR   HAMAP; MF_00220_B; PyrC_classI_B; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR004722; DHOase.
+DR   InterPro; IPR050138; DHOase/Allantoinase_Hydrolase.
+DR   InterPro; IPR002195; Dihydroorotase_CS.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   NCBIfam; TIGR00857; pyrC_multi; 1.
+DR   PANTHER; PTHR43668; ALLANTOINASE; 1.
+DR   PANTHER; PTHR43668:SF2; ALLANTOINASE; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; Composite domain of metallo-dependent hydrolases; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+DR   PROSITE; PS00482; DIHYDROOROTASE_1; 1.
+DR   PROSITE; PS00483; DIHYDROOROTASE_2; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Pyrimidine biosynthesis; Reference proteome;
+KW   Zinc.
+FT   CHAIN           1..428
+FT                   /note="Dihydroorotase"
+FT                   /id="PRO_0000325584"
+FT   ACT_SITE        304
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         59
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         61..63
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         61
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         93
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         151
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         151
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         178
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         231
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         277
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         304
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         308
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         322..323
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+SQ   SEQUENCE   428 AA;  46570 MW;  87DEA505A9E81F15 CRC64;
+     MNYLFKNGRY MNEEGKIVAT DLLVQDGKIA KVAENITADN AEVIDVNGKL IAPGLVDVHV
+     HLREPGGEHK ETIETGTLAA AKGGFTTICA MPNTRPVPDC REHMEDLQKR IEEKAHVNVL
+     PYGAITVRQA GSEMTDFETL KELGAFAFTD DGVGVQDASM MLAAMKRAAK LDMAVVAHCE
+     ENTLINKGCV HEGKFSEKHG LNGIPSVCES VHIARDILLA EAADCHYHVC HVSTKGSVRV
+     IRDAKRAGIK VTAEVTPHHL VLCEDDIPSA DPNFKMNPPL RGKEDHAALI EGLLDGTIDM
+     IATDHAPHTA EEKAQGIERA PFGITGFETA FPLLYTNLVK KGVITLEQLI QFLTEKPADT
+     FGLEAGRLKE GRAADITIID LEQEEEIDPT TFLSKGKNTP FAGWKCQGWP VMTIVGGKIA
+     WQKESALV
+//

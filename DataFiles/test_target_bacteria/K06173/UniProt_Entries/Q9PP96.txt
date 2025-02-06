@@ -1,0 +1,95 @@
+ID   TRUA_CAMJE              Reviewed;         241 AA.
+AC   Q9PP96; Q0PA63;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   24-JUL-2024, entry version 112.
+DE   RecName: Full=tRNA pseudouridine synthase A {ECO:0000255|HAMAP-Rule:MF_00171};
+DE            EC=5.4.99.12 {ECO:0000255|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA pseudouridine(38-40) synthase {ECO:0000255|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA pseudouridylate synthase I {ECO:0000255|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA-uridine isomerase I {ECO:0000255|HAMAP-Rule:MF_00171};
+GN   Name=truA {ECO:0000255|HAMAP-Rule:MF_00171}; OrderedLocusNames=Cj0827;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Formation of pseudouridine at positions 38, 39 and 40 in the
+CC       anticodon stem and loop of transfer RNAs. {ECO:0000255|HAMAP-
+CC       Rule:MF_00171}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(38/39/40) in tRNA = pseudouridine(38/39/40) in tRNA;
+CC         Xref=Rhea:RHEA:22376, Rhea:RHEA-COMP:10085, Rhea:RHEA-COMP:10087,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315; EC=5.4.99.12;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00171};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00171}.
+CC   -!- SIMILARITY: Belongs to the tRNA pseudouridine synthase TruA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00171}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34955.1; -; Genomic_DNA.
+DR   PIR; C81355; C81355.
+DR   RefSeq; WP_002852636.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344234.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PP96; -.
+DR   SMR; Q9PP96; -.
+DR   STRING; 192222.Cj0827; -.
+DR   PaxDb; 192222-Cj0827; -.
+DR   EnsemblBacteria; CAL34955; CAL34955; Cj0827.
+DR   GeneID; 904389; -.
+DR   KEGG; cje:Cj0827; -.
+DR   PATRIC; fig|192222.6.peg.815; -.
+DR   eggNOG; COG0101; Bacteria.
+DR   HOGENOM; CLU_014673_0_1_7; -.
+DR   OrthoDB; 9811823at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0160147; F:tRNA pseudouridine(38-40) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031119; P:tRNA pseudouridine synthesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd02570; PseudoU_synth_EcTruA; 1.
+DR   Gene3D; 3.30.70.660; Pseudouridine synthase I, catalytic domain, C-terminal subdomain; 1.
+DR   Gene3D; 3.30.70.580; Pseudouridine synthase I, catalytic domain, N-terminal subdomain; 1.
+DR   HAMAP; MF_00171; TruA; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR001406; PsdUridine_synth_TruA.
+DR   InterPro; IPR020097; PsdUridine_synth_TruA_a/b_dom.
+DR   InterPro; IPR020095; PsdUridine_synth_TruA_C.
+DR   InterPro; IPR020094; TruA/RsuA/RluB/E/F_N.
+DR   NCBIfam; TIGR00071; hisT_truA; 1.
+DR   PANTHER; PTHR11142; PSEUDOURIDYLATE SYNTHASE; 1.
+DR   PANTHER; PTHR11142:SF0; TRNA PSEUDOURIDINE SYNTHASE-LIKE 1; 1.
+DR   Pfam; PF01416; PseudoU_synth_1; 2.
+DR   PIRSF; PIRSF001430; tRNA_psdUrid_synth; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Reference proteome; tRNA processing.
+FT   CHAIN           1..241
+FT                   /note="tRNA pseudouridine synthase A"
+FT                   /id="PRO_0000057354"
+FT   ACT_SITE        51
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00171"
+FT   BINDING         110
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00171"
+SQ   SEQUENCE   241 AA;  27587 MW;  682DCB4ABF1FC062 CRC64;
+     MMKIKIIFSY DGSAFLGSAT QPHKKGVQDA LSGALSHLGI FSPLLMASRT DKGVHASYAV
+     ASVECGDYFT NLEYLQKQLN KFSHPFIHIK KIEKVKDDFE VRFDVKSREY RYIFSHASYS
+     PFMASYVHFY PKFDLGKANE LLGFFVGKKD LKFFCKSGGD NKTTLREIFI ARAYAYKDFS
+     IFHFKANGFL RGQIRLSVAS VLKVLEGKMS EKELKEQIEA KKQYNHFLAP PNGLYLSRIC
+     Y
+//

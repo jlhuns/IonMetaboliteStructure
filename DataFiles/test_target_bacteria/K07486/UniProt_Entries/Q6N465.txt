@@ -1,0 +1,83 @@
+ID   Q6N465_RHOPA            Unreviewed;       319 AA.
+AC   Q6N465;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   SubName: Full=Transposase {ECO:0000313|EMBL:CAE28916.1, ECO:0000313|EMBL:WCL92086.1};
+DE   SubName: Full=Possible transposase {ECO:0000313|EMBL:CAE27378.1};
+GN   OrderedLocusNames=RPA1937 {ECO:0000313|EMBL:CAE27378.1}, RPA3475
+GN   {ECO:0000313|EMBL:CAE28916.1};
+GN   ORFNames=TX73_009985 {ECO:0000313|EMBL:WCL92086.1}, TX73_017985
+GN   {ECO:0000313|EMBL:WCL93646.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28916.1};
+RN   [1] {ECO:0000313|EMBL:WCL92086.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92086.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28916.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28916.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92086.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92086.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572599; CAE27378.1; -; Genomic_DNA.
+DR   EMBL; BX572604; CAE28916.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92086.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93646.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157492.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1937; -.
+DR   GeneID; 66894571; -.
+DR   KEGG; rpa:TX73_009985; -.
+DR   KEGG; rpa:TX73_017985; -.
+DR   eggNOG; COG3547; Bacteria.
+DR   HOGENOM; CLU_036902_5_1_5; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004803; F:transposase activity; IEA:InterPro.
+DR   GO; GO:0006313; P:DNA transposition; IEA:InterPro.
+DR   InterPro; IPR002525; Transp_IS110-like_N.
+DR   InterPro; IPR047650; Transpos_IS110.
+DR   InterPro; IPR003346; Transposase_20.
+DR   NCBIfam; NF033542; transpos_IS110; 1.
+DR   PANTHER; PTHR33055:SF13; TRANSPOSASE; 1.
+DR   PANTHER; PTHR33055; TRANSPOSASE FOR INSERTION SEQUENCE ELEMENT IS1111A; 1.
+DR   Pfam; PF01548; DEDD_Tnp_IS110; 1.
+DR   Pfam; PF02371; Transposase_20; 1.
+PE   4: Predicted;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          11..153
+FT                   /note="Transposase IS110-like N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01548"
+FT   DOMAIN          195..277
+FT                   /note="Transposase IS116/IS110/IS902 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02371"
+SQ   SEQUENCE   319 AA;  34324 MW;  4CE11353A63EA037 CRC64;
+     MTIAVPLAVA AGVDAGQRFL DVALAPSGQT FRMPNLAEGI AEIIARLERS GVRRVVLEAI
+     GPYAEPLVKA LSVAGFEVGI VNPRRIKAFR EAEGSRAKTD RLDARLIARF ALTMPETLRP
+     LPTDTQLELK ALSLRRRQLT EMIAMEKTRM KQVRGTLLLD SHRAAIAALS AQCQAIEAEL
+     AKRIGDDAEL RRVLHILKSI PGIGERVATL LITDLPELGQ RDRKAIASLA GLAPHVSQSG
+     AAPPRAAIAG GRPCVRAALY MAALVAARHH PKLRDDYNAL RLQGKPGKVA LIAIARKLLV
+     TANALVKADT PYQGKTLDT
+//

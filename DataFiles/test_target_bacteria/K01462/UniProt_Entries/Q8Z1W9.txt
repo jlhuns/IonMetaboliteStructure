@@ -1,0 +1,117 @@
+ID   DEF_SALTI               Reviewed;         169 AA.
+AC   Q8Z1W9;
+DT   19-SEP-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=Peptide deformylase {ECO:0000255|HAMAP-Rule:MF_00163};
+DE            Short=PDF {ECO:0000255|HAMAP-Rule:MF_00163};
+DE            EC=3.5.1.88 {ECO:0000255|HAMAP-Rule:MF_00163};
+DE   AltName: Full=Polypeptide deformylase {ECO:0000255|HAMAP-Rule:MF_00163};
+GN   Name=def {ECO:0000255|HAMAP-Rule:MF_00163}; Synonyms=fms;
+GN   OrderedLocusNames=STY4391, t4098;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Removes the formyl group from the N-terminal Met of newly
+CC       synthesized proteins. Requires at least a dipeptide for an efficient
+CC       rate of reaction. N-terminal L-methionine is a prerequisite for
+CC       activity but the enzyme has broad specificity at other positions.
+CC       {ECO:0000255|HAMAP-Rule:MF_00163}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-terminal N-formyl-L-methionyl-[peptide] + H2O = N-terminal
+CC         L-methionyl-[peptide] + formate; Xref=Rhea:RHEA:24420, Rhea:RHEA-
+CC         COMP:10639, Rhea:RHEA-COMP:10640, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:49298, ChEBI:CHEBI:64731; EC=3.5.1.88;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00163};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00163};
+CC       Note=Binds 1 Fe(2+) ion. {ECO:0000255|HAMAP-Rule:MF_00163};
+CC   -!- SIMILARITY: Belongs to the polypeptide deformylase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00163}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09179.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71565.1; -; Genomic_DNA.
+DR   RefSeq; NP_458493.1; NC_003198.1.
+DR   RefSeq; WP_000114992.1; NZ_WSUR01000046.1.
+DR   AlphaFoldDB; Q8Z1W9; -.
+DR   SMR; Q8Z1W9; -.
+DR   STRING; 220341.gene:17588219; -.
+DR   KEGG; stt:t4098; -.
+DR   KEGG; sty:STY4391; -.
+DR   PATRIC; fig|220341.7.peg.4487; -.
+DR   eggNOG; COG0242; Bacteria.
+DR   HOGENOM; CLU_061901_2_1_6; -.
+DR   OMA; VCIQHEI; -.
+DR   OrthoDB; 9804313at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042586; F:peptide deformylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043686; P:co-translational protein modification; IEA:TreeGrafter.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00487; Pep_deformylase; 1.
+DR   FunFam; 3.90.45.10:FF:000001; Peptide deformylase; 1.
+DR   Gene3D; 3.90.45.10; Peptide deformylase; 1.
+DR   HAMAP; MF_00163; Pep_deformylase; 1.
+DR   InterPro; IPR023635; Peptide_deformylase.
+DR   InterPro; IPR036821; Peptide_deformylase_sf.
+DR   NCBIfam; TIGR00079; pept_deformyl; 1.
+DR   PANTHER; PTHR10458; PEPTIDE DEFORMYLASE; 1.
+DR   PANTHER; PTHR10458:SF21; PEPTIDE DEFORMYLASE; 1.
+DR   Pfam; PF01327; Pep_deformylase; 1.
+DR   PIRSF; PIRSF004749; Pep_def; 1.
+DR   PRINTS; PR01576; PDEFORMYLASE.
+DR   SUPFAM; SSF56420; Peptide deformylase; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Iron; Metal-binding; Protein biosynthesis.
+FT   CHAIN           1..169
+FT                   /note="Peptide deformylase"
+FT                   /id="PRO_0000082832"
+FT   ACT_SITE        134
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00163"
+FT   BINDING         91
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00163"
+FT   BINDING         133
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00163"
+FT   BINDING         137
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00163"
+SQ   SEQUENCE   169 AA;  19281 MW;  618BA12F6BF02ADE CRC64;
+     MSVLQVLHIP DERLRKVAKP VEEVNAEIQR IVDDMFETMY AEEGIGLAAT QVDIHQRIIV
+     IDVSENRDER LVLINPELLE KSGETGIEEG CLSIPEQRAL VPRAEKVKIR ALDRNGNPFE
+     LEADGLLAIC IQHEMDHLVG KLFIDYLSPL KQQRIRQKVE KLDRLNARA
+//

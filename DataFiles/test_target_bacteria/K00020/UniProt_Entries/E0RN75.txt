@@ -1,0 +1,79 @@
+ID   E0RN75_SPITD            Unreviewed;       283 AA.
+AC   E0RN75;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   SubName: Full=Putative 3-hydroxyisobutyrate dehydrogenase {ECO:0000313|EMBL:ADN02544.1};
+DE            EC=1.1.1.31 {ECO:0000313|EMBL:ADN02544.1};
+GN   OrderedLocusNames=STHERM_c16040 {ECO:0000313|EMBL:ADN02544.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02544.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02544.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02544.1; -; Genomic_DNA.
+DR   RefSeq; WP_013314383.1; NC_014484.1.
+DR   AlphaFoldDB; E0RN75; -.
+DR   PaxDb; 665571-STHERM_c16040; -.
+DR   KEGG; sta:STHERM_c16040; -.
+DR   eggNOG; COG2084; Bacteria.
+DR   HOGENOM; CLU_035117_0_6_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0008442; F:3-hydroxyisobutyrate dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0016054; P:organic acid catabolic process; IEA:UniProtKB-ARBA.
+DR   Gene3D; 1.10.1040.10; N-(1-d-carboxylethyl)-l-norvaline Dehydrogenase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR006115; 6PGDH_NADP-bd.
+DR   InterPro; IPR029154; HIBADH-like_NADP-bd.
+DR   InterPro; IPR015815; HIBADH-related.
+DR   InterPro; IPR051265; HIBADH-related_NP60_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR43580:SF2; CYTOKINE-LIKE NUCLEAR FACTOR N-PAC; 1.
+DR   PANTHER; PTHR43580; OXIDOREDUCTASE GLYR1-RELATED; 1.
+DR   Pfam; PF14833; NAD_binding_11; 1.
+DR   Pfam; PF03446; NAD_binding_2; 1.
+DR   PIRSF; PIRSF000103; HIBADH; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   4: Predicted;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000313|EMBL:ADN02544.1}.
+FT   DOMAIN          2..159
+FT                   /note="6-phosphogluconate dehydrogenase NADP-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF03446"
+FT   DOMAIN          162..281
+FT                   /note="3-hydroxyisobutyrate dehydrogenase-like NAD-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF14833"
+FT   ACT_SITE        168
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000103-1"
+SQ   SEQUENCE   283 AA;  30254 MW;  8CBDBE143D4CBF5D CRC64;
+     MKIGFIGLGS LGSAIAGRLA SCGHELLVWN RTREKAEASG FPVADSPADL VSRSEVVCLC
+     LFDSTAVRDV LSGEDGICSV DLSGKVVVDF TTNHYKEVTS FYDLCRARGG EYLESPVLGS
+     GVPASKGELT VVVSGKEDAF KRVEAPLLSC IGRHIFYLGE PGLASKMKVV NNLTLGVFMA
+     AIAEALAVGE AAGISRQTVL DILSVGGGES LVLRAKKDRL VKEDFSTHFS NALIYKDLHC
+     LEDLAYELKK SVPTAAAAKE LFAQTFTRGC AHEDFSSVWK VVR
+//

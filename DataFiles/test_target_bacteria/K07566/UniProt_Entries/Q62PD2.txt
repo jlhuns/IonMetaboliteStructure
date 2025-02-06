@@ -1,0 +1,151 @@
+ID   Q62PD2_BACLD            Unreviewed;       347 AA.
+AC   Q62PD2;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Threonylcarbamoyl-AMP synthase {ECO:0000256|ARBA:ARBA00015492, ECO:0000256|PIRNR:PIRNR004930};
+DE            Short=TC-AMP synthase {ECO:0000256|PIRNR:PIRNR004930};
+DE            EC=2.7.7.87 {ECO:0000256|ARBA:ARBA00012584, ECO:0000256|PIRNR:PIRNR004930};
+DE   AltName: Full=L-threonylcarbamoyladenylate synthase {ECO:0000256|ARBA:ARBA00029774, ECO:0000256|PIRNR:PIRNR004930};
+GN   Name=ywlC {ECO:0000313|EMBL:AAU25379.1};
+GN   OrderedLocusNames=BL03986 {ECO:0000313|EMBL:AAU25379.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25379.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25379.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. {ECO:0000256|PIRNR:PIRNR004930}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine + hydrogencarbonate + ATP = L-
+CC         threonylcarbamoyladenylate + diphosphate + H2O; Xref=Rhea:RHEA:36407,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:73682; EC=2.7.7.87;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048366,
+CC         ECO:0000256|PIRNR:PIRNR004930};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|PIRNR:PIRNR004930}.
+CC   -!- SIMILARITY: Belongs to the SUA5 family. {ECO:0000256|ARBA:ARBA00007663,
+CC       ECO:0000256|PIRNR:PIRNR004930}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25379.1; -; Genomic_DNA.
+DR   RefSeq; WP_009329761.1; NC_006322.1.
+DR   AlphaFoldDB; Q62PD2; -.
+DR   STRING; 279010.BL03986; -.
+DR   GeneID; 66214113; -.
+DR   KEGG; bli:BL03986; -.
+DR   PATRIC; fig|279010.13.peg.4009; -.
+DR   eggNOG; COG0009; Bacteria.
+DR   HOGENOM; CLU_031397_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003725; F:double-stranded RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061710; F:L-threonylcarbamoyladenylate synthase; IEA:UniProtKB-EC.
+DR   GO; GO:0000049; F:tRNA binding; IEA:TreeGrafter.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:TreeGrafter.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   FunFam; 3.40.50.11030:FF:000001; Threonylcarbamoyl-AMP synthase; 1.
+DR   FunFam; 3.90.870.10:FF:000008; Threonylcarbamoyl-AMP synthase; 1.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   Gene3D; 3.40.50.11030; Threonylcarbamoyl-AMP synthase, C-terminal domain; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR006070; Sua5-like_dom.
+DR   InterPro; IPR038385; Sua5/YwlC_C.
+DR   InterPro; IPR005145; Sua5_C.
+DR   InterPro; IPR010923; T(6)A37_SUA5.
+DR   InterPro; IPR050156; TC-AMP_synthase_SUA5.
+DR   NCBIfam; TIGR00057; L-threonylcarbamoyladenylate synthase; 1.
+DR   PANTHER; PTHR17490; SUA5; 1.
+DR   PANTHER; PTHR17490:SF16; THREONYLCARBAMOYL-AMP SYNTHASE; 1.
+DR   Pfam; PF03481; Sua5_C; 1.
+DR   Pfam; PF01300; Sua5_yciO_yrdC; 1.
+DR   PIRSF; PIRSF004930; Tln_factor_SUA5; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+DR   PROSITE; PS51163; YRDC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRNR:PIRNR004930};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|PIRNR:PIRNR004930};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRNR:PIRNR004930};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|PIRNR:PIRNR004930};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR004930};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694,
+KW   ECO:0000256|PIRNR:PIRNR004930}.
+FT   DOMAIN          18..205
+FT                   /note="YrdC-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51163"
+FT   BINDING         40
+FT                   /ligand="L-threonine"
+FT                   /ligand_id="ChEBI:CHEBI:57926"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         63
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         67
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         72
+FT                   /ligand="L-threonine"
+FT                   /ligand_id="ChEBI:CHEBI:57926"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         123
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         127
+FT                   /ligand="L-threonine"
+FT                   /ligand_id="ChEBI:CHEBI:57926"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         147
+FT                   /ligand="L-threonine"
+FT                   /ligand_id="ChEBI:CHEBI:57926"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         149
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         157
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         187
+FT                   /ligand="L-threonine"
+FT                   /ligand_id="ChEBI:CHEBI:57926"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         201
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+FT   BINDING         240
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004930-1"
+SQ   SEQUENCE   347 AA;  37359 MW;  5C227EC139F3A4C7 CRC64;
+     MKTKVWTVDV KRDLSTNCPQ IAQAARLLQQ NETVAFPTET VYGLGANAKH SEAVAKIYEA
+     KGRPSDNPLI VHIAEIEQLA EFAEVDSPQA EMLMKRFWPG PLTLVLPCKP GVLSTRVTAG
+     LDTVAVRMPD HPVALELIRQ AGVPVAAPSA NLSGKPSPTK AEHVVNDLNG RIAGVVDGGP
+     TGVGVESTVV SCTGEIPVIL RPGGVTKEQL EEAAGPVLID QGLTDEKKAP MSPGMKYTHY
+     APEAPLAIVN GGVEDIQRLI DQYQKDGMKV GVLTTEERAD VYQADAVRIC GRRDRLETVA
+     AGLYDVLRSF DEERLDFIFA ESFPEEGVGR AIMNRLLKAA GHRVIEA
+//

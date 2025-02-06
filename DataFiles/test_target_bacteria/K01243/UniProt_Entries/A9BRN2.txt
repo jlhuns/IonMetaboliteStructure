@@ -1,0 +1,78 @@
+ID   A9BRN2_DELAS            Unreviewed;       251 AA.
+AC   A9BRN2;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   29-MAY-2024, entry version 87.
+DE   RecName: Full=adenosylhomocysteine nucleosidase {ECO:0000256|ARBA:ARBA00011974};
+DE            EC=3.2.2.9 {ECO:0000256|ARBA:ARBA00011974};
+GN   OrderedLocusNames=Daci_0953 {ECO:0000313|EMBL:ABX33599.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33599.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33599.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; S-methyl-5-thio-alpha-D-ribose 1-phosphate from S-methyl-5'-
+CC       thioadenosine (hydrolase route): step 1/2.
+CC       {ECO:0000256|ARBA:ARBA00004945}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33599.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202885.1; NC_010002.1.
+DR   AlphaFoldDB; A9BRN2; -.
+DR   STRING; 398578.Daci_0953; -.
+DR   GeneID; 24115316; -.
+DR   KEGG; dac:Daci_0953; -.
+DR   eggNOG; COG0775; Bacteria.
+DR   HOGENOM; CLU_031248_2_0_4; -.
+DR   UniPathway; UPA00904; UER00871.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008782; F:adenosylhomocysteine nucleosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008930; F:methylthioadenosine nucleosidase activity; IEA:InterPro.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:TreeGrafter.
+DR   GO; GO:0009164; P:nucleoside catabolic process; IEA:InterPro.
+DR   CDD; cd09008; MTAN; 1.
+DR   Gene3D; 3.40.50.1580; Nucleoside phosphorylase domain; 1.
+DR   InterPro; IPR010049; MTA_SAH_Nsdase.
+DR   InterPro; IPR000845; Nucleoside_phosphorylase_d.
+DR   InterPro; IPR035994; Nucleoside_phosphorylase_sf.
+DR   NCBIfam; TIGR01704; MTA_SAH-Nsdase; 1.
+DR   PANTHER; PTHR46832; 5'-METHYLTHIOADENOSINE/S-ADENOSYLHOMOCYSTEINE NUCLEOSIDASE; 1.
+DR   PANTHER; PTHR46832:SF1; 5'-METHYLTHIOADENOSINE_S-ADENOSYLHOMOCYSTEINE NUCLEOSIDASE; 1.
+DR   Pfam; PF01048; PNP_UDP_1; 1.
+DR   SUPFAM; SSF53167; Purine and uridine phosphorylases; 1.
+PE   4: Predicted;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Glycosidase {ECO:0000313|EMBL:ABX33599.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ABX33599.1};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          2..247
+FT                   /note="Nucleoside phosphorylase"
+FT                   /evidence="ECO:0000259|Pfam:PF01048"
+SQ   SEQUENCE   251 AA;  26199 MW;  8C1F5AB602AD5AAA CRC64;
+     MTIAILSALP QEQEGLVHAL SDAQGTAHAG RMFWRGRLHG HDVVCALSGI GKVAAATTAT
+     ALIERFGVRR IAFTGVAGGL GEGVRVGDVV VADEYLQHDL DASPIFPRWE MPGYGRTRLP
+     CDPEMTAALL AAAQACVAEA GEDLRAAHAT TAPRAHQGLI ASGDQFVGTA GASSALAQGL
+     RAAGHEVLAV EMEGAAVAQA CLDYGVPFAA MRTVSDRADD SAHVDFAEFV RVVASRYALR
+     VVDGFLRRLA V
+//

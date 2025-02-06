@@ -1,0 +1,166 @@
+ID   A0A1P8F936_9CHLR        Unreviewed;       819 AA.
+AC   A0A1P8F936;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 38.
+DE   RecName: Full=Phenylalanine--tRNA ligase beta subunit {ECO:0000256|HAMAP-Rule:MF_00283};
+DE            EC=6.1.1.20 {ECO:0000256|HAMAP-Rule:MF_00283};
+DE   AltName: Full=Phenylalanyl-tRNA synthetase beta subunit {ECO:0000256|HAMAP-Rule:MF_00283};
+DE            Short=PheRS {ECO:0000256|HAMAP-Rule:MF_00283};
+GN   Name=pheT {ECO:0000256|HAMAP-Rule:MF_00283,
+GN   ECO:0000313|EMBL:APV44953.1};
+GN   ORFNames=Dform_01632 {ECO:0000313|EMBL:APV44953.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44953.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Phe) + L-phenylalanine + ATP = L-phenylalanyl-tRNA(Phe) +
+CC         AMP + diphosphate + H(+); Xref=Rhea:RHEA:19413, Rhea:RHEA-COMP:9668,
+CC         Rhea:RHEA-COMP:9699, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58095, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78531, ChEBI:CHEBI:456215; EC=6.1.1.20;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049255, ECO:0000256|HAMAP-
+CC         Rule:MF_00283};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00283};
+CC       Note=Binds 2 magnesium ions per tetramer. {ECO:0000256|HAMAP-
+CC       Rule:MF_00283};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000256|ARBA:ARBA00011209, ECO:0000256|HAMAP-Rule:MF_00283}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00283}.
+CC   -!- SIMILARITY: Belongs to the phenylalanyl-tRNA synthetase beta subunit
+CC       family. Type 1 subfamily. {ECO:0000256|ARBA:ARBA00008653,
+CC       ECO:0000256|HAMAP-Rule:MF_00283}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44953.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004562.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F936; -.
+DR   STRING; 1839801.Dform_01632; -.
+DR   KEGG; dfo:Dform_01632; -.
+DR   OrthoDB; 9805455at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0009328; C:phenylalanine-tRNA ligase complex; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004826; F:phenylalanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006432; P:phenylalanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00769; PheRS_beta_core; 1.
+DR   CDD; cd02796; tRNA_bind_bactPheRS; 1.
+DR   FunFam; 2.40.50.140:FF:000045; Phenylalanine--tRNA ligase beta subunit; 1.
+DR   FunFam; 3.30.70.380:FF:000001; Phenylalanine--tRNA ligase beta subunit; 1.
+DR   FunFam; 3.50.40.10:FF:000001; Phenylalanine--tRNA ligase beta subunit; 1.
+DR   Gene3D; 3.30.56.10; -; 2.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.70.380; Ferrodoxin-fold anticodon-binding domain; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   Gene3D; 3.50.40.10; Phenylalanyl-trna Synthetase, Chain B, domain 3; 1.
+DR   HAMAP; MF_00283; Phe_tRNA_synth_beta1; 1.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR005146; B3/B4_tRNA-bd.
+DR   InterPro; IPR009061; DNA-bd_dom_put_sf.
+DR   InterPro; IPR005121; Fdx_antiC-bd.
+DR   InterPro; IPR036690; Fdx_antiC-bd_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR045060; Phe-tRNA-ligase_IIc_bsu.
+DR   InterPro; IPR004532; Phe-tRNA-ligase_IIc_bsu_bact.
+DR   InterPro; IPR020825; Phe-tRNA_synthase-like_B3/B4.
+DR   InterPro; IPR041616; PheRS_beta_core.
+DR   InterPro; IPR002547; tRNA-bd_dom.
+DR   InterPro; IPR033714; tRNA_bind_bactPheRS.
+DR   InterPro; IPR005147; tRNA_synthase_B5-dom.
+DR   NCBIfam; TIGR00472; pheT_bact; 1.
+DR   PANTHER; PTHR10947:SF0; PHENYLALANINE--TRNA LIGASE BETA SUBUNIT; 1.
+DR   PANTHER; PTHR10947; PHENYLALANYL-TRNA SYNTHETASE BETA CHAIN AND LEUCINE-RICH REPEAT-CONTAINING PROTEIN 47; 1.
+DR   Pfam; PF03483; B3_4; 1.
+DR   Pfam; PF03484; B5; 1.
+DR   Pfam; PF03147; FDX-ACB; 1.
+DR   Pfam; PF01588; tRNA_bind; 1.
+DR   Pfam; PF17759; tRNA_synthFbeta; 1.
+DR   SMART; SM00873; B3_4; 1.
+DR   SMART; SM00874; B5; 1.
+DR   SMART; SM00896; FDX-ACB; 1.
+DR   SUPFAM; SSF54991; Anticodon-binding domain of PheRS; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF56037; PheT/TilS domain; 1.
+DR   SUPFAM; SSF46955; Putative DNA-binding domain; 1.
+DR   PROSITE; PS51483; B5; 1.
+DR   PROSITE; PS51447; FDX_ACB; 1.
+DR   PROSITE; PS50886; TRBD; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00283};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00283}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00283};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00283};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00283};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00283};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00283};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00283}; Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|PROSITE-
+KW   ProRule:PRU00209};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555, ECO:0000256|PROSITE-
+KW   ProRule:PRU00209}.
+FT   DOMAIN          39..152
+FT                   /note="TRNA-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50886"
+FT   DOMAIN          413..500
+FT                   /note="B5"
+FT                   /evidence="ECO:0000259|PROSITE:PS51483"
+FT   DOMAIN          727..818
+FT                   /note="FDX-ACB"
+FT                   /evidence="ECO:0000259|PROSITE:PS51447"
+FT   BINDING         478
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with alpha subunit"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00283"
+FT   BINDING         484
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with alpha subunit"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00283"
+FT   BINDING         487
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with alpha subunit"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00283"
+FT   BINDING         488
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with alpha subunit"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00283"
+SQ   SEQUENCE   819 AA;  89357 MW;  0DDBEF26680DD5C4 CRC64;
+     MKAPISWLKE YVDINIPAEE VAEKLTAAGN EVSGISSTVP AWEGVVVAEV LSVEPHPNAD
+     RLRLVTVNTG SEQPKVVCGA PNVAVGKKVA FAGIGTKLVD GHTGQPMELK AAVIRGVESK
+     GMVLSERELG ISDRHEGILE LPSEAVIGTK LADLLGDQVL ELDITPNRVD CMSITGIARE
+     IFAVTVSKDI PQMEIKSITM PDTAYEEKGP DISSLLSVTI DAPDLCPRYT AAVVKDVKIA
+     ESPDWLKKRL TAVGMRPINN IVDITNYVMM EYGQPMHAFD MSKIAGGKIN VRRAAEGEKF
+     VTLDGEERIL SGDTLMIADG EKAVAIAGVM GGANSEVSAE TKDIILESAN FNSTGIHHAS
+     HRLKLGSEAS MRFERNLNPE LAMHALKRAV QLILQICGGQ AATGLINIYP GKKTRLGVQV
+     PASRFSLVLG ADLGYDKILR AFKALGIEFY WETVDEAEYG TGGETQFLRV YSPWWRTDLN
+     IPEDMIEEVA RIYGYDNLPV RPLSGDIPKR VGPPILAFKK LWRIALAGFG FQEMMSLSLS
+     SFDALERTTS DGKLTAEPVK LLNPMTSEQE CLRTNLRAPL LTAVSSNRRF EEGGFRFFEV
+     GRAYHSKPGS LPAEPEMVCG VIAGEAEPAG WQQGKRPFDF YDAKGLLETI LGRMNLPYTL
+     EPGNDSGLRP GHQAQISVAG VTFGVFGEVH PKVLKNFDIE EKAFLFEINL TSLMPKVRPG
+     RSYQPLPKYP AVMRDIALVL DESVTHKQVS DILANFSLLK EVRLFDVYSG KQVPDGKKSL
+     AYRLSFQSPA ATLTDNEVDK VMAEIVSTLM SQLGATLRA
+//

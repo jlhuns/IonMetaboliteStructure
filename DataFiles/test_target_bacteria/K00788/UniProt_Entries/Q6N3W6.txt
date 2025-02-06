@@ -1,0 +1,120 @@
+ID   Q6N3W6_RHOPA            Unreviewed;       202 AA.
+AC   Q6N3W6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Thiamine-phosphate synthase {ECO:0000256|RuleBase:RU003826};
+DE            EC=2.5.1.3 {ECO:0000256|RuleBase:RU003826};
+DE   AltName: Full=Thiamine-phosphate pyrophosphorylase {ECO:0000256|RuleBase:RU003826};
+GN   Name=thiE {ECO:0000313|EMBL:CAE29017.1};
+GN   OrderedLocusNames=RPA3576 {ECO:0000313|EMBL:CAE29017.1};
+GN   ORFNames=TX73_018535 {ECO:0000313|EMBL:WCL93752.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29017.1};
+RN   [1] {ECO:0000313|EMBL:WCL93752.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93752.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29017.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29017.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93752.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93752.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate + 4-amino-2-
+CC         methyl-5-(diphosphooxymethyl)pyrimidine + 2 H(+) = thiamine phosphate
+CC         + CO2 + diphosphate; Xref=Rhea:RHEA:47848, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:33019, ChEBI:CHEBI:37575,
+CC         ChEBI:CHEBI:57841, ChEBI:CHEBI:62890; EC=2.5.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047851,
+CC         ECO:0000256|RuleBase:RU003826};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl
+CC         phosphate + 4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine + 2
+CC         H(+) = thiamine phosphate + CO2 + diphosphate; Xref=Rhea:RHEA:47844,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37575, ChEBI:CHEBI:57841, ChEBI:CHEBI:62899; EC=2.5.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047883,
+CC         ECO:0000256|RuleBase:RU003826};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-methyl-5-(2-phosphooxyethyl)-thiazole + 4-amino-2-methyl-5-
+CC         (diphosphooxymethyl)pyrimidine + H(+) = thiamine phosphate +
+CC         diphosphate; Xref=Rhea:RHEA:22328, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37575, ChEBI:CHEBI:57841,
+CC         ChEBI:CHEBI:58296; EC=2.5.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047334,
+CC         ECO:0000256|RuleBase:RU003826};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis;
+CC       thiamine phosphate from 4-amino-2-methyl-5-diphosphomethylpyrimidine
+CC       and 4-methyl-5-(2-phosphoethyl)-thiazole: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005165}.
+CC   -!- SIMILARITY: Belongs to the thiamine-phosphate synthase family.
+CC       {ECO:0000256|RuleBase:RU003826}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572604; CAE29017.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93752.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159116.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3576; -.
+DR   GeneID; 66894679; -.
+DR   KEGG; rpa:TX73_018535; -.
+DR   eggNOG; COG0352; Bacteria.
+DR   HOGENOM; CLU_018272_3_3_5; -.
+DR   PhylomeDB; Q6N3W6; -.
+DR   UniPathway; UPA00060; UER00141.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004789; F:thiamine-phosphate diphosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00564; TMP_TenI; 1.
+DR   FunFam; 3.20.20.70:FF:000064; Thiamine-phosphate synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR036206; ThiamineP_synth_sf.
+DR   InterPro; IPR022998; ThiamineP_synth_TenI.
+DR   InterPro; IPR034291; TMP_synthase.
+DR   NCBIfam; TIGR00693; thiE; 1.
+DR   PANTHER; PTHR20857; THIAMINE-PHOSPHATE PYROPHOSPHORYLASE; 1.
+DR   PANTHER; PTHR20857:SF15; THIAMINE-PHOSPHATE SYNTHASE; 1.
+DR   Pfam; PF02581; TMP-TENI; 1.
+DR   SUPFAM; SSF51391; Thiamin phosphate synthase; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Thiamine biosynthesis {ECO:0000256|ARBA:ARBA00022977,
+KW   ECO:0000256|RuleBase:RU003826};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003826}.
+FT   DOMAIN          13..181
+FT                   /note="Thiamine phosphate synthase/TenI"
+FT                   /evidence="ECO:0000259|Pfam:PF02581"
+SQ   SEQUENCE   202 AA;  21730 MW;  682ECD8D698ED10E CRC64;
+     MPYPDRFYPV VDSIAWVKRL AALGVGTVQL RAKDLDDGAA LQLVTDALAA VKDTPTKLII
+     NDYWRAAIVA GAQHLHLGQE DLAEADLHEI KSAGLTLGLS THDDAELETA LAAEPDYIAL
+     GPIFPTTLKS MRFAPQGIPK ITEWKKRVGN IPLVAIGGIK LEQAEEIFAA GADSIAVVSD
+     VTQNPDPDAR VRAWLDFVAE KA
+//

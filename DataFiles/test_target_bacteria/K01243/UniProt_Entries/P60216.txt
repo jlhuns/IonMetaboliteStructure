@@ -1,0 +1,147 @@
+ID   MTNN_SALTI              Reviewed;         232 AA.
+AC   P60216; Q8XFN5;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   16-JAN-2004, sequence version 1.
+DT   27-NOV-2024, entry version 121.
+DE   RecName: Full=5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=MTA/SAH nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=MTAN {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            EC=3.2.2.9 {ECO:0000255|HAMAP-Rule:MF_01684};
+DE   AltName: Full=5'-deoxyadenosine nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=DOA nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=dAdo nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE   AltName: Full=5'-methylthioadenosine nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=MTA nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE   AltName: Full=S-adenosylhomocysteine nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=AdoHcy nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=SAH nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+DE            Short=SRH nucleosidase {ECO:0000255|HAMAP-Rule:MF_01684};
+GN   Name=mtnN {ECO:0000255|HAMAP-Rule:MF_01684}; Synonyms=mtn;
+GN   OrderedLocusNames=STY0229, t0208;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the irreversible cleavage of the glycosidic bond in
+CC       both 5'-methylthioadenosine (MTA) and S-adenosylhomocysteine
+CC       (SAH/AdoHcy) to adenine and the corresponding thioribose, 5'-
+CC       methylthioribose and S-ribosylhomocysteine, respectively. Also cleaves
+CC       5'-deoxyadenosine, a toxic by-product of radical S-adenosylmethionine
+CC       (SAM) enzymes, into 5-deoxyribose and adenine. Thus, is required for in
+CC       vivo function of the radical SAM enzymes biotin synthase and lipoic
+CC       acid synthase, that are inhibited by 5'-deoxyadenosine accumulation.
+CC       {ECO:0000255|HAMAP-Rule:MF_01684}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-homocysteine + H2O = S-(5-deoxy-D-ribos-5-yl)-L-
+CC         homocysteine + adenine; Xref=Rhea:RHEA:17805, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16708, ChEBI:CHEBI:57856, ChEBI:CHEBI:58195; EC=3.2.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01684};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5'-thioadenosine + H2O = 5-(methylsulfanyl)-D-ribose
+CC         + adenine; Xref=Rhea:RHEA:13617, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16708, ChEBI:CHEBI:17509, ChEBI:CHEBI:78440; EC=3.2.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01684};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5'-deoxyadenosine + H2O = 5-deoxy-D-ribose + adenine;
+CC         Xref=Rhea:RHEA:29859, ChEBI:CHEBI:15377, ChEBI:CHEBI:16708,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:149540; EC=3.2.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01684};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:29860;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01684};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; S-methyl-5-thio-alpha-D-ribose 1-phosphate from S-methyl-5'-
+CC       thioadenosine (hydrolase route): step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01684}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01684}.
+CC   -!- SIMILARITY: Belongs to the PNP/UDP phosphorylase family. MtnN
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01684}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01361.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67939.1; -; Genomic_DNA.
+DR   RefSeq; NP_454815.1; NC_003198.1.
+DR   RefSeq; WP_000689821.1; NZ_WSUR01000009.1.
+DR   AlphaFoldDB; P60216; -.
+DR   SMR; P60216; -.
+DR   STRING; 220341.gene:17584263; -.
+DR   KEGG; stt:t0208; -.
+DR   KEGG; sty:STY0229; -.
+DR   PATRIC; fig|220341.7.peg.230; -.
+DR   eggNOG; COG0775; Bacteria.
+DR   HOGENOM; CLU_031248_2_2_6; -.
+DR   OMA; DQFVHSK; -.
+DR   OrthoDB; 9792278at2; -.
+DR   UniPathway; UPA00904; UER00871.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008782; F:adenosylhomocysteine nucleosidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008930; F:methylthioadenosine nucleosidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:TreeGrafter.
+DR   GO; GO:0046124; P:purine deoxyribonucleoside catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09008; MTAN; 1.
+DR   FunFam; 3.40.50.1580:FF:000001; MTA/SAH nucleosidase family protein; 1.
+DR   Gene3D; 3.40.50.1580; Nucleoside phosphorylase domain; 1.
+DR   HAMAP; MF_01684; Salvage_MtnN; 1.
+DR   InterPro; IPR010049; MTA_SAH_Nsdase.
+DR   InterPro; IPR000845; Nucleoside_phosphorylase_d.
+DR   InterPro; IPR035994; Nucleoside_phosphorylase_sf.
+DR   NCBIfam; TIGR01704; MTA_SAH-Nsdase; 1.
+DR   PANTHER; PTHR46832; 5'-METHYLTHIOADENOSINE/S-ADENOSYLHOMOCYSTEINE NUCLEOSIDASE; 1.
+DR   PANTHER; PTHR46832:SF1; 5'-METHYLTHIOADENOSINE_S-ADENOSYLHOMOCYSTEINE NUCLEOSIDASE; 1.
+DR   Pfam; PF01048; PNP_UDP_1; 1.
+DR   SUPFAM; SSF53167; Purine and uridine phosphorylases; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Hydrolase; Methionine biosynthesis.
+FT   CHAIN           1..232
+FT                   /note="5'-methylthioadenosine/S-adenosylhomocysteine
+FT                   nucleosidase"
+FT                   /id="PRO_0000164447"
+FT   ACT_SITE        12
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01684"
+FT   ACT_SITE        197
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01684"
+FT   BINDING         78
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01684"
+FT   BINDING         152
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01684"
+FT   BINDING         173..174
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01684"
+SQ   SEQUENCE   232 AA;  24446 MW;  90E2638E702B9B26 CRC64;
+     MKIGIIGAME EEVTLLRDKI DNRQTITLGG CEIYTGQLNG TEVALLKSGI GKVAAALGAT
+     LLLEHCKPDV IINTGSAGGL ASTLKVGDIV VSDEARYHDA DVTAFGYEYG QLPGCPAGFK
+     ADDKLIAAAE SCIRELNLNA VRGLIVSGDA FINGSVGLAK IRHNFPDAVA VEMEATAIAH
+     VCHNFNVPFV VVRAISDVAD QQSHLSFDEF LAVAAKQSTL MVETLVQKLA HG
+//

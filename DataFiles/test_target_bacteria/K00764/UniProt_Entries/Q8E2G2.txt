@@ -1,0 +1,141 @@
+ID   Q8E2G2_STRA5            Unreviewed;       484 AA.
+AC   Q8E2G2;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Amidophosphoribosyltransferase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            Short=ATase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            EC=2.4.2.14 {ECO:0000256|HAMAP-Rule:MF_01931};
+DE   AltName: Full=Glutamine phosphoribosylpyrophosphate amidotransferase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            Short=GPATase {ECO:0000256|HAMAP-Rule:MF_01931};
+GN   Name=purF {ECO:0000256|HAMAP-Rule:MF_01931,
+GN   ECO:0000313|EMBL:AAM98934.1};
+GN   OrderedLocusNames=SAG0026 {ECO:0000313|EMBL:AAM98934.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAM98934.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAM98934.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Catalyzes the formation of phosphoribosylamine from
+CC       phosphoribosylpyrophosphate (PRPP) and glutamine. {ECO:0000256|HAMAP-
+CC       Rule:MF_01931}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + L-glutamate + diphosphate = 5-
+CC         phospho-alpha-D-ribose 1-diphosphate + L-glutamine + H2O;
+CC         Xref=Rhea:RHEA:14905, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:58681; EC=2.4.2.14; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-2};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01931,
+CC       ECO:0000256|PIRSR:PIRSR000485-2};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 1/2. {ECO:0000256|ARBA:ARBA00005209,
+CC       ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. {ECO:0000256|ARBA:ARBA00010138,
+CC       ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01931}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM98934.1; -; Genomic_DNA.
+DR   RefSeq; NP_687062.1; NC_004116.1.
+DR   RefSeq; WP_000220683.1; NC_004116.1.
+DR   AlphaFoldDB; Q8E2G2; -.
+DR   STRING; 208435.SAG0026; -.
+DR   MEROPS; C44.001; -.
+DR   KEGG; sag:SAG0026; -.
+DR   PATRIC; fig|208435.3.peg.25; -.
+DR   HOGENOM; CLU_022389_3_1_9; -.
+DR   OrthoDB; 9801213at2; -.
+DR   UniPathway; UPA00074; UER00124.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0004044; F:amidophosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00715; GPATase_N; 1.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   HAMAP; MF_01931; PurF; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005854; PurF.
+DR   InterPro; IPR035584; PurF_N.
+DR   NCBIfam; TIGR01134; purF; 1.
+DR   PANTHER; PTHR11907; AMIDOPHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF13522; GATase_6; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   PIRSF; PIRSF000485; Amd_phspho_trans; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|HAMAP-Rule:MF_01931};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676, ECO:0000256|HAMAP-
+KW   Rule:MF_01931};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-
+KW   2};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01931,
+KW   ECO:0000256|PIRSR:PIRSR000485-2};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01931}; Reference proteome {ECO:0000313|Proteomes:UP000000821};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01931}.
+FT   DOMAIN          12..232
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+FT   ACT_SITE        12
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-1"
+FT   BINDING         295
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         357
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         358
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+SQ   SEQUENCE   484 AA;  53487 MW;  B07166952FA07CCE CRC64;
+     MTYEVKSLNE ECGVFGIWGY PQAAQVTYFG LHSLQHRGQE GAGIISNDNG KLYGYRNVGL
+     LSEVFKNQSE LDNLTGNAAI GHVRYATAGS ADIRNIQPFL YKFHDGQFAL CHNGNLTNAI
+     SSRKELEKQG AIFNASSDTE ILMHLIRRSH NPSFMGKVKE ALSTVKGGFA YLLMTEDKLI
+     AALDPNAFRP LSIGQMQNGA WVISSETCAF EVVGAKWVRD VEPGEVILID DSGIQCDRYT
+     DETQLAICSM EYVYFARPDS TIHGVNVHTA RKNMGKRLAQ EFKQDADIVI GVPNSSLSAA
+     MGFAEESGLP NEMGLVKNQY TQRTFIQPTQ ELREQGVRMK LSAVSGVVKG KRVVMIDDSI
+     VRGTTSRRIV GLLREAGATE VHVAIASPEL KYPCFYGIDI QTRRELISAN HAVDEVCDII
+     GADSLTYLSI DGLIKSIGLE TKAPNGGLCV AYFDGHYPTP LYDYEEEYLR SLEEKTSFYI
+     QKVK
+//

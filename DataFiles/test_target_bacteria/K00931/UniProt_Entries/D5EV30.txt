@@ -1,0 +1,111 @@
+ID   D5EV30_XYLR2            Unreviewed;       255 AA.
+AC   D5EV30;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=Glutamate 5-kinase {ECO:0000256|HAMAP-Rule:MF_00456};
+DE            EC=2.7.2.11 {ECO:0000256|HAMAP-Rule:MF_00456};
+DE   AltName: Full=Gamma-glutamyl kinase {ECO:0000256|HAMAP-Rule:MF_00456};
+DE            Short=GK {ECO:0000256|HAMAP-Rule:MF_00456};
+GN   Name=proB {ECO:0000256|HAMAP-Rule:MF_00456,
+GN   ECO:0000313|EMBL:ADE82421.1};
+GN   OrderedLocusNames=PRU_2207 {ECO:0000313|EMBL:ADE82421.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82421.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82421.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the transfer of a phosphate group to glutamate to
+CC       form L-glutamate 5-phosphate. {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate + ATP = L-glutamyl 5-phosphate + ADP;
+CC         Xref=Rhea:RHEA:14877, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:58274, ChEBI:CHEBI:456216; EC=2.7.2.11;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00456};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-glutamate
+CC       5-semialdehyde from L-glutamate: step 1/2. {ECO:0000256|HAMAP-
+CC       Rule:MF_00456}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -!- SIMILARITY: Belongs to the glutamate 5-kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82421.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D5EV30; -.
+DR   STRING; 264731.PRU_2207; -.
+DR   KEGG; pru:PRU_2207; -.
+DR   eggNOG; COG0263; Bacteria.
+DR   HOGENOM; CLU_025400_0_0_10; -.
+DR   UniPathway; UPA00098; UER00359.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004349; F:glutamate 5-kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04242; AAK_G5K_ProB; 1.
+DR   FunFam; 3.40.1160.10:FF:000040; Glutamate 5-kinase; 1.
+DR   Gene3D; 3.40.1160.10; Acetylglutamate kinase-like; 1.
+DR   HAMAP; MF_00456; ProB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR041739; G5K_ProB.
+DR   InterPro; IPR001057; Glu/AcGlu_kinase.
+DR   InterPro; IPR011529; Glu_5kinase.
+DR   InterPro; IPR005715; Glu_5kinase/COase_Synthase.
+DR   NCBIfam; TIGR01027; proB; 1.
+DR   PANTHER; PTHR43654; GLUTAMATE 5-KINASE; 1.
+DR   PANTHER; PTHR43654:SF1; ISOPENTENYL PHOSPHATE KINASE; 1.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF000729; GK; 1.
+DR   PRINTS; PR00474; GLU5KINASE.
+DR   SUPFAM; SSF53633; Carbamate kinase-like; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00456};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00456};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00456};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00456};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00456};
+KW   Proline biosynthesis {ECO:0000256|ARBA:ARBA00022650, ECO:0000256|HAMAP-
+KW   Rule:MF_00456}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00456}.
+FT   DOMAIN          3..231
+FT                   /note="Aspartate/glutamate/uridylate kinase"
+FT                   /evidence="ECO:0000259|Pfam:PF00696"
+FT   BINDING         8
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00456"
+FT   BINDING         48
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00456"
+FT   BINDING         135
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00456"
+FT   BINDING         147
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00456"
+SQ   SEQUENCE   255 AA;  28321 MW;  7CCAD93BD0A777BE CRC64;
+     MKKRIVIKVG SNVLTRADGK LDVTRMSALV DQIAWLRKQN IEVILVTSGA VACGRRELTV
+     DHSLDSVEQR QLFSAVGQVK LVGLYYDLFR EFGIHVGQVL TMKENFQPGE QYRNQQACMT
+     VMLENDVLPI VNENDTVSVT ELMFTDNDEL SGLIAQMMKA DSLILLSNID GIYTGHPDDP
+     SSELIQTVAP CTDLSKFIQK EKSAFGRGGM HSKYHTASNI QSAGIHVIIA NGTRDDILID
+     LIERPESTPH TEFLT
+//

@@ -1,0 +1,164 @@
+ID   F2REK4_STRVP            Unreviewed;       508 AA.
+AC   F2REK4;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=Amidophosphoribosyltransferase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            Short=ATase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            EC=2.4.2.14 {ECO:0000256|HAMAP-Rule:MF_01931};
+DE   AltName: Full=Glutamine phosphoribosylpyrophosphate amidotransferase {ECO:0000256|HAMAP-Rule:MF_01931};
+DE            Short=GPATase {ECO:0000256|HAMAP-Rule:MF_01931};
+GN   Name=purF {ECO:0000256|HAMAP-Rule:MF_01931};
+GN   OrderedLocusNames=SVEN_3841 {ECO:0000313|EMBL:CCA57127.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA57127.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA57127.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Catalyzes the formation of phosphoribosylamine from
+CC       phosphoribosylpyrophosphate (PRPP) and glutamine. {ECO:0000256|HAMAP-
+CC       Rule:MF_01931}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + L-glutamate + diphosphate = 5-
+CC         phospho-alpha-D-ribose 1-diphosphate + L-glutamine + H2O;
+CC         Xref=Rhea:RHEA:14905, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:58681; EC=2.4.2.14; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-2};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01931,
+CC       ECO:0000256|PIRSR:PIRSR000485-2};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01931,
+CC         ECO:0000256|PIRSR:PIRSR000485-3};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-3};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 1/2. {ECO:0000256|ARBA:ARBA00005209,
+CC       ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. {ECO:0000256|ARBA:ARBA00010138,
+CC       ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRNR:PIRNR000485}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA57127.1; -; Genomic_DNA.
+DR   RefSeq; WP_015035040.1; NZ_JABVZO010000145.1.
+DR   AlphaFoldDB; F2REK4; -.
+DR   STRING; 953739.SVEN_3841; -.
+DR   MEROPS; C44.001; -.
+DR   GeneID; 69865937; -.
+DR   KEGG; sve:SVEN_3841; -.
+DR   PATRIC; fig|953739.5.peg.6315; -.
+DR   eggNOG; COG0034; Bacteria.
+DR   HOGENOM; CLU_022389_3_1_11; -.
+DR   OrthoDB; 9801213at2; -.
+DR   UniPathway; UPA00074; UER00124.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004044; F:amidophosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00715; GPATase_N; 1.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   HAMAP; MF_01931; PurF; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005854; PurF.
+DR   InterPro; IPR035584; PurF_N.
+DR   NCBIfam; TIGR01134; purF; 1.
+DR   PANTHER; PTHR11907; AMIDOPHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF13522; GATase_6; 1.
+DR   PIRSF; PIRSF000485; Amd_phspho_trans; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|HAMAP-Rule:MF_01931};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|HAMAP-Rule:MF_01931};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676, ECO:0000256|HAMAP-
+KW   Rule:MF_01931};
+KW   Iron {ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-3};
+KW   Iron-sulfur {ECO:0000256|HAMAP-Rule:MF_01931,
+KW   ECO:0000256|PIRSR:PIRSR000485-3};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01931, ECO:0000256|PIRSR:PIRSR000485-
+KW   2};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01931,
+KW   ECO:0000256|PIRSR:PIRSR000485-2};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01931}; Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01931}.
+FT   DOMAIN          23..253
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+FT   ACT_SITE        23
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-1"
+FT   BINDING         268
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         315
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         377
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         378
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         414
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         465
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         468
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01931,
+FT                   ECO:0000256|PIRSR:PIRSR000485-3"
+SQ   SEQUENCE   508 AA;  54332 MW;  7BBC80C29F7BE90E CRC64;
+     MPRGDGRLNH DLLPGEKGPQ DACGVFGVWA PGEEVAKLTY FGLYALQHRG QESAGIAVSN
+     GSQILVFKDM GLVSQVFDET SLGSLQGHIA VGHARYSTTG ASVWENAQPT FRATARGSIA
+     LGHNGNLVNT AQLAEMVADL PKKEGRSTRV AATNDTDLVT ALLAGQVGED GEPLTIEQAA
+     AKVLPEVRGA FSLVFMDEHT LYAARDPQGI RPLVLGRLER GWVVASESAA LDICGASFVR
+     EVEPGEMIAI DENGIRTSRF AEAKPKGCVF EYVYLARPDT DIAGRNVYLS RVEMGRRLAK
+     EAPVEADLVI ATPESGTPAA IGYAEASGIP FGAGLVKNAY VGRTFIQPSQ TIRQLGIRLK
+     LNPLKDVIKG KRLVVVDDSI VRGNTQRALV KMLREAGAAE IHIRISSPPV KWPCFFGIDF
+     ATRAELIANG MSIEEIGKSL GADSLSYISI DGMIEATTIQ KPNLCRACFD GEYPMELPDP
+     ELLGKQLLEN ELAAGPAATA ASDALRRP
+//

@@ -1,0 +1,100 @@
+ID   E3PXN9_ACESD            Unreviewed;       245 AA.
+AC   E3PXN9;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 73.
+DE   RecName: Full=tRNA pseudouridine synthase A {ECO:0000256|HAMAP-Rule:MF_00171};
+DE            EC=5.4.99.12 {ECO:0000256|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA pseudouridine(38-40) synthase {ECO:0000256|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA pseudouridylate synthase I {ECO:0000256|HAMAP-Rule:MF_00171};
+DE   AltName: Full=tRNA-uridine isomerase I {ECO:0000256|HAMAP-Rule:MF_00171};
+GN   Name=truA {ECO:0000256|HAMAP-Rule:MF_00171,
+GN   ECO:0000313|EMBL:CBH21204.1};
+GN   OrderedLocusNames=CLOST_1082 {ECO:0000313|EMBL:CBH21204.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21204.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Formation of pseudouridine at positions 38, 39 and 40 in the
+CC       anticodon stem and loop of transfer RNAs. {ECO:0000256|HAMAP-
+CC       Rule:MF_00171}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(38/39/40) in tRNA = pseudouridine(38/39/40) in tRNA;
+CC         Xref=Rhea:RHEA:22376, Rhea:RHEA-COMP:10085, Rhea:RHEA-COMP:10087,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315; EC=5.4.99.12;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00171,
+CC         ECO:0000256|RuleBase:RU003792};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00171}.
+CC   -!- SIMILARITY: Belongs to the tRNA pseudouridine synthase TruA family.
+CC       {ECO:0000256|ARBA:ARBA00009375, ECO:0000256|HAMAP-Rule:MF_00171,
+CC       ECO:0000256|RuleBase:RU003792}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00171}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21204.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PXN9; -.
+DR   STRING; 1511.CLOST_1082; -.
+DR   KEGG; cst:CLOST_1082; -.
+DR   eggNOG; COG0101; Bacteria.
+DR   HOGENOM; CLU_014673_0_1_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0160147; F:tRNA pseudouridine(38-40) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031119; P:tRNA pseudouridine synthesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd02570; PseudoU_synth_EcTruA; 1.
+DR   FunFam; 3.30.70.580:FF:000001; tRNA pseudouridine synthase A; 1.
+DR   Gene3D; 3.30.70.660; Pseudouridine synthase I, catalytic domain, C-terminal subdomain; 1.
+DR   Gene3D; 3.30.70.580; Pseudouridine synthase I, catalytic domain, N-terminal subdomain; 1.
+DR   HAMAP; MF_00171; TruA; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR001406; PsdUridine_synth_TruA.
+DR   InterPro; IPR020097; PsdUridine_synth_TruA_a/b_dom.
+DR   InterPro; IPR020095; PsdUridine_synth_TruA_C.
+DR   InterPro; IPR020094; TruA/RsuA/RluB/E/F_N.
+DR   NCBIfam; TIGR00071; hisT_truA; 1.
+DR   PANTHER; PTHR11142; PSEUDOURIDYLATE SYNTHASE; 1.
+DR   PANTHER; PTHR11142:SF22; TRNA PSEUDOURIDINE SYNTHASE A 2; 1.
+DR   Pfam; PF01416; PseudoU_synth_1; 2.
+DR   PIRSF; PIRSF001430; tRNA_psdUrid_synth; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_00171};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_00171}.
+FT   DOMAIN          7..103
+FT                   /note="Pseudouridine synthase I TruA alpha/beta"
+FT                   /evidence="ECO:0000259|Pfam:PF01416"
+FT   DOMAIN          144..245
+FT                   /note="Pseudouridine synthase I TruA alpha/beta"
+FT                   /evidence="ECO:0000259|Pfam:PF01416"
+FT   ACT_SITE        53
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00171,
+FT                   ECO:0000256|PIRSR:PIRSR001430-1"
+FT   BINDING         111
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00171,
+FT                   ECO:0000256|PIRSR:PIRSR001430-2"
+SQ   SEQUENCE   245 AA;  28184 MW;  930C485B44403B6D CRC64;
+     MRNIKIALQY EGTRYLGWQR LKDQDNTIQG KLEDLLNKMT DEEVQVIGCS RTDKGVHAKS
+     LIANFHTNSK MTLHEIQTYM NYYLPEDIRV TYIEEADDKF HARHNAKTKV YRFTIDNNSF
+     ADVFTRKTAI HQPKQLDIKA MEKAANYLIG THDYDAFTTM KSKKKSCRKS IKSIAITKKN
+     NYVYLEFEGE GFLHNMIRII TGTLIRVGTG EISPEELANI LASKDRSLSG PMVEGKGLML
+     MQVNY
+//

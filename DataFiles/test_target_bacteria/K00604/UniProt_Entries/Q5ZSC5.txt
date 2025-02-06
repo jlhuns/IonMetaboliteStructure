@@ -1,0 +1,99 @@
+ID   FMT_LEGPH               Reviewed;         314 AA.
+AC   Q5ZSC5;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 109.
+DE   RecName: Full=Methionyl-tRNA formyltransferase {ECO:0000255|HAMAP-Rule:MF_00182};
+DE            EC=2.1.2.9 {ECO:0000255|HAMAP-Rule:MF_00182};
+GN   Name=fmt {ECO:0000255|HAMAP-Rule:MF_00182}; OrderedLocusNames=lpg2594;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Attaches a formyl group to the free amino group of methionyl-
+CC       tRNA(fMet). The formyl group appears to play a dual role in the
+CC       initiator identity of N-formylmethionyl-tRNA by promoting its
+CC       recognition by IF2 and preventing the misappropriation of this tRNA by
+CC       the elongation apparatus. {ECO:0000255|HAMAP-Rule:MF_00182}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionyl-tRNA(fMet) + (6R)-10-formyltetrahydrofolate = N-
+CC         formyl-L-methionyl-tRNA(fMet) + (6S)-5,6,7,8-tetrahydrofolate + H(+);
+CC         Xref=Rhea:RHEA:24380, Rhea:RHEA-COMP:9952, Rhea:RHEA-COMP:9953,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57453, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:78844, ChEBI:CHEBI:195366; EC=2.1.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00182};
+CC   -!- SIMILARITY: Belongs to the Fmt family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00182}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28652.1; -; Genomic_DNA.
+DR   RefSeq; WP_010948294.1; NC_002942.5.
+DR   RefSeq; YP_096599.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZSC5; -.
+DR   SMR; Q5ZSC5; -.
+DR   STRING; 272624.lpg2594; -.
+DR   PaxDb; 272624-lpg2594; -.
+DR   GeneID; 57036593; -.
+DR   KEGG; lpn:lpg2594; -.
+DR   PATRIC; fig|272624.6.peg.2766; -.
+DR   eggNOG; COG0223; Bacteria.
+DR   HOGENOM; CLU_033347_1_1_6; -.
+DR   OrthoDB; 9802815at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004479; F:methionyl-tRNA formyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd08646; FMT_core_Met-tRNA-FMT_N; 1.
+DR   CDD; cd08704; Met_tRNA_FMT_C; 1.
+DR   FunFam; 3.40.50.12230:FF:000001; Methionyl-tRNA formyltransferase; 1.
+DR   FunFam; 3.40.50.170:FF:000003; Methionyl-tRNA formyltransferase; 1.
+DR   Gene3D; 3.40.50.12230; -; 1.
+DR   HAMAP; MF_00182; Formyl_trans; 1.
+DR   InterPro; IPR005794; Fmt.
+DR   InterPro; IPR005793; Formyl_trans_C.
+DR   InterPro; IPR002376; Formyl_transf_N.
+DR   InterPro; IPR036477; Formyl_transf_N_sf.
+DR   InterPro; IPR011034; Formyl_transferase-like_C_sf.
+DR   InterPro; IPR001555; GART_AS.
+DR   InterPro; IPR044135; Met-tRNA-FMT_C.
+DR   InterPro; IPR041711; Met-tRNA-FMT_N.
+DR   NCBIfam; TIGR00460; fmt; 1.
+DR   PANTHER; PTHR11138; METHIONYL-TRNA FORMYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11138:SF5; METHIONYL-TRNA FORMYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF02911; Formyl_trans_C; 1.
+DR   Pfam; PF00551; Formyl_trans_N; 1.
+DR   SUPFAM; SSF50486; FMT C-terminal domain-like; 1.
+DR   SUPFAM; SSF53328; Formyltransferase; 1.
+DR   PROSITE; PS00373; GART; 1.
+PE   3: Inferred from homology;
+KW   Protein biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..314
+FT                   /note="Methionyl-tRNA formyltransferase"
+FT                   /id="PRO_0000082982"
+FT   BINDING         112..115
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00182"
+SQ   SEQUENCE   314 AA;  34415 MW;  9E055F3331A749DE CRC64;
+     MNGLTVVFAG TPEFGLPCLD ALIQSRHHLK AVYTQPDRPA GRGRKLQESP VKEWAINHQI
+     PVYQPLNFKN QEAVDELSAL KPDVMVVIAY GLILPKAVLE IPRLGCINVH ASLLPRWRGA
+     SPIQHAILHG DAESGVTIMQ MDVGLDTGPM LCKAACPVTS SDTAGSLHDK LAKMSVKPLL
+     DVLEALASNS AQFELQNNEL ATYAGKINKE EARINWHQSA VEIDRKIRAF NPWPVAYTLA
+     GELMLRIHQA KATDIMSTEM PGMILNIDKN GMLVATSDNA LLVEKIQFPG AKIISVRDWL
+     NSGKTQLHTG LMLQ
+//

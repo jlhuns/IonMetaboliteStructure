@@ -1,0 +1,138 @@
+ID   RNC_BACTN               Reviewed;         311 AA.
+AC   Q8A2E8;
+DT   21-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 2.
+DT   05-FEB-2025, entry version 123.
+DE   RecName: Full=Ribonuclease 3 {ECO:0000255|HAMAP-Rule:MF_00104};
+DE            EC=3.1.26.3 {ECO:0000255|HAMAP-Rule:MF_00104};
+DE   AltName: Full=Ribonuclease III {ECO:0000255|HAMAP-Rule:MF_00104};
+DE            Short=RNase III {ECO:0000255|HAMAP-Rule:MF_00104};
+GN   Name=rnc {ECO:0000255|HAMAP-Rule:MF_00104}; OrderedLocusNames=BT_3357;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Digests double-stranded RNA. Involved in the processing of
+CC       primary rRNA transcript to yield the immediate precursors to the large
+CC       and small rRNAs (23S and 16S). Processes some mRNAs, and tRNAs when
+CC       they are encoded in the rRNA operon. Processes pre-crRNA and tracrRNA
+CC       of type II CRISPR loci if present in the organism. {ECO:0000255|HAMAP-
+CC       Rule:MF_00104}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00104};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00104};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00104}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00104}.
+CC   -!- SIMILARITY: Belongs to the ribonuclease III family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00104}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO78463.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO78463.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_812269.1; NC_004663.1.
+DR   RefSeq; WP_011108787.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A2E8; -.
+DR   SMR; Q8A2E8; -.
+DR   STRING; 226186.BT_3357; -.
+DR   PaxDb; 226186-BT_3357; -.
+DR   EnsemblBacteria; AAO78463; AAO78463; BT_3357.
+DR   GeneID; 60924536; -.
+DR   KEGG; bth:BT_3357; -.
+DR   PATRIC; fig|226186.12.peg.3425; -.
+DR   eggNOG; COG0571; Bacteria.
+DR   HOGENOM; CLU_000907_1_0_10; -.
+DR   InParanoid; Q8A2E8; -.
+DR   OrthoDB; 9805026at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0003725; F:double-stranded RNA binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004525; F:ribonuclease III activity; IBA:GO_Central.
+DR   GO; GO:0019843; F:rRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010468; P:regulation of gene expression; IBA:GO_Central.
+DR   GO; GO:0006396; P:RNA processing; IBA:GO_Central.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   CDD; cd10845; DSRM_RNAse_III_family; 1.
+DR   CDD; cd00593; RIBOc; 1.
+DR   FunFam; 1.10.1520.10:FF:000012; Ribonuclease 3; 1.
+DR   FunFam; 3.30.160.20:FF:000081; Ribonuclease 3; 1.
+DR   Gene3D; 3.30.160.20; -; 1.
+DR   Gene3D; 1.10.1520.10; Ribonuclease III domain; 1.
+DR   HAMAP; MF_00104; RNase_III; 1.
+DR   InterPro; IPR014720; dsRBD_dom.
+DR   InterPro; IPR011907; RNase_III.
+DR   InterPro; IPR000999; RNase_III_dom.
+DR   InterPro; IPR036389; RNase_III_sf.
+DR   NCBIfam; TIGR02191; RNaseIII; 1.
+DR   PANTHER; PTHR11207:SF0; RIBONUCLEASE 3; 1.
+DR   PANTHER; PTHR11207; RIBONUCLEASE III; 1.
+DR   Pfam; PF00035; dsrm; 1.
+DR   Pfam; PF14622; Ribonucleas_3_3; 1.
+DR   SMART; SM00358; DSRM; 1.
+DR   SMART; SM00535; RIBOc; 1.
+DR   SUPFAM; SSF54768; dsRNA-binding domain-like; 1.
+DR   SUPFAM; SSF69065; RNase III domain-like; 1.
+DR   PROSITE; PS50137; DS_RBD; 1.
+DR   PROSITE; PS00517; RNASE_3_1; 1.
+DR   PROSITE; PS50142; RNASE_3_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Magnesium; Metal-binding;
+KW   mRNA processing; Nuclease; Reference proteome; RNA-binding;
+KW   rRNA processing; rRNA-binding; tRNA processing.
+FT   CHAIN           1..311
+FT                   /note="Ribonuclease 3"
+FT                   /id="PRO_0000228498"
+FT   DOMAIN          20..145
+FT                   /note="RNase III"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   DOMAIN          173..242
+FT                   /note="DRBM"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   REGION          250..311
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        262..288
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        66
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   ACT_SITE        134
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   BINDING         62
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   BINDING         131
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   BINDING         134
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+SQ   SEQUENCE   311 AA;  35973 MW;  8D56B9899E69296B CRC64;
+     MLRNQIDKIR LLFRKDRESY LCFYRILGFY PHNIQIYEQA LLHKSSAVRS EKGRPLNNER
+     LEFLGDAILD AIVGDIVYKR FEGKREGFLT NTRSKIVQRE TLNKLAVEIG LDKLIKYSTR
+     SSSHNSYMYG NAFEAFIGAI YLDQGYERCK QFMEQRIINR YIDLDKISRK EVNFKSKLIE
+     WSQKNKMEVS FELIEQFLDH DSNPVFQTEV RIEGLPAGTG TGYSKKESQQ NAAQMAIKKV
+     KDQTFMDTVN EAKSQHSKPS EVETESVEPE LTESETMEPD TLETEAPEAE TTADKVETTV
+     NEVEATETEK E
+//

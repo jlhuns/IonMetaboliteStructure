@@ -1,0 +1,117 @@
+ID   W6RDK6_9HYPH            Unreviewed;      1153 AA.
+AC   W6RDK6;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 55.
+DE   RecName: Full=Chromosome partition protein Smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   Name=smc {ECO:0000256|HAMAP-Rule:MF_01894,
+GN   ECO:0000313|EMBL:CDM56768.1};
+GN   ORFNames=LPU83_1092 {ECO:0000313|EMBL:CDM56768.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM56768.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM56768.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM56768.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for chromosome condensation and partitioning.
+CC       {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- DOMAIN: Contains large globular domains required for ATP hydrolysis at
+CC       each terminus and a third globular domain forming a flexible hinge near
+CC       the middle of the molecule. These domains are separated by coiled-coil
+CC       structures. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SIMILARITY: Belongs to the SMC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM56768.1; -; Genomic_DNA.
+DR   RefSeq; WP_024315808.1; NZ_JAIRAY010000015.1.
+DR   AlphaFoldDB; W6RDK6; -.
+DR   KEGG; rhl:LPU83_1092; -.
+DR   PATRIC; fig|348824.6.peg.1179; -.
+DR   eggNOG; COG1196; Bacteria.
+DR   HOGENOM; CLU_001042_2_2_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030261; P:chromosome condensation; IEA:InterPro.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007062; P:sister chromatid cohesion; IEA:InterPro.
+DR   CDD; cd03278; ABC_SMC_barmotin; 1.
+DR   FunFam; 3.40.50.300:FF:000901; Chromosome partition protein Smc; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   HAMAP; MF_01894; Smc_prok; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003395; RecF/RecN/SMC_N.
+DR   InterPro; IPR024704; SMC.
+DR   InterPro; IPR036277; SMC_hinge_sf.
+DR   InterPro; IPR011890; SMC_prok.
+DR   PANTHER; PTHR43977; STRUCTURAL MAINTENANCE OF CHROMOSOMES PROTEIN 3; 1.
+DR   Pfam; PF02463; SMC_N; 1.
+DR   PIRSF; PIRSF005719; SMC; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF75553; Smc hinge domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Coiled coil {ECO:0000256|ARBA:ARBA00023054, ECO:0000256|HAMAP-
+KW   Rule:MF_01894}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01894}.
+FT   DOMAIN          4..1136
+FT                   /note="RecF/RecN/SMC N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02463"
+FT   REGION          875..897
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          177..211
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          286..334
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          391..501
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          631..658
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          763..825
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COMPBIAS        876..897
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         32..39
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+SQ   SEQUENCE   1153 AA;  126986 MW;  9AA48CF795A502C0 CRC64;
+     MKFNKLRVVG FKSFVEPTEF IIERGLTGVV GPNGCGKSNL VEALRWVMGE NSYKNMRASG
+     MDDVIFSGSG NRPARNTAEV ALYLDNGERT APAAFNDSDE IQVTRRIERE QGSIYRINGK
+     ESRAKDVQLL FADASTGARS PSMVGQGRIG ELISAKPQAR RQLLEEAAGI SGLHSRRHEA
+     ELRLRAAESN LERLDDVTSQ LESQIESLKR QARQASRFKS LSADIRAREA MLLHIRWVQA
+     KEAEAEADSA LNQATVIVAE KAQMQMEAAK AQGIASLKLP ELREGEARAA AALQRLQIAK
+     TQLEEDANRI LRRRDELTRR LAQLGEDIRR EERLVADNAA ILARLDAEET EIAEILADSG
+     RLAEETRGAF EEAAAKLADS ERVFAVLTAE RAEAAAGRNQ LERAIRDLAD RKMRLERQMD
+     EANRELSAIG ETIASLPDPD KKRAVVKAGE QAVAEAEAAI QGVEQALAAA RRTEALSRSP
+     VDQARAKLNA IETEARTISR MLAAGAAAGE FATAADQLRV DRGFETALGA ALGDDIESPL
+     DPKAPAHWSG NGDGAADEAL PAGTTPLIDY VRAPAALMRR LKQIGLVSSS DAAALMRDLK
+     PGQRLVTKEG AVYRWDGHVT GADAPSAAAL RLAQKNRLAE LENEAALARD LLTEAEERLA
+     GAVDAIGLQE QRLAEARETS RISARQLAEA REALAVAERA SGDLIRRRDV IAEAVSQLQI
+     QLEDLSVQEE NAHIELDDAP DLTAIDERLR SQQVEVATDR GALAEARARH ESLDRENQAR
+     QRRIVAIGQE RETWRQRAAS AEDHIATLRD REEEAREEAA ELEMAPDEFD DKRRALLNAL
+     QKTEDARRHA ADVLAEAELV QRDADHKAAT ALSELAESRE RRGRAEERLV SAREKRQETE
+     ARIRETLNVA PHEALRLTGL ESLQTAPDLR EVERELERLK MERERLGAVN LRAEEEQEEL
+     SGKLEALIKE RDDVIDAIRK LRGAIQSLNR EGRERLIVAF DVVNGQFQRL FTHLFGGGTA
+     ELQLIESDDP LEAGLEILAR PPGKKPQTMT LLSGGEQALT AMALIFAVFL TNPAPICVLD
+     EVDAPLDDHN VERYCNLMDE MAASTETRFV IITHNPITMA RMNRLFGVTM AEQGVSQLVS
+     VDLQTAEQLR EIA
+//

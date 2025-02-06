@@ -1,0 +1,115 @@
+ID   D8GJ82_CLOLD            Unreviewed;       468 AA.
+AC   D8GJ82;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 72.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000256|HAMAP-Rule:MF_01161,
+GN   ECO:0000313|EMBL:ADK17170.1};
+GN   OrderedLocusNames=CLJU_c41550 {ECO:0000313|EMBL:ADK17170.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK17170.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK17170.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34 of
+CC       the AUA codon-specific tRNA(Ile) that contains the anticodon CAU, in an
+CC       ATP-dependent manner. Cytidine is converted to lysidine, thus changing
+CC       the amino acid specificity of the tRNA from methionine to isoleucine.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(34) in tRNA(Ile2) + L-lysine + ATP = lysidine(34) in
+CC         tRNA(Ile2) + AMP + diphosphate + H(+); Xref=Rhea:RHEA:43744,
+CC         Rhea:RHEA-COMP:10625, Rhea:RHEA-COMP:10670, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:82748, ChEBI:CHEBI:83665, ChEBI:CHEBI:456215;
+CC         EC=6.3.4.19; Evidence={ECO:0000256|ARBA:ARBA00048539,
+CC         ECO:0000256|HAMAP-Rule:MF_01161};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK17170.1; -; Genomic_DNA.
+DR   RefSeq; WP_013240732.1; NZ_LITS01000022.1.
+DR   AlphaFoldDB; D8GJ82; -.
+DR   STRING; 748727.CLJU_c41550; -.
+DR   KEGG; clj:CLJU_c41550; -.
+DR   PATRIC; fig|748727.19.peg.1539; -.
+DR   eggNOG; COG0037; Bacteria.
+DR   HOGENOM; CLU_018869_0_1_9; -.
+DR   OrthoDB; 9807403at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032267; F:tRNA(Ile)-lysidine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd01992; PP-ATPase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.50.40.10; Phenylalanyl-trna Synthetase, Chain B, domain 3; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase-like_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   NCBIfam; TIGR02433; lysidine_TilS_C; 1.
+DR   NCBIfam; TIGR02432; lysidine_TilS_N; 1.
+DR   PANTHER; PTHR43033; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR43033:SF1; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   Pfam; PF11734; TilS_C; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF82829; MesJ substrate recognition domain-like; 1.
+DR   SUPFAM; SSF56037; PheT/TilS domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01161}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01161};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01161}; Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01161}.
+FT   TRANSMEM        21..41
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          383..455
+FT                   /note="Lysidine-tRNA(Ile) synthetase C-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00977"
+FT   BINDING         26..31
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01161"
+SQ   SEQUENCE   468 AA;  54042 MW;  97B8C30F87E2A8D6 CRC64;
+     MIESVLDTIT KNKMFDRGDK VIVAVSGGPD SICLLHILYV LREKLDITLC VAHVNHCLRG
+     KDADGDEEYV KKFCENLKIQ FKSLKIDVNH VSQEEGISCE SAGRKVRYSF FEKLKDELKA
+     QKIAIAHNAN DQAETILMRI MRGAGLDGLV GIRPVRDNIY VRPLICSTRD EIEKYCSLNN
+     LNPRIDKTNL ETLYSRNKIR LQLIPYIQEN FNKDIIKVLN RFSDTIKIDN EYLSYISQEK
+     FKKHCDIKGE KVIISKEAFL EKEAILSRII RMSLKIVTGN LKDFERIHIL NIIEVQKHST
+     GKEQMLPNNV LVLNDYGNII ISKNTKKAVS DYKKQYILQV GCNNISPIKS TVYIELVEAK
+     EYIHCKKNKF VQYFDYDKIE GDVTLRNRRE GDKFIPLGMT GSKKLKDLFI DLKVSKDKRN
+     DIPIICFGDK IGWIVGYRIS ELFKVDKNTR NILAIKFESE ELGKHDQH
+//

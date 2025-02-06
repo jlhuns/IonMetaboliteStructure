@@ -1,0 +1,79 @@
+ID   Q65IX0_BACLD            Unreviewed;       295 AA.
+AC   Q65IX0; Q62UD0;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   SubName: Full=3-hydroxyisobutyrate dehydrogenase {ECO:0000313|EMBL:AAU23629.1};
+GN   OrderedLocusNames=BL00292 {ECO:0000313|EMBL:AAU23629.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23629.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23629.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23629.1; -; Genomic_DNA.
+DR   RefSeq; WP_003182374.1; NC_006322.1.
+DR   AlphaFoldDB; Q65IX0; -.
+DR   STRING; 279010.BL00292; -.
+DR   GeneID; 66215893; -.
+DR   KEGG; bld:BLi02105; -.
+DR   KEGG; bli:BL00292; -.
+DR   PATRIC; fig|279010.13.peg.2112; -.
+DR   eggNOG; COG2084; Bacteria.
+DR   HOGENOM; CLU_035117_1_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0016616; F:oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor; IEA:UniProtKB-ARBA.
+DR   GO; GO:0016054; P:organic acid catabolic process; IEA:UniProtKB-ARBA.
+DR   Gene3D; 1.10.1040.10; N-(1-d-carboxylethyl)-l-norvaline Dehydrogenase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR002204; 3-OH-isobutyrate_DH-rel_CS.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR006115; 6PGDH_NADP-bd.
+DR   InterPro; IPR029154; HIBADH-like_NADP-bd.
+DR   InterPro; IPR015815; HIBADH-related.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR22981:SF7; 3-HYDROXYISOBUTYRATE DEHYDROGENASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR22981; 3-HYDROXYISOBUTYRATE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF14833; NAD_binding_11; 1.
+DR   Pfam; PF03446; NAD_binding_2; 1.
+DR   PIRSF; PIRSF000103; HIBADH; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00895; 3_HYDROXYISOBUT_DH; 1.
+PE   4: Predicted;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          3..161
+FT                   /note="6-phosphogluconate dehydrogenase NADP-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF03446"
+FT   DOMAIN          167..285
+FT                   /note="3-hydroxyisobutyrate dehydrogenase-like NAD-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF14833"
+FT   ACT_SITE        172
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000103-1"
+SQ   SEQUENCE   295 AA;  32175 MW;  23201DDB91B22CB2 CRC64;
+     MKKIGFIGLG NMGLPMSKNL LQENFTVYGM DLNKEAELAL HHAGGTIGIS VEKMVEECDA
+     ILTSLPSSNA AEEVFLGKKG LVHLAEPGVL LIDTSTVAPE LNIRIAEEAK SKGIDFLAAP
+     VSGGVIGAVN RTLTFMVGGP KSVFDKALPV FNALGENIFH VNENIDSGTN TKLINNLLIG
+     FYTAGVSEAL HLAKNSNLDL DQLFEMLNVS YGQSRIYERN YKSFIADENY KPGFSLKLLL
+     KDLGFALDLA EKNNVELPVS KILFGIYEEA DQNGYGEKDM SVLYKKISEQ KTTYQ
+//

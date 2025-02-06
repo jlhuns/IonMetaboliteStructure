@@ -1,0 +1,110 @@
+ID   MSRA_SALTI              Reviewed;         212 AA.
+AC   Q8Z150;
+DT   02-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 129.
+DE   RecName: Full=Peptide methionine sulfoxide reductase MsrA {ECO:0000255|HAMAP-Rule:MF_01401};
+DE            Short=Protein-methionine-S-oxide reductase {ECO:0000255|HAMAP-Rule:MF_01401};
+DE            EC=1.8.4.11 {ECO:0000255|HAMAP-Rule:MF_01401};
+DE   AltName: Full=Peptide-methionine (S)-S-oxide reductase {ECO:0000255|HAMAP-Rule:MF_01401};
+DE            Short=Peptide Met(O) reductase {ECO:0000255|HAMAP-Rule:MF_01401};
+GN   Name=msrA {ECO:0000255|HAMAP-Rule:MF_01401};
+GN   OrderedLocusNames=STY4767, t4462;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Has an important function as a repair enzyme for proteins
+CC       that have been inactivated by oxidation. Catalyzes the reversible
+CC       oxidation-reduction of methionine sulfoxide in proteins to methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01401}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionyl-[protein] + [thioredoxin]-disulfide + H2O = L-
+CC         methionyl-(S)-S-oxide-[protein] + [thioredoxin]-dithiol;
+CC         Xref=Rhea:RHEA:14217, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         Rhea:RHEA-COMP:12313, Rhea:RHEA-COMP:12315, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16044, ChEBI:CHEBI:29950, ChEBI:CHEBI:44120,
+CC         ChEBI:CHEBI:50058; EC=1.8.4.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01401};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + L-methionine + H2O = L-methionine
+CC         (S)-S-oxide + [thioredoxin]-dithiol; Xref=Rhea:RHEA:19993, Rhea:RHEA-
+CC         COMP:10698, Rhea:RHEA-COMP:10700, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:50058, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58772; EC=1.8.4.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01401};
+CC   -!- SIMILARITY: Belongs to the MsrA Met sulfoxide reductase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01401}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06888.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71909.1; -; Genomic_DNA.
+DR   RefSeq; NP_458845.1; NC_003198.1.
+DR   RefSeq; WP_000051467.1; NZ_WSUR01000016.1.
+DR   AlphaFoldDB; Q8Z150; -.
+DR   SMR; Q8Z150; -.
+DR   STRING; 220341.gene:17588588; -.
+DR   KEGG; stt:t4462; -.
+DR   KEGG; sty:STY4767; -.
+DR   PATRIC; fig|220341.7.peg.4870; -.
+DR   eggNOG; COG0225; Bacteria.
+DR   HOGENOM; CLU_031040_10_3_6; -.
+DR   OMA; LFWESHD; -.
+DR   OrthoDB; 4174719at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0036456; F:L-methionine-(S)-S-oxide reductase activity; IEA:TreeGrafter.
+DR   GO; GO:0008113; F:peptide-methionine (S)-S-oxide reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; IEA:TreeGrafter.
+DR   GO; GO:0036211; P:protein modification process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.1060.10:FF:000001; Peptide methionine sulfoxide reductase MsrA; 1.
+DR   Gene3D; 3.30.1060.10; Peptide methionine sulphoxide reductase MsrA; 1.
+DR   HAMAP; MF_01401; MsrA; 1.
+DR   InterPro; IPR002569; Met_Sox_Rdtase_MsrA_dom.
+DR   InterPro; IPR036509; Met_Sox_Rdtase_MsrA_sf.
+DR   InterPro; IPR050162; MsrA_MetSO_reductase.
+DR   NCBIfam; TIGR00401; msrA; 1.
+DR   PANTHER; PTHR42799; MITOCHONDRIAL PEPTIDE METHIONINE SULFOXIDE REDUCTASE; 1.
+DR   PANTHER; PTHR42799:SF2; MITOCHONDRIAL PEPTIDE METHIONINE SULFOXIDE REDUCTASE; 1.
+DR   Pfam; PF01625; PMSR; 1.
+DR   SUPFAM; SSF55068; Peptide methionine sulfoxide reductase; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase.
+FT   CHAIN           1..212
+FT                   /note="Peptide methionine sulfoxide reductase MsrA"
+FT                   /id="PRO_0000138577"
+FT   ACT_SITE        52
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01401"
+SQ   SEQUENCE   212 AA;  23436 MW;  77E867F4DB2DFA11 CRC64;
+     MSLFDKKHLV TQADALPGRN TPMPIATLHA VNEHSMTNVP AGMEIAYFAM GCFWGVERLF
+     WQLPGVYSTA AGYAGGYTPN PTYREVCSGQ TGHAEAVRIV YDPAVIRYEQ LLQTFWENHD
+     PTQGMQQGND HGTQYRSAIY PLTPEQNAAA HASRERFQSA MAAAGDHRPI TTEIAHATPF
+     YYAEDEHQQY LHKNPYGYCG IGGIGVCLPP DA
+//

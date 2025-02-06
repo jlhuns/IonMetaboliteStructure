@@ -1,0 +1,128 @@
+ID   Q65LD5_BACLD            Unreviewed;       312 AA.
+AC   Q65LD5; Q62WS5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 142.
+DE   RecName: Full=Beta-ketoacyl-[acyl-carrier-protein] synthase III {ECO:0000256|HAMAP-Rule:MF_01815};
+DE            Short=Beta-ketoacyl-ACP synthase III {ECO:0000256|HAMAP-Rule:MF_01815};
+DE            Short=KAS III {ECO:0000256|HAMAP-Rule:MF_01815};
+DE            EC=2.3.1.180 {ECO:0000256|HAMAP-Rule:MF_01815};
+DE   AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3 {ECO:0000256|HAMAP-Rule:MF_01815};
+DE   AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III {ECO:0000256|HAMAP-Rule:MF_01815};
+GN   Name=fabHA {ECO:0000313|EMBL:AAU22783.1};
+GN   Synonyms=fabH {ECO:0000256|HAMAP-Rule:MF_01815};
+GN   OrderedLocusNames=BL03313 {ECO:0000313|EMBL:AAU22783.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22783.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22783.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the condensation reaction of fatty acid synthesis
+CC       by the addition to an acyl acceptor of two carbons from malonyl-ACP.
+CC       Catalyzes the first condensation reaction which initiates fatty acid
+CC       synthesis and may therefore play a role in governing the total rate of
+CC       fatty acid production. Possesses both acetoacetyl-ACP synthase and
+CC       acetyl transacylase activities. Its substrate specificity determines
+CC       the biosynthesis of branched-chain and/or straight-chain of fatty
+CC       acids. {ECO:0000256|HAMAP-Rule:MF_01815}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=malonyl-[ACP] + acetyl-CoA + H(+) = 3-oxobutanoyl-[ACP] + CO2
+CC         + CoA; Xref=Rhea:RHEA:12080, Rhea:RHEA-COMP:9623, Rhea:RHEA-
+CC         COMP:9625, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:78449, ChEBI:CHEBI:78450;
+CC         EC=2.3.1.180; Evidence={ECO:0000256|HAMAP-Rule:MF_01815};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis. {ECO:0000256|HAMAP-
+CC       Rule:MF_01815}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01815}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01815}.
+CC   -!- DOMAIN: The last Arg residue of the ACP-binding site is essential for
+CC       the weak association between ACP/AcpP and FabH. {ECO:0000256|HAMAP-
+CC       Rule:MF_01815}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. FabH family.
+CC       {ECO:0000256|ARBA:ARBA00008642, ECO:0000256|HAMAP-Rule:MF_01815}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22783.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197763.1; NC_006322.1.
+DR   AlphaFoldDB; Q65LD5; -.
+DR   STRING; 279010.BL03313; -.
+DR   GeneID; 66216642; -.
+DR   KEGG; bld:BLi01221; -.
+DR   KEGG; bli:BL03313; -.
+DR   PATRIC; fig|279010.13.peg.1208; -.
+DR   eggNOG; COG0332; Bacteria.
+DR   HOGENOM; CLU_039592_3_1_9; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0033818; F:beta-ketoacyl-acyl-carrier-protein synthase III activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00830; KAS_III; 1.
+DR   FunFam; 3.40.47.10:FF:000004; 3-oxoacyl-[acyl-carrier-protein] synthase 3; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   HAMAP; MF_01815; FabH; 1.
+DR   InterPro; IPR013747; ACP_syn_III_C.
+DR   InterPro; IPR013751; ACP_syn_III_N.
+DR   InterPro; IPR004655; FabH.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   NCBIfam; TIGR00747; fabH; 1.
+DR   PANTHER; PTHR43091; 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE; 1.
+DR   PANTHER; PTHR43091:SF1; BETA-KETOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE III, CHLOROPLASTIC; 1.
+DR   Pfam; PF08545; ACP_syn_III; 1.
+DR   Pfam; PF08541; ACP_syn_III_C; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315, ECO:0000256|HAMAP-
+KW   Rule:MF_01815}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01815};
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160, ECO:0000256|HAMAP-
+KW   Rule:MF_01815};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832, ECO:0000256|HAMAP-
+KW   Rule:MF_01815};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_01815};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_01815};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268, ECO:0000256|HAMAP-
+KW   Rule:MF_01815}; Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01815}.
+FT   DOMAIN          106..184
+FT                   /note="Beta-ketoacyl-[acyl-carrier-protein] synthase III N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF08545"
+FT   DOMAIN          221..310
+FT                   /note="Beta-ketoacyl-[acyl-carrier-protein] synthase III C-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF08541"
+FT   REGION          238..242
+FT                   /note="ACP-binding"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        112
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        237
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        267
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01815"
+SQ   SEQUENCE   312 AA;  33877 MW;  59E169B1E5E51DE8 CRC64;
+     MKAGIIGIGR YIPEKVLTNF DLEKMVETSD EWIRTRTGIE ERRIAAEDEK TSDMAVAAAR
+     RAMEDANIEP EDLDMILVAT VTPDQAFPTV SCMIQEKLGA FNACAMDISA ACAGFMYGLV
+     TGKQFIEAGT YKHVLVIGVE KLSGITDWDD RNTAVLFGDG AGAAVVGPVS DDKGILSFEL
+     GADGRGGKHL YLDEKDHTIM NGREVFKFAV RQMGESSVNV IEKAGLSKED VDFLVPHQAN
+     IRIMEAARER LELPVEKMSK TVHKYGNTSA ASIPISLVEE LEAGKIKDGD VIVMVGFGGG
+     LTWGAIAMRW GR
+//

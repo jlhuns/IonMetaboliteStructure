@@ -1,0 +1,165 @@
+ID   PURNU_BACTN             Reviewed;         270 AA.
+AC   Q89ZI8;
+DT   05-JUL-2017, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Purine nucleoside phosphorylase BT_4389;
+DE            EC=2.4.2.1 {ECO:0000250|UniProtKB:P84138};
+DE   AltName: Full=Adenosine deaminase BT_4389;
+DE            EC=3.5.4.4 {ECO:0000250|UniProtKB:P84138};
+DE   AltName: Full=S-methyl-5'-thioadenosine phosphorylase BT_4389;
+DE            EC=2.4.2.28 {ECO:0000250|UniProtKB:P84138};
+GN   OrderedLocusNames=BT_4389 {ECO:0000312|EMBL:AAO79494.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   SUBUNIT.
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=16740638; DOI=10.1074/jbc.m600577200;
+RA   Beloqui A., Pita M., Polaina J., Martinez-Arias A., Golyshina O.V.,
+RA   Zumarraga M., Yakimov M.M., Garcia-Arellano H., Alcalde M., Fernandez V.M.,
+RA   Elborough K., Andreu J.M., Ballesteros A., Plou F.J., Timmis K.N.,
+RA   Ferrer M., Golyshin P.N.;
+RT   "Novel polyphenol oxidase mined from a metagenome expression library of
+RT   bovine rumen: biochemical properties, structural analysis, and phylogenetic
+RT   relationships.";
+RL   J. Biol. Chem. 281:22933-22942(2006).
+CC   -!- FUNCTION: Purine nucleoside enzyme that catalyzes the phosphorolysis of
+CC       adenosine and inosine nucleosides, yielding D-ribose 1-phosphate and
+CC       the respective free bases, adenine and hypoxanthine. Also catalyzes the
+CC       phosphorolysis of S-methyl-5'-thioadenosine into adenine and S-methyl-
+CC       5-thio-alpha-D-ribose 1-phosphate. Also has adenosine deaminase
+CC       activity. {ECO:0000250|UniProtKB:P84138}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + phosphate = alpha-D-ribose 1-phosphate + adenine;
+CC         Xref=Rhea:RHEA:27642, ChEBI:CHEBI:16335, ChEBI:CHEBI:16708,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27643;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5'-thioadenosine + phosphate = 5-(methylsulfanyl)-
+CC         alpha-D-ribose 1-phosphate + adenine; Xref=Rhea:RHEA:11852,
+CC         ChEBI:CHEBI:16708, ChEBI:CHEBI:17509, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58533; EC=2.4.2.28;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:11853;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=inosine + phosphate = alpha-D-ribose 1-phosphate +
+CC         hypoxanthine; Xref=Rhea:RHEA:27646, ChEBI:CHEBI:17368,
+CC         ChEBI:CHEBI:17596, ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27647;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + H2O + H(+) = inosine + NH4(+);
+CC         Xref=Rhea:RHEA:24408, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16335, ChEBI:CHEBI:17596, ChEBI:CHEBI:28938; EC=3.5.4.4;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24409;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC   -!- COFACTOR:
+CC       Name=Cu(2+); Xref=ChEBI:CHEBI:29036;
+CC         Evidence={ECO:0000250|UniProtKB:P33644};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P84138};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=10 uM for 2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)
+CC         (at pH 4.5 and 40 degrees Celsius) {ECO:0000269|PubMed:16740638};
+CC         KM=0.83 uM for syringaldazine (at pH 4.5 and 40 degrees Celsius)
+CC         {ECO:0000269|PubMed:16740638};
+CC         Note=kcat is 13000 min(-1) with
+CC         2,2'-azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) as substrate.
+CC         kcat is 33300 min(-1) with syringaldazine as substrate (at pH 4.5 and
+CC         40 degrees Celsius). {ECO:0000269|PubMed:16740638};
+CC       pH dependence:
+CC         Optimum pH is 4.5-6.0. Maintains 80% activity at pH 4.0-7.5.
+CC         {ECO:0000269|PubMed:16740638};
+CC       Temperature dependence:
+CC         Optimum temperature is 52 degrees Celsius. Maintains more than 80%
+CC         activity at 55 degrees Celsius. {ECO:0000269|PubMed:16740638};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:16740638}.
+CC   -!- SIMILARITY: Belongs to the purine nucleoside phosphorylase YfiH/LACC1
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79494.1; -; Genomic_DNA.
+DR   RefSeq; NP_813300.1; NC_004663.1.
+DR   RefSeq; WP_011109232.1; NC_004663.1.
+DR   AlphaFoldDB; Q89ZI8; -.
+DR   SMR; Q89ZI8; -.
+DR   STRING; 226186.BT_4389; -.
+DR   PaxDb; 226186-BT_4389; -.
+DR   EnsemblBacteria; AAO79494; AAO79494; BT_4389.
+DR   GeneID; 60925565; -.
+DR   KEGG; bth:BT_4389; -.
+DR   PATRIC; fig|226186.12.peg.4467; -.
+DR   eggNOG; COG1496; Bacteria.
+DR   HOGENOM; CLU_065784_0_0_10; -.
+DR   InParanoid; Q89ZI8; -.
+DR   OrthoDB; 4279at2; -.
+DR   SABIO-RK; Q89ZI8; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0046936; F:2'-deoxyadenosine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004000; F:adenosine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005507; F:copper ion binding; IDA:UniProtKB.
+DR   GO; GO:0016682; F:oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor; IDA:UniProtKB.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:UniProtKB.
+DR   GO; GO:0017061; F:S-methyl-5-thioadenosine phosphorylase activity; IEA:UniProtKB-EC.
+DR   CDD; cd16833; YfiH; 1.
+DR   FunFam; 3.60.140.10:FF:000011; Polyphenol oxidase; 1.
+DR   Gene3D; 3.60.140.10; CNF1/YfiH-like putative cysteine hydrolases; 1.
+DR   InterPro; IPR003730; Cu_polyphenol_OxRdtase.
+DR   InterPro; IPR038371; Cu_polyphenol_OxRdtase_sf.
+DR   InterPro; IPR011324; Cytotoxic_necrot_fac-like_cat.
+DR   NCBIfam; TIGR00726; peptidoglycan editing factor PgeF; 1.
+DR   PANTHER; PTHR30616:SF2; PURINE NUCLEOSIDE PHOSPHORYLASE LACC1; 1.
+DR   PANTHER; PTHR30616; UNCHARACTERIZED PROTEIN YFIH; 1.
+DR   Pfam; PF02578; Cu-oxidase_4; 1.
+DR   SUPFAM; SSF64438; CNF1/YfiH-like putative cysteine hydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Copper; Hydrolase; Metal-binding; Oxidoreductase; Reference proteome;
+KW   Transferase; Zinc.
+FT   CHAIN           1..270
+FT                   /note="Purine nucleoside phosphorylase BT_4389"
+FT                   /id="PRO_0000440779"
+FT   BINDING         79
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P84138"
+FT   BINDING         124
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P84138"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P84138"
+SQ   SEQUENCE   270 AA;  30118 MW;  0989A7E370C4DC81 CRC64;
+     MISITKDKRM LGYESLSSYS NISHFVTTRQ GGCSEGNYAS FNCTPYSGDE AEKVRRNQTL
+     LMEGMSQIPE ELVIPVQTHE TNYLLIGDAY LSASSQQRQE MLHGVDALIT REPGYCLCIS
+     TADCVPVLVY DKKHGAIAAI HAGWRGTVAY IVRDTLLRME KEFGTSGEDV VACIGPSISL
+     ASFEVGEEVY EAFQKNGFDM PRISIRKEET GKHHIDLWEA NRMQILAFGV PSGQVELARI
+     CTYIHHDEFF SARRLGIKSG RILSGIMIHK
+//

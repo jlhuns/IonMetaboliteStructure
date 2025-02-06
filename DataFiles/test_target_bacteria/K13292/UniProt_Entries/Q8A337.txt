@@ -1,0 +1,111 @@
+ID   LGT_BACTN               Reviewed;         281 AA.
+AC   Q8A337;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 111.
+DE   RecName: Full=Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase {ECO:0000255|HAMAP-Rule:MF_01147};
+DE            EC=2.5.1.145 {ECO:0000255|HAMAP-Rule:MF_01147};
+GN   Name=lgt {ECO:0000255|HAMAP-Rule:MF_01147}; OrderedLocusNames=BT_3118;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of the diacylglyceryl group from
+CC       phosphatidylglycerol to the sulfhydryl group of the N-terminal cysteine
+CC       of a prolipoprotein, the first step in the formation of mature
+CC       lipoproteins. {ECO:0000255|HAMAP-Rule:MF_01147}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteinyl-[prolipoprotein] + a 1,2-diacyl-sn-glycero-3-
+CC         phospho-(1'-sn-glycerol) = an S-1,2-diacyl-sn-glyceryl-L-cysteinyl-
+CC         [prolipoprotein] + sn-glycerol 1-phosphate + H(+);
+CC         Xref=Rhea:RHEA:56712, Rhea:RHEA-COMP:14679, Rhea:RHEA-COMP:14680,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:57685,
+CC         ChEBI:CHEBI:64716, ChEBI:CHEBI:140658; EC=2.5.1.145;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01147};
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (diacylglyceryl
+CC       transfer). {ECO:0000255|HAMAP-Rule:MF_01147}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01147}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01147}.
+CC   -!- SIMILARITY: Belongs to the Lgt family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01147}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO78224.1; -; Genomic_DNA.
+DR   RefSeq; NP_812030.1; NC_004663.1.
+DR   RefSeq; WP_011108644.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A337; -.
+DR   SMR; Q8A337; -.
+DR   STRING; 226186.BT_3118; -.
+DR   PaxDb; 226186-BT_3118; -.
+DR   EnsemblBacteria; AAO78224; AAO78224; BT_3118.
+DR   GeneID; 60924300; -.
+DR   KEGG; bth:BT_3118; -.
+DR   PATRIC; fig|226186.12.peg.3182; -.
+DR   eggNOG; COG0682; Bacteria.
+DR   HOGENOM; CLU_013386_1_0_10; -.
+DR   InParanoid; Q8A337; -.
+DR   OrthoDB; 871140at2; -.
+DR   UniPathway; UPA00664; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008961; F:phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042158; P:lipoprotein biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01147; Lgt; 1.
+DR   InterPro; IPR001640; Lgt.
+DR   NCBIfam; TIGR00544; lgt; 1.
+DR   PANTHER; PTHR30589:SF0; PHOSPHATIDYLGLYCEROL--PROLIPOPROTEIN DIACYLGLYCERYL TRANSFERASE; 1.
+DR   PANTHER; PTHR30589; PROLIPOPROTEIN DIACYLGLYCERYL TRANSFERASE; 1.
+DR   Pfam; PF01790; LGT; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; Reference proteome;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..281
+FT                   /note="Phosphatidylglycerol--prolipoprotein diacylglyceryl
+FT                   transferase"
+FT                   /id="PRO_0000172557"
+FT   TRANSMEM        26..46
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        59..79
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        110..130
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        136..156
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        189..209
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        219..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   TRANSMEM        252..272
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+FT   BINDING         157
+FT                   /ligand="a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-
+FT                   glycerol)"
+FT                   /ligand_id="ChEBI:CHEBI:64716"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01147"
+SQ   SEQUENCE   281 AA;  32986 MW;  1FD497E3431EADAD CRC64;
+     MNTLLLSINW NPNPELFNLF GISIRYYGLL WAVGIFFAYI IVHYQFRDKK IDEKKFDPLF
+     FYCFFGILIG ARLGHCLFYD PGQYLTSGKG FVEMLLPIKF LAGGGWKFTG YEGLASHGGT
+     LGLMIALWLY CRKTKLHYMD VVDMIAVATP ITACFIRLAN LMNSEIIGNP TNVPWAFVFE
+     RVDMLPRHPG QLYEAIAYLI LFFIMIYLYK NYSKKLHRGF FFGLCLAYIF TFRFFIEFVK
+     QNQEAFEDNM MFNMGQWLSV PFIIIGFYFM FFYDRKKVAK K
+//

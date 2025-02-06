@@ -1,0 +1,121 @@
+ID   TILS_SALTI              Reviewed;         430 AA.
+AC   Q8Z996; Q7CBP4;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 123.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   OrderedLocusNames=STY0261, t0238;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34 of
+CC       the AUA codon-specific tRNA(Ile) that contains the anticodon CAU, in an
+CC       ATP-dependent manner. Cytidine is converted to lysidine, thus changing
+CC       the amino acid specificity of the tRNA from methionine to isoleucine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(34) in tRNA(Ile2) + L-lysine + ATP = lysidine(34) in
+CC         tRNA(Ile2) + AMP + diphosphate + H(+); Xref=Rhea:RHEA:43744,
+CC         Rhea:RHEA-COMP:10625, Rhea:RHEA-COMP:10670, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:82748, ChEBI:CHEBI:83665, ChEBI:CHEBI:456215;
+CC         EC=6.3.4.19; Evidence={ECO:0000255|HAMAP-Rule:MF_01161};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08695.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67967.1; -; Genomic_DNA.
+DR   RefSeq; NP_454844.1; NC_003198.1.
+DR   RefSeq; WP_000210062.1; NZ_WSUR01000060.1.
+DR   AlphaFoldDB; Q8Z996; -.
+DR   SMR; Q8Z996; -.
+DR   STRING; 220341.gene:17584293; -.
+DR   KEGG; stt:t0238; -.
+DR   KEGG; sty:STY0261; -.
+DR   PATRIC; fig|220341.7.peg.262; -.
+DR   eggNOG; COG0037; Bacteria.
+DR   HOGENOM; CLU_018869_2_0_6; -.
+DR   OMA; QTETFFL; -.
+DR   OrthoDB; 9807403at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032267; F:tRNA(Ile)-lysidine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd01992; PP-ATPase; 1.
+DR   FunFam; 3.40.50.620:FF:000173; tRNA(Ile)-lysidine synthase; 1.
+DR   Gene3D; 1.20.59.20; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   InterPro; IPR015262; tRNA_Ile_lys_synt_subst-bd.
+DR   NCBIfam; TIGR02433; lysidine_TilS_C; 1.
+DR   NCBIfam; TIGR02432; lysidine_TilS_N; 1.
+DR   PANTHER; PTHR43033; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR43033:SF1; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   Pfam; PF09179; TilS; 1.
+DR   Pfam; PF11734; TilS_C; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF82829; MesJ substrate recognition domain-like; 1.
+DR   SUPFAM; SSF56037; PheT/TilS domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding; tRNA processing.
+FT   CHAIN           1..430
+FT                   /note="tRNA(Ile)-lysidine synthase"
+FT                   /id="PRO_0000181760"
+FT   BINDING         21..26
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01161"
+SQ   SEQUENCE   430 AA;  48486 MW;  25E65048655B29CF CRC64;
+     MTTLTLNTSL LSSRRILAAF SGGLDSTVLL HQLVLWRERH PDVTLRAIHI HHGLSPHADS
+     WVRHCETVCE RWQVPLVVER VTLADNGLGI EAHAREARYR AFAQTLLPGE VLATAQHLDD
+     QCETFLLALK RGSGPAGLSA MGERSPFAGT LLLRPLLRET RKTLEQWAVR HGLCWIEDES
+     NQDDAYDRNF LRLRALPLLQ QRWPHFPAAV ARSATLCAEQ ERLLDELLAS DLTDCITTEG
+     TLRLSPLMSM SDVRRAAILR RWLAMRNAPM PSRDALERIW QEVALARDDA SPCLRFGDHE
+     IRRYQSQLWW IKTVAGQHET TVAWPVWQTP LALPAGLGTV QLVPGGELRR PREEESVSIR
+     FKAPGLLHIV GRHGGRKLKK IWQEQGIPPW RRDTTPLLFY GETLIAAAGV FVTREGAAED
+     KEGVSLVWHA
+//

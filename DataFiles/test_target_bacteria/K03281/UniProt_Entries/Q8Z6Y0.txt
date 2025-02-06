@@ -1,0 +1,160 @@
+ID   CLCB_SALTI              Reviewed;         417 AA.
+AC   Q8Z6Y0;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-APR-2003, sequence version 2.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Voltage-gated ClC-type chloride channel ClcB;
+GN   Name=clcB; OrderedLocusNames=STY1574, t1411;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Probably acts as an electrical shunt for an outwardly-
+CC       directed proton pump that is linked to amino acid decarboxylation, as
+CC       part of the extreme acid resistance (XAR) response. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the chloride channel (TC 2.A.49) family. ClcB
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO69055.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=CAD01823.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01823.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE014613; AAO69055.1; ALT_INIT; Genomic_DNA.
+DR   PIR; AF0681; AF0681.
+DR   RefSeq; NP_455989.3; NC_003198.1.
+DR   AlphaFoldDB; Q8Z6Y0; -.
+DR   SMR; Q8Z6Y0; -.
+DR   STRING; 220341.gene:17585513; -.
+DR   KEGG; stt:t1411; -.
+DR   KEGG; sty:STY1574; -.
+DR   PATRIC; fig|220341.7.peg.1583; -.
+DR   eggNOG; COG0038; Bacteria.
+DR   HOGENOM; CLU_015263_5_2_6; -.
+DR   OMA; VIFVMEV; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0034707; C:chloride channel complex; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005247; F:voltage-gated chloride channel activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010447; P:response to acidic pH; IEA:InterPro.
+DR   CDD; cd00400; Voltage_gated_ClC; 1.
+DR   FunFam; 1.10.3080.10:FF:000010; Voltage-gated ClC-type chloride channel ClcB; 1.
+DR   Gene3D; 1.10.3080.10; Clc chloride channel; 1.
+DR   HAMAP; MF_01203; CLC_ClcB; 1.
+DR   InterPro; IPR014743; Cl-channel_core.
+DR   InterPro; IPR023790; Cl-channel_volt-gated_ClcB.
+DR   InterPro; IPR001807; ClC.
+DR   InterPro; IPR050368; ClC-type_chloride_channel.
+DR   PANTHER; PTHR43427; CHLORIDE CHANNEL PROTEIN CLC-E; 1.
+DR   PANTHER; PTHR43427:SF6; CHLORIDE CHANNEL PROTEIN CLC-E; 1.
+DR   Pfam; PF00654; Voltage_CLC; 1.
+DR   PRINTS; PR00762; CLCHANNEL.
+DR   SUPFAM; SSF81340; Clc chloride channel; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Chloride; Chloride channel;
+KW   Ion channel; Ion transport; Membrane; Transmembrane; Transmembrane helix;
+KW   Transport; Voltage-gated channel.
+FT   CHAIN           1..417
+FT                   /note="Voltage-gated ClC-type chloride channel ClcB"
+FT                   /id="PRO_0000094488"
+FT   TOPO_DOM        1..4
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        5..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        26..53
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        54..74
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        75..145
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        146..166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        167..172
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        173..195
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        196..221
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        222..242
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        243..257
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        279..287
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        288..308
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        309..315
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        316..336
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        337..338
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        339..359
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        360..379
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        380..400
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        401..417
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   417 AA;  44200 MW;  B43C8AD1268406AD CRC64;
+     MFRRLLIATL IGILAALAVA AFRHAMQLLE WIFLSNDTGS LVNAAEGLSP WRRLITPALG
+     GLAAGLLLWG WQKMNQQRPH APTDYMEALQ TDGQFDVGAS LVKSLASLLV VVSGSAIGRE
+     GAMILLAALA ASSFARRFTP REEWKLWIAS GAAAGMAGAY HAPLAGSLFI AEILFGTLML
+     ASLGPVVVSA VVALLTTHVL NGSDSLLYTV HLTVDLYARE YVMIVSTGLV AGLWGPLLMW
+     LMTASHNSFL RLKLSPPWQL ALGGLIVGLL SLLTPTVWGN GYSVVQSFLL SPPLFSLIGG
+     IFACKILAVL ASSGSGAPGG VFTPTLFVGL SIGMFLGRIW GFWLPGSDEI AILLGLAGMA
+     TLLAATTHAP IMSTLMICEM TGEYQLLPGL LIACVVASVL SRTLRHDSIY RQHAAEH
+//

@@ -1,0 +1,146 @@
+ID   EX3_SALTI               Reviewed;         268 AA.
+AC   P0A1B0; Q9Z612;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   27-NOV-2024, entry version 113.
+DE   RecName: Full=Exodeoxyribonuclease III;
+DE            Short=EXO III;
+DE            Short=Exonuclease III;
+DE            EC=3.1.11.2;
+DE   AltName: Full=AP endonuclease VI;
+GN   Name=xthA; OrderedLocusNames=STY1812, t1181;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Major apurinic-apyrimidinic endonuclease of E.coli. It
+CC       removes the damaged DNA at cytosines and guanines by cleaving on the
+CC       3'-side of the AP site by a beta-elimination reaction. It exhibits 3'-
+CC       5'-exonuclease, 3'-phosphomonoesterase, 3'-repair diesterase and
+CC       ribonuclease H activities (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exonucleolytic cleavage in the 3'- to 5'-direction to yield
+CC         nucleoside 5'-phosphates.; EC=3.1.11.2;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Probably binds two magnesium or manganese ions per subunit.
+CC       {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the DNA repair enzymes AP/ExoA family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02052.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68838.1; -; Genomic_DNA.
+DR   RefSeq; NP_456210.1; NC_003198.1.
+DR   RefSeq; WP_000673954.1; NZ_WSUR01000034.1.
+DR   AlphaFoldDB; P0A1B0; -.
+DR   SMR; P0A1B0; -.
+DR   STRING; 220341.gene:17585744; -.
+DR   KEGG; stt:t1181; -.
+DR   KEGG; sty:STY1812; -.
+DR   PATRIC; fig|220341.7.peg.1825; -.
+DR   eggNOG; COG0708; Bacteria.
+DR   HOGENOM; CLU_027539_0_3_6; -.
+DR   OMA; WWSYRGR; -.
+DR   OrthoDB; 9803914at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0008311; F:double-stranded DNA 3'-5' DNA exonuclease activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   CDD; cd09086; ExoIII-like_AP-endo; 1.
+DR   FunFam; 3.60.10.10:FF:000006; Exodeoxyribonuclease III; 1.
+DR   Gene3D; 3.60.10.10; Endonuclease/exonuclease/phosphatase; 1.
+DR   InterPro; IPR004808; AP_endonuc_1.
+DR   InterPro; IPR020847; AP_endonuclease_F1_BS.
+DR   InterPro; IPR020848; AP_endonuclease_F1_CS.
+DR   InterPro; IPR036691; Endo/exonu/phosph_ase_sf.
+DR   InterPro; IPR005135; Endo/exonuclease/phosphatase.
+DR   InterPro; IPR037493; ExoIII-like.
+DR   NCBIfam; TIGR00195; exoDNase_III; 1.
+DR   NCBIfam; TIGR00633; xth; 1.
+DR   PANTHER; PTHR43250; EXODEOXYRIBONUCLEASE III; 1.
+DR   PANTHER; PTHR43250:SF2; EXODEOXYRIBONUCLEASE III; 1.
+DR   Pfam; PF03372; Exo_endo_phos; 1.
+DR   SUPFAM; SSF56219; DNase I-like; 1.
+DR   PROSITE; PS00726; AP_NUCLEASE_F1_1; 1.
+DR   PROSITE; PS00727; AP_NUCLEASE_F1_2; 1.
+DR   PROSITE; PS00728; AP_NUCLEASE_F1_3; 1.
+DR   PROSITE; PS51435; AP_NUCLEASE_F1_4; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA repair; Exonuclease; Hydrolase; Magnesium; Metal-binding;
+KW   Nuclease.
+FT   CHAIN           1..268
+FT                   /note="Exodeoxyribonuclease III"
+FT                   /id="PRO_0000200023"
+FT   ACT_SITE        109
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        151
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         34
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         153
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         258
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000250"
+FT   SITE            153
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+FT   SITE            229
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250"
+FT   SITE            259
+FT                   /note="Interaction with DNA substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   268 AA;  30785 MW;  6EBBD3E6B481EEE7 CRC64;
+     MKFVSFNING LRARPHQLEA IVEKHQPDVI GLQETKVHDE MFPLEEVAKL GYNVFYHGQK
+     GHYGVALLTK ATPISVRRGF PDDGEEAQRR IIMAEIPSPL GNITVINGYF PQGESRDHPL
+     KFPAKAQFYQ NLQNYLETEL KCDNPVLIMG DMNISPTDLD IGIGEENRKR WLRTGKCSFL
+     PEEREWMSRL LKWGLVDTFR QANPQTMDKF SWFDYRSKGF VDNRGLRIDL LLASAPLAER
+     CAETGIDYDI RSMEKPSDHA PVWATFRV
+//

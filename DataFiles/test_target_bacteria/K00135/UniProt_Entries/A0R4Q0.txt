@@ -1,0 +1,129 @@
+ID   GABD2_MYCS2             Reviewed;         517 AA.
+AC   A0R4Q0; I7GF38;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   RecName: Full=Putative succinate-semialdehyde dehydrogenase [NADP(+)];
+DE            Short=SSADH;
+DE            Short=SSDH;
+DE            EC=1.2.1.79;
+GN   Name=gabD2; OrderedLocusNames=MSMEG_5912, MSMEI_5752;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+CC   -!- FUNCTION: Catalyzes the NADP(+)-dependent oxidation of succinate
+CC       semialdehyde to succinate. Although it has succinate semialdehyde
+CC       dehydrogenase activity, is likely to act physiologically on a different
+CC       aldehyde(s) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=succinate semialdehyde + NADP(+) + H2O = succinate + NADPH + 2
+CC         H(+); Xref=Rhea:RHEA:13213, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:57706, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.2.1.79;
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK69825.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP42186.1; -; Genomic_DNA.
+DR   RefSeq; WP_003897308.1; NZ_SIJM01000017.1.
+DR   RefSeq; YP_890138.1; NC_008596.1.
+DR   AlphaFoldDB; A0R4Q0; -.
+DR   SMR; A0R4Q0; -.
+DR   STRING; 246196.MSMEG_5912; -.
+DR   PaxDb; 246196-MSMEI_5752; -.
+DR   GeneID; 93460548; -.
+DR   KEGG; msb:LJ00_29235; -.
+DR   KEGG; msg:MSMEI_5752; -.
+DR   KEGG; msm:MSMEG_5912; -.
+DR   PATRIC; fig|246196.19.peg.5752; -.
+DR   eggNOG; COG1012; Bacteria.
+DR   OrthoDB; 6882680at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0036243; F:succinate-semialdehyde dehydrogenase (NADP+) activity; IEA:UniProtKB-EC.
+DR   CDD; cd07101; ALDH_SSADH2_GabD2; 1.
+DR   FunFam; 3.40.309.10:FF:000009; Aldehyde dehydrogenase A; 1.
+DR   FunFam; 3.40.605.10:FF:000010; N-succinylglutamate 5-semialdehyde dehydrogenase; 1.
+DR   Gene3D; 3.40.605.10; Aldehyde Dehydrogenase, Chain A, domain 1; 1.
+DR   Gene3D; 3.40.309.10; Aldehyde Dehydrogenase, Chain A, domain 2; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR11699; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   3: Inferred from homology;
+KW   NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..517
+FT                   /note="Putative succinate-semialdehyde dehydrogenase
+FT                   [NADP(+)]"
+FT                   /id="PRO_0000310710"
+FT   ACT_SITE        254
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007"
+FT   ACT_SITE        288
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10007"
+FT   BINDING         157..158
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         181..184
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         232..233
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         255
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         386
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   517 AA;  54992 MW;  8015E38D33E866C4 CRC64;
+     MPAPSAADFA RLRSLVAIED LDARQSRPIE EVFTGRELTT IPVGTAEDVA AAFAKARAAQ
+     RGWAHRPVAE RAAIMERFRD LVAKNRDFLM DVAQAETGKA RSAAQEEIVD MMLNARYYAR
+     QAVKLLAPKR VQGLLPGVVK TVVNHHPKGV VGVISPWNYP MALSISDSIP ALLAGNAVVV
+     KPDSQTPYCT LANAELLYEA GLPRDLFAVV PGPGSVVGTA IVENCDYLMF TGSTATGRTL
+     AEQCGRRLIG FSAELGGKNP MIVTRGAKLD VAAKAATRAC FSNAGQLCIS IERIYVERAV
+     ADEFTAKFGE QVRSMRLAAT YDFTADMGSL ISEDQIKTVS GHVDDAKAKG ATVIAGGNIR
+     PDIGPRFYEP TVLTGVTDEM ECARNETFGP VVSIYPVESV AEAIEKANDT EYGLNASVWA
+     GSKTEGEAIA AQLQAGTVNV DEGYALAFGS TAAPMGGMKA SGVGRRHGAD GILKYTESQT
+     VATSRVLNLD PPLGISGTLW QKAMTPMIRA VQKLPGR
+//

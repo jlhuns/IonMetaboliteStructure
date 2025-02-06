@@ -1,0 +1,121 @@
+ID   NTPPA_SALTI             Reviewed;         197 AA.
+AC   P58631;
+DT   23-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 1.
+DT   05-FEB-2025, entry version 116.
+DE   RecName: Full=dTTP/UTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            Short=dTTPase/UTPase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            EC=3.6.1.9 {ECO:0000255|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleoside triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleotide pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            Short=Nucleotide PPase {ECO:0000255|HAMAP-Rule:MF_00528};
+GN   Name=yhdE; OrderedLocusNames=STY3551, t3286;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Nucleoside triphosphate pyrophosphatase that hydrolyzes dTTP
+CC       and UTP. May have a dual role in cell division arrest and in preventing
+CC       the incorporation of modified nucleotides into cellular nucleic acids.
+CC       {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + H2O = dTMP + diphosphate + H(+); Xref=Rhea:RHEA:28534,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37568, ChEBI:CHEBI:63528; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UTP + H2O = UMP + diphosphate + H(+); Xref=Rhea:RHEA:29395,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46398, ChEBI:CHEBI:57865; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00528,
+CC       ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the Maf family. YhdE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07886.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70821.1; -; Genomic_DNA.
+DR   RefSeq; NP_457747.1; NC_003198.1.
+DR   RefSeq; WP_000210300.1; NZ_WSUR01000038.1.
+DR   AlphaFoldDB; P58631; -.
+DR   SMR; P58631; -.
+DR   STRING; 220341.gene:17587399; -.
+DR   KEGG; stt:t3286; -.
+DR   KEGG; sty:STY3551; -.
+DR   PATRIC; fig|220341.7.peg.3615; -.
+DR   eggNOG; COG0424; Bacteria.
+DR   HOGENOM; CLU_040416_2_1_6; -.
+DR   OMA; VIGCDSV; -.
+DR   OrthoDB; 9807767at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106379; F:8-oxo-(d)RTP hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0036221; F:UTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00555; Maf; 1.
+DR   FunFam; 3.90.950.10:FF:000004; dTTP/UTP pyrophosphatase; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_00528; Maf; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR003697; Maf-like.
+DR   NCBIfam; TIGR00172; maf; 1.
+DR   PANTHER; PTHR43213; BIFUNCTIONAL DTTP/UTP PYROPHOSPHATASE/METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR43213:SF5; BIFUNCTIONAL DTTP_UTP PYROPHOSPHATASE_METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   Pfam; PF02545; Maf; 1.
+DR   PIRSF; PIRSF006305; Maf; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Nucleotide metabolism.
+FT   CHAIN           1..197
+FT                   /note="dTTP/UTP pyrophosphatase"
+FT                   /id="PRO_0000122984"
+FT   ACT_SITE        70
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            12
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            71
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+FT   SITE            153
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+SQ   SEQUENCE   197 AA;  21456 MW;  1DCB970C822D4140 CRC64;
+     MTTLYLASGS PRRQELLIQL GFSFEQVVPG IEEQRRVQES AQQYVVRLAR EKAQAGVALV
+     PRDLPVLGAD TIVVLNGEVL EKPRDAAHAA EMLRLLSGNT HQVMTAVALA DSQQTLDCLV
+     VTEVTFRTLS AQDITGYVAS GEPLDKAGAY GIQGRGGCFV RKINGSYHAV VGLPLVETYE
+     LLSHFNALRD KRDKHDG
+//

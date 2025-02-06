@@ -1,0 +1,121 @@
+ID   SYFA_SALTI              Reviewed;         327 AA.
+AC   P67039; Q8XGJ3;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 120.
+DE   RecName: Full=Phenylalanine--tRNA ligase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            EC=6.1.1.20 {ECO:0000255|HAMAP-Rule:MF_00281};
+DE   AltName: Full=Phenylalanyl-tRNA synthetase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            Short=PheRS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   Name=pheS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   OrderedLocusNames=STY1773, t1218;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Phe) + L-phenylalanine + ATP = L-phenylalanyl-tRNA(Phe) +
+CC         AMP + diphosphate + H(+); Xref=Rhea:RHEA:19413, Rhea:RHEA-COMP:9668,
+CC         Rhea:RHEA-COMP:9699, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58095, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78531, ChEBI:CHEBI:456215; EC=6.1.1.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00281};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00281};
+CC       Note=Binds 2 magnesium ions per tetramer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Phe-tRNA synthetase alpha subunit type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02015.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68873.1; -; Genomic_DNA.
+DR   RefSeq; NP_456174.1; NC_003198.1.
+DR   RefSeq; WP_000018570.1; NZ_WSUR01000011.1.
+DR   AlphaFoldDB; P67039; -.
+DR   SMR; P67039; -.
+DR   STRING; 220341.gene:17585707; -.
+DR   KEGG; stt:t1218; -.
+DR   KEGG; sty:STY1773; -.
+DR   PATRIC; fig|220341.7.peg.1785; -.
+DR   eggNOG; COG0016; Bacteria.
+DR   HOGENOM; CLU_025086_0_1_6; -.
+DR   OMA; EIMGCGM; -.
+DR   OrthoDB; 9800719at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004826; F:phenylalanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0006432; P:phenylalanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00496; PheRS_alpha_core; 1.
+DR   FunFam; 3.30.930.10:FF:000003; Phenylalanine--tRNA ligase alpha subunit; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   HAMAP; MF_00281; Phe_tRNA_synth_alpha1; 1.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004529; Phe-tRNA-synth_IIc_asu.
+DR   InterPro; IPR004188; Phe-tRNA_ligase_II_N.
+DR   InterPro; IPR022911; Phe_tRNA_ligase_alpha1_bac.
+DR   InterPro; IPR002319; Phenylalanyl-tRNA_Synthase.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   NCBIfam; TIGR00468; pheS; 1.
+DR   PANTHER; PTHR11538:SF41; PHENYLALANINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11538; PHENYLALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02912; Phe_tRNA-synt_N; 1.
+DR   Pfam; PF01409; tRNA-synt_2d; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..327
+FT                   /note="Phenylalanine--tRNA ligase alpha subunit"
+FT                   /id="PRO_0000126756"
+FT   BINDING         252
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with beta subunit"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00281"
+SQ   SEQUENCE   327 AA;  36755 MW;  3836DDB507692BFC CRC64;
+     MSHLAELVAN AAAAINQASD VAALDNVRVE YLGKKGHLTL QMTTLRDLPP EERPAAGAVI
+     NAAKEQVQQA LNARKAELES AALNARLAAE TIDISLPGRR IENGGLHPVT RTIDRIESFF
+     GELGFTVATG PEIEDDYHNF DALNIPGHHP ARADHDTFWF DATRLLRTQT SGVQIRTMKA
+     QQPPIRIIAP GRVYRNDYDQ THTPMFHQME GLIVDTNISF TNLKGTLHDF LRNFFEEDLQ
+     IRFRPSYFPF TEPSAEVDVM GKNGKWLEVL GCGMVHPNVL RNVGIDPEIY SGFAFGMGME
+     RLTMLRYGVT DLRSFFENDL RFLKQFK
+//

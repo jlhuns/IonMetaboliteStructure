@@ -1,0 +1,111 @@
+ID   Q035E4_LACP3            Unreviewed;       136 AA.
+AC   Q035E4;
+DT   14-NOV-2006, integrated into UniProtKB/TrEMBL.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   RecName: Full=Fluoride-specific ion channel FluC {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   Name=fluC {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   Synonyms=crcB {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   OrderedLocusNames=LSEI_2442 {ECO:0000313|EMBL:ABJ71178.1};
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967 {ECO:0000313|EMBL:ABJ71178.1, ECO:0000313|Proteomes:UP000001651};
+RN   [1] {ECO:0000313|EMBL:ABJ71178.1, ECO:0000313|Proteomes:UP000001651}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441 {ECO:0000313|Proteomes:UP000001651};
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K., Slesarev A., Wolf Y., Sorokin A., Mirkin B., Koonin E.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M., Klaenhammer T., Richardson P.,
+RA   Kozyavkin S., Weimer B., Mills D.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Fluoride-specific ion channel. Important for reducing
+CC       fluoride concentration in the cell, thus reducing its toxicity.
+CC       {ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=fluoride(in) = fluoride(out); Xref=Rhea:RHEA:76159,
+CC         ChEBI:CHEBI:17051; Evidence={ECO:0000256|ARBA:ARBA00035585};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76160;
+CC         Evidence={ECO:0000256|ARBA:ARBA00035585};
+CC   -!- ACTIVITY REGULATION: Na(+) is not transported, but it plays an
+CC       essential structural role and its presence is essential for fluoride
+CC       channel function. {ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|HAMAP-Rule:MF_00454}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- SIMILARITY: Belongs to the fluoride channel Fluc/FEX (TC 1.A.43)
+CC       family. {ECO:0000256|ARBA:ARBA00035120, ECO:0000256|HAMAP-
+CC       Rule:MF_00454}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ71178.1; -; Genomic_DNA.
+DR   RefSeq; WP_003596128.1; NC_008526.1.
+DR   RefSeq; YP_807620.1; NC_008526.1.
+DR   AlphaFoldDB; Q035E4; -.
+DR   PaxDb; 321967-LSEI_2442; -.
+DR   KEGG; lca:LSEI_2442; -.
+DR   PATRIC; fig|321967.11.peg.2398; -.
+DR   HOGENOM; CLU_114342_1_2_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0062054; F:fluoride channel activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0140114; P:cellular detoxification of fluoride; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00454; FluC; 1.
+DR   InterPro; IPR003691; FluC.
+DR   InterPro; IPR036259; MFS_trans_sf.
+DR   PANTHER; PTHR28259; FLUORIDE EXPORT PROTEIN 1-RELATED; 1.
+DR   PANTHER; PTHR28259:SF1; FLUORIDE EXPORT PROTEIN 1-RELATED; 1.
+DR   Pfam; PF02537; CRCB; 1.
+DR   SUPFAM; SSF103473; MFS general substrate transporter; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00454};
+KW   Ion channel {ECO:0000256|ARBA:ARBA00023303, ECO:0000256|HAMAP-
+KW   Rule:MF_00454}; Ion transport {ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001651};
+KW   Sodium {ECO:0000256|ARBA:ARBA00023053, ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_00454};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_00454}; Transport {ECO:0000256|HAMAP-Rule:MF_00454}.
+FT   TRANSMEM        9..29
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   TRANSMEM        41..60
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   TRANSMEM        69..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   TRANSMEM        100..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   BINDING         80
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   BINDING         83
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+SQ   SEQUENCE   136 AA;  14758 MW;  6F851FA47114973D CRC64;
+     MHHREKIHVS WLVAVFAGGF IGGILRYVIS GVTHDGTTMM GTTIVNLIGS FLLAFTTYGL
+     DMKFDLPEWL LLALGTGVIG GFTTFSTLML DFATLAPRHA IYATLLLMLN LLGGLLAATA
+     GFLASKLVGR RDKKQW
+//

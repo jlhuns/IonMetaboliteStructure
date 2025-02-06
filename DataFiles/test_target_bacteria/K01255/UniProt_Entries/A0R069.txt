@@ -1,0 +1,145 @@
+ID   A0R069_MYCS2            Unreviewed;       519 AA.
+AC   A0R069;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Probable cytosol aminopeptidase {ECO:0000256|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.1 {ECO:0000256|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucine aminopeptidase {ECO:0000256|HAMAP-Rule:MF_00181};
+DE            Short=LAP {ECO:0000256|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.10 {ECO:0000256|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucyl aminopeptidase {ECO:0000256|HAMAP-Rule:MF_00181};
+GN   Name=pepA {ECO:0000256|HAMAP-Rule:MF_00181};
+GN   OrderedLocusNames=MSMEG_4281 {ECO:0000313|EMBL:ABK69564.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK69564.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK69564.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Presumably involved in the processing and regular turnover of
+CC       intracellular proteins. Catalyzes the removal of unsubstituted N-
+CC       terminal amino acids from various peptides. {ECO:0000256|HAMAP-
+CC       Rule:MF_00181}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, Xaa-|-Yaa-, in which Xaa
+CC         is preferably Leu, but may be other amino acids including Pro
+CC         although not Arg or Lys, and Yaa may be Pro. Amino acid amides and
+CC         methyl esters are also readily hydrolyzed, but rates on arylamides
+CC         are exceedingly low.; EC=3.4.11.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000135, ECO:0000256|HAMAP-
+CC         Rule:MF_00181};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, preferentially leucine,
+CC         but not glutamic or aspartic acids.; EC=3.4.11.10;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000967, ECO:0000256|HAMAP-
+CC         Rule:MF_00181};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00181};
+CC       Note=Binds 2 manganese ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00181};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00181}.
+CC   -!- SIMILARITY: Belongs to the peptidase M17 family.
+CC       {ECO:0000256|ARBA:ARBA00009528, ECO:0000256|HAMAP-Rule:MF_00181}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK69564.1; -; Genomic_DNA.
+DR   RefSeq; YP_888557.1; NC_008596.1.
+DR   AlphaFoldDB; A0R069; -.
+DR   STRING; 246196.MSMEG_4281; -.
+DR   PaxDb; 246196-MSMEI_4179; -.
+DR   KEGG; msm:MSMEG_4281; -.
+DR   PATRIC; fig|246196.19.peg.4200; -.
+DR   eggNOG; COG0260; Bacteria.
+DR   OrthoDB; 9809354at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00433; Peptidase_M17; 1.
+DR   Gene3D; 3.40.220.10; Leucine Aminopeptidase, subunit E, domain 1; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   HAMAP; MF_00181; Cytosol_peptidase_M17; 1.
+DR   InterPro; IPR011356; Leucine_aapep/pepB.
+DR   InterPro; IPR043472; Macro_dom-like.
+DR   InterPro; IPR000819; Peptidase_M17_C.
+DR   InterPro; IPR023042; Peptidase_M17_leu_NH2_pept.
+DR   InterPro; IPR008283; Peptidase_M17_N.
+DR   PANTHER; PTHR11963:SF23; CYTOSOL AMINOPEPTIDASE; 1.
+DR   PANTHER; PTHR11963; LEUCINE AMINOPEPTIDASE-RELATED; 1.
+DR   Pfam; PF00883; Peptidase_M17; 1.
+DR   Pfam; PF02789; Peptidase_M17_N; 1.
+DR   PRINTS; PR00481; LAMNOPPTDASE.
+DR   SUPFAM; SSF52949; Macro domain-like; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00631; CYTOSOL_AP; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase {ECO:0000256|ARBA:ARBA00022438, ECO:0000256|HAMAP-
+KW   Rule:MF_00181}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00181};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00181};
+KW   Manganese {ECO:0000256|HAMAP-Rule:MF_00181};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00181};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000256|HAMAP-Rule:MF_00181};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          363..370
+FT                   /note="Cytosol aminopeptidase"
+FT                   /evidence="ECO:0000259|PROSITE:PS00631"
+FT   ACT_SITE        295
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   ACT_SITE        369
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         283
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         288
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         288
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         306
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         365
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         367
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+FT   BINDING         367
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00181"
+SQ   SEQUENCE   519 AA;  53725 MW;  9FDE92588971F128 CRC64;
+     MRVSNAPGYQ APTVTVSSSL PRRGVAEAVL VVGVVSNDSN NKRSDTDSAP KLLTPAPFFD
+     ATVVTAIESG LRALGATGGE GQTHRLVVDA LPVGSVLAVG LGKDRDEWPA DVIRRAAGNA
+     ARALDGKVAT VITTLSASGP QALSAAVEGL ILGAYRFSDF RSEKTAPKGP GLTAITVLAH
+     DTKAPTKAEA QRGVDIATAV ATARDFVNTP PSHLFPDEFA KRAKAFGESV GLKVEVLDDK
+     ALEKAGYGGI IGVGKGSSRP PRLVRLSHLG AKRKGKRVAL VGKGITFDTG GISIKPAANM
+     HHMTSDMGGA AAVIATVALA AVRQLPIDVI ATVPMAENMP SATAQRPGDV LTQYGGITVE
+     VLNTDAEGRL ILADAIVRAC EDNPDYLIET STLTGAQTVA LGARTPGVMG SDEFRDRVAK
+     LSQDVGENGW PMPLPEELRD DLKSTVADLA NVSGSRFAGM LVAGTYLREF VAEGVQWAHI
+     DVAAPAYNTG GPWGYTPKGG TGVPARTMFA VLEDIAANG
+//

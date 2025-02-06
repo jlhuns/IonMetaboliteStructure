@@ -1,0 +1,131 @@
+ID   Q6N564_RHOPA            Unreviewed;       436 AA.
+AC   Q6N564;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Dihydroorotase {ECO:0000256|HAMAP-Rule:MF_00220};
+DE            Short=DHOase {ECO:0000256|HAMAP-Rule:MF_00220};
+DE            EC=3.5.2.3 {ECO:0000256|HAMAP-Rule:MF_00220};
+GN   Name=pyr {ECO:0000313|EMBL:CAE28559.1};
+GN   Synonyms=pyrC {ECO:0000256|HAMAP-Rule:MF_00220};
+GN   OrderedLocusNames=RPA3118 {ECO:0000313|EMBL:CAE28559.1};
+GN   ORFNames=TX73_016125 {ECO:0000313|EMBL:WCL93283.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28559.1};
+RN   [1] {ECO:0000313|EMBL:WCL93283.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93283.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28559.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28559.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93283.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93283.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible cyclization of carbamoyl aspartate
+CC       to dihydroorotate. {ECO:0000256|HAMAP-Rule:MF_00220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + H2O = N-carbamoyl-L-aspartate + H(+);
+CC         Xref=Rhea:RHEA:24296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:32814; EC=3.5.2.3;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00220};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00220};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00220};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 3/3. {ECO:0000256|HAMAP-
+CC       Rule:MF_00220}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       DHOase family. Class I DHOase subfamily. {ECO:0000256|HAMAP-
+CC       Rule:MF_00220}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572603; CAE28559.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93283.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158663.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3118; -.
+DR   GeneID; 66894200; -.
+DR   KEGG; rpa:TX73_016125; -.
+DR   eggNOG; COG0044; Bacteria.
+DR   HOGENOM; CLU_015572_1_0_5; -.
+DR   PhylomeDB; Q6N564; -.
+DR   UniPathway; UPA00070; UER00117.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004038; F:allantoinase activity; IEA:TreeGrafter.
+DR   GO; GO:0004151; F:dihydroorotase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006145; P:purine nucleobase catabolic process; IEA:TreeGrafter.
+DR   CDD; cd01317; DHOase_IIa; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   Gene3D; 2.30.40.10; Urease, subunit C, domain 1; 1.
+DR   HAMAP; MF_00220_B; PyrC_classI_B; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR004722; DHOase.
+DR   InterPro; IPR050138; DHOase/Allantoinase_Hydrolase.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   NCBIfam; TIGR00857; pyrC_multi; 1.
+DR   PANTHER; PTHR43668; ALLANTOINASE; 1.
+DR   PANTHER; PTHR43668:SF2; ALLANTOINASE; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; Composite domain of metallo-dependent hydrolases; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|HAMAP-Rule:MF_00220, ECO:0000313|EMBL:CAE28559.1};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00220};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_00220}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_00220}.
+FT   DOMAIN          61..429
+FT                   /note="Amidohydrolase-related"
+FT                   /evidence="ECO:0000259|Pfam:PF01979"
+FT   ACT_SITE        314
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00220"
+FT   BINDING         103
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00220"
+FT   BINDING         188
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00220"
+FT   BINDING         314
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00220"
+SQ   SEQUENCE   436 AA;  46133 MW;  A9E5D5BE2A3D30F6 CRC64;
+     MLIDRRPILL ANARLIDPSR DFDGIGDVLI ADGVIRDARR GIGAAGVPEG TDIVNCAGMV
+     VAPGLVDMRA FVGEPGASHR ETFASASQAA AAGGITTIVC QPNTSPVIDN SATVDFVMRR
+     ARDTAIVNIH PMAAITKGLA GAEMTEIGLL KAAGAVAFSD GDLSVTNAQV MRRALTYARD
+     FDALIVHHTE DPDLVGEGVM NEGEFATRLG LAGIPNAAET VMLERDIRLV MLTGGRYHAA
+     SLTCIESLEI MQRARDLGLS VSASVSINHV ALNENDIGPY RTFLKLAPPL RTEADRKALI
+     AAIASGLIDV VMSDHNPQDV EVKRLPFAEA AAGAIGLETM LPAGLRLVHA GELDFLSLIR
+     AMSTRPAELL GLPGGTLRSG APADLIVIDP DVPWLVDPDE LKSKCKNTPF DEARFSGRVI
+     RTIVGGRTVY EHVGPH
+//

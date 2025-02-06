@@ -1,0 +1,77 @@
+ID   Q819E3_BACCR            Unreviewed;       292 AA.
+AC   Q819E3;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   SubName: Full=3-hydroxyisobutyrate dehydrogenase {ECO:0000313|EMBL:AAP10961.1};
+DE            EC=1.1.1.31 {ECO:0000313|EMBL:AAP10961.1};
+GN   OrderedLocusNames=BC_4042 {ECO:0000313|EMBL:AAP10961.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10961.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10961.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10961.1; -; Genomic_DNA.
+DR   RefSeq; NP_833760.1; NC_004722.1.
+DR   RefSeq; WP_000400429.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819E3; -.
+DR   SMR; Q819E3; -.
+DR   KEGG; bce:BC4042; -.
+DR   PATRIC; fig|226900.8.peg.4173; -.
+DR   HOGENOM; CLU_035117_1_0_9; -.
+DR   OrthoDB; 9786703at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0008442; F:3-hydroxyisobutyrate dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0016054; P:organic acid catabolic process; IEA:UniProtKB-ARBA.
+DR   Gene3D; 1.10.1040.10; N-(1-d-carboxylethyl)-l-norvaline Dehydrogenase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR006115; 6PGDH_NADP-bd.
+DR   InterPro; IPR029154; HIBADH-like_NADP-bd.
+DR   InterPro; IPR015815; HIBADH-related.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR43060; 3-HYDROXYISOBUTYRATE DEHYDROGENASE-LIKE 1, MITOCHONDRIAL-RELATED; 1.
+DR   PANTHER; PTHR43060:SF15; 3-HYDROXYISOBUTYRATE DEHYDROGENASE-LIKE 1, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF14833; NAD_binding_11; 1.
+DR   Pfam; PF03446; NAD_binding_2; 1.
+DR   PIRSF; PIRSF000103; HIBADH; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   4: Predicted;
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000313|EMBL:AAP10961.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          7..163
+FT                   /note="6-phosphogluconate dehydrogenase NADP-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF03446"
+FT   DOMAIN          169..286
+FT                   /note="3-hydroxyisobutyrate dehydrogenase-like NAD-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF14833"
+FT   ACT_SITE        175
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000103-1"
+SQ   SEQUENCE   292 AA;  31987 MW;  8B04FC5E59A93423 CRC64;
+     MEHKTLSIGF IGIGVMGKSM VYHLMQDGHK VYVYNRTKAK TDSLVQDGAN WCNTPKELVK
+     QVDIVMTMVG YPHDVEEVYF GIEGIIEHAK EGTIAIDFTT STPTLAKRIN EVAKRKNIYT
+     LDAPVSGGDV GAKEAKLAIM VGGEKEIYDR CLPLLEKLGT NIQLQGPAGS GQHTKMCNQI
+     AIASNMIGVC EAVAYAKKAG LNPDKVLESI STGAAGSWSL SNLAPRMLKG DFEPGFYVKH
+     FMKDMKIALE EAERLQLPVP GLSLAKELYE ELIKDGEENS GTQVLYKKYI RG
+//

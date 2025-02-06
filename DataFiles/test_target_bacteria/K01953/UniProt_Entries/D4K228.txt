@@ -1,0 +1,120 @@
+ID   D4K228_9FIRM            Unreviewed;       528 AA.
+AC   D4K228;
+DT   18-MAY-2010, integrated into UniProtKB/TrEMBL.
+DT   18-MAY-2010, sequence version 1.
+DT   05-FEB-2025, entry version 66.
+DE   RecName: Full=asparagine synthase (glutamine-hydrolyzing) {ECO:0000256|ARBA:ARBA00012737};
+DE            EC=6.3.5.4 {ECO:0000256|ARBA:ARBA00012737};
+DE   AltName: Full=Glutamine-dependent asparagine synthetase {ECO:0000256|ARBA:ARBA00030234};
+GN   ORFNames=FP2_30810 {ECO:0000313|EMBL:CBL00327.1};
+OS   Faecalibacterium prausnitzii L2-6.
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+OC   Oscillospiraceae; Faecalibacterium.
+OX   NCBI_TaxID=718252 {ECO:0000313|EMBL:CBL00327.1, ECO:0000313|Proteomes:UP000008804};
+RN   [1] {ECO:0000313|EMBL:CBL00327.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RG   metaHIT consortium -- http://www.metahit.eu/;
+RA   Pajon A., Turner K., Parkhill J., Duncan S., Flint H.;
+RT   "The genome sequence of Faecalibacterium prausnitzii L2/6.";
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CBL00327.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RA   Pajon A.;
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate + L-glutamine + ATP + H2O = L-asparagine + L-
+CC         glutamate + AMP + diphosphate + H(+); Xref=Rhea:RHEA:12228,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58048, ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048741};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-asparagine biosynthesis; L-
+CC       asparagine from L-aspartate (L-Gln route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005187}.
+CC   -!- SIMILARITY: Belongs to the asparagine synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00005752}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP929045; CBL00327.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D4K228; -.
+DR   STRING; 718252.FP2_30810; -.
+DR   KEGG; fpr:FP2_30810; -.
+DR   PATRIC; fig|718252.3.peg.1284; -.
+DR   eggNOG; COG0367; Bacteria.
+DR   HOGENOM; CLU_014658_2_2_9; -.
+DR   BioCyc; FPRA718252:G1375-2656-MONOMER; -.
+DR   Proteomes; UP000008804; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004066; F:asparagine synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006529; P:asparagine biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01991; Asn_Synthase_B_C; 1.
+DR   CDD; cd00712; AsnB; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR006426; Asn_synth_AEB.
+DR   InterPro; IPR001962; Asn_synthase.
+DR   InterPro; IPR050795; Asn_Synthetase.
+DR   InterPro; IPR033738; AsnB_N.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR01536; asn_synth_AEB; 1.
+DR   PANTHER; PTHR11772; ASPARAGINE SYNTHETASE; 1.
+DR   PANTHER; PTHR11772:SF23; ASPARAGINE SYNTHETASE [GLUTAMINE-HYDROLYZING]; 1.
+DR   Pfam; PF00733; Asn_synthase; 2.
+DR   Pfam; PF13537; GATase_7; 1.
+DR   PIRSF; PIRSF001589; Asn_synthetase_glu-h; 3.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|PIRSR:PIRSR001589-1};
+KW   Asparagine biosynthesis {ECO:0000256|ARBA:ARBA00022888,
+KW   ECO:0000256|PIRSR:PIRSR001589-1};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRSR:PIRSR001589-
+KW   2};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|PIRSR:PIRSR001589-1};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000313|EMBL:CBL00327.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRSR:PIRSR001589-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000008804}.
+FT   DOMAIN          2..183
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+FT   ACT_SITE        2
+FT                   /note="For GATase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001589-1"
+FT   BINDING         95
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001589-2"
+FT   BINDING         228
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001589-2"
+FT   BINDING         255
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001589-2"
+FT   SITE            333
+FT                   /note="Important for beta-aspartyl-AMP intermediate
+FT                   formation"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001589-3"
+SQ   SEQUENCE   528 AA;  60422 MW;  7E5B872ACAC7D683 CRC64;
+     MCCVIGYTGH DMSADKFKEY LMRTVSRGPD DLRVVEGPFG LMGFGRLAIM GLTPEGMQPF
+     YRGADCVVCN GELYGFRFEK EILKRRGYKF TSDCDCEILL PLYYEYGLDM FRHMDAEFAL
+     ILYDSRKDRL IAARDPIGIR PLFYGYSKSS HKIAFASEMQ NLIGWCDDIR PFPIGSYYCD
+     GRFVRYEDIA DVPAPMQDEM DTILTNIREK LIAGVEKRLD ADAPVGFLLS GGLDSSLVCS
+     IAAKKLGKPI RTFAIGMDTD AIDLKYARQT AEYLGSEHHE IIINRDMVIS SLEEVIRLLG
+     TWDITTIRAS MGMYLLCKAI HEQTDVRVLL TGEISDELFG YKYTDYAPTA DAFQQESQKR
+     IRELYMYDVL RADRCISANS IEARVPFGDL DFVRYVMAID PEKKLNSYGK GKYLLRKAFE
+     GDWLPPEILW REKAAFSDAV GHSMVDDIKE YAESLYTDEE FQLRRANYSA HCMPFTKESL
+     FYREIFEKYY HDQSRTIVDF WMPNKAWPGC NVNDPSARVL ANYGASGV
+//

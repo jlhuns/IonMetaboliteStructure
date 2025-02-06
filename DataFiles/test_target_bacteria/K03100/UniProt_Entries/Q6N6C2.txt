@@ -1,0 +1,106 @@
+ID   Q6N6C2_RHOPA            Unreviewed;       252 AA.
+AC   Q6N6C2;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 117.
+DE   RecName: Full=Signal peptidase I {ECO:0000256|ARBA:ARBA00019232, ECO:0000256|RuleBase:RU362042};
+DE            EC=3.4.21.89 {ECO:0000256|ARBA:ARBA00013208, ECO:0000256|RuleBase:RU362042};
+GN   Name=lepB2 {ECO:0000313|EMBL:CAE28137.1};
+GN   Synonyms=lepB {ECO:0000313|EMBL:WCL92862.1};
+GN   OrderedLocusNames=RPA2696 {ECO:0000313|EMBL:CAE28137.1};
+GN   ORFNames=TX73_013970 {ECO:0000313|EMBL:WCL92862.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28137.1};
+RN   [1] {ECO:0000313|EMBL:WCL92862.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92862.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28137.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28137.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92862.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92862.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleavage of hydrophobic, N-terminal signal or leader sequences
+CC         from secreted and periplasmic proteins.; EC=3.4.21.89;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000677,
+CC         ECO:0000256|RuleBase:RU362042};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|RuleBase:RU362042}; Single-
+CC       pass type II membrane protein {ECO:0000256|RuleBase:RU362042}.
+CC   -!- SIMILARITY: Belongs to the peptidase S26 family.
+CC       {ECO:0000256|ARBA:ARBA00009370, ECO:0000256|RuleBase:RU362042}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572601; CAE28137.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92862.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158246.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2696; -.
+DR   MEROPS; S26.001; -.
+DR   GeneID; 66893771; -.
+DR   KEGG; rpa:TX73_013970; -.
+DR   eggNOG; COG0681; Bacteria.
+DR   HOGENOM; CLU_028723_1_2_5; -.
+DR   PhylomeDB; Q6N6C2; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006465; P:signal peptide processing; IEA:InterPro.
+DR   CDD; cd06530; S26_SPase_I; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR000223; Pept_S26A_signal_pept_1.
+DR   InterPro; IPR019758; Pept_S26A_signal_pept_1_CS.
+DR   InterPro; IPR019757; Pept_S26A_signal_pept_1_Lys-AS.
+DR   InterPro; IPR019533; Peptidase_S26.
+DR   NCBIfam; TIGR02227; sigpep_I_bact; 1.
+DR   PANTHER; PTHR43390:SF1; CHLOROPLAST PROCESSING PEPTIDASE; 1.
+DR   PANTHER; PTHR43390; SIGNAL PEPTIDASE I; 1.
+DR   Pfam; PF10502; Peptidase_S26; 1.
+DR   PRINTS; PR00727; LEADERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   PROSITE; PS00760; SPASE_I_2; 1.
+DR   PROSITE; PS00761; SPASE_I_3; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|RuleBase:RU362042, ECO:0000313|EMBL:CAE28137.1};
+KW   Membrane {ECO:0000256|RuleBase:RU362042};
+KW   Protease {ECO:0000256|RuleBase:RU362042};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|RuleBase:RU362042};
+KW   Transmembrane helix {ECO:0000256|RuleBase:RU362042}.
+FT   TRANSMEM        20..40
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362042"
+FT   DOMAIN          15..224
+FT                   /note="Peptidase S26"
+FT                   /evidence="ECO:0000259|Pfam:PF10502"
+FT   ACT_SITE        44
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600223-1"
+FT   ACT_SITE        105
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600223-1"
+SQ   SEQUENCE   252 AA;  28456 MW;  A45E027F566D1621 CRC64;
+     MSVTSGTKSE SGVGETIRVV IHALIIALII RTFLFQPFNI PSGSMKATLL VGDYLFVSKY
+     SYGYSHYSIP LSPPLFSGRI FGSDPNRGDV VVFRLPKDDS TDYIKRVIGL PGDRIQMREG
+     LLYINDKPVD RERLSDYVGE DPCGSEATAR VKRWKETLPN GVSYETLDCV DNGFYDNTNV
+     YTVPPGHFFM MGDNRDNSTD SRVLSAVGYV PYENIIGRAQ MIFFSIAEGE HAWQIWRWPT
+     AVRWGRIFSI VR
+//

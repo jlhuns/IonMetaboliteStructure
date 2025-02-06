@@ -1,0 +1,128 @@
+ID   F2R6Q5_STRVP            Unreviewed;       954 AA.
+AC   F2R6Q5;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   SubName: Full=Cell division protein FtsK {ECO:0000313|EMBL:CCA58684.1};
+GN   OrderedLocusNames=SVEN_5398 {ECO:0000313|EMBL:CCA58684.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA58684.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA58684.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA58684.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Essential cell division protein that coordinates cell
+CC       division and chromosome segregation. The N-terminus is involved in
+CC       assembly of the cell-division machinery. The C-terminus functions as a
+CC       DNA motor that moves dsDNA in an ATP-dependent manner towards the dif
+CC       recombination site, which is located within the replication terminus
+CC       region. Required for activation of the Xer recombinase, allowing
+CC       activation of chromosome unlinking by recombination.
+CC       {ECO:0000256|ARBA:ARBA00024986}.
+CC   -!- SIMILARITY: Belongs to the FtsK/SpoIIIE/SftA family.
+CC       {ECO:0000256|ARBA:ARBA00006474}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA58684.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2R6Q5; -.
+DR   STRING; 953739.SVEN_5398; -.
+DR   KEGG; sve:SVEN_5398; -.
+DR   PATRIC; fig|953739.5.peg.541; -.
+DR   eggNOG; COG1674; Bacteria.
+DR   HOGENOM; CLU_001981_2_2_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   CDD; cd01127; TrwB_TraG_TraD_VirD4; 1.
+DR   Gene3D; 3.30.980.40; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR050206; FtsK/SpoIIIE/SftA.
+DR   InterPro; IPR041027; FtsK_alpha.
+DR   InterPro; IPR002543; FtsK_dom.
+DR   InterPro; IPR018541; Ftsk_gamma.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR22683:SF41; DNA TRANSLOCASE FTSK; 1.
+DR   PANTHER; PTHR22683; SPORULATION PROTEIN RELATED; 1.
+DR   Pfam; PF17854; FtsK_alpha; 1.
+DR   Pfam; PF09397; FtsK_gamma; 1.
+DR   Pfam; PF01580; FtsK_SpoIIIE; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00843; Ftsk_gamma; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+DR   PROSITE; PS50901; FTSK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00289}; Cell cycle {ECO:0000313|EMBL:CCA58684.1};
+KW   Cell division {ECO:0000313|EMBL:CCA58684.1};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00289}; Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        129..147
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        167..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        250..274
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          596..801
+FT                   /note="FtsK"
+FT                   /evidence="ECO:0000259|PROSITE:PS50901"
+FT   REGION          1..89
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          296..338
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          416..455
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        17..28
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        70..81
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         618..625
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00289"
+SQ   SEQUENCE   954 AA;  100661 MW;  3DE5A4B4320B507E CRC64;
+     MRRTARPHTG NLGIMASRTS GKGSQGTAGT AKPRAGRTTG AAKKAAPAKS PAKPPAKKAP
+     AKKAAPAKRA PARKTAAKKA APRPAPSPTG GIYRLARGAW LGVAHAVGAM FRGIGRGAKG
+     LDPAHRKDGL ALLLLGLSLI VAAGTWSNLR GPVGDLVEML VTGSFGRLDL LVPLLLGSIA
+     VRLILYPEKP EANGRISIGL SALVIGILGQ VHIACGSPGR GDGSEAMQDA GGLIGWAASQ
+     PLVFMMGEVL AVPMLVLLTL FGLLVVTATP VNAIPQRLRI LGARLGIVEP AYDPAETEGY
+     GGRAEGREEY DEEWRDARPQ SRPARRRGPA EPYDVDRAEA EMLERRSRLA RRPAPEPAFD
+     HGLDPVDVAA AAAAALDGAV LNGMPPSPIV ADLTRDVTAD RKAAVDAAAR AAAEAAETAA
+     PAAPVPPARG GDQRPGGGVP DLTKPAPEPT DLPPRAEQLQ LSGDITYALP SLDLLERGGP
+     GKTRSAANDA VVDSLSNVFT EFKVDAAVTG FTRGPTVTRY EVELGPAVKV EKITALTKNI
+     AYAVASPDVR IISPIPGKSA VGIEIPNSDR EMVNLGDVLR LAAAAEDDHP MLVALGKNVE
+     GGYEMANLAK MPHVLVAGAT GSGKSSCINC LITSIMIRAT PEDVRMVLVD PKRVELTAYE
+     GIPHLITPII TNPKRAAEAL QWVVKEMDLR YDDLAAFGYR HIDDFNQAIR DGKIQLPEGS
+     ERELKTYPYL LVIVDELADL MMVAPRDVED SIVRITQLAR AAGIHLVLAT QRPSVDVVTG
+     LIKANVPSRL AFATSSLADS RVILDQPGAE KLIGKGDGLF LPMGANKPVR MQGAFVTEHE
+     VAAVVQHCKD QMTPVFRDDV TVGTKQKKEI DEDIGDDLDL LCQAAELVVS TQFGSTSMLQ
+     RKLRVGFAKA GRLMDLMESR NIVGPSEGSK ARDVLIKPDE LDDVLAVIRG ESGA
+//

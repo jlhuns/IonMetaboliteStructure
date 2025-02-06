@@ -1,0 +1,137 @@
+ID   Q81A52_BACCR            Unreviewed;       252 AA.
+AC   Q81A52;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 116.
+DE   SubName: Full=Exodeoxyribonuclease III {ECO:0000313|EMBL:AAP10665.1};
+DE            EC=3.1.11.2 {ECO:0000313|EMBL:AAP10665.1};
+GN   OrderedLocusNames=BC_3739 {ECO:0000313|EMBL:AAP10665.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10665.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10665.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR604808-2};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR604808-2};
+CC       Note=Probably binds two magnesium or manganese ions per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR604808-2};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- SIMILARITY: Belongs to the DNA repair enzymes AP/ExoA family.
+CC       {ECO:0000256|ARBA:ARBA00007092}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10665.1; -; Genomic_DNA.
+DR   RefSeq; NP_833464.1; NC_004722.1.
+DR   RefSeq; WP_000767618.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81A52; -.
+DR   KEGG; bce:BC3739; -.
+DR   PATRIC; fig|226900.8.peg.3853; -.
+DR   HOGENOM; CLU_027539_1_3_9; -.
+DR   OrthoDB; 9803914at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003906; F:DNA-(apurinic or apyrimidinic site) endonuclease activity; IBA:GO_Central.
+DR   GO; GO:0008311; F:double-stranded DNA 3'-5' DNA exonuclease activity; IBA:GO_Central.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008081; F:phosphoric diester hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0006284; P:base-excision repair; IBA:GO_Central.
+DR   CDD; cd09087; Ape1-like_AP-endo; 1.
+DR   FunFam; 3.60.10.10:FF:000034; Exodeoxyribonuclease III; 1.
+DR   Gene3D; 3.60.10.10; Endonuclease/exonuclease/phosphatase; 1.
+DR   InterPro; IPR004808; AP_endonuc_1.
+DR   InterPro; IPR020847; AP_endonuclease_F1_BS.
+DR   InterPro; IPR020848; AP_endonuclease_F1_CS.
+DR   InterPro; IPR036691; Endo/exonu/phosph_ase_sf.
+DR   InterPro; IPR005135; Endo/exonuclease/phosphatase.
+DR   NCBIfam; TIGR00195; exoDNase_III; 1.
+DR   NCBIfam; TIGR00633; xth; 1.
+DR   PANTHER; PTHR22748; AP ENDONUCLEASE; 1.
+DR   PANTHER; PTHR22748:SF6; DNA-(APURINIC OR APYRIMIDINIC SITE) ENDONUCLEASE; 1.
+DR   Pfam; PF03372; Exo_endo_phos; 1.
+DR   SUPFAM; SSF56219; DNase I-like; 1.
+DR   PROSITE; PS00726; AP_NUCLEASE_F1_1; 1.
+DR   PROSITE; PS00728; AP_NUCLEASE_F1_3; 1.
+DR   PROSITE; PS51435; AP_NUCLEASE_F1_4; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000313|EMBL:AAP10665.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR604808-2};
+KW   Manganese {ECO:0000256|PIRSR:PIRSR604808-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR604808-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          4..243
+FT                   /note="Endonuclease/exonuclease/phosphatase"
+FT                   /evidence="ECO:0000259|Pfam:PF03372"
+FT   ACT_SITE        106
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-1"
+FT   ACT_SITE        145
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-1"
+FT   ACT_SITE        243
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-1"
+FT   BINDING         7
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   BINDING         36
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   BINDING         145
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   BINDING         147
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   BINDING         242
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   BINDING         243
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-2"
+FT   SITE            147
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-3"
+FT   SITE            217
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-3"
+FT   SITE            243
+FT                   /note="Interaction with DNA substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604808-3"
+SQ   SEQUENCE   252 AA;  29548 MW;  1C254189205DA0BE CRC64;
+     MKLISWNVNG LRAVIAKGGF LEYLEESSAD IFCLQEIKLQ EGQIDLNLEG YYTYWNYAVK
+     KGYSGTAIFS KKEPLSVTYG LGIEEHDQEG RLITLEFEDF YMITLYTPNS KRGLERLDYR
+     MKWEDDFRSY IKRLDEKKPV IFCGDLNVAH KEIDLKNPKS NRENPGFSDE EREKFSCILE
+     EGFIDTYRYL YPNQEGAYSW WSYRMGARAK NIGWRLDYFV VSEGMKDQIT EAKINSEVMG
+     SDHCPVELHI NF
+//

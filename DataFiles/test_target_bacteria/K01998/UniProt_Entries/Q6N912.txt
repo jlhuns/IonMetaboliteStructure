@@ -1,0 +1,104 @@
+ID   Q6N912_RHOPA            Unreviewed;       307 AA.
+AC   Q6N912;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   SubName: Full=Branched-chain amino acid ABC transporter permease {ECO:0000313|EMBL:WCL91882.1};
+DE   SubName: Full=Branched-chain amino acid transport system permease protein {ECO:0000313|EMBL:CAE27180.1};
+GN   OrderedLocusNames=RPA1739 {ECO:0000313|EMBL:CAE27180.1};
+GN   ORFNames=TX73_008945 {ECO:0000313|EMBL:WCL91882.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27180.1};
+RN   [1] {ECO:0000313|EMBL:WCL91882.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91882.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27180.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27180.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91882.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91882.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572598; CAE27180.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91882.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157465.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1739; -.
+DR   GeneID; 66892775; -.
+DR   KEGG; rpa:TX73_008945; -.
+DR   eggNOG; COG4177; Bacteria.
+DR   HOGENOM; CLU_031365_2_0_5; -.
+DR   PhylomeDB; Q6N912; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015658; F:branched-chain amino acid transmembrane transporter activity; IEA:InterPro.
+DR   CDD; cd06581; TM_PBP1_LivM_like; 1.
+DR   InterPro; IPR001851; ABC_transp_permease.
+DR   InterPro; IPR043428; LivM-like.
+DR   PANTHER; PTHR30482; HIGH-AFFINITY BRANCHED-CHAIN AMINO ACID TRANSPORT SYSTEM PERMEASE; 1.
+DR   PANTHER; PTHR30482:SF20; HIGH-AFFINITY BRANCHED-CHAIN AMINO ACID TRANSPORT SYSTEM PERMEASE PROTEIN LIVM; 1.
+DR   Pfam; PF02653; BPD_transp_2; 1.
+PE   4: Predicted;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        29..50
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        57..75
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        81..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        152..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        203..223
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        229..247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        252..270
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        276..301
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   307 AA;  31893 MW;  B89C26519BFE669F CRC64;
+     MGFFTSRLFW IALLVVAVAA TLPLYVSGYI LGLLTVAFYF GVFAMSWDLL FGFAGEVNFG
+     PTFLIGTGAY TAGIVNNLYG VSPYFCIFIG AMAAVVAGFV LALPALRVRG PYFGLTTLVA
+     VLMLQNFIVV FADLTGGEIG LTIPDVITIN AGANYWIALG FMTVSGAILY GLSQSPIGLV
+     LQASGQDPVQ AGALGFNIVK HKLFAFVVSA FFSGLSGALL VFYFGTASVG TVVDVAVGVN
+     VIVAAVLGGR RTVIGAALGA VFLIVAGEFL RPTGELATFI VSAIALLVVL FFPGGFLGAA
+     MSREART
+//

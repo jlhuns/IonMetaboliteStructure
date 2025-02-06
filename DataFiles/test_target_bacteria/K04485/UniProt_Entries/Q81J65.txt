@@ -1,0 +1,126 @@
+ID   Q81J65_BACCR            Unreviewed;       458 AA.
+AC   Q81J65;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=DNA repair protein RadA {ECO:0000256|HAMAP-Rule:MF_01498, ECO:0000256|NCBIfam:TIGR00416};
+GN   Name=radA {ECO:0000256|HAMAP-Rule:MF_01498};
+GN   OrderedLocusNames=BC_0103 {ECO:0000313|EMBL:AAP07185.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP07185.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP07185.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: DNA-dependent ATPase involved in processing of recombination
+CC       intermediates, plays a role in repairing DNA breaks. Stimulates the
+CC       branch migration of RecA-mediated strand transfer reactions, allowing
+CC       the 3' invading strand to extend heteroduplex DNA faster. Binds ssDNA
+CC       in the presence of ADP but not other nucleotides, has ATPase activity
+CC       that is stimulated by ssDNA and various branched DNA structures, but
+CC       inhibited by SSB. Does not have RecA's homology-searching function.
+CC       {ECO:0000256|RuleBase:RU003555}.
+CC   -!- FUNCTION: Plays a role in repairing double-strand DNA breaks, probably
+CC       involving stabilizing or processing branched DNA or blocked replication
+CC       forks. {ECO:0000256|HAMAP-Rule:MF_01498}.
+CC   -!- DOMAIN: The middle region has homology to RecA with ATPase motifs
+CC       including the RadA KNRFG motif, while the C-terminus is homologous to
+CC       Lon protease. {ECO:0000256|HAMAP-Rule:MF_01498}.
+CC   -!- SIMILARITY: Belongs to the RecA family. RadA subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01498, ECO:0000256|RuleBase:RU003555}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07185.1; -; Genomic_DNA.
+DR   RefSeq; NP_829984.1; NC_004722.1.
+DR   RefSeq; WP_001085202.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81J65; -.
+DR   SMR; Q81J65; -.
+DR   MEROPS; S16.A04; -.
+DR   KEGG; bce:BC0103; -.
+DR   PATRIC; fig|226900.8.peg.105; -.
+DR   HOGENOM; CLU_018264_0_1_9; -.
+DR   OrthoDB; 9803906at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0140664; F:ATP-dependent DNA damage sensor activity; IEA:InterPro.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000725; P:recombinational repair; IBA:GO_Central.
+DR   CDD; cd01121; RadA_SMS_N; 1.
+DR   FunFam; 3.30.230.10:FF:000031; DNA repair protein RadA; 1.
+DR   FunFam; 3.40.50.300:FF:000050; DNA repair protein RadA; 1.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_01498; RadA_bact; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR004504; DNA_repair_RadA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020588; RecA_ATP-bd.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR014721; Ribsml_uS5_D2-typ_fold_subgr.
+DR   InterPro; IPR041166; Rubredoxin_2.
+DR   NCBIfam; TIGR00416; sms; 1.
+DR   PANTHER; PTHR32472; DNA REPAIR PROTEIN RADA; 1.
+DR   PANTHER; PTHR32472:SF10; DNA REPAIR PROTEIN RADA-LIKE PROTEIN; 1.
+DR   Pfam; PF13481; AAA_25; 1.
+DR   Pfam; PF13541; ChlI; 1.
+DR   Pfam; PF18073; Rubredoxin_2; 1.
+DR   PRINTS; PR01874; DNAREPAIRADA.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   PROSITE; PS50162; RECA_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01498,
+KW   ECO:0000256|RuleBase:RU003555};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_01498};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_01498};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01498,
+KW   ECO:0000256|RuleBase:RU003555}; Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01498};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01498,
+KW   ECO:0000256|RuleBase:RU003555};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Stress response {ECO:0000256|ARBA:ARBA00023016, ECO:0000256|HAMAP-
+KW   Rule:MF_01498}; Zinc {ECO:0000256|RuleBase:RU003555};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|RuleBase:RU003555}.
+FT   DOMAIN          69..218
+FT                   /note="RecA family profile 1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50162"
+FT   REGION          354..458
+FT                   /note="Lon-protease-like"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01498"
+FT   MOTIF           255..259
+FT                   /note="RadA KNRFG motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01498"
+FT   BINDING         98..105
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01498"
+SQ   SEQUENCE   458 AA;  49844 MW;  E2DB3683699F5F56 CRC64;
+     MAKKKTKFTC QECGYQSPKY MGKCPGCGQW NSLVEEMEPV VSSRRLNYAN AIQTEVTKPR
+     RLTEVETKSE ARIETKFQEF NRVLGGGIVD GSLVLIGGDP GIGKSTLLLQ ISSQLADASY
+     DVLYISGEES AKQIKLRADR LHVNGSNLFV VSETDLQRIA AHIEEMNPAF VVIDSIQTIH
+     LPEVTSAPGS VAQVRECTAE LMKLAKTKGI PIFIVGHVTK EGAIAGPRML EHMVDAVLYF
+     EGDRHHTYRI LRAVKNRFGS TNEMGIFEMK ELGLAEVLNP SEIFLEERPV GVAGSTVVAS
+     MEGTRPVLVE IQALISPTSF GNPRRMATGI DHNRVSLIMA VLEKRTGLLL QNQDAYLKVA
+     GGLKLDEPAI DLAVALSIAS SFRDKSTAPT DAVIGEVGLT GEIRRVSRIE QRVQEAAKLG
+     FQRAIIPRKN LGGWTIPEGI EVVGVSNLGE ALRLTLGG
+//

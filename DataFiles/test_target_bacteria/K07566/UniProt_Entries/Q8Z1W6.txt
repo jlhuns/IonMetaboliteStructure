@@ -1,0 +1,110 @@
+ID   TSAC_SALTI              Reviewed;         190 AA.
+AC   Q8Z1W6; Q7C593;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 118.
+DE   RecName: Full=Threonylcarbamoyl-AMP synthase {ECO:0000255|HAMAP-Rule:MF_01852};
+DE            Short=TC-AMP synthase {ECO:0000255|HAMAP-Rule:MF_01852};
+DE            EC=2.7.7.87 {ECO:0000255|HAMAP-Rule:MF_01852};
+DE   AltName: Full=L-threonylcarbamoyladenylate synthase {ECO:0000255|HAMAP-Rule:MF_01852};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaC {ECO:0000255|HAMAP-Rule:MF_01852};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaC {ECO:0000255|HAMAP-Rule:MF_01852};
+GN   Name=tsaC {ECO:0000255|HAMAP-Rule:MF_01852}; Synonyms=rimN;
+GN   OrderedLocusNames=STY4395, t4102;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Catalyzes the conversion of L-threonine, HCO(3)(-)/CO(2)
+CC       and ATP to give threonylcarbamoyl-AMP (TC-AMP) as the acyladenylate
+CC       intermediate, with the release of diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01852}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine + hydrogencarbonate + ATP = L-
+CC         threonylcarbamoyladenylate + diphosphate + H2O; Xref=Rhea:RHEA:36407,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:73682; EC=2.7.7.87;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01852};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01852}.
+CC   -!- SIMILARITY: Belongs to the SUA5 family. TsaC subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01852}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO71569.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD09183.1; -; Genomic_DNA.
+DR   RefSeq; NP_458497.1; NC_003198.1.
+DR   RefSeq; WP_001063622.1; NZ_WSUR01000046.1.
+DR   AlphaFoldDB; Q8Z1W6; -.
+DR   SMR; Q8Z1W6; -.
+DR   STRING; 220341.gene:17588223; -.
+DR   KEGG; stt:t4102; -.
+DR   KEGG; sty:STY4395; -.
+DR   PATRIC; fig|220341.7.peg.4491; -.
+DR   eggNOG; COG0009; Bacteria.
+DR   HOGENOM; CLU_031397_6_0_6; -.
+DR   OMA; LVDAFWP; -.
+DR   OrthoDB; 9814580at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003725; F:double-stranded RNA binding; IEA:InterPro.
+DR   GO; GO:0061710; F:L-threonylcarbamoyladenylate synthase; IEA:UniProtKB-EC.
+DR   GO; GO:0000049; F:tRNA binding; IEA:TreeGrafter.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:TreeGrafter.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.90.870.10:FF:000004; Threonylcarbamoyl-AMP synthase; 1.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   HAMAP; MF_01852; TsaC; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR006070; Sua5-like_dom.
+DR   InterPro; IPR023535; TC-AMP_synthase.
+DR   InterPro; IPR050156; TC-AMP_synthase_SUA5.
+DR   PANTHER; PTHR17490; SUA5; 1.
+DR   PANTHER; PTHR17490:SF18; THREONYLCARBAMOYL-AMP SYNTHASE; 1.
+DR   Pfam; PF01300; Sua5_yciO_yrdC; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+DR   PROSITE; PS51163; YRDC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Nucleotide-binding; Nucleotidyltransferase;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..190
+FT                   /note="Threonylcarbamoyl-AMP synthase"
+FT                   /id="PRO_0000352971"
+FT   DOMAIN          7..190
+FT                   /note="YrdC-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01852"
+SQ   SEQUENCE   190 AA;  20354 MW;  D89D131AB2E125D2 CRC64;
+     MNNNLPTGSS AAVVDLLNKE NVIAYPTEAV FGVGCDPDSE TAVTRLLALK QRPVDKGLIL
+     IAASFEQLKP YIDDSILTAA QRKAVFDCWP GPVTFVFPAP ATTPRWLTGR FDSLAVRVTN
+     HPLVVALCNA YGKPLVSTSA NLSGLPPCRT VEEVRAQFGD DFPVVEGATG GRLNPSEIRD
+     ALTGELFRQG
+//

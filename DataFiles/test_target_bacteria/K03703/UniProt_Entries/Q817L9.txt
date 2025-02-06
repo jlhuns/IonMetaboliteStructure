@@ -1,0 +1,118 @@
+ID   UVRC_BACCR              Reviewed;         594 AA.
+AC   Q817L9;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 2.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=UvrABC system protein C {ECO:0000255|HAMAP-Rule:MF_00203};
+DE            Short=Protein UvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   OrderedLocusNames=BC_4520;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides of the
+CC       lesion. The N-terminal half is responsible for the 3' incision and the
+CC       C-terminal half is responsible for the 5' incision. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAP11430.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11430.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_834229.2; NC_004722.1.
+DR   RefSeq; WP_000544305.1; NC_004722.1.
+DR   AlphaFoldDB; Q817L9; -.
+DR   SMR; Q817L9; -.
+DR   STRING; 226900.BC_4520; -.
+DR   KEGG; bce:BC4520; -.
+DR   PATRIC; fig|226900.8.peg.4674; -.
+DR   HOGENOM; CLU_014841_3_2_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IBA:GO_Central.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006974; P:DNA damage response; IBA:GO_Central.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd10434; GIY-YIG_UvrC_Cho; 1.
+DR   FunFam; 1.10.150.20:FF:000005; UvrABC system protein C; 1.
+DR   FunFam; 3.30.420.340:FF:000002; UvrABC system protein C; 1.
+DR   FunFam; 3.40.1440.10:FF:000001; UvrABC system protein C; 1.
+DR   FunFam; 4.10.860.10:FF:000002; UvrABC system protein C; 1.
+DR   Gene3D; 1.10.150.20; 5' to 3' exonuclease, C-terminal subdomain; 1.
+DR   Gene3D; 3.40.1440.10; GIY-YIG endonuclease; 1.
+DR   Gene3D; 4.10.860.10; UVR domain; 1.
+DR   Gene3D; 3.30.420.340; UvrC, RNAse H endonuclease domain; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR000305; GIY-YIG_endonuc.
+DR   InterPro; IPR035901; GIY-YIG_endonuc_sf.
+DR   InterPro; IPR047296; GIY-YIG_UvrC_Cho.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR036876; UVR_dom_sf.
+DR   InterPro; IPR050066; UvrABC_protein_C.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_RNase_H_dom.
+DR   InterPro; IPR038476; UvrC_RNase_H_dom_sf.
+DR   NCBIfam; TIGR00194; uvrC; 1.
+DR   PANTHER; PTHR30562:SF1; UVRABC SYSTEM PROTEIN C; 1.
+DR   PANTHER; PTHR30562; UVRC/OXIDOREDUCTASE; 1.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF22920; UvrC_RNaseH; 1.
+DR   Pfam; PF08459; UvrC_RNaseH_dom; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SUPFAM; SSF46600; C-terminal UvrC-binding domain of UvrB; 1.
+DR   SUPFAM; SSF82771; GIY-YIG endonuclease; 1.
+DR   SUPFAM; SSF47781; RuvA domain 2-like; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA excision; DNA repair; Excision nuclease;
+KW   Reference proteome; SOS response.
+FT   CHAIN           1..594
+FT                   /note="UvrABC system protein C"
+FT                   /id="PRO_0000227395"
+FT   DOMAIN          14..91
+FT                   /note="GIY-YIG"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+FT   DOMAIN          196..231
+FT                   /note="UVR"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+SQ   SEQUENCE   594 AA;  68464 MW;  15CFC6AF2B7EBC0F CRC64;
+     MHEHLKEKLA ISPDQPGCYL MKDKQGTVIY VGKAKVLKNR VRSYFTGSHD GKTLRLVGEI
+     VDFEYIVTSS NLEALILELN LIKKYDPKYN IQLKDDKTYP FIKITAEKQP RLLITRNVKK
+     DKGKYFGPYP NAQSAHETKK LLDRMYPLRK CTNMPDKVCL YYHMGQCLAP CVKEVTEEQN
+     KEIVDEIIKF LNGGHKEVRS ELEIKMYEAS EKLEFERAKE LRDQIAHIDA IMEKQKMIMS
+     DLVDRDVFGY AVDKGWMCVQ VFFVRKGKLI ERDVSMFPIY DEPEEGFLTF IGQFYENSSH
+     FKPKEIVVPG SIDSELVERF LEVEATQPKR GKKKDLVELA NKNAKIALEE KFYLIERDEE
+     RTIKAVDHLG KQLGIETPYR IEAFDNSNIQ GTNPVSAMIA FIDGKPAKKE YRKYKIKTVQ
+     GPDDYESMRE VVRRRYTRAL KENSPLPDLI IIDGGKGHLA AASDILENEL GLYIPMAGLV
+     KDDKHKTSHL IIGDPPEPVM LERNSQEFYL LQRIQDEVHR FAITFHRQLH GKSVIQSALD
+     DIPGIGDKRK KVLLKHFGSL KKMKEASIEE FVEAGMPKNV AETIYTYLTD KKTL
+//

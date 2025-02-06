@@ -1,0 +1,166 @@
+ID   THIE_SALTI              Reviewed;         211 AA.
+AC   Q8Z325;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 133.
+DE   RecName: Full=Thiamine-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00097};
+DE            Short=TP synthase {ECO:0000255|HAMAP-Rule:MF_00097};
+DE            Short=TPS {ECO:0000255|HAMAP-Rule:MF_00097};
+DE            EC=2.5.1.3 {ECO:0000255|HAMAP-Rule:MF_00097};
+DE   AltName: Full=Thiamine-phosphate pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00097};
+DE            Short=TMP pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00097};
+DE            Short=TMP-PPase {ECO:0000255|HAMAP-Rule:MF_00097};
+GN   Name=thiE {ECO:0000255|HAMAP-Rule:MF_00097};
+GN   OrderedLocusNames=STY3722, t3468;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole
+CC       monophosphate (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine
+CC       pyrophosphate (HMP-PP) to form thiamine monophosphate (TMP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00097}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl
+CC         phosphate + 4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine + 2
+CC         H(+) = thiamine phosphate + CO2 + diphosphate; Xref=Rhea:RHEA:47844,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37575, ChEBI:CHEBI:57841, ChEBI:CHEBI:62899; EC=2.5.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00097};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate + 4-amino-2-
+CC         methyl-5-(diphosphooxymethyl)pyrimidine + 2 H(+) = thiamine phosphate
+CC         + CO2 + diphosphate; Xref=Rhea:RHEA:47848, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:33019, ChEBI:CHEBI:37575,
+CC         ChEBI:CHEBI:57841, ChEBI:CHEBI:62890; EC=2.5.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00097};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-methyl-5-(2-phosphooxyethyl)-thiazole + 4-amino-2-methyl-5-
+CC         (diphosphooxymethyl)pyrimidine + H(+) = thiamine phosphate +
+CC         diphosphate; Xref=Rhea:RHEA:22328, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37575, ChEBI:CHEBI:57841,
+CC         ChEBI:CHEBI:58296; EC=2.5.1.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00097};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00097};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00097};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis;
+CC       thiamine phosphate from 4-amino-2-methyl-5-diphosphomethylpyrimidine
+CC       and 4-methyl-5-(2-phosphoethyl)-thiazole: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00097}.
+CC   -!- SIMILARITY: Belongs to the thiamine-phosphate synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00097}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09481.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70984.1; -; Genomic_DNA.
+DR   RefSeq; NP_457911.1; NC_003198.1.
+DR   RefSeq; WP_000284626.1; NZ_WSUR01000043.1.
+DR   AlphaFoldDB; Q8Z325; -.
+DR   SMR; Q8Z325; -.
+DR   STRING; 220341.gene:17587582; -.
+DR   KEGG; stt:t3468; -.
+DR   KEGG; sty:STY3722; -.
+DR   PATRIC; fig|220341.7.peg.3794; -.
+DR   eggNOG; COG0352; Bacteria.
+DR   HOGENOM; CLU_018272_3_3_6; -.
+DR   OMA; QDFYHIK; -.
+DR   OrthoDB; 9810880at2; -.
+DR   UniPathway; UPA00060; UER00141.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004789; F:thiamine-phosphate diphosphorylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00564; TMP_TenI; 1.
+DR   FunFam; 3.20.20.70:FF:000064; Thiamine-phosphate synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00097; TMP_synthase; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR036206; ThiamineP_synth_sf.
+DR   InterPro; IPR022998; ThiamineP_synth_TenI.
+DR   InterPro; IPR034291; TMP_synthase.
+DR   NCBIfam; TIGR00693; thiE; 1.
+DR   PANTHER; PTHR20857; THIAMINE-PHOSPHATE PYROPHOSPHORYLASE; 1.
+DR   PANTHER; PTHR20857:SF15; THIAMINE-PHOSPHATE SYNTHASE; 1.
+DR   Pfam; PF02581; TMP-TENI; 1.
+DR   SUPFAM; SSF51391; Thiamin phosphate synthase; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Metal-binding; Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..211
+FT                   /note="Thiamine-phosphate synthase"
+FT                   /id="PRO_0000157039"
+FT   BINDING         37..41
+FT                   /ligand="4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine"
+FT                   /ligand_id="ChEBI:CHEBI:57841"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         69
+FT                   /ligand="4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine"
+FT                   /ligand_id="ChEBI:CHEBI:57841"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         70
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         89
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         108
+FT                   /ligand="4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine"
+FT                   /ligand_id="ChEBI:CHEBI:57841"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         134..136
+FT                   /ligand="2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-
+FT                   ylidene]ethyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:62899"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         137
+FT                   /ligand="4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine"
+FT                   /ligand_id="ChEBI:CHEBI:57841"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         166
+FT                   /ligand="2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-
+FT                   ylidene]ethyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:62899"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+FT   BINDING         186..187
+FT                   /ligand="2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-
+FT                   ylidene]ethyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:62899"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00097"
+SQ   SEQUENCE   211 AA;  22839 MW;  B535027E2F10C309 CRC64;
+     MYQPDFPTVP FRLGLYPVVD SVAWIERLLE AGVRTIQLRI KDKRDEEVEA DVIAAIALGR
+     CYDARLFIND YWRLAIKHNA YGVHLGQEDL ETTDLKAIQA AGLRLGVSTH DDMEIDIALA
+     AKPSYIALGH VFPTQTKQMP SAPQGLAQLA RHIERLADYP TVAIGGISLE RAPAVLATGV
+     GSIAVVSAIT QAADWRAATA QLLAIAGVGD E
+//

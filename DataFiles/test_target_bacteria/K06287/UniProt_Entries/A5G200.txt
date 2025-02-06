@@ -1,0 +1,101 @@
+ID   A5G200_ACICJ            Unreviewed;       188 AA.
+AC   A5G200;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 85.
+DE   RecName: Full=dTTP/UTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            Short=dTTPase/UTPase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            EC=3.6.1.9 {ECO:0000256|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleoside triphosphate pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleotide pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            Short=Nucleotide PPase {ECO:0000256|HAMAP-Rule:MF_00528};
+GN   OrderedLocusNames=Acry_2691 {ECO:0000313|EMBL:ABQ31882.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31882.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31882.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31882.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Nucleoside triphosphate pyrophosphatase that hydrolyzes dTTP
+CC       and UTP. May have a dual role in cell division arrest and in preventing
+CC       the incorporation of modified nucleotides into cellular nucleic acids.
+CC       {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UTP + H2O = UMP + diphosphate + H(+); Xref=Rhea:RHEA:29395,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46398, ChEBI:CHEBI:57865; EC=3.6.1.9;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00528};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + H2O = dTMP + diphosphate + H(+); Xref=Rhea:RHEA:28534,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37568, ChEBI:CHEBI:63528; EC=3.6.1.9;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00528};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001968, ECO:0000256|HAMAP-
+CC         Rule:MF_00528};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- SIMILARITY: Belongs to the Maf family. YhdE subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31882.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423638.1; NC_009484.1.
+DR   AlphaFoldDB; A5G200; -.
+DR   STRING; 349163.Acry_2691; -.
+DR   KEGG; acr:Acry_2691; -.
+DR   eggNOG; COG0424; Bacteria.
+DR   HOGENOM; CLU_040416_2_0_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106379; F:8-oxo-(d)RTP hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0036221; F:UTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00555; Maf; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_00528; Maf; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR003697; Maf-like.
+DR   NCBIfam; TIGR00172; maf; 1.
+DR   PANTHER; PTHR43213; BIFUNCTIONAL DTTP/UTP PYROPHOSPHATASE/METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR43213:SF5; BIFUNCTIONAL DTTP_UTP PYROPHOSPHATASE_METHYLTRANSFERASE PROTEIN-RELATED; 1.
+DR   Pfam; PF02545; Maf; 1.
+DR   PIRSF; PIRSF006305; Maf; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00528};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00528};
+KW   Nucleotide metabolism {ECO:0000256|ARBA:ARBA00023080, ECO:0000256|HAMAP-
+KW   Rule:MF_00528}; Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   ACT_SITE        68
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   SITE            12
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   SITE            69
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   SITE            152
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+SQ   SEQUENCE   188 AA;  19994 MW;  824ACC5FB0790A33 CRC64;
+     MADLILASSS PRRLDLLRQL GIVPDAVMSP DIDETPHKAE PPRLYAARMA AEKLASVTAP
+     GAFVIAADTV VALGRRILPK TETEAEARRC LDLLAGRRHR VHSAVAARGP DGRIAARNVM
+     TTVGFARLDR DAAEAYLASG EWRGKAGGYA IQGRAAGFVD FLAGSHSGVV GLPLHETLNL
+     LRGLGWRA
+//

@@ -8,9 +8,21 @@ import file_paths as FILE_PATHS
 from API import Kegg_API
 import re
 import os
+def load_seen_koids(filename="seenKOIDS.txt"):
+    """Load previously seen KOIDs from a file."""
+    if not os.path.exists(filename):
+        return set()
+    with open(filename, "r") as f:
+        return set(line.strip() for line in f)
+
+def save_seen_koid(koid, filename="seenKOIDS.txt"):
+    """Append a new KOID to the file."""
+    with open(filename, "a") as f:
+        f.write(koid + "\n")
 
 def main(KOID_FILE, target_organism_file):
     start_time = time.time()
+    seenKOIDS = load_seen_koids()
 
     # Create a temporary file for logging errors
 
@@ -44,6 +56,14 @@ def main(KOID_FILE, target_organism_file):
     for KOID in all_koids:
         # try:
             # print(KOID)
+
+        if KOID in seenKOIDS:
+            print(f"Skipping {KOID}: Already Seen KOID.")
+            continue
+        
+        seenKOIDS.add(KOID)
+        save_seen_koid(KOID)  # Save to file
+        
         folder_path = os.path.join(FILE_PATHS.GET_ORGANISM_FOLDER_PATH(target_organism_file).replace('.csv', ""), KOID)
         if KOID not in seenKOIDS:
             seenKOIDS.append(KOID)

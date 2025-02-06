@@ -1,0 +1,126 @@
+ID   C9RMT9_FIBSS            Unreviewed;       490 AA.
+AC   C9RMT9;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=Amidophosphoribosyltransferase {ECO:0000256|PIRNR:PIRNR000485};
+DE            Short=ATase {ECO:0000256|PIRNR:PIRNR000485};
+DE            EC=2.4.2.14 {ECO:0000256|PIRNR:PIRNR000485};
+DE   AltName: Full=Glutamine phosphoribosylpyrophosphate amidotransferase {ECO:0000256|PIRNR:PIRNR000485};
+GN   OrderedLocusNames=FSU_1144 {ECO:0000313|EMBL:ADL24822.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL24822.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + L-glutamate + diphosphate = 5-
+CC         phospho-alpha-D-ribose 1-diphosphate + L-glutamine + H2O;
+CC         Xref=Rhea:RHEA:14905, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:58681; EC=2.4.2.14;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000485};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000485-2};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|PIRSR:PIRSR000485-2};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000485-3};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR000485-3};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 1/2. {ECO:0000256|PIRNR:PIRNR000485}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. {ECO:0000256|PIRNR:PIRNR000485}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL24822.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545479.1; NC_017448.1.
+DR   AlphaFoldDB; C9RMT9; -.
+DR   STRING; 59374.FSU_1144; -.
+DR   KEGG; fsc:FSU_1144; -.
+DR   KEGG; fsu:Fisuc_0707; -.
+DR   PATRIC; fig|59374.8.peg.1105; -.
+DR   eggNOG; COG0034; Bacteria.
+DR   HOGENOM; CLU_022389_4_0_0; -.
+DR   OrthoDB; 9801213at2; -.
+DR   UniPathway; UPA00074; UER00124.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0004044; F:amidophosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005854; PurF.
+DR   PANTHER; PTHR11907; AMIDOPHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF13537; GATase_7; 1.
+DR   PIRSF; PIRSF000485; Amd_phspho_trans; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676,
+KW   ECO:0000256|PIRNR:PIRNR000485}; Iron {ECO:0000256|PIRSR:PIRSR000485-3};
+KW   Iron-sulfur {ECO:0000256|PIRSR:PIRSR000485-3};
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR000485-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR000485-2};
+KW   Purine biosynthesis {ECO:0000256|PIRNR:PIRNR000485};
+KW   Transferase {ECO:0000256|PIRNR:PIRNR000485, ECO:0000313|EMBL:ADL24822.1}.
+FT   DOMAIN          5..221
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+FT   BINDING         236
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         283
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         346
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         347
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-2"
+FT   BINDING         383
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         460
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-3"
+FT   BINDING         463
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000485-3"
+SQ   SEQUENCE   490 AA;  54842 MW;  C5A0193DEE095D45 CRC64;
+     MGGFCGVISK EDCVCDLFYG TDYHSHLGTH RGGMAVLKSD GVFHRSIHNI QNTPFRSKFE
+     HDLTHFSGKV GLGVISDTDP QPLVMTSKLG TFAIVTVGLI TNIEDIKNEL FRNNCMQLQF
+     STTSGMVGPT EVVSALIATQ DSIIDGLKYV QDKVKGSCSV LIMDSAGRFY ACRDKWGRTA
+     VILGKKDGAM IALQESCALP NLGYEYVRDL GPGEVVELTP DGDTTLVPPR KKMAICSFLW
+     VYYGYPASSY EGRNVEMTRY RCGSALAKRT PTEADAACGI PDSGTSHALG YAHEAGIKFA
+     RPFVKYTPTW ARSFMPQDQR QREHVASMKL IPIPGLIKDR RLVFCDDSIV RGTQLGKQAQ
+     KLYSMGCKET HMRIACPPLV YPCKFINFSR SKNEYDLITR RYIRDQEGEN ADLDKYTDPN
+     GQPYKDMVEY IRKKLNLTSL AFQRIDDLIQ AIGLPEEDLC TYCWTGKDYA ETGDCYHCPC
+     HCHDKEKDKE
+//

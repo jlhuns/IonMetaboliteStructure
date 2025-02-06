@@ -1,0 +1,74 @@
+ID   A0A1P8F6K7_9CHLR        Unreviewed;       208 AA.
+AC   A0A1P8F6K7;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 28.
+DE   RecName: Full=L-threonylcarbamoyladenylate synthase {ECO:0000256|ARBA:ARBA00029774};
+DE            EC=2.7.7.87 {ECO:0000256|ARBA:ARBA00012584};
+DE   AltName: Full=L-threonylcarbamoyladenylate synthase {ECO:0000256|ARBA:ARBA00029774};
+GN   Name=tsaC {ECO:0000313|EMBL:APV44078.1};
+GN   Synonyms=rimN {ECO:0000313|EMBL:APV44078.1};
+GN   ORFNames=Dform_00723 {ECO:0000313|EMBL:APV44078.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44078.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine + hydrogencarbonate + ATP = L-
+CC         threonylcarbamoyladenylate + diphosphate + H2O; Xref=Rhea:RHEA:36407,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:73682; EC=2.7.7.87;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048366};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the SUA5 family.
+CC       {ECO:0000256|ARBA:ARBA00007663}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44078.1; -; Genomic_DNA.
+DR   RefSeq; WP_076003811.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F6K7; -.
+DR   STRING; 1839801.Dform_00723; -.
+DR   KEGG; dfo:Dform_00723; -.
+DR   OrthoDB; 9814580at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003725; F:double-stranded RNA binding; IEA:InterPro.
+DR   GO; GO:0061710; F:L-threonylcarbamoyladenylate synthase; IEA:UniProtKB-EC.
+DR   GO; GO:0000049; F:tRNA binding; IEA:TreeGrafter.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:TreeGrafter.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR006070; Sua5-like_dom.
+DR   InterPro; IPR050156; TC-AMP_synthase_SUA5.
+DR   NCBIfam; TIGR00057; L-threonylcarbamoyladenylate synthase; 1.
+DR   PANTHER; PTHR17490; SUA5; 1.
+DR   PANTHER; PTHR17490:SF16; THREONYLCARBAMOYL-AMP SYNTHASE; 1.
+DR   Pfam; PF01300; Sua5_yciO_yrdC; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+DR   PROSITE; PS51163; YRDC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   Nucleotidyltransferase {ECO:0000313|EMBL:APV44078.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:APV44078.1};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694}.
+FT   DOMAIN          12..197
+FT                   /note="YrdC-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51163"
+SQ   SEQUENCE   208 AA;  21779 MW;  D313A9B39974595E CRC64;
+     MTLYTNRPSQ PPGDPAGAIE ILKNGGVVAM PTDTVYCLAA GLSHTGAISR IFDIKGRVTT
+     KALPVLVADV IQMRQVAEMN PLAEVLVRRF MPGGLTLILP KKPVVPDVVT GGKPSVAVRI
+     PGHTLALYII KAVGEPLTGT SANISGSGSV CEASGVADQL GERVDAILDG GRCPGGVEST
+     ILDLTRPEPV IVREGAIPRV ELESYYFK
+//

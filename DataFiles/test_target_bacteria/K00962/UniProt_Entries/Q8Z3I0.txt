@@ -1,0 +1,163 @@
+ID   PNP_SALTI               Reviewed;         711 AA.
+AC   Q8Z3I0; Q7C708;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 132.
+DE   RecName: Full=Polyribonucleotide nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            EC=2.7.7.8 {ECO:0000255|HAMAP-Rule:MF_01595};
+DE   AltName: Full=Polynucleotide phosphorylase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            Short=PNPase {ECO:0000255|HAMAP-Rule:MF_01595};
+GN   Name=pnp {ECO:0000255|HAMAP-Rule:MF_01595};
+GN   OrderedLocusNames=STY3463, t3200;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in mRNA degradation. Catalyzes the phosphorolysis of
+CC       single-stranded polyribonucleotides processively in the 3'- to 5'-
+CC       direction. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=RNA(n+1) + phosphate = RNA(n) + a ribonucleoside 5'-
+CC         diphosphate; Xref=Rhea:RHEA:22096, Rhea:RHEA-COMP:14527, Rhea:RHEA-
+CC         COMP:17342, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:140395;
+CC         EC=2.7.7.8; Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01595};
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- SIMILARITY: Belongs to the polyribonucleotide nucleotidyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO70738.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD07802.1; -; Genomic_DNA.
+DR   RefSeq; NP_457664.1; NC_003198.1.
+DR   RefSeq; WP_010989243.1; NZ_WSUR01000003.1.
+DR   AlphaFoldDB; Q8Z3I0; -.
+DR   SMR; Q8Z3I0; -.
+DR   STRING; 220341.gene:17587313; -.
+DR   KEGG; stt:t3200; -.
+DR   KEGG; sty:STY3463; -.
+DR   PATRIC; fig|220341.7.peg.3525; -.
+DR   eggNOG; COG1185; Bacteria.
+DR   HOGENOM; CLU_004217_2_2_6; -.
+DR   OMA; RFMFHYN; -.
+DR   OrthoDB; 9804305at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0000175; F:3'-5'-RNA exonuclease activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004654; F:polyribonucleotide nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   CDD; cd02393; KH-I_PNPase; 1.
+DR   CDD; cd11363; RNase_PH_PNPase_1; 1.
+DR   CDD; cd11364; RNase_PH_PNPase_2; 1.
+DR   CDD; cd04472; S1_PNPase; 1.
+DR   FunFam; 2.40.50.140:FF:000023; Polyribonucleotide nucleotidyltransferase; 1.
+DR   FunFam; 3.30.1370.10:FF:000001; Polyribonucleotide nucleotidyltransferase; 1.
+DR   FunFam; 3.30.230.70:FF:000001; Polyribonucleotide nucleotidyltransferase; 1.
+DR   FunFam; 3.30.230.70:FF:000002; Polyribonucleotide nucleotidyltransferase; 1.
+DR   Gene3D; 3.30.230.70; GHMP Kinase, N-terminal domain; 2.
+DR   Gene3D; 3.30.1370.10; K Homology domain, type 1; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_01595; PNPase; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR012162; PNPase.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR015848; PNPase_PH_RNA-bd_bac/org-type.
+DR   InterPro; IPR036456; PNPase_PH_RNA-bd_sf.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR003029; S1_domain.
+DR   NCBIfam; TIGR03591; polynuc_phos; 1.
+DR   PANTHER; PTHR11252; POLYRIBONUCLEOTIDE NUCLEOTIDYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11252:SF0; POLYRIBONUCLEOTIDE NUCLEOTIDYLTRANSFERASE 1, MITOCHONDRIAL; 1.
+DR   Pfam; PF00013; KH_1; 1.
+DR   Pfam; PF03726; PNPase; 1.
+DR   Pfam; PF01138; RNase_PH; 2.
+DR   Pfam; PF03725; RNase_PH_C; 2.
+DR   Pfam; PF00575; S1; 1.
+DR   PIRSF; PIRSF005499; PNPase; 1.
+DR   SMART; SM00322; KH; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF54791; Eukaryotic type KH-domain (KH-domain type I); 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF46915; Polynucleotide phosphorylase/guanosine pentaphosphate synthase (PNPase/GPSI), domain 3; 1.
+DR   SUPFAM; SSF55666; Ribonuclease PH domain 2-like; 2.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 2.
+DR   PROSITE; PS50084; KH_TYPE_1; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Magnesium; Metal-binding; Nucleotidyltransferase; RNA-binding;
+KW   Transferase.
+FT   CHAIN           1..711
+FT                   /note="Polyribonucleotide nucleotidyltransferase"
+FT                   /id="PRO_0000329833"
+FT   DOMAIN          553..612
+FT                   /note="KH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   DOMAIN          622..690
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   REGION          689..711
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         486
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   BINDING         492
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+SQ   SEQUENCE   711 AA;  77070 MW;  4A39B8FF3B2C0B38 CRC64;
+     MLNPIVREFQ YGQHTVTLET GMMARQATAA VMVSMDDTAV FVTVVGQKKA KPGQDFFPLT
+     VNYQERTYAA GRIPGSFFRR EGRPSEGETL IARLIDRPVR PLFPEGFVNE VQVIATVVSV
+     NPQVNPDIVA MIGASAALSL SGIPFNGPIG AARVGYINDQ YVLNPTQDEL KESKLDLVVA
+     GTEAAVLMVE SEAELLSEDT MLGAVVFGHE QQQVVIQAIN DLVKEAGKPR WDWQPEAVND
+     ALNARVAALA ESRLSDAYRI TDKQERYAQV DVIKSETIEQ LIAEDETLDA NELGEILHAI
+     EKNVVRSRVL AGEPRIDGRE KDMIRGLDVR TGVLPRTHGS ALFTRGETQA LVTATLGTAR
+     DAQVLDELMG ERTDSFLFHY NFPPYSVGET GMVGSPKRRE IGHGRLAKRG VLAVMPDMDK
+     FPYTVRVVSE ITESNGSSSM ASVCGASLAL MDAGVPIKAA VAGIAMGLVK EGDNYVVLSD
+     ILGDEDHLGD MDFKVAGSRD GISALQMDIK IEGITKEIMQ VALNQAKGAR LHILGVMEQA
+     INAPRGDISE FAPRIHTIKI STDKIKDVIG KGGSVIRALT EETGTTIEIE DDGTVKIAAT
+     DGEKAKYAIR RIEEITAEIE VGRIYNSKVT RIVDFGAFVA IGGGKEGLVH ISQIADKRVE
+     KVTDYLQMGQ EVPVKVLEVD RQGRVRLSIK EATEQSQPAA APEAPASEQA E
+//

@@ -1,0 +1,116 @@
+ID   TILS_BACLD              Reviewed;         476 AA.
+AC   Q65PF4; Q62ZU3;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   OrderedLocusNames=BLi00083, BL00503;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34 of
+CC       the AUA codon-specific tRNA(Ile) that contains the anticodon CAU, in an
+CC       ATP-dependent manner. Cytidine is converted to lysidine, thus changing
+CC       the amino acid specificity of the tRNA from methionine to isoleucine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(34) in tRNA(Ile2) + L-lysine + ATP = lysidine(34) in
+CC         tRNA(Ile2) + AMP + diphosphate + H(+); Xref=Rhea:RHEA:43744,
+CC         Rhea:RHEA-COMP:10625, Rhea:RHEA-COMP:10670, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:82748, ChEBI:CHEBI:83665, ChEBI:CHEBI:456215;
+CC         EC=6.3.4.19; Evidence={ECO:0000255|HAMAP-Rule:MF_01161};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU39060.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU21715.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197473.1; NC_006322.1.
+DR   AlphaFoldDB; Q65PF4; -.
+DR   SMR; Q65PF4; -.
+DR   STRING; 279010.BL00503; -.
+DR   GeneID; 92858966; -.
+DR   KEGG; bld:BLi00083; -.
+DR   KEGG; bli:BL00503; -.
+DR   PATRIC; fig|279010.13.peg.73; -.
+DR   eggNOG; COG0037; Bacteria.
+DR   HOGENOM; CLU_018869_0_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032267; F:tRNA(Ile)-lysidine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd01992; PP-ATPase; 1.
+DR   Gene3D; 3.30.465.60; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   InterPro; IPR015262; tRNA_Ile_lys_synt_subst-bd.
+DR   NCBIfam; TIGR02433; lysidine_TilS_C; 1.
+DR   NCBIfam; TIGR02432; lysidine_TilS_N; 1.
+DR   PANTHER; PTHR43033; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR43033:SF1; TRNA(ILE)-LYSIDINE SYNTHASE-RELATED; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   Pfam; PF09179; TilS; 1.
+DR   Pfam; PF11734; TilS_C; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF82829; MesJ substrate recognition domain-like; 1.
+DR   SUPFAM; SSF56037; PheT/TilS domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding; Reference proteome;
+KW   tRNA processing.
+FT   CHAIN           1..476
+FT                   /note="tRNA(Ile)-lysidine synthase"
+FT                   /id="PRO_0000181648"
+FT   BINDING         25..30
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01161"
+SQ   SEQUENCE   476 AA;  53986 MW;  C9CB56F19042D53B CRC64;
+     MKSIEDFMKK YELSFDGVTL IAGVSGGPDS MALLHALHHT VPASATLIAA HVDHMFRGEE
+     SERDMRFVQD YCEAEGIQCE AVQIDVLAFA AENNLNKQAA ARECRYAFFQ ELMKRHRAEY
+     LVLGHHGDDQ VETMLMKMAK GTVGIGLAGI QPKRRFDSGW LLRPFLKLSK DDLLAYCKEN
+     RIPFRTDPSN SEDDYTRNRF RHHVLPFLKK ESEDVHKRFQ SVSEFLTEDE LYLQALTKDK
+     MNTVITSKSS SGVEISIERL LALPMPLQRR GVHLILNYLY ENVPSAFSAH HIQVFLDWIS
+     QDGPSGSLDF PNGLKVAKSY HTCLFTFQRL QCENVSYHYE ISGAGEEELI LPGGSSLHVS
+     GPGSTRKLQG NDVFATSPKQ VQFPLYVRTR QNGDRVKLKG MNGSKKVKDI FIDEKVPLSK
+     RDSWPIVTDA VGNIIWIPGL KKTIFEELDV TNNDRIVLQY RQHEKCRGLA KNETGY
+//

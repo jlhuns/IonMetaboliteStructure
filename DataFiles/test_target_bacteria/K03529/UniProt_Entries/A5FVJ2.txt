@@ -1,0 +1,123 @@
+ID   A5FVJ2_ACICJ            Unreviewed;      1165 AA.
+AC   A5FVJ2;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   RecName: Full=Chromosome partition protein Smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   Name=smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   OrderedLocusNames=Acry_0399 {ECO:0000313|EMBL:ABQ29624.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29624.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29624.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29624.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Required for chromosome condensation and partitioning.
+CC       {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- DOMAIN: Contains large globular domains required for ATP hydrolysis at
+CC       each terminus and a third globular domain forming a flexible hinge near
+CC       the middle of the molecule. These domains are separated by coiled-coil
+CC       structures. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SIMILARITY: Belongs to the SMC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29624.1; -; Genomic_DNA.
+DR   RefSeq; WP_011941501.1; NC_009484.1.
+DR   AlphaFoldDB; A5FVJ2; -.
+DR   STRING; 349163.Acry_0399; -.
+DR   KEGG; acr:Acry_0399; -.
+DR   eggNOG; COG1196; Bacteria.
+DR   HOGENOM; CLU_001042_2_3_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030261; P:chromosome condensation; IEA:InterPro.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007062; P:sister chromatid cohesion; IEA:InterPro.
+DR   CDD; cd03278; ABC_SMC_barmotin; 1.
+DR   FunFam; 3.40.50.300:FF:000901; Chromosome partition protein Smc; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   HAMAP; MF_01894; Smc_prok; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003395; RecF/RecN/SMC_N.
+DR   InterPro; IPR024704; SMC.
+DR   InterPro; IPR011890; SMC_prok.
+DR   NCBIfam; TIGR02168; SMC_prok_B; 1.
+DR   PANTHER; PTHR43977; STRUCTURAL MAINTENANCE OF CHROMOSOMES PROTEIN 3; 1.
+DR   Pfam; PF02463; SMC_N; 1.
+DR   PIRSF; PIRSF005719; SMC; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Coiled coil {ECO:0000256|ARBA:ARBA00023054, ECO:0000256|HAMAP-
+KW   Rule:MF_01894}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          6..1142
+FT                   /note="RecF/RecN/SMC N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02463"
+FT   REGION          665..691
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          767..786
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          830..879
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COILED          172..259
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          295..413
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COILED          441..482
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+FT   COMPBIAS        669..691
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        767..777
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         34..41
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01894"
+SQ   SEQUENCE   1165 AA;  125822 MW;  4509B02BCE1C6FF2 CRC64;
+     MPARFARLRI SGFKSFADPT TIDILPGLTG IIGPNGCGKS NVVDALRWAM GEASAKSLRG
+     GEMEDVIFAG TMARAARNLA EVSITLTDTA GLAPVPFQNE PELQVSRKIE RGSGSSYRIN
+     GREVRARDVA TLFADLASGA RNSAMISQGR VSALVNARPD ERRALLEEAA GITGLHARRH
+     EAELKLRAAE QNLLRADDLR AQQEARLAEL RKQARQANRY RNISGLIRDA EAEYLAIERE
+     LAERRRRAAR AQFAEAEAAV GHAEKLRDDV LGRETSQNDA LPALRAREAD TRTRLERARI
+     LAEQIDAEIA RLEAARREAE ARVATLRKDH AGAERIARDA EAAAIRLEAE RSQLAADHEL
+     APARIEQARR EAEAASAALA QCEAATQQAT EAAARAQAQR QAMETRLTQA RGTAGQADRR
+     AREAEAAHAT AQAALVSPER LAAAEATREA AERAVAAAET TYAEAQNRVQ GAETRRTEAH
+     AAAIRARSAA TEADAAAARL KAETDALKAL LAQKFGRDPD PVLDRIKVPA GLETALGAAL
+     GAELSAGEQA SAARHWRSLP AIASDAALPR IGETITAPDA LRRALDHILL LPDGEDGEAL
+     QATLRPGQIL VSIEGGVWRW DGFVVRPGAP TEAAVRLAQR NRLDQLDVEF ARARQSAEAT
+     RAALQEAEAA ERDARHAEDE ARTARRAAES AIDRTRKDLR TTAETASRLA AEAERLAARE
+     AAAAETRARI EAEAGEARAA LAAIEAEFAT LDDAQAFRDA LDRARSALSE SRRRDSEATQ
+     ALQRLQTEAD ARARRLDTII REQSDWAERA RDANDRRTDL GARLHEAEAS LETLGADGGA
+     RERRAEAGAE LEAAESDHHA AARDLASAEE AARRNSAAAR AAEQDLARAR EARIGAESAV
+     READHAWGTV AEKMLERLGV DPALPAVADP SPDAAEKARK RFERLTRERD EMGPVNLRAD
+     IEVGEIETRL AAIDRDREEI TSAIAKLRGS IGHLNREGRE RLSAVFTEID RHFQALFTRM
+     FGGGRAHLAL TGSDDPLEAG LEIFAEPPGK KLATLSLLSG GEQALTALSL IFAVFRCNPA
+     PLSVLDEVDA PLDDANVERF CRLLEDISQD TGTRFIVVTH HHHTMARMDR LYGVTMQERG
+     ISRVLSVDLG TAAAMVEPAG AIAAE
+//

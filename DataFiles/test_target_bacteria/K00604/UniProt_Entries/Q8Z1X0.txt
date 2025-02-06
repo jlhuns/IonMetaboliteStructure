@@ -1,0 +1,126 @@
+ID   FMT_SALTI               Reviewed;         315 AA.
+AC   Q8Z1X0;
+DT   20-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=Methionyl-tRNA formyltransferase {ECO:0000255|HAMAP-Rule:MF_00182};
+DE            EC=2.1.2.9 {ECO:0000255|HAMAP-Rule:MF_00182};
+GN   Name=fmt {ECO:0000255|HAMAP-Rule:MF_00182};
+GN   OrderedLocusNames=STY4390, t4097;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Attaches a formyl group to the free amino group of methionyl-
+CC       tRNA(fMet). The formyl group appears to play a dual role in the
+CC       initiator identity of N-formylmethionyl-tRNA by promoting its
+CC       recognition by IF2 and preventing the misappropriation of this tRNA by
+CC       the elongation apparatus. {ECO:0000255|HAMAP-Rule:MF_00182}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionyl-tRNA(fMet) + (6R)-10-formyltetrahydrofolate = N-
+CC         formyl-L-methionyl-tRNA(fMet) + (6S)-5,6,7,8-tetrahydrofolate + H(+);
+CC         Xref=Rhea:RHEA:24380, Rhea:RHEA-COMP:9952, Rhea:RHEA-COMP:9953,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57453, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:78844, ChEBI:CHEBI:195366; EC=2.1.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00182};
+CC   -!- DOMAIN: Composed of an N- and a C-terminal domain. The N-terminal
+CC       domain carries the tetrahydrofolate (THF)-binding site and the C-
+CC       terminal domain is presumably involved in positioning the Met-tRNA
+CC       substrate for the formylation reaction.
+CC   -!- SIMILARITY: Belongs to the Fmt family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00182, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09178.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71564.1; -; Genomic_DNA.
+DR   RefSeq; NP_458492.1; NC_003198.1.
+DR   RefSeq; WP_001285161.1; NZ_WSUR01000046.1.
+DR   AlphaFoldDB; Q8Z1X0; -.
+DR   SMR; Q8Z1X0; -.
+DR   STRING; 220341.gene:17588218; -.
+DR   KEGG; stt:t4097; -.
+DR   KEGG; sty:STY4390; -.
+DR   PATRIC; fig|220341.7.peg.4486; -.
+DR   eggNOG; COG0223; Bacteria.
+DR   HOGENOM; CLU_033347_1_2_6; -.
+DR   OMA; GITTMLM; -.
+DR   OrthoDB; 9802815at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004479; F:methionyl-tRNA formyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd08646; FMT_core_Met-tRNA-FMT_N; 1.
+DR   CDD; cd08704; Met_tRNA_FMT_C; 1.
+DR   FunFam; 3.10.25.10:FF:000001; Methionyl-tRNA formyltransferase; 1.
+DR   FunFam; 3.40.50.12230:FF:000001; Methionyl-tRNA formyltransferase; 1.
+DR   FunFam; 3.40.50.170:FF:000003; Methionyl-tRNA formyltransferase; 1.
+DR   Gene3D; 3.10.25.10; Formyl transferase, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.170; Formyl transferase, N-terminal domain; 1.
+DR   HAMAP; MF_00182; Formyl_trans; 1.
+DR   InterPro; IPR005794; Fmt.
+DR   InterPro; IPR005793; Formyl_trans_C.
+DR   InterPro; IPR037022; Formyl_trans_C_sf.
+DR   InterPro; IPR002376; Formyl_transf_N.
+DR   InterPro; IPR036477; Formyl_transf_N_sf.
+DR   InterPro; IPR011034; Formyl_transferase-like_C_sf.
+DR   InterPro; IPR001555; GART_AS.
+DR   InterPro; IPR044135; Met-tRNA-FMT_C.
+DR   InterPro; IPR041711; Met-tRNA-FMT_N.
+DR   NCBIfam; TIGR00460; fmt; 1.
+DR   PANTHER; PTHR11138; METHIONYL-TRNA FORMYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11138:SF5; METHIONYL-TRNA FORMYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF02911; Formyl_trans_C; 1.
+DR   Pfam; PF00551; Formyl_trans_N; 1.
+DR   SUPFAM; SSF50486; FMT C-terminal domain-like; 1.
+DR   SUPFAM; SSF53328; Formyltransferase; 1.
+DR   PROSITE; PS00373; GART; 1.
+PE   3: Inferred from homology;
+KW   Protein biosynthesis; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..315
+FT                   /note="Methionyl-tRNA formyltransferase"
+FT                   /id="PRO_0000083040"
+FT   REGION          2..189
+FT                   /note="N-terminal domain"
+FT   REGION          210..315
+FT                   /note="C-terminal domain"
+FT   BINDING         113..116
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00182"
+SQ   SEQUENCE   315 AA;  34043 MW;  D17E750FACEA685A CRC64;
+     MSDSLRIIFA GTPDFAARHL DALLTSGHNI VGVFTQPDRP AGRGKKLMPS PVKVLAEEKG
+     LPVFQPVSLR PQENQHLVAD LHADVMVVVA YGLILPKAVL DMPRLGCINV HGSLLPRWRG
+     AAPIQRSLWA GDAETGVTIM QMDVGLDTGD MLYKLACPIT AEDTSGSLYN KLAELGPQGL
+     ITTLKQLADG TATPEAQNEA LVTHAEKLSK EEARIDWSLS AAQLERCIRA FNPWPMSWLE
+     IDGQPVKVWQ ASVIEDATQS LPGTILAATK QGIQVATGKG ILNLLSLQPA GKKAMSAQDL
+     LNSRREWFIP GNRLA
+//

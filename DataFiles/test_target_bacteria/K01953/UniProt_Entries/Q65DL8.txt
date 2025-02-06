@@ -1,0 +1,87 @@
+ID   Q65DL8_BACLD            Unreviewed;       666 AA.
+AC   Q65DL8; Q62P40;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=asparagine synthase (glutamine-hydrolyzing) {ECO:0000256|ARBA:ARBA00012737};
+DE            EC=6.3.5.4 {ECO:0000256|ARBA:ARBA00012737};
+GN   OrderedLocusNames=BL05361 {ECO:0000313|EMBL:AAU25471.2};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25471.2, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25471.2, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate + L-glutamine + ATP + H2O = L-asparagine + L-
+CC         glutamate + AMP + diphosphate + H(+); Xref=Rhea:RHEA:12228,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58048, ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048741};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-asparagine biosynthesis; L-
+CC       asparagine from L-aspartate (L-Gln route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005187}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25471.2; -; Genomic_DNA.
+DR   RefSeq; WP_003186185.1; NC_006322.1.
+DR   AlphaFoldDB; Q65DL8; -.
+DR   STRING; 279010.BL05361; -.
+DR   KEGG; bld:BLi04033; -.
+DR   KEGG; bli:BL05361; -.
+DR   PATRIC; fig|279010.13.peg.4108; -.
+DR   eggNOG; COG0367; Bacteria.
+DR   HOGENOM; CLU_028528_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0004066; F:asparagine synthase (glutamine-hydrolyzing) activity; IEA:InterPro.
+DR   GO; GO:0006529; P:asparagine biosynthetic process; IEA:InterPro.
+DR   CDD; cd01991; Asn_Synthase_B_C; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR001962; Asn_synthase.
+DR   InterPro; IPR051786; ASN_synthetase/amidase.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR43284:SF1; ASPARAGINE SYNTHETASE; 1.
+DR   PANTHER; PTHR43284; ASPARAGINE SYNTHETASE (GLUTAMINE-HYDROLYZING); 1.
+DR   Pfam; PF00733; Asn_synthase; 1.
+DR   Pfam; PF13537; GATase_7; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+PE   4: Predicted;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          91..152
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|Pfam:PF13537"
+FT   DOMAIN          233..568
+FT                   /note="Asparagine synthetase"
+FT                   /evidence="ECO:0000259|Pfam:PF00733"
+SQ   SEQUENCE   666 AA;  76969 MW;  9AFBAB07F4398D8E CRC64;
+     MKIWFGMQGN NTALWQEWVS AVKKWGRAER IHSYSCGIAN MAEAHIRYDE AFRPSTQINL
+     LHPVILDGWI SGGLNAKSDG TRKIEQYDKL YASLKQDKAA MLSHSHGEYT MVWWDDSLHS
+     LVLATDTYAT RPVYYWVSPK GEWYAANDMR ILLLVHDIPF AIDQDVCRMF PTSGFAVGEN
+     GFEDRTFFKG IRKVPAASYA FLGRDQAVHV HSYWGLPQLL NEKDLAGDAV PRFRELFQEV
+     TADRLKDERH IVELSGGLDS AAVTAAAVAG GRKEQLLAVN ISFAEPDMIL SHDRDLVKNM
+     MRDMDIPGLI ILGDATAKIP NAEIGRDPLW FVDGPDPRAN SLVNETFTVI AEEYGASSVL
+     TGEGGDFIFS GEVSVIDSLL RQRRFSEIYK LLREWSGGSM KEMLKLGFQY GIAPFMPYIG
+     EKLYYDLLWS DTEYELPEYF TEEHRKREWE INKEDHLRYR KSRELSVWGK RFHYDFLWPR
+     ARYMDAVGVT LHTYHPFLDR RLIEFSFSVP PEQHFDVLKG LEEHYAGSKM LLRKSFTDIL
+     PAYVYNRSTK TTYAHMARKS FMNDRRHVLQ LFEPGERVFV EELGIIKRDI WWKHLLAMAI
+     RSEDPNNDLG MGYQYMRSVI DLEIWLREAS KGKEHLLDRS RPVKPRVMAD IETVNTPEKA
+     KIYSYQ
+//

@@ -1,0 +1,135 @@
+ID   E0RP59_SPITD            Unreviewed;       849 AA.
+AC   E0RP59;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   SubName: Full=Predicted DNA translocase FtsK {ECO:0000313|EMBL:ADN02721.1};
+GN   Name=ftsK {ECO:0000313|EMBL:ADN02721.1};
+GN   OrderedLocusNames=STHERM_c17860 {ECO:0000313|EMBL:ADN02721.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02721.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02721.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- SIMILARITY: Belongs to the FtsK/SpoIIIE/SftA family.
+CC       {ECO:0000256|ARBA:ARBA00006474}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02721.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E0RP59; -.
+DR   PaxDb; 665571-STHERM_c17860; -.
+DR   KEGG; sta:STHERM_c17860; -.
+DR   eggNOG; COG1674; Bacteria.
+DR   HOGENOM; CLU_001981_11_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   CDD; cd01127; TrwB_TraG_TraD_VirD4; 1.
+DR   Gene3D; 3.30.980.40; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR050206; FtsK/SpoIIIE/SftA.
+DR   InterPro; IPR041027; FtsK_alpha.
+DR   InterPro; IPR002543; FtsK_dom.
+DR   InterPro; IPR018541; Ftsk_gamma.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR22683:SF41; DNA TRANSLOCASE FTSK; 1.
+DR   PANTHER; PTHR22683; SPORULATION PROTEIN RELATED; 1.
+DR   Pfam; PF17854; FtsK_alpha; 1.
+DR   Pfam; PF09397; FtsK_gamma; 1.
+DR   Pfam; PF01580; FtsK_SpoIIIE; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00843; Ftsk_gamma; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+DR   PROSITE; PS50901; FTSK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00289}; DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00289}; Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        12..34
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        54..73
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        80..103
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          509..701
+FT                   /note="FtsK"
+FT                   /evidence="ECO:0000259|PROSITE:PS50901"
+FT   REGION          157..198
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          213..372
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          828..849
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        188..198
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        213..226
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        263..277
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        294..305
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        312..331
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        341..355
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         526..533
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00289"
+SQ   SEQUENCE   849 AA;  91933 MW;  9C4EE0864C1DC8E9 CRC64;
+     MKSRGGIVFA RLVRTALGSL LIASGLAGLL AAAASLAGLP GDPFPPVSFV LSSFHLPGLW
+     VFLYLCIVGV LLVRRSFPLW FFLWLKTTLL PLLFFGLAAR LLVDPFAVHA LLPGALIRAF
+     TRPGAGLITT LLGMVSLVGI IRLIPWFRGH LPVWGEGSGQ AGPGGQGGQP RRAPEAGPPP
+     APAAPDGGVR EGGEERVRIL PEDSVLARIA DRVKTSARPA AERRGSEVLL LEAPAPEAGV
+     EGEAREGVRP DGAASSEEEG DAPLPPDPPA MPEPPVPGEE AHVAHAQPAP PVVGEEEAPA
+     PEEEPIYLPL RGTREEPEAP PREAEGGEDP LRTSPPPDPT PPRDRTPSPR TEQSRPEPPA
+     EGPPRSTHLF EGPYRVPIEG ILARYPELSS DNKEEIKKAG ELLLETLSEF GIEAELIGIR
+     RGPVITMYEI LPAPGVKLSR IVNLADNIAL RLAAQSVRIV APIPGKRAVG VEVPNKHREL
+     VSLREILEQT DLSDPRYGIP VVLGKDITGE PQVVDLTQTP HLLIAGATGS GKSVCVNAII
+     CSILYSRSPR EVRLMLIDPK IVELKLYNDI PHLLTPVVTD PKRAFQALQY CVYEMERRYA
+     LLDAVGARDI RAYNQKVERE GLAMERLPYV VIIIDEFADL MATAGKDLEA ILARLAAMSR
+     AVGLHLVLAT QRPSIDVITG LIKANIPSRI AFMVASKFDS RIIIDSVGAE KLLGRGDMLF
+     TSPWQPFPVR IQGAFVSEEE VERLVAYLKE LGPPDYVDDE IFIDEEEDDP SLQGDLEDPL
+     LERAIQIVVS TGKASASYLQ RRLKIGYNRA ARLVEAMEEL GIVGPANGSK PREILQVPPE
+     YQGYQDEEA
+//

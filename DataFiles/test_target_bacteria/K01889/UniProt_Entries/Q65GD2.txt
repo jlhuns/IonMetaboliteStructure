@@ -1,0 +1,117 @@
+ID   SYFA_BACLD              Reviewed;         344 AA.
+AC   Q65GD2; Q62RT6;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Phenylalanine--tRNA ligase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            EC=6.1.1.20 {ECO:0000255|HAMAP-Rule:MF_00281};
+DE   AltName: Full=Phenylalanyl-tRNA synthetase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            Short=PheRS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   Name=pheS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   OrderedLocusNames=BLi03016, BL00340;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Phe) + L-phenylalanine + ATP = L-phenylalanyl-tRNA(Phe) +
+CC         AMP + diphosphate + H(+); Xref=Rhea:RHEA:19413, Rhea:RHEA-COMP:9668,
+CC         Rhea:RHEA-COMP:9699, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58095, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78531, ChEBI:CHEBI:456215; EC=6.1.1.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00281};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00281};
+CC       Note=Binds 2 magnesium ions per tetramer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Phe-tRNA synthetase alpha subunit type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24524.1; -; Genomic_DNA.
+DR   EMBL; AE017333; AAU41882.1; -; Genomic_DNA.
+DR   RefSeq; WP_003184229.1; NC_006322.1.
+DR   AlphaFoldDB; Q65GD2; -.
+DR   SMR; Q65GD2; -.
+DR   STRING; 279010.BL00340; -.
+DR   GeneID; 92860390; -.
+DR   KEGG; bld:BLi03016; -.
+DR   KEGG; bli:BL00340; -.
+DR   eggNOG; COG0016; Bacteria.
+DR   HOGENOM; CLU_025086_0_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004826; F:phenylalanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0006432; P:phenylalanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00496; PheRS_alpha_core; 1.
+DR   FunFam; 3.30.930.10:FF:000003; Phenylalanine--tRNA ligase alpha subunit; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   HAMAP; MF_00281; Phe_tRNA_synth_alpha1; 1.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004529; Phe-tRNA-synth_IIc_asu.
+DR   InterPro; IPR004188; Phe-tRNA_ligase_II_N.
+DR   InterPro; IPR022911; Phe_tRNA_ligase_alpha1_bac.
+DR   InterPro; IPR002319; Phenylalanyl-tRNA_Synthase.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   NCBIfam; TIGR00468; pheS; 1.
+DR   PANTHER; PTHR11538:SF41; PHENYLALANINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11538; PHENYLALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02912; Phe_tRNA-synt_N; 1.
+DR   Pfam; PF01409; tRNA-synt_2d; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..344
+FT                   /note="Phenylalanine--tRNA ligase alpha subunit"
+FT                   /id="PRO_0000231962"
+FT   BINDING         256
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with beta subunit"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00281"
+SQ   SEQUENCE   344 AA;  38798 MW;  91FF113F0C3FD99E CRC64;
+     MQEELKRLEK EAVEKVEAAG SLKEVNDVRV AYLGKKGPIT EVLRGMGKLS AEERPKMGAL
+     ANEVREKIAA AIAEKNARLE EEEVKRKLKE QTIDVTLPGS PVKTGARHPL TIVIEEIEDL
+     FISMGYSVEE GPEVETDYYN FEALNLPKEH PARDMQDSFY ITEDTLMRTQ TSPVQTRTME
+     KHKGKGPVKI ICPGKVYRRD NDDATHSHQF MQIEGLCVDR DISMSDLKGT LETVAKKMFG
+     EEREIRLRPS FFPFTEPSVE VDVSCFKCGG KGCSVCKQTG WIEILGAGMV HPNVLEMAGF
+     DSKQYQGFAF GMGVERIAML KYGIDDIRHF YTNDVRFLSQ FKQA
+//

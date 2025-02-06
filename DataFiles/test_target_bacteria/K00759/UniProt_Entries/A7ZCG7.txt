@@ -1,0 +1,83 @@
+ID   APT_CAMC1               Reviewed;         182 AA.
+AC   A7ZCG7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Adenine phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00004};
+DE            Short=APRT {ECO:0000255|HAMAP-Rule:MF_00004};
+DE            EC=2.4.2.7 {ECO:0000255|HAMAP-Rule:MF_00004};
+GN   Name=apt {ECO:0000255|HAMAP-Rule:MF_00004};
+GN   OrderedLocusNames=Ccon26_05870; ORFNames=CCC13826_1608;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes a salvage reaction resulting in the formation of
+CC       AMP, that is energically less costly than de novo synthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AMP + diphosphate = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         adenine; Xref=Rhea:RHEA:16609, ChEBI:CHEBI:16708, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58017, ChEBI:CHEBI:456215; EC=2.4.2.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00004};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via salvage pathway; AMP
+CC       from adenine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00004}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98944.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001447.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZCG7; -.
+DR   SMR; A7ZCG7; -.
+DR   STRING; 360104.CCC13826_1608; -.
+DR   KEGG; cco:CCC13826_1608; -.
+DR   eggNOG; COG0503; Bacteria.
+DR   HOGENOM; CLU_063339_3_0_7; -.
+DR   OrthoDB; 9803963at2; -.
+DR   UniPathway; UPA00588; UER00646.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002055; F:adenine binding; IEA:TreeGrafter.
+DR   GO; GO:0003999; F:adenine phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016208; F:AMP binding; IEA:TreeGrafter.
+DR   GO; GO:0006168; P:adenine salvage; IEA:InterPro.
+DR   GO; GO:0044209; P:AMP salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006166; P:purine ribonucleoside salvage; IEA:UniProtKB-KW.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   FunFam; 3.40.50.2020:FF:000021; Adenine phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_00004; Aden_phosphoribosyltr; 1.
+DR   InterPro; IPR005764; Ade_phspho_trans.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR050054; UPRTase/APRTase.
+DR   NCBIfam; TIGR01090; apt; 1.
+DR   PANTHER; PTHR32315; ADENINE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR32315:SF3; ADENINE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Glycosyltransferase; Purine salvage; Transferase.
+FT   CHAIN           1..182
+FT                   /note="Adenine phosphoribosyltransferase"
+FT                   /id="PRO_1000000266"
+SQ   SEQUENCE   182 AA;  20253 MW;  B570DC155F71B9D2 CRC64;
+     MKILDQKGKE FLLNSIRCIN DFPKPGIVFR DITTLLNNKE AFNFLIDHLA ARYEDANIDY
+     IAGIESRGFI FGAALAARLR LPFVPIRKPK KLPFITLSQK YSLEYGVDEV QIHIDAFGEK
+     AGARVLLMDD LIATGGTAKA SVELINQTNA TCVEACFLID LVDLKGSEKL KSLTKIYSVL
+     EV
+//

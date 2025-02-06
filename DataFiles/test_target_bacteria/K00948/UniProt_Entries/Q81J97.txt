@@ -1,0 +1,149 @@
+ID   KPRS_BACCR              Reviewed;         317 AA.
+AC   Q81J97;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=Ribose-phosphate pyrophosphokinase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE            Short=RPPK {ECO:0000255|HAMAP-Rule:MF_00583};
+DE            EC=2.7.6.1 {ECO:0000255|HAMAP-Rule:MF_00583};
+DE   AltName: Full=5-phospho-D-ribosyl alpha-1-diphosphate synthase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE   AltName: Full=Phosphoribosyl diphosphate synthase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE   AltName: Full=Phosphoribosyl pyrophosphate synthase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE            Short=P-Rib-PP synthase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE            Short=PRPP synthase {ECO:0000255|HAMAP-Rule:MF_00583};
+DE            Short=PRPPase {ECO:0000255|HAMAP-Rule:MF_00583};
+GN   Name=prs {ECO:0000255|HAMAP-Rule:MF_00583}; OrderedLocusNames=BC_0055;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of the central metabolite
+CC       phospho-alpha-D-ribosyl-1-pyrophosphate (PRPP) via the transfer of
+CC       pyrophosphoryl group from ATP to 1-hydroxyl of ribose-5-phosphate (Rib-
+CC       5-P). {ECO:0000255|HAMAP-Rule:MF_00583}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribose 5-phosphate + ATP = 5-phospho-alpha-D-ribose 1-
+CC         diphosphate + AMP + H(+); Xref=Rhea:RHEA:15609, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58017, ChEBI:CHEBI:78346,
+CC         ChEBI:CHEBI:456215; EC=2.7.6.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00583};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00583};
+CC       Note=Binds 2 Mg(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00583};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 5-phospho-alpha-D-ribose
+CC       1-diphosphate biosynthesis; 5-phospho-alpha-D-ribose 1-diphosphate from
+CC       D-ribose 5-phosphate (route I): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00583}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00583}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00583}.
+CC   -!- SIMILARITY: Belongs to the ribose-phosphate pyrophosphokinase family.
+CC       Class I subfamily. {ECO:0000255|HAMAP-Rule:MF_00583}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07153.1; -; Genomic_DNA.
+DR   RefSeq; NP_829952.1; NC_004722.1.
+DR   RefSeq; WP_000107420.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81J97; -.
+DR   SMR; Q81J97; -.
+DR   STRING; 226900.BC_0055; -.
+DR   MetOSite; Q81J97; -.
+DR   GeneID; 93011020; -.
+DR   KEGG; bce:BC0055; -.
+DR   PATRIC; fig|226900.8.peg.72; -.
+DR   HOGENOM; CLU_033546_2_0_9; -.
+DR   OrthoDB; 9777067at2; -.
+DR   UniPathway; UPA00087; UER00172.
+DR   PRO; PR:Q81J97; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0002189; C:ribose phosphate diphosphokinase complex; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004749; F:ribose phosphate diphosphokinase activity; IBA:GO_Central.
+DR   GO; GO:0006015; P:5-phosphoribose 1-diphosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006164; P:purine nucleotide biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0009156; P:ribonucleoside monophosphate biosynthetic process; IEA:InterPro.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   FunFam; 3.40.50.2020:FF:000001; Ribose-phosphate pyrophosphokinase; 1.
+DR   FunFam; 3.40.50.2020:FF:000005; Ribose-phosphate pyrophosphokinase 1; 1.
+DR   Gene3D; 3.40.50.2020; -; 2.
+DR   HAMAP; MF_00583_B; RibP_PPkinase_B; 1.
+DR   InterPro; IPR000842; PRib_PP_synth_CS.
+DR   InterPro; IPR029099; Pribosyltran_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005946; Rib-P_diPkinase.
+DR   InterPro; IPR037515; Rib-P_diPkinase_bac.
+DR   NCBIfam; TIGR01251; ribP_PPkin; 1.
+DR   PANTHER; PTHR10210; RIBOSE-PHOSPHATE DIPHOSPHOKINASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR10210:SF41; RIBOSE-PHOSPHATE PYROPHOSPHOKINASE 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF14572; Pribosyl_synth; 1.
+DR   Pfam; PF13793; Pribosyltran_N; 1.
+DR   SMART; SM01400; Pribosyltran_N; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS00114; PRPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide biosynthesis; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..317
+FT                   /note="Ribose-phosphate pyrophosphokinase"
+FT                   /id="PRO_0000141108"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         43..45
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         102..103
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         136
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         175
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         200
+FT                   /ligand="D-ribose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:78346"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         224
+FT                   /ligand="D-ribose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:78346"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+FT   BINDING         228..232
+FT                   /ligand="D-ribose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:78346"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00583"
+SQ   SEQUENCE   317 AA;  34836 MW;  16414CD5645DA23A CRC64;
+     MSTQYLNSNL KVFSLNSNKE LAEQIAKHIG VGLGKCSVDR FSDGEVQINI EESIRGCDVF
+     IIQSTSFPVN EHIMELLIMI DALKRASAKT INIVIPYYGY ARQDRKARSR EPITSKLVAN
+     LLETAGATRV ITLDLHAPQI QGFFDIPIDH LMGVPILSDY FETKGLKDIV IVSPDHGGVT
+     RARKMADRLK APIAIIDKRR PRPNVSEVMN IIGNIEGKTA ILIDDIIDTA GTITLAANAL
+     VENGASEVYA CCTHPVLSGP AIERIQNSNI KELVVTNSIV LPEEKKIDKV HELSVAPLIG
+     EAIIRVYEEE SVSVLFN
+//

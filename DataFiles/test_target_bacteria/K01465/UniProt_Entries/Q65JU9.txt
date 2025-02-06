@@ -1,0 +1,163 @@
+ID   PYRC_BACLD              Reviewed;         428 AA.
+AC   Q65JU9; Q62VA4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Dihydroorotase {ECO:0000255|HAMAP-Rule:MF_00220};
+DE            Short=DHOase {ECO:0000255|HAMAP-Rule:MF_00220};
+DE            EC=3.5.2.3 {ECO:0000255|HAMAP-Rule:MF_00220};
+GN   Name=pyrC {ECO:0000255|HAMAP-Rule:MF_00220};
+GN   OrderedLocusNames=BLi01770, BL02274;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the reversible cyclization of carbamoyl aspartate
+CC       to dihydroorotate. {ECO:0000255|HAMAP-Rule:MF_00220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + H2O = N-carbamoyl-L-aspartate + H(+);
+CC         Xref=Rhea:RHEA:24296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:32814; EC=3.5.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00220};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00220};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 3/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       DHOase family. Class I DHOase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23305.1; -; Genomic_DNA.
+DR   EMBL; AE017333; AAU40665.1; -; Genomic_DNA.
+DR   RefSeq; WP_003181620.1; NC_006322.1.
+DR   AlphaFoldDB; Q65JU9; -.
+DR   SMR; Q65JU9; -.
+DR   STRING; 279010.BL02274; -.
+DR   GeneID; 92861637; -.
+DR   KEGG; bld:BLi01770; -.
+DR   KEGG; bli:BL02274; -.
+DR   eggNOG; COG0044; Bacteria.
+DR   HOGENOM; CLU_015572_1_0_9; -.
+DR   UniPathway; UPA00070; UER00117.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004038; F:allantoinase activity; IEA:TreeGrafter.
+DR   GO; GO:0004151; F:dihydroorotase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006145; P:purine nucleobase catabolic process; IEA:TreeGrafter.
+DR   CDD; cd01317; DHOase_IIa; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 1.
+DR   Gene3D; 2.30.40.10; Urease, subunit C, domain 1; 2.
+DR   HAMAP; MF_00220_B; PyrC_classI_B; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR004722; DHOase.
+DR   InterPro; IPR050138; DHOase/Allantoinase_Hydrolase.
+DR   InterPro; IPR002195; Dihydroorotase_CS.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   NCBIfam; TIGR00857; pyrC_multi; 1.
+DR   PANTHER; PTHR43668; ALLANTOINASE; 1.
+DR   PANTHER; PTHR43668:SF2; ALLANTOINASE; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; Composite domain of metallo-dependent hydrolases; 1.
+DR   SUPFAM; SSF51556; Metallo-dependent hydrolases; 1.
+DR   PROSITE; PS00482; DIHYDROOROTASE_1; 1.
+DR   PROSITE; PS00483; DIHYDROOROTASE_2; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Pyrimidine biosynthesis; Reference proteome;
+KW   Zinc.
+FT   CHAIN           1..428
+FT                   /note="Dihydroorotase"
+FT                   /id="PRO_1000024078"
+FT   ACT_SITE        304
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         59
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         61..63
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         61
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         93
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         151
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         151
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         178
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         231
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         277
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         304
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         308
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+FT   BINDING         322..323
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00220"
+SQ   SEQUENCE   428 AA;  46684 MW;  A06BDBBBFDBB1F02 CRC64;
+     MSYLIKNGFM LDEKGEKVQR DIRVEGDAIS EIGSLEAASG ETVIDADGLF VSPGLVDLHV
+     HFREPGGEKK ETIETGAKAA ARGGFTTVAA MPNTRPVPDT KEQMEWLVNR IDETASVRVL
+     PYASITIRQT GREMTDFEGL KDAGAFAFTD DGVGVQTAGM MYEAMKKAAS INKAIVAHCE
+     DNSLIYGGSV HDGEFAKANG LNGIPSVCEA VHIARDVLLA EAAGCHYHVC HISTKESVRV
+     VRDAKKAGIR VTAEVTPHHL LLSDSDIPGL DTNYKMNPPL RSPEDREALL EGLRDGTIDF
+     IATDHAPHTE EEKQQTMSLA PFGIVGLETA FPLLYTHFVK TGKWTLKQLH DYMTVKPCEA
+     FGLPYGKLEA GRSADITLID LEREEKIDKS TFLSKGKNTP FDGISCFGWP AMTMAKGKLV
+     YQEGRLVK
+//

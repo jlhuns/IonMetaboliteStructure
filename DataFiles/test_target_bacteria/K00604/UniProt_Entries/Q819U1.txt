@@ -1,0 +1,97 @@
+ID   FMT_BACCR               Reviewed;         314 AA.
+AC   Q819U1;
+DT   04-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Methionyl-tRNA formyltransferase {ECO:0000255|HAMAP-Rule:MF_00182};
+DE            EC=2.1.2.9 {ECO:0000255|HAMAP-Rule:MF_00182};
+GN   Name=fmt {ECO:0000255|HAMAP-Rule:MF_00182}; OrderedLocusNames=BC_3864;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Attaches a formyl group to the free amino group of methionyl-
+CC       tRNA(fMet). The formyl group appears to play a dual role in the
+CC       initiator identity of N-formylmethionyl-tRNA by promoting its
+CC       recognition by IF2 and preventing the misappropriation of this tRNA by
+CC       the elongation apparatus. {ECO:0000255|HAMAP-Rule:MF_00182}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionyl-tRNA(fMet) + (6R)-10-formyltetrahydrofolate = N-
+CC         formyl-L-methionyl-tRNA(fMet) + (6S)-5,6,7,8-tetrahydrofolate + H(+);
+CC         Xref=Rhea:RHEA:24380, Rhea:RHEA-COMP:9952, Rhea:RHEA-COMP:9953,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57453, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:78844, ChEBI:CHEBI:195366; EC=2.1.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00182};
+CC   -!- SIMILARITY: Belongs to the Fmt family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00182}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10786.1; -; Genomic_DNA.
+DR   RefSeq; NP_833585.1; NC_004722.1.
+DR   RefSeq; WP_000598811.1; NC_004722.1.
+DR   AlphaFoldDB; Q819U1; -.
+DR   SMR; Q819U1; -.
+DR   STRING; 226900.BC_3864; -.
+DR   KEGG; bce:BC3864; -.
+DR   PATRIC; fig|226900.8.peg.3983; -.
+DR   HOGENOM; CLU_033347_1_1_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004479; F:methionyl-tRNA formyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0071951; P:conversion of methionyl-tRNA to N-formyl-methionyl-tRNA; IBA:GO_Central.
+DR   CDD; cd08646; FMT_core_Met-tRNA-FMT_N; 1.
+DR   CDD; cd08704; Met_tRNA_FMT_C; 1.
+DR   FunFam; 3.10.25.10:FF:000003; Methionyl-tRNA formyltransferase; 1.
+DR   FunFam; 3.40.50.170:FF:000004; Methionyl-tRNA formyltransferase; 1.
+DR   Gene3D; 3.10.25.10; Formyl transferase, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.170; Formyl transferase, N-terminal domain; 1.
+DR   HAMAP; MF_00182; Formyl_trans; 1.
+DR   InterPro; IPR005794; Fmt.
+DR   InterPro; IPR005793; Formyl_trans_C.
+DR   InterPro; IPR037022; Formyl_trans_C_sf.
+DR   InterPro; IPR002376; Formyl_transf_N.
+DR   InterPro; IPR036477; Formyl_transf_N_sf.
+DR   InterPro; IPR011034; Formyl_transferase-like_C_sf.
+DR   InterPro; IPR001555; GART_AS.
+DR   InterPro; IPR044135; Met-tRNA-FMT_C.
+DR   InterPro; IPR041711; Met-tRNA-FMT_N.
+DR   NCBIfam; TIGR00460; fmt; 1.
+DR   PANTHER; PTHR11138; METHIONYL-TRNA FORMYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11138:SF5; METHIONYL-TRNA FORMYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF02911; Formyl_trans_C; 1.
+DR   Pfam; PF00551; Formyl_trans_N; 1.
+DR   SUPFAM; SSF50486; FMT C-terminal domain-like; 1.
+DR   SUPFAM; SSF53328; Formyltransferase; 1.
+DR   PROSITE; PS00373; GART; 1.
+PE   3: Inferred from homology;
+KW   Protein biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..314
+FT                   /note="Methionyl-tRNA formyltransferase"
+FT                   /id="PRO_0000082911"
+FT   BINDING         110..113
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00182"
+SQ   SEQUENCE   314 AA;  34777 MW;  BA5A266577677557 CRC64;
+     MIKVVFMGTP DFTVPVLRRL IEDGYEVVGV VTQPDRPVGR KKVLTPTPVK VEAEKHGIPV
+     LQPLKIREKD EYEKVLALEP DLIVTAAFGQ IVPNEILEAP KYGCINVHAS LLPELRGGAP
+     IHYAIMEGKE KTGITIMYMV EKLDAGDILT QVEVEIEERE TTGSLFDKLS EAGAHLLSKT
+     VPLLIQGKLE PIKQNEEEVT FAYNIKREQE KIDWTKTGEE VYNHIRGLNP WPVAYTTLAG
+     QVVKVWWGEK VPITEPAEAG TIVAIEEDGF VVATSNETGV KITELQPSGK KRMSCSQFLR
+     GTKPEIGTKL GENA
+//

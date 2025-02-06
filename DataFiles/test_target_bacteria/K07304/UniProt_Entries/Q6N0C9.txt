@@ -1,0 +1,114 @@
+ID   Q6N0C9_RHOPA            Unreviewed;       218 AA.
+AC   Q6N0C9;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 127.
+DE   RecName: Full=Peptide methionine sulfoxide reductase MsrA {ECO:0000256|HAMAP-Rule:MF_01401};
+DE            Short=Protein-methionine-S-oxide reductase {ECO:0000256|HAMAP-Rule:MF_01401};
+DE            EC=1.8.4.11 {ECO:0000256|HAMAP-Rule:MF_01401};
+DE   AltName: Full=Peptide-methionine (S)-S-oxide reductase {ECO:0000256|HAMAP-Rule:MF_01401};
+DE            Short=Peptide Met(O) reductase {ECO:0000256|HAMAP-Rule:MF_01401};
+GN   Name=msrA2/pms {ECO:0000313|EMBL:CAE30274.1};
+GN   Synonyms=msrA {ECO:0000256|HAMAP-Rule:MF_01401,
+GN   ECO:0000313|EMBL:WCL95042.1};
+GN   OrderedLocusNames=RPA4834 {ECO:0000313|EMBL:CAE30274.1};
+GN   ORFNames=TX73_025120 {ECO:0000313|EMBL:WCL95042.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE30274.1};
+RN   [1] {ECO:0000313|EMBL:WCL95042.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL95042.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE30274.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE30274.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL95042.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL95042.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Has an important function as a repair enzyme for proteins
+CC       that have been inactivated by oxidation. Catalyzes the reversible
+CC       oxidation-reduction of methionine sulfoxide in proteins to methionine.
+CC       {ECO:0000256|HAMAP-Rule:MF_01401}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionyl-[protein] + [thioredoxin]-disulfide + H2O = L-
+CC         methionyl-(S)-S-oxide-[protein] + [thioredoxin]-dithiol;
+CC         Xref=Rhea:RHEA:14217, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         Rhea:RHEA-COMP:12313, Rhea:RHEA-COMP:12315, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16044, ChEBI:CHEBI:29950, ChEBI:CHEBI:44120,
+CC         ChEBI:CHEBI:50058; EC=1.8.4.11;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047806, ECO:0000256|HAMAP-
+CC         Rule:MF_01401};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + L-methionine + H2O = L-methionine
+CC         (S)-S-oxide + [thioredoxin]-dithiol; Xref=Rhea:RHEA:19993, Rhea:RHEA-
+CC         COMP:10698, Rhea:RHEA-COMP:10700, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:50058, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58772; EC=1.8.4.11;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048782, ECO:0000256|HAMAP-
+CC         Rule:MF_01401};
+CC   -!- SIMILARITY: Belongs to the MsrA Met sulfoxide reductase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01401}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572608; CAE30274.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL95042.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160366.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4834; -.
+DR   GeneID; 66895996; -.
+DR   KEGG; rpa:TX73_025120; -.
+DR   eggNOG; COG0225; Bacteria.
+DR   HOGENOM; CLU_031040_10_3_5; -.
+DR   PhylomeDB; Q6N0C9; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0036456; F:L-methionine-(S)-S-oxide reductase activity; IEA:TreeGrafter.
+DR   GO; GO:0008113; F:peptide-methionine (S)-S-oxide reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034599; P:cellular response to oxidative stress; IEA:TreeGrafter.
+DR   GO; GO:0036211; P:protein modification process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.1060.10:FF:000001; Peptide methionine sulfoxide reductase MsrA; 1.
+DR   Gene3D; 3.30.1060.10; Peptide methionine sulphoxide reductase MsrA; 1.
+DR   HAMAP; MF_01401; MsrA; 1.
+DR   InterPro; IPR002569; Met_Sox_Rdtase_MsrA_dom.
+DR   InterPro; IPR036509; Met_Sox_Rdtase_MsrA_sf.
+DR   InterPro; IPR050162; MsrA_MetSO_reductase.
+DR   NCBIfam; TIGR00401; msrA; 1.
+DR   PANTHER; PTHR42799; MITOCHONDRIAL PEPTIDE METHIONINE SULFOXIDE REDUCTASE; 1.
+DR   PANTHER; PTHR42799:SF2; MITOCHONDRIAL PEPTIDE METHIONINE SULFOXIDE REDUCTASE; 1.
+DR   Pfam; PF01625; PMSR; 1.
+DR   SUPFAM; SSF55068; Peptide methionine sulfoxide reductase; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01401}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          47..201
+FT                   /note="Peptide methionine sulphoxide reductase MsrA"
+FT                   /evidence="ECO:0000259|Pfam:PF01625"
+FT   REGION          1..24
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        54
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01401"
+SQ   SEQUENCE   218 AA;  23576 MW;  7B3F228E732702DF CRC64;
+     MFFMRKSTAM PSAAEALPGR PTPIPTARTH FVSGNRLQPP FPEGLQQAVF GLGCFWGAER
+     KFWQLGDGVY STAVGYAGGF TPNPTYEEVC SGRTGHTEVV LVVFDPARIS YEALLKTFWE
+     SHDPTQGMRQ GNDVGSQYRS AIYTFGDDQK RAAEASRVTY GDALKAKGYG PITTEIAASG
+     PFYYAEDYHQ QYLAKNPGGY CGLGGTGVSC PVGVRVTA
+//

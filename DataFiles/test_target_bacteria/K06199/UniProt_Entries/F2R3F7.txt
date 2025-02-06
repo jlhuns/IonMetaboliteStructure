@@ -1,0 +1,100 @@
+ID   F2R3F7_STRVP            Unreviewed;       117 AA.
+AC   F2R3F7;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=Fluoride-specific ion channel FluC {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   Name=fluC {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   Synonyms=crcB {ECO:0000256|HAMAP-Rule:MF_00454};
+GN   OrderedLocusNames=SVEN_2513 {ECO:0000313|EMBL:CCA55799.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA55799.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA55799.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Fluoride-specific ion channel. Important for reducing
+CC       fluoride concentration in the cell, thus reducing its toxicity.
+CC       {ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=fluoride(in) = fluoride(out); Xref=Rhea:RHEA:76159,
+CC         ChEBI:CHEBI:17051; Evidence={ECO:0000256|ARBA:ARBA00035585};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76160;
+CC         Evidence={ECO:0000256|ARBA:ARBA00035585};
+CC   -!- ACTIVITY REGULATION: Na(+) is not transported, but it plays an
+CC       essential structural role and its presence is essential for fluoride
+CC       channel function. {ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|HAMAP-Rule:MF_00454}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   -!- SIMILARITY: Belongs to the fluoride channel Fluc/FEX (TC 1.A.43)
+CC       family. {ECO:0000256|ARBA:ARBA00035120, ECO:0000256|HAMAP-
+CC       Rule:MF_00454}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00454}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA55799.1; -; Genomic_DNA.
+DR   RefSeq; WP_015033717.1; NZ_JABVZO010000344.1.
+DR   AlphaFoldDB; F2R3F7; -.
+DR   STRING; 953739.SVEN_2513; -.
+DR   GeneID; 69864650; -.
+DR   KEGG; sve:SVEN_2513; -.
+DR   PATRIC; fig|953739.5.peg.4701; -.
+DR   eggNOG; COG0239; Bacteria.
+DR   HOGENOM; CLU_114342_2_1_11; -.
+DR   OrthoDB; 5148600at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0062054; F:fluoride channel activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0140114; P:cellular detoxification of fluoride; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00454; FluC; 1.
+DR   InterPro; IPR003691; FluC.
+DR   NCBIfam; TIGR00494; crcB; 1.
+DR   PANTHER; PTHR28259; FLUORIDE EXPORT PROTEIN 1-RELATED; 1.
+DR   PANTHER; PTHR28259:SF1; FLUORIDE EXPORT PROTEIN 1-RELATED; 1.
+DR   Pfam; PF02537; CRCB; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00454};
+KW   Ion channel {ECO:0000256|ARBA:ARBA00023303, ECO:0000256|HAMAP-
+KW   Rule:MF_00454}; Ion transport {ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Sodium {ECO:0000256|HAMAP-Rule:MF_00454};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_00454};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_00454}; Transport {ECO:0000256|HAMAP-Rule:MF_00454}.
+FT   TRANSMEM        43..71
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   TRANSMEM        92..111
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   BINDING         68
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+FT   BINDING         71
+FT                   /ligand="Na(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29101"
+FT                   /ligand_note="structural"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00454"
+SQ   SEQUENCE   117 AA;  11963 MW;  680B327FB0E2A14A CRC64;
+     MNWLFVVAGA AVGAPLRYLT DLAARARFGP GFPWGTFTVN VTGSFVLGLL TGVTSAQVHL
+     LLGTGLCGAL TTYSTFSYET LKLVEDGAKG RAALNVAASL AAGLGAVWLG VRAAGLF
+//

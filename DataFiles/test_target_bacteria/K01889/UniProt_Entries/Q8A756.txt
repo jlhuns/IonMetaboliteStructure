@@ -1,0 +1,108 @@
+ID   SYFA_BACTN              Reviewed;         339 AA.
+AC   Q8A756;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=Phenylalanine--tRNA ligase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            EC=6.1.1.20 {ECO:0000255|HAMAP-Rule:MF_00281};
+DE   AltName: Full=Phenylalanyl-tRNA synthetase alpha subunit {ECO:0000255|HAMAP-Rule:MF_00281};
+DE            Short=PheRS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   Name=pheS {ECO:0000255|HAMAP-Rule:MF_00281};
+GN   OrderedLocusNames=BT_1669;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Phe) + L-phenylalanine + ATP = L-phenylalanyl-tRNA(Phe) +
+CC         AMP + diphosphate + H(+); Xref=Rhea:RHEA:19413, Rhea:RHEA-COMP:9668,
+CC         Rhea:RHEA-COMP:9699, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58095, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78531, ChEBI:CHEBI:456215; EC=6.1.1.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00281};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00281};
+CC       Note=Binds 2 magnesium ions per tetramer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00281}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Phe-tRNA synthetase alpha subunit type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00281}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO76776.1; -; Genomic_DNA.
+DR   RefSeq; NP_810582.1; NC_004663.1.
+DR   RefSeq; WP_008763378.1; NZ_UYXG01000032.1.
+DR   AlphaFoldDB; Q8A756; -.
+DR   SMR; Q8A756; -.
+DR   STRING; 226186.BT_1669; -.
+DR   PaxDb; 226186-BT_1669; -.
+DR   EnsemblBacteria; AAO76776; AAO76776; BT_1669.
+DR   GeneID; 60927656; -.
+DR   KEGG; bth:BT_1669; -.
+DR   PATRIC; fig|226186.12.peg.1711; -.
+DR   eggNOG; COG0016; Bacteria.
+DR   HOGENOM; CLU_025086_0_1_10; -.
+DR   InParanoid; Q8A756; -.
+DR   OrthoDB; 9800719at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004826; F:phenylalanine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0006432; P:phenylalanyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd00496; PheRS_alpha_core; 1.
+DR   FunFam; 3.30.930.10:FF:000003; Phenylalanine--tRNA ligase alpha subunit; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   HAMAP; MF_00281; Phe_tRNA_synth_alpha1; 1.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004529; Phe-tRNA-synth_IIc_asu.
+DR   InterPro; IPR004188; Phe-tRNA_ligase_II_N.
+DR   InterPro; IPR022911; Phe_tRNA_ligase_alpha1_bac.
+DR   InterPro; IPR002319; Phenylalanyl-tRNA_Synthase.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   NCBIfam; TIGR00468; pheS; 1.
+DR   PANTHER; PTHR11538:SF41; PHENYLALANINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11538; PHENYLALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02912; Phe_tRNA-synt_N; 1.
+DR   Pfam; PF01409; tRNA-synt_2d; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..339
+FT                   /note="Phenylalanine--tRNA ligase alpha subunit"
+FT                   /id="PRO_0000126667"
+FT   BINDING         250
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="shared with beta subunit"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00281"
+SQ   SEQUENCE   339 AA;  38509 MW;  AA2752FA9E203649 CRC64;
+     MIAKIEQLLK EVEALHASNA EELEALRIKY LSKKGAINDL MADFRNVAAE QKKEVGMRLN
+     ELKTKAQDKI NALKEQFESQ DNSCDGLDLT RSAYPIELGT RHPITIVKNE VIDIFARLGF
+     SIAEGPEIED DWHVFSALNF AEDHPARDMQ DTFFIEAHPD VVLRTHTSSV QTRVMETSKP
+     PIRIICPGRV YRNEAISYRA HCFFHQVEAL YVDKNVSFTD LKQVLLLFAK EMFGTDTKIR
+     LRPSYFPFTE PSAEMDISCN ICGGKGCPFC KHTGWVEILG CGMVDPNVLE SNGIDSKVYS
+     GYALGMGIER ITNLKYQVKD LRMFSENDTR FLKEFEAAY
+//

@@ -1,0 +1,218 @@
+ID   CLCA_SALTI              Reviewed;         473 AA.
+AC   Q8Z9B3;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 138.
+DE   RecName: Full=H(+)/Cl(-) exchange transporter ClcA {ECO:0000255|HAMAP-Rule:MF_01128};
+GN   Name=clcA {ECO:0000255|HAMAP-Rule:MF_01128};
+GN   Synonyms=eriC {ECO:0000255|HAMAP-Rule:MF_01128};
+GN   OrderedLocusNames=STY0225, t0204;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Proton-coupled chloride transporter. Functions as antiport
+CC       system and exchanges two chloride ions for 1 proton. Probably acts as
+CC       an electrical shunt for an outwardly-directed proton pump that is
+CC       linked to amino acid decarboxylation, as part of the extreme acid
+CC       resistance (XAR) response. {ECO:0000255|HAMAP-Rule:MF_01128}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 chloride(in) + H(+)(out) = 2 chloride(out) + H(+)(in);
+CC         Xref=Rhea:RHEA:29567, ChEBI:CHEBI:15378, ChEBI:CHEBI:17996;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01128};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01128}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01128}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01128}.
+CC   -!- SIMILARITY: Belongs to the chloride channel (TC 2.A.49) family. ClcA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01128}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01357.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67935.1; -; Genomic_DNA.
+DR   RefSeq; NP_454811.1; NC_003198.1.
+DR   RefSeq; WP_000845433.1; NZ_WSUR01000009.1.
+DR   AlphaFoldDB; Q8Z9B3; -.
+DR   SMR; Q8Z9B3; -.
+DR   STRING; 220341.gene:17584259; -.
+DR   KEGG; stt:t0204; -.
+DR   KEGG; sty:STY0225; -.
+DR   PATRIC; fig|220341.7.peg.226; -.
+DR   eggNOG; COG0038; Bacteria.
+DR   HOGENOM; CLU_015263_7_0_6; -.
+DR   OMA; EGPTAQF; -.
+DR   OrthoDB; 9767361at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015297; F:antiporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005247; F:voltage-gated chloride channel activity; IEA:InterPro.
+DR   CDD; cd01031; EriC; 1.
+DR   FunFam; 1.10.3080.10:FF:000005; H(+)/Cl(-) exchange transporter ClcA; 1.
+DR   Gene3D; 1.10.3080.10; Clc chloride channel; 1.
+DR   HAMAP; MF_01128; CLC_ClcA; 1.
+DR   InterPro; IPR023861; Cl-channel_ClcA.
+DR   InterPro; IPR014743; Cl-channel_core.
+DR   InterPro; IPR001807; ClC.
+DR   PANTHER; PTHR45711; CHLORIDE CHANNEL PROTEIN; 1.
+DR   PANTHER; PTHR45711:SF6; CHLORIDE CHANNEL PROTEIN; 1.
+DR   Pfam; PF00654; Voltage_CLC; 1.
+DR   PRINTS; PR00762; CLCHANNEL.
+DR   SUPFAM; SSF81340; Clc chloride channel; 1.
+PE   3: Inferred from homology;
+KW   Antiport; Cell inner membrane; Cell membrane; Chloride; Ion transport;
+KW   Membrane; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..473
+FT                   /note="H(+)/Cl(-) exchange transporter ClcA"
+FT                   /id="PRO_0000094477"
+FT   TOPO_DOM        1..32
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        33..69
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        70..76
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        77..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        109..116
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        117..123
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        124..141
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        148..166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        167..176
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        177..189
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        193..201
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        202..214
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        215..232
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        233..252
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        253..281
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        282..287
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        288..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        310..329
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        330..349
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        355..376
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        377..386
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        387..401
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        402..404
+FT                   /note="Note=Loop between two helices"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        405..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   INTRAMEM        417..421
+FT                   /note="Note=Loop between two helices"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TRANSMEM        422..438
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   TOPO_DOM        439..473
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   MOTIF           106..110
+FT                   /note="Selectivity filter part_1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   MOTIF           146..150
+FT                   /note="Selectivity filter part_2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   MOTIF           355..359
+FT                   /note="Selectivity filter part_3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   BINDING         107
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   BINDING         356
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   BINDING         357
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   BINDING         445
+FT                   /ligand="chloride"
+FT                   /ligand_id="ChEBI:CHEBI:17996"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   SITE            148
+FT                   /note="Mediates proton transfer from the outer aqueous
+FT                   phase to the interior of the protein; involved in linking
+FT                   H(+) and Cl(-) transport"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+FT   SITE            203
+FT                   /note="Mediates proton transfer from the protein to the
+FT                   inner aqueous phase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01128"
+SQ   SEQUENCE   473 AA;  50395 MW;  D022A9D04D730271 CRC64;
+     MKTDTSTFLA QQIVRLRRRD QIRRLMQRDK TPLAILFMAA VVGTLTGLVG VAFEKTVSWV
+     QNMRIGALVQ VADHAFLLWP LAFILSALLA MVGYFLVRKF APEAGGSGIP EIEGALEELR
+     PVRWWRVLPV KFIGGMGTLG AGMVLGREGP TVQIGGNLGR MVLDVFRMRS AEARHTLLAT
+     GAAAGLSAAF NAPLAGILFI IEEMRPQFRY NLISIKAVFT GVIMSSIVFR IFNGEAPIIE
+     VGKLSDAPVN TLWLYLILGI IFGCVGPVFN SLVLRTQDMF QRFHGGEIKK WVLMGGAIGG
+     LCGILGLIEP AAAGGGFNLI PIAAAGNFSV GLLLFIFITR VVTTLLCFSS GAPGGIFAPM
+     LALGTLLGTA FGMAAAVLFP QYHLEAGTFA IAGMGALMAA SVRAPLTGIV LVLEMTDNYQ
+     LILPMIITCL GATLLAQFLG GKPLYSTILA RTLAKQDAEQ AAKNQNAPAG ENT
+//
