@@ -40,6 +40,7 @@ def find_uniprot_ids(genes: List[str]):
 def get_uniprot_ids(KOID, target_organism):
     genes = get_genes(KOID)
     common_genes = find_common_genes(genes, target_organism)
+    print(f"Number of common genes found: {len(common_genes)}")
     uniprot_ids = find_uniprot_ids(common_genes)
     print(f"For {KOID}, returning uniprot IDs : {uniprot_ids}")
     return uniprot_ids
