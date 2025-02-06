@@ -142,7 +142,7 @@ def analyze_MSA(KOID: str, target_organism: str):
             file.write(f"analysisDF is empty for K0: {KOID}. No Binding or Active Sites Found")
         return resultsDF
     clear_results = resultsDF.drop_duplicates(subset="MSA_Binding_Location")
-    clear_results = clear_results.drop(["UniProtID", "Binding_Location"], axis=1)
+    clear_results = clear_results.drop("Binding_Location", axis=1)
     clear_results.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Simple_Conservation_DF.csv"))
     resultsDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Conservation_DF.csv"))
 
