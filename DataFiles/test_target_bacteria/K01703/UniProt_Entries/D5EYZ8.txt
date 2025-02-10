@@ -1,0 +1,94 @@
+ID   D5EYZ8_XYLR2            Unreviewed;       464 AA.
+AC   D5EYZ8;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   24-JUL-2024, entry version 76.
+DE   RecName: Full=3-isopropylmalate dehydratase {ECO:0000256|ARBA:ARBA00011998};
+DE            EC=4.2.1.33 {ECO:0000256|ARBA:ARBA00011998};
+GN   Name=leuC {ECO:0000313|EMBL:ADE81366.1};
+GN   OrderedLocusNames=PRU_0730 {ECO:0000313|EMBL:ADE81366.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81366.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81366.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the isomerization between 2-isopropylmalate and 3-
+CC       isopropylmalate, via the formation of 2-isopropylmaleate.
+CC       {ECO:0000256|ARBA:ARBA00002695}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate = (2S)-2-isopropylmalate;
+CC         Xref=Rhea:RHEA:32287, ChEBI:CHEBI:1178, ChEBI:CHEBI:35121;
+CC         EC=4.2.1.33; Evidence={ECO:0000256|ARBA:ARBA00000491};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 2/4.
+CC       {ECO:0000256|ARBA:ARBA00004729}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81366.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063353.1; NC_014033.1.
+DR   AlphaFoldDB; D5EYZ8; -.
+DR   STRING; 264731.PRU_0730; -.
+DR   KEGG; pru:PRU_0730; -.
+DR   eggNOG; COG0065; Bacteria.
+DR   HOGENOM; CLU_006714_3_4_10; -.
+DR   UniPathway; UPA00048; UER00071.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0003861; F:3-isopropylmalate dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01583; IPMI; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   InterPro; IPR004430; 3-IsopropMal_deHydase_lsu.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR050067; IPM_dehydratase_rel_enz.
+DR   InterPro; IPR033941; IPMI_cat.
+DR   NCBIfam; TIGR00170; leuC; 1.
+DR   PANTHER; PTHR43822:SF9; 3-ISOPROPYLMALATE DEHYDRATASE; 1.
+DR   PANTHER; PTHR43822; HOMOACONITASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   4: Predicted;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Leucine biosynthesis {ECO:0000256|ARBA:ARBA00022430};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:ADE81366.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          6..455
+FT                   /note="Aconitase/3-isopropylmalate dehydratase large
+FT                   subunit alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF00330"
+SQ   SEQUENCE   464 AA;  50252 MW;  672E963C3BD7CF7B CRC64;
+     MNTLFDKIWD KHVVQQVEEG PTQLYIDRLY CHEVTSPQAF DGMRARGLKC FRPQQIFCMP
+     DHNTPTHDQD KPIEDPVSRK QVDTLAKNAA EFGLTHYGMM SKDNGIIHVV GPEKGLSLPG
+     MTIVCGDSHT STHGAMGAVA FGIGTSEVEM VMASQCILQQ KPKSMRITIN GVLGKGVTPK
+     DVALYLMAQI TTSGATGYFI EYAGSTVKAM SMEGRLTLCN LSIEMGARGG FIAPDSTTFN
+     YLKGREYTPK GEAWDKAVAY WKTLKSGDDA VFDKELSFNA ADIEPRVTYG TNPGMGIGIT
+     ENIPANAEQA KAPEAGFEKA LNYMQFEAGQ KLLGTKVDYV FLGACTNGRI EDFRAFAHLV
+     KGRHKSPDVV AWLVPGSWAV DKQIREEGLD KVLEAAGFEI RQPGCSACLA MNDDKVPAGK
+     LAVSTSNRNF EGRQGPGART ILASPLTAAA AAITGVITDP RELI
+//

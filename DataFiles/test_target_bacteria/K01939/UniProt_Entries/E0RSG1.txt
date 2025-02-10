@@ -1,0 +1,187 @@
+ID   E0RSG1_SPITD            Unreviewed;       408 AA.
+AC   E0RSG1;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=Adenylosuccinate synthetase {ECO:0000256|HAMAP-Rule:MF_00011, ECO:0000256|RuleBase:RU000520};
+DE            Short=AMPSase {ECO:0000256|HAMAP-Rule:MF_00011};
+DE            Short=AdSS {ECO:0000256|HAMAP-Rule:MF_00011};
+DE            EC=6.3.4.4 {ECO:0000256|HAMAP-Rule:MF_00011, ECO:0000256|RuleBase:RU000520};
+DE   AltName: Full=IMP--aspartate ligase {ECO:0000256|HAMAP-Rule:MF_00011};
+GN   Name=purA {ECO:0000256|HAMAP-Rule:MF_00011};
+GN   OrderedLocusNames=STHERM_c10020 {ECO:0000313|EMBL:ADN01948.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01948.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01948.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Plays an important role in the de novo pathway of purine
+CC       nucleotide biosynthesis. Catalyzes the first committed step in the
+CC       biosynthesis of AMP from IMP. {ECO:0000256|HAMAP-Rule:MF_00011}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + L-aspartate + GTP = N(6)-(1,2-dicarboxyethyl)-AMP + GDP
+CC         + phosphate + 2 H(+); Xref=Rhea:RHEA:15753, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:37565, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57567, ChEBI:CHEBI:58053, ChEBI:CHEBI:58189; EC=6.3.4.4;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00011,
+CC         ECO:0000256|RuleBase:RU000520};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00011};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_00011};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via de novo pathway; AMP
+CC       from IMP: step 1/2. {ECO:0000256|HAMAP-Rule:MF_00011,
+CC       ECO:0000256|RuleBase:RU000520}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00011}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00011}.
+CC   -!- SIMILARITY: Belongs to the adenylosuccinate synthetase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00011, ECO:0000256|RuleBase:RU000520}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00011}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01948.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313789.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSG1; -.
+DR   PaxDb; 665571-STHERM_c10020; -.
+DR   KEGG; sta:STHERM_c10020; -.
+DR   eggNOG; COG0104; Bacteria.
+DR   HOGENOM; CLU_029848_0_0_12; -.
+DR   UniPathway; UPA00075; UER00335.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004019; F:adenylosuccinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044208; P:'de novo' AMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046040; P:IMP metabolic process; IEA:TreeGrafter.
+DR   CDD; cd03108; AdSS; 1.
+DR   FunFam; 3.90.170.10:FF:000001; Adenylosuccinate synthetase; 1.
+DR   Gene3D; 3.40.440.10; Adenylosuccinate Synthetase, subunit A, domain 1; 1.
+DR   Gene3D; 1.10.300.10; Adenylosuccinate Synthetase, subunit A, domain 2; 1.
+DR   Gene3D; 3.90.170.10; Adenylosuccinate Synthetase, subunit A, domain 3; 1.
+DR   HAMAP; MF_00011; Adenylosucc_synth; 1.
+DR   InterPro; IPR018220; Adenylosuccin_syn_GTP-bd.
+DR   InterPro; IPR042109; Adenylosuccinate_synth_dom1.
+DR   InterPro; IPR042110; Adenylosuccinate_synth_dom2.
+DR   InterPro; IPR042111; Adenylosuccinate_synth_dom3.
+DR   InterPro; IPR001114; Adenylosuccinate_synthetase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00184; purA; 1.
+DR   PANTHER; PTHR11846; ADENYLOSUCCINATE SYNTHETASE; 1.
+DR   PANTHER; PTHR11846:SF0; ADENYLOSUCCINATE SYNTHETASE; 1.
+DR   Pfam; PF00709; Adenylsucc_synt; 2.
+DR   SMART; SM00788; Adenylsucc_synt; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS01266; ADENYLOSUCCIN_SYN_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00011};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00011};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00011};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00011};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00011};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00011};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_00011}.
+FT   ACT_SITE        12
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   ACT_SITE        40
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         11..17
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         12..15
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         12
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         37..40
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         39..41
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         39
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         127
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         141
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         198
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         276..282
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         280
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         282
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         308..310
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+FT   BINDING         390..392
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00011"
+SQ   SEQUENCE   408 AA;  44691 MW;  F3B9395F04B9C7FF CRC64;
+     MNIVVVGAQW GDEGKGKIVD VLASRADLVV RYSGGANAGH TIVHDGVSYK LHLVPSGIVY
+     PNTEVVLGTG MVIDPEALFL ELSQIEALGV DWKGRLYISD RAHLVFPSYK AEDKAADEKR
+     RYPIGTTGRG IGVAYAKKAF RDGVRMIDLF DDKFFSRLTP QEKRFVEPYL SRLEPLLVNL
+     VSFMRGRASG NILFEGAQGI LLDLDVGTYP YVSSGVSAPA GASLGGGVGP CDLDAVYGVC
+     KAYTTRVGYG PFPSEFRDHE AGLGDRIREI GHEYGTTTGR PRRCGYLDLV ALKYACEAGG
+     LSALHLTHLD VYDTFDEIGV CVAYRIGGDV ITEFPSSISA LEDAEPVIRT VKGWKRSLRE
+     CRSYDDLPSE ARAYVDLIEE YTSTPVEIVS VGCEREETII RKDPWKRS
+//

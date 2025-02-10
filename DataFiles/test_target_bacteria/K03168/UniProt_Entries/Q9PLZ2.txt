@@ -1,0 +1,184 @@
+ID   TOP1_CAMJE              Reviewed;         700 AA.
+AC   Q9PLZ2; Q0P7U5;
+DT   20-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-OCT-2024, entry version 137.
+DE   RecName: Full=DNA topoisomerase 1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE            EC=5.6.2.1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=DNA topoisomerase I {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=Omega-protein;
+DE   AltName: Full=Relaxing enzyme;
+DE   AltName: Full=Swivelase;
+DE   AltName: Full=Untwisting enzyme;
+GN   Name=topA {ECO:0000255|HAMAP-Rule:MF_00952};
+GN   OrderedLocusNames=Cj1686c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA, which
+CC       is introduced during the DNA replication and transcription, by
+CC       transiently cleaving and rejoining one strand of the DNA duplex.
+CC       Introduces a single-strand break via transesterification at a target
+CC       site in duplex DNA. The scissile phosphodiester is attacked by the
+CC       catalytic tyrosine of the enzyme, resulting in the formation of a DNA-
+CC       (5'-phosphotyrosyl)-enzyme intermediate and the expulsion of a 3'-OH
+CC       DNA strand. The free DNA strand then undergoes passage around the
+CC       unbroken strand, thus removing DNA supercoils. Finally, in the
+CC       religation step, the DNA 3'-OH attacks the covalent intermediate to
+CC       expel the active-site tyrosine and restore the DNA phosphodiester
+CC       backbone. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-independent breakage of single-stranded DNA, followed by
+CC         passage and rejoining.; EC=5.6.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Belongs to the type IA topoisomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35780.1; -; Genomic_DNA.
+DR   PIR; B81266; B81266.
+DR   RefSeq; WP_002851268.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002345052.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PLZ2; -.
+DR   SMR; Q9PLZ2; -.
+DR   STRING; 192222.Cj1686c; -.
+DR   PaxDb; 192222-Cj1686c; -.
+DR   EnsemblBacteria; CAL35780; CAL35780; Cj1686c.
+DR   GeneID; 905960; -.
+DR   KEGG; cje:Cj1686c; -.
+DR   PATRIC; fig|192222.6.peg.1660; -.
+DR   eggNOG; COG0550; Bacteria.
+DR   HOGENOM; CLU_002929_4_3_7; -.
+DR   OrthoDB; 9804262at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I (single strand cut, ATP-independent) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-UniRule.
+DR   CDD; cd00186; TOP1Ac; 1.
+DR   CDD; cd03363; TOPRIM_TopoIA_TopoI; 1.
+DR   Gene3D; 3.40.50.140; -; 1.
+DR   Gene3D; 3.30.65.10; Bacterial Topoisomerase I, domain 1; 2.
+DR   Gene3D; 1.10.460.10; Topoisomerase I, domain 2; 1.
+DR   Gene3D; 2.70.20.10; Topoisomerase I, domain 3; 1.
+DR   Gene3D; 1.10.290.10; Topoisomerase I, domain 4; 1.
+DR   HAMAP; MF_00952; Topoisom_1_prok; 1.
+DR   InterPro; IPR000380; Topo_IA.
+DR   InterPro; IPR003601; Topo_IA_2.
+DR   InterPro; IPR023406; Topo_IA_AS.
+DR   InterPro; IPR013497; Topo_IA_cen.
+DR   InterPro; IPR013824; Topo_IA_cen_sub1.
+DR   InterPro; IPR013825; Topo_IA_cen_sub2.
+DR   InterPro; IPR013826; Topo_IA_cen_sub3.
+DR   InterPro; IPR023405; Topo_IA_core_domain.
+DR   InterPro; IPR003602; Topo_IA_DNA-bd_dom.
+DR   InterPro; IPR013498; Topo_IA_Znf.
+DR   InterPro; IPR005733; TopoI_bac-type.
+DR   InterPro; IPR028612; Topoisom_1_IA.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034149; TOPRIM_TopoI.
+DR   NCBIfam; TIGR01051; topA_bact; 1.
+DR   PANTHER; PTHR42785:SF1; DNA TOPOISOMERASE; 1.
+DR   PANTHER; PTHR42785; DNA TOPOISOMERASE, TYPE IA, CORE; 1.
+DR   Pfam; PF01131; Topoisom_bac; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF01396; zf-C4_Topoisom; 3.
+DR   PRINTS; PR00417; PRTPISMRASEI.
+DR   SMART; SM00437; TOP1Ac; 1.
+DR   SMART; SM00436; TOP1Bc; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF56712; Prokaryotic type I DNA topoisomerase; 1.
+DR   SUPFAM; SSF57783; Zinc beta-ribbon; 2.
+DR   PROSITE; PS00396; TOPO_IA_1; 1.
+DR   PROSITE; PS52039; TOPO_IA_2; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding; Isomerase; Magnesium; Metal-binding; Reference proteome;
+KW   Repeat; Topoisomerase; Zinc; Zinc-finger.
+FT   CHAIN           1..700
+FT                   /note="DNA topoisomerase 1"
+FT                   /id="PRO_0000145146"
+FT   DOMAIN          3..114
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   DOMAIN          130..553
+FT                   /note="Topo IA-type catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383"
+FT   ZN_FING         573..599
+FT                   /note="C4-type 1"
+FT   ZN_FING         629..656
+FT                   /note="C4-type 2"
+FT   ZN_FING         669..692
+FT                   /note="C4-type 3"
+FT   REGION          164..169
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   ACT_SITE        298
+FT                   /note="O-(5'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383"
+FT   BINDING         9
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   BINDING         83
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            33
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            140
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            141
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            144
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            149
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            300
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            485
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+SQ   SEQUENCE   700 AA;  79148 MW;  86CE6DE6A8231A00 CRC64;
+     MKKNLIIVES PAKAKTIGNF LGKDYEVIAS KGHIRDLPKS SFGIKIEDDE FIPEYRITSD
+     HSALVKELKS KAKDAKEVYL ATDEDREGEA IAYHIAKAIG KDENTLPRIV FHEITKSAIE
+     NALKNPRKLN MHSVNAQQTR RLLDRIVGYK LSPLLGQKIQ RGLSAGRVQS AALKIIVDRE
+     KEIRAFVPLE YFSIDMIFQK DLDAELVEFD KAKIEKLTIT NKDRAKLILE ACKNEVYSIS
+     DIESKERKIA PPPPFMTSTL QQSASNRLGF NPKKTMMIAQ KLYEGVNTHE GVMGVITYMR
+     TDSLNLAKEA VENARKFIQA NFGKDYLPSK ANVYTTKTKG AQEAHEAIRP TNLSFTPEIA
+     AKFLDKDELK LYTLIYNRFL ACQMSPAISQ TQNVFVKNDR VVFKISGRKI LFDGYYKVYG
+     DMDKDKILPN FKIGQNLKVQ NLEMNSHFTE PPSRYSEAGL VKKLESLGIG RPSTYAPTIS
+     ILTSRDYVTI DKKQLIPSDV AFNVTEVLEK NFSDIVDSKF TSNLENTLDE IAEDKADWQE
+     TLKEFYYPFM RKIEEGKTKI ASQKTVTKLG ESCPDCGGEL AIRKGRFGEF VACLNFPKCK
+     YSRNLKSESK NESENTAAKA KANGTGITCP SCQKGEIVER FSKRGKFYGC SAYPKCNFIS
+     KYKPSEEKCE ECGETLVIKE LKKGTFLECL KCKIKKEMKD
+//

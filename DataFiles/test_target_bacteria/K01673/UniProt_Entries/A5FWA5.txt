@@ -1,0 +1,86 @@
+ID   A5FWA5_ACICJ            Unreviewed;       207 AA.
+AC   A5FWA5;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=carbonic anhydrase {ECO:0000256|ARBA:ARBA00012925};
+DE            EC=4.2.1.1 {ECO:0000256|ARBA:ARBA00012925};
+GN   OrderedLocusNames=Acry_0666 {ECO:0000313|EMBL:ABQ29887.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29887.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29887.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29887.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate + H(+) = CO2 + H2O; Xref=Rhea:RHEA:10748,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:17544; EC=4.2.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048348};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR601765-1};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|PIRSR:PIRSR601765-1};
+CC   -!- SIMILARITY: Belongs to the beta-class carbonic anhydrase family.
+CC       {ECO:0000256|ARBA:ARBA00006217}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29887.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423931.1; NC_009484.1.
+DR   AlphaFoldDB; A5FWA5; -.
+DR   STRING; 349163.Acry_0666; -.
+DR   KEGG; acr:Acry_0666; -.
+DR   eggNOG; COG0288; Bacteria.
+DR   HOGENOM; CLU_053879_5_3_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0004089; F:carbonate dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   CDD; cd00884; beta_CA_cladeB; 1.
+DR   Gene3D; 3.40.1050.10; Carbonic anhydrase; 1.
+DR   InterPro; IPR045066; Beta_CA_cladeB.
+DR   InterPro; IPR001765; Carbonic_anhydrase.
+DR   InterPro; IPR036874; Carbonic_anhydrase_sf.
+DR   PANTHER; PTHR11002; CARBONIC ANHYDRASE; 1.
+DR   PANTHER; PTHR11002:SF76; CARBONIC ANHYDRASE; 1.
+DR   Pfam; PF00484; Pro_CA; 1.
+DR   SMART; SM00947; Pro_CA; 1.
+DR   SUPFAM; SSF53056; beta-carbonic anhydrase, cab; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:ABQ29887.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR601765-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR601765-1}.
+FT   BINDING         40
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR601765-1"
+FT   BINDING         42
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR601765-1"
+FT   BINDING         101
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR601765-1"
+FT   BINDING         104
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR601765-1"
+SQ   SEQUENCE   207 AA;  22664 MW;  FF2E09D549085C1B CRC64;
+     MEELLAGYRR FRAARWPAQR ETLEALARDG QKPHTLAIAC CDSRVAPEMI FDCAPGDVFT
+     VRNIANLVPP YAPDTANHGT SAALEFAVRV LRVRRIAVIG HSSCGGIAAL LHEPPPEARD
+     FVANWVRIAE PARKRAVRFA DDPVEAARRA EIESVRVSLE NLMTFPWIAS AHNAGELGVY
+     GFYFDVPSGT LREVTAEGER LITEGAG
+//

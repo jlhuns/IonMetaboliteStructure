@@ -1,0 +1,80 @@
+ID   A0A1L6KKC7_ACIHA        Unreviewed;        96 AA.
+AC   A0A1L6KKC7;
+DT   15-MAR-2017, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 35.
+DE   RecName: Full=peptidylprolyl isomerase {ECO:0000256|ARBA:ARBA00013194};
+DE            EC=5.2.1.8 {ECO:0000256|ARBA:ARBA00013194};
+GN   ORFNames=AHTJR_03310 {ECO:0000313|EMBL:QBQ15367.1}, GPS52_00845
+GN   {ECO:0000313|EMBL:NAR72055.1}, J5N55_15495
+GN   {ECO:0000313|EMBL:MBO3659478.1};
+OS   Acinetobacter haemolyticus.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Moraxellales; Moraxellaceae;
+OC   Acinetobacter.
+OX   NCBI_TaxID=29430 {ECO:0000313|EMBL:NAR72055.1, ECO:0000313|Proteomes:UP000451048};
+RN   [1] {ECO:0000313|EMBL:QBQ15367.1, ECO:0000313|Proteomes:UP000294395}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TJR01 {ECO:0000313|EMBL:QBQ15367.1,
+RC   ECO:0000313|Proteomes:UP000294395};
+RA   Bai L., Zhang S.-C., Deng Y., Song C.-C., Kang G.-B., Dong Y., Wang Y.,
+RA   Gao F., Huang H.;
+RT   "Complete genome sequence of two outbreak-associated Acinetobacter
+RT   haemolyticus strains.";
+RL   Submitted (MAR-2019) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:NAR72055.1, ECO:0000313|Proteomes:UP000451048}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AN10 {ECO:0000313|EMBL:NAR72055.1,
+RC   ECO:0000313|Proteomes:UP000451048};
+RA   Castro-Jaimes S., Bello-Lopez E., Velazquez-Acosta C., Volkow-Fernandez P.,
+RA   Lozano-Zarain P., Castillo Ramirez S., Cevallos M.A.;
+RT   "Acinetobacter haemolyticus comparative genomics.";
+RL   Submitted (DEC-2019) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:MBO3659478.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AC1502 {ECO:0000313|EMBL:MBO3659478.1};
+RA   Mohd Rani F.;
+RT   "Acinetobacter spp. whole-genome sequenced from Terengganu.";
+RL   Submitted (MAR-2021) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000971};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JAGFOT010000022; MBO3659478.1; -; Genomic_DNA.
+DR   EMBL; WTTO01000002; NAR72055.1; -; Genomic_DNA.
+DR   EMBL; CP038009; QBQ15367.1; -; Genomic_DNA.
+DR   RefSeq; WP_004640651.1; NZ_WTTY01000003.1.
+DR   STRING; 29430.AHTJS_03320; -.
+DR   KEGG; ahl:AHTJS_03320; -.
+DR   OrthoDB; 14196at2; -.
+DR   Proteomes; UP000294395; Chromosome.
+DR   Proteomes; UP000451048; Unassembled WGS sequence.
+DR   Proteomes; UP000670925; Unassembled WGS sequence.
+DR   GO; GO:0140839; F:RNA polymerase II CTD heptapeptide repeat P3 isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140840; F:RNA polymerase II CTD heptapeptide repeat P6 isomerase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.10.50.40; -; 1.
+DR   InterPro; IPR046357; PPIase_dom_sf.
+DR   InterPro; IPR000297; PPIase_PpiC.
+DR   InterPro; IPR052204; PpiC/parvulin_rotamase.
+DR   PANTHER; PTHR43629; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE; 1.
+DR   PANTHER; PTHR43629:SF3; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE C; 1.
+DR   Pfam; PF00639; Rotamase; 1.
+DR   SUPFAM; SSF54534; FKBP-like; 1.
+DR   PROSITE; PS50198; PPIC_PPIASE_2; 1.
+PE   4: Predicted;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|PROSITE-
+KW   ProRule:PRU00278};
+KW   Rotamase {ECO:0000256|ARBA:ARBA00023110, ECO:0000256|PROSITE-
+KW   ProRule:PRU00278}.
+FT   DOMAIN          1..90
+FT                   /note="PpiC"
+FT                   /evidence="ECO:0000259|PROSITE:PS50198"
+SQ   SEQUENCE   96 AA;  10782 MW;  D35E026AAB1F213F CRC64;
+     MKTAIVRHIL VKDKDMAEQL KKRIQSGADF SKIAKQYSTC NSAKRGGELG EVKKGQLVPV
+     IDKLVFSAAE RVLHGPIKSQ FGFHLLEIKF RMDGLR
+//

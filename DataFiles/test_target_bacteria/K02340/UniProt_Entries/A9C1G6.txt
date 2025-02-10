@@ -1,0 +1,84 @@
+ID   A9C1G6_DELAS            Unreviewed;       350 AA.
+AC   A9C1G6;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=DNA polymerase III subunit delta {ECO:0000256|ARBA:ARBA00017703};
+DE            EC=2.7.7.7 {ECO:0000256|ARBA:ARBA00012417};
+GN   OrderedLocusNames=Daci_6001 {ECO:0000313|EMBL:ABX38629.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX38629.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX38629.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=DNA(n) + a 2'-deoxyribonucleoside 5'-triphosphate = DNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339, Rhea:RHEA-
+CC         COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:173112;
+CC         EC=2.7.7.7; Evidence={ECO:0000256|ARBA:ARBA00049244};
+CC   -!- SIMILARITY: Belongs to the DNA polymerase HolA subunit family.
+CC       {ECO:0000256|ARBA:ARBA00034754}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX38629.1; -; Genomic_DNA.
+DR   RefSeq; WP_012207798.1; NC_010002.1.
+DR   AlphaFoldDB; A9C1G6; -.
+DR   STRING; 398578.Daci_6001; -.
+DR   GeneID; 24116128; -.
+DR   KEGG; dac:Daci_6001; -.
+DR   eggNOG; COG1466; Bacteria.
+DR   HOGENOM; CLU_044694_0_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0009360; C:DNA polymerase III complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:InterPro.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; IEA:TreeGrafter.
+DR   CDD; cd18138; HLD_clamp_pol_III_delta; 1.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 1.20.272.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR008921; DNA_pol3_clamp-load_cplx_C.
+DR   InterPro; IPR010372; DNA_pol3_delta_N.
+DR   InterPro; IPR051456; DNA_Pol_III_Delta.
+DR   InterPro; IPR005790; DNA_polIII_delta.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR01128; holA; 1.
+DR   PANTHER; PTHR34388; DNA POLYMERASE III SUBUNIT DELTA; 1.
+DR   PANTHER; PTHR34388:SF1; DNA POLYMERASE III SUBUNIT DELTA; 1.
+DR   Pfam; PF06144; DNA_pol3_delta; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF48019; post-AAA+ oligomerization domain-like; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705};
+KW   DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00022932};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          20..137
+FT                   /note="DNA polymerase III delta N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06144"
+SQ   SEQUENCE   350 AA;  37777 MW;  CC9D9C0CBFFECB15 CRC64;
+     MQLALNQLGG HLAKGLRPLY VLHGDEPLQQ QEAADAIRAA ARAAGYTERS SYTVAGAHFD
+     WSAVLAAGGS LSLFADRQIV EIRIPSGKPG KDGGAALQQI AESARGNDST LTLVLLPRLD
+     KATKTGAWFS ALEAQGMTLQ IDPIERAQLP AWIAQRLAAQ GQRVAPGEEG QRTLQFFADR
+     VEGNLLAAHQ EIQKLALLHP EGELSQAQVE QAVLNVARYD VFKLSEAVLG GQLARVSRML
+     DGLQAEGTAE VLVHWTLAED IRAICRVRDA MAAGQPLPMA LRAQRIWGVK ERLFERLLPR
+     ITDAQAARLL QSAHAVDGIV KGLAFEGWPR DGWQALRRLA VDLAQAGAKG
+//

@@ -1,0 +1,124 @@
+ID   MNMG_BACCR              Reviewed;         629 AA.
+AC   Q814F7;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Synonyms=gidA {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   OrderedLocusNames=BC_5485;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12339.1; -; Genomic_DNA.
+DR   RefSeq; NP_835138.1; NC_004722.1.
+DR   RefSeq; WP_000541063.1; NC_004722.1.
+DR   AlphaFoldDB; Q814F7; -.
+DR   SMR; Q814F7; -.
+DR   STRING; 226900.BC_5485; -.
+DR   KEGG; bce:BC5485; -.
+DR   PATRIC; fig|226900.8.peg.5663; -.
+DR   HOGENOM; CLU_007831_2_2_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IBA:GO_Central.
+DR   GO; GO:0030488; P:tRNA methylation; IBA:GO_Central.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IBA:GO_Central.
+DR   FunFam; 1.10.10.1800:FF:000001; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   FunFam; 1.10.150.570:FF:000001; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   FunFam; 3.50.50.60:FF:000002; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   FunFam; 3.50.50.60:FF:000063; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   Gene3D; 1.10.150.570; GidA associated domain, C-terminal subdomain; 1.
+DR   Gene3D; 1.10.10.1800; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG/GidA; 1.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR049312; GIDA_C_N.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR026904; MnmG_C.
+DR   InterPro; IPR047001; MnmG_C_subdom.
+DR   InterPro; IPR044920; MnmG_C_subdom_sf.
+DR   InterPro; IPR040131; MnmG_N.
+DR   NCBIfam; TIGR00136; mnmG_gidA; 1.
+DR   PANTHER; PTHR11806; GLUCOSE INHIBITED DIVISION PROTEIN A; 1.
+DR   PANTHER; PTHR11806:SF0; PROTEIN MTO1 HOMOLOG, MITOCHONDRIAL; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_C; 1.
+DR   Pfam; PF21680; GIDA_C_1st; 1.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SMART; SM01228; GIDA_assoc_3; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+DR   PROSITE; PS01281; GIDA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; Reference proteome; tRNA processing.
+FT   CHAIN           1..629
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme MnmG"
+FT                   /id="PRO_0000117050"
+FT   BINDING         14..19
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         126
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         181
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         273..287
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         370
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   629 AA;  70306 MW;  BF989E8791BF422A CRC64;
+     MGYNIGSYDV IVIGAGHAGC EAGLAAARMG SKTLMLTINL DMVAFMPCNP SVGGPAKGIV
+     VREIDALGGE MGRNIDKTHI QMRMLNTGKG PAVRALRAQA DKFAYQHELK KTIEETPNLT
+     LFQGMVERLI VEEGVCKGVV TQAGAEYTAK TVVITTGTFL RGEIIMGDLK YSSGPNNQQP
+     SITLSEHLEE LGFDLVRFKT GTPPRVNSNT IDYSKTEIQP GDDKPRAFSF ETTKFIMDQI
+     PCWLTYTSTE THRLIDENLH RSAMYSGMIK GTGPRYCPSI EDKVVRFNDK PRHQIFLEPE
+     GRNTQEVYVQ GLSTSLPEDV QRDMLRTIPG LENVEMMRTG YAIEYDAIVP TQLWPTLETK
+     KIKNLYTAGQ INGTSGYEEA AGQGLMAGIN AACRSLGKKE VVLGREDAYI GVLIDDLVTK
+     GTNEPYRLLT SRAEYRLLLR HDNADLRLTE VGREIGLIKE ERYERFTNKK LQIEQEKERL
+     SSIIIKPRPE VQELIRNIGG SELKDGIRAS DLLRRPEMAY EHIHLLVPSE VELSDEVKEQ
+     VEIQIKYEGY IEKSLQQVER MKKMESKKIP VDIDYDAISS LASEARQKLK DVRPLSMGQA
+     SRISGVNPAD ISILLVYIEQ GKIARVSNQ
+//

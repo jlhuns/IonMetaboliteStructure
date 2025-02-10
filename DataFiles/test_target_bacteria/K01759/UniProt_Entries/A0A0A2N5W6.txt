@@ -1,0 +1,124 @@
+ID   A0A0A2N5W6_ALCFA        Unreviewed;       131 AA.
+AC   A0A0A2N5W6; A0A0M7BX01;
+DT   04-FEB-2015, integrated into UniProtKB/TrEMBL.
+DT   04-FEB-2015, sequence version 1.
+DT   05-FEB-2025, entry version 45.
+DE   RecName: Full=lactoylglutathione lyase {ECO:0000256|ARBA:ARBA00012081};
+DE            EC=4.4.1.5 {ECO:0000256|ARBA:ARBA00012081};
+DE   AltName: Full=Aldoketomutase {ECO:0000256|ARBA:ARBA00030892};
+DE   AltName: Full=Glyoxalase I {ECO:0000256|ARBA:ARBA00030537};
+DE   AltName: Full=Ketone-aldehyde mutase {ECO:0000256|ARBA:ARBA00030291};
+DE   AltName: Full=Methylglyoxalase {ECO:0000256|ARBA:ARBA00032460};
+DE   AltName: Full=S-D-lactoylglutathione methylglyoxal lyase {ECO:0000256|ARBA:ARBA00033298};
+GN   Name=gloA {ECO:0000313|EMBL:UPL20664.1};
+GN   ORFNames=DF183_07625 {ECO:0000313|EMBL:PWE14578.1}, MXF72_14810
+GN   {ECO:0000313|EMBL:UPL20664.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:UPL20664.1, ECO:0000313|Proteomes:UP000830925};
+RN   [1] {ECO:0000313|EMBL:PWE14578.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE14578.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE14578.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE14578.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:UPL20664.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=D334 {ECO:0000313|EMBL:UPL20664.1};
+RA   Doan V.T., Quach N.T., Vu T.-H.-N., Phi Q.-T.;
+RT   "Genomic mining of Alcaligenes faecalis D334 producing ectoin and
+RT   derivatives.";
+RL   Submitted (APR-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-S-lactoylglutathione = methylglyoxal + glutathione;
+CC         Xref=Rhea:RHEA:19069, ChEBI:CHEBI:17158, ChEBI:CHEBI:57474,
+CC         ChEBI:CHEBI:57925; EC=4.4.1.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048273};
+CC   -!- COFACTOR:
+CC       Name=Ni(2+); Xref=ChEBI:CHEBI:49786;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001967};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR604361-3};
+CC       Note=Binds 1 zinc ion per subunit. In the homodimer, two zinc ions are
+CC       bound between subunits. {ECO:0000256|PIRSR:PIRSR604361-3};
+CC   -!- PATHWAY: Secondary metabolite metabolism; methylglyoxal degradation;
+CC       (R)-lactate from methylglyoxal: step 1/2.
+CC       {ECO:0000256|ARBA:ARBA00005008}.
+CC   -!- SIMILARITY: Belongs to the glyoxalase I family.
+CC       {ECO:0000256|ARBA:ARBA00010363}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000002; PWE14578.1; -; Genomic_DNA.
+DR   EMBL; CP095873; UPL20664.1; -; Genomic_DNA.
+DR   RefSeq; WP_035271035.1; NZ_SRIW01000001.1.
+DR   AlphaFoldDB; A0A0A2N5W6; -.
+DR   STRING; 511.UZ73_06540; -.
+DR   GeneID; 29369028; -.
+DR   KEGG; afa:UZ73_06540; -.
+DR   eggNOG; COG0346; Bacteria.
+DR   OrthoDB; 9789841at2; -.
+DR   UniPathway; UPA00619; UER00675.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   Proteomes; UP000830925; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004462; F:lactoylglutathione lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019243; P:methylglyoxal catabolic process to D-lactate via S-lactoyl-glutathione; IEA:TreeGrafter.
+DR   CDD; cd16358; GlxI_Ni; 1.
+DR   Gene3D; 3.10.180.10; 2,3-Dihydroxybiphenyl 1,2-Dioxygenase, domain 1; 1.
+DR   InterPro; IPR029068; Glyas_Bleomycin-R_OHBP_Dase.
+DR   InterPro; IPR004360; Glyas_Fos-R_dOase_dom.
+DR   InterPro; IPR004361; Glyoxalase_1.
+DR   InterPro; IPR018146; Glyoxalase_1_CS.
+DR   InterPro; IPR037523; VOC.
+DR   NCBIfam; TIGR00068; glyox_I; 1.
+DR   PANTHER; PTHR46036; LACTOYLGLUTATHIONE LYASE; 1.
+DR   PANTHER; PTHR46036:SF5; LACTOYLGLUTATHIONE LYASE; 1.
+DR   Pfam; PF00903; Glyoxalase; 1.
+DR   SUPFAM; SSF54593; Glyoxalase/Bleomycin resistance protein/Dihydroxybiphenyl dioxygenase; 1.
+DR   PROSITE; PS00934; GLYOXALASE_I_1; 1.
+DR   PROSITE; PS51819; VOC; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:UPL20664.1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR604361-3};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR604361-3}.
+FT   DOMAIN          2..126
+FT                   /note="VOC"
+FT                   /evidence="ECO:0000259|PROSITE:PS51819"
+FT   ACT_SITE        122
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604361-1"
+FT   BINDING         56
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604361-3"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604361-3"
+FT   BINDING         122
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604361-3"
+SQ   SEQUENCE   131 AA;  14621 MW;  6ADDCE3D0132E193 CRC64;
+     MRILHTMLRV GNLDRSLAFY TEVLGMKLLR QSDYPDGRFT LAFVGYQDES EAAVLELTHN
+     WDTPSYDLGD GYGHIALEVP DAYKACEDIK ARGGKVVREA GPMKHGTTVI AFVEDPDGYK
+     IELIQAKGRV D
+//

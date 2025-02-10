@@ -1,0 +1,144 @@
+ID   PLSY_SALTI              Reviewed;         203 AA.
+AC   P67162; Q8XGX7;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 109.
+DE   RecName: Full=Glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=G3P acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=GPAT {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            EC=2.3.1.15 {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            EC=2.3.1.n5 {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Lysophosphatidic acid synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=LPA synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+GN   Name=plsY {ECO:0000255|HAMAP-Rule:MF_01043}; Synonyms=ygiH;
+GN   OrderedLocusNames=STY3386, t3127;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of an acyl group from acyl-ACP to
+CC       glycerol-3-phosphate (G3P) to form lysophosphatidic acid (LPA). This
+CC       enzyme can also utilize acyl-CoA as fatty acyl donor, but not acyl-
+CC       PO(4). {ECO:0000255|HAMAP-Rule:MF_01043}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=sn-glycerol 3-phosphate + an acyl-CoA = a 1-acyl-sn-glycero-3-
+CC         phosphate + CoA; Xref=Rhea:RHEA:15325, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57597, ChEBI:CHEBI:57970, ChEBI:CHEBI:58342; EC=2.3.1.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01043};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a fatty acyl-[ACP] + sn-glycerol 3-phosphate = a 1-acyl-sn-
+CC         glycero-3-phosphate + holo-[ACP]; Xref=Rhea:RHEA:42300, Rhea:RHEA-
+CC         COMP:9685, Rhea:RHEA-COMP:14125, ChEBI:CHEBI:57597,
+CC         ChEBI:CHEBI:57970, ChEBI:CHEBI:64479, ChEBI:CHEBI:138651;
+CC         EC=2.3.1.n5; Evidence={ECO:0000255|HAMAP-Rule:MF_01043};
+CC   -!- PATHWAY: Lipid metabolism; phospholipid metabolism. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SUBUNIT: Probably interacts with PlsX. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SIMILARITY: Belongs to the PlsY family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07732.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70670.1; -; Genomic_DNA.
+DR   RefSeq; NP_457598.1; NC_003198.1.
+DR   RefSeq; WP_001272784.1; NZ_WSUR01000003.1.
+DR   AlphaFoldDB; P67162; -.
+DR   SMR; P67162; -.
+DR   STRING; 220341.gene:17587241; -.
+DR   KEGG; stt:t3127; -.
+DR   KEGG; sty:STY3386; -.
+DR   PATRIC; fig|220341.7.peg.3447; -.
+DR   eggNOG; COG0344; Bacteria.
+DR   HOGENOM; CLU_081254_0_2_6; -.
+DR   OMA; PVWLGFK; -.
+DR   OrthoDB; 9777124at2; -.
+DR   UniPathway; UPA00085; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043772; F:acyl-phosphate glycerol-3-phosphate acyltransferase activity; IEA:InterPro.
+DR   GO; GO:0004366; F:glycerol-3-phosphate O-acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01043; PlsY; 1.
+DR   InterPro; IPR003811; G3P_acylTferase_PlsY.
+DR   NCBIfam; TIGR00023; glycerol-3-phosphate 1-O-acyltransferase PlsY; 1.
+DR   PANTHER; PTHR30309:SF0; GLYCEROL-3-PHOSPHATE ACYLTRANSFERASE-RELATED; 1.
+DR   PANTHER; PTHR30309; INNER MEMBRANE PROTEIN YGIH; 1.
+DR   Pfam; PF02660; G3P_acyltransf; 1.
+DR   SMART; SM01207; G3P_acyltransf; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Lipid biosynthesis; Lipid metabolism;
+KW   Membrane; Phospholipid biosynthesis; Phospholipid metabolism; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..203
+FT                   /note="Glycerol-3-phosphate acyltransferase"
+FT                   /id="PRO_0000188441"
+FT   TOPO_DOM        1..3
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TOPO_DOM        25..52
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        53..73
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TOPO_DOM        74..80
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        81..101
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TOPO_DOM        102..111
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TOPO_DOM        133..137
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        138..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TOPO_DOM        159..203
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+SQ   SEQUENCE   203 AA;  21904 MW;  111ED9CCD73B1D27 CRC64;
+     MSAIAPGMIL FAYLCGSISS AILVCRIAGL PDPRESGSGN PGATNVLRIG GKGAAVAVLI
+     FDILKGMLPV WGAYALGVTP FWLGLIAIAA CLGHIWPVFF GFKGGKGVAT AFGAIAPIGW
+     DLTGVMAGTW LLTVLLSGYS SLGAIVSALI APFYVWWFKP QFTFPVSMLS CLILLRHHDN
+     IQRLWRRQET KIWTKLKKKR QKD
+//

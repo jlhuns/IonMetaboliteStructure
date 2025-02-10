@@ -1,0 +1,161 @@
+ID   SYD_SALTI               Reviewed;         590 AA.
+AC   Q8Z5W1;
+DT   13-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 149.
+DE   RecName: Full=Aspartate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            EC=6.1.1.12 {ECO:0000255|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Aspartyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            Short=AspRS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   Name=aspS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   OrderedLocusNames=STY2109, t0976;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of L-aspartate to tRNA(Asp) in a
+CC       two-step reaction: L-aspartate is first activated by ATP to form Asp-
+CC       AMP and then transferred to the acceptor end of tRNA(Asp).
+CC       {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Asp) + L-aspartate + ATP = L-aspartyl-tRNA(Asp) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:19649, Rhea:RHEA-COMP:9660, Rhea:RHEA-
+CC         COMP:9678, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78516, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.12; Evidence={ECO:0000255|HAMAP-Rule:MF_00044};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD05652.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68648.1; -; Genomic_DNA.
+DR   RefSeq; NP_456468.1; NC_003198.1.
+DR   RefSeq; WP_001258634.1; NZ_WSUR01000004.1.
+DR   AlphaFoldDB; Q8Z5W1; -.
+DR   SMR; Q8Z5W1; -.
+DR   STRING; 220341.gene:17586017; -.
+DR   KEGG; stt:t0976; -.
+DR   KEGG; sty:STY2109; -.
+DR   PATRIC; fig|220341.7.peg.2119; -.
+DR   eggNOG; COG0173; Bacteria.
+DR   HOGENOM; CLU_014330_3_2_6; -.
+DR   OMA; LCGWVDR; -.
+DR   OrthoDB; 9802326at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004815; F:aspartate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006422; P:aspartyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00777; AspRS_core; 1.
+DR   CDD; cd04317; EcAspRS_like_N; 1.
+DR   FunFam; 2.40.50.140:FF:000080; Aspartate--tRNA ligase; 1.
+DR   FunFam; 3.30.1360.30:FF:000001; Aspartate--tRNA ligase; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.1360.30; GAD-like domain; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_00044; Asp_tRNA_synth_type1; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004524; Asp-tRNA-ligase_1.
+DR   InterPro; IPR047089; Asp-tRNA-ligase_1_N.
+DR   InterPro; IPR002312; Asp/Asn-tRNA-synth_IIb.
+DR   InterPro; IPR047090; AspRS_core.
+DR   InterPro; IPR004115; GAD-like_sf.
+DR   InterPro; IPR029351; GAD_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   NCBIfam; TIGR00459; aspS_bact; 1.
+DR   PANTHER; PTHR22594:SF5; ASPARTATE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR22594; ASPARTYL/LYSYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02938; GAD; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR01042; TRNASYNTHASP.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF55261; GAD domain-like; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..590
+FT                   /note="Aspartate--tRNA ligase"
+FT                   /id="PRO_0000110936"
+FT   REGION          195..198
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         171
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         217..219
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         217
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         226
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         448
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         482
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         489
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         534..537
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+SQ   SEQUENCE   590 AA;  65795 MW;  2B524FD4BB40F396 CRC64;
+     MRTEYCGQLR LSHVGQQVTL CGWVNRRRDL GSLIFIDMRD REGIVQVFFD PDRADALKLA
+     SELRNEFCIQ VTGTVRARDA KNVNADMATG EIEVLASSLT IINRADSLPL DANHVNTEEA
+     RLKYRYLDLR RPEMAQRLKT RAKITSLVRR FMDDHGFLDI ETPMLTKATP EGARDYLVPS
+     RVHKGKFYAL PQSPQLFKQL LMMSGFDRYY QIVKCFRDED LRADRQPEFT QIDVETSFMT
+     APQVREVMEA LVRHLWLEVK GVDLGDFPVM TFAEAERRYG SDKPDLRNPM ELVDVADLLK
+     SVEFAVFAGP ANDPKGRVAA LRVPGGAQLS RKQIDDYGNF VKIYGAKGLA YIKVNERAKG
+     LDGINSPVAK FLTADIVEAI LERTGAQDGD MIFFGADNKK VVADALGALR LKLGKDLSLT
+     DEDKWAPLWV IDFPMFEDDG EGGLTAMHHP FTAPRDMTAS ELKTAPEEAV ANAYDMVING
+     YEVGGGSVRI HNGEMQQTVF GILGINEQEQ REKFGFLLDA LKYGTPPHVG LAFGLDRLTM
+     LLTGTDNIRD VIAFPKTTAA ACLMTEAPSF ANQAALTELG IQVVKKAENN
+//

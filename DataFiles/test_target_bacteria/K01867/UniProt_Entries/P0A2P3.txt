@@ -1,0 +1,139 @@
+ID   SYW_SALTI               Reviewed;         334 AA.
+AC   P0A2P3; Q8XGS1;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=Tryptophan--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00140};
+DE            EC=6.1.1.2 {ECO:0000255|HAMAP-Rule:MF_00140};
+DE   AltName: Full=Tryptophanyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00140};
+DE            Short=TrpRS {ECO:0000255|HAMAP-Rule:MF_00140};
+GN   Name=trpS {ECO:0000255|HAMAP-Rule:MF_00140};
+GN   OrderedLocusNames=STY4315, t4024;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of tryptophan to tRNA(Trp).
+CC       {ECO:0000255|HAMAP-Rule:MF_00140}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Trp) + L-tryptophan + ATP = L-tryptophyl-tRNA(Trp) + AMP
+CC         + diphosphate + H(+); Xref=Rhea:RHEA:24080, Rhea:RHEA-COMP:9671,
+CC         Rhea:RHEA-COMP:9705, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57912, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78535, ChEBI:CHEBI:456215; EC=6.1.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00140};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00140}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00140}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00140}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08133.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71495.1; -; Genomic_DNA.
+DR   RefSeq; NP_458423.1; NC_003198.1.
+DR   RefSeq; WP_000165562.1; NZ_WSUR01000001.1.
+DR   AlphaFoldDB; P0A2P3; -.
+DR   SMR; P0A2P3; -.
+DR   STRING; 220341.gene:17588146; -.
+DR   KEGG; stt:t4024; -.
+DR   KEGG; sty:STY4315; -.
+DR   PATRIC; fig|220341.7.peg.4410; -.
+DR   eggNOG; COG0180; Bacteria.
+DR   HOGENOM; CLU_029244_1_1_6; -.
+DR   OMA; GWGQFKP; -.
+DR   OrthoDB; 9801042at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004830; F:tryptophan-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006436; P:tryptophanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00806; TrpRS_core; 1.
+DR   FunFam; 1.10.240.10:FF:000002; Tryptophan--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000024; Tryptophan--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.240.10; Tyrosyl-Transfer RNA Synthetase; 1.
+DR   HAMAP; MF_00140_B; Trp_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002306; Trp-tRNA-ligase.
+DR   InterPro; IPR024109; Trp-tRNA-ligase_bac-type.
+DR   InterPro; IPR050203; Trp-tRNA_synthetase.
+DR   NCBIfam; TIGR00233; trpS; 1.
+DR   PANTHER; PTHR43766; TRYPTOPHAN--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43766:SF1; TRYPTOPHAN--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01039; TRNASYNTHTRP.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..334
+FT                   /note="Tryptophan--tRNA ligase"
+FT                   /id="PRO_0000136671"
+FT   MOTIF           12..20
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   MOTIF           195..199
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         11..13
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         19..20
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         135
+FT                   /ligand="L-tryptophan"
+FT                   /ligand_id="ChEBI:CHEBI:57912"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         147..149
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         186
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+FT   BINDING         195..199
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00140"
+SQ   SEQUENCE   334 AA;  37401 MW;  23FD629E797E3992 CRC64;
+     MTKPIVFSGA QPSGELTIGN YMGALRQWVN MQDDYHCIYC IVDQHAITVR QDAQQLRKAT
+     LDTLALYLAC GIDPEKSTIF VQSHVPEHAQ LGWALNCYTY FGELSRMTQF KDKSARYAEN
+     INAGLFDYPV LMAADILLYQ TNLVPVGEDQ KQHLELSRDI AQRFNGLYGD IFKVPEPFIP
+     KSGARVMSLL EPTKKMSKSD DNRNNVIGLL EDPKSVVKKI KRAVTDSDEP PVVRYDVKEK
+     AGVSNLLDIL SAVTGQSIPE LEKQFEGKMY GHLKGEVAEA VSGMLSELQE RYHRFRNDEA
+     FLQKVMKDGA EKASARAAET LKAVYEAIGF VAKP
+//

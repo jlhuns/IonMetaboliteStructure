@@ -1,0 +1,93 @@
+ID   MURI_CAMC1              Reviewed;         262 AA.
+AC   A7ZDH6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   27-MAR-2024, entry version 88.
+DE   RecName: Full=Glutamate racemase {ECO:0000255|HAMAP-Rule:MF_00258};
+DE            EC=5.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   OrderedLocusNames=Ccon26_09680; ORFNames=CCC13826_1245;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate = D-glutamate; Xref=Rhea:RHEA:12813,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:29986; EC=5.1.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00258};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98607.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001759.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZDH6; -.
+DR   SMR; A7ZDH6; -.
+DR   STRING; 360104.CCC13826_1245; -.
+DR   KEGG; cco:CCC13826_1245; -.
+DR   eggNOG; COG0796; Bacteria.
+DR   HOGENOM; CLU_052344_1_0_7; -.
+DR   OrthoDB; 9801055at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 2.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS_1.
+DR   InterPro; IPR004391; Glu_race.
+DR   NCBIfam; TIGR00067; glut_race; 1.
+DR   PANTHER; PTHR21198; GLUTAMATE RACEMASE; 1.
+DR   PANTHER; PTHR21198:SF3; GLUTAMATE RACEMASE; 1.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; Aspartate/glutamate racemase; 2.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape; Cell wall biogenesis/degradation; Isomerase;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..262
+FT                   /note="Glutamate racemase"
+FT                   /id="PRO_1000047552"
+FT   ACT_SITE        70
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+FT   ACT_SITE        182
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+FT   BINDING         7..8
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+FT   BINDING         39..40
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+FT   BINDING         71..72
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+FT   BINDING         183..184
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00258"
+SQ   SEQUENCE   262 AA;  29154 MW;  7E13DCA2D3384CF3 CRC64;
+     MRIGIFDSGL GGLSVLNEAL SKLSEHEFLY YADVKNVPYG QKSRDEILKF SFDAVKFLVK
+     NGAKAVVVAC NTATSVAIKE LRANLSVPII GMEPAVKKAH DLSHDDALKT LVIATPVTVN
+     GAKLKELIIN LNAKDKTELL ALPRLVNFAE KAEFESENVK SYLKEELVKF DLSKFDFLVL
+     GCTHFNYFKD SLREILPPNV SIIDGNEGTI KRLISELGLK ISSVNLTPNV KFFYSGEEVC
+     EQNELEKISR NLARLEKMRA IC
+//

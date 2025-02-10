@@ -1,0 +1,105 @@
+ID   QUEC_CLOB1              Reviewed;         219 AA.
+AC   A7FU68;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 89.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   OrderedLocusNames=CLB_1578;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + NH4(+) + ATP = 7-cyano-7-
+CC         deazaguanine + ADP + phosphate + H2O + H(+); Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS35435.1; -; Genomic_DNA.
+DR   RefSeq; WP_011949102.1; NC_009697.1.
+DR   AlphaFoldDB; A7FU68; -.
+DR   SMR; A7FU68; -.
+DR   GeneID; 5185812; -.
+DR   KEGG; cba:CLB_1578; -.
+DR   HOGENOM; CLU_081854_0_0_9; -.
+DR   UniPathway; UPA00391; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   FunFam; 3.40.50.620:FF:000017; 7-cyano-7-deazaguanine synthase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00364; 7-cyano-7-deazaguanine synthase QueC; 1.
+DR   PANTHER; PTHR42914; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   PANTHER; PTHR42914:SF1; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Zinc.
+FT   CHAIN           1..219
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_0000336905"
+FT   BINDING         10..20
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         188
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         200
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         203
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   219 AA;  24950 MW;  11AB5BA62B073147 CRC64;
+     MNKEKAIVVF SGGQDSTTCL FWAKKKYKEV IAVSFDYNQK HKLELDCAKD ICKKYNIEHH
+     ILDLNLLNQL APNSLTRQDI TVDKSAPKEG VPNSFVDGRN LLFLSFVAVF AKQKGINTII
+     TGVSQSDFSG YPDCRDVFIK SLNVTLNLAM DYEFEIITPL MWINKAETWK MAYDLGVLDI
+     VKEETLTCYN GIKADGCGEC PACKLRKKGY WEFEKEYLK
+//

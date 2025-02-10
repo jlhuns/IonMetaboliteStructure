@@ -1,0 +1,105 @@
+ID   WZA_SALTI               Reviewed;         379 AA.
+AC   Q8Z5G4;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Putative polysaccharide export protein wza;
+DE   Flags: Precursor;
+GN   Name=wza; OrderedLocusNames=STY2331, t0754;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Probably involved in the export of the extracellular
+CC       polysaccharide colanic acid from the cell to medium. {ECO:0000250}.
+CC   -!- PATHWAY: Glycan metabolism; exopolysaccharide biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the BexD/CtrA/VexA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02481.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68447.1; -; Genomic_DNA.
+DR   RefSeq; NP_456664.1; NC_003198.1.
+DR   RefSeq; WP_000978074.1; NZ_WSUR01000002.1.
+DR   AlphaFoldDB; Q8Z5G4; -.
+DR   SMR; Q8Z5G4; -.
+DR   STRING; 220341.gene:17586236; -.
+DR   KEGG; stt:t0754; -.
+DR   KEGG; sty:STY2331; -.
+DR   PATRIC; fig|220341.7.peg.2352; -.
+DR   eggNOG; COG1596; Bacteria.
+DR   HOGENOM; CLU_038343_4_2_6; -.
+DR   OMA; GCTIIPG; -.
+DR   UniPathway; UPA00631; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046930; C:pore complex; IEA:UniProtKB-KW.
+DR   GO; GO:0015159; F:polysaccharide transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0015288; F:porin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006811; P:monoatomic ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0000271; P:polysaccharide biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.5.70; -; 1.
+DR   Gene3D; 3.10.560.10; Outer membrane lipoprotein wza domain like; 2.
+DR   Gene3D; 3.30.1950.10; wza like domain; 1.
+DR   InterPro; IPR049712; Poly_export.
+DR   InterPro; IPR003715; Poly_export_N.
+DR   InterPro; IPR054765; SLBB_dom.
+DR   InterPro; IPR040716; Wza_C.
+DR   PANTHER; PTHR33619; POLYSACCHARIDE EXPORT PROTEIN GFCE-RELATED; 1.
+DR   PANTHER; PTHR33619:SF3; POLYSACCHARIDE EXPORT PROTEIN GFCE-RELATED; 1.
+DR   Pfam; PF02563; Poly_export; 1.
+DR   Pfam; PF22461; SLBB_2; 2.
+DR   Pfam; PF18412; Wza_C; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Exopolysaccharide synthesis; Ion transport;
+KW   Lipoprotein; Membrane; Palmitate; Polysaccharide transport; Porin; Signal;
+KW   Sugar transport; Transmembrane; Transmembrane beta strand; Transport.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   CHAIN           21..379
+FT                   /note="Putative polysaccharide export protein wza"
+FT                   /id="PRO_0000025224"
+FT   LIPID           21
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   LIPID           21
+FT                   /note="S-diacylglycerol cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+SQ   SEQUENCE   379 AA;  41705 MW;  B785C49FA779C1D4 CRC64;
+     MMKSKMKLMP LLASLSLISG CTVLPGSNMS TMGKDVIKQQ DADFDLDRMV NVYPLTPRLV
+     EQLRPRPNVA QPNMSLDQEI ASYQYRVGPG DVLNVTVWDH PELTTPAGQY RSSSDTGNWA
+     QPDGTMFYPY IGKVSVVGKT LSEIRSDITG RLAKYIADPQ VDVNIAAFRS QKAYISGQVN
+     KSGQQAITNV PLTVLDAINA AGGLTDMADW RNVVLTHNGK EQRISLQALM QNGDLSQNRL
+     LYPGDILYVP RNDDLKVFVM GEVKKQSTLK MDFSSMTLTE ALGNAEGIDL TTSNASGIFV
+     IRPLKGEGGR GGKIANIYQL DMSDATSLVM ATEFRLQPYD VVYVTTAPVA RWNRLINQLL
+     PTISGVRYMT DTASDIHSW
+//

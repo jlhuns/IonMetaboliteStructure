@@ -1,0 +1,134 @@
+ID   Q8DZ97_STRA5            Unreviewed;       412 AA.
+AC   Q8DZ97;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=GTPase HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+DE   AltName: Full=GTP-binding protein HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+GN   Name=hflX {ECO:0000256|HAMAP-Rule:MF_00900,
+GN   ECO:0000313|EMBL:AAN00094.1};
+GN   OrderedLocusNames=SAG1212 {ECO:0000313|EMBL:AAN00094.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAN00094.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAN00094.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: GTPase that associates with the 50S ribosomal subunit and may
+CC       have a role during protein synthesis or ribosome biogenesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006809-2};
+CC   -!- SUBUNIT: Monomer. Associates with the 50S ribosomal subunit.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC       Note=May associate with membranes. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. HflX GTPase family. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN00094.1; -; Genomic_DNA.
+DR   RefSeq; NP_688221.1; NC_004116.1.
+DR   RefSeq; WP_000573348.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DZ97; -.
+DR   STRING; 208435.SAG1212; -.
+DR   KEGG; sag:SAG1212; -.
+DR   PATRIC; fig|208435.3.peg.1218; -.
+DR   HOGENOM; CLU_019597_2_2_9; -.
+DR   OrthoDB; 9812272at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043022; F:ribosome binding; IEA:TreeGrafter.
+DR   CDD; cd01878; HflX; 1.
+DR   FunFam; 3.40.50.11060:FF:000001; GTPase HflX; 1.
+DR   FunFam; 3.40.50.300:FF:001711; GTPase HflX; 1.
+DR   Gene3D; 6.10.250.2860; -; 1.
+DR   Gene3D; 3.40.50.11060; GTPase HflX, N-terminal domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00900; GTPase_HflX; 1.
+DR   InterPro; IPR030394; G_HFLX_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR032305; GTP-bd_M.
+DR   InterPro; IPR016496; GTPase_HflX.
+DR   InterPro; IPR025121; GTPase_HflX_N.
+DR   InterPro; IPR042108; GTPase_HflX_N_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd.
+DR   NCBIfam; TIGR03156; GTP_HflX; 1.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR10229:SF0; GTP-BINDING PROTEIN 6-RELATED; 1.
+DR   PANTHER; PTHR10229; GTP-BINDING PROTEIN HFLX; 1.
+DR   Pfam; PF16360; GTP-bdg_M; 1.
+DR   Pfam; PF13167; GTP-bdg_N; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF006809; GTP-binding_hflX_prd; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51705; G_HFLX; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00900};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR006809-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR006809-2};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00900}; Reference proteome {ECO:0000313|Proteomes:UP000000821}.
+FT   DOMAIN          199..359
+FT                   /note="Hflx-type G"
+FT                   /evidence="ECO:0000259|PROSITE:PS51705"
+FT   COILED          165..192
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   BINDING         205..212
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         212
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-2"
+FT   BINDING         230..234
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         232
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-2"
+FT   BINDING         252..255
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         318..321
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+SQ   SEQUENCE   412 AA;  47457 MW;  8558C117951DD483 CRC64;
+     MIETKEEQER VILVGVELQD TENFEMSMEE LASLAKTAGA NVVNHYYQKR DKYDSKSFIG
+     SGKLEEIKAI VEADEIDTVV VNNRLTPRQN SNLEAELGVK VIDRMQLILD IFAMRARSHE
+     GKLQVHLAQL KYMLPRLVGQ GIMLSRQAGG IGSRGPGESQ LELNRRSIRH QISDIERQLK
+     IVEKNRETVR ERRVDSTTFK IGLIGYTNAG KSTIMNVLTD DKQYEANELF ATLDATTKQI
+     YLQNQFQVTL TDTVGFIQDL PTELVAAFKS TLEESRHVDL LFHVIDASDP NHEEHEKVVM
+     EILKDLDMID IPRLAIYNKM DVTEQLNATT FPNVRIAAKK QGSKDLLRRL IVDEIRHIFD
+     EFSIRVHQNQ AYKLYDLNKI ALLDTYTFEE EYENITGYIS PKQKWKLEEF YD
+//

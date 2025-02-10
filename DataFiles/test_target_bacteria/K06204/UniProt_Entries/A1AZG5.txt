@@ -1,0 +1,95 @@
+ID   A1AZG5_PARDP            Unreviewed;       140 AA.
+AC   A1AZG5;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=RNA polymerase-binding transcription factor DksA {ECO:0000256|HAMAP-Rule:MF_00926};
+GN   Name=dksA {ECO:0000256|HAMAP-Rule:MF_00926};
+GN   OrderedLocusNames=Pden_0547 {ECO:0000313|EMBL:ABL68659.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL68659.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Transcription factor that acts by binding directly to the RNA
+CC       polymerase (RNAP). Required for negative regulation of rRNA expression
+CC       and positive regulation of several amino acid biosynthesis promoters.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBUNIT: Interacts directly with the RNA polymerase.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SIMILARITY: Belongs to the DksA family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00926}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL68659.1; -; Genomic_DNA.
+DR   RefSeq; WP_011746892.1; NC_008686.1.
+DR   AlphaFoldDB; A1AZG5; -.
+DR   STRING; 318586.Pden_0547; -.
+DR   EnsemblBacteria; ABL68659; ABL68659; Pden_0547.
+DR   GeneID; 75500090; -.
+DR   KEGG; pde:Pden_0547; -.
+DR   eggNOG; COG1734; Bacteria.
+DR   HOGENOM; CLU_043144_2_2_5; -.
+DR   OrthoDB; 9803742at2; -.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010468; P:regulation of gene expression; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.120.910; DksA, coiled-coil domain; 1.
+DR   HAMAP; MF_00926; DksA; 1.
+DR   InterPro; IPR048489; DksA_N.
+DR   InterPro; IPR012784; DksA_RNA_pol-bd.
+DR   InterPro; IPR037187; DnaK_N.
+DR   InterPro; IPR000962; Znf_DskA_TraR.
+DR   InterPro; IPR020458; Znf_DskA_TraR_CS.
+DR   NCBIfam; TIGR02420; dksA; 1.
+DR   PANTHER; PTHR33823:SF2; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA; 1.
+DR   PANTHER; PTHR33823; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA-RELATED; 1.
+DR   Pfam; PF21157; DksA_N; 1.
+DR   Pfam; PF01258; zf-dskA_traR; 1.
+DR   SUPFAM; SSF109635; DnaK suppressor protein DksA, alpha-hairpin domain; 1.
+DR   SUPFAM; SSF57716; Glucocorticoid receptor-like (DNA-binding domain); 1.
+DR   PROSITE; PS01102; ZF_DKSA_1; 1.
+DR   PROSITE; PS51128; ZF_DKSA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00926}; Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00926}.
+FT   DOMAIN          24..94
+FT                   /note="DnaK suppressor protein DksA N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF21157"
+FT   DOMAIN          97..132
+FT                   /note="Zinc finger DksA/TraR C4-type"
+FT                   /evidence="ECO:0000259|Pfam:PF01258"
+FT   ZN_FING         102..126
+FT                   /note="dksA C4-type"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00510"
+FT   REGION          48..73
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        60..73
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   140 AA;  16609 MW;  A4615EA2A06F85E8 CRC64;
+     MKAQTFLPED YRPAEDEPFM NERQLEYFRR KLIAWKQELL DQSAETLEGL QDSARNVPDL
+     ADRASEETDR SLELRTRDRQ RKLVSKIDAA LRRIETGEYG YCEMTGEPIS LKRLDARPIA
+     TMTLEAQERH ERRERVHRDD
+//

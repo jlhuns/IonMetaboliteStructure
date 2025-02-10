@@ -1,0 +1,82 @@
+ID   Q8ABB5_BACTN            Unreviewed;       299 AA.
+AC   Q8ABB5;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   27-MAR-2024, entry version 108.
+DE   SubName: Full=Glycerophosphoryl diester phosphodiesterase {ECO:0000313|EMBL:AAO75302.1};
+GN   OrderedLocusNames=BT_0195 {ECO:0000313|EMBL:AAO75302.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186 {ECO:0000313|EMBL:AAO75302.1, ECO:0000313|Proteomes:UP000001414};
+RN   [1] {ECO:0000313|EMBL:AAO75302.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2] {ECO:0000313|EMBL:AAO75302.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO75302.1; -; Genomic_DNA.
+DR   RefSeq; NP_809108.1; NC_004663.1.
+DR   RefSeq; WP_011107159.1; NC_004663.1.
+DR   AlphaFoldDB; Q8ABB5; -.
+DR   STRING; 226186.BT_0195; -.
+DR   PaxDb; 226186-BT_0195; -.
+DR   DNASU; 1075500; -.
+DR   EnsemblBacteria; AAO75302; AAO75302; BT_0195.
+DR   GeneID; 60926159; -.
+DR   KEGG; bth:BT_0195; -.
+DR   PATRIC; fig|226186.12.peg.193; -.
+DR   eggNOG; COG0584; Bacteria.
+DR   HOGENOM; CLU_030006_9_3_10; -.
+DR   InParanoid; Q8ABB5; -.
+DR   OrthoDB; 384721at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0008889; F:glycerophosphodiester phosphodiesterase activity; IBA:GO_Central.
+DR   GO; GO:0006580; P:ethanolamine metabolic process; IBA:GO_Central.
+DR   GO; GO:0070291; P:N-acylethanolamine metabolic process; IBA:GO_Central.
+DR   GO; GO:0006644; P:phospholipid metabolic process; IBA:GO_Central.
+DR   CDD; cd08566; GDPD_AtGDE_like; 1.
+DR   Gene3D; 3.20.20.190; Phosphatidylinositol (PI) phosphodiesterase; 1.
+DR   InterPro; IPR032160; DUF4996.
+DR   InterPro; IPR030395; GP_PDE_dom.
+DR   InterPro; IPR017946; PLC-like_Pdiesterase_TIM-brl.
+DR   PANTHER; PTHR46320; GLYCEROPHOSPHODIESTER PHOSPHODIESTERASE 1; 1.
+DR   PANTHER; PTHR46320:SF1; GLYCEROPHOSPHODIESTER PHOSPHODIESTERASE 1; 1.
+DR   Pfam; PF16387; DUF4996; 1.
+DR   Pfam; PF03009; GDPD; 1.
+DR   SUPFAM; SSF51695; PLC-like phosphodiesterases; 1.
+DR   PROSITE; PS51704; GP_PDE; 1.
+DR   PROSITE; PS50007; PIPLC_X_DOMAIN; 1.
+PE   4: Predicted;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001414}.
+FT   DOMAIN          38..299
+FT                   /note="GP-PDE"
+FT                   /evidence="ECO:0000259|PROSITE:PS51704"
+SQ   SEQUENCE   299 AA;  34224 MW;  1CC50AE13F40E292 CRC64;
+     MKRIYNFILL VCLVQLAVAQ NRIAEIRENL LGNYSDRVLV VSHRADWRNA PENSLQGIRN
+     CIDMGVDMVE IDLKKTKDGH LVIMHDKTIN RTMTGKGNAE DYTLAELKAM RLKNGAGCKT
+     RHQIPTLEEV MLLCKGKIMV NIDKGYDYFQ EAYAVLEKTG TIDHCVIKAG LPYERVKAEN
+     GDVLDKVIFM PIVNLHKEGA EKIINDYQSH MKPTAYELVF NDDNEEILRL IRKVRDSGAK
+     LFINSLWPEL CGGHDDDRAV ELHQPDESWG WILNQGAKLI QTDRPALLLE YLRKKKLHD
+//

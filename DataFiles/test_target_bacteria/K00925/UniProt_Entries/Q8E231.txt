@@ -1,0 +1,138 @@
+ID   ACKA_STRA5              Reviewed;         397 AA.
+AC   Q8E231;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Acetate kinase {ECO:0000255|HAMAP-Rule:MF_00020};
+DE            EC=2.7.2.1 {ECO:0000255|HAMAP-Rule:MF_00020};
+DE   AltName: Full=Acetokinase {ECO:0000255|HAMAP-Rule:MF_00020};
+GN   Name=ackA {ECO:0000255|HAMAP-Rule:MF_00020};
+GN   OrderedLocusNames=SAG0168;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Catalyzes the formation of acetyl phosphate from acetate and
+CC       ATP. Can also catalyze the reverse reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetate + ATP = acetyl phosphate + ADP; Xref=Rhea:RHEA:11352,
+CC         ChEBI:CHEBI:22191, ChEBI:CHEBI:30089, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456216; EC=2.7.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00020};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00020};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00020};
+CC       Note=Mg(2+). Can also accept Mn(2+). {ECO:0000255|HAMAP-Rule:MF_00020};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; acetyl-CoA biosynthesis;
+CC       acetyl-CoA from acetate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SIMILARITY: Belongs to the acetokinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99075.1; -; Genomic_DNA.
+DR   RefSeq; NP_687203.1; NC_004116.1.
+DR   RefSeq; WP_000047534.1; NC_004116.1.
+DR   AlphaFoldDB; Q8E231; -.
+DR   SMR; Q8E231; -.
+DR   STRING; 208435.SAG0168; -.
+DR   GeneID; 66885148; -.
+DR   KEGG; sag:SAG0168; -.
+DR   PATRIC; fig|208435.3.peg.168; -.
+DR   HOGENOM; CLU_020352_0_1_9; -.
+DR   OrthoDB; 9802453at2; -.
+DR   UniPathway; UPA00340; UER00458.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008776; F:acetate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006083; P:acetate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006085; P:acetyl-CoA biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   HAMAP; MF_00020; Acetate_kinase; 1.
+DR   InterPro; IPR004372; Ac/propionate_kinase.
+DR   InterPro; IPR000890; Aliphatic_acid_kin_short-chain.
+DR   InterPro; IPR023865; Aliphatic_acid_kinase_CS.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   NCBIfam; TIGR00016; ackA; 1.
+DR   PANTHER; PTHR21060; ACETATE KINASE; 1.
+DR   PANTHER; PTHR21060:SF15; ACETATE KINASE-RELATED; 1.
+DR   Pfam; PF00871; Acetate_kinase; 1.
+DR   PIRSF; PIRSF000722; Acetate_prop_kin; 1.
+DR   PRINTS; PR00471; ACETATEKNASE.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+DR   PROSITE; PS01075; ACETATE_KINASE_1; 1.
+DR   PROSITE; PS01076; ACETATE_KINASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..397
+FT                   /note="Acetate kinase"
+FT                   /id="PRO_0000107619"
+FT   ACT_SITE        146
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         8
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         89
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         206..210
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         283..285
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         331..335
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         383
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            178
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            239
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+SQ   SEQUENCE   397 AA;  43452 MW;  0C813CE3B8B33C8E CRC64;
+     MSKTIAINAG SSSLKWQLYE MPEEKVVAKG IIERIGLKDS ISTVKFDDKK DEQILDIVDH
+     TQAVKILLED LTKHGIIKDF NEITGVGHRV VAGGEYFKES ALVDDKVVEQ VEELSALAPL
+     HNPAAAAGIR AFREILPDIT SVCVFDTAFH TTMQPHTYLY PIPQKYYTDY KVRKYGAHGT
+     SHQYVAQEAA KQLGRPLEEL KLITAHVGNG VSITANYHGQ SIDTSMGFTP LAGPMMGTRS
+     GDIDPAIIPY LVANDPELED AAAVVNMLNK QSGLLGVSGT SSDMRDIEAG LQSKDPNAVL
+     AYNVFIDRIK KFIGQYLAVL NGADAIIFTA GMGENAPLMR QDVIAGLSWF GIELDPEKNV
+     FGYFGDITKP DSKVKVLVIP TDEELMIARD VERLKAK
+//

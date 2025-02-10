@@ -1,0 +1,123 @@
+ID   F2RI08_STRVP            Unreviewed;       215 AA.
+AC   F2RI08;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 73.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH {ECO:0000256|HAMAP-Rule:MF_00278};
+DE            EC=4.3.2.10 {ECO:0000256|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase glutaminase subunit {ECO:0000256|HAMAP-Rule:MF_00278};
+DE            EC=3.5.1.2 {ECO:0000256|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase subunit HisH {ECO:0000256|HAMAP-Rule:MF_00278};
+DE   AltName: Full=ImGP synthase subunit HisH {ECO:0000256|HAMAP-Rule:MF_00278};
+DE            Short=IGPS subunit HisH {ECO:0000256|HAMAP-Rule:MF_00278};
+GN   Name=hisH {ECO:0000256|HAMAP-Rule:MF_00278};
+GN   OrderedLocusNames=SVEN_1704 {ECO:0000313|EMBL:CCA54991.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA54991.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA54991.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to IGP,
+CC       AICAR and glutamate. The HisH subunit catalyzes the hydrolysis of
+CC       glutamine to glutamate and ammonia as part of the synthesis of IGP and
+CC       AICAR. The resulting ammonia molecule is channeled to the active site
+CC       of HisF. {ECO:0000256|ARBA:ARBA00025299, ECO:0000256|HAMAP-
+CC       Rule:MF_00278}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-
+CC         phospho-beta-D-ribosyl)imidazole-4-carboxamide + L-glutamine = D-
+CC         erythro-1-(imidazol-4-yl)glycerol 3-phosphate + 5-amino-1-(5-phospho-
+CC         beta-D-ribosyl)imidazole-4-carboxamide + L-glutamate + H(+);
+CC         Xref=Rhea:RHEA:24793, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58278, ChEBI:CHEBI:58359, ChEBI:CHEBI:58475,
+CC         ChEBI:CHEBI:58525; EC=4.3.2.10;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047838, ECO:0000256|HAMAP-
+CC         Rule:MF_00278};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine + H2O = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049534, ECO:0000256|HAMAP-
+CC         Rule:MF_00278};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC       {ECO:0000256|ARBA:ARBA00005091, ECO:0000256|HAMAP-Rule:MF_00278}.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000256|ARBA:ARBA00011152,
+CC       ECO:0000256|HAMAP-Rule:MF_00278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00278}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA54991.1; -; Genomic_DNA.
+DR   RefSeq; WP_015032909.1; NZ_JABVZO010000322.1.
+DR   AlphaFoldDB; F2RI08; -.
+DR   STRING; 953739.SVEN_1704; -.
+DR   GeneID; 69863878; -.
+DR   KEGG; sve:SVEN_1704; -.
+DR   PATRIC; fig|953739.5.peg.3812; -.
+DR   eggNOG; COG0118; Bacteria.
+DR   HOGENOM; CLU_071837_1_0_11; -.
+DR   OrthoDB; 9807137at2; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01748; GATase1_IGP_Synthase; 1.
+DR   FunFam; 3.40.50.880:FF:000056; Imidazole glycerol phosphate synthase subunit HisH; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   NCBIfam; TIGR01855; IMP_synth_hisH; 1.
+DR   PANTHER; PTHR42701; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   PANTHER; PTHR42701:SF1; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00278}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00278};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|HAMAP-Rule:MF_00278};
+KW   Glycosyltransferase {ECO:0000313|EMBL:CCA54991.1};
+KW   Histidine biosynthesis {ECO:0000256|ARBA:ARBA00023102, ECO:0000256|HAMAP-
+KW   Rule:MF_00278};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00278};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00278};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000313|EMBL:CCA54991.1}.
+FT   DOMAIN          10..211
+FT                   /note="Glutamine amidotransferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00117"
+FT   ACT_SITE        86
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00278,
+FT                   ECO:0000256|PIRSR:PIRSR000495-1"
+FT   ACT_SITE        196
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00278,
+FT                   ECO:0000256|PIRSR:PIRSR000495-1"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00278,
+FT                   ECO:0000256|PIRSR:PIRSR000495-1"
+SQ   SEQUENCE   215 AA;  23246 MW;  A6C5D45AD091AE32 CRC64;
+     MTATAAKKVV VFDYGFGNVR SAERALARVG ADVEITRDYD TAMNADGLLV PGVGAFSACM
+     AGLKQARGDW IVGRRLAGGR PVMGICVGMQ ILFAHGFEHG VETEGLDEWP GTVEPLNAPV
+     VPHMGWNTVD APQETEMFAG LDADARFYFV HSYAVREWTL EVGNKNIRAP KVTWATHGEP
+     FVAAVENGAL WATQFHPEKS GDAGAQLLTN WIETL
+//

@@ -1,0 +1,104 @@
+ID   A0A1P8FAI0_9CHLR        Unreviewed;       157 AA.
+AC   A0A1P8FAI0;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 25.
+DE   RecName: Full=Methylated-DNA--protein-cysteine methyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+DE            EC=2.1.1.63 {ECO:0000256|HAMAP-Rule:MF_00772};
+DE   AltName: Full=6-O-methylguanine-DNA methyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+DE            Short=MGMT {ECO:0000256|HAMAP-Rule:MF_00772};
+DE   AltName: Full=O-6-methylguanine-DNA-alkyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+GN   Name=ogt {ECO:0000313|EMBL:APV45467.1};
+GN   ORFNames=Dform_02163 {ECO:0000313|EMBL:APV45467.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV45467.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the cellular defense against the biological
+CC       effects of O6-methylguanine (O6-MeG) and O4-methylthymine (O4-MeT) in
+CC       DNA. Repairs the methylated nucleobase in DNA by stoichiometrically
+CC       transferring the methyl group to a cysteine residue in the enzyme. This
+CC       is a suicide reaction: the enzyme is irreversibly inactivated.
+CC       {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 4-O-methyl-thymidine in DNA + L-cysteinyl-[protein] = a
+CC         thymidine in DNA + S-methyl-L-cysteinyl-[protein];
+CC         Xref=Rhea:RHEA:53428, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:13555, Rhea:RHEA-COMP:13556, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:137386, ChEBI:CHEBI:137387;
+CC         EC=2.1.1.63; Evidence={ECO:0000256|ARBA:ARBA00001286,
+CC         ECO:0000256|HAMAP-Rule:MF_00772};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 6-O-methyl-2'-deoxyguanosine in DNA + L-cysteinyl-[protein]
+CC         = S-methyl-L-cysteinyl-[protein] + a 2'-deoxyguanosine in DNA;
+CC         Xref=Rhea:RHEA:24000, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:11367, Rhea:RHEA-COMP:11368, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:85445, ChEBI:CHEBI:85448; EC=2.1.1.63;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049348, ECO:0000256|HAMAP-
+CC         Rule:MF_00772};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- MISCELLANEOUS: This enzyme catalyzes only one turnover and therefore is
+CC       not strictly catalytic. According to one definition, an enzyme is a
+CC       biocatalyst that acts repeatedly and over many reaction cycles.
+CC       {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- SIMILARITY: Belongs to the MGMT family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00772}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV45467.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A1P8FAI0; -.
+DR   STRING; 1839801.Dform_02163; -.
+DR   KEGG; dfo:Dform_02163; -.
+DR   OrthoDB; 9802228at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003908; F:methylated-DNA-[protein]-cysteine S-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006307; P:DNA alkylation repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd06445; ATase; 1.
+DR   FunFam; 1.10.10.10:FF:000214; Methylated-DNA--protein-cysteine methyltransferase; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00772; OGT; 1.
+DR   InterPro; IPR001497; MethylDNA_cys_MeTrfase_AS.
+DR   InterPro; IPR014048; MethylDNA_cys_MeTrfase_DNA-bd.
+DR   InterPro; IPR036217; MethylDNA_cys_MeTrfase_DNAb.
+DR   InterPro; IPR023546; MGMT.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   NCBIfam; TIGR00589; ogt; 1.
+DR   PANTHER; PTHR10815; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10815:SF5; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF01035; DNA_binding_1; 1.
+DR   SUPFAM; SSF46767; Methylated DNA-protein cysteine methyltransferase, C-terminal domain; 1.
+DR   PROSITE; PS00374; MGMT; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00772};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00772};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00772};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_00772}; Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00772}.
+FT   DOMAIN          74..153
+FT                   /note="Methylated-DNA-[protein]-cysteine S-
+FT                   methyltransferase DNA binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01035"
+FT   ACT_SITE        125
+FT                   /note="Nucleophile; methyl group acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00772"
+SQ   SEQUENCE   157 AA;  16892 MW;  688250A8C49712C6 CRC64;
+     MVETAQGWVG IEASEQGVRR LTLPTKNRNS VLTELGIEEQ DLSPGSGLGD RLRHYFVGQP
+     VVFKEGLDLT GTTDFQKQVY EAACRIPYGE TRSYGQLAEE IGRPGAARAV GQALGANPVP
+     ILIPCHRVLA SDGGLGGFSG GIKTKQKLLA MEKKNRK
+//

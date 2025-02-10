@@ -1,0 +1,125 @@
+ID   D5EUG5_XYLR2            Unreviewed;       472 AA.
+AC   D5EUG5;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 79.
+DE   RecName: Full=Cardiolipin synthase {ECO:0000256|HAMAP-Rule:MF_01916, ECO:0000256|NCBIfam:TIGR04265};
+DE            Short=CL synthase {ECO:0000256|HAMAP-Rule:MF_01916};
+DE            EC=2.7.8.- {ECO:0000256|HAMAP-Rule:MF_01916, ECO:0000256|NCBIfam:TIGR04265};
+GN   OrderedLocusNames=PRU_1994 {ECO:0000313|EMBL:ADE81061.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81061.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81061.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the reversible phosphatidyl group transfer from one
+CC       phosphatidylglycerol molecule to another to form cardiolipin (CL)
+CC       (diphosphatidylglycerol) and glycerol. {ECO:0000256|HAMAP-
+CC       Rule:MF_01916}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) = a
+CC         cardiolipin + glycerol; Xref=Rhea:RHEA:31451, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:62237, ChEBI:CHEBI:64716; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01916};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01916}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01916}. Cell membrane {ECO:0000256|ARBA:ARBA00004651}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the phospholipase D family. Cardiolipin synthase
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01916}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81061.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063048.1; NC_014033.1.
+DR   AlphaFoldDB; D5EUG5; -.
+DR   STRING; 264731.PRU_1994; -.
+DR   KEGG; pru:PRU_1994; -.
+DR   eggNOG; COG1502; Bacteria.
+DR   HOGENOM; CLU_038053_1_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008808; F:cardiolipin synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032049; P:cardiolipin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09110; PLDc_CLS_1; 1.
+DR   CDD; cd09112; PLDc_CLS_2; 1.
+DR   Gene3D; 3.30.870.10; Endonuclease Chain A; 2.
+DR   HAMAP; MF_01916; Cardiolipin_synth_Cls; 1.
+DR   InterPro; IPR030874; Cardiolipin_synth_Firmi.
+DR   InterPro; IPR022924; Cardiolipin_synthase.
+DR   InterPro; IPR027379; CLS_N.
+DR   InterPro; IPR025202; PLD-like_dom.
+DR   InterPro; IPR001736; PLipase_D/transphosphatidylase.
+DR   NCBIfam; TIGR04265; bac_cardiolipin; 1.
+DR   PANTHER; PTHR21248; CARDIOLIPIN SYNTHASE; 1.
+DR   PANTHER; PTHR21248:SF22; PHOSPHOLIPASE D; 1.
+DR   Pfam; PF13091; PLDc_2; 2.
+DR   Pfam; PF13396; PLDc_N; 1.
+DR   SMART; SM00155; PLDc; 2.
+DR   SUPFAM; SSF56024; Phospholipase D/nuclease; 2.
+DR   PROSITE; PS50035; PLD; 2.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01916};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_01916};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_01916};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_01916};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_01916};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209,
+KW   ECO:0000256|HAMAP-Rule:MF_01916};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264, ECO:0000256|HAMAP-
+KW   Rule:MF_01916}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01916};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_01916};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_01916}.
+FT   TRANSMEM        6..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   TRANSMEM        35..55
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   DOMAIN          208..235
+FT                   /note="PLD phosphodiesterase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50035"
+FT   DOMAIN          384..411
+FT                   /note="PLD phosphodiesterase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50035"
+FT   ACT_SITE        213
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   ACT_SITE        215
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   ACT_SITE        220
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   ACT_SITE        389
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   ACT_SITE        391
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+FT   ACT_SITE        396
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01916"
+SQ   SEQUENCE   472 AA;  54624 MW;  86B578C134A22DC2 CRC64;
+     MSWLNIIFIV YQIIAIMAVV HVIMDNRQPA KTMAWALVIY FVPVVGIVFY LFFGINHRKE
+     RYVSERSMNQ LTKRSMLEFA EQQNLRLPER HKPLIDLFIN QNLSLPFKDN LVDICTDGYQ
+     FIAELMEDIG KAKDHIHLDM YIFADDALGM LVADALIDKA REGVEVKVIY DDVGCWNVHH
+     RFFERMREAG IEVRSFMPVR FPSFTSKVNY RNHRKIIVID GLVGYIGGMN IAQRYVKGTG
+     DMPWRDTMLR VSGGGVHALQ RAFLVDWYFV DRTLLSDKKY YPRCEDINNN CLAQVVTSGP
+     TTPYPEIMQG YVRIILGAKR YLYLETPYFL PNDSVLFALK TAALGGVDVR VICPLRSDAK
+     FVEWASRSYL REVLEAGVQV SLYEAGFLHS KMLVCDDAIT TCGSTNLDFR SFENNFEANI
+     FFFDEGVAMR MKTIFLRDLE QSVLLKDLKK RMRNNFLVRL WESVTRMLSP LF
+//

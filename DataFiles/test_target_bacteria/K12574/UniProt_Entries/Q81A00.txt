@@ -1,0 +1,195 @@
+ID   Q81A00_BACCR            Unreviewed;       556 AA.
+AC   Q81A00;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Ribonuclease J {ECO:0000256|HAMAP-Rule:MF_01491, ECO:0000256|PIRNR:PIRNR004803};
+DE            Short=RNase J {ECO:0000256|HAMAP-Rule:MF_01491};
+DE            EC=3.1.-.- {ECO:0000256|HAMAP-Rule:MF_01491, ECO:0000256|PIRNR:PIRNR004803};
+GN   Name=rnj {ECO:0000256|HAMAP-Rule:MF_01491};
+GN   OrderedLocusNames=BC_3796 {ECO:0000313|EMBL:AAP10719.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10719.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10719.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: An RNase that has 5'-3' exonuclease and possibly endonuclease
+CC       activity. Involved in maturation of rRNA and in some organisms also
+CC       mRNA maturation and/or decay. {ECO:0000256|HAMAP-Rule:MF_01491}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004803-3};
+CC       Note=Binds 1 Ca(2+) cation per subunit. Seen in 1 crystal structure, it
+CC       is not clear if it is physiologically important.
+CC       {ECO:0000256|PIRSR:PIRSR004803-3};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR004803,
+CC         ECO:0000256|PIRSR:PIRSR004803-3};
+CC       Note=Binds 2 Zn(2+) ions per subunit. It is not clear if Zn(2+) or
+CC       Mg(2+) is physiologically important. {ECO:0000256|PIRNR:PIRNR004803,
+CC       ECO:0000256|PIRSR:PIRSR004803-3};
+CC   -!- SUBUNIT: Homodimer, may be a subunit of the RNA degradosome.
+CC       {ECO:0000256|HAMAP-Rule:MF_01491}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01491,
+CC       ECO:0000256|PIRNR:PIRNR004803}.
+CC   -!- SIMILARITY: Belongs to the metallo-beta-lactamase superfamily. RNA-
+CC       metabolizing metallo-beta-lactamase-like family. Bacterial RNase J
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01491,
+CC       ECO:0000256|PIRNR:PIRNR004803}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10719.1; -; Genomic_DNA.
+DR   RefSeq; NP_833518.1; NC_004722.1.
+DR   RefSeq; WP_000823075.1; NC_004722.1.
+DR   AlphaFoldDB; Q81A00; -.
+DR   MetOSite; Q81A00; -.
+DR   KEGG; bce:BC3796; -.
+DR   PATRIC; fig|226900.8.peg.3913; -.
+DR   HOGENOM; CLU_008727_3_1_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004534; F:5'-3' RNA exonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004521; F:RNA endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   CDD; cd07714; RNaseJ_MBL-fold; 1.
+DR   FunFam; 3.10.20.580:FF:000001; Ribonuclease J; 1.
+DR   Gene3D; 3.10.20.580; -; 1.
+DR   Gene3D; 3.40.50.10710; Metallo-hydrolase/oxidoreductase; 1.
+DR   Gene3D; 3.60.15.10; Ribonuclease Z/Hydroxyacylglutathione hydrolase-like; 1.
+DR   HAMAP; MF_01491; RNase_J_bact; 1.
+DR   InterPro; IPR001279; Metallo-B-lactamas.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   InterPro; IPR011108; RMMBL.
+DR   InterPro; IPR004613; RNase_J.
+DR   InterPro; IPR042173; RNase_J_2.
+DR   InterPro; IPR055132; RNase_J_b_CASP.
+DR   InterPro; IPR030854; RNase_J_bac.
+DR   InterPro; IPR041636; RNase_J_C.
+DR   InterPro; IPR001587; RNase_J_CS.
+DR   NCBIfam; TIGR00649; MG423; 1.
+DR   PANTHER; PTHR43694; RIBONUCLEASE J; 1.
+DR   PANTHER; PTHR43694:SF4; RIBONUCLEASE J 2; 1.
+DR   Pfam; PF00753; Lactamase_B; 1.
+DR   Pfam; PF07521; RMMBL; 1.
+DR   Pfam; PF22505; RNase_J_b_CASP; 1.
+DR   Pfam; PF17770; RNase_J_C; 1.
+DR   PIRSF; PIRSF004803; RnjA; 1.
+DR   SMART; SM00849; Lactamase_B; 1.
+DR   SUPFAM; SSF56281; Metallo-hydrolase/oxidoreductase; 1.
+DR   PROSITE; PS01292; UPF0036; 1.
+PE   3: Inferred from homology;
+KW   Calcium {ECO:0000256|PIRSR:PIRSR004803-3};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01491};
+KW   Endonuclease {ECO:0000256|ARBA:ARBA00022759, ECO:0000256|HAMAP-
+KW   Rule:MF_01491};
+KW   Exonuclease {ECO:0000256|ARBA:ARBA00022839, ECO:0000256|HAMAP-
+KW   Rule:MF_01491};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01491};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRNR:PIRNR004803};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|HAMAP-Rule:MF_01491};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_01491};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552, ECO:0000256|HAMAP-
+KW   Rule:MF_01491};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRSR:PIRSR004803-3}.
+FT   DOMAIN          21..216
+FT                   /note="Metallo-beta-lactamase"
+FT                   /evidence="ECO:0000259|SMART:SM00849"
+FT   ACT_SITE        196
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-1"
+FT   ACT_SITE        369
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-1"
+FT   BINDING         49
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         51
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         74
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         78
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         79
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         142
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         164
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         164
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         233..235
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-2"
+FT   BINDING         365..369
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01491,
+FT                   ECO:0000256|PIRSR:PIRSR004803-2"
+FT   BINDING         391
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+FT   BINDING         444
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004803-3"
+SQ   SEQUENCE   556 AA;  60990 MW;  348A65D7F06632EF CRC64;
+     MKRKENESVK VFALGGVGEI GKNMYCVEID SEIFIVDAGL MFPGDEMFGI DIVIPDITYL
+     VENQERVKGL FITHGHEDHI GGIVYVLRKL SIPVYATKLT VGLIQEKLGE AGMLGRVDLK
+     TIDSNLTVEF NTTTVSFFGT THSIPDSVGV CFHTSKGAVV YTGDFKFDQT PIGNSGADLG
+     KMAQIGNEGV LCLLSDSTNA ERPGYTGSEK EVGVEISKVF YGAEGRIIVA SFASNVHRIQ
+     QVFDAAAETG RKVAVVGRSM VKVVDIARRL GYLDVPEGMV ISLQEVDNFP EKKVAILTTG
+     SQGEPMAALS RMAKQAHKQI SIRKGDTVII AASPIPGNEI SVSKIIDLLF RAGAEVVYYG
+     ERKVHVSGHG SQEELKLMLN LMKPKYFVPV HGEFRMQKAH AYLAEDVGIT RENIFIVEKG
+     DVIAFGDDEA NLVGKVQAGN VLIDGLGVGD VGNIVLRDRK MLSQDGILVV VVTLGKDEKK
+     IISGPEIISR GFVYVRESEA LIERSTEIVR MIVEQSIKEY SIEWSMLKQN IRELLGQFLY
+     EETKRKPMIL PIIMEV
+//

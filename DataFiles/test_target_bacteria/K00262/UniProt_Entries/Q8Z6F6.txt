@@ -1,0 +1,142 @@
+ID   DHE4_SALTI              Reviewed;         447 AA.
+AC   Q8Z6F6;
+DT   13-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 132.
+DE   RecName: Full=NADP-specific glutamate dehydrogenase;
+DE            Short=NADP-GDH;
+DE            EC=1.4.1.4;
+GN   Name=gdhA; OrderedLocusNames=STY1815, t1178;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the reversible oxidative deamination of glutamate
+CC       to alpha-ketoglutarate and ammonia. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate + NADP(+) + H2O = 2-oxoglutarate + NH4(+) + NADPH
+CC         + H(+); Xref=Rhea:RHEA:11612, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:28938, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.4.1.4;
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the Glu/Leu/Phe/Val dehydrogenases family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02055.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68835.1; -; Genomic_DNA.
+DR   RefSeq; NP_456213.1; NC_003198.1.
+DR   RefSeq; WP_000372866.1; NZ_WSUR01000034.1.
+DR   AlphaFoldDB; Q8Z6F6; -.
+DR   SMR; Q8Z6F6; -.
+DR   STRING; 220341.gene:17585747; -.
+DR   KEGG; stt:t1178; -.
+DR   KEGG; sty:STY1815; -.
+DR   PATRIC; fig|220341.7.peg.1828; -.
+DR   eggNOG; COG0334; Bacteria.
+DR   HOGENOM; CLU_025763_2_1_6; -.
+DR   OMA; PCFAAFP; -.
+DR   OrthoDB; 9803297at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004354; F:glutamate dehydrogenase (NADP+) activity; ISS:UniProtKB.
+DR   GO; GO:0006537; P:glutamate biosynthetic process; ISS:UniProtKB.
+DR   CDD; cd05313; NAD_bind_2_Glu_DH; 1.
+DR   FunFam; 1.10.285.10:FF:000001; Glutamate dehydrogenase; 1.
+DR   FunFam; 1.10.285.10:FF:000002; Glutamate dehydrogenase; 1.
+DR   FunFam; 3.40.50.10860:FF:000002; Glutamate dehydrogenase; 1.
+DR   FunFam; 3.40.50.720:FF:000030; Glutamate dehydrogenase; 1.
+DR   Gene3D; 1.10.285.10; Glutamate Dehydrogenase, chain A, domain 3; 2.
+DR   Gene3D; 3.40.50.10860; Leucine Dehydrogenase, chain A, domain 1; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR046346; Aminoacid_DH-like_N_sf.
+DR   InterPro; IPR006095; Glu/Leu/Phe/Val/Trp_DH.
+DR   InterPro; IPR006096; Glu/Leu/Phe/Val/Trp_DH_C.
+DR   InterPro; IPR006097; Glu/Leu/Phe/Val/Trp_DH_dimer.
+DR   InterPro; IPR033524; Glu/Leu/Phe/Val_DH_AS.
+DR   InterPro; IPR014362; Glu_DH.
+DR   InterPro; IPR050724; Glu_Leu_Phe_Val_DH.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR033922; NAD_bind_Glu_DH.
+DR   PANTHER; PTHR43571; NADP-SPECIFIC GLUTAMATE DEHYDROGENASE 1-RELATED; 1.
+DR   PANTHER; PTHR43571:SF1; NADP-SPECIFIC GLUTAMATE DEHYDROGENASE 1-RELATED; 1.
+DR   Pfam; PF00208; ELFV_dehydrog; 1.
+DR   Pfam; PF02812; ELFV_dehydrog_N; 1.
+DR   PIRSF; PIRSF000185; Glu_DH; 1.
+DR   PRINTS; PR00082; GLFDHDRGNASE.
+DR   SMART; SM00839; ELFV_dehydrog; 1.
+DR   SUPFAM; SSF53223; Aminoacid dehydrogenase-like, N-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00074; GLFV_DEHYDROGENASE; 1.
+PE   3: Inferred from homology;
+KW   NADP; Oxidoreductase.
+FT   CHAIN           1..447
+FT                   /note="NADP-specific glutamate dehydrogenase"
+FT                   /id="PRO_0000182775"
+FT   ACT_SITE        128
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10011"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         116
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         167
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         211
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         242
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         380
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            168
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   447 AA;  48557 MW;  C557D9AB5EF8E0A2 CRC64;
+     MDQTCSLESF LNHVQKRDPH QTEFAQAVRE VMTTLWPFLE QNPRYRHMSL LERLVEPERV
+     IQFRVVWLDD KNQVQVNRAW RVQFNSAIGP YKGGMRFHPS VNLSILKFLG FEQTFKNALT
+     TLPMGGGKGG SDFDPKGKSE GEVMRFCQAL MTELYRHLGP DTDVPAGDIG VGGREVGFMA
+     GMMRKLSNNS ACVFTGKGLS FGGSLIRPEA TGYGLVYFTE AMLKRHGLGF EGMRVAVSGS
+     GNVAQYAIEK AMAFGARVVT ASDSSGTVVD ESGFTPEKLA RLCEIKASRD GRVADYAREF
+     GLTYLEGQQP WSVPVDIALP CATQNELDVD AARVLIANGV KAVAEGANMP TTIEATDLFL
+     EAGVLFAPGK AANAGGVATS GLEMAQNAAR LSWKAEKVDA RLHHIMLDIH HACVKYGGDN
+     KHTNYVQGAN IAGFVKVADA MLAQGVI
+//

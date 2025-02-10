@@ -1,0 +1,110 @@
+ID   YIDC_BACFR              Reviewed;         618 AA.
+AC   Q64T26;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=Membrane protein insertase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Foldase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Membrane integrase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Membrane protein YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+GN   Name=yidC {ECO:0000255|HAMAP-Rule:MF_01810}; OrderedLocusNames=BF2603;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Required for the insertion and/or proper folding and/or
+CC       complex formation of integral membrane proteins into the membrane.
+CC       Involved in integration of membrane proteins that insert both
+CC       dependently and independently of the Sec translocase complex, as well
+CC       as at least some lipoproteins. Aids folding of multispanning membrane
+CC       proteins. {ECO:0000255|HAMAP-Rule:MF_01810}.
+CC   -!- SUBUNIT: Interacts with the Sec translocase complex via SecD.
+CC       Specifically interacts with transmembrane segments of nascent integral
+CC       membrane proteins during membrane integration. {ECO:0000255|HAMAP-
+CC       Rule:MF_01810}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01810};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01810}.
+CC   -!- SIMILARITY: Belongs to the OXA1/ALB3/YidC family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01810}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD49353.1; -; Genomic_DNA.
+DR   RefSeq; WP_005815482.1; NC_006347.1.
+DR   RefSeq; YP_099887.1; NC_006347.1.
+DR   AlphaFoldDB; Q64T26; -.
+DR   SMR; Q64T26; -.
+DR   STRING; 295405.BF2603; -.
+DR   KEGG; bfr:BF2603; -.
+DR   PATRIC; fig|295405.11.peg.2513; -.
+DR   HOGENOM; CLU_016535_2_0_10; -.
+DR   OrthoDB; 9780552at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032977; F:membrane insertase activity; IEA:InterPro.
+DR   GO; GO:0051205; P:protein insertion into membrane; IEA:TreeGrafter.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   CDD; cd20070; 5TM_YidC_Alb3; 1.
+DR   CDD; cd19961; EcYidC-like_peri; 1.
+DR   Gene3D; 2.70.98.90; -; 1.
+DR   HAMAP; MF_01810; YidC_type1; 1.
+DR   InterPro; IPR019998; Membr_insert_YidC.
+DR   InterPro; IPR028053; Membr_insert_YidC_N.
+DR   InterPro; IPR001708; YidC/ALB3/OXA1/COX18.
+DR   InterPro; IPR028055; YidC/Oxa/ALB_C.
+DR   InterPro; IPR047196; YidC_ALB_C.
+DR   InterPro; IPR038221; YidC_periplasmic_sf.
+DR   NCBIfam; TIGR03593; yidC_nterm; 1.
+DR   NCBIfam; TIGR03592; yidC_oxa1_cterm; 1.
+DR   PANTHER; PTHR12428:SF65; CYTOCHROME C OXIDASE ASSEMBLY PROTEIN COX18, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR12428; OXA1; 1.
+DR   Pfam; PF02096; 60KD_IMP; 1.
+DR   Pfam; PF14849; YidC_periplas; 1.
+DR   PRINTS; PR00701; 60KDINNERMP.
+PE   3: Inferred from homology;
+KW   Cell membrane; Chaperone; Membrane; Protein transport; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..618
+FT                   /note="Membrane protein insertase YidC"
+FT                   /id="PRO_1000070059"
+FT   TRANSMEM        3..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        363..383
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        439..459
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        478..498
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        520..540
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        545..565
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+SQ   SEQUENCE   618 AA;  70883 MW;  B871BA1783032FF9 CRC64;
+     MDKNTITGLV LIGILLVGFS FLSRPSEEQI AAQKRYYDSI AVVQQQEEAL RAKTEAALAN
+     EKEETAADSA SLFFNATKGK EAFTTIQNNL VEITLDNKGG RVYSALLKNY MGQDKKPVVL
+     FNGSDASMNF NFYNKKGALQ TKDFYFEAVN KTDSSVTMRL AADSASYIDF IYTLKPDNYL
+     MSFVIKATGM DGKLAASTNY VDISWSQRAR QIEKGYTYEN RLADLTYKYT GDDVDNLSAS
+     KDDEKSVSER LDWIAFKNQF FSSVFIAEQD FEKTTVKSKM EKQGSGYIKD YSAEMSTFFD
+     PTGKQPTDMY FYFGPNHYKT LTALDKGREE KWELNNLVYL GWPLIRWINK WITINVFDWL
+     SGWGLSMGIV LLLLTIMVKI VVFPATWKTY MSSAKMRVLK PKIDEINKKY PKQEDAMKKQ
+     QEVMGLYSQY GVSPMGGCLP MLLQFPILMA LFMFVPSAIE LRQQSFLWAD DLSTYDAFIT
+     FPFHIPFLGN HLSLFCLLMT VTNILNTKYT MQQQDTGAQP QMAAMKWMMY LMPIMFLFVL
+     NDYPSGLNYY YFISTLISVV TMIILRRTTD ENKLLTELEA KKKDPKQMKK TGFAARLEAM
+     QKQQEQLAKE RANKQNKK
+//

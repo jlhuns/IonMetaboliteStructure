@@ -1,0 +1,85 @@
+ID   C9RLF9_FIBSS            Unreviewed;       306 AA.
+AC   C9RLF9;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   SubName: Full=Cysteine synthase A {ECO:0000313|EMBL:ADL26391.1};
+DE            EC=2.5.1.47 {ECO:0000313|EMBL:ADL26391.1};
+GN   Name=cysK_1 {ECO:0000313|EMBL:ADL26391.1};
+GN   OrderedLocusNames=FSU_0912 {ECO:0000313|EMBL:ADL26391.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26391.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR605856-50};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26391.1; -; Genomic_DNA.
+DR   RefSeq; WP_012820336.1; NC_017448.1.
+DR   AlphaFoldDB; C9RLF9; -.
+DR   STRING; 59374.FSU_0912; -.
+DR   KEGG; fsc:FSU_0912; -.
+DR   KEGG; fsu:Fisuc_0494; -.
+DR   PATRIC; fig|59374.8.peg.886; -.
+DR   eggNOG; COG0031; Bacteria.
+DR   HOGENOM; CLU_021018_1_0_0; -.
+DR   OrthoDB; 9808024at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0004124; F:cysteine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IEA:InterPro.
+DR   CDD; cd01561; CBS_like; 1.
+DR   FunFam; 3.40.50.1100:FF:000002; Cysteine synthase; 1.
+DR   FunFam; 3.40.50.1100:FF:000118; Related to CYS4-cystathionine beta-synthase; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR005856; Cys_synth.
+DR   InterPro; IPR050214; Cys_Synth/Cystath_Beta-Synth.
+DR   InterPro; IPR005859; CysK.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR01139; cysK; 1.
+DR   NCBIfam; TIGR01136; cysKM; 1.
+DR   PANTHER; PTHR10314; CYSTATHIONINE BETA-SYNTHASE; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+PE   4: Predicted;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR605856-50};
+KW   Transferase {ECO:0000313|EMBL:ADL26391.1}.
+FT   DOMAIN          8..293
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+FT   BINDING         73
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         177..181
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         265
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   MOD_RES         43
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-51"
+SQ   SEQUENCE   306 AA;  32556 MW;  D3A8430DC525BAA0 CRC64;
+     MAIYNNILET IGNTPLVRIN KLNKGDAEVY VKLEMFNPLG SAKDRVALNM INRAEQEGKL
+     KPGALIIEPT SGNTGVGLAY VGAVKGYKVV LTMPDSMSME RRMLLKSLGA EVVLTEGAKG
+     MAGCIAKANE IAAANPGSFI PQQFDNPANP EAHYLTTGPE IWRDTDGKVD VFIATAGTGG
+     TVSGTAKYLK EKNPNVYVIA IEPDDSPMIS KGVAGPHKIQ GIGANFVPKN YDPKVIDEVY
+     LTSTEKAGNA ARAAAAEEGI FVGISSGAAL ECALTVAKRP EFKGKRIVAV LPDTGERYLS
+     TWLWNT
+//

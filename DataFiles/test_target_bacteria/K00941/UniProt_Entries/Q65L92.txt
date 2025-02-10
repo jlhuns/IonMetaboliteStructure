@@ -1,0 +1,77 @@
+ID   Q65L92_BACLD            Unreviewed;       272 AA.
+AC   Q65L92; Q62WN1;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase {ECO:0000256|ARBA:ARBA00019161};
+DE            EC=2.7.1.49 {ECO:0000256|ARBA:ARBA00012135};
+DE   AltName: Full=Hydroxymethylpyrimidine kinase {ECO:0000256|ARBA:ARBA00042102};
+DE   AltName: Full=Hydroxymethylpyrimidine phosphate kinase {ECO:0000256|ARBA:ARBA00043176};
+GN   Name=yjbV {ECO:0000313|EMBL:AAU22827.1};
+GN   OrderedLocusNames=BL01586 {ECO:0000313|EMBL:AAU22827.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22827.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22827.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis; 4-
+CC       amino-2-methyl-5-diphosphomethylpyrimidine from 5-amino-1-(5-phospho-D-
+CC       ribosyl)imidazole: step 2/3. {ECO:0000256|ARBA:ARBA00037917}.
+CC   -!- SIMILARITY: Belongs to the ThiD family.
+CC       {ECO:0000256|ARBA:ARBA00009879}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22827.1; -; Genomic_DNA.
+DR   RefSeq; WP_003180685.1; NC_006322.1.
+DR   AlphaFoldDB; Q65L92; -.
+DR   STRING; 279010.BL01586; -.
+DR   GeneID; 66216597; -.
+DR   KEGG; bld:BLi01265; -.
+DR   KEGG; bli:BL01586; -.
+DR   PATRIC; fig|279010.13.peg.1253; -.
+DR   eggNOG; COG0351; Bacteria.
+DR   HOGENOM; CLU_020520_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008902; F:hydroxymethylpyrimidine kinase activity; IEA:TreeGrafter.
+DR   GO; GO:0008972; F:phosphomethylpyrimidine kinase activity; IEA:InterPro.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01169; HMPP_kinase; 1.
+DR   FunFam; 3.40.1190.20:FF:000003; Phosphomethylpyrimidine kinase ThiD; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   InterPro; IPR004399; HMP/HMP-P_kinase_dom.
+DR   InterPro; IPR013749; PM/HMP-P_kinase-1.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   NCBIfam; TIGR00097; HMP-P_kinase; 1.
+DR   PANTHER; PTHR20858:SF17; HYDROXYMETHYLPYRIMIDINE_PHOSPHOMETHYLPYRIMIDINE KINASE THI20-RELATED; 1.
+DR   PANTHER; PTHR20858; PHOSPHOMETHYLPYRIMIDINE KINASE; 1.
+DR   Pfam; PF08543; Phos_pyr_kin; 1.
+DR   SUPFAM; SSF53613; Ribokinase-like; 1.
+PE   3: Inferred from homology;
+KW   Kinase {ECO:0000313|EMBL:AAU22827.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000313|EMBL:AAU22827.1}.
+FT   DOMAIN          13..258
+FT                   /note="Pyridoxamine kinase/Phosphomethylpyrimidine kinase"
+FT                   /evidence="ECO:0000259|Pfam:PF08543"
+SQ   SEQUENCE   272 AA;  28851 MW;  E4E6985AACD3BD00 CRC64;
+     MSIYKALTIA GSDSGGGAGI QADIKTFQEL GVFGMTVLTA VTAQNTTGVH GVYPLSPEAL
+     GAQIDAVAED LKPDAVKTGM LWSAEMIEVT AEKIAAYELK RVIVDPVMIA KGGASLLNEE
+     AVETLKRRLL PLAYAVTPNI PEAEVLTGRS IQTMEDRKKA ARDLHEMGVR NIIIKGGHQP
+     EDGKVTDLLF DGETFTEKTN SYIKTKNTHG TGCTFAAALT AQSAKGNGIQ GAFRIAEAFV
+     HEAVVHSLDF GAGHGPTNHF AYQKLSNAGL EL
+//

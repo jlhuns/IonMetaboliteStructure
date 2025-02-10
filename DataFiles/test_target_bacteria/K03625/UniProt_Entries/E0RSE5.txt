@@ -1,0 +1,80 @@
+ID   E0RSE5_SPITD            Unreviewed;       136 AA.
+AC   E0RSE5;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   27-NOV-2024, entry version 73.
+DE   RecName: Full=Transcription antitermination protein NusB {ECO:0000256|HAMAP-Rule:MF_00073};
+DE   AltName: Full=Antitermination factor NusB {ECO:0000256|HAMAP-Rule:MF_00073};
+GN   Name=nusB {ECO:0000256|HAMAP-Rule:MF_00073};
+GN   OrderedLocusNames=STHERM_c09860 {ECO:0000313|EMBL:ADN01932.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01932.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01932.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Involved in transcription antitermination. Required for
+CC       transcription of ribosomal RNA (rRNA) genes. Binds specifically to the
+CC       boxA antiterminator sequence of the ribosomal RNA (rrn) operons.
+CC       {ECO:0000256|HAMAP-Rule:MF_00073}.
+CC   -!- SIMILARITY: Belongs to the NusB family. {ECO:0000256|ARBA:ARBA00005952,
+CC       ECO:0000256|HAMAP-Rule:MF_00073}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01932.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313773.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSE5; -.
+DR   PaxDb; 665571-STHERM_c09860; -.
+DR   KEGG; sta:STHERM_c09860; -.
+DR   eggNOG; COG0781; Bacteria.
+DR   HOGENOM; CLU_087843_3_0_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006353; P:DNA-templated transcription termination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0031564; P:transcription antitermination; IEA:UniProtKB-KW.
+DR   CDD; cd00619; Terminator_NusB; 1.
+DR   Gene3D; 1.10.940.10; NusB-like; 1.
+DR   HAMAP; MF_00073; NusB; 1.
+DR   InterPro; IPR035926; NusB-like_sf.
+DR   InterPro; IPR011605; NusB_fam.
+DR   InterPro; IPR006027; NusB_RsmB_TIM44.
+DR   NCBIfam; TIGR01951; nusB; 1.
+DR   PANTHER; PTHR11078:SF3; ANTITERMINATION NUSB DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11078; N UTILIZATION SUBSTANCE PROTEIN B-RELATED; 1.
+DR   Pfam; PF01029; NusB; 1.
+DR   SUPFAM; SSF48013; NusB-like; 1.
+PE   3: Inferred from homology;
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_00073};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00073};
+KW   Transcription antitermination {ECO:0000256|ARBA:ARBA00022814,
+KW   ECO:0000256|HAMAP-Rule:MF_00073};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00073}.
+FT   DOMAIN          5..130
+FT                   /note="NusB/RsmB/TIM44"
+FT                   /evidence="ECO:0000259|Pfam:PF01029"
+SQ   SEQUENCE   136 AA;  15415 MW;  17D43D4211DAA4F9 CRC64;
+     MGLRRKARIL AFQALFASDG GGGDGLEVFS FPWADGEIPE EVRTFAQLLL RGTLEHLPEV
+     DDLIKKHLEH WDFGRIARTD RAILRMSVYA LLYQKEIPAR VIIDEAVEIA KQFGTQDSYR
+     FVNGVLDAIR KTLGRT
+//

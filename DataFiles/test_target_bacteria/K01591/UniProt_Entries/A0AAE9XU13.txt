@@ -1,0 +1,131 @@
+ID   A0AAE9XU13_RHOPA        Unreviewed;       237 AA.
+AC   A0AAE9XU13;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            EC=4.1.1.23 {ECO:0000256|HAMAP-Rule:MF_01200};
+DE   AltName: Full=OMP decarboxylase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            Short=OMPDCase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            Short=OMPdecase {ECO:0000256|HAMAP-Rule:MF_01200};
+GN   Name=pyrF {ECO:0000256|HAMAP-Rule:MF_01200,
+GN   ECO:0000313|EMBL:WCL90466.1};
+GN   ORFNames=TX73_001750 {ECO:0000313|EMBL:WCL90466.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90466.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90466.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of orotidine 5'-monophosphate
+CC       (OMP) to uridine 5'-monophosphate (UMP).
+CC       {ECO:0000256|ARBA:ARBA00002356, ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049157, ECO:0000256|HAMAP-
+CC         Rule:MF_01200, ECO:0000256|RuleBase:RU000512};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000256|ARBA:ARBA00004861,
+CC       ECO:0000256|HAMAP-Rule:MF_01200, ECO:0000256|RuleBase:RU000512}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 1 subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90466.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155905.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XU13; -.
+DR   GeneID; 66891348; -.
+DR   KEGG; rpa:TX73_001750; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01200_B; OMPdecase_type1_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR014732; OMPdecase.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR047596; OMPdecase_bac.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR01740; pyrF; 1.
+DR   PANTHER; PTHR32119; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR32119:SF2; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_01200};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01200};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01200}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          11..227
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /evidence="ECO:0000259|SMART:SM00934"
+FT   ACT_SITE        66
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   ACT_SITE        68
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   ACT_SITE        68
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200"
+FT   ACT_SITE        71
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   BINDING         17
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         39
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         66..75
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200"
+FT   BINDING         121
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         182
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         211
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         212
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+SQ   SEQUENCE   237 AA;  24690 MW;  2BF271628D010ADC CRC64;
+     MAPVDIPDRD RLIVALDLPD LRVAEAMVDR LGDSVGFYKI GYQLAYAGGL PLARALVGAG
+     KKVFVDLKLH DIGNTVARGV ESLSHLGASF LTVHAYPQTM KAAVEARGSS KVKILAVTVL
+     TSYDDRDLAD AGYRFGVRDL VEARARQAQA IGVDGLVCSP EEAAHLRSIV GPEMDLVTPG
+     IRPAGAAAGD QKRIMTPAKA IAAGASYLVV GRPVLDAPDP KAAADAIVAE IAAARGS
+//

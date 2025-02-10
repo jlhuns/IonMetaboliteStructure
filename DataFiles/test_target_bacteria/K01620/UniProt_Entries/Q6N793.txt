@@ -1,0 +1,96 @@
+ID   Q6N793_RHOPA            Unreviewed;       366 AA.
+AC   Q6N793;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 107.
+DE   SubName: Full=L-allo-threonine aldolase {ECO:0000313|EMBL:CAE27806.1};
+DE            EC=4.1.2.- {ECO:0000313|EMBL:CAE27806.1};
+DE   SubName: Full=Threonine aldolase family protein {ECO:0000313|EMBL:WCL92528.1};
+GN   OrderedLocusNames=RPA2365 {ECO:0000313|EMBL:CAE27806.1};
+GN   ORFNames=TX73_012225 {ECO:0000313|EMBL:WCL92528.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27806.1};
+RN   [1] {ECO:0000313|EMBL:WCL92528.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92528.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27806.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27806.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92528.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92528.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- SIMILARITY: Belongs to the threonine aldolase family.
+CC       {ECO:0000256|ARBA:ARBA00006966}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572600; CAE27806.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92528.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157918.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2365; -.
+DR   GeneID; 66893424; -.
+DR   KEGG; rpa:TX73_012225; -.
+DR   eggNOG; COG2008; Bacteria.
+DR   HOGENOM; CLU_029381_0_4_5; -.
+DR   PhylomeDB; Q6N793; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008732; F:L-allo-threonine aldolase activity; IEA:TreeGrafter.
+DR   GO; GO:0006545; P:glycine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0006567; P:threonine catabolic process; IEA:TreeGrafter.
+DR   FunFam; 3.40.640.10:FF:000030; Low-specificity L-threonine aldolase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR001597; ArAA_b-elim_lyase/Thr_aldolase.
+DR   InterPro; IPR023603; Low_specificity_L-TA-like.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; NF041359; GntG_guanitoxin; 1.
+DR   PANTHER; PTHR48097:SF9; L-THREONINE ALDOLASE; 1.
+DR   PANTHER; PTHR48097; L-THREONINE ALDOLASE-RELATED; 1.
+DR   Pfam; PF01212; Beta_elim_lyase; 1.
+DR   PIRSF; PIRSF017617; Thr_aldolase; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:CAE27806.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          18..301
+FT                   /note="Aromatic amino acid beta-eliminating lyase/threonine
+FT                   aldolase"
+FT                   /evidence="ECO:0000259|Pfam:PF01212"
+FT   MOD_RES         214
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR017617-1"
+SQ   SEQUENCE   366 AA;  38483 MW;  564F92D1991D6B0F CRC64;
+     MIYAPAPDDP RLPPVRINLL SDTQTQPSAA MREAMARAPV GDEQIGADPT VNALCARVAD
+     LLGKEAAVFM ASGTICNIAA TLAHCRAGDE ILAHETSHVV SLEGCTHAAL GGFQIHPLPG
+     AGGQFSAETL RSALHRPDRH QARQSLVCVE QTTNLGGGTV WNALTLRQIA ELARANGLAT
+     HMDGARLMNA SVASGISPRQ IAAGWDSVWI DFSKGLGAPL GAVLAGSRDF IDEVWLWKQR
+     LGGSLRQAGI CAAACLYALD HNVGRLAEDH ANARLLAAGL SQIDGVSAAP PETNLVYFDV
+     SGAAWSKQAI VDALRARGVL ISILSDRLRA CTHLDVTPAM IQEALAVIRN VVEGDTTARI
+     GRSAQI
+//

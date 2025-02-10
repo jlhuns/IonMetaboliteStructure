@@ -1,0 +1,125 @@
+ID   ENGB_SALTI              Reviewed;         210 AA.
+AC   P64069; Q8XFI8;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=STY3880, t3620;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Necessary for normal cell division and for the maintenance of
+CC       normal septation. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03099.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71121.1; -; Genomic_DNA.
+DR   RefSeq; NP_458048.1; NC_003198.1.
+DR   RefSeq; WP_000183327.1; NZ_WSUR01000010.1.
+DR   AlphaFoldDB; P64069; -.
+DR   SMR; P64069; -.
+DR   STRING; 220341.gene:17587736; -.
+DR   KEGG; stt:t3620; -.
+DR   KEGG; sty:STY3880; -.
+DR   PATRIC; fig|220341.7.peg.3959; -.
+DR   eggNOG; COG0218; Bacteria.
+DR   HOGENOM; CLU_033732_1_0_6; -.
+DR   OMA; AKVDQCP; -.
+DR   OrthoDB; 9804921at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000917; P:division septum assembly; IEA:UniProtKB-KW.
+DR   CDD; cd01876; YihA_EngB; 1.
+DR   FunFam; 3.40.50.300:FF:000098; Probable GTP-binding protein EngB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03598; GTPase_YsxC; 1.
+DR   PANTHER; PTHR11649:SF13; ENGB-TYPE G DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11649; MSS1/TRME-RELATED GTP-BINDING PROTEIN; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; GTP-binding; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Septation.
+FT   CHAIN           1..210
+FT                   /note="Probable GTP-binding protein EngB"
+FT                   /id="PRO_0000157779"
+FT   DOMAIN          25..199
+FT                   /note="EngB-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         33..40
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         40
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         60..64
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         62
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         78..81
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         145..148
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         178..180
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+SQ   SEQUENCE   210 AA;  23554 MW;  A1DF3BA4050D8145 CRC64;
+     MTNLNYQQTH FVMSAPDIRH LPSDCGIEVA FAGRSNAGKS SALNTLTNQK SLARTSKTPG
+     RTQLINLFEV VDGKRLVDLP GYGYAEVPEE MKRKWQRALG EYLEKRQSLQ GLVVLMDIRH
+     PLKDLDQQMI QWAVESNIQV LVLLTKADKL ASGARKAQLN MVREAVLAFN GDVQVEAFSS
+     LKKQGVDKLR QKLDSWFSEL APVEEIQDGE
+//

@@ -1,0 +1,87 @@
+ID   W6R4C2_9HYPH            Unreviewed;       201 AA.
+AC   W6R4C2;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   02-OCT-2024, entry version 48.
+DE   RecName: Full=Recombination protein RecR {ECO:0000256|HAMAP-Rule:MF_00017};
+GN   Name=recR {ECO:0000256|HAMAP-Rule:MF_00017,
+GN   ECO:0000313|EMBL:CDM55814.1};
+GN   ORFNames=LPU83_0128 {ECO:0000313|EMBL:CDM55814.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM55814.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM55814.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM55814.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: May play a role in DNA repair. It seems to be involved in an
+CC       RecBC-independent recombinational process of DNA repair. It may act
+CC       with RecF and RecO. {ECO:0000256|HAMAP-Rule:MF_00017}.
+CC   -!- SIMILARITY: Belongs to the RecR family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00017}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM55814.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316272.1; NZ_JAIRAY010000043.1.
+DR   AlphaFoldDB; W6R4C2; -.
+DR   KEGG; rhl:LPU83_0128; -.
+DR   PATRIC; fig|348824.6.peg.133; -.
+DR   eggNOG; COG0353; Bacteria.
+DR   HOGENOM; CLU_060739_1_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd01025; TOPRIM_recR; 1.
+DR   Gene3D; 3.40.1360.10; -; 1.
+DR   Gene3D; 6.10.250.240; -; 1.
+DR   Gene3D; 1.10.8.420; RecR Domain 1; 1.
+DR   HAMAP; MF_00017; RecR; 1.
+DR   InterPro; IPR000093; DNA_Rcmb_RecR.
+DR   InterPro; IPR023627; Rcmb_RecR.
+DR   InterPro; IPR015967; Rcmb_RecR_CS.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034137; TOPRIM_RecR.
+DR   NCBIfam; TIGR00615; recR; 1.
+DR   PANTHER; PTHR30446; RECOMBINATION PROTEIN RECR; 1.
+DR   PANTHER; PTHR30446:SF0; RECOMBINATION PROTEIN RECR; 1.
+DR   Pfam; PF21175; RecR_C; 1.
+DR   Pfam; PF21176; RecR_HhH; 1.
+DR   Pfam; PF02132; RecR_ZnF; 1.
+DR   Pfam; PF13662; Toprim_4; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF111304; Recombination protein RecR; 1.
+DR   PROSITE; PS01300; RECR; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00017};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00017}.
+FT   DOMAIN          83..178
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000259|PROSITE:PS50880"
+FT   ZN_FING         60..75
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00017"
+SQ   SEQUENCE   201 AA;  21394 MW;  DA101D6001428071 CRC64;
+     MAKRVTGPEI EKLIQLLAKV PGLGPRSARR AALHLIKKKD QLLGPLSNAM GEAYDKVKIC
+     SHCGNVDTVD PCTVCTDDRR DQSVIIVVED VSDLWALERA GALNATYHVL GGTLSPLDGV
+     GPDDLNIRGL IERASAGGIR ELIIAVNATV EGQTTAHYIT DQLSGLDVKI TRLAHGVPVG
+     GELDYLDEGT LQAALRARTA I
+//

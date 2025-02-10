@@ -1,0 +1,112 @@
+ID   Q65M95_BACLD            Unreviewed;       361 AA.
+AC   Q65M95; Q62XN7;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 127.
+DE   RecName: Full=Adenine DNA glycosylase {ECO:0000256|ARBA:ARBA00022023, ECO:0000256|RuleBase:RU365096};
+DE            EC=3.2.2.31 {ECO:0000256|ARBA:ARBA00012045, ECO:0000256|RuleBase:RU365096};
+GN   Name=yfhQ {ECO:0000313|EMBL:AAU22471.1};
+GN   OrderedLocusNames=BL03038 {ECO:0000313|EMBL:AAU22471.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22471.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22471.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Adenine glycosylase active on G-A mispairs.
+CC       {ECO:0000256|RuleBase:RU365096}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolyzes free adenine bases from 7,8-dihydro-8-
+CC         oxoguanine:adenine mismatched double-stranded DNA, leaving an
+CC         apurinic site.; EC=3.2.2.31; Evidence={ECO:0000256|ARBA:ARBA00000843,
+CC         ECO:0000256|RuleBase:RU365096};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|RuleBase:RU365096};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000256|RuleBase:RU365096};
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family.
+CC       {ECO:0000256|ARBA:ARBA00008343, ECO:0000256|RuleBase:RU365096}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22471.1; -; Genomic_DNA.
+DR   RefSeq; WP_003179934.1; NC_006322.1.
+DR   AlphaFoldDB; Q65M95; -.
+DR   STRING; 279010.BL03038; -.
+DR   GeneID; 66216976; -.
+DR   KEGG; bld:BLi00885; -.
+DR   KEGG; bli:BL03038; -.
+DR   PATRIC; fig|279010.13.peg.880; -.
+DR   eggNOG; COG1194; Bacteria.
+DR   HOGENOM; CLU_012862_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034039; F:8-oxo-7,8-dihydroguanine DNA N-glycosylase activity; IEA:TreeGrafter.
+DR   GO; GO:0035485; F:adenine/guanine mispair binding; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032357; F:oxidized purine DNA binding; IEA:TreeGrafter.
+DR   GO; GO:0000701; F:purine-specific mismatch base pair DNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006284; P:base-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006298; P:mismatch repair; IEA:TreeGrafter.
+DR   CDD; cd03431; DNA_Glycosylase_C; 1.
+DR   CDD; cd00056; ENDO3c; 1.
+DR   FunFam; 1.10.1670.10:FF:000002; Adenine DNA glycosylase; 1.
+DR   FunFam; 1.10.340.30:FF:000010; Adenine DNA glycosylase; 1.
+DR   Gene3D; 1.10.1670.10; Helix-hairpin-Helix base-excision DNA repair enzymes (C-terminal); 1.
+DR   Gene3D; 1.10.340.30; Hypothetical protein, domain 2; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR005760; A/G_AdeGlyc_MutY.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR003651; Endonuclease3_FeS-loop_motif.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR023170; HhH_base_excis_C.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR044298; MIG/MutY.
+DR   InterPro; IPR029119; MutY_C.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   NCBIfam; TIGR01084; mutY; 1.
+DR   PANTHER; PTHR42944; ADENINE DNA GLYCOSYLASE; 1.
+DR   PANTHER; PTHR42944:SF1; ADENINE DNA GLYCOSYLASE; 1.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   Pfam; PF14815; NUDIX_4; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SMART; SM00525; FES; 1.
+DR   SUPFAM; SSF48150; DNA-glycosylase; 1.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|RuleBase:RU365096};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204};
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295, ECO:0000256|RuleBase:RU365096};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU365096};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          237..361
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51462"
+SQ   SEQUENCE   361 AA;  41314 MW;  90697A5DAD5EA97E CRC64;
+     MMDLQKKLEQ KNIKQFQEDL ISWYEQEKRD LPWRSDSDPY KVWVSEVMLQ QTRVDTVIPY
+     FNNFIEKFPT VEALAEADEE KVLKAWEGLG YYSRVRNLQS AVREVHERYG GVVPPSKEEF
+     GSLKGVGPYT RGAVLSIAYN QPVPAVDGNV MRVMSRILSV WDDIAKPKTK TLFEKIVEAF
+     ISEEKPSEFN QGLMELGAVI CTPKSPSCLL CPVREHCSAF AEGCEKELPV KSKKKKPSVK
+     TLAAVVLTDE EGYIYIHKRP ASGLLANLWE FPNTETQKGL KYEREQLAAF LKEEAGIEAE
+     IGPLEGVVEH VFTHLVWNIS VFFGKTLDQP DDSYFKKVTK EELAEYAFPV SHQKIWNMYM
+     K
+//

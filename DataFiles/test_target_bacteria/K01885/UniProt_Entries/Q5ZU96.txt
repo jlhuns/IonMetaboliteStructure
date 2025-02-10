@@ -1,0 +1,120 @@
+ID   SYE_LEGPH               Reviewed;         470 AA.
+AC   Q5ZU96;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 2.
+DT   05-FEB-2025, entry version 120.
+DE   RecName: Full=Glutamate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00022};
+DE            EC=6.1.1.17 {ECO:0000255|HAMAP-Rule:MF_00022};
+DE   AltName: Full=Glutamyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00022};
+DE            Short=GluRS {ECO:0000255|HAMAP-Rule:MF_00022};
+GN   Name=gltX {ECO:0000255|HAMAP-Rule:MF_00022};
+GN   OrderedLocusNames=lpg1911;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Catalyzes the attachment of glutamate to tRNA(Glu) in a two-
+CC       step reaction: glutamate is first activated by ATP to form Glu-AMP and
+CC       then transferred to the acceptor end of tRNA(Glu). {ECO:0000255|HAMAP-
+CC       Rule:MF_00022}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Glu) + L-glutamate + ATP = L-glutamyl-tRNA(Glu) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:23540, Rhea:RHEA-COMP:9663, Rhea:RHEA-
+CC         COMP:9680, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78520, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00022};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00022}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00022}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       Glutamate--tRNA ligase type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00022}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU27981.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27981.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_015444383.1; NC_002942.5.
+DR   RefSeq; YP_095928.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZU96; -.
+DR   SMR; Q5ZU96; -.
+DR   STRING; 272624.lpg1911; -.
+DR   PaxDb; 272624-lpg1911; -.
+DR   GeneID; 57035903; -.
+DR   KEGG; lpn:lpg1911; -.
+DR   PATRIC; fig|272624.6.peg.1996; -.
+DR   eggNOG; COG0008; Bacteria.
+DR   HOGENOM; CLU_015768_6_3_6; -.
+DR   OrthoDB; 9807503at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00808; GluRS_core; 1.
+DR   FunFam; 3.40.50.620:FF:000007; Glutamate--tRNA ligase; 1.
+DR   Gene3D; 1.10.10.350; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00022; Glu_tRNA_synth_type1; 1.
+DR   InterPro; IPR045462; aa-tRNA-synth_I_cd-bd.
+DR   InterPro; IPR020751; aa-tRNA-synth_I_codon-bd_sub2.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR008925; aa_tRNA-synth_I_cd-bd_sf.
+DR   InterPro; IPR004527; Glu-tRNA-ligase_bac/mito.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR049940; GluQ/Sye.
+DR   InterPro; IPR033910; GluRS_core.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00464; gltX_bact; 1.
+DR   PANTHER; PTHR43311; GLUTAMATE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR43311:SF2; GLUTAMATE--TRNA LIGASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF19269; Anticodon_2; 1.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF48163; An anticodon-binding domain of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..470
+FT                   /note="Glutamate--tRNA ligase"
+FT                   /id="PRO_0000119587"
+FT   MOTIF           9..19
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   MOTIF           236..240
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   BINDING         239
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+SQ   SEQUENCE   470 AA;  53574 MW;  37B2F48A462D198D CRC64;
+     MTVRTRFAPS PTGFLHVGGV RTALFSWLYA KHHNGQFILR IEDTDRERST QESVQAILDG
+     MAWLGLNFDE GPYYQTERYA RYQQVAQQLL EEGKAYRCQC SKERLEALRE AQLAAKEKPR
+     YDGHCRNQSL PDSGIPYVIR FRNPDAGIVS FHDEVYGDIH VDNSELDDLI LVRSDGHPTY
+     NFAVVIDDWD MKITHVIRGD DHINNTPRQI NLFKALDAPV PVFAHLPMIL GEDGKRLSKR
+     HGAVSVLQFK ELGVLPHALL NYLVRLGWSH GDQEIFSVQE MITSFDLKNV SRGVSSFNYD
+     KLYWLNQHYQ KSDSPESVAN ALQWHFEQAG IDLNQGPDLK DLVAVQAERC KSLAEMCQIS
+     QYFYTDIIEY NEDAVKKHLR PVVLEPLMVL HERLKALDEW KNDKIQECIN DVSLQFDLNL
+     GKIAQPLRVA VTGSGTSPSI DMTLALLGKN KSIKRLEDAL EKIRARASVV
+//

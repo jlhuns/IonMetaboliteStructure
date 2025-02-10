@@ -1,0 +1,88 @@
+ID   Q65E54_BACLD            Unreviewed;       320 AA.
+AC   Q65E54; Q62PM4;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   SubName: Full=Ribose ABC transporter (Permease) {ECO:0000313|EMBL:AAU25287.1};
+GN   Name=rbsC {ECO:0000313|EMBL:AAU25287.1};
+GN   OrderedLocusNames=BL02442 {ECO:0000313|EMBL:AAU25287.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25287.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25287.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25287.1; -; Genomic_DNA.
+DR   RefSeq; WP_003185842.1; NC_006322.1.
+DR   AlphaFoldDB; Q65E54; -.
+DR   STRING; 279010.BL02442; -.
+DR   GeneID; 66214204; -.
+DR   KEGG; bld:BLi03844; -.
+DR   KEGG; bli:BL02442; -.
+DR   PATRIC; fig|279010.13.peg.3913; -.
+DR   eggNOG; COG1172; Bacteria.
+DR   HOGENOM; CLU_028880_2_2_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IEA:InterPro.
+DR   CDD; cd06579; TM_PBP1_transp_AraH_like; 1.
+DR   InterPro; IPR001851; ABC_transp_permease.
+DR   PANTHER; PTHR32196; ABC TRANSPORTER PERMEASE PROTEIN YPHD-RELATED-RELATED; 1.
+DR   PANTHER; PTHR32196:SF72; RIBOSE IMPORT PERMEASE PROTEIN RBSC; 1.
+DR   Pfam; PF02653; BPD_transp_2; 1.
+PE   4: Predicted;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        20..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        49..67
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        74..92
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        98..118
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        125..145
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        165..188
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        219..236
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        292..314
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   320 AA;  33197 MW;  AF2B727BCD464E84 CRC64;
+     MKTQPAVKKS LNVDSVMQKL GPFLGLIILV VIVSLLNPSF LEPLNILNLL RQVAINALIA
+     FGMTFVILTG GIDLSVGAIL ALSSALIAGM IAGGIDPVFA VIIGCLIGAL LGLVNGLLIT
+     KGKMAPFIAT LATMTIFRGL TMVYTDGNPI TGLGNHYGFQ LFGRGYFLGI PVPAITMAAA
+     FIILWVILHK TPFGRRTYAI GGNEKAALIS GIKVPRVKMM IYSLAGLLSA LAGAILTSRL
+     NSAQPTAGTS YELDAIAAVV LGGTSLAGGR GRIAGTLIGV LIIGTLNNGL NLLGVSSFFQ
+     MVVKGVVILI AVLLDRKKSA
+//

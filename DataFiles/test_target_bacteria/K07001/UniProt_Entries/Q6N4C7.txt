@@ -1,0 +1,94 @@
+ID   Q6N4C7_RHOPA            Unreviewed;       343 AA.
+AC   Q6N4C7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   SubName: Full=Patatin-like phospholipase domain {ECO:0000313|EMBL:CAE28853.1};
+DE   SubName: Full=Patatin-like phospholipase family protein {ECO:0000313|EMBL:WCL93579.1};
+GN   OrderedLocusNames=RPA3412 {ECO:0000313|EMBL:CAE28853.1};
+GN   ORFNames=TX73_017640 {ECO:0000313|EMBL:WCL93579.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28853.1};
+RN   [1] {ECO:0000313|EMBL:WCL93579.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93579.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28853.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28853.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93579.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93579.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|PROSITE-ProRule:PRU01161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572604; CAE28853.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93579.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158954.1; NZ_CP116810.1.
+DR   GeneID; 66894502; -.
+DR   KEGG; rpa:TX73_017640; -.
+DR   eggNOG; COG1752; Bacteria.
+DR   HOGENOM; CLU_047251_2_0_5; -.
+DR   PhylomeDB; Q6N4C7; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 1.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR050301; NTE.
+DR   InterPro; IPR002641; PNPLA_dom.
+DR   PANTHER; PTHR14226; NEUROPATHY TARGET ESTERASE/SWISS CHEESE D.MELANOGASTER; 1.
+DR   PANTHER; PTHR14226:SF76; NTE FAMILY PROTEIN RSSA; 1.
+DR   Pfam; PF01734; Patatin; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS51635; PNPLA; 1.
+PE   4: Predicted;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161};
+KW   Lipid degradation {ECO:0000256|ARBA:ARBA00022963, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          31..191
+FT                   /note="PNPLA"
+FT                   /evidence="ECO:0000259|PROSITE:PS51635"
+FT   MOTIF           62..66
+FT                   /note="GXSXG"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   MOTIF           178..180
+FT                   /note="DGA/G"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        64
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        178
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+SQ   SEQUENCE   343 AA;  36418 MW;  64097B6D7EDCB6D4 CRC64;
+     MLENLIGRGQ AHPPAADKVG LDTIRRPVIG LALGGGAARG FAHIGILRTL LAHGITPDVV
+     VGTSIGAVVG GAYVSGHLDT LEEWARRLQP RNIFGYLDIR LNGSGLIGGS KLAAQLDATL
+     GQILIQDLTQ KFASVATEVA TGHEIWLTHG RIVDAVRASY ALPGIFSPVL IGDRWLVDGA
+     LVNPVPVSAA RALGAEIVIA ANVSSDVFGH GTTIFSHGSA AAAAMEPEAE EPPAQKRGFT
+     RFFSPERFVK QELFGSPERP GISKVMTDAF NIMQDRITRA RLAGDPPDLL ISPRVGRIGW
+     FDFHRADEII AHGARAAERA IDSIREAIEE VAPQPKATVP VET
+//

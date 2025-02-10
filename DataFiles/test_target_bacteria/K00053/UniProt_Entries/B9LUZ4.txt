@@ -1,0 +1,186 @@
+ID   B9LUZ4_HALLT            Unreviewed;       351 AA.
+AC   B9LUZ4;
+DT   24-MAR-2009, integrated into UniProtKB/TrEMBL.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=Ketol-acid reductoisomerase (NADP(+)) {ECO:0000256|HAMAP-Rule:MF_00435};
+DE            Short=KARI {ECO:0000256|HAMAP-Rule:MF_00435};
+DE            EC=1.1.1.86 {ECO:0000256|HAMAP-Rule:MF_00435};
+DE   AltName: Full=Acetohydroxy-acid isomeroreductase {ECO:0000256|HAMAP-Rule:MF_00435};
+DE            Short=AHIR {ECO:0000256|HAMAP-Rule:MF_00435};
+DE   AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase {ECO:0000256|HAMAP-Rule:MF_00435};
+GN   Name=ilvC {ECO:0000256|HAMAP-Rule:MF_00435};
+GN   OrderedLocusNames=Hlac_0873 {ECO:0000313|EMBL:ACM56471.1};
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348 {ECO:0000313|EMBL:ACM56471.1, ECO:0000313|Proteomes:UP000000740};
+RN   [1] {ECO:0000313|EMBL:ACM56471.1, ECO:0000313|Proteomes:UP000000740}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34
+RC   {ECO:0000313|Proteomes:UP000000740};
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- FUNCTION: Involved in the biosynthesis of branched-chain amino acids
+CC       (BCAA). Catalyzes an alkyl-migration followed by a ketol-acid reduction
+CC       of (S)-2-acetolactate (S2AL) to yield (R)-2,3-dihydroxy-isovalerate. In
+CC       the isomerase reaction, S2AL is rearranged via a Mg-dependent methyl
+CC       migration to produce 3-hydroxy-3-methyl-2-ketobutyrate (HMKB). In the
+CC       reductase reaction, this 2-ketoacid undergoes a metal-dependent
+CC       reduction by NADPH to yield (R)-2,3-dihydroxy-isovalerate.
+CC       {ECO:0000256|HAMAP-Rule:MF_00435}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2,3-dihydroxy-3-methylbutanoate + NADP(+) = (2S)-2-
+CC         acetolactate + NADPH + H(+); Xref=Rhea:RHEA:22068, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:49072, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:58476; EC=1.1.1.86; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00435};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3R)-2,3-dihydroxy-3-methylpentanoate + NADP(+) = (S)-2-
+CC         ethyl-2-hydroxy-3-oxobutanoate + NADPH + H(+); Xref=Rhea:RHEA:13493,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:49256, ChEBI:CHEBI:49258,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.86;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00435};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00435};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00435};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 2/4.
+CC       {ECO:0000256|ARBA:ARBA00004885, ECO:0000256|HAMAP-Rule:MF_00435}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 2/4. {ECO:0000256|ARBA:ARBA00004864, ECO:0000256|HAMAP-
+CC       Rule:MF_00435}.
+CC   -!- SIMILARITY: Belongs to the ketol-acid reductoisomerase family.
+CC       {ECO:0000256|ARBA:ARBA00010318, ECO:0000256|HAMAP-Rule:MF_00435,
+CC       ECO:0000256|PROSITE-ProRule:PRU01198}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00435}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM56471.1; -; Genomic_DNA.
+DR   RefSeq; WP_015909622.1; NC_012029.1.
+DR   AlphaFoldDB; B9LUZ4; -.
+DR   GeneID; 7401243; -.
+DR   KEGG; hla:Hlac_0873; -.
+DR   eggNOG; arCOG04465; Archaea.
+DR   HOGENOM; CLU_033821_0_1_2; -.
+DR   UniPathway; UPA00047; UER00056.
+DR   UniPathway; UPA00049; UER00060.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0004455; F:ketol-acid reductoisomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:L-valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.40.50.720:FF:000023; Ketol-acid reductoisomerase (NADP(+)); 1.
+DR   Gene3D; 6.10.240.10; -; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00435; IlvC; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013023; KARI.
+DR   InterPro; IPR000506; KARI_C.
+DR   InterPro; IPR013116; KARI_N.
+DR   InterPro; IPR014359; KARI_prok.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00465; ilvC; 1.
+DR   PANTHER; PTHR21371; KETOL-ACID REDUCTOISOMERASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR21371:SF1; KETOL-ACID REDUCTOISOMERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF01450; IlvC; 1.
+DR   Pfam; PF07991; IlvN; 1.
+DR   PIRSF; PIRSF000116; IlvC_gammaproteo; 2.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS51851; KARI_C; 1.
+DR   PROSITE; PS51850; KARI_N; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00435};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|HAMAP-Rule:MF_00435};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00435};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00435}; NADP {ECO:0000256|HAMAP-Rule:MF_00435};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00435}; Reference proteome {ECO:0000313|Proteomes:UP000000740}.
+FT   DOMAIN          11..191
+FT                   /note="KARI N-terminal Rossmann"
+FT                   /evidence="ECO:0000259|PROSITE:PS51850"
+FT   DOMAIN          192..337
+FT                   /note="KARI C-terminal knotted"
+FT                   /evidence="ECO:0000259|PROSITE:PS51851"
+FT   ACT_SITE        117
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         34..37
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         57
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         60
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         62
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         143
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435"
+FT   BINDING         200
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+FT   BINDING         200
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+FT   BINDING         204
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+FT   BINDING         236
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+FT   BINDING         240
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+FT   BINDING         261
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00435,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01198"
+SQ   SEQUENCE   351 AA;  38181 MW;  89CFC670F2F6300A CRC64;
+     MTEDDTQTFN STVYYDEDAD GEAIAHKTVA VLGYGSQGHA HAQNLNDSGV DVVVGLREDS
+     SSWDAAESDG LRVEVPADAV AEADIVSVLV PDTVQPDVYE NAIEPNLDAG DTLQFAHGFN
+     IHYNQIQPPE DVDVTMVAPK SPGHLVRRNY ENDEGTPGLL AVYQDATGDA HDEGLAYAAA
+     IGCTRAGVVE TSFREETETD LFGEQAVLCG GVTSLVKQGY ETLVDAGYSP EMAYFECLNE
+     LKLIVDLMYE DGLGGMWDSV SDTAEYGGLT QGDVVVDEHA RENMEEVLEK VQNGQFAREW
+     IAENQAGRPS YTQLRAAEKN HEIEAVGEEL RGLFAWQDEE DDEEESAEVT A
+//

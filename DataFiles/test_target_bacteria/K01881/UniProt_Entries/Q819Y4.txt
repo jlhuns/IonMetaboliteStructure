@@ -1,0 +1,124 @@
+ID   SYP1_BACCR              Reviewed;         566 AA.
+AC   Q819Y4;
+DT   05-SEP-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Proline--tRNA ligase 1 {ECO:0000255|HAMAP-Rule:MF_01569};
+DE            EC=6.1.1.15 {ECO:0000255|HAMAP-Rule:MF_01569};
+DE   AltName: Full=Prolyl-tRNA synthetase 1 {ECO:0000255|HAMAP-Rule:MF_01569};
+DE            Short=ProRS 1 {ECO:0000255|HAMAP-Rule:MF_01569};
+GN   Name=proS1 {ECO:0000255|HAMAP-Rule:MF_01569};
+GN   OrderedLocusNames=BC_3817;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of proline to tRNA(Pro) in a two-
+CC       step reaction: proline is first activated by ATP to form Pro-AMP and
+CC       then transferred to the acceptor end of tRNA(Pro). As ProRS can
+CC       inadvertently accommodate and process non-cognate amino acids such as
+CC       alanine and cysteine, to avoid such errors it has two additional
+CC       distinct editing activities against alanine. One activity is designated
+CC       as 'pretransfer' editing and involves the tRNA(Pro)-independent
+CC       hydrolysis of activated Ala-AMP. The other activity is designated
+CC       'posttransfer' editing and involves deacylation of mischarged Ala-
+CC       tRNA(Pro). The misacylated Cys-tRNA(Pro) is not edited by ProRS.
+CC       {ECO:0000255|HAMAP-Rule:MF_01569}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Pro) + L-proline + ATP = L-prolyl-tRNA(Pro) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:14305, Rhea:RHEA-COMP:9700, Rhea:RHEA-
+CC         COMP:9702, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78532, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.15; Evidence={ECO:0000255|HAMAP-Rule:MF_01569};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01569}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01569}.
+CC   -!- DOMAIN: Consists of three domains: the N-terminal catalytic domain, the
+CC       editing domain and the C-terminal anticodon-binding domain.
+CC       {ECO:0000255|HAMAP-Rule:MF_01569}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       ProS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_01569}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10740.1; -; Genomic_DNA.
+DR   RefSeq; NP_833539.1; NC_004722.1.
+DR   RefSeq; WP_000814303.1; NC_004722.1.
+DR   AlphaFoldDB; Q819Y4; -.
+DR   SMR; Q819Y4; -.
+DR   STRING; 226900.BC_3817; -.
+DR   KEGG; bce:BC3817; -.
+DR   PATRIC; fig|226900.8.peg.3935; -.
+DR   HOGENOM; CLU_016739_0_0_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004827; F:proline-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0006433; P:prolyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd04334; ProRS-INS; 1.
+DR   CDD; cd00861; ProRS_anticodon_short; 1.
+DR   CDD; cd00779; ProRS_core_prok; 1.
+DR   FunFam; 3.30.930.10:FF:000043; Proline--tRNA ligase; 1.
+DR   FunFam; 3.30.930.10:FF:000065; Proline--tRNA ligase; 1.
+DR   FunFam; 3.40.50.800:FF:000011; Proline--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 2.
+DR   HAMAP; MF_01569; Pro_tRNA_synth_type1; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR002316; Pro-tRNA-ligase_IIa.
+DR   InterPro; IPR004500; Pro-tRNA-synth_IIa_bac-type.
+DR   InterPro; IPR023717; Pro-tRNA-Synthase_IIa_type1.
+DR   InterPro; IPR050062; Pro-tRNA_synthetase.
+DR   InterPro; IPR044140; ProRS_anticodon_short.
+DR   InterPro; IPR033730; ProRS_core_prok.
+DR   InterPro; IPR036754; YbaK/aa-tRNA-synt-asso_dom_sf.
+DR   InterPro; IPR007214; YbaK/aa-tRNA-synth-assoc-dom.
+DR   NCBIfam; TIGR00409; proS_fam_II; 1.
+DR   PANTHER; PTHR42753; MITOCHONDRIAL RIBOSOME PROTEIN L39/PROLYL-TRNA LIGASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR42753:SF2; PROLINE--TRNA LIGASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   Pfam; PF04073; tRNA_edit; 1.
+DR   PIRSF; PIRSF001535; ProRS_1; 1.
+DR   PRINTS; PR01046; TRNASYNTHPRO.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF55826; YbaK/ProRS associated domain; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..566
+FT                   /note="Proline--tRNA ligase 1"
+FT                   /id="PRO_0000248644"
+SQ   SEQUENCE   566 AA;  63190 MW;  DC407A51A3647ED8 CRC64;
+     MKQSMVFSPT LREVPADAEI KSHQLLLRAG FMRQNASGIY SFLPFGLKVL HKVERIVREE
+     MERAGAVELL MPAMQAAELW QESGRWYSYG SELMRMKDRN AREFALGATH EEVITDLVRD
+     EVKSYKKLPL TLYQIQTKFR DEQRPRFGLL RGREFLMKDA YSFHATQESL DEVYDRLYKA
+     YSNIFARCGL NFRAVIADSG AMGGKDTHEF MVLSDVGEDT IAYSDTSDYA ANIEMAPVVA
+     TYTKSDEAEK ALEKVATPDQ KAIEEVSAFL NIEADKCIKS MVFKVDEKLV VVLVRGDHEV
+     NDVKVKNVYG ASVVELASHE EVKALLNWEV GSLGPINVTG DIEIIADHAV ASIVNGCSGA
+     NEEGFHYVNV NPERDFKVSQ YTDLRFIQEG DQSPDGNGTI LFARGIEVGH VFKLGTRYSE
+     AMNATFLDEN GKTQPLIMGC YGIGVSRTVA AIAEQFNDEN GLVWPKAVAP FHVHVIPVNM
+     KSDAQREMGE NIYNSLQEQG YEVLLDDRAE RAGVKFADAD LFGLPVRVTV GKKADEGIVE
+     VKVRATGESE EVKVEELQTY IANILK
+//

@@ -1,0 +1,97 @@
+ID   F2R7Y8_STRVP            Unreviewed;       819 AA.
+AC   F2R7Y8;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 80.
+DE   RecName: Full=DNA topoisomerase (ATP-hydrolyzing) {ECO:0000256|ARBA:ARBA00012895};
+DE            EC=5.6.2.2 {ECO:0000256|ARBA:ARBA00012895};
+GN   OrderedLocusNames=SVEN_5511 {ECO:0000313|EMBL:CCA58797.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA58797.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA58797.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-dependent breakage, passage and rejoining of double-
+CC         stranded DNA.; EC=5.6.2.2; Evidence={ECO:0000256|ARBA:ARBA00000185};
+CC   -!- SIMILARITY: Belongs to the type II topoisomerase GyrA/ParC subunit
+CC       family. {ECO:0000256|ARBA:ARBA00008263}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA58797.1; -; Genomic_DNA.
+DR   RefSeq; WP_015036693.1; NZ_JABVZO010000033.1.
+DR   AlphaFoldDB; F2R7Y8; -.
+DR   STRING; 953739.SVEN_5511; -.
+DR   GeneID; 69867578; -.
+DR   KEGG; sve:SVEN_5511; -.
+DR   PATRIC; fig|953739.5.peg.658; -.
+DR   eggNOG; COG0188; Bacteria.
+DR   HOGENOM; CLU_002977_6_1_11; -.
+DR   OrthoDB; 9806486at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0009330; C:DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034335; F:DNA negative supercoiling activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006265; P:DNA topological change; IEA:InterPro.
+DR   CDD; cd00187; TOP4c; 1.
+DR   FunFam; 1.10.268.10:FF:000001; DNA gyrase subunit A; 1.
+DR   FunFam; 3.30.1360.40:FF:000002; DNA gyrase subunit A; 1.
+DR   FunFam; 3.90.199.10:FF:000001; DNA gyrase subunit A; 1.
+DR   Gene3D; 3.30.1360.40; -; 1.
+DR   Gene3D; 2.120.10.90; DNA gyrase/topoisomerase IV, subunit A, C-terminal; 1.
+DR   Gene3D; 3.90.199.10; Topoisomerase II, domain 5; 1.
+DR   Gene3D; 1.10.268.10; Topoisomerase, domain 3; 1.
+DR   InterPro; IPR006691; GyrA/parC_rep.
+DR   InterPro; IPR035516; Gyrase/topoIV_suA_C.
+DR   InterPro; IPR013760; Topo_IIA-like_dom_sf.
+DR   InterPro; IPR013758; Topo_IIA_A/C_ab.
+DR   InterPro; IPR013757; Topo_IIA_A_a_sf.
+DR   InterPro; IPR002205; Topo_IIA_dom_A.
+DR   InterPro; IPR050220; Type_II_DNA_Topoisomerases.
+DR   PANTHER; PTHR43493:SF5; DNA GYRASE SUBUNIT A, CHLOROPLASTIC_MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43493; DNA GYRASE/TOPOISOMERASE SUBUNIT A; 1.
+DR   Pfam; PF03989; DNA_gyraseA_C; 2.
+DR   Pfam; PF00521; DNA_topoisoIV; 1.
+DR   SMART; SM00434; TOP4c; 1.
+DR   SUPFAM; SSF101904; GyrA/ParC C-terminal domain-like; 1.
+DR   SUPFAM; SSF56719; Type II DNA topoisomerase; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000313|EMBL:CCA58797.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Topoisomerase {ECO:0000256|ARBA:ARBA00023029}.
+FT   DOMAIN          22..477
+FT                   /note="DNA topoisomerase type IIA"
+FT                   /evidence="ECO:0000259|SMART:SM00434"
+FT   REGION          783..819
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   819 AA;  88255 MW;  F6EB2B0399E95E60 CRC64;
+     MARRSTKTPP PDDAFEERIL DIDVVDEMQG SFLEYAYSVI YSRALPDARD GMKPVQRRIV
+     YQMGEMGLRP DRGFVKCARV VGEVMGKLHP HGDASIYDAM VRMAQPFSMR LPLVDGHGNF
+     GSLGNDDPPA AMRYTESRMA PAALLMTESI DEDTVDFAPN YDGQEQEPVA LPAAYPNLLV
+     NGASGIAVGM ATNMPPHNLG EVIAAARHLI RHPHADLETL MRFVPGPDLP TGGRIVGLSG
+     IKDAYESGRG SFKIRATTSV ETVTARRKGI VVTELPFTVG PEKVISKIKD LVGSKKLQGI
+     ADVKDLTDRN HGLRLVIEIK NGFVPEAVLE QLYKLTPMEE SFGINNVALV DGQPLTLGLK
+     ELLEVYLDHR FEVVRRRSEF RRTKKRDRLH LVEGLLVALL DIDEVIRLIR ESENSAQAKE
+     RLMERFSLSE IQTQYILDTP LRRLTKFDRI ELETEQNRLN GEIDELTGIL ESDAELRKLV
+     SAELAAVAKK FATDRRTVLL ESAGAPVAAV SLEVADDPCR VLLSSTGLLA RTATAELPPV
+     DPDAARAKHD VILSSVAATQ RGDIGAVTSG GRLLRIAVID LPQLPDTASA PNLAGGAPLS
+     EFLSLEADET VVCLTTLDEA SPGLALGTLQ GVVKRVVPDY PANKDELEVI TLKDGDRIVG
+     ATELRTGDED LVFITSDAQL LRYPAAQVRP QGRPAGGMAG VKLSAGADVI SFTAVDPAAD
+     AVVFTVAGST GTLDGSAATS AKLTPFDQYP RKGRATGGVR CQRFLKGEDV LLLAWAGTTP
+     ARAAQKSGAP VNLPEVDPRR DGSGTPLPKP VDVVASAPS
+//

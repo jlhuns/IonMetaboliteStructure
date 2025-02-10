@@ -1,0 +1,125 @@
+ID   C9RP16_FIBSS            Unreviewed;       564 AA.
+AC   C9RP16;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Proline--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_01569};
+DE            EC=6.1.1.15 {ECO:0000256|HAMAP-Rule:MF_01569};
+DE   AltName: Full=Prolyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_01569};
+DE            Short=ProRS {ECO:0000256|HAMAP-Rule:MF_01569};
+GN   Name=proS {ECO:0000256|HAMAP-Rule:MF_01569,
+GN   ECO:0000313|EMBL:ADL27085.1};
+GN   OrderedLocusNames=FSU_0165 {ECO:0000313|EMBL:ADL27085.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL27085.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of proline to tRNA(Pro) in a two-
+CC       step reaction: proline is first activated by ATP to form Pro-AMP and
+CC       then transferred to the acceptor end of tRNA(Pro). As ProRS can
+CC       inadvertently accommodate and process non-cognate amino acids such as
+CC       alanine and cysteine, to avoid such errors it has two additional
+CC       distinct editing activities against alanine. One activity is designated
+CC       as 'pretransfer' editing and involves the tRNA(Pro)-independent
+CC       hydrolysis of activated Ala-AMP. The other activity is designated
+CC       'posttransfer' editing and involves deacylation of mischarged Ala-
+CC       tRNA(Pro). The misacylated Cys-tRNA(Pro) is not edited by ProRS.
+CC       {ECO:0000256|HAMAP-Rule:MF_01569}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Pro) + L-proline + ATP = L-prolyl-tRNA(Pro) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:14305, Rhea:RHEA-COMP:9700, Rhea:RHEA-
+CC         COMP:9702, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78532, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.15; Evidence={ECO:0000256|ARBA:ARBA00047671,
+CC         ECO:0000256|HAMAP-Rule:MF_01569};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-
+CC       Rule:MF_01569}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01569}.
+CC   -!- DOMAIN: Consists of three domains: the N-terminal catalytic domain, the
+CC       editing domain and the C-terminal anticodon-binding domain.
+CC       {ECO:0000256|HAMAP-Rule:MF_01569}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       ProS type 1 subfamily. {ECO:0000256|HAMAP-Rule:MF_01569}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL27085.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545010.1; NC_017448.1.
+DR   AlphaFoldDB; C9RP16; -.
+DR   STRING; 59374.FSU_0165; -.
+DR   KEGG; fsc:FSU_0165; -.
+DR   KEGG; fsu:Fisuc_2903; -.
+DR   PATRIC; fig|59374.8.peg.157; -.
+DR   eggNOG; COG0442; Bacteria.
+DR   HOGENOM; CLU_016739_0_0_0; -.
+DR   OrthoDB; 9809052at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004827; F:proline-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006433; P:prolyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd04334; ProRS-INS; 1.
+DR   CDD; cd00861; ProRS_anticodon_short; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 2.
+DR   HAMAP; MF_01569; Pro_tRNA_synth_type1; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR002316; Pro-tRNA-ligase_IIa.
+DR   InterPro; IPR004500; Pro-tRNA-synth_IIa_bac-type.
+DR   InterPro; IPR023717; Pro-tRNA-Synthase_IIa_type1.
+DR   InterPro; IPR050062; Pro-tRNA_synthetase.
+DR   InterPro; IPR044140; ProRS_anticodon_short.
+DR   InterPro; IPR036754; YbaK/aa-tRNA-synt-asso_dom_sf.
+DR   InterPro; IPR007214; YbaK/aa-tRNA-synth-assoc-dom.
+DR   NCBIfam; TIGR00409; proS_fam_II; 1.
+DR   PANTHER; PTHR42753; MITOCHONDRIAL RIBOSOME PROTEIN L39/PROLYL-TRNA LIGASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR42753:SF2; PROLINE--TRNA LIGASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   Pfam; PF04073; tRNA_edit; 1.
+DR   PRINTS; PR01046; TRNASYNTHPRO.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF55826; YbaK/ProRS associated domain; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_01569};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01569};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01569};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01569};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01569};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_01569}.
+FT   DOMAIN          38..462
+FT                   /note="Aminoacyl-transfer RNA synthetases class-II family
+FT                   profile"
+FT                   /evidence="ECO:0000259|PROSITE:PS50862"
+SQ   SEQUENCE   564 AA;  63608 MW;  D2A4E3BA0034BAA1 CRC64;
+     MKLSKYFYVT LRETPSDATM PSHIFLMRGG YIKPVSTGIY SMMPIGYRVI QKIVNIIREE
+     MNKIGGIEVD LPVVQTAELW SESGRYQAIG EELLRFKDRN NHNMVLAMTH EEAMTDLVRY
+     VLNSYKQLPV MLYQFKTKYR DEARARGGLI RVREFLMKDA YSFHTSQEDL DRHYQEEYDA
+     YLRIYRRVGI EPVVVQSDTG IMGGKVAHEF MLDTPNGEDY LILCKKCGYQ ANREIAKFQR
+     VPFKGDENAA LEKVATPNSE SIEEITKFLN VPAESTAKCV FFDFEGKLIT VVVPGNLDVS
+     EIKLHNLLKA KELYPAEDSL IKSCGMVPGF ASPINSHDTR IIVDEAIADS FDLVTGANEE
+     GFHFKHCNPK RDFPKFEVAD IAEASEVCKC PCCGELLTET RGIEMGNIFK LGTKFSESMG
+     AKFLTAEKTT APAIMGCYGI GVGRLMASVV ENSHDDFGPI WPKSIAPFQV EIVPIGKEAE
+     LMELAEKFEK ELEAAGIDVL VDDRDERPGV KFKDADLWGS PVRIAIGKKG LANGEVEWKF
+     RNEKQFTMVK VEDVIAKAKE YFAE
+//

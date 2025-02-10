@@ -1,0 +1,94 @@
+ID   A0A1P8F909_9CHLR        Unreviewed;       320 AA.
+AC   A0A1P8F909;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 31.
+DE   RecName: Full=Phosphate transport system permease protein {ECO:0000256|RuleBase:RU363054};
+GN   ORFNames=Dform_01617 {ECO:0000313|EMBL:APV44938.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44938.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of the binding-protein-dependent transport system for
+CC       phosphate; probably responsible for the translocation of the substrate
+CC       across the membrane. {ECO:0000256|RuleBase:RU363054}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. CysTW subfamily. {ECO:0000256|ARBA:ARBA00007069,
+CC       ECO:0000256|RuleBase:RU363054}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44938.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004547.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F909; -.
+DR   STRING; 1839801.Dform_01617; -.
+DR   KEGG; dfo:Dform_01617; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005315; F:phosphate transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0006817; P:phosphate ion transport; IEA:UniProtKB-KW.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   InterPro; IPR011864; Phosphate_PstC.
+DR   InterPro; IPR051124; Phosphate_Transport_Permease.
+DR   NCBIfam; TIGR02138; phosphate_pstC; 1.
+DR   PANTHER; PTHR30425; PHOSPHATE TRANSPORT SYSTEM PERMEASE PROTEIN PST; 1.
+DR   PANTHER; PTHR30425:SF1; PHOSPHATE TRANSPORT SYSTEM PERMEASE PROTEIN PSTC; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475,
+KW   ECO:0000256|RuleBase:RU363054};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Phosphate transport {ECO:0000256|ARBA:ARBA00022592,
+KW   ECO:0000256|RuleBase:RU363054};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        23..52
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        80..106
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        118..142
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        167..187
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        229..251
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        290..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          81..305
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   320 AA;  33771 MW;  65ABCE1B0069100C CRC64;
+     MNLDRELKIK ADTKLVRRSI GDVLFSGLTG IFTLLTGAIL VALATVLAIQ AWPSIEKFGV
+     SFFTSSVWDP VKEVFGAMPA VFGTLASSVL ALVIAVPISL GTAIFLSELA PKWLRGPGSF
+     VIEMLAAIPS VIIGLWGIFV MVPALRPVQV WLGAHLGSLP FFTGNPYIGF DMLAAALILA
+     IMIIPIITTV SRDAIRAVPV AQKESMLALG ATRWETLSRV VLPYCRSSLI GATILGLGRA
+     LGETMAVTMV IGNADNISLS LFSSATTIAS KIASQFGEAS GLGLSSLIEL ALILLAVSLI
+     VNVIARLLVW KLTSVKAGRV
+//

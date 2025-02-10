@@ -1,0 +1,125 @@
+ID   SYM1_BACCR              Reviewed;         660 AA.
+AC   Q81JA8;
+DT   31-OCT-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 130.
+DE   RecName: Full=Methionine--tRNA ligase 1 {ECO:0000255|HAMAP-Rule:MF_01228};
+DE            EC=6.1.1.10 {ECO:0000255|HAMAP-Rule:MF_01228};
+DE   AltName: Full=Methionyl-tRNA synthetase 1 {ECO:0000255|HAMAP-Rule:MF_01228};
+DE            Short=MetRS 1 {ECO:0000255|HAMAP-Rule:MF_01228};
+GN   Name=metG1 {ECO:0000255|HAMAP-Rule:MF_01228}; Synonyms=metG;
+GN   OrderedLocusNames=BC_0043;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Is required not only for elongation of protein synthesis but
+CC       also for the initiation of all mRNA translation through initiator
+CC       tRNA(fMet) aminoacylation. {ECO:0000255|HAMAP-Rule:MF_01228}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Met) + L-methionine + ATP = L-methionyl-tRNA(Met) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667, Rhea:RHEA-
+CC         COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78530, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.10; Evidence={ECO:0000255|HAMAP-Rule:MF_01228};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01228}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01228}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       MetG type 2B subfamily. {ECO:0000255|HAMAP-Rule:MF_01228}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07141.1; -; Genomic_DNA.
+DR   RefSeq; NP_829940.1; NC_004722.1.
+DR   AlphaFoldDB; Q81JA8; -.
+DR   SMR; Q81JA8; -.
+DR   STRING; 226900.BC_0043; -.
+DR   KEGG; bce:BC0043; -.
+DR   PATRIC; fig|226900.8.peg.60; -.
+DR   HOGENOM; CLU_009710_9_4_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd07957; Anticodon_Ia_Met; 1.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   CDD; cd02800; tRNA_bind_EcMetRS_like; 1.
+DR   FunFam; 1.10.730.10:FF:000026; Methionine--tRNA ligase; 1.
+DR   FunFam; 2.170.220.10:FF:000002; Methionine--tRNA ligase; 1.
+DR   FunFam; 2.40.50.140:FF:000042; Methionine--tRNA ligase; 1.
+DR   Gene3D; 2.170.220.10; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_01228; Met_tRNA_synth_type2; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR041872; Anticodon_Met.
+DR   InterPro; IPR004495; Met-tRNA-synth_bsu_C.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR023457; Met-tRNA_synth_2.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002547; tRNA-bd_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   NCBIfam; TIGR00398; metG; 1.
+DR   NCBIfam; TIGR00399; metG_C_term; 1.
+DR   PANTHER; PTHR43326:SF1; METHIONINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43326; METHIONYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF19303; Anticodon_3; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   Pfam; PF01588; tRNA_bind; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50886; TRBD; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding;
+KW   tRNA-binding.
+FT   CHAIN           1..660
+FT                   /note="Methionine--tRNA ligase 1"
+FT                   /id="PRO_0000139208"
+FT   DOMAIN          560..660
+FT                   /note="tRNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01228"
+FT   MOTIF           15..25
+FT                   /note="'HIGH' region"
+FT   MOTIF           310..314
+FT                   /note="'KMSKS' region"
+FT   BINDING         313
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01228"
+SQ   SEQUENCE   660 AA;  75203 MW;  E87BB62F8268C776 CRC64;
+     MTEENKSFYI TTPIYYPSGK LHIGHAYTTV AGDAMARYKR MQGYNVHYLT GTDEHGQKIQ
+     KKAEELNITP QAYVDNIVAG IKELWEKMNI SYDDFIRTTE DRHKDVVEKI FKQLVDQGDI
+     YLDEYEGWYS VQDETFYTEH QLVDPIMEGD KVVGGKSPDS GHDVELVREE SYFFRMGKYV
+     DRLLKFYEDN PHFIQPESRK NEMINNFIKP GLEDLAVSRT SFDWGVRVPG NPKHVIYVWV
+     DALSNYITAL GYGTANEEKY KKFWPADVHL VGKEIVRFHT IYWPIILMAL DLPLPKKVFA
+     HGWILMKDGK MSKSKGNVVD PVTLIDRYGL DALRYYLLRE VPFGSDGVFT PEGFVERINF
+     DLANDLGNLL NRTVAMIDKY FSGEIPAFKA NVTEFDETLV AFAQDTLKKV EEAMENMEFS
+     VALGSIWQLV SRTNKYIDET QPWVLAKDEN DREKLASVMA HLAEVLRQTG IMLMPFLTVA
+     PSKMFAQLGL TDEAHKSWES LSTIGCIPAG TKVEKGNPIF PRLEMEVEVE YIKEQMKSSA
+     PKVEEKKEEE PKAEEITIDD FFKVELRVAE VLSAEPVKKA DKLLKIQLDL GTEKRQVVSG
+     IAKFYSPEDL KGKKVICVTN LKPVKLRGEL SQGMILAGEE NGVLSLASID QNLPNGTKIK
+//

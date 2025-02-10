@@ -1,0 +1,83 @@
+ID   Q6NDI2_RHOPA            Unreviewed;       426 AA.
+AC   Q6NDI2;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   SubName: Full=ABC transporter substrate-binding protein {ECO:0000313|EMBL:WCL90249.1};
+DE   SubName: Full=Possible sugar binding protein of ABC transporter {ECO:0000313|EMBL:CAE25570.1};
+GN   OrderedLocusNames=RPA0126 {ECO:0000313|EMBL:CAE25570.1};
+GN   ORFNames=TX73_000650 {ECO:0000313|EMBL:WCL90249.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25570.1};
+RN   [1] {ECO:0000313|EMBL:WCL90249.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90249.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25570.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25570.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90249.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90249.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 1 family.
+CC       {ECO:0000256|ARBA:ARBA00008520}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572593; CAE25570.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90249.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155694.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0126; -.
+DR   GeneID; 66891128; -.
+DR   KEGG; rpa:TX73_000650; -.
+DR   eggNOG; COG1653; Bacteria.
+DR   HOGENOM; CLU_031285_3_1_5; -.
+DR   PhylomeDB; Q6NDI2; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   CDD; cd14748; PBP2_UgpB; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR050490; Bact_solute-bd_prot1.
+DR   InterPro; IPR006059; SBP.
+DR   PANTHER; PTHR43649:SF30; ABC TRANSPORTER SUBSTRATE-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR43649; ARABINOSE-BINDING PROTEIN-RELATED; 1.
+DR   Pfam; PF13416; SBP_bac_8; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+PE   3: Inferred from homology;
+KW   Periplasm {ECO:0000256|ARBA:ARBA00022764};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           21..426
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5042809153"
+SQ   SEQUENCE   426 AA;  46518 MW;  BA14BC3E291FFACF CRC64;
+     MLKRWIAAAA MTLVAGIAHA QQQTEVVLQF PYPELFSETH KRIAEEFAKV HPEIKVTFRA
+     PYESYEEATQ KVLREAVTNQ LPDVTFQGLN RIRVLVDKTI PAPLDGYIAA EKDFDKQGFH
+     QAMYDIGTAS GKVYALPFAI SLPIVYVNLD LVKQAGGDVN NLPTTWDGLL DLAKKVKALG
+     PDTNGITYAW DITGNWLWQA PVFARGGTML NADETKVAFD GPEGQFAMRT IARLVTEGGM
+     PNLDQPSMRA TFAAGKTGIH ITSTSDLKKT TDMIGGKFAL KTMAFPDVVK PNGRLPAGGN
+     VVLITAKDKA KRDAAWEVVK FWTGPKGAAI MAETTGYMPP NKVANDVYLK DFYAKNPNNY
+     TAVSQLALLT KWYAFPGDNG LKITDVIKDH LNSIVSGARA KEPDAVLADM TRDVQNLLPK
+     TVGAAK
+//

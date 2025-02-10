@@ -1,0 +1,142 @@
+ID   ATPA_SALTI              Reviewed;         513 AA.
+AC   Q8XG95; Q7AM14;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 146.
+DE   RecName: Full=ATP synthase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+DE            EC=7.1.2.2 {ECO:0000255|HAMAP-Rule:MF_01346};
+DE   AltName: Full=ATP synthase F1 sector subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+DE   AltName: Full=F-ATPase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+GN   Name=atpA {ECO:0000255|HAMAP-Rule:MF_01346};
+GN   OrderedLocusNames=STY3911, t3652;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The alpha chain is a regulatory subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + 4 H(+)(in) = ADP + phosphate + 5 H(+)(out);
+CC         Xref=Rhea:RHEA:57720, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.1.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01346};
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main
+CC       subunits: a(1), b(2) and c(9-12). The alpha and beta chains form an
+CC       alternating ring which encloses part of the gamma chain. CF(1) is
+CC       attached to CF(0) by a central stalk formed by the gamma and epsilon
+CC       chains, while a peripheral stalk is formed by the delta and b chains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01346}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01346}.
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO71149.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD03128.1; -; Genomic_DNA.
+DR   RefSeq; NP_458076.1; NC_003198.1.
+DR   RefSeq; WP_001176751.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; Q8XG95; -.
+DR   SMR; Q8XG95; -.
+DR   STRING; 220341.gene:17587771; -.
+DR   GeneID; 66758156; -.
+DR   KEGG; stt:t3652; -.
+DR   KEGG; sty:STY3911; -.
+DR   PATRIC; fig|220341.7.peg.3991; -.
+DR   eggNOG; COG0056; Bacteria.
+DR   HOGENOM; CLU_010091_2_1_6; -.
+DR   OMA; INQRDNW; -.
+DR   OrthoDB; 9803053at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0043531; F:ADP binding; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:UniProtKB-EC.
+DR   CDD; cd18113; ATP-synt_F1_alpha_C; 1.
+DR   CDD; cd18116; ATP-synt_F1_alpha_N; 1.
+DR   CDD; cd01132; F1-ATPase_alpha_CD; 1.
+DR   FunFam; 1.20.150.20:FF:000001; ATP synthase subunit alpha; 1.
+DR   FunFam; 2.40.30.20:FF:000001; ATP synthase subunit alpha; 1.
+DR   FunFam; 3.40.50.300:FF:000002; ATP synthase subunit alpha; 1.
+DR   Gene3D; 2.40.30.20; -; 1.
+DR   Gene3D; 1.20.150.20; ATP synthase alpha/beta chain, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_01346; ATP_synth_alpha_bact; 1.
+DR   InterPro; IPR023366; ATP_synth_asu-like_sf.
+DR   InterPro; IPR000793; ATP_synth_asu_C.
+DR   InterPro; IPR038376; ATP_synth_asu_C_sf.
+DR   InterPro; IPR033732; ATP_synth_F1_a_nt-bd_dom.
+DR   InterPro; IPR005294; ATP_synth_F1_asu.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR004100; ATPase_F1/V1/A1_a/bsu_N.
+DR   InterPro; IPR036121; ATPase_F1/V1/A1_a/bsu_N_sf.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00962; atpA; 1.
+DR   PANTHER; PTHR48082; ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR48082:SF2; ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF00306; ATP-synt_ab_C; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   SUPFAM; SSF47917; C-terminal domain of alpha and beta subunits of F1 ATP synthase; 1.
+DR   SUPFAM; SSF50615; N-terminal domain of alpha and beta subunits of F1 ATP synthase; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; ATP-binding; Cell inner membrane; Cell membrane; CF(1);
+KW   Hydrogen ion transport; Ion transport; Membrane; Nucleotide-binding;
+KW   Translocase; Transport.
+FT   CHAIN           1..513
+FT                   /note="ATP synthase subunit alpha"
+FT                   /id="PRO_0000238349"
+FT   BINDING         169..176
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01346"
+FT   SITE            373
+FT                   /note="Required for activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01346"
+SQ   SEQUENCE   513 AA;  55113 MW;  538636FA6DF66292 CRC64;
+     MQLNSTEISE LIKQRIAQFN VVSEAHNEGT IVSVSDGVIR IHGLADCMQG EMISLPGNRY
+     AIALNLERDS VGAVVMGPYA DLAEGMKVKC TGRILEVPVG RGLLGRVVNT LGAPIDGKGP
+     VDNDGFSAVE AIAPGVIDRQ SVDQPVQTGY KAVDSMIPIG RGQRELIIGD RQTGKTALAI
+     DAIINQRDSG IKCIYVAIGQ KASTISNVVR KLEEHGALAN TIVVVATASE SAALQYLAPY
+     AGCAMGEYFR DRGEDALIIY DDLSKQAVAY RQISLLLRRP PGREAFPGDV FYLHSRLLER
+     AARVNADYVE AFTKGEVKGK TGSLTALPII ETQAGDVSAF VPTNVISITD GQIFLESNLF
+     NAGIRPAVNP GISVSRVGGA AQTKIMKKLS GGIRTALAQY RELAAFSQFA SDLDDATRKQ
+     LDHGQKVTEL LKQKQYAPMS VAQQSLVLFA AERGYLADVE LAKIGSFEAA LLAYVDRDHA
+     PLMQEINQSG GYNDEIEGKL KGILDSFKAT QSW
+//

@@ -1,0 +1,120 @@
+ID   A0AAF0BQ64_RHOPA        Unreviewed;       289 AA.
+AC   A0AAF0BQ64;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase {ECO:0000256|ARBA:ARBA00014944};
+DE            EC=2.7.8.5 {ECO:0000256|ARBA:ARBA00013170};
+DE            EC=2.7.8.8 {ECO:0000256|ARBA:ARBA00013174};
+DE   AltName: Full=CDP-diacylglycerol--serine O-phosphatidyltransferase {ECO:0000256|ARBA:ARBA00017171};
+DE   AltName: Full=Phosphatidylserine synthase {ECO:0000256|ARBA:ARBA00032361};
+GN   Name=pssA {ECO:0000313|EMBL:WCL92158.1};
+GN   ORFNames=TX73_010345 {ECO:0000313|EMBL:WCL92158.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92158.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92158.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: This protein catalyzes the committed step to the synthesis of
+CC       the acidic phospholipids. {ECO:0000256|ARBA:ARBA00003973}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a CDP-1,2-diacyl-sn-glycerol + L-serine = a 1,2-diacyl-sn-
+CC         glycero-3-phospho-L-serine + CMP + H(+); Xref=Rhea:RHEA:16913,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33384, ChEBI:CHEBI:57262,
+CC         ChEBI:CHEBI:58332, ChEBI:CHEBI:60377; EC=2.7.8.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000287};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a CDP-1,2-diacyl-sn-glycerol + sn-glycerol 3-phosphate = a
+CC         1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycero-3'-phosphate) + CMP +
+CC         H(+); Xref=Rhea:RHEA:12593, ChEBI:CHEBI:15378, ChEBI:CHEBI:57597,
+CC         ChEBI:CHEBI:58332, ChEBI:CHEBI:60110, ChEBI:CHEBI:60377; EC=2.7.8.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048586};
+CC   -!- PATHWAY: Phospholipid metabolism; phosphatidylglycerol biosynthesis;
+CC       phosphatidylglycerol from CDP-diacylglycerol: step 1/2.
+CC       {ECO:0000256|ARBA:ARBA00005042}.
+CC   -!- SUBCELLULAR LOCATION: Endomembrane system
+CC       {ECO:0000256|ARBA:ARBA00004127}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004127}.
+CC   -!- SIMILARITY: Belongs to the CDP-alcohol phosphatidyltransferase class-I
+CC       family. {ECO:0000256|ARBA:ARBA00010441, ECO:0000256|RuleBase:RU003750}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92158.1; -; Genomic_DNA.
+DR   RefSeq; WP_042441508.1; NZ_CP116810.1.
+DR   GeneID; 66893051; -.
+DR   KEGG; rpa:TX73_010345; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016780; F:phosphotransferase activity, for other substituted phosphate groups; IEA:InterPro.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.120.1760; -; 1.
+DR   InterPro; IPR050324; CDP-alcohol_PTase-I.
+DR   InterPro; IPR004533; CDP-diaglyc--ser_O-PTrfase.
+DR   InterPro; IPR000462; CDP-OH_P_trans.
+DR   InterPro; IPR012616; CDP-OH_P_trans_C.
+DR   InterPro; IPR043130; CDP-OH_PTrfase_TM_dom.
+DR   InterPro; IPR048254; CDP_ALCOHOL_P_TRANSF_CS.
+DR   NCBIfam; TIGR00473; pssA; 1.
+DR   PANTHER; PTHR14269; CDP-DIACYLGLYCEROL--GLYCEROL-3-PHOSPHATE 3-PHOSPHATIDYLTRANSFERASE-RELATED; 1.
+DR   PANTHER; PTHR14269:SF61; CDP-DIACYLGLYCEROL--SERINE O-PHOSPHATIDYLTRANSFERASE; 1.
+DR   Pfam; PF08009; CDP-OH_P_tran_2; 1.
+DR   Pfam; PF01066; CDP-OH_P_transf; 1.
+DR   PROSITE; PS00379; CDP_ALCOHOL_P_TRANSF; 1.
+PE   3: Inferred from homology;
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003750};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        20..40
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        46..64
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        110..127
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        139..162
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        174..192
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        204..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          207..243
+FT                   /note="CDP-alcohol phosphatidyltransferase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF08009"
+FT   REGION          257..289
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        278..289
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   289 AA;  31179 MW;  20D90B197041C79F CRC64;
+     MPFDLNSPET PRRRFGPIPV RLLVPNVITL LAICAGLTAI RLSTEGRMEL AVAAIVFAAV
+     LDGIDGRVAR MIKGQSKFGA ELDSLADFVN FGVAPGLILY FWQLHDLNNV GWIAAMVFAI
+     SGGLRLARFN ATMDDPNKPA FAANFFTGVP APAGAITVLL PVYMGFLGAP TPPAVLTAVY
+     TLLIAFLMVS RLPVFSGKTV KMRVAPEMVL PLFVSVVLFI ALLIGYPWHI LSACSVLYLL
+     SLPVGWRSYR DHQRNAAADK GKGAPSGQKP TLVVNDPVPR DDDRPARLN
+//

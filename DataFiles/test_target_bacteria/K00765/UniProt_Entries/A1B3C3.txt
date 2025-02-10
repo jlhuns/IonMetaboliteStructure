@@ -1,0 +1,80 @@
+ID   A1B3C3_PARDP            Unreviewed;       225 AA.
+AC   A1B3C3;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   02-OCT-2024, entry version 109.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00020998, ECO:0000256|NCBIfam:TIGR00070};
+DE            EC=2.4.2.17 {ECO:0000256|ARBA:ARBA00011946, ECO:0000256|NCBIfam:TIGR00070};
+GN   OrderedLocusNames=Pden_1923 {ECO:0000313|EMBL:ABL70017.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL70017.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000256|ARBA:ARBA00024861}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000915};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000256|ARBA:ARBA00004667}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL70017.1; -; Genomic_DNA.
+DR   RefSeq; WP_011748214.1; NC_008686.1.
+DR   AlphaFoldDB; A1B3C3; -.
+DR   STRING; 318586.Pden_1923; -.
+DR   EnsemblBacteria; ABL70017; ABL70017; Pden_1923.
+DR   GeneID; 75501413; -.
+DR   KEGG; pde:Pden_1923; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_0_1_5; -.
+DR   OrthoDB; 9806435at2; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+PE   4: Predicted;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676,
+KW   ECO:0000313|EMBL:ABL70017.1};
+KW   Histidine biosynthesis {ECO:0000256|ARBA:ARBA00023102};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ABL70017.1}.
+FT   DOMAIN          54..223
+FT                   /note="ATP phosphoribosyltransferase catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01634"
+SQ   SEQUENCE   225 AA;  24614 MW;  133A82980276E7D3 CRC64;
+     MIRLGVPSKG RLMEQCFDWF AARGVRLSRA GSDREYAGRV DGAENVALVL LSAGEIPREL
+     MAGRIHLGVT GTDLIREKLA GWRSHVEELA PMGFGHADLI LAVPACWSDC DSLDDFATIA
+     RDFRAEHGFR LRIATKYHRL VRAWLSAEEV ADYQLVDSQG ATEGTVANLT AEAIADITSS
+     GETLRANHLK IIGEEPLLRS QATLLRSLSA GDETEVRDFV ARIGL
+//

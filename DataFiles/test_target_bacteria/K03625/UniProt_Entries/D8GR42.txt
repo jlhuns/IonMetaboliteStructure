@@ -1,0 +1,75 @@
+ID   D8GR42_CLOLD            Unreviewed;       158 AA.
+AC   D8GR42;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 71.
+DE   RecName: Full=Transcription antitermination protein NusB {ECO:0000256|HAMAP-Rule:MF_00073};
+DE   AltName: Full=Antitermination factor NusB {ECO:0000256|HAMAP-Rule:MF_00073};
+GN   Name=nusB {ECO:0000256|HAMAP-Rule:MF_00073,
+GN   ECO:0000313|EMBL:ADK14180.1};
+GN   OrderedLocusNames=CLJU_c11120 {ECO:0000313|EMBL:ADK14180.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14180.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14180.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Involved in transcription antitermination. Required for
+CC       transcription of ribosomal RNA (rRNA) genes. Binds specifically to the
+CC       boxA antiterminator sequence of the ribosomal RNA (rrn) operons.
+CC       {ECO:0000256|HAMAP-Rule:MF_00073}.
+CC   -!- SIMILARITY: Belongs to the NusB family. {ECO:0000256|ARBA:ARBA00005952,
+CC       ECO:0000256|HAMAP-Rule:MF_00073}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14180.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237777.1; NZ_LITS01000015.1.
+DR   AlphaFoldDB; D8GR42; -.
+DR   STRING; 748727.CLJU_c11120; -.
+DR   KEGG; clj:CLJU_c11120; -.
+DR   PATRIC; fig|748727.19.peg.4261; -.
+DR   eggNOG; COG0781; Bacteria.
+DR   HOGENOM; CLU_087843_3_1_9; -.
+DR   OrthoDB; 9811381at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006353; P:DNA-templated transcription termination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0031564; P:transcription antitermination; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.940.10; NusB-like; 1.
+DR   HAMAP; MF_00073; NusB; 1.
+DR   InterPro; IPR035926; NusB-like_sf.
+DR   InterPro; IPR011605; NusB_fam.
+DR   InterPro; IPR006027; NusB_RsmB_TIM44.
+DR   NCBIfam; TIGR01951; nusB; 1.
+DR   PANTHER; PTHR11078:SF3; ANTITERMINATION NUSB DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11078; N UTILIZATION SUBSTANCE PROTEIN B-RELATED; 1.
+DR   Pfam; PF01029; NusB; 1.
+DR   SUPFAM; SSF48013; NusB-like; 1.
+PE   3: Inferred from homology;
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_00073};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00073};
+KW   Transcription antitermination {ECO:0000256|ARBA:ARBA00022814,
+KW   ECO:0000256|HAMAP-Rule:MF_00073};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00073}.
+FT   DOMAIN          5..151
+FT                   /note="NusB/RsmB/TIM44"
+FT                   /evidence="ECO:0000259|Pfam:PF01029"
+SQ   SEQUENCE   158 AA;  18499 MW;  1BB37AA68F03E329 CRC64;
+     MNRKKSRELI MKLLFEMSIN REDFRSVLAN LEDNLEKKIE SKETDGAEEV YSENIDKLKN
+     VDMEYVKRVV KGIEENKDSL DKEIEKYLRN WTLNRLPKVD AAILRICTYE FLYEQDIPEK
+     VSINEAIELA KKYSSEKSAP FINGVLGNMI KDKSISKQ
+//

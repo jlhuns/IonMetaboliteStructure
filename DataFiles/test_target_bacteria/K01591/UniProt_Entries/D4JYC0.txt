@@ -1,0 +1,90 @@
+ID   D4JYC0_9FIRM            Unreviewed;       288 AA.
+AC   D4JYC0;
+DT   18-MAY-2010, integrated into UniProtKB/TrEMBL.
+DT   18-MAY-2010, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            EC=4.1.1.23 {ECO:0000256|HAMAP-Rule:MF_01215};
+DE   AltName: Full=OMP decarboxylase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            Short=OMPDCase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            Short=OMPdecase {ECO:0000256|HAMAP-Rule:MF_01215};
+GN   Name=pyrF {ECO:0000256|HAMAP-Rule:MF_01215};
+GN   ORFNames=FP2_15390 {ECO:0000313|EMBL:CBK99019.1};
+OS   Faecalibacterium prausnitzii L2-6.
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+OC   Oscillospiraceae; Faecalibacterium.
+OX   NCBI_TaxID=718252 {ECO:0000313|EMBL:CBK99019.1, ECO:0000313|Proteomes:UP000008804};
+RN   [1] {ECO:0000313|EMBL:CBK99019.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RG   metaHIT consortium -- http://www.metahit.eu/;
+RA   Pajon A., Turner K., Parkhill J., Duncan S., Flint H.;
+RT   "The genome sequence of Faecalibacterium prausnitzii L2/6.";
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CBK99019.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RA   Pajon A.;
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049157, ECO:0000256|HAMAP-
+CC         Rule:MF_01215};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000256|ARBA:ARBA00004861,
+CC       ECO:0000256|HAMAP-Rule:MF_01215}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 2 subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008847, ECO:0000256|HAMAP-Rule:MF_01215}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP929045; CBK99019.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D4JYC0; -.
+DR   STRING; 718252.FP2_15390; -.
+DR   KEGG; fpr:FP2_15390; -.
+DR   PATRIC; fig|718252.3.peg.2905; -.
+DR   eggNOG; COG0284; Bacteria.
+DR   HOGENOM; CLU_060704_1_1_9; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000008804; Chromosome.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   FunFam; 3.20.20.70:FF:000246; Orotidine 5'-phosphate decarboxylase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01215; OMPdecase_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR011995; OMPdecase_type-2.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR02127; pyrF_sub2; 1.
+DR   PANTHER; PTHR43375; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43375:SF1; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_01215};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01215};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01215}; Reference proteome {ECO:0000313|Proteomes:UP000008804}.
+FT   DOMAIN          16..269
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /evidence="ECO:0000259|SMART:SM00934"
+FT   ACT_SITE        98
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01215"
+SQ   SEQUENCE   288 AA;  31156 MW;  C7C822C5C9E80061 CRC64;
+     MTNMDKLYEA VEARGPVCVG LDTDFSYLPA DFVDSTLSKG ENIVRFNKKL IDATKAVAGC
+     YKVQIAYYES LGLEGLKAYA DTLKAVREAG VPVIADIKRG DIAKTAEMYA MGHFTGDFEA
+     DFVTLAPYMG LDSISPYLPY AEKQGKGMFV LCRTSNGGAK DFEYEKLADG RHVYDLVGDK
+     LNALGKDYMG EHGYSSIGLV IGGTHIEEAT EIRAKYQDSF FLIPGYGAQG GKAEDIAQYL
+     SKGNGGVVNS SRGILLAYKK QPGAAFDEAA YNECVNMKEA IAHACSLL
+//

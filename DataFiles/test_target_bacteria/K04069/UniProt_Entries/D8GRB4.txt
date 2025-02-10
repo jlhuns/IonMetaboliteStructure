@@ -1,0 +1,103 @@
+ID   D8GRB4_CLOLD            Unreviewed;       310 AA.
+AC   D8GRB4;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 65.
+DE   SubName: Full=Pyruvate formate-lyase activating enzyme {ECO:0000313|EMBL:ADK14252.1};
+DE            EC=1.97.1.4 {ECO:0000313|EMBL:ADK14252.1};
+GN   Name=pflA1 {ECO:0000313|EMBL:ADK14252.1};
+GN   OrderedLocusNames=CLJU_c11840 {ECO:0000313|EMBL:ADK14252.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14252.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14252.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-[protein] + reduced [flavodoxin] + S-adenosyl-L-
+CC         methionine = glycin-2-yl radical-[protein] + semiquinone [flavodoxin]
+CC         + 5'-deoxyadenosine + L-methionine + H(+); Xref=Rhea:RHEA:61976,
+CC         Rhea:RHEA-COMP:10622, Rhea:RHEA-COMP:14480, Rhea:RHEA-COMP:15993,
+CC         Rhea:RHEA-COMP:15994, ChEBI:CHEBI:15378, ChEBI:CHEBI:17319,
+CC         ChEBI:CHEBI:29947, ChEBI:CHEBI:32722, ChEBI:CHEBI:57618,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:59789, ChEBI:CHEBI:140311;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047365};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- SIMILARITY: Belongs to the organic radical-activating enzymes family.
+CC       {ECO:0000256|ARBA:ARBA00009777}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14252.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237849.1; NZ_LITS01000015.1.
+DR   AlphaFoldDB; D8GRB4; -.
+DR   STRING; 748727.CLJU_c11840; -.
+DR   KEGG; clj:CLJU_c11840; -.
+DR   PATRIC; fig|748727.19.peg.4188; -.
+DR   eggNOG; COG1180; Bacteria.
+DR   HOGENOM; CLU_058969_0_0_9; -.
+DR   OrthoDB; 9782387at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043365; F:[formate-C-acetyltransferase]-activating enzyme activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.70.20; -; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR040074; BssD/PflA/YjjW.
+DR   InterPro; IPR034457; Organic_radical-activating.
+DR   InterPro; IPR012839; Organic_radical_activase.
+DR   InterPro; IPR001989; Radical_activat_CS.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR02494; PFLE_PFLC; 1.
+DR   PANTHER; PTHR30352:SF4; PYRUVATE FORMATE-LYASE 2-ACTIVATING ENZYME; 1.
+DR   PANTHER; PTHR30352; PYRUVATE FORMATE-LYASE-ACTIVATING ENZYME; 1.
+DR   Pfam; PF13237; Fer4_10; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000371; PFL_act_enz; 1.
+DR   SFLD; SFLDG01118; activating_enzymes__group_2; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+DR   PROSITE; PS01087; RADICAL_ACTIVATING; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Lyase {ECO:0000313|EMBL:ADK14252.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:ADK14252.1}; Pyruvate {ECO:0000313|EMBL:ADK14252.1};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691}.
+FT   DOMAIN          23..303
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   DOMAIN          54..81
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+FT   DOMAIN          82..111
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+SQ   SEQUENCE   310 AA;  34718 MW;  4C71C8D24873FB32 CRC64;
+     MLNYQVNLDK KGIIFDIQRF SVHDGPGIRT IVFFKGCPLS CRWCSNPESQ CMEPQVMFIP
+     SKCIGCKKCY EVCSNGAIDF NLPSRVDQNK CVKCGKCVEN CYAGALNLAG NTRTVKELLL
+     ELKKDNIYYR RSGGGITLSG GEVTAQPEFA EELLKGCKQN GWHTAIETAA FTSQSVLERM
+     LPWLDLVMLD IKHMDANKHL EYTGKPNELI LQNAKLIAQF GVQLIIRVPV IPGVNSDENN
+     IRATANFATS LKSVKELHLL PYHRLGENKY EYLGHDYIMK GLQPPTKEEI NKLKELVEEC
+     GLICKVGGID
+//

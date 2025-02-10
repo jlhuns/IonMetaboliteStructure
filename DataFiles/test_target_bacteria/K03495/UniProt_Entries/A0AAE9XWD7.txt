@@ -1,0 +1,116 @@
+ID   A0AAE9XWD7_RHOPA        Unreviewed;       622 AA.
+AC   A0AAE9XWD7;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000256|ARBA:ARBA00020461, ECO:0000256|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000256|ARBA:ARBA00031800, ECO:0000256|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000256|HAMAP-Rule:MF_00129,
+GN   ECO:0000313|EMBL:WCL90422.1};
+GN   Synonyms=gidA {ECO:0000256|HAMAP-Rule:MF_00129};
+GN   ORFNames=TX73_001530 {ECO:0000313|EMBL:WCL90422.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90422.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90422.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34.
+CC       {ECO:0000256|ARBA:ARBA00003717, ECO:0000256|HAMAP-Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974, ECO:0000256|HAMAP-
+CC         Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000256|ARBA:ARBA00025948, ECO:0000256|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000256|ARBA:ARBA00007653,
+CC       ECO:0000256|HAMAP-Rule:MF_00129}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90422.1; -; Genomic_DNA.
+DR   RefSeq; WP_042440689.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XWD7; -.
+DR   GeneID; 66891304; -.
+DR   KEGG; rpa:TX73_001530; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030488; P:tRNA methylation; IEA:TreeGrafter.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   FunFam; 3.50.50.60:FF:000145; tRNA uridine 5-carboxymethylaminomethyl modification enzyme; 1.
+DR   FunFam; 1.10.150.570:FF:000001; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   FunFam; 3.50.50.60:FF:000002; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   Gene3D; 1.10.150.570; GidA associated domain, C-terminal subdomain; 1.
+DR   Gene3D; 1.10.10.1800; tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG/GidA; 1.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR049312; GIDA_C_N.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR026904; MnmG_C.
+DR   InterPro; IPR047001; MnmG_C_subdom.
+DR   InterPro; IPR044920; MnmG_C_subdom_sf.
+DR   InterPro; IPR040131; MnmG_N.
+DR   NCBIfam; TIGR00136; mnmG_gidA; 1.
+DR   PANTHER; PTHR11806; GLUCOSE INHIBITED DIVISION PROTEIN A; 1.
+DR   PANTHER; PTHR11806:SF0; PROTEIN MTO1 HOMOLOG, MITOCHONDRIAL; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_C; 1.
+DR   Pfam; PF21680; GIDA_C_1st; 1.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SMART; SM01228; GIDA_assoc_3; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+DR   PROSITE; PS01281; GIDA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00129};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|HAMAP-Rule:MF_00129};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630, ECO:0000256|HAMAP-
+KW   Rule:MF_00129};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_00129};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_00129}.
+FT   DOMAIN          539..609
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme C-terminal subdomain"
+FT                   /evidence="ECO:0000259|SMART:SM01228"
+FT   BINDING         11..16
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00129"
+FT   BINDING         270..284
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   622 AA;  67063 MW;  FE300A01903D5782 CRC64;
+     MRTSFDVIVI GGGHAGCEAA AAAARIGAAT ALVTHRFATV GAMSCNPAIG GLGKGHLVRE
+     VDALDGLMGR VADAGGIQFR MLNRRKGPAV RGPRAQADRK LYAAAMQTAI QGFPNLSVIE
+     GEADALLWQD GRVSGIRLGD GREFAAAAVV ITTGTFLRGL IHLGERSWPA GRIDEAPAMG
+     LSSSFEALGF KLGRLKTGTP PRLDGRTIDW SAVEMQPGDD PAEPFSVLTP AITTPQIECG
+     ITRTTTATHE VIRANVHRSP MYSGQIQSTG PRYCPSIEDK IVKFGDRDGH QIFLEPEGLD
+     DPTVYPNGIS TSLPEEVQRA ILKTIPGLER TEMLRPGYAI EYDHVDPREL EPTLQTKRLR
+     GLFLAGQING TTGYEEAAAQ GLVAGLNAGL SAGGGDLVVF DRADGYLGVM IDDLVTRGIT
+     EPYRMFTSRA EYRLTLRADN ADQRLTDKGL ALGCVGVERS AFHHDKMSAL SDAKALAQSL
+     SITPNEAAKH GLALNRDGQR RSAFDLLSYP EIEWAQVRAI WPELGKVDPA IAVHVEIDAK
+     YHVYLERQTA DVEAFRRDES LGLTDVDYAA VPGLSNEART RLERHRPHTV GQAGRLDGIT
+     PAALGILAAY LRREQRKRKS TG
+//

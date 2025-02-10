@@ -1,0 +1,181 @@
+ID   DNLJ_LACP3              Reviewed;         674 AA.
+AC   Q03AC3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=DNA ligase {ECO:0000255|HAMAP-Rule:MF_01588};
+DE            EC=6.5.1.2 {ECO:0000255|HAMAP-Rule:MF_01588};
+DE   AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   Name=ligA {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   OrderedLocusNames=LSEI_1055;
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441;
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K.S., Slesarev A., Wolf Y.I., Sorokin A., Mirkin B., Koonin E.V.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.-H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J.R., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M.H. Jr., Klaenhammer T.,
+RA   Richardson P., Kozyavkin S., Weimer B.C., Mills D.A.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: DNA ligase that catalyzes the formation of phosphodiester
+CC       linkages between 5'-phosphoryl and 3'-hydroxyl groups in double-
+CC       stranded DNA using NAD as a coenzyme and as the energy source for the
+CC       reaction. It is essential for DNA replication and repair of damaged
+CC       DNA. {ECO:0000255|HAMAP-Rule:MF_01588}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + (deoxyribonucleotide)n-3'-hydroxyl + 5'-phospho-
+CC         (deoxyribonucleotide)m = (deoxyribonucleotide)n+m + AMP + beta-
+CC         nicotinamide D-nucleotide.; EC=6.5.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01588};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01588};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01588};
+CC   -!- SIMILARITY: Belongs to the NAD-dependent DNA ligase family. LigA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01588}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ69849.1; -; Genomic_DNA.
+DR   RefSeq; WP_011674370.1; NC_008526.1.
+DR   RefSeq; YP_806291.1; NC_008526.1.
+DR   AlphaFoldDB; Q03AC3; -.
+DR   SMR; Q03AC3; -.
+DR   STRING; 321967.LSEI_1055; -.
+DR   PaxDb; 321967-LSEI_1055; -.
+DR   KEGG; lca:LSEI_1055; -.
+DR   PATRIC; fig|321967.11.peg.1027; -.
+DR   HOGENOM; CLU_007764_2_1_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003911; F:DNA ligase (NAD+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006288; P:base-excision repair, DNA ligation; IEA:TreeGrafter.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   CDD; cd17748; BRCT_DNA_ligase_like; 1.
+DR   CDD; cd00114; LIGANc; 1.
+DR   FunFam; 1.10.150.20:FF:000006; DNA ligase; 1.
+DR   FunFam; 1.10.150.20:FF:000007; DNA ligase; 1.
+DR   FunFam; 2.40.50.140:FF:000012; DNA ligase; 1.
+DR   FunFam; 3.30.470.30:FF:000001; DNA ligase; 1.
+DR   Gene3D; 6.20.10.30; -; 1.
+DR   Gene3D; 1.10.150.20; 5' to 3' exonuclease, C-terminal subdomain; 2.
+DR   Gene3D; 3.40.50.10190; BRCT domain; 1.
+DR   Gene3D; 3.30.470.30; DNA ligase/mRNA capping enzyme; 1.
+DR   Gene3D; 1.10.287.610; Helix hairpin bin; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_01588; DNA_ligase_A; 1.
+DR   InterPro; IPR001357; BRCT_dom.
+DR   InterPro; IPR036420; BRCT_dom_sf.
+DR   InterPro; IPR041663; DisA/LigA_HHH.
+DR   InterPro; IPR001679; DNA_ligase.
+DR   InterPro; IPR018239; DNA_ligase_AS.
+DR   InterPro; IPR033136; DNA_ligase_CS.
+DR   InterPro; IPR013839; DNAligase_adenylation.
+DR   InterPro; IPR013840; DNAligase_N.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004150; NAD_DNA_ligase_OB.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR004149; Znf_DNAligase_C4.
+DR   NCBIfam; TIGR00575; dnlj; 1.
+DR   PANTHER; PTHR23389; CHROMOSOME TRANSMISSION FIDELITY FACTOR 18; 1.
+DR   PANTHER; PTHR23389:SF9; DNA LIGASE; 1.
+DR   Pfam; PF00533; BRCT; 1.
+DR   Pfam; PF01653; DNA_ligase_aden; 1.
+DR   Pfam; PF03120; DNA_ligase_OB; 1.
+DR   Pfam; PF03119; DNA_ligase_ZBD; 1.
+DR   Pfam; PF12826; HHH_2; 1.
+DR   PIRSF; PIRSF001604; LigA; 1.
+DR   SMART; SM00292; BRCT; 1.
+DR   SMART; SM00532; LIGANc; 1.
+DR   SUPFAM; SSF52113; BRCT domain; 1.
+DR   SUPFAM; SSF56091; DNA ligase/mRNA capping enzyme, catalytic domain; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF47781; RuvA domain 2-like; 1.
+DR   PROSITE; PS50172; BRCT; 1.
+DR   PROSITE; PS01055; DNA_LIGASE_N1; 1.
+DR   PROSITE; PS01056; DNA_LIGASE_N2; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA repair; DNA replication; Ligase; Magnesium; Manganese;
+KW   Metal-binding; NAD; Reference proteome; Zinc.
+FT   CHAIN           1..674
+FT                   /note="DNA ligase"
+FT                   /id="PRO_0000313273"
+FT   DOMAIN          596..674
+FT                   /note="BRCT"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   ACT_SITE        123
+FT                   /note="N6-AMP-lysine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         42..46
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         91..92
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         121
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         144
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         178
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         294
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         318
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         412
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         415
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         430
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         435
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+SQ   SEQUENCE   674 AA;  73626 MW;  03FC3C1C4071261A CRC64;
+     MLAKPAAQFT LEEAQAEVEK LRKQLNQWRL EYYTKDAPTV TDNVYDDHYR DLQALEEAYP
+     KLVTPDSPTQ EVGDVINSDF AKVQHPIPML SMGDVFSFEE LSEWDARMQS NVGHPVDYNV
+     ELKIDGLALS LIYENGKLVQ GSTRGDGNVG EDVTRNVLTI ASVPKQLKQP LSLEVRGECY
+     MPKAAFAKLN ARQETEGGTP FANPRNAAAG SLRQLDAKVT AARELDTFIY TLIEPEQFNV
+     TTQHEAIAFM QALGFTTNPS SEVAGDMQAI DTYIKKYTTD RDALPYGIDG IVLKVNDLAL
+     QAQLGNTVKV PRWEIAYKFP PEEAETVIHD IVWTVGRTGV VTPTAVMDPV QLAGTTVARA
+     TLHNADMIRD KDIRIGDTVM LHKAGDIIPE VSRVLVAKRP ADTPPAPIPE VCPSCGQKLV
+     HLDDEVALRC INPMCPAQVQ EQLTHFASRN AMNIDGLGPK IVAQLQAKHL VKDVADLYHL
+     TAADLAKLDK FKEKSINNLL SAINNSRQNS VERLIFGLGI RHVGGKAARI LAEHFGDLDH
+     LMTASQEAIA DVPNIGPTIG EAIVTYFKAA TVQKLITQLR EADVNLRYTG PTKPVVKDSF
+     VAGKTVVITG KFAEFSRPAL TKQLEGLGAK VTGSVSKKTD ILIAGDAAGS KLAKAQSLNV
+     PIMNETELLA NLKD
+//

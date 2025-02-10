@@ -1,0 +1,106 @@
+ID   Q89YQ3_BACTN            Unreviewed;       411 AA.
+AC   Q89YQ3;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   OrderedLocusNames=BT_4678 {ECO:0000313|EMBL:AAO79783.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186 {ECO:0000313|EMBL:AAO79783.1, ECO:0000313|Proteomes:UP000001414};
+RN   [1] {ECO:0000313|EMBL:AAO79783.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2] {ECO:0000313|EMBL:AAO79783.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79783.1; -; Genomic_DNA.
+DR   RefSeq; NP_813589.1; NC_004663.1.
+DR   AlphaFoldDB; Q89YQ3; -.
+DR   STRING; 226186.BT_4678; -.
+DR   PaxDb; 226186-BT_4678; -.
+DR   EnsemblBacteria; AAO79783; AAO79783; BT_4678.
+DR   KEGG; bth:BT_4678; -.
+DR   PATRIC; fig|226186.12.peg.4758; -.
+DR   eggNOG; COG1760; Bacteria.
+DR   HOGENOM; CLU_022305_0_1_10; -.
+DR   InParanoid; Q89YQ3; -.
+DR   OrthoDB; 9805537at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.1330.90:FF:000006; L-serine ammonia-lyase; 1.
+DR   Gene3D; 3.30.1330.90; D-3-phosphoglycerate dehydrogenase, domain 3; 2.
+DR   InterPro; IPR029009; ASB_dom_sf.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR004644; Fe-S_L-Ser_mono.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR005131; Ser_deHydtase_bsu.
+DR   NCBIfam; TIGR00720; sda_mono; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+DR   Pfam; PF03315; SDH_beta; 1.
+DR   SUPFAM; SSF143548; Serine metabolism enzymes domain; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001414}.
+FT   DOMAIN          12..81
+FT                   /note="Serine dehydratase beta chain"
+FT                   /evidence="ECO:0000259|Pfam:PF03315"
+FT   DOMAIN          158..405
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   411 AA;  44655 MW;  8853CDA7D9A33050 CRC64;
+     MVLTKAHPSM KSIKELYRIG TGPSSSHTMG PRKAAEMFVE RHPDAASFKV TLYGSLAATG
+     KGHMTDVAII DTLQPAAPVE IVWQPKVFLP FHPNGMTFAA LDADNKILEN WTVYSIGGGA
+     LAENNDNPTI ESPEVYGMNN MTEILQWCER TGKSYWEYVK ECENEDIWDY LAEVWDTMKD
+     AIHRGLEAEG VLPGPLNLRR KASTYYIRAT GYKQSLQSRG LVFSYALAVS EENASGGKIV
+     TAPTCGSCGV MPAVLYHLQK SRDFSDMRIL RALATAGLIG NIVKFNASIS GAEVGCQGEV
+     GVACAMASAA ANQLFGGSPA QIEYAAEMGL EHHLGMTCDP VCGLVQIPCI ERNAYAAARA
+     LDANLYSAFT DGMHRVSFDK VVQVMKQTGH DLPSLYKETS EGGLAKDYQQ M
+//

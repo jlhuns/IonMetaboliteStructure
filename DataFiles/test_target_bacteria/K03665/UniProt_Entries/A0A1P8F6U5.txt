@@ -1,0 +1,124 @@
+ID   A0A1P8F6U5_9CHLR        Unreviewed;       375 AA.
+AC   A0A1P8F6U5;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 29.
+DE   RecName: Full=GTPase HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+DE   AltName: Full=GTP-binding protein HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+GN   Name=hflX {ECO:0000256|HAMAP-Rule:MF_00900};
+GN   ORFNames=Dform_00862 {ECO:0000313|EMBL:APV44207.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44207.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: GTPase that associates with the 50S ribosomal subunit and may
+CC       have a role during protein synthesis or ribosome biogenesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006809-2};
+CC   -!- SUBUNIT: Monomer. Associates with the 50S ribosomal subunit.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC       Note=May associate with membranes. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. HflX GTPase family. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44207.1; -; Genomic_DNA.
+DR   RefSeq; WP_076003934.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F6U5; -.
+DR   STRING; 1839801.Dform_00862; -.
+DR   KEGG; dfo:Dform_00862; -.
+DR   OrthoDB; 9812272at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043022; F:ribosome binding; IEA:TreeGrafter.
+DR   CDD; cd01878; HflX; 1.
+DR   FunFam; 3.40.50.11060:FF:000001; GTPase HflX; 1.
+DR   Gene3D; 6.10.250.2860; -; 1.
+DR   Gene3D; 3.40.50.11060; GTPase HflX, N-terminal domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00900; GTPase_HflX; 1.
+DR   InterPro; IPR030394; G_HFLX_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR032305; GTP-bd_M.
+DR   InterPro; IPR016496; GTPase_HflX.
+DR   InterPro; IPR025121; GTPase_HflX_N.
+DR   InterPro; IPR042108; GTPase_HflX_N_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03156; GTP_HflX; 1.
+DR   PANTHER; PTHR10229:SF0; GTP-BINDING PROTEIN 6-RELATED; 1.
+DR   PANTHER; PTHR10229; GTP-BINDING PROTEIN HFLX; 1.
+DR   Pfam; PF16360; GTP-bdg_M; 1.
+DR   Pfam; PF13167; GTP-bdg_N; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF006809; GTP-binding_hflX_prd; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51705; G_HFLX; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00900};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR006809-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR006809-2};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00900}; Reference proteome {ECO:0000313|Proteomes:UP000185934}.
+FT   DOMAIN          193..369
+FT                   /note="Hflx-type G"
+FT                   /evidence="ECO:0000259|PROSITE:PS51705"
+FT   COILED          159..186
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   BINDING         199..206
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         206
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-2"
+FT   BINDING         224..228
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         226
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-2"
+FT   BINDING         246..249
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         312..315
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+FT   BINDING         347..349
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006809-1"
+SQ   SEQUENCE   375 AA;  41642 MW;  F74A5B281EB4EEEC CRC64;
+     MLVAINTGNP KAQSEWTADE SLTELAELVK TAGGVVVGRL TQRLPQPQKV TYLGKGKLDE
+     LIESRAQINY DTAVFDDELT PLQQRTLEEA LKVKVIDRVA LILDIFARHA HTREGKLQVE
+     LAQLQYLLPR LAGQWSHLER LGGGIGTRGP GESQLETDKR ILQRKIVVLE SKLDDVSRQR
+     DLYRQKRKRE GIPVAALVGY TNSGKSSLMR AMTKADVFVE DKLFATLDPT TRRMTLPDKR
+     QILITDTVGF IKKLPPTIVK AFRATLEELS EASILIHVID ITSRNAVGQC QTVETILKEL
+     EIDEKPRITV FNKIDLLPGL VNAKNETEAL SGLKERGVEP ACTVFTSATN RWGLKDLSLG
+     IGQLVPGNST FGFQT
+//

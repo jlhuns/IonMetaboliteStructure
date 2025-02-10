@@ -1,0 +1,156 @@
+ID   ISPT_CAMJE              Reviewed;         222 AA.
+AC   Q9PP99; Q0PA66;
+DT   16-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Isoprenyl transferase;
+DE            EC=2.5.1.-;
+GN   Name=uppS; OrderedLocusNames=Cj0824;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.46 ANGSTROMS) IN COMPLEX WITH SUBSTRATE, AND
+RP   SUBUNIT.
+RA   Nocek B., Gu M., Grimshaw S., Anderson W.F., Joachimiak A.;
+RT   "Crystal structure of a probable undecaprenyl diphosph synthase (upps) from
+RT   campylobacter jejuni.";
+RL   Submitted (NOV-2011) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)
+CC       with allylic pyrophosphates generating different type of terpenoids.
+CC       {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|Ref.2}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34952.1; -; Genomic_DNA.
+DR   PIR; H81354; H81354.
+DR   RefSeq; WP_002852565.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344231.1; NC_002163.1.
+DR   PDB; 3UGS; X-ray; 2.46 A; A/B=1-222.
+DR   PDBsum; 3UGS; -.
+DR   AlphaFoldDB; Q9PP99; -.
+DR   SMR; Q9PP99; -.
+DR   IntAct; Q9PP99; 11.
+DR   STRING; 192222.Cj0824; -.
+DR   PaxDb; 192222-Cj0824; -.
+DR   EnsemblBacteria; CAL34952; CAL34952; Cj0824.
+DR   GeneID; 905127; -.
+DR   KEGG; cje:Cj0824; -.
+DR   PATRIC; fig|192222.6.peg.812; -.
+DR   eggNOG; COG0020; Bacteria.
+DR   HOGENOM; CLU_038505_1_1_7; -.
+DR   OrthoDB; 4191603at2; -.
+DR   EvolutionaryTrace; Q9PP99; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0045547; F:dehydrodolichyl diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016094; P:polyprenol biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   Gene3D; 3.40.1180.10; Decaprenyl diphosphate synthase-like; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   NCBIfam; TIGR00055; uppS; 1.
+DR   PANTHER; PTHR10291:SF0; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE 2; 1.
+DR   PANTHER; PTHR10291; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE FAMILY MEMBER; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; Undecaprenyl diphosphate synthase; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Magnesium; Metal-binding; Reference proteome; Transferase.
+FT   CHAIN           1..222
+FT                   /note="Isoprenyl transferase"
+FT                   /id="PRO_0000123587"
+FT   ACT_SITE        12
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        60
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         12
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         13..16
+FT                   /ligand="substrate"
+FT   BINDING         17
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         57..59
+FT                   /ligand="substrate"
+FT   BINDING         61
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         63
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         171
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000269|Ref.2"
+FT   BINDING         177..179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         190
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          6..11
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           31..45
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          50..58
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           59..62
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           65..85
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   TURN            87..90
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          91..97
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           99..101
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           104..117
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          122..131
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           133..146
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           153..158
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          160..162
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          167..174
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   TURN            183..188
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   STRAND          190..194
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+FT   HELIX           203..215
+FT                   /evidence="ECO:0007829|PDB:3UGS"
+SQ   SEQUENCE   222 AA;  26087 MW;  D8F42F7967EA8712 CRC64;
+     MNELKHLAVV MDGNRRWARA KGFLAKLGYS QGVKTMQKLM EVCMEENISN LSLFAFSTEN
+     WKRPKDEIDF IFELLDRCLD EALEKFEKNN VRLRAIGDLS RLEDKVREKI TLVEEKTKHC
+     DALCVNLAIS YGARDEIIRA AKRVIEKKLE LNEENLTQNL DLPLDVDLML RVGNAKRLSN
+     FLLWQCSYAE IYFSETLFPS LTKREFKRII KEFRNRERTF GK
+//

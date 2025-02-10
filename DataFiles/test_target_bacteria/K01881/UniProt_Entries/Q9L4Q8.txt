@@ -1,0 +1,132 @@
+ID   SYP_ACESD               Reviewed;         481 AA.
+AC   Q9L4Q8; E3PU03;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Proline--tRNA ligase;
+DE            EC=6.1.1.15;
+DE   AltName: Full=Prolyl-tRNA synthetase;
+DE            Short=ProRS;
+GN   Name=proS; OrderedLocusNames=CLOST_2239;
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF;
+RX   PubMed=10085076; DOI=10.1074/jbc.274.13.8445;
+RA   Kabisch U.C., Graentzdoerffer A., Schierhorn A., Ruecknagel K.P.,
+RA   Andreesen J.R., Pich A.;
+RT   "Identification of D-proline reductase from Clostridium sticklandii as a
+RT   selenoenzyme and indications for a catalytically active pyruvoyl group
+RT   derived from a cysteine residue by cleavage of a proprotein.";
+RL   J. Biol. Chem. 274:8445-8454(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF;
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+RN   [3]
+RP   PROLINE AND CYSTEINE ACTIVATION, LACK OF EDITING ACTIVITY, AND KINETIC
+RP   PARAMETERS.
+RX   PubMed=12130657; DOI=10.1074/jbc.m206928200;
+RA   Ahel I., Stathopoulos C., Ambrogelly A., Sauerwald A., Toogood H.,
+RA   Hartsch T., Soell D.;
+RT   "Cysteine activation is an inherent in vitro property of prolyl-tRNA
+RT   synthetases.";
+RL   J. Biol. Chem. 277:34743-34748(2002).
+CC   -!- FUNCTION: Catalyzes the attachment of proline to tRNA(Pro) in a two-
+CC       step reaction: proline is first activated by ATP to form Pro-AMP and
+CC       then transferred to the acceptor end of tRNA(Pro). Can inadvertently
+CC       accommodate and process cysteine. Misacylated Cys-tRNA(Pro) is not
+CC       edited by ProRS; this function may be provided by ProX.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Pro) + L-proline + ATP = L-prolyl-tRNA(Pro) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:14305, Rhea:RHEA-COMP:9700, Rhea:RHEA-
+CC         COMP:9702, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78532, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.15;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.05 mM for proline {ECO:0000269|PubMed:12130657};
+CC         KM=0.01 mM for cysteine {ECO:0000269|PubMed:12130657};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- DOMAIN: Consists of three domains: the N-terminal catalytic domain, the
+CC       anticodon-binding domain and the C-terminal extension. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       ProS type 3 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ130879; CAB71307.1; -; Genomic_DNA.
+DR   EMBL; FP565809; CBH22357.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q9L4Q8; -.
+DR   SMR; Q9L4Q8; -.
+DR   STRING; 1511.CLOST_2239; -.
+DR   KEGG; cst:CLOST_2239; -.
+DR   eggNOG; COG0442; Bacteria.
+DR   HOGENOM; CLU_001882_4_2_9; -.
+DR   SABIO-RK; Q9L4Q8; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0017101; C:aminoacyl-tRNA synthetase multienzyme complex; IEA:TreeGrafter.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004827; F:proline-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0006433; P:prolyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00862; ProRS_anticodon_zinc; 1.
+DR   CDD; cd00778; ProRS_core_arch_euk; 1.
+DR   FunFam; 3.40.50.800:FF:000005; bifunctional glutamate/proline--tRNA ligase; 1.
+DR   FunFam; 3.30.930.10:FF:000023; Proline--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.110.30; C-terminal domain of ProRS; 1.
+DR   HAMAP; MF_01571; Pro_tRNA_synth_type3; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR002316; Pro-tRNA-ligase_IIa.
+DR   InterPro; IPR004499; Pro-tRNA-ligase_IIa_arc-type.
+DR   InterPro; IPR016061; Pro-tRNA_ligase_II_C.
+DR   InterPro; IPR017449; Pro-tRNA_synth_II.
+DR   InterPro; IPR033721; ProRS_core_arch_euk.
+DR   NCBIfam; TIGR00408; proS_fam_I; 1.
+DR   PANTHER; PTHR43382:SF2; BIFUNCTIONAL GLUTAMATE_PROLINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR43382; PROLYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF09180; ProRS-C_1; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PRINTS; PR01046; TRNASYNTHPRO.
+DR   SMART; SM00946; ProRS-C_1; 1.
+DR   SUPFAM; SSF64586; C-terminal domain of ProRS; 1.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   1: Evidence at protein level;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..481
+FT                   /note="Proline--tRNA ligase"
+FT                   /id="PRO_0000139328"
+SQ   SEQUENCE   481 AA;  55145 MW;  9D04371CC0056123 CRC64;
+     MAKKDQEFVK DITNMDEDFP QWYTDVITKT DLVDYSPVKG FMVIKPYGYA IWENIQAFLD
+     RRFKETGHQN CYFPLLIPES LLNKEKEHVE GFAPEVAWVT HGGSEKLAER LCVRPTSETI
+     ICSMYSKWLT SYRELPYLYN QWCSVVRWEK STRPFLRTSE FLWQEGHTLH ETAEEAQAET
+     LQMLAIYKEM AEDLLAIPVV DGRKSDRERF AGAAATYTIE ALMHDGKALQ SGTSHNLAQH
+     FTKAFDITFQ GRTGELEYPH HTSWGASTRL IGGIIMVHGD NRGLVLPPRV APTQVVIIPI
+     AQNKEGVLDK AYEIKKELEA KGIRVTLDDD TNYSPGWKFN QYEMKGVPLR LEIGPRDIEN
+     NVAMIARRDT LSKDSYSLDN IGDTVKNLLD TVHTDMLERA RAHRDSKTFT FKDYEEFKRK
+     MIETPGFAKG MWCGEEECEA KIKEDTGVTI RCIPFVQENL GETCQFCGKP AKHMVYLAKA
+     Y
+//

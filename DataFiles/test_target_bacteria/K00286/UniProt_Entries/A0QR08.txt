@@ -1,0 +1,116 @@
+ID   A0QR08_MYCS2            Unreviewed;       286 AA.
+AC   A0QR08;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=Pyrroline-5-carboxylate reductase {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE            Short=P5C reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            Short=P5CR {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            EC=1.5.1.2 {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE   AltName: Full=PCA reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+GN   Name=proC {ECO:0000256|HAMAP-Rule:MF_01925,
+GN   ECO:0000313|EMBL:ABK74403.1};
+GN   OrderedLocusNames=MSMEG_0943 {ECO:0000313|EMBL:ABK74403.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK74403.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK74403.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reduction of 1-pyrroline-5-carboxylate (PCA) to
+CC       L-proline. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NAD(+) = (S)-1-pyrroline-5-carboxylate + NADH + 2
+CC         H(+); Xref=Rhea:RHEA:14105, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NADP(+) = (S)-1-pyrroline-5-carboxylate + NADPH +
+CC         2 H(+); Xref=Rhea:RHEA:14109, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925,
+CC         ECO:0000256|RuleBase:RU003903};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-proline
+CC       from L-glutamate 5-semialdehyde: step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_01925, ECO:0000256|RuleBase:RU003903}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- SIMILARITY: Belongs to the pyrroline-5-carboxylate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00005525, ECO:0000256|HAMAP-Rule:MF_01925,
+CC       ECO:0000256|RuleBase:RU003903}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74403.1; -; Genomic_DNA.
+DR   RefSeq; WP_011727304.1; NZ_SIJM01000010.1.
+DR   RefSeq; YP_885346.1; NC_008596.1.
+DR   AlphaFoldDB; A0QR08; -.
+DR   STRING; 246196.MSMEG_0943; -.
+DR   PaxDb; 246196-MSMEI_0920; -.
+DR   GeneID; 66739110; -.
+DR   KEGG; msb:LJ00_04680; -.
+DR   KEGG; msm:MSMEG_0943; -.
+DR   PATRIC; fig|246196.19.peg.933; -.
+DR   eggNOG; COG0345; Bacteria.
+DR   OrthoDB; 9805754at2; -.
+DR   UniPathway; UPA00098; UER00361.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004735; F:pyrroline-5-carboxylate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 1.10.3730.10:FF:000001; Pyrroline-5-carboxylate reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 1.10.3730.10; ProC C-terminal domain-like; 1.
+DR   HAMAP; MF_01925; P5C_reductase; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR028939; P5C_Rdtase_cat_N.
+DR   InterPro; IPR053790; P5CR-like.
+DR   InterPro; IPR029036; P5CR_dimer.
+DR   InterPro; IPR000304; Pyrroline-COOH_reductase.
+DR   NCBIfam; TIGR00112; proC; 1.
+DR   PANTHER; PTHR11645; PYRROLINE-5-CARBOXYLATE REDUCTASE; 1.
+DR   PANTHER; PTHR11645:SF0; PYRROLINE-5-CARBOXYLATE REDUCTASE 3; 1.
+DR   Pfam; PF03807; F420_oxidored; 1.
+DR   Pfam; PF14748; P5CR_dimer; 1.
+DR   PIRSF; PIRSF000193; Pyrrol-5-carb_rd; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00521; P5CR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925,
+KW   ECO:0000256|RuleBase:RU003903};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01925};
+KW   Proline biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925,
+KW   ECO:0000256|RuleBase:RU003903};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          3..84
+FT                   /note="Pyrroline-5-carboxylate reductase catalytic N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF03807"
+FT   DOMAIN          165..281
+FT                   /note="Pyrroline-5-carboxylate reductase dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF14748"
+FT   BINDING         7..12
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000193-1"
+FT   BINDING         67..70
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000193-1"
+SQ   SEQUENCE   286 AA;  28989 MW;  8D33671128B4AE75 CRC64;
+     MSRIAIIGGG SMGEALLSGL LRAGRQVKDM VVAEKFPERA KYLADKYSVR VTSVADAAEN
+     AHYVVVAVKP ADVEKVIGEI AEAAANAETD TAEQVFVTIA AGVGTAYYEA KLPAGSPVIR
+     VMPNAPVIVG GGVSALAPGR FATPEQLKEV STLFDAVGGV ITVSESQLDA VTALSGSGPA
+     YFFLMAEAMV DAGVAVGLSR AVATDLVAQT MAGSAAMLLD RLDQVNAAGG AALDTTPAQL
+     RATVTSPAGT TAAGLRELER GGLRAAVANA VEAAKTRSEQ LGITSE
+//

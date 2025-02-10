@@ -1,0 +1,135 @@
+ID   Q6NAM2_RHOPA            Unreviewed;       427 AA.
+AC   Q6NAM2;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 135.
+DE   RecName: Full=Phosphoribosylamine--glycine ligase {ECO:0000256|ARBA:ARBA00013255, ECO:0000256|HAMAP-Rule:MF_00138};
+DE            EC=6.3.4.13 {ECO:0000256|ARBA:ARBA00013255, ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=GARS {ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Glycinamide ribonucleotide synthetase {ECO:0000256|ARBA:ARBA00042242, ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Phosphoribosylglycinamide synthetase {ECO:0000256|ARBA:ARBA00042864, ECO:0000256|HAMAP-Rule:MF_00138};
+GN   Name=garS {ECO:0000313|EMBL:CAE26605.1};
+GN   Synonyms=purD {ECO:0000256|HAMAP-Rule:MF_00138,
+GN   ECO:0000313|EMBL:WCL91294.1};
+GN   OrderedLocusNames=RPA1162 {ECO:0000313|EMBL:CAE26605.1};
+GN   ORFNames=TX73_005965 {ECO:0000313|EMBL:WCL91294.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE26605.1};
+RN   [1] {ECO:0000313|EMBL:WCL91294.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91294.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE26605.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE26605.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91294.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91294.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + glycine + ATP = N(1)-(5-
+CC         phospho-beta-D-ribosyl)glycinamide + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:17453, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57305, ChEBI:CHEBI:58681,
+CC         ChEBI:CHEBI:143788, ChEBI:CHEBI:456216; EC=6.3.4.13;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00138};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 2/2. {ECO:0000256|ARBA:ARBA00005174,
+CC       ECO:0000256|HAMAP-Rule:MF_00138}.
+CC   -!- SIMILARITY: Belongs to the GARS family. {ECO:0000256|ARBA:ARBA00038345,
+CC       ECO:0000256|HAMAP-Rule:MF_00138}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572596; CAE26605.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91294.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156726.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1162; -.
+DR   GeneID; 66892183; -.
+DR   KEGG; rpa:TX73_005965; -.
+DR   eggNOG; COG0151; Bacteria.
+DR   HOGENOM; CLU_027420_3_1_5; -.
+DR   PhylomeDB; Q6NAM2; -.
+DR   UniPathway; UPA00074; UER00125.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0004637; F:phosphoribosylamine-glycine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   FunFam; 3.30.470.20:FF:000031; Phosphoribosylamine--glycine ligase; 1.
+DR   FunFam; 3.40.50.20:FF:000006; Phosphoribosylamine--glycine ligase, chloroplastic; 1.
+DR   FunFam; 3.90.600.10:FF:000001; Trifunctional purine biosynthetic protein adenosine-3; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   Gene3D; 3.90.600.10; Phosphoribosylglycinamide synthetase, C-terminal domain; 1.
+DR   HAMAP; MF_00138; GARS; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR020561; PRibGlycinamid_synth_ATP-grasp.
+DR   InterPro; IPR000115; PRibGlycinamide_synth.
+DR   InterPro; IPR020560; PRibGlycinamide_synth_C-dom.
+DR   InterPro; IPR037123; PRibGlycinamide_synth_C_sf.
+DR   InterPro; IPR020559; PRibGlycinamide_synth_CS.
+DR   InterPro; IPR020562; PRibGlycinamide_synth_N.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   NCBIfam; TIGR00877; purD; 1.
+DR   PANTHER; PTHR43472; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE; 1.
+DR   PANTHER; PTHR43472:SF1; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF01071; GARS_A; 1.
+DR   Pfam; PF02843; GARS_C; 1.
+DR   Pfam; PF02844; GARS_N; 1.
+DR   SMART; SM01209; GARS_A; 1.
+DR   SMART; SM01210; GARS_C; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   SUPFAM; SSF51246; Rudiment single hybrid motif; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00184; GARS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00138};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_00138}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          107..312
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+SQ   SEQUENCE   427 AA;  44942 MW;  1E251B62298DA162 CRC64;
+     MNILLLGSGG REHALAWKIA ASPLVTKLWC APGNAGIARE ATCVALDIGN HQAVVEFCKA
+     NAVDLVVVGP EAPLAAGIVD DLAAAGIKAF GPSRKASQLE SSKGFTKDLC KAHDIPTAAY
+     ERFGDPNQAK TYIRAQGAPI VIKADGLAAG KGVVVAMTVA EAEAAVDMMF GGGLGSAGVE
+     VVVEDFLVGE EASFFVLCDG EHALPLATAQ DHKRAYDGDK GPNTGGMGAY SPAPVMTDAI
+     CQQAMQRIIY PTLKAMKAMG APFKGVLFAG LMITDEGPQL IEYNVRFGDP ECQVLMMRMM
+     SDIVPALLAC ADGQLDHFSL RWHDEPALTV VMAAKGYPGT YEKGTRIAGL ERADAIAGVQ
+     IFHAGTIASG DWILANGGRV LAVTASAKTV AEAQRRAYEA IGVINWPEGF CRRDIGWQAV
+     ARERRGK
+//

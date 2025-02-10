@@ -1,0 +1,148 @@
+ID   UVEN_MICLC              Reviewed;         279 AA.
+AC   P46303; C5CCV3;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 2.
+DT   05-FEB-2025, entry version 149.
+DE   RecName: Full=Ultraviolet N-glycosylase/AP lyase;
+DE   AltName: Full=Pyrimidine dimer glycosylase;
+DE   AltName: Full=UV-endonuclease;
+DE   Contains:
+DE     RecName: Full=UV endonuclease 32 kDa isoform;
+DE   Contains:
+DE     RecName: Full=UV endonuclease 31 kDa isoform;
+GN   Name=pdg; OrderedLocusNames=Mlut_18220;
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-35, AND FUNCTION.
+RX   PubMed=7559510; DOI=10.1074/jbc.270.40.23475;
+RA   Piersen C.E., Prince M.A., Augustine M.L., Dodson M.L., Lloyd R.S.;
+RT   "Purification and cloning of Micrococcus luteus ultraviolet endonuclease,
+RT   an N-glycosylase/abasic lyase that proceeds via an imino enzyme-DNA
+RT   intermediate.";
+RL   J. Biol. Chem. 270:23475-23484(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 / CCUG 5858 / IAM
+RC   1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230;
+RX   PubMed=19948807; DOI=10.1128/jb.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- FUNCTION: DNA repair enzyme that has both DNA N-glycosylase activity
+CC       and AP-lyase activity. Initiates repair at cis-syn pyrimidine dimers.
+CC       Proceeds via an imino enzyme:DNA intermediate.
+CC       {ECO:0000269|PubMed:7559510}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000250};
+CC   -!- MISCELLANEOUS: Readthrough of the terminator UAG occurs between codons
+CC       for Gly-268 and Ala-270. Two forms of 31 kDa and 32 kDa have been
+CC       detected.
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U22181; AAA86508.1; ALT_TERM; Genomic_DNA.
+DR   EMBL; CP001628; ACS31305.1; -; Genomic_DNA.
+DR   RefSeq; WP_010080285.1; NZ_WBMF01000101.1.
+DR   STRING; 465515.Mlut_18220; -.
+DR   EnsemblBacteria; ACS31305; ACS31305; Mlut_18220.
+DR   GeneID; 93343687; -.
+DR   KEGG; mlu:Mlut_18220; -.
+DR   eggNOG; COG0177; Bacteria.
+DR   HOGENOM; CLU_012862_3_2_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019104; F:DNA N-glycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003906; F:DNA-(apurinic or apyrimidinic site) endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006285; P:base-excision repair, AP site formation; IEA:TreeGrafter.
+DR   CDD; cd00056; ENDO3c; 1.
+DR   FunFam; 1.10.340.30:FF:000001; Endonuclease III; 1.
+DR   Gene3D; 1.10.1670.10; Helix-hairpin-Helix base-excision DNA repair enzymes (C-terminal); 1.
+DR   Gene3D; 1.10.340.30; Hypothetical protein, domain 2; 1.
+DR   HAMAP; MF_00942; Nth; 1.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR004036; Endonuclease-III-like_CS2.
+DR   InterPro; IPR003651; Endonuclease3_FeS-loop_motif.
+DR   InterPro; IPR004035; Endouclease-III_FeS-bd_BS.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR023170; HhH_base_excis_C.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR005759; Nth.
+DR   NCBIfam; TIGR01083; nth; 1.
+DR   PANTHER; PTHR10359; A/G-SPECIFIC ADENINE GLYCOSYLASE/ENDONUCLEASE III; 1.
+DR   PANTHER; PTHR10359:SF18; ENDONUCLEASE III; 1.
+DR   Pfam; PF10576; EndIII_4Fe-2S; 1.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SMART; SM00525; FES; 1.
+DR   SUPFAM; SSF48150; DNA-glycosylase; 1.
+DR   PROSITE; PS00764; ENDONUCLEASE_III_1; 1.
+DR   PROSITE; PS01155; ENDONUCLEASE_III_2; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Direct protein sequencing; DNA damage; DNA repair; Endonuclease;
+KW   Glycosidase; Hydrolase; Iron; Iron-sulfur; Metal-binding; Nuclease;
+KW   Reference proteome; RNA suppression of termination.
+FT   CHAIN           1..279
+FT                   /note="UV endonuclease 32 kDa isoform"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000001742"
+FT   CHAIN           1..268
+FT                   /note="UV endonuclease 31 kDa isoform"
+FT                   /id="PRO_0000001743"
+FT   DOMAIN          123..142
+FT                   /note="HhH"
+FT   REGION          256..279
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         203
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         210
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         213
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         219
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        172..185
+FT                   /note="GKGRARRGRPVPPA -> VKVEHAVGALFPR (in Ref. 2;
+FT                   ACS31305)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        212
+FT                   /note="R -> A (in Ref. 2; ACS31305)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        223
+FT                   /note="A -> G (in Ref. 2; ACS31305)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        257..279
+FT                   /note="AGAAGPRPRAGGXAPGLPAQPFR -> RRELRALGHGLEA (in Ref. 2;
+FT                   ACS31305)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   279 AA;  30471 MW;  C385369A1827C005 CRC64;
+     METESTGTPT GETRLALVRR ARRIDRILAE TYPYAVAELD FETPFELLVA TVLSAQTTDV
+     RVNAATPALF ARFPDAHAMA AATEPELQEL VRSTGFYRNK ASAILRLSQE LVGRHDGEVP
+     ARLEDLVALP GVGRKTAFVV LGNAFGQPGI TVDTHFGRLA RRLGFTDETD PGKGRARRGR
+     PVPPARDWTM LSHRLIFHGR RVCHARRPAC GRCPIARWCP SYAAGETDPE RARALLAYEL
+     KPGREELLEL LRAGRTAGAA GPRPRAGGXA PGLPAQPFR
+//

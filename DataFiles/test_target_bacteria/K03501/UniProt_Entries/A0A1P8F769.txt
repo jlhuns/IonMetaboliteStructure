@@ -1,0 +1,90 @@
+ID   A0A1P8F769_9CHLR        Unreviewed;       238 AA.
+AC   A0A1P8F769;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 30.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000256|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.- {ECO:0000256|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000256|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000256|HAMAP-Rule:MF_00074};
+GN   Name=gidB {ECO:0000313|EMBL:APV44324.1};
+GN   Synonyms=rsmG {ECO:0000256|HAMAP-Rule:MF_00074,
+GN   ECO:0000313|EMBL:APV44324.1};
+GN   ORFNames=Dform_00983 {ECO:0000313|EMBL:APV44324.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44324.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the N7 position of a guanine in 16S
+CC       rRNA. {ECO:0000256|HAMAP-Rule:MF_00074}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000256|HAMAP-Rule:MF_00074}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44324.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004019.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F769; -.
+DR   STRING; 1839801.Dform_00983; -.
+DR   KEGG; dfo:Dform_00983; -.
+DR   OrthoDB; 9808773at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   FunFam; 3.40.50.150:FF:000041; Ribosomal RNA small subunit methyltransferase G; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00138; rsmG_gidB; 1.
+DR   PANTHER; PTHR31760; S-ADENOSYL-L-METHIONINE-DEPENDENT METHYLTRANSFERASES SUPERFAMILY PROTEIN; 1.
+DR   PANTHER; PTHR31760:SF0; S-ADENOSYL-L-METHIONINE-DEPENDENT METHYLTRANSFERASES SUPERFAMILY PROTEIN; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   PIRSF; PIRSF003078; GidB; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00074};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_00074}; Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552, ECO:0000256|HAMAP-
+KW   Rule:MF_00074};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_00074};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00074, ECO:0000313|EMBL:APV44324.1}.
+FT   BINDING         77
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00074"
+FT   BINDING         82
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00074"
+FT   BINDING         100..102
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00074"
+FT   BINDING         128..129
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00074"
+FT   BINDING         147
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   238 AA;  26058 MW;  467A30EE69E7BF5A CRC64;
+     MILPTLRTGA EELGLRLSEE QFGQFEKYFH LLVEWNGRFN LTAVTDYTGV QTTHFLDSLS
+     LVKSGIDFES LKVIDIGAGA GFPGLPLKVA FPAIKLILLE ATGKKAVFLK ETAAALGLEG
+     VTVLNARAED AARQPDYRER IDLAVSRAVA SLDTLCELCL PFCRVGATFI AMKKGEIASE
+     IEYAKAAIET LGGRLYEVKE ISLAGLPDPR QLVIIEKIKR TPPEYPRRSG IPAKNPLR
+//

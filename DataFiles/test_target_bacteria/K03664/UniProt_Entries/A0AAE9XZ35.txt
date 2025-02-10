@@ -1,0 +1,82 @@
+ID   A0AAE9XZ35_RHOPA        Unreviewed;       157 AA.
+AC   A0AAE9XZ35;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=SsrA-binding protein {ECO:0000256|HAMAP-Rule:MF_00023};
+DE   AltName: Full=Small protein B {ECO:0000256|HAMAP-Rule:MF_00023};
+GN   Name=smpB {ECO:0000256|HAMAP-Rule:MF_00023,
+GN   ECO:0000313|EMBL:WCL92854.1};
+GN   ORFNames=TX73_013930 {ECO:0000313|EMBL:WCL92854.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92854.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92854.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Required for rescue of stalled ribosomes mediated by trans-
+CC       translation. Binds to transfer-messenger RNA (tmRNA), required for
+CC       stable association of tmRNA with ribosomes. tmRNA and SmpB together
+CC       mimic tRNA shape, replacing the anticodon stem-loop with SmpB. tmRNA is
+CC       encoded by the ssrA gene; the 2 termini fold to resemble tRNA(Ala) and
+CC       it encodes a 'tag peptide', a short internal open reading frame. During
+CC       trans-translation Ala-aminoacylated tmRNA acts like a tRNA, entering
+CC       the A-site of stalled ribosomes, displacing the stalled mRNA. The
+CC       ribosome then switches to translate the ORF on the tmRNA; the nascent
+CC       peptide is terminated with the 'tag peptide' encoded by the tmRNA and
+CC       targeted for degradation. The ribosome is freed to recommence
+CC       translation, which seems to be the essential function of trans-
+CC       translation. {ECO:0000256|HAMAP-Rule:MF_00023}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00023}.
+CC       Note=The tmRNA-SmpB complex associates with stalled 70S ribosomes.
+CC       {ECO:0000256|HAMAP-Rule:MF_00023}.
+CC   -!- SIMILARITY: Belongs to the SmpB family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00023}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92854.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158238.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XZ35; -.
+DR   GeneID; 66893763; -.
+DR   KEGG; rpa:TX73_013930; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070929; P:trans-translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd09294; SmpB; 1.
+DR   Gene3D; 2.40.280.10; -; 1.
+DR   HAMAP; MF_00023; SmpB; 1.
+DR   InterPro; IPR023620; SmpB.
+DR   InterPro; IPR000037; SsrA-bd_prot.
+DR   NCBIfam; TIGR00086; smpB; 1.
+DR   PANTHER; PTHR30308:SF2; SSRA-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR30308; TMRNA-BINDING COMPONENT OF TRANS-TRANSLATION TAGGING COMPLEX; 1.
+DR   Pfam; PF01668; SmpB; 1.
+DR   SUPFAM; SSF74982; Small protein B (SmpB); 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00023};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_00023}.
+FT   REGION          132..157
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        135..151
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   157 AA;  18147 MW;  4F6A5C126855C305 CRC64;
+     MAEKNERAIK VVAENRKARF NYAIDDTIEV GIALTGTEVK SIRNGKTTIA ESYADARGSE
+     IWLINANIPE YLQANRFNHE PKRPRKLLLH RKQINKLIGA VEREGMTLIP LKLYFNERGR
+     AKLQLALAKG KKLHDKRETE KKRDWSREKG RLLRSRG
+//

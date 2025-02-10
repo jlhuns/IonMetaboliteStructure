@@ -1,0 +1,133 @@
+ID   BIOF_BACLD              Reviewed;         379 AA.
+AC   Q65ML1; Q62Y04;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=Putative 8-amino-7-oxononanoate synthase;
+DE            Short=AONS;
+DE            EC=2.3.1.47;
+DE   AltName: Full=7-keto-8-amino-pelargonic acid synthase;
+DE            Short=7-KAP synthase;
+DE   AltName: Full=8-amino-7-ketopelargonate synthase;
+GN   Name=bioF; OrderedLocusNames=BLi00768, BL00954;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the decarboxylative condensation of pimeloyl-[acyl-
+CC       carrier protein] and L-alanine to produce 8-amino-7-oxononanoate (AON),
+CC       [acyl-carrier protein], and carbon dioxide. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-carboxyhexanoyl-[ACP] + L-alanine + H(+) = (8S)-8-amino-7-
+CC         oxononanoate + holo-[ACP] + CO2; Xref=Rhea:RHEA:42288, Rhea:RHEA-
+CC         COMP:9685, Rhea:RHEA-COMP:9955, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57972, ChEBI:CHEBI:64479, ChEBI:CHEBI:78846,
+CC         ChEBI:CHEBI:149468; EC=2.3.1.47;
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. BioF subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22354.1; -; Genomic_DNA.
+DR   EMBL; AE017333; AAU39703.1; -; Genomic_DNA.
+DR   RefSeq; WP_003179689.1; NC_006322.1.
+DR   AlphaFoldDB; Q65ML1; -.
+DR   SMR; Q65ML1; -.
+DR   STRING; 279010.BL00954; -.
+DR   GeneID; 92862650; -.
+DR   KEGG; bld:BLi00768; -.
+DR   KEGG; bli:BL00954; -.
+DR   eggNOG; COG0156; Bacteria.
+DR   HOGENOM; CLU_015846_11_3_9; -.
+DR   UniPathway; UPA00078; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0008710; F:8-amino-7-oxononanoate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd06454; KBL_like; 1.
+DR   FunFam; 3.40.640.10:FF:000006; 5-aminolevulinate synthase, mitochondrial; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR001917; Aminotrans_II_pyridoxalP_BS.
+DR   InterPro; IPR004839; Aminotransferase_I/II_large.
+DR   InterPro; IPR050087; AON_synthase_class-II.
+DR   InterPro; IPR004723; AONS_Archaea/Proteobacteria.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR00858; bioF; 1.
+DR   PANTHER; PTHR13693; CLASS II AMINOTRANSFERASE/8-AMINO-7-OXONONANOATE SYNTHASE; 1.
+DR   PANTHER; PTHR13693:SF3; LD36009P; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00599; AA_TRANSFER_CLASS_2; 1.
+PE   3: Inferred from homology;
+KW   Biotin biosynthesis; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..379
+FT                   /note="Putative 8-amino-7-oxononanoate synthase"
+FT                   /id="PRO_0000380918"
+FT   BINDING         21
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         97..98
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         122
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         169
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         194..197
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         223..226
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         340
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         226
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   379 AA;  41209 MW;  C9CB203EA08F20AF CRC64;
+     MRIDEWLSSR LAKTKAAGLY RSLKLPQAER TNWASNDYLG LANDKRLIHA AETALRRFGA
+     GSTGSRLTSG NTAWHEKLER KIAGFKQTEA ALLFSSGYLA NVGVLSSLPE KGDVILSDQL
+     NHASIIDGCR LSKADTVVYR HKDMNDLEEK LRAAQSRARR FIVTDGVFSM DGTIAPLDEI
+     MLLAKQYRAF VIVDDAHATG VLGEAGRGTS EYFGVSPDVV IGTLSKAVGA EGGFVAGSKT
+     LIDFLLNHAR TFIFQTAVPP ASCAAACKAL DIIEDSRAKR RLLQSSVNTI KRSLVDIGFT
+     VNGEDTPIIP VMIGDPQKAV QFANGLKEKG IEAPAIRPPT VAEGESRIRL TVTAERRLKD
+     IEDLLEGFKL MGRELNLVK
+//

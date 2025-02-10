@@ -1,0 +1,93 @@
+ID   A0A8B7K8C5_CAMFR        Unreviewed;      1122 AA.
+AC   A0A8B7K8C5;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=leucine--tRNA ligase {ECO:0000256|ARBA:ARBA00013164};
+DE            EC=6.1.1.4 {ECO:0000256|ARBA:ARBA00013164};
+DE   AltName: Full=Leucyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00030520};
+GN   Name=LARS1 {ECO:0000313|RefSeq:XP_014412715.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_014412715.1};
+RN   [1] {ECO:0000313|RefSeq:XP_014412715.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_014412715.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00005594}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_014412715.1; XM_014557229.2.
+DR   GeneID; 102515773; -.
+DR   KEGG; cfr:102515773; -.
+DR   CTD; 51520; -.
+DR   Proteomes; UP000694856; Chromosome 3.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004823; F:leucine-tRNA ligase activity; IEA:InterPro.
+DR   GO; GO:0006429; P:leucyl-tRNA aminoacylation; IEA:InterPro.
+DR   CDD; cd07959; Anticodon_Ia_Leu_AEc; 1.
+DR   CDD; cd00812; LeuRS_core; 1.
+DR   FunFam; 1.10.730.10:FF:000013; leucine--tRNA ligase, cytoplasmic; 1.
+DR   FunFam; 3.90.740.10:FF:000001; Leucine--tRNA ligase, cytoplasmic; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR054509; LARS1_ULD.
+DR   InterPro; IPR004493; Leu-tRNA-synth_Ia_arc/euk.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   NCBIfam; TIGR00395; leuS_arch; 1.
+DR   PANTHER; PTHR45794:SF1; LEUCINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR45794; LEUCYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF22947; ULD_3; 1.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000313|RefSeq:XP_014412715.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917}.
+FT   DOMAIN          126..701
+FT                   /note="Aminoacyl-tRNA synthetase class Ia"
+FT                   /evidence="ECO:0000259|Pfam:PF00133"
+FT   DOMAIN          740..854
+FT                   /note="Methionyl/Valyl/Leucyl/Isoleucyl-tRNA synthetase
+FT                   anticodon-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF08264"
+FT   DOMAIN          1009..1121
+FT                   /note="Leucine--tRNA ligase ubiquitin-like"
+FT                   /evidence="ECO:0000259|Pfam:PF22947"
+SQ   SEQUENCE   1122 AA;  128122 MW;  F143047C99807843 CRC64;
+     MNGRLHLGHT FSLSKCEFAV GYQRLKGKTC LFPFGLHCTG MPIKACADKL KREIELYGCP
+     PDFPDEEEEE EEINVKTEDI VIKDKAKGKK SKAAAKAGSS KYQWDIMKSL GLSDEEIVNF
+     SEAEHWLDYF PPLAVQDLKR MGLKVDWRRS FITTDVNPYY DSFVRWQFLT LRERSKIKFG
+     KRYTIYSPKD GQPCMDHDRQ TGEGVGPQEY TLIKLKVLEP YPSKLSGLKG KNIFLVAATL
+     RPETMFGQTN CWVRPDMKYI GFETVNGDIF ICTQKAARNM SYQGFTKDNG VVSVVKELMG
+     EEILGASLSA PLTSYKVIYV LPMLTIKEDK GTGVVTSVPS DSPDDFAALR DLKKKQALRA
+     KYGIRDDMVL PFEPVPVIEI PGFGTLSAVT ICDELKVQSQ NDREKLAEAK EKLYLRGFYD
+     GVMLVDGFKG QKVQDVKKTI KNKMIDAGDA YIYMEPEKQV ISRSSDECVV ALCDQWYLDY
+     GEENWKKQTS QCLKNLETFC EETRRNFEAT LDWLQEHACS RTYGLGTRLP WDEQWLIESL
+     SDSTIYMAFY TVAHLLQGGN LRGQAESPLG ISPQQMTREV WDYVFFTEAP FPKTQIPKEK
+     LDQLRQEFEF WYPVDLRVSG KDLIPNHLSY FLYNHVAMWP EESDKWPISV RANGHLLLNS
+     EKMSKSTGNF LTLSQALDKY SADGMRLALA DAGDTVEDAN FVETMADAGI LRLYTWVEWV
+     KEMVANWDSL RSGPANTFND RVFASEMNAG IIKTDQNYEK MMFKEALKTG FFEFQAAKDK
+     YRELAIEGMH RDLVFRFIEV QTLLLAPFCP HLCEHIWTLL GKPDSIMNAS WPLAGPVDES
+     LIRSSQYLME VAHDLRLRLK NYMMPAKGKK TDKQPPQKPS HCTIYVAKNY PSWQHITLSV
+     LRNHFEANSG KLPDNKVIAS ELGNLPELKK YMKKVMPFVA MIKENLEKTG PRVLDLQLEF
+     DEQAVLVENI VYLTNSLELE HIEVKFASEA EDKVREDCCP GKPLNVFRTE PGVSVSLVNP
+     QPFSGHFSTK IEIRQGDNRD SIIRRLMKVD RGIKDLSKVK LMRFDDPLLG PRRVPVLGKE
+     HTEKTPISEH AVFHVDLMSK KIHLSENGLR ADIGDTMVYL VH
+//

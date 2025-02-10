@@ -1,0 +1,106 @@
+ID   A5G001_ACICJ            Unreviewed;       468 AA.
+AC   A5G001;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 75.
+DE   RecName: Full=Phospho-2-dehydro-3-deoxyheptonate aldolase {ECO:0000256|RuleBase:RU363071};
+DE            EC=2.5.1.54 {ECO:0000256|RuleBase:RU363071};
+GN   OrderedLocusNames=Acry_1982 {ECO:0000313|EMBL:ABQ31183.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31183.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31183.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31183.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-erythrose 4-phosphate + phosphoenolpyruvate + H2O = 7-
+CC         phospho-2-dehydro-3-deoxy-D-arabino-heptonate + phosphate;
+CC         Xref=Rhea:RHEA:14717, ChEBI:CHEBI:15377, ChEBI:CHEBI:16897,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58394, ChEBI:CHEBI:58702; EC=2.5.1.54;
+CC         Evidence={ECO:0000256|RuleBase:RU363071};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602480-1};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602480-1};
+CC       Name=Cd(2+); Xref=ChEBI:CHEBI:48775;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602480-1};
+CC       Note=Binds 1 divalent cation per subunit. The enzyme is active with
+CC       manganese, cobalt or cadmium ions. {ECO:0000256|PIRSR:PIRSR602480-1};
+CC   -!- SIMILARITY: Belongs to the class-II DAHP synthase family.
+CC       {ECO:0000256|ARBA:ARBA00008911, ECO:0000256|RuleBase:RU363071}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31183.1; -; Genomic_DNA.
+DR   RefSeq; WP_007421973.1; NC_009484.1.
+DR   AlphaFoldDB; A5G001; -.
+DR   STRING; 349163.Acry_1982; -.
+DR   KEGG; acr:Acry_1982; -.
+DR   eggNOG; COG3200; Bacteria.
+DR   HOGENOM; CLU_026885_0_1_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0003849; F:3-deoxy-7-phosphoheptulonate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002480; DAHP_synth_2.
+DR   NCBIfam; TIGR01358; DAHP_synth_II; 1.
+DR   PANTHER; PTHR21337:SF0; PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE; 1.
+DR   PANTHER; PTHR21337; PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE 1, 2; 1.
+DR   Pfam; PF01474; DAHP_synth_2; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+PE   3: Inferred from homology;
+KW   Cadmium {ECO:0000256|PIRSR:PIRSR602480-1};
+KW   Cobalt {ECO:0000256|PIRSR:PIRSR602480-1};
+KW   Manganese {ECO:0000256|PIRSR:PIRSR602480-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU363071}.
+FT   BINDING         78
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         117
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         300
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         331
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         363
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         405
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+FT   BINDING         435
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602480-1"
+SQ   SEQUENCE   468 AA;  51451 MW;  227AA424C12A5116 CRC64;
+     MNDADTTMHD PAGWSPESWR AKPIKQVPTY PDAAKLAAME ARLHGYPPLV FAGEARRLKA
+     SLALATEGKA FILQGGDCAE SFGDFTANVI RDTFRVLLQM AVVLTFGGSV PVVKLGRMAG
+     QFAKPRSSDS ETIDGVTLPS YRGDIINGPD FTAEARIPDP ARMEFGYFQS AGTLNLLRAF
+     ASGGYADLHQ VHRWNLDFVR RSPLAERYRD LAARIDETLQ FMAACGMTSQ STPQIHETEF
+     YTSHEALLLP YEQALTRVDS TTGDHYACSA HFLWIGDRTR QLDGAHVEFM RGVKNPIGMK
+     VGPSMDEDDM LRLIERLDPA NEAGRLTLIA RMGAEQIAAK LPKLVRATKR EGRNVAWLCD
+     PMHGNTITTS GKVKTRRFDA ILSEVRGFFD IHEAEGTTPS GVHVEMTGQD VTECVGGARQ
+     LSEADLGARY ETFCDPRLNA EQSLELAFLI AAELKTRRAP RGTAIAAE
+//

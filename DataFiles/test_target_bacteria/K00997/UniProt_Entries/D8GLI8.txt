@@ -1,0 +1,106 @@
+ID   D8GLI8_CLOLD            Unreviewed;       134 AA.
+AC   D8GLI8;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   RecName: Full=Holo-[acyl-carrier-protein] synthase {ECO:0000256|HAMAP-Rule:MF_00101};
+DE            Short=Holo-ACP synthase {ECO:0000256|HAMAP-Rule:MF_00101};
+DE            EC=2.7.8.7 {ECO:0000256|HAMAP-Rule:MF_00101};
+DE   AltName: Full=4'-phosphopantetheinyl transferase AcpS {ECO:0000256|HAMAP-Rule:MF_00101};
+GN   Name=acpS {ECO:0000256|HAMAP-Rule:MF_00101,
+GN   ECO:0000313|EMBL:ADK13384.1};
+GN   OrderedLocusNames=CLJU_c03000 {ECO:0000313|EMBL:ADK13384.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13384.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13384.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Transfers the 4'-phosphopantetheine moiety from coenzyme A to
+CC       a Ser of acyl-carrier-protein. {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=apo-[ACP] + CoA = holo-[ACP] + adenosine 3',5'-bisphosphate +
+CC         H(+); Xref=Rhea:RHEA:12068, Rhea:RHEA-COMP:9685, Rhea:RHEA-COMP:9690,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:64479; EC=2.7.8.7;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00101};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946, ECO:0000256|HAMAP-
+CC         Rule:MF_00101};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   -!- SIMILARITY: Belongs to the P-Pant transferase superfamily. AcpS family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   -!- SIMILARITY: Belongs to the P-Pant transferase superfamily.
+CC       Gsp/Sfp/HetI/AcpT family. {ECO:0000256|ARBA:ARBA00010990}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13384.1; -; Genomic_DNA.
+DR   RefSeq; WP_013236984.1; NZ_LITS01000002.1.
+DR   AlphaFoldDB; D8GLI8; -.
+DR   STRING; 748727.CLJU_c03000; -.
+DR   KEGG; clj:CLJU_c03000; -.
+DR   PATRIC; fig|748727.19.peg.1968; -.
+DR   eggNOG; COG0736; Bacteria.
+DR   HOGENOM; CLU_089696_0_2_9; -.
+DR   OrthoDB; 517356at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008897; F:holo-[acyl-carrier-protein] synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019878; P:lysine biosynthetic process via aminoadipic acid; IEA:TreeGrafter.
+DR   Gene3D; 3.90.470.20; 4'-phosphopantetheinyl transferase domain; 1.
+DR   HAMAP; MF_00101; AcpS; 1.
+DR   InterPro; IPR008278; 4-PPantetheinyl_Trfase_dom.
+DR   InterPro; IPR037143; 4-PPantetheinyl_Trfase_dom_sf.
+DR   InterPro; IPR002582; ACPS.
+DR   InterPro; IPR050559; P-Pant_transferase_sf.
+DR   InterPro; IPR004568; Ppantetheine-prot_Trfase_dom.
+DR   NCBIfam; TIGR00516; acpS; 1.
+DR   NCBIfam; TIGR00556; pantethn_trn; 1.
+DR   PANTHER; PTHR12215:SF10; L-AMINOADIPATE-SEMIALDEHYDE DEHYDROGENASE-PHOSPHOPANTETHEINYL TRANSFERASE; 1.
+DR   PANTHER; PTHR12215; PHOSPHOPANTETHEINE TRANSFERASE; 1.
+DR   Pfam; PF01648; ACPS; 1.
+DR   SUPFAM; SSF56214; 4'-phosphopantetheinyl transferase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00101};
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00101};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00101}.
+FT   DOMAIN          4..97
+FT                   /note="4'-phosphopantetheinyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF01648"
+FT   BINDING         8
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00101"
+FT   BINDING         56
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00101"
+SQ   SEQUENCE   134 AA;  14802 MW;  5436D7F1EF69DB8F CRC64;
+     MIFGVGVDIV EIRRIEQAVS KHSNFIDRIF SKNEVEYLKN KNLRPEFIAG RFAAKEAIVK
+     ALGTGFSGFD FRDIEVDRTA LGKPIVVLKG KAKLIANKCG NYKIHLSISH GVDNAIAYAV
+     MEVDGVEDSD CKNS
+//

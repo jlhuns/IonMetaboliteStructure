@@ -1,0 +1,85 @@
+ID   A0A0H4VDQ0_9SPHN        Unreviewed;       210 AA.
+AC   A0A0H4VDQ0;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 30.
+DE   SubName: Full=Electron transport protein {ECO:0000313|EMBL:AKQ42812.1};
+GN   ORFNames=CP97_13405 {ECO:0000313|EMBL:AKQ42812.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42812.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42812.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the SCO1/2 family.
+CC       {ECO:0000256|ARBA:ARBA00010996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42812.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VDQ0; -.
+DR   STRING; 1648404.CP97_13405; -.
+DR   KEGG; ery:CP97_13405; -.
+DR   PATRIC; fig|1648404.4.peg.2784; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02968; SCO; 1.
+DR   FunFam; 3.40.30.10:FF:000013; Blast:Protein SCO1 homolog, mitochondrial; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR003782; SCO1/SenC.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR12151; ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12151:SF25; LINALOOL DEHYDRATASE_ISOMERASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02630; SCO1-SenC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Copper {ECO:0000256|ARBA:ARBA00023008, ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Disulfide bond {ECO:0000256|PIRSR:PIRSR603782-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           29..210
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5005210716"
+FT   DOMAIN          44..210
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51352"
+FT   BINDING         82
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         86
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         175
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   DISULFID        82..86
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-2"
+SQ   SEQUENCE   210 AA;  23057 MW;  272FAFA31962D984 CRC64;
+     MALAEHERFV MSANFKLFAS LFAPLLLAAC GNAPSDNPMP APPLYDSAVV GGFDLVDTQG
+     KQVLDSDFAG KYQMIYFGYA YCPDVCPFDV QRMMQGYNLF TAEHPDLAGQ IQPIFITVDP
+     DRDTPDVVAE FTANFSEDLI GLTGSAEAIE AAAANYFAYY EKLEENSEGG YLMDHSRSGY
+     LVDREGQPMA LLSVEDSAQV VATELETWVR
+//

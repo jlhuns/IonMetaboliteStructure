@@ -1,0 +1,142 @@
+ID   Q038Z4_LACP3            Unreviewed;       239 AA.
+AC   Q038Z4;
+DT   14-NOV-2006, integrated into UniProtKB/TrEMBL.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            EC=4.1.1.23 {ECO:0000256|HAMAP-Rule:MF_01200};
+DE   AltName: Full=OMP decarboxylase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            Short=OMPDCase {ECO:0000256|HAMAP-Rule:MF_01200};
+DE            Short=OMPdecase {ECO:0000256|HAMAP-Rule:MF_01200};
+GN   Name=pyrF {ECO:0000256|HAMAP-Rule:MF_01200};
+GN   OrderedLocusNames=LSEI_1450 {ECO:0000313|EMBL:ABJ70228.1};
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967 {ECO:0000313|EMBL:ABJ70228.1, ECO:0000313|Proteomes:UP000001651};
+RN   [1] {ECO:0000313|EMBL:ABJ70228.1, ECO:0000313|Proteomes:UP000001651}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441 {ECO:0000313|Proteomes:UP000001651};
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K., Slesarev A., Wolf Y., Sorokin A., Mirkin B., Koonin E.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M., Klaenhammer T., Richardson P.,
+RA   Kozyavkin S., Weimer B., Mills D.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of orotidine 5'-monophosphate
+CC       (OMP) to uridine 5'-monophosphate (UMP).
+CC       {ECO:0000256|ARBA:ARBA00002356, ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049157, ECO:0000256|HAMAP-
+CC         Rule:MF_01200, ECO:0000256|RuleBase:RU000512};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000256|ARBA:ARBA00004861,
+CC       ECO:0000256|HAMAP-Rule:MF_01200, ECO:0000256|RuleBase:RU000512}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 1 subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01200}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70228.1; -; Genomic_DNA.
+DR   RefSeq; WP_011674511.1; NC_008526.1.
+DR   RefSeq; YP_806670.1; NC_008526.1.
+DR   AlphaFoldDB; Q038Z4; -.
+DR   STRING; 321967.LSEI_1450; -.
+DR   PaxDb; 321967-LSEI_1450; -.
+DR   KEGG; lca:LSEI_1450; -.
+DR   PATRIC; fig|321967.11.peg.1430; -.
+DR   HOGENOM; CLU_067069_1_1_9; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   FunFam; 3.20.20.70:FF:000015; Orotidine 5'-phosphate decarboxylase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01200_B; OMPdecase_type1_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR014732; OMPdecase.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR047596; OMPdecase_bac.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR01740; pyrF; 1.
+DR   PANTHER; PTHR32119; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR32119:SF2; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_01200};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01200};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01200}; Reference proteome {ECO:0000313|Proteomes:UP000001651}.
+FT   DOMAIN          2..230
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /evidence="ECO:0000259|SMART:SM00934"
+FT   ACT_SITE        59
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   ACT_SITE        61
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   ACT_SITE        61
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200"
+FT   ACT_SITE        64
+FT                   /note="For OMPdecase activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR614732-1"
+FT   BINDING         8
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         31
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         59..68
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200"
+FT   BINDING         123
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         185
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         194
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         214
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+FT   BINDING         215
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01200,
+FT                   ECO:0000256|PIRSR:PIRSR614732-2"
+SQ   SEQUENCE   239 AA;  25496 MW;  6B4965A11D5CFAEC CRC64;
+     MTPIIALDFK DKTTTLDFLS QFPKEEHLFV KVGMELFYAE GPAIITEIQQ ARPVSIFLDL
+     KLHDIPNTVE KAAWQLGKLG VAMTTVHAAG GKDMMIAAKR GLLAGAKAAG HPAPKMLAIT
+     QLTSTDQTML TNQLSIEIPI SQAVQHLAAI AQASNADGVV ASALETPLIR SVTRPDFLVV
+     TPGIRPYGAA VGDQKRVVTP GRAKRLGSSA IVVGRPITQA DDPVAAYQSV KEAWETAHD
+//

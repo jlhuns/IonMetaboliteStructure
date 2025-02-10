@@ -1,0 +1,80 @@
+ID   A5G0H3_ACICJ            Unreviewed;       131 AA.
+AC   A5G0H3;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 60.
+DE   RecName: Full=proton-translocating NAD(P)(+) transhydrogenase {ECO:0000256|ARBA:ARBA00012943};
+DE            EC=7.1.1.1 {ECO:0000256|ARBA:ARBA00012943};
+GN   OrderedLocusNames=Acry_2156 {ECO:0000313|EMBL:ABQ31355.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31355.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31355.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31355.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The transhydrogenation between NADH and NADP is coupled to
+CC       respiration and ATP hydrolysis and functions as a proton pump across
+CC       the membrane. {ECO:0000256|ARBA:ARBA00003943}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + NADPH + H(+)(in) = NADH + NADP(+) + H(+)(out);
+CC         Xref=Rhea:RHEA:47992, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57945, ChEBI:CHEBI:58349; EC=7.1.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048202};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|ARBA:ARBA00004429}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004429}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31355.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A5G0H3; -.
+DR   STRING; 349163.Acry_2156; -.
+DR   KEGG; acr:Acry_2156; -.
+DR   eggNOG; COG3288; Bacteria.
+DR   HOGENOM; CLU_137885_0_0_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050661; F:NADP binding; IEA:TreeGrafter.
+DR   GO; GO:0008750; F:proton-translocating NAD(P)+ transhydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006740; P:NADPH regeneration; IEA:TreeGrafter.
+DR   InterPro; IPR024605; NADP_transhyd_a_C.
+DR   PANTHER; PTHR10160; NAD(P) TRANSHYDROGENASE; 1.
+DR   PANTHER; PTHR10160:SF19; PROTON-TRANSLOCATING NAD(P)(+) TRANSHYDROGENASE; 1.
+DR   Pfam; PF12769; PNTB_4TM; 1.
+PE   4: Predicted;
+KW   Cell inner membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027}; NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Translocase {ECO:0000256|ARBA:ARBA00022967};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        44..63
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        70..89
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        95..119
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          45..128
+FT                   /note="NAD(P) transhydrogenase alpha subunit C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF12769"
+SQ   SEQUENCE   131 AA;  13475 MW;  8FBC8142157FC241 CRC64;
+     MTPAQLADQA DALAHKATVL AQNAAGFAAQ AAAHAPHGAP LIDLFAIFVM AVFVGYYVIW
+     SVTPALHSPL LAVTNAISSV IIVGAMLATG LKGGYAAHAF GFIAVLLASV NIVGGFLVTQ
+     RMLAMFKKKA K
+//

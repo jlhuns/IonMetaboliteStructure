@@ -1,0 +1,102 @@
+ID   Q64ZH5_BACFR            Unreviewed;       378 AA.
+AC   Q64ZH5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   RecName: Full=Aldose 1-epimerase {ECO:0000256|ARBA:ARBA00014165, ECO:0000256|PIRNR:PIRNR005096};
+DE            EC=5.1.3.3 {ECO:0000256|ARBA:ARBA00013185, ECO:0000256|PIRNR:PIRNR005096};
+GN   OrderedLocusNames=BF0352 {ECO:0000313|EMBL:BAD47101.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD47101.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD47101.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD47101.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose = beta-D-glucose; Xref=Rhea:RHEA:10264,
+CC         ChEBI:CHEBI:15903, ChEBI:CHEBI:17925; EC=5.1.3.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001614,
+CC         ECO:0000256|PIRNR:PIRNR005096};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001913};
+CC   -!- PATHWAY: Carbohydrate metabolism; hexose metabolism.
+CC       {ECO:0000256|ARBA:ARBA00005028, ECO:0000256|PIRNR:PIRNR005096}.
+CC   -!- SIMILARITY: Belongs to the aldose epimerase family.
+CC       {ECO:0000256|ARBA:ARBA00006206, ECO:0000256|PIRNR:PIRNR005096}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD47101.1; -; Genomic_DNA.
+DR   RefSeq; WP_011201945.1; NC_006347.1.
+DR   RefSeq; YP_097635.1; NC_006347.1.
+DR   AlphaFoldDB; Q64ZH5; -.
+DR   STRING; 295405.BF0352; -.
+DR   KEGG; bfr:BF0352; -.
+DR   PATRIC; fig|295405.11.peg.377; -.
+DR   HOGENOM; CLU_031753_2_0_10; -.
+DR   OrthoDB; 9779408at2; -.
+DR   UniPathway; UPA00242; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004034; F:aldose 1-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IEA:TreeGrafter.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:TreeGrafter.
+DR   CDD; cd09019; galactose_mutarotase_like; 1.
+DR   FunFam; 2.70.98.10:FF:000003; Aldose 1-epimerase; 1.
+DR   Gene3D; 2.70.98.10; -; 1.
+DR   InterPro; IPR018052; Ald1_epimerase_CS.
+DR   InterPro; IPR015443; Aldose_1-epimerase.
+DR   InterPro; IPR008183; Aldose_1/G6P_1-epimerase.
+DR   InterPro; IPR011013; Gal_mutarotase_sf_dom.
+DR   InterPro; IPR047215; Galactose_mutarotase-like.
+DR   InterPro; IPR014718; GH-type_carb-bd.
+DR   PANTHER; PTHR10091; ALDOSE-1-EPIMERASE; 1.
+DR   PANTHER; PTHR10091:SF0; GALACTOSE MUTAROTASE; 1.
+DR   Pfam; PF01263; Aldose_epim; 1.
+DR   PIRSF; PIRSF005096; GALM; 1.
+DR   SUPFAM; SSF74650; Galactose mutarotase-like; 1.
+DR   PROSITE; PS00545; ALDOSE_1_EPIMERASE; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   3: Inferred from homology;
+KW   Calcium {ECO:0000256|ARBA:ARBA00022837};
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|PIRNR:PIRNR005096};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|PIRNR:PIRNR005096}.
+FT   ACT_SITE        203
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005096-1"
+FT   ACT_SITE        340
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005096-1"
+FT   BINDING         106..107
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005096-3"
+FT   BINDING         203..205
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005096-3"
+FT   BINDING         275
+FT                   /ligand="beta-D-galactose"
+FT                   /ligand_id="ChEBI:CHEBI:27667"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005096-2"
+SQ   SEQUENCE   378 AA;  41592 MW;  0DCF8B55258D099A CRC64;
+     MRKLAMWALG ALFVAGCAET EKATTDSGLV KSNFQTEVGG KKTDLYVLRN QNNVEVCVTN
+     FGGRIVSVMV PDKEGVMRDV VLGFDSIQDY ISKPSDFGAS IGRYANRINQ GKFTLDGVEY
+     QLPRNNYGHC LHGGPKGFQY QVYDAKQAGP QELELTYLSK DGEEGFPGNI TCKVIMKLTD
+     DNAIDIKYEA ETDKPTIVNM TNHSYFNLDG DAGSNADHLL TIDADAYTPV DSTFMTSGEI
+     VTVEGTPMDF RTPTPVGKRI NDFDFVQLKN GNGYDHNWVL NAKGDITRKA ATLESPKTGI
+     VLDVYTDEPG IQVYAGNFLD GSLTGKKGIT YNQRASVCLE TQKYPDTPNK PEWPSAVLRP
+     GETYNSHCIF KFSVDNGK
+//

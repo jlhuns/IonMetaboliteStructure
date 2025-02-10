@@ -1,0 +1,153 @@
+ID   SYV_SALTI               Reviewed;         951 AA.
+AC   Q8Z118; Q7C503;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=Valine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02004};
+DE            EC=6.1.1.9 {ECO:0000255|HAMAP-Rule:MF_02004};
+DE   AltName: Full=Valyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02004};
+DE            Short=ValRS {ECO:0000255|HAMAP-Rule:MF_02004};
+GN   Name=valS {ECO:0000255|HAMAP-Rule:MF_02004};
+GN   OrderedLocusNames=STY4814, t4510;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of valine to tRNA(Val). As ValRS can
+CC       inadvertently accommodate and process structurally similar amino acids
+CC       such as threonine, to avoid such errors, it has a 'posttransfer'
+CC       editing activity that hydrolyzes mischarged Thr-tRNA(Val) in a tRNA-
+CC       dependent manner. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Val) + L-valine + ATP = L-valyl-tRNA(Val) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:10704, Rhea:RHEA-COMP:9672, Rhea:RHEA-
+CC         COMP:9708, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57762,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78537, ChEBI:CHEBI:456215; EC=6.1.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02004};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: ValRS has two distinct active sites: one for aminoacylation and
+CC       one for editing. The misactivated threonine is translocated from the
+CC       active site to the editing site. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: The C-terminal coiled-coil domain is crucial for aminoacylation
+CC       activity. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       ValS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06936.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71957.1; -; Genomic_DNA.
+DR   RefSeq; NP_458893.1; NC_003198.1.
+DR   RefSeq; WP_000416348.1; NZ_WSUR01000016.1.
+DR   AlphaFoldDB; Q8Z118; -.
+DR   SMR; Q8Z118; -.
+DR   STRING; 220341.gene:17588636; -.
+DR   KEGG; stt:t4510; -.
+DR   KEGG; sty:STY4814; -.
+DR   PATRIC; fig|220341.7.peg.4923; -.
+DR   eggNOG; COG0525; Bacteria.
+DR   HOGENOM; CLU_001493_0_2_6; -.
+DR   OMA; LDTWMDS; -.
+DR   OrthoDB; 9810365at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004832; F:valine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006438; P:valyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07962; Anticodon_Ia_Val; 1.
+DR   CDD; cd00817; ValRS_core; 1.
+DR   FunFam; 1.10.287.380:FF:000001; Valine--tRNA ligase; 1.
+DR   FunFam; 1.10.730.10:FF:000007; Valine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000032; Valine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000146; Valine--tRNA ligase; 1.
+DR   FunFam; 3.90.740.10:FF:000021; Valine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 1.10.287.380; Valyl-tRNA synthetase, C-terminal domain; 1.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   HAMAP; MF_02004; Val_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR033705; Anticodon_Ia_Val.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR037118; Val-tRNA_synth_C_sf.
+DR   InterPro; IPR019499; Val-tRNA_synth_tRNA-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   InterPro; IPR002303; Valyl-tRNA_ligase.
+DR   NCBIfam; TIGR00422; valS; 1.
+DR   PANTHER; PTHR11946:SF93; VALINE--TRNA LIGASE, CHLOROPLASTIC_MITOCHONDRIAL 2; 1.
+DR   PANTHER; PTHR11946; VALYL-TRNA SYNTHETASES; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF10458; Val_tRNA-synt_C; 1.
+DR   PRINTS; PR00986; TRNASYNTHVAL.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Coiled coil; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..951
+FT                   /note="Valine--tRNA ligase"
+FT                   /id="PRO_0000224551"
+FT   COILED          880..944
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02004"
+FT   MOTIF           42..52
+FT                   /note="'HIGH' region"
+FT   MOTIF           554..558
+FT                   /note="'KMSKS' region"
+FT   BINDING         557
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02004"
+SQ   SEQUENCE   951 AA;  108345 MW;  B4F5CEB7835487C6 CRC64;
+     MEKTYNPQDI EQPLYEHWEK QGYFKPNGDE SKESFCIMIP PPNVTGSLHM GHAFQQTIMD
+     TMIRYQRMQG KNTLWQVGTD HAGIATQMVV ERKIAAEEGK TRHDYGRDAF IDKIWQWKAE
+     SGGTITRQMR RLGNSVDWER ERFTMDEGLS NAVKEVFVRL YKEDLIYRGK RLVNWDPKLR
+     TAISDLEVEN RESKGSMWHI RYPLADGAKT ADGKDYLVVA TTRPETVLGD TGVAVNPEDP
+     RYKDLIGKFV ILPLVNRRIP IVGDEHADME KGTGCVKITP AHDFNDYEVG KRHALPMINI
+     LTFDGDIRES AEVFDTKGEE SNVYSSEIPA EFQKLERFAA RKAIVAAVDA LGLLEEIKPH
+     DLTVPYGDRG GVVIEPMLTD QWYVRADVLA KPAVEAVENG DIQFVPKQYE NMYFSWMRDI
+     QDWCISRQLW WGHRIPAWYD NDGNVYVGRT EDEVRQENNL GADVQLRQDE DVLDTWFSSA
+     LWTFSTLGWP ENTDALRQFH PTSVMVSGFD IIFFWIARMI MMTMHFIKDE NGKPQVPFHT
+     VYMTGLIRDD EGQKMSKSKG NVIDPLDMVD GISLPELLEK RTGNMMQPQM AEKIRKRTEK
+     QFPNGIEPHG TDALRFTLAA LASTGRDINW DMKRLEGYRN FCNKLWNASR FVLMNTEEQD
+     CGFNGGEMTL SLADRWILAE FNQTVKAYRE ALDNFRFDIA AGILYEFTWN QFCDWYLELT
+     KPVMTGGSES ELRGTRHTLV TVLEGLLRLA HPIIPFITET IWQRVKVICG ITADTIMLQP
+     FPEYNAAQVD EAALADTEWL KQAIVAVRNI RAEMNIAPGK PLELLLRGCS EEAVRRVNDN
+     RSFLLNLARL ESITVLPADD KGPVSMTKII DGAELLIPMA GLINKEDELA RLAKEVAKIE
+     GEIARIEGKL SNEGFVARAP EAVIAKEREK LDGYAEAKAK LIEQQAVISA L
+//

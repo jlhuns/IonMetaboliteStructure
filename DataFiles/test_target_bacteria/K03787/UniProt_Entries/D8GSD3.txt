@@ -1,0 +1,104 @@
+ID   D8GSD3_CLOLD            Unreviewed;       249 AA.
+AC   D8GSD3;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 66.
+DE   RecName: Full=5'-nucleotidase SurE {ECO:0000256|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.5 {ECO:0000256|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Nucleoside 5'-monophosphate phosphohydrolase {ECO:0000256|HAMAP-Rule:MF_00060};
+GN   Name=surE {ECO:0000256|HAMAP-Rule:MF_00060,
+GN   ECO:0000313|EMBL:ADK16515.1};
+GN   OrderedLocusNames=CLJU_c34740 {ECO:0000313|EMBL:ADK16515.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK16515.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK16515.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Nucleotidase that shows phosphatase activity on nucleoside
+CC       5'-monophosphates. {ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000815, ECO:0000256|HAMAP-
+CC         Rule:MF_00060};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00060};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00060};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000256|ARBA:ARBA00011062, ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK16515.1; -; Genomic_DNA.
+DR   RefSeq; WP_013240098.1; NZ_LITS01000001.1.
+DR   AlphaFoldDB; D8GSD3; -.
+DR   STRING; 748727.CLJU_c34740; -.
+DR   KEGG; clj:CLJU_c34740; -.
+DR   PATRIC; fig|748727.19.peg.234; -.
+DR   eggNOG; COG0496; Bacteria.
+DR   HOGENOM; CLU_045192_1_3_9; -.
+DR   OrthoDB; 9780815at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008254; F:3'-nucleotidase activity; IEA:TreeGrafter.
+DR   GO; GO:0004309; F:exopolyphosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106411; F:XMP 5'-nucleosidase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.1210.10; Survival protein SurE-like phosphatase/nucleotidase; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   InterPro; IPR036523; SurE-like_sf.
+DR   NCBIfam; TIGR00087; surE; 1.
+DR   PANTHER; PTHR30457; 5'-NUCLEOTIDASE SURE; 1.
+DR   PANTHER; PTHR30457:SF12; 5'_3'-NUCLEOTIDASE SURE; 1.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SurE-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00060};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00060};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00060};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00060}.
+FT   DOMAIN          4..186
+FT                   /note="Survival protein SurE-like phosphatase/nucleotidase"
+FT                   /evidence="ECO:0000259|Pfam:PF01975"
+FT   BINDING         8
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         9
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         39
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         96
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+SQ   SEQUENCE   249 AA;  27284 MW;  7AA7AF575EBCDD89 CRC64;
+     MKLLLTNDDG VNAKGIYALA KELEKKHEVI IVAPDVEKSA SSHSITVRDP LFVKQVKLEG
+     IKSKAYSVTG TPADCVKIAI DKIVDGNIDM VLSGINNGLN IGLDVLYSGT VSAAIEAAIN
+     KIPSLAASME VEDGVEGEYE DAAKCVSEVL EKLQDRHMKD DVVFNLNMPM KIKKGIKVCK
+     IGERGYTGYF IEVDSKDEGK TFQLKGKMSE SLVIDTDGYF IKQGYATLTP LHYDLTNFKL
+     LKQVDKIFS
+//

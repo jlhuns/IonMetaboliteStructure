@@ -1,0 +1,237 @@
+ID   Q8ABD0_BACTN            Unreviewed;       915 AA.
+AC   Q8ABD0;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 146.
+DE   RecName: Full=Methionine synthase {ECO:0000256|ARBA:ARBA00013998, ECO:0000256|NCBIfam:TIGR02082};
+DE            EC=2.1.1.13 {ECO:0000256|ARBA:ARBA00012032, ECO:0000256|NCBIfam:TIGR02082};
+DE   AltName: Full=5-methyltetrahydrofolate--homocysteine methyltransferase {ECO:0000256|PIRNR:PIRNR000381};
+GN   OrderedLocusNames=BT_0180 {ECO:0000313|EMBL:AAO75287.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186 {ECO:0000313|EMBL:AAO75287.1, ECO:0000313|Proteomes:UP000001414};
+RN   [1] {ECO:0000313|EMBL:AAO75287.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2] {ECO:0000313|EMBL:AAO75287.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+RN   [3] {ECO:0007829|PDB:3K13}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 345-641.
+RA   Cuff M.E., Li H., Cobb G., Joachimiak A.;
+RT   "Structure of the pterin-binding domain MeTr of 5-methyltetrahydrofolate-
+RT   homocysteine methyltransferase from Bacteroides thetaiotaomicron.";
+RL   Submitted (SEP-2009) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the transfer of a methyl group from methyl-
+CC       cobalamin to homocysteine, yielding enzyme-bound cob(I)alamin and
+CC       methionine. Subsequently, remethylates the cofactor using
+CC       methyltetrahydrofolate. {ECO:0000256|ARBA:ARBA00025552,
+CC       ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-methyl-5,6,7,8-tetrahydrofolate + L-homocysteine =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-methionine; Xref=Rhea:RHEA:11172,
+CC         ChEBI:CHEBI:18608, ChEBI:CHEBI:57453, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58199; EC=2.1.1.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001700,
+CC         ECO:0000256|PIRNR:PIRNR000381};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947,
+CC         ECO:0000256|PIRNR:PIRNR000381, ECO:0000256|PROSITE-ProRule:PRU00333};
+CC   -!- COFACTOR:
+CC       Name=methylcob(III)alamin; Xref=ChEBI:CHEBI:28115;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001956,
+CC         ECO:0000256|PIRNR:PIRNR000381, ECO:0000256|PIRSR:PIRSR000381-1};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-methionine from L-homocysteine (MetH route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005178, ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- DOMAIN: Modular enzyme with four functionally distinct domains. The
+CC       isolated Hcy-binding domain catalyzes methyl transfer from free
+CC       methylcobalamin to homocysteine. The Hcy-binding domain in association
+CC       with the pterin-binding domain catalyzes the methylation of
+CC       cob(I)alamin by methyltetrahydrofolate and the methylation of
+CC       homocysteine. The B12-binding domain binds the cofactor. The AdoMet
+CC       activation domain binds S-adenosyl-L-methionine. Under aerobic
+CC       conditions cob(I)alamin can be converted to inactive cob(II)alamin.
+CC       Reductive methylation by S-adenosyl-L-methionine and flavodoxin
+CC       regenerates methylcobalamin. {ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- SIMILARITY: Belongs to the vitamin-B12 dependent methionine synthase
+CC       family. {ECO:0000256|ARBA:ARBA00010398}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO75287.1; -; Genomic_DNA.
+DR   RefSeq; NP_809093.1; NC_004663.1.
+DR   RefSeq; WP_011107153.1; NC_004663.1.
+DR   PDB; 3K13; X-ray; 2.00 A; A/B/C=345-641.
+DR   PDBsum; 3K13; -.
+DR   AlphaFoldDB; Q8ABD0; -.
+DR   SMR; Q8ABD0; -.
+DR   STRING; 226186.BT_0180; -.
+DR   PaxDb; 226186-BT_0180; -.
+DR   DNASU; 1075492; -.
+DR   EnsemblBacteria; AAO75287; AAO75287; BT_0180.
+DR   GeneID; 60926144; -.
+DR   KEGG; bth:BT_0180; -.
+DR   PATRIC; fig|226186.12.peg.177; -.
+DR   eggNOG; COG0646; Bacteria.
+DR   eggNOG; COG1410; Bacteria.
+DR   HOGENOM; CLU_004914_0_0_10; -.
+DR   InParanoid; Q8ABD0; -.
+DR   OrthoDB; 9803687at2; -.
+DR   UniPathway; UPA00051; UER00081.
+DR   EvolutionaryTrace; Q8ABD0; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0031419; F:cobalamin binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008705; F:methionine synthase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050667; P:homocysteine metabolic process; IBA:GO_Central.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0046653; P:tetrahydrofolate metabolic process; IBA:GO_Central.
+DR   CDD; cd02069; methionine_synthase_B12_BD; 1.
+DR   CDD; cd00740; MeTr; 1.
+DR   FunFam; 1.10.1240.10:FF:000001; Methionine synthase; 1.
+DR   FunFam; 3.20.20.20:FF:000002; Methionine synthase; 1.
+DR   FunFam; 3.20.20.330:FF:000001; Methionine synthase; 1.
+DR   FunFam; 3.40.50.280:FF:000006; Methionine synthase (B12-dependent); 1.
+DR   Gene3D; 3.40.50.280; Cobalamin-binding domain; 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   Gene3D; 3.20.20.330; Homocysteine-binding-like domain; 1.
+DR   Gene3D; 1.10.1240.10; Methionine synthase domain; 1.
+DR   InterPro; IPR003759; Cbl-bd_cap.
+DR   InterPro; IPR006158; Cobalamin-bd.
+DR   InterPro; IPR036724; Cobalamin-bd_sf.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   InterPro; IPR003726; HCY_dom.
+DR   InterPro; IPR036589; HCY_dom_sf.
+DR   InterPro; IPR050554; Met_Synthase/Corrinoid.
+DR   InterPro; IPR033706; Met_synthase_B12-bd.
+DR   InterPro; IPR011822; MetH.
+DR   InterPro; IPR036594; Meth_synthase_dom.
+DR   InterPro; IPR000489; Pterin-binding_dom.
+DR   NCBIfam; TIGR02082; metH; 1.
+DR   PANTHER; PTHR45833; METHIONINE SYNTHASE; 1.
+DR   PANTHER; PTHR45833:SF1; METHIONINE SYNTHASE; 1.
+DR   Pfam; PF02310; B12-binding; 1.
+DR   Pfam; PF02607; B12-binding_2; 1.
+DR   Pfam; PF00809; Pterin_bind; 1.
+DR   Pfam; PF02574; S-methyl_trans; 1.
+DR   PIRSF; PIRSF000381; MetH; 1.
+DR   SMART; SM01018; B12-binding_2; 1.
+DR   SUPFAM; SSF52242; Cobalamin (vitamin B12)-binding domain; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+DR   SUPFAM; SSF82282; Homocysteine S-methyltransferase; 1.
+DR   SUPFAM; SSF47644; Methionine synthase domain; 1.
+DR   PROSITE; PS51332; B12_BINDING; 1.
+DR   PROSITE; PS51337; B12_BINDING_NTER; 1.
+DR   PROSITE; PS50970; HCY; 1.
+DR   PROSITE; PS50972; PTERIN_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3K13};
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Cobalamin {ECO:0000256|ARBA:ARBA00022628, ECO:0000256|PIRNR:PIRNR000381};
+KW   Cobalt {ECO:0000256|ARBA:ARBA00023285, ECO:0000256|PIRNR:PIRNR000381};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001414};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR000381};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRNR:PIRNR000381}.
+FT   DOMAIN          2..322
+FT                   /note="Hcy-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50970"
+FT   DOMAIN          353..614
+FT                   /note="Pterin-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50972"
+FT   DOMAIN          649..743
+FT                   /note="B12-binding N-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51337"
+FT   DOMAIN          746..881
+FT                   /note="B12-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51332"
+FT   BINDING         244
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         307
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         308
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         693
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         756..760
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         759
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /ligand_part="Co"
+FT                   /ligand_part_id="ChEBI:CHEBI:27638"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1"
+FT   BINDING         804
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         808
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         860
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+SQ   SEQUENCE   915 AA;  99999 MW;  F181B9B3EB7BF227 CRC64;
+     MKKTISQIVS ERILILDGAM GTMIQQYNLK EEDFRGERFA HIPGQLKGNN DLLCLTRPDV
+     IQDIHRKYLE AGADIIETNT FSSTTVSMAD YHVEEYVREI NLAATRLARE LADEYTAKSP
+     DKPRFVAGSV GPTNKTCSMS PDVNNPAFRA LSYDELAASY QQQMEAMLEG GVDAILIETI
+     FDTLNAKAAI FAAGQAMKVT GIEVPVMLSV TVSDIGGRTL SGQTLEAFLA SVQHANIFSV
+     GLNCSFGARQ LKPFLEQLAS RAPYYISAYP NAGLPNSLGK YDQTPADMAH EVKEYIQEGL
+     VNIIGGCCGT TDAYIAEYQT LIAGAKPHVP APKPDCMWLS GLELLEVKPE INFVNIGERC
+     NVAGSRKFLR LVNEKKYDEA LSIARQQVED GALVIDVNMD DGLLDARTEM TTFLNLIMSE
+     PEIARVPVMI DSSKWEVIEA GLKCLQGKSI VNSISLKEGE EVFLEHARII KQYGAATVVM
+     AFDEKGQADT AARKIEVCER AYRLLVDKVG FNPHDIIFDP NVLAVATGIE EHNNYAVDFI
+     EATGWIRKNL PGAHVSGGVS NLSFSFRGNN YIREAMHAVF LYHAIQQGMD MGIVNPGTSV
+     LYSDIPADTL EKIEDVVLNR RPDAAERLIE LAEALKETMG GTSGQAAVKQ DAWREESVQE
+     RLKYALMKGI GDYLEQDLAE ALPLYDKAVD VIEGPLMDGM NYVGELFGAG KMFLPQVVKT
+     ARTMKKAVAI LQPIIESEKV EGSSSAGKVL LATVKGDVHD IGKNIVAVVM ACNGYDIVDL
+     GVMVPAETIV QRAIEEKVDM IGLSGLITPS LEEMTHVAAE LEKAGLDIPL LIGGATTSKM
+     HTALKIAPVY HAPVVHLKDA SQNASVASRL LNSQMKAELI NELDAEYQAL REKSGLLRRE
+     TVSLEEAQKN KLNLF
+//

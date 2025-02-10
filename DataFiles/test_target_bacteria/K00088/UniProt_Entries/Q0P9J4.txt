@@ -1,0 +1,291 @@
+ID   Q0P9J4_CAMJE            Unreviewed;       485 AA.
+AC   Q0P9J4;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 132.
+DE   RecName: Full=Inosine-5'-monophosphate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01964, ECO:0000256|RuleBase:RU003928};
+DE            Short=IMP dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            Short=IMPD {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            Short=IMPDH {ECO:0000256|HAMAP-Rule:MF_01964};
+DE            EC=1.1.1.205 {ECO:0000256|HAMAP-Rule:MF_01964, ECO:0000256|RuleBase:RU003928};
+GN   Name=guaB {ECO:0000256|HAMAP-Rule:MF_01964,
+GN   ECO:0000313|EMBL:CAL35176.1};
+GN   OrderedLocusNames=Cj1058c {ECO:0000313|EMBL:CAL35176.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35176.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35176.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2] {ECO:0007829|PDB:4MZ8}
+RP   X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS) OF 1-91 AND 196-485.
+RA   Kim Y., Makowska-Grzyska M., Gu M., Anderson W.F., Joachimiak A.;
+RT   "Crystal Structure of the Inosine 5'-monophosphate Dehydrogenase, with a
+RT   Internal Deletion of CBS Domain from Campylobacter jejuni complexed with
+RT   inhibitor compound C91.";
+RL   Submitted (SEP-2013) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:4MZ1}
+RP   X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 1-91 AND 196-485.
+RA   Kim Y., Makowska-Grzyska M., Gu M., Anderson W.F., Joachimiak A.;
+RT   "Crystal Structure of the Inosine 5'-monophosphate Dehydrogenase, with a
+RT   Internal Deletion of CBS Domain from Campylobacter jejuni complexed with
+RT   inhibitor compound P12.";
+RL   Submitted (SEP-2013) to the PDB data bank.
+RN   [4] {ECO:0007829|PDB:4R7J}
+RP   X-RAY CRYSTALLOGRAPHY (2.12 ANGSTROMS) OF 1-91 AND 93-485 IN COMPLEX WITH
+RP   IMP.
+RA   Kim Y., Makowska-Grzyska M., Gu M., Hedstrom L., Anderson W.F.,
+RA   Joachimiak A., CSGID.;
+RT   "Crystal Structure of Inosine 5'-monophosphate Dehydrogenase with the
+RT   Internal Deletion Containing CBS Domain from Campylobacter jejuni.";
+RL   Submitted (AUG-2014) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the conversion of inosine 5'-phosphate (IMP) to
+CC       xanthosine 5'-phosphate (XMP), the first committed and rate-limiting
+CC       step in the de novo synthesis of guanine nucleotides, and therefore
+CC       plays an important role in the regulation of cell growth.
+CC       {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + NAD(+) + H2O = XMP + NADH + H(+); Xref=Rhea:RHEA:11708,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57464,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58053;
+CC         EC=1.1.1.205; Evidence={ECO:0000256|ARBA:ARBA00048028,
+CC         ECO:0000256|HAMAP-Rule:MF_01964, ECO:0000256|RuleBase:RU003928};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001958, ECO:0000256|HAMAP-
+CC         Rule:MF_01964};
+CC   -!- ACTIVITY REGULATION: Mycophenolic acid (MPA) is a non-competitive
+CC       inhibitor that prevents formation of the closed enzyme conformation by
+CC       binding to the same site as the amobile flap. In contrast, mizoribine
+CC       monophosphate (MZP) is a competitive inhibitor that induces the closed
+CC       conformation. MPA is a potent inhibitor of mammalian IMPDHs but a poor
+CC       inhibitor of the bacterial enzymes. MZP is a more potent inhibitor of
+CC       bacterial IMPDH. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via de novo pathway; XMP
+CC       from IMP: step 1/1. {ECO:0000256|HAMAP-Rule:MF_01964,
+CC       ECO:0000256|RuleBase:RU003928}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family.
+CC       {ECO:0000256|ARBA:ARBA00005502, ECO:0000256|HAMAP-Rule:MF_01964,
+CC       ECO:0000256|RuleBase:RU003927}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01964}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35176.1; -; Genomic_DNA.
+DR   PIR; G81308; G81308.
+DR   RefSeq; WP_002852968.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344453.1; NC_002163.1.
+DR   PDB; 4MZ1; X-ray; 2.40 A; A/B/C=1-91, A/B/C=93-485.
+DR   PDB; 4MZ8; X-ray; 2.50 A; A/B/C/D=1-91, A/B/C/D=93-485.
+DR   PDB; 4R7J; X-ray; 2.12 A; A=1-91, A=93-485.
+DR   PDBsum; 4MZ1; -.
+DR   PDBsum; 4MZ8; -.
+DR   PDBsum; 4R7J; -.
+DR   AlphaFoldDB; Q0P9J4; -.
+DR   SMR; Q0P9J4; -.
+DR   IntAct; Q0P9J4; 48.
+DR   STRING; 192222.Cj1058c; -.
+DR   PaxDb; 192222-Cj1058c; -.
+DR   EnsemblBacteria; CAL35176; CAL35176; Cj1058c.
+DR   GeneID; 905350; -.
+DR   KEGG; cje:Cj1058c; -.
+DR   PATRIC; fig|192222.6.peg.1040; -.
+DR   eggNOG; COG0516; Bacteria.
+DR   eggNOG; COG0517; Bacteria.
+DR   HOGENOM; CLU_022552_2_1_7; -.
+DR   OrthoDB; 9805398at2; -.
+DR   UniPathway; UPA00601; UER00295.
+DR   EvolutionaryTrace; Q0P9J4; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd04601; CBS_pair_IMPDH; 1.
+DR   CDD; cd00381; IMPDH; 1.
+DR   FunFam; 3.20.20.70:FF:000003; GMP reductase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01964; IMPDH; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR046342; CBS_dom_sf.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   NCBIfam; TIGR01302; IMP_dehydrog; 1.
+DR   PANTHER; PTHR11911:SF111; INOSINE-5'-MONOPHOSPHATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR11911; INOSINE-5-MONOPHOSPHATE DEHYDROGENASE RELATED; 1.
+DR   Pfam; PF00571; CBS; 2.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   SMART; SM00116; CBS; 2.
+DR   SMART; SM01240; IMPDH; 1.
+DR   SUPFAM; SSF54631; CBS-domain pair; 1.
+DR   SUPFAM; SSF51412; Inosine monophosphate dehydrogenase (IMPDH); 1.
+DR   PROSITE; PS51371; CBS; 2.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8};
+KW   CBS domain {ECO:0000256|ARBA:ARBA00023122, ECO:0000256|PROSITE-
+KW   ProRule:PRU00703};
+KW   GMP biosynthesis {ECO:0000256|ARBA:ARBA00022749, ECO:0000256|HAMAP-
+KW   Rule:MF_01964};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01964};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_01964};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01964};
+KW   Potassium {ECO:0000256|ARBA:ARBA00022958, ECO:0000256|HAMAP-Rule:MF_01964};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01964}; Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          92..149
+FT                   /note="CBS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51371"
+FT   DOMAIN          152..209
+FT                   /note="CBS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51371"
+FT   ACT_SITE        301
+FT                   /note="Thioimidate intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-1"
+FT   ACT_SITE        397
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-1"
+FT   BINDING         244..246
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         244
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964"
+FT   BINDING         273
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ8"
+FT   BINDING         294..296
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         296
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         298
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         299
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-2"
+FT   BINDING         301
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         334..336
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-2"
+FT   BINDING         334
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         336
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         357..358
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-2"
+FT   BINDING         357
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         358
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         381..385
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-2"
+FT   BINDING         381
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         384
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         385
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0007829|PDB:4MZ1, ECO:0007829|PDB:4MZ8"
+FT   BINDING         411
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964,
+FT                   ECO:0000256|PIRSR:PIRSR000130-2"
+FT   BINDING         465
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964"
+FT   BINDING         466
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964"
+FT   BINDING         467
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01964"
+SQ   SEQUENCE   485 AA;  52151 MW;  634332666B963CDF CRC64;
+     MKIVKRALTF EDVLLRPGYS EVLPKEVKIH TKLTKNITLN MPLISAAMDT VTEHRAAIMM
+     ARLGGLGVIH KNMDIASQVR EVKRVKKSES GVIIDPIFVS PKASVAEALE IMAEYRISGV
+     PVVDEDKKLI GILTNRDLRF ESDFSNLVEN VMTKMPLITA PKGCTLDDAE KIFSTNKVEK
+     LPIVDEQGRL EGLITIKDLK KRKEYPDANK DNFGRLRVGA AIGVGQMDRV DALVEAGVDV
+     VVLDSAHGHS KGIIDTVKAI KAKYPNLDLI AGNIATAAAA KALCEAGVDA VKVGIGPGSI
+     CTTRIVSGVG VPQISAIDEC VEEANKFGVP VIADGGIKYS GDIAKALAVG ASSVMIGSLL
+     AGTDESPGEL FTYQGRQYKS YRGMGSLGAM QKGSSDRYFQ QGTAQDKLVP EGIEGRVPYV
+     GSIRSVVHQL LGGLRSSMGY VGAKDIEDFQ KRAEFVEITT AGLKESHVHD VTITHEAPNY
+     KVNHQ
+//

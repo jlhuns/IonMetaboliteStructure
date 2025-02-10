@@ -1,0 +1,208 @@
+ID   SYI_CAMJE               Reviewed;         917 AA.
+AC   P41257; Q0P9J1; Q9PNN0;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2000, sequence version 2.
+DT   27-NOV-2024, entry version 151.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            EC=6.1.1.5 {ECO:0000255|HAMAP-Rule:MF_02002};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            Short=IleRS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   Name=ileS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   OrderedLocusNames=Cj1061c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43431 / TGH 9011 / Serotype O:3;
+RX   PubMed=7582016; DOI=10.1099/13500872-141-10-2561;
+RA   Hong Y., Wong T., Bourke B., Chan V.L.;
+RT   "An isoleucyl-tRNA synthetase gene from Campylobacter jejuni.";
+RL   Microbiology 141:2561-2567(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As IleRS
+CC       can inadvertently accommodate and process structurally similar amino
+CC       acids such as valine, to avoid such errors it has two additional
+CC       distinct tRNA(Ile)-dependent editing activities. One activity is
+CC       designated as 'pretransfer' editing and involves the hydrolysis of
+CC       activated Val-AMP. The other activity is designated 'posttransfer'
+CC       editing and involves deacylation of mischarged Val-tRNA(Ile).
+CC       {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Ile) + L-isoleucine + ATP = L-isoleucyl-tRNA(Ile) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:11060, Rhea:RHEA-COMP:9666, Rhea:RHEA-
+CC         COMP:9695, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58045,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78528, ChEBI:CHEBI:456215; EC=6.1.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02002};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_02002};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_02002};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for aminoacylation and
+CC       one for editing. The misactivated valine is translocated from the
+CC       active site to the editing site, which sterically excludes the
+CC       correctly activated isoleucine. The single editing site contains two
+CC       valyl binding pockets, one specific for each substrate (Val-AMP or Val-
+CC       tRNA(Ile)). {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       IleS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U15295; AAA91296.1; -; Genomic_DNA.
+DR   EMBL; AL111168; CAL35179.1; -; Genomic_DNA.
+DR   PIR; B81309; B81309.
+DR   RefSeq; WP_002907389.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344456.1; NC_002163.1.
+DR   AlphaFoldDB; P41257; -.
+DR   SMR; P41257; -.
+DR   IntAct; P41257; 13.
+DR   STRING; 192222.Cj1061c; -.
+DR   PaxDb; 192222-Cj1061c; -.
+DR   EnsemblBacteria; CAL35179; CAL35179; Cj1061c.
+DR   GeneID; 905353; -.
+DR   KEGG; cje:Cj1061c; -.
+DR   PATRIC; fig|192222.6.peg.1043; -.
+DR   eggNOG; COG0060; Bacteria.
+DR   HOGENOM; CLU_001493_7_1_7; -.
+DR   OrthoDB; 9810365at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07960; Anticodon_Ia_Ile_BEm; 1.
+DR   CDD; cd00818; IleRS_core; 1.
+DR   FunFam; 3.40.50.620:FF:000092; Isoleucine--tRNA ligase; 1.
+DR   Gene3D; 1.10.730.20; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 1.10.10.830; Ile-tRNA synthetase CP2 domain-like; 1.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   HAMAP; MF_02002; Ile_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR033708; Anticodon_Ile_BEm.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023585; Ile-tRNA-ligase_type1.
+DR   InterPro; IPR050081; Ile-tRNA_ligase.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   NCBIfam; TIGR00392; ileS; 1.
+DR   PANTHER; PTHR42765:SF1; ISOLEUCINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR42765; SOLEUCYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..917
+FT                   /note="Isoleucine--tRNA ligase"
+FT                   /id="PRO_0000098372"
+FT   MOTIF           59..69
+FT                   /note="'HIGH' region"
+FT   MOTIF           610..614
+FT                   /note="'KMSKS' region"
+FT   BINDING         569
+FT                   /ligand="L-isoleucyl-5'-AMP"
+FT                   /ligand_id="ChEBI:CHEBI:178002"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         613
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         890
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         893
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         905
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         908
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   CONFLICT        144
+FT                   /note="D -> N (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        223
+FT                   /note="E -> K (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        362
+FT                   /note="G -> R (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        527
+FT                   /note="K -> N (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        592
+FT                   /note="A -> T (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        621
+FT                   /note="S -> P (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        697
+FT                   /note="T -> S (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        759
+FT                   /note="M -> I (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        769
+FT                   /note="P -> S (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        816
+FT                   /note="A -> V (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        900
+FT                   /note="N -> D (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        915
+FT                   /note="V -> I (in Ref. 1; AAA91296)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   917 AA;  105262 MW;  73E379C8F8F3D6EA CRC64;
+     MDYKETLLLP STTFAMRANL AELEPQRFKK WFEQNYAYEK MKENRKNAKK SFTLHDGPPY
+     ANGHIHIGHA LNKILKETII KTHYFKGESV RFTPGWDCHG LPIEQQVEVK LGEKKKSLSK
+     KEIREFCRQH ASEFVDIQRE EFKDLGIIAD WDKPYLTMKF EFEAAIYRTL CEIAKKGLLC
+     ERSKPVFWSW AAKSALAEAE VEYQDKEDYS IFVAFDLDVK ACEKLGVSKA SAVIWTTTPW
+     TLVANQAIAL NPNENYVITK EGLIFASALL KSMVEKGLTS GEIQKELNAK EFEKLEAINP
+     LNGRKSVLIM GEHVLMDGGS GLVHTAPGHG EDDYYACLKY GIEVLMPVDD SGCYDETLRA
+     KGLLPSHLLE EFIGLHIFKA NEKILELLGE KLLHSSKFIH SYPFCWRTHK PVIYRATKQW
+     FILMDEPKLQ GKTLRECAKE QLLKTTFYPQ SGVKRIGSMV ENRPDWCISR QRDWGTPIAF
+     FRDKNTKEVI FDDELFDFVA AIFEKHGADA WWEFEIKDLI PTNSKYKAEN LEKVYDILDV
+     WFDSGSTFNA VLNSGLYDAG EKRASMYLEG SDQHRGWFQS SLLVGTAINE SAPYESILTH
+     GFTTDEKGQK MSKSKGNVIA SEYVAKTYGV EILRLWILLS DYSSDLKISD NILKQVGEQY
+     RKIRNTIRFL LANTNDLKDL EVKEFSFIDK WILSRATKVF KASKEAFFAY EFAKGFSLLL
+     NFLSADLSGI YLDISKDRLY CDSENAQRRK SAQVAMALMA KELLNLLAPN LSYSVDEALE
+     HANVLIKGDA KDVFDLSLTQ DFDYDFGIDD TFLMSAREKF FEQIDILKKD KIIKSTLELN
+     LNISFNKFPN EELADWFMVS QISNENEEIL AEFEVENEKF KITKASLCKC PRCWKLQSKN
+     EETPCLRCEE VLKGVQC
+//

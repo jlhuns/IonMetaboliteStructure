@@ -1,0 +1,100 @@
+ID   Q6N7G6_RHOPA            Unreviewed;       764 AA.
+AC   Q6N7G6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   SubName: Full=Adenylate/Guanylate cyclase {ECO:0000313|EMBL:CAE27732.1, ECO:0000313|EMBL:WCL92453.1};
+DE            EC=4.6.1.1 {ECO:0000313|EMBL:CAE27732.1};
+GN   OrderedLocusNames=RPA2291 {ECO:0000313|EMBL:CAE27732.1};
+GN   ORFNames=TX73_011850 {ECO:0000313|EMBL:WCL92453.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27732.1};
+RN   [1] {ECO:0000313|EMBL:WCL92453.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92453.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27732.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27732.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92453.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92453.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572600; CAE27732.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92453.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157844.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2291; -.
+DR   GeneID; 66893349; -.
+DR   KEGG; rpa:TX73_011850; -.
+DR   eggNOG; COG2114; Bacteria.
+DR   eggNOG; COG4252; Bacteria.
+DR   HOGENOM; CLU_000445_85_1_5; -.
+DR   PhylomeDB; Q6N7G6; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004016; F:adenylate cyclase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006171; P:cAMP biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0035556; P:intracellular signal transduction; IEA:InterPro.
+DR   CDD; cd07302; CHD; 1.
+DR   Gene3D; 3.30.70.1230; Nucleotide cyclase; 1.
+DR   InterPro; IPR001054; A/G_cyclase.
+DR   InterPro; IPR050697; Adenylyl/Guanylyl_Cyclase_3/4.
+DR   InterPro; IPR007890; CHASE2.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   PANTHER; PTHR43081:SF1; ADENYLATE CYCLASE, TERMINAL-DIFFERENTIATION SPECIFIC; 1.
+DR   PANTHER; PTHR43081; ADENYLATE CYCLASE, TERMINAL-DIFFERENTIATION SPECIFIC-RELATED; 1.
+DR   Pfam; PF05226; CHASE2; 1.
+DR   Pfam; PF00211; Guanylate_cyc; 1.
+DR   SMART; SM01080; CHASE2; 1.
+DR   SMART; SM00044; CYCc; 1.
+DR   SUPFAM; SSF55073; Nucleotide cyclase; 1.
+DR   PROSITE; PS50125; GUANYLATE_CYCLASE_2; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000313|EMBL:CAE27732.1}; Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        387..409
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        416..437
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          505..643
+FT                   /note="Guanylate cyclase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50125"
+SQ   SEQUENCE   764 AA;  82106 MW;  82FDB849D4F632C6 CRC64;
+     MRLLSRGAHP LLGRAVRGWV RLRRLFRGKY MRAVLAALAT LIALTALRTY EPRIVTETKE
+     RAFDAYQRLA PRPPGNDLPV RIVDIDDASL AAFGQWPWPR TRLAALTKRL GELGAGVIAY
+     DIIFSEPDRT TPERLIADIA AADLPDRDRA VALLKSLPDH DTSFAEAMQQ TPTVLGFAAS
+     LRPNETRPTV KTGLAFVGVA PANVLPPFRG AVSNLPQLDA AAAGVGAINL SASDRGGVVR
+     RLPMLLSDGA RVYPSLAVEA LRVAQGQKGV IIRGTGASGD DDVGDAALVD MRIGQFKLPL
+     TQDGEAWLYF NRDRPDRYVS AKDVLDPAQT EQMRDRLEGT IVLIGTSASG LGDARATPIG
+     QVMPGVAIQA QMIEQIVSQE FLERPDWANG FEIVMTLLLG SLVAALVLIA GARFSLVACA
+     LVFVGAIGGS WIAFSHFRLL IDPVYPSLAT LLTYIAVERV LHTASDREKK FVRQAFGQYL
+     APDLLAQLER TPDGLRLGGE QRELSVMFMD VRGFTPISEA LSATELVDFI NTLLSPLSDA
+     IQDELGTIDK YIGDSIMAFW NAPVDVPDHA ARACRAALKM RSIVEQLNDS DAFGFAARGF
+     ADPVVRIGIG LNTGTACVGN MGSSRRFNYS AMGDVVNVAA RIESASKEFG TDLLVSEEVA
+     RAAPKLALLE AGEIKLKGKS QPARLYALAG DEAFASSETF AELQRLHRGL LDALAAGDGV
+     RAHAILAMCR TLAPPALAGL YNHFARRVAT LADAPRPVLD HTGG
+//

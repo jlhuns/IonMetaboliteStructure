@@ -1,0 +1,80 @@
+ID   C9RJE6_FIBSS            Unreviewed;       213 AA.
+AC   C9RJE6;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 86.
+DE   RecName: Full=Dephospho-CoA kinase {ECO:0000256|HAMAP-Rule:MF_00376};
+DE            EC=2.7.1.24 {ECO:0000256|HAMAP-Rule:MF_00376};
+DE   AltName: Full=Dephosphocoenzyme A kinase {ECO:0000256|HAMAP-Rule:MF_00376};
+GN   Name=coaE {ECO:0000256|HAMAP-Rule:MF_00376,
+GN   ECO:0000313|EMBL:ADL26452.1};
+GN   OrderedLocusNames=FSU_2604 {ECO:0000313|EMBL:ADL26452.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26452.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the 3'-hydroxyl group of
+CC       dephosphocoenzyme A to form coenzyme A. {ECO:0000256|HAMAP-
+CC       Rule:MF_00376}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-dephospho-CoA + ATP = ADP + CoA + H(+);
+CC         Xref=Rhea:RHEA:18245, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57328, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.24; Evidence={ECO:0000256|HAMAP-Rule:MF_00376};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 5/5. {ECO:0000256|HAMAP-Rule:MF_00376}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00376}.
+CC   -!- SIMILARITY: Belongs to the CoaE family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00376}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26452.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546728.1; NC_017448.1.
+DR   AlphaFoldDB; C9RJE6; -.
+DR   STRING; 59374.FSU_2604; -.
+DR   KEGG; fsc:FSU_2604; -.
+DR   KEGG; fsu:Fisuc_2076; -.
+DR   eggNOG; COG0237; Bacteria.
+DR   HOGENOM; CLU_057180_2_1_0; -.
+DR   OrthoDB; 9812943at2; -.
+DR   UniPathway; UPA00241; UER00356.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004140; F:dephospho-CoA kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02022; DPCK; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00376; Dephospho_CoA_kinase; 1.
+DR   InterPro; IPR001977; Depp_CoAkinase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01121; CoaE; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51219; DPCK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00376}; Coenzyme A biosynthesis {ECO:0000256|HAMAP-Rule:MF_00376};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00376};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000313|EMBL:ADL26452.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00376};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000313|EMBL:ADL26452.1}.
+FT   BINDING         11..16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00376"
+SQ   SEQUENCE   213 AA;  23639 MW;  2633FE5D0FA3367B CRC64;
+     MLKIGITGSI GAGKSFVGAL LRARNFQVLD ADCKVHELYR DSAGLRAEMA AYFGEECLTP
+     TGVNSALIAD RVFADAKARV KLEQIVYPYL NLAVANFFAE DAGNDADCPK ESATQLTRVA
+     DKCRFVEAAL FSRAPELVKM LDEIWIVDAP ECVRLERLVL RGLSESDAKR RIENQRGACA
+     PELFPGKRIR TVMNDGDKLH VEQQLDELLR DLH
+//

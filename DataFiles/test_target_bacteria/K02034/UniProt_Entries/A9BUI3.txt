@@ -1,0 +1,93 @@
+ID   A9BUI3_DELAS            Unreviewed;       312 AA.
+AC   A9BUI3;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 83.
+DE   SubName: Full=Binding-protein-dependent transport systems inner membrane component {ECO:0000313|EMBL:ABX33886.1};
+GN   OrderedLocusNames=Daci_1242 {ECO:0000313|EMBL:ABX33886.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33886.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33886.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. {ECO:0000256|RuleBase:RU363032}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33886.1; -; Genomic_DNA.
+DR   RefSeq; WP_012203172.1; NC_010002.1.
+DR   AlphaFoldDB; A9BUI3; -.
+DR   STRING; 398578.Daci_1242; -.
+DR   GeneID; 83661414; -.
+DR   KEGG; dac:Daci_1242; -.
+DR   eggNOG; COG1173; Bacteria.
+DR   HOGENOM; CLU_028518_2_2_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR050366; BP-dependent_transpt_permease.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   PANTHER; PTHR43386:SF26; ABC TRANSPORTER PERMEASE PROTEIN; 1.
+DR   PANTHER; PTHR43386; OLIGOPEPTIDE TRANSPORT SYSTEM PERMEASE PROTEIN APPC; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032}; Transport {ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        30..53
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        104..127
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        139..159
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        171..188
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        223..244
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        279..300
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          100..300
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   312 AA;  33448 MW;  A3B924DE9BDD68D5 CRC64;
+     MTDSAKQAIP PTGWRASDSP VKRAFARSRL VQAAALVLAL IVAATLLSPW LAWQNPFDPA
+     NLDLMDAFTP PGQAGTSGTL YALGSDDQGR DVWSAILYGL RMSVLVGVSA VGLSLLIGVP
+     LGLVCGYAGG WFDTLMMRIA DVQLTFPVIL VALLVFGIAR GLLPEGYRDD MAVFVIIVAI
+     GLSDWVQYAR TVRGAVMVEK HKDYVLAAQL IGRSRVAILV RHILPNLLAP ILVIATISFA
+     HAIVAESTLS YLGVGLPPTQ PSLGTLIRIG QGFLFSGEWW ILLFPSLVLL ALALSVNLVG
+     DWLRDALNPK LQ
+//

@@ -1,0 +1,98 @@
+ID   HTPG_BACFR              Reviewed;         681 AA.
+AC   P0CJ84; P58476; Q64TM1;
+DT   08-FEB-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-FEB-2011, sequence version 1.
+DT   05-FEB-2025, entry version 64.
+DE   RecName: Full=Chaperone protein htpG;
+DE   AltName: Full=Heat shock protein htpG;
+DE   AltName: Full=High temperature protein G {ECO:0000255|HAMAP-Rule:MF_00505};
+GN   Name=htpG {ECO:0000255|HAMAP-Rule:MF_00505}; OrderedLocusNames=BF2409;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Molecular chaperone. Has ATPase activity. {ECO:0000255|HAMAP-
+CC       Rule:MF_00505}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00505}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00505}.
+CC   -!- SIMILARITY: Belongs to the heat shock protein 90 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00505}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD49158.1; -; Genomic_DNA.
+DR   RefSeq; WP_011202859.1; NC_006347.1.
+DR   RefSeq; YP_099692.1; NC_006347.1.
+DR   AlphaFoldDB; P0CJ84; -.
+DR   SMR; P0CJ84; -.
+DR   STRING; 295405.BF2409; -.
+DR   KEGG; bfr:BF2409; -.
+DR   PATRIC; fig|295405.11.peg.2327; -.
+DR   HOGENOM; CLU_006684_3_2_10; -.
+DR   OrthoDB; 9802640at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0140662; F:ATP-dependent protein folding chaperone; IEA:InterPro.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd16927; HATPase_Hsp90-like; 1.
+DR   FunFam; 3.30.230.80:FF:000008; Molecular chaperone HtpG; 1.
+DR   FunFam; 3.30.565.10:FF:000076; Molecular chaperone HtpG; 1.
+DR   Gene3D; 3.30.230.80; -; 1.
+DR   Gene3D; 3.40.50.11260; -; 1.
+DR   Gene3D; 1.20.120.790; Heat shock protein 90, C-terminal domain; 1.
+DR   Gene3D; 3.30.565.10; Histidine kinase-like ATPase, C-terminal domain; 1.
+DR   HAMAP; MF_00505; HSP90; 1.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR019805; Heat_shock_protein_90_CS.
+DR   InterPro; IPR037196; HSP90_C.
+DR   InterPro; IPR001404; Hsp90_fam.
+DR   InterPro; IPR020575; Hsp90_N.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   PANTHER; PTHR11528; HEAT SHOCK PROTEIN 90 FAMILY MEMBER; 1.
+DR   Pfam; PF13589; HATPase_c_3; 1.
+DR   Pfam; PF00183; HSP90; 1.
+DR   PIRSF; PIRSF002583; Hsp90; 1.
+DR   PRINTS; PR00775; HEATSHOCK90.
+DR   SUPFAM; SSF55874; ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   PROSITE; PS00298; HSP90; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chaperone; Cytoplasm; Nucleotide-binding; Stress response.
+FT   CHAIN           1..681
+FT                   /note="Chaperone protein htpG"
+FT                   /id="PRO_0000062966"
+FT   REGION          1..326
+FT                   /note="A; substrate-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00505"
+FT   REGION          327..545
+FT                   /note="B"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00505"
+FT   REGION          546..681
+FT                   /note="C"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00505"
+SQ   SEQUENCE   681 AA;  78013 MW;  19E32A36007D3AF7 CRC64;
+     MQKGNIGVTT ENIFPIIKKF LYSDHEIFLR ELVSNAVDAT QKLNTLASIS EFKGELGDLT
+     VHVSLGKDTI TISDRGIGLT AEEIDKYINQ IAFSGANDFL EKYKNDANAI IGHFGLGFYS
+     AFMVSKKVEI ITKSYKEGAQ AVKWTCDGSP EFTLEEVEKA DRGTDIVLYI DDDCKEFLEE
+     SRISALLKKY CSFLPVPIAF GKKKEWKDGK QVETAEDNVI NDTIPLWTKK PSELSDEDYK
+     KFYRELYPMS DEPLFWIHLN VDYPFHLTGI LYFPKVKSNI DLNKNKIQLY CNQVYVTDSV
+     EGIVPDFLTL LHGVLDSPDI PLNVSRSYLQ SDSNVKKIST YISKKVSDRL QSIFKNDRAQ
+     FEEKWNDLKI FINYGMLTQE DFYDKAQKFA LFTDTDGKYY TFEEYQTLIK DNQTDKDKNL
+     IYLYANNKDE QFAYIEAAKN KGYNVLLMDG QLDVAMVSML EQKLEKSRFT RVDSDVVDNL
+     IVKEDKKSDV LEASKQEALS AAFKSQLPKM EKVEFNVMTQ ALGENGSPVM ITQSEYMRRM
+     KEMANIQAGM SFYGEMPDMF NLVLNSDHKL VKEVLADEEK ECSAAIAPIQ TELEDVTKRR
+     DALKKKQEGK KDEDIPTVEK DELNDLDKKW DELKQQKDSI FAGYAGKNKV VRQLIDLALL
+     QNNMLKGEAL NNFVKRSIEL I
+//

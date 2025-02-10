@@ -1,0 +1,85 @@
+ID   F2REQ6_STRVP            Unreviewed;       321 AA.
+AC   F2REQ6;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   SubName: Full=L-malyl-CoA or beta-methylmalyl-CoA lyase, actinobacterial type {ECO:0000313|EMBL:CCA59591.1};
+DE            EC=4.1.3.- {ECO:0000313|EMBL:CCA59591.1};
+GN   OrderedLocusNames=SVEN_6305 {ECO:0000313|EMBL:CCA59591.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA59591.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA59591.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA59591.1; -; Genomic_DNA.
+DR   RefSeq; WP_015037486.1; NZ_JABVZO010000174.1.
+DR   AlphaFoldDB; F2REQ6; -.
+DR   STRING; 953739.SVEN_6305; -.
+DR   GeneID; 69868321; -.
+DR   KEGG; sve:SVEN_6305; -.
+DR   PATRIC; fig|953739.5.peg.1510; -.
+DR   eggNOG; COG2301; Bacteria.
+DR   HOGENOM; CLU_044864_0_1_11; -.
+DR   OrthoDB; 9768429at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:TreeGrafter.
+DR   FunFam; 3.20.20.60:FF:000013; Citrate lyase beta subunit; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   PANTHER; PTHR32308:SF10; CITRATE LYASE SUBUNIT BETA; 1.
+DR   PANTHER; PTHR32308; LYASE BETA SUBUNIT, PUTATIVE (AFU_ORTHOLOGUE AFUA_4G13030)-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000313|EMBL:CCA59591.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   DOMAIN          12..242
+FT                   /note="HpcH/HpaI aldolase/citrate lyase"
+FT                   /evidence="ECO:0000259|Pfam:PF03328"
+FT   BINDING         73
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         139
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+FT   BINDING         139
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         166
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+SQ   SEQUENCE   321 AA;  35116 MW;  4D946F42BD486040 CRC64;
+     MTSPVNRLRP RRSCLAVPGS NPRFLEKAQG LAADQVFLDL EDACAPLAKP EARHTIVKFL
+     NEGDWTGKTR VVRVNDWTTH WTYRDVVTVV EGAGQNLDCI MLPKVQDAQQ IVALDLLLTQ
+     IEKTMGFEVG KIGIEAQIEN AQGLTNVNAI AQASQRVETI IFGPADFMAS INMKSLVVGE
+     QPPGYPADAY HHILMSILMA ARANNLQAID GPYLQIRNQE GYKAVAQRAA ALGFDGKWVL
+     HPDQVAAANE IFSPSQEDYD HAELILDAYD YYTSEAGGKK GSAMLGDEMI DEASRKMALV
+     ISGKGRAAGM QRTSKFEIPE A
+//

@@ -1,0 +1,122 @@
+ID   GLYA_BACFR              Reviewed;         426 AA.
+AC   Q64U78;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000255|HAMAP-Rule:MF_00051}; OrderedLocusNames=BF2204;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon carrier.
+CC       This reaction serves as the major source of one-carbon groups required
+CC       for the biosynthesis of purines, thymidylate, methionine, and other
+CC       important biomolecules. Also exhibits THF-independent aldolase activity
+CC       toward beta-hydroxyamino acids, producing glycine and aldehydes, via a
+CC       retro-aldol mechanism. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + glycine + H2O =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-serine; Xref=Rhea:RHEA:15481,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15636, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57453; EC=2.1.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine from L-
+CC       serine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD48951.1; -; Genomic_DNA.
+DR   RefSeq; WP_005787540.1; NC_006347.1.
+DR   RefSeq; YP_099485.1; NC_006347.1.
+DR   AlphaFoldDB; Q64U78; -.
+DR   SMR; Q64U78; -.
+DR   STRING; 295405.BF2204; -.
+DR   GeneID; 60365850; -.
+DR   KEGG; bfr:BF2204; -.
+DR   PATRIC; fig|295405.11.peg.2142; -.
+DR   HOGENOM; CLU_022477_2_1_10; -.
+DR   OrthoDB; 9803846at2; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniRule.
+DR   CDD; cd00378; SHMT; 1.
+DR   FunFam; 3.40.640.10:FF:000001; Serine hydroxymethyltransferase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR049943; Ser_HO-MeTrfase-like.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   InterPro; IPR039429; SHMT-like_dom.
+DR   PANTHER; PTHR11680; SERINE HYDROXYMETHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11680:SF35; SERINE HYDROXYMETHYLTRANSFERASE 1; 1.
+DR   Pfam; PF00464; SHMT; 1.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; One-carbon metabolism;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..426
+FT                   /note="Serine hydroxymethyltransferase"
+FT                   /id="PRO_0000113528"
+FT   BINDING         113
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         117..119
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         363..365
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   SITE            221
+FT                   /note="Plays an important role in substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         222
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+SQ   SEQUENCE   426 AA;  46858 MW;  C2F6337612D0FB4C CRC64;
+     MKRDDLIFDI IEKEHQRQLK GIELIASENF VSDQVMEAMG SCLTNKYAEG YPGKRYYGGC
+     EVVDQSEQIA IDRLKEIFGA EWANVQPHSG AQANAAVFLA VLNPGDKFMG LNLAHGGHLS
+     HGSLVNTSGI IYTPCEYNLK QETGRVDYDQ MEEVALREKP KMIIGGGSAY SREWDYKRMR
+     EIADKVGAIL MIDMAHPAGL IAAGLLDNPV KYAHIVTSTT HKTLRGPRGG VIMMGKDFPN
+     PWGKKTPKGE IKMMSQLLDS AVFPGIQGGP LEHVIAAKAV AFGECLQPEY KEYQKQVQKN
+     AAVLAQALID RGFTIVSGGT DNHSMLVDLR SKYPTLTGKV AEKALVSADI TVNKNMVPFD
+     SRSAFQTSGI RLGTPAITTR GAKEDLMLEI AEMIETVLSN VENEEVIAQV RARVNKTMEK
+     YPIFAY
+//

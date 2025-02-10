@@ -1,0 +1,173 @@
+ID   RLMN_STRA5              Reviewed;         368 AA.
+AC   Q8E1A3;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 116.
+DE   RecName: Full=Probable dual-specificity RNA methyltransferase RlmN {ECO:0000255|HAMAP-Rule:MF_01849};
+DE            EC=2.1.1.192 {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=23S rRNA m2A2503 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=Ribosomal RNA large subunit methyltransferase N {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=tRNA m2A37 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+GN   Name=rlmN {ECO:0000255|HAMAP-Rule:MF_01849};
+GN   OrderedLocusNames=SAG0458;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Specifically methylates position 2 of adenine 2503 in 23S
+CC       rRNA and position 2 of adenine 37 in tRNAs. {ECO:0000255|HAMAP-
+CC       Rule:MF_01849}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(2503) in 23S rRNA + 2 reduced [2Fe-2S]-[ferredoxin]
+CC         + 2 S-adenosyl-L-methionine = 2-methyladenosine(2503) in 23S rRNA +
+CC         5'-deoxyadenosine + L-methionine + 2 oxidized [2Fe-2S]-[ferredoxin] +
+CC         S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:42916, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, Rhea:RHEA-COMP:10152, Rhea:RHEA-
+CC         COMP:10282, ChEBI:CHEBI:17319, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74497; EC=2.1.1.192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + 2 reduced [2Fe-2S]-[ferredoxin] + 2 S-
+CC         adenosyl-L-methionine = 2-methyladenosine(37) in tRNA + 5'-
+CC         deoxyadenosine + L-methionine + 2 oxidized [2Fe-2S]-[ferredoxin] + S-
+CC         adenosyl-L-homocysteine; Xref=Rhea:RHEA:43332, Rhea:RHEA-COMP:10000,
+CC         Rhea:RHEA-COMP:10001, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10485,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74497; EC=2.1.1.192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   -!- MISCELLANEOUS: Reaction proceeds by a ping-pong mechanism involving
+CC       intermediate methylation of a conserved cysteine residue.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. RlmN family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99360.1; -; Genomic_DNA.
+DR   RefSeq; NP_687488.1; NC_004116.1.
+DR   RefSeq; WP_001124990.1; NC_004116.1.
+DR   AlphaFoldDB; Q8E1A3; -.
+DR   SMR; Q8E1A3; -.
+DR   STRING; 208435.SAG0458; -.
+DR   KEGG; sag:SAG0458; -.
+DR   PATRIC; fig|208435.3.peg.456; -.
+DR   HOGENOM; CLU_029101_0_1_9; -.
+DR   OrthoDB; 9793973at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070040; F:rRNA (adenine(2503)-C2-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019843; F:rRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002935; F:tRNA (adenine(37)-C2)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030488; P:tRNA methylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 3.20.20.70:FF:000014; Probable dual-specificity RNA methyltransferase RlmN; 1.
+DR   Gene3D; 1.10.150.530; -; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01849; RNA_methyltr_RlmN; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR040072; Methyltransferase_A.
+DR   InterPro; IPR048641; RlmN_N.
+DR   InterPro; IPR027492; RNA_MTrfase_RlmN.
+DR   InterPro; IPR004383; rRNA_lsu_MTrfase_RlmN/Cfr.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00048; rRNA_mod_RlmN; 1.
+DR   PANTHER; PTHR30544; 23S RRNA METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR30544:SF5; RADICAL SAM CORE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   Pfam; PF21016; RlmN_N; 1.
+DR   PIRSF; PIRSF006004; CHP00048; 1.
+DR   SFLD; SFLDF00275; adenosine_C2_methyltransferase; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Disulfide bond; Iron; Iron-sulfur; Metal-binding;
+KW   Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..368
+FT                   /note="Probable dual-specificity RNA methyltransferase
+FT                   RlmN"
+FT                   /id="PRO_0000350450"
+FT   DOMAIN          106..344
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   ACT_SITE        100
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   ACT_SITE        349
+FT                   /note="S-methylcysteine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         120
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         124
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         127
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         172..173
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         204
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         227..229
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         305
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   DISULFID        113..349
+FT                   /note="(transient)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+SQ   SEQUENCE   368 AA;  41937 MW;  24BF8C7226CF1D90 CRC64;
+     MPKKTDTPAY KPSIYSLTRD ELIAWAIEHG EKKFRASQIW DWLYKKRVQS FDEMTNISKD
+     FIALLNENFV VNPLKQRIVQ ESADGTVKYL FELPDGMLIE TVLMRQHYGL SVCVTTQVGC
+     NIGCTFCASG LIKKQRDLNN GEITAQIMLV QKYFDERGQG ERVSHIVVMG IGEPFDNYTN
+     VLKFLRTVND DNGLAIGARH ITVSTSGLAH KIREFANEGV QVNLAVSLHA PNNDLRSSIM
+     RINRSFPLEK LFAAIEYYIE TTNRRVTFEY IMLNGVNDTP ENAQELADLT KKIRKLSYVN
+     LIPYNPVSEH DQYSRSPKER VEAFYDVLKK NGVNCVVRQE HGTDIDAACG QLRSNTMKRD
+     RQKAKVGQ
+//

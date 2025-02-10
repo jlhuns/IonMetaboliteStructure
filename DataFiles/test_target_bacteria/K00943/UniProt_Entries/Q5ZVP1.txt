@@ -1,0 +1,88 @@
+ID   KTHY_LEGPH              Reviewed;         212 AA.
+AC   Q5ZVP1;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Thymidylate kinase {ECO:0000255|HAMAP-Rule:MF_00165};
+DE            EC=2.7.4.9 {ECO:0000255|HAMAP-Rule:MF_00165};
+DE   AltName: Full=dTMP kinase {ECO:0000255|HAMAP-Rule:MF_00165};
+GN   Name=tmk {ECO:0000255|HAMAP-Rule:MF_00165}; OrderedLocusNames=lpg1399;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Phosphorylation of dTMP to form dTDP in both de novo and
+CC       salvage pathways of dTTP synthesis. {ECO:0000255|HAMAP-Rule:MF_00165}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTMP + ATP = dTDP + ADP; Xref=Rhea:RHEA:13517,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58369, ChEBI:CHEBI:63528,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00165};
+CC   -!- SIMILARITY: Belongs to the thymidylate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00165}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27481.1; -; Genomic_DNA.
+DR   RefSeq; WP_010947128.1; NC_002942.5.
+DR   RefSeq; YP_095428.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZVP1; -.
+DR   SMR; Q5ZVP1; -.
+DR   STRING; 272624.lpg1399; -.
+DR   PaxDb; 272624-lpg1399; -.
+DR   GeneID; 57035389; -.
+DR   KEGG; lpn:lpg1399; -.
+DR   PATRIC; fig|272624.6.peg.1469; -.
+DR   eggNOG; COG0125; Bacteria.
+DR   HOGENOM; CLU_049131_0_1_6; -.
+DR   OrthoDB; 9774907at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004798; F:thymidylate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006233; P:dTDP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006235; P:dTTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006227; P:dUDP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd01672; TMPK; 1.
+DR   FunFam; 3.40.50.300:FF:000225; Thymidylate kinase; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00165; Thymidylate_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039430; Thymidylate_kin-like_dom.
+DR   InterPro; IPR018094; Thymidylate_kinase.
+DR   NCBIfam; TIGR00041; DTMP_kinase; 1.
+DR   PANTHER; PTHR10344; THYMIDYLATE KINASE; 1.
+DR   PANTHER; PTHR10344:SF4; UMP-CMP KINASE 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF02223; Thymidylate_kin; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Nucleotide biosynthesis; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..212
+FT                   /note="Thymidylate kinase"
+FT                   /id="PRO_0000155291"
+FT   BINDING         13..20
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00165"
+SQ   SEQUENCE   212 AA;  24010 MW;  C3A7BD362BF54708 CRC64;
+     MSSLTGKLIV IEGLEGAGKS TAVNLVVELL SQKKISTITT REPGGTKIGE ILRSIIKNPE
+     YNNVLDDRSE LLLLYAARIQ LIEQVIKPAL NVGQWVIADR FELSTLAYQG GGRKMDMRVI
+     NELSNFCLKG FKPDLTLYLD INPELGMIRA KSRGKFDRIE QESIEFFHRI HDTYHILVKQ
+     NPEIIMIDAN RSLEEVQSSI QSVIEEFIEH NL
+//

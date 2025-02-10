@@ -1,0 +1,109 @@
+ID   A9C1J3_DELAS            Unreviewed;       431 AA.
+AC   A9C1J3;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   SubName: Full=Amidase, hydantoinase/carbamoylase family {ECO:0000313|EMBL:ABX38656.1};
+DE            EC=3.5.1.87 {ECO:0000313|EMBL:ABX38656.1};
+GN   OrderedLocusNames=Daci_6028 {ECO:0000313|EMBL:ABX38656.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX38656.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX38656.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR001235-1};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000256|PIRSR:PIRSR001235-
+CC       1};
+CC   -!- SIMILARITY: Belongs to the peptidase M20 family.
+CC       {ECO:0000256|ARBA:ARBA00006153}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX38656.1; -; Genomic_DNA.
+DR   RefSeq; WP_012207825.1; NC_010002.1.
+DR   AlphaFoldDB; A9C1J3; -.
+DR   STRING; 398578.Daci_6028; -.
+DR   GeneID; 24114208; -.
+DR   KEGG; dac:Daci_6028; -.
+DR   eggNOG; COG0624; Bacteria.
+DR   HOGENOM; CLU_024588_2_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0016813; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050538; F:N-carbamoyl-L-amino-acid hydrolase activity; IEA:UniProtKB-EC.
+DR   CDD; cd03884; M20_bAS; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR010158; Amidase_Cbmase.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   NCBIfam; TIGR01879; hydantase; 1.
+DR   PANTHER; PTHR32494:SF5; ALLANTOATE AMIDOHYDROLASE; 1.
+DR   PANTHER; PTHR32494; ALLANTOATE DEIMINASE-RELATED; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF001235; Amidase_carbamoylase; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000313|EMBL:ABX38656.1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR001235-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR001235-1}.
+FT   BINDING         95
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         106
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         106
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         201
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         393
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+SQ   SEQUENCE   431 AA;  45058 MW;  92C26977D9D63C3B CRC64;
+     MDLSTPLAAT AVAAGLRTDG ARLWQSLMDL ARIGATPKGG VCRLALTDLD RQGRDLFVQW
+     AREAGCSIRV DAIGNIFARR AGLDDALPPV MTGSHIDTQP TGGKFDGNYG VLAGLEVLRT
+     LNDGGVRTRA PVEVAVWTNE EGSRFVPVMM GSGVFVNAFT LEHALAQRDA QGVSVDEALR
+     AIGYAGPAGP APAVGAYFEA HIEQGPVLEN HERVIGVVSA ALGQRWYDVS VQGMEAHAGP
+     TPMELRHDAL LAASCIVAEV NRIALDRLPH ARGTVGSLEV FPNSRNVIPG GVKLSVDLRA
+     PDDGQLLDMD AALRAACERI AAARGVTIGV EQVVYFPPQP FTPHLVEAVR TNAADLGYSA
+     MDVVSGAGHD AVYLARVAPA AMIFVPCADG ISHNEIEDAE PAHLEAGCNV LLRAMLAAAG
+     VVQAADGGVP A
+//

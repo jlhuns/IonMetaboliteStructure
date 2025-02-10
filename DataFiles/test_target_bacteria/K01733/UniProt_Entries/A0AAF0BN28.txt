@@ -1,0 +1,93 @@
+ID   A0AAF0BN28_RHOPA        Unreviewed;       472 AA.
+AC   A0AAF0BN28;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Threonine synthase {ECO:0000256|ARBA:ARBA00018679, ECO:0000256|NCBIfam:TIGR00260};
+DE            EC=4.2.3.1 {ECO:0000256|ARBA:ARBA00013028, ECO:0000256|NCBIfam:TIGR00260};
+GN   Name=thrC {ECO:0000313|EMBL:WCL90971.1};
+GN   ORFNames=TX73_004325 {ECO:0000313|EMBL:WCL90971.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90971.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90971.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-homoserine + H2O = L-threonine + phosphate;
+CC         Xref=Rhea:RHEA:10840, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57590, ChEBI:CHEBI:57926; EC=4.2.3.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049144};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR604450-51};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-threonine biosynthesis; L-threonine
+CC       from L-aspartate: step 5/5. {ECO:0000256|ARBA:ARBA00004979}.
+CC   -!- SIMILARITY: Belongs to the threonine synthase family.
+CC       {ECO:0000256|ARBA:ARBA00005517}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90971.1; -; Genomic_DNA.
+DR   RefSeq; WP_012494520.1; NZ_CP116810.1.
+DR   GeneID; 66891856; -.
+DR   KEGG; rpa:TX73_004325; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0004795; F:threonine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009088; P:threonine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01560; Thr-synth_2; 1.
+DR   FunFam; 3.90.1380.10:FF:000002; Threonine synthase; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   Gene3D; 3.90.1380.10; Threonine synthase, N-terminal domain; 1.
+DR   InterPro; IPR000634; Ser/Thr_deHydtase_PyrdxlP-BS.
+DR   InterPro; IPR029144; Thr_synth_N.
+DR   InterPro; IPR037158; Thr_synth_N_sf.
+DR   InterPro; IPR004450; Thr_synthase-like.
+DR   InterPro; IPR051166; Threonine_Synthase.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR00260; thrC; 1.
+DR   PANTHER; PTHR42690; THREONINE SYNTHASE FAMILY MEMBER; 1.
+DR   PANTHER; PTHR42690:SF1; THREONINE SYNTHASE-LIKE 2; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   Pfam; PF14821; Thr_synth_N; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS00165; DEHYDRATASE_SER_THR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:WCL90971.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR604450-51};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Threonine biosynthesis {ECO:0000256|ARBA:ARBA00022697}.
+FT   DOMAIN          3..81
+FT                   /note="Threonine synthase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF14821"
+FT   DOMAIN          102..397
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+FT   MOD_RES         113
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604450-51"
+SQ   SEQUENCE   472 AA;  51095 MW;  F7B1C6E02D54F973 CRC64;
+     MTTYVSTRGD APRLGFCDVM LTGLARDGGL YIPEVWPQLT PDTITSLFGR PYWEVAVEVI
+     RPFVAGEISD AELGRMASDA YATFRHPAVV PLRQTGSSQF VLELFHGPTL AFKDVAMQLL
+     SRLMDHVLEK RKQRTTIVVA TSGDTGGAAV EAFANLNNVD LVVLFPHGRI SDVQRMMMTT
+     SGAPNVHPLA IEGHFDDCQA IVKGLFNHHK FRDQVALSGV NSINWARIVA QVVYYFTSAV
+     ALGAPNRVVD FTVPTGNFGD IFAGYVAKKM GLPVRRLKIA ANVNDILART LKTGIYEVRE
+     VHATTSPSMD IQVSSNFERL LFEASGRDAS LIRSLMGSLA QSGRFVLPDA VLAAVREEFD
+     AGRADEAETE SAIRAAWREA GDLIDPHTAV ALAVADRDTT DSSVPNIVLS TAHAAKFPDA
+     VEAACGIRPE LPAWLDGLMS KTESIKIMPR DQVAIERHVL AVSRAAKQGA AG
+//

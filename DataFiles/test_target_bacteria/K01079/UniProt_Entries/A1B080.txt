@@ -1,0 +1,94 @@
+ID   A1B080_PARDP            Unreviewed;       291 AA.
+AC   A1B080;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 92.
+DE   RecName: Full=Phosphoserine phosphatase {ECO:0000256|ARBA:ARBA00015196};
+DE            EC=3.1.3.3 {ECO:0000256|ARBA:ARBA00012640};
+DE   AltName: Full=O-phosphoserine phosphohydrolase {ECO:0000256|ARBA:ARBA00031693};
+GN   OrderedLocusNames=Pden_0812 {ECO:0000313|EMBL:ABL68924.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL68924.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-D-serine + H2O = D-serine + phosphate;
+CC         Xref=Rhea:RHEA:24873, ChEBI:CHEBI:15377, ChEBI:CHEBI:35247,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58680; EC=3.1.3.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048523};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-serine + H2O = L-serine + phosphate;
+CC         Xref=Rhea:RHEA:21208, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57524; EC=3.1.3.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048138};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine from
+CC       3-phospho-D-glycerate: step 3/3. {ECO:0000256|ARBA:ARBA00005135}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily. SerB family.
+CC       {ECO:0000256|ARBA:ARBA00009184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL68924.1; -; Genomic_DNA.
+DR   RefSeq; WP_011747152.1; NC_008686.1.
+DR   AlphaFoldDB; A1B080; -.
+DR   STRING; 318586.Pden_0812; -.
+DR   EnsemblBacteria; ABL68924; ABL68924; Pden_0812.
+DR   GeneID; 75500350; -.
+DR   KEGG; pde:Pden_0812; -.
+DR   eggNOG; COG0560; Bacteria.
+DR   HOGENOM; CLU_036368_4_2_5; -.
+DR   OrthoDB; 9792539at2; -.
+DR   UniPathway; UPA00135; UER00198.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0036424; F:L-phosphoserine phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1000; HAD superfamily/HAD-like; 1.
+DR   InterPro; IPR050582; HAD-like_SerB.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR004469; PSP.
+DR   NCBIfam; TIGR01488; HAD-SF-IB; 1.
+DR   NCBIfam; TIGR00338; serB; 1.
+DR   PANTHER; PTHR43344; PHOSPHOSERINE PHOSPHATASE; 1.
+DR   PANTHER; PTHR43344:SF2; PHOSPHOSERINE PHOSPHATASE; 1.
+DR   Pfam; PF12710; HAD; 1.
+DR   SFLD; SFLDG01137; C1.6.1:_Phosphoserine_Phosphat; 1.
+DR   SFLD; SFLDF00029; phosphoserine_phosphatase; 1.
+DR   SUPFAM; SSF56784; HAD-like; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ABL68924.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Serine biosynthesis {ECO:0000256|ARBA:ARBA00023299}.
+FT   ACT_SITE        82
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604469-1"
+FT   ACT_SITE        84
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604469-1"
+SQ   SEQUENCE   291 AA;  30531 MW;  17A325D34A1890F8 CRC64;
+     MFTVTILAAP SRADLPASLV DDLRRAWDGG HVIWLAQGVA AEFPLAAEPA DFWQAWERLQ
+     AEGFDLAIQP TLGRRKAVLL ADMDSTMIQQ ECIDELADVA GVGERVATIT ARAMNGELNF
+     HEALLARVGL LAGLPETAIG EVLESRITLA PGGRQLVATM RAQGGYAALV SGGFTDFTGP
+     VAGALGFDEH RANTLLAEEG VLTGHVALPI LGREAKVEAL REIAAARGLS PADVLAVGDG
+     ANDLDMLKLA GMGVALHAKP VVAAQVGLRI NHGDLTALLY LQGYAAEEFA Q
+//

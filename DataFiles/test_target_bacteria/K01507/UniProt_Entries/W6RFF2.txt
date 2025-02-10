@@ -1,0 +1,108 @@
+ID   W6RFF2_9HYPH            Unreviewed;       178 AA.
+AC   W6RFF2;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 48.
+DE   RecName: Full=Inorganic pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00209};
+DE            EC=3.6.1.1 {ECO:0000256|HAMAP-Rule:MF_00209};
+DE   AltName: Full=Pyrophosphate phospho-hydrolase {ECO:0000256|HAMAP-Rule:MF_00209};
+DE            Short=PPase {ECO:0000256|HAMAP-Rule:MF_00209};
+GN   Name=ppa {ECO:0000256|HAMAP-Rule:MF_00209,
+GN   ECO:0000313|EMBL:CDM59579.1};
+GN   ORFNames=LPU83_3943 {ECO:0000313|EMBL:CDM59579.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM59579.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM59579.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM59579.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolysis of inorganic pyrophosphate (PPi)
+CC       forming two phosphate ions. {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + H2O = 2 phosphate + H(+); Xref=Rhea:RHEA:24576,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474; EC=3.6.1.1; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00209};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946, ECO:0000256|HAMAP-
+CC         Rule:MF_00209};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- SIMILARITY: Belongs to the PPase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00209}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM59579.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316798.1; NZ_JAIRAY010000048.1.
+DR   AlphaFoldDB; W6RFF2; -.
+DR   KEGG; rhl:LPU83_3943; -.
+DR   PATRIC; fig|348824.6.peg.4228; -.
+DR   eggNOG; COG0221; Bacteria.
+DR   HOGENOM; CLU_073198_1_0_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004427; F:inorganic diphosphate phosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006796; P:phosphate-containing compound metabolic process; IEA:InterPro.
+DR   CDD; cd00412; pyrophosphatase; 1.
+DR   FunFam; 3.90.80.10:FF:000003; Inorganic pyrophosphatase; 1.
+DR   Gene3D; 3.90.80.10; Inorganic pyrophosphatase; 1.
+DR   HAMAP; MF_00209; Inorganic_PPase; 1.
+DR   InterPro; IPR008162; Pyrophosphatase.
+DR   InterPro; IPR036649; Pyrophosphatase_sf.
+DR   PANTHER; PTHR10286; INORGANIC PYROPHOSPHATASE; 1.
+DR   Pfam; PF00719; Pyrophosphatase; 1.
+DR   SUPFAM; SSF50324; Inorganic pyrophosphatase; 1.
+DR   PROSITE; PS00387; PPASE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00209}.
+FT   BINDING         30
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         44
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         56
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         66
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         71
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         71
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         103
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         142
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+SQ   SEQUENCE   178 AA;  19816 MW;  069CF796B7E8CAD3 CRC64;
+     MRIDAISIGK NPPEDVNVIV EVPVGGHPIK YEMDKEAGTL VVDRFLYTPM TYPGNYGFVP
+     HTLSEDGDPI DVLIASTRPL VPGCVINVRP IGVLKMEDNS GKDEKIIAVP SPKLTLRYEK
+     VKDYTDLPEI TLKQIAHFFS HYKDLEPGKW VKIFGWGDSK EAGALILEAI ERAKKEKA
+//

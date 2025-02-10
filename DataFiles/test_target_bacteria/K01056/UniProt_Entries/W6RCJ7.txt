@@ -1,0 +1,84 @@
+ID   W6RCJ7_9HYPH            Unreviewed;       238 AA.
+AC   W6RCJ7;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 47.
+DE   RecName: Full=Peptidyl-tRNA hydrolase {ECO:0000256|ARBA:ARBA00013260, ECO:0000256|HAMAP-Rule:MF_00083};
+DE            Short=PTH {ECO:0000256|HAMAP-Rule:MF_00083};
+DE            EC=3.1.1.29 {ECO:0000256|ARBA:ARBA00013260, ECO:0000256|HAMAP-Rule:MF_00083};
+GN   Name=pth {ECO:0000256|HAMAP-Rule:MF_00083,
+GN   ECO:0000313|EMBL:CDM58579.1};
+GN   ORFNames=LPU83_2928 {ECO:0000313|EMBL:CDM58579.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM58579.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM58579.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM58579.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The natural substrate for this enzyme may be peptidyl-tRNAs
+CC       which drop off the ribosome during protein synthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00083}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acyl-L-alpha-aminoacyl-tRNA + H2O = an N-acyl-L-amino
+CC         acid + a tRNA + H(+); Xref=Rhea:RHEA:54448, Rhea:RHEA-COMP:10123,
+CC         Rhea:RHEA-COMP:13883, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:59874, ChEBI:CHEBI:78442, ChEBI:CHEBI:138191;
+CC         EC=3.1.1.29; Evidence={ECO:0000256|HAMAP-Rule:MF_00083,
+CC         ECO:0000256|RuleBase:RU000673};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00083}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00083}.
+CC   -!- SIMILARITY: Belongs to the PTH family. {ECO:0000256|ARBA:ARBA00038063,
+CC       ECO:0000256|HAMAP-Rule:MF_00083, ECO:0000256|RuleBase:RU004320}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM58579.1; -; Genomic_DNA.
+DR   RefSeq; WP_024313873.1; NZ_JAIRAY010000003.1.
+DR   AlphaFoldDB; W6RCJ7; -.
+DR   KEGG; rhl:LPU83_2928; -.
+DR   PATRIC; fig|348824.6.peg.3156; -.
+DR   eggNOG; COG0193; Bacteria.
+DR   HOGENOM; CLU_062456_1_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004045; F:aminoacyl-tRNA hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00462; PTH; 1.
+DR   FunFam; 3.40.50.1470:FF:000001; Peptidyl-tRNA hydrolase; 1.
+DR   Gene3D; 3.40.50.1470; Peptidyl-tRNA hydrolase; 1.
+DR   HAMAP; MF_00083; Pept_tRNA_hydro_bact; 1.
+DR   InterPro; IPR001328; Pept_tRNA_hydro.
+DR   InterPro; IPR018171; Pept_tRNA_hydro_CS.
+DR   InterPro; IPR036416; Pept_tRNA_hydro_sf.
+DR   NCBIfam; TIGR00447; pth; 1.
+DR   PANTHER; PTHR17224; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   PANTHER; PTHR17224:SF1; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   Pfam; PF01195; Pept_tRNA_hydro; 1.
+DR   SUPFAM; SSF53178; Peptidyl-tRNA hydrolase-like; 1.
+DR   PROSITE; PS01195; PEPT_TRNA_HYDROL_1; 1.
+DR   PROSITE; PS01196; PEPT_TRNA_HYDROL_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00083};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00083}.
+FT   REGION          189..224
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        190..202
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        203..212
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   238 AA;  26041 MW;  3F766A7FA208C0F5 CRC64;
+     MLIIAGLGNA GGKYAGNRHN IGFMAADAIH RRHNFSPWSK KFKAEIAEGE IAGEKVLLIK
+     PQTYMNLSGE AVGEAMRFYK LQPTDLVAIY DELDLPPGKA RLKTGGGHGG HNGIKSLDAH
+     CGKDYRRLRL GIGHPGVKEL VQHHVLGDFA KADQAWLEPL LHALADNADM LVRKEDSQLM
+     NKLALALGGK AEEEKPKPEK KPTAKSHIHQ ARNHNQPKMP ATGPMAEMLK KMFGNKGD
+//

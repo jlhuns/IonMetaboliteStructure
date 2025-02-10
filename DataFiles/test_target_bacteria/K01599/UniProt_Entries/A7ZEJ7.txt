@@ -1,0 +1,101 @@
+ID   DCUP_CAMC1              Reviewed;         340 AA.
+AC   A7ZEJ7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   27-NOV-2024, entry version 91.
+DE   RecName: Full=Uroporphyrinogen decarboxylase {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            Short=UPD {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            Short=URO-D {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            EC=4.1.1.37 {ECO:0000255|HAMAP-Rule:MF_00218};
+GN   Name=hemE {ECO:0000255|HAMAP-Rule:MF_00218};
+GN   OrderedLocusNames=Ccon26_13560; ORFNames=CCC13826_1013;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the decarboxylation of four acetate groups of
+CC       uroporphyrinogen-III to yield coproporphyrinogen-III.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uroporphyrinogen III + 4 H(+) = coproporphyrinogen III + 4
+CC         CO2; Xref=Rhea:RHEA:19865, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57308, ChEBI:CHEBI:57309; EC=4.1.1.37;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00218};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 4/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SIMILARITY: Belongs to the uroporphyrinogen decarboxylase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97284.1; -; Genomic_DNA.
+DR   RefSeq; WP_012140109.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZEJ7; -.
+DR   SMR; A7ZEJ7; -.
+DR   STRING; 360104.CCC13826_1013; -.
+DR   KEGG; cco:CCC13826_1013; -.
+DR   eggNOG; COG0407; Bacteria.
+DR   HOGENOM; CLU_040933_0_0_7; -.
+DR   OrthoDB; 9806656at2; -.
+DR   UniPathway; UPA00251; UER00321.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004853; F:uroporphyrinogen decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019353; P:protoporphyrinogen IX biosynthetic process from glutamate; IEA:TreeGrafter.
+DR   CDD; cd00717; URO-D; 1.
+DR   FunFam; 3.20.20.210:FF:000007; Uroporphyrinogen decarboxylase; 1.
+DR   Gene3D; 3.20.20.210; -; 1.
+DR   HAMAP; MF_00218; URO_D; 1.
+DR   InterPro; IPR038071; UROD/MetE-like_sf.
+DR   InterPro; IPR006361; Uroporphyrinogen_deCO2ase_HemE.
+DR   InterPro; IPR000257; Uroporphyrinogen_deCOase.
+DR   NCBIfam; TIGR01464; hemE; 1.
+DR   PANTHER; PTHR21091; METHYLTETRAHYDROFOLATE:HOMOCYSTEINE METHYLTRANSFERASE RELATED; 1.
+DR   PANTHER; PTHR21091:SF169; UROPORPHYRINOGEN DECARBOXYLASE; 1.
+DR   Pfam; PF01208; URO-D; 1.
+DR   SUPFAM; SSF51726; UROD/MetE-like; 1.
+DR   PROSITE; PS00906; UROD_1; 1.
+DR   PROSITE; PS00907; UROD_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Decarboxylase; Lyase; Porphyrin biosynthesis.
+FT   CHAIN           1..340
+FT                   /note="Uroporphyrinogen decarboxylase"
+FT                   /id="PRO_1000023887"
+FT   BINDING         21..25
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         71
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         148
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         203
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         316
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   SITE            71
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+SQ   SEQUENCE   340 AA;  38179 MW;  68BFEF0F8DF9F048 CRC64;
+     MIFIDACLKK PTPYTPVWMM RQAGRYLPEY MAVRAKAGDF LSLCKDYKKA SEVTLQPVEI
+     LGVDAAILFS DILVVPLEMG MDLRFEKGEG PVFTKPLRDE AALDALSIER SVKSLAYVYD
+     TIKLTRENLA KDKALIGFCG APWTIATYMI EGGGSKNYAV CKKMLYENPE FLHQILEKVT
+     QALILYIKEQ IKAGVNAVQI FDSWAAALEE QAYFEFGFSY INKIVDSVKA EFPDIPVIVF
+     PKGISGYLDK ISGKFDVFGV DWSTPIELAK EKLSPRYVLQ GNMEPTRLYS KKAIDEGVDK
+     ILSTMRGAPH IFNLGHGILP DVPVENAKYF IKEVQRKSAR
+//

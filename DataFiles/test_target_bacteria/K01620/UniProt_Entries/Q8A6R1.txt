@@ -1,0 +1,87 @@
+ID   Q8A6R1_BACTN            Unreviewed;       337 AA.
+AC   Q8A6R1;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   02-OCT-2024, entry version 118.
+DE   SubName: Full=Low-specificity L-threonine aldolase {ECO:0000313|EMBL:AAO76922.1};
+GN   OrderedLocusNames=BT_1815 {ECO:0000313|EMBL:AAO76922.1};
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186 {ECO:0000313|EMBL:AAO76922.1, ECO:0000313|Proteomes:UP000001414};
+RN   [1] {ECO:0000313|EMBL:AAO76922.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2] {ECO:0000313|EMBL:AAO76922.1, ECO:0000313|Proteomes:UP000001414}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50 {ECO:0000313|Proteomes:UP000001414};
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- SIMILARITY: Belongs to the threonine aldolase family.
+CC       {ECO:0000256|ARBA:ARBA00006966}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO76922.1; -; Genomic_DNA.
+DR   RefSeq; NP_810728.1; NC_004663.1.
+DR   RefSeq; WP_011108001.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A6R1; -.
+DR   STRING; 226186.BT_1815; -.
+DR   PaxDb; 226186-BT_1815; -.
+DR   EnsemblBacteria; AAO76922; AAO76922; BT_1815.
+DR   GeneID; 60927803; -.
+DR   KEGG; bth:BT_1815; -.
+DR   PATRIC; fig|226186.12.peg.1863; -.
+DR   eggNOG; COG2008; Bacteria.
+DR   HOGENOM; CLU_049619_0_0_10; -.
+DR   InParanoid; Q8A6R1; -.
+DR   OrthoDB; 9774495at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0008732; F:L-allo-threonine aldolase activity; IBA:GO_Central.
+DR   GO; GO:0006545; P:glycine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006567; P:threonine catabolic process; IBA:GO_Central.
+DR   CDD; cd06502; TA_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR001597; ArAA_b-elim_lyase/Thr_aldolase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   PANTHER; PTHR48097; L-THREONINE ALDOLASE-RELATED; 1.
+DR   PANTHER; PTHR48097:SF5; LOW SPECIFICITY L-THREONINE ALDOLASE; 1.
+DR   Pfam; PF01212; Beta_elim_lyase; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   3: Inferred from homology;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001414}.
+FT   DOMAIN          4..287
+FT                   /note="Aromatic amino acid beta-eliminating lyase/threonine
+FT                   aldolase"
+FT                   /evidence="ECO:0000259|Pfam:PF01212"
+SQ   SEQUENCE   337 AA;  38190 MW;  BC9AC41154B84835 CRC64;
+     MRSFASDNNS GVHPLVMEAL SRANADHALG YGDDRWTEEA VAKIKETFTQ DCVPLFVFNG
+     TGSNVVALQV MTRPYHSIFC AETAHIYVDE CGSPVKMTGC QIRPIATTDG KLTPELMQPY
+     LHGFGDQHHS QPRALYISQC TELGTIYTPE ELKRLTDFAH LNGMYVHMDG ARIANACAAL
+     HLSLKELTVD CGIDILSFGG TKNGLMMGEC VIIFNKDLQR EARFVRKQSA QLASKMRYLS
+     CQFTTYLTDD LWLKNAAHAN AMAGKLYRAL KELPEVTFTQ KPESNQLFLT MPRPTIDRML
+     ESYFFYFWNE ANHEIRLVTS FDTTEEDVNQ FIRLLRR
+//

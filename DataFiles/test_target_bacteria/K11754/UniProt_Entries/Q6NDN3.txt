@@ -1,0 +1,151 @@
+ID   Q6NDN3_RHOPA            Unreviewed;       442 AA.
+AC   Q6NDN3;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 120.
+DE   RecName: Full=Dihydrofolate synthase/folylpolyglutamate synthase {ECO:0000256|ARBA:ARBA00019357};
+DE            EC=6.3.2.12 {ECO:0000256|ARBA:ARBA00013023};
+DE            EC=6.3.2.17 {ECO:0000256|ARBA:ARBA00013025};
+DE   AltName: Full=Folylpoly-gamma-glutamate synthetase-dihydrofolate synthetase {ECO:0000256|ARBA:ARBA00032510};
+DE   AltName: Full=Folylpolyglutamate synthetase {ECO:0000256|ARBA:ARBA00030048};
+DE   AltName: Full=Tetrahydrofolylpolyglutamate synthase {ECO:0000256|ARBA:ARBA00030592};
+GN   Name=folC {ECO:0000313|EMBL:CAE25516.1};
+GN   OrderedLocusNames=RPA0072 {ECO:0000313|EMBL:CAE25516.1};
+GN   ORFNames=TX73_000375 {ECO:0000313|EMBL:WCL90197.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25516.1};
+RN   [1] {ECO:0000313|EMBL:WCL90197.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90197.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25516.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25516.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90197.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90197.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Functions in two distinct reactions of the de novo folate
+CC       biosynthetic pathway. Catalyzes the addition of a glutamate residue to
+CC       dihydropteroate (7,8-dihydropteroate or H2Pte) to form dihydrofolate
+CC       (7,8-dihydrofolate monoglutamate or H2Pte-Glu). Also catalyzes
+CC       successive additions of L-glutamate to tetrahydrofolate or 10-
+CC       formyltetrahydrofolate or 5,10-methylenetetrahydrofolate, leading to
+CC       folylpolyglutamate derivatives. {ECO:0000256|ARBA:ARBA00002714}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylenetetrahydrofolyl-(gamma-L-Glu)(n) + L-
+CC         glutamate + ATP = (6R)-5,10-methylenetetrahydrofolyl-(gamma-L-
+CC         Glu)(n+1) + ADP + phosphate + H(+); Xref=Rhea:RHEA:51912, Rhea:RHEA-
+CC         COMP:13257, Rhea:RHEA-COMP:13258, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:136572, ChEBI:CHEBI:456216; EC=6.3.2.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049035};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5,6,7,8-tetrahydrofolyl-(gamma-L-Glu)(n) + L-glutamate +
+CC         ATP = (6S)-5,6,7,8-tetrahydrofolyl-(gamma-L-Glu)(n+1) + ADP +
+CC         phosphate + H(+); Xref=Rhea:RHEA:10580, Rhea:RHEA-COMP:14738,
+CC         Rhea:RHEA-COMP:14740, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:141005,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047493};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=10-formyltetrahydrofolyl-(gamma-L-Glu)(n) + L-glutamate + ATP
+CC         = 10-formyltetrahydrofolyl-(gamma-L-Glu)(n+1) + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:51904, Rhea:RHEA-COMP:13088, Rhea:RHEA-
+CC         COMP:14300, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:134413, ChEBI:CHEBI:456216;
+CC         EC=6.3.2.17; Evidence={ECO:0000256|ARBA:ARBA00047808};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7,8-dihydropteroate + L-glutamate + ATP = 7,8-dihydrofolate +
+CC         ADP + phosphate + H(+); Xref=Rhea:RHEA:23584, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17839, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57451, ChEBI:CHEBI:456216;
+CC         EC=6.3.2.12; Evidence={ECO:0000256|ARBA:ARBA00049161};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolate biosynthesis; 7,8-
+CC       dihydrofolate from 2-amino-4-hydroxy-6-hydroxymethyl-7,8-
+CC       dihydropteridine diphosphate and 4-aminobenzoate: step 2/2.
+CC       {ECO:0000256|ARBA:ARBA00004799}.
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolylpolyglutamate
+CC       biosynthesis. {ECO:0000256|ARBA:ARBA00005150}.
+CC   -!- SIMILARITY: Belongs to the folylpolyglutamate synthase family.
+CC       {ECO:0000256|ARBA:ARBA00008276, ECO:0000256|PIRNR:PIRNR001563}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572593; CAE25516.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90197.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155643.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0072; -.
+DR   GeneID; 66891073; -.
+DR   KEGG; rpa:TX73_000375; -.
+DR   eggNOG; COG0285; Bacteria.
+DR   HOGENOM; CLU_015869_1_1_5; -.
+DR   PhylomeDB; Q6NDN3; -.
+DR   UniPathway; UPA00077; UER00157.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008841; F:dihydrofolate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004326; F:tetrahydrofolylpolyglutamate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   FunFam; 3.40.1190.10:FF:000011; Folylpolyglutamate synthase/dihydrofolate synthase; 1.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   InterPro; IPR001645; Folylpolyglutamate_synth.
+DR   InterPro; IPR018109; Folylpolyglutamate_synth_CS.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   NCBIfam; TIGR01499; folC; 1.
+DR   PANTHER; PTHR11136:SF0; DIHYDROFOLATE SYNTHETASE-RELATED; 1.
+DR   PANTHER; PTHR11136; FOLYLPOLYGLUTAMATE SYNTHASE-RELATED; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   PIRSF; PIRSF001563; Folylpolyglu_synth; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+DR   PROSITE; PS01012; FOLYLPOLYGLU_SYNT_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|PIRNR:PIRNR001563};
+KW   Folate biosynthesis {ECO:0000256|ARBA:ARBA00022909};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|PIRNR:PIRNR001563};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|PIRNR:PIRNR001563};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          53..269
+FT                   /note="Mur ligase central"
+FT                   /evidence="ECO:0000259|Pfam:PF08245"
+FT   DOMAIN          310..426
+FT                   /note="Mur ligase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02875"
+SQ   SEQUENCE   442 AA;  47349 MW;  7BF3DCAB94A8F38D CRC64;
+     MSEGSAPPAP LGELRSRLTQ LHPVAIDLTL GRIERLLAAL GHPERKLPPV IHVAGTNGKG
+     STVAFLRAIL EATELKVHAY TSPHLVRVNE TIRIAGRLVG DDQLLTALAH CERVNAGAPI
+     TLFEIETAAA LWLFAQHPAD VTLLEVGLGG RLDATNVIEH PLACVLTPIG IDHTEFLGPT
+     IADIAAEKAG ILRRGAPVIV AEQRDEAMEV IERDAKRLRA PLFACGQQWH VQLEHGRLAY
+     QDERGLLDLT APKLFGRHQI DNAGLAIATL RAQSRFTIPQ DAYQAGLLAA EWPARMQRIT
+     SGKLLDDAPA GCELWLDGGH NADGGRVAAA ALGDLEERVS RPLVLIAGMM ANKDAAAFLA
+     NFTGLTRHLI AVSIPNRDGA MPPERLADAG RALGLRVELA DDVRAALRRI ASLAYELPPR
+     ILITGSLYLA GHVLSLNGTP PN
+//

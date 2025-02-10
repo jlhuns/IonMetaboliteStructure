@@ -1,0 +1,162 @@
+ID   ILVD_BACLD              Reviewed;         558 AA.
+AC   Q65IB0; Q62TR1;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Dihydroxy-acid dehydratase {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            Short=DAD {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            EC=4.2.1.9 {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   Name=ilvD {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   OrderedLocusNames=BLi02324, BL05225;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Functions in the biosynthesis of branched-chain amino acids.
+CC       Catalyzes the dehydration of (2R,3R)-2,3-dihydroxy-3-methylpentanoate
+CC       (2,3-dihydroxy-3-methylvalerate) into 2-oxo-3-methylpentanoate (2-oxo-
+CC       3-methylvalerate) and of (2R)-2,3-dihydroxy-3-methylbutanoate (2,3-
+CC       dihydroxyisovalerate) into 2-oxo-3-methylbutanoate (2-oxoisovalerate),
+CC       the penultimate precursor to L-isoleucine and L-valine, respectively.
+CC       {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate
+CC         + H2O; Xref=Rhea:RHEA:24809, ChEBI:CHEBI:11851, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:49072; EC=4.2.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24810;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3R)-2,3-dihydroxy-3-methylpentanoate = (S)-3-methyl-2-
+CC         oxopentanoate + H2O; Xref=Rhea:RHEA:27694, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35146, ChEBI:CHEBI:49258; EC=4.2.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27695;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. This cluster acts as a Lewis
+CC       acid cofactor. {ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 3/4. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SIMILARITY: Belongs to the IlvD/Edd family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU41204.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU23848.1; -; Genomic_DNA.
+DR   RefSeq; WP_003182821.1; NC_006322.1.
+DR   AlphaFoldDB; Q65IB0; -.
+DR   SMR; Q65IB0; -.
+DR   STRING; 279010.BL05225; -.
+DR   GeneID; 92861080; -.
+DR   KEGG; bld:BLi02324; -.
+DR   KEGG; bli:BL05225; -.
+DR   eggNOG; COG0129; Bacteria.
+DR   HOGENOM; CLU_014271_4_2_9; -.
+DR   UniPathway; UPA00047; UER00057.
+DR   UniPathway; UPA00049; UER00061.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004160; F:dihydroxy-acid dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:L-valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.50.30.80:FF:000001; Dihydroxy-acid dehydratase; 1.
+DR   Gene3D; 3.50.30.80; IlvD/EDD C-terminal domain-like; 1.
+DR   HAMAP; MF_00012; IlvD; 1.
+DR   InterPro; IPR042096; Dihydro-acid_dehy_C.
+DR   InterPro; IPR004404; DihydroxyA_deHydtase.
+DR   InterPro; IPR000581; DiOHA_6PGluconate_deHydtase.
+DR   InterPro; IPR020558; DiOHA_6PGluconate_deHydtase_CS.
+DR   InterPro; IPR037237; IlvD/EDD_N.
+DR   NCBIfam; TIGR00110; ilvD; 1.
+DR   PANTHER; PTHR43661; D-XYLONATE DEHYDRATASE; 1.
+DR   PANTHER; PTHR43661:SF3; D-XYLONATE DEHYDRATASE YAGF-RELATED; 1.
+DR   Pfam; PF00920; ILVD_EDD; 1.
+DR   SUPFAM; SSF143975; IlvD/EDD N-terminal domain-like; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00886; ILVD_EDD_1; 1.
+DR   PROSITE; PS00887; ILVD_EDD_2; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Lyase; Magnesium; Metal-binding; Reference proteome.
+FT   CHAIN           1..558
+FT                   /note="Dihydroxy-acid dehydratase"
+FT                   /id="PRO_0000225369"
+FT   ACT_SITE        473
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         81
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         122
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         123
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         124
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /note="via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         195
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         447
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   MOD_RES         124
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+SQ   SEQUENCE   558 AA;  59461 MW;  1A9029F7205ABB0B CRC64;
+     MTGLRSDMIT KGIDRAPHRS LLRAAGVKEE DFGKPFIAVC NSYIDIVPGH VHLQEFGKIV
+     KEAIREAGGV PFEFNTIGVD DGIAMGHIGM RYSLPSREII ADSVETVVSA HWFDGMVCIP
+     NCDKITPGMI MAAMRINIPT VFVSGGPMEA GRTSDGRKIS LSSVFEGVGA YQSGKIDEKG
+     LEELEQFGCP TCGSCSGMFT ANSMNCLSEA LGIAMPGNGT ILATSPDRRE FAKQSARQLM
+     ELIKSDIKPR DIVTEKAIDN AFALDMALGG STNTILHTLA IANEAGVDYS LERINEVAAR
+     VPHLSKLAPA SDVFIEDLHE AGGVSAVLNE LSKKEGALHL DTLTVTGKTL GENIAGREVK
+     DYEVIHPIDQ PFSEQGGLAV LFGNLAPDGA IIKTGGVQDG ITRHEGPAVV FDSQEEALDG
+     IINRKVKAGD VVIIRYEGPK GGPGMPEMLA PTSQIVGMGL GPKVALITDG RFSGASRGLS
+     IGHVSPEAAE GGPLAFVENG DHIVVDIEKR ILNIEISDEE WEKRKANWPG FEPKVKTGYL
+     ARYSKLVTSA NTGGIMKI
+//

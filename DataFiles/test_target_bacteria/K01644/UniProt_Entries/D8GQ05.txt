@@ -1,0 +1,107 @@
+ID   D8GQ05_CLOLD            Unreviewed;       300 AA.
+AC   D8GQ05;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 68.
+DE   RecName: Full=Citrate lyase subunit beta {ECO:0000256|ARBA:ARBA00015712};
+DE            EC=4.1.3.34 {ECO:0000256|ARBA:ARBA00012258};
+DE            EC=4.1.3.6 {ECO:0000256|ARBA:ARBA00012914};
+DE   AltName: Full=Citrate (pro-3S)-lyase subunit beta {ECO:0000256|ARBA:ARBA00030255};
+DE   AltName: Full=Citryl-CoA lyase subunit {ECO:0000256|ARBA:ARBA00032495};
+GN   OrderedLocusNames=CLJU_c30480 {ECO:0000313|EMBL:ADK16096.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK16096.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK16096.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Represents a citryl-ACP lyase.
+CC       {ECO:0000256|ARBA:ARBA00003671}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(3S)-citryl-CoA = oxaloacetate + acetyl-CoA;
+CC         Xref=Rhea:RHEA:20812, ChEBI:CHEBI:16452, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57321; EC=4.1.3.34;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049110};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=citrate = oxaloacetate + acetate; Xref=Rhea:RHEA:10760,
+CC         ChEBI:CHEBI:16452, ChEBI:CHEBI:16947, ChEBI:CHEBI:30089; EC=4.1.3.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048308};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SUBUNIT: Oligomer with a subunit composition of (alpha,beta,gamma)6.
+CC       {ECO:0000256|ARBA:ARBA00011382}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the HpcH/HpaI aldolase family. Citrate lyase
+CC       beta subunit subfamily. {ECO:0000256|ARBA:ARBA00005549}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK16096.1; -; Genomic_DNA.
+DR   RefSeq; WP_013239686.1; NC_014328.1.
+DR   AlphaFoldDB; D8GQ05; -.
+DR   STRING; 748727.CLJU_c30480; -.
+DR   KEGG; clj:CLJU_c30480; -.
+DR   eggNOG; COG2301; Bacteria.
+DR   HOGENOM; CLU_044864_0_0_9; -.
+DR   OrthoDB; 9786940at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0009346; C:ATP-independent citrate lyase complex; IEA:InterPro.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008815; F:citrate (pro-3S)-lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008816; F:citryl-CoA lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006084; P:acetyl-CoA metabolic process; IEA:InterPro.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:TreeGrafter.
+DR   FunFam; 3.20.20.60:FF:000008; Citrate (Pro-3S)-lyase subunit beta; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR006475; Citrate_lyase_beta_bac.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   NCBIfam; TIGR01588; citE; 1.
+DR   PANTHER; PTHR32308:SF10; CITRATE LYASE SUBUNIT BETA; 1.
+DR   PANTHER; PTHR32308; LYASE BETA SUBUNIT, PUTATIVE (AFU_ORTHOLOGUE AFUA_4G13030)-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:ADK16096.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR015582-2}.
+FT   DOMAIN          6..225
+FT                   /note="HpcH/HpaI aldolase/citrate lyase"
+FT                   /evidence="ECO:0000259|Pfam:PF03328"
+FT   BINDING         67
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         130
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+FT   BINDING         130
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         157
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+SQ   SEQUENCE   300 AA;  32770 MW;  9DA0782941F94B08 CRC64;
+     MYKLRRTMMY VPGNNPGMVK DAHIYGADSL MFDLEDSVSL NEKDTARFLV YNALKSIDYE
+     GTETVVRING LDTPFGMEDL EAIVRAQPDV IRLPKTECAQ DVIDVEKEIE RIEKQSGIPV
+     GKTKIMAAVE SAIGVMNAYE IATASKRLMG IAIGAEDYVT NLKTTRSLDG IELLAGRSHV
+     LLAARAAGIY AFDTVFSDVN NEEGFINEVK LIKQLGFDGK SVINPRQIAP VHKIYTPSQK
+     EIDKSVRVIR AAKDAAEKGS GVVSLNGKMV DKPIIERAQR ALMLAEASGI CVSEGGEDID
+//

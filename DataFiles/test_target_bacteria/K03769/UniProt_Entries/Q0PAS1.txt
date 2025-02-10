@@ -1,0 +1,134 @@
+ID   CBF2_CAMJE              Reviewed;         273 AA.
+AC   Q0PAS1; Q46105;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Putative peptidyl-prolyl cis-trans isomerase Cbf2;
+DE            Short=PPIase Cbf2;
+DE            EC=5.2.1.8;
+DE   AltName: Full=Cell-binding factor 2;
+DE   AltName: Full=Major antigen peb4A;
+DE   AltName: Full=Rotamase Cbf2;
+DE   Flags: Precursor;
+GN   Name=cbf2; Synonyms=peb4A; OrderedLocusNames=Cj0596;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34742.1; -; Genomic_DNA.
+DR   PIR; S52412; S52412.
+DR   RefSeq; WP_002852119.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344026.1; NC_002163.1.
+DR   PDB; 3RFW; X-ray; 2.20 A; A=22-273.
+DR   PDBsum; 3RFW; -.
+DR   AlphaFoldDB; Q0PAS1; -.
+DR   SMR; Q0PAS1; -.
+DR   IntAct; Q0PAS1; 60.
+DR   STRING; 192222.Cj0596; -.
+DR   PaxDb; 192222-Cj0596; -.
+DR   DNASU; 904921; -.
+DR   EnsemblBacteria; CAL34742; CAL34742; Cj0596.
+DR   GeneID; 904921; -.
+DR   KEGG; cje:Cj0596; -.
+DR   PATRIC; fig|192222.6.peg.588; -.
+DR   eggNOG; COG0760; Bacteria.
+DR   HOGENOM; CLU_034646_1_2_7; -.
+DR   OrthoDB; 14196at2; -.
+DR   EvolutionaryTrace; Q0PAS1; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0140839; F:RNA polymerase II CTD heptapeptide repeat P3 isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140840; F:RNA polymerase II CTD heptapeptide repeat P6 isomerase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.8.1040; -; 1.
+DR   Gene3D; 3.10.50.40; -; 1.
+DR   Gene3D; 6.10.140.970; -; 1.
+DR   InterPro; IPR046357; PPIase_dom_sf.
+DR   InterPro; IPR000297; PPIase_PpiC.
+DR   InterPro; IPR023058; PPIase_PpiC_CS.
+DR   InterPro; IPR050245; PrsA_foldase.
+DR   PANTHER; PTHR47245:SF1; FOLDASE PROTEIN PRSA; 1.
+DR   PANTHER; PTHR47245; PEPTIDYLPROLYL ISOMERASE; 1.
+DR   Pfam; PF13616; Rotamase_3; 1.
+DR   SUPFAM; SSF54534; FKBP-like; 1.
+DR   PROSITE; PS01096; PPIC_PPIASE_1; 1.
+DR   PROSITE; PS50198; PPIC_PPIASE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Isomerase; Reference proteome; Rotamase; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..273
+FT                   /note="Putative peptidyl-prolyl cis-trans isomerase Cbf2"
+FT                   /id="PRO_0000025546"
+FT   DOMAIN          131..228
+FT                   /note="PpiC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00278"
+FT   STRAND          23..27
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          30..33
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           34..45
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           50..52
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           55..77
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           84..107
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           114..124
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           125..127
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          128..130
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          133..143
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           144..154
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           159..173
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   TURN            177..179
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           180..182
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          185..189
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           196..204
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          215..217
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   STRAND          220..230
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+FT   HELIX           237..267
+FT                   /evidence="ECO:0007829|PDB:3RFW"
+SQ   SEQUENCE   273 AA;  30518 MW;  1C014658BBCD4E39 CRC64;
+     MKKFSLVAAT LIAGVVLNVN AATVATVNGK SISDTEVSEF FAPMLRGQDF KTLPDNQKKA
+     LIQQYIMQDL ILQDAKKQNL EKDPLYTKEL DRAKDAILVN VYQEKILNTI KIDAAKVKAF
+     YDQNKDKYVK PARVQAKHIL VATEKEAKDI INELKGLKGK ELDAKFSELA KEKSIDPGSK
+     NQGGELGWFD QSTMVKPFTD AAFALKNGTI TTTPVKTNFG YHVILKENSQ AKGQIKFDEV
+     KQGIENGLKF EEFKKVINQK GQDLLNSAKV EYK
+//

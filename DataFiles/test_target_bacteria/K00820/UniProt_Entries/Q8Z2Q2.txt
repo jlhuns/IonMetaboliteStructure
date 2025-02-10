@@ -1,0 +1,143 @@
+ID   GLMS_SALTI              Reviewed;         609 AA.
+AC   Q8Z2Q2;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=Glutamine--fructose-6-phosphate aminotransferase [isomerizing] {ECO:0000255|HAMAP-Rule:MF_00164};
+DE            EC=2.6.1.16 {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=D-fructose-6-phosphate amidotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=GFAT {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Glucosamine-6-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Hexosephosphate aminotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=L-glutamine--D-fructose-6-phosphate amidotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+GN   Name=glmS {ECO:0000255|HAMAP-Rule:MF_00164};
+GN   OrderedLocusNames=STY3917, t3658;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the first step in hexosamine metabolism, converting
+CC       fructose-6P into glucosamine-6P using glutamine as a nitrogen source.
+CC       {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-fructose 6-phosphate + L-glutamine = D-glucosamine 6-
+CC         phosphate + L-glutamate; Xref=Rhea:RHEA:13237, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:58725, ChEBI:CHEBI:61527; EC=2.6.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00164};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03134.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71155.1; -; Genomic_DNA.
+DR   RefSeq; NP_458082.1; NC_003198.1.
+DR   RefSeq; WP_000334049.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; Q8Z2Q2; -.
+DR   SMR; Q8Z2Q2; -.
+DR   STRING; 220341.gene:17587777; -.
+DR   KEGG; stt:t3658; -.
+DR   KEGG; sty:STY3917; -.
+DR   PATRIC; fig|220341.7.peg.3997; -.
+DR   eggNOG; COG0449; Bacteria.
+DR   HOGENOM; CLU_012520_5_2_6; -.
+DR   OMA; ASEYRYA; -.
+DR   OrthoDB; 9761808at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0004360; F:glutamine-fructose-6-phosphate transaminase (isomerizing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IEA:TreeGrafter.
+DR   GO; GO:0006047; P:UDP-N-acetylglucosamine metabolic process; IEA:TreeGrafter.
+DR   CDD; cd00714; GFAT; 1.
+DR   CDD; cd05008; SIS_GlmS_GlmD_1; 1.
+DR   CDD; cd05009; SIS_GlmS_GlmD_2; 1.
+DR   FunFam; 3.40.50.10490:FF:000001; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   FunFam; 3.40.50.10490:FF:000002; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   FunFam; 3.60.20.10:FF:000006; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   Gene3D; 3.40.50.10490; Glucose-6-phosphate isomerase like protein, domain 1; 2.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   HAMAP; MF_00164; GlmS; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR005855; GFAT.
+DR   InterPro; IPR047084; GFAT_N.
+DR   InterPro; IPR035466; GlmS/AgaS_SIS.
+DR   InterPro; IPR035490; GlmS/FrlB_SIS.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001347; SIS_dom.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   NCBIfam; TIGR01135; glmS; 1.
+DR   PANTHER; PTHR10937; GLUCOSAMINE--FRUCTOSE-6-PHOSPHATE AMINOTRANSFERASE, ISOMERIZING; 1.
+DR   PANTHER; PTHR10937:SF0; GLUTAMINE--FRUCTOSE-6-PHOSPHATE TRANSAMINASE (ISOMERIZING); 1.
+DR   Pfam; PF13522; GATase_6; 1.
+DR   Pfam; PF01380; SIS; 2.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53697; SIS domain; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Cytoplasm; Glutamine amidotransferase; Repeat;
+KW   Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   CHAIN           2..609
+FT                   /note="Glutamine--fructose-6-phosphate aminotransferase
+FT                   [isomerizing]"
+FT                   /id="PRO_0000135374"
+FT   DOMAIN          2..218
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   DOMAIN          286..426
+FT                   /note="SIS 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   DOMAIN          458..599
+FT                   /note="SIS 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   ACT_SITE        2
+FT                   /note="Nucleophile; for GATase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   ACT_SITE        604
+FT                   /note="For Fru-6P isomerization activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+SQ   SEQUENCE   609 AA;  66852 MW;  174DAC1C72B7EFAD CRC64;
+     MCGIVGAIAQ RDVAEILLEG LRRLEYRGYD SAGLAVVDAE GHMTRLRRLG KVQMLAQAAE
+     EHPLHGGTGI AHTRWATHGE PSEANAHPHV SEHIVVVHNG IIENHEPLRE ALKARGYTFV
+     SETDTEVIAH LVNWELKQGG TLRDAILRAI PQLRGAYGTV IMDTRHPDTL LAARSGSPLV
+     IGLGMGENFI ASDQLALLPV TRRFIFLEEG DIAEITRRSV NIFDNTGAEV KRQDIESNLQ
+     YDAGDKGIYR HYMQKEIYEQ PNAIKNTLTG RISHGQVDLS ELGPNADDLL SKVEHIQILA
+     CGTSYNSGMV SRYWFESLAG IPCDVEIASE FRYRKSAVRR NSLMITLSQS GETADTLAGL
+     RLSKELGYLG SLAICNVPGS SLVRESDLAL MTNAGTEIGV ASTKAFTTQL TVLLMLVAKL
+     SRLKGLDASI EHDIVHGLQA LPSRIEQMLS QDKRIELLAE DFSDKHHALF LGRGDQYPIA
+     LEGALKLKEI SYIHAEAYAA GELKHGPLAL IDADMPVIVV APNNELLEKL KSNIEEVRAR
+     GGQLYVFSDQ DAGFVSSDNM HIIEMPHVEE VIAPIFYTVP LQLLAYHVAL IKGTDVDQPR
+     NLAKSVTVE
+//

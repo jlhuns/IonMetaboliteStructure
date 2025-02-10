@@ -1,0 +1,198 @@
+ID   A0AAE9XVZ7_RHOPA        Unreviewed;       349 AA.
+AC   A0AAE9XVZ7;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Holliday junction branch migration complex subunit RuvB {ECO:0000256|HAMAP-Rule:MF_00016};
+DE            EC=3.6.4.- {ECO:0000256|HAMAP-Rule:MF_00016};
+GN   Name=ruvB {ECO:0000256|HAMAP-Rule:MF_00016,
+GN   ECO:0000313|EMBL:WCL91234.1};
+GN   ORFNames=TX73_005665 {ECO:0000313|EMBL:WCL91234.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL91234.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL91234.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: The RuvA-RuvB-RuvC complex processes Holliday junction (HJ)
+CC       DNA during genetic recombination and DNA repair, while the RuvA-RuvB
+CC       complex plays an important role in the rescue of blocked DNA
+CC       replication forks via replication fork reversal (RFR). RuvA
+CC       specifically binds to HJ cruciform DNA, conferring on it an open
+CC       structure. The RuvB hexamer acts as an ATP-dependent pump, pulling
+CC       dsDNA into and through the RuvAB complex. RuvB forms 2 homohexamers on
+CC       either side of HJ DNA bound by 1 or 2 RuvA tetramers; 4 subunits per
+CC       hexamer contact DNA at a time. Coordinated motions by a converter
+CC       formed by DNA-disengaged RuvB subunits stimulates ATP hydrolysis and
+CC       nucleotide exchange. Immobilization of the converter enables RuvB to
+CC       convert the ATP-contained energy into a lever motion, pulling 2
+CC       nucleotides of DNA out of the RuvA tetramer per ATP hydrolyzed, thus
+CC       driving DNA branch migration. The RuvB motors rotate together with the
+CC       DNA substrate, which together with the progressing nucleotide cycle
+CC       form the mechanistic basis for DNA recombination by continuous HJ
+CC       branch migration. Branch migration allows RuvC to scan DNA until it
+CC       finds its consensus sequence, where it cleaves and resolves cruciform
+CC       DNA. {ECO:0000256|HAMAP-Rule:MF_00016}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00016};
+CC   -!- SUBUNIT: Homohexamer. Forms an RuvA(8)-RuvB(12)-Holliday junction (HJ)
+CC       complex. HJ DNA is sandwiched between 2 RuvA tetramers; dsDNA enters
+CC       through RuvA and exits via RuvB. An RuvB hexamer assembles on each DNA
+CC       strand where it exits the tetramer. Each RuvB hexamer is contacted by
+CC       two RuvA subunits (via domain III) on 2 adjacent RuvB subunits; this
+CC       complex drives branch migration. In the full resolvosome a probable
+CC       DNA-RuvA(4)-RuvB(12)-RuvC(2) complex forms which resolves the HJ.
+CC       {ECO:0000256|HAMAP-Rule:MF_00016}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00016}.
+CC   -!- DOMAIN: Has 3 domains, the large (RuvB-L) and small ATPase (RuvB-S)
+CC       domains and the C-terminal head (RuvB-H) domain. The head domain binds
+CC       DNA, while the ATPase domains jointly bind ATP, ADP or are empty
+CC       depending on the state of the subunit in the translocation cycle.
+CC       During a single DNA translocation step the structure of each domain
+CC       remains the same, but their relative positions change.
+CC       {ECO:0000256|HAMAP-Rule:MF_00016}.
+CC   -!- SIMILARITY: Belongs to the RuvB family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00016}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL91234.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156666.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XVZ7; -.
+DR   GeneID; 66892123; -.
+DR   KEGG; rpa:TX73_005665; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048476; C:Holliday junction resolvase complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0000400; F:four-way junction DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009378; F:four-way junction helicase activity; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd00009; AAA; 1.
+DR   FunFam; 3.40.50.300:FF:000073; Holliday junction ATP-dependent DNA helicase RuvB; 1.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00016; DNA_HJ_migration_RuvB; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR041445; AAA_lid_4.
+DR   InterPro; IPR004605; DNA_helicase_Holl-junc_RuvB.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR008824; RuvB-like_N.
+DR   InterPro; IPR008823; RuvB_C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00635; ruvB; 1.
+DR   PANTHER; PTHR42848; -; 1.
+DR   PANTHER; PTHR42848:SF1; HOLLIDAY JUNCTION BRANCH MIGRATION COMPLEX SUBUNIT RUVB; 1.
+DR   Pfam; PF17864; AAA_lid_4; 1.
+DR   Pfam; PF05491; RuvB_C; 1.
+DR   Pfam; PF05496; RuvB_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00016};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00016};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00016};
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172, ECO:0000256|HAMAP-
+KW   Rule:MF_00016};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00016};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00016}; Helicase {ECO:0000313|EMBL:WCL91234.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00016};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00016}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          53..180
+FT                   /note="AAA+ ATPase"
+FT                   /evidence="ECO:0000259|SMART:SM00382"
+FT   REGION          184..254
+FT                   /note="Small ATPAse domain (RuvB-S)"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   REGION          257..349
+FT                   /note="Head domain (RuvB-H)"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         22
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         23
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         64
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         67
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         68
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         68
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         69
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         130..132
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         173
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         183
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         220
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         293
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         312
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+FT   BINDING         317
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00016"
+SQ   SEQUENCE   349 AA;  37779 MW;  FFEAAF06D1F4103D CRC64;
+     MTDPSRLVTP ERRGDDLGDA ALRPQNLSEF VGQQQARANL QVFIDAARKR KEALDHVLFV
+     GPPGLGKTTL AQIVARELGV GFRATSGPVI AKAGDLAALL TNLEERDVLF IDEIHRLSPS
+     VEEVLYPAME DFQLDLIIGE GPAARSVKID LSKFTLVGAT TRAGLLTNPL RDRFGIPIRL
+     NFYTIEELES IVTRGARVLG TPITADGANE IARRARGTPR IAGRLLRRVR DFASAADAEA
+     IDRAIADHAL GALEVDSAGL DAMDRRYLTT IALNYGGGPV GVETMAAALS EPRDAIEDII
+     EPYLIQCGYL QRTPRGRLLT DHAFRHLGLA APSRDPAQFG LFGDTGDQE
+//

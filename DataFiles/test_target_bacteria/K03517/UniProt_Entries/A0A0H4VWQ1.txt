@@ -1,0 +1,133 @@
+ID   A0A0H4VWQ1_9SPHN        Unreviewed;       331 AA.
+AC   A0A0H4VWQ1;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   27-NOV-2024, entry version 41.
+DE   RecName: Full=Quinolinate synthase {ECO:0000256|ARBA:ARBA00012669, ECO:0000256|HAMAP-Rule:MF_00568};
+DE            EC=2.5.1.72 {ECO:0000256|ARBA:ARBA00012669, ECO:0000256|HAMAP-Rule:MF_00568};
+GN   Name=nadA {ECO:0000256|HAMAP-Rule:MF_00568};
+GN   ORFNames=CP97_04880 {ECO:0000313|EMBL:AKQ41498.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41498.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41498.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of iminoaspartate with
+CC       dihydroxyacetone phosphate to form quinolinate. {ECO:0000256|HAMAP-
+CC       Rule:MF_00568}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=iminosuccinate + dihydroxyacetone phosphate = quinolinate +
+CC         phosphate + 2 H2O + H(+); Xref=Rhea:RHEA:25888, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29959, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:77875; EC=2.5.1.72;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00568};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00568};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00568};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       iminoaspartate: step 1/1. {ECO:0000256|ARBA:ARBA00005065,
+CC       ECO:0000256|HAMAP-Rule:MF_00568}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00568}.
+CC   -!- SIMILARITY: Belongs to the quinolinate synthase family. Type 2
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00568}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41498.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885024.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VWQ1; -.
+DR   STRING; 1648404.CP97_04880; -.
+DR   KEGG; ery:CP97_04880; -.
+DR   PATRIC; fig|1648404.4.peg.1019; -.
+DR   OrthoDB; 9801204at2; -.
+DR   UniPathway; UPA00253; UER00327.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008987; F:quinolinate synthetase A activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034628; P:'de novo' NAD biosynthetic process from aspartate; IEA:TreeGrafter.
+DR   FunFam; 3.40.50.10800:FF:000001; Quinolinate synthase A; 1.
+DR   Gene3D; 3.40.50.10800; NadA-like; 3.
+DR   HAMAP; MF_00568; NadA_type2; 1.
+DR   InterPro; IPR003473; NadA.
+DR   InterPro; IPR036094; NadA_sf.
+DR   InterPro; IPR023066; Quinolinate_synth_type2.
+DR   NCBIfam; TIGR00550; nadA; 1.
+DR   PANTHER; PTHR30573:SF0; QUINOLINATE SYNTHASE, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR30573; QUINOLINATE SYNTHETASE A; 1.
+DR   Pfam; PF02445; NadA; 1.
+DR   SUPFAM; SSF142754; NadA-like; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_00568};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00568};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_00568};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_00568};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00568};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|HAMAP-Rule:MF_00568};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00568}.
+FT   BINDING         31
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         48
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         93
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         119..121
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         136
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         179
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         205..207
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         222
+FT                   /ligand="iminosuccinate"
+FT                   /ligand_id="ChEBI:CHEBI:77875"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+FT   BINDING         273
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00568"
+SQ   SEQUENCE   331 AA;  36436 MW;  C285545CAFF23BF6 CRC64;
+     MTDQPTSLAG LDLRAEIDRL RKERNAVILA HYYQKPELQD LADFVGDSLE LSRKAAETDA
+     DVIAFCGVKF MADTAKILSP EKIVVLPDMD AGCSLEDSCP PDKFRAFREK HPDHIALTYI
+     NCSTEVKALS DVIVTSSSAE TILSQIPEDQ PIIFGPDRHL GGFLNRKFDR DMLLWPGVCI
+     VHEAFSEKEL LKLKAQHPDA PIAAHPECPP HIIDHADHVG STSSILQYAK TFPGDTLIVA
+     TEPHIIHQME KALPEKTFLG APGADGNCNC NICPYMALNN LEKLYLCLRD LEPRIEIEEG
+     LRLKAKASLD KMLEMASGTI GKGDLGDPDG D
+//

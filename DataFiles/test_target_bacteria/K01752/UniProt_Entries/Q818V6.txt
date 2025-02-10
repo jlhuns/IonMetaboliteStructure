@@ -1,0 +1,82 @@
+ID   Q818V6_BACCR            Unreviewed;       292 AA.
+AC   Q818V6;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   OrderedLocusNames=BC_4135 {ECO:0000313|EMBL:AAP11051.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11051.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11051.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11051.1; -; Genomic_DNA.
+DR   RefSeq; NP_833850.1; NC_004722.1.
+DR   RefSeq; WP_000489455.1; NC_004722.1.
+DR   AlphaFoldDB; Q818V6; -.
+DR   DNASU; 1206480; -.
+DR   KEGG; bce:BC4135; -.
+DR   PATRIC; fig|226900.8.peg.4274; -.
+DR   HOGENOM; CLU_022305_2_0_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR004642; Ser_deHydtase_asu.
+DR   NCBIfam; TIGR00718; sda_alpha; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          14..274
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   292 AA;  29886 MW;  5D032B363C795500 CRC64;
+     MFRNAAELVA QAKEQNVKIA EIMIQCEMET RSISREEVIA GMEKNLVGME QAVERGIRGV
+     KSPTGLTGGD AVKVQAYMKS GKGLSGDTIL DAVSKAVATN EVNAAMGIIC ATPTAGSAGT
+     VPGVLFALRE KLQPTREEMI EFLFTAGAFG MVVANNACIS GAAGGCQAEV GSASGMAAAA
+     AVEMAGGTQD QAATAMAISL KNMLGLVCDP VAGLVEVPCV KRNAAGAANA MISADLALAG
+     VTSTIPCDEV IEAMFRIGQT MPVALRETAE GGLAATPTGR RLQEEIFGKN NN
+//

@@ -1,0 +1,86 @@
+ID   Q6N4Q6_RHOPA            Unreviewed;       321 AA.
+AC   Q6N4Q6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 80.
+DE   SubName: Full=FecR family protein {ECO:0000313|EMBL:WCL93447.1};
+DE   SubName: Full=Probable FecR, iron siderophore sensor protein {ECO:0000313|EMBL:CAE28722.1};
+GN   OrderedLocusNames=RPA3281 {ECO:0000313|EMBL:CAE28722.1};
+GN   ORFNames=TX73_016960 {ECO:0000313|EMBL:WCL93447.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28722.1};
+RN   [1] {ECO:0000313|EMBL:WCL93447.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93447.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28722.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28722.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93447.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93447.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572603; CAE28722.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93447.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158824.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3281; -.
+DR   GeneID; 66894367; -.
+DR   KEGG; rpa:TX73_016960; -.
+DR   eggNOG; COG3712; Bacteria.
+DR   HOGENOM; CLU_050192_0_1_5; -.
+DR   PhylomeDB; Q6N4Q6; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016989; F:sigma factor antagonist activity; IEA:TreeGrafter.
+DR   Gene3D; 2.60.120.1440; -; 1.
+DR   Gene3D; 3.55.50.30; -; 1.
+DR   InterPro; IPR006860; FecR.
+DR   InterPro; IPR032623; FecR_N.
+DR   InterPro; IPR012373; Ferrdict_sens_TM.
+DR   PANTHER; PTHR30273; PERIPLASMIC SIGNAL SENSOR AND SIGMA FACTOR ACTIVATOR FECR-RELATED; 1.
+DR   PANTHER; PTHR30273:SF2; PROTEIN FECR; 1.
+DR   Pfam; PF16220; DUF4880; 1.
+DR   Pfam; PF04773; FecR; 1.
+DR   PIRSF; PIRSF018266; FecR; 1.
+PE   4: Predicted;
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        81..99
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          12..54
+FT                   /note="FecR N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF16220"
+FT   DOMAIN          106..196
+FT                   /note="FecR protein"
+FT                   /evidence="ECO:0000259|Pfam:PF04773"
+SQ   SEQUENCE   321 AA;  34676 MW;  06F1794906D62926 CRC64;
+     MDRLDGPSSI DEQAVQWFVV LRDDEATEED RSAFAKWLGA DPAHEVAWRS VERMWSGLDA
+     VGRHPAPRSP RRQRSNLPKR IAATAVLLLV TAGFGWQLLP VGLFADHRTG VGERKTVMLQ
+     DGSQVELATS TAIDVSFGDT ERRIKLLTGE AFFTVAKDPG RPFIVTAEGG EVRVLGTAFD
+     VKIAKDVSVA VAHNTVQVGT PAATPVKVEA GHEVRYGTGG VSGVTAADLD AVQAWRHNQL
+     IFRDVPLDDV LADLGRYRRG PIVLFGGALG KRHVTAVFDT DDVDAALDTI AQSLSLRIYR
+     AAGLLTVMIP SPEPQKDAVV E
+//

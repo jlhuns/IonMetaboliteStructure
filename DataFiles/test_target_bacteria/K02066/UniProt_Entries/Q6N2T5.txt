@@ -1,0 +1,108 @@
+ID   Q6N2T5_RHOPA            Unreviewed;       383 AA.
+AC   Q6N2T5;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   SubName: Full=MlaE family lipid ABC transporter permease subunit {ECO:0000313|EMBL:WCL94146.1};
+DE   SubName: Full=Permease of ABC transporter {ECO:0000313|EMBL:CAE29404.1};
+GN   OrderedLocusNames=RPA3963 {ECO:0000313|EMBL:CAE29404.1};
+GN   ORFNames=TX73_020530 {ECO:0000313|EMBL:WCL94146.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29404.1};
+RN   [1] {ECO:0000313|EMBL:WCL94146.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94146.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29404.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29404.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94146.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94146.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Could be part of an ABC transporter complex.
+CC       {ECO:0000256|ARBA:ARBA00003787}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|RuleBase:RU362044}; Multi-pass membrane protein
+CC       {ECO:0000256|RuleBase:RU362044}.
+CC   -!- SIMILARITY: Belongs to the MlaE permease family.
+CC       {ECO:0000256|RuleBase:RU362044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572605; CAE29404.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94146.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159499.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3963; -.
+DR   GeneID; 66895078; -.
+DR   KEGG; rpa:TX73_020530; -.
+DR   eggNOG; COG0767; Bacteria.
+DR   HOGENOM; CLU_045686_0_0_5; -.
+DR   PhylomeDB; Q6N2T5; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0005548; F:phospholipid transporter activity; IEA:TreeGrafter.
+DR   InterPro; IPR003453; ABC_MlaE_roteobac.
+DR   InterPro; IPR030802; Permease_MalE.
+DR   InterPro; IPR002645; STAS_dom.
+DR   InterPro; IPR036513; STAS_dom_sf.
+DR   NCBIfam; TIGR00056; MlaE family lipid ABC transporter permease subunit; 1.
+DR   PANTHER; PTHR30188:SF3; ABC TRANSPORTER PERMEASE; 1.
+DR   PANTHER; PTHR30188; ABC TRANSPORTER PERMEASE PROTEIN-RELATED; 1.
+DR   Pfam; PF02405; MlaE; 1.
+DR   SUPFAM; SSF52091; SpoIIaa-like; 1.
+DR   PROSITE; PS50801; STAS; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|RuleBase:RU362044};
+KW   Cell membrane {ECO:0000256|RuleBase:RU362044};
+KW   Membrane {ECO:0000256|RuleBase:RU362044};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|RuleBase:RU362044};
+KW   Transmembrane helix {ECO:0000256|RuleBase:RU362044}.
+FT   TRANSMEM        130..155
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   TRANSMEM        175..193
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   TRANSMEM        205..231
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   TRANSMEM        270..299
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   TRANSMEM        320..344
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   TRANSMEM        364..382
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362044"
+FT   DOMAIN          34..106
+FT                   /note="STAS"
+FT                   /evidence="ECO:0000259|PROSITE:PS50801"
+SQ   SEQUENCE   383 AA;  40953 MW;  186F94ECB1153C1D CRC64;
+     MTQQIALEGD PSLERIARGE GLALCASGSW TARFAPALER LVTEAEQLGG SKPNVSIDVS
+     GIARLDTFGA WLIERLRRNL GQDGTEARIA GLSTNYASLV DEVRQVSEAG PEPRRGGSLR
+     APIERLGRTI YAFIDDIVAL ISMMGAVLAG VLRVVVRPTS FRLTSTVHHL EQVCWRAVPI
+     IVLITFLIGC IIAQQGIFHF RKFGADVFVV DMLGVLVLRE IGVLLVSIMV AGRSGSAYTA
+     ELGSMKMREE IDALRTMGFD PIDVLIVPRL IALVLAVPIL TFLGAMSALY GGGLVAWMYG
+     GVDPEAFLLR LRDAISIDHF TVGMIKAPVM AVVIGIVACV EGLAVQGSAE SLGSHTTASV
+     VKSIFFVIVM DGVFAIFFAG IGI
+//

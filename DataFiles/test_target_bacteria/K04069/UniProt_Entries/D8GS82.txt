@@ -1,0 +1,93 @@
+ID   D8GS82_CLOLD            Unreviewed;       328 AA.
+AC   D8GS82;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 60.
+DE   SubName: Full=Predicted pyruvate formate-lyase activating enzyme {ECO:0000313|EMBL:ADK14435.1};
+GN   OrderedLocusNames=CLJU_c13670 {ECO:0000313|EMBL:ADK14435.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14435.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14435.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004869-50};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|PIRSR:PIRSR004869-50};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14435.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D8GS82; -.
+DR   STRING; 748727.CLJU_c13670; -.
+DR   KEGG; clj:CLJU_c13670; -.
+DR   PATRIC; fig|748727.19.peg.3063; -.
+DR   eggNOG; COG1180; Bacteria.
+DR   HOGENOM; CLU_044176_1_0_9; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR027596; AmmeMemoSam_rS.
+DR   InterPro; IPR034457; Organic_radical-activating.
+DR   InterPro; IPR016431; Pyrv-formate_lyase-activ_prd.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR04337; AmmeMemoSam_rS; 1.
+DR   PANTHER; PTHR30352:SF5; PYRUVATE FORMATE-LYASE 1-ACTIVATING ENZYME; 1.
+DR   PANTHER; PTHR30352; PYRUVATE FORMATE-LYASE-ACTIVATING ENZYME; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF004869; PflX_prd; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SFLD; SFLDG01101; Uncharacterised_Radical_SAM_Su; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   4: Predicted;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRSR:PIRSR004869-50};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|PIRSR:PIRSR004869-
+KW   50}; Lyase {ECO:0000313|EMBL:ADK14435.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR004869-50}; Pyruvate {ECO:0000313|EMBL:ADK14435.1};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRSR:PIRSR004869-50}.
+FT   DOMAIN          67..283
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   BINDING         82
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+FT   BINDING         86
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+FT   BINDING         89
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+SQ   SEQUENCE   328 AA;  37468 MW;  356125183103A1F2 CRC64;
+     MLHEGLFYEK QNDRVKCMLC PHNCIIGDKK QGRCSVRTNE NGVLQATNYG EITSMAVDPV
+     EKKPLYHFKP GRNILSVGSF GCNFSCSFCQ NYTIAQYRPK SEYVSPEKLI EACLDIKDNI
+     GIAFTYNEPS IWYEYVYETS KKLKENHPEF NVVLVTNGYI EVEPLQKLLP YVDAMNIDLK
+     AFNPKYYKKV CGGDVESVLK IISESAKKTH VEVTTLLVND LNDSASEVES IASYLGNLNR
+     DIPLHLSRYF PTYKMDRPAT DIDVMVESRK IAKKYLNYIY LGNVQGVDSS TYCPKCGELL
+     VERTRYFTEV RMDSNKCPKC GFPINIVF
+//

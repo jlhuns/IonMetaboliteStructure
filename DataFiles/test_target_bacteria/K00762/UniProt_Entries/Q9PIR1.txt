@@ -1,0 +1,115 @@
+ID   PYRE_CAMJE              Reviewed;         202 AA.
+AC   Q9PIR1; Q0PBS1;
+DT   06-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   OrderedLocusNames=Cj0233c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from 5-
+CC       phosphoribose 1-diphosphate to orotate, leading to the formation of
+CC       orotidine monophosphate (OMP). {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + diphosphate = orotate + 5-phospho-
+CC         alpha-D-ribose 1-diphosphate; Xref=Rhea:RHEA:10380,
+CC         ChEBI:CHEBI:30839, ChEBI:CHEBI:33019, ChEBI:CHEBI:57538,
+CC         ChEBI:CHEBI:58017; EC=2.4.2.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. PyrE subfamily. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34388.1; -; Genomic_DNA.
+DR   PIR; A81441; A81441.
+DR   RefSeq; WP_002851820.1; NZ_SZUC01000006.1.
+DR   RefSeq; YP_002343676.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PIR1; -.
+DR   SMR; Q9PIR1; -.
+DR   IntAct; Q9PIR1; 25.
+DR   STRING; 192222.Cj0233c; -.
+DR   PaxDb; 192222-Cj0233c; -.
+DR   EnsemblBacteria; CAL34388; CAL34388; Cj0233c.
+DR   GeneID; 904560; -.
+DR   KEGG; cje:Cj0233c; -.
+DR   PATRIC; fig|192222.6.peg.227; -.
+DR   eggNOG; COG0461; Bacteria.
+DR   HOGENOM; CLU_074878_3_0_7; -.
+DR   OrthoDB; 9783570at2; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR006273; Orotate_PRibTrfase_bac.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   NCBIfam; TIGR01367; pyrE_Therm; 1.
+DR   PANTHER; PTHR19278; OROTATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR19278:SF9; URIDINE 5'-MONOPHOSPHATE SYNTHASE; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase; Magnesium; Pyrimidine biosynthesis;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..202
+FT                   /note="Orotate phosphoribosyltransferase"
+FT                   /id="PRO_0000110683"
+FT   BINDING         93
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         113..121
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         117
+FT                   /ligand="orotate"
+FT                   /ligand_id="ChEBI:CHEBI:30839"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         145
+FT                   /ligand="orotate"
+FT                   /ligand_id="ChEBI:CHEBI:30839"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+SQ   SEQUENCE   202 AA;  22213 MW;  D6637B54C34519A9 CRC64;
+     MNLEQIYKDC GAYLEGHFLL SSGKHSQFYL QSAKVLEDPK LAAKLCDELA KIIASYKIEF
+     DSICSPALGG ILAGYELARA CSKRFIFTER VNKEMTLRRG FEVKKGEKFI ICEDIITTGG
+     SALESAKIIE SLGGIVVGFA ALANRGFCAV ENLKSPRKDN AKLPENLPLF TLGNFEFEIY
+     DETNCPLCKK GNKAIKPGSR GN
+//

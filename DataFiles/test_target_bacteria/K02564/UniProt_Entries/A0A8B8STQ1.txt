@@ -1,0 +1,99 @@
+ID   A0A8B8STQ1_CAMFR        Unreviewed;       289 AA.
+AC   A0A8B8STQ1;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=Glucosamine-6-phosphate isomerase {ECO:0000256|RuleBase:RU361197};
+DE            EC=3.5.99.6 {ECO:0000256|RuleBase:RU361197};
+DE   AltName: Full=Glucosamine-6-phosphate deaminase {ECO:0000256|RuleBase:RU361197};
+GN   Name=GNPDA1 {ECO:0000313|RefSeq:XP_032332907.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032332907.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032332907.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032332907.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the reversible conversion of alpha-D-glucosamine 6-
+CC       phosphate (GlcN-6P) into beta-D-fructose 6-phosphate (Fru-6P) and
+CC       ammonium ion, a regulatory reaction step in de novo uridine
+CC       diphosphate-N-acetyl-alpha-D-glucosamine (UDP-GlcNAc) biosynthesis via
+CC       hexosamine pathway. Deamination is coupled to aldo-keto isomerization
+CC       mediating the metabolic flux from UDP-GlcNAc toward Fru-6P. At high
+CC       ammonium level can drive amination and isomerization of Fru-6P toward
+CC       hexosamines and UDP-GlcNAc synthesis. Has a role in fine tuning the
+CC       metabolic fluctuations of cytosolic UDP-GlcNAc and their effects on
+CC       hyaluronan synthesis that occur during tissue remodeling. Seems to
+CC       trigger calcium oscillations in mammalian eggs. These oscillations
+CC       serve as the essential trigger for egg activation and early development
+CC       of the embryo. {ECO:0000256|ARBA:ARBA00045295}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 6-phosphate + H2O = beta-D-fructose 6-
+CC         phosphate + NH4(+); Xref=Rhea:RHEA:12172, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57634, ChEBI:CHEBI:75989; EC=3.5.99.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00033665};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12173;
+CC         Evidence={ECO:0000256|ARBA:ARBA00033665};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:12174;
+CC         Evidence={ECO:0000256|ARBA:ARBA00033665};
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; alpha-D-glucosamine 6-phosphate from D-
+CC       fructose 6-phosphate: step 1/1. {ECO:0000256|ARBA:ARBA00004775}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000256|ARBA:ARBA00011643,
+CC       ECO:0000256|RuleBase:RU361197}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|RuleBase:RU361197}.
+CC   -!- SIMILARITY: Belongs to the glucosamine/galactosamine-6-phosphate
+CC       isomerase family. {ECO:0000256|ARBA:ARBA00005526,
+CC       ECO:0000256|RuleBase:RU361197}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006184427.1; XM_006184365.1.
+DR   RefSeq; XP_032332907.1; XM_032477016.1.
+DR   KEGG; cfr:102513174; -.
+DR   UniPathway; UPA00113; UER00528.
+DR   Proteomes; UP000694856; Chromosome 3.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004342; F:glucosamine-6-phosphate deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042802; F:identical protein binding; IEA:TreeGrafter.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006043; P:glucosamine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006046; P:N-acetylglucosamine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0019262; P:N-acetylneuraminate catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006048; P:UDP-N-acetylglucosamine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01399; GlcN6P_deaminase; 1.
+DR   FunFam; 3.40.50.1360:FF:000004; Glucosamine-6-phosphate isomerase; 1.
+DR   Gene3D; 3.40.50.1360; -; 1.
+DR   HAMAP; MF_01241; GlcN6P_deamin; 1.
+DR   InterPro; IPR006148; Glc/Gal-6P_isomerase.
+DR   InterPro; IPR004547; Glucosamine6P_isomerase.
+DR   InterPro; IPR018321; Glucosamine6P_isomerase_CS.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   NCBIfam; TIGR00502; nagB; 1.
+DR   PANTHER; PTHR11280; GLUCOSAMINE-6-PHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR11280:SF8; GLUCOSAMINE-6-PHOSPHATE ISOMERASE 1; 1.
+DR   Pfam; PF01182; Glucosamine_iso; 1.
+DR   SUPFAM; SSF100950; NagB/RpiA/CoA transferase-like; 1.
+DR   PROSITE; PS01161; GLC_GALNAC_ISOMERASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277,
+KW   ECO:0000256|RuleBase:RU361197}; Cytoplasm {ECO:0000256|RuleBase:RU361197};
+KW   Hydrolase {ECO:0000256|RuleBase:RU361197};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235,
+KW   ECO:0000313|RefSeq:XP_032332907.1};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553}.
+FT   DOMAIN          17..232
+FT                   /note="Glucosamine/galactosamine-6-phosphate isomerase"
+FT                   /evidence="ECO:0000259|Pfam:PF01182"
+SQ   SEQUENCE   289 AA;  32568 MW;  297DBD6AA857D6B0 CRC64;
+     MKLIILDHYS QASEWAAKYI RNRIIQFNPG PDKYFTLGLP TGSTPLGCYK KLIEYYKNGD
+     LSFKYVKTFN MDEYVGLPRD HPESYHSFMW NNFFKHIDIH PENTHILDGN AADLQAECDA
+     FEEKIKAAGG IELFVGGIGP DGHIAFNEPG SSLVSRTRVK TLAMDTILAN ARFFDGDLAK
+     VPTMALTVGV GTVMDAREVM ILITGAHKAF ALYKAIEEGV NHMWTVSAFQ QHPRTVFVCD
+     EDATLELKVK TVKYFKGLML VHNKLVDPLY SIKEKETEKS QSSKKPYSD
+//

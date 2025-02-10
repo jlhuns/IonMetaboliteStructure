@@ -1,0 +1,91 @@
+ID   Q88IC9_PSEPK            Unreviewed;        91 AA.
+AC   Q88IC9;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=Peptidyl-prolyl cis-trans isomerase C {ECO:0000256|ARBA:ARBA00040926};
+DE            EC=5.2.1.8 {ECO:0000256|ARBA:ARBA00013194};
+DE   AltName: Full=Parvulin {ECO:0000256|ARBA:ARBA00043072};
+DE   AltName: Full=Rotamase C {ECO:0000256|ARBA:ARBA00041926};
+GN   Name=ppiC-I {ECO:0000313|EMBL:AAN68678.1};
+GN   OrderedLocusNames=PP_3070 {ECO:0000313|EMBL:AAN68678.1};
+OS   Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950
+OS   / KT2440).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=160488 {ECO:0000313|EMBL:AAN68678.1, ECO:0000313|Proteomes:UP000000556};
+RN   [1] {ECO:0000313|EMBL:AAN68678.1, ECO:0000313|Proteomes:UP000000556}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440
+RC   {ECO:0000313|Proteomes:UP000000556};
+RX   PubMed=12534463; DOI=10.1046/j.1462-2920.2002.00366.x;
+RA   Nelson K.E., Weinel C., Paulsen I.T., Dodson R.J., Hilbert H.,
+RA   Martins dos Santos V.A., Fouts D.E., Gill S.R., Pop M., Holmes M.,
+RA   Brinkac L., Beanan M., DeBoy R.T., Daugherty S., Kolonay J., Madupu R.,
+RA   Nelson W., White O., Peterson J., Khouri H., Hance I., Chris Lee P.,
+RA   Holtzapple E., Scanlan D., Tran K., Moazzez A., Utterback T., Rizzo M.,
+RA   Lee K., Kosack D., Moestl D., Wedler H., Lauber J., Stjepandic D.,
+RA   Hoheisel J., Straetz M., Heim S., Kiewitz C., Eisen J.A., Timmis K.N.,
+RA   Dusterhoft A., Tummler B., Fraser C.M.;
+RT   "Complete genome sequence and comparative analysis of the metabolically
+RT   versatile Pseudomonas putida KT2440.";
+RL   Environ. Microbiol. 4:799-808(2002).
+CC   -!- FUNCTION: PPIases accelerate the folding of proteins. It prefers amino
+CC       acid residues with hydrophobic side chains like leucine and
+CC       phenylalanine in the P1 position of the peptides substrates.
+CC       {ECO:0000256|ARBA:ARBA00046231}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000971};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the PpiC/parvulin rotamase family.
+CC       {ECO:0000256|ARBA:ARBA00007656}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015451; AAN68678.1; -; Genomic_DNA.
+DR   RefSeq; NP_745214.1; NC_002947.4.
+DR   RefSeq; WP_010953969.1; NC_002947.4.
+DR   AlphaFoldDB; Q88IC9; -.
+DR   STRING; 160488.PP_3070; -.
+DR   PaxDb; 160488-PP_3070; -.
+DR   GeneID; 83680350; -.
+DR   KEGG; ppu:PP_3070; -.
+DR   PATRIC; fig|160488.4.peg.3242; -.
+DR   eggNOG; COG0760; Bacteria.
+DR   HOGENOM; CLU_090028_6_1_6; -.
+DR   OrthoDB; 14196at2; -.
+DR   PhylomeDB; Q88IC9; -.
+DR   BioCyc; PPUT160488:G1G01-3263-MONOMER; -.
+DR   Proteomes; UP000000556; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0140839; F:RNA polymerase II CTD heptapeptide repeat P3 isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140840; F:RNA polymerase II CTD heptapeptide repeat P6 isomerase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.10.50.40; -; 1.
+DR   InterPro; IPR046357; PPIase_dom_sf.
+DR   InterPro; IPR000297; PPIase_PpiC.
+DR   InterPro; IPR023058; PPIase_PpiC_CS.
+DR   InterPro; IPR052204; PpiC/parvulin_rotamase.
+DR   PANTHER; PTHR43629; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE; 1.
+DR   PANTHER; PTHR43629:SF3; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE C; 1.
+DR   Pfam; PF00639; Rotamase; 1.
+DR   SUPFAM; SSF54534; FKBP-like; 1.
+DR   PROSITE; PS01096; PPIC_PPIASE_1; 1.
+DR   PROSITE; PS50198; PPIC_PPIASE_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|PROSITE-
+KW   ProRule:PRU00278}; Reference proteome {ECO:0000313|Proteomes:UP000000556};
+KW   Rotamase {ECO:0000256|ARBA:ARBA00023110, ECO:0000256|PROSITE-
+KW   ProRule:PRU00278}.
+FT   DOMAIN          1..89
+FT                   /note="PpiC"
+FT                   /evidence="ECO:0000259|PROSITE:PS50198"
+SQ   SEQUENCE   91 AA;  10150 MW;  5843B70187F6B317 CRC64;
+     MKAQARHILV KTADEAEKLK QRIANGEAFD VLAKKFSLCP SGKRGGDLGE IRPGQMVGAI
+     DQVIFKKPLR VVHGPIKSKF GYHLVQTFYR D
+//

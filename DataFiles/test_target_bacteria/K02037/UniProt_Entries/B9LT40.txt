@@ -1,0 +1,94 @@
+ID   B9LT40_HALLT            Unreviewed;       324 AA.
+AC   B9LT40;
+DT   24-MAR-2009, integrated into UniProtKB/TrEMBL.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=Phosphate transport system permease protein {ECO:0000256|RuleBase:RU363054};
+GN   OrderedLocusNames=Hlac_0503 {ECO:0000313|EMBL:ACM56105.1};
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348 {ECO:0000313|EMBL:ACM56105.1, ECO:0000313|Proteomes:UP000000740};
+RN   [1] {ECO:0000313|EMBL:ACM56105.1, ECO:0000313|Proteomes:UP000000740}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34
+RC   {ECO:0000313|Proteomes:UP000000740};
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- FUNCTION: Part of the binding-protein-dependent transport system for
+CC       phosphate; probably responsible for the translocation of the substrate
+CC       across the membrane. {ECO:0000256|RuleBase:RU363054}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|RuleBase:RU363032};
+CC       Multi-pass membrane protein {ECO:0000256|RuleBase:RU363032}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004141}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. CysTW subfamily. {ECO:0000256|RuleBase:RU363054}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|RuleBase:RU363054}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM56105.1; -; Genomic_DNA.
+DR   RefSeq; WP_012659740.1; NC_012029.1.
+DR   AlphaFoldDB; B9LT40; -.
+DR   GeneID; 7400384; -.
+DR   KEGG; hla:Hlac_0503; -.
+DR   eggNOG; arCOG00167; Archaea.
+DR   HOGENOM; CLU_033621_1_0_2; -.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005315; F:phosphate transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0006817; P:phosphate ion transport; IEA:UniProtKB-KW.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   InterPro; IPR011864; Phosphate_PstC.
+DR   NCBIfam; TIGR02138; phosphate_pstC; 1.
+DR   PANTHER; PTHR42727:SF1; PHOSPHATE TRANSPORT SYSTEM PERMEASE; 1.
+DR   PANTHER; PTHR42727; PHOSPHATE TRANSPORT SYSTEM PERMEASE PROTEIN; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|RuleBase:RU363054};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Phosphate transport {ECO:0000256|RuleBase:RU363054};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000740};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032}; Transport {ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        22..47
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        78..103
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        124..145
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        295..317
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          85..313
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   324 AA;  33987 MW;  9225EF6E183DCA92 CRC64;
+     MTDSTESPDL QRRSGLRRLK EGTYGGLFAA CAAITLLTTV AIFVTLLSDA VVFFQEIPIT
+     EFLTGTNWSP NPAGGGQAFG IIPLLIGTLV VTITAAFIAL PLGTLTAIYL SEYATSNARS
+     ILKPLLEILA GIPTVVYGYF ALVYITPALK ATLFPSMSTF NALSASIMVG IMTIPMVSSI
+     SEDAMSAVPD DLRQAGYGLG ATKFEVSTGI VVPASISGIS SSYILAVSRA IGETMIVVVA
+     MGAQARMPAV REAAFGIPIV NPADVLLESG MTITVAMVQI AGGDLTGGSI PYDSMFALGL
+     TLFVVTLVMN VISDIIAQRY REEY
+//

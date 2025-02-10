@@ -1,0 +1,134 @@
+ID   PYRF_SALTI              Reviewed;         245 AA.
+AC   P58643;
+DT   23-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000255|HAMAP-Rule:MF_01200};
+DE            EC=4.1.1.23 {ECO:0000255|HAMAP-Rule:MF_01200};
+DE   AltName: Full=OMP decarboxylase {ECO:0000255|HAMAP-Rule:MF_01200};
+DE            Short=OMPDCase {ECO:0000255|HAMAP-Rule:MF_01200};
+DE            Short=OMPdecase {ECO:0000255|HAMAP-Rule:MF_01200};
+GN   Name=pyrF {ECO:0000255|HAMAP-Rule:MF_01200};
+GN   OrderedLocusNames=STY1344, t1620;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of orotidine 5'-monophosphate
+CC       (OMP) to uridine 5'-monophosphate (UMP). {ECO:0000255|HAMAP-
+CC       Rule:MF_01200}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01200};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01200}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01200}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01200}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08424.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69247.1; -; Genomic_DNA.
+DR   RefSeq; NP_455790.1; NC_003198.1.
+DR   RefSeq; WP_001763993.1; NZ_WSUR01000006.1.
+DR   AlphaFoldDB; P58643; -.
+DR   SMR; P58643; -.
+DR   STRING; 220341.gene:17585304; -.
+DR   KEGG; stt:t1620; -.
+DR   KEGG; sty:STY1344; -.
+DR   PATRIC; fig|220341.7.peg.1353; -.
+DR   eggNOG; COG0284; Bacteria.
+DR   HOGENOM; CLU_067069_0_0_6; -.
+DR   OMA; FWKVGLE; -.
+DR   OrthoDB; 9806203at2; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   FunFam; 3.20.20.70:FF:000015; Orotidine 5'-phosphate decarboxylase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01200_B; OMPdecase_type1_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR014732; OMPdecase.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR047596; OMPdecase_bac.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR01740; pyrF; 1.
+DR   PANTHER; PTHR32119; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR32119:SF2; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase; Lyase; Pyrimidine biosynthesis.
+FT   CHAIN           1..245
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /id="PRO_0000134570"
+FT   ACT_SITE        73
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         22
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         44
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         71..80
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         131
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         192
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         201
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         221
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+FT   BINDING         222
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01200"
+SQ   SEQUENCE   245 AA;  26256 MW;  81596122D76E7C45 CRC64;
+     MTFTASSSSC AITESPVVVA LDYHERDKAL AFVDKIDPRD CRLKVGKEMF TLFGPQLVRD
+     LQQRGFDVFL DLKFHDIPNT TARAVAAAAD LGVWMVNVHA SGGARMMAAA RDALAPFSKD
+     APLLIAVTVL TSMGTSDLHD LGVTLSPAEH AERLARLTQQ CGLDGVVCSA QEAVRFKQAF
+     GAAFKLVTPG IRPAGSEAGD QRRIMTPEQA LSAGVDYMVI GRPVTQSVDP AQTLKDINAS
+     LKREA
+//

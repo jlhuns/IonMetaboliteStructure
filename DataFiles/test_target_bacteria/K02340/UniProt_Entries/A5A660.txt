@@ -1,0 +1,84 @@
+ID   A5A660_BACLD            Unreviewed;       347 AA.
+AC   A5A660;
+DT   29-MAY-2007, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2007, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   RecName: Full=DNA polymerase III subunit delta {ECO:0000256|ARBA:ARBA00017703};
+DE            EC=2.7.7.7 {ECO:0000256|ARBA:ARBA00012417};
+GN   Name=holA {ECO:0000313|EMBL:AAU24258.2};
+GN   OrderedLocusNames=BL02088 {ECO:0000313|EMBL:AAU24258.2};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24258.2, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24258.2, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=DNA(n) + a 2'-deoxyribonucleoside 5'-triphosphate = DNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339, Rhea:RHEA-
+CC         COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:173112;
+CC         EC=2.7.7.7; Evidence={ECO:0000256|ARBA:ARBA00049244};
+CC   -!- SIMILARITY: Belongs to the DNA polymerase HolA subunit family.
+CC       {ECO:0000256|ARBA:ARBA00034754}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24258.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A5A660; -.
+DR   STRING; 279010.BL02088; -.
+DR   KEGG; bli:BL02088; -.
+DR   eggNOG; COG1466; Bacteria.
+DR   HOGENOM; CLU_044694_4_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0009360; C:DNA polymerase III complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:InterPro.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; IEA:TreeGrafter.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 1.20.272.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR008921; DNA_pol3_clamp-load_cplx_C.
+DR   InterPro; IPR048466; DNA_pol3_delta-like_C.
+DR   InterPro; IPR010372; DNA_pol3_delta_N.
+DR   InterPro; IPR051456; DNA_Pol_III_Delta.
+DR   InterPro; IPR005790; DNA_polIII_delta.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR01128; holA; 1.
+DR   PANTHER; PTHR34388; DNA POLYMERASE III SUBUNIT DELTA; 1.
+DR   PANTHER; PTHR34388:SF1; DNA POLYMERASE III SUBUNIT DELTA; 1.
+DR   Pfam; PF06144; DNA_pol3_delta; 1.
+DR   Pfam; PF21694; DNA_pol3_delta_C; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF48019; post-AAA+ oligomerization domain-like; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705};
+KW   DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00022932};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          19..145
+FT                   /note="DNA polymerase III delta N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF06144"
+FT   DOMAIN          217..337
+FT                   /note="DNA polymerase III delta subunit-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF21694"
+SQ   SEQUENCE   347 AA;  39921 MW;  CCAC5D03832F3349 CRC64;
+     MTVFDVWKSL KKGDIHPVYC LYGKETHLLQ ETVQRIRQAV VDEETKDFNF SIFDLEEDAL
+     DLAVEDAETF PFMGERRLVV AKNPAFLTAE KKKDKLEHNL GVLEAYITQP APYSVFVLLA
+     PYEKLDERKK LTKLLKKHAH MVEAKELTAK ETADFIAGLA KSEGKQIEPE AAEELVLLCH
+     ASLSAIAQEV KKLSTYTGDR GEITIEDVRK LVARGLEQNI FELINKVVNR KRTEALQIFY
+     DLLKQNEEPI KMMALIANQF RLLMQTKYFS DQGYGQKQIA SNLKVHPFRV KLAIEQARLF
+     SEQELRNIIE QLAVMDYEMK TGKKDKQLLL ELFLLKLLQP HEKNGLL
+//

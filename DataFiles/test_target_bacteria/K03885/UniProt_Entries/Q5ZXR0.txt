@@ -1,0 +1,118 @@
+ID   Q5ZXR0_LEGPH            Unreviewed;       738 AA.
+AC   Q5ZXR0;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   RecName: Full=NADH:ubiquinone reductase (non-electrogenic) {ECO:0000256|ARBA:ARBA00012637};
+DE            EC=1.6.5.9 {ECO:0000256|ARBA:ARBA00012637};
+GN   Name=ndh {ECO:0000313|EMBL:AAU26760.1};
+GN   OrderedLocusNames=lpg0671 {ECO:0000313|EMBL:AAU26760.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26760.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26760.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + H(+) = a quinol + NAD(+);
+CC         Xref=Rhea:RHEA:46160, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124; EC=1.6.5.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047599};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the NADH dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00005272}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26760.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946408.1; NC_002942.5.
+DR   RefSeq; YP_094707.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZXR0; -.
+DR   STRING; 272624.lpg0671; -.
+DR   PaxDb; 272624-lpg0671; -.
+DR   GeneID; 66489858; -.
+DR   KEGG; lpn:lpg0671; -.
+DR   PATRIC; fig|272624.6.peg.692; -.
+DR   eggNOG; COG1252; Bacteria.
+DR   eggNOG; COG2259; Bacteria.
+DR   HOGENOM; CLU_021575_0_0_6; -.
+DR   OrthoDB; 9781621at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050136; F:NADH:ubiquinone reductase (non-electrogenic) activity; IEA:RHEA.
+DR   GO; GO:0006116; P:NADH oxidation; IEA:InterPro.
+DR   Gene3D; 3.50.50.100; -; 1.
+DR   InterPro; IPR032808; DoxX.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR045024; NDH-2.
+DR   InterPro; IPR054585; NDH2-like_C.
+DR   PANTHER; PTHR43706:SF47; EXTERNAL NADH-UBIQUINONE OXIDOREDUCTASE 1, MITOCHONDRIAL-RELATED; 1.
+DR   PANTHER; PTHR43706; NADH DEHYDROGENASE; 1.
+DR   Pfam; PF07681; DoxX; 1.
+DR   Pfam; PF22366; NDH2_C; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:AAU26760.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transit peptide {ECO:0000256|ARBA:ARBA00022946};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        85..111
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        123..143
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        180..199
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        234..260
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          316..631
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+FT   DOMAIN          657..711
+FT                   /note="External alternative NADH-ubiquinone oxidoreductase-
+FT                   like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF22366"
+SQ   SEQUENCE   738 AA;  82066 MW;  24DA3545D249CA1E CRC64;
+     MQQEDQAQIP QNSRSFSRNT ARCFDTFMDT VDFLGRIGWP VIDLAFRIWI AQQLLVSAIL
+     LTNHWDTAVY LAKNEYPVPW LSPEWEALLG ILAQFVGGIS LLLGLFTRCG AAFIVGFAVM
+     TQVYYQPIDL NLLWIALMLG YVLRGPGPLS LDNLFEHGFS RSPLPFAMLI VTFVDRTREF
+     FSSLYLFSLR MWLMISLLLI NQHIQLISSD ALPLLMPWLP LNSASIVFNN VSLFMAIFLG
+     LGLATRVVAI FGLIVVLLSF TPGVTGFYLY WMMVMAILFI SGPGILSLDH LIFHALKKHY
+     PQLSGKPAFS LDGLPRVVII GAGFGGIACA KALRHMPVKI TLIDRHNYHL FQPFLYQIAT
+     GSLSPADIAI SIRSIFLEQF NAEILLGNVT DINKEERFVI ADNFTIPYDY LVIATGATHS
+     YFGKDSWAPY APGLKTINDG TSVRSRIIKS FELAEIAESD EERKQFLNFV IVGAGPTGVE
+     LAGAIAELAR FGIVKEFRHF DPASANIILV QAAPRILPTF SEQISQKAQR YLESMGVKVL
+     VNSMVEQIDS DGVIINKERI YSKSVFWAAG VAASPASKWL QLEADPAGRV KVNDDLTVAG
+     YSNIFAIGDT AASNAWNGKP VPGIAPAAKQ GGAYVAKVIS KRIYNNNSRY KPFKYIHYGS
+     LATVGRKAAV AEFDRFKISG ELAWWFWGGV HVFFLVGSRN RLSVILNWLW SYYTFRANNL
+     LITDDSLNKK NKSGTSEV
+//

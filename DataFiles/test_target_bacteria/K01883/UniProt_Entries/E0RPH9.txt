@@ -1,0 +1,141 @@
+ID   E0RPH9_SPITD            Unreviewed;       702 AA.
+AC   E0RPH9;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   RecName: Full=Cysteine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_00041};
+DE            EC=6.1.1.16 {ECO:0000256|HAMAP-Rule:MF_00041};
+DE   AltName: Full=Cysteinyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_00041};
+DE            Short=CysRS {ECO:0000256|HAMAP-Rule:MF_00041};
+GN   Name=cysS {ECO:0000256|HAMAP-Rule:MF_00041};
+GN   OrderedLocusNames=STHERM_c18260 {ECO:0000313|EMBL:ADN02761.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02761.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02761.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Cys) + L-cysteine + ATP = L-cysteinyl-tRNA(Cys) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:17773, Rhea:RHEA-COMP:9661, Rhea:RHEA-
+CC         COMP:9679, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:35235,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78517, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.16; Evidence={ECO:0000256|HAMAP-Rule:MF_00041};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00041};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_00041};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245, ECO:0000256|HAMAP-
+CC       Rule:MF_00041}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00041}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00041}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02761.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E0RPH9; -.
+DR   PaxDb; 665571-STHERM_c18260; -.
+DR   KEGG; sta:STHERM_c18260; -.
+DR   eggNOG; COG0215; Bacteria.
+DR   HOGENOM; CLU_013528_0_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004817; F:cysteine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006423; P:cysteinyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00672; CysRS_core; 1.
+DR   Gene3D; 1.20.120.1910; Cysteine-tRNA ligase, C-terminal anti-codon recognition domain; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00041; Cys_tRNA_synth; 1.
+DR   InterPro; IPR015803; Cys-tRNA-ligase.
+DR   InterPro; IPR024909; Cys-tRNA/MSH_ligase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR032678; tRNA-synt_1_cat_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   NCBIfam; TIGR00435; cysS; 1.
+DR   PANTHER; PTHR10890:SF3; CYSTEINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR10890; CYSTEINYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF01406; tRNA-synt_1e; 1.
+DR   PRINTS; PR00983; TRNASYNTHCYS.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00041};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00041}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00041};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00041};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00041};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00041};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00041};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00041}.
+FT   DOMAIN          248..560
+FT                   /note="tRNA synthetases class I catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01406"
+FT   REGION          1..37
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           263..273
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   MOTIF           512..516
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   COMPBIAS        12..27
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         261
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   BINDING         454
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   BINDING         479
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   BINDING         483
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+FT   BINDING         515
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00041"
+SQ   SEQUENCE   702 AA;  80779 MW;  130156DEE011F0D6 CRC64;
+     MTLRLPVRPH LPHPPCQRLP LPLPQPHPRA HEHPPLPLQG RSFVAELLLP HLLLHQPPLL
+     VYHLERAHHV RERPAVAPRV HVGAPAHAPR HPREVLEPCH PPLHRLQHRV LDPHPCIEPG
+     PLLVPHRLPH PSRVHHHAPH PPIGDQDVCA PAQDEERQPL LPHHPHHPYE LLPALRHHEE
+     VGGPSHLERG VPGHRLVQQN RARYVDFFRQ FPYLIHDFIL AETGRYRQNG AGMELRLFNT
+     MGRIQEPFVP REAGKVGMYT CGPTVYNYAH IGNLRTYIFE DVLRRTLLHA GYRLVHVMNV
+     TDVGHLTSDG DEGEDKVIKA ARERGMSVWE IAEFFTRAFF EDTDKLNIQR PEIVCKATEH
+     IPEMIDLVKR LEERGHTYLA GGNVYYDIST FPRYGELARL DEQDLRAGAR VGVDAHKRSP
+     RDFVLWFTRS KFEHQAMVWD SPWGRGYPGW HLECSAMSMK YLGEQFDIHC GGVDHIPVHH
+     TNEIAQSEGA TGKHPWVRYW LHAEFLVMDS GKMSKSKGNF LTLSGLEEEG FHPLDYRYFC
+     LGAHYRSQLF FSWEALEAAR NARRNLIEHL SGLHPRDGWE QTRLSERGEA YMREFEEAIG
+     DDLATPRALA VLWRALKDEA LPPEERAVLA VTMDRILGLS LAEAIASDDA LEPELLELVR
+     RREALRKQRN FAEADRIRDE LARRGIIVED TPQGPRWKRK TT
+//

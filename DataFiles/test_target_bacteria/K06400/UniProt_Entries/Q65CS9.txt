@@ -1,0 +1,89 @@
+ID   Q65CS9_BACLD            Unreviewed;       414 AA.
+AC   Q65CS9; Q62NA7;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   SubName: Full=Site-specific DNA recombinase {ECO:0000313|EMBL:AAU25754.1};
+GN   Name=spoIVCA {ECO:0000313|EMBL:AAU25754.1};
+GN   OrderedLocusNames=BL02390 {ECO:0000313|EMBL:AAU25754.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25754.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25754.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25754.1; -; Genomic_DNA.
+DR   RefSeq; WP_011198488.1; NC_006322.1.
+DR   AlphaFoldDB; Q65CS9; -.
+DR   STRING; 279010.BL02390; -.
+DR   KEGG; bld:BLi04323; -.
+DR   KEGG; bli:BL02390; -.
+DR   PATRIC; fig|279010.13.peg.4407; -.
+DR   eggNOG; COG1961; Bacteria.
+DR   HOGENOM; CLU_010686_18_3_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000150; F:DNA strand exchange activity; IEA:InterPro.
+DR   GO; GO:0015074; P:DNA integration; IEA:UniProtKB-KW.
+DR   CDD; cd00338; Ser_Recombinase; 1.
+DR   Gene3D; 3.90.1750.20; Putative Large Serine Recombinase, Chain B, Domain 2; 1.
+DR   Gene3D; 3.40.50.1390; Resolvase, N-terminal catalytic domain; 1.
+DR   InterPro; IPR038109; DNA_bind_recomb_sf.
+DR   InterPro; IPR011109; DNA_bind_recombinase_dom.
+DR   InterPro; IPR006118; Recombinase_CS.
+DR   InterPro; IPR006119; Resolv_N.
+DR   InterPro; IPR036162; Resolvase-like_N_sf.
+DR   InterPro; IPR050639; SSR_resolvase.
+DR   InterPro; IPR025827; Zn_ribbon_recom_dom.
+DR   PANTHER; PTHR30461:SF23; DNA RECOMBINASE-RELATED; 1.
+DR   PANTHER; PTHR30461; DNA-INVERTASE FROM LAMBDOID PROPHAGE; 1.
+DR   Pfam; PF07508; Recombinase; 1.
+DR   Pfam; PF00239; Resolvase; 1.
+DR   Pfam; PF13408; Zn_ribbon_recom; 1.
+DR   SMART; SM00857; Resolvase; 1.
+DR   SUPFAM; SSF53041; Resolvase-like; 1.
+DR   PROSITE; PS51737; RECOMBINASE_DNA_BIND; 1.
+DR   PROSITE; PS00397; RECOMBINASES_1; 1.
+DR   PROSITE; PS51736; RECOMBINASES_3; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   DNA integration {ECO:0000256|ARBA:ARBA00022908};
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          6..154
+FT                   /note="Resolvase/invertase-type recombinase catalytic"
+FT                   /evidence="ECO:0000259|PROSITE:PS51736"
+FT   DOMAIN          161..281
+FT                   /note="Recombinase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51737"
+FT   COILED          373..400
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   ACT_SITE        14
+FT                   /note="O-(5'-phospho-DNA)-serine intermediate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR606118-50,
+FT                   ECO:0000256|PROSITE-ProRule:PRU10137"
+SQ   SEQUENCE   414 AA;  47650 MW;  ADDD805F8782B684 CRC64;
+     MHEIKRVAIY CRVSTEEQAT EGYSISAQLQ TLRQYTQLYG WEIAEEYVDE GISGKNISGR
+     PAMQKLISDV EKDKFQAVLV WKISRLSRNM LDTLTLLDKF EDYGVKFISY SENFDTGSPI
+     GRLVVQLMAS IAEMERNTLS ENVKLGMKQR ALEGSWNGGV VFGYDTIEKE LVINKKEAEI
+     VQQIYQLYAN GKGLKSIANY LNKAGYRTKR NCYFSINGVA QILDNVIYNG KISWLKVENW
+     DTKRRRGKNP NPILVEGQHE AIISDELWSM VQARRKSKSF KQRQSNEPFL LSSLLRCPDC
+     GQGMVPAITT NKRKDGTKKK YRYYVCSNFH NKGSSACRAN SIKAYDAEYE VINKIEKILS
+     NQNQLFSKLQ SINTTSIESL NQLNSELKQL ENRLSEIQEY RIVTWKHLSK RPYQ
+//

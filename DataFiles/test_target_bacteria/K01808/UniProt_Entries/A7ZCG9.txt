@@ -1,0 +1,87 @@
+ID   A7ZCG9_CAMC1            Unreviewed;       147 AA.
+AC   A7ZCG9;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   23-OCT-2007, sequence version 1.
+DT   27-NOV-2024, entry version 77.
+DE   SubName: Full=Allose-6-phosphate isomerase / ribose-5-phosphate isomerase B {ECO:0000313|EMBL:EAT97956.2};
+DE            EC=5.3.1.- {ECO:0000313|EMBL:EAT97956.2};
+DE            EC=5.3.1.6 {ECO:0000313|EMBL:EAT97956.2};
+GN   Name=rpiB {ECO:0000313|EMBL:EAT97956.2};
+GN   ORFNames=CCC13826_2228 {ECO:0000313|EMBL:EAT97956.2};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT97956.2, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the LacAB/RpiB family.
+CC       {ECO:0000256|ARBA:ARBA00008754}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97956.2; -; Genomic_DNA.
+DR   RefSeq; WP_012001448.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZCG9; -.
+DR   STRING; 360104.CCC13826_2228; -.
+DR   KEGG; cco:CCC13826_2228; -.
+DR   eggNOG; COG0698; Bacteria.
+DR   HOGENOM; CLU_091396_4_1_7; -.
+DR   OrthoDB; 1778624at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.1400.10; Sugar-phosphate isomerase, RpiB/LacA/LacB; 1.
+DR   InterPro; IPR004785; RpiB.
+DR   InterPro; IPR003500; RpiB_LacA_LacB.
+DR   InterPro; IPR036569; RpiB_LacA_LacB_sf.
+DR   NCBIfam; TIGR01120; rpiB; 1.
+DR   NCBIfam; TIGR00689; rpiB_lacA_lacB; 1.
+DR   PANTHER; PTHR30345:SF0; DNA DAMAGE-REPAIR_TOLERATION PROTEIN DRT102; 1.
+DR   PANTHER; PTHR30345; RIBOSE-5-PHOSPHATE ISOMERASE B; 1.
+DR   Pfam; PF02502; LacAB_rpiB; 1.
+DR   PIRSF; PIRSF005384; RpiB_LacA_B; 1.
+DR   SUPFAM; SSF89623; Ribose/Galactose isomerase RpiB/AlsB; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000313|EMBL:EAT97956.2}.
+FT   ACT_SITE        66
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-1"
+FT   ACT_SITE        99
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-1"
+FT   BINDING         11..12
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         67..71
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         100
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         110
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         133
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         137
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+SQ   SEQUENCE   147 AA;  15925 MW;  B4D5F150D560AA75 CRC64;
+     MKIDKVFLAS DHAGFELKNE LKEAIKGLGY EVVDLGTNDK NSVDYPDYAH LLASKLEPNC
+     YGVLVCGTGI GISIAANRHE NVRCALCHDE FTARLAREHN DANVIAFGAR VIGAGVAISA
+     AEAFLKTEFA GGRHERRVQK IELKAGK
+//

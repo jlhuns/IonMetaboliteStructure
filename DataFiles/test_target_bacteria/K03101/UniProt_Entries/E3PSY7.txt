@@ -1,0 +1,103 @@
+ID   E3PSY7_ACESD            Unreviewed;       150 AA.
+AC   E3PSY7;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   RecName: Full=Lipoprotein signal peptidase {ECO:0000256|HAMAP-Rule:MF_00161};
+DE            EC=3.4.23.36 {ECO:0000256|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Prolipoprotein signal peptidase {ECO:0000256|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Signal peptidase II {ECO:0000256|HAMAP-Rule:MF_00161};
+DE            Short=SPase II {ECO:0000256|HAMAP-Rule:MF_00161};
+GN   Name=lspA {ECO:0000256|HAMAP-Rule:MF_00161,
+GN   ECO:0000313|EMBL:CBH21991.1};
+GN   OrderedLocusNames=CLOST_1871 {ECO:0000313|EMBL:CBH21991.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21991.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: This protein specifically catalyzes the removal of signal
+CC       peptides from prolipoproteins. {ECO:0000256|HAMAP-Rule:MF_00161,
+CC       ECO:0000256|RuleBase:RU000594}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of signal peptides from bacterial membrane
+CC         prolipoproteins. Hydrolyzes -Xaa-Yaa-Zaa-|-(S,diacylglyceryl)Cys-, in
+CC         which Xaa is hydrophobic (preferably Leu), and Yaa (Ala or Ser) and
+CC         Zaa (Gly or Ala) have small, neutral side chains.; EC=3.4.23.36;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00161,
+CC         ECO:0000256|RuleBase:RU000594};
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (signal peptide
+CC       cleavage). {ECO:0000256|HAMAP-Rule:MF_00161}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_00161};
+CC       Multi-pass membrane protein {ECO:0000256|HAMAP-Rule:MF_00161}.
+CC   -!- SIMILARITY: Belongs to the peptidase A8 family.
+CC       {ECO:0000256|ARBA:ARBA00006139, ECO:0000256|HAMAP-Rule:MF_00161,
+CC       ECO:0000256|RuleBase:RU004181}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21991.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PSY7; -.
+DR   STRING; 1511.CLOST_1871; -.
+DR   KEGG; cst:CLOST_1871; -.
+DR   eggNOG; COG0597; Bacteria.
+DR   HOGENOM; CLU_083252_3_4_9; -.
+DR   UniPathway; UPA00665; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00161; LspA; 1.
+DR   InterPro; IPR001872; Peptidase_A8.
+DR   NCBIfam; TIGR00077; lspA; 1.
+DR   PANTHER; PTHR33695; LIPOPROTEIN SIGNAL PEPTIDASE; 1.
+DR   PANTHER; PTHR33695:SF1; LIPOPROTEIN SIGNAL PEPTIDASE; 1.
+DR   Pfam; PF01252; Peptidase_A8; 1.
+DR   PRINTS; PR00781; LIPOSIGPTASE.
+DR   PROSITE; PS00855; SPASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aspartyl protease {ECO:0000256|ARBA:ARBA00022750, ECO:0000256|HAMAP-
+KW   Rule:MF_00161};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00161};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00161};
+KW   Lipoprotein {ECO:0000313|EMBL:CBH21991.1};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00161};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000256|HAMAP-Rule:MF_00161};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_00161};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_00161}.
+FT   TRANSMEM        56..74
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00161"
+FT   TRANSMEM        86..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00161"
+FT   TRANSMEM        117..141
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00161"
+FT   ACT_SITE        110
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00161"
+FT   ACT_SITE        126
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00161"
+SQ   SEQUENCE   150 AA;  17456 MW;  C548A3241DAB4D88 CRC64;
+     MYFTLISILI IIDQAIKWIS RTKLTKFESY PVIDGFFHFT YVENRGAAFG MLQNKTWFFV
+     LITLVVVGYM IYFTKKNKNI DKKLTFVLSI ITAGAIGNLI DRIWLGFVVD MFDFRGIWQF
+     VFNFADICVV VGGILLIFLI IKDKEILEKI
+//

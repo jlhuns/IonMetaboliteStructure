@@ -1,0 +1,84 @@
+ID   A9BWA7_DELAS            Unreviewed;       196 AA.
+AC   A9BWA7;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   SubName: Full=Molybdopterin oxidoreductase Fe4S4 region {ECO:0000313|EMBL:ABX36127.1};
+GN   OrderedLocusNames=Daci_3491 {ECO:0000313|EMBL:ABX36127.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX36127.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX36127.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- SUBCELLULAR LOCATION: Cell envelope {ECO:0000256|ARBA:ARBA00004196}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic molybdopterin-containing
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00010312}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36127.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A9BWA7; -.
+DR   STRING; 398578.Daci_3491; -.
+DR   KEGG; dac:Daci_3491; -.
+DR   eggNOG; COG0243; Bacteria.
+DR   HOGENOM; CLU_061371_1_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0030313; C:cell envelope; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:TreeGrafter.
+DR   GO; GO:0030151; F:molybdenum ion binding; IEA:TreeGrafter.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009061; P:anaerobic respiration; IEA:TreeGrafter.
+DR   FunFam; 3.30.200.210:FF:000003; Formate dehydrogenase-N subunit alpha; 1.
+DR   Gene3D; 3.40.50.740; -; 1.
+DR   Gene3D; 2.20.25.90; ADC-like domains; 1.
+DR   InterPro; IPR006963; Mopterin_OxRdtase_4Fe-4S_dom.
+DR   InterPro; IPR006311; TAT_signal.
+DR   PANTHER; PTHR43598:SF1; FORMATE DEHYDROGENASE-O MAJOR SUBUNIT; 1.
+DR   PANTHER; PTHR43598; TUNGSTEN-CONTAINING FORMYLMETHANOFURAN DEHYDROGENASE 2 SUBUNIT B; 1.
+DR   Pfam; PF04879; Molybdop_Fe4S4; 1.
+DR   SMART; SM00926; Molybdop_Fe4S4; 1.
+DR   SUPFAM; SSF53706; Formate dehydrogenase/DMSO reductase, domains 1-3; 1.
+DR   PROSITE; PS51669; 4FE4S_MOW_BIS_MGD; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..34
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           35..196
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5005661253"
+FT   DOMAIN          44..107
+FT                   /note="4Fe-4S Mo/W bis-MGD-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51669"
+SQ   SEQUENCE   196 AA;  21540 MW;  010F253FB5636919 CRC64;
+     MVQFSRRQFM KVTGSTLAGS SLALMGFSPT AALAEVRQFK LAATTVTRQT CTYCSVGCGI
+     LMYSLSDGAK NAKLSVIHVE GDPDHPVNRG TLCPKGASLL DFVHSPHRLK YPEYRAPGSN
+     EWKRMSWDEA LTRITKLLKD DRDANFVEQN DKGQTVNRWL TTGMLAASAS SNEAGYVTHK
+     VARSWGLLAL DNQARV
+//

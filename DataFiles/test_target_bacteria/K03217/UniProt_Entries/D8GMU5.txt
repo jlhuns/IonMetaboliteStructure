@@ -1,0 +1,83 @@
+ID   D8GMU5_CLOLD            Unreviewed;       213 AA.
+AC   D8GMU5;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 65.
+DE   SubName: Full=Putative membrane protein {ECO:0000313|EMBL:ADK15733.1};
+GN   OrderedLocusNames=CLJU_c26750 {ECO:0000313|EMBL:ADK15733.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK15733.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK15733.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}. Membrane
+CC       {ECO:0000256|RuleBase:RU003945}; Multi-pass membrane protein
+CC       {ECO:0000256|RuleBase:RU003945}.
+CC   -!- SIMILARITY: Belongs to the OXA1/ALB3/YidC family.
+CC       {ECO:0000256|RuleBase:RU003945}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK15733.1; -; Genomic_DNA.
+DR   RefSeq; WP_013239323.1; NZ_LITS01000012.1.
+DR   AlphaFoldDB; D8GMU5; -.
+DR   STRING; 748727.CLJU_c26750; -.
+DR   KEGG; clj:CLJU_c26750; -.
+DR   PATRIC; fig|748727.19.peg.4116; -.
+DR   eggNOG; COG0706; Bacteria.
+DR   HOGENOM; CLU_036138_4_2_9; -.
+DR   OrthoDB; 2380676at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0032977; F:membrane insertase activity; IEA:InterPro.
+DR   GO; GO:0051205; P:protein insertion into membrane; IEA:TreeGrafter.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   CDD; cd20070; 5TM_YidC_Alb3; 1.
+DR   InterPro; IPR001708; YidC/ALB3/OXA1/COX18.
+DR   InterPro; IPR028055; YidC/Oxa/ALB_C.
+DR   InterPro; IPR047196; YidC_ALB_C.
+DR   NCBIfam; TIGR03592; yidC_oxa1_cterm; 1.
+DR   PANTHER; PTHR12428:SF65; CYTOCHROME C OXIDASE ASSEMBLY PROTEIN COX18, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR12428; OXA1; 1.
+DR   Pfam; PF02096; 60KD_IMP; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Chaperone {ECO:0000256|ARBA:ARBA00023186};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Protein transport {ECO:0000256|ARBA:ARBA00022927};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003945};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}; Transport {ECO:0000256|ARBA:ARBA00022448}.
+FT   TRANSMEM        22..40
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        90..112
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        132..154
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        166..190
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          22..202
+FT                   /note="Membrane insertase YidC/Oxa/ALB C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02096"
+SQ   SEQUENCE   213 AA;  24224 MW;  8A8EA51A6E46F9E9 CRC64;
+     MNIIFNLLGA LLNHVFNFTG DWGIAVVVLT LIVKVLLMPM SMKQRFSILK QQKVAKKMED
+     IKIRYKNDKL KMEKEIQNCY KDNLKSMMGC LLTIIQLPII GGLYKTIINM PVVSGTVLIP
+     WVASIKLSDS YFIVPIMYSI ISMLPGLVNS IDYFKVYREV QYNKMSAILP GVIGLLITIK
+     APIALGLYFI TSSVFSLVEE IAFRIYIKNK QFV
+//

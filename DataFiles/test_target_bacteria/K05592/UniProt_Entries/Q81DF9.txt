@@ -1,0 +1,144 @@
+ID   CSHE_BACCR              Reviewed;         458 AA.
+AC   Q81DF9;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 130.
+DE   RecName: Full=DEAD-box ATP-dependent RNA helicase CshE;
+DE            EC=3.6.4.13;
+GN   Name=cshE; OrderedLocusNames=BC_2408;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+RN   [2]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=20709848; DOI=10.1128/aem.00782-10;
+RA   Pandiani F., Brillard J., Bornard I., Michaud C., Chamot S., Nguyen-the C.,
+RA   Broussolle V.;
+RT   "Differential involvement of the five RNA helicases in adaptation of
+RT   Bacillus cereus ATCC 14579 to low growth temperatures.";
+RL   Appl. Environ. Microbiol. 76:6692-6697(2010).
+RN   [3]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=21705526; DOI=10.1128/aem.02974-10;
+RA   Pandiani F., Chamot S., Brillard J., Carlin F., Nguyen-the C.,
+RA   Broussolle V.;
+RT   "Role of the five RNA helicases in the adaptive response of Bacillus cereus
+RT   ATCC 14579 cells to temperature, pH, and oxidative stresses.";
+RL   Appl. Environ. Microbiol. 77:5604-5609(2011).
+CC   -!- FUNCTION: DEAD-box RNA helicase. Probably has an RNA-dependent ATPase
+CC       activity and a 3' to 5' RNA helicase activity that uses the energy of
+CC       ATP hydrolysis to destabilize and unwind short RNA duplexes (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- INDUCTION: Induced at 10 degrees Celsius. {ECO:0000269|PubMed:20709848,
+CC       ECO:0000269|PubMed:21705526}.
+CC   -!- DISRUPTION PHENOTYPE: Wild-type growth rate at 10 and 30 degrees
+CC       Celsius, no change upon exposure to H(2)O(2) or diamide.
+CC       {ECO:0000269|PubMed:20709848, ECO:0000269|PubMed:21705526}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP09371.1; -; Genomic_DNA.
+DR   RefSeq; NP_832170.1; NC_004722.1.
+DR   RefSeq; WP_002195506.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81DF9; -.
+DR   SMR; Q81DF9; -.
+DR   STRING; 226900.BC_2408; -.
+DR   KEGG; bce:BC2408; -.
+DR   PATRIC; fig|226900.8.peg.2436; -.
+DR   HOGENOM; CLU_003041_28_3_9; -.
+DR   OrthoDB; 9805696at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:RHEA.
+DR   GO; GO:0140849; F:ATP-dependent H2AZ histone chaperone activity; IEA:RHEA.
+DR   GO; GO:0140665; F:ATP-dependent H3-H4 histone complex chaperone activity; IEA:RHEA.
+DR   GO; GO:0140584; F:chromatin extrusion motor activity; IEA:RHEA.
+DR   GO; GO:0061775; F:cohesin loader activity; IEA:RHEA.
+DR   GO; GO:0003689; F:DNA clamp loader activity; IEA:RHEA.
+DR   GO; GO:0003724; F:RNA helicase activity; IBA:GO_Central.
+DR   GO; GO:0033592; F:RNA strand annealing activity; IBA:GO_Central.
+DR   GO; GO:0009409; P:response to cold; IBA:GO_Central.
+DR   CDD; cd00268; DEADc; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050547; DEAD_box_RNA_helicases.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   PANTHER; PTHR47963:SF8; ATP-DEPENDENT RNA HELICASE DEAD; 1.
+DR   PANTHER; PTHR47963; DEAD-BOX ATP-DEPENDENT RNA HELICASE 47, MITOCHONDRIAL; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Helicase; Hydrolase; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..458
+FT                   /note="DEAD-box ATP-dependent RNA helicase CshE"
+FT                   /id="PRO_0000430104"
+FT   DOMAIN          36..207
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          218..379
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   REGION          374..458
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           5..33
+FT                   /note="Q motif"
+FT   MOTIF           155..158
+FT                   /note="DEAD box"
+FT   COMPBIAS        374..384
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        399..425
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        443..458
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         49..56
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+SQ   SEQUENCE   458 AA;  51573 MW;  3658721717B36EB6 CRC64;
+     MVYLKNFLEL GISETFNHTL RENGITEATP IQEKAIPVIL SGKDIIGQAK TGTGKTLAFV
+     LPILEKIDPE CSDVQALIVA PTRELALQIT TEIKKMLVQR EDINVLAIYG GQDVAQQLRK
+     LKGNTHIVVA TPGRLLDHIR RETIDLSNLS TIVLDEADQM LYFGFLYDIE DILDETPGSK
+     QTMLFSATMP KDIKKLAKRY MDEPQMIQVQ SEEVTVDTIE QRVIETTDRA KPDALRFVMD
+     RDQPFLAVIF CRTKVRASKL YDNLKGLGYN CAELHGDIPQ AKRERVMKSF REAKIQYLIA
+     TDVAARGLDV DGVTHVFNYD IPEDVESYIH RIGRTGRAGG SGLAITFVAA KDEKHLEEIE
+     KTLGAPIQRE IIEQPKIKRV DENGKPVPKP APKKSGQNRQ RDSREGSRSD SRRDSRNSSR
+     SDSRNSSRNS SRNENNRSFN KPSNKKGSTK QGQQRRGR
+//

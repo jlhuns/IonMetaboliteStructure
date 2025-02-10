@@ -1,0 +1,98 @@
+ID   MIAA_CAMC1              Reviewed;         291 AA.
+AC   A7ZB92;
+DT   16-JUN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 100.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=Ccon26_01320; ORFNames=CCC13826_1161;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98526.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001069.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZB92; -.
+DR   SMR; A7ZB92; -.
+DR   STRING; 360104.CCC13826_1161; -.
+DR   KEGG; cco:CCC13826_1161; -.
+DR   eggNOG; COG0324; Bacteria.
+DR   HOGENOM; CLU_032616_0_1_7; -.
+DR   OrthoDB; 9776390at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006400; P:tRNA modification; IEA:TreeGrafter.
+DR   Gene3D; 1.10.287.890; Crystal structure of tRNA isopentenylpyrophosphate transferase (bh2366) domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF60; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Transferase; tRNA processing.
+FT   CHAIN           1..291
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_0000377101"
+FT   REGION          34..37
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         9..16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         11..16
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            100
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   291 AA;  33261 MW;  6728E68BE2E53984 CRC64;
+     MFKELALIGT TASGKSDLAF ELAKEFEGVI LSLDSLALYK EIDIASAKPK SWQLEAVRHF
+     GVDEIYPDEE FSVGAFFEIY KNAKEIARLR GCPLIITGGS GFYLKAMLSG LAPDVPKCEL
+     NLSNEEIYEL ALQNDPEFAG KFSQNDSYRL EKWYQIYKFS GQIPSIWLRE NTKPSVIKEL
+     AIFEILWDKD ELRARIAKRT KNMLDEGLID EAKFLFEKYK SEPKPLKSIG LKECKQFLEG
+     EISKNELETL IATHTAQLAK RQRTFNRSQF EKKFVGDLAQ TRSEILKFLK G
+//

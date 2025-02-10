@@ -1,0 +1,175 @@
+ID   A0A0A2N993_ALCFA        Unreviewed;       334 AA.
+AC   A0A0A2N993; A0A0M7EAB0;
+DT   04-FEB-2015, integrated into UniProtKB/TrEMBL.
+DT   04-FEB-2015, sequence version 1.
+DT   05-FEB-2025, entry version 64.
+DE   RecName: Full=Lipoyl synthase {ECO:0000256|HAMAP-Rule:MF_00206};
+DE            EC=2.8.1.8 {ECO:0000256|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lip-syn {ECO:0000256|HAMAP-Rule:MF_00206};
+DE            Short=LS {ECO:0000256|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoate synthase {ECO:0000256|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoic acid synthase {ECO:0000256|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Sulfur insertion protein LipA {ECO:0000256|HAMAP-Rule:MF_00206};
+GN   Name=lipA {ECO:0000256|HAMAP-Rule:MF_00206,
+GN   ECO:0000313|EMBL:UPL21207.1};
+GN   ORFNames=DF183_19245 {ECO:0000313|EMBL:PWE12892.1}, MXF72_17760
+GN   {ECO:0000313|EMBL:UPL21207.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:UPL21207.1, ECO:0000313|Proteomes:UP000830925};
+RN   [1] {ECO:0000313|EMBL:PWE12892.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE12892.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE12892.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE12892.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:UPL21207.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=D334 {ECO:0000313|EMBL:UPL21207.1};
+RA   Doan V.T., Quach N.T., Vu T.-H.-N., Phi Q.-T.;
+RT   "Genomic mining of Alcaligenes faecalis D334 producing ectoin and
+RT   derivatives.";
+RL   Submitted (APR-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the radical-mediated insertion of two sulfur atoms
+CC       into the C-6 and C-8 positions of the octanoyl moiety bound to the
+CC       lipoyl domains of lipoate-dependent enzymes, thereby converting the
+CC       octanoylated domains into lipoylated derivatives. {ECO:0000256|HAMAP-
+CC       Rule:MF_00206}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[[Fe-S] cluster scaffold protein carrying a second [4Fe-
+CC         4S](2+) cluster] + N(6)-octanoyl-L-lysyl-[protein] + 2 oxidized [2Fe-
+CC         2S]-[ferredoxin] + 2 S-adenosyl-L-methionine + 4 H(+) = [[Fe-S]
+CC         cluster scaffold protein] + N(6)-[(R)-dihydrolipoyl]-L-lysyl-
+CC         [protein] + 4 Fe(3+) + 2 hydrogen sulfide + 2 5'-deoxyadenosine + 2
+CC         L-methionine + 2 reduced [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:16585,
+CC         Rhea:RHEA-COMP:9928, Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001,
+CC         Rhea:RHEA-COMP:10475, Rhea:RHEA-COMP:14568, Rhea:RHEA-COMP:14569,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17319, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:29919, ChEBI:CHEBI:33722, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57844, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:78809, ChEBI:CHEBI:83100; EC=2.8.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047326, ECO:0000256|HAMAP-
+CC         Rule:MF_00206};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00206};
+CC       Note=Binds 2 [4Fe-4S] clusters per subunit. One cluster is coordinated
+CC       with 3 cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|HAMAP-Rule:MF_00206};
+CC   -!- PATHWAY: Protein modification; protein lipoylation via endogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-
+CC       protein]: step 2/2. {ECO:0000256|HAMAP-Rule:MF_00206}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00206}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Lipoyl synthase
+CC       family. {ECO:0000256|HAMAP-Rule:MF_00206}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000005; PWE12892.1; -; Genomic_DNA.
+DR   EMBL; CP095873; UPL21207.1; -; Genomic_DNA.
+DR   RefSeq; WP_021447088.1; NZ_SRIW01000026.1.
+DR   AlphaFoldDB; A0A0A2N993; -.
+DR   STRING; 511.UZ73_09375; -.
+DR   GeneID; 29368491; -.
+DR   KEGG; afa:UZ73_09375; -.
+DR   eggNOG; COG0320; Bacteria.
+DR   OrthoDB; 9787898at2; -.
+DR   UniPathway; UPA00538; UER00593.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   Proteomes; UP000830925; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016992; F:lipoate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 3.20.20.70:FF:000040; Lipoyl synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00206; Lipoyl_synth; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR031691; LIAS_N.
+DR   InterPro; IPR003698; Lipoyl_synth.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00510; lipA; 1.
+DR   PANTHER; PTHR10949; LIPOYL SYNTHASE; 1.
+DR   PANTHER; PTHR10949:SF0; LIPOYL SYNTHASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF16881; LIAS_N; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF005963; Lipoyl_synth; 1.
+DR   SFLD; SFLDF00271; lipoyl_synthase; 1.
+DR   SFLD; SFLDG01058; lipoyl_synthase_like; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_00206};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00206};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_00206};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_00206};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00206};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_00206};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00206, ECO:0000313|EMBL:UPL21207.1}.
+FT   DOMAIN          91..309
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   BINDING         80
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         85
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         91
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         106
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         110
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         113
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+FT   BINDING         320
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00206"
+SQ   SEQUENCE   334 AA;  37449 MW;  2F43024A1760E76C CRC64;
+     MTTPTDTSVD SKPTVRPRVV EYDATQKQKA EAKTSRIPIK VVQAERLKKP DWIRVKAAAP
+     NSRFYEIKET LREHKLFSVC EEASCPNIGE CFGKGTATFM IMGDKCTRRC PFCDVGHGRP
+     DPLDENEPAN LAKAIGAMKL SYVVITSVDR DDLRDGGAAH FVECIRQVRE HSPTTTIEVL
+     VPDFRARLDR ALGILNACPP DVMNHNLETV PRLYKQARPG SDYHHSLKLL QEFKKLHPNI
+     PTKSGLMVGL GETNEEILEV MRDMRAHDID MLTIGQYLQP SGHHLPVMRY VTPDEFLMFE
+     REAYAMGFTH AAVGAMVRSS YHADQQAHAA GVQP
+//

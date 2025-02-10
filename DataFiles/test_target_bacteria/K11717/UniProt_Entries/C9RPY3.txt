@@ -1,0 +1,87 @@
+ID   C9RPY3_FIBSS            Unreviewed;       407 AA.
+AC   C9RPY3;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+DE            EC=2.8.1.7 {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+GN   OrderedLocusNames=FSU_1510 {ECO:0000313|EMBL:ADL26083.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26083.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the removal of elemental sulfur and selenium atoms
+CC       from L-cysteine, L-cystine, L-selenocysteine, and L-selenocystine to
+CC       produce L-alanine. {ECO:0000256|RuleBase:RU004506}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001357,
+CC         ECO:0000256|RuleBase:RU004506};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU004504};
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. Csd subfamily. {ECO:0000256|ARBA:ARBA00010447,
+CC       ECO:0000256|RuleBase:RU004506}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26083.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545793.1; NC_017448.1.
+DR   AlphaFoldDB; C9RPY3; -.
+DR   STRING; 59374.FSU_1510; -.
+DR   KEGG; fsc:FSU_1510; -.
+DR   KEGG; fsu:Fisuc_1055; -.
+DR   PATRIC; fig|59374.8.peg.1454; -.
+DR   eggNOG; COG0520; Bacteria.
+DR   HOGENOM; CLU_003433_2_5_0; -.
+DR   OrthoDB; 9804366at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06453; SufS_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010970; Cys_dSase_SufS.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01979; sufS; 1.
+DR   PANTHER; PTHR43586; CYSTEINE DESULFURASE; 1.
+DR   PANTHER; PTHR43586:SF8; CYSTEINE DESULFURASE 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|RuleBase:RU004506};
+KW   Transferase {ECO:0000256|RuleBase:RU004506}.
+FT   DOMAIN          25..395
+FT                   /note="Aminotransferase class V"
+FT                   /evidence="ECO:0000259|Pfam:PF00266"
+SQ   SEQUENCE   407 AA;  44799 MW;  407BEFE0B7506ABB CRC64;
+     MNAEVLRNEF PMLVAGDKEA KPLAFLDSTA TTQKPASVID AMDDFYREHY SSVKRGVYRL
+     SARTTEAFEK TRKDVAKFIN AKSEDEIVFT RGTTESINLV AWSYGRKFFE AGDEILISGL
+     EHHANIVSWQ LVAEMKGAKI KVIPVRDDGD LDLSKLPELL TPRTKMVAVA HVSNSVGTVN
+     PIAEIIATTR KLAPQAKVLI DAAQSSSHIK IDVQKLDCDF LAFSGHKMYG PTGIGVLYGE
+     YDVLDSMPPW HGGGEMIKNV TFEKTTYADV PARFEAGTPA IAEVIGLGKA IEWLNNVGLD
+     NIRKHEEQIT QYALKQLAEI PQVKVLGNPK ERGALISITL DGIAVGDAAM ILDEENVAVR
+     SGHHCAQPVM DRFGVDATLR LSFGVYTLER DIDRFVAGIK RVVRLFA
+//

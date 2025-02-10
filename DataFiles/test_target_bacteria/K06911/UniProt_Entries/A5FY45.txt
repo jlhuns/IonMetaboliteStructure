@@ -1,0 +1,86 @@
+ID   A5FY45_ACICJ            Unreviewed;       235 AA.
+AC   A5FY45;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   SubName: Full=Pirin domain protein {ECO:0000313|EMBL:ABQ30527.1};
+GN   OrderedLocusNames=Acry_1316 {ECO:0000313|EMBL:ABQ30527.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ30527.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ30527.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ30527.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006232-1};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000256|PIRSR:PIRSR006232-1};
+CC   -!- SIMILARITY: Belongs to the pirin family.
+CC       {ECO:0000256|ARBA:ARBA00008416, ECO:0000256|RuleBase:RU003457}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30527.1; -; Genomic_DNA.
+DR   RefSeq; WP_011942156.1; NC_009484.1.
+DR   AlphaFoldDB; A5FY45; -.
+DR   STRING; 349163.Acry_1316; -.
+DR   KEGG; acr:Acry_1316; -.
+DR   eggNOG; COG1741; Bacteria.
+DR   HOGENOM; CLU_064194_2_2_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02910; cupin_Yhhw_N; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 2.
+DR   InterPro; IPR012093; Pirin.
+DR   InterPro; IPR003829; Pirin_N_dom.
+DR   InterPro; IPR041602; Quercetinase_C.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR43212; QUERCETIN 2,3-DIOXYGENASE; 1.
+DR   PANTHER; PTHR43212:SF3; QUERCETIN 2,3-DIOXYGENASE; 1.
+DR   Pfam; PF02678; Pirin; 1.
+DR   Pfam; PF17954; Pirin_C_2; 1.
+DR   PIRSF; PIRSF006232; Pirin; 1.
+DR   SUPFAM; SSF51182; RmlC-like cupins; 1.
+PE   3: Inferred from homology;
+KW   Iron {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          12..118
+FT                   /note="Pirin N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02678"
+FT   DOMAIN          152..233
+FT                   /note="Quercetin 2,3-dioxygenase C-terminal cupin"
+FT                   /evidence="ECO:0000259|Pfam:PF17954"
+FT   BINDING         57
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         59
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         101
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         103
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+SQ   SEQUENCE   235 AA;  25418 MW;  F381E7CA7A854051 CRC64;
+     MIDIRPFDSI GRFRNEWLNA HHHFSFGSYR DPARMGWGAL RVWNDDEVAP QTGFDPHPHR
+     DMEIVTFIRQ GAITHQDNLG NRGVTRAGDV QVMHAGTGIV HAEYNLEDEP TRLFQIWIMP
+     DRRGVEPGWA TRAFPRAAGS GLLVLAGGRA GDAEAGALPL HADAAVLTAR LAPGERVTHE
+     IAPGRAAYLV PATGAVTVNG RAAAARDGVA VSGERAIVIE AGTEETELVL VDVRE
+//

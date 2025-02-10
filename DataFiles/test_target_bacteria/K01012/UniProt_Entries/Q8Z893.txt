@@ -1,0 +1,162 @@
+ID   BIOB_SALTI              Reviewed;         346 AA.
+AC   Q8Z893; Q7C8R1;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 138.
+DE   RecName: Full=Biotin synthase {ECO:0000255|HAMAP-Rule:MF_01694};
+DE            EC=2.8.1.6 {ECO:0000255|HAMAP-Rule:MF_01694};
+GN   Name=bioB {ECO:0000255|HAMAP-Rule:MF_01694};
+GN   OrderedLocusNames=STY0827, t2093;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of dethiobiotin (DTB) to biotin by
+CC       the insertion of a sulfur atom into dethiobiotin via a radical-based
+CC       mechanism. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(4R,5S)-dethiobiotin + [sulfur carrier]-SH + 2 reduced [2Fe-
+CC         2S]-[ferredoxin] + 2 S-adenosyl-L-methionine = [sulfur carrier]-H +
+CC         biotin + 2 5'-deoxyadenosine + 2 L-methionine + 2 oxidized [2Fe-2S]-
+CC         [ferredoxin]; Xref=Rhea:RHEA:22060, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, Rhea:RHEA-COMP:14737, Rhea:RHEA-COMP:14739,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:29917, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57586, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:64428, ChEBI:CHEBI:149473; EC=2.8.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [2Fe-2S] cluster. The cluster is coordinated with 3
+CC       cysteines and 1 arginine. {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis; biotin from 7,8-
+CC       diaminononanoate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Biotin synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO69710.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD05242.1; -; Genomic_DNA.
+DR   RefSeq; NP_455336.1; NC_003198.1.
+DR   RefSeq; WP_000090724.1; NZ_WSUR01000021.1.
+DR   AlphaFoldDB; Q8Z893; -.
+DR   SMR; Q8Z893; -.
+DR   STRING; 220341.gene:17584832; -.
+DR   KEGG; stt:t2093; -.
+DR   KEGG; sty:STY0827; -.
+DR   PATRIC; fig|220341.7.peg.831; -.
+DR   eggNOG; COG0502; Bacteria.
+DR   HOGENOM; CLU_033172_1_2_6; -.
+DR   OMA; NICTTHT; -.
+DR   OrthoDB; 9786826at2; -.
+DR   UniPathway; UPA00078; UER00162.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004076; F:biotin synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 3.20.20.70:FF:000011; Biotin synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01694; BioB; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR010722; BATS_dom.
+DR   InterPro; IPR002684; Biotin_synth/BioAB.
+DR   InterPro; IPR024177; Biotin_synthase.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00433; bioB; 1.
+DR   PANTHER; PTHR22976; BIOTIN SYNTHASE; 1.
+DR   PANTHER; PTHR22976:SF2; BIOTIN SYNTHASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF06968; BATS; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF001619; Biotin_synth; 1.
+DR   SFLD; SFLDF00272; biotin_synthase; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SMART; SM00876; BATS; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; 4Fe-4S; Biotin biosynthesis; Iron; Iron-sulfur; Metal-binding;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..346
+FT                   /note="Biotin synthase"
+FT                   /id="PRO_0000381609"
+FT   DOMAIN          38..256
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   BINDING         53
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         57
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         60
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         97
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         128
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         188
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         260
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+SQ   SEQUENCE   346 AA;  38776 MW;  56C05B08B15317AA CRC64;
+     MARHPRWTLS QVTELFEKPL LELLFEAQQI HRQHFDPQQV QVSTLLSIKT GACPEDCKYC
+     PQSSRYKTGL EAERLMEVEQ VLDSARKAKN AGSTRFCMGA AWKNPHERDM PYLEKIVQGV
+     KAMGLETCMT LGMLNESQAQ RLANAGLDYY NHNLDTSPEF YGNIITTRTY QERLDTLEKV
+     REAGIKVCSG GIVGLGETVT DRAGLLLQLA NLPTPPESVP INMLVKVKGT PLADNDDVDA
+     FDFIRTIAVA RIMMPTSYVR LSAGREQMNE QTQAMCFMAG ANSIFYGCKL LTTPNPAEDK
+     DLQLFRKLGL NPQQTRVLAG DNEQQQRLEQ TLMTPDTDDY YNAAAL
+//

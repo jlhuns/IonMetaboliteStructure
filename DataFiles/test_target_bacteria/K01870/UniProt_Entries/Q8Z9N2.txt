@@ -1,0 +1,178 @@
+ID   SYI_SALTI               Reviewed;         944 AA.
+AC   Q8Z9N2; Q7CBY6;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 140.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            EC=6.1.1.5 {ECO:0000255|HAMAP-Rule:MF_02002};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02002};
+DE            Short=IleRS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   Name=ileS {ECO:0000255|HAMAP-Rule:MF_02002};
+GN   OrderedLocusNames=STY0055, t0048;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As IleRS
+CC       can inadvertently accommodate and process structurally similar amino
+CC       acids such as valine, to avoid such errors it has two additional
+CC       distinct tRNA(Ile)-dependent editing activities. One activity is
+CC       designated as 'pretransfer' editing and involves the hydrolysis of
+CC       activated Val-AMP. The other activity is designated 'posttransfer'
+CC       editing and involves deacylation of mischarged Val-tRNA(Ile).
+CC       {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Ile) + L-isoleucine + ATP = L-isoleucyl-tRNA(Ile) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:11060, Rhea:RHEA-COMP:9666, Rhea:RHEA-
+CC         COMP:9695, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58045,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78528, ChEBI:CHEBI:456215; EC=6.1.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02002};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_02002};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_02002};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for aminoacylation and
+CC       one for editing. The misactivated valine is translocated from the
+CC       active site to the editing site, which sterically excludes the
+CC       correctly activated isoleucine. The single editing site contains two
+CC       valyl binding pockets, one specific for each substrate (Val-AMP or Val-
+CC       tRNA(Ile)). {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       IleS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02002}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01201.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67781.1; -; Genomic_DNA.
+DR   RefSeq; NP_454657.1; NC_003198.1.
+DR   RefSeq; WP_010989105.1; NZ_WSUR01000014.1.
+DR   AlphaFoldDB; Q8Z9N2; -.
+DR   SMR; Q8Z9N2; -.
+DR   STRING; 220341.gene:17584103; -.
+DR   KEGG; stt:t0048; -.
+DR   KEGG; sty:STY0055; -.
+DR   PATRIC; fig|220341.7.peg.55; -.
+DR   eggNOG; COG0060; Bacteria.
+DR   HOGENOM; CLU_001493_7_1_6; -.
+DR   OMA; HCWRCKT; -.
+DR   OrthoDB; 9810365at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07960; Anticodon_Ia_Ile_BEm; 1.
+DR   CDD; cd00818; IleRS_core; 1.
+DR   FunFam; 1.10.730.20:FF:000001; Isoleucine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000042; Isoleucine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000048; Isoleucine--tRNA ligase; 1.
+DR   FunFam; 3.90.740.10:FF:000002; Isoleucine--tRNA ligase; 1.
+DR   Gene3D; 1.10.730.20; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   HAMAP; MF_02002; Ile_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR033708; Anticodon_Ile_BEm.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023585; Ile-tRNA-ligase_type1.
+DR   InterPro; IPR050081; Ile-tRNA_ligase.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   InterPro; IPR010663; Znf_FPG/IleRS.
+DR   NCBIfam; TIGR00392; ileS; 1.
+DR   PANTHER; PTHR42765:SF1; ISOLEUCINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR42765; SOLEUCYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF06827; zf-FPG_IleRS; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Zinc.
+FT   CHAIN           1..944
+FT                   /note="Isoleucine--tRNA ligase"
+FT                   /id="PRO_0000098457"
+FT   MOTIF           58..68
+FT                   /note="'HIGH' region"
+FT   MOTIF           604..608
+FT                   /note="'KMSKS' region"
+FT   BINDING         563
+FT                   /ligand="L-isoleucyl-5'-AMP"
+FT                   /ligand_id="ChEBI:CHEBI:178002"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         607
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         907
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         910
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         927
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+FT   BINDING         930
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02002"
+SQ   SEQUENCE   944 AA;  105624 MW;  F1AEF4F4B89E34B1 CRC64;
+     MSDYKSTLNL PETGFPMRGD LAKREPGMLA RWTDDDLYGI IRAAKKGKKT FILHDGPPYA
+     NGSIHIGHSV NKILKDIIVK SKGLSGFDSP YVPGWDCHGL PIELKVEQEF GKPGEKFTAA
+     EFRAKCREYA ATQVDGQRKD FIRLGVLGDW SHPYLTMDFK TEANIIRALG RIIKNGHLHK
+     GAKPVHWCVD CRSALAEAEV EYYDKTSPSI DVAFRAVDQD AVKAKFGLPG VSGPVSLVIW
+     TTTPWTLPAN RAISLAPDFD YALVQIDGQA VILAKDLVES VIQRIGAAEY TILGTVKGAE
+     LELLRFTHPF MGFDVPAILG DHVTLDAGTG AVHTAPGHGP DDYVIGQKYG LETANPVGPD
+     GAYLPGTYPT LDGVNVFKAN DIVIELLKEK GALLHVEKMQ HSYPCCWRHK TPIIFRATPQ
+     WFVSMDKEGL RQQSLKEIKG VQWIPDWGQA RIESMVANRP DWCISRQRTW GVPMSLFVHK
+     ETQELLPIER TLAAMEEVAK RVEVDGIQAW WDLDPKEILG EDADQYEKVP DTLDVWFDSG
+     STSYSVVDAR PEFAGHAADM YLEGSDQHRG WFMSSLMISV AMKGKAPYRQ VLTHGFTVDG
+     QGRKMSKSIG NTVSPQDVMN KLGADILRLW VASTDYTGEM AVSDEILKRA ADSYRRIRNT
+     ARFLLANLNG FNPATDMVKP EEMVVLDRWA VGCAKTAQQE ILKAYEAYDF HEVVQRLMRF
+     CSVEMGSFYL DIIKDRQYTA KADSVARRSC QTALYHIAEA LVRWMAPIMS FTADEIWGYL
+     PGEREKYVFT GEWYDGLFGL EENEEFNDAF WDDVRYIKDQ VNKELENQKA NGIKSNLEAK
+     VTLKYADDAN GTIKKLKLLG EEVRFIFITS QFVISEQAGG IDDENIQYNA GNTTVQAVVT
+     RAEGDKCPRC WHYTTDVGKV AEHADICGRC VSNIAGNGEQ RKFA
+//

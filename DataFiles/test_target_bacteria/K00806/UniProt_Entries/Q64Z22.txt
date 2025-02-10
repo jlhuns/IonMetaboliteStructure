@@ -1,0 +1,117 @@
+ID   Q64Z22_BACFR            Unreviewed;       244 AA.
+AC   Q64Z22;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 106.
+DE   RecName: Full=Isoprenyl transferase {ECO:0000256|HAMAP-Rule:MF_01139};
+DE            EC=2.5.1.- {ECO:0000256|HAMAP-Rule:MF_01139};
+GN   OrderedLocusNames=BF0505 {ECO:0000313|EMBL:BAD47254.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD47254.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD47254.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD47254.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)
+CC       with allylic pyrophosphates generating different type of terpenoids.
+CC       {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01139};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD47254.1; -; Genomic_DNA.
+DR   RefSeq; WP_005784372.1; NZ_UYXF01000019.1.
+DR   RefSeq; YP_097788.1; NC_006347.1.
+DR   AlphaFoldDB; Q64Z22; -.
+DR   SMR; Q64Z22; -.
+DR   STRING; 295405.BF0505; -.
+DR   GeneID; 66330447; -.
+DR   KEGG; bfr:BF0505; -.
+DR   PATRIC; fig|295405.11.peg.521; -.
+DR   HOGENOM; CLU_038505_1_1_10; -.
+DR   OrthoDB; 4191603at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0045547; F:dehydrodolichyl diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016094; P:polyprenol biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   FunFam; 3.40.1180.10:FF:000001; (2E,6E)-farnesyl-diphosphate-specific ditrans,polycis-undecaprenyl-diphosphate synthase; 1.
+DR   Gene3D; 3.40.1180.10; Decaprenyl diphosphate synthase-like; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   NCBIfam; TIGR00055; uppS; 1.
+DR   PANTHER; PTHR10291:SF0; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE 2; 1.
+DR   PANTHER; PTHR10291; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE FAMILY MEMBER; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; Undecaprenyl diphosphate synthase; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01139}.
+FT   ACT_SITE        21
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        69
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         21
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         22..25
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         26
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         34
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         38
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         66..68
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         70
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         72
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         193..195
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         206
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+SQ   SEQUENCE   244 AA;  28242 MW;  02F4A792F43F0190 CRC64;
+     MSYKEQIDLN RIPKHVAIIM DGNGRWAKLR GHERSFGHQA GAETVHIITE EAARLGIKFL
+     TLYTFSTENW NRPSDEVAAL MSLLFDSIEE ETFMKNNISF RIIGDINKLP ENVRERLNAC
+     VEHTSKNTGM CLILALSYSA RWEITEATRQ IATLVQNGEM NPEEITSESI RTHLTTNFMP
+     DPDLLIRTGG EVRLSNYLLW QCAYSELYFC ETFWPDFKEE ELCKAICDYQ KRERRFGKTS
+     EQIS
+//

@@ -1,0 +1,80 @@
+ID   E3PRI0_ACESD            Unreviewed;       290 AA.
+AC   E3PRI0;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 53.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   Name=sdaAA {ECO:0000313|EMBL:CBH21484.1};
+GN   OrderedLocusNames=CLOST_1364 {ECO:0000313|EMBL:CBH21484.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21484.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21484.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PRI0; -.
+DR   STRING; 1511.CLOST_1364; -.
+DR   KEGG; cst:CLOST_1364; -.
+DR   eggNOG; COG1760; Bacteria.
+DR   HOGENOM; CLU_022305_2_0_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR004642; Ser_deHydtase_asu.
+DR   NCBIfam; TIGR00718; sda_alpha; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041}.
+FT   DOMAIN          16..276
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   290 AA;  30216 MW;  30956F7764115C6A CRC64;
+     MKFNNGKELL DLCSKENLMI SDIMIKLEMN NYSKTEDEVF AQMHKSFIIM KNAVHKSLTE
+     DIKSMGGLIG GEAKKLIKQI ENNKNISGLT TSKAMAYAMG VLEVNASMGL IVAAPTAGSC
+     GIIPGVLTAI QEAHGFTDEQ MTKALFTAAG IGMVVTMNAT VAGAEGGCQA ETGSAAAMAS
+     AAVCELMGGT PKQCLDAAAI CIKNIMGLIC DPIAGLVEAP CQKRNAIGAT NSLISAEMTL
+     AGIDSIIPFD EVVESMYKVG RSMPVELRET ALGGVAATAT GCTLCSKIFN
+//

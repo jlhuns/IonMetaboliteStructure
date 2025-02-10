@@ -1,0 +1,136 @@
+ID   Q64V76_BACFR            Unreviewed;       498 AA.
+AC   Q64V76;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=Glucose-6-phosphate 1-dehydrogenase {ECO:0000256|HAMAP-Rule:MF_00966};
+DE            Short=G6PD {ECO:0000256|HAMAP-Rule:MF_00966};
+DE            EC=1.1.1.49 {ECO:0000256|HAMAP-Rule:MF_00966};
+GN   Name=zwf {ECO:0000256|HAMAP-Rule:MF_00966};
+GN   OrderedLocusNames=BF1854 {ECO:0000313|EMBL:BAD48602.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD48602.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD48602.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD48602.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Catalyzes the oxidation of glucose 6-phosphate to 6-
+CC       phosphogluconolactone. {ECO:0000256|HAMAP-Rule:MF_00966}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose 6-phosphate + NADP(+) = 6-phospho-D-glucono-1,5-
+CC         lactone + NADPH + H(+); Xref=Rhea:RHEA:15841, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:57955, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:61548; EC=1.1.1.49; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00966};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step
+CC       1/3. {ECO:0000256|ARBA:ARBA00004937, ECO:0000256|HAMAP-Rule:MF_00966}.
+CC   -!- SIMILARITY: Belongs to the glucose-6-phosphate dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00009975, ECO:0000256|HAMAP-Rule:MF_00966}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00966}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD48602.1; -; Genomic_DNA.
+DR   RefSeq; WP_005800449.1; NZ_UYXF01000005.1.
+DR   RefSeq; YP_099136.1; NC_006347.1.
+DR   AlphaFoldDB; Q64V76; -.
+DR   STRING; 295405.BF1854; -.
+DR   GeneID; 66329318; -.
+DR   KEGG; bfr:BF1854; -.
+DR   PATRIC; fig|295405.11.peg.1803; -.
+DR   HOGENOM; CLU_013524_5_0_10; -.
+DR   OrthoDB; 9802739at2; -.
+DR   UniPathway; UPA00115; UER00408.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004345; F:glucose-6-phosphate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009051; P:pentose-phosphate shunt, oxidative branch; IEA:TreeGrafter.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00966; G6PD; 1.
+DR   InterPro; IPR001282; G6P_DH.
+DR   InterPro; IPR019796; G6P_DH_AS.
+DR   InterPro; IPR022675; G6P_DH_C.
+DR   InterPro; IPR022674; G6P_DH_NAD-bd.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00871; zwf; 1.
+DR   PANTHER; PTHR23429:SF0; GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; 1.
+DR   PANTHER; PTHR23429; GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE G6PD; 1.
+DR   Pfam; PF02781; G6PD_C; 1.
+DR   Pfam; PF00479; G6PD_N; 1.
+DR   PIRSF; PIRSF000110; G6PD; 1.
+DR   PRINTS; PR00079; G6PDHDRGNASE.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00069; G6P_DEHYDROGENASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277, ECO:0000256|HAMAP-
+KW   Rule:MF_00966};
+KW   Glucose metabolism {ECO:0000256|ARBA:ARBA00022526, ECO:0000256|HAMAP-
+KW   Rule:MF_00966};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_00966};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00966}.
+FT   DOMAIN          8..186
+FT                   /note="Glucose-6-phosphate dehydrogenase NAD-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00479"
+FT   DOMAIN          188..482
+FT                   /note="Glucose-6-phosphate dehydrogenase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02781"
+FT   ACT_SITE        239
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         10..17
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         44
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         147
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         177
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         181
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         215
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         234
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         335
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+FT   BINDING         340
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00966"
+SQ   SEQUENCE   498 AA;  56852 MW;  91A2E06CD1636F99 CRC64;
+     MSKFVMTIFG ASGDLTKRKL MPALYSLYVA KRLPEEFEIL GVGRTVYEDA DYRTYIYNEM
+     EKFVKSEEQN KEKMDAFVGH LHYLAIDPAL ESGYGQLRLR IEELSGDSRP DDLLFYLATP
+     PSLYGVIPLH LKSVHLNKGR ARIIVEKPFG YDLESAEKLN KIYASVFDEH QIYRIDHFLG
+     KETAQNLLAF RFANGIFEPL WNRNYIDYVE VTAVENLGIE QRGGFYDTTG ALRDMVQNHL
+     IQLVALTAME PPAVFNADNF RNEVVKVYES LTPLTETDLS EHIVRGQYTA GGNKRGYREE
+     KNISPDSRTE TYIAMKLGIS NWRWSGVPFY IRTGKQMPTK VTEIVVHFRE TPHQMFHCAG
+     GNCPRANKLI LRLQPNEGIV LKFGMKVPGP GFEVKQVTMD FSYDQLGGVP GGDAYARLIE
+     DCILGDQTLF TRSDAVEASW HFFDPILRYW NEHPEAPLYG YPAGTWGPLE SEAMMHEHGA
+     EWTNPCKNLT NTDQYCEL
+//

@@ -1,0 +1,130 @@
+ID   F2R4Y1_STRVP            Unreviewed;       448 AA.
+AC   F2R4Y1;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 70.
+DE   RecName: Full=UDP-N-acetylglucosamine 1-carboxyvinyltransferase {ECO:0000256|HAMAP-Rule:MF_00111};
+DE            EC=2.5.1.7 {ECO:0000256|HAMAP-Rule:MF_00111};
+DE   AltName: Full=Enoylpyruvate transferase {ECO:0000256|HAMAP-Rule:MF_00111};
+DE   AltName: Full=UDP-N-acetylglucosamine enolpyruvyl transferase {ECO:0000256|HAMAP-Rule:MF_00111};
+DE            Short=EPT {ECO:0000256|HAMAP-Rule:MF_00111};
+GN   Name=murA {ECO:0000256|HAMAP-Rule:MF_00111};
+GN   OrderedLocusNames=SVEN_2716 {ECO:0000313|EMBL:CCA56002.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA56002.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA56002.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Cell wall formation. Adds enolpyruvyl to UDP-N-
+CC       acetylglucosamine. {ECO:0000256|ARBA:ARBA00037534, ECO:0000256|HAMAP-
+CC       Rule:MF_00111}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine = UDP-
+CC         N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine + phosphate;
+CC         Xref=Rhea:RHEA:18681, ChEBI:CHEBI:43474, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58702, ChEBI:CHEBI:68483; EC=2.5.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047527, ECO:0000256|HAMAP-
+CC         Rule:MF_00111};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00004752, ECO:0000256|HAMAP-Rule:MF_00111}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00111}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. MurA subfamily.
+CC       {ECO:0000256|ARBA:ARBA00038367, ECO:0000256|HAMAP-Rule:MF_00111}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00111}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA56002.1; -; Genomic_DNA.
+DR   RefSeq; WP_015033920.1; NZ_JABVZO010000279.1.
+DR   AlphaFoldDB; F2R4Y1; -.
+DR   STRING; 953739.SVEN_2716; -.
+DR   GeneID; 69864851; -.
+DR   KEGG; sve:SVEN_2716; -.
+DR   PATRIC; fig|953739.5.peg.4906; -.
+DR   eggNOG; COG0766; Bacteria.
+DR   HOGENOM; CLU_027387_0_0_11; -.
+DR   OrthoDB; 9803760at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008760; F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0019277; P:UDP-N-acetylgalactosamine biosynthetic process; IEA:InterPro.
+DR   CDD; cd01555; UdpNAET; 1.
+DR   Gene3D; 3.65.10.10; Enolpyruvate transferase domain; 2.
+DR   HAMAP; MF_00111; MurA; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR050068; MurA_subfamily.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR005750; UDP_GlcNAc_COvinyl_MurA.
+DR   NCBIfam; TIGR01072; murA; 1.
+DR   PANTHER; PTHR43783; UDP-N-ACETYLGLUCOSAMINE 1-CARBOXYVINYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43783:SF1; UDP-N-ACETYLGLUCOSAMINE 1-CARBOXYVINYLTRANSFERASE; 1.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   SUPFAM; SSF55205; EPT/RTPC-like; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00111};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00111};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_00111};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_00111};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00111};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_00111}; Pyruvate {ECO:0000256|HAMAP-Rule:MF_00111};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00111}.
+FT   DOMAIN          13..433
+FT                   /note="Enolpyruvate transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00275"
+FT   ACT_SITE        126
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+FT   BINDING         28..29
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+FT   BINDING         102
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+FT   BINDING         316
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+FT   BINDING         338
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+FT   MOD_RES         126
+FT                   /note="2-(S-cysteinyl)pyruvic acid O-phosphothioketal"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00111"
+SQ   SEQUENCE   448 AA;  48329 MW;  EE70B3B969647B39 CRC64;
+     MTGTDSHDVL LVHGGTPLEG EIRVRGAKNL VPKAMVAALL GSGPSRLRNV PDIRDVRVVR
+     GLLQLHGVTV RPGEEPGELV LDPTHVESAN VADIDAHAGS SRIPILFCGP LLHRLGHAFI
+     PGLGGCDIGG RPIDFHFDVL RQFGATIEKR ADGQYLEAPQ RLRGCKIRLP YPSVGSTEQV
+     LLTAVLAEGV TELSNAAVEP EIEDLICVLQ KMGAIISMDT DRTIRITGVD KLDGYTHRAL
+     PDRLEAASWA SAALATEGNI YVRGAQQRSM MTFLNTYRKV GGAFEIDDEG IRFWHPGGSL
+     NAIHLETDVH PGFQTDWQQP LVVALTQAAG LSIVHETVYE SRLGFTSALN QMGAHIQLYR
+     ECLGGSDCRF GQRNFLHSAV VSGPTKLQGA DLVIPDLRGG FSYLIAALAA QGTSRVHGIE
+     LINRGYENFM EKLVELGAKV ELPGSALV
+//

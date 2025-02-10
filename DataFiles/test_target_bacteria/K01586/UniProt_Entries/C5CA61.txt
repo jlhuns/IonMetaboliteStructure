@@ -1,0 +1,167 @@
+ID   C5CA61_MICLC            Unreviewed;       490 AA.
+AC   C5CA61;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=Diaminopimelate decarboxylase {ECO:0000256|HAMAP-Rule:MF_02120, ECO:0000256|NCBIfam:TIGR01048};
+DE            Short=DAP decarboxylase {ECO:0000256|HAMAP-Rule:MF_02120};
+DE            Short=DAPDC {ECO:0000256|HAMAP-Rule:MF_02120};
+DE            EC=4.1.1.20 {ECO:0000256|HAMAP-Rule:MF_02120, ECO:0000256|NCBIfam:TIGR01048};
+GN   Name=lysA {ECO:0000256|HAMAP-Rule:MF_02120,
+GN   ECO:0000313|EMBL:SQG49283.1};
+GN   OrderedLocusNames=Mlut_08010 {ECO:0000313|EMBL:ACS30330.1};
+GN   ORFNames=NCTC2665_01819 {ECO:0000313|EMBL:SQG49283.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30330.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30330.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30330.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49283.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49283.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically catalyzes the decarboxylation of meso-
+CC       diaminopimelate (meso-DAP) to L-lysine. {ECO:0000256|HAMAP-
+CC       Rule:MF_02120}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=meso-2,6-diaminoheptanedioate + H(+) = L-lysine + CO2;
+CC         Xref=Rhea:RHEA:15101, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:32551, ChEBI:CHEBI:57791; EC=4.1.1.20;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_02120,
+CC         ECO:0000256|RuleBase:RU003738};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933, ECO:0000256|HAMAP-
+CC         Rule:MF_02120, ECO:0000256|PIRSR:PIRSR600183-50,
+CC         ECO:0000256|RuleBase:RU003738};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; L-lysine from DL-2,6-diaminopimelate: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_02120, ECO:0000256|RuleBase:RU003738}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_02120}.
+CC   -!- SIMILARITY: Belongs to the Orn/Lys/Arg decarboxylase class-II family.
+CC       LysA subfamily. {ECO:0000256|HAMAP-Rule:MF_02120}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30330.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49283.1; -; Genomic_DNA.
+DR   RefSeq; WP_012750806.1; NZ_LS483396.1.
+DR   AlphaFoldDB; C5CA61; -.
+DR   STRING; 465515.Mlut_08010; -.
+DR   EnsemblBacteria; ACS30330; ACS30330; Mlut_08010.
+DR   KEGG; mlu:Mlut_08010; -.
+DR   PATRIC; fig|465515.4.peg.764; -.
+DR   eggNOG; COG0019; Bacteria.
+DR   HOGENOM; CLU_026444_0_1_11; -.
+DR   UniPathway; UPA00034; UER00027.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0008836; F:diaminopimelate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   CDD; cd06828; PLPDE_III_DapDC; 1.
+DR   FunFam; 3.20.20.10:FF:000003; Diaminopimelate decarboxylase; 1.
+DR   Gene3D; 3.20.20.10; Alanine racemase; 1.
+DR   Gene3D; 2.40.37.10; Lyase, Ornithine Decarboxylase, Chain A, domain 1; 1.
+DR   HAMAP; MF_02120; LysA; 1.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR002986; DAP_deCOOHase_LysA.
+DR   InterPro; IPR022643; De-COase2_C.
+DR   InterPro; IPR022644; De-COase2_N.
+DR   InterPro; IPR000183; Orn/DAP/Arg_de-COase.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   NCBIfam; TIGR01048; lysA; 1.
+DR   PANTHER; PTHR43727; DIAMINOPIMELATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43727:SF2; GROUP IV DECARBOXYLASE; 1.
+DR   Pfam; PF02784; Orn_Arg_deC_N; 1.
+DR   Pfam; PF00278; Orn_DAP_Arg_deC; 1.
+DR   PRINTS; PR01181; DAPDCRBXLASE.
+DR   PRINTS; PR01179; ODADCRBXLASE.
+DR   SUPFAM; SSF50621; Alanine racemase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51419; PLP-binding barrel; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_02120};
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_02120};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_02120};
+KW   Lysine biosynthesis {ECO:0000256|ARBA:ARBA00023154, ECO:0000256|HAMAP-
+KW   Rule:MF_02120};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898, ECO:0000256|HAMAP-
+KW   Rule:MF_02120}; Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          87..340
+FT                   /note="Orn/DAP/Arg decarboxylase 2 N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02784"
+FT   DOMAIN          342..441
+FT                   /note="Orn/DAP/Arg decarboxylase 2 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00278"
+FT   ACT_SITE        413
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600183-50"
+FT   BINDING         292
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         334..337
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         337
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         382
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         386
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         414
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         443
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   BINDING         443
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120"
+FT   MOD_RES         98
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02120,
+FT                   ECO:0000256|PIRSR:PIRSR600183-50"
+SQ   SEQUENCE   490 AA;  50838 MW;  A2361D76A08427A0 CRC64;
+     MTTTQPAPAS PLAPAWLPAP GDPDALVPGL WAAGVGRAAD GELTVQGLRA SALAAEFGTP
+     LLVVDEDDFR ARARAFREGF DAAFADLCGG ADVYYAGKSM LTLSTARWAA EEGLRVDTAS
+     GGELAIALAA GVYPAHIGLH GNNKSDAELR TALEAGVGRI IVDSLDELTH LAALAAEAGH
+     RAPVMLRLTP GVHAHTHDFI ATAHEDQKFG LSLAPASTDR DGNVAGRSPA AVAVDTALAT
+     ESIDLLGVHC HIGSQIFEAE GFGLAAGRVL EFLAEVKAEH GVELAELDLG GGHGIAYTAV
+     DEPRPAAEIA DALADDVQKT VERLGLRCPR VSLEPGRAIS GPAGLTLYTV GVTKTVDADA
+     PDGGTAARRY VAVDGGMSDN PRPVLYDADY TAVSARRTSE AEPALSRVVG KHCESGDILV
+     RDVYLPADLG RGDLLAVPAT GAYTHVMSSN YNALARPAVV AVSGGLARVI IRRETQEDLF
+     AREADPRLAR
+//

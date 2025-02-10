@@ -1,0 +1,89 @@
+ID   A0A0H4VDK3_9SPHN        Unreviewed;        85 AA.
+AC   A0A0H4VDK3;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 36.
+DE   RecName: Full=ATP synthase epsilon chain {ECO:0000256|HAMAP-Rule:MF_00530};
+DE   AltName: Full=ATP synthase F1 sector epsilon subunit {ECO:0000256|HAMAP-Rule:MF_00530};
+DE   AltName: Full=F-ATPase epsilon subunit {ECO:0000256|HAMAP-Rule:MF_00530};
+GN   Name=atpC {ECO:0000256|HAMAP-Rule:MF_00530};
+GN   ORFNames=CP97_10865 {ECO:0000313|EMBL:AKQ42420.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42420.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42420.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. {ECO:0000256|ARBA:ARBA00003543, ECO:0000256|HAMAP-
+CC       Rule:MF_00530}.
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main
+CC       subunits: a, b and c. {ECO:0000256|HAMAP-Rule:MF_00530,
+CC       ECO:0000256|RuleBase:RU003656}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_00530};
+CC       Peripheral membrane protein {ECO:0000256|HAMAP-Rule:MF_00530}.
+CC       Endomembrane system {ECO:0000256|ARBA:ARBA00004184}; Peripheral
+CC       membrane protein {ECO:0000256|ARBA:ARBA00004184}.
+CC   -!- SIMILARITY: Belongs to the ATPase epsilon chain family.
+CC       {ECO:0000256|ARBA:ARBA00005712, ECO:0000256|HAMAP-Rule:MF_00530,
+CC       ECO:0000256|RuleBase:RU003656}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42420.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885954.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VDK3; -.
+DR   STRING; 1648404.CP97_10865; -.
+DR   KEGG; ery:CP97_10865; -.
+DR   PATRIC; fig|1648404.4.peg.2259; -.
+DR   OrthoDB; 9799969at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0012505; C:endomembrane system; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   CDD; cd12152; F1-ATPase_delta; 1.
+DR   Gene3D; 2.60.15.10; F0F1 ATP synthase delta/epsilon subunit, N-terminal; 1.
+DR   HAMAP; MF_00530; ATP_synth_epsil_bac; 1.
+DR   InterPro; IPR001469; ATP_synth_F1_dsu/esu.
+DR   InterPro; IPR020546; ATP_synth_F1_dsu/esu_N.
+DR   InterPro; IPR036771; ATPsynth_dsu/esu_N.
+DR   NCBIfam; TIGR01216; ATP_synt_epsi; 1.
+DR   PANTHER; PTHR13822; ATP SYNTHASE DELTA/EPSILON CHAIN; 1.
+DR   PANTHER; PTHR13822:SF10; ATP SYNTHASE EPSILON CHAIN, CHLOROPLASTIC; 1.
+DR   Pfam; PF02823; ATP-synt_DE_N; 1.
+DR   SUPFAM; SSF51344; Epsilon subunit of F1F0-ATP synthase N-terminal domain; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|ARBA:ARBA00023310, ECO:0000256|HAMAP-
+KW   Rule:MF_00530}; Cell membrane {ECO:0000256|HAMAP-Rule:MF_00530};
+KW   CF(1) {ECO:0000256|ARBA:ARBA00023196, ECO:0000256|HAMAP-Rule:MF_00530};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00530};
+KW   Ion transport {ECO:0000256|ARBA:ARBA00023065, ECO:0000256|HAMAP-
+KW   Rule:MF_00530};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00530};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|HAMAP-Rule:MF_00530}.
+FT   DOMAIN          3..82
+FT                   /note="ATP synthase F1 complex delta/epsilon subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02823"
+SQ   SEQUENCE   85 AA;  9032 MW;  21B735372B61327E CRC64;
+     MALHFELVTP SSLVRSEDVH MVVVPGSEGE FGVLEGHAPF MSTIRDGAVQ VWKTEGAEPE
+     SIEVRGGFAE VGENGLTVLA EHVDG
+//

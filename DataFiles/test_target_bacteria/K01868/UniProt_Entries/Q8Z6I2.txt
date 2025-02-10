@@ -1,0 +1,164 @@
+ID   SYT_SALTI               Reviewed;         642 AA.
+AC   Q8Z6I2;
+DT   30-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 144.
+DE   RecName: Full=Threonine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            EC=6.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00184};
+DE   AltName: Full=Threonyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            Short=ThrRS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   Name=thrS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   OrderedLocusNames=STY1778, t1213;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of threonine to tRNA(Thr) in a two-
+CC       step reaction: L-threonine is first activated by ATP to form Thr-AMP
+CC       and then transferred to the acceptor end of tRNA(Thr). Also edits
+CC       incorrectly charged L-seryl-tRNA(Thr). {ECO:0000255|HAMAP-
+CC       Rule:MF_00184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Thr) + L-threonine + ATP = L-threonyl-tRNA(Thr) + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:24624, Rhea:RHEA-COMP:9670,
+CC         Rhea:RHEA-COMP:9704, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78534, ChEBI:CHEBI:456215; EC=6.1.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00184};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02020.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68868.1; -; Genomic_DNA.
+DR   RefSeq; NP_456179.1; NC_003198.1.
+DR   RefSeq; WP_001144226.1; NZ_WSUR01000011.1.
+DR   AlphaFoldDB; Q8Z6I2; -.
+DR   SMR; Q8Z6I2; -.
+DR   STRING; 220341.gene:17585712; -.
+DR   KEGG; stt:t1213; -.
+DR   KEGG; sty:STY1778; -.
+DR   PATRIC; fig|220341.7.peg.1789; -.
+DR   eggNOG; COG0441; Bacteria.
+DR   HOGENOM; CLU_008554_0_1_6; -.
+DR   OMA; WYADGMY; -.
+DR   OrthoDB; 9802304at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004829; F:threonine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006435; P:threonyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd01667; TGS_ThrRS; 1.
+DR   CDD; cd00860; ThrRS_anticodon; 1.
+DR   CDD; cd00771; ThrRS_core; 1.
+DR   FunFam; 3.10.20.30:FF:000005; Threonine--tRNA ligase; 1.
+DR   FunFam; 3.30.54.20:FF:000002; Threonine--tRNA ligase; 1.
+DR   FunFam; 3.30.930.10:FF:000002; Threonine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.800:FF:000001; Threonine--tRNA ligase; 1.
+DR   FunFam; 3.30.980.10:FF:000005; Threonyl-tRNA synthetase, mitochondrial; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.54.20; -; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.980.10; Threonyl-trna Synthetase, Chain A, domain 2; 1.
+DR   HAMAP; MF_00184; Thr_tRNA_synth; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR002320; Thr-tRNA-ligase_IIa.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR047246; ThrRS_anticodon.
+DR   InterPro; IPR033728; ThrRS_core.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   NCBIfam; TIGR00418; thrS; 1.
+DR   PANTHER; PTHR11451:SF44; THREONINE--TRNA LIGASE, CHLOROPLASTIC_MITOCHONDRIAL 2; 1.
+DR   PANTHER; PTHR11451; THREONINE-TRNA LIGASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   Pfam; PF07973; tRNA_SAD; 1.
+DR   PRINTS; PR01047; TRNASYNTHTHR.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   SUPFAM; SSF55186; ThrRS/AlaRS common domain; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding; tRNA-binding; Zinc.
+FT   CHAIN           1..642
+FT                   /note="Threonine--tRNA ligase"
+FT                   /id="PRO_0000101042"
+FT   DOMAIN          1..61
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01228"
+FT   REGION          243..534
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         334
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         385
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         511
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+SQ   SEQUENCE   642 AA;  73994 MW;  F668CF12D25F7D4B CRC64;
+     MPVITLPDGS QRHYDHPVSP MDVALDIGPG LAKATIAGRV NGELVDASDL IENDATLSII
+     TAKDEEGLEI IRHSCAHLLG HAIKQLWPHT KMAIGPVVDN GFYYDVDLDR TLTQEDVEAL
+     EKRMHELAEK NYDVIKKKVS WHEARETFVK RGESYKVSIL DENIAHDDKP GLYHHEEYVD
+     MCRGPHVPNM RFCHHFKLMK TAGAYWRGDS NNKMLQRIYG TAWADKKALN AYLQRLEEAA
+     KRDHRKIGKQ LDLYHMQEEA PGMVFWHNDG WTIFRELEVF VRSKLKEYQY QEVKGPFMMD
+     RVLWEKTGHW DNYKDAMFTT SSENREYCIK PMNCPGHVQI FNQGLKSYRD LPLRMAEFGS
+     CHRNEPSGAL HGLMRVRGFT QDDAHIFCTE EQIRDEVNAC IRMVYDMYST FGFEKIVVKL
+     STRPDKRIGS DEMWDRAEAD LAVALEENNI PFEYQLGEGA FYGPKIEFTL YDCLDRAWQC
+     GTVQLDFSLP SRLSASYVGE DNERKVPVMI HRAILGSMER FIGILTEEFA GFFPTWLAPV
+     QVVVMNITDS QSEYVNELTQ KLQNAGIRVK ADLRNEKIGF KIREHTLRRV PYMLVCGDKE
+     VEAGKVAVRT RRGKDLGSLD VNDVIEKLQQ EIRSRSLQQL EE
+//

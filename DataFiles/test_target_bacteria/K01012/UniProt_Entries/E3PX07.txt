@@ -1,0 +1,119 @@
+ID   E3PX07_ACESD            Unreviewed;       348 AA.
+AC   E3PX07;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   SubName: Full=Iron-only hydrogenase maturation protein {ECO:0000313|EMBL:CBH20972.1};
+GN   Name=hydE {ECO:0000313|EMBL:CBH20972.1};
+GN   OrderedLocusNames=CLOST_0847 {ECO:0000313|EMBL:CBH20972.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20972.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|ARBA:ARBA00034078};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004762-1};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|PIRSR:PIRSR004762-1};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20972.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PX07; -.
+DR   STRING; 1511.CLOST_0847; -.
+DR   KEGG; cst:CLOST_0847; -.
+DR   eggNOG; COG0502; Bacteria.
+DR   HOGENOM; CLU_033172_0_1_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016740; F:transferase activity; IEA:TreeGrafter.
+DR   GO; GO:0044272; P:sulfur compound biosynthetic process; IEA:UniProtKB-ARBA.
+DR   GO; GO:0042364; P:water-soluble vitamin biosynthetic process; IEA:UniProtKB-ARBA.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR010722; BATS_dom.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR024021; FeFe-hyd_HydE_rSAM.
+DR   InterPro; IPR034422; HydE/PylB-like.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR03956; rSAM_HydE; 1.
+DR   PANTHER; PTHR43726; 3-METHYLORNITHINE SYNTHASE; 1.
+DR   PANTHER; PTHR43726:SF1; BIOTIN SYNTHASE; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF004762; CHP00423; 1.
+DR   SFLD; SFLDG01082; B12-binding_domain_containing; 1.
+DR   SFLD; SFLDG01060; BATS_domain_containing; 1.
+DR   SFLD; SFLDF00348; FeFe_hydrogenase_maturase_(Hyd; 1.
+DR   SMART; SM00876; BATS; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   4: Predicted;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|PIRSR:PIRSR004762-1};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRSR:PIRSR004762-1};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|PIRSR:PIRSR004762-
+KW   1}; Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRSR:PIRSR004762-1}.
+FT   DOMAIN          48..285
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   BINDING         62
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-1"
+FT   BINDING         66
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-1"
+FT   BINDING         69
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-1"
+FT   BINDING         137
+FT                   /ligand="(3R)-3-methyl-D-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:64642"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-2"
+FT   BINDING         162
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-2"
+FT   BINDING         181
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-2"
+FT   BINDING         271
+FT                   /ligand="(3R)-3-methyl-D-ornithine"
+FT                   /ligand_id="ChEBI:CHEBI:64642"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004762-2"
+SQ   SEQUENCE   348 AA;  40115 MW;  8921B54F7D3F877C CRC64;
+     MRDLINELYQ EQTLSKANLI NLLLHINDEE REYLYEKAYS VRYEHYKNSV YVRGLIEFSN
+     YCKNDCTYCG ISIHNKELTR YHMTPEEVIK TAEIGYSLGF RTFVMQGGED TSFTDDKFAA
+     IISSIKTQFP EAAVTLSIGE RSKESYQKLY DAGADRFLIR HETINKNLYE KLHPKMSYEN
+     RIKSLFDLKD IGFQVGTGFM VGVPGQEIED IADDLLFIKE LNPHMIGIGP FIPHKNTPLR
+     DESAGSAELT YTLIAILRLM LPTSLIPSTT SLATLKSENR YKGFRVGANV VMPNLTPYDY
+     KKSYQLYDGK KITDTESYEA LEQLKKECLD AGFYIDMARG DYKNWRRK
+//

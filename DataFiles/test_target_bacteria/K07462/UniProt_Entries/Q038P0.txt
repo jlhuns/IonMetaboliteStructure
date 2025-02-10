@@ -1,0 +1,98 @@
+ID   Q038P0_LACP3            Unreviewed;       764 AA.
+AC   Q038P0;
+DT   14-NOV-2006, integrated into UniProtKB/TrEMBL.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Single-stranded-DNA-specific exonuclease RecJ {ECO:0000256|ARBA:ARBA00019841};
+GN   OrderedLocusNames=LSEI_1558 {ECO:0000313|EMBL:ABJ70332.1};
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967 {ECO:0000313|EMBL:ABJ70332.1, ECO:0000313|Proteomes:UP000001651};
+RN   [1] {ECO:0000313|EMBL:ABJ70332.1, ECO:0000313|Proteomes:UP000001651}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441 {ECO:0000313|Proteomes:UP000001651};
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K., Slesarev A., Wolf Y., Sorokin A., Mirkin B., Koonin E.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M., Klaenhammer T., Richardson P.,
+RA   Kozyavkin S., Weimer B., Mills D.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- SIMILARITY: Belongs to the RecJ family.
+CC       {ECO:0000256|ARBA:ARBA00005915}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70332.1; -; Genomic_DNA.
+DR   RefSeq; WP_003660783.1; NC_008526.1.
+DR   RefSeq; YP_806774.1; NC_008526.1.
+DR   AlphaFoldDB; Q038P0; -.
+DR   STRING; 321967.LSEI_1558; -.
+DR   PaxDb; 321967-LSEI_1558; -.
+DR   KEGG; lca:LSEI_1558; -.
+DR   PATRIC; fig|321967.11.peg.1539; -.
+DR   HOGENOM; CLU_009736_3_3_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0008409; F:5'-3' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:InterPro.
+DR   GO; GO:0006281; P:DNA repair; IEA:InterPro.
+DR   Gene3D; 2.40.50.460; -; 1.
+DR   Gene3D; 3.90.1640.30; -; 1.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR038763; DHH_sf.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   InterPro; IPR004610; RecJ.
+DR   InterPro; IPR018779; RecJ_C.
+DR   InterPro; IPR041122; RecJ_OB.
+DR   InterPro; IPR051673; SSDNA_exonuclease_RecJ.
+DR   NCBIfam; TIGR00644; recJ; 1.
+DR   PANTHER; PTHR30255; SINGLE-STRANDED-DNA-SPECIFIC EXONUCLEASE RECJ; 1.
+DR   PANTHER; PTHR30255:SF2; SINGLE-STRANDED-DNA-SPECIFIC EXONUCLEASE RECJ; 1.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+DR   Pfam; PF17768; RecJ_OB; 1.
+DR   Pfam; PF10141; ssDNA-exonuc_C; 1.
+DR   SUPFAM; SSF64182; DHH phosphoesterases; 1.
+PE   3: Inferred from homology;
+KW   Exonuclease {ECO:0000256|ARBA:ARBA00022839, ECO:0000313|EMBL:ABJ70332.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ABJ70332.1};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001651}.
+FT   DOMAIN          81..225
+FT                   /note="DDH"
+FT                   /evidence="ECO:0000259|Pfam:PF01368"
+FT   DOMAIN          315..436
+FT                   /note="DHHA1"
+FT                   /evidence="ECO:0000259|Pfam:PF02272"
+FT   DOMAIN          455..555
+FT                   /note="RecJ OB"
+FT                   /evidence="ECO:0000259|Pfam:PF17768"
+FT   DOMAIN          562..750
+FT                   /note="Single-stranded-DNA-specific exonuclease RecJ C-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF10141"
+SQ   SEQUENCE   764 AA;  82439 MW;  481AE1FDC8936787 CRC64;
+     MTQYQWQLAP QPAAADEHAL SETLNVPPFL ATLLLQRGIN DQADYDAFVH PDTSRLHDPF
+     ALHDMDKAVA RILKAIEQNE KITIYGDYDV DGLTSSAIML ETLQSLGADP DVFIPDRFTD
+     GYGPNAEVYA YLQKTGTQLV ITVDNGVAGA AVIDPAQAAG MDVVVTDHHE LPAKLPHAVA
+     VVHPRHPDGD YPFGDLSGAG VAFKVATALL GEPPLESVDL AALGTIADLV SLTDENRVIA
+     QLGLKMIQTQ PRVGLAAILK EAGVAPETVN ETTVGFVIGP RLNALGRMGD ANPGVTLLTT
+     FEDDVAAELA EQVGKLNQER QGLVAKIAQE ALTMAQAPEN QAAKTLLLAS KGWHEGVVGI
+     VASKVVEATG KPTLIMNIAD DGETAKGSGR SIEAYHLFKA LEPAKEHMVH FGGHHMAVGL
+     TAKTTDLPAI HAQMEAAAAT MLKTVPKPTL PITTRLEDAD LTLDHYQLIR QLAPFGQGNP
+     EPVFSVRPQV IQNVKQIGKE NNHLRFQIDQ GINVIGFGYG DAAETLATAQ AVKLAVQLDQ
+     NTWQGHTSLQ LMLKDYEVKQ PQVIDWRMPT IDGGQFKASR TYVFFDAKVK QQFERQFSFG
+     GPTTIAAQVQ APLANAVLVD LPKDAAALHQ VMQYVQPPVA VMFYGAPSRL VAIPTRAEFG
+     AVLRFLKAHP GFDKHHIPAI AKAVHLTVHQ VILAVQVFFE LDFVTIEGAF ISPVTAPAKK
+     PLQTAKAYAA RTAFLDLAQQ LQTMPRAQLE TMLLTEHSDS EVES
+//

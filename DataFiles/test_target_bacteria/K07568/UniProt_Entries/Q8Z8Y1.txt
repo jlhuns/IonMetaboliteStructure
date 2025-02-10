@@ -1,0 +1,107 @@
+ID   QUEA_SALTI              Reviewed;         354 AA.
+AC   Q8Z8Y1;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 118.
+DE   RecName: Full=S-adenosylmethionine:tRNA ribosyltransferase-isomerase {ECO:0000255|HAMAP-Rule:MF_00113};
+DE            EC=2.4.99.17 {ECO:0000255|HAMAP-Rule:MF_00113};
+DE   AltName: Full=Queuosine biosynthesis protein QueA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   Name=queA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   OrderedLocusNames=STY0442, t2459;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Transfers and isomerizes the ribose moiety from AdoMet to the
+CC       7-aminomethyl group of 7-deazaguanine (preQ1-tRNA) to give
+CC       epoxyqueuosine (oQ-tRNA). {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanosine(34) in tRNA + S-adenosyl-L-
+CC         methionine = epoxyqueuosine(34) in tRNA + adenine + L-methionine + 2
+CC         H(+); Xref=Rhea:RHEA:32155, Rhea:RHEA-COMP:10342, Rhea:RHEA-
+CC         COMP:18582, ChEBI:CHEBI:15378, ChEBI:CHEBI:16708, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:82833, ChEBI:CHEBI:194443;
+CC         EC=2.4.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00113};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SIMILARITY: Belongs to the QueA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08860.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70049.1; -; Genomic_DNA.
+DR   RefSeq; NP_454999.1; NC_003198.1.
+DR   RefSeq; WP_001266528.1; NZ_WSUR01000026.1.
+DR   AlphaFoldDB; Q8Z8Y1; -.
+DR   SMR; Q8Z8Y1; -.
+DR   STRING; 220341.gene:17584465; -.
+DR   KEGG; stt:t2459; -.
+DR   KEGG; sty:STY0442; -.
+DR   PATRIC; fig|220341.7.peg.440; -.
+DR   eggNOG; COG0809; Bacteria.
+DR   HOGENOM; CLU_039110_1_0_6; -.
+DR   OMA; YSYGDGM; -.
+DR   OrthoDB; 9805933at2; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051075; F:S-adenosylmethionine:tRNA ribosyltransferase-isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002099; P:tRNA wobble guanine modification; IEA:TreeGrafter.
+DR   FunFam; 2.40.10.240:FF:000001; S-adenosylmethionine:tRNA ribosyltransferase-isomerase; 1.
+DR   FunFam; 3.40.1780.10:FF:000001; S-adenosylmethionine:tRNA ribosyltransferase-isomerase; 1.
+DR   Gene3D; 2.40.10.240; QueA-like; 1.
+DR   Gene3D; 3.40.1780.10; QueA-like; 1.
+DR   HAMAP; MF_00113; QueA; 1.
+DR   InterPro; IPR003699; QueA.
+DR   InterPro; IPR042118; QueA_dom1.
+DR   InterPro; IPR042119; QueA_dom2.
+DR   InterPro; IPR036100; QueA_sf.
+DR   NCBIfam; TIGR00113; queA; 1.
+DR   PANTHER; PTHR30307; S-ADENOSYLMETHIONINE:TRNA RIBOSYLTRANSFERASE-ISOMERASE; 1.
+DR   PANTHER; PTHR30307:SF0; S-ADENOSYLMETHIONINE:TRNA RIBOSYLTRANSFERASE-ISOMERASE; 1.
+DR   Pfam; PF02547; Queuosine_synth; 1.
+DR   SUPFAM; SSF111337; QueA-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Queuosine biosynthesis; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..354
+FT                   /note="S-adenosylmethionine:tRNA ribosyltransferase-
+FT                   isomerase"
+FT                   /id="PRO_0000165434"
+SQ   SEQUENCE   354 AA;  39196 MW;  70F25E90F135E959 CRC64;
+     MRVTDFSFEL PESLIAHYPQ PERSRCRLLS LEGPTGALTH GTFTDLLDKL NPGDLLVFNN
+     TRVIPARLFG RKASGGKIEV LVERMLDDKR ILAHIRASKA PKPGTELLLG DDESIHATMT
+     ARHGALFEVE FNDPRPVLDI LNAIGHMPLP PYIDRPDEDA DRELYQTVYS EKPGAVAAPT
+     AGLHFDEPLL AALREKGVEM AFVTLHVGAG TFQPVRVDTI EDHIMHSEYA EVPQEVVDAV
+     LAAKARGNRV IAVGTTSVRS LESAAQAAKS DLIEPFFGDT QIFIYPGYQY KVIDALITNF
+     HLPESTLIML VSAFAGYQHT MNAYKTAVEQ KYRFFSYGDA MFITCNPQAI SERP
+//

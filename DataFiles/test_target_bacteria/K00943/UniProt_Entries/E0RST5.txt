@@ -1,0 +1,89 @@
+ID   E0RST5_SPITD            Unreviewed;       242 AA.
+AC   E0RST5;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=Thymidylate kinase {ECO:0000256|HAMAP-Rule:MF_00165};
+DE            EC=2.7.4.9 {ECO:0000256|HAMAP-Rule:MF_00165};
+DE   AltName: Full=dTMP kinase {ECO:0000256|HAMAP-Rule:MF_00165};
+GN   Name=tmk {ECO:0000256|HAMAP-Rule:MF_00165};
+GN   OrderedLocusNames=STHERM_c11260 {ECO:0000313|EMBL:ADN02071.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02071.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02071.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Phosphorylation of dTMP to form dTDP in both de novo and
+CC       salvage pathways of dTTP synthesis. {ECO:0000256|HAMAP-Rule:MF_00165}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTMP + ATP = dTDP + ADP; Xref=Rhea:RHEA:13517,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58369, ChEBI:CHEBI:63528,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048743, ECO:0000256|HAMAP-
+CC         Rule:MF_00165};
+CC   -!- SIMILARITY: Belongs to the thymidylate kinase family.
+CC       {ECO:0000256|ARBA:ARBA00009776, ECO:0000256|HAMAP-Rule:MF_00165}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00165}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02071.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E0RST5; -.
+DR   PaxDb; 665571-STHERM_c11260; -.
+DR   KEGG; sta:STHERM_c11260; -.
+DR   eggNOG; COG0125; Bacteria.
+DR   HOGENOM; CLU_049131_1_3_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004798; F:thymidylate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006233; P:dTDP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006235; P:dTTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006227; P:dUDP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd01672; TMPK; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00165; Thymidylate_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039430; Thymidylate_kin-like_dom.
+DR   InterPro; IPR018095; Thymidylate_kin_CS.
+DR   InterPro; IPR018094; Thymidylate_kinase.
+DR   NCBIfam; TIGR00041; DTMP_kinase; 1.
+DR   PANTHER; PTHR10344; THYMIDYLATE KINASE; 1.
+DR   PANTHER; PTHR10344:SF4; UMP-CMP KINASE 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF02223; Thymidylate_kin; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS01331; THYMIDYLATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00165};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00165};
+KW   Nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022727, ECO:0000256|HAMAP-
+KW   Rule:MF_00165}; Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00165};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00165, ECO:0000313|EMBL:ADN02071.1}.
+FT   DOMAIN          46..232
+FT                   /note="Thymidylate kinase-like"
+FT                   /evidence="ECO:0000259|Pfam:PF02223"
+SQ   SEQUENCE   242 AA;  27440 MW;  F92F0422405366F7 CRC64;
+     MRAVASSCPL YHSGKLRFAC LSYKFYHMSS RKKSSGRTIL SRFVVFEGID GAGTTTQLGK
+     VASSLKGRGH TLWETREPTD GPVGTFIREC LASGLSFPAS VYAYLFAADR DLHVFGEDGV
+     MVRVGRGEIV LCDRYLHSSL AYQSDSAHTR ELVEDLNRRF PLPEVVIYLD TPVEECLRRL
+     SSRPRKDLFE QREVLMNVAS RYREVLRTYE AEGGKVLYVD GTQPPDLIFR EILKFLERTL
+     DI
+//

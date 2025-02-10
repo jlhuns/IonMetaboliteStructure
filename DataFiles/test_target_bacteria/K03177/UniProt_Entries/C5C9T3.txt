@@ -1,0 +1,105 @@
+ID   C5C9T3_MICLC            Unreviewed;       298 AA.
+AC   C5C9T3;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 94.
+DE   RecName: Full=tRNA pseudouridine synthase B {ECO:0000256|HAMAP-Rule:MF_01080};
+DE            EC=5.4.99.25 {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridine(55) synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE            Short=Psi55 synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridylate synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA-uridine isomerase {ECO:0000256|HAMAP-Rule:MF_01080};
+GN   Name=truB {ECO:0000256|HAMAP-Rule:MF_01080};
+GN   OrderedLocusNames=Mlut_07030 {ECO:0000313|EMBL:ACS30235.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30235.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- FUNCTION: Responsible for synthesis of pseudouridine from uracil-55 in
+CC       the psi GC loop of transfer RNAs. {ECO:0000256|HAMAP-Rule:MF_01080}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(55) in tRNA = pseudouridine(55) in tRNA;
+CC         Xref=Rhea:RHEA:42532, Rhea:RHEA-COMP:10101, Rhea:RHEA-COMP:10102,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315; EC=5.4.99.25;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000385, ECO:0000256|HAMAP-
+CC         Rule:MF_01080};
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase TruB family. Type 1
+CC       subfamily. {ECO:0000256|ARBA:ARBA00005642, ECO:0000256|HAMAP-
+CC       Rule:MF_01080}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30235.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079128.1; NZ_LS483396.1.
+DR   AlphaFoldDB; C5C9T3; -.
+DR   STRING; 465515.Mlut_07030; -.
+DR   EnsemblBacteria; ACS30235; ACS30235; Mlut_07030.
+DR   KEGG; mlu:Mlut_07030; -.
+DR   PATRIC; fig|465515.4.peg.666; -.
+DR   eggNOG; COG0130; Bacteria.
+DR   HOGENOM; CLU_032087_0_0_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0160148; F:tRNA pseudouridine(55) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:1990481; P:mRNA pseudouridine synthesis; IEA:TreeGrafter.
+DR   GO; GO:0031119; P:tRNA pseudouridine synthesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd02573; PseudoU_synth_EcTruB; 1.
+DR   FunFam; 3.30.2350.10:FF:000011; tRNA pseudouridine synthase B; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   Gene3D; 2.30.130.10; PUA domain; 1.
+DR   HAMAP; MF_01080; TruB_bact; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR002501; PsdUridine_synth_N.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   InterPro; IPR015225; tRNA_psdUridine_synth_fam2_C.
+DR   InterPro; IPR014780; tRNA_psdUridine_synth_TruB.
+DR   InterPro; IPR032819; TruB_C.
+DR   NCBIfam; TIGR00431; TruB; 1.
+DR   PANTHER; PTHR13767:SF2; PSEUDOURIDYLATE SYNTHASE TRUB1; 1.
+DR   PANTHER; PTHR13767; TRNA-PSEUDOURIDINE SYNTHASE; 1.
+DR   Pfam; PF09142; TruB_C; 1.
+DR   Pfam; PF16198; TruB_C_2; 1.
+DR   Pfam; PF01509; TruB_N; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   SUPFAM; SSF88697; PUA domain-like; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01080};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01080}.
+FT   DOMAIN          17..171
+FT                   /note="Pseudouridine synthase II N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01509"
+FT   DOMAIN          172..217
+FT                   /note="tRNA pseudouridylate synthase B C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF16198"
+FT   DOMAIN          227..286
+FT                   /note="tRNA pseudouridine synthase II TruB subfamily 2 C-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF09142"
+FT   ACT_SITE        32
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01080"
+SQ   SEQUENCE   298 AA;  31504 MW;  F7FFFD746AD8C8A8 CRC64;
+     MDKPQGWTSH DVVGRIRRLA GTRKVGHAGT LDPMATGLLV VGVNKATRLL TAITGTDKTY
+     TATIRLGQST VTDDAEGEVV QTRLANAVTP ERVAEQVAAL TGEILQVPSA VSAVKVAGRR
+     AYDRVRAGED VTLDARPVTV HEFTVHELRR LDGGRLVDLD VTVRCSSGTY IRALARDLGE
+     ALETGGHLTA LRRTAVGPFD VADALTLEAL AERFAMTELS EAAAGLFPVR ELTEHEAHEL
+     AFGRVVAPTG TGETLVAGRA PDGRVIALVS DVRRRGADVA KPQLVFAPAE GPGQGRTA
+//

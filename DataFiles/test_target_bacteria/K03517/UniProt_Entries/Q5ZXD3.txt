@@ -1,0 +1,81 @@
+ID   Q5ZXD3_LEGPH            Unreviewed;       447 AA.
+AC   Q5ZXD3;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   29-MAY-2024, entry version 91.
+DE   RecName: Full=quinolinate synthase {ECO:0000256|ARBA:ARBA00012669};
+DE            EC=2.5.1.72 {ECO:0000256|ARBA:ARBA00012669};
+GN   Name=nadA {ECO:0000313|EMBL:AAU26887.1};
+GN   OrderedLocusNames=lpg0799 {ECO:0000313|EMBL:AAU26887.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26887.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26887.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       iminoaspartate: step 1/1. {ECO:0000256|ARBA:ARBA00005065}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26887.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946535.1; NC_002942.5.
+DR   RefSeq; YP_094834.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZXD3; -.
+DR   STRING; 272624.lpg0799; -.
+DR   PaxDb; 272624-lpg0799; -.
+DR   GeneID; 66489980; -.
+DR   KEGG; lpn:lpg0799; -.
+DR   PATRIC; fig|272624.6.peg.826; -.
+DR   eggNOG; COG0379; Bacteria.
+DR   HOGENOM; CLU_047382_2_0_6; -.
+DR   OrthoDB; 9801204at2; -.
+DR   UniPathway; UPA00253; UER00327.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008987; F:quinolinate synthetase A activity; IEA:InterPro.
+DR   GO; GO:0034628; P:'de novo' NAD biosynthetic process from aspartate; IEA:TreeGrafter.
+DR   Gene3D; 3.40.50.10800; NadA-like; 3.
+DR   InterPro; IPR003473; NadA.
+DR   InterPro; IPR036094; NadA_sf.
+DR   PANTHER; PTHR30573:SF0; QUINOLINATE SYNTHASE, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR30573; QUINOLINATE SYNTHETASE A; 1.
+DR   Pfam; PF02445; NadA; 1.
+DR   SUPFAM; SSF142754; NadA-like; 1.
+PE   4: Predicted;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+SQ   SEQUENCE   447 AA;  50293 MW;  E7035A2A356F59FA CRC64;
+     MFKNSTTYQP EATLMAIRND MAICQSDYPL DWYQEDFIPY AQEYQALPDR KLTTVLNWMK
+     PYLAKAQNHF GNKLLLLAHY YMGGEIVRLI EQFGGKIGDS YQLALMAANN PEKSVIVESA
+     VHFMAESISI LANENQHVYI TNPKSGCTME MLAKDFMVEP AFLDLNERYG AENILPVCYM
+     NTSGRVKAMT GAQGGAVCTS SNVKKIFQWA QKQNKKILFI PDQHMGENVA YWLGIKNLAY
+     WPGGTAGANY SLPAQDKKTL KQFDKAELIL FASQCAVHTH YQPEMCDYWK SLGYTTIVHP
+     ECRNDVIKVA DYSGSTAFIW DLVVHDKAGT KSYAIGTENH MVENLKQYCN NLGIRVVNLA
+     EAPQKDTEKG VGCGCATMSR NDPPHLVALL DLLRQGKSMP YNEVKAGDVV NEFTGTRNRL
+     PVNDQQWVIN NAKKALEMMI NITEDRV
+//

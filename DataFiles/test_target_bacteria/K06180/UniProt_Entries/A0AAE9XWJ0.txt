@@ -1,0 +1,89 @@
+ID   A0AAE9XWJ0_RHOPA        Unreviewed;       324 AA.
+AC   A0AAE9XWJ0;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Pseudouridine synthase {ECO:0000256|RuleBase:RU362028};
+DE            EC=5.4.99.- {ECO:0000256|RuleBase:RU362028};
+GN   ORFNames=TX73_001905 {ECO:0000313|EMBL:WCL90497.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90497.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90497.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Responsible for synthesis of pseudouridine from uracil.
+CC       {ECO:0000256|RuleBase:RU362028}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a uridine in RNA = a pseudouridine in RNA;
+CC         Xref=Rhea:RHEA:48348, Rhea:RHEA-COMP:12068, Rhea:RHEA-COMP:12069,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315;
+CC         Evidence={ECO:0000256|RuleBase:RU362028};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(1911/1915/1917) in 23S rRNA =
+CC         pseudouridine(1911/1915/1917) in 23S rRNA; Xref=Rhea:RHEA:42524,
+CC         Rhea:RHEA-COMP:10097, Rhea:RHEA-COMP:10098, ChEBI:CHEBI:65314,
+CC         ChEBI:CHEBI:65315; EC=5.4.99.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00036882};
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase RluA family.
+CC       {ECO:0000256|ARBA:ARBA00010876, ECO:0000256|RuleBase:RU362028}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90497.1; -; Genomic_DNA.
+DR   RefSeq; WP_042441365.1; NZ_CP116810.1.
+DR   GeneID; 66891379; -.
+DR   KEGG; rpa:TX73_001905; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0120159; F:rRNA pseudouridine synthase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0000455; P:enzyme-directed rRNA pseudouridine synthesis; IEA:TreeGrafter.
+DR   CDD; cd02869; PseudoU_synth_RluA_like; 1.
+DR   CDD; cd00165; S4; 1.
+DR   FunFam; 3.30.2350.10:FF:000006; Pseudouridine synthase; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   Gene3D; 3.10.290.10; RNA-binding S4 domain; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR006224; PsdUridine_synth_RluA-like_CS.
+DR   InterPro; IPR006225; PsdUridine_synth_RluC/D.
+DR   InterPro; IPR006145; PsdUridine_synth_RsuA/RluA.
+DR   InterPro; IPR050188; RluA_PseudoU_synthase.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   NCBIfam; TIGR00005; rluA_subfam; 1.
+DR   PANTHER; PTHR21600; MITOCHONDRIAL RNA PSEUDOURIDINE SYNTHASE; 1.
+DR   PANTHER; PTHR21600:SF44; RIBOSOMAL LARGE SUBUNIT PSEUDOURIDINE SYNTHASE D; 1.
+DR   Pfam; PF00849; PseudoU_synth_2; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   SMART; SM00363; S4; 1.
+DR   SUPFAM; SSF55174; Alpha-L RNA-binding motif; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   PROSITE; PS01129; PSI_RLU; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU362028};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   RNA-binding {ECO:0000256|PROSITE-ProRule:PRU00182}.
+FT   DOMAIN          10..70
+FT                   /note="RNA-binding S4"
+FT                   /evidence="ECO:0000259|SMART:SM00363"
+FT   ACT_SITE        135
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR606225-1"
+SQ   SEQUENCE   324 AA;  34498 MW;  919A20D04B9CEC78 CRC64;
+     MVVAGDEGSQ RLDRVLAARC PELSRSRLKA LILDGRVAIA GTPVRDPAYH ASPGETITID
+     VPPPVPAEPA GEAIALDIVY EDADIIVLNK PRGLVVHPAA GHETGTLVNA LIAHCGASLS
+     GIGGVRRPGI VHRLDKDTTG LMVAAKNDKA HQSLSAQFAD HGRTGELRRG YLAFVWGVPG
+     RKYGTIDAPI DRHPHAREKM AVRQSGREAI THWEVLENFS GKDGKPVAAL IACQLETGRT
+     HQIRVHLAHL GHPLLGDDVY GPHFKTKANQ LAPAGRAALA GLGRQALHAY LLTLEHPSTG
+     EVLTWESPLP ADLAHLQAAL TATE
+//

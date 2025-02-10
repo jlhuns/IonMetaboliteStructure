@@ -1,0 +1,152 @@
+ID   RSMB_SALTI              Reviewed;         429 AA.
+AC   Q8Z1X1;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 135.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase B {ECO:0000255|HAMAP-Rule:MF_01856};
+DE            EC=2.1.1.176 {ECO:0000255|HAMAP-Rule:MF_01856};
+DE   AltName: Full=16S rRNA m5C967 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01856};
+DE   AltName: Full=rRNA (cytosine-C(5)-)-methyltransferase RsmB {ECO:0000255|HAMAP-Rule:MF_01856};
+GN   Name=rsmB {ECO:0000255|HAMAP-Rule:MF_01856};
+GN   Synonyms=rrmB, sun {ECO:0000255|HAMAP-Rule:MF_01856};
+GN   OrderedLocusNames=STY4389, t4096;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Specifically methylates the cytosine at position 967 (m5C967)
+CC       of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01856}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(967) in 16S rRNA + S-adenosyl-L-methionine = 5-
+CC         methylcytidine(967) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42748, Rhea:RHEA-COMP:10219, Rhea:RHEA-COMP:10220,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74483, ChEBI:CHEBI:82748; EC=2.1.1.176;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01856};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01856}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RsmB/NOP family. {ECO:0000255|HAMAP-Rule:MF_01856}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09177.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71563.1; -; Genomic_DNA.
+DR   RefSeq; NP_458491.1; NC_003198.1.
+DR   RefSeq; WP_000744595.1; NZ_WSUR01000046.1.
+DR   AlphaFoldDB; Q8Z1X1; -.
+DR   SMR; Q8Z1X1; -.
+DR   STRING; 220341.gene:17588217; -.
+DR   KEGG; stt:t4096; -.
+DR   KEGG; sty:STY4389; -.
+DR   PATRIC; fig|220341.7.peg.4485; -.
+DR   eggNOG; COG0144; Bacteria.
+DR   eggNOG; COG0781; Bacteria.
+DR   HOGENOM; CLU_005316_0_4_6; -.
+DR   OMA; RVNRQHH; -.
+DR   OrthoDB; 9810297at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009383; F:rRNA (cytosine-C5-)-methyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:InterPro.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:TreeGrafter.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   CDD; cd00620; Methyltransferase_Sun; 1.
+DR   FunFam; 1.10.287.730:FF:000001; Ribosomal RNA small subunit methyltransferase B; 1.
+DR   FunFam; 1.10.940.10:FF:000002; Ribosomal RNA small subunit methyltransferase B; 1.
+DR   FunFam; 3.30.70.1170:FF:000002; Ribosomal RNA small subunit methyltransferase B; 1.
+DR   FunFam; 3.40.50.150:FF:000022; Ribosomal RNA small subunit methyltransferase B; 1.
+DR   Gene3D; 1.10.287.730; Helix hairpin bin; 1.
+DR   Gene3D; 1.10.940.10; NusB-like; 1.
+DR   Gene3D; 3.30.70.1170; Sun protein, domain 3; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01856; 16SrRNA_methyltr_B; 1.
+DR   InterPro; IPR049560; MeTrfase_RsmB-F_NOP2_cat.
+DR   InterPro; IPR001678; MeTrfase_RsmB-F_NOP2_dom.
+DR   InterPro; IPR035926; NusB-like_sf.
+DR   InterPro; IPR006027; NusB_RsmB_TIM44.
+DR   InterPro; IPR023267; RCMT.
+DR   InterPro; IPR004573; rRNA_ssu_MeTfrase_B.
+DR   InterPro; IPR023541; rRNA_ssu_MeTfrase_B_ent.
+DR   InterPro; IPR054728; RsmB-like_ferredoxin.
+DR   InterPro; IPR048019; RsmB-like_N.
+DR   InterPro; IPR018314; RsmB/NOL1/NOP2-like_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00563; rsmB; 1.
+DR   PANTHER; PTHR22807:SF61; NOL1_NOP2_SUN FAMILY PROTEIN _ ANTITERMINATION NUSB DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR22807; NOP2 YEAST -RELATED NOL1/NOP2/FMU SUN DOMAIN-CONTAINING; 1.
+DR   Pfam; PF01189; Methyltr_RsmB-F; 1.
+DR   Pfam; PF01029; NusB; 1.
+DR   Pfam; PF22458; RsmF-B_ferredox; 1.
+DR   PRINTS; PR02008; RCMTFAMILY.
+DR   SUPFAM; SSF48013; NusB-like; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS01153; NOL1_NOP2_SUN; 1.
+DR   PROSITE; PS51686; SAM_MT_RSMB_NOP; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..429
+FT                   /note="Ribosomal RNA small subunit methyltransferase B"
+FT                   /id="PRO_0000211802"
+FT   REGION          397..419
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        400..412
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        375
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01856"
+FT   BINDING         254..260
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01856"
+FT   BINDING         277
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01856"
+FT   BINDING         303
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01856"
+FT   BINDING         322
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01856"
+SQ   SEQUENCE   429 AA;  48069 MW;  BC78DAEF0513E4F8 CRC64;
+     MKKQNNLRSL AAQAVELVVE QGQSLSNVLP PLQQKVADKD KALLQELCFG VLRTLSQLEW
+     LINKLMSRPM TGKQRTVHYL IMVGFYQLLY TRVPPHAALA ETVEGAVSIK RPQLKGLING
+     VLRQFQRQQE TLLNEFATSD ARFLHPGWLV KRLQNAYPTQ WQRIIEANNQ RPPMWLRVNR
+     THHTRDGWLG LLEDAGMKGY PHPDYPDAVR LETPAPVHAL PGFAEGWVTV QDASAQGCAV
+     FLAPQNGEHI LDLCAAPGGK TTHILEVAPE ADVLAVDIDE QRLSRVYDNL KRLGMKATVK
+     QGDGRYPAQW CGEQQFDRIL LDAPCSATGV IRRHPDIKWL RRDRDIAELA QLQAEILDAV
+     WPRLKPGGTL VYATCSVLPE ENRDQIKAFL QRTPDAALSE TGTPDQPGQQ NLPGGEEGDG
+     FFYAKLIKK
+//

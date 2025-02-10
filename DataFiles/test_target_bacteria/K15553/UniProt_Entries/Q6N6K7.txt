@@ -1,0 +1,86 @@
+ID   Q6N6K7_RHOPA            Unreviewed;       317 AA.
+AC   Q6N6K7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   SubName: Full=Aliphatic sulfonate ABC transporter substrate-binding protein {ECO:0000313|EMBL:WCL92770.1};
+DE   SubName: Full=Possible sulfonate binding protein {ECO:0000313|EMBL:CAE28049.1};
+GN   OrderedLocusNames=RPA2608 {ECO:0000313|EMBL:CAE28049.1};
+GN   ORFNames=TX73_013505 {ECO:0000313|EMBL:WCL92770.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28049.1};
+RN   [1] {ECO:0000313|EMBL:WCL92770.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92770.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28049.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28049.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92770.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92770.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein SsuA/TauA
+CC       family. {ECO:0000256|ARBA:ARBA00010742}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572601; CAE28049.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92770.1; -; Genomic_DNA.
+DR   STRING; 258594.RPA2608; -.
+DR   KEGG; rpa:TX73_013505; -.
+DR   eggNOG; COG0715; Bacteria.
+DR   HOGENOM; CLU_028871_2_0_5; -.
+DR   PhylomeDB; Q6N6K7; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IEA:InterPro.
+DR   FunFam; 3.40.190.10:FF:000050; Sulfonate ABC transporter substrate-binding protein; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR010067; ABC_SsuA_sub-bd.
+DR   InterPro; IPR001638; Solute-binding_3/MltF_N.
+DR   InterPro; IPR015168; SsuA/THI5.
+DR   NCBIfam; TIGR01728; SsuA_fam; 1.
+DR   PANTHER; PTHR30024; ALIPHATIC SULFONATES-BINDING PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR30024:SF42; ALIPHATIC SULFONATES-BINDING PROTEIN-RELATED; 1.
+DR   Pfam; PF09084; NMT1; 1.
+DR   SMART; SM00062; PBPb; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           27..317
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5042808994"
+FT   DOMAIN          31..250
+FT                   /note="Solute-binding protein family 3/N-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00062"
+SQ   SEQUENCE   317 AA;  33411 MW;  19F205D7438DA0CD CRC64;
+     MMSSRRSLFA LAFAAIAASS IGFASAADLK EVRIGFQKAG IQPAVKERGV LEAALKEKGL
+     SVKWVEFAFG PPLLEALNTG NIDFGYTGDT PPIFAQAAAA NLLYVAALPG SGKNEGIVVP
+     ANSPIKSVAD LKGKRLAIPK GSSAHNTAVA ILEKAGLQFT DVTAVYLPPA DGTAAFAGGT
+     VDAWAIWDPY LALAEKSSAR VLSFAGDAHD SIGFFLANRE FTNAHGDLVA LLNQTFAKEA
+     QWANGHRDEI TKSLAASTGV DPAVVSTLVG RSVFEVTPVT DKILAEQQQT ADRFHKLGLI
+     PKPINVRDIV WKWSPAS
+//

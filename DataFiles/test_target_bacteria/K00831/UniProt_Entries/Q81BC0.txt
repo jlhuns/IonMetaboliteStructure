@@ -1,0 +1,139 @@
+ID   SERC_BACCR              Reviewed;         360 AA.
+AC   Q81BC0;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 132.
+DE   RecName: Full=Phosphoserine aminotransferase {ECO:0000255|HAMAP-Rule:MF_00160};
+DE            EC=2.6.1.52 {ECO:0000255|HAMAP-Rule:MF_00160};
+DE   AltName: Full=Phosphohydroxythreonine aminotransferase {ECO:0000255|HAMAP-Rule:MF_00160};
+DE            Short=PSAT {ECO:0000255|HAMAP-Rule:MF_00160};
+GN   Name=serC {ECO:0000255|HAMAP-Rule:MF_00160};
+GN   OrderedLocusNames=BC_3249;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the reversible conversion of 3-
+CC       phosphohydroxypyruvate to phosphoserine and of 3-hydroxy-2-oxo-4-
+CC       phosphonooxybutanoate to phosphohydroxythreonine. {ECO:0000255|HAMAP-
+CC       Rule:MF_00160}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-serine + 2-oxoglutarate = 3-phosphooxypyruvate +
+CC         L-glutamate; Xref=Rhea:RHEA:14329, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:18110, ChEBI:CHEBI:29985, ChEBI:CHEBI:57524; EC=2.6.1.52;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-(phosphooxy)-L-threonine + 2-oxoglutarate = (R)-3-hydroxy-2-
+CC         oxo-4-phosphooxybutanoate + L-glutamate; Xref=Rhea:RHEA:16573,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29985, ChEBI:CHEBI:58452,
+CC         ChEBI:CHEBI:58538; EC=2.6.1.52; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00160};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00160};
+CC       Note=Binds 1 pyridoxal phosphate per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00160};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine from
+CC       3-phospho-D-glycerate: step 2/3. {ECO:0000255|HAMAP-Rule:MF_00160}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00160}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00160}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. SerC subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00160}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10190.1; -; Genomic_DNA.
+DR   RefSeq; NP_832989.1; NC_004722.1.
+DR   RefSeq; WP_000442921.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81BC0; -.
+DR   SMR; Q81BC0; -.
+DR   STRING; 226900.BC_3249; -.
+DR   KEGG; bce:BC3249; -.
+DR   PATRIC; fig|226900.8.peg.3330; -.
+DR   HOGENOM; CLU_034866_0_2_9; -.
+DR   OrthoDB; 9809412at2; -.
+DR   UniPathway; UPA00135; UER00197.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004648; F:O-phospho-L-serine:2-oxoglutarate aminotransferase activity; IBA:GO_Central.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IBA:GO_Central.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00611; PSAT_like; 1.
+DR   FunFam; 3.40.640.10:FF:000010; Phosphoserine aminotransferase; 1.
+DR   FunFam; 3.90.1150.10:FF:000006; Phosphoserine aminotransferase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00160; SerC_aminotrans_5; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR022278; Pser_aminoTfrase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01364; serC_1; 1.
+DR   PANTHER; PTHR43247; PHOSPHOSERINE AMINOTRANSFERASE; 1.
+DR   PANTHER; PTHR43247:SF1; PHOSPHOSERINE AMINOTRANSFERASE; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF000525; SerC; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Cytoplasm; Pyridoxal phosphate;
+KW   Reference proteome; Serine biosynthesis; Transferase.
+FT   CHAIN           1..360
+FT                   /note="Phosphoserine aminotransferase"
+FT                   /id="PRO_0000150145"
+FT   BINDING         42
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         76..77
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         102
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         152
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         172
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         195
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   BINDING         237..238
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+FT   MOD_RES         196
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00160"
+SQ   SEQUENCE   360 AA;  40499 MW;  B8A9FBB93E2E56F2 CRC64;
+     MERVYNFSAG PSILPLPVLE KVQKELLNYN GTGMSIMEMS HRSSYFQSII EEASNLLREL
+     MSIPDEYEVL FLQGGASLQF SMIPLNLMNT YKKAGYVLTG SWSKKALQEA EKVGEVQVIA
+     SSEQEKFTTI PKLDGLLSDE KLDYVHITTN NTIEGTKYVD IPHVEKVPLV ADMSSNILSE
+     RYDVSKFGLI YAGAQKNLGP AGLTIAIIKR DLIGEADRSC PTMLNYETYS KNNSLYNTPP
+     SFSIYVTKLV LEWLKEQGGV SAIEEQNRMK SSLLYNFLDE SKLFTSPVDP TYRSLMNIPF
+     TTPSEELNSE FLQKAKERGL VTLKGHRSVG GMRASIYNAM PVQGVQQLVN YMKEFELENR
+//

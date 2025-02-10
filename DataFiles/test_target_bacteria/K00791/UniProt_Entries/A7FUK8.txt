@@ -1,0 +1,102 @@
+ID   MIAA_CLOB1              Reviewed;         311 AA.
+AC   A7FUK8;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=CLB_1733;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS34770.1; -; Genomic_DNA.
+DR   RefSeq; WP_011986379.1; NC_009697.1.
+DR   AlphaFoldDB; A7FUK8; -.
+DR   SMR; A7FUK8; -.
+DR   GeneID; 5186142; -.
+DR   KEGG; cba:CLB_1733; -.
+DR   HOGENOM; CLU_032616_0_1_9; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006400; P:tRNA modification; IEA:TreeGrafter.
+DR   FunFam; 1.10.20.140:FF:000001; tRNA dimethylallyltransferase; 1.
+DR   Gene3D; 1.10.20.140; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF60; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Transferase; tRNA processing.
+FT   CHAIN           1..311
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_1000020585"
+FT   REGION          34..37
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         9..16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         11..16
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            100
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            123
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   311 AA;  36271 MW;  455115A7964CB47F CRC64;
+     MIDLLIIAGP TAVGKTDISI KLAEKLNGEI ISADSMQIYK YMDIGSAKIT KDEMKGIPHH
+     LIDVVEPHEE FNVSSFKALA EKSIKDIWNR GKLPIIAGGT GLYINSLIYN YDFTDADRDE
+     KYREYLTKLA EDKGKEYVHS LLKDIDKESY EKLYPNDLKR VVRALEVYKI TGKSISEYTK
+     ENEKKLYDIP YNVNYFILNM NREVLYERIN KRVDIMMGKG LIEEVKKLES MGYTPDMQSM
+     KGIGYKEVLF YLNGDISLDE AIYLIKKGSR NYAKRQLTWF RKDKRSIWID KDKYRSEEEI
+     VDKIIKMVKD K
+//

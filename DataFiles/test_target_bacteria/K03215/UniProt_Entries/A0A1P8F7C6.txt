@@ -1,0 +1,153 @@
+ID   A0A1P8F7C6_9CHLR        Unreviewed;       612 AA.
+AC   A0A1P8F7C6;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 32.
+DE   RecName: Full=dTTP/UTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            Short=dTTPase/UTPase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            EC=3.6.1.9 {ECO:0000256|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleoside triphosphate pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleotide pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00528};
+DE            Short=Nucleotide PPase {ECO:0000256|HAMAP-Rule:MF_00528};
+GN   Name=rumA {ECO:0000313|EMBL:APV44379.1};
+GN   ORFNames=Dform_01044 {ECO:0000313|EMBL:APV44379.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44379.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Nucleoside triphosphate pyrophosphatase that hydrolyzes dTTP
+CC       and UTP. May have a dual role in cell division arrest and in preventing
+CC       the incorporation of modified nucleotides into cellular nucleic acids.
+CC       {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UTP + H2O = UMP + diphosphate + H(+); Xref=Rhea:RHEA:29395,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46398, ChEBI:CHEBI:57865; EC=3.6.1.9;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00528};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + H2O = dTMP + diphosphate + H(+); Xref=Rhea:RHEA:28534,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37568, ChEBI:CHEBI:63528; EC=3.6.1.9;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00528};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00528};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- SIMILARITY: Belongs to the Maf family. YhdE subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA M5U methyltransferase family. {ECO:0000256|PROSITE-
+CC       ProRule:PRU01024}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00528}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44379.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004066.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F7C6; -.
+DR   STRING; 1839801.Dform_01044; -.
+DR   KEGG; dfo:Dform_01044; -.
+DR   OrthoDB; 9804590at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106379; F:8-oxo-(d)RTP hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0070041; F:rRNA (uridine-C5-)-methyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0036221; F:UTP diphosphatase activity; IEA:RHEA.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:TreeGrafter.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   CDD; cd00555; Maf; 1.
+DR   Gene3D; 2.40.50.1070; -; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 2.
+DR   HAMAP; MF_00528; Maf; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR003697; Maf-like.
+DR   InterPro; IPR030390; MeTrfase_TrmA_AS.
+DR   InterPro; IPR030391; MeTrfase_TrmA_CS.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR002792; TRAM_dom.
+DR   InterPro; IPR010280; U5_MeTrfase_fam.
+DR   NCBIfam; TIGR00172; maf; 1.
+DR   PANTHER; PTHR11061; RNA M5U METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11061:SF30; TRNA (URACIL(54)-C(5))-METHYLTRANSFERASE; 1.
+DR   Pfam; PF02545; Maf; 1.
+DR   Pfam; PF05958; tRNA_U5-meth_tr; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51687; SAM_MT_RNA_M5U; 1.
+DR   PROSITE; PS50926; TRAM; 1.
+DR   PROSITE; PS01230; TRMA_1; 1.
+DR   PROSITE; PS01231; TRMA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00528};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00528};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|PROSITE-
+KW   ProRule:PRU01024}; Nucleotide metabolism {ECO:0000256|HAMAP-Rule:MF_00528};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PROSITE-ProRule:PRU01024};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PROSITE-
+KW   ProRule:PRU01024}.
+FT   DOMAIN          1..59
+FT                   /note="TRAM"
+FT                   /evidence="ECO:0000259|PROSITE:PS50926"
+FT   ACT_SITE        349
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU10015"
+FT   ACT_SITE        349
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01024"
+FT   ACT_SITE        470
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   BINDING         229
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01024"
+FT   BINDING         258
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01024"
+FT   BINDING         279
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01024"
+FT   BINDING         322
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01024"
+FT   SITE            413
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   SITE            471
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+FT   SITE            555
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00528"
+SQ   SEQUENCE   612 AA;  67216 MW;  D2780A75030D9D2B CRC64;
+     MNETSALIIV RLTGLGEFGE TVAEYEGRTI NIFGGIPGET VEARVIRNTP GAADAIVTKA
+     IVASVHRREP VCPRFGECSG CQWQHVEYSH QLELKRGLVK RALESEGLDG SLVREVVPSP
+     SEFGYRNHAR LSIRRRLNSF GFINRVTHQF VAVDRCPIMA EGVNSLLAAL NGRCGETTQF
+     SIRYGINTDE YLIQPQFKNP EVTVITGQVH YHEIMAGRKF RISSPSFFQV NTPQAERLAE
+     IIRQRLTLNG DETIIDAYAG VGTFSVMLAP YANKVIAIEE SGAAIKDARI NVREIPNVEL
+     IEARTETVLP HLGRLADATI IDPSRVGCHP AALKTLNFYP SKKLVYVSCN PETMARDLRV
+     LAHGPYEIQD VTPVDLFPQT YHVESVALLR FDPEKENAFI EKQRIVLAST SPRRSEILAS
+     MGLKFEIVAS NFDETPAEGL SPEEQAASHA RAKAVAVAAG RSSGTVISAD TVVVLGEEML
+     GKPASSAEAV EMLKQLRDKT HRVVTAVAVT DAATKETFAD FRSTQVTIRN LTDLEIEDYV
+     KSGSPLDKAG AYGIQDKLFQ PVARIKGCYL NVVGLPVCLM LDLLLKIGVH PKISTNWRPP
+     GDCADCHKWQ CG
+//

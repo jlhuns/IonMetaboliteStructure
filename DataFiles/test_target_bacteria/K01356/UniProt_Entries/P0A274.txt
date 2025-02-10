@@ -1,0 +1,126 @@
+ID   LEXA_SALTI              Reviewed;         202 AA.
+AC   P0A274; P29831;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=LexA repressor {ECO:0000255|HAMAP-Rule:MF_00015};
+DE            EC=3.4.21.88 {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   Name=lexA {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   OrderedLocusNames=STY4433, t4143;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Represses a number of genes involved in the response to DNA
+CC       damage (SOS response), including recA and lexA. Binds to the 16 bp
+CC       palindromic sequence 5'-CTGTATATATATACAG-3'. In the presence of single-
+CC       stranded DNA, RecA interacts with LexA causing an autocatalytic
+CC       cleavage which disrupts the DNA-binding part of LexA, leading to
+CC       derepression of the SOS regulon and eventually DNA repair.
+CC       {ECO:0000255|HAMAP-Rule:MF_00015}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of Ala-|-Gly bond in repressor LexA.; EC=3.4.21.88;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00015};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00015}.
+CC   -!- SIMILARITY: Belongs to the peptidase S24 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00015}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09221.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71607.1; -; Genomic_DNA.
+DR   RefSeq; NP_458535.1; NC_003198.1.
+DR   RefSeq; WP_000646079.1; NZ_WSUR01000027.1.
+DR   AlphaFoldDB; P0A274; -.
+DR   SMR; P0A274; -.
+DR   STRING; 220341.gene:17588265; -.
+DR   MEROPS; S24.001; -.
+DR   KEGG; stt:t4143; -.
+DR   KEGG; sty:STY4433; -.
+DR   PATRIC; fig|220341.7.peg.4533; -.
+DR   eggNOG; COG1974; Bacteria.
+DR   HOGENOM; CLU_066192_45_3_6; -.
+DR   OMA; HVWLLPH; -.
+DR   OrthoDB; 9802364at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd06529; S24_LexA-like; 1.
+DR   FunFam; 1.10.10.10:FF:000009; LexA repressor; 1.
+DR   FunFam; 2.10.109.10:FF:000001; LexA repressor; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00015; LexA; 1.
+DR   InterPro; IPR006200; LexA.
+DR   InterPro; IPR039418; LexA-like.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR006199; LexA_DNA-bd_dom.
+DR   InterPro; IPR050077; LexA_repressor.
+DR   InterPro; IPR006197; Peptidase_S24_LexA.
+DR   InterPro; IPR015927; Peptidase_S24_S26A/B/C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00498; lexA; 1.
+DR   PANTHER; PTHR33516; LEXA REPRESSOR; 1.
+DR   PANTHER; PTHR33516:SF2; LEXA REPRESSOR-RELATED; 1.
+DR   Pfam; PF01726; LexA_DNA_bind; 1.
+DR   Pfam; PF00717; Peptidase_S24; 1.
+DR   PRINTS; PR00726; LEXASERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; Hydrolase; Repressor; SOS response; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..202
+FT                   /note="LexA repressor"
+FT                   /id="PRO_0000170082"
+FT   DNA_BIND        28..48
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        119
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        156
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   SITE            84..85
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+SQ   SEQUENCE   202 AA;  22305 MW;  6BC34EA11A70430C CRC64;
+     MKALTARQQE VFDLIRDHIS QTGMPPTRAE IAQRLGFRSP NAAEEHLKAL ARKGVLEIVS
+     GASRGIRLLQ EEEDGLPLVG RVAAGEPLLA QQHIEGHYQV DPSLFKPSAD FLLRVSGMSM
+     KDIGIMDGDL LAVHKTQDVR NGQVVVARID DEVTVKRLKK QGNKVELLPE NSEFTPIVVD
+     LREQSFTIEG LAVGVIRNGE WL
+//

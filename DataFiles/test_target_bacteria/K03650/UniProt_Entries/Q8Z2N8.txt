@@ -1,0 +1,184 @@
+ID   MNME_SALTI              Reviewed;         454 AA.
+AC   Q8Z2N8;
+DT   06-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 144.
+DE   RecName: Full=tRNA modification GTPase MnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+DE            EC=3.6.-.- {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Name=mnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Synonyms=thdF {ECO:0000255|HAMAP-Rule:MF_00379}, trmE
+GN   {ECO:0000255|HAMAP-Rule:MF_00379}; OrderedLocusNames=STY3937, t3677;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Exhibits a very high intrinsic GTPase hydrolysis rate.
+CC       Involved in the addition of a carboxymethylaminomethyl (cmnm) group at
+CC       the wobble position (U34) of certain tRNAs, forming tRNA-
+CC       cmnm(5)s(2)U34. {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00379};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. TrmE GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03153.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71173.1; -; Genomic_DNA.
+DR   RefSeq; NP_458100.1; NC_003198.1.
+DR   RefSeq; WP_000019075.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; Q8Z2N8; -.
+DR   SMR; Q8Z2N8; -.
+DR   STRING; 220341.gene:17587796; -.
+DR   KEGG; stt:t3677; -.
+DR   KEGG; sty:STY3937; -.
+DR   PATRIC; fig|220341.7.peg.4017; -.
+DR   eggNOG; COG0486; Bacteria.
+DR   HOGENOM; CLU_019624_4_1_6; -.
+DR   OMA; EFHCHGG; -.
+DR   OrthoDB; 9805918at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030488; P:tRNA methylation; IEA:TreeGrafter.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:TreeGrafter.
+DR   CDD; cd04164; trmE; 1.
+DR   CDD; cd14858; TrmE_N; 1.
+DR   FunFam; 3.30.1360.120:FF:000001; tRNA modification GTPase MnmE; 1.
+DR   FunFam; 3.40.50.300:FF:000249; tRNA modification GTPase MnmE; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 3.30.1360.120; Probable tRNA modification gtpase trme, domain 1; 1.
+DR   Gene3D; 1.20.120.430; tRNA modification GTPase MnmE domain 2; 1.
+DR   HAMAP; MF_00379; GTPase_MnmE; 1.
+DR   InterPro; IPR031168; G_TrmE.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR018948; GTP-bd_TrmE_N.
+DR   InterPro; IPR004520; GTPase_MnmE.
+DR   InterPro; IPR027368; MnmE_dom2.
+DR   InterPro; IPR025867; MnmE_helical.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd.
+DR   InterPro; IPR027266; TrmE/GcvT_dom1.
+DR   NCBIfam; TIGR00450; mnmE_trmE_thdF; 1.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR42714; TRNA MODIFICATION GTPASE GTPBP3; 1.
+DR   PANTHER; PTHR42714:SF2; TRNA MODIFICATION GTPASE GTPBP3, MITOCHONDRIAL; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF12631; MnmE_helical; 1.
+DR   Pfam; PF10396; TrmE_N; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF116878; TrmE connector domain; 1.
+DR   PROSITE; PS51709; G_TRME; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Potassium; tRNA processing.
+FT   CHAIN           1..454
+FT                   /note="tRNA modification GTPase MnmE"
+FT                   /id="PRO_0000188911"
+FT   DOMAIN          216..377
+FT                   /note="TrmE-type G"
+FT   BINDING         23
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         80
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         120
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         226..231
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         226
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         230
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         245..251
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         245
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         247
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         250
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         251
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         270..273
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         335..338
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         358..360
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         454
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+SQ   SEQUENCE   454 AA;  49104 MW;  50C95C094C2A92CB CRC64;
+     MSHNDTIVAQ ATPPGRGGVG ILRISGLKAR DVAQEVLGKL PKPRYADYLP FKDVDGSALD
+     QGIALWFPGP NSFTGEDVLE LQGHGGPVIL DLLLKRILTL PGVRIARPGE FSERAFLNDK
+     LDLAQAEAIA DLIDASSEQA ARSALNSLQG AFSARVNHLV EALTHLRIYV EAAIDFPDEE
+     IDFLSDGKIE AQLNGVIADL DAVRTEARQG SLLREGMKVV IAGRPNAGKS SLLNALAGRE
+     AAIVTDIAGT TRDVLREHIH IDGMPLHIID TAGLRDANDE VERIGIERAW QEIEQADRVL
+     FMVDGTTTDA VDPADIWPDF IARLPKNLPI TVVRNKADIT GETLGISEVN GHSLVRLSAR
+     TGEGVDVLRN HLKQSMGFDT NMEGGFLARR RHLQALAEAA NHLEQGKAQL LGAWAGELLA
+     EELRLAQQSL SEITGEFTSD DLLGRIFSSF CIGK
+//

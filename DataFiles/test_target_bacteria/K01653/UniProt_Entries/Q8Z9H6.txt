@@ -1,0 +1,120 @@
+ID   Q8Z9H6_SALTI            Unreviewed;       164 AA.
+AC   Q8Z9H6; A0A0C9CWB0; Q7CBU2;
+DT   01-MAR-2002, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 140.
+DE   RecName: Full=Acetolactate synthase small subunit {ECO:0000256|RuleBase:RU368092};
+DE            Short=AHAS {ECO:0000256|RuleBase:RU368092};
+DE            Short=ALS {ECO:0000256|RuleBase:RU368092};
+DE            EC=2.2.1.6 {ECO:0000256|RuleBase:RU368092};
+DE   AltName: Full=Acetohydroxy-acid synthase small subunit {ECO:0000256|RuleBase:RU368092};
+GN   Name=ilvH {ECO:0000313|EMBL:CAD01274.1};
+GN   OrderedLocusNames=STY0136 {ECO:0000313|EMBL:CAD01274.1}, t0121
+GN   {ECO:0000313|EMBL:AAO67853.1};
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370 {ECO:0000313|EMBL:CAD01274.1, ECO:0000313|Proteomes:UP000000541};
+RN   [1] {ECO:0000313|EMBL:CAD01274.1, ECO:0000313|Proteomes:UP000000541}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18 {ECO:0000313|EMBL:CAD01274.1,
+RC   ECO:0000313|Proteomes:UP000000541};
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.,
+RA   Rutherford K., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2] {ECO:0000313|EMBL:AAO67853.1, ECO:0000313|Proteomes:UP000002670}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2 {ECO:0000313|Proteomes:UP000002670}, and Ty2
+RC   {ECO:0000313|EMBL:AAO67853.1};
+RX   PubMed=12644504; DOI=10.1128/JB.185.7.2330-2337.2003;
+RA   Deng W., Liou S.R., Plunkett G.III., Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of 2 pyruvate molecules into
+CC       acetolactate in the first common step of the biosynthetic pathway of
+CC       the branched-amino acids such as leucine, isoleucine, and valine.
+CC       {ECO:0000256|RuleBase:RU368092}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 pyruvate + H(+) = (2S)-2-acetolactate + CO2;
+CC         Xref=Rhea:RHEA:25249, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:58476; EC=2.2.1.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048670,
+CC         ECO:0000256|RuleBase:RU368092};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 1/4.
+CC       {ECO:0000256|ARBA:ARBA00004974, ECO:0000256|RuleBase:RU368092}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 1/4. {ECO:0000256|ARBA:ARBA00005025,
+CC       ECO:0000256|RuleBase:RU368092}.
+CC   -!- SUBUNIT: Dimer of large and small chains.
+CC       {ECO:0000256|ARBA:ARBA00011744, ECO:0000256|RuleBase:RU368092}.
+CC   -!- SIMILARITY: Belongs to the acetolactate synthase small subunit family.
+CC       {ECO:0000256|ARBA:ARBA00006341, ECO:0000256|RuleBase:RU368092}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO67853.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD01274.1; -; Genomic_DNA.
+DR   RefSeq; NP_454729.1; NC_003198.1.
+DR   AlphaFoldDB; Q8Z9H6; -.
+DR   STRING; 220341.gene:17584176; -.
+DR   KEGG; stt:t0121; -.
+DR   KEGG; sty:STY0136; -.
+DR   PATRIC; fig|220341.7.peg.136; -.
+DR   eggNOG; COG0440; Bacteria.
+DR   HOGENOM; CLU_055003_1_3_6; -.
+DR   OMA; RPFGIKE; -.
+DR   UniPathway; UPA00047; UER00055.
+DR   UniPathway; UPA00049; UER00059.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003984; F:acetolactate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:1990610; F:acetolactate synthase regulator activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:L-valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04878; ACT_AHAS; 1.
+DR   FunFam; 3.30.70.1150:FF:000001; Acetolactate synthase small subunit; 1.
+DR   FunFam; 3.30.70.260:FF:000001; Acetolactate synthase, small subunit; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.70.1150; ACT-like. Chain A, domain 2; 1.
+DR   InterPro; IPR004789; Acetalactate_synth_ssu.
+DR   InterPro; IPR027271; Acetolactate_synth/TF_NikR_C.
+DR   InterPro; IPR019455; Acetolactate_synth_ssu_C.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR039557; AHAS_ACT.
+DR   InterPro; IPR054480; AHAS_small-like_ACT.
+DR   NCBIfam; TIGR00119; acolac_sm; 1.
+DR   PANTHER; PTHR30239; ACETOLACTATE SYNTHASE SMALL SUBUNIT; 1.
+DR   PANTHER; PTHR30239:SF0; ACETOLACTATE SYNTHASE SMALL SUBUNIT 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF22629; AHAS-like_ACT; 1.
+DR   Pfam; PF10369; ALS_ss_C; 1.
+DR   SUPFAM; SSF55021; ACT-like; 2.
+DR   PROSITE; PS51671; ACT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU368092};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|RuleBase:RU368092};
+KW   Transferase {ECO:0000256|RuleBase:RU368092}.
+FT   DOMAIN          5..79
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+SQ   SEQUENCE   164 AA;  18180 MW;  1B5CB5D62B6616BC CRC64;
+     MMRRILSVLL ENESGALSRV IGLFSQRGYN IESLTVAPTD DPTLSRMTIQ TVGDEKVLEQ
+     IEKQLHKLVD VLRVSELGQG AHVEREIMLV KIQASGYGRE EVKRNTEIFR GQIIDVTPTL
+     YTVQLAGTSD KLDAFLASLR DVAKIVEVAR SGVVGLSRGD KVMR
+//

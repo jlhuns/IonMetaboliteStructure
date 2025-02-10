@@ -1,0 +1,132 @@
+ID   PSD_DELAS               Reviewed;         284 AA.
+AC   A9C3H8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   02-OCT-2024, entry version 82.
+DE   RecName: Full=Phosphatidylserine decarboxylase proenzyme {ECO:0000255|HAMAP-Rule:MF_00662};
+DE            EC=4.1.1.65 {ECO:0000255|HAMAP-Rule:MF_00662};
+DE   Contains:
+DE     RecName: Full=Phosphatidylserine decarboxylase alpha chain {ECO:0000255|HAMAP-Rule:MF_00662};
+DE   Contains:
+DE     RecName: Full=Phosphatidylserine decarboxylase beta chain {ECO:0000255|HAMAP-Rule:MF_00662};
+GN   Name=psd {ECO:0000255|HAMAP-Rule:MF_00662};
+GN   OrderedLocusNames=Daci_4660;
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of phosphatidylethanolamine (PtdEtn)
+CC       from phosphatidylserine (PtdSer). {ECO:0000255|HAMAP-Rule:MF_00662}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine + H(+) = a 1,2-
+CC         diacyl-sn-glycero-3-phosphoethanolamine + CO2; Xref=Rhea:RHEA:20828,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57262,
+CC         ChEBI:CHEBI:64612; EC=4.1.1.65; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00662};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00662};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00662};
+CC   -!- PATHWAY: Phospholipid metabolism; phosphatidylethanolamine
+CC       biosynthesis; phosphatidylethanolamine from CDP-diacylglycerol: step
+CC       2/2. {ECO:0000255|HAMAP-Rule:MF_00662}.
+CC   -!- SUBUNIT: Heterodimer of a large membrane-associated beta subunit and a
+CC       small pyruvoyl-containing alpha subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00662}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_00662};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_00662}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme. Formation of
+CC       the active enzyme involves a self-maturation process in which the
+CC       active site pyruvoyl group is generated from an internal serine residue
+CC       via an autocatalytic post-translational modification. Two non-identical
+CC       subunits are generated from the proenzyme in this reaction, and the
+CC       pyruvate is formed at the N-terminus of the alpha chain, which is
+CC       derived from the carboxyl end of the proenzyme. The autoendoproteolytic
+CC       cleavage occurs by a canonical serine protease mechanism, in which the
+CC       side chain hydroxyl group of the serine supplies its oxygen atom to
+CC       form the C-terminus of the beta chain, while the remainder of the
+CC       serine residue undergoes an oxidative deamination to produce ammonia
+CC       and the pyruvoyl prosthetic group on the alpha chain. During this
+CC       reaction, the Ser that is part of the protease active site of the
+CC       proenzyme becomes the pyruvoyl prosthetic group, which constitutes an
+CC       essential element of the active site of the mature decarboxylase.
+CC       {ECO:0000255|HAMAP-Rule:MF_00662}.
+CC   -!- SIMILARITY: Belongs to the phosphatidylserine decarboxylase family.
+CC       PSD-B subfamily. Prokaryotic type I sub-subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00662}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37289.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206459.1; NC_010002.1.
+DR   AlphaFoldDB; A9C3H8; -.
+DR   SMR; A9C3H8; -.
+DR   STRING; 398578.Daci_4660; -.
+DR   GeneID; 24115876; -.
+DR   KEGG; dac:Daci_4660; -.
+DR   eggNOG; COG0688; Bacteria.
+DR   HOGENOM; CLU_029061_4_1_4; -.
+DR   UniPathway; UPA00558; UER00616.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004609; F:phosphatidylserine decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006646; P:phosphatidylethanolamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00662; PS_decarb_PSD_B_type1; 1.
+DR   InterPro; IPR003817; PS_Dcarbxylase.
+DR   InterPro; IPR033177; PSD-B.
+DR   InterPro; IPR033178; PSD_type1_pro.
+DR   NCBIfam; TIGR00163; PS_decarb; 1.
+DR   PANTHER; PTHR10067; PHOSPHATIDYLSERINE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR10067:SF6; PHOSPHATIDYLSERINE DECARBOXYLASE PROENZYME, MITOCHONDRIAL; 1.
+DR   Pfam; PF02666; PS_Dcarbxylase; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Decarboxylase; Lipid biosynthesis; Lipid metabolism; Lyase;
+KW   Membrane; Phospholipid biosynthesis; Phospholipid metabolism; Pyruvate;
+KW   Reference proteome; Zymogen.
+FT   CHAIN           1..247
+FT                   /note="Phosphatidylserine decarboxylase beta chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT                   /id="PRO_1000131356"
+FT   CHAIN           248..284
+FT                   /note="Phosphatidylserine decarboxylase alpha chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT                   /id="PRO_1000131357"
+FT   ACT_SITE        88
+FT                   /note="Charge relay system; for autoendoproteolytic
+FT                   cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT   ACT_SITE        145
+FT                   /note="Charge relay system; for autoendoproteolytic
+FT                   cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT   ACT_SITE        248
+FT                   /note="Charge relay system; for autoendoproteolytic
+FT                   cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT   ACT_SITE        248
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid; for decarboxylase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT   SITE            247..248
+FT                   /note="Cleavage (non-hydrolytic); by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+FT   MOD_RES         248
+FT                   /note="Pyruvic acid (Ser); by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00662"
+SQ   SEQUENCE   284 AA;  30888 MW;  16229F1D6F5EA6AC CRC64;
+     MSDRLAVLSQ YLLPKQALTA VMGRLAQARA GDLTTAVIRR FIARYGVDMS EAADSDPAAY
+     ASFNEFFTRA LKPGVRPLAS ADWVCPVDGA ISQIGAIEGE QIFQAKGHSY SATALVGGDA
+     QLARQFDNGH FATIYLSPRD YHRIHMPCAG RLRRMIYVPG ELFSVNPVTA RGVPGLFARN
+     ERVVCVFDTD HGPMVLVLVG ATIVGSMGTV WHGIVNPPRP GRIQDWRYDD QSIVLGQGEE
+     MGRFQLGSTV VMLFPASAGL RFNGQWTHAA PVRLGQKMAG RNEA
+//

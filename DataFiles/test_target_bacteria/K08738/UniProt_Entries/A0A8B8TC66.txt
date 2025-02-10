@@ -1,0 +1,81 @@
+ID   A0A8B8TC66_CAMFR        Unreviewed;       105 AA.
+AC   A0A8B8TC66;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   SubName: Full=Cytochrome c {ECO:0000313|RefSeq:XP_032339730.1, ECO:0000313|RefSeq:XP_032339731.1};
+GN   Name=LOC102524306 {ECO:0000313|RefSeq:XP_032339730.1,
+GN   ECO:0000313|RefSeq:XP_032339731.1, ECO:0000313|RefSeq:XP_032339732.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032339732.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032339730.1, ECO:0000313|RefSeq:XP_032339731.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032339730.1,
+RC   ECO:0000313|RefSeq:XP_032339731.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Electron carrier protein. The oxidized form of the cytochrome
+CC       c heme group can accept an electron from the heme group of the
+CC       cytochrome c1 subunit of cytochrome reductase. Cytochrome c then
+CC       transfers this electron to the cytochrome oxidase complex, the final
+CC       protein carrier in the mitochondrial electron-transport chain.
+CC       {ECO:0000256|ARBA:ARBA00002555, ECO:0000256|RuleBase:RU004427}.
+CC   -!- FUNCTION: Plays a role in apoptosis. Suppression of the anti-apoptotic
+CC       members or activation of the pro-apoptotic members of the Bcl-2 family
+CC       leads to altered mitochondrial membrane permeability resulting in
+CC       release of cytochrome c into the cytosol. Binding of cytochrome c to
+CC       Apaf-1 triggers the activation of caspase-9, which then accelerates
+CC       apoptosis by activating other caspases.
+CC       {ECO:0000256|ARBA:ARBA00025038}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion intermembrane space
+CC       {ECO:0000256|ARBA:ARBA00004569}.
+CC   -!- PTM: Binds 1 heme group per subunit. {ECO:0000256|RuleBase:RU004427}.
+CC   -!- SIMILARITY: Belongs to the cytochrome c family.
+CC       {ECO:0000256|ARBA:ARBA00006488, ECO:0000256|RuleBase:RU004426}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006175744.1; XM_006175682.2.
+DR   RefSeq; XP_014406977.1; XM_014551491.1.
+DR   RefSeq; XP_014406978.1; XM_014551492.1.
+DR   RefSeq; XP_014406980.1; XM_014551494.1.
+DR   RefSeq; XP_032339730.1; XM_032483839.1.
+DR   RefSeq; XP_032339731.1; XM_032483840.1.
+DR   RefSeq; XP_032339732.1; XM_032483841.1.
+DR   KEGG; cfr:102524306; -.
+DR   Proteomes; UP000694856; Chromosome 7.
+DR   GO; GO:0005758; C:mitochondrial intermembrane space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006915; P:apoptotic process; IEA:UniProtKB-KW.
+DR   FunFam; 1.10.760.10:FF:000008; Cytochrome c; 1.
+DR   Gene3D; 1.10.760.10; Cytochrome c-like domain; 1.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR036909; Cyt_c-like_dom_sf.
+DR   InterPro; IPR002327; Cyt_c_1A/1B.
+DR   PANTHER; PTHR11961; CYTOCHROME C; 1.
+DR   Pfam; PF00034; Cytochrom_C; 1.
+DR   PRINTS; PR00604; CYTCHRMECIAB.
+DR   SUPFAM; SSF46626; Cytochrome c; 1.
+DR   PROSITE; PS51007; CYTC; 1.
+PE   3: Inferred from homology;
+KW   Apoptosis {ECO:0000256|ARBA:ARBA00022703};
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982,
+KW   ECO:0000256|RuleBase:RU004427};
+KW   Heme {ECO:0000256|ARBA:ARBA00022617, ECO:0000256|PROSITE-ProRule:PRU00433};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PROSITE-ProRule:PRU00433};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|PROSITE-
+KW   ProRule:PRU00433}; Mitochondrion {ECO:0000256|RuleBase:RU004427};
+KW   Respiratory chain {ECO:0000256|RuleBase:RU004427};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU004427}.
+FT   DOMAIN          2..103
+FT                   /note="Cytochrome c"
+FT                   /evidence="ECO:0000259|PROSITE:PS51007"
+SQ   SEQUENCE   105 AA;  11648 MW;  AAACA628EEE60485 CRC64;
+     MGDVEKGKKI FVQKCAQCHT VEKGGKHKTG PNLHGLFGRK TGQAVGFSYT DANKNKGITW
+     GEETLMEYLE NPKKYIPGTK MIFAGIKKKG ERADLIAYLK KATNE
+//

@@ -1,0 +1,137 @@
+ID   A0A0M7G7C6_ALCFA        Unreviewed;       416 AA.
+AC   A0A0M7G7C6; A0A0S2JT96;
+DT   09-DEC-2015, integrated into UniProtKB/TrEMBL.
+DT   09-DEC-2015, sequence version 1.
+DT   05-FEB-2025, entry version 49.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000256|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000256|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000256|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000256|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000256|HAMAP-Rule:MF_00051,
+GN   ECO:0000313|EMBL:PWE13689.1};
+GN   ORFNames=DF183_10955 {ECO:0000313|EMBL:PWE13689.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:PWE13689.1, ECO:0000313|Proteomes:UP000245216};
+RN   [1] {ECO:0000313|EMBL:PWE13689.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE13689.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE13689.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE13689.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon carrier.
+CC       This reaction serves as the major source of one-carbon groups required
+CC       for the biosynthesis of purines, thymidylate, methionine, and other
+CC       important biomolecules. Also exhibits THF-independent aldolase activity
+CC       toward beta-hydroxyamino acids, producing glycine and aldehydes, via a
+CC       retro-aldol mechanism. {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + glycine + H2O =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-serine; Xref=Rhea:RHEA:15481,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15636, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57453; EC=2.1.2.1;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00051};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933, ECO:0000256|HAMAP-
+CC         Rule:MF_00051, ECO:0000256|PIRSR:PIRSR000412-50};
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine from L-
+CC       serine: step 1/1. {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000256|ARBA:ARBA00006376,
+CC       ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00051}.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:PWE13689.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000003; PWE13689.1; -; Genomic_DNA.
+DR   RefSeq; WP_042486362.1; NZ_SRIW01000006.1.
+DR   AlphaFoldDB; A0A0M7G7C6; -.
+DR   STRING; 511.UZ73_13960; -.
+DR   GeneID; 29370667; -.
+DR   KEGG; afa:UZ73_13960; -.
+DR   OrthoDB; 9803846at2; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008168; F:methyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniRule.
+DR   CDD; cd00378; SHMT; 1.
+DR   FunFam; 3.40.640.10:FF:000001; Serine hydroxymethyltransferase; 1.
+DR   FunFam; 3.90.1150.10:FF:000003; Serine hydroxymethyltransferase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR049943; Ser_HO-MeTrfase-like.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   InterPro; IPR039429; SHMT-like_dom.
+DR   PANTHER; PTHR11680; SERINE HYDROXYMETHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11680:SF50; SERINE HYDROXYMETHYLTRANSFERASE; 1.
+DR   Pfam; PF00464; SHMT; 1.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00051};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00051};
+KW   Methyltransferase {ECO:0000313|EMBL:PWE13689.1};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563, ECO:0000256|HAMAP-
+KW   Rule:MF_00051};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898, ECO:0000256|HAMAP-
+KW   Rule:MF_00051};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00051}.
+FT   BINDING         121
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00051"
+FT   BINDING         125..127
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00051"
+FT   SITE            228
+FT                   /note="Plays an important role in substrate specificity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00051"
+FT   MOD_RES         229
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00051,
+FT                   ECO:0000256|PIRSR:PIRSR000412-50"
+SQ   SEQUENCE   416 AA;  44992 MW;  73E5D9E671338E00 CRC64;
+     MFDRSATLDK VDPDLWAAIQ SEDVRQEQHI ELIASENYTS PAVMQAQGTQ LTNKYAEGYP
+     GKRYYGGCEF VDVVEQLAID RLKELFGAEA ANVQPNSGSQ ANQGVYMAVL KPGDTVLGMS
+     LAEGGHLTHG SPVNASGKLY NFVSYGLDEN EELDYDELER LAKEHKPKLI VGGASAYALR
+     IDFERMARIA HENGALLMVD IAHYAGLVAG GAYPNPVPHA DFVTSTTHKS LRGPRGGVIM
+     MKAEHEKAIN SAIFPGIQGG PLIHVIAGKA VAFKEALAPE FKTYAAQVVK NADVLARTLV
+     ERGLRIVSGR TESHVMLVDL RPKGITGKVA EEALGKAHIT VNKNAIPNDP EKPFVTSGVR
+     LGTPAMTTRG FKEAEAELTA HLIADVLDNP HDEAVLADVR RRVHELTAKL PVYSSK
+//

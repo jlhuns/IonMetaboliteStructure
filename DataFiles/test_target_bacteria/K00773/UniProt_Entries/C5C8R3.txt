@@ -1,0 +1,177 @@
+ID   C5C8R3_MICLC            Unreviewed;       441 AA.
+AC   C5C8R3;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Queuine tRNA-ribosyltransferase {ECO:0000256|HAMAP-Rule:MF_00168};
+DE            EC=2.4.2.29 {ECO:0000256|HAMAP-Rule:MF_00168};
+DE   AltName: Full=Guanine insertion enzyme {ECO:0000256|HAMAP-Rule:MF_00168};
+DE   AltName: Full=tRNA-guanine transglycosylase {ECO:0000256|HAMAP-Rule:MF_00168};
+GN   Name=tgt {ECO:0000256|HAMAP-Rule:MF_00168,
+GN   ECO:0000313|EMBL:SQG48783.1};
+GN   OrderedLocusNames=Mlut_03090 {ECO:0000313|EMBL:ACS29865.1};
+GN   ORFNames=NCTC2665_01330 {ECO:0000313|EMBL:SQG48783.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS29865.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS29865.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS29865.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG48783.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG48783.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the base-exchange of a guanine (G) residue with the
+CC       queuine precursor 7-aminomethyl-7-deazaguanine (PreQ1) at position 34
+CC       (anticodon wobble position) in tRNAs with GU(N) anticodons (tRNA-Asp,
+CC       -Asn, -His and -Tyr). Catalysis occurs through a double-displacement
+CC       mechanism. The nucleophile active site attacks the C1' of nucleotide 34
+CC       to detach the guanine base from the RNA, forming a covalent enzyme-RNA
+CC       intermediate. The proton acceptor active site deprotonates the incoming
+CC       PreQ1, allowing a nucleophilic attack on the C1' of the ribose to form
+CC       the product. After dissociation, two additional enzymatic reactions on
+CC       the tRNA convert PreQ1 to queuine (Q), resulting in the hypermodified
+CC       nucleoside queuosine (7-(((4,5-cis-dihydroxy-2-cyclopenten-1-
+CC       yl)amino)methyl)-7-deazaguanosine). {ECO:0000256|HAMAP-Rule:MF_00168}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanine + guanosine(34) in tRNA = 7-
+CC         aminomethyl-7-carbaguanosine(34) in tRNA + guanine;
+CC         Xref=Rhea:RHEA:24104, Rhea:RHEA-COMP:10341, Rhea:RHEA-COMP:10342,
+CC         ChEBI:CHEBI:16235, ChEBI:CHEBI:58703, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:82833; EC=2.4.2.29; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00168};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00168};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_00168};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00168}.
+CC   -!- SUBUNIT: Homodimer. Within each dimer, one monomer is responsible for
+CC       RNA recognition and catalysis, while the other monomer binds to the
+CC       replacement base PreQ1. {ECO:0000256|HAMAP-Rule:MF_00168}.
+CC   -!- SIMILARITY: Belongs to the queuine tRNA-ribosyltransferase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00168}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00168}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS29865.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG48783.1; -; Genomic_DNA.
+DR   RefSeq; WP_012750723.1; NZ_LS483396.1.
+DR   AlphaFoldDB; C5C8R3; -.
+DR   STRING; 465515.Mlut_03090; -.
+DR   EnsemblBacteria; ACS29865; ACS29865; Mlut_03090.
+DR   KEGG; mlu:Mlut_03090; -.
+DR   PATRIC; fig|465515.4.peg.287; -.
+DR   eggNOG; COG0343; Bacteria.
+DR   HOGENOM; CLU_022060_0_0_11; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008479; F:tRNA-guanosine(34) queuine transglycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002099; P:tRNA wobble guanine modification; IEA:TreeGrafter.
+DR   GO; GO:0101030; P:tRNA-guanine transglycosylation; IEA:InterPro.
+DR   Gene3D; 3.20.20.105; Queuine tRNA-ribosyltransferase-like; 1.
+DR   HAMAP; MF_00168; Q_tRNA_Tgt; 1.
+DR   InterPro; IPR050076; ArchSynthase1/Queuine_TRR.
+DR   InterPro; IPR004803; TGT.
+DR   InterPro; IPR036511; TGT-like_sf.
+DR   InterPro; IPR002616; tRNA_ribo_trans-like.
+DR   NCBIfam; TIGR00430; Q_tRNA_tgt; 1.
+DR   NCBIfam; TIGR00449; tgt_general; 1.
+DR   PANTHER; PTHR46499; QUEUINE TRNA-RIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR46499:SF1; QUEUINE TRNA-RIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF01702; TGT; 2.
+DR   SUPFAM; SSF51713; tRNA-guanine transglycosylase; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676, ECO:0000256|HAMAP-
+KW   Rule:MF_00168}; Metal-binding {ECO:0000256|HAMAP-Rule:MF_00168};
+KW   Queuosine biosynthesis {ECO:0000256|HAMAP-Rule:MF_00168};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00168};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_00168}; Zinc {ECO:0000256|HAMAP-Rule:MF_00168}.
+FT   DOMAIN          36..123
+FT                   /note="tRNA-guanine(15) transglycosylase-like"
+FT                   /evidence="ECO:0000259|Pfam:PF01702"
+FT   DOMAIN          154..437
+FT                   /note="tRNA-guanine(15) transglycosylase-like"
+FT                   /evidence="ECO:0000259|Pfam:PF01702"
+FT   REGION          340..344
+FT                   /note="RNA binding; important for wobble base 34
+FT                   recognition"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   ACT_SITE        113
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   ACT_SITE        335
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         113..117
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         196
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         246
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         288
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         373
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         375
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         378
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+FT   BINDING         404
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00168"
+SQ   SEQUENCE   441 AA;  48061 MW;  86352EBCF6F0F2B4 CRC64;
+     MPDTPQPPAV PAHPDHFGFE VTHRLETPGH DGAPLGRTGV ITTPHGRIQT PAFIPVATQA
+     TVKAVLPESM AELGAQALLA NAYHLYLQPG DDLLDEAGGL GAFMNWPGPT FTDSGGFQVM
+     SLGSGFKKVI DMKGPGAPEG QGADDAVAPG KERLANVDDD GVWFKSHLTG DRHRFTPEVS
+     VGIQHNLGAD IMFAFDELTT LHNSRGYQEE ALERTRRWAQ RCLDEHARLT GVRAARPYQA
+     LFGVIQGAQY EDLRRKACRD LAAMRAEFPA AGELNGVASG FDGYGVGGAL EKENLGTIVG
+     WCAQELPEDK PRHLLGISEP DDLFTAVENG ADTFDCVSPT RVARTGAFYT RDGRFNLPGA
+     KYRRDFGPLD PECDCYTCAH YSRAYLRHLF KAKEMVAHTL LSIHNERFTV SLVDRIRAAM
+     QDGTLAELKA ETLGRYYAPK G
+//

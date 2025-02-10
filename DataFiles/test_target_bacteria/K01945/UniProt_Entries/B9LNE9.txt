@@ -1,0 +1,117 @@
+ID   B9LNE9_HALLT            Unreviewed;       427 AA.
+AC   B9LNE9;
+DT   24-MAR-2009, integrated into UniProtKB/TrEMBL.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Phosphoribosylamine--glycine ligase {ECO:0000256|ARBA:ARBA00013255, ECO:0000256|HAMAP-Rule:MF_00138};
+DE            EC=6.3.4.13 {ECO:0000256|ARBA:ARBA00013255, ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=GARS {ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Glycinamide ribonucleotide synthetase {ECO:0000256|ARBA:ARBA00042242, ECO:0000256|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Phosphoribosylglycinamide synthetase {ECO:0000256|ARBA:ARBA00042864, ECO:0000256|HAMAP-Rule:MF_00138};
+GN   Name=purD {ECO:0000256|HAMAP-Rule:MF_00138};
+GN   OrderedLocusNames=Hlac_1295 {ECO:0000313|EMBL:ACM56887.1};
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348 {ECO:0000313|EMBL:ACM56887.1, ECO:0000313|Proteomes:UP000000740};
+RN   [1] {ECO:0000313|EMBL:ACM56887.1, ECO:0000313|Proteomes:UP000000740}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34
+RC   {ECO:0000313|Proteomes:UP000000740};
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + glycine + ATP = N(1)-(5-
+CC         phospho-beta-D-ribosyl)glycinamide + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:17453, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57305, ChEBI:CHEBI:58681,
+CC         ChEBI:CHEBI:143788, ChEBI:CHEBI:456216; EC=6.3.4.13;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00138};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 2/2. {ECO:0000256|ARBA:ARBA00005174,
+CC       ECO:0000256|HAMAP-Rule:MF_00138}.
+CC   -!- SIMILARITY: Belongs to the GARS family. {ECO:0000256|ARBA:ARBA00038345,
+CC       ECO:0000256|HAMAP-Rule:MF_00138}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM56887.1; -; Genomic_DNA.
+DR   RefSeq; WP_015910029.1; NC_012029.1.
+DR   AlphaFoldDB; B9LNE9; -.
+DR   GeneID; 7399390; -.
+DR   KEGG; hla:Hlac_1295; -.
+DR   eggNOG; arCOG04415; Archaea.
+DR   HOGENOM; CLU_027420_3_0_2; -.
+DR   UniPathway; UPA00074; UER00125.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0004637; F:phosphoribosylamine-glycine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   Gene3D; 3.90.600.10; Phosphoribosylglycinamide synthetase, C-terminal domain; 1.
+DR   HAMAP; MF_00138; GARS; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR020561; PRibGlycinamid_synth_ATP-grasp.
+DR   InterPro; IPR000115; PRibGlycinamide_synth.
+DR   InterPro; IPR020560; PRibGlycinamide_synth_C-dom.
+DR   InterPro; IPR037123; PRibGlycinamide_synth_C_sf.
+DR   InterPro; IPR020559; PRibGlycinamide_synth_CS.
+DR   InterPro; IPR020562; PRibGlycinamide_synth_N.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   NCBIfam; TIGR00877; purD; 1.
+DR   PANTHER; PTHR43472; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE; 1.
+DR   PANTHER; PTHR43472:SF1; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF01071; GARS_A; 1.
+DR   Pfam; PF02843; GARS_C; 1.
+DR   Pfam; PF02844; GARS_N; 1.
+DR   SMART; SM01209; GARS_A; 1.
+DR   SMART; SM01210; GARS_C; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   SUPFAM; SSF51246; Rudiment single hybrid motif; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00184; GARS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00138};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_00138}; Reference proteome {ECO:0000313|Proteomes:UP000000740}.
+FT   DOMAIN          109..310
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+SQ   SEQUENCE   427 AA;  45341 MW;  C225F2C1683D44F4 CRC64;
+     MTETVLLVGG GGREHAIARA VADDCALYAC ASNRNPGIRR LADGFETIDE TDAEAVADYA
+     TAVGADLAVI GPESALAAGV ADALDEAGVY AFGPQAEEAR LETDKAYQRE FMDEADIPGC
+     PDYAVFDDIE AACDHIDAYD GDLAVKPAGL TGGKGVKVIG DQVTAEEAKT YLRDSDYDRV
+     VLEERLVGEE FTVQAFVANG DLRTTPAVQD HKRAYEGDEG PNTGGMGSYT DTGLSLPFMA
+     EGDYDDAVDV LEAVVDALPD YKGVLYGQFM LTAEGPKVVE FNARFGDPEA MNTLPVLETP
+     FIDVLTAARD GNDLPKLSFT GEATVCKYAV PEGYPTDPDA GAKIAVDEES VGDALLYYAS
+     VDERDDGLYT TTSRAFAVVG RGDSIAAAEA EAEDALAAAG DRVRIRHDIG TADLVERRIE
+     HMAEIRK
+//

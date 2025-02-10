@@ -1,0 +1,84 @@
+ID   W6RCC0_9HYPH            Unreviewed;       139 AA.
+AC   W6RCC0;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   02-OCT-2024, entry version 38.
+DE   RecName: Full=RNA polymerase-binding transcription factor DksA {ECO:0000256|HAMAP-Rule:MF_00926};
+GN   Name=dksA {ECO:0000256|HAMAP-Rule:MF_00926,
+GN   ECO:0000313|EMBL:CDM57930.1};
+GN   ORFNames=LPU83_2273 {ECO:0000313|EMBL:CDM57930.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM57930.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM57930.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM57930.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Transcription factor that acts by binding directly to the RNA
+CC       polymerase (RNAP). Required for negative regulation of rRNA expression
+CC       and positive regulation of several amino acid biosynthesis promoters.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBUNIT: Interacts directly with the RNA polymerase.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SIMILARITY: Belongs to the DksA family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00926}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM57930.1; -; Genomic_DNA.
+DR   RefSeq; WP_024312771.1; NZ_JAIRAY010000007.1.
+DR   AlphaFoldDB; W6RCC0; -.
+DR   KEGG; rhl:LPU83_2273; -.
+DR   PATRIC; fig|348824.6.peg.2455; -.
+DR   eggNOG; COG1734; Bacteria.
+DR   HOGENOM; CLU_043144_2_2_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010468; P:regulation of gene expression; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.120.910; DksA, coiled-coil domain; 1.
+DR   HAMAP; MF_00926; DksA; 1.
+DR   InterPro; IPR048489; DksA_N.
+DR   InterPro; IPR012784; DksA_RNA_pol-bd.
+DR   InterPro; IPR037187; DnaK_N.
+DR   InterPro; IPR000962; Znf_DskA_TraR.
+DR   InterPro; IPR020458; Znf_DskA_TraR_CS.
+DR   NCBIfam; TIGR02420; dksA; 1.
+DR   PANTHER; PTHR33823:SF2; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA; 1.
+DR   PANTHER; PTHR33823; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA-RELATED; 1.
+DR   Pfam; PF21157; DksA_N; 1.
+DR   Pfam; PF01258; zf-dskA_traR; 1.
+DR   SUPFAM; SSF109635; DnaK suppressor protein DksA, alpha-hairpin domain; 1.
+DR   SUPFAM; SSF57716; Glucocorticoid receptor-like (DNA-binding domain); 1.
+DR   PROSITE; PS01102; ZF_DKSA_1; 1.
+DR   PROSITE; PS51128; ZF_DKSA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00926};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00926}.
+FT   DOMAIN          23..93
+FT                   /note="DnaK suppressor protein DksA N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF21157"
+FT   DOMAIN          96..131
+FT                   /note="Zinc finger DksA/TraR C4-type"
+FT                   /evidence="ECO:0000259|Pfam:PF01258"
+FT   ZN_FING         101..125
+FT                   /note="dksA C4-type"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00510"
+SQ   SEQUENCE   139 AA;  16219 MW;  CE57D5D260F7E9AD CRC64;
+     MSEKIDLSNY VPSEEEEFMN GNQRAYFRAK LVAWRNDILR EARETLDHLA EESANHPDLA
+     DRASSETDRA IELRARDRQR KLISKIDAAL QRIEDGTYGY CEETGEPIGL KRLDARPIAT
+     LSIEAQERHE RREKVYRDE
+//

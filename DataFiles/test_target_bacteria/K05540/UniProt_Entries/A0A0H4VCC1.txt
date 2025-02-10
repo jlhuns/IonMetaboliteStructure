@@ -1,0 +1,121 @@
+ID   A0A0H4VCC1_9SPHN        Unreviewed;       340 AA.
+AC   A0A0H4VCC1;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 30.
+DE   RecName: Full=tRNA-dihydrouridine synthase {ECO:0000256|PIRNR:PIRNR006621};
+DE            EC=1.3.1.- {ECO:0000256|PIRNR:PIRNR006621};
+GN   ORFNames=CP97_10170 {ECO:0000313|EMBL:AKQ42307.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42307.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42307.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the synthesis of 5,6-dihydrouridine (D), a modified
+CC       base found in the D-loop of most tRNAs, via the reduction of the C5-C6
+CC       double bond in target uridines. {ECO:0000256|ARBA:ARBA00002790,
+CC       ECO:0000256|PIRNR:PIRNR006621}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5,6-dihydrouridine in tRNA + NAD(+) = a uridine in tRNA +
+CC         NADH + H(+); Xref=Rhea:RHEA:54452, Rhea:RHEA-COMP:13339, Rhea:RHEA-
+CC         COMP:13887, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74443;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048802};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5,6-dihydrouridine in tRNA + NADP(+) = a uridine in tRNA +
+CC         NADPH + H(+); Xref=Rhea:RHEA:23624, Rhea:RHEA-COMP:13339, Rhea:RHEA-
+CC         COMP:13887, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74443;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048205};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001917,
+CC         ECO:0000256|PIRNR:PIRNR006621, ECO:0000256|PIRSR:PIRSR006621-2};
+CC   -!- SIMILARITY: Belongs to the dus family. {ECO:0000256|PIRNR:PIRNR006621}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42307.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885839.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VCC1; -.
+DR   STRING; 1648404.CP97_10170; -.
+DR   KEGG; ery:CP97_10170; -.
+DR   PATRIC; fig|1648404.4.peg.2120; -.
+DR   OrthoDB; 9764501at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017150; F:tRNA dihydrouridine synthase activity; IEA:InterPro.
+DR   CDD; cd02801; DUS_like_FMN; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   Gene3D; 1.10.1200.80; Putative flavin oxidoreducatase, domain 2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR035587; DUS-like_FMN-bd.
+DR   InterPro; IPR001269; DUS_fam.
+DR   InterPro; IPR004652; DusB-like.
+DR   InterPro; IPR024036; tRNA-dHydroUridine_Synthase_C.
+DR   InterPro; IPR018517; tRNA_hU_synthase_CS.
+DR   NCBIfam; TIGR00737; nifR3_yhdG; 1.
+DR   PANTHER; PTHR45846; TRNA-DIHYDROURIDINE(47) SYNTHASE [NAD(P)(+)]-LIKE; 1.
+DR   PANTHER; PTHR45846:SF1; TRNA-DIHYDROURIDINE(47) SYNTHASE [NAD(P)(+)]-LIKE; 1.
+DR   Pfam; PF01207; Dus; 1.
+DR   PIRSF; PIRSF006621; Dus; 1.
+DR   SUPFAM; SSF51395; FMN-linked oxidoreductases; 1.
+DR   PROSITE; PS01136; UPF0034; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|PIRNR:PIRNR006621};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Nucleotide-binding {ECO:0000256|PIRSR:PIRSR006621-2};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555}.
+FT   DOMAIN          28..327
+FT                   /note="DUS-like FMN-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01207"
+FT   ACT_SITE        114
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-1"
+FT   BINDING         84
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         153
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         183
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         238..239
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+SQ   SEQUENCE   340 AA;  37482 MW;  8AD4D91542DF33C4 CRC64;
+     MDTTLNPTPP AITPIDIGPV RIDCPIVLAP MTGVTDMPFR QLVRRYGSGL NVTEMIASEA
+     AIRETRQSIQ KARWHESEDP VSMQLVGCDP ESMADAARLS EDQGAAVIDI NFGCPVRKVV
+     GQYAGSALMR EVPLARKLME ATVKAVKVPV TVKMRMGWDH ASLNAPEMAH IAEDLGVKLV
+     TVHGRTRNQM YKGSADWSFV RKVKDAVSIP VVVNGDICTI SDAATALAQS GADGLMIGRG
+     AYGKPWLLGQ VMHWWRTGEK LESPGFAEHY QTLVEHYNGM LEHYGEAVGV KIARKHLGWY
+     TKGMHGSADF RHKVNFIDDA RQVLGEVERF FDPFLRRCAA
+//

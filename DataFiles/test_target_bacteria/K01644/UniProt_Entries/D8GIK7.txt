@@ -1,0 +1,80 @@
+ID   D8GIK7_CLOLD            Unreviewed;       290 AA.
+AC   D8GIK7;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 70.
+DE   SubName: Full=Citrate lyase beta chain {ECO:0000313|EMBL:ADK17081.1};
+DE            EC=4.1.3.6 {ECO:0000313|EMBL:ADK17081.1};
+GN   OrderedLocusNames=CLJU_c40570 {ECO:0000313|EMBL:ADK17081.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK17081.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK17081.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK17081.1; -; Genomic_DNA.
+DR   RefSeq; WP_013240646.1; NZ_LITS01000020.1.
+DR   AlphaFoldDB; D8GIK7; -.
+DR   STRING; 748727.CLJU_c40570; -.
+DR   KEGG; clj:CLJU_c40570; -.
+DR   PATRIC; fig|748727.19.peg.1278; -.
+DR   eggNOG; COG2301; Bacteria.
+DR   HOGENOM; CLU_044864_0_0_9; -.
+DR   OrthoDB; 9786940at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0008815; F:citrate (pro-3S)-lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:TreeGrafter.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   PANTHER; PTHR32308:SF0; HPCH_HPAI ALDOLASE_CITRATE LYASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR32308; LYASE BETA SUBUNIT, PUTATIVE (AFU_ORTHOLOGUE AFUA_4G13030)-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000313|EMBL:ADK17081.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR015582-2}.
+FT   DOMAIN          6..224
+FT                   /note="HpcH/HpaI aldolase/citrate lyase"
+FT                   /evidence="ECO:0000259|Pfam:PF03328"
+FT   BINDING         67
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         129
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+FT   BINDING         129
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         156
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+SQ   SEQUENCE   290 AA;  31924 MW;  C5FE04D4A7349D1D CRC64;
+     MKKLRRTMLF MPGNNPGMLQ NAPILGADSV ILDLEDAVSL TEKDSARLLV KEAICNVDYS
+     KVELVVRVNP LDTEYGPKDI DTIARVKPDS LMIPKATEKQ LEEIDKILTG IEEEESFEKG
+     SIKLIPIVET AYGLENVYNI INSSKRVAAV LLGAEDLTSD FGIKRTKEGQ EIFYARNRVS
+     TACRAARVDA IDTPFTDTND YEGLKKDTTT AKKLGFTGKA AINPRQIDSI HEVFAPAKEE
+     IDHAVRVLKA RDEAQQKGLG VFSLDGKMVD APVISRAVTT VELAKLLGFI
+//

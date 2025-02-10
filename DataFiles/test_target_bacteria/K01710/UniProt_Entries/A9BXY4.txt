@@ -1,0 +1,81 @@
+ID   A9BXY4_DELAS            Unreviewed;       356 AA.
+AC   A9BXY4;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=dTDP-glucose 4,6-dehydratase {ECO:0000256|ARBA:ARBA00011990, ECO:0000256|RuleBase:RU004473};
+DE            EC=4.2.1.46 {ECO:0000256|ARBA:ARBA00011990, ECO:0000256|RuleBase:RU004473};
+GN   OrderedLocusNames=Daci_1275 {ECO:0000313|EMBL:ABX33919.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33919.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33919.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-alpha-D-glucose = dTDP-4-dehydro-6-deoxy-alpha-D-glucose
+CC         + H2O; Xref=Rhea:RHEA:17221, ChEBI:CHEBI:15377, ChEBI:CHEBI:57477,
+CC         ChEBI:CHEBI:57649; EC=4.2.1.46;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001539,
+CC         ECO:0000256|RuleBase:RU004473};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911,
+CC         ECO:0000256|RuleBase:RU004473};
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. dTDP-glucose dehydratase subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008178, ECO:0000256|RuleBase:RU004473}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33919.1; -; Genomic_DNA.
+DR   RefSeq; WP_012203205.1; NC_010002.1.
+DR   AlphaFoldDB; A9BXY4; -.
+DR   STRING; 398578.Daci_1275; -.
+DR   GeneID; 24119152; -.
+DR   KEGG; dac:Daci_1275; -.
+DR   eggNOG; COG1088; Bacteria.
+DR   HOGENOM; CLU_007383_1_14_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0008460; F:dTDP-glucose 4,6-dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009225; P:nucleotide-sugar metabolic process; IEA:InterPro.
+DR   CDD; cd05246; dTDP_GD_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR005888; dTDP_Gluc_deHydtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR01181; dTDP_gluc_dehyt; 1.
+DR   PANTHER; PTHR43000; DTDP-D-GLUCOSE 4,6-DEHYDRATASE-RELATED; 1.
+DR   Pfam; PF16363; GDP_Man_Dehyd; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU004473};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          3..323
+FT                   /note="NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF16363"
+SQ   SEQUENCE   356 AA;  39480 MW;  9ACBDEA172786264 CRC64;
+     MILVTGGAGF IGANFVLDWL AAGDEPVLNV DKLTYAGNLK SLESLQGDAR HVFVQADIGD
+     GQTLARLLAE HRPRAVVNFA AESHVDRSIH GPEDFIQTNV VGTFRLLEAV RGYWSALDAE
+     AKAAFRFLHV STDEVYGSLA PAAPAFTEDH LYEPNSPYSA SKAASDHLVR AWHHTYGLPV
+     LTTNCSNNYG PLHFPEKLIP LMIVNALAGK PLPIYGDGMQ VRDWLYVRDH CSAIRRVLEA
+     GRLGDTYNVG GWNEKPNVEI VNTVCALLDE LRPKADGTSY SAQITYVKDR PGHDRRYAID
+     ARKLERELGW KPAETFETGI RKTVQWYLDN PEWVADVQSG AYREWVSRQY TDGAGA
+//

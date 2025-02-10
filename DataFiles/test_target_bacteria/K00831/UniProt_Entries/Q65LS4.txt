@@ -1,0 +1,153 @@
+ID   Q65LS4_BACLD            Unreviewed;       357 AA.
+AC   Q65LS4; Q62X66;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 149.
+DE   RecName: Full=Phosphoserine aminotransferase {ECO:0000256|HAMAP-Rule:MF_00160};
+DE            EC=2.6.1.52 {ECO:0000256|HAMAP-Rule:MF_00160};
+DE   AltName: Full=Phosphohydroxythreonine aminotransferase {ECO:0000256|HAMAP-Rule:MF_00160};
+DE            Short=PSAT {ECO:0000256|HAMAP-Rule:MF_00160};
+GN   Name=serC {ECO:0000256|HAMAP-Rule:MF_00160,
+GN   ECO:0000313|EMBL:AAU22642.1};
+GN   OrderedLocusNames=BL05093 {ECO:0000313|EMBL:AAU22642.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22642.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22642.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the reversible conversion of 3-
+CC       phosphohydroxypyruvate to phosphoserine and of 3-hydroxy-2-oxo-4-
+CC       phosphonooxybutanoate to phosphohydroxythreonine. {ECO:0000256|HAMAP-
+CC       Rule:MF_00160}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-(phosphooxy)-L-threonine + 2-oxoglutarate = (R)-3-hydroxy-2-
+CC         oxo-4-phosphooxybutanoate + L-glutamate; Xref=Rhea:RHEA:16573,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29985, ChEBI:CHEBI:58452,
+CC         ChEBI:CHEBI:58538; EC=2.6.1.52;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047630, ECO:0000256|HAMAP-
+CC         Rule:MF_00160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-serine + 2-oxoglutarate = 3-phosphooxypyruvate +
+CC         L-glutamate; Xref=Rhea:RHEA:14329, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:18110, ChEBI:CHEBI:29985, ChEBI:CHEBI:57524; EC=2.6.1.52;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049007, ECO:0000256|HAMAP-
+CC         Rule:MF_00160, ECO:0000256|RuleBase:RU004505};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00160};
+CC       Note=Binds 1 pyridoxal phosphate per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00160};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine from
+CC       3-phospho-D-glycerate: step 2/3. {ECO:0000256|ARBA:ARBA00005099,
+CC       ECO:0000256|HAMAP-Rule:MF_00160, ECO:0000256|RuleBase:RU004505}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00160}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00160}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. SerC subfamily.
+CC       {ECO:0000256|ARBA:ARBA00006904, ECO:0000256|HAMAP-Rule:MF_00160}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00160}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22642.1; -; Genomic_DNA.
+DR   RefSeq; WP_003180262.1; NC_006322.1.
+DR   AlphaFoldDB; Q65LS4; -.
+DR   STRING; 279010.BL05093; -.
+DR   GeneID; 76974028; -.
+DR   KEGG; bld:BLi01082; -.
+DR   KEGG; bli:BL05093; -.
+DR   PATRIC; fig|279010.13.peg.1063; -.
+DR   eggNOG; COG1932; Bacteria.
+DR   HOGENOM; CLU_034866_0_2_9; -.
+DR   UniPathway; UPA00135; UER00197.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004648; F:O-phospho-L-serine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00611; PSAT_like; 1.
+DR   FunFam; 3.40.640.10:FF:000010; Phosphoserine aminotransferase; 1.
+DR   FunFam; 3.90.1150.10:FF:000006; Phosphoserine aminotransferase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00160; SerC_aminotrans_5; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR022278; Pser_aminoTfrase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01364; serC_1; 1.
+DR   PANTHER; PTHR43247; PHOSPHOSERINE AMINOTRANSFERASE; 1.
+DR   PANTHER; PTHR43247:SF1; PHOSPHOSERINE AMINOTRANSFERASE; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF000525; SerC; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00160};
+KW   Aminotransferase {ECO:0000256|ARBA:ARBA00022576, ECO:0000256|HAMAP-
+KW   Rule:MF_00160}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00160};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898, ECO:0000256|HAMAP-
+KW   Rule:MF_00160}; Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Serine biosynthesis {ECO:0000256|ARBA:ARBA00023299, ECO:0000256|HAMAP-
+KW   Rule:MF_00160};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00160,
+KW   ECO:0000256|RuleBase:RU004505}.
+FT   DOMAIN          6..346
+FT                   /note="Aminotransferase class V"
+FT                   /evidence="ECO:0000259|Pfam:PF00266"
+FT   BINDING         42
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         76..77
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         102
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         150
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         169
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         192
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   BINDING         234..235
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+FT   MOD_RES         193
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00160"
+SQ   SEQUENCE   357 AA;  39600 MW;  05C110A56B7D590C CRC64;
+     MIRTTNFNAG PAALPLEVLQ KAKDEFLDFN GAGMSVMELS HRSKEYDAVH QKAKALLKEL
+     MDIPDDYEVM FLQGGASLQF SMIPMNFLSK DKTAHFIMTG AWSEKALAEA KLFGNTSIIA
+     SSKEDTYSYI PEVPEIPADG AYLHLTSNNT IFGTQWQKFP DAPIPVVADM SSDILSRKID
+     VSQFDIIYAG AQKNLGPSGV TVVIMKKDWL GKENEQVAKI LKYSTHAKAD SLYNTPPTFA
+     IYMLSLVLEW LKEKGGLDAI EKRNREKAGI LYNAIDESGG FYRGHAREDS RSNMNVTFTL
+     KNDELTASFI AKAKEEKMSG LGGHRSVGGC RASIYNAVSV EDCEKLAAFM KKFREEN
+//

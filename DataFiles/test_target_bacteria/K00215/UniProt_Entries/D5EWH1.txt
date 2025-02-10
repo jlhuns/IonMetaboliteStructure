@@ -1,0 +1,93 @@
+ID   D5EWH1_XYLR2            Unreviewed;       238 AA.
+AC   D5EWH1;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase {ECO:0000256|ARBA:ARBA00038983, ECO:0000256|NCBIfam:TIGR00036};
+DE            EC=1.17.1.8 {ECO:0000256|ARBA:ARBA00038983, ECO:0000256|NCBIfam:TIGR00036};
+GN   Name=dapB {ECO:0000313|EMBL:ADE82545.1};
+GN   OrderedLocusNames=PRU_2449 {ECO:0000313|EMBL:ADE82545.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82545.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82545.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NAD(+) + H2O = (2S,4S)-4-
+CC         hydroxy-2,3,4,5-tetrahydrodipicolinate + NADH + H(+);
+CC         Xref=Rhea:RHEA:35323, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049396};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NADP(+) + H2O = (2S,4S)-
+CC         4-hydroxy-2,3,4,5-tetrahydrodipicolinate + NADPH + H(+);
+CC         Xref=Rhea:RHEA:35331, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049080};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 4/4.
+CC       {ECO:0000256|ARBA:ARBA00037922}.
+CC   -!- SIMILARITY: Belongs to the DapB family.
+CC       {ECO:0000256|ARBA:ARBA00006642}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82545.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064531.1; NC_014033.1.
+DR   AlphaFoldDB; D5EWH1; -.
+DR   STRING; 264731.PRU_2449; -.
+DR   KEGG; pru:PRU_2449; -.
+DR   eggNOG; COG0289; Bacteria.
+DR   HOGENOM; CLU_047479_1_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008839; F:4-hydroxy-tetrahydrodipicolinate reductase; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR022663; DapB_C.
+DR   InterPro; IPR000846; DapB_N.
+DR   InterPro; IPR023940; DHDPR_bac.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00036; dapB; 1.
+DR   PANTHER; PTHR20836:SF0; 4-HYDROXY-TETRAHYDRODIPICOLINATE REDUCTASE 1, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR20836; DIHYDRODIPICOLINATE REDUCTASE; 1.
+DR   Pfam; PF05173; DapB_C; 1.
+DR   Pfam; PF01113; DapB_N; 1.
+DR   PIRSF; PIRSF000161; DHPR; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Diaminopimelate biosynthesis {ECO:0000256|ARBA:ARBA00022915};
+KW   Lysine biosynthesis {ECO:0000256|ARBA:ARBA00023154};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027}; NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:ADE82545.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          1..104
+FT                   /note="Dihydrodipicolinate reductase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01113"
+FT   DOMAIN          107..235
+FT                   /note="Dihydrodipicolinate reductase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF05173"
+SQ   SEQUENCE   238 AA;  26676 MW;  F6EDB5699F489447 CRC64;
+     MKIALIGYGK MGKMIEQIAL DRGHEIVSII DIDNQQDFDS PEFASADVAI EFTAPQAAYG
+     NYLKAWAKGV KVVSGSTGWM TEHGDEVRKA CNEEGKTLFW ASNFSIGVAI FSAVNRYLAK
+     IMNQFPQYDV EMEETHHVHK LDHPSGTAIT LAEEIVDNID RKEAWKEDTT DKKYLRVDHI
+     RRGEVPGIHT IRYDSDADLI TITHDAHSRK GFALGAVLAA EYTSQHQGLL TISDMFKF
+//

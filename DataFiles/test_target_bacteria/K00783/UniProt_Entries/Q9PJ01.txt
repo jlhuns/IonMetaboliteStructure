@@ -1,0 +1,99 @@
+ID   RLMH_CAMJE              Reviewed;         153 AA.
+AC   Q9PJ01; Q0PC11;
+DT   20-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 100.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_00658};
+DE            EC=2.1.1.177 {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA (pseudouridine1915-N3)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA m3Psi1915 methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=rRNA (pseudouridine-N3-)-methyltransferase RlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   Name=rlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   OrderedLocusNames=Cj0126c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Specifically methylates the pseudouridine at position 1915
+CC       (m3Psi1915) in 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pseudouridine(1915) in 23S rRNA + S-adenosyl-L-methionine =
+CC         N(3)-methylpseudouridine(1915) in 23S rRNA + S-adenosyl-L-
+CC         homocysteine + H(+); Xref=Rhea:RHEA:42752, Rhea:RHEA-COMP:10221,
+CC         Rhea:RHEA-COMP:10222, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:65314, ChEBI:CHEBI:74486;
+CC         EC=2.1.1.177; Evidence={ECO:0000255|HAMAP-Rule:MF_00658};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase RlmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34297.1; -; Genomic_DNA.
+DR   PIR; F81429; F81429.
+DR   RefSeq; WP_002869860.1; NC_002163.1.
+DR   RefSeq; YP_002343586.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PJ01; -.
+DR   SMR; Q9PJ01; -.
+DR   IntAct; Q9PJ01; 4.
+DR   STRING; 192222.Cj0126c; -.
+DR   PaxDb; 192222-Cj0126c; -.
+DR   EnsemblBacteria; CAL34297; CAL34297; Cj0126c.
+DR   GeneID; 904460; -.
+DR   KEGG; cje:Cj0126c; -.
+DR   PATRIC; fig|192222.6.peg.124; -.
+DR   eggNOG; COG1576; Bacteria.
+DR   HOGENOM; CLU_100552_2_1_7; -.
+DR   OrthoDB; 9806643at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070038; F:rRNA (pseudouridine-N3-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd18081; RlmH-like; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00658; 23SrRNA_methyltr_H; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR003742; RlmH-like.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   PANTHER; PTHR33603; METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR33603:SF1; RIBOSOMAL RNA LARGE SUBUNIT METHYLTRANSFERASE H; 1.
+DR   Pfam; PF02590; SPOUT_MTase; 1.
+DR   PIRSF; PIRSF004505; MT_bac; 1.
+DR   SUPFAM; SSF75217; alpha/beta knot; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..153
+FT                   /note="Ribosomal RNA large subunit methyltransferase H"
+FT                   /id="PRO_0000198104"
+FT   BINDING         75
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         102
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         121..126
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+SQ   SEQUENCE   153 AA;  17783 MW;  BBCEA3B3ECAA9239 CRC64;
+     MENNLQVNIF CIQKSDEFKT CSEKYSKLIS KYATLKEINV FNKKIALAQN LNAIEAKKSY
+     EEAFMPYKKG YCIALDEKGK DLTSIEFAKL IQDKNELSFF IGGAYGLREE FNQSLDFRLS
+     LSKLTLAHQF VKTLLLEQIY RAFCINNNHP YHK
+//

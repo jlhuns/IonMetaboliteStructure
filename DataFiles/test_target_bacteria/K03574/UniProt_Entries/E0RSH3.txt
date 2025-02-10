@@ -1,0 +1,146 @@
+ID   E0RSH3_SPITD            Unreviewed;       178 AA.
+AC   E0RSH3;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 61.
+DE   RecName: Full=Oxidized purine nucleoside triphosphate hydrolase {ECO:0000256|ARBA:ARBA00026218};
+DE            EC=3.6.1.56 {ECO:0000256|ARBA:ARBA00026103};
+DE   AltName: Full=2-hydroxy-dATP diphosphatase {ECO:0000256|ARBA:ARBA00031927};
+DE   AltName: Full=7,8-dihydro-8-oxoguanine triphosphatase {ECO:0000256|ARBA:ARBA00030682};
+DE   AltName: Full=8-oxo-dGTPase {ECO:0000256|ARBA:ARBA00030634};
+DE   AltName: Full=Methylated purine nucleoside triphosphate hydrolase {ECO:0000256|ARBA:ARBA00032071};
+DE   AltName: Full=Nucleoside diphosphate-linked moiety X motif 1 {ECO:0000256|ARBA:ARBA00029673};
+GN   Name=mutT {ECO:0000313|EMBL:ADN01960.1};
+GN   OrderedLocusNames=STHERM_c10140 {ECO:0000313|EMBL:ADN01960.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01960.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01960.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Oxidized purine nucleoside triphosphate hydrolase which is a
+CC       prominent sanitizer of the oxidized nucleotide pool. Catalyzes the
+CC       hydrolysis of 2-oxo-dATP (2-hydroxy-dATP) into 2-oxo-dAMP. Has also a
+CC       significant hydrolase activity toward 2-oxo-ATP, 8-oxo-dGTP and 8-oxo-
+CC       dATP. Through the hydrolysis of oxidized purine nucleoside
+CC       triphosphates, prevents their incorporation into DNA and the subsequent
+CC       transversions A:T to C:G and G:C to T:A. Also catalyzes the hydrolysis
+CC       of methylated purine nucleoside triphosphate preventing their
+CC       integration into DNA. Through this antimutagenic activity protects
+CC       cells from oxidative stress. {ECO:0000256|ARBA:ARBA00045200}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxo-ATP + H2O = 2-oxo-AMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:67392, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:71395, ChEBI:CHEBI:172878;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024596};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67393;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024596};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxo-dATP + H2O = 2-oxo-dAMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:31583, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:63212, ChEBI:CHEBI:77897; EC=3.6.1.56;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024459};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31584;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024459};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dATP + H2O = 8-oxo-dAMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:65396, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:71361, ChEBI:CHEBI:172871;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024448};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65397;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024448};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dGTP + H2O = 8-oxo-dGMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:31575, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:63224, ChEBI:CHEBI:77896;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024486};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:31576;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024486};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-methyl-ATP + H2O = N(6)-methyl-AMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:67608, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:144842, ChEBI:CHEBI:172873;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048002};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67609;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048002};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-methyl-dATP + H2O = N(6)-methyl-dAMP + diphosphate +
+CC         H(+); Xref=Rhea:RHEA:67604, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:169976, ChEBI:CHEBI:172872;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049032};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67605;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049032};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O(6)-methyl-dGTP + H2O = O(6)-methyl-dGMP + diphosphate +
+CC         H(+); Xref=Rhea:RHEA:67600, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:169974, ChEBI:CHEBI:169975;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048894};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:67601;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048894};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family.
+CC       {ECO:0000256|ARBA:ARBA00005582}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01960.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313801.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSH3; -.
+DR   PaxDb; 665571-STHERM_c10140; -.
+DR   KEGG; sta:STHERM_c10140; -.
+DR   eggNOG; COG1051; Bacteria.
+DR   HOGENOM; CLU_037162_11_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0106377; F:2-hydroxy-ATP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0106378; F:2-hydroxy-dATP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0035539; F:8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity; IEA:RHEA.
+DR   GO; GO:0008413; F:8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106431; F:N6-methyl-(d)ATP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0106433; F:O6-methyl-dGTP hydrolase activity; IEA:RHEA.
+DR   GO; GO:0042262; P:DNA protection; IEA:InterPro.
+DR   CDD; cd03427; MTH1; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR003563; 8ODP.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   PANTHER; PTHR43758; 7,8-DIHYDRO-8-OXOGUANINE TRIPHOSPHATASE; 1.
+DR   PANTHER; PTHR43758:SF2; OXIDIZED PURINE NUCLEOSIDE TRIPHOSPHATE HYDROLASE; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01403; 8OXTPHPHTASE.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ADN01960.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723}.
+FT   DOMAIN          23..152
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51462"
+SQ   SEQUENCE   178 AA;  20208 MW;  ED0D76025E7472D9 CRC64;
+     MSETHHLYEH TSAKDVPWES LSFTERAVLC FVFEGERVLL IHKKRGLGKG KINAPGGRIE
+     PGETALEAAV RETQEEVGLI PINPQECARL HFLFTDGYSL HGTVFRAFSY EGTLRETEEA
+     IPLWSPVSSI PYDRMWEDDR LWIPHLLEGR YVEGFFIFDG DTMLDAHVVT GAILPPPR
+//

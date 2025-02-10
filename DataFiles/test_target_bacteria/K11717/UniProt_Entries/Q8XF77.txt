@@ -1,0 +1,138 @@
+ID   SUFS_SALTI              Reviewed;         406 AA.
+AC   Q8XF77; Q7AMW8;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            EC=2.8.1.7 {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine beta-lyase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            Short=SCL {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine lyase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            EC=4.4.1.16 {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine reductase {ECO:0000255|HAMAP-Rule:MF_01831};
+GN   Name=sufS {ECO:0000255|HAMAP-Rule:MF_01831};
+GN   OrderedLocusNames=STY1750, t1241;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+CC   -!- FUNCTION: Cysteine desulfurases mobilize the sulfur from L-cysteine to
+CC       yield L-alanine, an essential step in sulfur metabolism for
+CC       biosynthesis of a variety of sulfur-containing biomolecules. Component
+CC       of the suf operon, which is activated and required under specific
+CC       conditions such as oxidative stress and iron limitation. Acts as a
+CC       potent selenocysteine lyase in vitro, that mobilizes selenium from L-
+CC       selenocysteine. Selenocysteine lyase activity is however unsure in
+CC       vivo. {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01831};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-selenocysteine + AH2 = hydrogenselenide + L-alanine + A +
+CC         H(+); Xref=Rhea:RHEA:11632, ChEBI:CHEBI:13193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:29317, ChEBI:CHEBI:57843,
+CC         ChEBI:CHEBI:57972; EC=4.4.1.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01831};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01831};
+CC   -!- PATHWAY: Cofactor biosynthesis; iron-sulfur cluster biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SUBUNIT: Homodimer. Interacts with SufE and the SufBCD complex composed
+CC       of SufB, SufC and SufD. The interaction with SufE is required to
+CC       mediate the direct transfer of the sulfur atom from the S-
+CC       sulfanylcysteine. {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. Csd subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01831}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO68896.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD01992.1; -; Genomic_DNA.
+DR   RefSeq; NP_456151.1; NC_003198.1.
+DR   RefSeq; WP_000143859.1; NZ_WSUR01000011.1.
+DR   AlphaFoldDB; Q8XF77; -.
+DR   SMR; Q8XF77; -.
+DR   STRING; 220341.gene:17585684; -.
+DR   KEGG; stt:t1241; -.
+DR   KEGG; sty:STY1750; -.
+DR   PATRIC; fig|220341.7.peg.1761; -.
+DR   eggNOG; COG0520; Bacteria.
+DR   HOGENOM; CLU_003433_2_5_6; -.
+DR   OMA; LVTWQQI; -.
+DR   OrthoDB; 9808002at2; -.
+DR   UniPathway; UPA00266; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009000; F:selenocysteine lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:InterPro.
+DR   CDD; cd06453; SufS_like; 1.
+DR   FunFam; 3.40.640.10:FF:000042; Cysteine desulfurase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_01831; SufS_aminotrans_5; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010970; Cys_dSase_SufS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01979; sufS; 1.
+DR   PANTHER; PTHR43586; CYSTEINE DESULFURASE; 1.
+DR   PANTHER; PTHR43586:SF25; CYSTEINE DESULFURASE; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lyase; Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..406
+FT                   /note="Cysteine desulfurase"
+FT                   /id="PRO_0000150335"
+FT   ACT_SITE        364
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01831"
+FT   MOD_RES         226
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01831"
+SQ   SEQUENCE   406 AA;  44504 MW;  C58FA0C0EFA41820 CRC64;
+     MTFPVEKVRA DFPILQREVN GLPLAYLDSA ASAQKPNQVI DAESAFYRHG YAAVHRGIHT
+     LSAQATESME NVRKQASRFI NARSAEELVF VRGTTEGINL VANSWGTENI RAGDNIIISE
+     MEHHANIVPW QMLCERKGAE LRVIPLHPDG TLRLETLAAL FDDRTRLLAI THVSNVLGTE
+     NPLPDMIALA RQHGAKVLVD GAQAVMHHAV DVQALDCDFY VFSGHKLYGP TGIGILYVKE
+     ALLQEMPPWE GGGSMISTVS LTQGTTWAKA PWRFEAGTPN TGGIIGLGAA IDYVTSLGLD
+     KIGDYEQMLM RYALEQLAQV PDITLYGPAQ RLGVIAFNLG KHHAYDVGSF LDNYGIAVRT
+     GHHCAMPLMA WYGVPAMCRA SLAMYNTHEE VDRLVAGLTR IHRLLG
+//

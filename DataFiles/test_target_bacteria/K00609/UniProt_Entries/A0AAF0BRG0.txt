@@ -1,0 +1,144 @@
+ID   A0AAF0BRG0_RHOPA        Unreviewed;       317 AA.
+AC   A0AAF0BRG0;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Aspartate carbamoyltransferase {ECO:0000256|HAMAP-Rule:MF_00001};
+DE            EC=2.1.3.2 {ECO:0000256|HAMAP-Rule:MF_00001};
+DE   AltName: Full=Aspartate transcarbamylase {ECO:0000256|HAMAP-Rule:MF_00001};
+DE            Short=ATCase {ECO:0000256|HAMAP-Rule:MF_00001};
+GN   Name=pyrB {ECO:0000256|HAMAP-Rule:MF_00001};
+GN   ORFNames=TX73_016120 {ECO:0000313|EMBL:WCL93282.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL93282.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL93282.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the condensation of carbamoyl phosphate and
+CC       aspartate to form carbamoyl aspartate and inorganic phosphate, the
+CC       committed step in the de novo pyrimidine nucleotide biosynthesis
+CC       pathway. {ECO:0000256|ARBA:ARBA00043884, ECO:0000256|HAMAP-
+CC       Rule:MF_00001}.
+CC   -!- FUNCTION: Reversibly catalyzes the transfer of the carbamoyl group from
+CC       carbamoyl phosphate (CP) to the N(epsilon) atom of ornithine (ORN) to
+CC       produce L-citrulline. {ECO:0000256|ARBA:ARBA00003822}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-aspartate = N-carbamoyl-L-aspartate +
+CC         phosphate + H(+); Xref=Rhea:RHEA:20013, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:32814, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048859, ECO:0000256|HAMAP-
+CC         Rule:MF_00001};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 2/3.
+CC       {ECO:0000256|ARBA:ARBA00004852, ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   -!- SUBUNIT: Heterododecamer (2C3:3R2) of six catalytic PyrB chains
+CC       organized as two trimers (C3), and six regulatory PyrI chains organized
+CC       as three dimers (R2). {ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. ATCase family. {ECO:0000256|ARBA:ARBA00008896,
+CC       ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL93282.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158662.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BRG0; -.
+DR   GeneID; 66894199; -.
+DR   KEGG; rpa:TX73_016120; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004070; F:aspartate carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006520; P:amino acid metabolic process; IEA:InterPro.
+DR   FunFam; 3.40.50.1370:FF:000007; Aspartate carbamoyltransferase; 1.
+DR   Gene3D; 3.40.50.1370; Aspartate/ornithine carbamoyltransferase; 2.
+DR   HAMAP; MF_00001; Asp_carb_tr; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR002082; Asp_carbamoyltransf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   NCBIfam; TIGR00670; asp_carb_tr; 1.
+DR   PANTHER; PTHR45753:SF6; ASPARTATE CARBAMOYLTRANSFERASE; 1.
+DR   PANTHER; PTHR45753; ORNITHINE CARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00101; ATCASE.
+DR   SUPFAM; SSF53671; Aspartate/ornithine carbamoyltransferase; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   3: Inferred from homology;
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_00001}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00001}.
+FT   DOMAIN          14..156
+FT                   /note="Aspartate/ornithine carbamoyltransferase carbamoyl-P
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF02729"
+FT   DOMAIN          164..309
+FT                   /note="Aspartate/ornithine carbamoyltransferase Asp/Orn-
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00185"
+FT   BINDING         66
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         67
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         94
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         116
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         144
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         147
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         177
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         231
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         272
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         273
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+SQ   SEQUENCE   317 AA;  34421 MW;  A540D0C2315006FB CRC64;
+     MTPAPKSTFV LGHRHLLGIE GLSAADISGL LDLSEEYVEL NRQVDKKRTS LRGRTQVNLF
+     FEASTRTQSS FEIAGKRLGA DVMNMSVSSS SMRKGETLMD TAVTLNAMHP DILVVRHHAS
+     GAVELLARKV DGSVINAGDG AHEHPTQALL DALTIRRNKG RLEGLVVAIC GDVMHSRVAR
+     SNILLLNTMG ARVRVVAPST LLPAGIERMG VEVARDMREG LDGADIVMML RLQRERMNGS
+     FVPSSAEYFN YFGLDQKKLS YAKPDALVMH PGPMNRGVEI DSIVADGAQS VIREQVEMGV
+     AVRMAVLEAL ARNLPNA
+//

@@ -1,0 +1,96 @@
+ID   A0A0H4VEK7_9SPHN        Unreviewed;       588 AA.
+AC   A0A0H4VEK7;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 37.
+DE   SubName: Full=DEAD/DEAH box helicase {ECO:0000313|EMBL:AKQ42790.1};
+GN   ORFNames=CP97_13215 {ECO:0000313|EMBL:AKQ42790.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42790.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42790.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family.
+CC       {ECO:0000256|ARBA:ARBA00038437, ECO:0000256|RuleBase:RU000492}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42790.1; -; Genomic_DNA.
+DR   RefSeq; WP_048886332.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VEK7; -.
+DR   STRING; 1648404.CP97_13215; -.
+DR   KEGG; ery:CP97_13215; -.
+DR   PATRIC; fig|1648404.4.peg.2747; -.
+DR   OrthoDB; 9805696at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-ARBA.
+DR   CDD; cd00268; DEADc; 1.
+DR   CDD; cd12252; RRM_DbpA; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 3.30.70.330; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR005580; DbpA/CsdA_RNA-bd_dom.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050079; DEAD_box_RNA_helicase.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR012677; Nucleotide-bd_a/b_plait_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   PANTHER; PTHR47959:SF1; ATP-DEPENDENT RNA HELICASE DBPA; 1.
+DR   PANTHER; PTHR47959; ATP-DEPENDENT RNA HELICASE RHLE-RELATED; 1.
+DR   Pfam; PF03880; DbpA; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|RuleBase:RU000492};
+KW   Helicase {ECO:0000256|ARBA:ARBA00022806, ECO:0000256|RuleBase:RU000492};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU000492};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|RuleBase:RU000492};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          30..206
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51192"
+FT   DOMAIN          229..377
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51194"
+FT   REGION          521..588
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   588 AA;  64265 MW;  204F38FD64330F59 CRC64;
+     MTFPDLPTGL AEALAQRGYD APTPVQAAVL EPEAHGRDLV VSAQTGSGKT VAFGLAFAAQ
+     VLGEDGRVNP SDAPSALVIA PTRELALQVS RELAWLYQKA GARIATCVGG MNPSQERRVL
+     KSGATIVVGT PGRLRDHLER GALDLSALAA VVLDEADEML DMGFREELEE ILDATPNTRR
+     TLLFSATMPR PIEALAKRYQ RNALRIATTG AERGHGDIAY QAVTVSPSEI ENAVVNLLRF
+     HEAETAILFC ATRDKVRHLH ATLQERGFAA VALSGEHSQS ERNQALQALR DKRARVCVAT
+     DVASRGIDLP SLSLVIHVEI PRDAEILQHR SGRTGRAGKK GTAVIVVPFP RRRRVESMLR
+     HAKINAEWID VPDRDAILGK DRERLLEALL QPIEVQDGDR ELADRLLAER TPQEIAALLV
+     QAHRAKMPEP EEMLVNSAQA HRADQKERHR PGFEDTVWFR MDIGRRQNAD PRWVLPLLCR
+     RGHITRNEIG AIRIGPQETH FQIPRTISDK FAEALVRTAG DESNGGDVTI ELSPEAPRDA
+     ARARKKGAPN AGRKGSPYVK KHRKGNAGPG KPKGGKPGNK PGGDKRGK
+//

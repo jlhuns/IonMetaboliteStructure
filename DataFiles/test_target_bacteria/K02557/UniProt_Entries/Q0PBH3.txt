@@ -1,0 +1,90 @@
+ID   Q0PBH3_CAMJE            Unreviewed;       247 AA.
+AC   Q0PBH3;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   SubName: Full=Flagellar motor protein {ECO:0000313|EMBL:CAL34487.1};
+GN   Name=motB {ECO:0000313|EMBL:CAL34487.1};
+GN   OrderedLocusNames=Cj0336c {ECO:0000313|EMBL:CAL34487.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34487.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34487.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- INTERACTION:
+CC       Q0PBH3; Q0PAR8: Cj0599; NbExp=3; IntAct=EBI-1191146, EBI-1191534;
+CC       Q0PBH3; Q0P9X3: Cj0926; NbExp=3; IntAct=EBI-1191146, EBI-1191627;
+CC       Q0PBH3; Q0P9G0: Cj1094c; NbExp=3; IntAct=EBI-1191146, EBI-1191651;
+CC       Q0PBH3; Q0PC27: exbD3; NbExp=3; IntAct=EBI-1191146, EBI-1192478;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004162};
+CC       Single-pass membrane protein {ECO:0000256|ARBA:ARBA00004162}.
+CC   -!- SIMILARITY: Belongs to the MotB family.
+CC       {ECO:0000256|ARBA:ARBA00008914}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34487.1; -; Genomic_DNA.
+DR   PIR; D81453; D81453.
+DR   RefSeq; WP_002851120.1; NZ_SZUC01000004.1.
+DR   RefSeq; YP_002343774.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PBH3; -.
+DR   SMR; Q0PBH3; -.
+DR   IntAct; Q0PBH3; 37.
+DR   STRING; 192222.Cj0336c; -.
+DR   PaxDb; 192222-Cj0336c; -.
+DR   EnsemblBacteria; CAL34487; CAL34487; Cj0336c.
+DR   GeneID; 904660; -.
+DR   KEGG; cje:Cj0336c; -.
+DR   PATRIC; fig|192222.6.peg.328; -.
+DR   eggNOG; COG1360; Bacteria.
+DR   HOGENOM; CLU_016890_0_1_7; -.
+DR   OrthoDB; 5292153at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   CDD; cd07185; OmpA_C-like; 1.
+DR   Gene3D; 3.30.1330.60; OmpA-like domain; 1.
+DR   InterPro; IPR050330; Bact_OuterMem_StrucFunc.
+DR   InterPro; IPR025713; MotB-like_N_dom.
+DR   InterPro; IPR006665; OmpA-like.
+DR   InterPro; IPR036737; OmpA-like_sf.
+DR   PANTHER; PTHR30329:SF21; LIPOPROTEIN YIAD-RELATED; 1.
+DR   PANTHER; PTHR30329; STATOR ELEMENT OF FLAGELLAR MOTOR COMPLEX; 1.
+DR   Pfam; PF13677; MotB_plug; 1.
+DR   Pfam; PF00691; OmpA; 1.
+DR   SUPFAM; SSF103088; OmpA-like; 1.
+DR   PROSITE; PS51123; OMPA_2; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Cell projection {ECO:0000313|EMBL:CAL34487.1};
+KW   Cilium {ECO:0000313|EMBL:CAL34487.1};
+KW   Flagellum {ECO:0000313|EMBL:CAL34487.1};
+KW   Membrane {ECO:0000256|PROSITE-ProRule:PRU00473, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        20..38
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          110..226
+FT                   /note="OmpA-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51123"
+SQ   SEQUENCE   247 AA;  27814 MW;  221BC246FAA2DE1C CRC64;
+     MAKKHKCPEC PAGEKWAVPY ADFLSLLLAL FIALWAISKT NPAKVEALKT EFVKIFDYTS
+     TQTVKEESKT QEKYKGAAKE ESDELKSLKQ MTMTQQETIK RLQAALDQSD NQVALNLPSK
+     VEFERGSAQI VSADIQDYLK RMAELTTYLP PQAKIEIRGY TDNSDSIIRS YELAYQRAEN
+     VLKYFIEGGA NLKNISIKSY GLNNPINGNP QTLENNRVEI YFKVDTADTS TQKSVLELIN
+     KIGTKAP
+//

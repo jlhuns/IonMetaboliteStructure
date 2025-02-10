@@ -1,0 +1,116 @@
+ID   D8GS34_CLOLD            Unreviewed;       312 AA.
+AC   D8GS34;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   RecName: Full=Riboflavin biosynthesis protein {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=Riboflavin kinase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.1.26 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=Flavokinase {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=FMN adenylyltransferase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.7.2 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD pyrophosphorylase {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD synthase {ECO:0000256|PIRNR:PIRNR004491};
+GN   Name=ribF {ECO:0000313|EMBL:ADK14387.1};
+GN   OrderedLocusNames=CLJU_c13190 {ECO:0000313|EMBL:ADK14387.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14387.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14387.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=FMN + ATP + H(+) = FAD + diphosphate; Xref=Rhea:RHEA:17237,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58210; EC=2.7.7.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049494,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=riboflavin + ATP = FMN + ADP + H(+); Xref=Rhea:RHEA:14357,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57986,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:456216; EC=2.7.1.26;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047880,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004726, ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from riboflavin
+CC       (ATP route): step 1/1. {ECO:0000256|ARBA:ARBA00005201,
+CC       ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- SIMILARITY: Belongs to the ribF family.
+CC       {ECO:0000256|PIRNR:PIRNR004491}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14387.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237984.1; NZ_LITS01000006.1.
+DR   AlphaFoldDB; D8GS34; -.
+DR   STRING; 748727.CLJU_c13190; -.
+DR   KEGG; clj:CLJU_c13190; -.
+DR   PATRIC; fig|748727.19.peg.3113; -.
+DR   eggNOG; COG0196; Bacteria.
+DR   HOGENOM; CLU_048437_0_2_9; -.
+DR   OrthoDB; 9803667at2; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   CDD; cd02064; FAD_synthetase_N; 1.
+DR   FunFam; 2.40.30.30:FF:000003; Riboflavin biosynthesis protein; 1.
+DR   FunFam; 3.40.50.620:FF:000021; Riboflavin biosynthesis protein; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 2.40.30.30; Riboflavin kinase-like; 1.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR002606; Riboflavin_kinase_bac.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_dom_sf.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00083; ribF; 1.
+DR   PANTHER; PTHR22749:SF6; RIBOFLAVIN KINASE; 1.
+DR   PANTHER; PTHR22749; RIBOFLAVIN KINASE/FMN ADENYLYLTRANSFERASE; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   PIRSF; PIRSF004491; FAD_Synth; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF82114; Riboflavin kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRNR:PIRNR004491};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRNR:PIRNR004491};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|PIRNR:PIRNR004491};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|PIRNR:PIRNR004491};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR004491}.
+FT   DOMAIN          182..306
+FT                   /note="Riboflavin kinase"
+FT                   /evidence="ECO:0000259|SMART:SM00904"
+SQ   SEQUENCE   312 AA;  35789 MW;  8478678E5E6D8C72 CRC64;
+     MIIMEDNFKK HFTKSTYIAL GSFDGLHLGH INLINKTVKL ARNNKANSMV FTFKNHPLSI
+     INPEVSPKIL MNNESKINVL KDAGLDIINM ANFNEEFMKI CPEDFVIHLL NNYRAKGLIV
+     GFNYRFGYKN LGDVSLLKKM SKIHKFSLNV IDSVKYKGQV VSSSIIRTII SDEGDIKKAN
+     KLLTRPFMLQ GEVIHGKQLG RKLGFPTVNL DYDKRFVIPK GGVYYTIVEC NNDLFKGITN
+     VGYNPTTCDN KLSIETHILN FNENMYDKNI KIYFIERIRD ESKFGSLTEL ADQLKKDKMY
+     ASKKRIEINL KN
+//

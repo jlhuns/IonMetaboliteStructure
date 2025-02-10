@@ -1,0 +1,83 @@
+ID   Q6N861_RHOPA            Unreviewed;       340 AA.
+AC   Q6N861;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 92.
+DE   SubName: Full=ABC transporter substrate-binding protein {ECO:0000313|EMBL:WCL92193.1};
+DE   SubName: Full=ABC transporter, periplasmic substrate-binding protein {ECO:0000313|EMBL:CAE27484.1};
+GN   OrderedLocusNames=RPA2043 {ECO:0000313|EMBL:CAE27484.1};
+GN   ORFNames=TX73_010525 {ECO:0000313|EMBL:WCL92193.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27484.1};
+RN   [1] {ECO:0000313|EMBL:WCL92193.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92193.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27484.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27484.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92193.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92193.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein SsuA/TauA
+CC       family. {ECO:0000256|ARBA:ARBA00010742}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572599; CAE27484.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92193.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157598.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2043; -.
+DR   GeneID; 66893087; -.
+DR   KEGG; rpa:TX73_010525; -.
+DR   eggNOG; COG0715; Bacteria.
+DR   HOGENOM; CLU_052162_0_0_5; -.
+DR   PhylomeDB; Q6N861; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0042918; P:alkanesulfonate transmembrane transport; IEA:TreeGrafter.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR001638; Solute-binding_3/MltF_N.
+DR   InterPro; IPR015168; SsuA/THI5.
+DR   PANTHER; PTHR30024; ALIPHATIC SULFONATES-BINDING PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR30024:SF47; TAURINE-BINDING PERIPLASMIC PROTEIN; 1.
+DR   Pfam; PF09084; NMT1; 1.
+DR   SMART; SM00062; PBPb; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           25..340
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5042809038"
+FT   DOMAIN          27..251
+FT                   /note="Solute-binding protein family 3/N-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00062"
+SQ   SEQUENCE   340 AA;  35299 MW;  9A9631C9221CAA5D CRC64;
+     MKAGFRHFAA ALAAILLTAG AAQAQSKVTI AIGGGACLCY LPTVLAKQLG EYDKAGLAVE
+     LVDLKGGSDA LKAVLGGSAD VVSGYFDHTV NLAAKKQEMQ SFVVYDRYPG LVLAVSPGHT
+     AEIKSIKELA GKKVGVSAPG SSTDFFLKYL LKKNGVDPNN VAVVGVGLGA TAVAAMQQGQ
+     IDAAVMLDPA VTILQAAHAD LRILSDTRTE HDTREVFGGD YPGGALYATT AWIKAHPNEA
+     QGLTKAILGT LNWIHAHSAE EIADKMPANI VGKDKAQYVA ALKNTIPMYS TTGLMDPKGA
+     DAVLAVFSTS SPDVARANID VTKTYTNAFV EQAKVSGAAK
+//

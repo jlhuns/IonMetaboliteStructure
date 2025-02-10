@@ -1,0 +1,97 @@
+ID   D8GRR8_CLOLD            Unreviewed;       595 AA.
+AC   D8GRR8;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   RecName: Full=GTPase HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+DE   AltName: Full=GTP-binding protein HflX {ECO:0000256|HAMAP-Rule:MF_00900};
+GN   Name=hflX {ECO:0000256|HAMAP-Rule:MF_00900};
+GN   OrderedLocusNames=CLJU_c33910 {ECO:0000313|EMBL:ADK16436.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK16436.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK16436.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: GTPase that associates with the 50S ribosomal subunit and may
+CC       have a role during protein synthesis or ribosome biogenesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SUBUNIT: Monomer. Associates with the 50S ribosomal subunit.
+CC       {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC       Note=May associate with membranes. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. HflX GTPase family. {ECO:0000256|HAMAP-Rule:MF_00900}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK16436.1; -; Genomic_DNA.
+DR   RefSeq; WP_013240019.1; NZ_LITS01000001.1.
+DR   AlphaFoldDB; D8GRR8; -.
+DR   STRING; 748727.CLJU_c33910; -.
+DR   KEGG; clj:CLJU_c33910; -.
+DR   PATRIC; fig|748727.19.peg.307; -.
+DR   eggNOG; COG2262; Bacteria.
+DR   HOGENOM; CLU_019597_7_1_9; -.
+DR   OrthoDB; 9812272at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043022; F:ribosome binding; IEA:TreeGrafter.
+DR   CDD; cd01878; HflX; 1.
+DR   FunFam; 3.40.50.11060:FF:000001; GTPase HflX; 1.
+DR   Gene3D; 6.10.250.2860; -; 1.
+DR   Gene3D; 3.40.50.11060; GTPase HflX, N-terminal domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00900; GTPase_HflX; 1.
+DR   InterPro; IPR030394; G_HFLX_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR032305; GTP-bd_M.
+DR   InterPro; IPR016496; GTPase_HflX.
+DR   InterPro; IPR025121; GTPase_HflX_N.
+DR   InterPro; IPR042108; GTPase_HflX_N_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd.
+DR   NCBIfam; TIGR03156; GTP_HflX; 1.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR10229:SF0; GTP-BINDING PROTEIN 6-RELATED; 1.
+DR   PANTHER; PTHR10229; GTP-BINDING PROTEIN HFLX; 1.
+DR   Pfam; PF16360; GTP-bdg_M; 1.
+DR   Pfam; PF13167; GTP-bdg_N; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51705; G_HFLX; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00900};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00900}; Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00900}.
+FT   DOMAIN          362..539
+FT                   /note="Hflx-type G"
+FT                   /evidence="ECO:0000259|PROSITE:PS51705"
+SQ   SEQUENCE   595 AA;  66738 MW;  2A3980D90225C101 CRC64;
+     MIYGNTEGIK NSTLDELEKI YDIRVSKESI CSREIVEVLS RITTYLNREL SLAIDKRGII
+     VSISVGDSST VSITEIEGNQ NKLCGIRIVH THPNGDSRLS EIDISALVKL RLDCIAAIGV
+     DKDGITGITI GFCKVKDGEV ISEVSEKLTL EDAVNFNIVQ KVNEIEKSMN DEYVLQEAGE
+     RALLVGTDTE DSLDELKELA KACNVNVLEK ILQKRDTIDT AFYVGKGKVS EIALIAQLSG
+     ANIVIFDDEL SGSQVRNLEE NLGIKVIDRT TLILHIFASR ARSKESKLQV ELAQLKYRLA
+     RLSGLGIVLS RTGGGIGTRG PGEKKLETDR RHIREKIYEI SKELKKIKQV RKTQRKKRDE
+     INKVSLVGYT NSGKSTLRNK LCEVAVTREN VNKEKVFEAD MLFATLDTTT RAVELEDGRT
+     IAVTDTVGFI KKLPHDLVEA FKSTLEEVQY ADLLLHVVDA SSDYAEEQID AVNEVLSELD
+     VNDKPVLIVL NKIDKLEDTK LSGIKDRYKN SNAIFISAKY GTNLDELLKR VLEMLPHNIK
+     KAEYLIPYTE QSAVSFIHKY CKVKNEDYRE DGTYVNALVD EKTYNKFKKF IINPK
+//

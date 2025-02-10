@@ -1,0 +1,87 @@
+ID   RLMH_DELAS              Reviewed;         155 AA.
+AC   A9BWE1;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 80.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_00658};
+DE            EC=2.1.1.177 {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA (pseudouridine1915-N3)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA m3Psi1915 methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=rRNA (pseudouridine-N3-)-methyltransferase RlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   Name=rlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   OrderedLocusNames=Daci_3525;
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the pseudouridine at position 1915
+CC       (m3Psi1915) in 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pseudouridine(1915) in 23S rRNA + S-adenosyl-L-methionine =
+CC         N(3)-methylpseudouridine(1915) in 23S rRNA + S-adenosyl-L-
+CC         homocysteine + H(+); Xref=Rhea:RHEA:42752, Rhea:RHEA-COMP:10221,
+CC         Rhea:RHEA-COMP:10222, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:65314, ChEBI:CHEBI:74486;
+CC         EC=2.1.1.177; Evidence={ECO:0000255|HAMAP-Rule:MF_00658};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase RlmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36161.1; -; Genomic_DNA.
+DR   RefSeq; WP_012205361.1; NC_010002.1.
+DR   AlphaFoldDB; A9BWE1; -.
+DR   SMR; A9BWE1; -.
+DR   STRING; 398578.Daci_3525; -.
+DR   GeneID; 94692694; -.
+DR   KEGG; dac:Daci_3525; -.
+DR   eggNOG; COG1576; Bacteria.
+DR   HOGENOM; CLU_100552_1_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070038; F:rRNA (pseudouridine-N3-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd18081; RlmH-like; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00658; 23SrRNA_methyltr_H; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR003742; RlmH-like.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   PANTHER; PTHR33603; METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR33603:SF1; RIBOSOMAL RNA LARGE SUBUNIT METHYLTRANSFERASE H; 1.
+DR   Pfam; PF02590; SPOUT_MTase; 1.
+DR   PIRSF; PIRSF004505; MT_bac; 1.
+DR   SUPFAM; SSF75217; alpha/beta knot; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..155
+FT                   /note="Ribosomal RNA large subunit methyltransferase H"
+FT                   /id="PRO_0000366587"
+FT   BINDING         72
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         103
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         122..127
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+SQ   SEQUENCE   155 AA;  17455 MW;  1F6ACB223A88D20C CRC64;
+     MKLLIVAVGQ HVPDWAQTAY DDYAKRFPPE LKVELKAVKT EPRGSKTVET LYAAERKRIE
+     AAIPRGTRIV VLDERGTNLT TKALAQRLQG WQLEGDDVAL IIGGPDGLDP AFRQAAHERI
+     RLSDLTLPHA MVRVLLIEQL YRAWSVNAGH PYHRE
+//

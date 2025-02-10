@@ -1,0 +1,123 @@
+ID   D8GLU7_CLOLD            Unreviewed;       496 AA.
+AC   D8GLU7;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=ATP-dependent RNA helicase DbpA {ECO:0000256|HAMAP-Rule:MF_00965};
+DE            EC=3.6.4.13 {ECO:0000256|HAMAP-Rule:MF_00965};
+GN   Name=dbpA {ECO:0000256|HAMAP-Rule:MF_00965};
+GN   OrderedLocusNames=CLJU_c04110 {ECO:0000313|EMBL:ADK13493.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13493.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13493.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in the assembly of the 50S
+CC       ribosomal subunit. Has an RNA-dependent ATPase activity, which is
+CC       specific for 23S rRNA, and a 3' to 5' RNA helicase activity that uses
+CC       the energy of ATP hydrolysis to destabilize and unwind short rRNA
+CC       duplexes. {ECO:0000256|HAMAP-Rule:MF_00965}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00965};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00965}.
+CC   -!- DOMAIN: Contains an N-terminal domain that binds non-specifically to
+CC       RNA and a C-terminal domain that binds specifically and tightly to
+CC       hairpin 92 of 23S rRNA. {ECO:0000256|HAMAP-Rule:MF_00965}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DbpA subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_00965}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13493.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D8GLU7; -.
+DR   STRING; 748727.CLJU_c04110; -.
+DR   KEGG; clj:CLJU_c04110; -.
+DR   PATRIC; fig|748727.19.peg.2081; -.
+DR   eggNOG; COG0513; Bacteria.
+DR   HOGENOM; CLU_003041_21_1_9; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0034458; F:3'-5' RNA helicase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:RHEA.
+DR   GO; GO:0140849; F:ATP-dependent H2AZ histone chaperone activity; IEA:RHEA.
+DR   GO; GO:0140665; F:ATP-dependent H3-H4 histone complex chaperone activity; IEA:RHEA.
+DR   GO; GO:0140584; F:chromatin extrusion motor activity; IEA:RHEA.
+DR   GO; GO:0061775; F:cohesin loader activity; IEA:RHEA.
+DR   GO; GO:0003689; F:DNA clamp loader activity; IEA:RHEA.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000027; P:ribosomal large subunit assembly; IEA:UniProtKB-UniRule.
+DR   CDD; cd00268; DEADc; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 3.30.70.330; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   HAMAP; MF_00965; DEAD_helicase_DbpA; 1.
+DR   InterPro; IPR005580; DbpA/CsdA_RNA-bd_dom.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050079; DEAD_box_RNA_helicase.
+DR   InterPro; IPR028619; DEAD_helicase_DbpA.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR012677; Nucleotide-bd_a/b_plait_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   PANTHER; PTHR47959:SF13; ATP-DEPENDENT RNA HELICASE RHLE; 1.
+DR   PANTHER; PTHR47959; ATP-DEPENDENT RNA HELICASE RHLE-RELATED; 1.
+DR   Pfam; PF03880; DbpA; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00965}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00965};
+KW   Helicase {ECO:0000256|ARBA:ARBA00022806, ECO:0000256|HAMAP-Rule:MF_00965};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00965};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00965}; Ribosome biogenesis {ECO:0000256|HAMAP-Rule:MF_00965};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_00965}.
+FT   DOMAIN          19..47
+FT                   /note="DEAD-box RNA helicase Q"
+FT                   /evidence="ECO:0000259|PROSITE:PS51195"
+FT   DOMAIN          50..220
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51192"
+FT   DOMAIN          246..392
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51194"
+FT   REGION          421..496
+FT                   /note="Involved in 23S rRNA binding"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00965"
+FT   MOTIF           19..47
+FT                   /note="Q motif"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00552"
+SQ   SEQUENCE   496 AA;  56336 MW;  49ADCD02FDDC3F41 CRC64;
+     MISIVNIKVY EVKKIMDKLE FKDFALSEDI LKSIEKLGYK NPSQVQEKVI PLIFKNKDII
+     VKSQTGSGKT AAFAIPICEK IELEEKNPQV LVLAPTRELA LQIKEDFYDI GRFKRINCTA
+     IFGKEPITTQ IKELKQRTHV IVGTPGRTLD HIEKDTLSLK KIQYLIIDEA DEMLNMGFID
+     QVKAVLDKLP KNRVTLLFSA TIPQEILKLC AAYMNNPINV EIDAEDPVIN RINQIYYQIE
+     AYKKFDLLNK LVYTQRPESS MIFCRTKKNV EDLVLQMKGK GYSCSGLHGG MLQSERIDVM
+     KRFKRGEFIF LVCTDVAARG IDVENITHII NYDIPMEKES YVHRIGRTGR AGKSGTAITF
+     VTPKEYRFLE EIEKFFNLTI EKGTIPSKEE VEKGKDIYKE KLKAAPKIKK DKSTKLNKDI
+     TKIYISAGKK KKIRPGDIAG TISSIDGINP EDVGIIEIQD NFSYVDILSG KGHIVLDGLK
+     HKTIKGKSVR VEIAQK
+//

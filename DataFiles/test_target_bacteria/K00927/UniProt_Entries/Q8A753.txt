@@ -1,0 +1,123 @@
+ID   PGK_BACTN               Reviewed;         419 AA.
+AC   Q8A753;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   27-NOV-2024, entry version 112.
+DE   RecName: Full=Phosphoglycerate kinase {ECO:0000255|HAMAP-Rule:MF_00145};
+DE            EC=2.7.2.3 {ECO:0000255|HAMAP-Rule:MF_00145};
+GN   Name=pgk {ECO:0000255|HAMAP-Rule:MF_00145}; OrderedLocusNames=BT_1672;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-3-phosphoglycerate + ATP = (2R)-3-phospho-glyceroyl
+CC         phosphate + ADP; Xref=Rhea:RHEA:14801, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:58272, ChEBI:CHEBI:456216; EC=2.7.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00145};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 2/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_00145}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SIMILARITY: Belongs to the phosphoglycerate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO76779.1; -; Genomic_DNA.
+DR   RefSeq; NP_810585.1; NC_004663.1.
+DR   RefSeq; WP_008763375.1; NZ_UYXG01000032.1.
+DR   AlphaFoldDB; Q8A753; -.
+DR   SMR; Q8A753; -.
+DR   STRING; 226186.BT_1672; -.
+DR   PaxDb; 226186-BT_1672; -.
+DR   EnsemblBacteria; AAO76779; AAO76779; BT_1672.
+DR   GeneID; 60927659; -.
+DR   KEGG; bth:BT_1672; -.
+DR   PATRIC; fig|226186.12.peg.1714; -.
+DR   eggNOG; COG0126; Bacteria.
+DR   HOGENOM; CLU_025427_0_2_10; -.
+DR   InParanoid; Q8A753; -.
+DR   OrthoDB; 9808460at2; -.
+DR   UniPathway; UPA00109; UER00185.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0043531; F:ADP binding; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IBA:GO_Central.
+DR   GO; GO:0004618; F:phosphoglycerate kinase activity; IBA:GO_Central.
+DR   GO; GO:0006094; P:gluconeogenesis; IBA:GO_Central.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   GO; GO:0016310; P:phosphorylation; IEA:UniProtKB-KW.
+DR   CDD; cd00318; Phosphoglycerate_kinase; 1.
+DR   FunFam; 3.40.50.1260:FF:000003; Phosphoglycerate kinase; 1.
+DR   FunFam; 3.40.50.1260:FF:000009; Phosphoglycerate kinase; 1.
+DR   FunFam; 3.40.50.1260:FF:000010; Phosphoglycerate kinase; 1.
+DR   Gene3D; 3.40.50.1260; Phosphoglycerate kinase, N-terminal domain; 3.
+DR   HAMAP; MF_00145; Phosphoglyc_kinase; 1.
+DR   InterPro; IPR001576; Phosphoglycerate_kinase.
+DR   InterPro; IPR015824; Phosphoglycerate_kinase_N.
+DR   InterPro; IPR036043; Phosphoglycerate_kinase_sf.
+DR   PANTHER; PTHR11406; PHOSPHOGLYCERATE KINASE; 1.
+DR   PANTHER; PTHR11406:SF23; PHOSPHOGLYCERATE KINASE 1, CHLOROPLASTIC-RELATED; 1.
+DR   Pfam; PF00162; PGK; 1.
+DR   PIRSF; PIRSF000724; Pgk; 1.
+DR   PRINTS; PR00477; PHGLYCKINASE.
+DR   SUPFAM; SSF53748; Phosphoglycerate kinase; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Glycolysis; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..419
+FT                   /note="Phosphoglycerate kinase"
+FT                   /id="PRO_0000145906"
+FT   BINDING         19..21
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         35
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         58..61
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         116
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         172
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         225
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         316
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         347
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         376..379
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+SQ   SEQUENCE   419 AA;  45026 MW;  A99CE14623D7BA31 CRC64;
+     MQTIDKFNFA GKKAFVRVDF NVPLDENFNI TDDTRMRAAL PTLKKILADG GSIIIGSHLG
+     RPKGVADKFS LKHIIKHLSE LLGVEVQFAN DCMGEEAAVK AAALQPGEVL LLENLRFYAE
+     EEGKPRGLAE DATDEEKAAA KKAVKESQKE FTKKLASYAD CYVNDAFGTA HRAHASTALI
+     AKYFDTDNKM FGYLMEKEVK AVDKVLNDIQ RPFTAIMGGS KVSSKIEIIE NLLNKVDNLI
+     IAGGMTYTFT KAMGGKIGIS ICEDDKLDLA LDLIKKAKEK GVNLVLAVDA KIADAFSNDA
+     NTQFCAVDEI PDGWEGLDIG PKTEEIFANV IKESKTILWN GPTGVFEFEN FTHGSRTVGE
+     AIVEATKNGA FSLVGGGDSV ACVNKFGLAS GVSYVSTGGG ALLEAIEGKV LPGIAAINE
+//

@@ -1,0 +1,80 @@
+ID   A0A0H4W027_9SPHN        Unreviewed;       172 AA.
+AC   A0A0H4W027;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 42.
+DE   RecName: Full=Single-stranded DNA-binding protein {ECO:0000256|HAMAP-Rule:MF_00984, ECO:0000256|RuleBase:RU000524};
+DE            Short=SSB {ECO:0000256|HAMAP-Rule:MF_00984};
+GN   ORFNames=CP97_13380 {ECO:0000313|EMBL:AKQ42808.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42808.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42808.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Plays an important role in DNA replication, recombination and
+CC       repair. Binds to ssDNA and to an array of partner proteins to recruit
+CC       them to their sites of action during DNA metabolism.
+CC       {ECO:0000256|HAMAP-Rule:MF_00984}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00984}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00984}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42808.1; -; Genomic_DNA.
+DR   RefSeq; WP_048886352.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4W027; -.
+DR   STRING; 1648404.CP97_13380; -.
+DR   KEGG; ery:CP97_13380; -.
+DR   PATRIC; fig|1648404.4.peg.2779; -.
+DR   OrthoDB; 9809878at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0009295; C:nucleoid; IEA:TreeGrafter.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   CDD; cd04496; SSB_OBF; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_00984; SSB; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR000424; Primosome_PriB/ssb.
+DR   InterPro; IPR011344; ssDNA-bd.
+DR   NCBIfam; TIGR00621; ssb; 1.
+DR   PANTHER; PTHR10302; SINGLE-STRANDED DNA-BINDING PROTEIN; 1.
+DR   PANTHER; PTHR10302:SF27; SINGLE-STRANDED DNA-BINDING PROTEIN; 1.
+DR   Pfam; PF00436; SSB; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS50935; SSB; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|HAMAP-Rule:MF_00984};
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172, ECO:0000256|HAMAP-
+KW   Rule:MF_00984}; DNA repair {ECO:0000256|HAMAP-Rule:MF_00984};
+KW   DNA replication {ECO:0000256|HAMAP-Rule:MF_00984};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00984}; Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   REGION          113..172
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOTIF           167..172
+FT                   /note="Important for interaction with partner proteins"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00984"
+SQ   SEQUENCE   172 AA;  17966 MW;  AEB4723D8EA3D0FE CRC64;
+     MAGSLNKVML IGNLGADPEI RSFQNGGKVA NLRIATSETW KDRDGQRQER TEWHTVAIFS
+     EGLVNVVENY LKKGAKVFIE GQLQTRKWQD QQGQDRYSTE IVLRGFNGTL TMLDGRSDSG
+     GGGGQRGGYG GGGGQSSGGW DQGGGSSGGS GGASGGAGGG SNYDDLDDDI PF
+//

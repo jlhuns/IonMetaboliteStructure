@@ -1,0 +1,126 @@
+ID   C5CCK5_MICLC            Unreviewed;       160 AA.
+AC   C5CCK5;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   RecName: Full=Deoxyuridine 5'-triphosphate nucleotidohydrolase {ECO:0000256|HAMAP-Rule:MF_00116};
+DE            Short=dUTPase {ECO:0000256|HAMAP-Rule:MF_00116};
+DE            EC=3.6.1.23 {ECO:0000256|HAMAP-Rule:MF_00116};
+DE   AltName: Full=dUTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00116};
+GN   Name=dut {ECO:0000256|HAMAP-Rule:MF_00116,
+GN   ECO:0000313|EMBL:SQG49775.1};
+GN   OrderedLocusNames=Mlut_13120 {ECO:0000313|EMBL:ACS30817.1};
+GN   ORFNames=NCTC2665_02333 {ECO:0000313|EMBL:SQG49775.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30817.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30817.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30817.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49775.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49775.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: This enzyme is involved in nucleotide metabolism: it produces
+CC       dUMP, the immediate precursor of thymidine nucleotides and it decreases
+CC       the intracellular concentration of dUTP so that uracil cannot be
+CC       incorporated into DNA. {ECO:0000256|HAMAP-Rule:MF_00116}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dUTP + H2O = dUMP + diphosphate + H(+); Xref=Rhea:RHEA:10248,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61555, ChEBI:CHEBI:246422; EC=3.6.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047686, ECO:0000256|HAMAP-
+CC         Rule:MF_00116};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00116};
+CC   -!- PATHWAY: Pyrimidine metabolism; dUMP biosynthesis; dUMP from dCTP (dUTP
+CC       route): step 2/2. {ECO:0000256|HAMAP-Rule:MF_00116}.
+CC   -!- SIMILARITY: Belongs to the dUTPase family.
+CC       {ECO:0000256|ARBA:ARBA00006581, ECO:0000256|HAMAP-Rule:MF_00116}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00116}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30817.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49775.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078549.1; NZ_WBMF01000011.1.
+DR   AlphaFoldDB; C5CCK5; -.
+DR   STRING; 465515.Mlut_13120; -.
+DR   EnsemblBacteria; ACS30817; ACS30817; Mlut_13120.
+DR   KEGG; mlu:Mlut_13120; -.
+DR   PATRIC; fig|465515.4.peg.1253; -.
+DR   eggNOG; COG0756; Bacteria.
+DR   HOGENOM; CLU_068508_1_3_11; -.
+DR   UniPathway; UPA00610; UER00666.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0004170; F:dUTP diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006226; P:dUMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046081; P:dUTP catabolic process; IEA:InterPro.
+DR   CDD; cd07557; trimeric_dUTPase; 1.
+DR   FunFam; 2.70.40.10:FF:000008; Deoxyuridine 5'-triphosphate nucleotidohydrolase; 1.
+DR   Gene3D; 2.70.40.10; -; 1.
+DR   HAMAP; MF_00116; dUTPase_bact; 1.
+DR   InterPro; IPR008181; dUTPase.
+DR   InterPro; IPR029054; dUTPase-like.
+DR   InterPro; IPR036157; dUTPase-like_sf.
+DR   InterPro; IPR033704; dUTPase_trimeric.
+DR   NCBIfam; TIGR00576; dut; 1.
+DR   PANTHER; PTHR11241; DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE; 1.
+DR   PANTHER; PTHR11241:SF0; DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE; 1.
+DR   Pfam; PF00692; dUTPase; 1.
+DR   SUPFAM; SSF51283; dUTPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00116};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_00116};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00116};
+KW   Nucleotide metabolism {ECO:0000256|ARBA:ARBA00023080, ECO:0000256|HAMAP-
+KW   Rule:MF_00116}; Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          21..148
+FT                   /note="dUTPase-like"
+FT                   /evidence="ECO:0000259|Pfam:PF00692"
+FT   REGION          137..160
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         68..70
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00116"
+FT   BINDING         81
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00116"
+FT   BINDING         85..87
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00116"
+SQ   SEQUENCE   160 AA;  16466 MW;  3D2EF6ACFB100917 CRC64;
+     MTDSAELPVP LHALDPGLAP PAYAQPGDAG ADLRTAVDVT LAPGERALVP TGVALAIPEG
+     HAGFVHPRSG LAVRRGLTIV NAPGTIDAGY RGEIKVPLIN LDPTEPIVLR RGDRIAQLVL
+     QPVVRARFEP VDVLPDSERG AGGFGSTGGF TADTTPGRTS
+//

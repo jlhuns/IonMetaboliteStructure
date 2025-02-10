@@ -1,0 +1,96 @@
+ID   Q6N173_RHOPA            Unreviewed;       563 AA.
+AC   Q6N173;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Thioredoxin reductase {ECO:0000256|ARBA:ARBA00018719};
+GN   OrderedLocusNames=RPA4536 {ECO:0000313|EMBL:CAE29976.1};
+GN   ORFNames=TX73_023565 {ECO:0000313|EMBL:WCL94740.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29976.1};
+RN   [1] {ECO:0000313|EMBL:WCL94740.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94740.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29976.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29976.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94740.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94740.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE29976.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94740.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160068.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4536; -.
+DR   GeneID; 66895686; -.
+DR   KEGG; rpa:TX73_023565; -.
+DR   eggNOG; COG0492; Bacteria.
+DR   eggNOG; COG0664; Bacteria.
+DR   HOGENOM; CLU_031864_5_8_5; -.
+DR   PhylomeDB; Q6N173; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   CDD; cd00038; CAP_ED; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 1.
+DR   InterPro; IPR000595; cNMP-bd_dom.
+DR   InterPro; IPR018490; cNMP-bd_dom_sf.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR050097; Ferredoxin-NADP_redctase_2.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   PANTHER; PTHR48105; THIOREDOXIN REDUCTASE 1-RELATED-RELATED; 1.
+DR   Pfam; PF00027; cNMP_binding; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00469; PNDRDTASEII.
+DR   SMART; SM00100; cNMP; 1.
+DR   SUPFAM; SSF51206; cAMP-binding domain-like; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS50042; CNMP_BINDING_3; 1.
+PE   4: Predicted;
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          25..145
+FT                   /note="Cyclic nucleotide-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50042"
+FT   REGION          1..25
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        7..24
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   563 AA;  59169 MW;  15E1FA186F0A9B1A CRC64;
+     MADSSSEDDR PDASQARPVD RHDQTFPVLT ATEIDRIRRF GEVRSYADGA RLFETGQPGP
+     GMFVVLSGHV AVTQRDGLGH ITPVAEQGPG QFLAEIGQLS GRVALVDGIA EGEVECLLIP
+     PDRLRGLLVA EADLGERIMR ALILRRVNLI QGGVGGPVLI GSANASDAVR LMGFLTRNGW
+     PHHLLDPATD HDAAELVARY SPTPRDLPLV VTPDGTVLRN PSESELALAM RMNGHIDRSK
+     LYDVAIVGSG PAGLSTAVYA ASEGLTVAVC DQRAFGGQAG ASARIENYLG FPTGISGMAL
+     TARAYNQAQK FGADIMIPTE VKSLVCGCND GTFKLTLDDG GELRARAIVV ASGARYRRPQ
+     IERLAEFEGR GVYYWASPIE ARLCKQQEVI LVGGGNSAGQ AAVFLSGHAA RVHMVVRGGG
+     LAASMSRYLI ERIESTPNIE LVFNTEVVAL DGSADSGLQQ ATLRSRLSGE DRIMAVSNLF
+     LFVGADPATA WLDGCGVTLD RAGFVVTGAP SADEGQRPAQ ALETSVPGVF AVGDVRSGSV
+     KRVGGAIGEG AQVVAALHGY LAG
+//

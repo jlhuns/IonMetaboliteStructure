@@ -1,0 +1,135 @@
+ID   Q65JA4_BACLD            Unreviewed;       325 AA.
+AC   Q65JA4; Q62UR1;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 130.
+DE   RecName: Full=Ribonucleoside-diphosphate reductase subunit beta {ECO:0000256|PIRNR:PIRNR000355};
+DE            EC=1.17.4.1 {ECO:0000256|PIRNR:PIRNR000355};
+GN   Name=nrdF {ECO:0000313|EMBL:AAU23498.1};
+GN   OrderedLocusNames=BL01193 {ECO:0000313|EMBL:AAU23498.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23498.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23498.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Provides the precursors necessary for DNA synthesis.
+CC       Catalyzes the biosynthesis of deoxyribonucleotides from the
+CC       corresponding ribonucleotides. {ECO:0000256|PIRNR:PIRNR000355}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         disulfide + H2O = a ribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         dithiol; Xref=Rhea:RHEA:23252, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15377, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:73316; EC=1.17.4.1;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000355};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000355,
+CC         ECO:0000256|PIRSR:PIRSR000355-2};
+CC       Note=Binds 2 iron ions per subunit. {ECO:0000256|PIRNR:PIRNR000355,
+CC       ECO:0000256|PIRSR:PIRSR000355-2};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000256|ARBA:ARBA00011209}.
+CC   -!- SIMILARITY: Belongs to the ribonucleoside diphosphate reductase small
+CC       chain family. {ECO:0000256|ARBA:ARBA00009303,
+CC       ECO:0000256|PIRNR:PIRNR000355}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23498.1; -; Genomic_DNA.
+DR   RefSeq; WP_009328440.1; NC_006322.1.
+DR   AlphaFoldDB; Q65JA4; -.
+DR   STRING; 279010.BL01193; -.
+DR   GeneID; 66216023; -.
+DR   KEGG; bld:BLi01967; -.
+DR   KEGG; bli:BL01193; -.
+DR   PATRIC; fig|279010.13.peg.1971; -.
+DR   eggNOG; COG0208; Bacteria.
+DR   HOGENOM; CLU_052495_1_0_9; -.
+DR   UniPathway; UPA00326; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005971; C:ribonucleoside-diphosphate reductase complex; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004748; F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor; IEA:UniProtKB-EC.
+DR   GO; GO:0009263; P:deoxyribonucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01049; RNRR2; 1.
+DR   Gene3D; 1.10.620.20; Ribonucleotide Reductase, subunit A; 1.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR012348; RNR-like.
+DR   InterPro; IPR026494; RNR_NrdF-like.
+DR   InterPro; IPR033909; RNR_small.
+DR   InterPro; IPR030475; RNR_small_AS.
+DR   InterPro; IPR000358; RNR_small_fam.
+DR   NCBIfam; TIGR04171; RNR_1b_NrdF; 1.
+DR   PANTHER; PTHR23409; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE SMALL CHAIN; 1.
+DR   PANTHER; PTHR23409:SF18; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE SUBUNIT M2; 1.
+DR   Pfam; PF00268; Ribonuc_red_sm; 1.
+DR   PIRSF; PIRSF000355; NrdB; 1.
+DR   SUPFAM; SSF47240; Ferritin-like; 1.
+DR   PROSITE; PS00368; RIBORED_SMALL; 1.
+PE   3: Inferred from homology;
+KW   Deoxyribonucleotide synthesis {ECO:0000256|ARBA:ARBA00023116,
+KW   ECO:0000256|PIRNR:PIRNR000355};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRNR:PIRNR000355};
+KW   Metal-binding {ECO:0000256|PIRNR:PIRNR000355,
+KW   ECO:0000256|PIRSR:PIRSR000355-2};
+KW   Oxidoreductase {ECO:0000256|PIRNR:PIRNR000355};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   ACT_SITE        105
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-1"
+FT   BINDING         66
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         97
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         97
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         101
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         164
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         198
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         201
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+SQ   SEQUENCE   325 AA;  37896 MW;  F8EA0699A890C9E7 CRC64;
+     MTKIYDAANW SKHEDDFTQM FYNQNVKQFW LPEEIALNGD LLTWKYLGKN EQDTYMKVLA
+     GLTLLDTEQG NTGMPLVAEH VEGHQRKAVL NFMAMMENAV HAKSYSNIFM TLAPTETINE
+     VFEWVKQNKY LQKKAQIIVG LYEKIRQGDK ISLFKAMVAS VYLESFLFYS GFYYPLYFYG
+     QGKLMQSGEI INLILRDEAI HGVYVGLLAQ EIYNQQTPEK KEELYAFSID LLKELYENEL
+     EYTEDLYDQV GLSHDVKKFI RYNANKALMN LGFEAYFEEE EINPIVLNGL NTKTKSHDFF
+     SMKGNGYKKA TVEPLKDDDF YFDDK
+//

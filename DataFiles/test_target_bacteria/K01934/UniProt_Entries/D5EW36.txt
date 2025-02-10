@@ -1,0 +1,87 @@
+ID   D5EW36_XYLR2            Unreviewed;       181 AA.
+AC   D5EW36;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 71.
+DE   RecName: Full=5-formyltetrahydrofolate cyclo-ligase {ECO:0000256|RuleBase:RU361279};
+DE            EC=6.3.3.2 {ECO:0000256|RuleBase:RU361279};
+GN   OrderedLocusNames=PRU_0199 {ECO:0000313|EMBL:ADE81804.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81804.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81804.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-formyl-5,6,7,8-tetrahydrofolate + ATP = (6R)-5,10-
+CC         methenyltetrahydrofolate + ADP + phosphate; Xref=Rhea:RHEA:10488,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:57455,
+CC         ChEBI:CHEBI:57457, ChEBI:CHEBI:456216; EC=6.3.3.2;
+CC         Evidence={ECO:0000256|RuleBase:RU361279};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU361279};
+CC   -!- SIMILARITY: Belongs to the 5-formyltetrahydrofolate cyclo-ligase
+CC       family. {ECO:0000256|ARBA:ARBA00010638, ECO:0000256|RuleBase:RU361279}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81804.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063791.1; NC_014033.1.
+DR   AlphaFoldDB; D5EW36; -.
+DR   STRING; 264731.PRU_0199; -.
+DR   GeneID; 69976547; -.
+DR   KEGG; pru:PRU_0199; -.
+DR   eggNOG; COG0212; Bacteria.
+DR   HOGENOM; CLU_066245_0_1_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0030272; F:5-formyltetrahydrofolate cyclo-ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009396; P:folic acid-containing compound biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:TreeGrafter.
+DR   Gene3D; 3.40.50.10420; NagB/RpiA/CoA transferase-like; 1.
+DR   InterPro; IPR002698; FTHF_cligase.
+DR   InterPro; IPR024185; FTHF_cligase-like_sf.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   NCBIfam; TIGR02727; MTHFS_bact; 1.
+DR   PANTHER; PTHR23407:SF1; 5-FORMYLTETRAHYDROFOLATE CYCLO-LIGASE; 1.
+DR   PANTHER; PTHR23407; ATPASE INHIBITOR/5-FORMYLTETRAHYDROFOLATE CYCLO-LIGASE; 1.
+DR   Pfam; PF01812; 5-FTHF_cyc-lig; 1.
+DR   PIRSF; PIRSF006806; FTHF_cligase; 1.
+DR   SUPFAM; SSF100950; NagB/RpiA/CoA transferase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRSR:PIRSR006806-
+KW   1}; Ligase {ECO:0000313|EMBL:ADE81804.1};
+KW   Magnesium {ECO:0000256|RuleBase:RU361279};
+KW   Metal-binding {ECO:0000256|RuleBase:RU361279};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRSR:PIRSR006806-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   BINDING         4..8
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+FT   BINDING         53
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+FT   BINDING         131..139
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+SQ   SEQUENCE   181 AA;  20588 MW;  5743DA56498BDEEE CRC64;
+     MLNKNALRAL MRERKQQFTQ QQLGELSATV VSHMREYLML MDNIVAYYSL PDEVCTHQLL
+     DELLAAGKNV YLPKVVSDTE MVLCRYTGRD SLQKGAFGIM EPTGPVMPKE KYNDIKVVLV
+     PGVAFDKENR RLGRGKGYYD RFLSSFSQPR CAVFYGVCFD FQRVDAIPAD EHDVCMDGLI
+     S
+//

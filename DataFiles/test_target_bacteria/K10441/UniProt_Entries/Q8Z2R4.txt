@@ -1,0 +1,123 @@
+ID   RBSA_SALTI              Reviewed;         501 AA.
+AC   Q8Z2R4; Q7C6J5;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 148.
+DE   RecName: Full=Ribose import ATP-binding protein RbsA {ECO:0000255|HAMAP-Rule:MF_01716};
+DE            EC=7.5.2.7 {ECO:0000255|HAMAP-Rule:MF_01716};
+GN   Name=rbsA {ECO:0000255|HAMAP-Rule:MF_01716};
+GN   OrderedLocusNames=STY3896, t3637;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Part of the ABC transporter complex RbsABC involved in ribose
+CC       import. Responsible for energy coupling to the transport system.
+CC       {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribose(out) + ATP + H2O = D-ribose(in) + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:29903, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:47013,
+CC         ChEBI:CHEBI:456216; EC=7.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01716};
+CC   -!- SUBUNIT: The complex is composed of an ATP-binding protein (RbsA), two
+CC       transmembrane proteins (RbsC) and a solute-binding protein (RbsB).
+CC       {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01716}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01716}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Ribose importer
+CC       (TC 3.A.1.2.1) family. {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03113.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71134.1; -; Genomic_DNA.
+DR   RefSeq; NP_458061.1; NC_003198.1.
+DR   RefSeq; WP_000339360.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; Q8Z2R4; -.
+DR   SMR; Q8Z2R4; -.
+DR   STRING; 220341.gene:17587756; -.
+DR   KEGG; stt:t3637; -.
+DR   KEGG; sty:STY3896; -.
+DR   PATRIC; fig|220341.7.peg.3976; -.
+DR   eggNOG; COG1129; Bacteria.
+DR   HOGENOM; CLU_000604_92_3_6; -.
+DR   OMA; KWIGIGP; -.
+DR   OrthoDB; 9776369at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015611; F:ABC-type D-ribose transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   CDD; cd03216; ABC_Carb_Monos_I; 1.
+DR   CDD; cd03215; ABC_Carb_Monos_II; 1.
+DR   FunFam; 3.40.50.300:FF:000126; Galactose/methyl galactoside import ATP-binding protein MglA; 1.
+DR   FunFam; 3.40.50.300:FF:000127; Ribose import ATP-binding protein RbsA; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR050107; ABC_carbohydrate_import_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43790; CARBOHYDRATE TRANSPORT ATP-BINDING PROTEIN MG119-RELATED; 1.
+DR   PANTHER; PTHR43790:SF3; D-ALLOSE IMPORT ATP-BINDING PROTEIN ALSA-RELATED; 1.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51254; RBSA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Repeat; Sugar transport; Translocase; Transport.
+FT   CHAIN           1..501
+FT                   /note="Ribose import ATP-binding protein RbsA"
+FT                   /id="PRO_0000261100"
+FT   DOMAIN          5..241
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+FT   DOMAIN          252..495
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+FT   BINDING         37..44
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+SQ   SEQUENCE   501 AA;  55137 MW;  9CA48150AD495527 CRC64;
+     MDALLQLKGI DKAFPGVKAL SGAALNVYPG RVMALVGENG AGKSTMMKVL TGIYTRDAGS
+     LLWLGKETTF NGPKSSQEAG IGIIHQELNL IPQLTIAENI FLGREFVNRF GKIDWKKMYA
+     EADHLLAKLN LRFKSDKLVG ELSIGDQQMV EIAKVLSFES KVIIMDEPTD ALTDTETDSL
+     FRVIRELKSQ GRGIVYISHR MKEIFEICDD VTVFRDGQFI AEREVATLTE DSLIEMMVGR
+     KLEDQYPHLD NAPGEIRLKV DNLCGPGVND VSFVLRKGEI LGISGLMGTG RTELMKVLYG
+     AMPRTSGYVT LEGHEVVTRS PQDGLANGIV YISEDRKRDG LVLGMSVKEN MSLTALDYFS
+     RAGGSLKHKD EQQAVGDFIR LFNVKTPSME QAIGLLSGGN QQKVAIARGL MTRPKVLILD
+     EPTRGVDVGA KKEIYQLINQ FKADGLSIIL VSSEMPEVLG MSDRIIVMHE GHLSGEFTRE
+     QATQEVLMAA AVGKLNRVNQ E
+//

@@ -1,0 +1,177 @@
+ID   Q815J1_BACCR            Unreviewed;       321 AA.
+AC   Q815J1;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 141.
+DE   RecName: Full=Thioredoxin reductase {ECO:0000256|ARBA:ARBA00018719, ECO:0000256|RuleBase:RU003880};
+DE            EC=1.8.1.9 {ECO:0000256|RuleBase:RU003880};
+GN   OrderedLocusNames=BC_5159 {ECO:0000313|EMBL:AAP12024.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP12024.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP12024.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+RN   [2] {ECO:0007829|PDB:7AAW}
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS), AND DISULFIDE BONDS.
+RX   PubMed=34492167; DOI=10.1002/2211-5463.13289;
+RA   Shoor M., Gudim I., Hersleth H.P., Hammerstad M.;
+RT   "Thioredoxin reductase from Bacilluscereus exhibits distinct reduction and
+RT   NADPH-binding properties.";
+RL   FEBS Open Bio 11:3019-3031(2021).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-dithiol + NADP(+) = [thioredoxin]-disulfide +
+CC         NADPH + H(+); Xref=Rhea:RHEA:20345, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048132,
+CC         ECO:0000256|RuleBase:RU003880};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|RuleBase:RU003881};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|RuleBase:RU003881};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738,
+CC       ECO:0000256|RuleBase:RU003880}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00009333,
+CC       ECO:0000256|RuleBase:RU003880}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12024.1; -; Genomic_DNA.
+DR   RefSeq; NP_834823.1; NC_004722.1.
+DR   PDB; 7AAW; X-ray; 2.25 A; A/B=1-321.
+DR   AlphaFoldDB; Q815J1; -.
+DR   SMR; Q815J1; -.
+DR   MetOSite; Q815J1; -.
+DR   KEGG; bce:BC5159; -.
+DR   PATRIC; fig|226900.8.peg.5317; -.
+DR   HOGENOM; CLU_031864_5_3_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004791; F:thioredoxin-disulfide reductase (NADPH) activity; IBA:GO_Central.
+DR   GO; GO:0045454; P:cell redox homeostasis; IBA:GO_Central.
+DR   GO; GO:0019430; P:removal of superoxide radicals; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR050097; Ferredoxin-NADP_redctase_2.
+DR   InterPro; IPR008255; Pyr_nucl-diS_OxRdtase_2_AS.
+DR   InterPro; IPR005982; Thioredox_Rdtase.
+DR   NCBIfam; TIGR01292; TRX_reduct; 1.
+DR   PANTHER; PTHR48105; THIOREDOXIN REDUCTASE 1-RELATED-RELATED; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00469; PNDRDTASEII.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS00573; PYRIDINE_REDOX_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:7AAW};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU003880};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003880}; NADP {ECO:0000256|RuleBase:RU003881};
+KW   Nucleotide-binding {ECO:0007829|PDB:7AAW};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003880};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284,
+KW   ECO:0000256|RuleBase:RU003880};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          10..297
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+FT   BINDING         20
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         39
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         40
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         46
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         55
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         86
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         87
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         117
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         156
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         158
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         159
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         162
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         179
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         180
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         184
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         186
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         281
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   BINDING         290
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+FT   DISULFID        138..141
+FT                   /evidence="ECO:0007829|PDB:7AAW"
+SQ   SEQUENCE   321 AA;  34957 MW;  5B5C76F4B299D1AC CRC64;
+     MNSVSEEKIY DVVIIGAGPA GMTAAVYTSR ANLSTLMLER GIPGGQMANT EDVENYPGYE
+     SILGPDLSNK MFEHAKKFGA EYAYGDVKEV IDGKEYKTII AGKKEYKARA IIVASGAEYK
+     KIGVPGETEL GGRGVSYCAV CDGAFFKGKE LIVIGGGDSA VEEGVFLTRF ASKVTIVHRR
+     DTLRAQKILQ DRAFQNEKVD FIWNHTIKEI NEASGKVGSV TLVDVNSGEE KEVKTDGVFV
+     YIGMLPLSKP FVELGITNEN GYLETNERME TKIPGIFAAG DVREKMLRQI VTATGDGSIA
+     AQSAQHYVEE LLEELKTVSE K
+//

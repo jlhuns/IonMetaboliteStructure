@@ -1,0 +1,146 @@
+ID   E3PU22_ACESD            Unreviewed;       372 AA.
+AC   E3PU22;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   RecName: Full=tRNA-specific 2-thiouridylase MnmA {ECO:0000256|HAMAP-Rule:MF_00144};
+DE            EC=2.8.1.13 {ECO:0000256|HAMAP-Rule:MF_00144};
+GN   Name=trmU {ECO:0000313|EMBL:CBH20283.1};
+GN   Synonyms=mnmA {ECO:0000256|HAMAP-Rule:MF_00144};
+GN   OrderedLocusNames=CLOST_0153 {ECO:0000313|EMBL:CBH20283.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20283.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Catalyzes the 2-thiolation of uridine at the wobble position
+CC       (U34) of tRNA, leading to the formation of s(2)U34. {ECO:0000256|HAMAP-
+CC       Rule:MF_00144}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(34) in tRNA + S-sulfanyl-L-cysteinyl-[protein] + AH2 +
+CC         ATP = 2-thiouridine(34) in tRNA + L-cysteinyl-[protein] + A + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:47032, Rhea:RHEA-COMP:10131,
+CC         Rhea:RHEA-COMP:11726, Rhea:RHEA-COMP:11727, Rhea:RHEA-COMP:11728,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61963, ChEBI:CHEBI:65315, ChEBI:CHEBI:87170,
+CC         ChEBI:CHEBI:456215; EC=2.8.1.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048286, ECO:0000256|HAMAP-
+CC         Rule:MF_00144};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00144}.
+CC   -!- SIMILARITY: Belongs to the MnmA/TRMU family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00144}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00144}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20283.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PU22; -.
+DR   STRING; 1511.CLOST_0153; -.
+DR   KEGG; cst:CLOST_0153; -.
+DR   eggNOG; COG0482; Bacteria.
+DR   HOGENOM; CLU_035188_1_0_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008168; F:methyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0103016; F:tRNA-uridine 2-sulfurtransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0002143; P:tRNA wobble position uridine thiolation; IEA:TreeGrafter.
+DR   CDD; cd01998; tRNA_Me_trans; 1.
+DR   FunFam; 2.30.30.280:FF:000001; tRNA-specific 2-thiouridylase MnmA; 1.
+DR   FunFam; 2.40.30.10:FF:000023; tRNA-specific 2-thiouridylase MnmA; 1.
+DR   FunFam; 3.40.50.620:FF:000004; tRNA-specific 2-thiouridylase MnmA; 1.
+DR   Gene3D; 2.30.30.280; Adenine nucleotide alpha hydrolases-like domains; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 2.40.30.10; Translation factors; 1.
+DR   HAMAP; MF_00144; tRNA_thiouridyl_MnmA; 1.
+DR   InterPro; IPR046885; MnmA-like_C.
+DR   InterPro; IPR046884; MnmA-like_central.
+DR   InterPro; IPR023382; MnmA-like_central_sf.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR004506; tRNA-specific_2-thiouridylase.
+DR   NCBIfam; TIGR00420; trmU; 1.
+DR   PANTHER; PTHR11933:SF5; MITOCHONDRIAL TRNA-SPECIFIC 2-THIOURIDYLASE 1; 1.
+DR   PANTHER; PTHR11933; TRNA 5-METHYLAMINOMETHYL-2-THIOURIDYLATE -METHYLTRANSFERASE; 1.
+DR   Pfam; PF03054; tRNA_Me_trans; 1.
+DR   Pfam; PF20258; tRNA_Me_trans_C; 1.
+DR   Pfam; PF20259; tRNA_Me_trans_M; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00144}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00144};
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   Methyltransferase {ECO:0000313|EMBL:CBH20283.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00144}; Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_00144};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00144};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_00144};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555, ECO:0000256|HAMAP-
+KW   Rule:MF_00144}.
+FT   DOMAIN          204..270
+FT                   /note="tRNA-specific 2-thiouridylase MnmA-like central"
+FT                   /evidence="ECO:0000259|Pfam:PF20259"
+FT   DOMAIN          280..355
+FT                   /note="tRNA-specific 2-thiouridylase MnmA-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF20258"
+FT   REGION          94..96
+FT                   /note="Interaction with target base in tRNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   REGION          145..147
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   REGION          306..307
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   ACT_SITE        99
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   ACT_SITE        195
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   BINDING         8..15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   BINDING         34
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   BINDING         123
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   SITE            124
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+FT   SITE            339
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00144"
+SQ   SEQUENCE   372 AA;  42174 MW;  5B937307FACC0009 CRC64;
+     MKKRVVLGMS GGVDSSVSAV ILKEAGYDVV GIFMKNWDEK DEDGVCTATE DYEDVRRVAD
+     QLGIPYYTVN FEKEYWDRVF SYFLDEYNKG RTPNPDVMCN QEIKFNAFLD YALKLDADYI
+     AMGHYARVEE RDGKFYLLRG VDNNKDQTYF LSRIGQKALS KSLFPIGELE KSKVREIAEK
+     NELYTAKKKD STGVCFIGER DFDAFLDKYL LSKKGDMINV DTGKKISQHH GLYHYTLGQR
+     KGIGIGGVGS GEPWFVVGKD LKKNLLYVAQ GEQHEALYST SLIGEAPAWT LDEEPVFPLH
+     CTAKFRYRQQ DIPVTVHKME DGNIHIVYDN PVKAVTPGQV AVLYDADICL GSSIIKSIEP
+     VNSKYKYLNP TF
+//

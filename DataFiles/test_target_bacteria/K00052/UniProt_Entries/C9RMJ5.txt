@@ -1,0 +1,153 @@
+ID   C9RMJ5_FIBSS            Unreviewed;       363 AA.
+AC   C9RMJ5;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 95.
+DE   RecName: Full=3-isopropylmalate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01033};
+DE            EC=1.1.1.85 {ECO:0000256|HAMAP-Rule:MF_01033};
+DE   AltName: Full=3-IPM-DH {ECO:0000256|HAMAP-Rule:MF_01033};
+DE   AltName: Full=Beta-IPM dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01033};
+DE            Short=IMDH {ECO:0000256|HAMAP-Rule:MF_01033};
+GN   Name=leuB {ECO:0000256|HAMAP-Rule:MF_01033,
+GN   ECO:0000313|EMBL:ADL26851.1};
+GN   OrderedLocusNames=FSU_3213 {ECO:0000313|EMBL:ADL26851.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26851.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the oxidation of 3-carboxy-2-hydroxy-4-
+CC       methylpentanoate (3-isopropylmalate) to 3-carboxy-4-methyl-2-
+CC       oxopentanoate. The product decarboxylates to 4-methyl-2 oxopentanoate.
+CC       {ECO:0000256|HAMAP-Rule:MF_01033, ECO:0000256|RuleBase:RU004445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate + NAD(+) = 4-methyl-2-oxopentanoate
+CC         + CO2 + NADH; Xref=Rhea:RHEA:32271, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:17865, ChEBI:CHEBI:35121, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.85;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000624, ECO:0000256|HAMAP-
+CC         Rule:MF_01033, ECO:0000256|RuleBase:RU004445};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01033, ECO:0000256|RuleBase:RU004445};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01033, ECO:0000256|RuleBase:RU004445};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01033, ECO:0000256|RuleBase:RU004445};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 3/4. {ECO:0000256|ARBA:ARBA00004762,
+CC       ECO:0000256|HAMAP-Rule:MF_01033, ECO:0000256|RuleBase:RU004445}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-
+CC       Rule:MF_01033, ECO:0000256|RuleBase:RU004445}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01033}.
+CC   -!- SIMILARITY: Belongs to the isocitrate and isopropylmalate
+CC       dehydrogenases family. LeuB type 1 subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008319, ECO:0000256|HAMAP-Rule:MF_01033}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26851.1; -; Genomic_DNA.
+DR   RefSeq; WP_014547244.1; NC_017448.1.
+DR   AlphaFoldDB; C9RMJ5; -.
+DR   STRING; 59374.FSU_3213; -.
+DR   KEGG; fsc:FSU_3213; -.
+DR   KEGG; fsu:Fisuc_2644; -.
+DR   PATRIC; fig|59374.8.peg.3072; -.
+DR   eggNOG; COG0473; Bacteria.
+DR   HOGENOM; CLU_031953_0_3_0; -.
+DR   OrthoDB; 9806254at2; -.
+DR   UniPathway; UPA00048; UER00072.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003862; F:3-isopropylmalate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.40.718.10:FF:000004; 3-isopropylmalate dehydrogenase; 1.
+DR   Gene3D; 3.40.718.10; Isopropylmalate Dehydrogenase; 1.
+DR   HAMAP; MF_01033; LeuB_type1; 1.
+DR   InterPro; IPR019818; IsoCit/isopropylmalate_DH_CS.
+DR   InterPro; IPR024084; IsoPropMal-DH-like_dom.
+DR   InterPro; IPR004429; Isopropylmalate_DH.
+DR   NCBIfam; TIGR00169; leuB; 1.
+DR   PANTHER; PTHR42979; 3-ISOPROPYLMALATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR42979:SF1; 3-ISOPROPYLMALATE DEHYDROGENASE; 1.
+DR   Pfam; PF00180; Iso_dh; 1.
+DR   SMART; SM01329; Iso_dh; 1.
+DR   SUPFAM; SSF53659; Isocitrate/Isopropylmalate dehydrogenase-like; 1.
+DR   PROSITE; PS00470; IDH_IMDH; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01033};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|HAMAP-Rule:MF_01033};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01033};
+KW   Leucine biosynthesis {ECO:0000256|ARBA:ARBA00022430, ECO:0000256|HAMAP-
+KW   Rule:MF_01033};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_01033};
+KW   Manganese {ECO:0000256|HAMAP-Rule:MF_01033};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01033};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_01033};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01033}.
+FT   DOMAIN          6..358
+FT                   /note="Isopropylmalate dehydrogenase-like"
+FT                   /evidence="ECO:0000259|SMART:SM01329"
+FT   BINDING         78..91
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         99
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         109
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         138
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         229
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         229
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         253
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         257
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   BINDING         287..299
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   SITE            145
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+FT   SITE            197
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01033"
+SQ   SEQUENCE   363 AA;  39330 MW;  63C622093FB5AC37 CRC64;
+     MSKNYKIAVL PGDGIGPEVM KEAVRVLDVV SKKFGFDVNA EWANVGGAAY DESGSPLPES
+     TLKLGEASDC ILFGSVGGPK WEHLPPNLQP ERGALLPLRK HFKLFCNLRP ARVYKELAGA
+     CPLRADIVGD GFNILTVREL TGDVYFGQPK GREGVPGSKE EIGFDTMKYS RYEVERIARF
+     AFDAAMLRNK KVASIDKANV LTTSVLWREV VNEVIKDYPE LTLEHLYVDN AAMQLLKRPR
+     EFDVLLCPNL FGDILTDECA MLTGSMGLLP SASIAEGSFG LYEPAGGSAP DIAGKGIANP
+     LAQILSVALM LRYTFKEEEA AKAIEAACEK VIAQGYRTGD IYQEGCTKVG TTGMGDAIIK
+     ALA
+//

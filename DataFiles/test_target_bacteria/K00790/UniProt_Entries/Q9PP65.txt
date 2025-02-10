@@ -1,0 +1,213 @@
+ID   MURA_CAMJE              Reviewed;         418 AA.
+AC   Q9PP65; Q0PA32;
+DT   30-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 130.
+DE   RecName: Full=UDP-N-acetylglucosamine 1-carboxyvinyltransferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            EC=2.5.1.7 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=Enoylpyruvate transferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=UDP-N-acetylglucosamine enolpyruvyl transferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            Short=EPT {ECO:0000255|HAMAP-Rule:MF_00111};
+GN   Name=murA {ECO:0000255|HAMAP-Rule:MF_00111};
+GN   OrderedLocusNames=Cj0858c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Cell wall formation. Adds enolpyruvyl to UDP-N-
+CC       acetylglucosamine. {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine = UDP-
+CC         N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine + phosphate;
+CC         Xref=Rhea:RHEA:18681, ChEBI:CHEBI:43474, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58702, ChEBI:CHEBI:68483; EC=2.5.1.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00111};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. MurA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34986.1; -; Genomic_DNA.
+DR   PIR; B81359; B81359.
+DR   RefSeq; WP_002857102.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344265.1; NC_002163.1.
+DR   PDB; 5UJS; X-ray; 2.46 A; A/B=1-418.
+DR   PDBsum; 5UJS; -.
+DR   AlphaFoldDB; Q9PP65; -.
+DR   SMR; Q9PP65; -.
+DR   IntAct; Q9PP65; 1.
+DR   STRING; 192222.Cj0858c; -.
+DR   PaxDb; 192222-Cj0858c; -.
+DR   EnsemblBacteria; CAL34986; CAL34986; Cj0858c.
+DR   GeneID; 905157; -.
+DR   KEGG; cje:Cj0858c; -.
+DR   PATRIC; fig|192222.6.peg.846; -.
+DR   eggNOG; COG0766; Bacteria.
+DR   HOGENOM; CLU_027387_0_0_7; -.
+DR   OrthoDB; 9803760at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008760; F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0019277; P:UDP-N-acetylgalactosamine biosynthetic process; IEA:InterPro.
+DR   CDD; cd01555; UdpNAET; 1.
+DR   FunFam; 3.65.10.10:FF:000001; UDP-N-acetylglucosamine 1-carboxyvinyltransferase; 1.
+DR   Gene3D; 3.65.10.10; Enolpyruvate transferase domain; 2.
+DR   HAMAP; MF_00111; MurA; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR050068; MurA_subfamily.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR005750; UDP_GlcNAc_COvinyl_MurA.
+DR   NCBIfam; TIGR01072; murA; 1.
+DR   PANTHER; PTHR43783; UDP-N-ACETYLGLUCOSAMINE 1-CARBOXYVINYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43783:SF1; UDP-N-ACETYLGLUCOSAMINE 1-CARBOXYVINYLTRANSFERASE; 1.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   SUPFAM; SSF55205; EPT/RTPC-like; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Peptidoglycan synthesis;
+KW   Pyruvate; Reference proteome; Transferase.
+FT   CHAIN           1..418
+FT                   /note="UDP-N-acetylglucosamine 1-carboxyvinyltransferase"
+FT                   /id="PRO_0000178856"
+FT   ACT_SITE        116
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         22..23
+FT                   /ligand="phosphoenolpyruvate"
+FT                   /ligand_id="ChEBI:CHEBI:58702"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         92
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         121..125
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         305
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         327
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   MOD_RES         116
+FT                   /note="2-(S-cysteinyl)pyruvic acid O-phosphothioketal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   STRAND          2..7
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          14..17
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           22..30
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           31..34
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          35..37
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          39..43
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           48..59
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          63..67
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          70..74
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           86..90
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           92..97
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           98..105
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          106..111
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           125..132
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          136..140
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          143..148
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          154..156
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           162..174
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          175..183
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           188..199
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          203..205
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          209..217
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           233..245
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          250..254
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           257..260
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           261..269
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          273..277
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          280..284
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          293..295
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           304..306
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           307..314
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          317..324
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           335..339
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   TURN            340..342
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          345..348
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          351..355
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          364..366
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           370..382
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          383..390
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           393..396
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   HELIX           402..408
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+FT   STRAND          413..417
+FT                   /evidence="ECO:0007829|PDB:5UJS"
+SQ   SEQUENCE   418 AA;  45186 MW;  EDB9C63408C5B7F3 CRC64;
+     MTYLEIEGTN HLSGNVTISG AKNAALPLIV SSILAKNEVK INNVPNVADI KTLISLLENL
+     GAKVNFQNNS ALLNTNTLNQ TIAKYDIVRK MRASILTLGP LLARFGHCEV SLPGGCAIGQ
+     RPIDLHLLAL EKMGANIQIK QGYVVASGNL KGNEILFDKI TVTGSENIIM AAALAKGKTK
+     LLNVAKEPEV VQLCEVLKDA GLEIKGIGTD ELEIYGSDGE LLEFKEFSVI PDRIEAGTYL
+     CAGAITNSKI TLDKVNATHL SAVLAKLHQM GFETLITEDS ITLLPAKEIK PVEIMTSEYP
+     GFPTDMQAQF MALALKANGT SIIDERLFEN RFMHVSELLR MGADIKLNGH IATIVGGKEL
+     NAADVMATDL RASSALILAA LAAKGTSKVH RIYHLDRGYE NLEEKFKDLG AKITRLEE
+//

@@ -1,0 +1,99 @@
+ID   Q5ZT32_LEGPH            Unreviewed;       363 AA.
+AC   Q5ZT32;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   27-NOV-2024, entry version 115.
+DE   SubName: Full=Membrane associated zinc metalloprotease {ECO:0000313|EMBL:AAU28395.1};
+DE            EC=3.4.24.- {ECO:0000313|EMBL:AAU28395.1};
+GN   OrderedLocusNames=lpg2333 {ECO:0000313|EMBL:AAU28395.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU28395.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU28395.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the peptidase M50B family.
+CC       {ECO:0000256|ARBA:ARBA00007931}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28395.1; -; Genomic_DNA.
+DR   RefSeq; YP_096342.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZT32; -.
+DR   STRING; 272624.lpg2333; -.
+DR   PaxDb; 272624-lpg2333; -.
+DR   KEGG; lpn:lpg2333; -.
+DR   PATRIC; fig|272624.6.peg.2450; -.
+DR   eggNOG; COG0750; Bacteria.
+DR   HOGENOM; CLU_025778_1_0_6; -.
+DR   OrthoDB; 9782003at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00989; PDZ_metalloprotease; 1.
+DR   CDD; cd06163; S2P-M50_PDZ_RseP-like; 1.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR004387; Pept_M50_Zn.
+DR   InterPro; IPR008915; Peptidase_M50.
+DR   PANTHER; PTHR42837:SF2; MEMBRANE METALLOPROTEASE ARASP2, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR42837; REGULATOR OF SIGMA-E PROTEASE RSEP; 1.
+DR   Pfam; PF02163; Peptidase_M50; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:AAU28395.1};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000313|EMBL:AAU28395.1};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000313|EMBL:AAU28395.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}; Zinc {ECO:0000256|ARBA:ARBA00022833}.
+FT   TRANSMEM        6..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        97..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        258..280
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        286..308
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        329..354
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          14..347
+FT                   /note="Peptidase M50"
+FT                   /evidence="ECO:0000259|Pfam:PF02163"
+SQ   SEQUENCE   363 AA;  40334 MW;  0D401C0D088C63BE CRC64;
+     MDKESIMIMA LVAIILTLIL VIGIHELGHA LAARLFQVKI SKISIGFGKP LIQWQTQSGC
+     NWIWAMWPLG GYVQLLNSRI SPVKPQENAY CFDKKPIWIR VLILLSGAIA NLITAWIALV
+     LVFYIGISYK QPQIQSVKLD SLAAKAGIQA GDQWVAIENY PTDSWQGVGM QLVIHWGQKD
+     VHIVLRQGNQ QLKQLNLDLS QIEFTSKDGS LLESLGIKPD LSAVSSLTRY PSLLASMQKA
+     FAEIIHTMYF FIMILKQLFL GVIPFSILLG PLAIFSVSVA SLTQGVIVFL LFIATLSLAV
+     ALVNLFPIPG LDGGSILYSF IEKIRGKPVS VAVEVLLHRL MIILFCVLLV HLLMNDLNRY
+     LHH
+//

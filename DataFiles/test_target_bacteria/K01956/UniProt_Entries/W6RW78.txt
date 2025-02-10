@@ -1,0 +1,170 @@
+ID   W6RW78_9HYPH            Unreviewed;       401 AA.
+AC   W6RW78;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 53.
+DE   RecName: Full=Carbamoyl phosphate synthase small chain {ECO:0000256|HAMAP-Rule:MF_01209};
+DE            EC=6.3.5.5 {ECO:0000256|HAMAP-Rule:MF_01209};
+DE   AltName: Full=Carbamoyl phosphate synthetase glutamine chain {ECO:0000256|HAMAP-Rule:MF_01209};
+GN   Name=carA {ECO:0000256|HAMAP-Rule:MF_01209,
+GN   ECO:0000313|EMBL:CDM58511.1};
+GN   ORFNames=LPU83_2860 {ECO:0000313|EMBL:CDM58511.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM58511.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM58511.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM58511.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Small subunit of the glutamine-dependent carbamoyl phosphate
+CC       synthetase (CPSase). CPSase catalyzes the formation of carbamoyl
+CC       phosphate from the ammonia moiety of glutamine, carbonate, and
+CC       phosphate donated by ATP, constituting the first step of 2 biosynthetic
+CC       pathways, one leading to arginine and/or urea and the other to
+CC       pyrimidine nucleotides. The small subunit (glutamine amidotransferase)
+CC       binds and cleaves glutamine to supply the large subunit with the
+CC       substrate ammonia. {ECO:0000256|HAMAP-Rule:MF_01209}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine + H2O = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01209};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate + L-glutamine + 2 ATP + H2O = carbamoyl
+CC         phosphate + L-glutamate + 2 ADP + phosphate + 2 H(+);
+CC         Xref=Rhea:RHEA:18633, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58228, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:456216; EC=6.3.5.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048816, ECO:0000256|HAMAP-
+CC         Rule:MF_01209};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; carbamoyl
+CC       phosphate from bicarbonate: step 1/1. {ECO:0000256|ARBA:ARBA00005077,
+CC       ECO:0000256|HAMAP-Rule:MF_01209}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 1/3. {ECO:0000256|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by the
+CC       large (or ammonia) chain to synthesize carbamoyl phosphate. Tetramer of
+CC       heterodimers (alpha,beta)4. {ECO:0000256|HAMAP-Rule:MF_01209}.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000256|ARBA:ARBA00007800,
+CC       ECO:0000256|HAMAP-Rule:MF_01209}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM58511.1; -; Genomic_DNA.
+DR   RefSeq; WP_024317062.1; NZ_JAIRAY010000030.1.
+DR   AlphaFoldDB; W6RW78; -.
+DR   KEGG; rhl:LPU83_2860; -.
+DR   PATRIC; fig|348824.6.peg.3085; -.
+DR   eggNOG; COG0505; Bacteria.
+DR   HOGENOM; CLU_035901_2_2_5; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:RHEA.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006526; P:L-arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01744; GATase1_CPSase; 1.
+DR   FunFam; 3.50.30.20:FF:000001; Carbamoyl-phosphate synthase small chain; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; Carbamoyl-phosphate synthase small subunit, N-terminal domain; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR050472; Anth_synth/Amidotransfase.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR036480; CarbP_synth_ssu_N_sf.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR035686; CPSase_GATase1.
+DR   InterPro; IPR017926; GATASE.
+DR   NCBIfam; TIGR01368; CPSaseIIsmall; 1.
+DR   PANTHER; PTHR43418:SF7; CARBAMOYL-PHOSPHATE SYNTHASE SMALL CHAIN; 1.
+DR   PANTHER; PTHR43418; MULTIFUNCTIONAL TRYPTOPHAN BIOSYNTHESIS PROTEIN-RELATED; 1.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PRINTS; PR00097; ANTSNTHASEII.
+DR   PRINTS; PR00099; CPSGATASE.
+DR   PRINTS; PR00096; GATASE.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; Carbamoyl phosphate synthetase, small subunit N-terminal domain; 1.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01209};
+KW   Arginine biosynthesis {ECO:0000256|ARBA:ARBA00022571, ECO:0000256|HAMAP-
+KW   Rule:MF_01209}; ATP-binding {ECO:0000256|HAMAP-Rule:MF_01209};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|HAMAP-Rule:MF_01209};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01209};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01209};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01209}.
+FT   DOMAIN          12..146
+FT                   /note="Carbamoyl-phosphate synthase small subunit N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|SMART:SM01097"
+FT   REGION          1..206
+FT                   /note="CPSase"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   ACT_SITE        284
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        368
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        370
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   BINDING         56
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         255
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         257
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         285
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         288
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         326
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         328
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+FT   BINDING         329
+FT                   /ligand="L-glutamine"
+FT                   /ligand_id="ChEBI:CHEBI:58359"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01209"
+SQ   SEQUENCE   401 AA;  43159 MW;  332592350073F177 CRC64;
+     MTATAPWTTE KPTALLVLSD GTVIEGKGIG ATGKVQAEVV FNTALTGYEE IMTDPSYLGQ
+     IVTFTFPHIG NIGTNDEDIE DLTPAARHGA VGVIFKAEIT EPSNYRAAKH LDAWLKARGI
+     IGLCGVDTRA LTAWIRENGS PNAVIAHDQN GVFDVETLKA EAKAWSGLEG LDLAKIASSG
+     QSSQWAQTPW IWNEGYGELA PENARYHVVC LDYGVKRNIL RLFAGLDCKV TVMPATTSAE
+     DVLAMQPDGI FLSNGPGDPA ATGEYAVPVI QKLIKTDIPV FGICLGHQML GLALGAKTEK
+     MHQGHHGANH PVKDHTTGKV EIVSMNHGFA VDTKSLPDGI EETHVSLFDG TNCGLRVAGK
+     PIFSVQHHPE ASPGPQDSHY LFRRFVNLVR QKKGEEALAE R
+//

@@ -1,0 +1,87 @@
+ID   A0QNN0_MYCS2            Unreviewed;       411 AA.
+AC   A0QNN0;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 107.
+DE   SubName: Full=Acyl-CoA dehydrogenase {ECO:0000313|EMBL:ABK72733.1};
+GN   OrderedLocusNames=MSMEG_0102 {ECO:0000313|EMBL:ABK72733.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK72733.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK72733.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU362125};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738}.
+CC   -!- SIMILARITY: Belongs to the acyl-CoA dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00009347, ECO:0000256|RuleBase:RU362125}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK72733.1; -; Genomic_DNA.
+DR   RefSeq; YP_884518.1; NC_008596.1.
+DR   AlphaFoldDB; A0QNN0; -.
+DR   STRING; 246196.MSMEG_0102; -.
+DR   PaxDb; 246196-MSMEI_0098; -.
+DR   KEGG; msm:MSMEG_0102; -.
+DR   PATRIC; fig|246196.19.peg.100; -.
+DR   eggNOG; COG1960; Bacteria.
+DR   OrthoDB; 8876745at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0003995; F:acyl-CoA dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0033539; P:fatty acid beta-oxidation using acyl-CoA dehydrogenase; IEA:TreeGrafter.
+DR   FunFam; 2.40.110.10:FF:000002; Acyl-CoA dehydrogenase fadE12; 1.
+DR   FunFam; 1.20.140.10:FF:000018; Acyl-CoA dehydrogenase family member 10; 1.
+DR   Gene3D; 1.10.540.10; Acyl-CoA dehydrogenase/oxidase, N-terminal domain; 1.
+DR   Gene3D; 2.40.110.10; Butyryl-CoA Dehydrogenase, subunit A, domain 2; 1.
+DR   Gene3D; 1.20.140.10; Butyryl-CoA Dehydrogenase, subunit A, domain 3; 1.
+DR   InterPro; IPR050741; Acyl-CoA_dehydrogenase.
+DR   InterPro; IPR006091; Acyl-CoA_Oxase/DH_mid-dom.
+DR   InterPro; IPR046373; Acyl-CoA_Oxase/DH_mid-dom_sf.
+DR   InterPro; IPR036250; AcylCo_DH-like_C.
+DR   InterPro; IPR009075; AcylCo_DH/oxidase_C.
+DR   InterPro; IPR013786; AcylCoA_DH/ox_N.
+DR   InterPro; IPR037069; AcylCoA_DH/ox_N_sf.
+DR   InterPro; IPR009100; AcylCoA_DH/oxidase_NM_dom_sf.
+DR   PANTHER; PTHR48083:SF13; ACYL-COA DEHYDROGENASE FAMILY MEMBER 11; 1.
+DR   PANTHER; PTHR48083; MEDIUM-CHAIN SPECIFIC ACYL-COA DEHYDROGENASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00441; Acyl-CoA_dh_1; 1.
+DR   Pfam; PF02770; Acyl-CoA_dh_M; 1.
+DR   Pfam; PF02771; Acyl-CoA_dh_N; 1.
+DR   SUPFAM; SSF47203; Acyl-CoA dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF56645; Acyl-CoA dehydrogenase NM domain-like; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU362125};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU362125};
+KW   Oxidoreductase {ECO:0000256|RuleBase:RU362125};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          30..131
+FT                   /note="Acyl-CoA dehydrogenase/oxidase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02771"
+FT   DOMAIN          135..235
+FT                   /note="Acyl-CoA oxidase/dehydrogenase middle"
+FT                   /evidence="ECO:0000259|Pfam:PF02770"
+FT   DOMAIN          247..397
+FT                   /note="Acyl-CoA dehydrogenase/oxidase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00441"
+SQ   SEQUENCE   411 AA;  45415 MW;  175F6D5D7C73FE20 CRC64;
+     MAGMDFAMSA KAADYHKRLT DFMVEFVFPA EAEYHAYREE KGPKDHTVPP VVEELKVKAK
+     DRGLWNLFLP AESGLTNLEY APLAEITGWS MEIAPEALNC QAPDTGNMET LHLFANEAQR
+     KQWLEPLLAG EIRSAFAMTE PAVASSDARN IETTMLRDGD HYVINGRKWW ITGAADPRCK
+     ILIVMGRTNP DAAAHQQQSM ILVPVDTPGV DIQRSLPVFG WQDQHGHCEI VFNDVRVPAE
+     NLLDVEGSGF AIAQARLGPG RIHHCMRAIG AAERALTLMV DRVQKRVAFG KPLAEQGVVR
+     EAIAKSRNEI DQARLLCEKA AWTIDLQGNK AAHVLVSQIK SVAPQVACNV LDRAIQVHGA
+     AGVGDDFPLA RLYAWHRAMR LFDGPDEVHM RTIARSELGR EKSPLALAVT K
+//

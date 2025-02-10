@@ -1,0 +1,123 @@
+ID   DAPF_BACCR              Reviewed;         288 AA.
+AC   Q816D1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 110.
+DE   RecName: Full=Diaminopimelate epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            Short=DAP epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            EC=5.1.1.7 {ECO:0000255|HAMAP-Rule:MF_00197};
+DE   AltName: Full=PLP-independent amino acid racemase {ECO:0000255|HAMAP-Rule:MF_00197};
+GN   Name=dapF {ECO:0000255|HAMAP-Rule:MF_00197};
+GN   OrderedLocusNames=BC_4936;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the stereoinversion of LL-2,6-diaminoheptanedioate
+CC       (L,L-DAP) to meso-diaminoheptanedioate (meso-DAP), a precursor of L-
+CC       lysine and an essential component of the bacterial peptidoglycan.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,6S)-2,6-diaminoheptanedioate = meso-2,6-
+CC         diaminoheptanedioate; Xref=Rhea:RHEA:15393, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:57791; EC=5.1.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00197};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; DL-2,6-diaminopimelate from LL-2,6-diaminopimelate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SIMILARITY: Belongs to the diaminopimelate epimerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11809.1; -; Genomic_DNA.
+DR   RefSeq; NP_834608.1; NC_004722.1.
+DR   RefSeq; WP_000077401.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q816D1; -.
+DR   SMR; Q816D1; -.
+DR   STRING; 226900.BC_4936; -.
+DR   KEGG; bce:BC4936; -.
+DR   PATRIC; fig|226900.8.peg.5088; -.
+DR   HOGENOM; CLU_053306_3_0_9; -.
+DR   OrthoDB; 9805408at2; -.
+DR   UniPathway; UPA00034; UER00025.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0008837; F:diaminopimelate epimerase activity; IBA:GO_Central.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IBA:GO_Central.
+DR   FunFam; 3.10.310.10:FF:000004; Diaminopimelate epimerase; 1.
+DR   FunFam; 3.10.310.10:FF:000006; Diaminopimelate epimerase; 1.
+DR   Gene3D; 3.10.310.10; Diaminopimelate Epimerase, Chain A, domain 1; 2.
+DR   HAMAP; MF_00197; DAP_epimerase; 1.
+DR   InterPro; IPR018510; DAP_epimerase_AS.
+DR   InterPro; IPR001653; DAP_epimerase_DapF.
+DR   NCBIfam; TIGR00652; DapF; 1.
+DR   PANTHER; PTHR31689:SF0; DIAMINOPIMELATE EPIMERASE; 1.
+DR   PANTHER; PTHR31689; DIAMINOPIMELATE EPIMERASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF01678; DAP_epimerase; 2.
+DR   SUPFAM; SSF54506; Diaminopimelate epimerase-like; 1.
+DR   PROSITE; PS01326; DAP_EPIMERASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Isomerase; Lysine biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..288
+FT                   /note="Diaminopimelate epimerase"
+FT                   /id="PRO_1000011839"
+FT   ACT_SITE        76
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        226
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         14
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         67
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         77..78
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         166
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         199
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         217..218
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         227..228
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            168
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            217
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+SQ   SEQUENCE   288 AA;  31584 MW;  ECE091349CE6FF8D CRC64;
+     MSQFSFTKMH GLGNSYIYVN MFEEQIPEED LALVAEKVSN INTGIGADGM ILICPSDVAP
+     VKMRMFNNDG SEGKSCGNGL RCVAKYAYEH KLVEETVFTI ETLAGIVTAE VTVEDGVVTL
+     AKIDMGAPRL TRAEIPMLGE SETPFIRENF LYNNHRYAFT AVSMGNPHAV IFVDDVEKAP
+     LTTLGPVLET HEMFPERVNV EFIEILNEDE MNFRVWERGS GVTQACGTGA CAAVVAAILN
+     GKMERGKEIT VHLAGGDLMI AWTEEGNVLM KGPAEVICRG VYEYKIEA
+//

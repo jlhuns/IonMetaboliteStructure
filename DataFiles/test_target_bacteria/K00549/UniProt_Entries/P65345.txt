@@ -1,0 +1,167 @@
+ID   METE_STRA5              Reviewed;         745 AA.
+AC   P65345; Q8DX10; Q8E2V9;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00172};
+DE            EC=2.1.1.14 {ECO:0000255|HAMAP-Rule:MF_00172};
+DE   AltName: Full=Cobalamin-independent methionine synthase {ECO:0000255|HAMAP-Rule:MF_00172};
+DE   AltName: Full=Methionine synthase, vitamin-B12 independent isozyme {ECO:0000255|HAMAP-Rule:MF_00172};
+GN   Name=metE {ECO:0000255|HAMAP-Rule:MF_00172};
+GN   OrderedLocusNames=SAG2049;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Catalyzes the transfer of a methyl group from 5-
+CC       methyltetrahydrofolate to homocysteine resulting in methionine
+CC       formation. {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-methyltetrahydropteroyltri-L-glutamate + L-homocysteine =
+CC         tetrahydropteroyltri-L-glutamate + L-methionine;
+CC         Xref=Rhea:RHEA:21196, ChEBI:CHEBI:57844, ChEBI:CHEBI:58140,
+CC         ChEBI:CHEBI:58199, ChEBI:CHEBI:58207; EC=2.1.1.14;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00172};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00172};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00172};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-methionine from L-homocysteine (MetE route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   -!- SIMILARITY: Belongs to the vitamin-B12 independent methionine synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN00908.1; -; Genomic_DNA.
+DR   RefSeq; NP_689035.1; NC_004116.1.
+DR   RefSeq; WP_000241563.1; NC_004116.1.
+DR   AlphaFoldDB; P65345; -.
+DR   SMR; P65345; -.
+DR   STRING; 208435.SAG2049; -.
+DR   KEGG; sag:SAG2049; -.
+DR   PATRIC; fig|208435.3.peg.2052; -.
+DR   HOGENOM; CLU_013175_0_0_9; -.
+DR   OrthoDB; 244285at2; -.
+DR   UniPathway; UPA00051; UER00082.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0003871; F:5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd03311; CIMS_C_terminal_like; 1.
+DR   CDD; cd03312; CIMS_N_terminal_like; 1.
+DR   Gene3D; 3.20.20.210; -; 2.
+DR   HAMAP; MF_00172; Meth_synth; 1.
+DR   InterPro; IPR013215; Cbl-indep_Met_Synth_N.
+DR   InterPro; IPR006276; Cobalamin-indep_Met_synthase.
+DR   InterPro; IPR002629; Met_Synth_C/arc.
+DR   InterPro; IPR038071; UROD/MetE-like_sf.
+DR   NCBIfam; TIGR01371; met_syn_B12ind; 1.
+DR   PANTHER; PTHR30519; 5-METHYLTETRAHYDROPTEROYLTRIGLUTAMATE--HOMOCYSTEINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF08267; Meth_synt_1; 1.
+DR   Pfam; PF01717; Meth_synt_2; 1.
+DR   PIRSF; PIRSF000382; MeTrfase_B12_ind; 1.
+DR   SUPFAM; SSF51726; UROD/MetE-like; 2.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Metal-binding; Methionine biosynthesis;
+KW   Methyltransferase; Reference proteome; Repeat; Transferase; Zinc.
+FT   CHAIN           1..745
+FT                   /note="5-methyltetrahydropteroyltriglutamate--homocysteine
+FT                   methyltransferase"
+FT                   /id="PRO_0000098667"
+FT   ACT_SITE        683
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         16..19
+FT                   /ligand="5-methyltetrahydropteroyltri-L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:58207"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         110
+FT                   /ligand="5-methyltetrahydropteroyltri-L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:58207"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         420..422
+FT                   /ligand="L-homocysteine"
+FT                   /ligand_id="ChEBI:CHEBI:58199"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         420..422
+FT                   /ligand="L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:57844"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         473
+FT                   /ligand="L-homocysteine"
+FT                   /ligand_id="ChEBI:CHEBI:58199"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         473
+FT                   /ligand="L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:57844"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         550
+FT                   /ligand="5-methyltetrahydropteroyltri-L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:58207"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         588
+FT                   /ligand="L-homocysteine"
+FT                   /ligand_id="ChEBI:CHEBI:58199"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         588
+FT                   /ligand="L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:57844"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         594
+FT                   /ligand="5-methyltetrahydropteroyltri-L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:58207"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         630
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         632
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         654
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   BINDING         715
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+SQ   SEQUENCE   745 AA;  84647 MW;  E2FF6B7816A03FB0 CRC64;
+     MVKVSNLGYP RLGEQREWKQ AIEAFWAGNL EQKDLEKQLK QLRINHLKKQ KEAGIDLIPV
+     GDFSCYDHVL DLSFQFNVIP KRFDEYERNL DLYFAIARGD KDNVASSMKK WFNTNYHYIV
+     PEWEVETKPH LQNNYLLDLY LEAREVVGDK AKPVITGPIT YVSLSSGIVD FEATVQRLLP
+     LYKQVFQDLI DAGATYIQID EPIFVTDEGE LLVDIAKSVY DFFAREVPQA HFIFQTYFES
+     AVCLDKLSKL PVTGFGLDFI HGRAENLAAV KQGLFREKEL FAGIVNGRNI WAVNLEETLA
+     LLEEIGPFVK RLTLQPSSSL LHVPVTTKYE THLDPVLKNG LSFADEKLKE LELLASAFDG
+     NKTKGYHEAL SRFSALQAAD FRHVALESLA EVKLERSPYK LRQALQAEKL QLPILPTTTI
+     GSFPQSPEIR KKRLAWKRGN LSDSDYKDFI KTEIRRWIAI QEDLDLDVLV HGEFERVDMV
+     EFFGQKLAGF TTTKLGWVQS YGSRAVKPPI IYGDVKHIQP LSLEETVYAQ SLTKKPVKGM
+     LTGPITITNW SFERDDISRS DLFNQIALAI KDEIQLLEQS GIAIIQVDEA ALREGLPLRQ
+     QKQQAYLDDA VAAFKIATSS VKDETQIHTH MCYSKFDEII DSIRALDADV ISIETSRSHG
+     DIIESFETAV YPLGIGLGVY DIHSPRIPTK EEIIVNIQRS LKCLSKEQFW VNPDCGLKTR
+     REAETIAALE VLVSATKEVR QQLDN
+//

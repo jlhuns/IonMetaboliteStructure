@@ -1,0 +1,215 @@
+ID   TOP1_SALTI              Reviewed;         865 AA.
+AC   P0A2I2; P40686;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 133.
+DE   RecName: Full=DNA topoisomerase 1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE            EC=5.6.2.1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=DNA topoisomerase I {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=Omega-protein;
+DE   AltName: Full=Relaxing enzyme;
+DE   AltName: Full=Swivelase;
+DE   AltName: Full=Untwisting enzyme;
+GN   Name=topA {ECO:0000255|HAMAP-Rule:MF_00952};
+GN   OrderedLocusNames=STY1336, t1627;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA, which
+CC       is introduced during the DNA replication and transcription, by
+CC       transiently cleaving and rejoining one strand of the DNA duplex.
+CC       Introduces a single-strand break via transesterification at a target
+CC       site in duplex DNA. The scissile phosphodiester is attacked by the
+CC       catalytic tyrosine of the enzyme, resulting in the formation of a DNA-
+CC       (5'-phosphotyrosyl)-enzyme intermediate and the expulsion of a 3'-OH
+CC       DNA strand. The free DNA strand then undergoes passage around the
+CC       unbroken strand, thus removing DNA supercoils. Finally, in the
+CC       religation step, the DNA 3'-OH attacks the covalent intermediate to
+CC       expel the active-site tyrosine and restore the DNA phosphodiester
+CC       backbone. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-independent breakage of single-stranded DNA, followed by
+CC         passage and rejoining.; EC=5.6.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Belongs to the type IA topoisomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08417.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69254.1; -; Genomic_DNA.
+DR   RefSeq; NP_455783.1; NC_003198.1.
+DR   RefSeq; WP_000513593.1; NZ_WSUR01000006.1.
+DR   AlphaFoldDB; P0A2I2; -.
+DR   SMR; P0A2I2; -.
+DR   STRING; 220341.gene:17585297; -.
+DR   KEGG; stt:t1627; -.
+DR   KEGG; sty:STY1336; -.
+DR   PATRIC; fig|220341.7.peg.1343; -.
+DR   eggNOG; COG0550; Bacteria.
+DR   HOGENOM; CLU_002929_4_3_6; -.
+DR   OMA; PECKYTR; -.
+DR   OrthoDB; 9804262at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I (single strand cut, ATP-independent) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-UniRule.
+DR   CDD; cd00186; TOP1Ac; 1.
+DR   CDD; cd03363; TOPRIM_TopoIA_TopoI; 1.
+DR   FunFam; 1.10.290.10:FF:000002; DNA topoisomerase 1; 1.
+DR   FunFam; 2.20.25.10:FF:000013; DNA topoisomerase 1; 1.
+DR   FunFam; 3.30.65.10:FF:000001; DNA topoisomerase 1; 1.
+DR   FunFam; 3.30.65.10:FF:000002; DNA topoisomerase 1; 1.
+DR   FunFam; 3.30.65.10:FF:000003; DNA topoisomerase 1; 1.
+DR   FunFam; 3.40.50.140:FF:000001; DNA topoisomerase 1; 1.
+DR   Gene3D; 2.20.25.10; -; 1.
+DR   Gene3D; 3.40.50.140; -; 1.
+DR   Gene3D; 3.30.65.10; Bacterial Topoisomerase I, domain 1; 3.
+DR   Gene3D; 1.10.460.10; Topoisomerase I, domain 2; 1.
+DR   Gene3D; 2.70.20.10; Topoisomerase I, domain 3; 1.
+DR   Gene3D; 1.10.290.10; Topoisomerase I, domain 4; 1.
+DR   HAMAP; MF_00952; Topoisom_1_prok; 1.
+DR   InterPro; IPR049330; TOP1_Znf.
+DR   InterPro; IPR000380; Topo_IA.
+DR   InterPro; IPR003601; Topo_IA_2.
+DR   InterPro; IPR023406; Topo_IA_AS.
+DR   InterPro; IPR013497; Topo_IA_cen.
+DR   InterPro; IPR013824; Topo_IA_cen_sub1.
+DR   InterPro; IPR013825; Topo_IA_cen_sub2.
+DR   InterPro; IPR013826; Topo_IA_cen_sub3.
+DR   InterPro; IPR023405; Topo_IA_core_domain.
+DR   InterPro; IPR003602; Topo_IA_DNA-bd_dom.
+DR   InterPro; IPR013498; Topo_IA_Znf.
+DR   InterPro; IPR005733; TopoI_bac-type.
+DR   InterPro; IPR013263; TopoI_Znr_bac.
+DR   InterPro; IPR028612; Topoisom_1_IA.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034149; TOPRIM_TopoI.
+DR   NCBIfam; TIGR01051; topA_bact; 1.
+DR   PANTHER; PTHR42785:SF1; DNA TOPOISOMERASE; 1.
+DR   PANTHER; PTHR42785; DNA TOPOISOMERASE, TYPE IA, CORE; 1.
+DR   Pfam; PF21372; TOP1_ZnF; 1.
+DR   Pfam; PF08272; Topo_Zn_Ribbon; 2.
+DR   Pfam; PF01131; Topoisom_bac; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF01396; zf-C4_Topoisom; 2.
+DR   PRINTS; PR00417; PRTPISMRASEI.
+DR   SMART; SM00437; TOP1Ac; 1.
+DR   SMART; SM00436; TOP1Bc; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF56712; Prokaryotic type I DNA topoisomerase; 1.
+DR   SUPFAM; SSF57783; Zinc beta-ribbon; 3.
+DR   PROSITE; PS00396; TOPO_IA_1; 1.
+DR   PROSITE; PS52039; TOPO_IA_2; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding; Isomerase; Magnesium; Metal-binding; Repeat; Topoisomerase;
+KW   Zinc; Zinc-finger.
+FT   CHAIN           1..865
+FT                   /note="DNA topoisomerase 1"
+FT                   /id="PRO_0000145164"
+FT   DOMAIN          3..142
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   DOMAIN          158..575
+FT                   /note="Topo IA-type catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383"
+FT   ZN_FING         599..630
+FT                   /note="C4-type 1"
+FT   ZN_FING         662..689
+FT                   /note="C4-type 2"
+FT   ZN_FING         711..736
+FT                   /note="C4-type 3"
+FT   REGION          37..65
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          192..197
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   ACT_SITE        319
+FT                   /note="O-(5'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383"
+FT   BINDING         9
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   BINDING         111
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            33
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            168
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            169
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            172
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            177
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            184
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            321
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            507
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+SQ   SEQUENCE   865 AA;  97303 MW;  57EE1CBA696FEF7C CRC64;
+     MGKALVIVES PAKAKTINKY LGNDYVVKSS VGHIRDLPTS GSAAKKSADS TSTKTAKKPK
+     KDERGALVNR MGVDPWHNWD AHYEVLPGKE KVVSELKQLA EKADHIYLAT DLDREGEAIA
+     WHLREVIGGD DARYSRVVFN EITKNAIRQA FEQPGELNIN RVNAQQARRF MDRVVGYMVS
+     PLLWKKIARG LSAGRVQSVA VRLVVERERE IKAFVPEEFW EIDANTTTPS GEALPLQVTH
+     QNDKPFRPVN REQTLAAVSL LEKARYSVLE REDKPTSSKP GAPFITSTLQ QAASTRLGFG
+     VKKTMMMAQR LYEAGYITYM RTDSTNLSQD AVNMVRGYIG DNFGKKYLPD NPNQYASKEN
+     SQEAHEAIRP SDVAVMAESL KDMEADAQKL YQLIWRQFVA CQMTPAQYDS TTLTVGAGEF
+     RLKARGRILR FDGWTKVMPA LRKGDEDRTL PAVNKGDALT LLELTPAQHF TKPPARFSEA
+     SLVKELEKRG IGRPSTYASI ISTIQDRGYV RVENRRFYAE KMGEIVTDRL EENFRELMNY
+     DFTAQMEDSL DQVANHQAEW KAVLDNFFSD FTQQLDKAEK DPEEGGMRPN QMVLTSIDCP
+     TCGRKMGIRT ASTGVFLGCS GYALSPKERC KTTINLVPEN EVLNVLEGDD AETNALRAKR
+     RCQKCGTAMD SYLIDPKRKL HVCGNNPTCD GYEIEEGEFR IKGYDGPIVE CEKCGSEMHL
+     KMGRFGKYMA CTNDECKNTR KILRNGEVAP PKEDPVPLPE LPCEKSDAYF VLRDGAAGIF
+     LAANTFPKSR ETRAPLVEEL YRFRDRLPEK LRYLADAPQQ DPEGNKTVVR FSRKTKQQYV
+     AAEKDGKATG WSAFFVDGKW VEGKK
+//

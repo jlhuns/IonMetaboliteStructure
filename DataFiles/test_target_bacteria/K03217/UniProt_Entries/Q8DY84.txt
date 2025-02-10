@@ -1,0 +1,117 @@
+ID   YIDC2_STRA5             Reviewed;         310 AA.
+AC   Q8DY84;
+DT   21-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=Membrane protein insertase YidC 2 {ECO:0000255|HAMAP-Rule:MF_01811};
+DE   AltName: Full=Foldase YidC 2 {ECO:0000255|HAMAP-Rule:MF_01811};
+DE   AltName: Full=Membrane integrase YidC 2 {ECO:0000255|HAMAP-Rule:MF_01811};
+DE   AltName: Full=Membrane protein YidC 2 {ECO:0000255|HAMAP-Rule:MF_01811};
+DE   Flags: Precursor;
+GN   Name=yidC2 {ECO:0000255|HAMAP-Rule:MF_01811};
+GN   OrderedLocusNames=SAG1608;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Required for the insertion and/or proper folding and/or
+CC       complex formation of integral membrane proteins into the membrane.
+CC       Involved in integration of membrane proteins that insert both
+CC       dependently and independently of the Sec translocase complex, as well
+CC       as at least some lipoproteins. {ECO:0000255|HAMAP-Rule:MF_01811}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01811};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01811}.
+CC   -!- SIMILARITY: Belongs to the OXA1/ALB3/YidC family. Type 2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01811}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN00472.1; -; Genomic_DNA.
+DR   RefSeq; NP_688599.1; NC_004116.1.
+DR   RefSeq; WP_000751931.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DY84; -.
+DR   SMR; Q8DY84; -.
+DR   STRING; 208435.SAG1608; -.
+DR   KEGG; sag:SAG1608; -.
+DR   PATRIC; fig|208435.3.peg.1618; -.
+DR   HOGENOM; CLU_036138_5_1_9; -.
+DR   OrthoDB; 9780552at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032977; F:membrane insertase activity; IEA:InterPro.
+DR   GO; GO:0051205; P:protein insertion into membrane; IEA:TreeGrafter.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   CDD; cd20070; 5TM_YidC_Alb3; 1.
+DR   HAMAP; MF_01811; YidC_type2; 1.
+DR   InterPro; IPR001708; YidC/ALB3/OXA1/COX18.
+DR   InterPro; IPR028055; YidC/Oxa/ALB_C.
+DR   InterPro; IPR023060; YidC/YidC1/YidC2_Firmicutes.
+DR   InterPro; IPR047196; YidC_ALB_C.
+DR   NCBIfam; TIGR03592; yidC_oxa1_cterm; 1.
+DR   PANTHER; PTHR12428:SF65; CYTOCHROME C OXIDASE ASSEMBLY PROTEIN COX18, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR12428; OXA1; 1.
+DR   Pfam; PF02096; 60KD_IMP; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Chaperone; Lipoprotein; Membrane; Palmitate;
+KW   Protein transport; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   CHAIN           24..310
+FT                   /note="Membrane protein insertase YidC 2"
+FT                   /id="PRO_0000020403"
+FT   TRANSMEM        33..53
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   TRANSMEM        58..78
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   TRANSMEM        135..155
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   TRANSMEM        180..200
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   TRANSMEM        219..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   REGION          266..310
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        281..297
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        298..310
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   LIPID           24
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+FT   LIPID           24
+FT                   /note="S-diacylglycerol cysteine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01811"
+SQ   SEQUENCE   310 AA;  34735 MW;  397AD7FCC52840CD CRC64;
+     MKKTLKRILF SSLSLSMLLL LTGCVSVDKA GKPYGVIWNT LGVPMANLIT YFAQHQGLGF
+     GVAIIIVTVI VRVVILPLGL YQSWKASYQA EKMAYFKPLF EPINERLRNA KTQEEKLAAQ
+     TELMTAQREN GLSMFGGIGC LPLLIQMPFF SAIFFAARYT PGVSSATFLG LNLGQKSLTL
+     TVIIAILYFV QSWLSMQGVP DEQRQQMKTM MYLMPIMMVF MSISLPASVA LYWFIGGIFS
+     IIQQLVTTYV LKPKLRRKVE EEYTKNPPKA YKANNARKDV TNSTKATESN QAIITSKKTN
+     RNAGKQKRRG
+//

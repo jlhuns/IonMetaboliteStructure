@@ -1,0 +1,96 @@
+ID   A0AAF0BRE1_RHOPA        Unreviewed;        79 AA.
+AC   A0AAF0BRE1;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Acyl carrier protein {ECO:0000256|HAMAP-Rule:MF_01217, ECO:0000256|NCBIfam:TIGR00517};
+DE            Short=ACP {ECO:0000256|HAMAP-Rule:MF_01217};
+GN   Name=acpP {ECO:0000256|HAMAP-Rule:MF_01217};
+GN   ORFNames=TX73_015895 {ECO:0000313|EMBL:WCL93237.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL93237.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL93237.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Carrier of the growing fatty acid chain in fatty acid
+CC       biosynthesis. {ECO:0000256|ARBA:ARBA00003180, ECO:0000256|HAMAP-
+CC       Rule:MF_01217, ECO:0000256|RuleBase:RU003545}.
+CC   -!- PATHWAY: Glycolipid biosynthesis; KDO(2)-lipid A biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00024328}.
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis. {ECO:0000256|HAMAP-
+CC       Rule:MF_01217, ECO:0000256|RuleBase:RU003545}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01217}.
+CC   -!- PTM: 4'-phosphopantetheine is transferred from CoA to a specific serine
+CC       of apo-ACP by AcpS. This modification is essential for activity because
+CC       fatty acids are bound in thioester linkage to the sulfhydryl of the
+CC       prosthetic group. {ECO:0000256|HAMAP-Rule:MF_01217}.
+CC   -!- PTM: 4'-phosphopantetheine is transferred from CoA to a specific serine
+CC       of apo-ACP by acpS. {ECO:0000256|RuleBase:RU003545}.
+CC   -!- SIMILARITY: Belongs to the acyl carrier protein (ACP) family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01217}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL93237.1; -; Genomic_DNA.
+DR   RefSeq; WP_002716125.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BRE1; -.
+DR   GeneID; 66894155; -.
+DR   KEGG; rpa:TX73_015895; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016020; C:membrane; IEA:GOC.
+DR   GO; GO:0000035; F:acyl binding; IEA:TreeGrafter.
+DR   GO; GO:0000036; F:acyl carrier activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IEA:InterPro.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 1.10.1200.10:FF:000012; Acyl carrier protein; 1.
+DR   Gene3D; 1.10.1200.10; ACP-like; 1.
+DR   HAMAP; MF_01217; Acyl_carrier; 1.
+DR   InterPro; IPR003231; ACP.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR006162; Ppantetheine_attach_site.
+DR   NCBIfam; TIGR00517; acyl_carrier; 1.
+DR   PANTHER; PTHR20863; ACYL CARRIER PROTEIN; 1.
+DR   PANTHER; PTHR20863:SF76; CARRIER DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF00550; PP-binding; 1.
+DR   SMART; SM00823; PKS_PP; 1.
+DR   SUPFAM; SSF47336; ACP-like; 1.
+DR   PROSITE; PS50075; CARRIER; 1.
+DR   PROSITE; PS00012; PHOSPHOPANTETHEINE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01217};
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160, ECO:0000256|HAMAP-
+KW   Rule:MF_01217};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832, ECO:0000256|HAMAP-
+KW   Rule:MF_01217};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_01217};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_01217};
+KW   Phosphopantetheine {ECO:0000256|ARBA:ARBA00022450, ECO:0000256|HAMAP-
+KW   Rule:MF_01217};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553, ECO:0000256|HAMAP-
+KW   Rule:MF_01217}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          2..77
+FT                   /note="Carrier"
+FT                   /evidence="ECO:0000259|PROSITE:PS50075"
+FT   MOD_RES         37
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01217"
+SQ   SEQUENCE   79 AA;  8573 MW;  058D3A9ADA76B833 CRC64;
+     MSEIGERVKK IVVEHLGVEP EKVVDSASFI DDLGADSLDT VELVMAFEEE FGCEIPDDAA
+     ETILTVGDAT KFLEKNAKS
+//

@@ -1,0 +1,79 @@
+ID   D5EX56_XYLR2            Unreviewed;       341 AA.
+AC   D5EX56;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=Uroporphyrinogen decarboxylase {ECO:0000256|ARBA:ARBA00012288, ECO:0000256|NCBIfam:TIGR01464};
+DE            EC=4.1.1.37 {ECO:0000256|ARBA:ARBA00012288, ECO:0000256|NCBIfam:TIGR01464};
+GN   Name=hemE {ECO:0000313|EMBL:ADE83420.1};
+GN   OrderedLocusNames=PRU_2550 {ECO:0000313|EMBL:ADE83420.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE83420.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE83420.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uroporphyrinogen III + 4 H(+) = coproporphyrinogen III + 4
+CC         CO2; Xref=Rhea:RHEA:19865, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57308, ChEBI:CHEBI:57309; EC=4.1.1.37;
+CC         Evidence={ECO:0000256|RuleBase:RU000554};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 4/4.
+CC       {ECO:0000256|ARBA:ARBA00004804, ECO:0000256|RuleBase:RU000554}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738}.
+CC   -!- SIMILARITY: Belongs to the uroporphyrinogen decarboxylase family.
+CC       {ECO:0000256|ARBA:ARBA00009935, ECO:0000256|RuleBase:RU004169}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE83420.1; -; Genomic_DNA.
+DR   RefSeq; WP_013065403.1; NC_014033.1.
+DR   AlphaFoldDB; D5EX56; -.
+DR   STRING; 264731.PRU_2550; -.
+DR   KEGG; pru:PRU_2550; -.
+DR   eggNOG; COG0407; Bacteria.
+DR   HOGENOM; CLU_040933_0_1_10; -.
+DR   UniPathway; UPA00251; UER00321.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004853; F:uroporphyrinogen decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019353; P:protoporphyrinogen IX biosynthetic process from glutamate; IEA:TreeGrafter.
+DR   Gene3D; 3.20.20.210; -; 1.
+DR   InterPro; IPR038071; UROD/MetE-like_sf.
+DR   InterPro; IPR006361; Uroporphyrinogen_deCO2ase_HemE.
+DR   InterPro; IPR000257; Uroporphyrinogen_deCOase.
+DR   NCBIfam; TIGR01464; hemE; 1.
+DR   PANTHER; PTHR21091; METHYLTETRAHYDROFOLATE:HOMOCYSTEINE METHYLTRANSFERASE RELATED; 1.
+DR   PANTHER; PTHR21091:SF169; UROPORPHYRINOGEN DECARBOXYLASE; 1.
+DR   Pfam; PF01208; URO-D; 1.
+DR   SUPFAM; SSF51726; UROD/MetE-like; 1.
+DR   PROSITE; PS00906; UROD_1; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793,
+KW   ECO:0000256|RuleBase:RU000554};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU000554};
+KW   Porphyrin biosynthesis {ECO:0000256|ARBA:ARBA00023244,
+KW   ECO:0000256|RuleBase:RU000554};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          19..28
+FT                   /note="Uroporphyrinogen decarboxylase (URO-D)"
+FT                   /evidence="ECO:0000259|PROSITE:PS00906"
+SQ   SEQUENCE   341 AA;  38576 MW;  4AA80F20D787E854 CRC64;
+     MYSNPFFAVI NHQPACRPPV WMMRQAGRVL PRYRQLTKML PFRTIMSYAN LAAEVTLMPI
+     DDMGMDAAIL FSDILVIPEA LGVKVEWTNE GPAFPHPLMD VEHPAAELSF SPSHLNHVAD
+     TLDEIMGQKR ADTPVIGFCG GPLTCLCYML GGRDKTMQFT DVVRYLYTHR EESLQLLDAI
+     TSASETYVHL QAAHGIDTFQ IFESFAGVIS AELYQDMIMP FVRRITAAVR QHGLPIIFFP
+     KGFGAGLQML TPEDCDFVSI DWQTPLLVAR HLVNPAIGIQ GNMDPRILFA PQAVIEQHLQ
+     QYLAFFREHP NYIFNLGHGV HKDTPLENVQ FVTEWFRQAQ K
+//

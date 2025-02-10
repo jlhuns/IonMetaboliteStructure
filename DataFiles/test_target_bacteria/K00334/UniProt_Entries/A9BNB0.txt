@@ -1,0 +1,95 @@
+ID   A9BNB0_DELAS            Unreviewed;       163 AA.
+AC   A9BNB0;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 94.
+DE   SubName: Full=NADH-quinone oxidoreductase, E subunit {ECO:0000313|EMBL:ABX37805.1};
+GN   OrderedLocusNames=Daci_5176 {ECO:0000313|EMBL:ABX37805.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX37805.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX37805.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|ARBA:ARBA00034078};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000216-1};
+CC       Note=Binds 1 [2Fe-2S] cluster. {ECO:0000256|PIRSR:PIRSR000216-1};
+CC   -!- SIMILARITY: Belongs to the complex I 24 kDa subunit family.
+CC       {ECO:0000256|ARBA:ARBA00010643}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37805.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206975.1; NC_010002.1.
+DR   AlphaFoldDB; A9BNB0; -.
+DR   STRING; 398578.Daci_5176; -.
+DR   GeneID; 24119498; -.
+DR   KEGG; dac:Daci_5176; -.
+DR   eggNOG; COG1905; Bacteria.
+DR   HOGENOM; CLU_054362_2_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IEA:TreeGrafter.
+DR   CDD; cd03064; TRX_Fd_NuoE; 1.
+DR   FunFam; 1.10.10.1590:FF:000001; NADH-quinone oxidoreductase subunit E; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   Gene3D; 1.10.10.1590; NADH-quinone oxidoreductase subunit E; 1.
+DR   InterPro; IPR002023; NuoE-like.
+DR   InterPro; IPR042128; NuoE_dom.
+DR   InterPro; IPR041921; NuoE_N.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   NCBIfam; TIGR01958; nuoE_fam; 1.
+DR   PANTHER; PTHR10371:SF3; NADH DEHYDROGENASE [UBIQUINONE] FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10371; NADH DEHYDROGENASE UBIQUINONE FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF01257; 2Fe-2S_thioredx; 1.
+DR   PIRSF; PIRSF000216; NADH_DH_24kDa; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S {ECO:0000256|ARBA:ARBA00022714, ECO:0000256|PIRSR:PIRSR000216-1};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRSR:PIRSR000216-1};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|PIRSR:PIRSR000216-
+KW   1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR000216-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   BINDING         82
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000216-1"
+FT   BINDING         87
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000216-1"
+FT   BINDING         123
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000216-1"
+FT   BINDING         127
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000216-1"
+SQ   SEQUENCE   163 AA;  18083 MW;  62331F8AAB4BE335 CRC64;
+     MITEATKERF AREVAKYPAD QKQSAVMACL SIVQQEQGWV SAESEAVIAE FLGMAEIAVH
+     EVTTFYNMYN QRPTGTYKLN VCTNLPCQLR DGYKALHHLE SRLGIKMGET TPDGMFTLQQ
+     SECLGACADS PVMLVNDRCM CSFMSNEKLD ELIDGLRAAE GKA
+//

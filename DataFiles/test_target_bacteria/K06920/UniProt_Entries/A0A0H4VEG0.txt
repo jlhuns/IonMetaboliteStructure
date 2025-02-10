@@ -1,0 +1,111 @@
+ID   A0A0H4VEG0_9SPHN        Unreviewed;       233 AA.
+AC   A0A0H4VEG0;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 39.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000256|ARBA:ARBA00039149, ECO:0000256|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000256|ARBA:ARBA00039149, ECO:0000256|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000256|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000256|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000256|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000256|HAMAP-Rule:MF_01633};
+GN   ORFNames=CP97_02845 {ECO:0000313|EMBL:AKQ41206.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41206.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41206.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000256|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + NH4(+) + ATP = 7-cyano-7-
+CC         deazaguanine + ADP + phosphate + H2O + H(+); Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047890, ECO:0000256|HAMAP-
+CC         Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00005061, ECO:0000256|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000256|ARBA:ARBA00037993,
+CC       ECO:0000256|HAMAP-Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41206.1; -; Genomic_DNA.
+DR   RefSeq; WP_048884705.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VEG0; -.
+DR   STRING; 1648404.CP97_02845; -.
+DR   KEGG; ery:CP97_02845; -.
+DR   PATRIC; fig|1648404.4.peg.601; -.
+DR   OrthoDB; 9789567at2; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00364; 7-cyano-7-deazaguanine synthase QueC; 1.
+DR   PANTHER; PTHR42914; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   PANTHER; PTHR42914:SF1; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01633};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_01633};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01633};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01633};
+KW   Queuosine biosynthesis {ECO:0000256|ARBA:ARBA00022785, ECO:0000256|HAMAP-
+KW   Rule:MF_01633}; Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_01633}.
+FT   BINDING         12..22
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01633"
+FT   BINDING         192
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01633"
+FT   BINDING         202
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01633"
+FT   BINDING         205
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01633"
+FT   BINDING         208
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   233 AA;  24984 MW;  B5CD24BA1F5B138F CRC64;
+     MTQTDKIAVV LLSGGLDSMV TAAIARENGY RLQALSINYG QRHFCELNSA STIADKLGVE
+     RHVVLPLDLR QFGGSALTDD IDVPKAGVAQ DEIPVTYVPA RNLLFLALTT AFAESAGASD
+     IFIGVNALDY SGYPDCRPEF IASFAETARL GTRQGVEGTP FVIHAPLQHF TKADIARECA
+     RLDLDPAWSW SCYDPTADGI ACGLCDSCRL RRKGFAEAGV MDTTAYAAPF AAD
+//

@@ -54,38 +54,37 @@ def main(KOID_FILE, target_organism_file):
     # all_koids will now contain all the KOIDs from the entire file
     seenKOIDS = []
     for KOID in all_koids:
-        # try:
-            # print(KOID)
+        try:
+            seenKOIDS = load_seen_koids()
+            # try:
+                # print(KOID)
 
-        if KOID in seenKOIDS:
-            print(f"Skipping {KOID}: Already Seen KOID.")
+            folder_path = os.path.join(FILE_PATHS.GET_ORGANISM_FOLDER_PATH(target_organism_file).replace('.csv', ""), KOID)
+            if KOID not in seenKOIDS:
+                seenKOIDS.add(KOID)
+                save_seen_koid(KOID)
+            else:
+                print(f"Skipping {KOID}: Already Seen KOID.")
+                continue
+            
+            if os.path.exists(folder_path) and os.path.isdir(folder_path):
+                print(f"Skipping {KOID}: Folder already exists.")
+                continue
+            # Attempt each step, and skip to the next KOID if any error occurs
+            uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids(KOID, target_organism_file)
+            if len(uniprot_ids) < 20:
+                continue
+            create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
+            run_msa.create_msa_file(KOID, target_organism_file)
+            analyze_active_sites.analyze_MSA(KOID, target_organism_file)
+            # except Exception as e:
+            #     # Log the error and skip to the next KOID
+            #     print(f"Skipping {KOID}")
+            #     continue  # Continue to the next KOID if an error occurs
+            FILE_PATHS.crate_target_analysis_file(target_organism_file)
+        except:
+            print(f"{KOID} ran into an error")
             continue
-        
-        seenKOIDS.append(KOID)
-        save_seen_koid(KOID)  # Save to file
-
-        folder_path = os.path.join(FILE_PATHS.GET_ORGANISM_FOLDER_PATH(target_organism_file).replace('.csv', ""), KOID)
-        if KOID not in seenKOIDS:
-            seenKOIDS.append(KOID)
-        else:
-            print(f"Skipping {KOID}: Already Seen KOID.")
-            continue
-        
-        if os.path.exists(folder_path) and os.path.isdir(folder_path):
-            print(f"Skipping {KOID}: Folder already exists.")
-            continue
-        # Attempt each step, and skip to the next KOID if any error occurs
-        uniprot_ids = get_orthologs_uniprotID.get_uniprot_ids(KOID, target_organism_file)
-        if len(uniprot_ids) < 20:
-            continue
-        create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
-        run_msa.create_msa_file(KOID, target_organism_file)
-        analyze_active_sites.analyze_MSA(KOID, target_organism_file)
-        # except Exception as e:
-        #     # Log the error and skip to the next KOID
-        #     print(f"Skipping {KOID}")
-        #     continue  # Continue to the next KOID if an error occurs
-        FILE_PATHS.crate_target_analysis_file(target_organism_file)
 
     end_time = time.time()
     elapsed_time = end_time - start_time

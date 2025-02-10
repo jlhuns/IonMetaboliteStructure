@@ -1,0 +1,125 @@
+ID   RLUD_SALTI              Reviewed;         326 AA.
+AC   P65837; Q8XGG2;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Ribosomal large subunit pseudouridine synthase D {ECO:0000250|UniProtKB:P33643};
+DE            EC=5.4.99.23 {ECO:0000250|UniProtKB:P33643};
+DE   AltName: Full=23S rRNA pseudouridine(1911/1915/1917) synthase;
+DE   AltName: Full=rRNA pseudouridylate synthase D;
+DE   AltName: Full=rRNA-uridine isomerase D;
+GN   Name=rluD; Synonyms=sfhB; OrderedLocusNames=STY2851, t2618;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Responsible for synthesis of pseudouridine from uracil at
+CC       positions 1911, 1915 and 1917 in 23S ribosomal RNA.
+CC       {ECO:0000250|UniProtKB:P33643}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(1911/1915/1917) in 23S rRNA =
+CC         pseudouridine(1911/1915/1917) in 23S rRNA; Xref=Rhea:RHEA:42524,
+CC         Rhea:RHEA-COMP:10097, Rhea:RHEA-COMP:10098, ChEBI:CHEBI:65314,
+CC         ChEBI:CHEBI:65315; EC=5.4.99.23;
+CC         Evidence={ECO:0000250|UniProtKB:P33643};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P33643}.
+CC       Note=Associates with late stage pre-50S ribosomal subunits.
+CC       {ECO:0000250|UniProtKB:P33643}.
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase RluA family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD05842.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70189.1; -; Genomic_DNA.
+DR   RefSeq; NP_457133.1; NC_003198.1.
+DR   RefSeq; WP_000079130.1; NZ_WSUR01000036.1.
+DR   AlphaFoldDB; P65837; -.
+DR   SMR; P65837; -.
+DR   STRING; 220341.gene:17586746; -.
+DR   KEGG; stt:t2618; -.
+DR   KEGG; sty:STY2851; -.
+DR   PATRIC; fig|220341.7.peg.2900; -.
+DR   eggNOG; COG0564; Bacteria.
+DR   HOGENOM; CLU_016902_4_0_6; -.
+DR   OMA; KSERAYT; -.
+DR   OrthoDB; 9807829at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0160140; F:23S rRNA pseudouridine(1911/1915/1917) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000455; P:enzyme-directed rRNA pseudouridine synthesis; IEA:UniProtKB-ARBA.
+DR   CDD; cd02869; PseudoU_synth_RluA_like; 1.
+DR   CDD; cd00165; S4; 1.
+DR   FunFam; 3.10.290.10:FF:000011; Pseudouridine synthase; 1.
+DR   FunFam; 3.30.2350.10:FF:000004; Pseudouridine synthase; 1.
+DR   Gene3D; 6.10.140.230; -; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   Gene3D; 3.10.290.10; RNA-binding S4 domain; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR006224; PsdUridine_synth_RluA-like_CS.
+DR   InterPro; IPR006225; PsdUridine_synth_RluC/D.
+DR   InterPro; IPR006145; PsdUridine_synth_RsuA/RluA.
+DR   InterPro; IPR050188; RluA_PseudoU_synthase.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   NCBIfam; TIGR00005; rluA_subfam; 1.
+DR   PANTHER; PTHR21600; MITOCHONDRIAL RNA PSEUDOURIDINE SYNTHASE; 1.
+DR   PANTHER; PTHR21600:SF44; RIBOSOMAL LARGE SUBUNIT PSEUDOURIDINE SYNTHASE D; 1.
+DR   Pfam; PF00849; PseudoU_synth_2; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   SMART; SM00363; S4; 1.
+DR   SUPFAM; SSF55174; Alpha-L RNA-binding motif; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   PROSITE; PS01129; PSI_RLU; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Isomerase; RNA-binding; rRNA processing.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..326
+FT                   /note="Ribosomal large subunit pseudouridine synthase D"
+FT                   /id="PRO_0000162700"
+FT   DOMAIN          18..91
+FT                   /note="S4 RNA-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00182"
+FT   REGION          183..203
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        139
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   326 AA;  37100 MW;  412704BF0F6E7098 CRC64;
+     MAQRVQLTAT VSENQLGQRL DQALAEMFPD YSRSRIKEWI LNQRVLVNGQ LCDKPKEKVL
+     GGERVAIDAE IDEEIRFEAQ DIPLDIVYED DDILVINKPR DLVVHPGAGN PDGTVLNALL
+     HYYPPIADVP RAGIVHRLDK DTTGLMVVAK TVPAQTRLVE SLQLREITRE YEAVAIGHMT
+     AGGTVNEPIS RHPTKRTHMS VHPMGKPAVT HYRIMEHFRV HTRLRLRLET GRTHQIRVHM
+     AHITHPLVGD QVYGGRPRPP KGASEEFIST LRKFDRQALH ATMLRLYHPV SGIEMEWHAP
+     IPQDMVDLID AMRADFEDHK DDVDWL
+//

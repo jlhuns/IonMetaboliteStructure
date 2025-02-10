@@ -1,0 +1,108 @@
+ID   KGUA_SALTI              Reviewed;         207 AA.
+AC   Q8Z2H9;
+DT   10-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 128.
+DE   RecName: Full=Guanylate kinase {ECO:0000255|HAMAP-Rule:MF_00328};
+DE            EC=2.7.4.8 {ECO:0000255|HAMAP-Rule:MF_00328};
+DE   AltName: Full=GMP kinase {ECO:0000255|HAMAP-Rule:MF_00328};
+GN   Name=gmk {ECO:0000255|HAMAP-Rule:MF_00328};
+GN   OrderedLocusNames=STY4052, t3778;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Essential for recycling GMP and indirectly, cGMP.
+CC       {ECO:0000255|HAMAP-Rule:MF_00328}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GMP + ATP = GDP + ADP; Xref=Rhea:RHEA:20780,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58115, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00328};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00328}.
+CC   -!- SIMILARITY: Belongs to the guanylate kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00328}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03253.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71261.1; -; Genomic_DNA.
+DR   RefSeq; NP_458187.1; NC_003198.1.
+DR   RefSeq; WP_000046966.1; NZ_WSUR01000001.1.
+DR   AlphaFoldDB; Q8Z2H9; -.
+DR   SMR; Q8Z2H9; -.
+DR   STRING; 220341.gene:17587897; -.
+DR   KEGG; stt:t3778; -.
+DR   KEGG; sty:STY4052; -.
+DR   PATRIC; fig|220341.7.peg.4136; -.
+DR   eggNOG; COG0194; Bacteria.
+DR   HOGENOM; CLU_001715_1_0_6; -.
+DR   OMA; EWAVVHG; -.
+DR   OrthoDB; 9808150at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004385; F:guanylate kinase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd00071; GMPK; 1.
+DR   FunFam; 3.40.50.300:FF:000084; Guanylate kinase; 1.
+DR   FunFam; 3.30.63.10:FF:000002; Guanylate kinase 1; 1.
+DR   Gene3D; 3.30.63.10; Guanylate Kinase phosphate binding domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00328; Guanylate_kinase; 1.
+DR   InterPro; IPR008145; GK/Ca_channel_bsu.
+DR   InterPro; IPR008144; Guanylate_kin-like_dom.
+DR   InterPro; IPR017665; Guanylate_kinase.
+DR   InterPro; IPR020590; Guanylate_kinase_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03263; guanyl_kin; 1.
+DR   PANTHER; PTHR23117:SF13; GUANYLATE KINASE; 1.
+DR   PANTHER; PTHR23117; GUANYLATE KINASE-RELATED; 1.
+DR   Pfam; PF00625; Guanylate_kin; 1.
+DR   SMART; SM00072; GuKc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00856; GUANYLATE_KINASE_1; 1.
+DR   PROSITE; PS50052; GUANYLATE_KINASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..207
+FT                   /note="Guanylate kinase"
+FT                   /id="PRO_0000170598"
+FT   DOMAIN          4..184
+FT                   /note="Guanylate kinase-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00328"
+FT   BINDING         11..18
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00328"
+SQ   SEQUENCE   207 AA;  23500 MW;  A26757C1FB40970B CRC64;
+     MAQGTLYIVS APSGAGKSSL IQALLKTQPL YDTQVSVSHT TRAPRPGEVH GEHYFFVNHD
+     EFKTMIGREA FLEHAEVFGN YYGTSRETIE QVLATGVDVF LDIDWQGAQQ IREKMPQARS
+     IFILPPSKIE LDRRLRGRGQ DSEEVIAKRM AQAVAEMSHY AEYDYLIVND DFDTALSDLK
+     TIIRAERLRM SRQKQRHDAL ISKLLAD
+//

@@ -1,0 +1,134 @@
+ID   SYM2_BACCR              Reviewed;         544 AA.
+AC   Q815U6;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Methionine--tRNA ligase 2 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            EC=6.1.1.10 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE   AltName: Full=Methionyl-tRNA synthetase 2 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            Short=MetRS 2 {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   Name=metG2 {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   OrderedLocusNames=BC_5031;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Is required not only for elongation of protein synthesis but
+CC       also for the initiation of all mRNA translation through initiator
+CC       tRNA(fMet) aminoacylation. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Met) + L-methionine + ATP = L-methionyl-tRNA(Met) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667, Rhea:RHEA-
+CC         COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78530, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.10; Evidence={ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00098};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       MetG type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11903.1; -; Genomic_DNA.
+DR   RefSeq; NP_834702.1; NC_004722.1.
+DR   RefSeq; WP_000021600.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q815U6; -.
+DR   SMR; Q815U6; -.
+DR   STRING; 226900.BC_5031; -.
+DR   KEGG; bce:BC5031; -.
+DR   PATRIC; fig|226900.8.peg.5186; -.
+DR   HOGENOM; CLU_009710_1_2_9; -.
+DR   OrthoDB; 9810191at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd07957; Anticodon_Ia_Met; 1.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   FunFam; 1.10.730.10:FF:000041; Methionine--tRNA ligase; 1.
+DR   FunFam; 2.20.28.20:FF:000001; Methionine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 2.20.28.20; Methionyl-tRNA synthetase, Zn-domain; 1.
+DR   HAMAP; MF_00098; Met_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR041872; Anticodon_Met.
+DR   InterPro; IPR023458; Met-tRNA_ligase_1.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR029038; MetRS_Zn.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   NCBIfam; TIGR00398; metG; 1.
+DR   PANTHER; PTHR45765; METHIONINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR45765:SF1; METHIONINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   Pfam; PF19303; Anticodon_3; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF57770; Methionyl-tRNA synthetase (MetRS), Zn-domain; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..544
+FT                   /note="Methionine--tRNA ligase 2"
+FT                   /id="PRO_0000139100"
+FT   MOTIF           10..20
+FT                   /note="'HIGH' region"
+FT   MOTIF           329..333
+FT                   /note="'KMSKS' region"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         144
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         153
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         156
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         332
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+SQ   SEQUENCE   544 AA;  62871 MW;  CA3F07B90827C6D9 CRC64;
+     MSIFIGGAWP YANGSLHLGH IASLLPGDIL ARYYRSKGEN VLYVSGSDCN GTPIAIRAKQ
+     EGVTAKEIAD QYHEEFQRCF RSLGFTYDCY TRTDSEHHHE TVQNVFLRLL EEGHIYKKIV
+     EQAYCETCTQ FLPDRYVEGI CPHCHEAARG DQCDACSAIL DPLDLLEKKC KLCGSTPSVQ
+     ETEHFYFALH TFQEQIKRAV EIAKQTGTWR DNAIQLTERY VKEGLLDRAV SRDLPIGVPI
+     PVEGYEDKKI YVWIEAVTGY YSASKHWAEE TGKDDQEFWD SEAKTYYVHG KDNIPFHSVI
+     WPAVLLGIGE EAIPRHIVSN EYLTVEKRKL STSKNWAVWV PDILERYDPD SIRYFLTVNA
+     PENRDTDFSW REFIYSHNSE LLGAYGNFVN RTLKFIEKYY GGIVPKRSIE VELKDKVEGL
+     YKHVGEAIEQ TKFKVALETI FDAVRFANKY FDEKQPWKQR EDDPVSCEET IYNCVYLIAN
+     FANLLEPFLP FSSERVRNTL SIVKRNWEPQ NTLPSRIDSV QPLFERIDVK QIEHEIEKLY
+     GAVK
+//

@@ -1,0 +1,109 @@
+ID   Q81F25_BACCR            Unreviewed;       412 AA.
+AC   Q81F25;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 128.
+DE   RecName: Full=L-threonine dehydratase {ECO:0000256|RuleBase:RU362012};
+DE            EC=4.3.1.19 {ECO:0000256|RuleBase:RU362012};
+DE   AltName: Full=Threonine deaminase {ECO:0000256|RuleBase:RU362012};
+GN   Name=ilvA {ECO:0000256|RuleBase:RU362012};
+GN   OrderedLocusNames=BC_1781 {ECO:0000313|EMBL:AAP08755.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08755.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08755.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the anaerobic formation of alpha-ketobutyrate and
+CC       ammonia from threonine in a two-step reaction. The first step involved
+CC       a dehydration of threonine and a production of enamine intermediates
+CC       (aminocrotonate), which tautomerizes to its imine form (iminobutyrate).
+CC       Both intermediates are unstable and short-lived. The second step is the
+CC       nonenzymatic hydrolysis of the enamine/imine intermediates to form 2-
+CC       ketobutyrate and free ammonia. In the low water environment of the
+CC       cell, the second step is accelerated by RidA.
+CC       {ECO:0000256|RuleBase:RU362012}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine = 2-oxobutanoate + NH4(+); Xref=Rhea:RHEA:22108,
+CC         ChEBI:CHEBI:16763, ChEBI:CHEBI:28938, ChEBI:CHEBI:57926; EC=4.3.1.19;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001274,
+CC         ECO:0000256|RuleBase:RU362012};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU362012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; 2-
+CC       oxobutanoate from L-threonine: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004810, ECO:0000256|RuleBase:RU362012}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000256|RuleBase:RU362012}.
+CC   -!- SIMILARITY: Belongs to the serine/threonine dehydratase family.
+CC       {ECO:0000256|ARBA:ARBA00010869, ECO:0000256|RuleBase:RU362012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08755.1; -; Genomic_DNA.
+DR   RefSeq; NP_831554.1; NC_004722.1.
+DR   AlphaFoldDB; Q81F25; -.
+DR   KEGG; bce:BC1781; -.
+DR   PATRIC; fig|226900.8.peg.1772; -.
+DR   HOGENOM; CLU_021152_4_2_9; -.
+DR   UniPathway; UPA00047; UER00054.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IBA:GO_Central.
+DR   GO; GO:0004794; F:threonine deaminase activity; IBA:GO_Central.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006565; P:L-serine catabolic process; IBA:GO_Central.
+DR   GO; GO:0006567; P:threonine catabolic process; IBA:GO_Central.
+DR   CDD; cd04907; ACT_ThrD-I_2; 1.
+DR   CDD; cd01562; Thr-dehyd; 1.
+DR   FunFam; 3.40.50.1100:FF:000007; L-threonine dehydratase catabolic TdcB; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR011820; IlvA.
+DR   InterPro; IPR050147; Ser/Thr_Dehydratase.
+DR   InterPro; IPR001721; TD_ACT-like.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR02079; THD1; 1.
+DR   PANTHER; PTHR48078:SF11; THREONINE DEHYDRATASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR48078; THREONINE DEHYDRATASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   Pfam; PF00585; Thr_dehydrat_C; 1.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS51672; ACT_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU362012};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|RuleBase:RU362012};
+KW   Isoleucine biosynthesis {ECO:0000256|ARBA:ARBA00022624,
+KW   ECO:0000256|RuleBase:RU362012};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU362012};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|RuleBase:RU362012};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          329..403
+FT                   /note="ACT-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51672"
+SQ   SEQUENCE   412 AA;  45920 MW;  89752D6558BD7D3F CRC64;
+     MKIEDILMAH NCLKDIVIKT PLQRDTVLSE KYDCDVYVKR EDLQLIRSFK IRGAYNLIQS
+     LPKEKLQNGV VCASAGNHAQ GVAYTCNLLK IPSKIFMPTT TPKQKVSQVQ FFGGDFAEIV
+     LVGDTFDSSF QEAQCYCEEN RMTFVHPFDD PYVVAGQGTV AVEIMHDMEK PVDYIFTAIG
+     GGGLASGVGT YVKGVSPTTK VIGVEPMGAA SMKEAFLQNE NVALEKIDSF VDGAAVKKVG
+     KLTFETCKDV IDDIILVPEG KVCTTILELY KKNAIVAEPA GALSIAALDL YRDEIKGKTV
+     VCTLSGGNND IDRMQEMKER SLIYEGLKHY FIIEFPQRSG ALREFLDKGL GPEDDITRFE
+     YIKKHNKENG PALVGVELKH KEDYEQLITR FKENNIQFME LNKNPVLFDL LI
+//

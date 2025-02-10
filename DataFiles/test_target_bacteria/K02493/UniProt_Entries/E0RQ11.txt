@@ -1,0 +1,114 @@
+ID   E0RQ11_SPITD            Unreviewed;       282 AA.
+AC   E0RQ11;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=Release factor glutamine methyltransferase {ECO:0000256|HAMAP-Rule:MF_02126};
+DE            Short=RF MTase {ECO:0000256|HAMAP-Rule:MF_02126};
+DE            EC=2.1.1.297 {ECO:0000256|HAMAP-Rule:MF_02126};
+DE   AltName: Full=N5-glutamine methyltransferase PrmC {ECO:0000256|HAMAP-Rule:MF_02126};
+DE   AltName: Full=Protein-(glutamine-N5) MTase PrmC {ECO:0000256|HAMAP-Rule:MF_02126};
+DE   AltName: Full=Protein-glutamine N-methyltransferase PrmC {ECO:0000256|HAMAP-Rule:MF_02126};
+GN   Name=prmC {ECO:0000256|HAMAP-Rule:MF_02126};
+GN   OrderedLocusNames=STHERM_c19290 {ECO:0000313|EMBL:ADN02864.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02864.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02864.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Methylates the class 1 translation termination release
+CC       factors RF1/PrfA and RF2/PrfB on the glutamine residue of the
+CC       universally conserved GGQ motif. {ECO:0000256|HAMAP-Rule:MF_02126}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutaminyl-[peptide chain release factor] + S-adenosyl-L-
+CC         methionine = N(5)-methyl-L-glutaminyl-[peptide chain release factor]
+CC         + S-adenosyl-L-homocysteine + H(+); Xref=Rhea:RHEA:42896, Rhea:RHEA-
+CC         COMP:10271, Rhea:RHEA-COMP:10272, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30011, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:61891; EC=2.1.1.297;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048391, ECO:0000256|HAMAP-
+CC         Rule:MF_02126};
+CC   -!- SIMILARITY: Belongs to the protein N5-glutamine methyltransferase
+CC       family. PrmC subfamily. {ECO:0000256|HAMAP-Rule:MF_02126}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_02126}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02864.1; -; Genomic_DNA.
+DR   RefSeq; WP_013314703.1; NC_014484.1.
+DR   AlphaFoldDB; E0RQ11; -.
+DR   PaxDb; 665571-STHERM_c19290; -.
+DR   KEGG; sta:STHERM_c19290; -.
+DR   eggNOG; COG2890; Bacteria.
+DR   HOGENOM; CLU_018398_3_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0102559; F:protein-(glutamine-N5) methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036009; F:protein-glutamine N-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 1.10.8.10; DNA helicase RuvA subunit, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_02126; RF_methyltr_PrmC; 1.
+DR   InterPro; IPR004556; HemK-like.
+DR   InterPro; IPR050320; N5-glutamine_MTase.
+DR   InterPro; IPR040758; PrmC_N.
+DR   InterPro; IPR019874; Release_fac_Glu-N5_MeTfrase.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR007848; Small_mtfrase_dom.
+DR   NCBIfam; TIGR00536; hemK_fam; 1.
+DR   NCBIfam; TIGR03534; RF_mod_PrmC; 1.
+DR   PANTHER; PTHR18895; HEMK METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR18895:SF74; MTRF1L RELEASE FACTOR GLUTAMINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF05175; MTS; 1.
+DR   Pfam; PF17827; PrmC_N; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_02126};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_02126};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_02126}.
+FT   DOMAIN          6..76
+FT                   /note="Release factor glutamine methyltransferase N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17827"
+FT   DOMAIN          116..197
+FT                   /note="Methyltransferase small"
+FT                   /evidence="ECO:0000259|Pfam:PF05175"
+FT   BINDING         146
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02126"
+FT   BINDING         188..191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02126"
+FT   BINDING         188
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02126"
+SQ   SEQUENCE   282 AA;  30788 MW;  A480CBC2BB028CC7 CRC64;
+     MSTYRELLTE ATRTLTRAGI PTPFLDALLI LSQASGLSKE ALLASYPEPV PPETGRTFES
+     LLARRLAGEP VSYIRGLKEF YGLTFHVDRR VLVPRPDTEV LVDAALTLIR RDPAITHIHD
+     ACTGTGCILI AILAHTPRPL TASASDVSEE ALDVFRENAS RLLGTVPPHH RSDLLSSVPG
+     RFHLITANPP YLTEEEVAVM KASGWPEPAL ALASGPDGLS HIRRLIPQAL DHLVPGGYLI
+     CEHHDAQADA VAELYREAGY THVRHLPDLA GRRRATLARK PL
+//

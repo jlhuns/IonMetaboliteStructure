@@ -1,0 +1,83 @@
+ID   Q0PAG0_CAMJE            Unreviewed;       210 AA.
+AC   Q0PAG0;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   27-NOV-2024, entry version 96.
+DE   RecName: Full=Pyridoxal phosphate homeostasis protein {ECO:0000256|HAMAP-Rule:MF_02087};
+DE            Short=PLP homeostasis protein {ECO:0000256|HAMAP-Rule:MF_02087};
+GN   OrderedLocusNames=Cj0719c {ECO:0000313|EMBL:CAL34856.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34856.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34856.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Pyridoxal 5'-phosphate (PLP)-binding protein, which is
+CC       involved in PLP homeostasis. {ECO:0000256|HAMAP-Rule:MF_02087}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004848-1};
+CC   -!- SIMILARITY: Belongs to the pyridoxal phosphate-binding protein
+CC       YggS/PROSC family. {ECO:0000256|HAMAP-Rule:MF_02087,
+CC       ECO:0000256|RuleBase:RU004514}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34856.1; -; Genomic_DNA.
+DR   PIR; B81343; B81343.
+DR   RefSeq; WP_002852054.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344137.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PAG0; -.
+DR   IntAct; Q0PAG0; 4.
+DR   STRING; 192222.Cj0719c; -.
+DR   PaxDb; 192222-Cj0719c; -.
+DR   EnsemblBacteria; CAL34856; CAL34856; Cj0719c.
+DR   GeneID; 905037; -.
+DR   KEGG; cje:Cj0719c; -.
+DR   PATRIC; fig|192222.6.peg.711; -.
+DR   eggNOG; COG0325; Bacteria.
+DR   HOGENOM; CLU_059988_1_0_7; -.
+DR   OrthoDB; 9804072at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd00635; PLPDE_III_YBL036c_like; 1.
+DR   FunFam; 3.20.20.10:FF:000018; Pyridoxal phosphate homeostasis protein; 1.
+DR   Gene3D; 3.20.20.10; Alanine racemase; 1.
+DR   HAMAP; MF_02087; PLP_homeostasis; 1.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   InterPro; IPR011078; PyrdxlP_homeostasis.
+DR   NCBIfam; TIGR00044; YggS family pyridoxal phosphate-dependent enzyme; 1.
+DR   PANTHER; PTHR10146; PROLINE SYNTHETASE CO-TRANSCRIBED BACTERIAL HOMOLOG PROTEIN; 1.
+DR   PANTHER; PTHR10146:SF14; PYRIDOXAL PHOSPHATE HOMEOSTASIS PROTEIN; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   PIRSF; PIRSF004848; YBL036c_PLPDEIII; 1.
+DR   SUPFAM; SSF51419; PLP-binding barrel; 1.
+DR   PROSITE; PS01211; UPF0001; 1.
+PE   3: Inferred from homology;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898, ECO:0000256|HAMAP-
+KW   Rule:MF_02087}; Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          24..206
+FT                   /note="Alanine racemase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01168"
+FT   MOD_RES         20
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02087,
+FT                   ECO:0000256|PIRSR:PIRSR004848-1"
+SQ   SEQUENCE   210 AA;  23777 MW;  B9E53BFF94042392 CRC64;
+     MTLEQILEKT KNVRLVAASK YVDASIIEKL FDQGIVEFGE NQVQALAQKK ENLDEKKLDI
+     KWHFIGTLQS NKINLLIKQK PILWHSCNGI KIAKAMDKRL DYKLNTLLEI NSANENSKSG
+     LDPNQAVEEY LQIQEECSNL NLCGVMSIGS HSQDKENIIK SFETTFKIYE ILQKHGAKIC
+     SMGMSNDFEI AIKCGSNLVR LGSILFKNLK
+//

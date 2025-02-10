@@ -1,0 +1,139 @@
+ID   UBIE_SALTI              Reviewed;         251 AA.
+AC   P0A2K6; Q9L6M6;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE {ECO:0000255|HAMAP-Rule:MF_01813};
+DE            EC=2.1.1.163 {ECO:0000255|HAMAP-Rule:MF_01813};
+DE            EC=2.1.1.201 {ECO:0000255|HAMAP-Rule:MF_01813};
+DE   AltName: Full=2-methoxy-6-polyprenyl-1,4-benzoquinol methylase {ECO:0000255|HAMAP-Rule:MF_01813};
+DE   AltName: Full=Demethylmenaquinone methyltransferase {ECO:0000255|HAMAP-Rule:MF_01813};
+GN   Name=ubiE {ECO:0000255|HAMAP-Rule:MF_01813};
+GN   OrderedLocusNames=STY3589, t3327;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Methyltransferase required for the conversion of
+CC       demethylmenaquinol (DMKH2) to menaquinol (MKH2) and the conversion of
+CC       2-polyprenyl-6-methoxy-1,4-benzoquinol (DDMQH2) to 2-polyprenyl-3-
+CC       methyl-6-methoxy-1,4-benzoquinol (DMQH2). {ECO:0000255|HAMAP-
+CC       Rule:MF_01813}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2-demethylmenaquinol + S-adenosyl-L-methionine = a
+CC         menaquinol + S-adenosyl-L-homocysteine + H(+); Xref=Rhea:RHEA:42640,
+CC         Rhea:RHEA-COMP:9539, Rhea:RHEA-COMP:9563, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:18151, ChEBI:CHEBI:55437, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789; EC=2.1.1.163; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01813};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2-methoxy-6-(all-trans-polyprenyl)benzene-1,4-diol + S-
+CC         adenosyl-L-methionine = a 5-methoxy-2-methyl-3-(all-trans-
+CC         polyprenyl)benzene-1,4-diol + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:28286, Rhea:RHEA-COMP:10858, Rhea:RHEA-COMP:10859,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:84166, ChEBI:CHEBI:84167; EC=2.1.1.201;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01813};
+CC   -!- PATHWAY: Quinol/quinone metabolism; menaquinone biosynthesis;
+CC       menaquinol from 1,4-dihydroxy-2-naphthoate: step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_01813}.
+CC   -!- PATHWAY: Cofactor biosynthesis; ubiquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01813}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. MenG/UbiE family. {ECO:0000255|HAMAP-Rule:MF_01813}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07922.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70855.1; -; Genomic_DNA.
+DR   RefSeq; NP_457781.1; NC_003198.1.
+DR   RefSeq; WP_000229009.1; NZ_WSUR01000033.1.
+DR   AlphaFoldDB; P0A2K6; -.
+DR   SMR; P0A2K6; -.
+DR   STRING; 220341.gene:17587441; -.
+DR   KEGG; stt:t3327; -.
+DR   KEGG; sty:STY3589; -.
+DR   PATRIC; fig|220341.7.peg.3656; -.
+DR   eggNOG; COG2226; Bacteria.
+DR   HOGENOM; CLU_037990_0_0_6; -.
+DR   OMA; MNDVMSM; -.
+DR   OrthoDB; 9808140at2; -.
+DR   UniPathway; UPA00079; UER00169.
+DR   UniPathway; UPA00232; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0008425; F:2-polyprenyl-6-methoxy-1,4-benzoquinone methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043770; F:demethylmenaquinone methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009060; P:aerobic respiration; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009234; P:menaquinone biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   FunFam; 3.40.50.150:FF:000014; Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01813; MenG_UbiE_methyltr; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR004033; UbiE/COQ5_MeTrFase.
+DR   InterPro; IPR023576; UbiE/COQ5_MeTrFase_CS.
+DR   NCBIfam; TIGR01934; MenG_MenH_UbiE; 1.
+DR   PANTHER; PTHR43591:SF24; 2-METHOXY-6-POLYPRENYL-1,4-BENZOQUINOL METHYLASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43591; METHYLTRANSFERASE; 1.
+DR   Pfam; PF01209; Ubie_methyltran; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51608; SAM_MT_UBIE; 1.
+DR   PROSITE; PS01183; UBIE_1; 1.
+DR   PROSITE; PS01184; UBIE_2; 1.
+PE   3: Inferred from homology;
+KW   Menaquinone biosynthesis; Methyltransferase; S-adenosyl-L-methionine;
+KW   Transferase; Ubiquinone biosynthesis.
+FT   CHAIN           1..251
+FT                   /note="Ubiquinone/menaquinone biosynthesis C-
+FT                   methyltransferase UbiE"
+FT                   /id="PRO_0000193323"
+FT   BINDING         74
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01813"
+FT   BINDING         95
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01813"
+FT   BINDING         123..124
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01813"
+FT   BINDING         140
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01813"
+SQ   SEQUENCE   251 AA;  28136 MW;  B1BE959DA2ABD9B7 CRC64;
+     MVEDSQETTH FGFQTVAKEQ KADMVAHVFH SVASKYDVMN DLMSFGIHRL WKRFTIDCSG
+     VRRGQTVLDL AGGTGDLTAK FSRMVGETGK VILADINDSM LKMGREKLRN IGVIGNVEYV
+     QANAEALPFP DNTFDCITIS FGLRNVTEKE KALRSMFRVL KPGGRLLVLE FSKPIIEPLS
+     KAYDAYSFHI LPRIGSMVAN DADSYRYLAE SIRMHPDQDT LKAMMQDAGF ESVDYYNLTA
+     GVVALHRGYK F
+//

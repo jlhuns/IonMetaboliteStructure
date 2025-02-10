@@ -1,0 +1,101 @@
+ID   Q64PA6_BACFR            Unreviewed;       634 AA.
+AC   Q64PA6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 128.
+DE   RecName: Full=ATP-dependent DNA helicase RecQ {ECO:0000256|ARBA:ARBA00044535};
+DE            EC=5.6.2.4 {ECO:0000256|ARBA:ARBA00034808};
+DE   AltName: Full=DNA 3'-5' helicase RecQ {ECO:0000256|ARBA:ARBA00044550};
+GN   OrderedLocusNames=BF3933 {ECO:0000313|EMBL:BAD50675.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50675.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50675.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50675.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Couples ATP hydrolysis with the unwinding of duplex DNA by
+CC         translocating in the 3'-5' direction.; EC=5.6.2.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00034617};
+CC   -!- SIMILARITY: Belongs to the helicase family. RecQ subfamily.
+CC       {ECO:0000256|ARBA:ARBA00005446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50675.1; -; Genomic_DNA.
+DR   RefSeq; WP_011203526.1; NC_006347.1.
+DR   RefSeq; YP_101209.1; NC_006347.1.
+DR   AlphaFoldDB; Q64PA6; -.
+DR   STRING; 295405.BF3933; -.
+DR   KEGG; bfr:BF3933; -.
+DR   PATRIC; fig|295405.11.peg.3777; -.
+DR   HOGENOM; CLU_001103_9_7_10; -.
+DR   OrthoDB; 9763310at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0043590; C:bacterial nucleoid; IEA:TreeGrafter.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0030894; C:replisome; IEA:TreeGrafter.
+DR   GO; GO:0043138; F:3'-5' DNA helicase activity; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009378; F:four-way junction helicase activity; IEA:TreeGrafter.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:InterPro.
+DR   GO; GO:0006281; P:DNA repair; IEA:TreeGrafter.
+DR   CDD; cd17920; DEXHc_RecQ; 1.
+DR   FunFam; 3.40.50.300:FF:001051; ATP-dependent DNA helicase RecQ; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR004589; DNA_helicase_ATP-dep_RecQ.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR032284; RecQ_Zn-bd.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   NCBIfam; TIGR00614; recQ_fam; 1.
+DR   PANTHER; PTHR13710:SF105; ATP-DEPENDENT DNA HELICASE Q1; 1.
+DR   PANTHER; PTHR13710; DNA HELICASE RECQ FAMILY MEMBER; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF16124; RecQ_Zn_bind; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   Helicase {ECO:0000256|ARBA:ARBA00022806, ECO:0000313|EMBL:BAD50675.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741}.
+FT   DOMAIN          24..192
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51192"
+FT   DOMAIN          216..362
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51194"
+SQ   SEQUENCE   634 AA;  73187 MW;  3DFA98C0DD569C18 CRC64;
+     MTYQEILKQY WGYDSFRDLQ EDIITSIGNG KDTLGLMPTG GGKSITFQVP ALAKEGLCIV
+     ITPLIALMKD QVQNLKKRGI KAIAIYSGMT RQEIVVALEN CIFGDYKFLY ISPERLDTEI
+     FRAKLRSMKI SMITVDESHC ISQWGYDFRP AYLKIADIRD LVPDAPVLAL TATATPEVVK
+     DIQERLRFRE ENVFRMSFER KNLAYIVRPT DNKNGELLHI LNRIQGSAIV YVRSRRKTKE
+     TTELLVNEGI TADFYHAGLD NATKDLRQKR WQNGESRVMV ATNAFGMGID KPDVRIVIHL
+     DLPDSPEAYF QEAGRAGRDG QKAYAVILYA KSDKTTLSKR IADTFPDKDY IKDVYEHLQY
+     HYQMAMGDGL GCMYDFSLEE FCRKFKYFPV PADSALKILT QAGYLEYTDE QDNASRIIFT
+     IRRDELYKLR EMGEAAEKLI QMILRSYTGV FTDYAYISEQ TLAVRTGLTR QQIYDLLVML
+     SKRRIVDYIP HKKTPYIIYT RERIDRHYLQ IPRAVYEERK ERYETRIHAM VEYVTSENVC
+     RSRMLLRYFG EKNEHNCGQC DVCLSHRAEP DISQSTFDGL REQICALLKE HPMTPAEIAS
+     HINTDKEQLS EVIRFMLDEG LLSSENGLLT EKTS
+//

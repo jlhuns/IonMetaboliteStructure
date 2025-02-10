@@ -1,0 +1,98 @@
+ID   RNH2_CLOB1              Reviewed;         269 AA.
+AC   A7FW05;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 89.
+DE   RecName: Full=Ribonuclease HII {ECO:0000255|HAMAP-Rule:MF_00052};
+DE            Short=RNase HII {ECO:0000255|HAMAP-Rule:MF_00052};
+DE            EC=3.1.26.4 {ECO:0000255|HAMAP-Rule:MF_00052};
+GN   Name=rnhB {ECO:0000255|HAMAP-Rule:MF_00052};
+GN   OrderedLocusNames=CLB_2305;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000255|HAMAP-Rule:MF_00052}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00052};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00052};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00052};
+CC       Note=Manganese or magnesium. Binds 1 divalent metal ion per monomer in
+CC       the absence of substrate. May bind a second metal ion after substrate
+CC       binding. {ECO:0000255|HAMAP-Rule:MF_00052};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00052}.
+CC   -!- SIMILARITY: Belongs to the RNase HII family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00052}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS35617.1; -; Genomic_DNA.
+DR   RefSeq; WP_011986802.1; NC_009697.1.
+DR   AlphaFoldDB; A7FW05; -.
+DR   SMR; A7FW05; -.
+DR   KEGG; cba:CLB_2305; -.
+DR   HOGENOM; CLU_036532_2_1_9; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032299; C:ribonuclease H2 complex; IEA:TreeGrafter.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043137; P:DNA replication, removal of RNA primer; IEA:TreeGrafter.
+DR   GO; GO:0006298; P:mismatch repair; IEA:TreeGrafter.
+DR   CDD; cd07182; RNase_HII_bacteria_HII_like; 1.
+DR   FunFam; 3.30.420.10:FF:000113; Ribonuclease HII; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   HAMAP; MF_00052_B; RNase_HII_B; 1.
+DR   InterPro; IPR022898; RNase_HII.
+DR   InterPro; IPR001352; RNase_HII/HIII.
+DR   InterPro; IPR024567; RNase_HII/HIII_dom.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   PANTHER; PTHR10954; RIBONUCLEASE H2 SUBUNIT A; 1.
+DR   PANTHER; PTHR10954:SF18; RIBONUCLEASE HII; 1.
+DR   Pfam; PF01351; RNase_HII; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS51975; RNASE_H_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Manganese; Metal-binding; Nuclease.
+FT   CHAIN           1..269
+FT                   /note="Ribonuclease HII"
+FT                   /id="PRO_0000334877"
+FT   DOMAIN          83..269
+FT                   /note="RNase H type-2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01319"
+FT   BINDING         89
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+FT   BINDING         90
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+FT   BINDING         185
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+SQ   SEQUENCE   269 AA;  30915 MW;  477D9B68B3D84226 CRC64;
+     MNLNNLENIR YNEIKEFSDK IKKEFTFSQK KQVMDIIEKL NKDSRKNVIK LGQALEKFLN
+     KYEEELKRTN NMYNFDRRYG NNYLIAGVDE VGRGPLAGPI VAAAVVLDLN VEEMQRVFNI
+     KDSKKLSEKK REELDIIIRE KAISYNIALV DNKTIDERGI SWSNNEVLKR AVEGLKVKPD
+     LVLSDGYAVK NLNIRNEFII KGDSKSISIA SSSIIAKVYR DSMMKEYSKG LNMYGFNHNA
+     GYGTEEHVQA IKKHGPSKIH RMSFLTNIL
+//

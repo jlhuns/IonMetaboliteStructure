@@ -1,0 +1,131 @@
+ID   Q65I55_BACLD            Unreviewed;       327 AA.
+AC   Q65I55; Q62TK4;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=Bifunctional ligase/repressor BirA {ECO:0000256|HAMAP-Rule:MF_00978};
+DE   AltName: Full=Biotin--[acetyl-CoA-carboxylase] ligase {ECO:0000256|HAMAP-Rule:MF_00978};
+DE            EC=6.3.4.15 {ECO:0000256|HAMAP-Rule:MF_00978};
+DE   AltName: Full=Biotin--protein ligase {ECO:0000256|HAMAP-Rule:MF_00978};
+DE   AltName: Full=Biotin-[acetyl-CoA carboxylase] synthetase {ECO:0000256|HAMAP-Rule:MF_00978};
+GN   Name=birA {ECO:0000256|HAMAP-Rule:MF_00978,
+GN   ECO:0000313|EMBL:AAU23905.1};
+GN   OrderedLocusNames=BL02753 {ECO:0000313|EMBL:AAU23905.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23905.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23905.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Acts both as a biotin--[acetyl-CoA-carboxylase] ligase and a
+CC       repressor. {ECO:0000256|HAMAP-Rule:MF_00978}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=biotin + L-lysyl-[protein] + ATP = N(6)-biotinyl-L-lysyl-
+CC         [protein] + AMP + diphosphate + H(+); Xref=Rhea:RHEA:11756,
+CC         Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:10505, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29969, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57586, ChEBI:CHEBI:83144, ChEBI:CHEBI:456215;
+CC         EC=6.3.4.15; Evidence={ECO:0000256|HAMAP-Rule:MF_00978};
+CC   -!- SIMILARITY: Belongs to the biotin--protein ligase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00978}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00978}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23905.1; -; Genomic_DNA.
+DR   RefSeq; WP_009328004.1; NC_006322.1.
+DR   AlphaFoldDB; Q65I55; -.
+DR   STRING; 279010.BL02753; -.
+DR   GeneID; 66215618; -.
+DR   KEGG; bld:BLi02379; -.
+DR   KEGG; bli:BL02753; -.
+DR   PATRIC; fig|279010.13.peg.2409; -.
+DR   eggNOG; COG0340; Bacteria.
+DR   eggNOG; COG1654; Bacteria.
+DR   HOGENOM; CLU_051096_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004077; F:biotin--[biotin carboxyl-carrier protein] ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0036211; P:protein modification process; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   CDD; cd16442; BPL; 1.
+DR   Gene3D; 2.30.30.100; -; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00978; Bifunct_BirA; 1.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR030855; Bifunct_BirA.
+DR   InterPro; IPR004408; Biotin_CoA_COase_ligase.
+DR   InterPro; IPR004409; Biotin_operon_repress_HTH.
+DR   InterPro; IPR003142; BPL_C.
+DR   InterPro; IPR004143; BPL_LPL_catalytic.
+DR   InterPro; IPR013196; HTH_11.
+DR   InterPro; IPR008988; Transcriptional_repressor_C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00121; birA_ligase; 1.
+DR   NCBIfam; TIGR00122; birA_repr_reg; 1.
+DR   PANTHER; PTHR12835; BIOTIN PROTEIN LIGASE; 1.
+DR   PANTHER; PTHR12835:SF5; BIOTIN--PROTEIN LIGASE; 1.
+DR   Pfam; PF02237; BPL_C; 1.
+DR   Pfam; PF03099; BPL_LplA_LipB; 1.
+DR   Pfam; PF08279; HTH_11; 1.
+DR   SUPFAM; SSF50037; C-terminal domain of transcriptional repressors; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+DR   PROSITE; PS51733; BPL_LPL_CATALYTIC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00978};
+KW   Biotin {ECO:0000256|ARBA:ARBA00023267, ECO:0000256|HAMAP-Rule:MF_00978};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00978};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00978};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00978};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Repressor {ECO:0000256|ARBA:ARBA00022491, ECO:0000256|HAMAP-Rule:MF_00978};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00978};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00978}.
+FT   DOMAIN          71..262
+FT                   /note="BPL/LPL catalytic"
+FT                   /evidence="ECO:0000259|PROSITE:PS51733"
+FT   DNA_BIND        23..42
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00978"
+FT   BINDING         118
+FT                   /ligand="biotin"
+FT                   /ligand_id="ChEBI:CHEBI:57586"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00978"
+FT   BINDING         122..124
+FT                   /ligand="biotin"
+FT                   /ligand_id="ChEBI:CHEBI:57586"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00978"
+FT   BINDING         189
+FT                   /ligand="biotin"
+FT                   /ligand_id="ChEBI:CHEBI:57586"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00978"
+SQ   SEQUENCE   327 AA;  36294 MW;  511D1ABB1B2E3CE5 CRC64;
+     MQSNLRKKLI QLFTEADGEF ISGQKISEEL GCSRTAVWKH IEDLRKSGYE LEAVRKLGYK
+     MIKKPDKITE DEIRLGLKTK KMGQTIHFQD VVSSTQKIAH ELANNGAPEG TIIVADKQTE
+     GRGRMARAWH SPEGNGIWMS IILRPEIPVQ KTPQLTLLAA VAIVQAIEEQ TGIAAEIKWP
+     NDILINGKKV VGILTELQAE ADQVHSVIVG TGINVNQLAA DFPEELQETA TSLRLASGEK
+     IDRAALVQTI MSTFEKRYED YLAYGFEPIK LLWESYALTL NRELTARTLN GTFHGKALGI
+     DEEGVLILET SDGIKKIYSA DIDINPS
+//

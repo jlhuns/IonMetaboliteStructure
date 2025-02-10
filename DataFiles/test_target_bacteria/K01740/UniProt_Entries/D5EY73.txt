@@ -1,0 +1,82 @@
+ID   D5EY73_XYLR2            Unreviewed;       430 AA.
+AC   D5EY73;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 68.
+DE   SubName: Full=O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase family protein {ECO:0000313|EMBL:ADE83229.1};
+GN   OrderedLocusNames=PRU_2791 {ECO:0000313|EMBL:ADE83229.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE83229.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE83229.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU362118};
+CC   -!- SIMILARITY: Belongs to the trans-sulfuration enzymes family.
+CC       {ECO:0000256|ARBA:ARBA00009077, ECO:0000256|RuleBase:RU362118}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE83229.1; -; Genomic_DNA.
+DR   RefSeq; WP_013065213.1; NC_014033.1.
+DR   AlphaFoldDB; D5EY73; -.
+DR   STRING; 264731.PRU_2791; -.
+DR   GeneID; 69976898; -.
+DR   KEGG; pru:PRU_2791; -.
+DR   eggNOG; COG2873; Bacteria.
+DR   HOGENOM; CLU_018986_4_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004124; F:cysteine synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0003961; F:O-acetylhomoserine aminocarboxypropyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IEA:TreeGrafter.
+DR   GO; GO:0071269; P:L-homocysteine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0019346; P:transsulfuration; IEA:InterPro.
+DR   CDD; cd00614; CGS_like; 1.
+DR   FunFam; 3.40.640.10:FF:000035; O-succinylhomoserine sulfhydrylase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000277; Cys/Met-Metab_PyrdxlP-dep_enz.
+DR   InterPro; IPR054542; Cys_met_metab_PP.
+DR   InterPro; IPR006235; OAc-hSer/O-AcSer_sulfhydrylase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01326; OAH_OAS_sulfhy; 1.
+DR   PANTHER; PTHR43797; HOMOCYSTEINE/CYSTEINE SYNTHASE; 1.
+DR   PANTHER; PTHR43797:SF2; HOMOCYSTEINE_CYSTEINE SYNTHASE; 1.
+DR   Pfam; PF01053; Cys_Met_Meta_PP; 1.
+DR   PIRSF; PIRSF001434; CGS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00868; CYS_MET_METAB_PP; 1.
+PE   3: Inferred from homology;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR001434-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   MOD_RES         211
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001434-2"
+SQ   SEQUENCE   430 AA;  46269 MW;  CDE3AF5A7E4D0C30 CRC64;
+     MSTSKNYRFE TLQLHVGQEQ ADPATDARAV PIYQTTSYVF HNSKHAADRF GLRDAGNIYG
+     RLTNSTQGVF EDRVAALEGG VAGLAVASGA AAITYALQNI VQAGDHIVAA DNLYGGSYNL
+     ITHTLATQGI TNTIVNVNDL AALEAAIKPN TKVVYAETFG NPNSDVLDLE GVAAVAHKYG
+     IPFIVDNTFG TPYLIRPLEH GADIVVHSAT KFLGGHGTSL GGVIVDGGKF DWKANPEKFP
+     TLAKPDPSYH GIVFADAVGA AAYVTRIRAV ILRDTGATLS PFNAFILLQG VETLSLRVER
+     HVENALKVVD FLANHPKVAK VNHPALASHH DHALYNKYFP QGGASIFTFE IKGGQEEAWK
+     FIDALQIFSL LANVADVKSL VIHPYTTTHS QLSPEELAEQ HITPSTIRLS IGTEHIDDII
+     ADLSQAFDQI
+//

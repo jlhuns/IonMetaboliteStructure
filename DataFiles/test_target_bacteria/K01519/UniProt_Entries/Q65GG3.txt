@@ -1,0 +1,144 @@
+ID   IXTPA_BACLD             Reviewed;         196 AA.
+AC   Q65GG3; Q62RX0;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 106.
+DE   RecName: Full=dITP/XTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            EC=3.6.1.66 {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            Short=NTPase {ECO:0000255|HAMAP-Rule:MF_01405};
+GN   OrderedLocusNames=BLi02984, BL00311;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Pyrophosphatase that catalyzes the hydrolysis of nucleoside
+CC       triphosphates to their monophosphate derivatives, with a high
+CC       preference for the non-canonical purine nucleotides XTP (xanthosine
+CC       triphosphate), dITP (deoxyinosine triphosphate) and ITP. Seems to
+CC       function as a house-cleaning enzyme that removes non-canonical purine
+CC       nucleotides from the nucleotide pool, thus preventing their
+CC       incorporation into DNA/RNA and avoiding chromosomal lesions.
+CC       {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=XTP + H2O = XMP + diphosphate + H(+); Xref=Rhea:RHEA:28610,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:61314; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dITP + H2O = dIMP + diphosphate + H(+); Xref=Rhea:RHEA:28342,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61194, ChEBI:CHEBI:61382; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ITP + H2O = IMP + diphosphate + H(+); Xref=Rhea:RHEA:29399,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:61402; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01405};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01405}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU41851.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU24490.1; -; Genomic_DNA.
+DR   RefSeq; WP_009329329.1; NC_006322.1.
+DR   AlphaFoldDB; Q65GG3; -.
+DR   SMR; Q65GG3; -.
+DR   STRING; 279010.BL00311; -.
+DR   GeneID; 92860424; -.
+DR   KEGG; bld:BLi02984; -.
+DR   KEGG; bli:BL00311; -.
+DR   eggNOG; COG0127; Bacteria.
+DR   HOGENOM; CLU_082080_0_2_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0035870; F:dITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036220; F:ITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IEA:InterPro.
+DR   GO; GO:0036222; F:XTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009146; P:purine nucleoside triphosphate catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00515; HAM1; 1.
+DR   FunFam; 3.90.950.10:FF:000001; dITP/XTP pyrophosphatase; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_01405; Non_canon_purine_NTPase; 1.
+DR   InterPro; IPR020922; dITP/XTP_pyrophosphatase.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR002637; RdgB/HAM1.
+DR   NCBIfam; TIGR00042; RdgB/HAM1 family non-canonical purine NTP pyrophosphatase; 1.
+DR   PANTHER; PTHR11067:SF9; INOSINE TRIPHOSPHATE PYROPHOSPHATASE; 1.
+DR   PANTHER; PTHR11067; INOSINE TRIPHOSPHATE PYROPHOSPHATASE/HAM1 PROTEIN; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Metal-binding; Nucleotide metabolism;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..196
+FT                   /note="dITP/XTP pyrophosphatase"
+FT                   /id="PRO_0000178127"
+FT   ACT_SITE        70
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         8..13
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         41
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         70
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         71
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         153..156
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         176
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         181..182
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+SQ   SEQUENCE   196 AA;  21512 MW;  AAE5372C3082FAD5 CRC64;
+     MKEVIIATKN EGKVREFKAM LEPRGYDVKS LLDIGYTPEI EETGQTFEEN AVIKAETISK
+     ETGKIVIADD SGLSVDYLGG SPGVYSARYA GEEKNDLANL KKLLKELEGV EKEDRSARFR
+     CALAICIPGQ ETKTVEGSVE GYITEEPRGT NGFGYDPVFL VKDKDQTMAE LSSGEKNKIS
+     HRAEALKKLS ALLDQA
+//

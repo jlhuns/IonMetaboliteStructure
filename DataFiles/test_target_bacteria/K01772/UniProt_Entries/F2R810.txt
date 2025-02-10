@@ -1,0 +1,107 @@
+ID   F2R810_STRVP            Unreviewed;       375 AA.
+AC   F2R810;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   RecName: Full=Coproporphyrin III ferrochelatase {ECO:0000256|HAMAP-Rule:MF_00323};
+DE            EC=4.99.1.9 {ECO:0000256|HAMAP-Rule:MF_00323};
+GN   Name=cpfC {ECO:0000256|HAMAP-Rule:MF_00323};
+GN   OrderedLocusNames=SVEN_5533 {ECO:0000313|EMBL:CCA58819.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA58819.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA58819.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Involved in coproporphyrin-dependent heme b biosynthesis.
+CC       Catalyzes the insertion of ferrous iron into coproporphyrin III to form
+CC       Fe-coproporphyrin III. {ECO:0000256|HAMAP-Rule:MF_00323}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Fe-coproporphyrin III + 2 H(+) = coproporphyrin III + Fe(2+);
+CC         Xref=Rhea:RHEA:49572, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:68438, ChEBI:CHEBI:131725; EC=4.99.1.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024536};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:49574;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024536};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoheme
+CC       biosynthesis. {ECO:0000256|ARBA:ARBA00004744, ECO:0000256|HAMAP-
+CC       Rule:MF_00323}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00323}.
+CC   -!- SIMILARITY: Belongs to the ferrochelatase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00323, ECO:0000256|RuleBase:RU004185}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00323}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA58819.1; -; Genomic_DNA.
+DR   RefSeq; WP_015036715.1; NZ_JABVZO010000116.1.
+DR   AlphaFoldDB; F2R810; -.
+DR   STRING; 953739.SVEN_5533; -.
+DR   GeneID; 69867600; -.
+DR   KEGG; sve:SVEN_5533; -.
+DR   PATRIC; fig|953739.5.peg.682; -.
+DR   eggNOG; COG0276; Bacteria.
+DR   HOGENOM; CLU_018884_2_0_11; -.
+DR   OrthoDB; 9776380at2; -.
+DR   UniPathway; UPA00252; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004325; F:ferrochelatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006783; P:heme biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00419; Ferrochelatase_C; 1.
+DR   CDD; cd03411; Ferrochelatase_N; 1.
+DR   FunFam; 3.40.50.1400:FF:000008; Ferrochelatase; 1.
+DR   Gene3D; 3.40.50.1400; -; 2.
+DR   HAMAP; MF_00323; Ferrochelatase; 1.
+DR   InterPro; IPR001015; Ferrochelatase.
+DR   InterPro; IPR033644; Ferrochelatase_C.
+DR   InterPro; IPR033659; Ferrochelatase_N.
+DR   PANTHER; PTHR11108; FERROCHELATASE; 1.
+DR   PANTHER; PTHR11108:SF1; FERROCHELATASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00762; Ferrochelatase; 1.
+DR   SUPFAM; SSF53800; Chelatase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00323};
+KW   Heme biosynthesis {ECO:0000256|ARBA:ARBA00023133, ECO:0000256|HAMAP-
+KW   Rule:MF_00323};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_00323};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00323};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00323};
+KW   Porphyrin biosynthesis {ECO:0000256|ARBA:ARBA00023244, ECO:0000256|HAMAP-
+KW   Rule:MF_00323}; Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   BINDING         59
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00323"
+FT   BINDING         128
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00323"
+FT   BINDING         191
+FT                   /ligand="Fe(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29033"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00323"
+FT   BINDING         286
+FT                   /ligand="Fe(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29033"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00323"
+SQ   SEQUENCE   375 AA;  40643 MW;  EA6AA1F460F5F8A9 CRC64;
+     MSDQHDPAPY DALLLLSFGG PEGPDDVVPF LENVTRGRGI PKERLKEVGQ HYFLFGGVSP
+     INDQNRALLD ALRKDFADAG LRLPVYWGNR NWAPYLTDTL REMVTDGRRH IAVLTTSAYA
+     SYSGCRQYRE NLADALAGLE AEGLPLPRVD KLRHYFNHPG FVEPMIEGVL ASLAELDPSV
+     RDGAHLAFTT HSIPDSAADT SGPVTEHGDG GAYVRQHLDV ARMIADAVRE RTGVDHPWKL
+     VYQSRSGAPH IPWLEPDICD HLEELHGAGV PAAVMVPIGF VSDHMEVLYD LDTEATAKAA
+     ELGLPVRRSA TVGADPRFAA AVRELLLERA ANERGTRAER CALGALGPSH DLCPIGCCPA
+     RAERPAAAGA DSPYA
+//

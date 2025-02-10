@@ -1,0 +1,92 @@
+ID   Q5ZY80_LEGPH            Unreviewed;       221 AA.
+AC   Q5ZY80;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   SubName: Full=Amino acid (Glutamine) ABC transporter, permease {ECO:0000313|EMBL:AAU26589.1};
+GN   Name=yqiY {ECO:0000313|EMBL:AAU26589.1};
+GN   OrderedLocusNames=lpg0492 {ECO:0000313|EMBL:AAU26589.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26589.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26589.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Part of the binding-protein-dependent transport system for
+CC       glutamine; probably responsible for the translocation of the substrate
+CC       across the membrane. {ECO:0000256|ARBA:ARBA00003159}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|ARBA:ARBA00004429}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004429}. Cell membrane
+CC       {ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. HisMQ subfamily. {ECO:0000256|ARBA:ARBA00010072}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26589.1; -; Genomic_DNA.
+DR   RefSeq; YP_094536.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZY80; -.
+DR   STRING; 272624.lpg0492; -.
+DR   PaxDb; 272624-lpg0492; -.
+DR   KEGG; lpn:lpg0492; -.
+DR   PATRIC; fig|272624.6.peg.513; -.
+DR   eggNOG; COG0765; Bacteria.
+DR   HOGENOM; CLU_019602_1_1_6; -.
+DR   OrthoDB; 4404959at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0006865; P:amino acid transport; IEA:UniProtKB-KW.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR010065; AA_ABC_transptr_permease_3TM.
+DR   InterPro; IPR043429; ArtM/GltK/GlnP/TcyL/YhdX-like.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   NCBIfam; TIGR01726; HEQRo_perm_3TM; 1.
+DR   PANTHER; PTHR30614:SF20; GLUTAMINE TRANSPORT SYSTEM PERMEASE PROTEIN GLNP; 1.
+DR   PANTHER; PTHR30614; MEMBRANE COMPONENT OF AMINO ACID ABC TRANSPORTER; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid transport {ECO:0000256|ARBA:ARBA00022970};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        20..44
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        184..204
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          17..208
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   221 AA;  24428 MW;  CEFC60CED02397B4 CRC64;
+     MDKGVNMMEV VQNLFFIGKG IVLTMQLLTG GMLIGVLLGS LLSICRHQGI ACFVINRFIS
+     ILRGTPLILQ LSFIYFAVPV LLGMRPSILV AGIVAFGLNS SAYFAEILRA GIESLPKGQF
+     EAALTLQIPS FYLWKDIILP QVVRNIFPAM INEMIALLKE TALISTIGGM DLMRQAQTLA
+     AQQFTYFMPL CITGFYYYSL VLLLEALGKK IEKRGHYAAS H
+//

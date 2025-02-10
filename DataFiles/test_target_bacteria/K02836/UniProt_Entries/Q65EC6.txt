@@ -1,0 +1,91 @@
+ID   Q65EC6_BACLD            Unreviewed;       327 AA.
+AC   Q65EC6; Q62PU5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=Peptide chain release factor 2 {ECO:0000256|ARBA:ARBA00019192, ECO:0000256|HAMAP-Rule:MF_00094};
+DE            Short=RF-2 {ECO:0000256|HAMAP-Rule:MF_00094};
+GN   Name=prfB {ECO:0000256|HAMAP-Rule:MF_00094,
+GN   ECO:0000313|EMBL:AAU25216.1};
+GN   OrderedLocusNames=BL03383 {ECO:0000313|EMBL:AAU25216.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25216.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25216.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Peptide chain release factor 2 directs the termination of
+CC       translation in response to the peptide chain termination codons UGA and
+CC       UAA. {ECO:0000256|ARBA:ARBA00002613, ECO:0000256|HAMAP-Rule:MF_00094}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00094}.
+CC   -!- PTM: Methylated by PrmC. Methylation increases the termination
+CC       efficiency of RF2. {ECO:0000256|HAMAP-Rule:MF_00094}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic/mitochondrial release factor
+CC       family. {ECO:0000256|ARBA:ARBA00010835, ECO:0000256|HAMAP-
+CC       Rule:MF_00094}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25216.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q65EC6; -.
+DR   STRING; 279010.BL03383; -.
+DR   KEGG; bld:BLi03772; -.
+DR   KEGG; bli:BL03383; -.
+DR   PATRIC; fig|279010.13.peg.3838; -.
+DR   eggNOG; COG1186; Bacteria.
+DR   HOGENOM; CLU_036856_6_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016149; F:translation release factor activity, codon specific; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.30.160.20:FF:000010; Peptide chain release factor 2; 1.
+DR   Gene3D; 3.30.160.20; -; 1.
+DR   Gene3D; 3.30.70.1660; -; 1.
+DR   Gene3D; 1.20.58.410; Release factor; 1.
+DR   HAMAP; MF_00094; Rel_fac_2; 1.
+DR   InterPro; IPR005139; PCRF.
+DR   InterPro; IPR000352; Pep_chain_release_fac_I.
+DR   InterPro; IPR045853; Pep_chain_release_fac_I_sf.
+DR   InterPro; IPR004374; PrfB.
+DR   NCBIfam; TIGR00020; prfB; 1.
+DR   PANTHER; PTHR43116:SF3; CLASS I PEPTIDE CHAIN RELEASE FACTOR; 1.
+DR   PANTHER; PTHR43116; PEPTIDE CHAIN RELEASE FACTOR 2; 1.
+DR   Pfam; PF03462; PCRF; 1.
+DR   Pfam; PF00472; RF-1; 1.
+DR   SMART; SM00937; PCRF; 1.
+DR   SUPFAM; SSF75620; Release factor; 1.
+DR   PROSITE; PS00745; RF_PROK_I; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00094};
+KW   Methylation {ECO:0000256|ARBA:ARBA00022481, ECO:0000256|HAMAP-
+KW   Rule:MF_00094}; Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00094};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          205..221
+FT                   /note="Prokaryotic-type class I peptide chain release
+FT                   factors"
+FT                   /evidence="ECO:0000259|PROSITE:PS00745"
+FT   COILED          30..76
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   MOD_RES         212
+FT                   /note="N5-methylglutamine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00094"
+SQ   SEQUENCE   327 AA;  37464 MW;  A4A9CE3F5D49E04F CRC64;
+     MADPDFWGDQ QKAQTIINEA NALKDYVNTY KSLSESHEEL QMTHDLLKED PDQDLQNELV
+     NELKSLTKQF NEFELQLLLS EPYDKNNAIL ELHPGAGGTE SQDWGSMLLR MYTRWAERRG
+     FKVETLDYLP GDEAGIKSVT LLIKGHNAYG YLKAEKGVHR LVRISPFDSS GRRHTSFVSC
+     DVMPEFNEEI DIEIRTEDIK VDTYRASGAG GQHVNTTDSA VRITHLPTGV IVTCQTERSQ
+     IKNRERAMKM LKSKLYQRRI EEQQAQLDEI RGEQKEIGWG SQIRSYVFHP YSLVKDHRTN
+     TEMGNVQAVM DGDIDSFIDA YLRSKLS
+//

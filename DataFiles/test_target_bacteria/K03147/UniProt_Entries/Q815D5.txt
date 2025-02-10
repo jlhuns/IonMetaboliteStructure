@@ -1,0 +1,162 @@
+ID   THIC_BACCR              Reviewed;         586 AA.
+AC   Q815D5;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 110.
+DE   RecName: Full=Phosphomethylpyrimidine synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            EC=4.1.99.17 {ECO:0000255|HAMAP-Rule:MF_00089};
+DE   AltName: Full=Hydroxymethylpyrimidine phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMP-P synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMP-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMPP synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE   AltName: Full=Thiamine biosynthesis protein ThiC {ECO:0000255|HAMAP-Rule:MF_00089};
+GN   Name=thiC {ECO:0000255|HAMAP-Rule:MF_00089};
+GN   OrderedLocusNames=BC_5227;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the synthesis of the hydroxymethylpyrimidine
+CC       phosphate (HMP-P) moiety of thiamine from aminoimidazole ribotide (AIR)
+CC       in a radical S-adenosyl-L-methionine (SAM)-dependent reaction.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-amino-1-(5-phospho-beta-D-ribosyl)imidazole + S-adenosyl-L-
+CC         methionine = 4-amino-2-methyl-5-(phosphooxymethyl)pyrimidine + CO +
+CC         5'-deoxyadenosine + formate + L-methionine + 3 H(+);
+CC         Xref=Rhea:RHEA:24840, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:17245, ChEBI:CHEBI:17319, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58354, ChEBI:CHEBI:59789, ChEBI:CHEBI:137981;
+CC         EC=4.1.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00089};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00089};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is coordinated
+CC       with 3 cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089}.
+CC   -!- SIMILARITY: Belongs to the ThiC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00089}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12091.1; -; Genomic_DNA.
+DR   RefSeq; NP_834890.1; NC_004722.1.
+DR   RefSeq; WP_000814482.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q815D5; -.
+DR   SMR; Q815D5; -.
+DR   STRING; 226900.BC_5227; -.
+DR   KEGG; bce:BC5227; -.
+DR   PATRIC; fig|226900.8.peg.5393; -.
+DR   HOGENOM; CLU_013181_2_1_9; -.
+DR   OrthoDB; 9805897at2; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016830; F:carbon-carbon lyase activity; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.20.20.540:FF:000001; Phosphomethylpyrimidine synthase; 1.
+DR   Gene3D; 6.10.250.620; -; 1.
+DR   Gene3D; 3.20.20.540; Radical SAM ThiC family, central domain; 1.
+DR   HAMAP; MF_00089; ThiC; 1.
+DR   InterPro; IPR037509; ThiC.
+DR   InterPro; IPR025747; ThiC-associated_dom.
+DR   InterPro; IPR038521; ThiC/Bza_core_dom.
+DR   InterPro; IPR002817; ThiC/BzaA/B.
+DR   NCBIfam; TIGR00190; thiC; 1.
+DR   PANTHER; PTHR30557:SF1; PHOSPHOMETHYLPYRIMIDINE SYNTHASE, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR30557; THIAMINE BIOSYNTHESIS PROTEIN THIC; 1.
+DR   Pfam; PF13667; ThiC-associated; 1.
+DR   Pfam; PF01964; ThiC_Rad_SAM; 1.
+DR   SFLD; SFLDF00407; phosphomethylpyrimidine_syntha; 1.
+DR   SFLD; SFLDG01114; phosphomethylpyrimidine_syntha; 1.
+DR   SFLD; SFLDS00113; Radical_SAM_Phosphomethylpyrim; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Lyase; Metal-binding; Reference proteome;
+KW   S-adenosyl-L-methionine; Thiamine biosynthesis; Zinc.
+FT   CHAIN           1..586
+FT                   /note="Phosphomethylpyrimidine synthase"
+FT                   /id="PRO_0000152782"
+FT   REGION          1..59
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        22..39
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         193
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         222
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         251
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         287
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         307..309
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         348..351
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         387
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         391
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         414
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         455
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         535
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         538
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         543
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+SQ   SEQUENCE   586 AA;  65728 MW;  5351CECCC156B628 CRC64;
+     MKQSVSAEQI ELKSSLPGSK KVYVDGPREG MKVPMREIEQ SETNGVPNPP IRVYDTSGPY
+     TDPEYKVELE KGIPTPRHSW ILGRGDVEAY EGREVKPEDD GVKVASKHTP VFPQMDRKPL
+     RAKQGANVTQ MHYARNGIIT SEMEYVAIRE GVEPEFVRKE IAEGRAILPA NINHPEAEPM
+     IIGRNFHVKV NANIGNSAVS SSIAEEVEKM TWATRWGADT IMDLSTGKNI HTTREWIIRN
+     APVPVGTVPI YQALEKVNGI AEDLTWEVYR DTLIEQAEQG VDYFTIHAGV LLRYIPITAK
+     RTTGIVSRGG SIMAQWCLFH HKENFLYTHF EEICEIMKQY DVSFSLGDGL RPGSIADAND
+     EAQFSELETL GELTKIAWKH DVQVMIEGPG HVPMHLIKEN MEKELDICQG APFYTLGPLT
+     TDIAPGYDHI TSAIGAAMIG WFGTAMLCYV TPKEHLGLPN KDDVRTGVIT YKIAAHAADL
+     AKGHKTAHQR DDALSKARFE FRWRDQFNLS LDPERAMEYH DETLPAEGAK TAHFCSMCGP
+     KFCSMRISHD IREYAKENDL ETTEAIEKGM KEKAEEFKEA GSHLYQ
+//

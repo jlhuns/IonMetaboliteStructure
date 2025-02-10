@@ -1,0 +1,203 @@
+ID   RPOC_LEGPH              Reviewed;        1401 AA.
+AC   Q5ZYP9;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 2.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE            Short=RNAP subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01322};
+DE   AltName: Full=RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE   AltName: Full=Transcriptase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+GN   Name=rpoC {ECO:0000255|HAMAP-Rule:MF_01322};
+GN   OrderedLocusNames=lpg0323;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=RNA(n) + a ribonucleoside 5'-triphosphate = RNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:14527, Rhea:RHEA-
+CC         COMP:17342, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:140395;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01322};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01322};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01322};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01322};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01322};
+CC   -!- SUBUNIT: The RNAP catalytic core consists of 2 alpha, 1 beta, 1 beta'
+CC       and 1 omega subunit. When a sigma factor is associated with the core
+CC       the holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta' chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU26420.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26420.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_032802289.1; NC_002942.5.
+DR   RefSeq; YP_094367.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZYP9; -.
+DR   SMR; Q5ZYP9; -.
+DR   STRING; 272624.lpg0323; -.
+DR   PaxDb; 272624-lpg0323; -.
+DR   GeneID; 57034326; -.
+DR   KEGG; lpn:lpg0323; -.
+DR   PATRIC; fig|272624.6.peg.330; -.
+DR   eggNOG; COG0086; Bacteria.
+DR   HOGENOM; CLU_000524_3_1_6; -.
+DR   OrthoDB; 9815296at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0000428; C:DNA-directed RNA polymerase complex; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0001066; F:plastid single subunit type RNA polymerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001054; F:RNA polymerase I activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001055; F:RNA polymerase II activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001056; F:RNA polymerase III activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001057; F:RNA polymerase IV activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001058; F:RNA polymerase V activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd02655; RNAP_beta'_C; 1.
+DR   CDD; cd01609; RNAP_beta'_N; 1.
+DR   FunFam; 1.10.132.30:FF:000003; DNA-directed RNA polymerase subunit beta; 1.
+DR   FunFam; 1.10.150.390:FF:000002; DNA-directed RNA polymerase subunit beta; 1.
+DR   FunFam; 1.10.40.90:FF:000001; DNA-directed RNA polymerase subunit beta; 1.
+DR   Gene3D; 1.10.132.30; -; 1.
+DR   Gene3D; 1.10.150.390; -; 1.
+DR   Gene3D; 1.10.1790.20; -; 1.
+DR   Gene3D; 1.10.40.90; -; 1.
+DR   Gene3D; 2.40.40.20; -; 1.
+DR   Gene3D; 2.40.50.100; -; 3.
+DR   Gene3D; 4.10.860.120; RNA polymerase II, clamp domain; 1.
+DR   Gene3D; 1.10.274.100; RNA polymerase Rpb1, domain 3; 2.
+DR   HAMAP; MF_01322; RNApol_bact_RpoC; 1.
+DR   InterPro; IPR045867; DNA-dir_RpoC_beta_prime.
+DR   InterPro; IPR012754; DNA-dir_RpoC_beta_prime_bact.
+DR   InterPro; IPR000722; RNA_pol_asu.
+DR   InterPro; IPR006592; RNA_pol_N.
+DR   InterPro; IPR007080; RNA_pol_Rpb1_1.
+DR   InterPro; IPR007066; RNA_pol_Rpb1_3.
+DR   InterPro; IPR042102; RNA_pol_Rpb1_3_sf.
+DR   InterPro; IPR007083; RNA_pol_Rpb1_4.
+DR   InterPro; IPR007081; RNA_pol_Rpb1_5.
+DR   InterPro; IPR044893; RNA_pol_Rpb1_clamp_domain.
+DR   InterPro; IPR038120; Rpb1_funnel_sf.
+DR   NCBIfam; TIGR02386; rpoC_TIGR; 1.
+DR   PANTHER; PTHR19376; DNA-DIRECTED RNA POLYMERASE; 1.
+DR   PANTHER; PTHR19376:SF54; DNA-DIRECTED RNA POLYMERASE SUBUNIT BETA; 1.
+DR   Pfam; PF04997; RNA_pol_Rpb1_1; 1.
+DR   Pfam; PF00623; RNA_pol_Rpb1_2; 1.
+DR   Pfam; PF04983; RNA_pol_Rpb1_3; 1.
+DR   Pfam; PF05000; RNA_pol_Rpb1_4; 1.
+DR   Pfam; PF04998; RNA_pol_Rpb1_5; 1.
+DR   SMART; SM00663; RPOLA_N; 1.
+DR   SUPFAM; SSF64484; beta and beta-prime subunits of DNA dependent RNA-polymerase; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Magnesium; Metal-binding;
+KW   Nucleotidyltransferase; Reference proteome; Transcription; Transferase;
+KW   Zinc.
+FT   CHAIN           1..1401
+FT                   /note="DNA-directed RNA polymerase subunit beta'"
+FT                   /id="PRO_0000225547"
+FT   BINDING         70
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         72
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         85
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         88
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         460
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         462
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         464
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         808
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         882
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         889
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   BINDING         892
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+SQ   SEQUENCE   1401 AA;  155654 MW;  4B8C208C38E40638 CRC64;
+     MSDLLGILKQ QGQSEEFDAI KIALASPELI RSWSYGEVKK PETINYRTFK PERDGLFCAK
+     TFGPVKDYEC LCGKYKRLKH RGVICEKCGV ELALAKVRRE RMGHIELASP VAHIWFLKSL
+     PSRIGLLLDM TLRDIERVLY FEAFVVVDPG MTELERGQLL NDEAYLDAME QYGDEFDARM
+     GAEAIRDLLR QIDLEDEIRN LREELPTTNS ETKIKKITKR LKLLEAFYES GNKPEWMIMD
+     VLPVLPPDLR PLVPLDGGRF ATSDLNDLYR RVINRNNRLK RLLDLNAPDI IVRNEKRMLQ
+     ESVDALLDNG RRGRAITGTN KRPLKSLADM IKGKQGRFRQ NLLGKRVDYS GRSVIVVGPT
+     LKLHQCGLPK KMALELFKPF IFSKLEFRGL ATTIKAAKKM VEREESVVWD ILDDVIREHP
+     ILLNRAPTLH RLGIQAFEPV LIEGKAIQLH PLVCTAYNAD FDGDQMAVHV PLTLEAQLEA
+     RSLMMSTNNI LSPASGEPII VPSQDVVLGL YYLTREKVNA LGEGKIYSSA QEAQNFYEAG
+     HLDIHAKIKI RMPKEDGETG YHLVETTVGR AILAEILPKG MPFDYINRTM TKKVISKVID
+     SCYRKFGLKE TVIFADQLMY TGFKYATRSG ASIGIEDMEI PDDKASIIEH ADNEVREIES
+     QFRSGLVTNG ERYNKVIDIW SRTNELVAKS MMSKIATEEV TDAKGNKVRQ ESFNPIFMMA
+     DSGARGSAAQ IRQLAGMRGL MAAPDGSIIE TPITANFREG LNVFQYFIST HGARKGLADT
+     ALKTANSGYL TRRLVDVAQD VVITEDDCGT DTGILMQPLI EGGDIVEPLH ERVLGRVVAS
+     DVYIPTQTEP VVKAGTLLDE EWVEKLEKHG VDQVMVRSPI TCQTRFGLCA KCYGRDLARG
+     HLVNTGEAVG IIAAQSIGEP GTQLTMRTFH IGGAASRATA ANNIQIKTKG VIRLHNIKTV
+     THENKNLVAV SRSGEVTIVD EFGRERERYK VPYGAVISAQ DNSPVEAGQV IATWDPHTHP
+     VISEVSGRLK FVDLIDGITM NRQTDELTGL SNIVIIDAKQ RSAAGRDLRP MVKLVTDEGD
+     DIYLAGTNVP AQYYLPVDAI VNFEDGSLVG IGDVIARIPQ ERSKTRDITG GLPRVADLFE
+     ARKPKDSAVM AEVSGLVNFG KETKGKRRLI INVSEDQCHE ELIPKWRHIS VFEGEHVERG
+     EIIAEGALNP HDILRLLGVG ALANYIVNEV QDVYRLQGVK INDKHIEVIV RQMLRKRVIT
+     FAGDSKFLVG EQVEESAMLQ ENDKLLAEGK QIARGTPILL GITKASLATE SFISAASFQE
+     TTRVLTEAAV SGKVDELRGL KENVMVGRLI PAGTGYTYHQ SRKAKRARVA AGGDSSATHT
+     VTASDVEHAL SEALNADNHE H
+//

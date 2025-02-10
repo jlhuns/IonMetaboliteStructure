@@ -1,0 +1,148 @@
+ID   DXS_BACFR               Reviewed;         648 AA.
+AC   Q64Y02;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 106.
+DE   RecName: Full=1-deoxy-D-xylulose-5-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00315};
+DE            EC=2.2.1.7 {ECO:0000255|HAMAP-Rule:MF_00315};
+DE   AltName: Full=1-deoxyxylulose-5-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00315};
+DE            Short=DXP synthase {ECO:0000255|HAMAP-Rule:MF_00315};
+DE            Short=DXPS {ECO:0000255|HAMAP-Rule:MF_00315};
+GN   Name=dxs {ECO:0000255|HAMAP-Rule:MF_00315}; OrderedLocusNames=BF0873;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Catalyzes the acyloin condensation reaction between C atoms 2
+CC       and 3 of pyruvate and glyceraldehyde 3-phosphate to yield 1-deoxy-D-
+CC       xylulose-5-phosphate (DXP). {ECO:0000255|HAMAP-Rule:MF_00315}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + pyruvate + H(+) = 1-deoxy-D-
+CC         xylulose 5-phosphate + CO2; Xref=Rhea:RHEA:12605, ChEBI:CHEBI:15361,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:59776; EC=2.2.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00315};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00315};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00315};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00315};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00315};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 1-deoxy-D-xylulose 5-
+CC       phosphate biosynthesis; 1-deoxy-D-xylulose 5-phosphate from D-
+CC       glyceraldehyde 3-phosphate and pyruvate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00315}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00315}.
+CC   -!- SIMILARITY: Belongs to the transketolase family. DXPS subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00315}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD47624.1; -; Genomic_DNA.
+DR   RefSeq; WP_010992199.1; NC_006347.1.
+DR   RefSeq; YP_098158.1; NC_006347.1.
+DR   AlphaFoldDB; Q64Y02; -.
+DR   SMR; Q64Y02; -.
+DR   STRING; 295405.BF0873; -.
+DR   GeneID; 60366713; -.
+DR   KEGG; bfr:BF0873; -.
+DR   PATRIC; fig|295405.11.peg.879; -.
+DR   HOGENOM; CLU_009227_1_4_10; -.
+DR   OrthoDB; 9803371at2; -.
+DR   UniPathway; UPA00064; UER00091.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008661; F:1-deoxy-D-xylulose-5-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052865; P:1-deoxy-D-xylulose 5-phosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:TreeGrafter.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02007; TPP_DXS; 1.
+DR   CDD; cd07033; TPP_PYR_DXS_TK_like; 1.
+DR   FunFam; 3.40.50.920:FF:000002; 1-deoxy-D-xylulose-5-phosphate synthase; 1.
+DR   FunFam; 3.40.50.970:FF:000005; 1-deoxy-D-xylulose-5-phosphate synthase; 1.
+DR   Gene3D; 3.40.50.920; -; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   HAMAP; MF_00315; DXP_synth; 1.
+DR   InterPro; IPR005477; Dxylulose-5-P_synthase.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR009014; Transketo_C/PFOR_II.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   InterPro; IPR020826; Transketolase_BS.
+DR   InterPro; IPR033248; Transketolase_C.
+DR   NCBIfam; TIGR00204; dxs; 1.
+DR   PANTHER; PTHR43322; 1-D-DEOXYXYLULOSE 5-PHOSPHATE SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR43322:SF5; 1-DEOXY-D-XYLULOSE-5-PHOSPHATE SYNTHASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF13292; DXP_synthase_N; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   Pfam; PF02780; Transketolase_C; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+DR   SUPFAM; SSF52922; TK C-terminal domain-like; 1.
+DR   PROSITE; PS00802; TRANSKETOLASE_2; 1.
+PE   3: Inferred from homology;
+KW   Isoprene biosynthesis; Magnesium; Metal-binding; Thiamine biosynthesis;
+KW   Thiamine pyrophosphate; Transferase.
+FT   CHAIN           1..648
+FT                   /note="1-deoxy-D-xylulose-5-phosphate synthase"
+FT                   /id="PRO_0000256376"
+FT   BINDING         79
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         120..122
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         152
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         153..154
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         181
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         181
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         293
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+FT   BINDING         377
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00315"
+SQ   SEQUENCE   648 AA;  71933 MW;  CB93E96EAEE9F0BD CRC64;
+     MKNEPTYSLL NAINYPKDLR QLSVDQLPEV CEELRQDIIK ELSCNPGHFA ASLGVVELTV
+     ALHYVYNTPY DRIVWDVGHQ AYGHKILTGR REAFSTNRKL GGIRPFPSPE ESEYDTFTCG
+     HASNSISAAL GMAVAAERKG EKDRHVVAVI GDGSMSGGLA FEGLNNASST ANNLLIILND
+     NDMAIDRSVG GMKQYLFNLT TSNRYNQLRF KTSRLLFKMG LLNEERRKAL IRLGNSLKSL
+     AAQQQNIFEG MNIRYFGPID GHDVKNIARI LHDIKDMQGP KILHLHTIKG KGFGPAEKQA
+     TIWHAPGKFD PVTGKRIVAN TDGMPPLFQD VFGHTLVELA EKNKRIMGVT PAMPSGCSMN
+     MLMDRMPDRA FDVGIAEGHA VTFSGGMAKD GLLPFCNIYS SFMQRAYDNI IHDVAIQKLN
+     VVFCLDRAGL VGEDGPTHHG VFDMAYLRPI PNLTISSPMD EHELRRLMYT AQLPDKGPFA
+     IRYPRGRGSL VDWECPLEEI PVGKGRKLKD GNDLAVITIG PIGKLAARAI ERAEADTGIS
+     VAHYDLRFLK PLDEELLHEV GKKFRHIVTI EDGIIKGGMG CAILEFMADN GYYPEIRRIG
+     VPDQFIEHGS VQQLYHLCGM DEEGIYKVIT KNKLRMDAPV ESCMATHS
+//

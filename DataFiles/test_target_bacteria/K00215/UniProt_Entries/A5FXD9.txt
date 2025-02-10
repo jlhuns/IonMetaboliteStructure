@@ -1,0 +1,130 @@
+ID   DAPB_ACICJ              Reviewed;         247 AA.
+AC   A5FXD9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase {ECO:0000255|HAMAP-Rule:MF_00102};
+DE            Short=HTPA reductase {ECO:0000255|HAMAP-Rule:MF_00102};
+DE            EC=1.17.1.8 {ECO:0000255|HAMAP-Rule:MF_00102};
+GN   Name=dapB {ECO:0000255|HAMAP-Rule:MF_00102};
+GN   OrderedLocusNames=Acry_1055;
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of 4-hydroxy-tetrahydrodipicolinate
+CC       (HTPA) to tetrahydrodipicolinate. {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NAD(+) + H2O = (2S,4S)-4-
+CC         hydroxy-2,3,4,5-tetrahydrodipicolinate + NADH + H(+);
+CC         Xref=Rhea:RHEA:35323, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00102};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NADP(+) + H2O = (2S,4S)-
+CC         4-hydroxy-2,3,4,5-tetrahydrodipicolinate + NADPH + H(+);
+CC         Xref=Rhea:RHEA:35331, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00102};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 4/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- SIMILARITY: Belongs to the DapB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00102}.
+CC   -!- CAUTION: Was originally thought to be a dihydrodipicolinate reductase
+CC       (DHDPR), catalyzing the conversion of dihydrodipicolinate to
+CC       tetrahydrodipicolinate. However, it was shown in E.coli that the
+CC       substrate of the enzymatic reaction is not dihydrodipicolinate (DHDP)
+CC       but in fact (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinic acid
+CC       (HTPA), the product released by the DapA-catalyzed reaction.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30271.1; -; Genomic_DNA.
+DR   RefSeq; WP_011941957.1; NC_009484.1.
+DR   AlphaFoldDB; A5FXD9; -.
+DR   SMR; A5FXD9; -.
+DR   STRING; 349163.Acry_1055; -.
+DR   KEGG; acr:Acry_1055; -.
+DR   eggNOG; COG0289; Bacteria.
+DR   HOGENOM; CLU_047479_2_2_5; -.
+DR   UniPathway; UPA00034; UER00018.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008839; F:4-hydroxy-tetrahydrodipicolinate reductase; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016726; F:oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00102; DapB; 1.
+DR   InterPro; IPR022663; DapB_C.
+DR   InterPro; IPR000846; DapB_N.
+DR   InterPro; IPR022664; DapB_N_CS.
+DR   InterPro; IPR023940; DHDPR_bac.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00036; dapB; 1.
+DR   PANTHER; PTHR20836:SF0; 4-HYDROXY-TETRAHYDRODIPICOLINATE REDUCTASE 1, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR20836; DIHYDRODIPICOLINATE REDUCTASE; 1.
+DR   Pfam; PF05173; DapB_C; 1.
+DR   Pfam; PF01113; DapB_N; 1.
+DR   PIRSF; PIRSF000161; DHPR; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS01298; DAPB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Diaminopimelate biosynthesis;
+KW   Lysine biosynthesis; NAD; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..247
+FT                   /note="4-hydroxy-tetrahydrodipicolinate reductase"
+FT                   /id="PRO_1000008529"
+FT   ACT_SITE        136
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   ACT_SITE        140
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         12..17
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         78..80
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         102..105
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         137
+FT                   /ligand="(S)-2,3,4,5-tetrahydrodipicolinate"
+FT                   /ligand_id="ChEBI:CHEBI:16845"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         146..147
+FT                   /ligand="(S)-2,3,4,5-tetrahydrodipicolinate"
+FT                   /ligand_id="ChEBI:CHEBI:16845"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+SQ   SEQUENCE   247 AA;  25070 MW;  CB148C8846410468 CRC64;
+     MNGADLRIGI AGITGRMGKL LAEAVPLAGA TLAGGIGRDG DLAALARESD VVIDFTVAAT
+     VSRHAGILAA AGTPWVLGTT GFDPAAEADI ADAAARIPVF QAANFAPGVN LVIALAERLG
+     ATLAAETHDA EILEMHHRQK IDAPSGTALA IGAAVARGRG VDLAAVKDSG RDGHTGKRET
+     GAIGFAALRG GQIVGSHSAI FTSAVEQITL THHALDRRIF AEGAVRAALW LAGRAPGRYG
+     MRDLLGL
+//

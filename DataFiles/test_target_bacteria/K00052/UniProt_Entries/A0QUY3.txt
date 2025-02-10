@@ -1,0 +1,143 @@
+ID   A0QUY3_MYCS2            Unreviewed;       340 AA.
+AC   A0QUY3;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=3-isopropylmalate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01035};
+DE            EC=1.1.1.85 {ECO:0000256|HAMAP-Rule:MF_01035};
+DE   AltName: Full=3-IPM-DH {ECO:0000256|HAMAP-Rule:MF_01035};
+DE   AltName: Full=Beta-IPM dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01035};
+DE            Short=IMDH {ECO:0000256|HAMAP-Rule:MF_01035};
+GN   Name=leuB {ECO:0000256|HAMAP-Rule:MF_01035,
+GN   ECO:0000313|EMBL:ABK71356.1};
+GN   OrderedLocusNames=MSMEG_2379 {ECO:0000313|EMBL:ABK71356.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK71356.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK71356.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the oxidation of 3-carboxy-2-hydroxy-4-
+CC       methylpentanoate (3-isopropylmalate) to 3-carboxy-4-methyl-2-
+CC       oxopentanoate. The product decarboxylates to 4-methyl-2 oxopentanoate.
+CC       {ECO:0000256|HAMAP-Rule:MF_01035}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate + NAD(+) = 4-methyl-2-oxopentanoate
+CC         + CO2 + NADH; Xref=Rhea:RHEA:32271, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:17865, ChEBI:CHEBI:35121, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.85;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000624, ECO:0000256|HAMAP-
+CC         Rule:MF_01035};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01035};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01035};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01035};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 3/4. {ECO:0000256|HAMAP-
+CC       Rule:MF_01035}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01035}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01035}.
+CC   -!- SIMILARITY: Belongs to the isocitrate and isopropylmalate
+CC       dehydrogenases family. LeuB type 2 subfamily. {ECO:0000256|HAMAP-
+CC       Rule:MF_01035}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK71356.1; -; Genomic_DNA.
+DR   RefSeq; YP_886721.1; NC_008596.1.
+DR   AlphaFoldDB; A0QUY3; -.
+DR   STRING; 246196.MSMEG_2379; -.
+DR   PaxDb; 246196-MSMEI_2319; -.
+DR   KEGG; msm:MSMEG_2379; -.
+DR   PATRIC; fig|246196.19.peg.2345; -.
+DR   eggNOG; COG0473; Bacteria.
+DR   OrthoDB; 5289857at2; -.
+DR   UniPathway; UPA00048; UER00072.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003862; F:3-isopropylmalate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.718.10; Isopropylmalate Dehydrogenase; 1.
+DR   HAMAP; MF_01035; LeuB_type2; 1.
+DR   InterPro; IPR050501; ICDH/IPMDH.
+DR   InterPro; IPR019818; IsoCit/isopropylmalate_DH_CS.
+DR   InterPro; IPR024084; IsoPropMal-DH-like_dom.
+DR   InterPro; IPR023698; LeuB_actb.
+DR   PANTHER; PTHR43275; D-MALATE DEHYDROGENASE [DECARBOXYLATING]; 1.
+DR   PANTHER; PTHR43275:SF1; D-MALATE DEHYDROGENASE [DECARBOXYLATING]; 1.
+DR   Pfam; PF00180; Iso_dh; 1.
+DR   SMART; SM01329; Iso_dh; 1.
+DR   SUPFAM; SSF53659; Isocitrate/Isopropylmalate dehydrogenase-like; 1.
+DR   PROSITE; PS00470; IDH_IMDH; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01035};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|HAMAP-Rule:MF_01035};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01035};
+KW   Leucine biosynthesis {ECO:0000256|ARBA:ARBA00022430, ECO:0000256|HAMAP-
+KW   Rule:MF_01035}; Magnesium {ECO:0000256|HAMAP-Rule:MF_01035};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|HAMAP-Rule:MF_01035};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01035};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_01035};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01035}; Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          6..336
+FT                   /note="Isopropylmalate dehydrogenase-like"
+FT                   /evidence="ECO:0000259|SMART:SM01329"
+FT   BINDING         91
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         101
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         125
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         215
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         215
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         239
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         243
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   BINDING         275..287
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   SITE            132
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+FT   SITE            182
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01035"
+SQ   SEQUENCE   340 AA;  35859 MW;  19E48A97DF0EBFDA CRC64;
+     MSSNLKLAVI AGDGIGPEVI AEAVTVLDAV LPGVEKTEYD LGARRYHATG ELLSDETIEE
+     LRGYDAILLG AIGDPSVPSG VLERGMLLKL RFALDHHVNL RPGRLYPGVT GPLVGNPPID
+     FVVVREGTEG PYTGNGGALR VGTPHEVATE VSVNTAFGVE RVVRDAFARA QDRRKHLTLV
+     HKTNVLAFAG SLWSRTVDRV AQEYPDVEVA YQHIDAATIH MVTDPGRFDV IVTDNLFGDI
+     ITDLAAAVCG GIGLAASGNI DATRTNPSMF EPVHGSAPDI AGQGIADPTA AVMSVGLLLS
+     HVGQTEAAAR VDKAVSEHLA TRGDEKLSTS AVGERIRSLL
+//

@@ -1,0 +1,223 @@
+ID   RIBBA_BACTN             Reviewed;         404 AA.
+AC   Q8A528;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 120.
+DE   RecName: Full=Riboflavin biosynthesis protein RibBA {ECO:0000255|HAMAP-Rule:MF_01283};
+DE   Includes:
+DE     RecName: Full=3,4-dihydroxy-2-butanone 4-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_01283};
+DE              Short=DHBP synthase {ECO:0000255|HAMAP-Rule:MF_01283};
+DE              EC=4.1.99.12 {ECO:0000255|HAMAP-Rule:MF_01283};
+DE   Includes:
+DE     RecName: Full=GTP cyclohydrolase-2 {ECO:0000255|HAMAP-Rule:MF_01283};
+DE              EC=3.5.4.25 {ECO:0000255|HAMAP-Rule:MF_01283};
+DE     AltName: Full=GTP cyclohydrolase II {ECO:0000255|HAMAP-Rule:MF_01283};
+GN   Name=ribBA {ECO:0000255|HAMAP-Rule:MF_01283};
+GN   OrderedLocusNames=BT_2416;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of D-ribulose 5-phosphate to formate
+CC       and 3,4-dihydroxy-2-butanone 4-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01283}.
+CC   -!- FUNCTION: Catalyzes the conversion of GTP to 2,5-diamino-6-
+CC       ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and
+CC       pyrophosphate. {ECO:0000255|HAMAP-Rule:MF_01283}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribulose 5-phosphate = (2S)-2-hydroxy-3-oxobutyl phosphate +
+CC         formate + H(+); Xref=Rhea:RHEA:18457, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:58121, ChEBI:CHEBI:58830;
+CC         EC=4.1.99.12; Evidence={ECO:0000255|HAMAP-Rule:MF_01283};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + 4 H2O = 2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)-
+CC         pyrimidine + formate + 2 phosphate + 3 H(+); Xref=Rhea:RHEA:23704,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58614; EC=3.5.4.25;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01283};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01283};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01283};
+CC       Note=Binds 2 divalent metal cations per subunit. Magnesium or
+CC       manganese. {ECO:0000255|HAMAP-Rule:MF_01283};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01283};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01283};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 2-hydroxy-3-
+CC       oxobutyl phosphate from D-ribulose 5-phosphate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01283}.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-6-(D-
+CC       ribitylamino)uracil from GTP: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01283}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the DHBP synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01283}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the GTP
+CC       cyclohydrolase II family. {ECO:0000255|HAMAP-Rule:MF_01283}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO77523.1; -; Genomic_DNA.
+DR   RefSeq; NP_811329.1; NC_004663.1.
+DR   RefSeq; WP_008763746.1; NZ_UYXG01000018.1.
+DR   AlphaFoldDB; Q8A528; -.
+DR   SMR; Q8A528; -.
+DR   STRING; 226186.BT_2416; -.
+DR   PaxDb; 226186-BT_2416; -.
+DR   EnsemblBacteria; AAO77523; AAO77523; BT_2416.
+DR   GeneID; 60923586; -.
+DR   KEGG; bth:BT_2416; -.
+DR   PATRIC; fig|226186.12.peg.2477; -.
+DR   eggNOG; COG0108; Bacteria.
+DR   HOGENOM; CLU_020273_1_2_10; -.
+DR   InParanoid; Q8A528; -.
+DR   OrthoDB; 9793111at2; -.
+DR   UniPathway; UPA00275; UER00399.
+DR   UniPathway; UPA00275; UER00400.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0008686; F:3,4-dihydroxy-2-butanone-4-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003935; F:GTP cyclohydrolase II activity; IBA:GO_Central.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00641; GTP_cyclohydro2; 1.
+DR   FunFam; 3.40.50.10990:FF:000001; Riboflavin biosynthesis protein RibBA; 1.
+DR   FunFam; 3.90.870.10:FF:000001; Riboflavin biosynthesis protein RibBA; 1.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   Gene3D; 3.40.50.10990; GTP cyclohydrolase II; 1.
+DR   HAMAP; MF_00179; RibA; 1.
+DR   HAMAP; MF_00180; RibB; 1.
+DR   HAMAP; MF_01283; RibBA; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR000422; DHBP_synthase_RibB.
+DR   InterPro; IPR032677; GTP_cyclohydro_II.
+DR   InterPro; IPR000926; RibA.
+DR   InterPro; IPR036144; RibA-like_sf.
+DR   InterPro; IPR016299; Riboflavin_synth_RibBA.
+DR   NCBIfam; TIGR00505; ribA; 1.
+DR   NCBIfam; TIGR00506; ribB; 1.
+DR   PANTHER; PTHR21327:SF18; 3,4-DIHYDROXY-2-BUTANONE 4-PHOSPHATE SYNTHASE; 1.
+DR   PANTHER; PTHR21327; GTP CYCLOHYDROLASE II-RELATED; 1.
+DR   Pfam; PF00926; DHBP_synthase; 1.
+DR   Pfam; PF00925; GTP_cyclohydro2; 1.
+DR   PIRSF; PIRSF001259; RibA; 1.
+DR   SUPFAM; SSF142695; RibA-like; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+PE   3: Inferred from homology;
+KW   GTP-binding; Hydrolase; Lyase; Magnesium; Manganese; Metal-binding;
+KW   Multifunctional enzyme; Nucleotide-binding; Reference proteome;
+KW   Riboflavin biosynthesis; Zinc.
+FT   CHAIN           1..404
+FT                   /note="Riboflavin biosynthesis protein RibBA"
+FT                   /id="PRO_1000165248"
+FT   REGION          1..204
+FT                   /note="DHBP synthase"
+FT   REGION          205..404
+FT                   /note="GTP cyclohydrolase II"
+FT   ACT_SITE        332
+FT                   /note="Proton acceptor; for GTP cyclohydrolase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   ACT_SITE        334
+FT                   /note="Nucleophile; for GTP cyclohydrolase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         30..31
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         31
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         31
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         35
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         143..147
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         146
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         167
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         255..259
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         260
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         271
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         273
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         276
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         298..300
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         320
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         355
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   BINDING         360
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   SITE            129
+FT                   /note="Essential for DHBP synthase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+FT   SITE            167
+FT                   /note="Essential for DHBP synthase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01283"
+SQ   SEQUENCE   404 AA;  44823 MW;  093CFC979F932B02 CRC64;
+     MEEIKMDRIE DAIADFKEGK FVIVVDDEDR ENEGDLIIAA EKITPEKVNF MLKHARGVLC
+     APITVSRCKE LDLPHQVSDN TSVLGTPFTV TIDKLEGCST GVSASDRAAT IQALADPAST
+     PATFGRPGHI NPLYAQEKGV LRRAGHTEAT IDMARLAGLY PAGALMEIMS DDGTMARLPE
+     LRAMADEHGL KLISIHDLIA YRLKQESIVE KGVEVNMPTE HGMFRLIPFR QKSNGLEHMA
+     IFKGTWNEDE PILVRVHSSC ATGDILGSHR CDCGEQLHKA MEMIEKEGKG VVVYLNQEGR
+     GIGLMEKMKA YKLQEDGMDT VDANLCLGHL ADERDYGVGA QILRELGVHK MKLLTNNPVK
+     RVGLEAYGLE IVENVPVETV PNPYNERYLR TKKERMGHTL HFNK
+//

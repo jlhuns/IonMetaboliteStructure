@@ -1,0 +1,199 @@
+ID   Q6NB83_RHOPA            Unreviewed;       661 AA.
+AC   Q6NB83;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 129.
+DE   RecName: Full=Transketolase {ECO:0000256|ARBA:ARBA00013152, ECO:0000256|NCBIfam:TIGR00232};
+DE            EC=2.2.1.1 {ECO:0000256|ARBA:ARBA00013152, ECO:0000256|NCBIfam:TIGR00232};
+GN   Name=cbbT2 {ECO:0000313|EMBL:CAE26389.1};
+GN   Synonyms=tkt {ECO:0000313|EMBL:WCL91078.1};
+GN   OrderedLocusNames=RPA0945 {ECO:0000313|EMBL:CAE26389.1};
+GN   ORFNames=TX73_004870 {ECO:0000313|EMBL:WCL91078.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE26389.1};
+RN   [1] {ECO:0000313|EMBL:WCL91078.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91078.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE26389.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE26389.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91078.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91078.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a two-carbon ketol group from a
+CC       ketose donor to an aldose acceptor, via a covalent intermediate with
+CC       the cofactor thiamine pyrophosphate. {ECO:0000256|RuleBase:RU004996}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate =
+CC         aldehydo-D-ribose 5-phosphate + D-xylulose 5-phosphate;
+CC         Xref=Rhea:RHEA:10508, ChEBI:CHEBI:57483, ChEBI:CHEBI:57737,
+CC         ChEBI:CHEBI:58273, ChEBI:CHEBI:59776; EC=2.2.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049473,
+CC         ECO:0000256|RuleBase:RU004996};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Note=Binds 1 Mg(2+) ion per subunit. Can also utilize other divalent
+CC       metal cations, such as Ca(2+), Mn(2+) and Co(2+).
+CC       {ECO:0000256|RuleBase:RU004996};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR605478-3};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit. During the reaction,
+CC       the substrate forms a covalent intermediate with the cofactor.
+CC       {ECO:0000256|PIRSR:PIRSR605478-3};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738,
+CC       ECO:0000256|RuleBase:RU004996}.
+CC   -!- SIMILARITY: Belongs to the transketolase family.
+CC       {ECO:0000256|ARBA:ARBA00007131, ECO:0000256|RuleBase:RU004996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572595; CAE26389.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91078.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156480.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0945; -.
+DR   GeneID; 66891964; -.
+DR   KEGG; rpa:TX73_004870; -.
+DR   eggNOG; COG0021; Bacteria.
+DR   HOGENOM; CLU_009227_0_0_5; -.
+DR   PhylomeDB; Q6NB83; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004802; F:transketolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:TreeGrafter.
+DR   CDD; cd07033; TPP_PYR_DXS_TK_like; 1.
+DR   CDD; cd02012; TPP_TK; 1.
+DR   FunFam; 3.40.50.970:FF:000003; Transketolase; 1.
+DR   FunFam; 3.40.50.970:FF:000004; Transketolase; 1.
+DR   Gene3D; 3.40.50.920; -; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR009014; Transketo_C/PFOR_II.
+DR   InterPro; IPR055152; Transketolase-like_C_2.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   InterPro; IPR005478; Transketolase_bac-like.
+DR   InterPro; IPR020826; Transketolase_BS.
+DR   InterPro; IPR049557; Transketolase_CS.
+DR   InterPro; IPR033247; Transketolase_fam.
+DR   InterPro; IPR005474; Transketolase_N.
+DR   NCBIfam; TIGR00232; tktlase_bact; 1.
+DR   PANTHER; PTHR43522; TRANSKETOLASE; 1.
+DR   PANTHER; PTHR43522:SF2; TRANSKETOLASE 1-RELATED; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   Pfam; PF22613; Transketolase_C_1; 1.
+DR   Pfam; PF00456; Transketolase_N; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+DR   SUPFAM; SSF52922; TK C-terminal domain-like; 1.
+DR   PROSITE; PS00801; TRANSKETOLASE_1; 1.
+DR   PROSITE; PS00802; TRANSKETOLASE_2; 1.
+PE   3: Inferred from homology;
+KW   Calcium {ECO:0000256|RuleBase:RU004996};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU004996};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU004996};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Thiamine pyrophosphate {ECO:0000256|ARBA:ARBA00023052,
+KW   ECO:0000256|PIRSR:PIRSR605478-3};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU004996}.
+FT   DOMAIN          351..522
+FT                   /note="Transketolase-like pyrimidine-binding"
+FT                   /evidence="ECO:0000259|SMART:SM00861"
+FT   ACT_SITE        408
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-1"
+FT   BINDING         28
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         68
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         117..119
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         155
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         184
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         258
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         258
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         354
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         381
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         434
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         458
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         466
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         470
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         517
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   SITE            28
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-5"
+FT   SITE            258
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-5"
+SQ   SEQUENCE   661 AA;  70382 MW;  42F77EB32171E8DB CRC64;
+     MAQVDHSRMA NAIRALAMDA VEKAKSGHPG LPMGAADVAT VLWTQFLKFD AVDPHWPDRD
+     RFILSAGHGS MLLYALLYLT GNEELTLDQI KNFRQLDSKT PGHPENCITS SVETTTGPLG
+     QGVASSVGTA LAERLLQAEF GDIVDHYTYV LCSDGDLMEG VSHEAIALAG HLRLSKLIFL
+     YDDNGISIDG PLSLTDTVDQ VARFQAHGWN SFRIDGHDHK AIADAIRKAQ ASDRPTMIAC
+     KTTIGFGAPH KAGTSKAHGE PLGAEELAGA KKALGWDYGP FEIPDDVLSA WRNVGKQGAS
+     ARADWLARFD ALPADKRGDF KRRVIDRKRP AAIADAIRTL KDKLVAEPQT IATRKASELA
+     LEALTPVVPE LLLGSADLTP SNNTRVKQAK DVTPDDFSGR YIHYGIREMG MAAAMNGLAM
+     HGGFAPAGGT FLCFTDYARP SMRVAALSHV PVVYIMTHDS IGLGEDGPTH QPVEHLAALR
+     AMPNMRVFRP ADAVETAECW QLALENTNGP TLLALSRQNL AQVRTATSEA NLCATGGYEL
+     IPAPGKAQVS IFATGSEVEI AVAAQKLLEV QGVAARVVSV PSLDLLLAQD DATRAAIIGD
+     APVKVAVEAA VRFGWDAVIG PDGGFVGMTG FGASAPAKDL YKHFGITAEA VADAAKRRLA
+     A
+//

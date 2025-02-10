@@ -1,0 +1,172 @@
+ID   PDXK_SALTI              Reviewed;         288 AA.
+AC   Q8Z4W1;
+DT   23-MAY-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Pyridoxine/pyridoxal/pyridoxamine kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+DE            Short=PN/PL/PM kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+DE            EC=2.7.1.35 {ECO:0000255|HAMAP-Rule:MF_01638};
+DE   AltName: Full=B6-vitamer kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+GN   Name=pdxK {ECO:0000255|HAMAP-Rule:MF_01638};
+GN   OrderedLocusNames=STY2672, t0423;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: B6-vitamer kinase involved in the salvage pathway of
+CC       pyridoxal 5'-phosphate (PLP). Catalyzes the phosphorylation of
+CC       pyridoxine (PN), pyridoxal (PL), and pyridoxamine (PM), forming their
+CC       respective 5'-phosphorylated esters, i.e. PNP, PLP and PMP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyridoxal + ATP = pyridoxal 5'-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:10224, ChEBI:CHEBI:15378, ChEBI:CHEBI:17310,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:456216, ChEBI:CHEBI:597326;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyridoxine + ATP = pyridoxine 5'-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:25108, ChEBI:CHEBI:15378, ChEBI:CHEBI:16709,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58589, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyridoxamine + ATP = pyridoxamine 5'-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:25104, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57761, ChEBI:CHEBI:58451, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01638};
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxal: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01638}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage;
+CC       pyridoxine 5'-phosphate from pyridoxine: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01638}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage;
+CC       pyridoxamine 5'-phosphate from pyridoxamine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- SIMILARITY: Belongs to the pyridoxine kinase family. PdxK subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07667.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68140.1; -; Genomic_DNA.
+DR   RefSeq; NP_456971.1; NC_003198.1.
+DR   AlphaFoldDB; Q8Z4W1; -.
+DR   SMR; Q8Z4W1; -.
+DR   STRING; 220341.gene:17586571; -.
+DR   KEGG; stt:t0423; -.
+DR   KEGG; sty:STY2672; -.
+DR   PATRIC; fig|220341.7.peg.2709; -.
+DR   eggNOG; COG2240; Bacteria.
+DR   HOGENOM; CLU_046496_3_1_6; -.
+DR   OMA; AWTHQHP; -.
+DR   UniPathway; UPA01068; UER00298.
+DR   UniPathway; UPA01068; UER00299.
+DR   UniPathway; UPA01068; UER00300.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008902; F:hydroxymethylpyrimidine kinase activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008478; F:pyridoxal kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009443; P:pyridoxal 5'-phosphate salvage; IEA:UniProtKB-UniRule.
+DR   CDD; cd01173; pyridoxal_pyridoxamine_kinase; 1.
+DR   FunFam; 3.40.1190.20:FF:000009; Pyridoxine/pyridoxal/pyridoxamine kinase; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   HAMAP; MF_01638; PdxK; 1.
+DR   InterPro; IPR023479; PdxK.
+DR   InterPro; IPR013749; PM/HMP-P_kinase-1.
+DR   InterPro; IPR004625; PyrdxlKinase.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   NCBIfam; TIGR00687; pyridox_kin; 1.
+DR   PANTHER; PTHR10534; PYRIDOXAL KINASE; 1.
+DR   PANTHER; PTHR10534:SF15; PYRIDOXINE_PYRIDOXAL_PYRIDOXAMINE KINASE; 1.
+DR   Pfam; PF08543; Phos_pyr_kin; 1.
+DR   SUPFAM; SSF53613; Ribokinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Transferase; Zinc.
+FT   CHAIN           1..288
+FT                   /note="Pyridoxine/pyridoxal/pyridoxamine kinase"
+FT                   /id="PRO_0000213343"
+FT   BINDING         28
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         64
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         141
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         162
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         167
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         167
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         200
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         225..228
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         235
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         237
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   CONFLICT        101
+FT                   /note="N -> Y (in Ref. 2; AAO68140)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   288 AA;  30918 MW;  CB2F6F07ED8C1062 CRC64;
+     MGQESDIQSV LFDDNHRALQ TDIVAVQSQV VYGSVGNSIA VPAIKAQGLR VTAVPTVLFS
+     NTPHYKTFYG GIIPAEWFAG YLTALNERDA LRELKAITTG NMGSADQIVL LSKWLMAIRA
+     SHPEVCILVD PVIGDTDSGM YVQAEIPQAY RTHLLPQAQG LTPNVFELEM LSGKPCRTLE
+     EAVAAAQSLL SDTLKWVVIT SAPGESLETI TVAVVTAQVV EVFAHPRVAT ELKGTGDLFC
+     AELVSGIVQG KKLTTAAKDA AQRVLEVMTW TQQCGCDELI LPPAGEAR
+//

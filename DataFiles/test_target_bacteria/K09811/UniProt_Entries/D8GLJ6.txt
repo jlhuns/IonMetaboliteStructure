@@ -1,0 +1,89 @@
+ID   D8GLJ6_CLOLD            Unreviewed;       296 AA.
+AC   D8GLJ6;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   RecName: Full=Cell division protein FtsX {ECO:0000256|ARBA:ARBA00021907, ECO:0000256|PIRNR:PIRNR003097};
+GN   OrderedLocusNames=CLJU_c03080 {ECO:0000313|EMBL:ADK13392.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13392.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13392.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Part of the ABC transporter FtsEX involved in asymmetric
+CC       cellular division facilitating the initiation of sporulation.
+CC       {ECO:0000256|PIRNR:PIRNR003097}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the ABC-4 integral membrane protein family. FtsX
+CC       subfamily. {ECO:0000256|ARBA:ARBA00007379,
+CC       ECO:0000256|PIRNR:PIRNR003097}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13392.1; -; Genomic_DNA.
+DR   RefSeq; WP_013236992.1; NZ_LITS01000002.1.
+DR   AlphaFoldDB; D8GLJ6; -.
+DR   STRING; 748727.CLJU_c03080; -.
+DR   KEGG; clj:CLJU_c03080; -.
+DR   eggNOG; COG2177; Bacteria.
+DR   HOGENOM; CLU_073546_2_2_9; -.
+DR   OrthoDB; 9812531at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.70.3040; -; 1.
+DR   InterPro; IPR003838; ABC3_permease_C.
+DR   InterPro; IPR004513; FtsX.
+DR   InterPro; IPR040690; FtsX_ECD.
+DR   NCBIfam; NF038347; FtsX_Gpos; 1.
+DR   PANTHER; PTHR47755; CELL DIVISION PROTEIN FTSX; 1.
+DR   PANTHER; PTHR47755:SF1; CELL DIVISION PROTEIN FTSX; 1.
+DR   Pfam; PF02687; FtsX; 1.
+DR   Pfam; PF18075; FtsX_ECD; 1.
+DR   PIRSF; PIRSF003097; FtsX; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|PIRNR:PIRNR003097};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618,
+KW   ECO:0000256|PIRNR:PIRNR003097};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475,
+KW   ECO:0000256|PIRNR:PIRNR003097};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|PIRNR:PIRNR003097};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        23..44
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        172..197
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        217..244
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        265..290
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          59..153
+FT                   /note="FtsX extracellular"
+FT                   /evidence="ECO:0000259|Pfam:PF18075"
+FT   DOMAIN          176..293
+FT                   /note="ABC3 transporter permease C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02687"
+SQ   SEQUENCE   296 AA;  32943 MW;  116D23B7AFF1B630 CRC64;
+     MRISTVSFSI KDAFRNLNRN KTISIASAAT VAATLFIFGI YLLAMMNIKQ GILEVQSKVE
+     VKIYLQDNIT RIQKRNIEDK INTTDGVVDV SYETKSQALD KFRNQLGQEN KSLVEGLEKD
+     NPIPSAYIVK VSDPQVVSRV VKNVQGMPGI YSVQDAREIV DKIIAITRTI KWVGTIIFII
+     LIGVSLFLIG NTIKITVYSR RKEIGIMKYI GATDWFIRWP FIIEGIIIGI AGGIVSDIIL
+     YYLYKIVYVK AASTLVIMQL ISPTYVITSI LGIFILVGII IGAAGSALSI RKFLEV
+//

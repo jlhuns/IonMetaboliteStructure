@@ -1,0 +1,80 @@
+ID   Q65GD1_BACLD            Unreviewed;       248 AA.
+AC   Q65GD1; Q62RT5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   SubName: Full=Putative RNA methylase YsgA {ECO:0000313|EMBL:AAU24525.1};
+GN   Name=ysgA {ECO:0000313|EMBL:AAU24525.1};
+GN   OrderedLocusNames=BL00342 {ECO:0000313|EMBL:AAU24525.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24525.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24525.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SIMILARITY: Belongs to the class IV-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase TrmH family.
+CC       {ECO:0000256|ARBA:ARBA00007228}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24525.1; -; Genomic_DNA.
+DR   RefSeq; WP_003184231.1; NC_006322.1.
+DR   AlphaFoldDB; Q65GD1; -.
+DR   STRING; 279010.BL00342; -.
+DR   GeneID; 66214999; -.
+DR   KEGG; bld:BLi03017; -.
+DR   KEGG; bli:BL00342; -.
+DR   PATRIC; fig|279010.13.peg.3079; -.
+DR   eggNOG; COG0566; Bacteria.
+DR   HOGENOM; CLU_021322_3_2_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-ARBA.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0008173; F:RNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   CDD; cd18095; SpoU-like_rRNA-MTase; 1.
+DR   Gene3D; 3.30.1330.30; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR053888; MRM3-like_sub_bind.
+DR   InterPro; IPR029064; Ribosomal_eL30-like_sf.
+DR   InterPro; IPR051259; rRNA_Methyltransferase.
+DR   InterPro; IPR001537; SpoU_MeTrfase.
+DR   InterPro; IPR013123; SpoU_subst-bd.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   PANTHER; PTHR43191; RRNA METHYLTRANSFERASE 3; 1.
+DR   PANTHER; PTHR43191:SF2; RRNA METHYLTRANSFERASE 3, MITOCHONDRIAL; 1.
+DR   Pfam; PF22435; MRM3-like_sub_bind; 1.
+DR   Pfam; PF00588; SpoU_methylase; 1.
+DR   SMART; SM00967; SpoU_sub_bind; 1.
+DR   SUPFAM; SSF75217; alpha/beta knot; 1.
+DR   SUPFAM; SSF55315; L30e-like; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000313|EMBL:AAU24525.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000313|EMBL:AAU24525.1}.
+FT   DOMAIN          31..99
+FT                   /note="RNA 2-O ribose methyltransferase substrate binding"
+FT                   /evidence="ECO:0000259|SMART:SM00967"
+SQ   SEQUENCE   248 AA;  26725 MW;  7F8AC77346A5F80B CRC64;
+     MKRIESAKNQ KVKDWKKLHA KKERTKTNTF LIEGEHLVEE ALKTPGVVKE IMVADEADFP
+     AMIDESVARY VLSADAFSAI AETETPQAVA AVCRMPESGP FQYEKLLLAD AVQDPGNLGT
+     IIRTADAAGI DAVVIGQGTV DPYNAKTLRS AQGSHFHIPI LKRELSELIE ELKGKSVPVY
+     GTALQGAVPF REAEPSQSFA LLIGNEGSGV DPALLAQTDQ NLYVPIYGKA ESLNVAAAAA
+     VLLYHLRG
+//

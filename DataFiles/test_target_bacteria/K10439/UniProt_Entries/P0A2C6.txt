@@ -1,0 +1,89 @@
+ID   RBSB_SALTI              Reviewed;         296 AA.
+AC   P0A2C6; P02926;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   RecName: Full=Ribose import binding protein RbsB {ECO:0000250|UniProtKB:P02925};
+DE   Flags: Precursor;
+GN   Name=rbsB; Synonyms=rbsP; OrderedLocusNames=STY3894, t3635;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Part of the ABC transporter complex RbsABC involved in ribose
+CC       import. Binds ribose. {ECO:0000250|UniProtKB:P02925}.
+CC   -!- SUBUNIT: The complex is composed of an ATP-binding protein (RbsA), two
+CC       transmembrane proteins (RbsC) and a solute-binding protein (RbsB).
+CC       {ECO:0000250|UniProtKB:P02925}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250|UniProtKB:P02925}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03111.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71132.1; -; Genomic_DNA.
+DR   RefSeq; NP_458059.1; NC_003198.1.
+DR   RefSeq; WP_001056260.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; P0A2C6; -.
+DR   SMR; P0A2C6; -.
+DR   STRING; 220341.gene:17587754; -.
+DR   KEGG; stt:t3635; -.
+DR   KEGG; sty:STY3894; -.
+DR   PATRIC; fig|220341.7.peg.3974; -.
+DR   eggNOG; COG1879; Bacteria.
+DR   HOGENOM; CLU_037628_3_2_6; -.
+DR   OMA; QAVFAHN; -.
+DR   OrthoDB; 4827464at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-ARBA.
+DR   CDD; cd06323; PBP1_ribose_binding; 1.
+DR   FunFam; 3.40.50.2300:FF:000036; D-ribose ABC transporter substrate-binding protein; 1.
+DR   Gene3D; 3.40.50.2300; -; 2.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   InterPro; IPR025997; SBP_2_dom.
+DR   PANTHER; PTHR46847; D-ALLOSE-BINDING PERIPLASMIC PROTEIN-RELATED; 1.
+DR   PANTHER; PTHR46847:SF1; D-ALLOSE-BINDING PERIPLASMIC PROTEIN-RELATED; 1.
+DR   Pfam; PF13407; Peripla_BP_4; 1.
+DR   SUPFAM; SSF53822; Periplasmic binding protein-like I; 1.
+PE   3: Inferred from homology;
+KW   Periplasm; Signal; Sugar transport; Transport.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000250|UniProtKB:P0A2C5"
+FT   CHAIN           26..296
+FT                   /note="Ribose import binding protein RbsB"
+FT                   /id="PRO_0000031733"
+SQ   SEQUENCE   296 AA;  30963 MW;  D388FF8C90FE1CBE CRC64;
+     MNMKKLATLV SAVALSATVS ANAMAKDTIA LVISTLNNPF FVSLKDGAQK EADKLGYNLV
+     VLDSQNNPAK ELANVQDLTV RGTKILLINP TDSDAVGNAV KMANQAKIPV ITLDRQATKG
+     DVVSHIASDN VLGGKIAGDY IAKKAGEGAK VIELQGIAGT SAARERGEGF QQAVAAHKFN
+     VLASQPADFD RTKGLNVMQN LLTAHPDVQA VFAQNDEMAL GALRALQTAG KADVMVVGFD
+     GTPDGEKAVK DGKLAATIAQ LPDQIGAKGV EVADKVLKGE KVQAKYPVDL KLVIKQ
+//

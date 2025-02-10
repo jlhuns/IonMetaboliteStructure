@@ -1,0 +1,89 @@
+ID   A0A8B8SFQ3_CAMFR        Unreviewed;       158 AA.
+AC   A0A8B8SFQ3;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=6-pyruvoyl tetrahydrobiopterin synthase {ECO:0000256|ARBA:ARBA00015587};
+DE            EC=4.2.3.12 {ECO:0000256|ARBA:ARBA00013100};
+GN   Name=PTS {ECO:0000313|RefSeq:XP_032328660.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032328660.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032328660.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032328660.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Involved in the biosynthesis of tetrahydrobiopterin, an
+CC       essential cofactor of aromatic amino acid hydroxylases. Catalyzes the
+CC       transformation of 7,8-dihydroneopterin triphosphate into 6-pyruvoyl
+CC       tetrahydropterin. {ECO:0000256|ARBA:ARBA00025266}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006113-2};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|PIRSR:PIRSR006113-2};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrobiopterin biosynthesis;
+CC       tetrahydrobiopterin from 7,8-dihydroneopterin triphosphate: step 1/3.
+CC       {ECO:0000256|ARBA:ARBA00005126}.
+CC   -!- SIMILARITY: Belongs to the PTPS family.
+CC       {ECO:0000256|ARBA:ARBA00009164}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032328660.1; XM_032472769.1.
+DR   KEGG; cfr:102523696; -.
+DR   UniPathway; UPA00849; UER00819.
+DR   Proteomes; UP000694856; Chromosome 33.
+DR   GO; GO:0005739; C:mitochondrion; IEA:TreeGrafter.
+DR   GO; GO:0003874; F:6-pyruvoyltetrahydropterin synthase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006729; P:tetrahydrobiopterin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00470; PTPS; 1.
+DR   FunFam; 3.30.479.10:FF:000003; 6-pyruvoyl tetrahydrobiopterin synthase; 1.
+DR   Gene3D; 3.30.479.10; 6-pyruvoyl tetrahydropterin synthase/QueD; 1.
+DR   InterPro; IPR007115; 6-PTP_synth/QueD.
+DR   InterPro; IPR038418; 6-PTP_synth/QueD_sf.
+DR   InterPro; IPR022470; PTPS_Cys_AS.
+DR   InterPro; IPR022469; PTPS_His_AS.
+DR   NCBIfam; TIGR00039; 6PTHBS; 1.
+DR   PANTHER; PTHR12589:SF7; 6-PYRUVOYL TETRAHYDROBIOPTERIN SYNTHASE; 1.
+DR   PANTHER; PTHR12589; PYRUVOYL TETRAHYDROBIOPTERIN SYNTHASE; 1.
+DR   Pfam; PF01242; PTPS; 1.
+DR   PIRSF; PIRSF006113; PTP_synth; 1.
+DR   SUPFAM; SSF55620; Tetrahydrobiopterin biosynthesis enzymes-like; 1.
+DR   PROSITE; PS00987; PTPS_1; 1.
+DR   PROSITE; PS00988; PTPS_2; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR006113-2};
+KW   Tetrahydrobiopterin biosynthesis {ECO:0000256|ARBA:ARBA00023007};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRSR:PIRSR006113-2}.
+FT   ACT_SITE        56
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-1"
+FT   ACT_SITE        103
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-1"
+FT   ACT_SITE        147
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-1"
+FT   BINDING         37
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-2"
+FT   BINDING         62
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-2"
+FT   BINDING         64
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006113-2"
+SQ   SEQUENCE   158 AA;  17613 MW;  8CE8B3432B36DCC8 CRC64;
+     MEEALTGLAA CEAMSAAGSG PRRRARVSRL VSFSASHRLH SKSLSNEENL KLFGKCNNPN
+     GHGHNYKVVV TVHGEVDPVT GMVMNLTDLK EYMEEAIMKP LDHKNLDLDV PYFADVVSTT
+     ENVAVYIWEN LQKFLPVGVL YKVKVYETDN NIVVYKGE
+//

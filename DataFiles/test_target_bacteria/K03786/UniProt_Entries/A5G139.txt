@@ -1,0 +1,114 @@
+ID   A5G139_ACICJ            Unreviewed;       149 AA.
+AC   A5G139;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 103.
+DE   RecName: Full=3-dehydroquinate dehydratase {ECO:0000256|ARBA:ARBA00012060, ECO:0000256|HAMAP-Rule:MF_00169};
+DE            Short=3-dehydroquinase {ECO:0000256|HAMAP-Rule:MF_00169};
+DE            EC=4.2.1.10 {ECO:0000256|ARBA:ARBA00012060, ECO:0000256|HAMAP-Rule:MF_00169};
+DE   AltName: Full=Type II DHQase {ECO:0000256|HAMAP-Rule:MF_00169};
+GN   Name=aroQ {ECO:0000256|HAMAP-Rule:MF_00169};
+GN   OrderedLocusNames=Acry_2377 {ECO:0000313|EMBL:ABQ31571.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31571.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31571.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31571.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes a trans-dehydration via an enolate intermediate.
+CC       {ECO:0000256|ARBA:ARBA00003924, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydroquinate = 3-dehydroshikimate + H2O;
+CC         Xref=Rhea:RHEA:21096, ChEBI:CHEBI:15377, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:32364; EC=4.2.1.10;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001864, ECO:0000256|HAMAP-
+CC         Rule:MF_00169};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       3/7. {ECO:0000256|ARBA:ARBA00004902, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- SUBUNIT: Homododecamer. {ECO:0000256|ARBA:ARBA00011193,
+CC       ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- SIMILARITY: Belongs to the type-II 3-dehydroquinase family.
+CC       {ECO:0000256|ARBA:ARBA00011037, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31571.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423443.1; NC_009484.1.
+DR   AlphaFoldDB; A5G139; -.
+DR   STRING; 349163.Acry_2377; -.
+DR   KEGG; acr:Acry_2377; -.
+DR   eggNOG; COG0757; Bacteria.
+DR   HOGENOM; CLU_090968_2_0_5; -.
+DR   UniPathway; UPA00053; UER00086.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019631; P:quinate catabolic process; IEA:TreeGrafter.
+DR   CDD; cd00466; DHQase_II; 1.
+DR   Gene3D; 3.40.50.9100; Dehydroquinase, class II; 1.
+DR   HAMAP; MF_00169; AroQ; 1.
+DR   InterPro; IPR001874; DHquinase_II.
+DR   InterPro; IPR018509; DHquinase_II_CS.
+DR   InterPro; IPR036441; DHquinase_II_sf.
+DR   NCBIfam; TIGR01088; aroQ; 1.
+DR   PANTHER; PTHR21272; CATABOLIC 3-DEHYDROQUINASE; 1.
+DR   PANTHER; PTHR21272:SF3; CATABOLIC 3-DEHYDROQUINASE; 1.
+DR   Pfam; PF01220; DHquinase_II; 1.
+DR   PIRSF; PIRSF001399; DHquinase_II; 1.
+DR   SUPFAM; SSF52304; Type II 3-dehydroquinate dehydratase; 1.
+DR   PROSITE; PS01029; DEHYDROQUINASE_II; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00169};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00169};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00169};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   ACT_SITE        25
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-1"
+FT   ACT_SITE        102
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-1"
+FT   BINDING         76
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         82
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         89
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         103..104
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         113
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   SITE            20
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-3"
+SQ   SEQUENCE   149 AA;  16183 MW;  615CC3AA039ACBC0 CRC64;
+     MPVPLIAVLN GPNLNMLGLR EPEIYGIQTL DDLEALCAEA AEELGLAIDF RQTNGEGELI
+     TWVQECRGRA AGIIINPAGY SHTSIALMDS LHAVDLPVIE VHLSNIHQRE AFRHHSYVSQ
+     AARGVICGLG FTGYRLALQA IAEIVEQEA
+//

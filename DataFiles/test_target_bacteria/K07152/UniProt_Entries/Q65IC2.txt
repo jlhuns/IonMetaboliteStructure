@@ -1,0 +1,81 @@
+ID   Q65IC2_BACLD            Unreviewed;       193 AA.
+AC   Q65IC2; Q62TS3;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   SubName: Full=Conserved hypothetical YpmQ {ECO:0000313|EMBL:AAU23836.1};
+GN   Name=ypmQ {ECO:0000313|EMBL:AAU23836.1};
+GN   OrderedLocusNames=BL03304 {ECO:0000313|EMBL:AAU23836.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23836.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23836.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SIMILARITY: Belongs to the SCO1/2 family.
+CC       {ECO:0000256|ARBA:ARBA00010996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23836.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q65IC2; -.
+DR   STRING; 279010.BL03304; -.
+DR   KEGG; bld:BLi02312; -.
+DR   KEGG; bli:BL03304; -.
+DR   eggNOG; COG1999; Bacteria.
+DR   HOGENOM; CLU_050131_2_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02968; SCO; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR003782; SCO1/SenC.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR12151; ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12151:SF25; LINALOOL DEHYDRATASE_ISOMERASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02630; SCO1-SenC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Copper {ECO:0000256|ARBA:ARBA00023008, ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Disulfide bond {ECO:0000256|PIRSR:PIRSR603782-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          27..192
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51352"
+FT   BINDING         65
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         69
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         155
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   DISULFID        65..69
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-2"
+SQ   SEQUENCE   193 AA;  22005 MW;  64B7A1935AE9641B CRC64;
+     MKNVFGIFLA GILTVFLSSC GTSKIDNPLN YDVQSFSFQN QDGKAVTLES LKGQVWVADF
+     IFTNCETICP PMTSHMAELQ KQMEEENLQA RIVSFSVDPE NDTPEKLKKF AANYPLSFQN
+     WDFLTGYSQE EIEKFALKSF KSIVKKPEDE DQVIHQSSFY LVDQNGKVVK DYDGARNTPY
+     DEIIADIKTL ENR
+//

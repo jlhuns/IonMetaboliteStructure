@@ -1,0 +1,109 @@
+ID   RBSA_STRA5              Reviewed;         492 AA.
+AC   Q8E281;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Ribose import ATP-binding protein RbsA {ECO:0000255|HAMAP-Rule:MF_01716};
+DE            EC=7.5.2.7 {ECO:0000255|HAMAP-Rule:MF_01716};
+GN   Name=rbsA {ECO:0000255|HAMAP-Rule:MF_01716};
+GN   OrderedLocusNames=SAG0116;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Part of the ABC transporter complex RbsABC involved in ribose
+CC       import. Responsible for energy coupling to the transport system.
+CC       {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribose(out) + ATP + H2O = D-ribose(in) + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:29903, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:47013,
+CC         ChEBI:CHEBI:456216; EC=7.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01716};
+CC   -!- SUBUNIT: The complex is composed of an ATP-binding protein (RbsA), two
+CC       transmembrane proteins (RbsC) and a solute-binding protein (RbsB).
+CC       {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01716};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Ribose importer
+CC       (TC 3.A.1.2.1) family. {ECO:0000255|HAMAP-Rule:MF_01716}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99024.1; -; Genomic_DNA.
+DR   RefSeq; NP_687152.1; NC_004116.1.
+DR   RefSeq; WP_000687230.1; NC_004116.1.
+DR   AlphaFoldDB; Q8E281; -.
+DR   SMR; Q8E281; -.
+DR   STRING; 208435.SAG0116; -.
+DR   DNASU; 1012885; -.
+DR   KEGG; sag:SAG0116; -.
+DR   PATRIC; fig|208435.3.peg.115; -.
+DR   HOGENOM; CLU_000604_92_3_9; -.
+DR   OrthoDB; 9771863at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015611; F:ABC-type D-ribose transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   CDD; cd03216; ABC_Carb_Monos_I; 1.
+DR   CDD; cd03215; ABC_Carb_Monos_II; 1.
+DR   FunFam; 3.40.50.300:FF:000126; Galactose/methyl galactoside import ATP-binding protein MglA; 1.
+DR   FunFam; 3.40.50.300:FF:000127; Ribose import ATP-binding protein RbsA; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR050107; ABC_carbohydrate_import_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43790; CARBOHYDRATE TRANSPORT ATP-BINDING PROTEIN MG119-RELATED; 1.
+DR   PANTHER; PTHR43790:SF3; D-ALLOSE IMPORT ATP-BINDING PROTEIN ALSA-RELATED; 1.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 2.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+DR   PROSITE; PS51254; RBSA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding;
+KW   Reference proteome; Repeat; Sugar transport; Translocase; Transport.
+FT   CHAIN           1..492
+FT                   /note="Ribose import ATP-binding protein RbsA"
+FT                   /id="PRO_0000261107"
+FT   DOMAIN          3..239
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+FT   DOMAIN          238..492
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+FT   BINDING         35..42
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01716"
+SQ   SEQUENCE   492 AA;  54923 MW;  BBA6EC1C6803B8F0 CRC64;
+     MKIDMRNISK SFGTNKVLEK IDLELQSGQI HALMGENGAG KSTLMNILTG LFPASTGTIY
+     IDGEERTFSN PQEAEEFGIS FIHQEMNTWP EMTVLENLFL GREIKTTFGL LNQKLMRQKA
+     LETFKRLGVT IPLDIPIGNL SVGQQQMIEI AKSLLNQLSI LVMDEPTAAL TDRETENLFR
+     VIRGLKQEGV GVVYISHRME EIFKITDFVT VMRDGVIVDT KETSLTNSDE LVKKMVGRKL
+     EDYYPEKHSE IGPVAFEVSN LCGDNFEDVS FYVRKGEILG FSGLMGAGRT EVMRTIFGID
+     KKKSGKVKID DQEITITTPS QAIKQGIGFL TENRKDEGLI LDFNIKDNMT LPSTKDFSKH
+     GFFDEKTSTT FVQQLINRLY IKSGRPDLEV GNLSGGNQQK VVLAKWIGIA PKVLILDEPT
+     RGVDVGAKRE IYQLMNELAD RGVPIVMVSS DLPEILGVSD RIMVMHEGRI SGELSRKEAD
+     QEKVMQLATG GK
+//

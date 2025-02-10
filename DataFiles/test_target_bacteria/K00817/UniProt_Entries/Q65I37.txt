@@ -1,0 +1,107 @@
+ID   HIS8_BACLD              Reviewed;         361 AA.
+AC   Q65I37; Q62TI6;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 106.
+DE   RecName: Full=Histidinol-phosphate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01023};
+DE            EC=2.6.1.9 {ECO:0000255|HAMAP-Rule:MF_01023};
+DE   AltName: Full=Imidazole acetol-phosphate transaminase {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   Name=hisC {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   OrderedLocusNames=BLi02397, BL02769;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-histidinol phosphate + 2-oxoglutarate = 3-(imidazol-4-yl)-2-
+CC         oxopropyl phosphate + L-glutamate; Xref=Rhea:RHEA:23744,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29985, ChEBI:CHEBI:57766,
+CC         ChEBI:CHEBI:57980; EC=2.6.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01023};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01023};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 7/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. Histidinol-phosphate aminotransferase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU23923.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU41277.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU23923.1; ALT_INIT; Genomic_DNA.
+DR   AlphaFoldDB; Q65I37; -.
+DR   SMR; Q65I37; -.
+DR   STRING; 279010.BL02769; -.
+DR   KEGG; bld:BLi02397; -.
+DR   KEGG; bli:BL02769; -.
+DR   eggNOG; COG0079; Bacteria.
+DR   HOGENOM; CLU_017584_3_3_9; -.
+DR   UniPathway; UPA00031; UER00012.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0004400; F:histidinol-phosphate transaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00609; AAT_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_01023; HisC_aminotrans_2; 1.
+DR   InterPro; IPR001917; Aminotrans_II_pyridoxalP_BS.
+DR   InterPro; IPR004839; Aminotransferase_I/II_large.
+DR   InterPro; IPR005861; HisP_aminotrans.
+DR   InterPro; IPR050106; HistidinolP_aminotransfase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01141; hisC; 1.
+DR   PANTHER; PTHR43643:SF3; HISTIDINOL-PHOSPHATE AMINOTRANSFERASE; 1.
+DR   PANTHER; PTHR43643; HISTIDINOL-PHOSPHATE AMINOTRANSFERASE 2; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00599; AA_TRANSFER_CLASS_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Histidine biosynthesis;
+KW   Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..361
+FT                   /note="Histidinol-phosphate aminotransferase"
+FT                   /id="PRO_0000153307"
+FT   MOD_RES         224
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01023"
+SQ   SEQUENCE   361 AA;  40337 MW;  C6E6F90C7C1694DA CRC64;
+     MLQIKEQLKQ LTPYQPGKPI EEVKKEFNLD RVVKLASNEN PYGCSEAAKE ALQIEVQQMA
+     LYPDGYSAAL RTKLASHLGV NETNIILGNG TDEVIQIISR SLLDPASNTV MANPTFSQYK
+     HNAVIEGAEV REVGLLENGC HDLDAMLKAI DEQTKVVWVC SPNNPTGTYE SGRNLIRFLE
+     KVPEHVLAVV DEAYYEYVTA EDYPETIPLL ERFPNLMILR TFSKAYGLAS LRVGYGIASE
+     QLIQAIEPAR QPFNTNRLGQ AAALAALGDQ AFIHDCVRKN NEGLKQYYDF CDEHGLNYYP
+     SQTNFVLIDF KRDADELFSE LLKKGYIVRS GNALGFPTFL RISVGTKEQN EGFLKTLAGM
+     L
+//

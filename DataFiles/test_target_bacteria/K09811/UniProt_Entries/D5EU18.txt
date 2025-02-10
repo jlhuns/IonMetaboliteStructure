@@ -1,0 +1,83 @@
+ID   D5EU18_XYLR2            Unreviewed;       277 AA.
+AC   D5EU18;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 57.
+DE   RecName: Full=Cell division protein FtsX {ECO:0000256|ARBA:ARBA00021907, ECO:0000256|PIRNR:PIRNR003097};
+GN   Name=ftsX {ECO:0000313|EMBL:ADE82491.1};
+GN   OrderedLocusNames=PRU_1835 {ECO:0000313|EMBL:ADE82491.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82491.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82491.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the ABC-4 integral membrane protein family. FtsX
+CC       subfamily. {ECO:0000256|ARBA:ARBA00007379,
+CC       ECO:0000256|PIRNR:PIRNR003097}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82491.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D5EU18; -.
+DR   STRING; 264731.PRU_1835; -.
+DR   KEGG; pru:PRU_1835; -.
+DR   eggNOG; COG2177; Bacteria.
+DR   HOGENOM; CLU_073546_3_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.70.3040; -; 1.
+DR   InterPro; IPR003838; ABC3_permease_C.
+DR   InterPro; IPR004513; FtsX.
+DR   InterPro; IPR040690; FtsX_ECD.
+DR   PANTHER; PTHR47755; CELL DIVISION PROTEIN FTSX; 1.
+DR   PANTHER; PTHR47755:SF1; CELL DIVISION PROTEIN FTSX; 1.
+DR   Pfam; PF02687; FtsX; 1.
+DR   Pfam; PF18075; FtsX_ECD; 1.
+DR   PIRSF; PIRSF003097; FtsX; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|PIRNR:PIRNR003097};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618,
+KW   ECO:0000256|PIRNR:PIRNR003097};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475,
+KW   ECO:0000256|PIRNR:PIRNR003097};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|PIRNR:PIRNR003097};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        149..170
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        202..225
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        240..263
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          37..130
+FT                   /note="FtsX extracellular"
+FT                   /evidence="ECO:0000259|Pfam:PF18075"
+FT   DOMAIN          153..270
+FT                   /note="ABC3 transporter permease C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02687"
+SQ   SEQUENCE   277 AA;  31028 MW;  B8DC54C63D912DFD CRC64;
+     MVTLCISTAM VLVLLGLVVF SVQTSRNLSQ WVKENLTVTV MLSDDVSVNG AKLLCRDLYH
+     RPYSRNIDYI SKEQALKEQS EAMGSDPSEF LGVNPFPATL ELQLHSDYAN RDSLKWIARE
+     LQKNPKITDV AYQVDLMDSV NRNLTKVNLV LLALAVLLTF VSFSLINNTV RLSVYSRRFI
+     IHTMKLVGAS WGFIRKPFMK QALLVGVIAA LIAIAVLGGC MYALYYYEPN IISIITWREL
+     TITAVAVLLF GIIITAACSY ISVNKFLRMS AGELYKI
+//

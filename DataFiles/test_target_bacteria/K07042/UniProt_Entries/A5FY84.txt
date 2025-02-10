@@ -1,0 +1,90 @@
+ID   A5FY84_ACICJ            Unreviewed;       150 AA.
+AC   A5FY84;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 85.
+DE   RecName: Full=Endoribonuclease YbeY {ECO:0000256|HAMAP-Rule:MF_00009};
+DE            EC=3.1.-.- {ECO:0000256|HAMAP-Rule:MF_00009};
+GN   Name=ybeY {ECO:0000256|HAMAP-Rule:MF_00009};
+GN   OrderedLocusNames=Acry_1355 {ECO:0000313|EMBL:ABQ30566.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ30566.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ30566.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ30566.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Single strand-specific metallo-endoribonuclease involved in
+CC       late-stage 70S ribosome quality control and in maturation of the 3'
+CC       terminus of the 16S rRNA. {ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00009};
+CC       Note=Binds 1 zinc ion. {ECO:0000256|HAMAP-Rule:MF_00009};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   -!- SIMILARITY: Belongs to the endoribonuclease YbeY family.
+CC       {ECO:0000256|ARBA:ARBA00010875, ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30566.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423479.1; NC_009484.1.
+DR   AlphaFoldDB; A5FY84; -.
+DR   STRING; 349163.Acry_1355; -.
+DR   KEGG; acr:Acry_1355; -.
+DR   eggNOG; COG0319; Bacteria.
+DR   HOGENOM; CLU_106710_0_0_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0004521; F:RNA endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.390.30; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   HAMAP; MF_00009; Endoribonucl_YbeY; 1.
+DR   InterPro; IPR023091; MetalPrtase_cat_dom_sf_prd.
+DR   InterPro; IPR002036; YbeY.
+DR   NCBIfam; TIGR00043; rRNA maturation RNase YbeY; 1.
+DR   Pfam; PF02130; YbeY; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Endonuclease {ECO:0000256|ARBA:ARBA00022759, ECO:0000256|HAMAP-
+KW   Rule:MF_00009};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00009};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Ribosome biogenesis {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   rRNA processing {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00009}.
+FT   BINDING         110
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+FT   BINDING         114
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+FT   BINDING         120
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+SQ   SEQUENCE   150 AA;  16626 MW;  5B2D82DFB8E21832 CRC64;
+     MSEPPSSLPR GAALRGLIHI AEPRWRRFVP DAERVVARAL DAAGAACPVI LADNRTVKAL
+     NARDRGRNKP TNVLTYEMPP EIILALGVVL REARAARRRP AHHLAHLVVH GALHLAGEDH
+     HEAGEARRME RLEARLLHRL GVPNPWKYAS
+//

@@ -1,0 +1,139 @@
+ID   A5FVX6_ACICJ            Unreviewed;       524 AA.
+AC   A5FVX6;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=2-isopropylmalate synthase {ECO:0000256|ARBA:ARBA00018198, ECO:0000256|HAMAP-Rule:MF_01025};
+DE            EC=2.3.3.13 {ECO:0000256|ARBA:ARBA00012973, ECO:0000256|HAMAP-Rule:MF_01025};
+DE   AltName: Full=Alpha-IPM synthase {ECO:0000256|HAMAP-Rule:MF_01025};
+DE   AltName: Full=Alpha-isopropylmalate synthase {ECO:0000256|HAMAP-Rule:MF_01025};
+GN   Name=leuA {ECO:0000256|HAMAP-Rule:MF_01025};
+GN   OrderedLocusNames=Acry_0534 {ECO:0000313|EMBL:ABQ29758.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29758.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29758.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29758.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of the acetyl group of acetyl-CoA
+CC       with 3-methyl-2-oxobutanoate (2-ketoisovalerate) to form 3-carboxy-3-
+CC       hydroxy-4-methylpentanoate (2-isopropylmalate). {ECO:0000256|HAMAP-
+CC       Rule:MF_01025}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-methyl-2-oxobutanoate + acetyl-CoA + H2O = (2S)-2-
+CC         isopropylmalate + CoA + H(+); Xref=Rhea:RHEA:21524, ChEBI:CHEBI:1178,
+CC         ChEBI:CHEBI:11851, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.3.13;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01025};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01025};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 1/4. {ECO:0000256|ARBA:ARBA00004689,
+CC       ECO:0000256|HAMAP-Rule:MF_01025}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01025}.
+CC   -!- SIMILARITY: Belongs to the alpha-IPM synthase/homocitrate synthase
+CC       family. LeuA type 1 subfamily. {ECO:0000256|ARBA:ARBA00009396,
+CC       ECO:0000256|HAMAP-Rule:MF_01025}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29758.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423002.1; NC_009484.1.
+DR   AlphaFoldDB; A5FVX6; -.
+DR   STRING; 349163.Acry_0534; -.
+DR   KEGG; acr:Acry_0534; -.
+DR   eggNOG; COG0119; Bacteria.
+DR   HOGENOM; CLU_022158_0_1_5; -.
+DR   UniPathway; UPA00048; UER00070.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003852; F:2-isopropylmalate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003985; F:acetyl-CoA C-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07940; DRE_TIM_IPMS; 1.
+DR   FunFam; 1.10.238.260:FF:000001; 2-isopropylmalate synthase; 1.
+DR   FunFam; 3.20.20.70:FF:000010; 2-isopropylmalate synthase; 1.
+DR   FunFam; 3.30.160.270:FF:000003; 2-isopropylmalate synthase; 1.
+DR   Gene3D; 1.10.238.260; -; 1.
+DR   Gene3D; 3.30.160.270; -; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01025; LeuA_type1; 1.
+DR   InterPro; IPR050073; 2-IPM_HCS-like.
+DR   InterPro; IPR013709; 2-isopropylmalate_synth_dimer.
+DR   InterPro; IPR002034; AIPM/Hcit_synth_CS.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR054691; LeuA/HCS_post-cat.
+DR   InterPro; IPR036230; LeuA_allosteric_dom_sf.
+DR   InterPro; IPR005671; LeuA_bact_synth.
+DR   InterPro; IPR000891; PYR_CT.
+DR   NCBIfam; TIGR00973; leuA_bact; 1.
+DR   PANTHER; PTHR10277:SF9; 2-ISOPROPYLMALATE SYNTHASE 1, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR10277; HOMOCITRATE SYNTHASE-RELATED; 1.
+DR   Pfam; PF22617; HCS_D2; 1.
+DR   Pfam; PF00682; HMGL-like; 1.
+DR   Pfam; PF08502; LeuA_dimer; 1.
+DR   SMART; SM00917; LeuA_dimer; 1.
+DR   SUPFAM; SSF110921; 2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+DR   PROSITE; PS00815; AIPM_HOMOCIT_SYNTH_1; 1.
+DR   PROSITE; PS00816; AIPM_HOMOCIT_SYNTH_2; 1.
+DR   PROSITE; PS50991; PYR_CT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000313|EMBL:ABQ29758.1};
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01025};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|HAMAP-Rule:MF_01025};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01025};
+KW   Leucine biosynthesis {ECO:0000256|ARBA:ARBA00022430, ECO:0000256|HAMAP-
+KW   Rule:MF_01025};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|HAMAP-Rule:MF_01025};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01025}; Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01025}.
+FT   DOMAIN          16..278
+FT                   /note="Pyruvate carboxyltransferase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50991"
+FT   REGION          403..524
+FT                   /note="Regulatory domain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01025"
+FT   BINDING         25
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01025"
+FT   BINDING         213
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01025"
+FT   BINDING         215
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01025"
+FT   BINDING         249
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01025"
+SQ   SEQUENCE   524 AA;  57239 MW;  94D7417D1115C9C9 CRC64;
+     MTIHHPNFGA VPDDRVFIFD TTLRDGEQSP GFSMNLDEKL RMAEALAELG VDVIEAGFPI
+     ASQGDFESVR RIAETIKGPV IAGLARSGRD DIVRAGEAVK PAERKRIHTF ISTSPLHMKY
+     KLRMEPDAVL EAVVRSVTLA RDYTDDVEWS AEDGSRTEPD FLCRCVEAAI RSGATTINIP
+     DTVGYAVPED IARIFTMLRE RVPGADAVIF STHNHNDLGL AVANTIAAIK AGARQIECTI
+     NGIGERAGNA ALEEIVMAIR TRHDAVPYRN NIDTPRILRT SKLLATITGF DVQPNKAIVG
+     RNAFAHESGI HQDGVLKNAA TYEIMTPESV GWQKTSLVLG KHSGRAAFRD KLRALGYGEV
+     GDNALNDAFR RFKDLADRKK LVYDEDIAAL FDETVLRDQS RIRFVALEVW AGSKAKPRAR
+     LELEVDGEMK VHESHGDGPV DATFNAIRAI CPHEAELKLF TVGAVTEGTD AQAKCGVRLE
+     ENGKSVDGQG SDTDTIVAAA RAYVHALNKL IVKRERKEPA ALTA
+//

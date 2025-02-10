@@ -1,0 +1,85 @@
+ID   A5G1A2_ACICJ            Unreviewed;       345 AA.
+AC   A5G1A2;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Thioredoxin reductase {ECO:0000256|ARBA:ARBA00018719, ECO:0000256|RuleBase:RU003880};
+DE            EC=1.8.1.9 {ECO:0000256|RuleBase:RU003880};
+GN   OrderedLocusNames=Acry_2441 {ECO:0000313|EMBL:ABQ31634.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31634.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31634.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31634.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-dithiol + NADP(+) = [thioredoxin]-disulfide +
+CC         NADPH + H(+); Xref=Rhea:RHEA:20345, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.9;
+CC         Evidence={ECO:0000256|RuleBase:RU003880};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|RuleBase:RU003881};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|RuleBase:RU003881};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU003880}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00009333,
+CC       ECO:0000256|RuleBase:RU003880}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31634.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A5G1A2; -.
+DR   STRING; 349163.Acry_2441; -.
+DR   KEGG; acr:Acry_2441; -.
+DR   eggNOG; COG0492; Bacteria.
+DR   HOGENOM; CLU_031864_5_1_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0004791; F:thioredoxin-disulfide reductase (NADPH) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019430; P:removal of superoxide radicals; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR050097; Ferredoxin-NADP_redctase_2.
+DR   InterPro; IPR008255; Pyr_nucl-diS_OxRdtase_2_AS.
+DR   InterPro; IPR005982; Thioredox_Rdtase.
+DR   NCBIfam; TIGR01292; TRX_reduct; 1.
+DR   PANTHER; PTHR48105; THIOREDOXIN REDUCTASE 1-RELATED-RELATED; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00469; PNDRDTASEII.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS00573; PYRIDINE_REDOX_2; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU003880};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003880}; NADP {ECO:0000256|RuleBase:RU003881};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003880};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284,
+KW   ECO:0000256|RuleBase:RU003880};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          32..323
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+SQ   SEQUENCE   345 AA;  37021 MW;  B7BC144900DFAA70 CRC64;
+     MRCDERWNSR HRALNSASEV HEMADQATIE TKLLIIGAGP AGYTAGIYAA RANLAPVIVA
+     GLQPGGQLTI TTDVENYPGF ADVIQGPWLM EQMRAQAEHV GTRIEYDIIT EIDLSARPFT
+     ARGDSGALYR ADAVVIATGA QARWLGLPSE RQYQGAGVSA CATCDGFFYR GREVAVVGGG
+     NTAVEEALYL TNHATKVTLI HRRDALRAEK ILQDRLFAHP KIEVIWDHTV EEIIGAGTPA
+     VVTGARLRDV KTGAERTIAV EGVFVAIGHD PATALFRGKL DMDEEGYIRT VPGTAQTSVP
+     GVFAAGDVQD RVYRQAVTAA GTGCMAALEA EKFLAHHAQI EQQAA
+//

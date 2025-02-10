@@ -1,0 +1,92 @@
+ID   C9RJD5_FIBSS            Unreviewed;       678 AA.
+AC   C9RJD5;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 87.
+DE   RecName: Full=beta-glucosidase {ECO:0000256|ARBA:ARBA00012744};
+DE            EC=3.2.1.21 {ECO:0000256|ARBA:ARBA00012744};
+GN   OrderedLocusNames=FSU_2592 {ECO:0000313|EMBL:ADL25584.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25584.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal, non-reducing beta-D-glucosyl residues
+CC         with release of beta-D-glucose.; EC=3.2.1.21;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000448};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 3 family.
+CC       {ECO:0000256|ARBA:ARBA00005336}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25584.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546717.1; NC_017448.1.
+DR   AlphaFoldDB; C9RJD5; -.
+DR   STRING; 59374.FSU_2592; -.
+DR   CAZy; GH3; Glycoside Hydrolase Family 3.
+DR   KEGG; fsc:FSU_2592; -.
+DR   KEGG; fsu:Fisuc_2065; -.
+DR   PATRIC; fig|59374.8.peg.2486; -.
+DR   eggNOG; COG1472; Bacteria.
+DR   HOGENOM; CLU_004542_9_3_0; -.
+DR   OrthoDB; 9803863at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0008422; F:beta-glucosidase activity; IEA:TreeGrafter.
+DR   GO; GO:0009251; P:glucan catabolic process; IEA:TreeGrafter.
+DR   Gene3D; 2.60.40.1120; Carboxypeptidase-like, regulatory domain; 1.
+DR   Gene3D; 3.40.50.1700; Glycoside hydrolase family 3 C-terminal domain; 1.
+DR   Gene3D; 3.20.20.300; Glycoside hydrolase, family 3, N-terminal domain; 1.
+DR   InterPro; IPR008969; CarboxyPept-like_regulatory.
+DR   InterPro; IPR051915; Cellulose_Degrad_GH3.
+DR   InterPro; IPR002772; Glyco_hydro_3_C.
+DR   InterPro; IPR036881; Glyco_hydro_3_C_sf.
+DR   InterPro; IPR001764; Glyco_hydro_3_N.
+DR   InterPro; IPR036962; Glyco_hydro_3_N_sf.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   PANTHER; PTHR30620:SF16; LYSOSOMAL BETA GLUCOSIDASE; 1.
+DR   PANTHER; PTHR30620; PERIPLASMIC BETA-GLUCOSIDASE-RELATED; 1.
+DR   Pfam; PF13620; CarboxypepD_reg; 1.
+DR   Pfam; PF00933; Glyco_hydro_3; 1.
+DR   Pfam; PF01915; Glyco_hydro_3_C; 1.
+DR   PRINTS; PR00133; GLHYDRLASE3.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF52279; Beta-D-glucan exohydrolase, C-terminal domain; 1.
+DR   SUPFAM; SSF49464; Carboxypeptidase regulatory domain-like; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ADL25584.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           23..678
+FT                   /note="beta-glucosidase"
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5003000125"
+FT   DOMAIN          159..428
+FT                   /note="Glycoside hydrolase family 3 N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00933"
+FT   DOMAIN          470..678
+FT                   /note="Glycoside hydrolase family 3 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01915"
+SQ   SEQUENCE   678 AA;  72418 MW;  581E0842A90D3675 CRC64;
+     MNLSKIGIFA FATLAAISAA QAGISGSIVD ESGAPIHNAA VTVRTLPKLI ANARTLTNDK
+     GAFSLNNAKK GQSIVVRKAG FLPETLSVIP GKKNYGNITL KRDPIENRID SIMAKMTLDD
+     MIAQMTQAKA PAVKCGNSIC GSALEGGGAY TADFYTNAWK QKIPVIYGKD NVHGVADVNN
+     ATIFPHNIGL GATRDSALVR KIGQAVAEEM WAAHIDLNFA PAITVPQDER WGRVYEGFGE
+     TTELAVDLGA AFVRGQQGDN NDAEWRVITT LKHFIGDGAT DNGYDRGNAT MTDKVLRQKY
+     LPPYEAGVEQ GALSVMASFN QVNGIHQHVD SAKITGILKT ELAFDGYVIA DWEGIESSTT
+     PGAAGDYSPG LVTGISSKDA IKNAINAGLD MAMVPQSAEA FVRSMKELVA SGAISEERVK
+     DACRRILRAK IRAGRIDNPS GPAAYVGVTK NIGSAEHRQL AREAVQKSLV ILKNKKVLPL
+     KTTDKIFVTG SHANNTGLQC GAWTQGWQGT MENVPGATSI QAGFDEVANG ARVATAEEAK
+     TIVYVIGEVP YAEWFGDYRG DDFNNKIITK KARTDMSFNS TDNDIAQIKE WQKAGHKVAV
+     VLITGRPLPI TSLINVADAF VVAWLPGSEG AGVADVLFGK VKPTGKLPHT WPKDAKQIPI
+     NVGDGKKGLY PYGFGLTY
+//

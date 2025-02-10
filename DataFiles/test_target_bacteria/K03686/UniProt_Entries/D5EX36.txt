@@ -1,0 +1,186 @@
+ID   D5EX36_XYLR2            Unreviewed;       386 AA.
+AC   D5EX36;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 79.
+DE   RecName: Full=Chaperone protein DnaJ {ECO:0000256|HAMAP-Rule:MF_01152};
+GN   Name=dnaJ {ECO:0000256|HAMAP-Rule:MF_01152,
+GN   ECO:0000313|EMBL:ADE82083.1};
+GN   OrderedLocusNames=PRU_0429 {ECO:0000313|EMBL:ADE82083.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82083.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82083.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Participates actively in the response to hyperosmotic and
+CC       heat shock by preventing the aggregation of stress-denatured proteins
+CC       and by disaggregating proteins, also in an autonomous, DnaK-independent
+CC       fashion. Unfolded proteins bind initially to DnaJ; upon interaction
+CC       with the DnaJ-bound protein, DnaK hydrolyzes its bound ATP, resulting
+CC       in the formation of a stable complex. GrpE releases ADP from DnaK; ATP
+CC       binding to DnaK triggers the release of the substrate protein, thus
+CC       completing the reaction cycle. Several rounds of ATP-dependent
+CC       interactions between DnaJ, DnaK and GrpE are required for fully
+CC       efficient folding. Also involved, together with DnaK and GrpE, in the
+CC       DNA replication of plasmids through activation of initiation proteins.
+CC       {ECO:0000256|HAMAP-Rule:MF_01152}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01152};
+CC       Note=Binds 2 Zn(2+) ions per monomer. {ECO:0000256|HAMAP-
+CC       Rule:MF_01152};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01152}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01152}.
+CC   -!- DOMAIN: The J domain is necessary and sufficient to stimulate DnaK
+CC       ATPase activity. Zinc center 1 plays an important role in the
+CC       autonomous, DnaK-independent chaperone activity of DnaJ. Zinc center 2
+CC       is essential for interaction with DnaK and for DnaJ activity.
+CC       {ECO:0000256|HAMAP-Rule:MF_01152}.
+CC   -!- SIMILARITY: Belongs to the DnaJ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01152}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82083.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064070.1; NC_014033.1.
+DR   AlphaFoldDB; D5EX36; -.
+DR   STRING; 264731.PRU_0429; -.
+DR   KEGG; pru:PRU_0429; -.
+DR   eggNOG; COG0484; Bacteria.
+DR   HOGENOM; CLU_017633_0_7_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0031072; F:heat shock protein binding; IEA:InterPro.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051085; P:chaperone cofactor-dependent protein refolding; IEA:TreeGrafter.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0042026; P:protein refolding; IEA:TreeGrafter.
+DR   GO; GO:0009408; P:response to heat; IEA:InterPro.
+DR   CDD; cd06257; DnaJ; 1.
+DR   CDD; cd10747; DnaJ_C; 1.
+DR   CDD; cd10719; DnaJ_zf; 1.
+DR   FunFam; 1.10.287.110:FF:000034; Chaperone protein DnaJ; 1.
+DR   FunFam; 2.60.260.20:FF:000005; Chaperone protein dnaJ 1, mitochondrial; 1.
+DR   FunFam; 2.10.230.10:FF:000002; Molecular chaperone DnaJ; 1.
+DR   Gene3D; 1.10.287.110; DnaJ domain; 1.
+DR   Gene3D; 2.10.230.10; Heat shock protein DnaJ, cysteine-rich domain; 1.
+DR   Gene3D; 2.60.260.20; Urease metallochaperone UreE, N-terminal domain; 2.
+DR   HAMAP; MF_01152; DnaJ; 1.
+DR   InterPro; IPR012724; DnaJ.
+DR   InterPro; IPR002939; DnaJ_C.
+DR   InterPro; IPR001623; DnaJ_domain.
+DR   InterPro; IPR018253; DnaJ_domain_CS.
+DR   InterPro; IPR008971; HSP40/DnaJ_pept-bd.
+DR   InterPro; IPR001305; HSP_DnaJ_Cys-rich_dom.
+DR   InterPro; IPR036410; HSP_DnaJ_Cys-rich_dom_sf.
+DR   InterPro; IPR036869; J_dom_sf.
+DR   NCBIfam; TIGR02349; DnaJ_bact; 1.
+DR   PANTHER; PTHR43096:SF48; CHAPERONE PROTEIN DNAJ; 1.
+DR   PANTHER; PTHR43096; DNAJ HOMOLOG 1, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00226; DnaJ; 1.
+DR   Pfam; PF01556; DnaJ_C; 1.
+DR   Pfam; PF00684; DnaJ_CXXCXGXG; 1.
+DR   PRINTS; PR00625; JDOMAIN.
+DR   SMART; SM00271; DnaJ; 1.
+DR   SUPFAM; SSF46565; Chaperone J-domain; 1.
+DR   SUPFAM; SSF57938; DnaJ/Hsp40 cysteine-rich domain; 1.
+DR   SUPFAM; SSF49493; HSP40/DnaJ peptide-binding domain; 2.
+DR   PROSITE; PS00636; DNAJ_1; 1.
+DR   PROSITE; PS50076; DNAJ_2; 1.
+DR   PROSITE; PS51188; ZF_CR; 1.
+PE   3: Inferred from homology;
+KW   Chaperone {ECO:0000256|ARBA:ARBA00023186, ECO:0000256|HAMAP-Rule:MF_01152};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01152};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705, ECO:0000256|HAMAP-
+KW   Rule:MF_01152};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01152}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737, ECO:0000256|HAMAP-Rule:MF_01152};
+KW   Stress response {ECO:0000256|ARBA:ARBA00023016, ECO:0000256|HAMAP-
+KW   Rule:MF_01152};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_01152};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_01152}.
+FT   DOMAIN          6..71
+FT                   /note="J"
+FT                   /evidence="ECO:0000259|PROSITE:PS50076"
+FT   DOMAIN          141..223
+FT                   /note="CR-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51188"
+FT   REPEAT          154..161
+FT                   /note="CXXCXGXG motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   REPEAT          171..178
+FT                   /note="CXXCXGXG motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   REPEAT          197..204
+FT                   /note="CXXCXGXG motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   REPEAT          211..218
+FT                   /note="CXXCXGXG motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   ZN_FING         141..223
+FT                   /note="CR-type"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00546"
+FT   BINDING         154
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         157
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         171
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         174
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         200
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         211
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+FT   BINDING         214
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01152"
+SQ   SEQUENCE   386 AA;  42343 MW;  D8DF0FB498988DB2 CRC64;
+     MAQKRDYYEV LGVQKDATED EIKKAYRKIA IKYHPDRNPG DKEAEEKFKE AAEAYNVLHD
+     PKTRQQYDQF GFDGPNMGGG FGGFSGFETN MNMDDIFSMF GDIFGGHGFG GFGGGQRRPQ
+     QHRGSDLRLK VKLTLEEINT GVTKKFKVRK DIPCPHCSGT GAEAGSQKEQ CPTCHGQGYI
+     THTTQSIFGM MQQQSVCPTC GGEGMVIKNK CKHCGGTGVE KGEEVVEINI PAGVAEGMVV
+     NVPGKGNAGK HNGTSGDIQV FIAEEPHETF IRDGNDLIYN LLLDFPTAAL GGEIEIPTIE
+     GTKLKVKLEN GTQPGKTLRL RGKGLPVVQG YGSGRGDLVV NISVYVPKTL SKEEKHAIEQ
+     FKDSDNFKGD KQTRDSIFQK FKNYFN
+//

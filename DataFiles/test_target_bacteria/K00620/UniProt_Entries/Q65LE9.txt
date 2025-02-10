@@ -1,0 +1,173 @@
+ID   ARGJ_BACLD              Reviewed;         406 AA.
+AC   Q65LE9; Q62WT9;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=Arginine biosynthesis bifunctional protein ArgJ {ECO:0000255|HAMAP-Rule:MF_01106};
+DE   Includes:
+DE     RecName: Full=Glutamate N-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE              EC=2.3.1.35 {ECO:0000255|HAMAP-Rule:MF_01106};
+DE     AltName: Full=Ornithine acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE              Short=OATase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE     AltName: Full=Ornithine transacetylase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE   Includes:
+DE     RecName: Full=Amino-acid acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE              EC=2.3.1.1 {ECO:0000255|HAMAP-Rule:MF_01106};
+DE     AltName: Full=N-acetylglutamate synthase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE              Short=AGSase {ECO:0000255|HAMAP-Rule:MF_01106};
+DE   Contains:
+DE     RecName: Full=Arginine biosynthesis bifunctional protein ArgJ alpha chain {ECO:0000255|HAMAP-Rule:MF_01106};
+DE   Contains:
+DE     RecName: Full=Arginine biosynthesis bifunctional protein ArgJ beta chain {ECO:0000255|HAMAP-Rule:MF_01106};
+GN   Name=argJ {ECO:0000255|HAMAP-Rule:MF_01106};
+GN   OrderedLocusNames=BLi01207, BL03242;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes two activities which are involved in the cyclic
+CC       version of arginine biosynthesis: the synthesis of N-acetylglutamate
+CC       from glutamate and acetyl-CoA as the acetyl donor, and of ornithine by
+CC       transacetylation between N(2)-acetylornithine and glutamate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01106}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(2)-acetyl-L-ornithine + L-glutamate = N-acetyl-L-glutamate +
+CC         L-ornithine; Xref=Rhea:RHEA:15349, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:46911, ChEBI:CHEBI:57805; EC=2.3.1.35;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01106};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate + acetyl-CoA = N-acetyl-L-glutamate + CoA + H(+);
+CC         Xref=Rhea:RHEA:24292, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01106};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-ornithine
+CC       and N-acetyl-L-glutamate from L-glutamate and N(2)-acetyl-L-ornithine
+CC       (cyclic): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01106}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01106}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta chains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01106}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01106}.
+CC   -!- MISCELLANEOUS: Some bacteria possess a monofunctional ArgJ, i.e.
+CC       capable of catalyzing only the fifth step of the arginine biosynthetic
+CC       pathway.
+CC   -!- SIMILARITY: Belongs to the ArgJ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01106}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017333; AAU40115.1; -; Genomic_DNA.
+DR   EMBL; CP000002; AAU22769.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197757.1; NC_006322.1.
+DR   AlphaFoldDB; Q65LE9; -.
+DR   SMR; Q65LE9; -.
+DR   STRING; 279010.BL03242; -.
+DR   MEROPS; T05.002; -.
+DR   GeneID; 92862210; -.
+DR   KEGG; bld:BLi01207; -.
+DR   KEGG; bli:BL03242; -.
+DR   eggNOG; COG1364; Bacteria.
+DR   HOGENOM; CLU_027172_1_0_9; -.
+DR   UniPathway; UPA00068; UER00106.
+DR   UniPathway; UPA00068; UER00111.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004358; F:glutamate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004042; F:L-glutamate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006526; P:L-arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006592; P:ornithine biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd02152; OAT; 1.
+DR   FunFam; 3.10.20.340:FF:000001; Arginine biosynthesis bifunctional protein ArgJ, chloroplastic; 1.
+DR   FunFam; 3.60.70.12:FF:000001; Arginine biosynthesis bifunctional protein ArgJ, chloroplastic; 1.
+DR   FunFam; 3.30.2330.10:FF:000001; Arginine biosynthesis bifunctional protein ArgJ, mitochondrial; 1.
+DR   Gene3D; 3.30.2330.10; arginine biosynthesis bifunctional protein suprefamily; 1.
+DR   Gene3D; 3.10.20.340; ArgJ beta chain, C-terminal domain; 1.
+DR   Gene3D; 3.60.70.12; L-amino peptidase D-ALA esterase/amidase; 1.
+DR   HAMAP; MF_01106; ArgJ; 1.
+DR   InterPro; IPR002813; Arg_biosynth_ArgJ.
+DR   InterPro; IPR016117; ArgJ-like_dom_sf.
+DR   InterPro; IPR042195; ArgJ_beta_C.
+DR   NCBIfam; TIGR00120; ArgJ; 1.
+DR   PANTHER; PTHR23100; ARGININE BIOSYNTHESIS BIFUNCTIONAL PROTEIN ARGJ; 1.
+DR   PANTHER; PTHR23100:SF0; ARGININE BIOSYNTHESIS BIFUNCTIONAL PROTEIN ARGJ, MITOCHONDRIAL; 1.
+DR   Pfam; PF01960; ArgJ; 1.
+DR   SUPFAM; SSF56266; DmpA/ArgJ-like; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Arginine biosynthesis;
+KW   Autocatalytic cleavage; Cytoplasm; Multifunctional enzyme;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..192
+FT                   /note="Arginine biosynthesis bifunctional protein ArgJ
+FT                   alpha chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT                   /id="PRO_0000227206"
+FT   CHAIN           193..406
+FT                   /note="Arginine biosynthesis bifunctional protein ArgJ beta
+FT                   chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT                   /id="PRO_0000227207"
+FT   ACT_SITE        193
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         156
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         182
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         193
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         279
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         401
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   BINDING         406
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   SITE            121
+FT                   /note="Involved in the stabilization of negative charge on
+FT                   the oxyanion by the formation of the oxyanion hole"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   SITE            122
+FT                   /note="Involved in the stabilization of negative charge on
+FT                   the oxyanion by the formation of the oxyanion hole"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+FT   SITE            192..193
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01106"
+SQ   SEQUENCE   406 AA;  43714 MW;  FB46CE5569E6C0B3 CRC64;
+     MIQVSQDSIK KTDGSVASPK GYLAKGVHCG LRYSKKDLGI IISSRPAVSA AVYTQSHFQA
+     APIKVTQESL KKSAHLQAVI VNSANANACT GEQGLKDAYE MRRQSADMLG IEPDLVAVSS
+     TGVIGEYLNM ENITKGISLL AETEPAEGDF EEAILTTDTV IKQTCYELMI GGQKVTIGGA
+     AKGSGMIHPN MATMLGFVTT DACIEESALQ RALREITDVS FNQITVDGDT STNDMVLVMA
+     NGCAGNERLH EEHEDWPVFK KGLQLVCTDL AKQIARDGEG ATKLIEVEVN GAKSNLEAQI
+     IAKKIVGSNL VKTAVYGTDA NWGRIVVAIG DSMAAVTPEK VEIRLGGQCL FKNNEPQPFS
+     EELAKTYLEN SEVKIEVFMQ EGEGKGTAWG CDLTYEYVKI NASYRT
+//

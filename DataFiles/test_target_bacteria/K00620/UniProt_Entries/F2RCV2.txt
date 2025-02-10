@@ -1,0 +1,164 @@
+ID   F2RCV2_STRVP            Unreviewed;       388 AA.
+AC   F2RCV2;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=Arginine biosynthesis bifunctional protein ArgJ {ECO:0000256|HAMAP-Rule:MF_01106};
+DE   Includes:
+DE     RecName: Full=Glutamate N-acetyltransferase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE              EC=2.3.1.35 {ECO:0000256|HAMAP-Rule:MF_01106};
+DE     AltName: Full=Ornithine acetyltransferase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE              Short=OATase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE     AltName: Full=Ornithine transacetylase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE   Includes:
+DE     RecName: Full=Amino-acid acetyltransferase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE              EC=2.3.1.1 {ECO:0000256|HAMAP-Rule:MF_01106};
+DE     AltName: Full=N-acetylglutamate synthase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE              Short=AGSase {ECO:0000256|HAMAP-Rule:MF_01106};
+DE   Contains:
+DE     RecName: Full=Arginine biosynthesis bifunctional protein ArgJ alpha chain {ECO:0000256|HAMAP-Rule:MF_01106};
+DE   Contains:
+DE     RecName: Full=Arginine biosynthesis bifunctional protein ArgJ beta chain {ECO:0000256|HAMAP-Rule:MF_01106};
+GN   Name=argJ {ECO:0000256|HAMAP-Rule:MF_01106};
+GN   OrderedLocusNames=SVEN_1173 {ECO:0000313|EMBL:CCA54460.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA54460.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA54460.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Catalyzes two activities which are involved in the cyclic
+CC       version of arginine biosynthesis: the synthesis of N-acetylglutamate
+CC       from glutamate and acetyl-CoA as the acetyl donor, and of ornithine by
+CC       transacetylation between N(2)-acetylornithine and glutamate.
+CC       {ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate + acetyl-CoA = N-acetyl-L-glutamate + CoA + H(+);
+CC         Xref=Rhea:RHEA:24292, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.1.1;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01106};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(2)-acetyl-L-ornithine + L-glutamate = N-acetyl-L-glutamate +
+CC         L-ornithine; Xref=Rhea:RHEA:15349, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:46911, ChEBI:CHEBI:57805; EC=2.3.1.35;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049439, ECO:0000256|HAMAP-
+CC         Rule:MF_01106};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-ornithine
+CC       and N-acetyl-L-glutamate from L-glutamate and N(2)-acetyl-L-ornithine
+CC       (cyclic): step 1/1. {ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 1/4. {ECO:0000256|HAMAP-
+CC       Rule:MF_01106}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta chains.
+CC       {ECO:0000256|ARBA:ARBA00011475, ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   -!- MISCELLANEOUS: Some bacteria possess a monofunctional ArgJ, i.e.,
+CC       capable of catalyzing only the fifth step of the arginine biosynthetic
+CC       pathway. {ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   -!- SIMILARITY: Belongs to the ArgJ family. {ECO:0000256|ARBA:ARBA00006774,
+CC       ECO:0000256|HAMAP-Rule:MF_01106}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA54460.1; -; Genomic_DNA.
+DR   RefSeq; WP_015032378.1; NZ_JABVZO010000072.1.
+DR   AlphaFoldDB; F2RCV2; -.
+DR   STRING; 953739.SVEN_1173; -.
+DR   GeneID; 69863359; -.
+DR   KEGG; sve:SVEN_1173; -.
+DR   PATRIC; fig|953739.5.peg.3239; -.
+DR   eggNOG; COG1364; Bacteria.
+DR   HOGENOM; CLU_027172_2_0_11; -.
+DR   OrthoDB; 9804242at2; -.
+DR   UniPathway; UPA00068; UER00106.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004358; F:glutamate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004042; F:L-glutamate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006526; P:L-arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006592; P:ornithine biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd02152; OAT; 1.
+DR   FunFam; 3.10.20.340:FF:000003; Arginine biosynthesis bifunctional protein ArgJ; 1.
+DR   Gene3D; 3.30.2330.10; arginine biosynthesis bifunctional protein suprefamily; 1.
+DR   Gene3D; 3.10.20.340; ArgJ beta chain, C-terminal domain; 1.
+DR   Gene3D; 3.60.70.12; L-amino peptidase D-ALA esterase/amidase; 1.
+DR   HAMAP; MF_01106; ArgJ; 1.
+DR   InterPro; IPR002813; Arg_biosynth_ArgJ.
+DR   InterPro; IPR016117; ArgJ-like_dom_sf.
+DR   InterPro; IPR042195; ArgJ_beta_C.
+DR   NCBIfam; TIGR00120; ArgJ; 1.
+DR   PANTHER; PTHR23100; ARGININE BIOSYNTHESIS BIFUNCTIONAL PROTEIN ARGJ; 1.
+DR   PANTHER; PTHR23100:SF0; ARGININE BIOSYNTHESIS BIFUNCTIONAL PROTEIN ARGJ, MITOCHONDRIAL; 1.
+DR   Pfam; PF01960; ArgJ; 1.
+DR   SUPFAM; SSF56266; DmpA/ArgJ-like; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315, ECO:0000256|HAMAP-
+KW   Rule:MF_01106}; Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01106};
+KW   Arginine biosynthesis {ECO:0000256|HAMAP-Rule:MF_01106};
+KW   Autocatalytic cleavage {ECO:0000256|ARBA:ARBA00022813, ECO:0000256|HAMAP-
+KW   Rule:MF_01106};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01106};
+KW   Multifunctional enzyme {ECO:0000256|HAMAP-Rule:MF_01106};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01106}.
+FT   CHAIN           1..183
+FT                   /note="Arginine biosynthesis bifunctional protein ArgJ
+FT                   alpha chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT                   /id="PRO_5023550754"
+FT   CHAIN           184..388
+FT                   /note="Arginine biosynthesis bifunctional protein ArgJ beta
+FT                   chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT                   /id="PRO_5023550755"
+FT   ACT_SITE        184
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         151
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         173
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         184
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         264
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         383
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   BINDING         388
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   SITE            114
+FT                   /note="Involved in the stabilization of negative charge on
+FT                   the oxyanion by the formation of the oxyanion hole"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   SITE            115
+FT                   /note="Involved in the stabilization of negative charge on
+FT                   the oxyanion by the formation of the oxyanion hole"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+FT   SITE            183..184
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01106"
+SQ   SEQUENCE   388 AA;  39528 MW;  2F1EA639F538CFAB CRC64;
+     MSVTAAKGFT AAGIAAGIKQ NGNPDLALVV NTGPRRAAAG VFTSNRVKAA PVVWSQQVLA
+     DGELTAVVLN SGGANACTGP QGFQDTHATA EKVAEVLSAQ GTEVGAGEVA VASTGLIGVL
+     LPMDKLLPGV EKAAAELSEH GGEKAAIAIK TTDTVHKTSV VTKDGWTVGG MAKGAGMLAP
+     GLATMLVVLT TDADVDASGL DGALRGATRV TFDRVDSDGC MSTNDTVLLL ASGASGVTPA
+     QDAFAGAVRE VCDDLARQLI GDAEGASKDI RIEVVNAATE DDAVEVGRSI ARNNLLKCAI
+     HGEDPNWGRV LSAIGTTAAA FEPDELNVAI NGVWVCKNGS VGEDRDLVDM RYREVTITAD
+     LAAGTESAVI WANDLTADYV HENSAYSS
+//

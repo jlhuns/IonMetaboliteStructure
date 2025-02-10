@@ -1,0 +1,100 @@
+ID   FDHD_SALTI              Reviewed;         278 AA.
+AC   Q8Z2U7;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2003, sequence version 2.
+DT   27-NOV-2024, entry version 117.
+DE   RecName: Full=Sulfur carrier protein FdhD {ECO:0000255|HAMAP-Rule:MF_00187};
+GN   Name=fdhD {ECO:0000255|HAMAP-Rule:MF_00187};
+GN   OrderedLocusNames=STY3838, t3582;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Required for formate dehydrogenase (FDH) activity. Acts as a
+CC       sulfur carrier protein that transfers sulfur from IscS to the
+CC       molybdenum cofactor prior to its insertion into FDH.
+CC       {ECO:0000255|HAMAP-Rule:MF_00187}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00187}.
+CC   -!- SIMILARITY: Belongs to the FdhD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00187}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO71085.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=CAD09587.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09587.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE014613; AAO71085.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_458012.1; NC_003198.1.
+DR   RefSeq; WP_001059746.1; NZ_WSUR01000010.1.
+DR   AlphaFoldDB; Q8Z2U7; -.
+DR   SMR; Q8Z2U7; -.
+DR   STRING; 220341.gene:17587698; -.
+DR   KEGG; stt:t3582; -.
+DR   KEGG; sty:STY3838; -.
+DR   PATRIC; fig|220341.7.peg.3918; -.
+DR   eggNOG; COG1526; Bacteria.
+DR   HOGENOM; CLU_056887_2_0_6; -.
+DR   OMA; RYCAGAT; -.
+DR   OrthoDB; 3197277at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0097163; F:sulfur carrier activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:InterPro.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.10.20.10; -; 1.
+DR   Gene3D; 3.40.140.10; Cytidine Deaminase, domain 2; 1.
+DR   HAMAP; MF_00187; FdhD; 1.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR003786; FdhD.
+DR   NCBIfam; TIGR00129; fdhD_narQ; 1.
+DR   PANTHER; PTHR30592; FORMATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR30592:SF1; SULFUR CARRIER PROTEIN FDHD; 1.
+DR   Pfam; PF02634; FdhD-NarQ; 1.
+DR   PIRSF; PIRSF015626; FdhD; 1.
+DR   SUPFAM; SSF53927; Cytidine deaminase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Molybdenum cofactor biosynthesis.
+FT   CHAIN           1..278
+FT                   /note="Sulfur carrier protein FdhD"
+FT                   /id="PRO_0000152918"
+FT   ACT_SITE        121
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00187"
+FT   BINDING         260..265
+FT                   /ligand="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /ligand_id="ChEBI:CHEBI:60539"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00187"
+SQ   SEQUENCE   278 AA;  30246 MW;  024631F381B3889C CRC64;
+     MNNILSEEVL NVTDFTTSRQ LTLWKREDLQ SSQLDDVAEE VPVALVYNGI SHVVMMASPK
+     DLTHFAMGFS LSEGIIDSPR EIYGMDVVPS CNGLEVQIDL SSRRFMGLKA RRRALAGRTG
+     CGVCGVEQLN DIGKPVQPLP FSQTFNLGNL DRALKHLNDF QPTGKLTGCT HAAAWVMPSG
+     ELAGGHEDVG RHVALDKLLG RRATEGEEWR QGAALVSSRA SYEMVQKSAM CGVEILFAVS
+     AATTLAVDVA ERCNLTLVGF CKPGRATIYT HPQRLIAD
+//

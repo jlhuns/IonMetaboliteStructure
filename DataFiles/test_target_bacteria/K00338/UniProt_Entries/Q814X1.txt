@@ -1,0 +1,81 @@
+ID   Q814X1_BACCR            Unreviewed;       139 AA.
+AC   Q814X1;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   SubName: Full=NADH-quinone oxidoreductase chain I {ECO:0000313|EMBL:AAP12160.1};
+DE            EC=1.6.5.3 {ECO:0000313|EMBL:AAP12160.1};
+GN   OrderedLocusNames=BC_5296 {ECO:0000313|EMBL:AAP12160.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP12160.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP12160.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966};
+CC   -!- SIMILARITY: Belongs to the complex I 23 kDa subunit family.
+CC       {ECO:0000256|ARBA:ARBA00010277}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12160.1; -; Genomic_DNA.
+DR   RefSeq; NP_834959.1; NC_004722.1.
+DR   RefSeq; WP_000677191.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q814X1; -.
+DR   SMR; Q814X1; -.
+DR   GeneID; 87590837; -.
+DR   KEGG; bce:BC5296; -.
+DR   PATRIC; fig|226900.8.peg.5467; -.
+DR   HOGENOM; CLU_067218_4_3_9; -.
+DR   OrthoDB; 9798098at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016651; F:oxidoreductase activity, acting on NAD(P)H; IEA:InterPro.
+DR   GO; GO:0009060; P:aerobic respiration; IBA:GO_Central.
+DR   FunFam; 3.30.70.3270:FF:000004; NADH-quinone oxidoreductase subunit I; 1.
+DR   Gene3D; 3.30.70.3270; -; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR010226; NADH_quinone_OxRdtase_chainI.
+DR   NCBIfam; TIGR01971; NuoI; 1.
+DR   PANTHER; PTHR10849:SF20; NADH DEHYDROGENASE [UBIQUINONE] IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10849; NADH DEHYDROGENASE UBIQUINONE IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   Pfam; PF12838; Fer4_7; 1.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Oxidoreductase {ECO:0000313|EMBL:AAP12160.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Translocase {ECO:0000256|ARBA:ARBA00022967}.
+FT   DOMAIN          37..66
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+FT   DOMAIN          79..108
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+SQ   SEQUENCE   139 AA;  16123 MW;  0635A22482DEAF45 CRC64;
+     MKGLFKGLKY TLSNLSKKKV TYDYPNQPLP LPDRFRGIQK FYPEKCIVCN QCSNICPTDC
+     IQLTGKKHPD PTKKGKIIDT YDINFEICIL CDLCTEVCPT EAIVMTNNFE LAEYSRDDLF
+     KNLQWLDEND ENVRKENKA
+//

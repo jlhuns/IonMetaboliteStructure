@@ -1,0 +1,84 @@
+ID   A0AAF0BS96_RHOPA        Unreviewed;       136 AA.
+AC   A0AAF0BS96;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=RNA polymerase-binding transcription factor DksA {ECO:0000256|HAMAP-Rule:MF_00926};
+GN   Name=dksA {ECO:0000256|HAMAP-Rule:MF_00926,
+GN   ECO:0000313|EMBL:WCL94092.1};
+GN   ORFNames=TX73_020255 {ECO:0000313|EMBL:WCL94092.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL94092.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL94092.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Transcription factor that acts by binding directly to the RNA
+CC       polymerase (RNAP). Required for negative regulation of rRNA expression
+CC       and positive regulation of several amino acid biosynthesis promoters.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBUNIT: Interacts directly with the RNA polymerase.
+CC       {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   -!- SIMILARITY: Belongs to the DksA family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00926}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00926}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL94092.1; -; Genomic_DNA.
+DR   RefSeq; WP_042441245.1; NZ_CP116810.1.
+DR   GeneID; 66895023; -.
+DR   KEGG; rpa:TX73_020255; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010468; P:regulation of gene expression; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.120.910; DksA, coiled-coil domain; 1.
+DR   HAMAP; MF_00926; DksA; 1.
+DR   InterPro; IPR048489; DksA_N.
+DR   InterPro; IPR012784; DksA_RNA_pol-bd.
+DR   InterPro; IPR037187; DnaK_N.
+DR   InterPro; IPR000962; Znf_DskA_TraR.
+DR   InterPro; IPR020458; Znf_DskA_TraR_CS.
+DR   NCBIfam; TIGR02420; dksA; 1.
+DR   PANTHER; PTHR33823:SF2; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA; 1.
+DR   PANTHER; PTHR33823; RNA POLYMERASE-BINDING TRANSCRIPTION FACTOR DKSA-RELATED; 1.
+DR   Pfam; PF21157; DksA_N; 1.
+DR   Pfam; PF01258; zf-dskA_traR; 1.
+DR   SUPFAM; SSF109635; DnaK suppressor protein DksA, alpha-hairpin domain; 1.
+DR   SUPFAM; SSF57716; Glucocorticoid receptor-like (DNA-binding domain); 1.
+DR   PROSITE; PS01102; ZF_DKSA_1; 1.
+DR   PROSITE; PS51128; ZF_DKSA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00926}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00926};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00926}.
+FT   DOMAIN          20..90
+FT                   /note="DnaK suppressor protein DksA N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF21157"
+FT   DOMAIN          94..128
+FT                   /note="Zinc finger DksA/TraR C4-type"
+FT                   /evidence="ECO:0000259|Pfam:PF01258"
+FT   ZN_FING         98..122
+FT                   /note="dksA C4-type"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00510"
+SQ   SEQUENCE   136 AA;  16171 MW;  D8F5D99CAC5C3C08 CRC64;
+     MEKLKDYRPS EKEPFMNERQ REYFRAKLLA RKDEILREAK LTLQALQEEN VNHPDLADRA
+     SSETDRAIEL RARDRQRKLI AKIDAALQRI EDNTYGYCEE TGEPISLKRL EARPIATLSV
+     EAQERHEKRE KVYRDE
+//

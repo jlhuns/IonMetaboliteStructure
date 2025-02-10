@@ -1,0 +1,77 @@
+ID   W6R751_9HYPH            Unreviewed;       155 AA.
+AC   W6R751;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 43.
+DE   RecName: Full=Molybdopterin synthase catalytic subunit {ECO:0000256|ARBA:ARBA00013858};
+DE            EC=2.8.1.12 {ECO:0000256|ARBA:ARBA00011950};
+DE   AltName: Full=MPT synthase subunit 2 {ECO:0000256|ARBA:ARBA00030781};
+DE   AltName: Full=Molybdenum cofactor biosynthesis protein E {ECO:0000256|ARBA:ARBA00029745};
+DE   AltName: Full=Molybdopterin-converting factor large subunit {ECO:0000256|ARBA:ARBA00030407};
+DE   AltName: Full=Molybdopterin-converting factor subunit 2 {ECO:0000256|ARBA:ARBA00032474};
+GN   Name=moaE {ECO:0000313|EMBL:CDM57097.1};
+GN   ORFNames=LPU83_1424 {ECO:0000313|EMBL:CDM57097.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM57097.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM57097.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM57097.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Converts molybdopterin precursor Z into molybdopterin. This
+CC       requires the incorporation of two sulfur atoms into precursor Z to
+CC       generate a dithiolene group. The sulfur is provided by MoaD.
+CC       {ECO:0000256|ARBA:ARBA00025448}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [molybdopterin-synthase sulfur-carrier protein]-C-terminal-
+CC         Gly-aminoethanethioate + cyclic pyranopterin phosphate + H2O =
+CC         molybdopterin + 2 [molybdopterin-synthase sulfur-carrier protein]-C-
+CC         terminal Gly-Gly + 2 H(+); Xref=Rhea:RHEA:26333, Rhea:RHEA-
+CC         COMP:12202, Rhea:RHEA-COMP:19907, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58698, ChEBI:CHEBI:59648,
+CC         ChEBI:CHEBI:90778, ChEBI:CHEBI:232372; EC=2.8.1.12;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048520};
+CC   -!- PATHWAY: Cofactor biosynthesis; molybdopterin biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00005046}.
+CC   -!- SUBUNIT: Heterotetramer of 2 MoaD subunits and 2 MoaE subunits. Also
+CC       stable as homodimer. The enzyme changes between these two forms during
+CC       catalysis. {ECO:0000256|ARBA:ARBA00026066}.
+CC   -!- SIMILARITY: Belongs to the MoaE family.
+CC       {ECO:0000256|ARBA:ARBA00005426}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM57097.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316495.1; NZ_JAIRAY010000037.1.
+DR   AlphaFoldDB; W6R751; -.
+DR   KEGG; rhl:LPU83_1424; -.
+DR   PATRIC; fig|348824.6.peg.1533; -.
+DR   eggNOG; COG0314; Bacteria.
+DR   HOGENOM; CLU_089568_2_1_5; -.
+DR   UniPathway; UPA00344; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0030366; F:molybdopterin synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:InterPro.
+DR   CDD; cd00756; MoaE; 1.
+DR   Gene3D; 3.90.1170.40; Molybdopterin biosynthesis MoaE subunit; 1.
+DR   InterPro; IPR036563; MoaE_sf.
+DR   InterPro; IPR003448; Mopterin_biosynth_MoaE.
+DR   PANTHER; PTHR23404; MOLYBDOPTERIN SYNTHASE RELATED; 1.
+DR   Pfam; PF02391; MoaE; 1.
+DR   SUPFAM; SSF54690; Molybdopterin synthase subunit MoaE; 1.
+PE   3: Inferred from homology;
+KW   Molybdenum cofactor biosynthesis {ECO:0000256|ARBA:ARBA00023150}.
+FT   REGION          131..155
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   155 AA;  16952 MW;  2FD57E8301F467E0 CRC64;
+     MSSKVQPHIR VQREDFDLQA EVDRLSTGTD GVGAIVTFSG LCRDEGGRLA ALELEHYPGM
+     AEAEMTRIAG LAIERFGLLG LTAIHRYGKI AARKNIVLVI AAAPHRQAAF DGANFVMDYL
+     KTAAPFWKKE HGKDGSTGEW VAARDADDAA RDKWK
+//

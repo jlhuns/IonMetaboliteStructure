@@ -1,0 +1,149 @@
+ID   Q6ND92_RHOPA            Unreviewed;       607 AA.
+AC   Q6ND92;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Succinate dehydrogenase flavoprotein subunit {ECO:0000256|ARBA:ARBA00019965, ECO:0000256|NCBIfam:TIGR01816};
+DE            EC=1.3.5.1 {ECO:0000256|RuleBase:RU362051};
+GN   Name=sdhA {ECO:0000313|EMBL:CAE25661.1};
+GN   OrderedLocusNames=RPA0217 {ECO:0000313|EMBL:CAE25661.1};
+GN   ORFNames=TX73_001125 {ECO:0000313|EMBL:WCL90343.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25661.1};
+RN   [1] {ECO:0000313|EMBL:WCL90343.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90343.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25661.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25661.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90343.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90343.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + succinate = fumarate + a quinol;
+CC         Xref=Rhea:RHEA:40523, ChEBI:CHEBI:24646, ChEBI:CHEBI:29806,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:132124; EC=1.3.5.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049220,
+CC         ECO:0000256|RuleBase:RU362051};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU362051};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; fumarate
+CC       from succinate (bacterial route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004894, ECO:0000256|RuleBase:RU362051}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|ARBA:ARBA00004515, ECO:0000256|RuleBase:RU362051};
+CC       Peripheral membrane protein {ECO:0000256|ARBA:ARBA00004515,
+CC       ECO:0000256|RuleBase:RU362051}; Cytoplasmic side
+CC       {ECO:0000256|ARBA:ARBA00004515, ECO:0000256|RuleBase:RU362051}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent oxidoreductase 2 family.
+CC       FRD/SDH subfamily. {ECO:0000256|ARBA:ARBA00008040,
+CC       ECO:0000256|RuleBase:RU362051}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572593; CAE25661.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90343.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155785.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0217; -.
+DR   GeneID; 66891223; -.
+DR   KEGG; rpa:TX73_001125; -.
+DR   eggNOG; COG1053; Bacteria.
+DR   HOGENOM; CLU_014312_6_1_5; -.
+DR   PhylomeDB; Q6ND92; -.
+DR   UniPathway; UPA00223; UER01005.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:TreeGrafter.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008177; F:succinate dehydrogenase (quinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0022900; P:electron transport chain; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.90.700.10:FF:000001; Mitochondrial succinate dehydrogenase flavoprotein subunit; 1.
+DR   FunFam; 4.10.80.40:FF:000002; Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial; 1.
+DR   FunFam; 3.50.50.60:FF:000026; Succinate dehydrogenase flavoprotein subunit; 1.
+DR   FunFam; 1.20.58.100:FF:000001; Succinate dehydrogenase flavoprotein subunit (SdhA); 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   Gene3D; 1.20.58.100; Fumarate reductase/succinate dehydrogenase flavoprotein-like, C-terminal domain; 1.
+DR   Gene3D; 4.10.80.40; succinate dehydrogenase protein domain; 1.
+DR   Gene3D; 3.90.700.10; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   InterPro; IPR003953; FAD-dep_OxRdtase_2_FAD-bd.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR003952; FRD_SDH_FAD_BS.
+DR   InterPro; IPR037099; Fum_R/Succ_DH_flav-like_C_sf.
+DR   InterPro; IPR015939; Fum_Rdtase/Succ_DH_flav-like_C.
+DR   InterPro; IPR030664; SdhA/FrdA/AprA.
+DR   InterPro; IPR027477; Succ_DH/fumarate_Rdtase_cat_sf.
+DR   InterPro; IPR011281; Succ_DH_flav_su_fwd.
+DR   InterPro; IPR014006; Succ_Dhase_FrdA_Gneg.
+DR   NCBIfam; TIGR01816; sdhA_forward; 1.
+DR   NCBIfam; TIGR01812; sdhA_frdA_Gneg; 1.
+DR   PANTHER; PTHR11632; SUCCINATE DEHYDROGENASE 2 FLAVOPROTEIN SUBUNIT; 1.
+DR   PANTHER; PTHR11632:SF51; SUCCINATE DEHYDROGENASE [UBIQUINONE] FLAVOPROTEIN SUBUNIT, MITOCHONDRIAL; 1.
+DR   Pfam; PF00890; FAD_binding_2; 1.
+DR   Pfam; PF02910; Succ_DH_flav_C; 1.
+DR   PIRSF; PIRSF000171; SDHA_APRA_LASPO; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF46977; Succinate dehydrogenase/fumarate reductase flavoprotein C-terminal domain; 1.
+DR   SUPFAM; SSF56425; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   PROSITE; PS00504; FRD_SDH_FAD_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|RuleBase:RU362051};
+KW   Cell membrane {ECO:0000256|RuleBase:RU362051};
+KW   Electron transport {ECO:0000256|ARBA:ARBA00022982,
+KW   ECO:0000256|RuleBase:RU362051};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR611281-4};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU362051};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU362051};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU362051};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU362051};
+KW   Tricarboxylic acid cycle {ECO:0000256|RuleBase:RU362051}.
+FT   DOMAIN          24..419
+FT                   /note="FAD-dependent oxidoreductase 2 FAD binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00890"
+FT   DOMAIN          474..607
+FT                   /note="Fumarate reductase/succinate dehydrogenase
+FT                   flavoprotein-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02910"
+FT   ACT_SITE        301
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000171-1"
+FT   MOD_RES         60
+FT                   /note="Tele-8alpha-FAD histidine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611281-4"
+SQ   SEQUENCE   607 AA;  65895 MW;  CD429A211C00FE60 CRC64;
+     MAANVNGAPA AGGNAYPIED HTYDVVVVGA GGAGLRAVVG CSEAGLRTAC ITKVFPTRSH
+     TVAAQGGISA SLGNMHKDDW RWHMYDTVKG SDWLGDQDSI EYMVRNAPEA VYELEHWGVP
+     FSRTEDGKIY QRPFGGMTMD FGKGQAQRTC AAADRTGHAM LHTMYGQALR HSAEFYIEFF
+     AIDLIMDDQG CCRGVVALKL DDGTIHRFKA QTTILATGGY GRAYASCTSA HTCTGDGGAM
+     ALRAGLPLQD MEFVQFHPTG IYGSGCLVTE GARGEGGYLV NSEGERFMER YAPSAKDLAS
+     RDVVSRAMTI EMREGRGVGK KKDHIFLHLD HLAPEVLHER LPGISESARI FAGVDVTREP
+     IPILPTVHYN MGGIPTNFHG EVVTKKDGDD NAVVPGLMAI GEAACVSVHG ANRLGSNSLI
+     DLVVFGRAAA LRCAEKLVPN GKQPELPASS ADMSLSRLDK YRYAKGGTPT AKLRERMQHV
+     MQNNCAVFRT GEVLAEGKEL IANVHGSVGD VGVSDRTLVW NSDLVETLEF DNLIVQAVVT
+     MNSAANRTES RGAHAREDFP DRDDANWMKH TLAWIGDKGD VTIDYRPVHD YTMTNDVQYI
+     PPKPRVY
+//

@@ -1,0 +1,107 @@
+ID   RISB_CLOB1              Reviewed;         154 AA.
+AC   A7FXC4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 86.
+DE   RecName: Full=6,7-dimethyl-8-ribityllumazine synthase {ECO:0000255|HAMAP-Rule:MF_00178};
+DE            Short=DMRL synthase {ECO:0000255|HAMAP-Rule:MF_00178};
+DE            Short=LS {ECO:0000255|HAMAP-Rule:MF_00178};
+DE            Short=Lumazine synthase {ECO:0000255|HAMAP-Rule:MF_00178};
+DE            EC=2.5.1.78 {ECO:0000255|HAMAP-Rule:MF_00178};
+GN   Name=ribH {ECO:0000255|HAMAP-Rule:MF_00178};
+GN   OrderedLocusNames=CLB_2829;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Catalyzes the formation of 6,7-dimethyl-8-ribityllumazine by
+CC       condensation of 5-amino-6-(D-ribitylamino)uracil with 3,4-dihydroxy-2-
+CC       butanone 4-phosphate. This is the penultimate step in the biosynthesis
+CC       of riboflavin. {ECO:0000255|HAMAP-Rule:MF_00178}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-2-hydroxy-3-oxobutyl phosphate + 5-amino-6-(D-
+CC         ribitylamino)uracil = 6,7-dimethyl-8-(1-D-ribityl)lumazine +
+CC         phosphate + 2 H2O + H(+); Xref=Rhea:RHEA:26152, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15934, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58201, ChEBI:CHEBI:58830; EC=2.5.1.78;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00178};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; riboflavin
+CC       from 2-hydroxy-3-oxobutyl phosphate and 5-amino-6-(D-
+CC       ribitylamino)uracil: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00178}.
+CC   -!- SIMILARITY: Belongs to the DMRL synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00178}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS32760.1; -; Genomic_DNA.
+DR   RefSeq; WP_003358088.1; NC_009697.1.
+DR   AlphaFoldDB; A7FXC4; -.
+DR   SMR; A7FXC4; -.
+DR   GeneID; 5184641; -.
+DR   KEGG; cba:CLB_2829; -.
+DR   HOGENOM; CLU_089358_1_1_9; -.
+DR   UniPathway; UPA00275; UER00404.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0009349; C:riboflavin synthase complex; IEA:InterPro.
+DR   GO; GO:0000906; F:6,7-dimethyl-8-ribityllumazine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09209; Lumazine_synthase-I; 1.
+DR   FunFam; 3.40.50.960:FF:000001; 6,7-dimethyl-8-ribityllumazine synthase; 1.
+DR   Gene3D; 3.40.50.960; Lumazine/riboflavin synthase; 1.
+DR   HAMAP; MF_00178; Lumazine_synth; 1.
+DR   InterPro; IPR034964; LS.
+DR   InterPro; IPR002180; LS/RS.
+DR   InterPro; IPR036467; LS/RS_sf.
+DR   NCBIfam; TIGR00114; lumazine-synth; 1.
+DR   PANTHER; PTHR21058:SF0; 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE; 1.
+DR   PANTHER; PTHR21058; 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE DMRL SYNTHASE LUMAZINE SYNTHASE; 1.
+DR   Pfam; PF00885; DMRL_synthase; 1.
+DR   SUPFAM; SSF52121; Lumazine synthase; 1.
+PE   3: Inferred from homology;
+KW   Riboflavin biosynthesis; Transferase.
+FT   CHAIN           1..154
+FT                   /note="6,7-dimethyl-8-ribityllumazine synthase"
+FT                   /id="PRO_1000040402"
+FT   ACT_SITE        88
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         22
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         56..58
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         80..82
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         85..86
+FT                   /ligand="(2S)-2-hydroxy-3-oxobutyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58830"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         113
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+FT   BINDING         127
+FT                   /ligand="(2S)-2-hydroxy-3-oxobutyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58830"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00178"
+SQ   SEQUENCE   154 AA;  16576 MW;  B356A5078449FA46 CRC64;
+     MKIYEGRLTA EGLKVGIIVS RFNEFITSKL LAGSIDCLKR HGAKEDNIEV CWVPGAFEIP
+     VIAKKMASKG KYDAVICLGA VIRGATPHFD YVSSEVSKGV AHVSLDKEVP VIFGVLTTDT
+     IEQAIERAGT KAGNKGYDAA MSAIEMSNLM KVLD
+//

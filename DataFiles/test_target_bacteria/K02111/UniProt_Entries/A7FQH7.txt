@@ -1,0 +1,117 @@
+ID   ATPA_CLOB1              Reviewed;         504 AA.
+AC   A7FQH7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=ATP synthase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+DE            EC=7.1.2.2 {ECO:0000255|HAMAP-Rule:MF_01346};
+DE   AltName: Full=ATP synthase F1 sector subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+DE   AltName: Full=F-ATPase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01346};
+GN   Name=atpA {ECO:0000255|HAMAP-Rule:MF_01346};
+GN   OrderedLocusNames=CLB_0190;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The alpha chain is a regulatory subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + 4 H(+)(in) = ADP + phosphate + 5 H(+)(out);
+CC         Xref=Rhea:RHEA:57720, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.1.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01346};
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main
+CC       subunits: a(1), b(2) and c(9-12). The alpha and beta chains form an
+CC       alternating ring which encloses part of the gamma chain. CF(1) is
+CC       attached to CF(0) by a central stalk formed by the gamma and epsilon
+CC       chains, while a peripheral stalk is formed by the delta and b chains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01346};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01346}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS35606.1; -; Genomic_DNA.
+DR   RefSeq; WP_003356056.1; NC_009697.1.
+DR   AlphaFoldDB; A7FQH7; -.
+DR   SMR; A7FQH7; -.
+DR   GeneID; 5184409; -.
+DR   KEGG; cba:CLB_0190; -.
+DR   HOGENOM; CLU_010091_2_1_9; -.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0043531; F:ADP binding; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:UniProtKB-EC.
+DR   CDD; cd18113; ATP-synt_F1_alpha_C; 1.
+DR   CDD; cd18116; ATP-synt_F1_alpha_N; 1.
+DR   CDD; cd01132; F1-ATPase_alpha_CD; 1.
+DR   FunFam; 1.20.150.20:FF:000001; ATP synthase subunit alpha; 1.
+DR   FunFam; 2.40.30.20:FF:000001; ATP synthase subunit alpha; 1.
+DR   FunFam; 3.40.50.300:FF:000002; ATP synthase subunit alpha; 1.
+DR   Gene3D; 2.40.30.20; -; 1.
+DR   Gene3D; 1.20.150.20; ATP synthase alpha/beta chain, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_01346; ATP_synth_alpha_bact; 1.
+DR   InterPro; IPR023366; ATP_synth_asu-like_sf.
+DR   InterPro; IPR000793; ATP_synth_asu_C.
+DR   InterPro; IPR038376; ATP_synth_asu_C_sf.
+DR   InterPro; IPR033732; ATP_synth_F1_a_nt-bd_dom.
+DR   InterPro; IPR005294; ATP_synth_F1_asu.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR004100; ATPase_F1/V1/A1_a/bsu_N.
+DR   InterPro; IPR036121; ATPase_F1/V1/A1_a/bsu_N_sf.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00962; atpA; 1.
+DR   PANTHER; PTHR48082; ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR48082:SF2; ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; 1.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF00306; ATP-synt_ab_C; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   PIRSF; PIRSF039088; F_ATPase_subunit_alpha; 1.
+DR   SUPFAM; SSF47917; C-terminal domain of alpha and beta subunits of F1 ATP synthase; 1.
+DR   SUPFAM; SSF50615; N-terminal domain of alpha and beta subunits of F1 ATP synthase; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; ATP-binding; Cell membrane; CF(1); Hydrogen ion transport;
+KW   Ion transport; Membrane; Nucleotide-binding; Translocase; Transport.
+FT   CHAIN           1..504
+FT                   /note="ATP synthase subunit alpha"
+FT                   /id="PRO_1000055062"
+FT   BINDING         169..176
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01346"
+FT   SITE            362
+FT                   /note="Required for activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01346"
+SQ   SEQUENCE   504 AA;  55426 MW;  59A0BBF43FB3F113 CRC64;
+     MNIKPEEITS IIRQQIENFN TNIETIDSGT IIQIGDGIAR VYGLEDCMEG ELIEFPNDVY
+     GMALNLEQDN VGCVLLGSEE GIKEGNVVKR TKKVVEVPVG EALVGRVVNS LGMPIDGKGP
+     VLTTETRDVE VPAPGVIDRQ SVKEPLQTGI KAIDSMIPIG KGQRELIIGD RQTGKTAIAM
+     DTILNQKGKD VICIYVAIGQ KQSTVAHIVN DLTKMGAMDY TIVVSSTASD SAPLQYLAPY
+     AGCSMGEYFM HKGKDVLIVY DDLSKHAVAY RTMSLLLRRP PGREAYPGDV FYLHSRLLER
+     SARLSEKLGG GSLTALPIVE TLAGDVTAYI PTNVISITDG QIFLESELFN AGQRPAVNAG
+     ISVSRVGGNA QIKAMKQVAG TLRLELAQYR ELAAFSQFGS DLDKESVKRL EKGKRLVEIL
+     KQPQYSPMPV EKEIIILYAA VSNHLIDIPV NKIKEFEKEL FNYIDTHYRD IGKDILEHKQ
+     LTDELKSKLD KAINDFKNVF LSEI
+//

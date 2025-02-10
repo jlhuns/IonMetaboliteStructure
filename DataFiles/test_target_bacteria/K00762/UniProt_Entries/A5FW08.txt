@@ -1,0 +1,112 @@
+ID   A5FW08_ACICJ            Unreviewed;       242 AA.
+AC   A5FW08;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 93.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00011971, ECO:0000256|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000256|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000256|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000256|ARBA:ARBA00011971, ECO:0000256|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000256|HAMAP-Rule:MF_01208};
+GN   OrderedLocusNames=Acry_0566 {ECO:0000313|EMBL:ABQ29790.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29790.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29790.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29790.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from 5-
+CC       phosphoribose 1-diphosphate to orotate, leading to the formation of
+CC       orotidine monophosphate (OMP). {ECO:0000256|HAMAP-Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + diphosphate = orotate + 5-phospho-
+CC         alpha-D-ribose 1-diphosphate; Xref=Rhea:RHEA:10380,
+CC         ChEBI:CHEBI:30839, ChEBI:CHEBI:33019, ChEBI:CHEBI:57538,
+CC         ChEBI:CHEBI:58017; EC=2.4.2.10; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 1/2. {ECO:0000256|ARBA:ARBA00004889,
+CC       ECO:0000256|HAMAP-Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. PyrE subfamily. {ECO:0000256|HAMAP-Rule:MF_01208}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29790.1; -; Genomic_DNA.
+DR   RefSeq; WP_007423100.1; NC_009484.1.
+DR   AlphaFoldDB; A5FW08; -.
+DR   STRING; 349163.Acry_0566; -.
+DR   KEGG; acr:Acry_0566; -.
+DR   eggNOG; COG0461; Bacteria.
+DR   HOGENOM; CLU_074878_1_0_5; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   PANTHER; PTHR19278; OROTATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR19278:SF9; URIDINE 5'-MONOPHOSPHATE SYNTHASE; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676, ECO:0000256|HAMAP-
+KW   Rule:MF_01208}; Magnesium {ECO:0000256|HAMAP-Rule:MF_01208};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01208}; Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01208}.
+FT   BINDING         110
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01208"
+FT   BINDING         111
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01208"
+FT   BINDING         114
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01208"
+FT   BINDING         136..144
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01208"
+FT   BINDING         140
+FT                   /ligand="orotate"
+FT                   /ligand_id="ChEBI:CHEBI:30839"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01208"
+SQ   SEQUENCE   242 AA;  26578 MW;  3D6C5848CD95E0F6 CRC64;
+     MTSGLGHATD WDRDAALTAA RILLEIRAVN FRPEEPYTFT SGWKAPVYID CRKIIYFPRA
+     RAKICELGVE KLYRHVGFET IEAVAGGETA GIPYAAWMAD RMGLPMAYVR KKPKGFGRNA
+     QIEGDVPEGR NTLLVEDLTT DGGSKIHFAN ALREAGAICN HVFVVFYYGV FPGSLNTLAE
+     MGMSLHHLCT WWDVLEACRG GDYFPEATLA GVRKFLEDPV AWSAKHGGVA SAEEAAAFKA
+     SK
+//

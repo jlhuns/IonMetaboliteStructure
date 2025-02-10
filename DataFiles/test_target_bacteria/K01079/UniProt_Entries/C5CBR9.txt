@@ -1,0 +1,116 @@
+ID   C5CBR9_MICLC            Unreviewed;       278 AA.
+AC   C5CBR9;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=phosphoserine phosphatase {ECO:0000256|ARBA:ARBA00012640};
+DE            EC=3.1.3.3 {ECO:0000256|ARBA:ARBA00012640};
+DE   AltName: Full=O-phosphoserine phosphohydrolase {ECO:0000256|ARBA:ARBA00031693};
+GN   Name=serB {ECO:0000313|EMBL:SQG49623.1};
+GN   OrderedLocusNames=Mlut_11600 {ECO:0000313|EMBL:ACS30666.1};
+GN   ORFNames=NCTC2665_02180 {ECO:0000313|EMBL:SQG49623.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30666.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30666.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30666.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49623.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49623.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-D-serine + H2O = D-serine + phosphate;
+CC         Xref=Rhea:RHEA:24873, ChEBI:CHEBI:15377, ChEBI:CHEBI:35247,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58680; EC=3.1.3.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048523};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-serine + H2O = L-serine + phosphate;
+CC         Xref=Rhea:RHEA:21208, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57524; EC=3.1.3.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048138};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine from
+CC       3-phospho-D-glycerate: step 3/3. {ECO:0000256|ARBA:ARBA00005135}.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily. SerB family.
+CC       {ECO:0000256|ARBA:ARBA00009184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30666.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49623.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078694.1; NZ_WBMF01000021.1.
+DR   AlphaFoldDB; C5CBR9; -.
+DR   STRING; 465515.Mlut_11600; -.
+DR   EnsemblBacteria; ACS30666; ACS30666; Mlut_11600.
+DR   KEGG; mlu:Mlut_11600; -.
+DR   PATRIC; fig|465515.4.peg.1102; -.
+DR   eggNOG; COG0560; Bacteria.
+DR   HOGENOM; CLU_036368_4_3_11; -.
+DR   UniPathway; UPA00135; UER00198.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0036424; F:L-phosphoserine phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1000; HAD superfamily/HAD-like; 1.
+DR   InterPro; IPR050582; HAD-like_SerB.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR004469; PSP.
+DR   NCBIfam; TIGR01488; HAD-SF-IB; 1.
+DR   NCBIfam; TIGR00338; serB; 1.
+DR   PANTHER; PTHR43344; PHOSPHOSERINE PHOSPHATASE; 1.
+DR   PANTHER; PTHR43344:SF2; PHOSPHOSERINE PHOSPHATASE; 1.
+DR   Pfam; PF12710; HAD; 1.
+DR   SFLD; SFLDG01136; C1.6:_Phosphoserine_Phosphatas; 1.
+DR   SFLD; SFLDF00029; phosphoserine_phosphatase; 1.
+DR   SUPFAM; SSF56784; HAD-like; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:SQG49623.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Serine biosynthesis {ECO:0000256|ARBA:ARBA00023299}.
+FT   ACT_SITE        77
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604469-1"
+FT   ACT_SITE        79
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR604469-1"
+SQ   SEQUENCE   278 AA;  28826 MW;  564F987A550B082F CRC64;
+     MSTLRRLVVT ADPALLLTDV PPIGVPDDAE RLSDDGLLGW RFTADEWAAA PEPGSGWDVL
+     TLPAAVAAAP VPLVVTDVDS TLIRQEVIEL LAAHAGREAE VAEVTERAMR GELDFAASLH
+     ARVEALAGLP VGVVADVVRA IRPTDGALAL IEAVTAAGGR VCAVSGGFTQ VLAPLAEAWG
+     VHAYCANELE VRDGHLTGRV LGDVVDRAAK AAMLRAWAED AGLTPEQAVG VGDGANDIDL
+     LEAAGCGVAL CAKPILREHA DVVVDVPSFT PLRWLLGL
+//

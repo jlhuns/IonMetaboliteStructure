@@ -1,0 +1,79 @@
+ID   E3PW80_ACESD            Unreviewed;       173 AA.
+AC   E3PW80;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 70.
+DE   RecName: Full=Peptidyl-prolyl cis-trans isomerase {ECO:0000256|RuleBase:RU363019};
+DE            Short=PPIase {ECO:0000256|RuleBase:RU363019};
+DE            EC=5.2.1.8 {ECO:0000256|RuleBase:RU363019};
+GN   Name=ppiB {ECO:0000313|EMBL:CBH20695.1};
+GN   OrderedLocusNames=CLOST_0569 {ECO:0000313|EMBL:CBH20695.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20695.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: PPIases accelerate the folding of proteins. It catalyzes the
+CC       cis-trans isomerization of proline imidic peptide bonds in
+CC       oligopeptides. {ECO:0000256|ARBA:ARBA00002388,
+CC       ECO:0000256|RuleBase:RU363019}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000256|RuleBase:RU363019};
+CC   -!- SIMILARITY: Belongs to the cyclophilin-type PPIase family.
+CC       {ECO:0000256|ARBA:ARBA00007365, ECO:0000256|RuleBase:RU363019}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20695.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PW80; -.
+DR   STRING; 1511.CLOST_0569; -.
+DR   KEGG; cst:CLOST_0569; -.
+DR   eggNOG; COG0652; Bacteria.
+DR   HOGENOM; CLU_012062_16_0_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0140839; F:RNA polymerase II CTD heptapeptide repeat P3 isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0140840; F:RNA polymerase II CTD heptapeptide repeat P6 isomerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   CDD; cd00317; cyclophilin; 1.
+DR   Gene3D; 2.40.100.10; Cyclophilin-like; 1.
+DR   InterPro; IPR029000; Cyclophilin-like_dom_sf.
+DR   InterPro; IPR024936; Cyclophilin-type_PPIase.
+DR   InterPro; IPR020892; Cyclophilin-type_PPIase_CS.
+DR   InterPro; IPR002130; Cyclophilin-type_PPIase_dom.
+DR   InterPro; IPR044666; Cyclophilin_A-like.
+DR   PANTHER; PTHR45625; PEPTIDYL-PROLYL CIS-TRANS ISOMERASE-RELATED; 1.
+DR   PANTHER; PTHR45625:SF4; PEPTIDYLPROLYL ISOMERASE DOMAIN AND WD REPEAT-CONTAINING PROTEIN 1; 1.
+DR   Pfam; PF00160; Pro_isomerase; 1.
+DR   PIRSF; PIRSF001467; Peptidylpro_ismrse; 1.
+DR   PRINTS; PR00153; CSAPPISMRASE.
+DR   SUPFAM; SSF50891; Cyclophilin-like; 1.
+DR   PROSITE; PS00170; CSA_PPIASE_1; 1.
+DR   PROSITE; PS50072; CSA_PPIASE_2; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|RuleBase:RU363019};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Rotamase {ECO:0000256|ARBA:ARBA00023110, ECO:0000256|RuleBase:RU363019}.
+FT   DOMAIN          12..160
+FT                   /note="PPIase cyclophilin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS50072"
+SQ   SEQUENCE   173 AA;  18798 MW;  3BD90A496AB58F50 CRC64;
+     MSQNPIVTMK IEDRGEVKIE LYPHIAPNTV NNFISLVKKG FYDGLIFHRV IQGFMIQGGD
+     PKGNGTGGPG YGIKGEFSKN GHVNNLSHEP GVISMARSAH PDSAGSQFFL MTSVSPHLDG
+     SYAGFGRVVE GMDIVEALEK VKTNFSDKPL EDILIESVTV DTFGVEYPEP ITQ
+//

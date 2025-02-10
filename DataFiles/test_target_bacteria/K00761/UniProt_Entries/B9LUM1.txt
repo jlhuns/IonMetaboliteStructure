@@ -1,0 +1,116 @@
+ID   UPP_HALLT               Reviewed;         225 AA.
+AC   B9LUM1;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 80.
+DE   RecName: Full=Uracil phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01218};
+DE            EC=2.4.2.9 {ECO:0000255|HAMAP-Rule:MF_01218};
+DE   AltName: Full=UMP pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_01218};
+DE   AltName: Full=UPRTase {ECO:0000255|HAMAP-Rule:MF_01218};
+GN   Name=upp {ECO:0000255|HAMAP-Rule:MF_01218};
+GN   OrderedLocusNames=Hlac_2717;
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34;
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- FUNCTION: Catalyzes the conversion of uracil and 5-phospho-alpha-D-
+CC       ribose 1-diphosphate (PRPP) to UMP and diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01218}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UMP + diphosphate = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         uracil; Xref=Rhea:RHEA:13017, ChEBI:CHEBI:17568, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57865, ChEBI:CHEBI:58017; EC=2.4.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01218};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01218};
+CC       Note=Binds 1 Mg(2+) ion per subunit. The magnesium is bound as Mg-PRPP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01218};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01218}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via salvage pathway;
+CC       UMP from uracil: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01218}.
+CC   -!- SIMILARITY: Belongs to the UPRTase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01218}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM58288.1; -; Genomic_DNA.
+DR   RefSeq; WP_015911398.1; NC_012029.1.
+DR   AlphaFoldDB; B9LUM1; -.
+DR   SMR; B9LUM1; -.
+DR   GeneID; 7401328; -.
+DR   KEGG; hla:Hlac_2717; -.
+DR   eggNOG; arCOG04128; Archaea.
+DR   HOGENOM; CLU_067096_2_0_2; -.
+DR   UniPathway; UPA00574; UER00636.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044206; P:UMP salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006223; P:uracil salvage; IEA:InterPro.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01218_A; Upp_A; 1.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR034331; Upp_A.
+DR   InterPro; IPR005765; Ura_phspho_trans.
+DR   NCBIfam; TIGR01091; upp; 1.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; Glycosyltransferase; GTP-binding; Magnesium;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..225
+FT                   /note="Uracil phosphoribosyltransferase"
+FT                   /id="PRO_1000164827"
+FT   BINDING         36..40
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         86
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         111
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         145..153
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         210
+FT                   /ligand="uracil"
+FT                   /ligand_id="ChEBI:CHEBI:17568"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         215..217
+FT                   /ligand="uracil"
+FT                   /ligand_id="ChEBI:CHEBI:17568"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         216
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+SQ   SEQUENCE   225 AA;  24411 MW;  DDCA2A8400B660F7 CRC64;
+     MTIEDRDDAH LITHALAKDT LSRLRDVETE QVAFRKGLVK LGRICGYEII DGAMETEYVP
+     VQTPLQETTG ERVKGLDDVV IINVLRAATP FVEGLLKAFP RAKQGVISAG RDEEAGMTDD
+     GEFPITIDYV KLPEIRPEDT VIVADPMLAT GSTMCAVLDH VLDEADAFED LFVLSAVSAP
+     EGLVRVSESV PEADLLTVAI DDRLDDDGFI LPGLGDAGDR AFRTV
+//

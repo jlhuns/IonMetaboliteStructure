@@ -1,0 +1,115 @@
+ID   LSPA_SALTI              Reviewed;         166 AA.
+AC   Q8Z9N1;
+DT   22-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   RecName: Full=Lipoprotein signal peptidase {ECO:0000255|HAMAP-Rule:MF_00161};
+DE            EC=3.4.23.36 {ECO:0000255|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Prolipoprotein signal peptidase {ECO:0000255|HAMAP-Rule:MF_00161};
+DE   AltName: Full=Signal peptidase II {ECO:0000255|HAMAP-Rule:MF_00161};
+DE            Short=SPase II {ECO:0000255|HAMAP-Rule:MF_00161};
+GN   Name=lspA {ECO:0000255|HAMAP-Rule:MF_00161};
+GN   OrderedLocusNames=STY0056, t0049;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: This protein specifically catalyzes the removal of signal
+CC       peptides from prolipoproteins. {ECO:0000255|HAMAP-Rule:MF_00161}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of signal peptides from bacterial membrane
+CC         prolipoproteins. Hydrolyzes -Xaa-Yaa-Zaa-|-(S,diacylglyceryl)Cys-, in
+CC         which Xaa is hydrophobic (preferably Leu), and Yaa (Ala or Ser) and
+CC         Zaa (Gly or Ala) have small, neutral side chains.; EC=3.4.23.36;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00161};
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (signal peptide
+CC       cleavage). {ECO:0000255|HAMAP-Rule:MF_00161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}.
+CC   -!- SIMILARITY: Belongs to the peptidase A8 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01202.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67782.1; -; Genomic_DNA.
+DR   RefSeq; NP_454658.1; NC_003198.1.
+DR   RefSeq; WP_000042743.1; NZ_WSUR01000014.1.
+DR   AlphaFoldDB; Q8Z9N1; -.
+DR   SMR; Q8Z9N1; -.
+DR   STRING; 220341.gene:17584104; -.
+DR   MEROPS; A08.001; -.
+DR   KEGG; stt:t0049; -.
+DR   KEGG; sty:STY0056; -.
+DR   PATRIC; fig|220341.7.peg.56; -.
+DR   eggNOG; COG0597; Bacteria.
+DR   HOGENOM; CLU_083252_4_0_6; -.
+DR   OMA; NRWYFPA; -.
+DR   OrthoDB; 9810259at2; -.
+DR   UniPathway; UPA00665; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00161; LspA; 1.
+DR   InterPro; IPR001872; Peptidase_A8.
+DR   NCBIfam; TIGR00077; lspA; 1.
+DR   PANTHER; PTHR33695; LIPOPROTEIN SIGNAL PEPTIDASE; 1.
+DR   PANTHER; PTHR33695:SF1; LIPOPROTEIN SIGNAL PEPTIDASE; 1.
+DR   Pfam; PF01252; Peptidase_A8; 1.
+DR   PRINTS; PR00781; LIPOSIGPTASE.
+DR   PROSITE; PS00855; SPASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aspartyl protease; Cell inner membrane; Cell membrane; Hydrolase; Membrane;
+KW   Protease; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..166
+FT                   /note="Lipoprotein signal peptidase"
+FT                   /id="PRO_0000178809"
+FT   TRANSMEM        12..32
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+FT   TRANSMEM        70..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+FT   TRANSMEM        102..122
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+FT   TRANSMEM        137..157
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+FT   ACT_SITE        123
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+FT   ACT_SITE        141
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00161"
+SQ   SEQUENCE   166 AA;  18384 MW;  7CBB8135EB5818BD CRC64;
+     MSKPLCSTGL RWLWLVVVVL IIDLGSKYLI LQNFALGDTV GLFPSLNLHY ARNYGAAFSF
+     LADSGSWQRW FFAGIAIGIC VILLVMMYRS KATQKLNNIA YALIIGGALG NLFDRLWHGF
+     VVDMIDFYVG DWHFATFNLA DTAICIGAAL IVLEGFLPKP TAKEQA
+//

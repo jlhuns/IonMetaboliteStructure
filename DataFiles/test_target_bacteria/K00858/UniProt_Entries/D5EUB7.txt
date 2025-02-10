@@ -1,0 +1,120 @@
+ID   D5EUB7_XYLR2            Unreviewed;       294 AA.
+AC   D5EUB7;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   RecName: Full=NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000256|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Synonyms=ppnK {ECO:0000313|EMBL:ADE81604.1};
+GN   OrderedLocusNames=PRU_1941 {ECO:0000313|EMBL:ADE81604.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81604.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81604.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance of
+CC       NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + ATP = ADP + NADP(+) + H(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047925, ECO:0000256|HAMAP-
+CC         Rule:MF_00361};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81604.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063591.1; NC_014033.1.
+DR   AlphaFoldDB; D5EUB7; -.
+DR   STRING; 264731.PRU_1941; -.
+DR   KEGG; pru:PRU_1941; -.
+DR   eggNOG; COG0061; Bacteria.
+DR   HOGENOM; CLU_008831_0_3_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:UniProtKB-ARBA.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10330; Probable inorganic polyphosphate/atp-NAD kinase, domain 1; 1.
+DR   Gene3D; 2.60.200.30; Probable inorganic polyphosphate/atp-NAD kinase, domain 2; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; NAD KINASE; 1.
+DR   PANTHER; PTHR20275:SF0; NAD KINASE; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   Pfam; PF20143; NAD_kinase_C; 1.
+DR   SUPFAM; SSF111331; NAD kinase/diacylglycerol kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00361}.
+FT   ACT_SITE        77
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         77..78
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         82
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         150..151
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         180
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         191..196
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         215
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+SQ   SEQUENCE   294 AA;  32540 MW;  3AED7326C8B2F5FF CRC64;
+     MEHRKLRFAL LGNIYQARKS ASIQKVLSTI ANYGAELYVD MEYYYFLKDN QRLDVKATKV
+     FSDNDFDADF VISMGGDGTF LKAACRVGKK NIPILGVNMG RLGFLADISP DDIEHCMRAL
+     YNDDYAVESR ALIQVEADGA PLGECSCALN DVAILKRDTA SMISIRASVN GQYLNTYQAD
+     GLVISTPTGS TAYSLSNGGP IIVPGTKVFS MTAVAPHSLN VRPIVLADSS VIELDVESRS
+     HNFLVAIDGR SEKCKEGTRI VLRRAPYDIK VVKRSDHRYF NTLREKMMWG ADTR
+//

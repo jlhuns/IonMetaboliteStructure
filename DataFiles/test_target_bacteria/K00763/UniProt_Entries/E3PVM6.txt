@@ -1,0 +1,110 @@
+ID   E3PVM6_ACESD            Unreviewed;       479 AA.
+AC   E3PVM6;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 74.
+DE   RecName: Full=Nicotinate phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|RuleBase:RU365100};
+DE            EC=6.3.4.21 {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|RuleBase:RU365100};
+GN   Name=yueK {ECO:0000313|EMBL:CBH20593.1};
+GN   OrderedLocusNames=CLOST_0463 {ECO:0000313|EMBL:CBH20593.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH20593.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Catalyzes the first step in the biosynthesis of NAD from
+CC       nicotinic acid, the ATP-dependent synthesis of beta-nicotinate D-
+CC       ribonucleotide from nicotinate and 5-phospho-D-ribose 1-phosphate.
+CC       {ECO:0000256|RuleBase:RU365100}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + ATP +
+CC         H2O = nicotinate beta-D-ribonucleotide + ADP + phosphate +
+CC         diphosphate; Xref=Rhea:RHEA:36163, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32544, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57502, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:456216; EC=6.3.4.21;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048668,
+CC         ECO:0000256|RuleBase:RU365100};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; nicotinate D-
+CC       ribonucleotide from nicotinate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004952, ECO:0000256|RuleBase:RU365100}.
+CC   -!- PTM: Transiently phosphorylated on a His residue during the reaction
+CC       cycle. Phosphorylation strongly increases the affinity for substrates
+CC       and increases the rate of nicotinate D-ribonucleotide production.
+CC       Dephosphorylation regenerates the low-affinity form of the enzyme,
+CC       leading to product release. {ECO:0000256|RuleBase:RU365100}.
+CC   -!- SIMILARITY: Belongs to the NAPRTase family.
+CC       {ECO:0000256|ARBA:ARBA00010897, ECO:0000256|RuleBase:RU365100}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH20593.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PVM6; -.
+DR   STRING; 1511.CLOST_0463; -.
+DR   KEGG; cst:CLOST_0463; -.
+DR   eggNOG; COG1488; Bacteria.
+DR   HOGENOM; CLU_025154_2_1_9; -.
+DR   UniPathway; UPA00253; UER00457.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004516; F:nicotinate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0034355; P:NAD salvage; IEA:TreeGrafter.
+DR   CDD; cd01570; NAPRTase_A; 1.
+DR   FunFam; 3.20.20.70:FF:000076; Nicotinate phosphoribosyltransferase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   Gene3D; 3.20.140.10; nicotinate phosphoribosyltransferase; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR041525; N/Namide_PRibTrfase.
+DR   InterPro; IPR041619; NAPRTase_C.
+DR   InterPro; IPR040727; NAPRTase_N.
+DR   InterPro; IPR007229; Nic_PRibTrfase-Fam.
+DR   InterPro; IPR006405; Nic_PRibTrfase_pncB.
+DR   InterPro; IPR036068; Nicotinate_pribotase-like_C.
+DR   NCBIfam; TIGR01513; NAPRTase_put; 1.
+DR   PANTHER; PTHR11098; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11098:SF1; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF04095; NAPRTase; 1.
+DR   Pfam; PF17956; NAPRTase_C; 1.
+DR   Pfam; PF17767; NAPRTase_N; 1.
+DR   PIRSF; PIRSF000484; NAPRT; 1.
+DR   SUPFAM; SSF51690; Nicotinate/Quinolinate PRTase C-terminal domain-like; 1.
+DR   SUPFAM; SSF54675; Nicotinate/Quinolinate PRTase N-terminal domain-like; 1.
+PE   3: Inferred from homology;
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|RuleBase:RU365100};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|RuleBase:RU365100};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Transferase {ECO:0000256|RuleBase:RU365100}.
+FT   DOMAIN          6..130
+FT                   /note="Nicotinate phosphoribosyltransferase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17767"
+FT   DOMAIN          151..340
+FT                   /note="Nicotinate/nicotinamide phosphoribosyltransferase"
+FT                   /evidence="ECO:0000259|Pfam:PF04095"
+FT   DOMAIN          358..467
+FT                   /note="Nicotinate phosphoribosyltransferase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17956"
+SQ   SEQUENCE   479 AA;  54495 MW;  8083119B4F4DC4C3 CRC64;
+     MRNLTMLTDL YQLTMMNGYF KSNIHEDILV FDMFFRKNPS SGGYTIIAGI EQVIDYIENL
+     KFSEEDIDYL RSLNLFGEDF LSYLINFKFT GEIYAVREGT IMFPNEPIVR VKAPAAQAQL
+     IETAILNMVN FQSLIATKAS RVCYSANGDP VMEFGLRRAQ GPDAGLYGAR AAVIGGCVGT
+     SNVLTGQEFE LPILGTHAHS WVQKFPTELE AFRAYATTYP DKTMLLIDTY NTLESGLPNA
+     IKVFDELRAN GHEPLGVRID SGDLEYLSKE IRKILDDAGY PNVKITASND LDEYAISTLK
+     SQGAKIDIWG VGTKLITSSD WPSLGGVYKL SAAMENGELV PKIKLSEDPQ KINNPGYKRV
+     VRIYNKTTNK AEADLMMLAD ETIDESKPLK VFHPVYTWKT KIFYNYYTKD LLEPLFIDGK
+     LATNRYKVKE IKEYAQKEKD SFWPQYLRIS SPERYKVDLS EKLWELKNDL IEMRKRDQQ
+//

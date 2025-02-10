@@ -1,0 +1,126 @@
+ID   F2RCN8_STRVP            Unreviewed;       420 AA.
+AC   F2RCN8;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   RecName: Full=Histidine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_00127};
+DE            EC=6.1.1.21 {ECO:0000256|HAMAP-Rule:MF_00127};
+DE   AltName: Full=Histidyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_00127};
+DE            Short=HisRS {ECO:0000256|HAMAP-Rule:MF_00127};
+GN   Name=hisS {ECO:0000256|HAMAP-Rule:MF_00127};
+GN   OrderedLocusNames=SVEN_1109 {ECO:0000313|EMBL:CCA54396.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA54396.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA54396.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(His) + L-histidine + ATP = L-histidyl-tRNA(His) + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:17313, Rhea:RHEA-COMP:9665,
+CC         Rhea:RHEA-COMP:9689, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57595, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78527, ChEBI:CHEBI:456215; EC=6.1.1.21;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047639, ECO:0000256|HAMAP-
+CC         Rule:MF_00127};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-
+CC       Rule:MF_00127}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00127}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00008226, ECO:0000256|HAMAP-Rule:MF_00127}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA54396.1; -; Genomic_DNA.
+DR   RefSeq; WP_015032314.1; NZ_JABVZO010000226.1.
+DR   AlphaFoldDB; F2RCN8; -.
+DR   STRING; 953739.SVEN_1109; -.
+DR   GeneID; 69863290; -.
+DR   KEGG; sve:SVEN_1109; -.
+DR   PATRIC; fig|953739.5.peg.3175; -.
+DR   eggNOG; COG0124; Bacteria.
+DR   HOGENOM; CLU_025113_1_1_11; -.
+DR   OrthoDB; 9800814at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004821; F:histidine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006427; P:histidyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00773; HisRS-like_core; 1.
+DR   CDD; cd00859; HisRS_anticodon; 1.
+DR   FunFam; 3.30.930.10:FF:000058; Histidine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   HAMAP; MF_00127; His_tRNA_synth; 1.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR015807; His-tRNA-ligase.
+DR   InterPro; IPR041715; HisRS-like_core.
+DR   InterPro; IPR004516; HisRS/HisZ.
+DR   InterPro; IPR033656; HisRS_anticodon.
+DR   NCBIfam; TIGR00442; hisS; 1.
+DR   PANTHER; PTHR43707:SF1; HISTIDINE--TRNA LIGASE, MITOCHONDRIAL-RELATED; 1.
+DR   PANTHER; PTHR43707; HISTIDYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF13393; tRNA-synt_His; 1.
+DR   PIRSF; PIRSF001549; His-tRNA_synth; 1.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00127};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00127}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00127};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_00127, ECO:0000313|EMBL:CCA54396.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00127};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00127};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   DOMAIN          32..324
+FT                   /note="Aminoacyl-transfer RNA synthetases class-II family
+FT                   profile"
+FT                   /evidence="ECO:0000259|PROSITE:PS50862"
+FT   BINDING         82..84
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+FT   BINDING         114
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+FT   BINDING         128
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+FT   BINDING         132
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+FT   BINDING         257
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+FT   BINDING         261..262
+FT                   /ligand="L-histidine"
+FT                   /ligand_id="ChEBI:CHEBI:57595"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001549-1"
+SQ   SEQUENCE   420 AA;  45733 MW;  D9847552504ADB1A CRC64;
+     MSTFKAPKGT YDLIPPFSAQ YLAVRDAIAA PLRTSGYGYV ETPGFEDVNL FARGVGESTD
+     IVSKEMYAFE TKGGDKLALR PEGTASVLRA ALEASLHKQG NLPVKLWYSG SYYRYERPQK
+     GRYRHFSQVG AEAIGAEDPA LDAELIILAD QAYRSLGLRN FRILLNSLGD KECRPVYREA
+     LQGFLRGLDL DDDTRRRIEI NPLRVLDDKR EAVQKQLVGA PLLRDYLCDA CKAYHEEVRA
+     LITSAGVVFE DDAKLVRGLD YYTRTTFEFV HDGLGSQSAV GGGGRYDGLS EMIGGPALPS
+     VGWALGVDRT VLALEAEGIE LDIPAATSVF AVPLGDEARR VLFGVVTELR KAGVATDFSF
+     GAKGLKGHMK NANRSGARYA IVAGERDLAE GVVQLKDMES GEQQAVALDG LVEAVRTRLA
+//

@@ -1,0 +1,121 @@
+ID   CLPP_SALTI              Reviewed;         207 AA.
+AC   P0A1D8; Q9LC07;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=ATP-dependent Clp protease proteolytic subunit {ECO:0000255|HAMAP-Rule:MF_00444};
+DE            EC=3.4.21.92 {ECO:0000255|HAMAP-Rule:MF_00444};
+DE   AltName: Full=Endopeptidase Clp {ECO:0000255|HAMAP-Rule:MF_00444};
+DE   Flags: Precursor;
+GN   Name=clpP {ECO:0000255|HAMAP-Rule:MF_00444};
+GN   OrderedLocusNames=STY0490, t2412;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Cleaves peptides in various proteins in a process that
+CC       requires ATP hydrolysis. Has a chymotrypsin-like activity. Plays a
+CC       major role in the degradation of misfolded proteins.
+CC       {ECO:0000255|HAMAP-Rule:MF_00444}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of proteins to small peptides in the presence of
+CC         ATP and magnesium. alpha-casein is the usual test substrate. In the
+CC         absence of ATP, only oligopeptides shorter than five residues are
+CC         hydrolyzed (such as succinyl-Leu-Tyr-|-NHMec, and Leu-Tyr-Leu-|-Tyr-
+CC         Trp, in which cleavage of the -Tyr-|-Leu- and -Tyr-|-Trp bonds also
+CC         occurs).; EC=3.4.21.92; Evidence={ECO:0000255|HAMAP-Rule:MF_00444};
+CC   -!- SUBUNIT: Fourteen ClpP subunits assemble into 2 heptameric rings which
+CC       stack back to back to give a disk-like structure with a central cavity,
+CC       resembling the structure of eukaryotic proteasomes. Component of the
+CC       ClpAP and ClpXP complexes. {ECO:0000255|HAMAP-Rule:MF_00444}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00444}.
+CC   -!- SIMILARITY: Belongs to the peptidase S14 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00444}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08907.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70002.1; -; Genomic_DNA.
+DR   RefSeq; NP_455045.1; NC_003198.1.
+DR   RefSeq; WP_000122257.1; NZ_WSUR01000026.1.
+DR   AlphaFoldDB; P0A1D8; -.
+DR   SMR; P0A1D8; -.
+DR   STRING; 220341.gene:17584512; -.
+DR   MEROPS; S14.001; -.
+DR   GeneID; 66754911; -.
+DR   KEGG; stt:t2412; -.
+DR   KEGG; sty:STY0490; -.
+DR   PATRIC; fig|220341.7.peg.492; -.
+DR   eggNOG; COG0740; Bacteria.
+DR   HOGENOM; CLU_058707_3_2_6; -.
+DR   OMA; RDYWMKA; -.
+DR   OrthoDB; 9802800at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009368; C:endopeptidase Clp complex; IEA:TreeGrafter.
+DR   GO; GO:0004176; F:ATP-dependent peptidase activity; IEA:InterPro.
+DR   GO; GO:0051117; F:ATPase binding; IEA:TreeGrafter.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006515; P:protein quality control for misfolded or incompletely synthesized proteins; IEA:TreeGrafter.
+DR   CDD; cd07017; S14_ClpP_2; 1.
+DR   FunFam; 3.90.226.10:FF:000001; ATP-dependent Clp protease proteolytic subunit; 1.
+DR   Gene3D; 3.90.226.10; 2-enoyl-CoA Hydratase, Chain A, domain 1; 1.
+DR   HAMAP; MF_00444; ClpP; 1.
+DR   InterPro; IPR001907; ClpP.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR023562; ClpP/TepA.
+DR   InterPro; IPR033135; ClpP_His_AS.
+DR   InterPro; IPR018215; ClpP_Ser_AS.
+DR   NCBIfam; TIGR00493; clpP; 1.
+DR   PANTHER; PTHR10381; ATP-DEPENDENT CLP PROTEASE PROTEOLYTIC SUBUNIT; 1.
+DR   PANTHER; PTHR10381:SF70; ATP-DEPENDENT CLP PROTEASE PROTEOLYTIC SUBUNIT; 1.
+DR   Pfam; PF00574; CLP_protease; 1.
+DR   PRINTS; PR00127; CLPPROTEASEP.
+DR   SUPFAM; SSF52096; ClpP/crotonase; 1.
+DR   PROSITE; PS00382; CLP_PROTEASE_HIS; 1.
+DR   PROSITE; PS00381; CLP_PROTEASE_SER; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Protease; Serine protease; Zymogen.
+FT   PROPEP          1..14
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000268019"
+FT   CHAIN           15..207
+FT                   /note="ATP-dependent Clp protease proteolytic subunit"
+FT                   /id="PRO_0000179644"
+FT   ACT_SITE        111
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00444"
+FT   ACT_SITE        136
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00444"
+SQ   SEQUENCE   207 AA;  23177 MW;  91D89AC16428F988 CRC64;
+     MSYSGERDNL APHMALVPMV IEQTSRGERS FDIYSRLLKE RVIFLTGQVE DHMANLIVAQ
+     MLFLEAENPE KDIYLYINSP GGVITAGMSI YDTMQFIKPD VSTICMGQAA SMGAFLLTAG
+     AKGKRFCLPN SRVMIHQPLG GYQGQATDIE IHAREILKVK GRMNELMAHH TGQSLEQIER
+     DTERDRFLSA PEAVEYGLVD SILTHRN
+//

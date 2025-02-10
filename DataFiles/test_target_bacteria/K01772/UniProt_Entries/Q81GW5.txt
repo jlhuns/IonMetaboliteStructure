@@ -1,0 +1,124 @@
+ID   CPFC1_BACCR             Reviewed;         311 AA.
+AC   Q81GW5;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 2.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=Coproporphyrin III ferrochelatase 1 {ECO:0000255|HAMAP-Rule:MF_00323};
+DE            EC=4.99.1.9 {ECO:0000255|HAMAP-Rule:MF_00323};
+GN   Name=cpfC1 {ECO:0000255|HAMAP-Rule:MF_00323}; Synonyms=hemH1;
+GN   OrderedLocusNames=BC_1069;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Involved in coproporphyrin-dependent heme b biosynthesis.
+CC       Catalyzes the insertion of ferrous iron into coproporphyrin III to form
+CC       Fe-coproporphyrin III. {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Fe-coproporphyrin III + 2 H(+) = coproporphyrin III + Fe(2+);
+CC         Xref=Rhea:RHEA:49572, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:68438, ChEBI:CHEBI:131725; EC=4.99.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00323};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:49574;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00323};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoheme
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- SIMILARITY: Belongs to the ferrochelatase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00323, ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAP08056.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08056.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_830855.1; NC_004722.1.
+DR   RefSeq; WP_000726775.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GW5; -.
+DR   SMR; Q81GW5; -.
+DR   STRING; 226900.BC_1069; -.
+DR   GeneID; 93009954; -.
+DR   KEGG; bce:BC1069; -.
+DR   PATRIC; fig|226900.8.peg.1027; -.
+DR   HOGENOM; CLU_018884_2_1_9; -.
+DR   OrthoDB; 9776380at2; -.
+DR   UniPathway; UPA00252; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004325; F:ferrochelatase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006783; P:heme biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00419; Ferrochelatase_C; 1.
+DR   CDD; cd03411; Ferrochelatase_N; 1.
+DR   FunFam; 3.40.50.1400:FF:000009; Ferrochelatase; 1.
+DR   Gene3D; 3.40.50.1400; -; 2.
+DR   HAMAP; MF_00323; Ferrochelatase; 1.
+DR   InterPro; IPR001015; Ferrochelatase.
+DR   InterPro; IPR019772; Ferrochelatase_AS.
+DR   InterPro; IPR033644; Ferrochelatase_C.
+DR   InterPro; IPR033659; Ferrochelatase_N.
+DR   NCBIfam; TIGR00109; hemH; 1.
+DR   PANTHER; PTHR11108; FERROCHELATASE; 1.
+DR   PANTHER; PTHR11108:SF1; FERROCHELATASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00762; Ferrochelatase; 1.
+DR   SUPFAM; SSF53800; Chelatase; 1.
+DR   PROSITE; PS00534; FERROCHELATASE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Heme biosynthesis; Iron; Lyase; Metal-binding;
+KW   Porphyrin biosynthesis; Reference proteome.
+FT   CHAIN           1..311
+FT                   /note="Coproporphyrin III ferrochelatase 1"
+FT                   /id="PRO_0000175106"
+FT   BINDING         12
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /ligand_part="Fe"
+FT                   /ligand_part_id="ChEBI:CHEBI:18248"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         29
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         45..46
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         53
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         124
+FT                   /ligand="Fe-coproporphyrin III"
+FT                   /ligand_id="ChEBI:CHEBI:68438"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         182
+FT                   /ligand="Fe(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29033"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         263
+FT                   /ligand="Fe(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29033"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+SQ   SEQUENCE   311 AA;  35302 MW;  56FB647F2368BA0E CRC64;
+     MKKKIGLLVM AYGTPYKEED IERYYTHIRR GRKPSPEMLE DLTERYRAIG GISPLATITL
+     EQAKKLEKRL NEVQDEVEYH MYLGLKHIEP FIEDAVKDMH NDGIQDAIAL VLAPHYSTFS
+     VKSYVGRAQE EAEKLGNLTI HGIDSWYKEP KFIQYWVDAV KGIYNGMSDA EREKAVLIVS
+     AHSLPEKIIA MGDPYPDQLN ETADYIARGA EVANYAVGWQ SAGNTPDPWI GPDVQDLTRE
+     LNEKHGYTSF VYAPVGFVAE HLEVLYDNDF ECKVVTDEIG AKYYRPEMPN ASDAFIDCLT
+     DVVLKKKESV L
+//

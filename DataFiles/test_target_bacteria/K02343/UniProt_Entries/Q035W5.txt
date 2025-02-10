@@ -1,0 +1,105 @@
+ID   Q035W5_LACP3            Unreviewed;       565 AA.
+AC   Q035W5;
+DT   14-NOV-2006, integrated into UniProtKB/TrEMBL.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00012417};
+DE            EC=2.7.7.7 {ECO:0000256|ARBA:ARBA00012417};
+GN   OrderedLocusNames=LSEI_2263 {ECO:0000313|EMBL:ABJ71007.1};
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967 {ECO:0000313|EMBL:ABJ71007.1, ECO:0000313|Proteomes:UP000001651};
+RN   [1] {ECO:0000313|EMBL:ABJ71007.1, ECO:0000313|Proteomes:UP000001651}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441 {ECO:0000313|Proteomes:UP000001651};
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K., Slesarev A., Wolf Y., Sorokin A., Mirkin B., Koonin E.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M., Klaenhammer T., Richardson P.,
+RA   Kozyavkin S., Weimer B., Mills D.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=DNA(n) + a 2'-deoxyribonucleoside 5'-triphosphate = DNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339, Rhea:RHEA-
+CC         COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:173112;
+CC         EC=2.7.7.7; Evidence={ECO:0000256|ARBA:ARBA00049244};
+CC   -!- SIMILARITY: Belongs to the DnaX/STICHEL family.
+CC       {ECO:0000256|ARBA:ARBA00006360}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ71007.1; -; Genomic_DNA.
+DR   RefSeq; WP_003567107.1; NC_008526.1.
+DR   RefSeq; YP_807449.1; NC_008526.1.
+DR   AlphaFoldDB; Q035W5; -.
+DR   STRING; 321967.LSEI_2263; -.
+DR   PaxDb; 321967-LSEI_2263; -.
+DR   KEGG; lca:LSEI_2263; -.
+DR   PATRIC; fig|321967.11.peg.2226; -.
+DR   HOGENOM; CLU_006229_0_3_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0009360; C:DNA polymerase III complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; IEA:TreeGrafter.
+DR   CDD; cd00009; AAA; 1.
+DR   CDD; cd18137; HLD_clamp_pol_III_gamma_tau; 1.
+DR   FunFam; 1.10.8.60:FF:000013; DNA polymerase III subunit gamma/tau; 1.
+DR   FunFam; 3.40.50.300:FF:000014; DNA polymerase III subunit gamma/tau; 1.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 1.20.272.10; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR001270; ClpA/B.
+DR   InterPro; IPR008921; DNA_pol3_clamp-load_cplx_C.
+DR   InterPro; IPR022754; DNA_pol_III_gamma-3.
+DR   InterPro; IPR012763; DNA_pol_III_sug/sutau_N.
+DR   InterPro; IPR050238; DNA_Rep/Repair_Clamp_Loader.
+DR   InterPro; IPR045085; HLD_clamp_pol_III_gamma_tau.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR02397; dnaX_nterm; 1.
+DR   PANTHER; PTHR11669:SF0; PROTEIN STICHEL-LIKE 2; 1.
+DR   PANTHER; PTHR11669; REPLICATION FACTOR C / DNA POLYMERASE III GAMMA-TAU SUBUNIT; 1.
+DR   Pfam; PF13177; DNA_pol3_delta2; 1.
+DR   Pfam; PF12169; DNA_pol3_gamma3; 1.
+DR   Pfam; PF22608; DNAX_ATPase_lid; 1.
+DR   PRINTS; PR00300; CLPPROTEASEA.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF48019; post-AAA+ oligomerization domain-like; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705};
+KW   DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00022932};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022932};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001651};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022932};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833}.
+FT   DOMAIN          37..179
+FT                   /note="AAA+ ATPase"
+FT                   /evidence="ECO:0000259|SMART:SM00382"
+SQ   SEQUENCE   565 AA;  62627 MW;  1949309E7C5CB9EB CRC64;
+     MSYQALYRVW RPQQFKDVIG QEAITKTLKN ALITGQTSHA YLFTGPRGTG KTSVAKILAK
+     ALNCLHLEDG EPDNTCEICQ AINNGSLTDV IEIDAASNNG VDEIRDIRDK AKYAPTQARV
+     KVYIIDEVHM LSSGAFNALL KTLEEPPAHV VFILATTEPH KIPATIISRT QRFDFRRITP
+     EDIVKRMRFI LDDKQITYDD AALKVIAKAA EGGMRDALSI LDQVLSFGDN HVTTEDALDV
+     TGGVTTAVLG KYLAAVLAKD HAQALKMIED LLASGKDAGR LIEDLIEYLR DLLVNQQAPT
+     LLGDLEKSLL DDQFKILSEN FKPEQIYHMI DVLNSTQQQL RMTNHPEIYL EVATVRLSET
+     TTPQVTAAPA QAENPQFEKL TAKVKQLSDQ LKRVEANGGT IPPPTRTRKH VKAKANHVNR
+     KAIYPILGAA TKQDLTNLKD VWPNLLGLLS ITKRAMMKVS EPVAASPNGV IVSFDYDIYV
+     ERAMNDAALM TELESGLQKL TGKQPKIVLV QSDVWPTIRQ DYIQELKAPE NKEQKADTKP
+     QIPPVVSKLT ELFGKDAPNV TIKND
+//

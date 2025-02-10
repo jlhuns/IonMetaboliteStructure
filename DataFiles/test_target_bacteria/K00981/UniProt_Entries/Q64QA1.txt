@@ -1,0 +1,97 @@
+ID   Q64QA1_BACFR            Unreviewed;       318 AA.
+AC   Q64QA1;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 89.
+DE   RecName: Full=Phosphatidate cytidylyltransferase {ECO:0000256|RuleBase:RU003938};
+DE            EC=2.7.7.41 {ECO:0000256|RuleBase:RU003938};
+GN   OrderedLocusNames=BF3587 {ECO:0000313|EMBL:BAD50330.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50330.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50330.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50330.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphate + CTP + H(+) = a CDP-1,2-
+CC         diacyl-sn-glycerol + diphosphate; Xref=Rhea:RHEA:16229,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:58332, ChEBI:CHEBI:58608; EC=2.7.7.41;
+CC         Evidence={ECO:0000256|RuleBase:RU003938};
+CC   -!- PATHWAY: Phospholipid metabolism; CDP-diacylglycerol biosynthesis; CDP-
+CC       diacylglycerol from sn-glycerol 3-phosphate: step 3/3.
+CC       {ECO:0000256|RuleBase:RU003938}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the CDS family. {ECO:0000256|ARBA:ARBA00010185,
+CC       ECO:0000256|RuleBase:RU003938}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50330.1; -; Genomic_DNA.
+DR   RefSeq; WP_005790388.1; NZ_UYXF01000009.1.
+DR   RefSeq; YP_100864.1; NC_006347.1.
+DR   AlphaFoldDB; Q64QA1; -.
+DR   STRING; 295405.BF3587; -.
+DR   KEGG; bfr:BF3587; -.
+DR   PATRIC; fig|295405.11.peg.3444; -.
+DR   HOGENOM; CLU_037294_3_0_10; -.
+DR   OrthoDB; 9799199at2; -.
+DR   UniPathway; UPA00557; UER00614.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0004605; F:phosphatidate cytidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016024; P:CDP-diacylglycerol biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009273; P:peptidoglycan-based cell wall biogenesis; IEA:TreeGrafter.
+DR   InterPro; IPR000374; PC_trans.
+DR   PANTHER; PTHR43535; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43535:SF1; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   Pfam; PF01148; CTP_transf_1; 1.
+DR   PROSITE; PS01315; CDS; 1.
+PE   3: Inferred from homology;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Nucleotidyltransferase {ECO:0000256|RuleBase:RU003938,
+KW   ECO:0000313|EMBL:BAD50330.1};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003938};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003938};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        16..37
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        57..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        122..143
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        155..177
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        189..208
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        229..250
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        256..276
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   318 AA;  35384 MW;  90D47F78E968AEDC CRC64;
+     MKDLLDKIFP TLSDELIIVI SLIIGLLVTA SLILFLVKKI FPKTNISELA ARTRSWWIMA
+     GMFIGAVFIS YNISYFFLAF LSFIAFRELY SVLGFREADR GALFWGILAI PIQYYLAYLA
+     WYGAFIIFIP VVMFLVLPLR LVLKGDTHGI TKSMALLQWI LMLSVFGISH LAYLLSLPEL
+     PGFSSGGRGL LLFLVFLTEI NDVMQFIWGK LLGRHKILPK ISPNKTWEGF LGGVISTTVI
+     GYFLGFLTPL SAPNVILVSA LIAIAGFSGD VVISAIKRDK GIKDMGNSIP GHGGVFDRID
+     SLAYTAPVFF HLVYYIAY
+//

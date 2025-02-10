@@ -1,0 +1,89 @@
+ID   D5EU15_XYLR2            Unreviewed;       234 AA.
+AC   D5EU15;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 76.
+DE   RecName: Full=tRNA pseudouridine synthase B {ECO:0000256|HAMAP-Rule:MF_01080};
+DE            EC=5.4.99.25 {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridine(55) synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE            Short=Psi55 synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridylate synthase {ECO:0000256|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA-uridine isomerase {ECO:0000256|HAMAP-Rule:MF_01080};
+GN   Name=truB {ECO:0000256|HAMAP-Rule:MF_01080,
+GN   ECO:0000313|EMBL:ADE83242.1};
+GN   OrderedLocusNames=PRU_1832 {ECO:0000313|EMBL:ADE83242.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE83242.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE83242.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Responsible for synthesis of pseudouridine from uracil-55 in
+CC       the psi GC loop of transfer RNAs. {ECO:0000256|HAMAP-Rule:MF_01080}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(55) in tRNA = pseudouridine(55) in tRNA;
+CC         Xref=Rhea:RHEA:42532, Rhea:RHEA-COMP:10101, Rhea:RHEA-COMP:10102,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315; EC=5.4.99.25;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000385, ECO:0000256|HAMAP-
+CC         Rule:MF_01080};
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase TruB family. Type 1
+CC       subfamily. {ECO:0000256|ARBA:ARBA00005642, ECO:0000256|HAMAP-
+CC       Rule:MF_01080}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE83242.1; -; Genomic_DNA.
+DR   RefSeq; WP_013065226.1; NC_014033.1.
+DR   AlphaFoldDB; D5EU15; -.
+DR   STRING; 264731.PRU_1832; -.
+DR   KEGG; pru:PRU_1832; -.
+DR   eggNOG; COG0130; Bacteria.
+DR   HOGENOM; CLU_032087_2_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0160148; F:tRNA pseudouridine(55) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:1990481; P:mRNA pseudouridine synthesis; IEA:TreeGrafter.
+DR   GO; GO:0031119; P:tRNA pseudouridine synthesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd02573; PseudoU_synth_EcTruB; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   HAMAP; MF_01080; TruB_bact; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR002501; PsdUridine_synth_N.
+DR   InterPro; IPR014780; tRNA_psdUridine_synth_TruB.
+DR   InterPro; IPR032819; TruB_C.
+DR   NCBIfam; TIGR00431; TruB; 1.
+DR   PANTHER; PTHR13767:SF2; PSEUDOURIDYLATE SYNTHASE TRUB1; 1.
+DR   PANTHER; PTHR13767; TRNA-PSEUDOURIDINE SYNTHASE; 1.
+DR   Pfam; PF16198; TruB_C_2; 1.
+DR   Pfam; PF01509; TruB_N; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01080};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01080}.
+FT   DOMAIN          36..183
+FT                   /note="Pseudouridine synthase II N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01509"
+FT   DOMAIN          184..224
+FT                   /note="tRNA pseudouridylate synthase B C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF16198"
+FT   ACT_SITE        48
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01080"
+SQ   SEQUENCE   234 AA;  26184 MW;  B6A9711CE6492D88 CRC64;
+     MNFQEGAYIY INKPYRMSSF GALAHIRYVL SKRLHVKRVK MGHAGTLDPL ATGVLVLCTG
+     KATKQIEALQ LHSKEYTATL QLGATTPSYD LEHEVDATYP TAHITRELIE QTLPRFVGDI
+     MQRPPLFSAC KVGGDRAYEL ARKGSDHQLA EKPVHIDEIE IIDFDPEKMQ LQIRVGCGKG
+     TYIRSLARDI GEALGSGAHL TALCRTRVGD VRLEDCLTFD EFPAWLEEKL NIND
+//

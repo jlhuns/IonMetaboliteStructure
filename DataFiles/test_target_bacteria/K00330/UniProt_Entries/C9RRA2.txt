@@ -1,0 +1,81 @@
+ID   C9RRA2_FIBSS            Unreviewed;       130 AA.
+AC   C9RRA2;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit {ECO:0000256|RuleBase:RU003639};
+DE            EC=7.1.1.- {ECO:0000256|RuleBase:RU003639};
+GN   Name=nuoA_1 {ECO:0000313|EMBL:ADL25416.1};
+GN   OrderedLocusNames=FSU_1972 {ECO:0000313|EMBL:ADL25416.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25416.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain.
+CC       {ECO:0000256|RuleBase:RU003639}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000256|RuleBase:RU003639};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|RuleBase:RU003639};
+CC       Multi-pass membrane protein {ECO:0000256|RuleBase:RU003639}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004370}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 3 family.
+CC       {ECO:0000256|ARBA:ARBA00008472, ECO:0000256|RuleBase:RU003639}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25416.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546180.1; NC_017448.1.
+DR   AlphaFoldDB; C9RRA2; -.
+DR   STRING; 59374.FSU_1972; -.
+DR   KEGG; fsc:FSU_1972; -.
+DR   KEGG; fsu:Fisuc_1491; -.
+DR   eggNOG; COG0838; Bacteria.
+DR   HOGENOM; CLU_119549_0_2_0; -.
+DR   OrthoDB; 9791970at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0030964; C:NADH dehydrogenase complex; IEA:TreeGrafter.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.58.1610; NADH:ubiquinone/plastoquinone oxidoreductase, chain 3; 1.
+DR   InterPro; IPR000440; NADH_UbQ/plastoQ_OxRdtase_su3.
+DR   InterPro; IPR038430; NDAH_ubi_oxred_su3_sf.
+DR   PANTHER; PTHR11058; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 3; 1.
+DR   PANTHER; PTHR11058:SF9; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 3; 1.
+DR   Pfam; PF00507; Oxidored_q4; 1.
+PE   3: Inferred from homology;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   NAD {ECO:0000256|RuleBase:RU003639};
+KW   Oxidoreductase {ECO:0000313|EMBL:ADL25416.1};
+KW   Quinone {ECO:0000256|RuleBase:RU003639};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003639};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}; Transport {ECO:0000256|ARBA:ARBA00022448};
+KW   Ubiquinone {ECO:0000313|EMBL:ADL25416.1}.
+FT   TRANSMEM        12..34
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        68..87
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        99..117
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   130 AA;  14709 MW;  3752EE188DD82691 CRC64;
+     MSNVEIFDTT FAMTILVIMA LCIPTVLLVA NWVLHPGKIK HTIIKGSAYE CGLAHVSGTA
+     NERYPVKYYM VAMLFLVFDL EVAFIYPWTI QFLAGGWELL FILLGFLLIL EAGYIYLLKK
+     GVLDWNSVKD
+//

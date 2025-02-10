@@ -1,0 +1,171 @@
+ID   XYL3A_XYLR2             Reviewed;         861 AA.
+AC   D5EY15; C0LJN1;
+DT   29-MAY-2013, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 73.
+DE   RecName: Full=Xylan 1,4-beta-xylosidase {ECO:0000250|UniProtKB:P45702};
+DE            EC=3.2.1.37 {ECO:0000269|PubMed:19304844};
+DE   AltName: Full=1,4-beta-D-xylan xylohydrolase {ECO:0000250|UniProtKB:P45702};
+DE   AltName: Full=Alpha-L-arabinofuranosidase {ECO:0000250|UniProtKB:P96463};
+DE            Short=Arabinosidase {ECO:0000250|UniProtKB:P96463};
+DE            EC=3.2.1.55 {ECO:0000269|PubMed:19304844};
+DE   AltName: Full=Beta-D-xylosidase;
+DE   AltName: Full=Exo-1,4-beta-xylosidase;
+DE   Flags: Precursor;
+GN   Name=xyl3A {ECO:0000312|EMBL:ACN78955.1}; OrderedLocusNames=PRU_2730;
+GN   ORFNames=02829;
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:ACN78955.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE SPECIFICITY, GENE NAME, SUBUNIT,
+RP   AND MUTAGENESIS OF ARG-149; TYR-237; ASP-269; GLU-594 AND GLU-616.
+RC   STRAIN=ATCC 19189 / DSM 19721 / CIP 105475 / JCM 8958 / 23
+RC   {ECO:0000269|PubMed:19304844};
+RX   PubMed=19304844; DOI=10.1128/jb.01628-08;
+RA   Dodd D., Kocherginskaya S.A., Spies M.A., Beery K.E., Abbas C.A.,
+RA   Mackie R.I., Cann I.K.;
+RT   "Biochemical analysis of a beta-D-xylosidase and a bifunctional xylanase-
+RT   ferulic acid esterase from a xylanolytic gene cluster in Prevotella
+RT   ruminicola 23.";
+RL   J. Bacteriol. 191:3328-3338(2009).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:ADE82109.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / DSM 19721 / CIP 105475 / JCM 8958 / 23
+RC   {ECO:0000269|PubMed:20585943};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Involved in degradation of plant cell wall polysaccharides.
+CC       Has beta-xylosidase activity via its capacity to hydrolyze glycosidic
+CC       linkages of beta-1,4-xylo-oligosaccharides of various lengths (X2 to
+CC       X6), releasing xylose monomers. To a much lesser extent, also has
+CC       alpha-L-arabinofuranosidase activity. Does not possess beta-D-
+CC       glucosidase activity. Acts synergistically with Xyn10D-Fae1A to
+CC       increase the release of xylose from xylan.
+CC       {ECO:0000269|PubMed:19304844}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->4)-beta-D-xylans, to remove successive D-
+CC         xylose residues from the non-reducing termini.; EC=3.2.1.37;
+CC         Evidence={ECO:0000269|PubMed:19304844};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing alpha-L-arabinofuranoside
+CC         residues in alpha-L-arabinosides.; EC=3.2.1.55;
+CC         Evidence={ECO:0000269|PubMed:19304844};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.8 mM for pNP-beta-D-xylopyranoside (pNPX) (at 37 degrees Celsius
+CC         and pH 5.0) {ECO:0000269|PubMed:19304844};
+CC         Note=kcat is 9.7 sec(-1) for the beta-xylosidase activity with pNPX
+CC         as substrate (at 37 degrees Celsius and pH 5.0).;
+CC       pH dependence:
+CC         Optimum pH is 5.0. {ECO:0000269|PubMed:19304844};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC       {ECO:0000269|PubMed:19304844}.
+CC   -!- SUBUNIT: Exists as a large polymeric species, presumably as a
+CC       homononamer. {ECO:0000269|PubMed:19304844}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 3 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ713438; ACN78955.1; -; Genomic_DNA.
+DR   EMBL; CP002006; ADE82109.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064096.1; NC_014033.1.
+DR   AlphaFoldDB; D5EY15; -.
+DR   SMR; D5EY15; -.
+DR   STRING; 264731.PRU_2730; -.
+DR   CAZy; GH3; Glycoside Hydrolase Family 3.
+DR   GeneID; 31502261; -.
+DR   KEGG; pru:PRU_2730; -.
+DR   eggNOG; COG1472; Bacteria.
+DR   HOGENOM; CLU_004542_5_3_10; -.
+DR   BRENDA; 3.2.1.37; 768.
+DR   UniPathway; UPA00114; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0046556; F:alpha-L-arabinofuranosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009044; F:xylan 1,4-beta-xylosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0031222; P:arabinan catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.1700; Glycoside hydrolase family 3 C-terminal domain; 2.
+DR   Gene3D; 3.20.20.300; Glycoside hydrolase, family 3, N-terminal domain; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   InterPro; IPR044993; BXL.
+DR   InterPro; IPR026891; Fn3-like.
+DR   InterPro; IPR002772; Glyco_hydro_3_C.
+DR   InterPro; IPR036881; Glyco_hydro_3_C_sf.
+DR   InterPro; IPR001764; Glyco_hydro_3_N.
+DR   InterPro; IPR036962; Glyco_hydro_3_N_sf.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR037524; PA14/GLEYA.
+DR   InterPro; IPR011658; PA14_dom.
+DR   InterPro; IPR054850; Xylosidase_Xyl3A.
+DR   NCBIfam; NF041776; xylosidase_Xyl3A; 1.
+DR   PANTHER; PTHR42721:SF3; BETA-D-XYLOSIDASE 5-RELATED; 1.
+DR   PANTHER; PTHR42721; SUGAR HYDROLASE-RELATED; 1.
+DR   Pfam; PF14310; Fn3-like; 1.
+DR   Pfam; PF00933; Glyco_hydro_3; 1.
+DR   Pfam; PF01915; Glyco_hydro_3_C; 1.
+DR   Pfam; PF07691; PA14; 1.
+DR   PRINTS; PR00133; GLHYDRLASE3.
+DR   SMART; SM01217; Fn3_like; 1.
+DR   SMART; SM00758; PA14; 1.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF52279; Beta-D-glucan exohydrolase, C-terminal domain; 1.
+DR   PROSITE; PS51820; PA14; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Hydrolase; Polysaccharide degradation;
+KW   Reference proteome; Signal; Xylan degradation.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..861
+FT                   /note="Xylan 1,4-beta-xylosidase"
+FT                   /id="PRO_0000422406"
+FT   DOMAIN          458..600
+FT                   /note="PA14"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01164"
+FT   ACT_SITE        269
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        616
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         149
+FT                   /note="R->L: Abolishes xylosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:19304844"
+FT   MUTAGEN         237
+FT                   /note="Y->F: 6-fold decrease in xylosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:19304844"
+FT   MUTAGEN         269
+FT                   /note="D->A,N: Abolishes xylosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:19304844"
+FT   MUTAGEN         594
+FT                   /note="E->Q: No effect on xylosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:19304844"
+FT   MUTAGEN         616
+FT                   /note="E->A: Moderately reduces xylosidase activity."
+FT                   /evidence="ECO:0000269|PubMed:19304844"
+SQ   SEQUENCE   861 AA;  96224 MW;  830308889FE67800 CRC64;
+     MKYQLFLSLA LCVGLGASAQ TLPYQNPNLS AKERAVDLCS RLTLEEKAML MLDESPAIPR
+     LGIKKFFWWS EALHGAANMG NVTNFPEPVG MAASFNPHLL FKVFDIASTE FRAQYNHRMY
+     DLNGEDMKMR SLSVWTPNVN IFRDPRWGRG QETYGEDPYL TSVMGVQVVK GLQGPEDARY
+     RKLWACAKHY AVHSGPEYTR HTANLTDVSA RDFWETYMPA FKTLVKDAKV REVMCAYQRL
+     DDDPCCGSTR LLQQILRDEW GFEYLVVSDC GAVSDFYENH KSSSDAVHGT SKAVLAGTDV
+     ECGFNYAYKS LPEAVRKGLL SEKEVDKHVI RLLEGRFDLG EMDDPSLVEW SKIPYSAMST
+     KASANVALDM ARQTIVLLQN KNNILPLKKN AEKIAIIGPN AHNEPMMWGN YNGTPNHTVT
+     ILDGVKAKQK KLVYIPGCDL TNDKVMECHL ATDCVTPDGK KGLKGTFWNN TEMAGKPFTT
+     EYYTKPVNVT TAGMHVFAPN LPIEDFSAKY ETTFTAKEAG EYVVNVESTG HFELYVNGKQ
+     QFVNHIWRAT PTRTVLKAEK GQKFDIEVRF QTVKTWGASM KIDVARELNI DYQETIAQLK
+     GINKVIFCGG IAPSLEGEEM PVNIEGFKGG DRTSIELPKV QREFLKALKA AGKQVIYVNC
+     SGSAIALQPE TESCDAIVQA WYPGQEGGTA VADVLFGDYN PGGKLSVTFY KNDQQLPDYE
+     DYSMKGRTYR YFDDALFPFG YGLSYTTFEV GEAKVEAATD GALYNVQIPV TNTGTKNGSE
+     TIQLYIRNLQ DPDGPLKSLR GFERLDIKAG KTATANLKLT KESLEFWDAE TNTMRTKPGK
+     YEILYGTSSL DKDLKKLTIT L
+//

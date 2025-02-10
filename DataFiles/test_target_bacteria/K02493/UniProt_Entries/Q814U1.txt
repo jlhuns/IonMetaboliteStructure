@@ -1,0 +1,109 @@
+ID   PRMC_BACCR              Reviewed;         283 AA.
+AC   Q814U1;
+DT   14-DEC-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Release factor glutamine methyltransferase {ECO:0000255|HAMAP-Rule:MF_02126};
+DE            Short=RF MTase {ECO:0000255|HAMAP-Rule:MF_02126};
+DE            EC=2.1.1.297 {ECO:0000255|HAMAP-Rule:MF_02126};
+DE   AltName: Full=N5-glutamine methyltransferase PrmC {ECO:0000255|HAMAP-Rule:MF_02126};
+DE   AltName: Full=Protein-(glutamine-N5) MTase PrmC {ECO:0000255|HAMAP-Rule:MF_02126};
+DE   AltName: Full=Protein-glutamine N-methyltransferase PrmC {ECO:0000255|HAMAP-Rule:MF_02126};
+GN   Name=prmC {ECO:0000255|HAMAP-Rule:MF_02126};
+GN   OrderedLocusNames=BC_5328;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Methylates the class 1 translation termination release
+CC       factors RF1/PrfA and RF2/PrfB on the glutamine residue of the
+CC       universally conserved GGQ motif. {ECO:0000255|HAMAP-Rule:MF_02126}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutaminyl-[peptide chain release factor] + S-adenosyl-L-
+CC         methionine = N(5)-methyl-L-glutaminyl-[peptide chain release factor]
+CC         + S-adenosyl-L-homocysteine + H(+); Xref=Rhea:RHEA:42896, Rhea:RHEA-
+CC         COMP:10271, Rhea:RHEA-COMP:10272, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30011, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:61891; EC=2.1.1.297; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_02126};
+CC   -!- SIMILARITY: Belongs to the protein N5-glutamine methyltransferase
+CC       family. PrmC subfamily. {ECO:0000255|HAMAP-Rule:MF_02126}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12191.1; -; Genomic_DNA.
+DR   RefSeq; NP_834990.1; NC_004722.1.
+DR   RefSeq; WP_001267061.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q814U1; -.
+DR   SMR; Q814U1; -.
+DR   STRING; 226900.BC_5328; -.
+DR   KEGG; bce:BC5328; -.
+DR   PATRIC; fig|226900.8.peg.5501; -.
+DR   HOGENOM; CLU_018398_3_2_9; -.
+DR   OrthoDB; 9800643at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0102559; F:protein-(glutamine-N5) methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036009; F:protein-glutamine N-methyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006415; P:translational termination; IBA:GO_Central.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 1.10.8.10; DNA helicase RuvA subunit, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_02126; RF_methyltr_PrmC; 1.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR004556; HemK-like.
+DR   InterPro; IPR050320; N5-glutamine_MTase.
+DR   InterPro; IPR040758; PrmC_N.
+DR   InterPro; IPR019874; Release_fac_Glu-N5_MeTfrase.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR007848; Small_mtfrase_dom.
+DR   NCBIfam; TIGR00536; hemK_fam; 1.
+DR   NCBIfam; TIGR03534; RF_mod_PrmC; 1.
+DR   PANTHER; PTHR18895; HEMK METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR18895:SF74; MTRF1L RELEASE FACTOR GLUTAMINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF05175; MTS; 1.
+DR   Pfam; PF17827; PrmC_N; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..283
+FT                   /note="Release factor glutamine methyltransferase"
+FT                   /id="PRO_0000414500"
+FT   BINDING         121..125
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02126"
+FT   BINDING         144
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02126"
+FT   BINDING         188..191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02126"
+FT   BINDING         188
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02126"
+SQ   SEQUENCE   283 AA;  32192 MW;  F850B0423F725E54 CRC64;
+     MRVYEALKWA SSFLQENGRD ENAGEIVLCH VLKVNRTGLL MNMREEITEE QEKSFTEFIH
+     KHVEGIPIQY MIGYEIFYGR SFFVNEEVLI PRPETEELIV GVLERIERHF GDEKLHVADI
+     GTGSGAISIT LALENKNLHV YTVDIAQESI EVAKENAKAL GAEVTFYHGD LLSPFHKTGQ
+     KLDVVVSNPP YIPEEDWRGL SPVVKEHEPK RALVGGEDGL DFYRRFMEEL PNVLQKKAIV
+     AFEIGVGQGE DVKRLLQQAF PHAHVEVVFD INGKDRMVFA EME
+//

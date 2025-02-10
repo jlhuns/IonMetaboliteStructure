@@ -1,0 +1,90 @@
+ID   A0A8B8S058_CAMFR        Unreviewed;       322 AA.
+AC   A0A8B8S058;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=Pyrroline-5-carboxylate reductase 3 {ECO:0000256|ARBA:ARBA00039786};
+DE            EC=1.5.1.2 {ECO:0000256|ARBA:ARBA00012855};
+DE   AltName: Full=Pyrroline-5-carboxylate reductase-like protein {ECO:0000256|ARBA:ARBA00042532};
+GN   Name=PYCR3 {ECO:0000313|RefSeq:XP_032323583.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032323583.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032323583.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032323583.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Enzyme that catalyzes the last step in proline biosynthesis.
+CC       Proline is synthesized from either glutamate or ornithine; both are
+CC       converted to pyrroline-5-carboxylate (P5C), and then to proline via
+CC       pyrroline-5-carboxylate reductases (PYCRs). PYCRL is exclusively linked
+CC       to the conversion of ornithine to proline.
+CC       {ECO:0000256|ARBA:ARBA00037662}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NAD(+) = (S)-1-pyrroline-5-carboxylate + NADH + 2
+CC         H(+); Xref=Rhea:RHEA:14105, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049532};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NADP(+) = (S)-1-pyrroline-5-carboxylate + NADPH +
+CC         2 H(+); Xref=Rhea:RHEA:14109, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047782};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-proline
+CC       from L-glutamate 5-semialdehyde: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005205}.
+CC   -!- SUBUNIT: Homodecamer; composed of 5 homodimers.
+CC       {ECO:0000256|ARBA:ARBA00038523}.
+CC   -!- SIMILARITY: Belongs to the pyrroline-5-carboxylate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00005525}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032323583.1; XM_032467692.1.
+DR   KEGG; cfr:102510638; -.
+DR   UniPathway; UPA00098; UER00361.
+DR   Proteomes; UP000694856; Chromosome 25.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004735; F:pyrroline-5-carboxylate reductase activity; IEA:InterPro.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   FunFam; 3.40.50.720:FF:000367; Pyrroline-5-carboxylate reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 1.10.3730.10; ProC C-terminal domain-like; 1.
+DR   HAMAP; MF_01925; P5C_reductase; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR028939; P5C_Rdtase_cat_N.
+DR   InterPro; IPR029036; P5CR_dimer.
+DR   InterPro; IPR000304; Pyrroline-COOH_reductase.
+DR   PANTHER; PTHR11645; PYRROLINE-5-CARBOXYLATE REDUCTASE; 1.
+DR   PANTHER; PTHR11645:SF0; PYRROLINE-5-CARBOXYLATE REDUCTASE 3; 1.
+DR   Pfam; PF03807; F420_oxidored; 1.
+DR   Pfam; PF14748; P5CR_dimer; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Proline biosynthesis {ECO:0000256|ARBA:ARBA00022650}.
+FT   DOMAIN          12..106
+FT                   /note="Pyrroline-5-carboxylate reductase catalytic N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF03807"
+FT   DOMAIN          169..216
+FT                   /note="Pyrroline-5-carboxylate reductase dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF14748"
+FT   REGION          282..322
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   322 AA;  33264 MW;  342CB4D1828638D3 CRC64;
+     MAAEAAESLP RRVGFVGAGR MAEAVAQGLI RAGKVEAQHV LASAPTDRNL CHFRALGCQT
+     THSNLEVLQG CSLVFFATKP HVLPAVLAEV APVVTAEHIL VSVAAGVSLS TLEELLPPTA
+     RVLRVSPNLP CVVQEGALVM ARGRHAGSSE VELLRTLLEA CGQCEEVPEA HVDVHTGLSG
+     SGVAFVCAFS EALAEGAIKM GMPSGLAHRI TAQTLLVRPC CLAPEECVDR MGDSQDASAG
+     GAAPGPAADG RVHAGWHHHL WAARAGAGWA ACSRHERRGG CHLPGQGDQP EIGHMGAGLG
+     HSPECRPSLP LSLAPSEDSV GQ
+//

@@ -1,0 +1,121 @@
+ID   SYY_LEGPH               Reviewed;         401 AA.
+AC   Q5ZY07;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 2.
+DT   05-FEB-2025, entry version 110.
+DE   RecName: Full=Tyrosine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            EC=6.1.1.1 {ECO:0000255|HAMAP-Rule:MF_02007};
+DE   AltName: Full=Tyrosyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            Short=TyrRS {ECO:0000255|HAMAP-Rule:MF_02007};
+GN   Name=tyrS {ECO:0000255|HAMAP-Rule:MF_02007};
+GN   OrderedLocusNames=lpg0568;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-
+CC       step reaction: tyrosine is first activated by ATP to form Tyr-AMP and
+CC       then transferred to the acceptor end of tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_02007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Tyr) + L-tyrosine + ATP = L-tyrosyl-tRNA(Tyr) + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:10220, Rhea:RHEA-COMP:9706,
+CC         Rhea:RHEA-COMP:9707, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58315, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78536, ChEBI:CHEBI:456215; EC=6.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02007};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       TyrS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAU26662.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26662.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_015444785.1; NC_002942.5.
+DR   RefSeq; YP_094609.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZY07; -.
+DR   SMR; Q5ZY07; -.
+DR   STRING; 272624.lpg0568; -.
+DR   PaxDb; 272624-lpg0568; -.
+DR   GeneID; 57034567; -.
+DR   KEGG; lpn:lpg0568; -.
+DR   PATRIC; fig|272624.6.peg.589; -.
+DR   eggNOG; COG0162; Bacteria.
+DR   HOGENOM; CLU_024003_5_0_6; -.
+DR   OrthoDB; 9804243at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00165; S4; 1.
+DR   CDD; cd00805; TyrRS_core; 1.
+DR   FunFam; 1.10.240.10:FF:000006; Tyrosine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000061; Tyrosine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.10.290.10; RNA-binding S4 domain; 1.
+DR   Gene3D; 1.10.240.10; Tyrosyl-Transfer RNA Synthetase; 1.
+DR   HAMAP; MF_02007; Tyr_tRNA_synth_type2; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024108; Tyr-tRNA-ligase_bac_2.
+DR   NCBIfam; TIGR00234; tyrS; 1.
+DR   PANTHER; PTHR11766:SF1; TYROSINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR11766; TYROSYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   SMART; SM00363; S4; 1.
+DR   SUPFAM; SSF55174; Alpha-L RNA-binding motif; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding.
+FT   CHAIN           1..401
+FT                   /note="Tyrosine--tRNA ligase"
+FT                   /id="PRO_0000236730"
+FT   DOMAIN          336..397
+FT                   /note="S4 RNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+FT   MOTIF           42..51
+FT                   /note="'HIGH' region"
+FT   MOTIF           226..230
+FT                   /note="'KMSKS' region"
+FT   BINDING         229
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+SQ   SEQUENCE   401 AA;  45340 MW;  504E73D91D86FE4C CRC64;
+     MIVQDSVCSE LMRGCEEILP VPELEKKLQK GIPLKIKAGF DPTAPDLHLG HTVLLNKLRQ
+     FQQFGHEVIF LIGDFTAMIG DPTGKNVTRM PLSQETVLEN AKTYQHQVFK ILDPDKTTVA
+     FNSQWLNKFN AVDLIRLAAT HTVARMLERD DFNKRYTTGQ PIAIHEFLYP LLQGYDSVAL
+     KADVELGGTD QKFNLLMGRE LQKHYGFEPQ VVMMTPLIEG LDGVKKMSKS LDNYIGINET
+     PEQMFGKIMS VSDELMWRYI DLLSFKTGKE IQQLKQSVLE GKNPRDVKID FAKEIVARFH
+     DQTQAEFAHN KFIERFQKGN IPEDLEELSL VIAEPIALAQ LLKQIDLTAS TSESIRMVKQ
+     GAVKVDGDKI SDPSLKLPIG KSYIIQVGKR RIAKLSIQQA D
+//

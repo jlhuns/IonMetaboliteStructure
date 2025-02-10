@@ -1,0 +1,96 @@
+ID   A0AAF0BT19_RHOPA        Unreviewed;       177 AA.
+AC   A0AAF0BT19;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=6,7-dimethyl-8-ribityllumazine synthase {ECO:0000256|ARBA:ARBA00012664, ECO:0000256|HAMAP-Rule:MF_00178};
+DE            Short=DMRL synthase {ECO:0000256|HAMAP-Rule:MF_00178};
+DE            Short=LS {ECO:0000256|HAMAP-Rule:MF_00178};
+DE            Short=Lumazine synthase {ECO:0000256|HAMAP-Rule:MF_00178};
+DE            EC=2.5.1.78 {ECO:0000256|ARBA:ARBA00012664, ECO:0000256|HAMAP-Rule:MF_00178};
+GN   Name=ribH {ECO:0000256|HAMAP-Rule:MF_00178};
+GN   ORFNames=TX73_022615 {ECO:0000313|EMBL:WCL94558.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL94558.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL94558.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the formation of 6,7-dimethyl-8-ribityllumazine by
+CC       condensation of 5-amino-6-(D-ribitylamino)uracil with 3,4-dihydroxy-2-
+CC       butanone 4-phosphate. This is the penultimate step in the biosynthesis
+CC       of riboflavin. {ECO:0000256|HAMAP-Rule:MF_00178}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-2-hydroxy-3-oxobutyl phosphate + 5-amino-6-(D-
+CC         ribitylamino)uracil = 6,7-dimethyl-8-(1-D-ribityl)lumazine +
+CC         phosphate + 2 H2O + H(+); Xref=Rhea:RHEA:26152, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15934, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58201, ChEBI:CHEBI:58830; EC=2.5.1.78;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048785, ECO:0000256|HAMAP-
+CC         Rule:MF_00178};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; riboflavin
+CC       from 2-hydroxy-3-oxobutyl phosphate and 5-amino-6-(D-
+CC       ribitylamino)uracil: step 1/2. {ECO:0000256|ARBA:ARBA00004917,
+CC       ECO:0000256|HAMAP-Rule:MF_00178}.
+CC   -!- SIMILARITY: Belongs to the DMRL synthase family.
+CC       {ECO:0000256|ARBA:ARBA00007424, ECO:0000256|HAMAP-Rule:MF_00178}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00178}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL94558.1; -; Genomic_DNA.
+DR   RefSeq; WP_042441302.1; NZ_CP116810.1.
+DR   GeneID; 66895496; -.
+DR   KEGG; rpa:TX73_022615; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0009349; C:riboflavin synthase complex; IEA:InterPro.
+DR   GO; GO:0000906; F:6,7-dimethyl-8-ribityllumazine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.960; Lumazine/riboflavin synthase; 1.
+DR   HAMAP; MF_00178; Lumazine_synth; 1.
+DR   InterPro; IPR034964; LS.
+DR   InterPro; IPR002180; LS/RS.
+DR   InterPro; IPR036467; LS/RS_sf.
+DR   PANTHER; PTHR21058:SF0; 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE; 1.
+DR   PANTHER; PTHR21058; 6,7-DIMETHYL-8-RIBITYLLUMAZINE SYNTHASE DMRL SYNTHASE LUMAZINE SYNTHASE; 1.
+DR   Pfam; PF00885; DMRL_synthase; 1.
+DR   SUPFAM; SSF52121; Lumazine synthase; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Riboflavin biosynthesis {ECO:0000256|ARBA:ARBA00022619, ECO:0000256|HAMAP-
+KW   Rule:MF_00178};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00178}.
+FT   BINDING         36
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00178"
+FT   BINDING         70..72
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00178"
+FT   BINDING         94..96
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00178"
+FT   BINDING         125
+FT                   /ligand="5-amino-6-(D-ribitylamino)uracil"
+FT                   /ligand_id="ChEBI:CHEBI:15934"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00178"
+SQ   SEQUENCE   177 AA;  19331 MW;  0364D2C831E101FA CRC64;
+     MTETVTDPAE TAPPTAERSY PRFAKPQRVA FVQSSWHRDV VAGCWESFVR EIVERGIVAS
+     QVDLFEVPGS FEIPLHVQML AKTRRYTAIV AAGLVVDDGL TGFVAQTVIQ ALMDVQLKTE
+     VPVFSAVATP HSFERGSPNT EHFRQHFATK GADVAHACAD TLLSLERLRG QVAAGIV
+//

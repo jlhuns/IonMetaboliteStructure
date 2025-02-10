@@ -1,0 +1,99 @@
+ID   C9RQ00_FIBSS            Unreviewed;       310 AA.
+AC   C9RQ00;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Cysteine synthase {ECO:0000256|ARBA:ARBA00012681, ECO:0000256|RuleBase:RU003985};
+DE            EC=2.5.1.47 {ECO:0000256|ARBA:ARBA00012681, ECO:0000256|RuleBase:RU003985};
+GN   Name=cysK_2 {ECO:0000313|EMBL:ADL24795.1};
+GN   OrderedLocusNames=FSU_1527 {ECO:0000313|EMBL:ADL24795.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL24795.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-acetyl-L-serine + hydrogen sulfide = L-cysteine + acetate;
+CC         Xref=Rhea:RHEA:14829, ChEBI:CHEBI:29919, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:58340; EC=2.5.1.47;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047931,
+CC         ECO:0000256|RuleBase:RU003985};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR605856-50, ECO:0000256|RuleBase:RU003985};
+CC   -!- SIMILARITY: Belongs to the cysteine synthase/cystathionine beta-
+CC       synthase family. {ECO:0000256|ARBA:ARBA00007103,
+CC       ECO:0000256|RuleBase:RU003985}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL24795.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545807.1; NC_017448.1.
+DR   AlphaFoldDB; C9RQ00; -.
+DR   STRING; 59374.FSU_1527; -.
+DR   KEGG; fsc:FSU_1527; -.
+DR   KEGG; fsu:Fisuc_1072; -.
+DR   PATRIC; fig|59374.8.peg.1469; -.
+DR   eggNOG; COG0031; Bacteria.
+DR   HOGENOM; CLU_021018_1_0_0; -.
+DR   OrthoDB; 9805733at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0004124; F:cysteine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IEA:UniProtKB-UniRule.
+DR   CDD; cd01561; CBS_like; 1.
+DR   FunFam; 3.40.50.1100:FF:000067; Cysteine synthase; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR005856; Cys_synth.
+DR   InterPro; IPR050214; Cys_Synth/Cystath_Beta-Synth.
+DR   InterPro; IPR005859; CysK.
+DR   InterPro; IPR001216; P-phosphate_BS.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR01139; cysK; 1.
+DR   NCBIfam; TIGR01136; cysKM; 1.
+DR   PANTHER; PTHR10314; CYSTATHIONINE BETA-SYNTHASE; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS00901; CYS_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU003985};
+KW   Cysteine biosynthesis {ECO:0000256|ARBA:ARBA00023192,
+KW   ECO:0000256|RuleBase:RU003985};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR605856-50};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003985}.
+FT   DOMAIN          10..297
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+FT   BINDING         77
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         181..185
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         269
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   MOD_RES         47
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-51"
+SQ   SEQUENCE   310 AA;  32304 MW;  D72285922940A5AC CRC64;
+     MSKIYASADQ LIGHTPLLEL SHIEKENNLQ AKIVAKLEYF NPAGSVKDRI AKAMIDDAEA
+     SGKLKPGSVI IEPTSGNTGI GLASVAAARG YRIIIVMPET MSVERRQLIK AYGAEIVLTE
+     GAKGMKGAIA RATELSQEIP NSFIPGQFVN PANPAAHKAT TGPEIWEDTD GKVDIFVAGV
+     GTGGTVTGVG EYLKSQNPNV KVVAVEPESS PVLSKGTAGP HKIQGIGAGF VPDTLNTSVY
+     DEVLPVKNED AFAAGKAIAK AEGILVGISS GAALHAAIEL AKRPENKGKT IVALLPDSGD
+     RYLSTPLFAD
+//

@@ -1,0 +1,90 @@
+ID   A9BN90_DELAS            Unreviewed;       355 AA.
+AC   A9BN90;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 73.
+DE   RecName: Full=L-cysteine desulfhydrase Cds1 {ECO:0000256|HAMAP-Rule:MF_00868};
+DE            EC=4.4.1.1 {ECO:0000256|HAMAP-Rule:MF_00868};
+GN   Name=cds1 {ECO:0000256|HAMAP-Rule:MF_00868};
+GN   OrderedLocusNames=Daci_5156 {ECO:0000313|EMBL:ABX37785.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX37785.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX37785.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: A cysteine desulfhydrase that generates hydrogen sulfide,
+CC       H(2)S. The H(2)S produced by this enzyme may modulate central
+CC       metabolism. {ECO:0000256|HAMAP-Rule:MF_00868}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-cysteine + H2O = hydrogen sulfide + pyruvate + NH4(+) +
+CC         H(+); Xref=Rhea:RHEA:24931, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28938, ChEBI:CHEBI:29919,
+CC         ChEBI:CHEBI:35235; EC=4.4.1.1; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00868};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933, ECO:0000256|HAMAP-
+CC         Rule:MF_00868};
+CC   -!- SIMILARITY: Belongs to the cysteine synthase/cystathionine beta-
+CC       synthase family. Cds1 subfamily. {ECO:0000256|HAMAP-Rule:MF_00868}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37785.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206955.1; NC_010002.1.
+DR   AlphaFoldDB; A9BN90; -.
+DR   STRING; 398578.Daci_5156; -.
+DR   GeneID; 24113661; -.
+DR   KEGG; dac:Daci_5156; -.
+DR   eggNOG; COG0031; Bacteria.
+DR   HOGENOM; CLU_046285_0_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019450; P:L-cysteine catabolic process to pyruvate; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.40.50.1100:FF:000015; Cysteine synthase B; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   HAMAP; MF_00868; Cds1; 1.
+DR   InterPro; IPR047586; Cds1.
+DR   InterPro; IPR050214; Cys_Synth/Cystath_Beta-Synth.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   PANTHER; PTHR10314; CYSTATHIONINE BETA-SYNTHASE; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00868};
+KW   Lyase {ECO:0000256|HAMAP-Rule:MF_00868};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898, ECO:0000256|HAMAP-
+KW   Rule:MF_00868}; Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          34..321
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+FT   MOD_RES         60
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00868"
+SQ   SEQUENCE   355 AA;  38811 MW;  C3FD4021EB1003E5 CRC64;
+     MAAMPHTTSS WLHEAINRIE ADYQRSADTH LIPLPLPGFA DLGIDLYLKD ESTHPTGSLK
+     HRLARSLFLY ALCNGWVHEG STIVEASSGS TAVSEAYFAR LLGLPFVAVM PRSTSAEKIA
+     LIEFYGGRCH LVDSAGQVYD EARAVAAQTG GHYMDQFTYA ERATDWRGNN NIAESMFTQM
+     RRERHAVPRW IVVGAGTGGT SATIGRYVRF QRHATGICVA DPEGSVFAAY HRTGDATLTA
+     PGSRIEGIGR PRVEPSFVRT LVDRMEEVAD CDSLAAMRSL SALLGRRVGP STGTNYVAML
+     RLASEMRQRG EQGSILSLLC DAGERYLPTY HDADWVMQRI GDCGPAQARI AQLQS
+//

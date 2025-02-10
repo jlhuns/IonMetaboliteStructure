@@ -1,0 +1,92 @@
+ID   DUT_BACFR               Reviewed;         144 AA.
+AC   Q64ZK3;
+DT   07-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Deoxyuridine 5'-triphosphate nucleotidohydrolase {ECO:0000255|HAMAP-Rule:MF_00116};
+DE            Short=dUTPase {ECO:0000255|HAMAP-Rule:MF_00116};
+DE            EC=3.6.1.23 {ECO:0000255|HAMAP-Rule:MF_00116};
+DE   AltName: Full=dUTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00116};
+GN   Name=dut {ECO:0000255|HAMAP-Rule:MF_00116}; OrderedLocusNames=BF0324;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: This enzyme is involved in nucleotide metabolism: it produces
+CC       dUMP, the immediate precursor of thymidine nucleotides and it decreases
+CC       the intracellular concentration of dUTP so that uracil cannot be
+CC       incorporated into DNA. {ECO:0000255|HAMAP-Rule:MF_00116}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dUTP + H2O = dUMP + diphosphate + H(+); Xref=Rhea:RHEA:10248,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61555, ChEBI:CHEBI:246422; EC=3.6.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00116};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00116};
+CC   -!- PATHWAY: Pyrimidine metabolism; dUMP biosynthesis; dUMP from dCTP (dUTP
+CC       route): step 2/2. {ECO:0000255|HAMAP-Rule:MF_00116}.
+CC   -!- SIMILARITY: Belongs to the dUTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00116}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD47073.1; -; Genomic_DNA.
+DR   RefSeq; WP_005784036.1; NZ_UYXF01000014.1.
+DR   RefSeq; YP_097607.1; NC_006347.1.
+DR   AlphaFoldDB; Q64ZK3; -.
+DR   SMR; Q64ZK3; -.
+DR   STRING; 295405.BF0324; -.
+DR   GeneID; 60367390; -.
+DR   KEGG; bfr:BF0324; -.
+DR   PATRIC; fig|295405.11.peg.347; -.
+DR   HOGENOM; CLU_068508_1_2_10; -.
+DR   OrthoDB; 9809956at2; -.
+DR   UniPathway; UPA00610; UER00666.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0004170; F:dUTP diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006226; P:dUMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046081; P:dUTP catabolic process; IEA:InterPro.
+DR   CDD; cd07557; trimeric_dUTPase; 1.
+DR   FunFam; 2.70.40.10:FF:000002; dUTP diphosphatase; 1.
+DR   Gene3D; 2.70.40.10; -; 1.
+DR   HAMAP; MF_00116; dUTPase_bact; 1.
+DR   InterPro; IPR008181; dUTPase.
+DR   InterPro; IPR029054; dUTPase-like.
+DR   InterPro; IPR036157; dUTPase-like_sf.
+DR   InterPro; IPR033704; dUTPase_trimeric.
+DR   NCBIfam; TIGR00576; dut; 1.
+DR   PANTHER; PTHR11241; DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE; 1.
+DR   PANTHER; PTHR11241:SF0; DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE; 1.
+DR   Pfam; PF00692; dUTPase; 1.
+DR   SUPFAM; SSF51283; dUTPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Metal-binding; Nucleotide metabolism.
+FT   CHAIN           1..144
+FT                   /note="Deoxyuridine 5'-triphosphate nucleotidohydrolase"
+FT                   /id="PRO_0000182825"
+FT   BINDING         63..65
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00116"
+FT   BINDING         76
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00116"
+FT   BINDING         80..82
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00116"
+SQ   SEQUENCE   144 AA;  15608 MW;  3E95AFABE831686F CRC64;
+     MNIQVINKSK HPLPAYATEL SAGMDIRANI SEPISLAPMQ RCLVPTGLFI ALPQGFEAQI
+     RPRSGLALKK GITVLNSPGT IDADYRGEIC IILVNLSAET FVIEDGERIA QMVIARHEQA
+     VWKEVEVLDE TERGAGGFGH TGRG
+//

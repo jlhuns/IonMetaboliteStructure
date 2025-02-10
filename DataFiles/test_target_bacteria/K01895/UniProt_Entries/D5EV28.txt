@@ -1,0 +1,85 @@
+ID   D5EV28_XYLR2            Unreviewed;       550 AA.
+AC   D5EV28;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 59.
+DE   SubName: Full=AMP-binding enzyme {ECO:0000313|EMBL:ADE82517.1};
+GN   OrderedLocusNames=PRU_2205 {ECO:0000313|EMBL:ADE82517.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82517.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82517.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000256|ARBA:ARBA00006432}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82517.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064503.1; NC_014033.1.
+DR   AlphaFoldDB; D5EV28; -.
+DR   STRING; 264731.PRU_2205; -.
+DR   GeneID; 69977477; -.
+DR   KEGG; pru:PRU_2205; -.
+DR   eggNOG; COG0365; Bacteria.
+DR   HOGENOM; CLU_000022_59_10_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016405; F:CoA-ligase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0015645; F:fatty acid ligase activity; IEA:TreeGrafter.
+DR   GO; GO:0004321; F:fatty-acyl-CoA synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006637; P:acyl-CoA metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 3.30.300.30:FF:000005; Acyl-coenzyme A synthetase ACSM5, mitochondrial; 1.
+DR   Gene3D; 3.30.300.30; -; 1.
+DR   Gene3D; 3.40.50.12780; N-terminal domain of ligase-like; 1.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR045851; AMP-bd_C_sf.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_synth/lig_dom.
+DR   InterPro; IPR042099; ANL_N_sf.
+DR   InterPro; IPR051087; Mitochondrial_ACSM.
+DR   PANTHER; PTHR43605:SF10; ACYL-COA SYNTHETASE MEDIUM CHAIN FAMILY MEMBER 3; 1.
+DR   PANTHER; PTHR43605; ACYL-COENZYME A SYNTHETASE; 1.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   SUPFAM; SSF56801; Acetyl-CoA synthetase-like; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598}; Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        98..119
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          37..407
+FT                   /note="AMP-dependent synthetase/ligase"
+FT                   /evidence="ECO:0000259|Pfam:PF00501"
+FT   DOMAIN          457..537
+FT                   /note="AMP-binding enzyme C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF13193"
+SQ   SEQUENCE   550 AA;  63144 MW;  6C4461A5D100AAD7 CRC64;
+     MVERFLKQTH FESVEDYNKN LEFIIPENFN FAYDVMDAWA EEAPEKLALL WTNDQGEEIR
+     TTYGELKEQS DQAASYLMSL GIGKGDPVML ILKRHYEWWV IMLALCKIGA IVIPATHMLT
+     KHDYVYRNTR ASVKAIICAD DDYIISQIKL AMPESPTVKQ YITLRDEEGF HNWKAEWQQA
+     PKFERPAFVN NNEDTMIMYF TSGTSGEPKM VAHDYLYAMG HLTTGVFWHN LHEGSLHLTV
+     ADTGWGKAVW GKFYGQWFAG ATVFVFDHEK FNADTLLRQM EKYKVTSFCA PPTIYRFMIR
+     EDLSKYDLSS LQYCCTAGEA LNPAVYDKFY EKTGIRMMEG FGQTETTMTL GTFPWMTPKP
+     GSMGIPNAQY NIDLLRADGT SCEDGEKGEI VVRVGDKKPI GLFKGYYRDE EKTREAWHDG
+     IYHTGDMAWR DEDGYYWFEG RIDDVIKSSG YRIGPFEVES ALMTHPAVVE CAITGVPDDI
+     RGMVVKATVV LGKEWKDKAG DDLVKELQQH VKKETAPYKY PRIVEFVDEL PKTISGKIRR
+     VEIRKKDAEK
+//

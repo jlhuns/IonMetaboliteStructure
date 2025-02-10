@@ -1,0 +1,83 @@
+ID   C9RND5_FIBSS            Unreviewed;       282 AA.
+AC   C9RND5;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Malonyl CoA-acyl carrier protein transacylase {ECO:0000256|PIRNR:PIRNR000446};
+DE            EC=2.3.1.39 {ECO:0000256|PIRNR:PIRNR000446};
+GN   Name=fabD {ECO:0000313|EMBL:ADL25868.1};
+GN   OrderedLocusNames=FSU_0059 {ECO:0000313|EMBL:ADL25868.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25868.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=holo-[ACP] + malonyl-CoA = malonyl-[ACP] + CoA;
+CC         Xref=Rhea:RHEA:41792, Rhea:RHEA-COMP:9623, Rhea:RHEA-COMP:9685,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:64479,
+CC         ChEBI:CHEBI:78449; EC=2.3.1.39;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048462,
+CC         ECO:0000256|PIRNR:PIRNR000446};
+CC   -!- SIMILARITY: Belongs to the fabD family.
+CC       {ECO:0000256|PIRNR:PIRNR000446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25868.1; -; Genomic_DNA.
+DR   RefSeq; WP_014544920.1; NC_017448.1.
+DR   AlphaFoldDB; C9RND5; -.
+DR   STRING; 59374.FSU_0059; -.
+DR   KEGG; fsc:FSU_0059; -.
+DR   KEGG; fsu:Fisuc_2804; -.
+DR   PATRIC; fig|59374.8.peg.56; -.
+DR   eggNOG; COG0331; Bacteria.
+DR   HOGENOM; CLU_030558_0_1_0; -.
+DR   OrthoDB; 9805460at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004314; F:[acyl-carrier-protein] S-malonyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 3.30.70.250:FF:000001; Malonyl CoA-acyl carrier protein transacylase; 1.
+DR   Gene3D; 3.30.70.250; Malonyl-CoA ACP transacylase, ACP-binding; 1.
+DR   Gene3D; 3.40.366.10; Malonyl-Coenzyme A Acyl Carrier Protein, domain 2; 1.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR014043; Acyl_transferase_dom.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR050858; Mal-CoA-ACP_Trans/PKS_FabD.
+DR   InterPro; IPR024925; Malonyl_CoA-ACP_transAc.
+DR   InterPro; IPR004410; Malonyl_CoA-ACP_transAc_FabD.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   NCBIfam; TIGR00128; fabD; 1.
+DR   PANTHER; PTHR42681; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR42681:SF1; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   PIRSF; PIRSF000446; Mct; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   SUPFAM; SSF55048; Probable ACP-binding domain of malonyl-CoA ACP transacylase; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|PIRNR:PIRNR000446};
+KW   Transferase {ECO:0000256|PIRNR:PIRNR000446, ECO:0000313|EMBL:ADL25868.1}.
+FT   DOMAIN          5..281
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT)"
+FT                   /evidence="ECO:0000259|SMART:SM00827"
+FT   ACT_SITE        86
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+FT   ACT_SITE        193
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+SQ   SEQUENCE   282 AA;  29943 MW;  F8C1BF106792F266 CRC64;
+     MISYVFPGQG SQFPGMGKDL FESNADVKSM FLKANEILGF NITDVMFNGT AEDLKQTKVT
+     QPAVFLLSVA MAKVQGGKPD MAAGHSLGEF SALTATGAIT FEAGLKLVAK RAEAMQKACE
+     LRPGTMAAVL GGSDELVEEA CAQVKDAAVV PANFNSPGQV VISGEKAGID QVAAYLTGKV
+     KRVVPLQVGG AFHSPLMESA RAELAKAIEE TEFSTPVCPV YQNVDAKPHT DPNEIKANLL
+     TQLTSPVRWT QTVKNMIADG ATEFKELGPG EVLTNLIKRI QK
+//

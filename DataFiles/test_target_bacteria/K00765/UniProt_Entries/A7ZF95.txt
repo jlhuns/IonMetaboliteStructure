@@ -1,0 +1,89 @@
+ID   HIS1_CAMC1              Reviewed;         204 AA.
+AC   A7ZF95;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   27-NOV-2024, entry version 88.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   OrderedLocusNames=Ccon26_16090; ORFNames=CCC13826_0216;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01018};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBUNIT: Heteromultimer composed of HisG and HisZ subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- DOMAIN: Lacks the C-terminal regulatory region which is replaced by
+CC       HisZ.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Short
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98394.1; -; Genomic_DNA.
+DR   RefSeq; WP_012140323.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZF95; -.
+DR   SMR; A7ZF95; -.
+DR   STRING; 360104.CCC13826_0216; -.
+DR   KEGG; cco:CCC13826_0216; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_2_0_7; -.
+DR   OrthoDB; 9801867at2; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13595; PBP2_HisGs; 1.
+DR   FunFam; 3.40.190.10:FF:000008; ATP phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_01018; HisG_Short; 1.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR024893; ATP_PRibTrfase_HisG_short.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Nucleotide-binding; Transferase.
+FT   CHAIN           1..204
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_1000072938"
+SQ   SEQUENCE   204 AA;  22815 MW;  FB5A7E47B0BC1203 CRC64;
+     MITVALPKGR IAEDTLEIFR KIFGSSFMFE DRKLILEEGN FRFLMVRNQD IPTYVTEGAA
+     DIGVVGLDVL EEHKPNVVRL LDLQIGKCKV CIGIKNEEEL DFSRSELKIA TKMPNITRNY
+     FAKLAVGVKI IKLYGSIELA PLVGLSDAIV DVVETGSTMK QNGLKVAGDI MQSSAYLIAN
+     KNSFIIKKDE ILELYQKIKD EISK
+//

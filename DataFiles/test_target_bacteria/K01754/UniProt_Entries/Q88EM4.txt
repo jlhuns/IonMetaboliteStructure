@@ -1,0 +1,86 @@
+ID   Q88EM4_PSEPK            Unreviewed;       330 AA.
+AC   Q88EM4;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 107.
+DE   SubName: Full=Threonine dehydratase {ECO:0000313|EMBL:AAN70007.1};
+DE            EC=4.3.1.19 {ECO:0000313|EMBL:AAN70007.1};
+GN   OrderedLocusNames=PP_4430 {ECO:0000313|EMBL:AAN70007.1};
+OS   Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950
+OS   / KT2440).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=160488 {ECO:0000313|EMBL:AAN70007.1, ECO:0000313|Proteomes:UP000000556};
+RN   [1] {ECO:0000313|EMBL:AAN70007.1, ECO:0000313|Proteomes:UP000000556}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440
+RC   {ECO:0000313|Proteomes:UP000000556};
+RX   PubMed=12534463; DOI=10.1046/j.1462-2920.2002.00366.x;
+RA   Nelson K.E., Weinel C., Paulsen I.T., Dodson R.J., Hilbert H.,
+RA   Martins dos Santos V.A., Fouts D.E., Gill S.R., Pop M., Holmes M.,
+RA   Brinkac L., Beanan M., DeBoy R.T., Daugherty S., Kolonay J., Madupu R.,
+RA   Nelson W., White O., Peterson J., Khouri H., Hance I., Chris Lee P.,
+RA   Holtzapple E., Scanlan D., Tran K., Moazzez A., Utterback T., Rizzo M.,
+RA   Lee K., Kosack D., Moestl D., Wedler H., Lauber J., Stjepandic D.,
+RA   Hoheisel J., Straetz M., Heim S., Kiewitz C., Eisen J.A., Timmis K.N.,
+RA   Dusterhoft A., Tummler B., Fraser C.M.;
+RT   "Complete genome sequence and comparative analysis of the metabolically
+RT   versatile Pseudomonas putida KT2440.";
+RL   Environ. Microbiol. 4:799-808(2002).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- PATHWAY: Amino-acid degradation. {ECO:0000256|ARBA:ARBA00005023}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015451; AAN70007.1; -; Genomic_DNA.
+DR   RefSeq; NP_746543.1; NC_002947.4.
+DR   RefSeq; WP_010955138.1; NC_002947.4.
+DR   AlphaFoldDB; Q88EM4; -.
+DR   STRING; 160488.PP_4430; -.
+DR   PaxDb; 160488-PP_4430; -.
+DR   GeneID; 49869490; -.
+DR   KEGG; ppu:PP_4430; -.
+DR   eggNOG; COG1171; Bacteria.
+DR   HOGENOM; CLU_021152_4_2_6; -.
+DR   OrthoDB; 9811476at2; -.
+DR   PhylomeDB; Q88EM4; -.
+DR   BioCyc; PPUT160488:G1G01-4711-MONOMER; -.
+DR   Proteomes; UP000000556; Chromosome.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:TreeGrafter.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0004794; F:threonine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0006565; P:L-serine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006567; P:threonine catabolic process; IEA:TreeGrafter.
+DR   CDD; cd01562; Thr-dehyd; 1.
+DR   FunFam; 3.40.50.1100:FF:000005; Threonine dehydratase catabolic; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR014333; Ectoine_EutB.
+DR   InterPro; IPR050147; Ser/Thr_Dehydratase.
+DR   InterPro; IPR000634; Ser/Thr_deHydtase_PyrdxlP-BS.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR02991; ectoine_eutB; 1.
+DR   PANTHER; PTHR48078:SF6; L-THREONINE DEHYDRATASE CATABOLIC TDCB; 1.
+DR   PANTHER; PTHR48078; THREONINE DEHYDRATASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS00165; DEHYDRATASE_SER_THR; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:AAN70007.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000556}.
+FT   DOMAIN          18..306
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+SQ   SEQUENCE   330 AA;  34872 MW;  68BBD545209CB02B CRC64;
+     MPAVTVREAL IARDRIKHLV RETRMELSPS LSDFMKVPVY LKLECHQATG SFKLRGATNA
+     IAGLTSQQRA LGVVTASTGN HGRALSYAAA AAGVRATVCL SRLVPSNKVA AIRALGAAVQ
+     VVGNSQDDAQ FEAARLAQEE GLTFIPPFDH QDVIAGQATL GLEIAEQLPS VSQVLIPLSG
+     GGLFSGVSLA LKALLPQVKT HGVSMRLGAA MAQSLEAGKP VNVEEVATLA DSLGGGIGLR
+     NQYTFELTRR FIDRVILLNE DSIADAMLHA YLEERLVIEG AGAVGIAALL TRQVEAQGPI
+     VIVVSGGNVD MAQHQRIILE AVRDRRPARA
+//

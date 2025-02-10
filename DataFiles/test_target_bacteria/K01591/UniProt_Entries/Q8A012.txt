@@ -1,0 +1,88 @@
+ID   PYRF_BACTN              Reviewed;         274 AA.
+AC   Q8A012;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            EC=4.1.1.23 {ECO:0000255|HAMAP-Rule:MF_01215};
+DE   AltName: Full=OMP decarboxylase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            Short=OMPDCase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            Short=OMPdecase {ECO:0000255|HAMAP-Rule:MF_01215};
+GN   Name=pyrF {ECO:0000255|HAMAP-Rule:MF_01215};
+GN   OrderedLocusNames=BT_4209;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01215};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01215}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01215}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79314.1; -; Genomic_DNA.
+DR   RefSeq; NP_813120.1; NC_004663.1.
+DR   RefSeq; WP_008759883.1; NZ_UYXG01000012.1.
+DR   AlphaFoldDB; Q8A012; -.
+DR   SMR; Q8A012; -.
+DR   STRING; 226186.BT_4209; -.
+DR   PaxDb; 226186-BT_4209; -.
+DR   EnsemblBacteria; AAO79314; AAO79314; BT_4209.
+DR   GeneID; 60925382; -.
+DR   KEGG; bth:BT_4209; -.
+DR   PATRIC; fig|226186.12.peg.4276; -.
+DR   eggNOG; COG0284; Bacteria.
+DR   HOGENOM; CLU_060704_1_0_10; -.
+DR   InParanoid; Q8A012; -.
+DR   OrthoDB; 9808470at2; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   FunFam; 3.20.20.70:FF:000157; Orotidine 5'-phosphate decarboxylase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01215; OMPdecase_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011995; OMPdecase_type-2.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR02127; pyrF_sub2; 1.
+DR   PANTHER; PTHR43375; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43375:SF1; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase; Lyase; Pyrimidine biosynthesis; Reference proteome.
+FT   CHAIN           1..274
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /id="PRO_1000138945"
+FT   ACT_SITE        96
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01215"
+SQ   SEQUENCE   274 AA;  30880 MW;  DB4A532D4C38A7BC CRC64;
+     MNKQQLFENI KRKKSFLCVG LDTDIKKIPE HLLKEEDPIF AFNKAIIDAT ADLCIAYKPN
+     LAFYESMGVK GWIAFEKTVK YIKENYPDQF IIADAKRGDI GNTSAMYART FFEELEIDSV
+     TVAPYMGEDS VTPFLTYEGK WVILLALTSN KGSHDFQLTE DANGERLFEK VLRKSQEWAN
+     DERMMYVVGA TQGRAFEDIR KIVPNHFLLV PGVGAQGGSL EEVCKYGMNS TCGLIVNSSR
+     GIIYVDKTEK FAEAARLAAQ EVQVQMAEQL KAIL
+//

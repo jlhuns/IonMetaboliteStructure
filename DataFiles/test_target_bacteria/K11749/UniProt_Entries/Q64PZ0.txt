@@ -1,0 +1,97 @@
+ID   Q64PZ0_BACFR            Unreviewed;       451 AA.
+AC   Q64PZ0;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 122.
+DE   RecName: Full=Zinc metalloprotease {ECO:0000256|RuleBase:RU362031};
+DE            EC=3.4.24.- {ECO:0000256|RuleBase:RU362031};
+GN   OrderedLocusNames=BF3698 {ECO:0000313|EMBL:BAD50441.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50441.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50441.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50441.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947,
+CC         ECO:0000256|RuleBase:RU362031};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the peptidase M50B family.
+CC       {ECO:0000256|ARBA:ARBA00007931, ECO:0000256|RuleBase:RU362031}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50441.1; -; Genomic_DNA.
+DR   RefSeq; WP_011203410.1; NC_006347.1.
+DR   RefSeq; YP_100975.1; NC_006347.1.
+DR   AlphaFoldDB; Q64PZ0; -.
+DR   STRING; 295405.BF3698; -.
+DR   KEGG; bfr:BF3698; -.
+DR   PATRIC; fig|295405.11.peg.3549; -.
+DR   HOGENOM; CLU_025778_0_0_10; -.
+DR   OrthoDB; 9782003at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00989; PDZ_metalloprotease; 1.
+DR   CDD; cd06163; S2P-M50_PDZ_RseP-like; 1.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR041489; PDZ_6.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR004387; Pept_M50_Zn.
+DR   InterPro; IPR008915; Peptidase_M50.
+DR   NCBIfam; TIGR00054; RIP metalloprotease RseP; 1.
+DR   PANTHER; PTHR42837:SF2; MEMBRANE METALLOPROTEASE ARASP2, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR42837; REGULATOR OF SIGMA-E PROTEASE RSEP; 1.
+DR   Pfam; PF17820; PDZ_6; 1.
+DR   Pfam; PF02163; Peptidase_M50; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU362031};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU362031};
+KW   Metal-binding {ECO:0000256|RuleBase:RU362031};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000313|EMBL:BAD50441.1};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|RuleBase:RU362031}.
+FT   TRANSMEM        106..129
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        378..410
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        422..443
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   DOMAIN          186..253
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+SQ   SEQUENCE   451 AA;  51226 MW;  7E986A2959439440 CRC64;
+     METFLIRALQ LIMSLSLLVI IHEGGHFLFA RLFKVRVEKF CLFFDPWFTL FKFKPKKSET
+     EYAVGWLPLG GYVKIAGMID ESMDTEQMKQ PEQPWEFRSK PAWQRLLIMV GGVLFNFLLA
+     LFIYSMILFK WGDQYIPVQK APLGMDFNET AKAVGFQDGD ILLSADGVDF VRYDPDMLSQ
+     IADAREVTVL REGKKASVYI PEDMMQRLLG DSVRFAEFRF PYVVDSVMVN SPAAMAGIQP
+     GDSIIALDGK PVSYTDFLAA MAERRQNAKT LQNDSINPHQ ISLTYVRDGK TDVLTLTTDS
+     AFKIGVAVNP YTDQLLPVIR KEYGFFESFP AGVALGVKTL KGYVGNMKYL FSKEGAKQLG
+     GFGTIGSIFP ATWNWHQFWY MTAFLSIILA FMNILPIPAL DGGHVLFLFY EIIARRKPSD
+     KFMEYAQMAG MILLFGLLIW ANFNDILRFF F
+//

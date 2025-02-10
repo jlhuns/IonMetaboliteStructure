@@ -1,0 +1,123 @@
+ID   A0AAE9Y0V3_RHOPA        Unreviewed;       283 AA.
+AC   A0AAE9Y0V3;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Pantothenate synthetase {ECO:0000256|HAMAP-Rule:MF_00158};
+DE            Short=PS {ECO:0000256|HAMAP-Rule:MF_00158};
+DE            EC=6.3.2.1 {ECO:0000256|HAMAP-Rule:MF_00158};
+DE   AltName: Full=Pantoate--beta-alanine ligase {ECO:0000256|HAMAP-Rule:MF_00158};
+DE   AltName: Full=Pantoate-activating enzyme {ECO:0000256|HAMAP-Rule:MF_00158};
+GN   Name=panC {ECO:0000256|HAMAP-Rule:MF_00158,
+GN   ECO:0000313|EMBL:WCL93320.1};
+GN   ORFNames=TX73_016310 {ECO:0000313|EMBL:WCL93320.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL93320.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL93320.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the condensation of pantoate with beta-alanine in
+CC       an ATP-dependent reaction via a pantoyl-adenylate intermediate.
+CC       {ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + beta-alanine + ATP = (R)-pantothenate + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:10912, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:29032, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57966, ChEBI:CHEBI:456215; EC=6.3.2.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048258, ECO:0000256|HAMAP-
+CC         Rule:MF_00158};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; (R)-
+CC       pantothenate from (R)-pantoate and beta-alanine: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004990, ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   -!- MISCELLANEOUS: The reaction proceeds by a bi uni uni bi ping pong
+CC       mechanism. {ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   -!- SIMILARITY: Belongs to the pantothenate synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00009256, ECO:0000256|HAMAP-Rule:MF_00158}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL93320.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158700.1; NZ_CP116810.1.
+DR   SMR; A0AAE9Y0V3; -.
+DR   GeneID; 66894237; -.
+DR   KEGG; rpa:TX73_016310; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004592; F:pantoate-beta-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00560; PanC; 1.
+DR   FunFam; 3.30.1300.10:FF:000001; Pantothenate synthetase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.30.1300.10; Pantoate-beta-alanine ligase, C-terminal domain; 1.
+DR   HAMAP; MF_00158; PanC; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR003721; Pantoate_ligase.
+DR   InterPro; IPR042176; Pantoate_ligase_C.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00125; cyt_tran_rel; 1.
+DR   NCBIfam; TIGR00018; panC; 1.
+DR   PANTHER; PTHR21299; CYTIDYLATE KINASE/PANTOATE-BETA-ALANINE LIGASE; 1.
+DR   PANTHER; PTHR21299:SF1; PANTOATE--BETA-ALANINE LIGASE; 1.
+DR   Pfam; PF02569; Pantoate_ligase; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00158}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00158};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00158};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00158};
+KW   Pantothenate biosynthesis {ECO:0000256|ARBA:ARBA00022655,
+KW   ECO:0000256|HAMAP-Rule:MF_00158};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   ACT_SITE        41
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         34..41
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         65
+FT                   /ligand="(R)-pantoate"
+FT                   /ligand_id="ChEBI:CHEBI:15980"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         65
+FT                   /ligand="beta-alanine"
+FT                   /ligand_id="ChEBI:CHEBI:57966"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         152..155
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         158
+FT                   /ligand="(R)-pantoate"
+FT                   /ligand_id="ChEBI:CHEBI:15980"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         181
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+FT   BINDING         189..192
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00158"
+SQ   SEQUENCE   283 AA;  30809 MW;  4D51B9A80DA2D665 CRC64;
+     MSRPPVVART LPALRRALAE LRKRNASVAL VPTMGALHDG HLSLVRLAKR RADKVVVSVF
+     VNPTQFAPHE DFGSYPRTFK ADASKLAEEN VDLIWNPDVK VMYPEGFASK ILTEAPAVAG
+     LEDSFRPHFF GGVTTVVGKL FIQCRPDVAI FGSKDFQQLR VVTRMAADLD LGVKVIGAPT
+     VRERDGLAMS SRNVYLSAEE RAIAPTLYRA MKEVAKRIKA GKTIASSLTA GAELITEAGF
+     VLDYLEARHA ETLAPIKSPK EGPIRLLVAA KLGKTRLIDN IAV
+//

@@ -1,0 +1,90 @@
+ID   A1B0W5_PARDP            Unreviewed;       308 AA.
+AC   A1B0W5;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   SubName: Full=Carbohydrate ABC transporter membrane protein 1, CUT1 family {ECO:0000313|EMBL:ABL69159.1};
+GN   OrderedLocusNames=Pden_1048 {ECO:0000313|EMBL:ABL69159.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL69159.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. {ECO:0000256|RuleBase:RU363032}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL69159.1; -; Genomic_DNA.
+DR   RefSeq; WP_011747379.1; NC_008686.1.
+DR   AlphaFoldDB; A1B0W5; -.
+DR   STRING; 318586.Pden_1048; -.
+DR   EnsemblBacteria; ABL69159; ABL69159; Pden_1048.
+DR   GeneID; 75500581; -.
+DR   KEGG; pde:Pden_1048; -.
+DR   eggNOG; COG1175; Bacteria.
+DR   HOGENOM; CLU_016047_0_3_5; -.
+DR   OrthoDB; 9805108at2; -.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   InterPro; IPR052730; Sugar_ABC_transporter.
+DR   PANTHER; PTHR43759:SF1; GLUCOSE IMPORT SYSTEM PERMEASE PROTEIN GLCT; 1.
+DR   PANTHER; PTHR43759; TREHALOSE TRANSPORT SYSTEM PERMEASE PROTEIN SUGA; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032}; Transport {ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        20..38
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        76..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        111..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        166..190
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        211..233
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        276..295
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          80..292
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   308 AA;  33967 MW;  46286D6AF2AB6229 CRC64;
+     MARSDTKTAD KAQRPGEGRI AMLLLAPTMI VMTVVGLYPL LHSLYISLTN YNPTFGGGSS
+     LVWFENYARA FSDPQFWNAV GLTLIFTAVS VTASLVLAVA LSVLFNQRHP GFVVLRTIIL
+     VPMLITPIAV GITWRVMMMP DLGVLNYLLG LIGIPPQLWA SNASTALLSV ILVDIWQWTP
+     FMFLIVFAGI SSLPKSPFEA AAIDGASPLR AFFSITLPML KPVIVIATLL RIVDAFRTYD
+     TVYIITRGGP DFATDLVSVY LQRVNFRFFD LGYGSALSWL TLIIVLLVVL IFVRLTGFMK
+     LVADKENR
+//

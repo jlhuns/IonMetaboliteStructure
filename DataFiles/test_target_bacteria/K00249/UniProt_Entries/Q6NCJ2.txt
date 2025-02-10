@@ -1,0 +1,92 @@
+ID   Q6NCJ2_RHOPA            Unreviewed;       354 AA.
+AC   Q6NCJ2;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 112.
+DE   SubName: Full=Acyl-CoA/acyl-ACP dehydrogenase {ECO:0000313|EMBL:WCL90609.1};
+DE   SubName: Full=Possible acyl-CoA dehydrogenase {ECO:0000313|EMBL:CAE25924.1};
+DE            EC=1.3.99.3 {ECO:0000313|EMBL:CAE25924.1};
+GN   OrderedLocusNames=RPA0480 {ECO:0000313|EMBL:CAE25924.1};
+GN   ORFNames=TX73_002490 {ECO:0000313|EMBL:WCL90609.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25924.1};
+RN   [1] {ECO:0000313|EMBL:WCL90609.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90609.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25924.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25924.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90609.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90609.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974};
+CC   -!- SIMILARITY: Belongs to the acyl-CoA dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00009347}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572594; CAE25924.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90609.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156048.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0480; -.
+DR   GeneID; 66891496; -.
+DR   KEGG; rpa:TX73_002490; -.
+DR   eggNOG; COG1960; Bacteria.
+DR   HOGENOM; CLU_018204_5_0_5; -.
+DR   PhylomeDB; Q6NCJ2; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0003995; F:acyl-CoA dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   Gene3D; 1.10.540.10; Acyl-CoA dehydrogenase/oxidase, N-terminal domain; 1.
+DR   Gene3D; 1.20.140.10; Butyryl-CoA Dehydrogenase, subunit A, domain 3; 1.
+DR   InterPro; IPR036250; AcylCo_DH-like_C.
+DR   InterPro; IPR009075; AcylCo_DH/oxidase_C.
+DR   InterPro; IPR013786; AcylCoA_DH/ox_N.
+DR   InterPro; IPR037069; AcylCoA_DH/ox_N_sf.
+DR   InterPro; IPR009100; AcylCoA_DH/oxidase_NM_dom_sf.
+DR   PANTHER; PTHR43884; ACYL-COA DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43884:SF20; ACYL-COA DEHYDROGENASE FADE28; 1.
+DR   Pfam; PF00441; Acyl-CoA_dh_1; 1.
+DR   Pfam; PF02771; Acyl-CoA_dh_N; 1.
+DR   SUPFAM; SSF47203; Acyl-CoA dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF56645; Acyl-CoA dehydrogenase NM domain-like; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Oxidoreductase {ECO:0000313|EMBL:CAE25924.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          2..92
+FT                   /note="Acyl-CoA dehydrogenase/oxidase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02771"
+FT   DOMAIN          199..320
+FT                   /note="Acyl-CoA dehydrogenase/oxidase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00441"
+SQ   SEQUENCE   354 AA;  36802 MW;  1DA41E3D0B4B840A CRC64;
+     MTETDNIVVE TAEKIFADLA DAQTINADKA ETWKAPLWQA LSESGMPLSW VPEEFGGSGA
+     SLAEGFGVLN AAGRAGLAVP LAETMLAGWL LAQGKIAAPE GAMTIAPAHP KDHLTLDADG
+     RLSGRARSVP FAQHAQHIAV LAQSAAGAKI ALVLASACRI DKGLGVGGDA SDVVTFDKIA
+     PIATASAPKD LDQTSLMLMG AVARSLQIAG ALETLLDRSV TYANERVAFE KKIGKFQAVQ
+     HNLAKLAGET SAALAAATSA ADAISSADGF DDAVFLEASA AKIRCAEAAE KGAAIAHQVH
+     GAIGFTAEHI LHRFSLRALA WRDDFGNESH WAVELGRMVA KRGADNLWPL VASR
+//

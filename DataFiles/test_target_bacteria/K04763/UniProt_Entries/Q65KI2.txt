@@ -1,0 +1,78 @@
+ID   Q65KI2_BACLD            Unreviewed;       352 AA.
+AC   Q65KI2; Q62VY0;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   SubName: Full=Hypothetical Lambda integrase-like, N-terminal,DNA breaking-rejoining enzyme, catalytic core {ECO:0000313|EMBL:AAU23078.1};
+GN   OrderedLocusNames=BL05135 {ECO:0000313|EMBL:AAU23078.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23078.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23078.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family.
+CC       {ECO:0000256|ARBA:ARBA00008857}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23078.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197894.1; NC_006322.1.
+DR   AlphaFoldDB; Q65KI2; -.
+DR   STRING; 279010.BL05135; -.
+DR   KEGG; bld:BLi01531; -.
+DR   KEGG; bli:BL05135; -.
+DR   PATRIC; fig|279010.13.peg.1525; -.
+DR   eggNOG; COG4974; Bacteria.
+DR   HOGENOM; CLU_027562_9_2_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015074; P:DNA integration; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; Intergrase catalytic core; 1.
+DR   InterPro; IPR044068; CB.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat_sf.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR010998; Integrase_recombinase_N.
+DR   InterPro; IPR025269; SAM-like_dom.
+DR   InterPro; IPR050090; Tyrosine_recombinase_XerCD.
+DR   PANTHER; PTHR30349:SF41; INTEGRASE_RECOMBINASE PROTEIN MJ0367-RELATED; 1.
+DR   PANTHER; PTHR30349; PHAGE INTEGRASE-RELATED; 1.
+DR   Pfam; PF13102; Phage_int_SAM_5; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; DNA breaking-rejoining enzymes; 1.
+DR   PROSITE; PS51900; CB; 1.
+DR   PROSITE; PS51898; TYR_RECOMBINASE; 1.
+PE   3: Inferred from homology;
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|PROSITE-
+KW   ProRule:PRU01248}; Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transposable element {ECO:0000256|ARBA:ARBA00022464}.
+FT   DOMAIN          22..125
+FT                   /note="Core-binding (CB)"
+FT                   /evidence="ECO:0000259|PROSITE:PS51900"
+FT   DOMAIN          146..328
+FT                   /note="Tyr recombinase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51898"
+SQ   SEQUENCE   352 AA;  41324 MW;  0CE3C0E0A144212C CRC64;
+     MYMRGRRRPA IKHSEKNTYE SKTLSDVCKQ ICNVKMSEGL TKETIDRYRR VCESVEEFAE
+     IKGLSTSVES IDVEFARQYM TYILHEKKTF KGHRYKPESV KTPGCSPKYA NDHLKTMRAV
+     FTFCIKENMI SENPFQKINK VKQPEPVIQI LSVEEMKQLL KTPNKRKFSE FRDYVVMMCL
+     INSMCRIGEI VTLEIENINF ELSYIILEAQ KTKTRKGRMI PLDKNTMQLL KKLLLRNTRF
+     KPSKYVFITE EGTRLTTDNF RKRLADYAHQ AGINKRVHPH LFRHTAASMF LQAGGDLRHL
+     QTIIGHKDLR MVLRYTHLSL ESLARQQSEY SLINQVVDGL NKPRKTKRKY GR
+//

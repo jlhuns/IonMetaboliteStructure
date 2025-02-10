@@ -1,0 +1,116 @@
+ID   BIOF_ACICJ              Reviewed;         381 AA.
+AC   A5FZN8;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 90.
+DE   RecName: Full=Putative 8-amino-7-oxononanoate synthase;
+DE            Short=AONS;
+DE            EC=2.3.1.47;
+DE   AltName: Full=7-keto-8-amino-pelargonic acid synthase;
+DE            Short=7-KAP synthase;
+DE   AltName: Full=8-amino-7-ketopelargonate synthase;
+GN   Name=bioF; OrderedLocusNames=Acry_1868;
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the decarboxylative condensation of pimeloyl-[acyl-
+CC       carrier protein] and L-alanine to produce 8-amino-7-oxononanoate (AON),
+CC       [acyl-carrier protein], and carbon dioxide. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-carboxyhexanoyl-[ACP] + L-alanine + H(+) = (8S)-8-amino-7-
+CC         oxononanoate + holo-[ACP] + CO2; Xref=Rhea:RHEA:42288, Rhea:RHEA-
+CC         COMP:9685, Rhea:RHEA-COMP:9955, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57972, ChEBI:CHEBI:64479, ChEBI:CHEBI:78846,
+CC         ChEBI:CHEBI:149468; EC=2.3.1.47;
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. BioF subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31070.1; -; Genomic_DNA.
+DR   RefSeq; WP_012039683.1; NC_009484.1.
+DR   AlphaFoldDB; A5FZN8; -.
+DR   SMR; A5FZN8; -.
+DR   STRING; 349163.Acry_1868; -.
+DR   KEGG; acr:Acry_1868; -.
+DR   eggNOG; COG0156; Bacteria.
+DR   HOGENOM; CLU_015846_11_0_5; -.
+DR   UniPathway; UPA00078; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0008710; F:8-amino-7-oxononanoate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR001917; Aminotrans_II_pyridoxalP_BS.
+DR   InterPro; IPR004839; Aminotransferase_I/II_large.
+DR   InterPro; IPR050087; AON_synthase_class-II.
+DR   InterPro; IPR004723; AONS_Archaea/Proteobacteria.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR00858; bioF; 1.
+DR   PANTHER; PTHR13693:SF100; 8-AMINO-7-OXONONANOATE SYNTHASE; 1.
+DR   PANTHER; PTHR13693; CLASS II AMINOTRANSFERASE/8-AMINO-7-OXONONANOATE SYNTHASE; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00599; AA_TRANSFER_CLASS_2; 1.
+PE   3: Inferred from homology;
+KW   Biotin biosynthesis; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..381
+FT                   /note="Putative 8-amino-7-oxononanoate synthase"
+FT                   /id="PRO_0000380884"
+FT   BINDING         22
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         109..110
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         134
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         182
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         207..210
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         233..236
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         345
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         236
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   381 AA;  40007 MW;  246E65ECBE315D05 CRC64;
+     MTTLDQFATD KLARLEAGAL RRRLRPTARA PGAVLERDGQ RLISFSCNDY LNLSTHPAVI
+     DAAIDAARRH GAGAGASRLV TGDHPLYCAL EARLAALKQT EDAVVFGSGF LANTGIIPAL
+     MAREDAIFVD ELAHACIWAG ARLSGAALHV FRHNDLAHLA ELLAAHRQAA RHAMVVTDGV
+     FSMDGDLAPV GEMLALAKAH DAWLMTDDAH GIGVINEGRG SAHGHDVPLQ MGTLSKAVGS
+     YGGYLCASHV VCELIRNRAR SFVYTTGLPP AVVGASIAAL DLIATDPAMC AAPLAHARRF
+     CAALGLPPAE SPIVPLLLGT AERALAAQAV LEAAGFLVAA IRPPTVPEGT ARLRFAFTAC
+     HAPDDIDRLA QLVHDRILVT A
+//

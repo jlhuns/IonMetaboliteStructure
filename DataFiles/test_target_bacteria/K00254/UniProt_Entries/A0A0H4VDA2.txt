@@ -1,0 +1,160 @@
+ID   A0A0H4VDA2_9SPHN        Unreviewed;       387 AA.
+AC   A0A0H4VDA2;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   06-JUL-2016, sequence version 2.
+DT   05-FEB-2025, entry version 35.
+DE   RecName: Full=Dihydroorotate dehydrogenase (quinone) {ECO:0000256|HAMAP-Rule:MF_00225};
+DE            EC=1.3.5.2 {ECO:0000256|HAMAP-Rule:MF_00225};
+DE   AltName: Full=DHOdehase {ECO:0000256|HAMAP-Rule:MF_00225};
+DE            Short=DHOD {ECO:0000256|HAMAP-Rule:MF_00225};
+DE            Short=DHODase {ECO:0000256|HAMAP-Rule:MF_00225};
+DE   AltName: Full=Dihydroorotate oxidase {ECO:0000256|HAMAP-Rule:MF_00225};
+GN   Name=pyrD {ECO:0000256|HAMAP-Rule:MF_00225};
+GN   ORFNames=CP97_01940 {ECO:0000313|EMBL:AKQ41069.2};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ41069.2, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ41069.2, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of dihydroorotate to orotate with
+CC       quinone as electron acceptor. {ECO:0000256|ARBA:ARBA00003125,
+CC       ECO:0000256|HAMAP-Rule:MF_00225}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + a quinone = orotate + a quinol;
+CC         Xref=Rhea:RHEA:30187, ChEBI:CHEBI:24646, ChEBI:CHEBI:30839,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:132124; EC=1.3.5.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048639, ECO:0000256|HAMAP-
+CC         Rule:MF_00225};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00225};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000256|HAMAP-Rule:MF_00225};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       orotate from (S)-dihydroorotate (quinone route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005161, ECO:0000256|HAMAP-Rule:MF_00225}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00225}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_00225};
+CC       Peripheral membrane protein {ECO:0000256|HAMAP-Rule:MF_00225}. Membrane
+CC       {ECO:0000256|ARBA:ARBA00004370}.
+CC   -!- SIMILARITY: Belongs to the dihydroorotate dehydrogenase family. Type 2
+CC       subfamily. {ECO:0000256|ARBA:ARBA00005359, ECO:0000256|HAMAP-
+CC       Rule:MF_00225}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ41069.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VDA2; -.
+DR   STRING; 1648404.CP97_01940; -.
+DR   KEGG; ery:CP97_01940; -.
+DR   UniPathway; UPA00070; UER00946.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0106430; F:dihydroorotate dehydrogenase (quinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04738; DHOD_2_like; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00225; DHO_dh_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR050074; DHO_dehydrogenase.
+DR   InterPro; IPR005719; Dihydroorotate_DH_2.
+DR   InterPro; IPR005720; Dihydroorotate_DH_cat.
+DR   InterPro; IPR001295; Dihydroorotate_DH_CS.
+DR   NCBIfam; TIGR01036; pyrD_sub2; 1.
+DR   PANTHER; PTHR48109:SF4; DIHYDROOROTATE DEHYDROGENASE (QUINONE), MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR48109; DIHYDROOROTATE DEHYDROGENASE (QUINONE), MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF01180; DHO_dh; 1.
+DR   SUPFAM; SSF51395; FMN-linked oxidoreductases; 1.
+DR   PROSITE; PS00911; DHODEHASE_1; 1.
+DR   PROSITE; PS00912; DHODEHASE_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_00225};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630, ECO:0000256|HAMAP-
+KW   Rule:MF_00225};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|HAMAP-Rule:MF_00225};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00225};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00225};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_00225}; Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          79..372
+FT                   /note="Dihydroorotate dehydrogenase catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01180"
+FT   ACT_SITE        207
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         96..100
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         100
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         120
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         145..149
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         173
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         204
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         204
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         209
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         250
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         278
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         279..280
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         300
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         329
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+FT   BINDING         350..351
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00225"
+SQ   SEQUENCE   387 AA;  41207 MW;  6D140687DFB68489 CRC64;
+     MLVRRRHNSN RVHFGTYFFF GTARDIAFRI VMLPRTPAMI YKLLRPALFM FDPERAHGLA
+     IAALKRMPLK PPPSPGGALA IEIAGLNFPN PLGMAAGFDK DAEVPDALSA LGFGHVEVGS
+     ITPRAQAGNP QPRLFRLTQD AAVINRMGFN NGGAESAARR IAARNTGGIL GINIGANKDS
+     ADRIADYASM ARIMAPLASY LAVNISSPNT PGLRALQDEG ELARLLDGML QAREEAVGQV
+     AGHAPPVFLK VAPDLEPADI DAISRIAIDK GLDALIVSNT TIDRPKLWSR YAGETGGLSG
+     APLRSKALER LRDFRKATGG AMPLVGVGGI ATAQDAWERI RAGASLVQLY SAMIYRGPGI
+     ARQITTGLEA LMRHEGYSSI AEAVGSE
+//

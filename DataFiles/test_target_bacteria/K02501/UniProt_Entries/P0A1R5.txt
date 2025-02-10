@@ -1,0 +1,124 @@
+ID   HIS5_SALTI              Reviewed;         196 AA.
+AC   P0A1R5; P10376;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH;
+DE            EC=4.3.2.10;
+DE   AltName: Full=IGP synthase glutaminase subunit;
+DE            EC=3.5.1.2;
+DE   AltName: Full=IGP synthase subunit HisH;
+DE   AltName: Full=ImGP synthase subunit HisH;
+DE            Short=IGPS subunit HisH;
+GN   Name=hisH; OrderedLocusNames=STY2284, t0798;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to IGP,
+CC       AICAR and glutamate. The HisH subunit catalyzes the hydrolysis of
+CC       glutamine to glutamate and ammonia as part of the synthesis of IGP and
+CC       AICAR. The resulting ammonia molecule is channeled to the active site
+CC       of HisF (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-
+CC         phospho-beta-D-ribosyl)imidazole-4-carboxamide + L-glutamine = D-
+CC         erythro-1-(imidazol-4-yl)glycerol 3-phosphate + 5-amino-1-(5-phospho-
+CC         beta-D-ribosyl)imidazole-4-carboxamide + L-glutamate + H(+);
+CC         Xref=Rhea:RHEA:24793, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58278, ChEBI:CHEBI:58359, ChEBI:CHEBI:58475,
+CC         ChEBI:CHEBI:58525; EC=4.3.2.10;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine + H2O = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02437.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68489.1; -; Genomic_DNA.
+DR   RefSeq; NP_456623.1; NC_003198.1.
+DR   RefSeq; WP_001103591.1; NZ_WSUR01000002.1.
+DR   AlphaFoldDB; P0A1R5; -.
+DR   SMR; P0A1R5; -.
+DR   STRING; 220341.gene:17586192; -.
+DR   KEGG; stt:t0798; -.
+DR   KEGG; sty:STY2284; -.
+DR   PATRIC; fig|220341.7.peg.2304; -.
+DR   eggNOG; COG0118; Bacteria.
+DR   HOGENOM; CLU_071837_0_0_6; -.
+DR   OMA; WVYFVHS; -.
+DR   OrthoDB; 9807137at2; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01748; GATase1_IGP_Synthase; 1.
+DR   FunFam; 3.40.50.880:FF:000009; Imidazole glycerol phosphate synthase subunit HisH; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   NCBIfam; TIGR01855; IMP_synth_hisH; 1.
+DR   PANTHER; PTHR42701; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   PANTHER; PTHR42701:SF1; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   PRINTS; PR00096; GATASE.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Glutamine amidotransferase;
+KW   Histidine biosynthesis; Hydrolase; Lyase.
+FT   CHAIN           1..196
+FT                   /note="Imidazole glycerol phosphate synthase subunit HisH"
+FT                   /id="PRO_0000152418"
+FT   DOMAIN          2..196
+FT                   /note="Glutamine amidotransferase type-1"
+FT   ACT_SITE        77
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        178
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        180
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   196 AA;  21704 MW;  0F870A5696A71E85 CRC64;
+     MNVVILDTGC ANLSSVKSAV ARHGYTPVVS REAEIVLRAD KLFLPGVGTA QAAMDQLRER
+     ELIDLIKACT QPVLGICLGM QLLGRRSEET RGVDLLNIIE QDVPKMTDFG LPLPHMGWNR
+     VYPQAGNRLF QGIEDGAYFY FVHSYAMPVN PWTIAQCNYG EPFTAAVQKD NFFGVQFHPE
+     RSGAAGAQLL KNFLEM
+//

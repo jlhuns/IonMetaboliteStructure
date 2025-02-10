@@ -1,0 +1,155 @@
+ID   MNME_ACICJ              Reviewed;         433 AA.
+AC   A5G169;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=tRNA modification GTPase MnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+DE            EC=3.6.-.- {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Name=mnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Synonyms=trmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   OrderedLocusNames=Acry_2407;
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Exhibits a very high intrinsic GTPase hydrolysis rate.
+CC       Involved in the addition of a carboxymethylaminomethyl (cmnm) group at
+CC       the wobble position (U34) of certain tRNAs, forming tRNA-
+CC       cmnm(5)s(2)U34. {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00379};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. TrmE GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31601.1; -; Genomic_DNA.
+DR   RefSeq; WP_012040034.1; NC_009484.1.
+DR   AlphaFoldDB; A5G169; -.
+DR   SMR; A5G169; -.
+DR   STRING; 349163.Acry_2407; -.
+DR   KEGG; acr:Acry_2407; -.
+DR   eggNOG; COG0486; Bacteria.
+DR   HOGENOM; CLU_019624_4_1_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030488; P:tRNA methylation; IEA:TreeGrafter.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:TreeGrafter.
+DR   CDD; cd04164; trmE; 1.
+DR   CDD; cd14858; TrmE_N; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 3.30.1360.120; Probable tRNA modification gtpase trme, domain 1; 1.
+DR   Gene3D; 1.20.120.430; tRNA modification GTPase MnmE domain 2; 1.
+DR   HAMAP; MF_00379; GTPase_MnmE; 1.
+DR   InterPro; IPR031168; G_TrmE.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR018948; GTP-bd_TrmE_N.
+DR   InterPro; IPR004520; GTPase_MnmE.
+DR   InterPro; IPR027368; MnmE_dom2.
+DR   InterPro; IPR025867; MnmE_helical.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd.
+DR   InterPro; IPR027266; TrmE/GcvT_dom1.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR42714; TRNA MODIFICATION GTPASE GTPBP3; 1.
+DR   PANTHER; PTHR42714:SF2; TRNA MODIFICATION GTPASE GTPBP3, MITOCHONDRIAL; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF12631; MnmE_helical; 1.
+DR   Pfam; PF10396; TrmE_N; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51709; G_TRME; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Potassium; Reference proteome; tRNA processing.
+FT   CHAIN           1..433
+FT                   /note="tRNA modification GTPase MnmE"
+FT                   /id="PRO_0000345693"
+FT   DOMAIN          216..359
+FT                   /note="TrmE-type G"
+FT   BINDING         24
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         81
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         120
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         226..231
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         226
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         230
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         245..251
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         245
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         247
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         250
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         251
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         270..273
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         340..342
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         433
+FT                   /ligand="(6S)-5-formyl-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57457"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+SQ   SEQUENCE   433 AA;  44582 MW;  C97800D60D407AEB CRC64;
+     MSLAPSDVIF APASGVGGAI SLLRLSGAGV ARVIGALAGS LPAPRRASLR SFRDGRRGII
+     DRGLLLWFPG PASVTGEDYA EFHLHGGRAV RAAITAALLD LGARPAEPGE FSRRAFLNSR
+     LDLLEAEGIA DLIDAETEAQ RQLALDLAGG AMSRAVAAWR EALIGLMAQL AALIDFADED
+     LPAEVEAAML ASMARLRDEI VAAIGAGLAA ERLREGVEIV VLGAPNAGKS TLVNALAGEE
+     VAIVSDIPGT TRDAIGVRLD LGGVPVRLVD TAGLRRSDDA IEAEGVRRAE AHARRADLLI
+     LCGAAPDFVV PDAPADVPAL RIATKADLGG AVPAAMLAVS ARTGAGLADL LAALRARVEA
+     LVERGAGPAL PRPRQIACLR DVAAALDRAL AIDVPELRAE EMQAAAVALA RLTGTIGVED
+     VLDQVFSSFC IGK
+//

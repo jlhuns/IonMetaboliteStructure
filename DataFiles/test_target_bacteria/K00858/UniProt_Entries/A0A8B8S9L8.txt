@@ -1,0 +1,77 @@
+ID   A0A8B8S9L8_CAMFR        Unreviewed;       464 AA.
+AC   A0A8B8S9L8;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=NAD kinase 2, mitochondrial {ECO:0000256|PIRNR:PIRNR017565};
+DE            EC=2.7.1.23 {ECO:0000256|PIRNR:PIRNR017565};
+DE   AltName: Full=NAD kinase domain-containing protein 1, mitochondrial {ECO:0000256|PIRNR:PIRNR017565};
+GN   Name=NADK2 {ECO:0000313|RefSeq:XP_032326928.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032326928.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032326928.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032326928.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Mitochondrial NAD(+) kinase that phosphorylates NAD(+) to
+CC       yield NADP(+). Can use both ATP or inorganic polyphosphate as the
+CC       phosphoryl donor. {ECO:0000256|PIRNR:PIRNR017565}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + ATP = ADP + NADP(+) + H(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR017565};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|PIRNR:PIRNR017565}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000256|PIRNR:PIRNR017565}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family.
+CC       {ECO:0000256|ARBA:ARBA00010995, ECO:0000256|PIRNR:PIRNR017565}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032326928.1; XM_032471037.1.
+DR   KEGG; cfr:102523837; -.
+DR   Proteomes; UP000694856; Chromosome 3.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042803; F:protein homodimerization activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.40.50.10330:FF:000021; NAD kinase 2, mitochondrial; 1.
+DR   Gene3D; 3.40.50.10330; Probable inorganic polyphosphate/atp-NAD kinase, domain 1; 1.
+DR   Gene3D; 2.60.200.30; Probable inorganic polyphosphate/atp-NAD kinase, domain 2; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   InterPro; IPR012355; NADK2_mit.
+DR   PANTHER; PTHR13158; -; 1.
+DR   PANTHER; PTHR13158:SF5; NAD KINASE 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   PIRSF; PIRSF017565; Kin_ATP-NAD_euk; 1.
+DR   SUPFAM; SSF111331; NAD kinase/diacylglycerol kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|PIRNR:PIRNR017565};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|PIRNR:PIRNR017565};
+KW   Mitochondrion {ECO:0000256|PIRNR:PIRNR017565};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRNR:PIRNR017565};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|PIRNR:PIRNR017565};
+KW   Nucleotide-binding {ECO:0000256|PIRNR:PIRNR017565};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR017565}.
+FT   REGION          23..63
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   464 AA;  51992 MW;  5E809B28F63EF119 CRC64;
+     MTCYRGFLLG SCRRVAGGRA AALRGPGAGG PAARPQLGGD GGGRRHLGQG QPRELAGCGS
+     RPDGGFRPSR VVVVAKTTRY EFEQQRYRYA ELSEEDLKQL LALKGSSYSG LLERHHIHTK
+     NVEHILDSLR KEGIEVRLVK RREYDEETVR WADAVIAAGG DGTMLLAASK VLDRLKPVIG
+     VNTDPERSEG HLCLPVRYTH SFPEALQKFY RGEFRWLWRQ RIRLYLEGTG INPVPVDLHE
+     QQLSLNQHSR AFNIERVHDA RFEASGPQLL PVRALNEVFI GESLSSRMSY SWAVAVDSLR
+     RSIPTLKGLA SYYEISVDDG PWEKQKSSGL NLCTGTGSKA WSFNINRVAT QAVEDVLNIA
+     KRQGNLDLPL NRELVEKVTN EYNESLLYSP EEPKILFSIR EPIANRVFSS SRQRCFTSKV
+     CVRSRCWDAC MVVDGGTSFE FNDGAIASML INKEDELRTV LLEQ
+//

@@ -1,0 +1,99 @@
+ID   E0RSD5_SPITD            Unreviewed;       148 AA.
+AC   E0RSD5;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 66.
+DE   RecName: Full=Endoribonuclease YbeY {ECO:0000256|HAMAP-Rule:MF_00009};
+DE            EC=3.1.-.- {ECO:0000256|HAMAP-Rule:MF_00009};
+GN   Name=ybeY {ECO:0000256|HAMAP-Rule:MF_00009};
+GN   OrderedLocusNames=STHERM_c09760 {ECO:0000313|EMBL:ADN01922.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01922.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01922.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Single strand-specific metallo-endoribonuclease involved in
+CC       late-stage 70S ribosome quality control and in maturation of the 3'
+CC       terminus of the 16S rRNA. {ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00009};
+CC       Note=Binds 1 zinc ion. {ECO:0000256|HAMAP-Rule:MF_00009};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   -!- SIMILARITY: Belongs to the endoribonuclease YbeY family.
+CC       {ECO:0000256|ARBA:ARBA00010875, ECO:0000256|HAMAP-Rule:MF_00009}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01922.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313763.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSD5; -.
+DR   PaxDb; 665571-STHERM_c09760; -.
+DR   KEGG; sta:STHERM_c09760; -.
+DR   eggNOG; COG0319; Bacteria.
+DR   HOGENOM; CLU_106710_3_3_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0004521; F:RNA endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.390.30; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   HAMAP; MF_00009; Endoribonucl_YbeY; 1.
+DR   InterPro; IPR023091; MetalPrtase_cat_dom_sf_prd.
+DR   InterPro; IPR002036; YbeY.
+DR   InterPro; IPR020549; YbeY_CS.
+DR   NCBIfam; TIGR00043; rRNA maturation RNase YbeY; 1.
+DR   PANTHER; PTHR46986; ENDORIBONUCLEASE YBEY, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR46986:SF1; ENDORIBONUCLEASE YBEY, CHLOROPLASTIC; 1.
+DR   Pfam; PF02130; YbeY; 1.
+DR   SUPFAM; SSF55486; Metalloproteases ('zincins'), catalytic domain; 1.
+DR   PROSITE; PS01306; UPF0054; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Endonuclease {ECO:0000256|ARBA:ARBA00022759, ECO:0000256|HAMAP-
+KW   Rule:MF_00009};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00009};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Ribosome biogenesis {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   rRNA processing {ECO:0000256|HAMAP-Rule:MF_00009};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00009}.
+FT   BINDING         108
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+FT   BINDING         112
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+FT   BINDING         118
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00009"
+SQ   SEQUENCE   148 AA;  16625 MW;  B1D570AE477106E6 CRC64;
+     MSEIVVIWKD IPPSPWQEVV ASFVARVLEE VGKESGDIAV VMCSAEFIQE LNRTFRGKDE
+     PTDVLSFPNS EGGSRIQGDI VIAPEVVVHQ AADWGVPAHE ELLRVILHGL LHLSGMDHMS
+     TDPSEPMLVY QEDILSRVKE EYRFEIRT
+//

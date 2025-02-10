@@ -1,0 +1,136 @@
+ID   MIAA_SALTI              Reviewed;         316 AA.
+AC   Q8Z186;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 140.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=STY4717, t4411;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06837.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71860.1; -; Genomic_DNA.
+DR   RefSeq; NP_458796.1; NC_003198.1.
+DR   RefSeq; WP_001000739.1; NZ_WSUR01000012.1.
+DR   AlphaFoldDB; Q8Z186; -.
+DR   SMR; Q8Z186; -.
+DR   STRING; 220341.gene:17588537; -.
+DR   KEGG; stt:t4411; -.
+DR   KEGG; sty:STY4717; -.
+DR   PATRIC; fig|220341.7.peg.4818; -.
+DR   eggNOG; COG0324; Bacteria.
+DR   HOGENOM; CLU_032616_0_0_6; -.
+DR   OMA; VPHYLID; -.
+DR   OrthoDB; 9776390at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006400; P:tRNA modification; IEA:TreeGrafter.
+DR   FunFam; 1.10.20.140:FF:000001; tRNA dimethylallyltransferase; 1.
+DR   FunFam; 1.10.287.890:FF:000001; tRNA dimethylallyltransferase; 1.
+DR   Gene3D; 1.10.20.140; -; 1.
+DR   Gene3D; 1.10.287.890; Crystal structure of tRNA isopentenylpyrophosphate transferase (bh2366) domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF60; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Transferase; tRNA processing.
+FT   CHAIN           1..316
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_0000163968"
+FT   REGION          42..45
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          166..170
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          247..252
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         17..24
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         19..24
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            108
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            130
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   CONFLICT        237
+FT                   /note="G -> E (in Ref. 2; AAO71860)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   316 AA;  35214 MW;  7F589D27306AAE1C CRC64;
+     MNDVSKVSLP KAIFLMGPTA SGKTALAIEL RKVLPVELIS VDSALIYRGM DIGTAKPNAD
+     ELKAAPHRLL DIRDPSQAYS AADFRRDALA QMAEITAAGR IPLLVGGTML YFKALLEGLS
+     PLPSADPEVR SRIEQQAAEL GWEALHQQLQ EIDPVAAARI HPNDPQRLSR ALEVFFISGK
+     TLTELTQTSG DALPYQVHQF AIAPASRELL HQRIELRFHQ MLASGFEAEV RALFARGDLH
+     TDLPSIRCVG YRQMWSYIEG EISYDEMVYR GVCSTRQLAK RQMTWLRGWE GVRWLDSENP
+     DRARKEVLQV VGAIAD
+//

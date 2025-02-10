@@ -1,0 +1,187 @@
+ID   SECA_SALTI              Reviewed;         901 AA.
+AC   Q8Z9G3; Q7CBT8;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 141.
+DE   RecName: Full=Protein translocase subunit SecA {ECO:0000255|HAMAP-Rule:MF_01382};
+DE            EC=7.4.2.8 {ECO:0000255|HAMAP-Rule:MF_01382};
+GN   Name=secA {ECO:0000255|HAMAP-Rule:MF_01382};
+GN   OrderedLocusNames=STY0156, t0140;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts with
+CC       the SecYEG preprotein conducting channel. Has a central role in
+CC       coupling the hydrolysis of ATP to the transfer of proteins into and
+CC       across the cell membrane, serving both as a receptor for the
+CC       preprotein-SecB complex and as an ATP-driven molecular motor driving
+CC       the stepwise translocation of polypeptide chains across the membrane.
+CC       {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + cellular proteinSide 1 = ADP + phosphate +
+CC         cellular proteinSide 2.; EC=7.4.2.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01382};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01382};
+CC       Note=May bind 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382};
+CC   -!- SUBUNIT: Monomer and homodimer. Part of the essential Sec protein
+CC       translocation apparatus which comprises SecA, SecYEG and auxiliary
+CC       proteins SecDF-YajC and YidC. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC       Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01382}. Note=Distribution is 50-
+CC       50. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- INDUCTION: Repressed under conditions of excess protein secretion
+CC       capacity and derepressed when protein secretion becomes limiting. This
+CC       is regulated by SecM. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SIMILARITY: Belongs to the SecA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO67872.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD01293.1; -; Genomic_DNA.
+DR   RefSeq; NP_454748.1; NC_003198.1.
+DR   RefSeq; WP_000905763.1; NZ_WSUR01000009.1.
+DR   AlphaFoldDB; Q8Z9G3; -.
+DR   SMR; Q8Z9G3; -.
+DR   STRING; 220341.gene:17584195; -.
+DR   KEGG; stt:t0140; -.
+DR   KEGG; sty:STY0156; -.
+DR   PATRIC; fig|220341.7.peg.156; -.
+DR   eggNOG; COG0653; Bacteria.
+DR   HOGENOM; CLU_005314_3_0_6; -.
+DR   OMA; MVHYDVQ; -.
+DR   OrthoDB; 9805579at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0031522; C:cell envelope Sec protein transport complex; IEA:TreeGrafter.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008564; F:protein-exporting ATPase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-UniRule.
+DR   GO; GO:0017038; P:protein import; IEA:InterPro.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:TreeGrafter.
+DR   CDD; cd17928; DEXDc_SecA; 1.
+DR   CDD; cd18803; SF2_C_secA; 1.
+DR   FunFam; 1.10.3060.10:FF:000001; Preprotein translocase subunit SecA; 1.
+DR   FunFam; 3.40.50.300:FF:000081; Preprotein translocase subunit SecA; 1.
+DR   FunFam; 3.40.50.300:FF:000113; Preprotein translocase subunit SecA; 1.
+DR   FunFam; 3.90.1440.10:FF:000001; Preprotein translocase subunit SecA; 1.
+DR   Gene3D; 1.10.3060.10; Helical scaffold and wing domains of SecA; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   Gene3D; 3.90.1440.10; SecA, preprotein cross-linking domain; 1.
+DR   HAMAP; MF_01382; SecA; 1.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004027; SEC_C_motif.
+DR   InterPro; IPR000185; SecA.
+DR   InterPro; IPR020937; SecA_CS.
+DR   InterPro; IPR011115; SecA_DEAD.
+DR   InterPro; IPR014018; SecA_motor_DEAD.
+DR   InterPro; IPR011130; SecA_preprotein_X-link_dom.
+DR   InterPro; IPR044722; SecA_SF2_C.
+DR   InterPro; IPR011116; SecA_Wing/Scaffold.
+DR   InterPro; IPR036266; SecA_Wing/Scaffold_sf.
+DR   InterPro; IPR036670; SecA_X-link_sf.
+DR   NCBIfam; TIGR00963; secA; 1.
+DR   PANTHER; PTHR30612:SF0; CHLOROPLAST PROTEIN-TRANSPORTING ATPASE; 1.
+DR   PANTHER; PTHR30612; SECA INNER MEMBRANE COMPONENT OF SEC PROTEIN SECRETION SYSTEM; 1.
+DR   Pfam; PF21090; P-loop_SecA; 1.
+DR   Pfam; PF02810; SEC-C; 1.
+DR   Pfam; PF07517; SecA_DEAD; 1.
+DR   Pfam; PF01043; SecA_PP_bind; 1.
+DR   Pfam; PF07516; SecA_SW; 1.
+DR   PRINTS; PR00906; SECA.
+DR   SMART; SM00957; SecA_DEAD; 1.
+DR   SMART; SM00958; SecA_PP_bind; 1.
+DR   SUPFAM; SSF81886; Helical scaffold and wing domains of SecA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   SUPFAM; SSF81767; Pre-protein crosslinking domain of SecA; 1.
+DR   PROSITE; PS01312; SECA; 1.
+DR   PROSITE; PS51196; SECA_MOTOR_DEAD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Cytoplasm; Membrane;
+KW   Metal-binding; Nucleotide-binding; Protein transport; Translocase;
+KW   Translocation; Transport; Zinc.
+FT   CHAIN           1..901
+FT                   /note="Protein translocase subunit SecA"
+FT                   /id="PRO_0000320986"
+FT   BINDING         87
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         105..109
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         512
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         885
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         887
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         896
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   BINDING         897
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+SQ   SEQUENCE   901 AA;  101736 MW;  07583F64C45505E2 CRC64;
+     MLIKLLTKVF GSRNDRTLRR MRKAVSLINA MEPEMEKLSD DELKAKTNEF RARIGKGESV
+     ESLIPEAFAV VREASKRVFG MRHFDVQLLG GMVLNDRCIA EMRTGEGKTL TATLPAYLNA
+     LSGKGVHVVT VNDYLAQRDA ENNRPLFEFL GMSVGINLPG MPAPAKREAY AADITYGTNN
+     EYGFDYLRDN MAFSPEERVQ RKLHYALVDE VDSILIDEAR TPLIISGPAE DSSEMYKKVN
+     KIIPHLIRQE KEDSDTFQGE GHFSVDEKAR QVNLTERGLV LIEELLVQEG IMDEGESLYS
+     PGNIMLMHHV TAALRAHALF TRDVDYIVKD GEVIIVDEHT GRTMQGRRWS DGLHQAVEAK
+     EGVEIQNENQ TLASITFQNY FRLYEKLAGM TGTADTEAFE FSSIYKLDTV VVPTNRPMIR
+     KDLPDLVYIT EAEKIQAIIE DIKERTANGQ PVLVGTISIE KSEVVSRELT KAGIKHNVLN
+     AKFHANEAGI VAQAGYPAAV TIATNMAGRG TDIMLGGSWQ AEVAALEAPT EEQIAQIKAD
+     WQVRHDAVLA AGGLHIIGTE RHESRRIDNQ LRGRSGRQGD PGSSRFYLSM EDALMRIFAS
+     DRVSGMMRKL GMKPGEAIEH PWVTKAIANA QRKVESRNFD IRKQLLEYDD VANDQRRAIY
+     TQRNELLDVS DVSDTINSIR EDVFKATIDA YIPPQSLEEM WDIPGLQERL KNDFDLEMPI
+     AEWLDKEPEL HEETLRERIL AQSIEVYQRK EEVVGAEMMR HFEKGVMLQT LDSLWKEHLA
+     AMDYLRQGIH LRGYAQKDPK QEYKRESFAM FAAMLESLKY EVISTLSKVQ VRMPEEVEAM
+     EMQRREEAER LAQMQQLSHQ DDDAAVAADL AAQTGERKIG RNDPCPCGSG KKYKQCHGRL
+     S
+//

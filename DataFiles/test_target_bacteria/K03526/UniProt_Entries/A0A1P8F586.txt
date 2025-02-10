@@ -1,0 +1,111 @@
+ID   A0A1P8F586_9CHLR        Unreviewed;       346 AA.
+AC   A0A1P8F586;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 34.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) {ECO:0000256|HAMAP-Rule:MF_00159};
+DE            EC=1.17.7.3 {ECO:0000256|HAMAP-Rule:MF_00159};
+DE   AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase {ECO:0000256|HAMAP-Rule:MF_00159};
+GN   Name=gcpE {ECO:0000313|EMBL:APV43512.1};
+GN   Synonyms=ispG {ECO:0000256|HAMAP-Rule:MF_00159,
+GN   ECO:0000313|EMBL:APV43512.1};
+GN   ORFNames=Dform_00149 {ECO:0000313|EMBL:APV43512.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV43512.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Converts 2C-methyl-D-erythritol 2,4-cyclodiphosphate
+CC       (ME-2,4cPP) into 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate.
+CC       {ECO:0000256|HAMAP-Rule:MF_00159}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate + oxidized
+CC         [flavodoxin] + H2O + 2 H(+) = 2-C-methyl-D-erythritol 2,4-cyclic
+CC         diphosphate + reduced [flavodoxin]; Xref=Rhea:RHEA:43604, Rhea:RHEA-
+CC         COMP:10622, Rhea:RHEA-COMP:10623, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:58483, ChEBI:CHEBI:128753; EC=1.17.7.3;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00159};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00159};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000256|HAMAP-Rule:MF_00159};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 5/6. {ECO:0000256|HAMAP-Rule:MF_00159}.
+CC   -!- SIMILARITY: Belongs to the IspG family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV43512.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A1P8F586; -.
+DR   STRING; 1839801.Dform_00149; -.
+DR   KEGG; dfo:Dform_00149; -.
+DR   UniPathway; UPA00056; UER00096.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046429; F:4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity (ferredoxin); IEA:UniProtKB-UniRule.
+DR   GO; GO:0141197; F:4-hydroxy-3-methylbut-2-enyl-diphosphate synthase activity (flavodoxin); IEA:UniProtKB-EC.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:InterPro.
+DR   CDD; cd00945; Aldolase_Class_I; 1.
+DR   FunFam; 3.20.20.20:FF:000001; 4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   Gene3D; 3.30.413.10; Sulfite Reductase Hemoprotein, domain 1; 1.
+DR   HAMAP; MF_00159; IspG; 1.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   InterPro; IPR016425; IspG_bac.
+DR   InterPro; IPR004588; IspG_bac-typ.
+DR   InterPro; IPR045854; NO2/SO3_Rdtase_4Fe4S_sf.
+DR   NCBIfam; TIGR00612; ispG_gcpE; 1.
+DR   PANTHER; PTHR30454; 4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE; 1.
+DR   PANTHER; PTHR30454:SF0; 4-HYDROXY-3-METHYLBUT-2-EN-1-YL DIPHOSPHATE SYNTHASE (FERREDOXIN), CHLOROPLASTIC; 1.
+DR   Pfam; PF04551; GcpE; 1.
+DR   PIRSF; PIRSF004640; IspG; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+DR   SUPFAM; SSF56014; Nitrite and sulphite reductase 4Fe-4S domain-like; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_00159};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_00159};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_00159};
+KW   Isoprene biosynthesis {ECO:0000256|ARBA:ARBA00023229, ECO:0000256|HAMAP-
+KW   Rule:MF_00159};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00159};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00159}; Reference proteome {ECO:0000313|Proteomes:UP000185934}.
+FT   BINDING         261
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00159"
+FT   BINDING         264
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00159"
+FT   BINDING         296
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00159"
+FT   BINDING         303
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00159"
+SQ   SEQUENCE   346 AA;  36686 MW;  A347D1D1A9E5BA02 CRC64;
+     MRRKTRAINI GGVLVGGGAP ITVQSMTKTD TRDVPSTVAQ IKELAGAGCE IIRCGVPDAQ
+     AAEALRDIKK QSPIPVIADI HFDYRLALAA IAAGVDGLRI NPGNIGEADR VKQVVEAAKE
+     RQVPIRIGVN GGSLPAEFEP EKPLHQRMVD SAMGQVRLLE SLDFNLIKIS LKAFDVPETL
+     AAYRMISKMV DYPLHLGITE AGTPKTGIIR SAVGIGALLA EGIGDTIRVS LTADPREEVA
+     AGYEILKSLD LRKRGPTVVS CPSCSRTEAD VVGLAEMISD LLLSIDKPIK VAVMGCAVNG
+     PGEAKDADVG IACGKGQGIL FRRGEKVRVV AEAGYFEALS KEIENF
+//

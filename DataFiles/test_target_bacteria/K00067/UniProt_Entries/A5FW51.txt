@@ -1,0 +1,87 @@
+ID   A5FW51_ACICJ            Unreviewed;       301 AA.
+AC   A5FW51;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 94.
+DE   RecName: Full=dTDP-4-dehydrorhamnose reductase {ECO:0000256|ARBA:ARBA00017099, ECO:0000256|RuleBase:RU364082};
+DE            EC=1.1.1.133 {ECO:0000256|ARBA:ARBA00012929, ECO:0000256|RuleBase:RU364082};
+GN   OrderedLocusNames=Acry_0611 {ECO:0000313|EMBL:ABQ29833.1}, Acry_1217
+GN   {ECO:0000313|EMBL:ABQ30428.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29833.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29833.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29833.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reduction of dTDP-6-deoxy-L-lyxo-4-hexulose to
+CC       yield dTDP-L-rhamnose. {ECO:0000256|RuleBase:RU364082}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-beta-L-rhamnose + NADP(+) = dTDP-4-dehydro-beta-L-
+CC         rhamnose + NADPH + H(+); Xref=Rhea:RHEA:21796, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57510, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:62830; EC=1.1.1.133;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048200,
+CC         ECO:0000256|RuleBase:RU364082};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU364082};
+CC       Note=Binds 1 Mg(2+) ion per monomer. {ECO:0000256|RuleBase:RU364082};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; dTDP-L-rhamnose biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00004781, ECO:0000256|RuleBase:RU364082}.
+CC   -!- SIMILARITY: Belongs to the dTDP-4-dehydrorhamnose reductase family.
+CC       {ECO:0000256|ARBA:ARBA00010944, ECO:0000256|RuleBase:RU364082}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29833.1; -; Genomic_DNA.
+DR   EMBL; CP000697; ABQ30428.1; -; Genomic_DNA.
+DR   RefSeq; WP_011941643.1; NC_009484.1.
+DR   AlphaFoldDB; A5FW51; -.
+DR   STRING; 349163.Acry_0611; -.
+DR   KEGG; acr:Acry_0611; -.
+DR   KEGG; acr:Acry_1217; -.
+DR   eggNOG; COG1091; Bacteria.
+DR   HOGENOM; CLU_045518_1_0_5; -.
+DR   UniPathway; UPA00124; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008831; F:dTDP-4-dehydrorhamnose reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd05254; dTDP_HR_like_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR005913; dTDP_dehydrorham_reduct.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR029903; RmlD-like-bd.
+DR   NCBIfam; TIGR01214; rmlD; 1.
+DR   PANTHER; PTHR10491; DTDP-4-DEHYDRORHAMNOSE REDUCTASE; 1.
+DR   PANTHER; PTHR10491:SF4; METHIONINE ADENOSYLTRANSFERASE 2 SUBUNIT BETA; 1.
+DR   Pfam; PF04321; RmlD_sub_bind; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   NADP {ECO:0000256|RuleBase:RU364082};
+KW   Oxidoreductase {ECO:0000256|RuleBase:RU364082,
+KW   ECO:0000313|EMBL:ABQ29833.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          6..291
+FT                   /note="RmlD-like substrate binding"
+FT                   /evidence="ECO:0000259|Pfam:PF04321"
+SQ   SEQUENCE   301 AA;  31152 MW;  948F6E7143BD3680 CRC64;
+     MPPRPILITG ASGQLGHALA ARAPAAGLPA RAIGRPGFDF DAPETIARAL AAADPALVVN
+     AAAWTAVDAA ETSADAAFRA NRDGPATLAT LCRARGIPLI HVSTDYVFDG TKGAPYTETD
+     PIAPLGVYGH SKAAGEEAIL AAGADAIILR TAWVFSATGK NFARTMIAAA RRLPALRVVA
+     DQRGTPTAAE DLADAILAIA ARILAEGWQP GFAGIFHATS AGDTSWHGFA TEILALAARH
+     GTPHPDIIPI ATADWPTPAR RPADSRLDTT KLSQTFALAL PHWKDATARI VPAILAQDET
+     P
+//

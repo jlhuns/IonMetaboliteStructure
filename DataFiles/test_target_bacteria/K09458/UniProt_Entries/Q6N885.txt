@@ -1,0 +1,93 @@
+ID   Q6N885_RHOPA            Unreviewed;       426 AA.
+AC   Q6N885;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 111.
+DE   SubName: Full=3-oxoacyl-acyl carrier protein synthase II {ECO:0000313|EMBL:CAE27460.1};
+DE            EC=2.3.1.41 {ECO:0000313|EMBL:CAE27460.1};
+DE   SubName: Full=Beta-ketoacyl-ACP synthase {ECO:0000313|EMBL:WCL92170.1};
+DE            EC=2.3.1.179 {ECO:0000313|EMBL:WCL92170.1};
+GN   OrderedLocusNames=RPA2019 {ECO:0000313|EMBL:CAE27460.1};
+GN   ORFNames=TX73_010405 {ECO:0000313|EMBL:WCL92170.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27460.1};
+RN   [1] {ECO:0000313|EMBL:WCL92170.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92170.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27460.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27460.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92170.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92170.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Beta-ketoacyl-ACP
+CC       synthases family. {ECO:0000256|ARBA:ARBA00008467,
+CC       ECO:0000256|RuleBase:RU003694}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572599; CAE27460.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92170.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157574.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2019; -.
+DR   GeneID; 66893063; -.
+DR   KEGG; rpa:TX73_010405; -.
+DR   eggNOG; COG0304; Bacteria.
+DR   HOGENOM; CLU_000022_69_2_5; -.
+DR   PhylomeDB; Q6N885; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:InterPro.
+DR   CDD; cd00834; KAS_I_II; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR000794; Beta-ketoacyl_synthase.
+DR   InterPro; IPR018201; Ketoacyl_synth_AS.
+DR   InterPro; IPR014031; Ketoacyl_synth_C.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR020841; PKS_Beta-ketoAc_synthase_dom.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   PANTHER; PTHR11712:SF336; 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11712; POLYKETIDE SYNTHASE-RELATED; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 2.
+DR   Pfam; PF02801; Ketoacyl-synt_C; 1.
+DR   SMART; SM00825; PKS_KS; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+DR   PROSITE; PS00606; KS3_1; 1.
+DR   PROSITE; PS52004; KS3_2; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000313|EMBL:CAE27460.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|RuleBase:RU003694, ECO:0000313|EMBL:CAE27460.1}.
+FT   DOMAIN          10..423
+FT                   /note="Ketosynthase family 3 (KS3)"
+FT                   /evidence="ECO:0000259|PROSITE:PS52004"
+SQ   SEQUENCE   426 AA;  44398 MW;  4114DA17BB08CD31 CRC64;
+     MTVTRDKFGR PIVVVTGMGV VTSLGAGKND NWAKLTAGES GIRTITRFPI DGLKSTMAGT
+     VDFVPVEPFS SVVLGEKLAD LATEEAIAQS GIGRKGDFPG PLFLAVAPVE LEWLPRQELA
+     RATGANTAID YDALLRVSGG GTFTQYHRRF LFGSVADHLA DTFGTKGSPI SLSTACASGA
+     SAIQLGVEAI RRGEADAALC VATDGSVNAE ALIRFSLLSA LSTQNDPPQA SSKPFAKNRD
+     GFVMAEGAGA LVLESYESAV ARGASILGVI AGCGELADNF HRTRSSPDGK PIIGCINKTL
+     ADAGMSVDQI DYINAHGTGT PENDKMEYLG ISSVFGERAS SLPVSSNKSM VGHTLSAAGA
+     VEAIFSLLTL EHQRIPPTIN YDVPDPAIPL DVVPNQARDA RVTAVMSNSF GFGGQNASLI
+     LTREPA
+//

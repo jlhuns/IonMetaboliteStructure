@@ -1,0 +1,120 @@
+ID   W6RD26_9HYPH            Unreviewed;       238 AA.
+AC   W6RD26;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 61.
+DE   RecName: Full=LexA repressor {ECO:0000256|HAMAP-Rule:MF_00015};
+DE            EC=3.4.21.88 {ECO:0000256|HAMAP-Rule:MF_00015};
+GN   Name=lexA {ECO:0000256|HAMAP-Rule:MF_00015,
+GN   ECO:0000313|EMBL:CDM58220.1};
+GN   ORFNames=LPU83_2566 {ECO:0000313|EMBL:CDM58220.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM58220.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM58220.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM58220.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Represses a number of genes involved in the response to DNA
+CC       damage (SOS response), including recA and lexA. In the presence of
+CC       single-stranded DNA, RecA interacts with LexA causing an autocatalytic
+CC       cleavage which disrupts the DNA-binding part of LexA, leading to
+CC       derepression of the SOS regulon and eventually DNA repair.
+CC       {ECO:0000256|HAMAP-Rule:MF_00015}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of Ala-|-Gly bond in repressor LexA.; EC=3.4.21.88;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00015};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00015}.
+CC   -!- SIMILARITY: Belongs to the peptidase S24 family.
+CC       {ECO:0000256|ARBA:ARBA00007484, ECO:0000256|HAMAP-Rule:MF_00015,
+CC       ECO:0000256|RuleBase:RU003991}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM58220.1; -; Genomic_DNA.
+DR   RefSeq; WP_024316964.1; NZ_JAIRAY010000050.1.
+DR   AlphaFoldDB; W6RD26; -.
+DR   KEGG; rhl:LPU83_2566; -.
+DR   PATRIC; fig|348824.6.peg.2770; -.
+DR   eggNOG; COG1974; Bacteria.
+DR   HOGENOM; CLU_066192_45_2_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd06529; S24_LexA-like; 1.
+DR   FunFam; 1.10.10.10:FF:000102; LexA repressor; 1.
+DR   FunFam; 2.10.109.10:FF:000001; LexA repressor; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00015; LexA; 1.
+DR   InterPro; IPR006200; LexA.
+DR   InterPro; IPR039418; LexA-like.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR006199; LexA_DNA-bd_dom.
+DR   InterPro; IPR050077; LexA_repressor.
+DR   InterPro; IPR006197; Peptidase_S24_LexA.
+DR   InterPro; IPR015927; Peptidase_S24_S26A/B/C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00498; lexA; 1.
+DR   PANTHER; PTHR33516; LEXA REPRESSOR; 1.
+DR   PANTHER; PTHR33516:SF2; LEXA REPRESSOR-RELATED; 1.
+DR   Pfam; PF01726; LexA_DNA_bind; 1.
+DR   Pfam; PF00717; Peptidase_S24; 1.
+DR   PRINTS; PR00726; LEXASERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage {ECO:0000256|ARBA:ARBA00022813, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00015};
+KW   Repressor {ECO:0000256|ARBA:ARBA00022491, ECO:0000256|HAMAP-Rule:MF_00015};
+KW   SOS response {ECO:0000256|ARBA:ARBA00023236, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00015}.
+FT   DOMAIN          2..63
+FT                   /note="LexA repressor DNA-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01726"
+FT   DOMAIN          116..231
+FT                   /note="Peptidase S24/S26A/S26B/S26C"
+FT                   /evidence="ECO:0000259|Pfam:PF00717"
+FT   DNA_BIND        26..46
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        158
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        196
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   SITE            123..124
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+SQ   SEQUENCE   238 AA;  25868 MW;  55C260D091ABA078 CRC64;
+     MLTRKQQELL LFIHERMKES GVPPSFDEMK DALDLASKSG IHRLITALEE RGFIRRLPNR
+     ARALEVIKLP EAYNPSLQPR RGFSPSVIEG SLGKPQLVAP PKPAAHADNG NSASVPVMGR
+     IAAGVPISAI QNNTHDITVP ADMLGPGEHY ALEVKGDSMI EAGIFDGDTV IIRNGSTANP
+     GDIVVALVDD EEATLKRFRR KGASIALEAA NPAYETRIFG PDRVKVQGKL VGLIRRYH
+//

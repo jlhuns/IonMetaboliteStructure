@@ -1,0 +1,216 @@
+ID   Q818K0_BACCR            Unreviewed;      1133 AA.
+AC   Q818K0;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 151.
+DE   RecName: Full=Methionine synthase {ECO:0000256|ARBA:ARBA00013998, ECO:0000256|NCBIfam:TIGR02082};
+DE            EC=2.1.1.13 {ECO:0000256|ARBA:ARBA00012032, ECO:0000256|NCBIfam:TIGR02082};
+DE   AltName: Full=5-methyltetrahydrofolate--homocysteine methyltransferase {ECO:0000256|PIRNR:PIRNR000381};
+GN   OrderedLocusNames=BC_4250 {ECO:0000313|EMBL:AAP11165.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11165.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11165.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of a methyl group from methyl-
+CC       cobalamin to homocysteine, yielding enzyme-bound cob(I)alamin and
+CC       methionine. Subsequently, remethylates the cofactor using
+CC       methyltetrahydrofolate. {ECO:0000256|ARBA:ARBA00025552,
+CC       ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-methyl-5,6,7,8-tetrahydrofolate + L-homocysteine =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-methionine; Xref=Rhea:RHEA:11172,
+CC         ChEBI:CHEBI:18608, ChEBI:CHEBI:57453, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58199; EC=2.1.1.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001700,
+CC         ECO:0000256|PIRNR:PIRNR000381};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947,
+CC         ECO:0000256|PIRNR:PIRNR000381, ECO:0000256|PROSITE-ProRule:PRU00333};
+CC   -!- COFACTOR:
+CC       Name=methylcob(III)alamin; Xref=ChEBI:CHEBI:28115;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001956,
+CC         ECO:0000256|PIRNR:PIRNR000381, ECO:0000256|PIRSR:PIRSR000381-1};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-methionine from L-homocysteine (MetH route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005178, ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- DOMAIN: Modular enzyme with four functionally distinct domains. The
+CC       isolated Hcy-binding domain catalyzes methyl transfer from free
+CC       methylcobalamin to homocysteine. The Hcy-binding domain in association
+CC       with the pterin-binding domain catalyzes the methylation of
+CC       cob(I)alamin by methyltetrahydrofolate and the methylation of
+CC       homocysteine. The B12-binding domain binds the cofactor. The AdoMet
+CC       activation domain binds S-adenosyl-L-methionine. Under aerobic
+CC       conditions cob(I)alamin can be converted to inactive cob(II)alamin.
+CC       Reductive methylation by S-adenosyl-L-methionine and flavodoxin
+CC       regenerates methylcobalamin. {ECO:0000256|PIRNR:PIRNR000381}.
+CC   -!- SIMILARITY: Belongs to the vitamin-B12 dependent methionine synthase
+CC       family. {ECO:0000256|ARBA:ARBA00010398}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11165.1; -; Genomic_DNA.
+DR   RefSeq; NP_833964.1; NC_004722.1.
+DR   AlphaFoldDB; Q818K0; -.
+DR   KEGG; bce:BC4250; -.
+DR   PATRIC; fig|226900.8.peg.4394; -.
+DR   HOGENOM; CLU_004914_4_0_9; -.
+DR   UniPathway; UPA00051; UER00081.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0031419; F:cobalamin binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008705; F:methionine synthase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050667; P:homocysteine metabolic process; IBA:GO_Central.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0046653; P:tetrahydrofolate metabolic process; IBA:GO_Central.
+DR   FunFam; 3.10.196.10:FF:000004; Methionine synthase; 1.
+DR   FunFam; 3.20.20.20:FF:000017; Methionine synthase; 1.
+DR   FunFam; 3.20.20.330:FF:000001; Methionine synthase; 1.
+DR   Gene3D; 3.40.50.280; Cobalamin-binding domain; 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   Gene3D; 3.20.20.330; Homocysteine-binding-like domain; 1.
+DR   Gene3D; 1.10.1240.10; Methionine synthase domain; 1.
+DR   Gene3D; 3.10.196.10; Vitamin B12-dependent methionine synthase, activation domain; 1.
+DR   InterPro; IPR003759; Cbl-bd_cap.
+DR   InterPro; IPR006158; Cobalamin-bd.
+DR   InterPro; IPR036724; Cobalamin-bd_sf.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   InterPro; IPR003726; HCY_dom.
+DR   InterPro; IPR036589; HCY_dom_sf.
+DR   InterPro; IPR050554; Met_Synthase/Corrinoid.
+DR   InterPro; IPR011822; MetH.
+DR   InterPro; IPR036594; Meth_synthase_dom.
+DR   InterPro; IPR000489; Pterin-binding_dom.
+DR   InterPro; IPR004223; VitB12-dep_Met_synth_activ_dom.
+DR   InterPro; IPR037010; VitB12-dep_Met_synth_activ_sf.
+DR   NCBIfam; TIGR02082; metH; 1.
+DR   PANTHER; PTHR45833; METHIONINE SYNTHASE; 1.
+DR   PANTHER; PTHR45833:SF1; METHIONINE SYNTHASE; 1.
+DR   Pfam; PF02310; B12-binding; 1.
+DR   Pfam; PF02607; B12-binding_2; 1.
+DR   Pfam; PF02965; Met_synt_B12; 1.
+DR   Pfam; PF00809; Pterin_bind; 1.
+DR   Pfam; PF02574; S-methyl_trans; 1.
+DR   PIRSF; PIRSF000381; MetH; 1.
+DR   SMART; SM01018; B12-binding_2; 1.
+DR   SUPFAM; SSF52242; Cobalamin (vitamin B12)-binding domain; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+DR   SUPFAM; SSF82282; Homocysteine S-methyltransferase; 1.
+DR   SUPFAM; SSF56507; Methionine synthase activation domain-like; 1.
+DR   SUPFAM; SSF47644; Methionine synthase domain; 1.
+DR   PROSITE; PS50974; ADOMET_ACTIVATION; 1.
+DR   PROSITE; PS51332; B12_BINDING; 1.
+DR   PROSITE; PS51337; B12_BINDING_NTER; 1.
+DR   PROSITE; PS50970; HCY; 1.
+DR   PROSITE; PS50972; PTERIN_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Cobalamin {ECO:0000256|ARBA:ARBA00022628, ECO:0000256|PIRNR:PIRNR000381};
+KW   Cobalt {ECO:0000256|ARBA:ARBA00023285, ECO:0000256|PIRNR:PIRNR000381};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRNR:PIRNR000381};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR000381};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRNR:PIRNR000381}.
+FT   DOMAIN          2..301
+FT                   /note="Hcy-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50970"
+FT   DOMAIN          331..586
+FT                   /note="Pterin-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50972"
+FT   DOMAIN          612..706
+FT                   /note="B12-binding N-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51337"
+FT   DOMAIN          706..841
+FT                   /note="B12-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51332"
+FT   DOMAIN          839..1133
+FT                   /note="AdoMet activation"
+FT                   /evidence="ECO:0000259|PROSITE:PS50974"
+FT   BINDING         223
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         286
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         287
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00333"
+FT   BINDING         716..720
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         719
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /ligand_part="Co"
+FT                   /ligand_part_id="ChEBI:CHEBI:27638"
+FT                   /note="axial binding residue"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-1"
+FT   BINDING         764
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         820
+FT                   /ligand="methylcob(III)alamin"
+FT                   /ligand_id="ChEBI:CHEBI:28115"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         1075
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+FT   BINDING         1129..1130
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000381-2"
+SQ   SEQUENCE   1133 AA;  125963 MW;  10F28DF09227F283 CRC64;
+     MMKCIEEKLK NSILILDGAM GTMIQQEDLT AEDFGGEEYE GCNEYLVETR PDVILKIHKA
+     YIEAGADIIE TNTFGATNIV LSDYDLSHLD EELNEEAALL AKQAVKESGK EVYVAGAMGP
+     TTKAISVTGG VTFEELIEAY TRQARGLLKG AVDVVLVETS QDMRNVKAAY IGIQAAFEEL
+     KKTVPIMISG TIEPMGTTLA GQTIEAFYLS VEHMKPLSVG LNCATGPEFM RDHIRSLSDL
+     SECYISCYPN AGLPDEDGHY HESPSSLAEK VKRFAEEGWV NIIGGCCGTT PEHIKAMKSA
+     LASLRPRDHH EREGHGISGL EALQYDESMR PLFVGERTNV IGSRKFKRLV AEGKFEEAAE
+     VARAQVKKNA HIIDICMADP DRDEIEDMEN FLAEVTKVLK VPIMIDSTDE NVMERALTYI
+     QGKAVINSIN LEDGEERFKK VTPLLQKYGA AIVVGTIDED GMAVSAERKI EIAKRSYELL
+     TKKYGIRPSD IIFDALVFPV GTGDEEYIGS AAATIEGIRL IKEALPECLT ILGVSNISFG
+     LPPAGREVLN SVFLYHATKA GLDYAIVNTE KLERYASIPE EEKRLADALL FETTKETLEE
+     FTNFYRVAKK KDVVVQETLT LDERLANYIV EGTKQGLHED LSLALEEGRK PLDIINGPLM
+     TGMDEVGRLF NNNELIVAEV LQSAESMKAA VSYLEPHMES SDSAKKGKVL LATVKGDVHD
+     IGKNLVEIIL ANNGYEIINL GINVRSDRIV QEVQEKKPDI IGLSGLLVKS AQQMVTTAED
+     LKAANIDVPI VVGGAALTRK FTDNRISPSY KGLVCYASDA MTGLDIINKL QKEEEREKMK
+     QDKKERHLHI VKKEEKKVEI PAVIEPLPKS EVMVPDSTKR IVLRDVPALH LAPFLNRQML
+     LGHHLGLKGN VKKLLKEGDK RAHELNDLID ELLQEGQSWL KPKAVYQFFP AQSDGQNIVI
+     YDPEDHTRVI ERFTFPRQGK APYRTLGDYL RPIGDEMDYV AFLSVTVGEG VRDIAEELKA
+     KGDYLRSHAI QSLALELAEG LAEKTHMLIR DRWGIPDSPE LTMEERFRTK YRGIRVSFGY
+     PACPELADQE KLFRLIHPEE IGISLTEGFM MEPEASVTAM VFSHPEARYF SVL
+//

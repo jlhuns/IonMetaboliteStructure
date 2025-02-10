@@ -1,0 +1,89 @@
+ID   Q81GI6_BACCR            Unreviewed;       181 AA.
+AC   Q81GI6;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 110.
+DE   RecName: Full=dTDP-4-dehydrorhamnose 3,5-epimerase {ECO:0000256|RuleBase:RU364069};
+DE            EC=5.1.3.13 {ECO:0000256|RuleBase:RU364069};
+DE   AltName: Full=Thymidine diphospho-4-keto-rhamnose 3,5-epimerase {ECO:0000256|RuleBase:RU364069};
+GN   OrderedLocusNames=BC_1213 {ECO:0000313|EMBL:AAP08198.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08198.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08198.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the epimerization of the C3' and C5'positions of
+CC       dTDP-6-deoxy-D-xylo-4-hexulose, forming dTDP-6-deoxy-L-lyxo-4-hexulose.
+CC       {ECO:0000256|RuleBase:RU364069}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-4-dehydro-6-deoxy-alpha-D-glucose = dTDP-4-dehydro-beta-
+CC         L-rhamnose; Xref=Rhea:RHEA:16969, ChEBI:CHEBI:57649,
+CC         ChEBI:CHEBI:62830; EC=5.1.3.13;
+CC         Evidence={ECO:0000256|RuleBase:RU364069};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; dTDP-L-rhamnose biosynthesis.
+CC       {ECO:0000256|RuleBase:RU364069}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|RuleBase:RU364069}.
+CC   -!- SIMILARITY: Belongs to the dTDP-4-dehydrorhamnose 3,5-epimerase family.
+CC       {ECO:0000256|RuleBase:RU364069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08198.1; -; Genomic_DNA.
+DR   RefSeq; NP_830997.1; NC_004722.1.
+DR   RefSeq; WP_000869415.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GI6; -.
+DR   SMR; Q81GI6; -.
+DR   KEGG; bce:BC1213; -.
+DR   PATRIC; fig|226900.8.peg.1183; -.
+DR   HOGENOM; CLU_090940_1_1_9; -.
+DR   OrthoDB; 9800680at2; -.
+DR   UniPathway; UPA00124; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0008830; F:dTDP-4-dehydrorhamnose 3,5-epimerase activity; IBA:GO_Central.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00438; cupin_RmlC; 1.
+DR   FunFam; 2.60.120.10:FF:000051; dTDP-4-dehydrorhamnose 3,5-epimerase; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 1.
+DR   InterPro; IPR000888; RmlC-like.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   NCBIfam; TIGR01221; rmlC; 1.
+DR   PANTHER; PTHR21047; DTDP-6-DEOXY-D-GLUCOSE-3,5 EPIMERASE; 1.
+DR   PANTHER; PTHR21047:SF2; THYMIDINE DIPHOSPHO-4-KETO-RHAMNOSE 3,5-EPIMERASE; 1.
+DR   Pfam; PF00908; dTDP_sugar_isom; 1.
+DR   SUPFAM; SSF51182; RmlC-like cupins; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|RuleBase:RU364069, ECO:0000313|EMBL:AAP08198.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   ACT_SITE        62
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-1"
+FT   ACT_SITE        132
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-1"
+FT   SITE            138
+FT                   /note="Participates in a stacking interaction with the
+FT                   thymidine ring of dTDP-4-oxo-6-deoxyglucose"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-3"
+SQ   SEQUENCE   181 AA;  20796 MW;  2683ECA8F7698EB8 CRC64;
+     MKVVETNFTD AKLLEPRLFG DERGFFSESY NKQVLETLGI TYSFVQDNVS YSAKAGTIRG
+     LHFQKKPKAQ TKLIQVMQGA IYDVIVDLRK KSPTFKQWKG YILSADNHRQ LLVPKGFAHG
+     FCTLVPHTIV MYKVDEYYSA EHDSGLLWED KDLAIPWPVT DPILSDKDQI LPLLEEYEDS
+     F
+//

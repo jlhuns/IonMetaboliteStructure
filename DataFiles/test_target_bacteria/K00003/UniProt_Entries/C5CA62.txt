@@ -1,0 +1,158 @@
+ID   C5CA62_MICLC            Unreviewed;       440 AA.
+AC   C5CA62;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Homoserine dehydrogenase {ECO:0000256|ARBA:ARBA00013376, ECO:0000256|RuleBase:RU000579};
+DE            EC=1.1.1.3 {ECO:0000256|ARBA:ARBA00013213, ECO:0000256|RuleBase:RU000579};
+GN   Name=hom {ECO:0000313|EMBL:SQG49284.1};
+GN   OrderedLocusNames=Mlut_08020 {ECO:0000313|EMBL:ACS30331.1};
+GN   ORFNames=NCTC2665_01820 {ECO:0000313|EMBL:SQG49284.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30331.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30331.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30331.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49284.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49284.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of L-aspartate-beta-semialdehyde (L-
+CC       Asa) to L-homoserine (L-Hse), the third step in the biosynthesis of
+CC       threonine and methionine from aspartate.
+CC       {ECO:0000256|ARBA:ARBA00044930}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-homoserine + NAD(+) = L-aspartate 4-semialdehyde + NADH +
+CC         H(+); Xref=Rhea:RHEA:15757, ChEBI:CHEBI:15378, ChEBI:CHEBI:57476,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:537519; EC=1.1.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049031};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:15759;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049031};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-homoserine + NADP(+) = L-aspartate 4-semialdehyde + NADPH +
+CC         H(+); Xref=Rhea:RHEA:15761, ChEBI:CHEBI:15378, ChEBI:CHEBI:57476,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:537519; EC=1.1.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048841};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:15763;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048841};
+CC   -!- COFACTOR:
+CC       Name=a metal cation; Xref=ChEBI:CHEBI:25213;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001920};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-homoserine from L-aspartate: step 3/3.
+CC       {ECO:0000256|ARBA:ARBA00005062, ECO:0000256|RuleBase:RU000579}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-threonine biosynthesis; L-threonine
+CC       from L-aspartate: step 3/5. {ECO:0000256|ARBA:ARBA00005056,
+CC       ECO:0000256|RuleBase:RU000579}.
+CC   -!- SIMILARITY: Belongs to the homoserine dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00006753, ECO:0000256|RuleBase:RU004171}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30331.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49284.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079030.1; NZ_WBMF01000002.1.
+DR   AlphaFoldDB; C5CA62; -.
+DR   STRING; 465515.Mlut_08020; -.
+DR   EnsemblBacteria; ACS30331; ACS30331; Mlut_08020.
+DR   KEGG; mlu:Mlut_08020; -.
+DR   PATRIC; fig|465515.4.peg.765; -.
+DR   eggNOG; COG0460; Bacteria.
+DR   eggNOG; COG2716; Bacteria.
+DR   HOGENOM; CLU_009116_1_0_11; -.
+DR   UniPathway; UPA00050; UER00063.
+DR   UniPathway; UPA00051; UER00465.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0004412; F:homoserine dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009088; P:threonine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04881; ACT_HSDH-Hom; 1.
+DR   FunFam; 3.30.360.10:FF:000005; Homoserine dehydrogenase; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR005106; Asp/hSer_DH_NAD-bd.
+DR   InterPro; IPR016204; HDH.
+DR   InterPro; IPR001342; HDH_cat.
+DR   InterPro; IPR019811; HDH_CS.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR43331; HOMOSERINE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43331:SF1; HOMOSERINE DEHYDROGENASE; 1.
+DR   Pfam; PF01842; ACT; 1.
+DR   Pfam; PF00742; Homoserine_dh; 1.
+DR   Pfam; PF03447; NAD_binding_3; 1.
+DR   PIRSF; PIRSF000098; Homoser_dehydrog; 1.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS01042; HOMOSER_DHGENASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU000579};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167,
+KW   ECO:0000256|RuleBase:RU000579};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|PIRSR:PIRSR000098-2};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU000579};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Threonine biosynthesis {ECO:0000256|ARBA:ARBA00022697,
+KW   ECO:0000256|RuleBase:RU000579}.
+FT   DOMAIN          359..436
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+FT   ACT_SITE        210
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000098-1"
+FT   BINDING         16..23
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000098-2"
+FT   BINDING         110
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000098-2"
+FT   BINDING         195
+FT                   /ligand="L-homoserine"
+FT                   /ligand_id="ChEBI:CHEBI:57476"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000098-2"
+SQ   SEQUENCE   440 AA;  45372 MW;  3A11F79C42786833 CRC64;
+     MPQHTDAPTA LKVALLGGGT VGSQTARILT EDADILRDRV GADLELTGIA VRDTGATRDW
+     QADPALYTTD AEALVAGADV VIELMGGIEP ARTLILRALA AGTSVVTGNK ALLAQHGEEL
+     YAAAAATGAQ LSFEAAVAGA IPILRPLRDS LGGDRVTRVM GIANGTTNFI LDRMDSEGAD
+     FDDALAEAQR LGYAEADPTA DVEGHDAAAK AAILATIAFG APYTLDQVAV AGITAITAED
+     NAAAAEAGYV IKLLAIAERG RAADGAEGAV LRVHPTLLPR EHPLASVRGA FNAVFVEAEN
+     AGELMFYGPG AGGAPTASAV MGDVVSIAQR IVRGGPARLR TPVTALPALD PAEAHTSFMV
+     VLRAADQPGV LRRVAGVFEE HGVSIETLRQ VPSEREDAPG ASLRLITHRA RQRDLDATVE
+     ALAALDVVHE VASVLRVEGN
+//

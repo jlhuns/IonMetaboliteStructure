@@ -1,0 +1,273 @@
+ID   GYRB_SALTI              Reviewed;         804 AA.
+AC   P0A2I4; P77981; P77982; Q60008;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=DNA gyrase subunit B {ECO:0000255|HAMAP-Rule:MF_01898};
+DE            EC=5.6.2.2 {ECO:0000255|HAMAP-Rule:MF_01898};
+GN   Name=gyrB {ECO:0000255|HAMAP-Rule:MF_01898};
+GN   OrderedLocusNames=STY3943, t3684;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: A type II topoisomerase that negatively supercoils closed
+CC       circular double-stranded (ds) DNA in an ATP-dependent manner to
+CC       modulate DNA topology and maintain chromosomes in an underwound state.
+CC       Negative supercoiling favors strand separation, and DNA replication,
+CC       transcription, recombination and repair, all of which involve strand
+CC       separation. Also able to catalyze the interconversion of other
+CC       topological isomers of dsDNA rings, including catenanes and knotted
+CC       rings. Type II topoisomerases break and join 2 DNA strands
+CC       simultaneously in an ATP-dependent manner. {ECO:0000255|HAMAP-
+CC       Rule:MF_01898}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-dependent breakage, passage and rejoining of double-
+CC         stranded DNA.; EC=5.6.2.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01898};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01898};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01898};
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01898};
+CC       Note=Binds two Mg(2+) per subunit. The magnesium ions form salt bridges
+CC       with both the protein and the DNA. Can also accept other divalent metal
+CC       cations, such as Mn(2+) or Ca(2+). {ECO:0000255|HAMAP-Rule:MF_01898};
+CC   -!- SUBUNIT: Heterotetramer, composed of two GyrA and two GyrB chains. In
+CC       the heterotetramer, GyrA contains the active site tyrosine that forms a
+CC       transient covalent intermediate with DNA, while GyrB binds cofactors
+CC       and catalyzes ATP hydrolysis. {ECO:0000255|HAMAP-Rule:MF_01898}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01898}.
+CC   -!- MISCELLANEOUS: Few gyrases are as efficient as E.coli at forming
+CC       negative supercoils. Not all organisms have 2 type II topoisomerases;
+CC       in organisms with a single type II topoisomerase this enzyme also has
+CC       to decatenate newly replicated chromosomes. {ECO:0000255|HAMAP-
+CC       Rule:MF_01898}.
+CC   -!- SIMILARITY: Belongs to the type II topoisomerase GyrB family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01898}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03160.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71180.1; -; Genomic_DNA.
+DR   RefSeq; NP_458107.1; NC_003198.1.
+DR   RefSeq; WP_000072047.1; NZ_WSUR01000023.1.
+DR   PDB; 6J90; X-ray; 2.20 A; A=1-394.
+DR   PDBsum; 6J90; -.
+DR   AlphaFoldDB; P0A2I4; -.
+DR   SMR; P0A2I4; -.
+DR   STRING; 220341.gene:17587803; -.
+DR   KEGG; stt:t3684; -.
+DR   KEGG; sty:STY3943; -.
+DR   PATRIC; fig|220341.7.peg.4025; -.
+DR   eggNOG; COG0187; Bacteria.
+DR   HOGENOM; CLU_006146_4_1_6; -.
+DR   OMA; QLWSTTM; -.
+DR   OrthoDB; 9802808at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034335; F:DNA negative supercoiling activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; IEA:UniProtKB-UniRule.
+DR   CDD; cd16928; HATPase_GyrB-like; 1.
+DR   CDD; cd00822; TopoII_Trans_DNA_gyrase; 1.
+DR   CDD; cd03366; TOPRIM_TopoIIA_GyrB; 1.
+DR   FunFam; 3.30.230.10:FF:000005; DNA gyrase subunit B; 1.
+DR   FunFam; 3.30.565.10:FF:000002; DNA gyrase subunit B; 1.
+DR   FunFam; 3.40.50.670:FF:000004; DNA gyrase subunit B; 1.
+DR   FunFam; 3.40.50.670:FF:000005; DNA gyrase subunit B; 1.
+DR   Gene3D; 3.10.20.690; -; 1.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.40.50.670; -; 2.
+DR   Gene3D; 3.30.565.10; Histidine kinase-like ATPase, C-terminal domain; 1.
+DR   HAMAP; MF_01898; GyrB; 1.
+DR   InterPro; IPR002288; DNA_gyrase_B_C.
+DR   InterPro; IPR011557; GyrB.
+DR   InterPro; IPR049353; GyrB_hook.
+DR   InterPro; IPR041423; GyrB_insert.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR003594; HATPase_dom.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR014721; Ribsml_uS5_D2-typ_fold_subgr.
+DR   InterPro; IPR001241; Topo_IIA.
+DR   InterPro; IPR013760; Topo_IIA-like_dom_sf.
+DR   InterPro; IPR000565; Topo_IIA_B.
+DR   InterPro; IPR013759; Topo_IIA_B_C.
+DR   InterPro; IPR013506; Topo_IIA_bsu_dom2.
+DR   InterPro; IPR018522; TopoIIA_CS.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034160; TOPRIM_GyrB.
+DR   NCBIfam; TIGR01059; gyrB; 1.
+DR   PANTHER; PTHR45866:SF1; DNA GYRASE SUBUNIT B, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR45866; DNA GYRASE/TOPOISOMERASE SUBUNIT B; 1.
+DR   Pfam; PF00204; DNA_gyraseB; 1.
+DR   Pfam; PF00986; DNA_gyraseB_C; 1.
+DR   Pfam; PF21249; GyrB_hook; 1.
+DR   Pfam; PF18053; GyrB_insert; 1.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   PRINTS; PR01159; DNAGYRASEB.
+DR   PRINTS; PR00418; TPI2FAMILY.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00433; TOP2c; 1.
+DR   SUPFAM; SSF55874; ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   SUPFAM; SSF56719; Type II DNA topoisomerase; 1.
+DR   PROSITE; PS00177; TOPOISOMERASE_II; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cytoplasm; DNA-binding; Isomerase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Topoisomerase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..804
+FT                   /note="DNA gyrase subunit B"
+FT                   /id="PRO_0000145333"
+FT   DOMAIN          418..533
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   BINDING         424
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   BINDING         498
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   BINDING         498
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   BINDING         500
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   SITE            449
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   SITE            452
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01898"
+FT   HELIX           7..9
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           17..21
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           23..26
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          30..33
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           34..52
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          58..63
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          69..73
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   TURN            84..86
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          87..89
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           90..96
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          104..108
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           119..125
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          127..136
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          139..146
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          149..152
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          155..159
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          164..171
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   TURN            173..175
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           184..197
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          202..207
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   TURN            208..210
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          213..216
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           221..230
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          241..247
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          250..262
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          265..270
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           280..299
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   TURN            300..302
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           303..308
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           312..316
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          319..326
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   STRAND          332..334
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           344..363
+FT                   /evidence="ECO:0007829|PDB:6J90"
+FT   HELIX           365..392
+FT                   /evidence="ECO:0007829|PDB:6J90"
+SQ   SEQUENCE   804 AA;  89896 MW;  BC984F67483751B1 CRC64;
+     MSNSYDSSSI KVLKGLDAVR KRPGMYIGDT DDGTGLHHMV FEVVDNAIDE ALAGHCKDIV
+     VTIHADNSVS VTDDGRGIPT GIHPEEGVSA AEVIMTVLHA GGKFDDNSYK VSGGLHGVGV
+     SVVNALSQKL ELVIQRDGKI HRQIYEHGVP QAPLAVTGDT DKTGTMVRFW PSHETFTNVT
+     EFEYEILAKR LRELSFLNSG VSIRLRDKRD GKEDHFHYEG GIKAFVEYLN KNKTPIHPNI
+     FYFSTEKDGI GVEVALQWND GFQENIYCFT NNIPQRDGGT HLAGFRAAMT RTLNAYMDKE
+     GYSKKAKVSA TGDDAREGLI AVVSVKVPDP KFSSQTKDKL VSSEVKSAVE QQMNELLSEY
+     LLENPSDAKI VVGKIIDAAR AREAARRARE MTRRKGALDL AGLPGKLADC QERDPALSEL
+     YLVEGDSAGG SAKQGRNRKN QAILPLKGKI LNVEKARFDK MLSSQEVATL ITALGCGIGR
+     DEYNPDKLRY HSIIIMTDAD VDGSHIRTLL LTFFYRQMPE IVERGHVYIA QPPLYKVKKG
+     KQEQYIKDDE AMDQYQISIA LDGATLHANA HAPALSGEAL EKLVSEYNAT QKMIGRMERR
+     FPKALLKELV YQPTLTEADL SDEQTVTRWV NALITELNEK EQHGSQWKFD VHTNTEQNLF
+     EPIVRVRTHG VDTDYPLDHE FVTGAEYRRI CTLGEKLRGL IEEDAFIERG ERRQPVTSFE
+     QALEWLVKES RRGLAIQRYK GLGEMNPDQL WETTMDPESR RMLRVTVKDA IAADQLFTTL
+     MGDAVEPRRA FIEENALKAA NIDI
+//

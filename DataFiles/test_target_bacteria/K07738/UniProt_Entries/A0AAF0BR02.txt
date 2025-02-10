@@ -1,0 +1,87 @@
+ID   A0AAF0BR02_RHOPA        Unreviewed;       160 AA.
+AC   A0AAF0BR02;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Transcriptional repressor NrdR {ECO:0000256|HAMAP-Rule:MF_00440};
+GN   Name=nrdR {ECO:0000256|HAMAP-Rule:MF_00440,
+GN   ECO:0000313|EMBL:WCL92892.1};
+GN   ORFNames=TX73_014120 {ECO:0000313|EMBL:WCL92892.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92892.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92892.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Negatively regulates transcription of bacterial
+CC       ribonucleotide reductase nrd genes and operons by binding to NrdR-
+CC       boxes. {ECO:0000256|HAMAP-Rule:MF_00440}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00440};
+CC       Note=Binds 1 zinc ion. {ECO:0000256|HAMAP-Rule:MF_00440};
+CC   -!- SIMILARITY: Belongs to the NrdR family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00440}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92892.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158276.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BR02; -.
+DR   GeneID; 66893801; -.
+DR   KEGG; rpa:TX73_014120; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00440; NrdR; 1.
+DR   InterPro; IPR005144; ATP-cone_dom.
+DR   InterPro; IPR055173; NrdR-like_N.
+DR   InterPro; IPR003796; RNR_NrdR-like.
+DR   NCBIfam; TIGR00244; transcriptional regulator NrdR; 1.
+DR   PANTHER; PTHR30455; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   PANTHER; PTHR30455:SF2; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   Pfam; PF03477; ATP-cone; 1.
+DR   Pfam; PF22811; NrdR-like_N; 1.
+DR   PROSITE; PS51161; ATP_CONE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00440};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00440}; Metal-binding {ECO:0000256|HAMAP-Rule:MF_00440};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00440}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Repressor {ECO:0000256|ARBA:ARBA00022491, ECO:0000256|HAMAP-Rule:MF_00440};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00440};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00440}; Zinc {ECO:0000256|HAMAP-Rule:MF_00440};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00440}.
+FT   DOMAIN          49..139
+FT                   /note="ATP-cone"
+FT                   /evidence="ECO:0000259|PROSITE:PS51161"
+FT   ZN_FING         3..34
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00440"
+FT   REGION          1..20
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..11
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   160 AA;  18601 MW;  0E2752E2E9612CE8 CRC64;
+     MRCPNCNSLD TQVKDSRPTE DSSVIRRRRV CIACNFRFTT FERVQLRELI VIKRNGRRVP
+     FDRDKLMRSV QISLRKRPVD PERVEQMVSA IVRELESGGE AEISSETIGE SVMDHLRKLD
+     DVAYVRFASV YRNFREAKDF EAVLGELSHE DEARAALVRK
+//

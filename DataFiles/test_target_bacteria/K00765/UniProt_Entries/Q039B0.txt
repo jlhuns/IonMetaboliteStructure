@@ -1,0 +1,100 @@
+ID   HIS1_LACP3              Reviewed;         211 AA.
+AC   Q039B0;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   OrderedLocusNames=LSEI_1434;
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441;
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K.S., Slesarev A., Wolf Y.I., Sorokin A., Mirkin B., Koonin E.V.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.-H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J.R., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M.H. Jr., Klaenhammer T.,
+RA   Richardson P., Kozyavkin S., Weimer B.C., Mills D.A.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01018};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBUNIT: Heteromultimer composed of HisG and HisZ subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- DOMAIN: Lacks the C-terminal regulatory region which is replaced by
+CC       HisZ.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Short
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70212.1; -; Genomic_DNA.
+DR   RefSeq; WP_011674506.1; NC_008526.1.
+DR   RefSeq; YP_806654.1; NC_008526.1.
+DR   AlphaFoldDB; Q039B0; -.
+DR   SMR; Q039B0; -.
+DR   STRING; 321967.LSEI_1434; -.
+DR   PaxDb; 321967-LSEI_1434; -.
+DR   KEGG; lca:LSEI_1434; -.
+DR   PATRIC; fig|321967.11.peg.1414; -.
+DR   HOGENOM; CLU_038115_2_0_9; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13595; PBP2_HisGs; 1.
+DR   FunFam; 3.40.190.10:FF:000008; ATP phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_01018; HisG_Short; 1.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR024893; ATP_PRibTrfase_HisG_short.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..211
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_0000319525"
+SQ   SEQUENCE   211 AA;  23474 MW;  8B63262B3BFF287B CRC64;
+     MTLTIALTKG RTETQVLPLL AAAGIHCEAI QAKSRRLIFA DDPSFHFILV KAPEVLTYLN
+     HGTVDIGIVG SDILAEQGHR QFDMLDLNTG RCRFILASTA DFDPKQTKRK LIATKYPHIA
+     QQYFQKQGED VEIIKIEGSV ELAPLTGMAD AIVDITETGT TLRENHLKVF AELASVSTHL
+     VVNRLALKQK RTEIYQLIQS LQKVRPQEAS L
+//

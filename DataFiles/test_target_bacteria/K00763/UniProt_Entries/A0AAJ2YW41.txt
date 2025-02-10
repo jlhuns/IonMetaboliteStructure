@@ -1,0 +1,104 @@
+ID   A0AAJ2YW41_ACIHA        Unreviewed;       401 AA.
+AC   A0AAJ2YW41;
+DT   24-JUL-2024, integrated into UniProtKB/TrEMBL.
+DT   24-JUL-2024, sequence version 1.
+DT   27-NOV-2024, entry version 3.
+DE   RecName: Full=Nicotinate phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|HAMAP-Rule:MF_00570};
+DE            Short=NAPRTase {ECO:0000256|HAMAP-Rule:MF_00570};
+DE            EC=6.3.4.21 {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|HAMAP-Rule:MF_00570};
+GN   Name=pncB {ECO:0000256|HAMAP-Rule:MF_00570,
+GN   ECO:0000313|EMBL:NAR74542.1};
+GN   ORFNames=GPS52_13835 {ECO:0000313|EMBL:NAR74542.1};
+OS   Acinetobacter haemolyticus.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Moraxellales; Moraxellaceae;
+OC   Acinetobacter.
+OX   NCBI_TaxID=29430 {ECO:0000313|EMBL:NAR74542.1, ECO:0000313|Proteomes:UP000451048};
+RN   [1] {ECO:0000313|EMBL:NAR74542.1, ECO:0000313|Proteomes:UP000451048}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AN10 {ECO:0000313|EMBL:NAR74542.1,
+RC   ECO:0000313|Proteomes:UP000451048};
+RA   Castro-Jaimes S., Bello-Lopez E., Velazquez-Acosta C., Volkow-Fernandez P.,
+RA   Lozano-Zarain P., Castillo Ramirez S., Cevallos M.A.;
+RT   "Acinetobacter haemolyticus comparative genomics.";
+RL   Submitted (DEC-2019) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the synthesis of beta-nicotinate D-ribonucleotide
+CC       from nicotinate and 5-phospho-D-ribose 1-phosphate at the expense of
+CC       ATP. {ECO:0000256|HAMAP-Rule:MF_00570, ECO:0000256|RuleBase:RU003838}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + ATP +
+CC         H2O = nicotinate beta-D-ribonucleotide + ADP + phosphate +
+CC         diphosphate; Xref=Rhea:RHEA:36163, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32544, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57502, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:456216; EC=6.3.4.21; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00570, ECO:0000256|RuleBase:RU003838};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; nicotinate D-
+CC       ribonucleotide from nicotinate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004952, ECO:0000256|HAMAP-Rule:MF_00570,
+CC       ECO:0000256|RuleBase:RU003838}.
+CC   -!- PTM: Transiently phosphorylated on a His residue during the reaction
+CC       cycle. Phosphorylation strongly increases the affinity for substrates
+CC       and increases the rate of nicotinate D-ribonucleotide production.
+CC       Dephosphorylation regenerates the low-affinity form of the enzyme,
+CC       leading to product release. {ECO:0000256|HAMAP-Rule:MF_00570,
+CC       ECO:0000256|RuleBase:RU003838}.
+CC   -!- SIMILARITY: Belongs to the NAPRTase family.
+CC       {ECO:0000256|ARBA:ARBA00010897, ECO:0000256|HAMAP-Rule:MF_00570,
+CC       ECO:0000256|RuleBase:RU003838}.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:NAR74542.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; WTTO01000052; NAR74542.1; -; Genomic_DNA.
+DR   RefSeq; WP_075314338.1; NZ_WTTO01000052.1.
+DR   KEGG; ahl:AHTJS_00445; -.
+DR   Proteomes; UP000451048; Unassembled WGS sequence.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004516; F:nicotinate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034355; P:NAD salvage; IEA:TreeGrafter.
+DR   CDD; cd01401; PncB_like; 1.
+DR   Gene3D; 3.20.140.10; nicotinate phosphoribosyltransferase; 1.
+DR   HAMAP; MF_00570; NAPRTase; 1.
+DR   InterPro; IPR041525; N/Namide_PRibTrfase.
+DR   InterPro; IPR040727; NAPRTase_N.
+DR   InterPro; IPR006406; Nic_PRibTrfase.
+DR   InterPro; IPR007229; Nic_PRibTrfase-Fam.
+DR   InterPro; IPR036068; Nicotinate_pribotase-like_C.
+DR   NCBIfam; TIGR01514; NAPRTase; 1.
+DR   PANTHER; PTHR11098; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11098:SF1; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF04095; NAPRTase; 1.
+DR   Pfam; PF17767; NAPRTase_N; 1.
+DR   PIRSF; PIRSF000484; NAPRT; 1.
+DR   SUPFAM; SSF51690; Nicotinate/Quinolinate PRTase C-terminal domain-like; 1.
+DR   SUPFAM; SSF54675; Nicotinate/Quinolinate PRTase N-terminal domain-like; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase {ECO:0000313|EMBL:NAR74542.1};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00570};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553, ECO:0000256|HAMAP-
+KW   Rule:MF_00570};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|HAMAP-Rule:MF_00570};
+KW   Transferase {ECO:0000313|EMBL:NAR74542.1}.
+FT   DOMAIN          9..131
+FT                   /note="Nicotinate phosphoribosyltransferase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17767"
+FT   DOMAIN          172..398
+FT                   /note="Nicotinate/nicotinamide phosphoribosyltransferase"
+FT                   /evidence="ECO:0000259|Pfam:PF04095"
+FT   MOD_RES         225
+FT                   /note="Phosphohistidine; by autocatalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00570"
+SQ   SEQUENCE   401 AA;  46734 MW;  CFD011B3921DFA31 CRC64;
+     MSAIVRSLLD TDLYKFTMLQ VVLHQFPQTH SVYLFRCRNL DDTLYPLSEI LPELNHQLDL
+     LCDLKFKEDE LQYLRSLRFI KSDFVDYLEL FQLKRRFIKA SIDEAGRLDI RIEGPMVQAM
+     MFEIFVLAIV NELYFSRIRT DAVLEEGERR LQQKLVQLQQ YAQEQQDNEP PFLVSDFGTR
+     RRYSFDWQKH VVQAFHTAAP KVFRGTSNVL LAKELGISPI GTMAHEFLQA FQALDVRLRN
+     FQKAALEAWV QEYRGDLGIA LTDVVGMDAF LRDFDLYFAK LFDGLRHDSG DPYEWGDKAY
+     AHYRKLKIDS KTKMLTFSDG LNLEKAWALH QYFKDRFQVS FGIGTNLTND MGQTPLNIVL
+     KLVECNRQSV AKISDSSGKT MTDNETFLAY LRQVFEIEDE S
+//

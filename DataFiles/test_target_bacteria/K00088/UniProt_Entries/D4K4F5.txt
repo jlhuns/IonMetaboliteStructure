@@ -1,0 +1,124 @@
+ID   D4K4F5_9FIRM            Unreviewed;       504 AA.
+AC   D4K4F5;
+DT   18-MAY-2010, integrated into UniProtKB/TrEMBL.
+DT   18-MAY-2010, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   SubName: Full=IMP dehydrogenase/GMP reductase {ECO:0000313|EMBL:CBK98398.1};
+DE            EC=1.1.1.205 {ECO:0000313|EMBL:CBK98398.1};
+GN   ORFNames=FP2_08030 {ECO:0000313|EMBL:CBK98398.1};
+OS   Faecalibacterium prausnitzii L2-6.
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales;
+OC   Oscillospiraceae; Faecalibacterium.
+OX   NCBI_TaxID=718252 {ECO:0000313|EMBL:CBK98398.1, ECO:0000313|Proteomes:UP000008804};
+RN   [1] {ECO:0000313|EMBL:CBK98398.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RG   metaHIT consortium -- http://www.metahit.eu/;
+RA   Pajon A., Turner K., Parkhill J., Duncan S., Flint H.;
+RT   "The genome sequence of Faecalibacterium prausnitzii L2/6.";
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CBK98398.1, ECO:0000313|Proteomes:UP000008804}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L2-6 {ECO:0000313|Proteomes:UP000008804};
+RA   Pajon A.;
+RL   Submitted (MAR-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + NAD(+) + H2O = XMP + NADH + H(+); Xref=Rhea:RHEA:11708,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57464,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58053;
+CC         EC=1.1.1.205; Evidence={ECO:0000256|ARBA:ARBA00048028};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001958};
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family.
+CC       {ECO:0000256|ARBA:ARBA00005502}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP929045; CBK98398.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D4K4F5; -.
+DR   STRING; 718252.FP2_08030; -.
+DR   KEGG; fpr:FP2_08030; -.
+DR   PATRIC; fig|718252.3.peg.2101; -.
+DR   eggNOG; COG0516; Bacteria.
+DR   eggNOG; COG0517; Bacteria.
+DR   HOGENOM; CLU_022552_2_1_9; -.
+DR   BioCyc; FPRA718252:G1375-677-MONOMER; -.
+DR   Proteomes; UP000008804; Chromosome.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd04601; CBS_pair_IMPDH; 1.
+DR   CDD; cd00381; IMPDH; 1.
+DR   FunFam; 3.20.20.70:FF:000424; Inosine-5'-monophosphate dehydrogenase 2; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR046342; CBS_dom_sf.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   PANTHER; PTHR11911:SF111; INOSINE-5'-MONOPHOSPHATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR11911; INOSINE-5-MONOPHOSPHATE DEHYDROGENASE RELATED; 1.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   SMART; SM01240; IMPDH; 1.
+DR   SUPFAM; SSF54631; CBS-domain pair; 1.
+DR   SUPFAM; SSF51412; Inosine monophosphate dehydrogenase (IMPDH); 1.
+DR   PROSITE; PS51371; CBS; 1.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   CBS domain {ECO:0000256|ARBA:ARBA00023122, ECO:0000256|PROSITE-
+KW   ProRule:PRU00703}; GMP biosynthesis {ECO:0000256|ARBA:ARBA00022749};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRSR:PIRSR000130-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:CBK98398.1};
+KW   Potassium {ECO:0000256|ARBA:ARBA00022958, ECO:0000256|PIRSR:PIRSR000130-4};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000008804}.
+FT   DOMAIN          168..226
+FT                   /note="CBS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51371"
+FT   BINDING         262..264
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         313..315
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         315
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         317
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         320
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+SQ   SEQUENCE   504 AA;  54845 MW;  6C512F70DAB531A2 CRC64;
+     MAYFYEEPSR TFGEYLLVPG YSSAENVPTA VSLKTPLVKY RKSEENCPLQ MNIPMISAIM
+     QSVSGDKLAI ALARQGGVSF IYGSQSIENE AAMVRRVKSF KAGYVVSDSN LAPTATLHDV
+     LELKARTGHS TIAITADGTP GGKLLGIVAS RDYRVNHTPD DAPVTTFMTP IEKLVTAPEN
+     TSLHDCNNII WDNKINTLPL VDAEGNLKYI VFRKDYDSHK ANVNELLDKN KSYVVGAGIN
+     TRDYAQRVPA LVEAGVDVLC IDSSEGYSEW QSRTIGWIRE HYGDTVKVGA GNVVDAEGFR
+     FLAKAGADFV KIGIGGGSIC ITRETKGIGR GQATAVIEVA KARDEYFKET GIYVPICSDG
+     GIVHDYHITL ALAMGADFVM LGRYFARFDE SPTNKVRING QYMKEYWGEG SNRARNWQRY
+     DLGGSTKLSF EEGVDSYVPY AGPLADGVQT TLYKVKSTMC NCGALSIPEL QQKAKLTVVS
+     STSIVEGGSH DVVLKNATPS IMNG
+//

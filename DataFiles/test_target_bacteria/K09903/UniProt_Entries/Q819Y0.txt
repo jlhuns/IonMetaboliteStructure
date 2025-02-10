@@ -1,0 +1,132 @@
+ID   PYRH_BACCR              Reviewed;         240 AA.
+AC   Q819Y0;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   OrderedLocusNames=BC_3823;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UMP + ATP = UDP + ADP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP. Inhibited by UTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10745.1; -; Genomic_DNA.
+DR   RefSeq; NP_833544.1; NC_004722.1.
+DR   RefSeq; WP_000042668.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819Y0; -.
+DR   SMR; Q819Y0; -.
+DR   STRING; 226900.BC_3823; -.
+DR   MetOSite; Q819Y0; -.
+DR   KEGG; bce:BC3823; -.
+DR   PATRIC; fig|226900.8.peg.3942; -.
+DR   HOGENOM; CLU_033861_0_0_9; -.
+DR   OrthoDB; 9807458at2; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IBA:GO_Central.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006225; P:UDP biosynthetic process; IBA:GO_Central.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   FunFam; 3.40.1160.10:FF:000001; Uridylate kinase; 1.
+DR   Gene3D; 3.40.1160.10; Acetylglutamate kinase-like; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   NCBIfam; TIGR02075; pyrH_bact; 1.
+DR   PANTHER; PTHR42833; URIDYLATE KINASE; 1.
+DR   PANTHER; PTHR42833:SF4; URIDYLATE KINASE PUMPKIN, CHLOROPLASTIC; 1.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; Carbamate kinase-like; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..240
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_0000143823"
+FT   REGION          20..25
+FT                   /note="Involved in allosteric activation by GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         12..15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         54
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         55
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         59
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         74
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         135..142
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         163
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         172
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   240 AA;  25900 MW;  304936EF2AB6BF36 CRC64;
+     MSKPKYNRVV LKLSGEALAG EQGFGINPTV IKSVAEQVKE IAELDVEVAV VVGGGNIWRG
+     KIGSEMGMDR AGADYMGMLA TVMNSLALQD SLENIGIQTR VQTSIEMRQV AEPYIRRKAV
+     RHLEKKRVVI FAAGTGNPYF STDTTAALRA AEIEADVILM AKNNVDGVYN ADPSIDPTAT
+     KYETLTYLDV LKEGLGVMDS TASSLCMDND IPLIVFSVME KGNIKRAVLG ENIGTVVRGK
+//

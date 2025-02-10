@@ -1,0 +1,94 @@
+ID   Q6N5M7_RHOPA            Unreviewed;       249 AA.
+AC   Q6N5M7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   SubName: Full=NADH-quinone oxidoreductase subunit NuoE {ECO:0000313|EMBL:WCL93118.1};
+DE            EC=1.6.5.9 {ECO:0000313|EMBL:WCL93118.1};
+DE   SubName: Full=NADH-ubiquinone dehydrogenase chain E {ECO:0000313|EMBL:CAE28388.1};
+GN   Name=nuoE1 {ECO:0000313|EMBL:CAE28388.1};
+GN   Synonyms=nuoE {ECO:0000313|EMBL:WCL93118.1};
+GN   OrderedLocusNames=RPA2947 {ECO:0000313|EMBL:CAE28388.1};
+GN   ORFNames=TX73_015270 {ECO:0000313|EMBL:WCL93118.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28388.1};
+RN   [1] {ECO:0000313|EMBL:WCL93118.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93118.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28388.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28388.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93118.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93118.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|ARBA:ARBA00034078};
+CC   -!- SIMILARITY: Belongs to the complex I 24 kDa subunit family.
+CC       {ECO:0000256|ARBA:ARBA00010643}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572602; CAE28388.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93118.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158496.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2947; -.
+DR   GeneID; 66894030; -.
+DR   KEGG; rpa:TX73_015270; -.
+DR   eggNOG; COG1905; Bacteria.
+DR   HOGENOM; CLU_054362_1_2_5; -.
+DR   PhylomeDB; Q6N5M7; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IEA:TreeGrafter.
+DR   CDD; cd03064; TRX_Fd_NuoE; 1.
+DR   FunFam; 3.40.30.10:FF:000022; NADH dehydrogenase flavoprotein 2, mitochondrial; 1.
+DR   FunFam; 1.10.10.1590:FF:000001; NADH-quinone oxidoreductase subunit E; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   Gene3D; 1.10.10.1590; NADH-quinone oxidoreductase subunit E; 1.
+DR   InterPro; IPR002023; NuoE-like.
+DR   InterPro; IPR042128; NuoE_dom.
+DR   InterPro; IPR041921; NuoE_N.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   NCBIfam; TIGR01958; nuoE_fam; 1.
+DR   PANTHER; PTHR10371:SF3; NADH DEHYDROGENASE [UBIQUINONE] FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10371; NADH DEHYDROGENASE UBIQUINONE FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF01257; 2Fe-2S_thioredx; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S {ECO:0000256|ARBA:ARBA00022714};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Oxidoreductase {ECO:0000313|EMBL:WCL93118.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   REGION          171..249
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   249 AA;  26961 MW;  017085FAC8DB233B CRC64;
+     MSVRRLAPKE LQPESFAFTA ENLAWAQKEI TKYPPGRQFS AVIAIMWRAQ EQCGGWLPEA
+     AIRTVADMLQ MPHIRALEVA TFYTMFQLNP VGKKAHVQVC GTTPCRLRGA GELIEVCKNR
+     IHHDPFHLSA DGDFSWEEVE CAGACVNAPM VQIWKDTYED LTPETLNKVL DGFASGNPPT
+     PGPQNGRQHA APMTGPTTLK SGGINVSPVD SNGPALTDND AKRAGAAANV QERPAPKPPA
+     ADATEKNPP
+//

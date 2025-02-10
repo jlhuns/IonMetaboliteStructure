@@ -1,0 +1,134 @@
+ID   Q6N1I6_RHOPA            Unreviewed;       528 AA.
+AC   Q6N1I6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Glutathione hydrolase proenzyme {ECO:0000256|RuleBase:RU368036};
+DE            EC=2.3.2.2 {ECO:0000256|RuleBase:RU368036};
+DE            EC=3.4.19.13 {ECO:0000256|RuleBase:RU368036};
+DE   Contains:
+DE     RecName: Full=Glutathione hydrolase large chain {ECO:0000256|RuleBase:RU368036};
+DE   Contains:
+DE     RecName: Full=Glutathione hydrolase small chain {ECO:0000256|RuleBase:RU368036};
+GN   Name=ggt3 {ECO:0000313|EMBL:CAE29860.1};
+GN   Synonyms=ggt {ECO:0000313|EMBL:WCL94616.1};
+GN   OrderedLocusNames=RPA4419 {ECO:0000313|EMBL:CAE29860.1};
+GN   ORFNames=TX73_022905 {ECO:0000313|EMBL:WCL94616.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29860.1};
+RN   [1] {ECO:0000313|EMBL:WCL94616.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94616.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29860.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29860.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94616.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94616.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-terminal (5-L-glutamyl)-[peptide] + an alpha-amino acid =
+CC         5-L-glutamyl amino acid + an N-terminal L-alpha-aminoacyl-[peptide];
+CC         Xref=Rhea:RHEA:23904, Rhea:RHEA-COMP:9780, Rhea:RHEA-COMP:9795,
+CC         ChEBI:CHEBI:77644, ChEBI:CHEBI:78597, ChEBI:CHEBI:78599,
+CC         ChEBI:CHEBI:78608; EC=2.3.2.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047417,
+CC         ECO:0000256|RuleBase:RU368036};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an S-substituted glutathione + H2O = an S-substituted L-
+CC         cysteinylglycine + L-glutamate; Xref=Rhea:RHEA:59468,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:29985, ChEBI:CHEBI:90779,
+CC         ChEBI:CHEBI:143103; EC=3.4.19.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001049,
+CC         ECO:0000256|RuleBase:RU368036};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glutathione + H2O = L-cysteinylglycine + L-glutamate;
+CC         Xref=Rhea:RHEA:28807, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:61694; EC=3.4.19.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001089,
+CC         ECO:0000256|RuleBase:RU368036};
+CC   -!- PATHWAY: Sulfur metabolism; glutathione metabolism.
+CC       {ECO:0000256|RuleBase:RU368036}.
+CC   -!- SUBUNIT: This enzyme consists of two polypeptide chains, which are
+CC       synthesized in precursor form from a single polypeptide.
+CC       {ECO:0000256|RuleBase:RU368036}.
+CC   -!- PTM: Cleaved by autocatalysis into a large and a small subunit.
+CC       {ECO:0000256|RuleBase:RU368036}.
+CC   -!- SIMILARITY: Belongs to the gamma-glutamyltransferase family.
+CC       {ECO:0000256|RuleBase:RU368036}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE29860.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94616.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159953.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4419; -.
+DR   MEROPS; T03.025; -.
+DR   GeneID; 66895554; -.
+DR   KEGG; rpa:TX73_022905; -.
+DR   eggNOG; COG0405; Bacteria.
+DR   HOGENOM; CLU_014813_3_2_5; -.
+DR   PhylomeDB; Q6N1I6; -.
+DR   UniPathway; UPA00204; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0036374; F:glutathione hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0103068; F:leukotriene C4 gamma-glutamyl transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006750; P:glutathione biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006751; P:glutathione catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.246.130; -; 1.
+DR   Gene3D; 3.60.20.40; -; 1.
+DR   InterPro; IPR052896; GGT-like_enzyme.
+DR   InterPro; IPR043138; GGT_lsub_C.
+DR   InterPro; IPR000101; GGT_peptidase.
+DR   InterPro; IPR043137; GGT_ssub.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   NCBIfam; TIGR00066; g_glut_trans; 1.
+DR   PANTHER; PTHR43881; GAMMA-GLUTAMYLTRANSPEPTIDASE (AFU_ORTHOLOGUE AFUA_4G13580); 1.
+DR   PANTHER; PTHR43881:SF1; GAMMA-GLUTAMYLTRANSPEPTIDASE (AFU_ORTHOLOGUE AFUA_4G13580); 1.
+DR   Pfam; PF01019; G_glu_transpept; 1.
+DR   PRINTS; PR01210; GGTRANSPTASE.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|RuleBase:RU368036,
+KW   ECO:0000313|EMBL:CAE29860.1};
+KW   Glutathione biosynthesis {ECO:0000256|RuleBase:RU368036};
+KW   Hydrolase {ECO:0000256|RuleBase:RU368036};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|RuleBase:RU368036, ECO:0000313|EMBL:CAE29860.1};
+KW   Zymogen {ECO:0000256|RuleBase:RU368036}.
+FT   ACT_SITE        350
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600101-1"
+FT   BINDING         433
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600101-2"
+SQ   SEQUENCE   528 AA;  56429 MW;  D70C18A946DF707C CRC64;
+     MRNFHLAGRS TVHARNGMVA TSHPQAALAA IEILKAGGTA ADAAIAASAL LAVIEPQSTG
+     IGGDCFALVQ PKGTGKITAY NGSGRAPAAA KAEWFLEKGI DAIPLTSPHS VTVPGAIDAW
+     ATILRDHGRF GLDKVLQPAI KAAAEGYVVA PRIAFDWANG FNKLKKGANT ERYLLPHGEA
+     AKTGDVITQP ELANTLKLIA DKGPDGFYKG AVAEDMVDTL RGLGGLHTLE DFAEHCTETT
+     SPIGTIYKGL DVWQCPPNGP GITMLVMLNI LSRFDLTKFG PLSVERFHLE AEATRIAYMI
+     REQHIGDPQH VDVDVLRILA KEFAEEHYSQ IALDKLLDLP VVSPPMNPST VYITVVDEER
+     NVCSFINSIA HSFGSAIVSN KTGVLLQNRG AGFRIQPGHP NCIAPKKRPL HTIIPALATE
+     NGRARMSWGV MGGQYQPVGQ VHVLTNVLDY GLDMQEAIDL PRGLHYEDVY QLEDGVPAAT
+     VEGLKALGHK VLPIGTPHGG GQGIWIDWDK GTLTGGSDPR KDGCALGY
+//

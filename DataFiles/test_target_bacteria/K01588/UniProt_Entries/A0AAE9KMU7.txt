@@ -1,0 +1,88 @@
+ID   A0AAE9KMU7_ALCFA        Unreviewed;       170 AA.
+AC   A0AAE9KMU7;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   02-OCT-2024, entry version 3.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            Short=N5-CAIR mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            EC=5.4.99.18 {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE   AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929};
+GN   Name=purE {ECO:0000256|HAMAP-Rule:MF_01929,
+GN   ECO:0000313|EMBL:UPL20733.1};
+GN   ORFNames=MXF72_15195 {ECO:0000313|EMBL:UPL20733.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:UPL20733.1, ECO:0000313|Proteomes:UP000830925};
+RN   [1] {ECO:0000313|EMBL:UPL20733.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=D334 {ECO:0000313|EMBL:UPL20733.1};
+RA   Doan V.T., Quach N.T., Vu T.-H.-N., Phi Q.-T.;
+RT   "Genomic mining of Alcaligenes faecalis D334 producing ectoin and
+RT   derivatives.";
+RL   Submitted (APR-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of N5-carboxyaminoimidazole
+CC       ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole ribonucleotide
+CC       (CAIR). {ECO:0000256|HAMAP-Rule:MF_01929,
+CC       ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole + H(+) = 5-
+CC         amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
+CC         Xref=Rhea:RHEA:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:58730,
+CC         ChEBI:CHEBI:77657; EC=5.4.99.18; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole (N5-CAIR route): step 2/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- SIMILARITY: Belongs to the AIR carboxylase family. Class I subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP095873; UPL20733.1; -; Genomic_DNA.
+DR   RefSeq; WP_009455126.1; NZ_SRIW01000001.1.
+DR   GeneID; 29368149; -.
+DR   KEGG; afa:UZ73_06920; -.
+DR   Proteomes; UP000830925; Chromosome.
+DR   GO; GO:0034023; F:5-(carboxyamino)imidazole ribonucleotide mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1970; -; 1.
+DR   HAMAP; MF_01929; PurE_classI; 1.
+DR   InterPro; IPR033747; PurE_ClassI.
+DR   InterPro; IPR000031; PurE_dom.
+DR   InterPro; IPR024694; PurE_prokaryotes.
+DR   NCBIfam; TIGR01162; purE; 1.
+DR   PANTHER; PTHR23046:SF2; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE; 1.
+DR   PANTHER; PTHR23046; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF00731; AIRC; 1.
+DR   PIRSF; PIRSF001338; AIR_carboxylase; 1.
+DR   SMART; SM01001; AIRC; 1.
+DR   SUPFAM; SSF52255; N5-CAIR mutase (phosphoribosylaminoimidazole carboxylase, PurE); 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01929};
+KW   Lyase {ECO:0000313|EMBL:UPL20733.1};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01929}.
+FT   DOMAIN          9..160
+FT                   /note="PurE"
+FT                   /evidence="ECO:0000259|SMART:SM01001"
+FT   BINDING         17
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         20
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         47
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+SQ   SEQUENCE   170 AA;  17543 MW;  A6ABB4DFECE060E5 CRC64;
+     MSVQTPAAPT VGIVMGSSSD WDVMSQAVAI LDEFGVSYEC RVVSAHRMPI DMVDYGAQAP
+     ARGLKAIIAG AGGAAHLPGM LAALTHLPVF GVPVPSRYLR GEDSLLSIVQ MPKGVPVATF
+     AIGEAGAANA ALHVIANLAV NDAVLTEKLI AYRARQTEAA RAMRVPPATA
+//

@@ -1,0 +1,127 @@
+ID   QUEC_SALTI              Reviewed;         231 AA.
+AC   Q8XEU3; Q7ANG0;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 128.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   OrderedLocusNames=STY0497, t2405;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + NH4(+) + ATP = 7-cyano-7-
+CC         deazaguanine + ADP + phosphate + H2O + H(+); Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08914.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69995.1; -; Genomic_DNA.
+DR   RefSeq; NP_455052.1; NC_003198.1.
+DR   RefSeq; WP_000817201.1; NZ_WSUR01000026.1.
+DR   AlphaFoldDB; Q8XEU3; -.
+DR   SMR; Q8XEU3; -.
+DR   STRING; 220341.gene:17584519; -.
+DR   KEGG; stt:t2405; -.
+DR   KEGG; sty:STY0497; -.
+DR   PATRIC; fig|220341.7.peg.499; -.
+DR   eggNOG; COG0603; Bacteria.
+DR   HOGENOM; CLU_081854_0_0_6; -.
+DR   OMA; VWVPNRN; -.
+DR   OrthoDB; 9789567at2; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   FunFam; 3.40.50.620:FF:000017; 7-cyano-7-deazaguanine synthase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00364; 7-cyano-7-deazaguanine synthase QueC; 1.
+DR   PANTHER; PTHR42914; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   PANTHER; PTHR42914:SF1; 7-CYANO-7-DEAZAGUANINE SYNTHASE; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Zinc.
+FT   CHAIN           1..231
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_0000246919"
+FT   BINDING         8..18
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         188
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         197
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         200
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   BINDING         203
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   231 AA;  25455 MW;  EA2CBE33850627F8 CRC64;
+     MKRAVVVFSG GQDSTTCLAQ ARHQYDEVHC VTFDYGQRHR AEIDVARALA LKLGARAHKV
+     LDVTLLNELA VSSLTRDSIP VPDYEPNADG IPNTFVPGRN ILFLTLAAIY AYQVKAEAVI
+     TGVCETDFSG YPDCRDEFVK ALNHAVNLGM AKDIRFETPL MWIDKAETWA LADYWGQLDL
+     VREETLTCYN GIKGDGCGHC AACNLRANGL NHYLSNKAAV MAAMKQKTGL R
+//

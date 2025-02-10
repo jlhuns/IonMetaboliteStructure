@@ -1,0 +1,111 @@
+ID   A0AAE9XTZ4_RHOPA        Unreviewed;       237 AA.
+AC   A0AAE9XTZ4;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Ribonuclease PH {ECO:0000256|HAMAP-Rule:MF_00564};
+DE            Short=RNase PH {ECO:0000256|HAMAP-Rule:MF_00564};
+DE            EC=2.7.7.56 {ECO:0000256|HAMAP-Rule:MF_00564};
+DE   AltName: Full=tRNA nucleotidyltransferase {ECO:0000256|HAMAP-Rule:MF_00564};
+GN   Name=rph {ECO:0000256|HAMAP-Rule:MF_00564,
+GN   ECO:0000313|EMBL:WCL90458.1};
+GN   ORFNames=TX73_001710 {ECO:0000313|EMBL:WCL90458.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90458.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90458.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Phosphorolytic 3'-5' exoribonuclease that plays an important
+CC       role in tRNA 3'-end maturation. Removes nucleotide residues following
+CC       the 3'-CCA terminus of tRNAs; can also add nucleotides to the ends of
+CC       RNA molecules by using nucleoside diphosphates as substrates, but this
+CC       may not be physiologically important. Probably plays a role in
+CC       initiation of 16S rRNA degradation (leading to ribosome degradation)
+CC       during starvation. {ECO:0000256|HAMAP-Rule:MF_00564}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(n+1) + phosphate = tRNA(n) + a ribonucleoside 5'-
+CC         diphosphate; Xref=Rhea:RHEA:10628, Rhea:RHEA-COMP:17343, Rhea:RHEA-
+CC         COMP:17344, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:173114;
+CC         EC=2.7.7.56; Evidence={ECO:0000256|HAMAP-Rule:MF_00564};
+CC   -!- SUBUNIT: Homohexameric ring arranged as a trimer of dimers.
+CC       {ECO:0000256|HAMAP-Rule:MF_00564}.
+CC   -!- SIMILARITY: Belongs to the RNase PH family.
+CC       {ECO:0000256|ARBA:ARBA00006678, ECO:0000256|HAMAP-Rule:MF_00564}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90458.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155897.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XTZ4; -.
+DR   GeneID; 66891340; -.
+DR   KEGG; rpa:TX73_001710; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0000175; F:3'-5'-RNA exonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009022; F:tRNA nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016075; P:rRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   CDD; cd11362; RNase_PH_bact; 1.
+DR   FunFam; 3.30.230.70:FF:000003; Ribonuclease PH; 1.
+DR   Gene3D; 3.30.230.70; GHMP Kinase, N-terminal domain; 1.
+DR   HAMAP; MF_00564; RNase_PH; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR020568; Ribosomal_Su5_D2-typ_SF.
+DR   InterPro; IPR050080; RNase_PH.
+DR   InterPro; IPR002381; RNase_PH_bac-type.
+DR   InterPro; IPR018336; RNase_PH_CS.
+DR   NCBIfam; TIGR01966; RNasePH; 1.
+DR   PANTHER; PTHR11953; EXOSOME COMPLEX COMPONENT; 1.
+DR   PANTHER; PTHR11953:SF0; EXOSOME COMPLEX COMPONENT RRP41; 1.
+DR   Pfam; PF01138; RNase_PH; 1.
+DR   Pfam; PF03725; RNase_PH_C; 1.
+DR   SUPFAM; SSF55666; Ribonuclease PH domain 2-like; 1.
+DR   SUPFAM; SSF54211; Ribosomal protein S5 domain 2-like; 1.
+DR   PROSITE; PS01277; RIBONUCLEASE_PH; 1.
+PE   3: Inferred from homology;
+KW   Nucleotidyltransferase {ECO:0000256|HAMAP-Rule:MF_00564};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552, ECO:0000256|HAMAP-
+KW   Rule:MF_00564}; Transferase {ECO:0000256|HAMAP-Rule:MF_00564};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_00564};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555, ECO:0000256|HAMAP-
+KW   Rule:MF_00564}.
+FT   DOMAIN          10..140
+FT                   /note="Exoribonuclease phosphorolytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01138"
+FT   DOMAIN          158..224
+FT                   /note="Exoribonuclease phosphorolytic"
+FT                   /evidence="ECO:0000259|Pfam:PF03725"
+FT   BINDING         86
+FT                   /ligand="phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:43474"
+FT                   /ligand_note="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00564"
+FT   BINDING         124..126
+FT                   /ligand="phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:43474"
+FT                   /ligand_note="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00564"
+SQ   SEQUENCE   237 AA;  25980 MW;  500DC61858448F56 CRC64;
+     MRPSRRAPDE LRAVSLERGV VKYAEGSCLV KFGDTHVLVT ATLEERLPPW LKGQGRGWVT
+     AEYGMLPRAT LERTRREASA GKQNGRTVEI QRLIGRSLRT IVDLEALGER QITVDCDVLQ
+     ADGGTRTASI TGAWVALADC LNWMKARNMI KGQVLRDNVA AISCGIYNGT PVLDLDYAED
+     SEAETDANFV MTGDGRLVEV QGTAERTPFS QDEFLQLMAL AQKGVARLVD LQKMAVG
+//

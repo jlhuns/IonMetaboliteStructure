@@ -1,0 +1,146 @@
+ID   CYSK_SALTI              Reviewed;         323 AA.
+AC   P0A1E4; P12674;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Cysteine synthase A;
+DE            Short=CSase A;
+DE            EC=2.5.1.47;
+DE   AltName: Full=O-acetylserine (thiol)-lyase A;
+DE            Short=OAS-TL A;
+DE   AltName: Full=O-acetylserine sulfhydrylase A;
+GN   Name=cysK; OrderedLocusNames=STY2666, t0427;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Two cysteine synthase enzymes are found. Both catalyze the
+CC       same reaction. Cysteine synthase B can also use thiosulfate in place of
+CC       sulfide to give cysteine thiosulfonate as a product (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-acetyl-L-serine + hydrogen sulfide = L-cysteine + acetate;
+CC         Xref=Rhea:RHEA:14829, ChEBI:CHEBI:29919, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:58340; EC=2.5.1.47;
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-cysteine biosynthesis; L-cysteine
+CC       from L-serine: step 2/2.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the cysteine synthase/cystathionine beta-
+CC       synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07662.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68145.1; -; Genomic_DNA.
+DR   RefSeq; NP_456967.1; NC_003198.1.
+DR   RefSeq; WP_000036904.1; NZ_WSUR01000025.1.
+DR   AlphaFoldDB; P0A1E4; -.
+DR   SMR; P0A1E4; -.
+DR   STRING; 220341.gene:17586566; -.
+DR   KEGG; stt:t0427; -.
+DR   KEGG; sty:STY2666; -.
+DR   PATRIC; fig|220341.7.peg.2702; -.
+DR   eggNOG; COG0031; Bacteria.
+DR   HOGENOM; CLU_021018_1_2_6; -.
+DR   OMA; VVTVFWD; -.
+DR   OrthoDB; 9805733at2; -.
+DR   UniPathway; UPA00136; UER00200.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0004124; F:cysteine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IEA:InterPro.
+DR   CDD; cd01561; CBS_like; 1.
+DR   FunFam; 3.40.50.1100:FF:000009; Cysteine synthase; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR005856; Cys_synth.
+DR   InterPro; IPR050214; Cys_Synth/Cystath_Beta-Synth.
+DR   InterPro; IPR005859; CysK.
+DR   InterPro; IPR001216; P-phosphate_BS.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR01139; cysK; 1.
+DR   NCBIfam; TIGR01136; cysKM; 1.
+DR   PANTHER; PTHR10314; CYSTATHIONINE BETA-SYNTHASE; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS00901; CYS_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; Amino-acid biosynthesis; Cysteine biosynthesis;
+KW   Pyridoxal phosphate; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..323
+FT                   /note="Cysteine synthase A"
+FT                   /id="PRO_0000167088"
+FT   BINDING         8
+FT                   /ligand="hydrogen sulfide"
+FT                   /ligand_id="ChEBI:CHEBI:29919"
+FT                   /ligand_note="allosteric inhibitor; ligand shared between
+FT                   dimeric partners"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A1E3"
+FT   BINDING         35
+FT                   /ligand="hydrogen sulfide"
+FT                   /ligand_id="ChEBI:CHEBI:29919"
+FT                   /ligand_note="allosteric inhibitor; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A1E3"
+FT   BINDING         72
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         177..181
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         269
+FT                   /ligand="hydrogen sulfide"
+FT                   /ligand_id="ChEBI:CHEBI:29919"
+FT                   /ligand_note="allosteric inhibitor; ligand shared between
+FT                   dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A1E3"
+FT   BINDING         273
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         42
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   323 AA;  34536 MW;  CE74168FAAE99B9E CRC64;
+     MSKIYEDNSL TIGHTPLVRL NRIGNGRILA KVESRNPSFS VKCRIGANMI WDAEKRGVLK
+     PGVELVEPTS GNTGIALAYV AAARGYKLTL TMPETMSIER RKLLKALGAN LVLTEGAKGM
+     KGAIQKAEEI VASDPQKYLL LQQFSNPANP EIHEKTTGPE IWEDTDGQVD VFISGVGTGG
+     TLTGVTRYIK GTKGKTDLIT VAVEPTDSPV IAQALAGEEI KPGPHKIQGI GAGFIPGNLD
+     LKLIDKVVGI TNEEAISTAR RLMEEEGILA GISSGAAVAA ALKLQEDESF TNKNIVVILP
+     SSGERYLSTA LFADLFTEKE LQQ
+//

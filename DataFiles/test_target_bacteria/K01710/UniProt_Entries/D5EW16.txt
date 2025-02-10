@@ -1,0 +1,74 @@
+ID   D5EW16_XYLR2            Unreviewed;       378 AA.
+AC   D5EW16;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 70.
+DE   RecName: Full=dTDP-glucose 4,6-dehydratase {ECO:0000256|ARBA:ARBA00011990};
+DE            EC=4.2.1.46 {ECO:0000256|ARBA:ARBA00011990};
+GN   Name=rfbB {ECO:0000313|EMBL:ADE81028.1};
+GN   OrderedLocusNames=PRU_0173 {ECO:0000313|EMBL:ADE81028.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81028.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81028.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-alpha-D-glucose = dTDP-4-dehydro-6-deoxy-alpha-D-glucose
+CC         + H2O; Xref=Rhea:RHEA:17221, ChEBI:CHEBI:15377, ChEBI:CHEBI:57477,
+CC         ChEBI:CHEBI:57649; EC=4.2.1.46;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001539};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001911};
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. dTDP-glucose dehydratase subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008178}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81028.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063015.1; NC_014033.1.
+DR   AlphaFoldDB; D5EW16; -.
+DR   STRING; 264731.PRU_0173; -.
+DR   KEGG; pru:PRU_0173; -.
+DR   eggNOG; COG1088; Bacteria.
+DR   HOGENOM; CLU_007383_1_14_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0008460; F:dTDP-glucose 4,6-dehydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009225; P:nucleotide-sugar metabolic process; IEA:InterPro.
+DR   CDD; cd05246; dTDP_GD_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR005888; dTDP_Gluc_deHydtase.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR43000; DTDP-D-GLUCOSE 4,6-DEHYDRATASE-RELATED; 1.
+DR   Pfam; PF16363; GDP_Man_Dehyd; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:ADE81028.1};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          7..348
+FT                   /note="NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF16363"
+SQ   SEQUENCE   378 AA;  43659 MW;  E2228EE13EDB1017 CRC64;
+     MKRTIVITGG AGFIGSHVVR LFVNKYPEYH IINLDKLTYA GNLANLKDIE NKPNYEFVKM
+     DICDFDAFYK LMQDKKVDGI IHLAAESHVD RSIKDPFTFA KTNVMGTLSL LQAAKLYWES
+     LPEKYEGKRF YHISTDEVYG ALELTHPEGI EPPFTTTASS SEHHLAYGDK FFLETTKYNP
+     HSPYSASKAS SDHFVRAFHD TYGMPVVVTN CSNNYGPYQF PEKLIPLFIN NIRHRKPLPV
+     YGKGENVRDW LYVEDHARAI DVIFHEGKIA DTYNIGGFNE WKNIDIIKVV IKTVDRLLGR
+     KEGEDMDLIT FVTDRAGHDL RYAIDSSKLQ KELGWEPSLQ FEEGIEKTVR WYLDNQEWLD
+     NVTSGDYQKY YDNMYANR
+//

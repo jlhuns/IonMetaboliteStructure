@@ -1,0 +1,98 @@
+ID   C9RR83_FIBSS            Unreviewed;       341 AA.
+AC   C9RR83;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase {ECO:0000256|ARBA:ARBA00020367, ECO:0000256|HAMAP-Rule:MF_00741};
+DE            EC=6.3.3.1 {ECO:0000256|ARBA:ARBA00013047, ECO:0000256|HAMAP-Rule:MF_00741};
+DE   AltName: Full=AIR synthase {ECO:0000256|ARBA:ARBA00032931, ECO:0000256|HAMAP-Rule:MF_00741};
+DE   AltName: Full=AIRS {ECO:0000256|ARBA:ARBA00033093, ECO:0000256|HAMAP-Rule:MF_00741};
+DE   AltName: Full=Phosphoribosyl-aminoimidazole synthetase {ECO:0000256|ARBA:ARBA00031908, ECO:0000256|HAMAP-Rule:MF_00741};
+GN   Name=purM {ECO:0000256|HAMAP-Rule:MF_00741,
+GN   ECO:0000313|EMBL:ADL24966.1};
+GN   OrderedLocusNames=FSU_1946 {ECO:0000313|EMBL:ADL24966.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL24966.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-formamido-N(1)-(5-O-phospho-beta-D-ribosyl)acetamidine + ATP
+CC         = 5-amino-1-(5-phospho-beta-D-ribosyl)imidazole + ADP + phosphate +
+CC         H(+); Xref=Rhea:RHEA:23032, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:137981, ChEBI:CHEBI:147287,
+CC         ChEBI:CHEBI:456216; EC=6.3.3.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049057, ECO:0000256|HAMAP-
+CC         Rule:MF_00741};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole from N(2)-formyl-N(1)-(5-
+CC       phospho-D-ribosyl)glycinamide: step 2/2.
+CC       {ECO:0000256|ARBA:ARBA00004686, ECO:0000256|HAMAP-Rule:MF_00741}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00741}.
+CC   -!- SIMILARITY: Belongs to the AIR synthase family.
+CC       {ECO:0000256|ARBA:ARBA00010280, ECO:0000256|HAMAP-Rule:MF_00741}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL24966.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546161.1; NC_017448.1.
+DR   AlphaFoldDB; C9RR83; -.
+DR   STRING; 59374.FSU_1946; -.
+DR   KEGG; fsc:FSU_1946; -.
+DR   KEGG; fsu:Fisuc_1472; -.
+DR   PATRIC; fig|59374.8.peg.1874; -.
+DR   eggNOG; COG0150; Bacteria.
+DR   HOGENOM; CLU_047116_0_0_0; -.
+DR   OrthoDB; 9802507at2; -.
+DR   UniPathway; UPA00074; UER00129.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004637; F:phosphoribosylamine-glycine ligase activity; IEA:TreeGrafter.
+DR   GO; GO:0004641; F:phosphoribosylformylglycinamidine cyclo-ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046084; P:adenine biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd02196; PurM; 1.
+DR   FunFam; 3.90.650.10:FF:000011; Phosphoribosylformylglycinamidine cyclo-ligase; 1.
+DR   Gene3D; 3.90.650.10; PurM-like C-terminal domain; 1.
+DR   Gene3D; 3.30.1330.10; PurM-like, N-terminal domain; 1.
+DR   HAMAP; MF_00741; AIRS; 1.
+DR   InterPro; IPR010918; PurM-like_C_dom.
+DR   InterPro; IPR036676; PurM-like_C_sf.
+DR   InterPro; IPR016188; PurM-like_N.
+DR   InterPro; IPR036921; PurM-like_N_sf.
+DR   InterPro; IPR004733; PurM_cligase.
+DR   NCBIfam; TIGR00878; purM; 1.
+DR   PANTHER; PTHR10520:SF12; TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3; 1.
+DR   PANTHER; PTHR10520; TRIFUNCTIONAL PURINE BIOSYNTHETIC PROTEIN ADENOSINE-3-RELATED; 1.
+DR   Pfam; PF00586; AIRS; 1.
+DR   Pfam; PF02769; AIRS_C; 1.
+DR   SUPFAM; SSF56042; PurM C-terminal domain-like; 1.
+DR   SUPFAM; SSF55326; PurM N-terminal domain-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00741}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00741};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00741};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00741}; Purine biosynthesis {ECO:0000256|HAMAP-Rule:MF_00741}.
+FT   DOMAIN          54..159
+FT                   /note="PurM-like N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00586"
+FT   DOMAIN          171..335
+FT                   /note="PurM-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02769"
+SQ   SEQUENCE   341 AA;  36796 MW;  916D27F4ADA1BED1 CRC64;
+     MNYADAGVSL ARADEAMVGV KKSVRTTFNQ GVLGDVGNFG GLFTLNHLGM KDPVLVSSVD
+     GVGTKLKVDI EMGTHELPGQ DIVNHCCDDI LVQGARPLFF LDYVATGRLE PGVMDKLVAG
+     MAKACRENDL VLIGGETAEM PGFYGPGDYD ISGTIVGVVE RENIIDGKKI KPGTIILGLP
+     STGLHTNGYS LARKVLFDVA GYKVDTMVDG MDKSIGEALA TPHRSYYPSL IDLCNKKKIQ
+     GLAHITGSGY QGNIPRILPD NVDVIIDRTT WDPPMIFKLI QQAGSVEKDE MYSTFNMGMG
+     MLIFIDPADK AEVVAHLEAK GEKWTQIGEV VAGTKQVKFR D
+//

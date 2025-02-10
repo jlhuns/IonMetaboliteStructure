@@ -1,0 +1,96 @@
+ID   TRPA_BACCR              Reviewed;         258 AA.
+AC   Q81GG4;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Tryptophan synthase alpha chain {ECO:0000255|HAMAP-Rule:MF_00131};
+DE            EC=4.2.1.20 {ECO:0000255|HAMAP-Rule:MF_00131};
+GN   Name=trpA {ECO:0000255|HAMAP-Rule:MF_00131};
+GN   OrderedLocusNames=BC_1238;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: The alpha subunit is responsible for the aldol cleavage of
+CC       indoleglycerol phosphate to indole and glyceraldehyde 3-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00131}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + L-serine = D-
+CC         glyceraldehyde 3-phosphate + L-tryptophan + H2O;
+CC         Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57912, ChEBI:CHEBI:58866, ChEBI:CHEBI:59776; EC=4.2.1.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00131};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 5/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_00131}.
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta chains. {ECO:0000255|HAMAP-
+CC       Rule:MF_00131}.
+CC   -!- SIMILARITY: Belongs to the TrpA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00131}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08223.1; -; Genomic_DNA.
+DR   RefSeq; NP_831022.1; NC_004722.1.
+DR   RefSeq; WP_000537825.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GG4; -.
+DR   SMR; Q81GG4; -.
+DR   STRING; 226900.BC_1238; -.
+DR   MetOSite; Q81GG4; -.
+DR   KEGG; bce:BC1238; -.
+DR   PATRIC; fig|226900.8.peg.1209; -.
+DR   HOGENOM; CLU_016734_0_0_9; -.
+DR   OrthoDB; 9804578at2; -.
+DR   UniPathway; UPA00035; UER00044.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004834; F:tryptophan synthase activity; IBA:GO_Central.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006568; P:tryptophan metabolic process; IEA:InterPro.
+DR   CDD; cd04724; Tryptophan_synthase_alpha; 1.
+DR   FunFam; 3.20.20.70:FF:000037; Tryptophan synthase alpha chain; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00131; Trp_synth_alpha; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   InterPro; IPR018204; Trp_synthase_alpha_AS.
+DR   InterPro; IPR002028; Trp_synthase_suA.
+DR   NCBIfam; TIGR00262; trpA; 1.
+DR   PANTHER; PTHR43406:SF1; TRYPTOPHAN SYNTHASE ALPHA CHAIN, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR43406; TRYPTOPHAN SYNTHASE, ALPHA CHAIN; 1.
+DR   Pfam; PF00290; Trp_syntA; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00167; TRP_SYNTHASE_ALPHA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Lyase;
+KW   Reference proteome; Tryptophan biosynthesis.
+FT   CHAIN           1..258
+FT                   /note="Tryptophan synthase alpha chain"
+FT                   /id="PRO_0000098734"
+FT   ACT_SITE        47
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00131"
+FT   ACT_SITE        58
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00131"
+SQ   SEQUENCE   258 AA;  28332 MW;  40917D1B77FCB406 CRC64;
+     MGVEKIKAAF ENGKKAFIPY VMGGDGGLEK LKERIRFLDE AGASIVEIGI PFSDPVADGP
+     TIQRAGKRAL DSGVTLKGIF QALAEVRKEV QMPFVLMTYL NPVLAFGKER FIENCIEAGV
+     DGIIVPDLPY EEQNIIAPLL REVNIALIPL VTVTSPIERI EKITSESEGF VYAVTVAGVT
+     GVRQNFKEEI HSYLEKVKSH VNLPVVAGFG ISTKEHVEEM VTICDGVVVG SKVIELLENE
+     KREEICELIY ATKQKEEA
+//

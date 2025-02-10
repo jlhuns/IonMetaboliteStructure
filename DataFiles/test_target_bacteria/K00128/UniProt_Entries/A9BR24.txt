@@ -1,0 +1,83 @@
+ID   A9BR24_DELAS            Unreviewed;       485 AA.
+AC   A9BR24;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 83.
+DE   RecName: Full=aldehyde dehydrogenase (NAD(+)) {ECO:0000256|ARBA:ARBA00024226};
+DE            EC=1.2.1.3 {ECO:0000256|ARBA:ARBA00024226};
+GN   OrderedLocusNames=Daci_0333 {ECO:0000313|EMBL:ABX32979.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX32979.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX32979.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an aldehyde + NAD(+) + H2O = a carboxylate + NADH + 2 H(+);
+CC         Xref=Rhea:RHEA:16185, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:29067, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049194};
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00009986}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX32979.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202272.1; NC_010002.1.
+DR   AlphaFoldDB; A9BR24; -.
+DR   STRING; 398578.Daci_0333; -.
+DR   GeneID; 24115950; -.
+DR   KEGG; dac:Daci_0333; -.
+DR   eggNOG; COG1012; Bacteria.
+DR   HOGENOM; CLU_005391_0_2_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0016620; F:oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor; IEA:InterPro.
+DR   CDD; cd07138; ALDH_CddD_SSP0762; 1.
+DR   FunFam; 3.40.605.10:FF:000026; Aldehyde dehydrogenase, putative; 1.
+DR   FunFam; 3.40.309.10:FF:000012; Betaine aldehyde dehydrogenase; 1.
+DR   FunFam; 3.40.605.10:FF:000007; NAD/NADP-dependent betaine aldehyde dehydrogenase; 1.
+DR   Gene3D; 3.40.605.10; Aldehyde Dehydrogenase, Chain A, domain 1; 1.
+DR   Gene3D; 3.40.309.10; Aldehyde Dehydrogenase, Chain A, domain 2; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   PANTHER; PTHR42804; ALDEHYDE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR42804:SF1; ALDEHYDE DEHYDROGENASE-RELATED; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          15..474
+FT                   /note="Aldehyde dehydrogenase"
+FT                   /evidence="ECO:0000259|Pfam:PF00171"
+SQ   SEQUENCE   485 AA;  51240 MW;  C99B875F093F4FDD CRC64;
+     MSTQEHLQFY IDGQWVPPAV PRTLDVINPS TEEVAARISM GSAADVDAAV AAARRAFDGF
+     SQTTRDERLA LLDKVLAVYM RRIDEVAQTI SLEMGAPLWL SRAAQATVGA GHLKQTLQVL
+     RDFEFESVRG TTGIVHEPVG VVGMITPWNW PINQIMCKVA PALAAGCTMV LKPSEIAPLN
+     AILVAEILHE AGVPAGVFNL VNGDGPSVGE AMSVHPGIDM MTFTGSTRAG IAVAKASADT
+     VKRVTQELGG KSANIVLDDA DIEKAVAQGV NACFTNSGQS CNAPTRMFVP RAMHARAVAA
+     AKAAAEGVKV GDALADTGAM HMGPVVSEAQ FRKIQGLIEA GIAEGATLVA GGTGRPEGLA
+     RGYFVRPTVF ADVRNDMTIA REEIFGPVLV ILPYDTEEEA IAQANDTPYG LSGYVQSGSL
+     ERARRVASRL RTGMVHLNGA GPDFGAPFGG YKQSGTGREW GEHGFKEYLE VKAVMGYQPK
+     QKAAA
+//

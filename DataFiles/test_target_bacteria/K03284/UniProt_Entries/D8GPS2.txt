@@ -1,0 +1,86 @@
+ID   D8GPS2_CLOLD            Unreviewed;       315 AA.
+AC   D8GPS2;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   RecName: Full=Magnesium transport protein CorA {ECO:0000256|RuleBase:RU362010};
+GN   Name=corA {ECO:0000256|RuleBase:RU362010};
+GN   OrderedLocusNames=CLJU_c09130 {ECO:0000313|EMBL:ADK13981.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13981.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13981.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Mediates influx of magnesium ions.
+CC       {ECO:0000256|RuleBase:RU362010}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}. Membrane
+CC       {ECO:0000256|RuleBase:RU362010}; Multi-pass membrane protein
+CC       {ECO:0000256|RuleBase:RU362010}.
+CC   -!- SIMILARITY: Belongs to the CorA metal ion transporter (MIT) (TC 1.A.35)
+CC       family. {ECO:0000256|ARBA:ARBA00009765, ECO:0000256|RuleBase:RU362010}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13981.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237578.1; NZ_LITS01000009.1.
+DR   AlphaFoldDB; D8GPS2; -.
+DR   STRING; 748727.CLJU_c09130; -.
+DR   KEGG; clj:CLJU_c09130; -.
+DR   PATRIC; fig|748727.19.peg.3665; -.
+DR   eggNOG; COG0598; Bacteria.
+DR   HOGENOM; CLU_007127_0_0_9; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:TreeGrafter.
+DR   GO; GO:0015087; F:cobalt ion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0015095; F:magnesium ion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd12822; TmCorA-like; 1.
+DR   FunFam; 1.20.58.340:FF:000004; Magnesium transport protein CorA; 1.
+DR   Gene3D; 3.30.460.20; CorA soluble domain-like; 1.
+DR   Gene3D; 1.20.58.340; Magnesium transport protein CorA, transmembrane region; 2.
+DR   InterPro; IPR045861; CorA_cytoplasmic_dom.
+DR   InterPro; IPR045863; CorA_TM1_TM2.
+DR   InterPro; IPR004488; Mg/Co-transport_prot_CorA.
+DR   InterPro; IPR002523; MgTranspt_CorA/ZnTranspt_ZntB.
+DR   NCBIfam; TIGR00383; corA; 1.
+DR   PANTHER; PTHR46494; CORA FAMILY METAL ION TRANSPORTER (EUROFUNG); 1.
+DR   PANTHER; PTHR46494:SF1; CORA FAMILY METAL ION TRANSPORTER (EUROFUNG); 1.
+DR   Pfam; PF01544; CorA; 1.
+DR   SUPFAM; SSF143865; CorA soluble domain-like; 1.
+DR   SUPFAM; SSF144083; Magnesium transport protein CorA, transmembrane region; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475,
+KW   ECO:0000256|RuleBase:RU362010};
+KW   Ion transport {ECO:0000256|RuleBase:RU362010};
+KW   Magnesium {ECO:0000256|RuleBase:RU362010};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU362010};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU362010};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU362010}; Transport {ECO:0000256|RuleBase:RU362010}.
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362010"
+FT   TRANSMEM        290..310
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362010"
+SQ   SEQUENCE   315 AA;  37459 MW;  2C8516F16530AE10 CRC64;
+     MVTLIKNTLK EFESLEKAIF EAENTKEPYW IDINMPQEHE FSILKKHFHF HPITIQNCTQ
+     KIKRSKIHDY NEYHFITITS SGDLVKGFFP YKNIHIFINK DFIITIHYNE NKIIKKIFTE
+     LKKKSNACIK GTDFILYNIL DEIVDQYFIL TDKLENHIDI LEEKAMMRPV QQTAAEIMKL
+     KKNIMKLRHT VSPIRELLST LLRHDDIISE TNRIYYSDIY DHILRIYDLI ESEQEMITSC
+     LELYSSQLSN SMNKVMKLLT IITTIMMPLT IITGVYGMNF EYMPELHCRY AYFIVLFVMA
+     LITICEIIFF KKKGY
+//

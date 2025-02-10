@@ -1,0 +1,150 @@
+ID   IXTPA_SALTI             Reviewed;         197 AA.
+AC   Q8Z3U6;
+DT   30-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 126.
+DE   RecName: Full=dITP/XTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            EC=3.6.1.66 {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_01405};
+DE            Short=NTPase {ECO:0000255|HAMAP-Rule:MF_01405};
+GN   Name=rdgB; Synonyms=yggV; OrderedLocusNames=STY3256, t3015;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Pyrophosphatase that catalyzes the hydrolysis of nucleoside
+CC       triphosphates to their monophosphate derivatives, with a high
+CC       preference for the non-canonical purine nucleotides XTP (xanthosine
+CC       triphosphate), dITP (deoxyinosine triphosphate) and ITP. Seems to
+CC       function as a house-cleaning enzyme that removes non-canonical purine
+CC       nucleotides from the nucleotide pool, thus preventing their
+CC       incorporation into DNA/RNA and avoiding chromosomal lesions.
+CC       {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=XTP + H2O = XMP + diphosphate + H(+); Xref=Rhea:RHEA:28610,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:61314; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dITP + H2O = dIMP + diphosphate + H(+); Xref=Rhea:RHEA:28342,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61194, ChEBI:CHEBI:61382; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ITP + H2O = IMP + diphosphate + H(+); Xref=Rhea:RHEA:29399,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:61402; EC=3.6.1.66;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01405};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01405};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01405}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01405}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02927.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70567.1; -; Genomic_DNA.
+DR   RefSeq; NP_457495.1; NC_003198.1.
+DR   RefSeq; WP_001174773.1; NZ_WSUR01000049.1.
+DR   AlphaFoldDB; Q8Z3U6; -.
+DR   SMR; Q8Z3U6; -.
+DR   STRING; 220341.gene:17587129; -.
+DR   KEGG; stt:t3015; -.
+DR   KEGG; sty:STY3256; -.
+DR   PATRIC; fig|220341.7.peg.3320; -.
+DR   eggNOG; COG0127; Bacteria.
+DR   HOGENOM; CLU_082080_0_3_6; -.
+DR   OMA; YDPIFQP; -.
+DR   OrthoDB; 9807456at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0035870; F:dITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036220; F:ITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IEA:InterPro.
+DR   GO; GO:0036222; F:XTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009146; P:purine nucleoside triphosphate catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00515; HAM1; 1.
+DR   FunFam; 3.90.950.10:FF:000001; dITP/XTP pyrophosphatase; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_01405; Non_canon_purine_NTPase; 1.
+DR   InterPro; IPR020922; dITP/XTP_pyrophosphatase.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR002637; RdgB/HAM1.
+DR   NCBIfam; TIGR00042; RdgB/HAM1 family non-canonical purine NTP pyrophosphatase; 1.
+DR   PANTHER; PTHR11067:SF9; INOSINE TRIPHOSPHATE PYROPHOSPHATASE; 1.
+DR   PANTHER; PTHR11067; INOSINE TRIPHOSPHATE PYROPHOSPHATASE/HAM1 PROTEIN; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Metal-binding; Nucleotide metabolism;
+KW   Nucleotide-binding.
+FT   CHAIN           1..197
+FT                   /note="dITP/XTP pyrophosphatase"
+FT                   /id="PRO_0000178222"
+FT   ACT_SITE        69
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         8..13
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         40
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         69
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         70
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         154..157
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         177
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+FT   BINDING         182..183
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01405"
+SQ   SEQUENCE   197 AA;  21032 MW;  08E2AB5C2ABC1C1C CRC64;
+     MQKVVLATGN AGKVRELASL LSDFGLDVVA QTKLGVDSAE ETGLTFIENA ILKARHAAKM
+     TGLPAIADDS GLAVDVLGGA PGIYSARYSG ENATDQQNLE KLLHTLRDVP DDKRQARFHC
+     VLVYLRHAED PTPIVCHGSW PGVITRQAAG NGGFGYDPIF FVPSEGKTAA ELTREEKSAI
+     SHRGQALKLL LDALRNG
+//

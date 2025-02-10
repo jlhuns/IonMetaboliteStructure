@@ -1,0 +1,125 @@
+ID   Q64SZ4_BACFR            Unreviewed;      1076 AA.
+AC   Q64SZ4;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 136.
+DE   RecName: Full=carbamoyl-phosphate synthase (ammonia) {ECO:0000256|ARBA:ARBA00044063};
+DE            EC=6.3.4.16 {ECO:0000256|ARBA:ARBA00044063};
+GN   OrderedLocusNames=BF2635 {ECO:0000313|EMBL:BAD49385.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD49385.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD49385.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD49385.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate + NH4(+) + 2 ATP = carbamoyl phosphate + 2
+CC         ADP + phosphate + 2 H(+); Xref=Rhea:RHEA:18029, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:28938, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58228, ChEBI:CHEBI:456216;
+CC         EC=6.3.4.16; Evidence={ECO:0000256|ARBA:ARBA00047359};
+CC   -!- SIMILARITY: Belongs to the CarB family.
+CC       {ECO:0000256|ARBA:ARBA00009799}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD49385.1; -; Genomic_DNA.
+DR   RefSeq; WP_005788239.1; NC_006347.1.
+DR   RefSeq; YP_099919.1; NC_006347.1.
+DR   AlphaFoldDB; Q64SZ4; -.
+DR   STRING; 295405.BF2635; -.
+DR   GeneID; 66328307; -.
+DR   KEGG; bfr:BF2635; -.
+DR   PATRIC; fig|295405.11.peg.2545; -.
+DR   HOGENOM; CLU_000513_1_3_10; -.
+DR   OrthoDB; 9804197at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004087; F:carbamoyl-phosphate synthase (ammonia) activity; IEA:RHEA.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006221; P:pyrimidine nucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01423; MGS_CPS_I_III; 1.
+DR   FunFam; 3.30.470.20:FF:000004; Carbamoyl-phosphate synthase (glutamine-hydrolyzing); 1.
+DR   FunFam; 1.10.1030.10:FF:000002; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.30.1490.20:FF:000001; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.30.470.20:FF:000001; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.40.50.20:FF:000001; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.40.50.20:FF:000002; Carbamoyl-phosphate synthase large chain; 1.
+DR   Gene3D; 3.40.50.20; -; 2.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 2.
+DR   Gene3D; 1.10.1030.10; Carbamoyl-phosphate synthetase, large subunit oligomerisation domain; 1.
+DR   Gene3D; 3.40.50.1380; Methylglyoxal synthase-like domain; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR006275; CarbamoylP_synth_lsu.
+DR   InterPro; IPR005480; CarbamoylP_synth_lsu_oligo.
+DR   InterPro; IPR036897; CarbamoylP_synth_lsu_oligo_sf.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR005483; CbamoylP_synth_lsu_CPSase_dom.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01369; CPSaseII_lrg; 1.
+DR   PANTHER; PTHR11405:SF53; CARBAMOYL-PHOSPHATE SYNTHASE [AMMONIA], MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11405; CARBAMOYLTRANSFERASE FAMILY MEMBER; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 2.
+DR   Pfam; PF02787; CPSase_L_D3; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PRINTS; PR00098; CPSASE.
+DR   SMART; SM01096; CPSase_L_D3; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF48108; Carbamoyl phosphate synthetase, large subunit connection domain; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 2.
+DR   SUPFAM; SSF52335; Methylglyoxal synthase-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 2.
+DR   PROSITE; PS50975; ATP_GRASP; 2.
+DR   PROSITE; PS00866; CPSASE_1; 2.
+DR   PROSITE; PS00867; CPSASE_2; 2.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409}; Ligase {ECO:0000256|ARBA:ARBA00022598};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409}; Repeat {ECO:0000256|ARBA:ARBA00022737}.
+FT   DOMAIN          132..324
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+FT   DOMAIN          682..873
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+FT   DOMAIN          939..1076
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51855"
+SQ   SEQUENCE   1076 AA;  119987 MW;  66011B19536966CF CRC64;
+     MKENNIKKVL LLGSGALKIG EAGEFDYSGS QALKALKEEG IETILINPNI ATVQTSEGVA
+     DQIYFLPVTP YFVEKVIRKE RPEGIMLAFG GQTALNCGVA LYREGILEKY NVKVLGTPVQ
+     AIIDTEDREL FVDKLNEIDV KTIKSEAVEN AEDARRAARE LGYPVIVRAA YALGGLGSGF
+     CDNEEELDLL VEKAFSFSPQ VLVEKSLRGW KEVEYEVVRD RFDNCITVCN MENFDPLGIH
+     TGESIVIAPS QTLTNKEYHK LRELAIRIIR HIGIVGECNV QYAFDPESED YRVIEVNARL
+     SRSSALASKA TGYPLAFVAA KLGLGYGLFD LKNSVTKTTS AFFEPALDYV VCKIPRWDLG
+     KFHGVDKELG SSMKSVGEVM AIGRTFEEAI QKGLRMIGQG MHGFVENKEL VIPDIDKALH
+     EPTDKRIFVI SKAFRAGYTI DQVHELTKID KWFLQKLMNI MNTSEELHQW GNNHKQIADL
+     PADLLKQAKR QGFSDFQIAR AIGYEGDMED GSLYVRNYRK SLGIVPVVKQ IDTLAAEYPA
+     QTNYLYLTYS GTANDVTYLG DHRSIVVLGS GAYRIGSSVE FDWCGVQALN TIRKEGWRSV
+     MINYNPETVS TDYDMCDRLY FDELTFERVM DVLELENPHG VIVSTGGQIP NNLALRLDAQ
+     NIHILGTSAQ SIDNAEDRDK FSAMLDRIGV DQPEWRALTS LEDINSFVDK VGFPVLVRPS
+     YVLSGAAMNV CSNQEELERF LQLAANVSKK HPVVVSQFIE HAKEVEMDAV AQNGEIIAYA
+     ISEHIEFAGV HSGDATIQFP PQKLYVETVR RIKRISREIA KALNISGPFN IQYLAKDNDI
+     KVIECNLRAS RSFPFVSKVL KINFIELATK VMLGLPVEKP EKNLFELDYV GIKASQFSFN
+     RLQKADPVLG VDMASTGEVG CIGSDTSCAV LKAMLSVGYR IPKKKILLST GTPKQKVDML
+     EAARMLQKKG YDIFATGGSS KFLTENGVEN TRVYWPSEEG HPQALEMLHK KEIDMVVNIP
+     KNLTAGELDN GYKIRRAAID LNIPLITNAR LASAFINAFC TMDIDDIAIK SWEEYK
+//

@@ -1,0 +1,141 @@
+ID   PYRH_BACLD              Reviewed;         240 AA.
+AC   Q65JJ7; Q62V02;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   OrderedLocusNames=BLi01872, BL01242;
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15383718; DOI=10.1159/000079829;
+RA   Veith B., Herzberg C., Steckel S., Feesche J., Maurer K.H., Ehrenreich P.,
+RA   Baeumer S., Henne A., Liesegang H., Merkl R., Ehrenreich A., Gottschalk G.;
+RT   "The complete genome sequence of Bacillus licheniformis DSM13, an organism
+RT   with great industrial potential.";
+RL   J. Mol. Microbiol. Biotechnol. 7:204-211(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46;
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Joergensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UMP + ATP = UDP + ADP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP. Inhibited by UTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23407.2; -; Genomic_DNA.
+DR   EMBL; AE017333; AAU40767.1; -; Genomic_DNA.
+DR   RefSeq; WP_009328506.1; NC_006322.1.
+DR   AlphaFoldDB; Q65JJ7; -.
+DR   SMR; Q65JJ7; -.
+DR   STRING; 279010.BL01242; -.
+DR   GeneID; 92861535; -.
+DR   KEGG; bld:BLi01872; -.
+DR   KEGG; bli:BL01242; -.
+DR   eggNOG; COG0528; Bacteria.
+DR   HOGENOM; CLU_033861_0_0_9; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006225; P:UDP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   FunFam; 3.40.1160.10:FF:000001; Uridylate kinase; 1.
+DR   Gene3D; 3.40.1160.10; Acetylglutamate kinase-like; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   NCBIfam; TIGR02075; pyrH_bact; 1.
+DR   PANTHER; PTHR42833; URIDYLATE KINASE; 1.
+DR   PANTHER; PTHR42833:SF4; URIDYLATE KINASE PUMPKIN, CHLOROPLASTIC; 1.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; Carbamate kinase-like; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..240
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_1000053891"
+FT   REGION          20..25
+FT                   /note="Involved in allosteric activation by GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         12..15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         54
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         55
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         59
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         74
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         135..142
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         163
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         172
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   240 AA;  26066 MW;  83311704CC4431C2 CRC64;
+     MEKPKYNRIV LKLSGEALAG EQGNGINPTV IQSIAKQVKE IAELDVEVAV VVGGGNLWRG
+     KTGSDLGMDR ATADYMGMLA TVMNSLALQD SLETLGIQSR VQTSIEMRQV AEPYIRRKAI
+     RHLEKKRVVI FAAGTGNPYF STDTTAALRA AEIEADVILM AKNNVDGVYN ADPRTDETAV
+     KYEKLSYLDV LKDGLAVMDS TASSLCMDND IPLIVFSIME EGNIKRAVLG EQIGTIVRGK
+//

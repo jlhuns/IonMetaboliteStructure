@@ -1,0 +1,135 @@
+ID   DAPE_DELAS              Reviewed;         386 AA.
+AC   A9BZY6;
+DT   26-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 82.
+DE   RecName: Full=Succinyl-diaminopimelate desuccinylase {ECO:0000255|HAMAP-Rule:MF_01690};
+DE            Short=SDAP desuccinylase {ECO:0000255|HAMAP-Rule:MF_01690};
+DE            EC=3.5.1.18 {ECO:0000255|HAMAP-Rule:MF_01690};
+DE   AltName: Full=N-succinyl-LL-2,6-diaminoheptanedioate amidohydrolase {ECO:0000255|HAMAP-Rule:MF_01690};
+GN   Name=dapE {ECO:0000255|HAMAP-Rule:MF_01690};
+GN   OrderedLocusNames=Daci_3614;
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolysis of N-succinyl-L,L-diaminopimelic
+CC       acid (SDAP), forming succinate and LL-2,6-diaminoheptanedioate (DAP),
+CC       an intermediate involved in the bacterial biosynthesis of lysine and
+CC       meso-diaminopimelic acid, an essential component of bacterial cell
+CC       walls. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-succinyl-(2S,6S)-2,6-diaminoheptanedioate + H2O =
+CC         (2S,6S)-2,6-diaminoheptanedioate + succinate; Xref=Rhea:RHEA:22608,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30031, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:58087; EC=3.5.1.18; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01690};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01690};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01690};
+CC       Note=Binds 2 Zn(2+) or Co(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01690};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (succinylase route): step 3/3. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20A family. DapE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36248.1; -; Genomic_DNA.
+DR   RefSeq; WP_012205448.1; NC_010002.1.
+DR   AlphaFoldDB; A9BZY6; -.
+DR   SMR; A9BZY6; -.
+DR   STRING; 398578.Daci_3614; -.
+DR   GeneID; 24115670; -.
+DR   KEGG; dac:Daci_3614; -.
+DR   eggNOG; COG0624; Bacteria.
+DR   HOGENOM; CLU_021802_4_0_4; -.
+DR   UniPathway; UPA00034; UER00021.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0008777; F:acetylornithine deacetylase activity; IEA:TreeGrafter.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009014; F:succinyl-diaminopimelate desuccinylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006526; P:L-arginine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   CDD; cd03891; M20_DapE_proteobac; 1.
+DR   FunFam; 3.30.70.360:FF:000011; Succinyl-diaminopimelate desuccinylase; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 2.
+DR   HAMAP; MF_01690; DapE; 1.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR005941; DapE_proteobac.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR050072; Peptidase_M20A.
+DR   NCBIfam; TIGR01246; dapE_proteo; 1.
+DR   PANTHER; PTHR43808; ACETYLORNITHINE DEACETYLASE; 1.
+DR   PANTHER; PTHR43808:SF31; N-ACETYL-L-CITRULLINE DEACETYLASE; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cobalt; Diaminopimelate biosynthesis; Hydrolase;
+KW   Lysine biosynthesis; Metal-binding; Reference proteome; Zinc.
+FT   CHAIN           1..386
+FT                   /note="Succinyl-diaminopimelate desuccinylase"
+FT                   /id="PRO_0000375541"
+FT   ACT_SITE        75
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   ACT_SITE        140
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         73
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         106
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         106
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         141
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         169
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   BINDING         355
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+SQ   SEQUENCE   386 AA;  41935 MW;  0C94576E19DBA356 CRC64;
+     MSRTLQLTEQ LISLPSVTPE DAGCLELLAD ALQPMGFACE RIDSGPDSFR VRNLWARRSG
+     TGADRPVLVF AGHTDVVPTG PLEQWSSPPF VPTHRDGKLY GRGASDMKTS IAAFVVALEE
+     FLAETPAPSF DIALLLTSDE EGPSVDGTKV VVELLRERGE RLDWCIVGEP TSVERTGDMI
+     KNGRRGTMSG RLTVKGIQGH IAYPQLARNP IHQALPALAE LAATRWDEGN AFFPPTSWQI
+     SNMHGGTGAS NVIPGHVTID FNFRFCTEST AESLQQRVHA VLDHHGLEYE LAWTIGGQPF
+     LTTPGTLVNA VQAAIRAETG LETELSTTGG TSDGRFIAQI CSQVVEVGPS NASIHKIDEH
+     IVVADIEPIK NIYRRTLQEL QRQQAV
+//

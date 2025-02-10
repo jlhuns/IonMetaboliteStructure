@@ -1,0 +1,150 @@
+ID   SYT_LACP3               Reviewed;         657 AA.
+AC   Q037Z6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 116.
+DE   RecName: Full=Threonine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            EC=6.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00184};
+DE   AltName: Full=Threonyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            Short=ThrRS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   Name=thrS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   OrderedLocusNames=LSEI_1703;
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441;
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K.S., Slesarev A., Wolf Y.I., Sorokin A., Mirkin B., Koonin E.V.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.-H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J.R., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M.H. Jr., Klaenhammer T.,
+RA   Richardson P., Kozyavkin S., Weimer B.C., Mills D.A.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Catalyzes the attachment of threonine to tRNA(Thr) in a two-
+CC       step reaction: L-threonine is first activated by ATP to form Thr-AMP
+CC       and then transferred to the acceptor end of tRNA(Thr). Also edits
+CC       incorrectly charged L-seryl-tRNA(Thr). {ECO:0000255|HAMAP-
+CC       Rule:MF_00184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Thr) + L-threonine + ATP = L-threonyl-tRNA(Thr) + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:24624, Rhea:RHEA-COMP:9670,
+CC         Rhea:RHEA-COMP:9704, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78534, ChEBI:CHEBI:456215; EC=6.1.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00184};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70476.1; -; Genomic_DNA.
+DR   RefSeq; WP_003594826.1; NC_008526.1.
+DR   RefSeq; YP_806918.1; NC_008526.1.
+DR   AlphaFoldDB; Q037Z6; -.
+DR   SMR; Q037Z6; -.
+DR   STRING; 321967.LSEI_1703; -.
+DR   PaxDb; 321967-LSEI_1703; -.
+DR   KEGG; lca:LSEI_1703; -.
+DR   PATRIC; fig|321967.11.peg.1683; -.
+DR   HOGENOM; CLU_008554_0_1_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004829; F:threonine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-ARBA.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006435; P:threonyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd01667; TGS_ThrRS; 1.
+DR   CDD; cd00860; ThrRS_anticodon; 1.
+DR   CDD; cd00771; ThrRS_core; 1.
+DR   FunFam; 3.30.930.10:FF:000002; Threonine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.800:FF:000001; Threonine--tRNA ligase; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.54.20; -; 1.
+DR   Gene3D; 3.40.50.800; Anticodon-binding domain; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.980.10; Threonyl-trna Synthetase, Chain A, domain 2; 1.
+DR   HAMAP; MF_00184; Thr_tRNA_synth; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR002320; Thr-tRNA-ligase_IIa.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR047246; ThrRS_anticodon.
+DR   InterPro; IPR033728; ThrRS_core.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   NCBIfam; TIGR00418; thrS; 1.
+DR   PANTHER; PTHR11451:SF56; THREONINE--TRNA LIGASE 1; 1.
+DR   PANTHER; PTHR11451; THREONINE-TRNA LIGASE; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PRINTS; PR01047; TRNASYNTHTHR.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF52954; Class II aaRS ABD-related; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   SUPFAM; SSF55186; ThrRS/AlaRS common domain; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding;
+KW   tRNA-binding; Zinc.
+FT   CHAIN           1..657
+FT                   /note="Threonine--tRNA ligase"
+FT                   /id="PRO_1000020409"
+FT   DOMAIN          1..62
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01228"
+FT   REGION          240..538
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         334
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         385
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   BINDING         515
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+SQ   SEQUENCE   657 AA;  74616 MW;  CA2D265B1A749952 CRC64;
+     MALDITFPDG NVKQFPDGTT VKAITEGISN SLAKKAVAGK LDGDLIAYDE PIAHSGQLQI
+     MTKDDAEGLT VLRQTAAFVL AAALKDLYPD IHFGQGQATE DGFYYDTDRA DGQVSVDDLP
+     TVQKKMEAII KENAALEPVV LSRAEAFQAF KNDPFKKQLV EAAGDPIKGY KLGDFVDFEE
+     KVLLPSLKDL KHLKLLSVAG AYWQGKSSNP MLQRIYGTAY WSEKGLEDDA KRRQEAAEHD
+     HRVIGRDLDL FFVDPKVGAG LPYWMPNGAT IRRVIERYII DKEIADGYEH VYTPVLANLD
+     LYKTSGHWDH YREDMFPPMD MGDGEMLELR PMNCPSHIQI YNHHIRSYRE LPLRIAELGM
+     MHRYEKSGAL SGLQRVREMT LNDGHTFVAL DQVQEEFKKI LRLIMDVYED FNITDYSFRL
+     SYRDPKNTEK YFDDDEMWTR SQSMLKGAMD DLKLDYYEAE GEAAFYGPKL DIQTKTALGN
+     DETMSTIQLD FMLPERFNLT YVGKDGEEHR PVMIHRGIVG TMERFIAYLT EIYKGAFPTW
+     LAPTQAVLIP VNNDLHLDYV NRIKKQMLVA GLRVKVDDRN EKMGYKIREA QTKKIPYTVV
+     VGDKELNDAA VSVRRYGDEH TEEEAGNMFI DALVAEVKNY SRDGKTKPGE ATKVLGD
+//

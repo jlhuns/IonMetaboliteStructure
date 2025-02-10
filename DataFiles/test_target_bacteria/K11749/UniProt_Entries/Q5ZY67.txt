@@ -1,0 +1,110 @@
+ID   Q5ZY67_LEGPH            Unreviewed;       475 AA.
+AC   Q5ZY67;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   27-NOV-2024, entry version 131.
+DE   RecName: Full=Zinc metalloprotease {ECO:0000256|RuleBase:RU362031};
+DE            EC=3.4.24.- {ECO:0000256|RuleBase:RU362031};
+GN   Name=yaeL {ECO:0000313|EMBL:AAU26602.1};
+GN   OrderedLocusNames=lpg0505 {ECO:0000313|EMBL:AAU26602.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26602.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26602.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947,
+CC         ECO:0000256|RuleBase:RU362031};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the peptidase M50B family.
+CC       {ECO:0000256|ARBA:ARBA00007931, ECO:0000256|RuleBase:RU362031}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26602.1; -; Genomic_DNA.
+DR   RefSeq; YP_094549.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZY67; -.
+DR   STRING; 272624.lpg0505; -.
+DR   PaxDb; 272624-lpg0505; -.
+DR   DNASU; 3079130; -.
+DR   KEGG; lpn:lpg0505; -.
+DR   PATRIC; fig|272624.6.peg.527; -.
+DR   eggNOG; COG0750; Bacteria.
+DR   HOGENOM; CLU_025778_0_2_6; -.
+DR   OrthoDB; 9782003at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00989; PDZ_metalloprotease; 2.
+DR   CDD; cd06163; S2P-M50_PDZ_RseP-like; 1.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR041489; PDZ_6.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR004387; Pept_M50_Zn.
+DR   InterPro; IPR008915; Peptidase_M50.
+DR   NCBIfam; TIGR00054; RIP metalloprotease RseP; 1.
+DR   PANTHER; PTHR42837:SF2; MEMBRANE METALLOPROTEASE ARASP2, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR42837; REGULATOR OF SIGMA-E PROTEASE RSEP; 1.
+DR   Pfam; PF17820; PDZ_6; 1.
+DR   Pfam; PF02163; Peptidase_M50; 1.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   PROSITE; PS50106; PDZ; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU362031};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU362031};
+KW   Metal-binding {ECO:0000256|RuleBase:RU362031};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000313|EMBL:AAU26602.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|RuleBase:RU362031}.
+FT   TRANSMEM        26..43
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        116..142
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        399..421
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        449..466
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   DOMAIN          248..314
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+SQ   SEQUENCE   475 AA;  52530 MW;  DD4C8F11BA2B58E1 CRC64;
+     MVLLWINLHT TGNLIFWSYQ SLDNDMLSTL LYFLLALVLL VTIHEYGHFQ VARWCGVKVL
+     RFSFGFGKIL ARFYDKKGTE YAWSLFPLGG YVKMLDETEG EVSEKEKPFA FNNQSVLVRI
+     AIVVAGPLFN FIFAFVALWL VLVIGMHSLA PMIESVKPNS IAARAGLVPK QEILALNGVK
+     INSWRDFQYE IMPLIGSQET VSLTVKSMIN GEESTLYLPL DKWQLDDKKP DPIKSLGIVP
+     FIPTIPPIVG EVVPDSPAEK AGLKIGDEII SVNGQHFNDW LYLVSYVRER PNSQINLDIK
+     RQGKLMDITV HTGSQDNNGK LEGLIGVRSQ KVDWPAHWLR LEQQPPISAL GTAFKQTVQL
+     TGTTFILMGR LVTGKLGLNS ISGPVGIAQG AGDSGRGGLV SYLFFLALVS ISLGALNLLP
+     IPMLDGGHLL YYVLEIIRRK PLSDGVKSVG IYFGLLLLVA LMFVALSNDI SRLTS
+//

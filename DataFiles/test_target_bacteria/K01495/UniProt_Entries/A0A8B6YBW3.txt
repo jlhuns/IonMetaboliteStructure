@@ -1,0 +1,87 @@
+ID   A0A8B6YBW3_CAMFR        Unreviewed;       249 AA.
+AC   A0A8B6YBW3;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=GTP cyclohydrolase 1 {ECO:0000256|ARBA:ARBA00017272};
+DE            EC=3.5.4.16 {ECO:0000256|ARBA:ARBA00012715};
+DE   AltName: Full=GTP cyclohydrolase I {ECO:0000256|ARBA:ARBA00030854};
+GN   Name=GCH1 {ECO:0000313|RefSeq:XP_006180915.2};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_006180915.2};
+RN   [1] {ECO:0000313|RefSeq:XP_006180915.2}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006180915.2};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = 7,8-dihydroneopterin 3'-triphosphate + formate +
+CC         H(+); Xref=Rhea:RHEA:17473, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:37565, ChEBI:CHEBI:58462; EC=3.5.4.16;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001052};
+CC   -!- PATHWAY: Cofactor biosynthesis; 7,8-dihydroneopterin triphosphate
+CC       biosynthesis; 7,8-dihydroneopterin triphosphate from GTP: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005080}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC       Nucleus {ECO:0000256|ARBA:ARBA00004123}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase I family.
+CC       {ECO:0000256|ARBA:ARBA00008085}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006180915.2; XM_006180853.3.
+DR   KEGG; cfr:102522642; -.
+DR   UniPathway; UPA00848; UER00151.
+DR   Proteomes; UP000694856; Chromosome 6.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003934; F:GTP cyclohydrolase I activity; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006729; P:tetrahydrobiopterin biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:InterPro.
+DR   CDD; cd00642; GTP_cyclohydro1; 1.
+DR   FunFam; 1.10.286.10:FF:000003; GTP cyclohydrolase 1; 1.
+DR   FunFam; 3.30.1130.10:FF:000012; GTP cyclohydrolase 1; 1.
+DR   Gene3D; 1.10.286.10; -; 1.
+DR   Gene3D; 3.30.1130.10; -; 1.
+DR   HAMAP; MF_00223; FolE; 1.
+DR   InterPro; IPR043133; GTP-CH-I_C/QueF.
+DR   InterPro; IPR043134; GTP-CH-I_N.
+DR   InterPro; IPR001474; GTP_CycHdrlase_I.
+DR   InterPro; IPR018234; GTP_CycHdrlase_I_CS.
+DR   InterPro; IPR020602; GTP_CycHdrlase_I_dom.
+DR   NCBIfam; TIGR00063; folE; 1.
+DR   PANTHER; PTHR11109:SF11; GTP CYCLOHYDROLASE 1; 1.
+DR   PANTHER; PTHR11109; GTP CYCLOHYDROLASE I; 1.
+DR   Pfam; PF01227; GTP_cyclohydroI; 1.
+DR   SUPFAM; SSF55620; Tetrahydrobiopterin biosynthesis enzymes-like; 1.
+DR   PROSITE; PS00859; GTP_CYCLOHYDROL_1_1; 1.
+DR   PROSITE; PS00860; GTP_CYCLOHYDROL_1_2; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme {ECO:0000256|ARBA:ARBA00022533};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00023134};
+KW   Nucleus {ECO:0000256|ARBA:ARBA00023242};
+KW   Tetrahydrobiopterin biosynthesis {ECO:0000256|ARBA:ARBA00023007}.
+FT   DOMAIN          72..247
+FT                   /note="GTP cyclohydrolase I"
+FT                   /evidence="ECO:0000259|Pfam:PF01227"
+FT   REGION          1..66
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        27..36
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   249 AA;  27766 MW;  5E9789D10FE85EF4 CRC64;
+     MEKGLGRVPA KPRGARCSNG FPEGEPPRPG PSPPTEKTPR PESKSAQPAD GWKGERPRSE
+     EDNELNLPNL AAAYSSILRS LGEDPQRQGL LKTPWRAATA MQFFTKGYQE TISDVLNDAI
+     FDEDHDEMVI VKDIDMFSMC EHHLVPFVGK VHIGYLPNKQ VLGLSKLARI VEIYSRRLQV
+     QERLTKQIAV AITEALRPAG VGVVVEATHM CMVMRGVQKM NSRTVTSTML GVFREDPKTR
+     EEFLTLIKS
+//

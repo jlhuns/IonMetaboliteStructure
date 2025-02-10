@@ -1,0 +1,115 @@
+ID   A7ZDV8_CAMC1            Unreviewed;       152 AA.
+AC   A7ZDV8;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   30-NOV-2016, sequence version 2.
+DT   05-FEB-2025, entry version 89.
+DE   RecName: Full=Methylated-DNA--protein-cysteine methyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+DE            EC=2.1.1.63 {ECO:0000256|HAMAP-Rule:MF_00772};
+DE   AltName: Full=6-O-methylguanine-DNA methyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+DE            Short=MGMT {ECO:0000256|HAMAP-Rule:MF_00772};
+DE   AltName: Full=O-6-methylguanine-DNA-alkyltransferase {ECO:0000256|HAMAP-Rule:MF_00772};
+GN   Name=ogt {ECO:0000313|EMBL:EAT98286.2};
+GN   ORFNames=CCC13826_1409 {ECO:0000313|EMBL:EAT98286.2};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT98286.2, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the cellular defense against the biological
+CC       effects of O6-methylguanine (O6-MeG) and O4-methylthymine (O4-MeT) in
+CC       DNA. Repairs the methylated nucleobase in DNA by stoichiometrically
+CC       transferring the methyl group to a cysteine residue in the enzyme. This
+CC       is a suicide reaction: the enzyme is irreversibly inactivated.
+CC       {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 4-O-methyl-thymidine in DNA + L-cysteinyl-[protein] = a
+CC         thymidine in DNA + S-methyl-L-cysteinyl-[protein];
+CC         Xref=Rhea:RHEA:53428, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:13555, Rhea:RHEA-COMP:13556, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:137386, ChEBI:CHEBI:137387;
+CC         EC=2.1.1.63; Evidence={ECO:0000256|ARBA:ARBA00001286,
+CC         ECO:0000256|HAMAP-Rule:MF_00772};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 6-O-methyl-2'-deoxyguanosine in DNA + L-cysteinyl-[protein]
+CC         = S-methyl-L-cysteinyl-[protein] + a 2'-deoxyguanosine in DNA;
+CC         Xref=Rhea:RHEA:24000, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:11367, Rhea:RHEA-COMP:11368, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:85445, ChEBI:CHEBI:85448; EC=2.1.1.63;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049348, ECO:0000256|HAMAP-
+CC         Rule:MF_00772};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- MISCELLANEOUS: This enzyme catalyzes only one turnover and therefore is
+CC       not strictly catalytic. According to one definition, an enzyme is a
+CC       biocatalyst that acts repeatedly and over many reaction cycles.
+CC       {ECO:0000256|HAMAP-Rule:MF_00772}.
+CC   -!- SIMILARITY: Belongs to the MGMT family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00772}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98286.2; -; Genomic_DNA.
+DR   RefSeq; WP_048809828.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZDV8; -.
+DR   STRING; 360104.CCC13826_1409; -.
+DR   KEGG; cco:CCC13826_1409; -.
+DR   eggNOG; COG0350; Bacteria.
+DR   OrthoDB; 9802228at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003908; F:methylated-DNA-[protein]-cysteine S-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006307; P:DNA alkylation repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd06445; ATase; 1.
+DR   FunFam; 1.10.10.10:FF:000214; Methylated-DNA--protein-cysteine methyltransferase; 1.
+DR   Gene3D; 3.30.160.70; Methylated DNA-protein cysteine methyltransferase domain; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00772; OGT; 1.
+DR   InterPro; IPR001497; MethylDNA_cys_MeTrfase_AS.
+DR   InterPro; IPR014048; MethylDNA_cys_MeTrfase_DNA-bd.
+DR   InterPro; IPR036217; MethylDNA_cys_MeTrfase_DNAb.
+DR   InterPro; IPR008332; MethylG_MeTrfase_N.
+DR   InterPro; IPR023546; MGMT.
+DR   InterPro; IPR036631; MGMT_N_sf.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   NCBIfam; TIGR00589; ogt; 1.
+DR   PANTHER; PTHR10815; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10815:SF13; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF01035; DNA_binding_1; 1.
+DR   Pfam; PF02870; Methyltransf_1N; 1.
+DR   SUPFAM; SSF53155; Methylated DNA-protein cysteine methyltransferase domain; 1.
+DR   SUPFAM; SSF46767; Methylated DNA-protein cysteine methyltransferase, C-terminal domain; 1.
+DR   PROSITE; PS00374; MGMT; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00772};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00772};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00772};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_00772};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00772}.
+FT   DOMAIN          3..64
+FT                   /note="Methylguanine DNA methyltransferase ribonuclease-
+FT                   like"
+FT                   /evidence="ECO:0000259|Pfam:PF02870"
+FT   DOMAIN          70..149
+FT                   /note="Methylated-DNA-[protein]-cysteine S-
+FT                   methyltransferase DNA binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01035"
+FT   ACT_SITE        120
+FT                   /note="Nucleophile; methyl group acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00772"
+SQ   SEQUENCE   152 AA;  16747 MW;  687B6A9F9271F551 CRC64;
+     MSKAYLKSPI GILEIVASEN GICEINFVDK FEKIAVKDEN LKLCLDELEA YFKGELKKFS
+     VRLDVKTTKF RAKIYDVLQK VPYGETTTYA ALALAAGHKN AYRAVGSANA KNPVPIIVPC
+     HRVLSHSGLG GYSGGEGLPT KIWLLEHEAK HK
+//

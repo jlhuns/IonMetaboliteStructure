@@ -1,0 +1,103 @@
+ID   E0RS19_SPITD            Unreviewed;       442 AA.
+AC   E0RS19;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   RecName: Full=biotin carboxylase {ECO:0000256|ARBA:ARBA00013263};
+DE            EC=6.3.4.14 {ECO:0000256|ARBA:ARBA00013263};
+GN   OrderedLocusNames=STHERM_c08570 {ECO:0000313|EMBL:ADN01806.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01806.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01806.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: This protein is a component of the acetyl coenzyme A
+CC       carboxylase complex; first, biotin carboxylase catalyzes the
+CC       carboxylation of the carrier protein and then the transcarboxylase
+CC       transfers the carboxyl group to form malonyl-CoA.
+CC       {ECO:0000256|ARBA:ARBA00003761}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-biotinyl-L-lysyl-[protein] + hydrogencarbonate + ATP =
+CC         N(6)-carboxybiotinyl-L-lysyl-[protein] + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:13501, Rhea:RHEA-COMP:10505, Rhea:RHEA-COMP:10506,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17544, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:83144, ChEBI:CHEBI:83145,
+CC         ChEBI:CHEBI:456216; EC=6.3.4.14;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048600};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01806.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313647.1; NC_014484.1.
+DR   AlphaFoldDB; E0RS19; -.
+DR   PaxDb; 665571-STHERM_c08570; -.
+DR   KEGG; sta:STHERM_c08570; -.
+DR   eggNOG; COG0439; Bacteria.
+DR   HOGENOM; CLU_000395_3_2_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:InterPro.
+DR   GO; GO:0004736; F:pyruvate carboxylase activity; IEA:UniProtKB-EC.
+DR   FunFam; 3.30.1490.20:FF:000018; Biotin carboxylase; 1.
+DR   FunFam; 3.40.50.20:FF:000010; Propionyl-CoA carboxylase subunit alpha; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   InterPro; IPR051602; ACC_Biotin_Carboxylase.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR005481; BC-like_N.
+DR   InterPro; IPR011764; Biotin_carboxylation_dom.
+DR   InterPro; IPR005482; Biotin_COase_C.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   PANTHER; PTHR48095:SF2; BIOTIN CARBOXYLASE, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR48095; PYRUVATE CARBOXYLASE SUBUNIT A; 1.
+DR   Pfam; PF02785; Biotin_carb_C; 1.
+DR   Pfam; PF00289; Biotin_carb_N; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 1.
+DR   SMART; SM00878; Biotin_carb_C; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   SUPFAM; SSF51246; Rudiment single hybrid motif; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS50979; BC; 1.
+DR   PROSITE; PS00866; CPSASE_1; 1.
+DR   PROSITE; PS00867; CPSASE_2; 1.
+PE   4: Predicted;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000313|EMBL:ADN01806.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00409}; Pyruvate {ECO:0000313|EMBL:ADN01806.1}.
+FT   DOMAIN          1..437
+FT                   /note="Biotin carboxylation"
+FT                   /evidence="ECO:0000259|PROSITE:PS50979"
+FT   DOMAIN          120..316
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+SQ   SEQUENCE   442 AA;  48082 MW;  083EF96DD48D83C5 CRC64;
+     MIRSVFIANR GEIAVRIIRT CKEMGIRTVV ACSEADRTSL AVRMADEAVC VGPPPASESY
+     LNQSNLIAAA VLKGCDAVHP GFGFLSERAD FARRVREEGL VFIGPSPEVI HLLGDKVQAK
+     ETARKYGVPV IPGSDGAVED VAQARALVRE MGFPVIVKAA AGGGGKGMRI VWKEEDLERT
+     LRIASQEAEK AFSDGTLYIE KFLQNPRHVE VQLLGDAHGN VVHLGERDCS VQKNHQKLVE
+     ESPSPVVTPE MREAMGEAAV RLFKGIGYVG AGTVEFLVAD GRFYFMEVNA RIQVEHPVTE
+     MITGVDIVRE QIRAAGGEAL SITQDEVRLD GYALECRINA LSPGKVTAFH APAGFKTRID
+     SYLYTGAEVP PFYDSLVAKV IVGATTREEG IARMLRALDE LVVEGITVNT DLQKRIVSHP
+     IFRSGRFGTD VLEKILEEGG QE
+//

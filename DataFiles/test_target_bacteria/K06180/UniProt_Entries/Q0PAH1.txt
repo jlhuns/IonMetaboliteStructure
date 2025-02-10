@@ -1,0 +1,80 @@
+ID   Q0PAH1_CAMJE            Unreviewed;       250 AA.
+AC   Q0PAH1;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=RNA pseudouridylate synthase {ECO:0000256|ARBA:ARBA00031870};
+DE   AltName: Full=RNA-uridine isomerase {ECO:0000256|ARBA:ARBA00033164};
+GN   OrderedLocusNames=Cj0708 {ECO:0000313|EMBL:CAL34845.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34845.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34845.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a uridine in RNA = a pseudouridine in RNA;
+CC         Xref=Rhea:RHEA:48348, Rhea:RHEA-COMP:12068, Rhea:RHEA-COMP:12069,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000073};
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase RluA family.
+CC       {ECO:0000256|ARBA:ARBA00010876}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34845.1; -; Genomic_DNA.
+DR   PIR; G81341; G81341.
+DR   RefSeq; WP_002852134.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344126.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PAH1; -.
+DR   STRING; 192222.Cj0708; -.
+DR   PaxDb; 192222-Cj0708; -.
+DR   EnsemblBacteria; CAL34845; CAL34845; Cj0708.
+DR   GeneID; 905027; -.
+DR   KEGG; cje:Cj0708; -.
+DR   PATRIC; fig|192222.6.peg.700; -.
+DR   eggNOG; COG0564; Bacteria.
+DR   HOGENOM; CLU_016902_9_0_7; -.
+DR   OrthoDB; 128480at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0140098; F:catalytic activity, acting on RNA; IEA:UniProtKB-ARBA.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009982; F:pseudouridine synthase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0000455; P:enzyme-directed rRNA pseudouridine synthesis; IEA:TreeGrafter.
+DR   CDD; cd02869; PseudoU_synth_RluA_like; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR006224; PsdUridine_synth_RluA-like_CS.
+DR   InterPro; IPR006145; PsdUridine_synth_RsuA/RluA.
+DR   InterPro; IPR050188; RluA_PseudoU_synthase.
+DR   PANTHER; PTHR21600; MITOCHONDRIAL RNA PSEUDOURIDINE SYNTHASE; 1.
+DR   PANTHER; PTHR21600:SF44; RIBOSOMAL LARGE SUBUNIT PSEUDOURIDINE SYNTHASE D; 1.
+DR   Pfam; PF00849; PseudoU_synth_2; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   PROSITE; PS01129; PSI_RLU; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235};
+KW   Lyase {ECO:0000313|EMBL:CAL34845.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          69..195
+FT                   /note="Pseudouridine synthase RsuA/RluA-like"
+FT                   /evidence="ECO:0000259|Pfam:PF00849"
+SQ   SEQUENCE   250 AA;  28576 MW;  491285DB388EB2FA CRC64;
+     MQEKAYKLLA LQEKISNREA KDLIDKGCVF SYGKKVVVAR ALMSDKARFN VIKAKNPQII
+     FEDDKIIAIN KPYAYVSEDL EKKFNAKLLN RLDKETSGVI LLCKDEDFRK LCIEEFKKHR
+     VYKSYIAVLD GVLAEEVEVN EPIFTIKVKG GALSKVSKDG LSALSIITPI MMQSKKTLAK
+     IVIQTGRTHQ IRVHAKFIKH GVVGDEKYAK ISSDRMYLHS YEIKIFNYHF RANLDSGFAK
+     FGFDIKNLDF
+//

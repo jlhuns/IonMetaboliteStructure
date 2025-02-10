@@ -1,0 +1,99 @@
+ID   A0A0A2N933_ALCFA        Unreviewed;       393 AA.
+AC   A0A0A2N933;
+DT   04-FEB-2015, integrated into UniProtKB/TrEMBL.
+DT   04-FEB-2015, sequence version 1.
+DT   05-FEB-2025, entry version 47.
+DE   SubName: Full=Acetyl-CoA C-acyltransferase {ECO:0000313|EMBL:PWE12779.1};
+DE            EC=2.3.1.16 {ECO:0000313|EMBL:UPL21324.1};
+DE            EC=2.3.1.9 {ECO:0000313|EMBL:PWE12779.1};
+GN   ORFNames=DF183_18630 {ECO:0000313|EMBL:PWE12779.1}, MXF72_18365
+GN   {ECO:0000313|EMBL:UPL21324.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:PWE12779.1, ECO:0000313|Proteomes:UP000245216};
+RN   [1] {ECO:0000313|EMBL:PWE12779.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE12779.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE12779.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE12779.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000313|EMBL:UPL21324.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=D334 {ECO:0000313|EMBL:UPL21324.1};
+RA   Doan V.T., Quach N.T., Vu T.-H.-N., Phi Q.-T.;
+RT   "Genomic mining of Alcaligenes faecalis D334 producing ectoin and
+RT   derivatives.";
+RL   Submitted (APR-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Thiolase family.
+CC       {ECO:0000256|ARBA:ARBA00010982, ECO:0000256|RuleBase:RU003557}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000005; PWE12779.1; -; Genomic_DNA.
+DR   EMBL; CP095873; UPL21324.1; -; Genomic_DNA.
+DR   RefSeq; WP_035269274.1; NZ_SRIW01000008.1.
+DR   AlphaFoldDB; A0A0A2N933; -.
+DR   STRING; 511.UZ73_09980; -.
+DR   GeneID; 29370940; -.
+DR   KEGG; afa:UZ73_09980; -.
+DR   eggNOG; COG0183; Bacteria.
+DR   OrthoDB; 9764638at2; -.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   Proteomes; UP000830925; Chromosome.
+DR   GO; GO:0003985; F:acetyl-CoA C-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   CDD; cd00751; thiolase; 1.
+DR   FunFam; 3.40.47.10:FF:000010; Acetyl-CoA acetyltransferase (Thiolase); 1.
+DR   Gene3D; 3.40.47.10; -; 2.
+DR   InterPro; IPR002155; Thiolase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   InterPro; IPR020610; Thiolase_AS.
+DR   InterPro; IPR020617; Thiolase_C.
+DR   InterPro; IPR020616; Thiolase_N.
+DR   NCBIfam; TIGR01930; AcCoA-C-Actrans; 1.
+DR   PANTHER; PTHR18919:SF138; ACETYL-COA C-ACETYLTRANSFERASE; 1.
+DR   PANTHER; PTHR18919; ACETYL-COA C-ACYLTRANSFERASE; 1.
+DR   Pfam; PF02803; Thiolase_C; 1.
+DR   Pfam; PF00108; Thiolase_N; 1.
+DR   PIRSF; PIRSF000429; Ac-CoA_Ac_transf; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+DR   PROSITE; PS00099; THIOLASE_3; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|RuleBase:RU003557};
+KW   Transferase {ECO:0000256|RuleBase:RU003557, ECO:0000313|EMBL:PWE12779.1}.
+FT   DOMAIN          5..263
+FT                   /note="Thiolase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00108"
+FT   DOMAIN          271..391
+FT                   /note="Thiolase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02803"
+FT   ACT_SITE        89
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+FT   ACT_SITE        349
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+FT   ACT_SITE        379
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000429-1"
+SQ   SEQUENCE   393 AA;  40851 MW;  000EFF44B652DF55 CRC64;
+     MTNSVVIVSI ARTPMGGMMG SLSDLAAHEL GAVAIKAAME RSGIQADKVD EVIMGNVLQA
+     GQGQAPARQA ALGAGLPQGV ACTTIHKVCG SGLKAAMFAH DLLKAGSVDV VVAGGQESMS
+     NAPYLLLKGR EGYRYGHSTV YDHMAMDGLE DAYSRGTAMG VFAEDCASKY EFSREEQDAY
+     ALESLRRARQ ASDDGSFEWE IAPVTIAGRK GDVVVAKDEA PTKAMPEKIP TLRPAFKKDG
+     TITAANASSI SDGAAAMVIT TEEKAKELGA TPLARIVAHT QHAQEPAWFT TAPVAAIQKL
+     LDKTGWSVAD VDLFEINEAF AVVTMAAMKE LNIPHDKVNI HGGATALGHP IGASGARLLA
+     TLIGALRKTG GKRGIASLCI GGGEAVALAV ELV
+//

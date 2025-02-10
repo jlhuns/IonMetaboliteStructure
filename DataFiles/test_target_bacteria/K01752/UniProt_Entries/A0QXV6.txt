@@ -1,0 +1,90 @@
+ID   A0QXV6_MYCS2            Unreviewed;       458 AA.
+AC   A0QXV6;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 92.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   Name=sdaA {ECO:0000313|EMBL:ABK73208.1};
+GN   OrderedLocusNames=MSMEG_3440 {ECO:0000313|EMBL:ABK73208.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK73208.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK73208.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK73208.1; -; Genomic_DNA.
+DR   RefSeq; YP_887744.1; NC_008596.1.
+DR   AlphaFoldDB; A0QXV6; -.
+DR   STRING; 246196.MSMEG_3440; -.
+DR   PaxDb; 246196-MSMEI_3360; -.
+DR   KEGG; msm:MSMEG_3440; -.
+DR   PATRIC; fig|246196.19.peg.3398; -.
+DR   eggNOG; COG1760; Bacteria.
+DR   OrthoDB; 9805537at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.1330.90:FF:000001; L-serine ammonia-lyase 1; 1.
+DR   Gene3D; 3.30.1330.90; D-3-phosphoglycerate dehydrogenase, domain 3; 1.
+DR   InterPro; IPR029009; ASB_dom_sf.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR004644; Fe-S_L-Ser_mono.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR005131; Ser_deHydtase_bsu.
+DR   NCBIfam; TIGR00720; sda_mono; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+DR   Pfam; PF03315; SDH_beta; 1.
+DR   SUPFAM; SSF143548; Serine metabolism enzymes domain; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          1..151
+FT                   /note="Serine dehydratase beta chain"
+FT                   /evidence="ECO:0000259|Pfam:PF03315"
+FT   DOMAIN          186..448
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   458 AA;  48301 MW;  2AD4529DE4E4207E CRC64;
+     MFDLFSVGIG PSSSHTVGPM RAAARFADEL DAIGVLDAVA TIDVDLYGSL AATGAGHGTM
+     SAILLGLEGS RPETIESEFK DRRIEQMRAE GRIRVGGRVE ITLSENDIRL HPETVLPTHS
+     NGMRLSAAGS DGRPLHAQTY FSVGGGFIVA EGADELGQGH GSEDGDVTFS SAAELLALAD
+     KFDSPISSVM LAFETETRSE DEVRARLLHI RDVMFECMER GITRDGFLPG TLRVRRRARD
+     WYQRLLTDDP GRDPVYAEDW VNLVALAVNE ENASGGRIVT APTNGAAGII PAVLYYALHY
+     TPQGAADPDD ASVRFLLTAG AIGSLYKERA SISGAEVGCQ GEVGSAASMA AAGLAEILGG
+     TPAQVENAAE IAMEHSLGLT CDPIGGLVQI PCIERNAISA GKAINAARMA LRGDGTHRVS
+     LDQVIETMRS TGRDMSAKYK ETSTGGLATA VPVNVVEC
+//

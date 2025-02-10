@@ -1,0 +1,154 @@
+ID   C5CA97_MICLC            Unreviewed;       229 AA.
+AC   C5CA97;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=dITP/XTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE            EC=3.6.1.66 {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE            Short=NTPase {ECO:0000256|HAMAP-Rule:MF_01405};
+GN   Name=rdgB {ECO:0000313|EMBL:SQG49320.1};
+GN   OrderedLocusNames=Mlut_08380 {ECO:0000313|EMBL:ACS30366.1};
+GN   ORFNames=NCTC2665_01856 {ECO:0000313|EMBL:SQG49320.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30366.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30366.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30366.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49320.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49320.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Pyrophosphatase that catalyzes the hydrolysis of nucleoside
+CC       triphosphates to their monophosphate derivatives, with a high
+CC       preference for the non-canonical purine nucleotides XTP (xanthosine
+CC       triphosphate), dITP (deoxyinosine triphosphate) and ITP. Seems to
+CC       function as a house-cleaning enzyme that removes non-canonical purine
+CC       nucleotides from the nucleotide pool, thus preventing their
+CC       incorporation into DNA/RNA and avoiding chromosomal lesions.
+CC       {ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ITP + H2O = IMP + diphosphate + H(+); Xref=Rhea:RHEA:29399,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:61402; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=XTP + H2O = XMP + diphosphate + H(+); Xref=Rhea:RHEA:28610,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:61314; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dITP + H2O = dIMP + diphosphate + H(+); Xref=Rhea:RHEA:28342,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61194, ChEBI:CHEBI:61382; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01405};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family.
+CC       {ECO:0000256|ARBA:ARBA00008023, ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30366.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49320.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078995.1; NZ_WBMF01000002.1.
+DR   AlphaFoldDB; C5CA97; -.
+DR   STRING; 465515.Mlut_08380; -.
+DR   EnsemblBacteria; ACS30366; ACS30366; Mlut_08380.
+DR   KEGG; mlu:Mlut_08380; -.
+DR   PATRIC; fig|465515.4.peg.801; -.
+DR   eggNOG; COG0127; Bacteria.
+DR   HOGENOM; CLU_082080_0_1_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0035870; F:dITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036220; F:ITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IEA:InterPro.
+DR   GO; GO:0036222; F:XTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009146; P:purine nucleoside triphosphate catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00515; HAM1; 1.
+DR   FunFam; 3.90.950.10:FF:000001; dITP/XTP pyrophosphatase; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_01405; Non_canon_purine_NTPase; 1.
+DR   InterPro; IPR020922; dITP/XTP_pyrophosphatase.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR002637; RdgB/HAM1.
+DR   PANTHER; PTHR11067:SF9; INOSINE TRIPHOSPHATE PYROPHOSPHATASE; 1.
+DR   PANTHER; PTHR11067; INOSINE TRIPHOSPHATE PYROPHOSPHATASE/HAM1 PROTEIN; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01405};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_01405};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01405};
+KW   Nucleotide metabolism {ECO:0000256|ARBA:ARBA00023080, ECO:0000256|HAMAP-
+KW   Rule:MF_01405};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01405}; Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   ACT_SITE        88
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         21..26
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         88
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         89
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         181..184
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         204
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         209..210
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+SQ   SEQUENCE   229 AA;  23491 MW;  DE6130EA7302471D CRC64;
+     MSAPAASSAG LPEGARVVLA THNAGKVREL RQLLAGAVPG LEVETAVVDA GAVGAPDVVE
+     DGVTFAQNAL KKARAVAAHT GLIAVADDSG LAVDVLHGAP GIFSARWAGR HGDDRANLEL
+     LLAQLADVPD EHRGAQFVCA AALAVPSGPD AAGARAIHVE HVEHGRLPGT LLREPVGDGG
+     FGYDPILRPE GRDVSTAQLS PEDKNAISHR GHAFRALLPY LVDALDARP
+//

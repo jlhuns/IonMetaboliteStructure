@@ -1,0 +1,102 @@
+ID   A5FYM8_ACICJ            Unreviewed;       347 AA.
+AC   A5FYM8;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 87.
+DE   RecName: Full=Adenine DNA glycosylase {ECO:0000256|ARBA:ARBA00022023, ECO:0000256|RuleBase:RU365096};
+DE            EC=3.2.2.31 {ECO:0000256|ARBA:ARBA00012045, ECO:0000256|RuleBase:RU365096};
+GN   OrderedLocusNames=Acry_1502 {ECO:0000313|EMBL:ABQ30710.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ30710.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ30710.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ30710.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Adenine glycosylase active on G-A mispairs. MutY also
+CC       corrects error-prone DNA synthesis past GO lesions which are due to the
+CC       oxidatively damaged form of guanine: 7,8-dihydro-8-oxoguanine (8-oxo-
+CC       dGTP). {ECO:0000256|ARBA:ARBA00002933}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolyzes free adenine bases from 7,8-dihydro-8-
+CC         oxoguanine:adenine mismatched double-stranded DNA, leaving an
+CC         apurinic site.; EC=3.2.2.31; Evidence={ECO:0000256|ARBA:ARBA00000843,
+CC         ECO:0000256|RuleBase:RU365096};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|RuleBase:RU365096};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000256|RuleBase:RU365096};
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family.
+CC       {ECO:0000256|ARBA:ARBA00008343, ECO:0000256|RuleBase:RU365096}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30710.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A5FYM8; -.
+DR   STRING; 349163.Acry_1502; -.
+DR   KEGG; acr:Acry_1502; -.
+DR   eggNOG; COG1194; Bacteria.
+DR   HOGENOM; CLU_012862_0_2_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034039; F:8-oxo-7,8-dihydroguanine DNA N-glycosylase activity; IEA:TreeGrafter.
+DR   GO; GO:0035485; F:adenine/guanine mispair binding; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032357; F:oxidized purine DNA binding; IEA:TreeGrafter.
+DR   GO; GO:0000701; F:purine-specific mismatch base pair DNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006284; P:base-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006298; P:mismatch repair; IEA:TreeGrafter.
+DR   CDD; cd03431; DNA_Glycosylase_C; 1.
+DR   CDD; cd00056; ENDO3c; 1.
+DR   Gene3D; 1.10.1670.10; Helix-hairpin-Helix base-excision DNA repair enzymes (C-terminal); 1.
+DR   Gene3D; 1.10.340.30; Hypothetical protein, domain 2; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR004036; Endonuclease-III-like_CS2.
+DR   InterPro; IPR003651; Endonuclease3_FeS-loop_motif.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR023170; HhH_base_excis_C.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR044298; MIG/MutY.
+DR   InterPro; IPR029119; MutY_C.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   PANTHER; PTHR42944; ADENINE DNA GLYCOSYLASE; 1.
+DR   PANTHER; PTHR42944:SF1; ADENINE DNA GLYCOSYLASE; 1.
+DR   Pfam; PF10576; EndIII_4Fe-2S; 1.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   Pfam; PF14815; NUDIX_4; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SUPFAM; SSF48150; DNA-glycosylase; 1.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS01155; ENDONUCLEASE_III_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|RuleBase:RU365096};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204};
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295, ECO:0000256|RuleBase:RU365096};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ABQ30710.1};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU365096};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          43..194
+FT                   /note="HhH-GPD"
+FT                   /evidence="ECO:0000259|SMART:SM00478"
+SQ   SEQUENCE   347 AA;  37164 MW;  ED070C849680A889 CRC64;
+     MSRSLPSAEN LLRWYHVHRR ILPWRAGPGT LPDPYHVWLS EIMLQQTVVA TVIPYFHRFI
+     ERFPTISDLA VAVDDEILGL WAGLGYYARA RNLIRCARAV AEAGGFPVTL DGLRALPGIG
+     PYTAAAIGAI AFDIPVVPVD GNVERVTARM FAIEEALPAA KDAIAVAAAR LGAQAAAQSS
+     PGDFAQALFD LGATVCTPRS PSCMVCPWRD GCAAHARGLS ADLPRKAKRA ARPVRRGTVF
+     VMQDRSGMIG LRRRPPRGLL GGMLEVPGTD WEATAPPPVP PCAAHWLDAG TIIHVFTHFE
+     LRLTVKAGRV AALPGGIVAA PPDTPLPTVM RKALEAGLAV LDERSPK
+//

@@ -1,0 +1,135 @@
+ID   A0R5T6_MYCS2            Unreviewed;       292 AA.
+AC   A0R5T6;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 128.
+DE   RecName: Full=Glutamyl-Q tRNA(Asp) synthetase {ECO:0000256|HAMAP-Rule:MF_01428};
+DE            Short=Glu-Q-RSs {ECO:0000256|HAMAP-Rule:MF_01428};
+DE            EC=6.1.1.- {ECO:0000256|HAMAP-Rule:MF_01428};
+GN   Name=gltX {ECO:0000313|EMBL:ABK71493.1};
+GN   Synonyms=gluQ {ECO:0000256|HAMAP-Rule:MF_01428};
+GN   OrderedLocusNames=MSMEG_6306 {ECO:0000313|EMBL:ABK71493.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK71493.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK71493.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the tRNA-independent activation of glutamate in
+CC       presence of ATP and the subsequent transfer of glutamate onto a
+CC       tRNA(Asp). Glutamate is transferred on the 2-amino-5-(4,5-dihydroxy-2-
+CC       cyclopenten-1-yl) moiety of the queuosine in the wobble position of the
+CC       QUC anticodon. {ECO:0000256|HAMAP-Rule:MF_01428}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01428};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01428};
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       GluQ subfamily. {ECO:0000256|HAMAP-Rule:MF_01428}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK71493.1; -; Genomic_DNA.
+DR   RefSeq; WP_003897726.1; NZ_SIJM01000013.1.
+DR   RefSeq; YP_890524.1; NC_008596.1.
+DR   AlphaFoldDB; A0R5T6; -.
+DR   STRING; 246196.MSMEG_6306; -.
+DR   PaxDb; 246196-MSMEI_6141; -.
+DR   GeneID; 66737588; -.
+DR   KEGG; msb:LJ00_31175; -.
+DR   KEGG; msm:MSMEG_6306; -.
+DR   PATRIC; fig|246196.19.peg.6142; -.
+DR   eggNOG; COG0008; Bacteria.
+DR   OrthoDB; 9807503at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:TreeGrafter.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:InterPro.
+DR   GO; GO:0006400; P:tRNA modification; IEA:InterPro.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_01428; Glu_Q_tRNA_synth; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR022380; Glu-Q_tRNA(Asp)_Synthase.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR049940; GluQ/Sye.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR03838; queuosine_YadB; 1.
+DR   PANTHER; PTHR43311; GLUTAMATE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR43311:SF1; GLUTAMYL-Q TRNA(ASP) SYNTHETASE; 1.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_01428};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01428};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01428};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01428};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01428}; Protein biosynthesis {ECO:0000256|RuleBase:RU363037};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_01428}.
+FT   DOMAIN          7..248
+FT                   /note="Glutamyl/glutaminyl-tRNA synthetase class Ib
+FT                   catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF00749"
+FT   MOTIF           10..20
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   MOTIF           237..241
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         7..11
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         43
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         98
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         100
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         119
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         123
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         181
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         199
+FT                   /ligand="L-glutamate"
+FT                   /ligand_id="ChEBI:CHEBI:29985"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+FT   BINDING         240
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01428"
+SQ   SEQUENCE   292 AA;  32364 MW;  C54FAFCB706D8B73 CRC64;
+     MSNAAGRFAP SPSADLHIGN LRTAVLAWLF ARSTGRRFLV RVEDLDDRTF PEIGRRQVAD
+     LAAVGLTWDE PVEWQTTHED RYDAVIDQLA GEGLLYECYC SRKDIAQAPR APHAPQGAYP
+     GTCRDLTDDE RAARRRETGR PPAMRLRTDT FVYTVNDVLH GPYTGIVDDF VVRRGDGVPA
+     YNLAVVVDDA ASGIDQVVRG DDLLPSSPRQ AYLARLLGHP EPTYAHVPLV LNEDGARLAK
+     RDGAVTLAEI GVERAFAQIT ESLGRPATTM DELLARFDPD QLPRHPWIYR PV
+//

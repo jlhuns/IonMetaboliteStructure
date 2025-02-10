@@ -1,0 +1,78 @@
+ID   E3PSG8_ACESD            Unreviewed;       185 AA.
+AC   E3PSG8;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 61.
+DE   RecName: Full=Ribosome-recycling factor {ECO:0000256|HAMAP-Rule:MF_00040};
+DE            Short=RRF {ECO:0000256|HAMAP-Rule:MF_00040};
+DE   AltName: Full=Ribosome-releasing factor {ECO:0000256|HAMAP-Rule:MF_00040};
+GN   Name=frr {ECO:0000256|HAMAP-Rule:MF_00040,
+GN   ECO:0000313|EMBL:CBH21822.1};
+GN   OrderedLocusNames=CLOST_1702 {ECO:0000313|EMBL:CBH21822.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21822.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Responsible for the release of ribosomes from messenger RNA
+CC       at the termination of protein biosynthesis. May increase the efficiency
+CC       of translation by recycling ribosomes from one round of translation to
+CC       another. {ECO:0000256|HAMAP-Rule:MF_00040}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00040}.
+CC   -!- SIMILARITY: Belongs to the RRF family. {ECO:0000256|ARBA:ARBA00005912,
+CC       ECO:0000256|HAMAP-Rule:MF_00040}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21822.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PSG8; -.
+DR   STRING; 1511.CLOST_1702; -.
+DR   KEGG; cst:CLOST_1702; -.
+DR   eggNOG; COG0233; Bacteria.
+DR   HOGENOM; CLU_073981_2_0_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043023; F:ribosomal large subunit binding; IEA:TreeGrafter.
+DR   GO; GO:0006415; P:translational termination; IEA:UniProtKB-UniRule.
+DR   CDD; cd00520; RRF; 1.
+DR   FunFam; 1.10.132.20:FF:000001; Ribosome-recycling factor; 1.
+DR   FunFam; 3.30.1360.40:FF:000001; Ribosome-recycling factor; 1.
+DR   Gene3D; 3.30.1360.40; -; 1.
+DR   Gene3D; 1.10.132.20; Ribosome-recycling factor; 1.
+DR   HAMAP; MF_00040; RRF; 1.
+DR   InterPro; IPR002661; Ribosome_recyc_fac.
+DR   InterPro; IPR023584; Ribosome_recyc_fac_dom.
+DR   InterPro; IPR036191; RRF_sf.
+DR   NCBIfam; TIGR00496; frr; 1.
+DR   PANTHER; PTHR20982:SF3; MITOCHONDRIAL RIBOSOME RECYCLING FACTOR PSEUDO 1; 1.
+DR   PANTHER; PTHR20982; RIBOSOME RECYCLING FACTOR; 1.
+DR   Pfam; PF01765; RRF; 1.
+DR   SUPFAM; SSF55194; Ribosome recycling factor, RRF; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00040};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00040}; Reference proteome {ECO:0000313|Proteomes:UP000007041}.
+FT   DOMAIN          20..183
+FT                   /note="Ribosome recycling factor"
+FT                   /evidence="ECO:0000259|Pfam:PF01765"
+FT   REGION          141..161
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   185 AA;  21037 MW;  6D91BC9D01517C88 CRC64;
+     MKLDIHKKLE EKMEKTIAVL KDELLTIRAG RANPNMLDRV MVDYYGTMTP LKQMAGVSSP
+     EPRTILIQPW DKSAMGSIEK AILSSDLGFN PTNDGNSIRI NIPQLTEERR KDLIKLVAKT
+     GEQAKVAIRN ERREANEAIK KMEKTSELTE DDSKKAQDEV QKLTDSHIKM IDDMLAKKEK
+     DIMEV
+//

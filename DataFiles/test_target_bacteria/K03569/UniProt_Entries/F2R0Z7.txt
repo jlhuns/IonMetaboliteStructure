@@ -1,0 +1,86 @@
+ID   F2R0Z7_STRVP            Unreviewed;       353 AA.
+AC   F2R0Z7;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 54.
+DE   RecName: Full=Cell shape-determining protein MreB {ECO:0000256|HAMAP-Rule:MF_02207};
+GN   Name=mreB {ECO:0000256|HAMAP-Rule:MF_02207};
+GN   OrderedLocusNames=SVEN_2228 {ECO:0000313|EMBL:CCA55514.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA55514.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA55514.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA55514.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: Forms membrane-associated dynamic filaments that are
+CC       essential for cell shape determination. Acts by regulating cell wall
+CC       synthesis and cell elongation, and thus cell shape. A feedback loop
+CC       between cell geometry and MreB localization may maintain elongated cell
+CC       shape by targeting cell wall growth to regions of negative cell wall
+CC       curvature. {ECO:0000256|HAMAP-Rule:MF_02207}.
+CC   -!- SUBUNIT: Forms polymers. {ECO:0000256|HAMAP-Rule:MF_02207}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02207}.
+CC       Note=Membrane-associated. {ECO:0000256|HAMAP-Rule:MF_02207}.
+CC   -!- SIMILARITY: Belongs to the FtsA/MreB family.
+CC       {ECO:0000256|ARBA:ARBA00023458, ECO:0000256|HAMAP-Rule:MF_02207}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_02207}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA55514.1; -; Genomic_DNA.
+DR   RefSeq; WP_015033432.1; NZ_JABVZO010000500.1.
+DR   AlphaFoldDB; F2R0Z7; -.
+DR   STRING; 953739.SVEN_2228; -.
+DR   GeneID; 69864373; -.
+DR   KEGG; sve:SVEN_2228; -.
+DR   PATRIC; fig|953739.5.peg.4386; -.
+DR   eggNOG; COG1077; Bacteria.
+DR   HOGENOM; CLU_052037_0_0_11; -.
+DR   OrthoDB; 9768127at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000902; P:cell morphogenesis; IEA:InterPro.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-UniRule.
+DR   CDD; cd10225; MreB_like; 1.
+DR   Gene3D; 3.30.420.40; -; 3.
+DR   HAMAP; MF_02207; MreB; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR004753; MreB.
+DR   PANTHER; PTHR42749; CELL SHAPE-DETERMINING PROTEIN MREB; 1.
+DR   PANTHER; PTHR42749:SF1; CELL SHAPE-DETERMINING PROTEIN MREB; 1.
+DR   Pfam; PF06723; MreB_Mbl; 1.
+DR   PRINTS; PR01652; SHAPEPROTEIN.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_02207};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_02207}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02207};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_02207}; Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   BINDING         165..167
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02207"
+FT   BINDING         294..297
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02207"
+SQ   SEQUENCE   353 AA;  37228 MW;  A05F3E28C722BBEB CRC64;
+     MTVSLDQLRR CHVAVDLGAA RTRVFVKGAG LVVDEPSVAA VNTRTGALIA VGALAEKMTG
+     RTPDYIRVVR PVSGGTVVDI EMAQRMLRHL LGEKLRRQLR RKPRLRAAAC TPHDSDPLAQ
+     RAAVETLVGL GARRVELVDT LIAAAVGCGL PVEQPTATMI LVCGAATTQV AVLSLGSIVT
+     AERMPVGGDA IDHAVIQHLR HHHELMLPSQ SVRPLQLALS GNGLTPQGPA WTEIHGRDVA
+     TGLARSVTVD TAAVREAIHT PLTAVLDGIG KVLRDCPPDL VADLADRGIM MVGGSALLPG
+     LDQMLREATG MPVHIAERPD VCAVLGLGAM LEGKVQPMVL DPLSERNPSA DED
+//

@@ -1,0 +1,114 @@
+ID   RNH_PARDP               Reviewed;         155 AA.
+AC   A1B840;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 94.
+DE   RecName: Full=Ribonuclease H {ECO:0000255|HAMAP-Rule:MF_00042};
+DE            Short=RNase H {ECO:0000255|HAMAP-Rule:MF_00042};
+DE            EC=3.1.26.4 {ECO:0000255|HAMAP-Rule:MF_00042};
+GN   Name=rnhA {ECO:0000255|HAMAP-Rule:MF_00042};
+GN   OrderedLocusNames=Pden_3617;
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 2 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00042};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00042};
+CC       Note=Binds 1 Mg(2+) ion per subunit. May bind a second metal ion at a
+CC       regulatory site, or after substrate binding. {ECO:0000255|HAMAP-
+CC       Rule:MF_00042};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- SIMILARITY: Belongs to the RNase H family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00042}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000490; ABL71684.1; -; Genomic_DNA.
+DR   RefSeq; WP_011749853.1; NC_008687.1.
+DR   AlphaFoldDB; A1B840; -.
+DR   SMR; A1B840; -.
+DR   STRING; 318586.Pden_3617; -.
+DR   EnsemblBacteria; ABL71684; ABL71684; Pden_3617.
+DR   GeneID; 93453271; -.
+DR   KEGG; pde:Pden_3617; -.
+DR   eggNOG; COG0328; Bacteria.
+DR   HOGENOM; CLU_030894_6_0_5; -.
+DR   OrthoDB; 7845843at2; -.
+DR   Proteomes; UP000000361; Chromosome 2.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043137; P:DNA replication, removal of RNA primer; IEA:TreeGrafter.
+DR   CDD; cd09278; RNase_HI_prokaryote_like; 1.
+DR   FunFam; 3.30.420.10:FF:000089; Ribonuclease H; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   HAMAP; MF_00042; RNase_H; 1.
+DR   InterPro; IPR050092; RNase_H.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR002156; RNaseH_domain.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   InterPro; IPR022892; RNaseHI.
+DR   PANTHER; PTHR10642; RIBONUCLEASE H1; 1.
+DR   PANTHER; PTHR10642:SF26; RIBONUCLEASE H1; 1.
+DR   Pfam; PF00075; RNase_H; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS50879; RNASE_H_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Magnesium; Metal-binding; Nuclease;
+KW   Reference proteome.
+FT   CHAIN           1..155
+FT                   /note="Ribonuclease H"
+FT                   /id="PRO_0000332641"
+FT   DOMAIN          1..146
+FT                   /note="RNase H type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00408"
+FT   BINDING         9
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   BINDING         9
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   BINDING         52
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   BINDING         74
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   BINDING         138
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+SQ   SEQUENCE   155 AA;  17153 MW;  04F2BFE7D517EF0B CRC64;
+     MNALFAWTDG ACSGNPGPGG WGVLMRAMDG DRMLKERELS GGEAETTNNR MELMAAISAL
+     EALTRPSEIT VTTDSAYVKN GVTQWIHGWK KNGWRTADRK PVKNADLWQR LDAAQARHQV
+     RWEWIKGHAG HPENERADEL ARAGMAPFKP ARVSG
+//

@@ -1,0 +1,85 @@
+ID   A9BRW0_DELAS            Unreviewed;       529 AA.
+AC   A9BRW0;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 84.
+DE   SubName: Full=FAD dependent oxidoreductase {ECO:0000313|EMBL:ABX33677.1};
+GN   OrderedLocusNames=Daci_1031 {ECO:0000313|EMBL:ABX33677.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX33677.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX33677.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974};
+CC   -!- SIMILARITY: Belongs to the FAD-dependent glycerol-3-phosphate
+CC       dehydrogenase family. {ECO:0000256|ARBA:ARBA00007330}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX33677.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202963.1; NC_010002.1.
+DR   AlphaFoldDB; A9BRW0; -.
+DR   STRING; 398578.Daci_1031; -.
+DR   GeneID; 24116008; -.
+DR   KEGG; dac:Daci_1031; -.
+DR   eggNOG; COG0578; Bacteria.
+DR   HOGENOM; CLU_015740_4_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0004368; F:glycerol-3-phosphate dehydrogenase (quinone) activity; IEA:InterPro.
+DR   GO; GO:0046168; P:glycerol-3-phosphate catabolic process; IEA:TreeGrafter.
+DR   Gene3D; 1.10.8.870; Alpha-glycerophosphate oxidase, cap domain; 1.
+DR   Gene3D; 3.30.9.10; D-Amino Acid Oxidase, subunit A, domain 2; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   InterPro; IPR031656; DAO_C.
+DR   InterPro; IPR038299; DAO_C_sf.
+DR   InterPro; IPR006076; FAD-dep_OxRdtase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR000447; G3P_DH_FAD-dep.
+DR   PANTHER; PTHR11985:SF35; ANAEROBIC GLYCEROL-3-PHOSPHATE DEHYDROGENASE SUBUNIT A; 1.
+DR   PANTHER; PTHR11985; GLYCEROL-3-PHOSPHATE DEHYDROGENASE; 1.
+DR   Pfam; PF01266; DAO; 1.
+DR   Pfam; PF16901; DAO_C; 1.
+DR   PRINTS; PR01001; FADG3PDH.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS00978; FAD_G3PDH_2; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   Glycerol metabolism {ECO:0000256|ARBA:ARBA00022798};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          26..387
+FT                   /note="FAD dependent oxidoreductase"
+FT                   /evidence="ECO:0000259|Pfam:PF01266"
+FT   DOMAIN          412..513
+FT                   /note="Alpha-glycerophosphate oxidase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF16901"
+SQ   SEQUENCE   529 AA;  56997 MW;  163DAA3855AA3E8E CRC64;
+     MSLAASPLPT GRAALLERLA QPETYDLAII GGGATGLGVA LDAAARGFKV VLVESHDFAK
+     GTSSRATKLV HGGVRYLAQG NIALVREALH ERTTLLHNAP HLAQPLAFVM PSYKLLDTPF
+     YGIGLKMYDA LAGKAGLGAT EFLSRSSTVK CLPTVRQQGL KGGVKYWDGQ FDDARLALAL
+     ARTAAAKGAL LVNYCPALEL LHEGGKVAGL VCEDTESGRR FTLRAKCVVN ATGPWVDLFR
+     QQDAEAQGRP VKPMVAPSQG VHVVVDRDFL PSDHALLVPK TADGRVLFAV PWLGKVILGT
+     TDTPRNDLAR EPLPFPEELD FILTEAGRYL TRQPTLADVR SMWVGLRPLV KPQDDDGENT
+     KKISREHTVM SSRTGLVTVT GGKWTTYRAM AEDVLSECFA IGRLPHRPGG VTARLPLAGA
+     PAESAVHHRM NQVQGLHSYG TEASAVEALP GNDEWLADGL NEAMVRFAAR FEYARTVEDV
+     LARRSRLLFL DARKAAEVAP RVAAILQEEL GQDAGLADFM PLAAQYLPA
+//

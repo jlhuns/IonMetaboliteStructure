@@ -1,0 +1,122 @@
+ID   XERH_CAMJE              Reviewed;         354 AA.
+AC   Q0PA27;
+DT   16-MAR-2016, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 86.
+DE   RecName: Full=Tyrosine recombinase XerH {ECO:0000255|HAMAP-Rule:MF_02054, ECO:0000305};
+GN   Name=xerH {ECO:0000255|HAMAP-Rule:MF_02054,
+GN   ECO:0000303|PubMed:23861023};
+GN   Synonyms=xerD {ECO:0000312|EMBL:CAL34991.1};
+GN   OrderedLocusNames=Cj0863c {ECO:0000312|EMBL:CAL34991.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2]
+RP   FUNCTION, DNA-BINDING, ACTIVITY REGULATION, AND MUTAGENESIS OF TYR-333.
+RC   STRAIN=RM1221;
+RX   PubMed=23861023; DOI=10.1007/s00438-013-0765-5;
+RA   Leroux M., Rezoug Z., Szatmari G.;
+RT   "The Xer/dif site-specific recombination system of Campylobacter jejuni.";
+RL   Mol. Genet. Genomics 288:495-502(2013).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by catalyzing
+CC       the cutting and rejoining of the recombining DNA molecules. Binds to
+CC       the complete atypical dif motif (difH) site and to both halves
+CC       separately. {ECO:0000269|PubMed:23861023}.
+CC   -!- ACTIVITY REGULATION: FtsK is required for efficient recombination.
+CC       {ECO:0000269|PubMed:23861023}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02054,
+CC       ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerH subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_02054, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34991.1; -; Genomic_DNA.
+DR   PIR; G81359; G81359.
+DR   RefSeq; WP_002852607.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344270.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PA27; -.
+DR   SMR; Q0PA27; -.
+DR   IntAct; Q0PA27; 12.
+DR   STRING; 192222.Cj0863c; -.
+DR   PaxDb; 192222-Cj0863c; -.
+DR   EnsemblBacteria; CAL34991; CAL34991; Cj0863c.
+DR   GeneID; 905165; -.
+DR   KEGG; cje:Cj0863c; -.
+DR   PATRIC; fig|192222.6.peg.851; -.
+DR   eggNOG; COG0582; Bacteria.
+DR   HOGENOM; CLU_027562_9_6_7; -.
+DR   OrthoDB; 9801717at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.443.10; Intergrase catalytic core; 1.
+DR   HAMAP; MF_02054; Recomb_XerH; 1.
+DR   InterPro; IPR044068; CB.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat_sf.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR050090; Tyrosine_recombinase_XerCD.
+DR   InterPro; IPR041308; Xer_N.
+DR   InterPro; IPR033683; XerH.
+DR   PANTHER; PTHR30349; PHAGE INTEGRASE-RELATED; 1.
+DR   PANTHER; PTHR30349:SF64; PROPHAGE INTEGRASE INTD-RELATED; 1.
+DR   Pfam; PF18644; Phage_int_SAM_6; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; DNA breaking-rejoining enzymes; 1.
+DR   PROSITE; PS51900; CB; 1.
+DR   PROSITE; PS51898; TYR_RECOMBINASE; 1.
+PE   1: Evidence at protein level;
+KW   Cell cycle; Cell division; Cytoplasm; DNA integration; DNA recombination;
+KW   DNA-binding; Reference proteome.
+FT   CHAIN           1..354
+FT                   /note="Tyrosine recombinase XerH"
+FT                   /id="PRO_0000435725"
+FT   DOMAIN          48..134
+FT                   /note="Core-binding (CB)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01248"
+FT   DOMAIN          163..346
+FT                   /note="Tyr recombinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        205
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        231
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        298
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        301
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        324
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   ACT_SITE        333
+FT                   /note="O-(3'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01246"
+FT   MUTAGEN         333
+FT                   /note="Y->F: Lack of activity."
+FT                   /evidence="ECO:0000269|PubMed:23861023"
+SQ   SEQUENCE   354 AA;  40611 MW;  6660C22931FBCCCD CRC64;
+     MKYPLDCEEN FEKSFLFWLA KYVKFKLNSL SNKELKNPQA LAEVNFALTK GVKNIDELDA
+     LAKKARNAGL SGVNTYFNPL KKVFEYLNFY KLYSLKQIDE ELIVEVLASI TGALSDASKK
+     NYRIAVINFF DFLDKQNEED EKAHIFDINL KNWAGIAGSK GVKLPEFMSK EELKKFLDAI
+     ENADFKNNTI RNKLIIKIII FTGIRVSEAI NIKMGDISEE NDLYIIRIRA KGNKYRVVMI
+     KKELIYDLLK NVSINYISKD ALLFVNKKGT PLTQSYVSRI VEQLLFRAGI RKQKNGAHML
+     RHTFATLLYK KQKDLVLVQE ALGHASLNTS RIYTHFDNDK LKLAAQVAKE LSDS
+//

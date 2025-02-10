@@ -1,0 +1,169 @@
+ID   ILVD_SALTI              Reviewed;         616 AA.
+AC   Q8Z377;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 130.
+DE   RecName: Full=Dihydroxy-acid dehydratase {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            Short=DAD {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            EC=4.2.1.9 {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   Name=ilvD {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   OrderedLocusNames=STY3653, t3394;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Functions in the biosynthesis of branched-chain amino acids.
+CC       Catalyzes the dehydration of (2R,3R)-2,3-dihydroxy-3-methylpentanoate
+CC       (2,3-dihydroxy-3-methylvalerate) into 2-oxo-3-methylpentanoate (2-oxo-
+CC       3-methylvalerate) and of (2R)-2,3-dihydroxy-3-methylbutanoate (2,3-
+CC       dihydroxyisovalerate) into 2-oxo-3-methylbutanoate (2-oxoisovalerate),
+CC       the penultimate precursor to L-isoleucine and L-valine, respectively.
+CC       {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate
+CC         + H2O; Xref=Rhea:RHEA:24809, ChEBI:CHEBI:11851, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:49072; EC=4.2.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24810;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3R)-2,3-dihydroxy-3-methylpentanoate = (S)-3-methyl-2-
+CC         oxopentanoate + H2O; Xref=Rhea:RHEA:27694, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:35146, ChEBI:CHEBI:49258; EC=4.2.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:27695;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. This cluster acts as a Lewis
+CC       acid cofactor. {ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 3/4. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SIMILARITY: Belongs to the IlvD/Edd family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09413.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70918.1; -; Genomic_DNA.
+DR   RefSeq; NP_457844.1; NC_003198.1.
+DR   RefSeq; WP_001127449.1; NZ_WSUR01000032.1.
+DR   AlphaFoldDB; Q8Z377; -.
+DR   SMR; Q8Z377; -.
+DR   STRING; 220341.gene:17587508; -.
+DR   KEGG; stt:t3394; -.
+DR   KEGG; sty:STY3653; -.
+DR   PATRIC; fig|220341.7.peg.3722; -.
+DR   eggNOG; COG0129; Bacteria.
+DR   HOGENOM; CLU_014271_4_2_6; -.
+DR   OMA; STQGRNM; -.
+DR   OrthoDB; 9807077at2; -.
+DR   UniPathway; UPA00047; UER00057.
+DR   UniPathway; UPA00049; UER00061.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004160; F:dihydroxy-acid dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:L-valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.50.30.80:FF:000001; Dihydroxy-acid dehydratase; 1.
+DR   Gene3D; 3.50.30.80; IlvD/EDD C-terminal domain-like; 1.
+DR   HAMAP; MF_00012; IlvD; 1.
+DR   InterPro; IPR042096; Dihydro-acid_dehy_C.
+DR   InterPro; IPR004404; DihydroxyA_deHydtase.
+DR   InterPro; IPR000581; DiOHA_6PGluconate_deHydtase.
+DR   InterPro; IPR020558; DiOHA_6PGluconate_deHydtase_CS.
+DR   InterPro; IPR037237; IlvD/EDD_N.
+DR   NCBIfam; TIGR00110; ilvD; 1.
+DR   PANTHER; PTHR43661; D-XYLONATE DEHYDRATASE; 1.
+DR   PANTHER; PTHR43661:SF3; D-XYLONATE DEHYDRATASE YAGF-RELATED; 1.
+DR   Pfam; PF00920; ILVD_EDD; 1.
+DR   SUPFAM; SSF143975; IlvD/EDD N-terminal domain-like; 1.
+DR   SUPFAM; SSF52016; LeuD/IlvD-like; 1.
+DR   PROSITE; PS00886; ILVD_EDD_1; 1.
+DR   PROSITE; PS00887; ILVD_EDD_2; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Lyase; Magnesium; Metal-binding.
+FT   CHAIN           1..616
+FT                   /note="Dihydroxy-acid dehydratase"
+FT                   /id="PRO_0000103501"
+FT   ACT_SITE        517
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         81
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         122
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         123
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         124
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /note="via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         195
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   BINDING         491
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   MOD_RES         124
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+SQ   SEQUENCE   616 AA;  65800 MW;  2087C0DF9A0AA28F CRC64;
+     MPKYRSATTT HGRNMAGARA LWRATGMTDS DFGKPIITVV NSFTQFVPGH VHLRDLGKLV
+     AEQIEASGGV AKEFNTIAVD DGIAMGHGGM LYSLPSRELI ADSVEYMVNA HCADAMVCIS
+     NCDKITPGML MASLRLNIPV IFVSGGPMEA GKTKLSDQII KLDLVDAMIQ GADPKVSDDQ
+     SNQVERSACP TCGSCSGMFT ANSMNCLIEA LGLSQPGNGS LLATHADRKQ LFLNAGKRIV
+     ELTKRYYEQD DESALPRNIA NKAAFENAMT LDIAMGGSTN TVLHLLAAAQ EAEIDFTMSD
+     IDKLSRKVPQ LCKVAPSTQK YHMEDVHRAG GVLGILGELD RAGLLNRNVK NVLGLTLPQT
+     LEQYDITVTQ DEAVKKMFRA GPAGIRTTQA FSQDCRWDSL DDDRAAGCIR SLEYAYSKDG
+     GLAVLYGNFA ENGCIVKTAG VDDSILKFTG PVKVYESQDD AVEAILGGKV VEGDVVVIRY
+     EGPKGGPGMQ EMLYPTSFLK SMGLGKACAL ITDGRFSGGT SGLSIGHVSP EAASGGTIAL
+     IEDGDTIAID IPNRSIQLQL SEAEIAARRE AQEARGDKAW TPKNRQRQVS FALRAYASLA
+     TSADKGAVRD KSKLGG
+//

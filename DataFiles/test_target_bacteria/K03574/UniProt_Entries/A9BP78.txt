@@ -1,0 +1,99 @@
+ID   A9BP78_DELAS            Unreviewed;       172 AA.
+AC   A9BP78;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 85.
+DE   RecName: Full=8-oxo-dGTP diphosphatase {ECO:0000256|ARBA:ARBA00040794};
+DE            EC=3.6.1.55 {ECO:0000256|ARBA:ARBA00038905};
+DE   AltName: Full=7,8-dihydro-8-oxoguanine-triphosphatase {ECO:0000256|ARBA:ARBA00042798};
+DE   AltName: Full=Mutator protein MutT {ECO:0000256|ARBA:ARBA00041979};
+DE   AltName: Full=dGTP pyrophosphohydrolase {ECO:0000256|ARBA:ARBA00041592};
+GN   OrderedLocusNames=Daci_5494 {ECO:0000313|EMBL:ABX38123.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX38123.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX38123.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-GTP + H2O = 8-oxo-GMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:67616, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:143553, ChEBI:CHEBI:145694;
+CC         Evidence={ECO:0000256|ARBA:ARBA00036904};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-oxo-dGTP + H2O = 8-oxo-dGMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:31575, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:63224, ChEBI:CHEBI:77896; EC=3.6.1.55;
+CC         Evidence={ECO:0000256|ARBA:ARBA00035861};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family.
+CC       {ECO:0000256|ARBA:ARBA00005582, ECO:0000256|RuleBase:RU003476}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX38123.1; -; Genomic_DNA.
+DR   RefSeq; WP_012207292.1; NC_010002.1.
+DR   AlphaFoldDB; A9BP78; -.
+DR   STRING; 398578.Daci_5494; -.
+DR   GeneID; 24113571; -.
+DR   KEGG; dac:Daci_5494; -.
+DR   eggNOG; COG0494; Bacteria.
+DR   HOGENOM; CLU_037162_19_2_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0035539; F:8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0008413; F:8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0044715; F:8-oxo-dGDP phosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0044716; F:8-oxo-GDP phosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   CDD; cd03425; MutT_pyrophosphohydrolase; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   InterPro; IPR047127; MutT-like.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   PANTHER; PTHR47707; 8-OXO-DGTP DIPHOSPHATASE; 1.
+DR   PANTHER; PTHR47707:SF1; NUDIX HYDROLASE FAMILY PROTEIN; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU003476};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Mutator protein {ECO:0000256|ARBA:ARBA00022457};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          28..154
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51462"
+FT   REGION          1..29
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   172 AA;  19171 MW;  3E41D66AA17885C4 CRC64;
+     MTEKEISLNA GADAAQSQPP SQAPAQRKHT EVAVGVLLRE SDGALLITSR PPGKPYAGYW
+     EFPGGKIESG ETVEQALRRE LQEELGVEIA AAPVWKVTEH DYPHALVRLH WCKITRWSGE
+     FEMREGQQMA WQQLPLQVQP VLPGAYPVLQ WLSEERGLPF DAGFYEAGQP KV
+//

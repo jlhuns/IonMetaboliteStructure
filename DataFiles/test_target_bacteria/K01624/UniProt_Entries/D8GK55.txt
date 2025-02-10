@@ -1,0 +1,109 @@
+ID   D8GK55_CLOLD            Unreviewed;       278 AA.
+AC   D8GK55;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   SubName: Full=Ketose-bisphosphate aldolase {ECO:0000313|EMBL:ADK13173.1};
+DE            EC=4.1.2.13 {ECO:0000313|EMBL:ADK13173.1};
+GN   OrderedLocusNames=CLJU_c00660 {ECO:0000313|EMBL:ADK13173.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13173.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13173.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR001359-3};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the other
+CC       provides a structural contribution. {ECO:0000256|PIRSR:PIRSR001359-3};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13173.1; -; Genomic_DNA.
+DR   RefSeq; WP_013236773.1; NZ_LITS01000024.1.
+DR   AlphaFoldDB; D8GK55; -.
+DR   STRING; 748727.CLJU_c00660; -.
+DR   KEGG; clj:CLJU_c00660; -.
+DR   PATRIC; fig|748727.19.peg.1690; -.
+DR   eggNOG; COG0191; Bacteria.
+DR   HOGENOM; CLU_040088_1_0_9; -.
+DR   OrthoDB; 9803995at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd00947; TBP_aldolase_IIB; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR050246; Class_II_FBP_aldolase.
+DR   InterPro; IPR000771; FBA_II.
+DR   NCBIfam; TIGR00167; cbbA; 1.
+DR   PANTHER; PTHR30304; D-TAGATOSE-1,6-BISPHOSPHATE ALDOLASE; 1.
+DR   PANTHER; PTHR30304:SF0; D-TAGATOSE-1,6-BISPHOSPHATE ALDOLASE SUBUNIT GATY-RELATED; 1.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000313|EMBL:ADK13173.1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR001359-3};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR001359-3}.
+FT   ACT_SITE        81
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-1"
+FT   BINDING         82
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-3"
+FT   BINDING         103
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-3"
+FT   BINDING         133
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-3"
+FT   BINDING         180
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-3"
+FT   BINDING         181
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-2"
+FT   BINDING         208
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-3"
+FT   BINDING         209..211
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-2"
+FT   BINDING         230..233
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001359-2"
+SQ   SEQUENCE   278 AA;  30934 MW;  241D82EB4E496D91 CRC64;
+     MLVNMKPLLE DARLKKYAIG SFNVYNYETI KGVIQAIKNQ KTPAVIAFGE KYLKNMDVDS
+     VYNLVNTLSK NIDVPFALHL DHCKSLENIY RAIRAGFTSV MYDGSALPYE ENIANTLKVV
+     EVAHACNVSV EAELGSLASG LNSHEGKLDD EEIYTSPAKA QNFVRITEID ALAVSIGTVH
+     GMYKGIPNIR VDILKKIKEK VNIPFVLHGG SGTPEEKLRD CIANGICKIN VNTEISMYTV
+     EKIRQALNDG KNYHLSDISL MEINFVQDIV SKYIKIFS
+//

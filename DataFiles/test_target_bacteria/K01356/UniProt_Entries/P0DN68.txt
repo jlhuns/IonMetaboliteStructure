@@ -1,0 +1,109 @@
+ID   LEXA_FIBSS              Reviewed;         217 AA.
+AC   P0DN68;
+DT   09-DEC-2015, integrated into UniProtKB/Swiss-Prot.
+DT   09-DEC-2015, sequence version 1.
+DT   05-FEB-2025, entry version 42.
+DE   RecName: Full=LexA repressor {ECO:0000255|HAMAP-Rule:MF_00015};
+DE            EC=3.4.21.88 {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   Name=lexA {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   OrderedLocusNames=FSU_0077;
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85;
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, AND DNA-BINDING.
+RX   PubMed=15528664; DOI=10.1099/mic.0.27315-0;
+RA   Mazon G., Erill I., Campoy S., Cortes P., Forano E., Barbe J.;
+RT   "Reconstruction of the evolutionary history of the LexA-binding sequence.";
+RL   Microbiology 150:3783-3795(2004).
+CC   -!- FUNCTION: Probably represses a number of genes involved in the response
+CC       to DNA damage (SOS response), including itself, recA, uvrA, ruvAB and
+CC       ssb (PubMed:15528664). The probable consensus LexA box is 5'-TGCAC-N4-
+CC       GTGCA-3' (PubMed:15528664). In the presence of single-stranded DNA,
+CC       RecA interacts with LexA causing an autocatalytic cleavage which
+CC       disrupts the DNA-binding part of LexA, leading to derepression of the
+CC       SOS regulon and eventually DNA repair (Probable).
+CC       {ECO:0000269|PubMed:15528664, ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of Ala-|-Gly bond in repressor LexA.; EC=3.4.21.88;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00015};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00015}.
+CC   -!- SIMILARITY: Belongs to the peptidase S24 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00015}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; WP_015732425.1; NC_017448.1.
+DR   AlphaFoldDB; P0DN68; -.
+DR   SMR; P0DN68; -.
+DR   KEGG; fsu:Fisuc_2822; -.
+DR   eggNOG; COG1974; Bacteria.
+DR   OrthoDB; 9802364at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   CollecTF; EXPREG_000003b0; -.
+DR   GO; GO:0032993; C:protein-DNA complex; IMP:CollecTF.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IMP:CollecTF.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd06529; S24_LexA-like; 1.
+DR   FunFam; 1.10.10.10:FF:000009; LexA repressor; 1.
+DR   FunFam; 2.10.109.10:FF:000001; LexA repressor; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00015; LexA; 1.
+DR   InterPro; IPR006200; LexA.
+DR   InterPro; IPR039418; LexA-like.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR006199; LexA_DNA-bd_dom.
+DR   InterPro; IPR050077; LexA_repressor.
+DR   InterPro; IPR006197; Peptidase_S24_LexA.
+DR   InterPro; IPR015927; Peptidase_S24_S26A/B/C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00498; lexA; 1.
+DR   PANTHER; PTHR33516; LEXA REPRESSOR; 1.
+DR   PANTHER; PTHR33516:SF2; LEXA REPRESSOR-RELATED; 1.
+DR   Pfam; PF01726; LexA_DNA_bind; 1.
+DR   Pfam; PF00717; Peptidase_S24; 1.
+DR   PRINTS; PR00726; LEXASERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   1: Evidence at protein level;
+KW   Autocatalytic cleavage; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; Hydrolase; Repressor; SOS response; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..217
+FT                   /note="LexA repressor"
+FT                   /id="PRO_0000435132"
+FT   DNA_BIND        35..55
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        137
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        174
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   SITE            101..102
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+SQ   SEQUENCE   217 AA;  24288 MW;  C831385424BD34FF CRC64;
+     MENTNEKRKE MTARQEEIYE YIKKYSKENH MPPTVREIGN HFDISSTNGV RSILAALIKK
+     GYINRSPRLS RGIEILSDDK ESSKEVASNT IEIPIVGRVA AGTPILAVQN LEGTVTIDRD
+     FLACRSDVFA LRVKGDSMIN AGIFDGDLIF ARQQKTADLG EIVVAQIDNE ATVKYYHPSA
+     DHVELRPANP KYKPIIVNNR KDFSIAGRVI GVMRKVN
+//

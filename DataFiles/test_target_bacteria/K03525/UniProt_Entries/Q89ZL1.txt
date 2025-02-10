@@ -1,0 +1,119 @@
+ID   COAX_BACTN              Reviewed;         243 AA.
+AC   Q89ZL1;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 2.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000255|HAMAP-Rule:MF_01274};
+GN   OrderedLocusNames=BT_4366;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantothenate + ATP = (R)-4'-phosphopantothenate + ADP +
+CC         H(+); Xref=Rhea:RHEA:16373, ChEBI:CHEBI:10986, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29032, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.33; Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01274};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01274};
+CC       Note=A monovalent cation. Ammonium or potassium. {ECO:0000255|HAMAP-
+CC       Rule:MF_01274};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 1/5. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO79471.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79471.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_813277.2; NC_004663.1.
+DR   RefSeq; WP_008764531.1; NC_004663.1.
+DR   AlphaFoldDB; Q89ZL1; -.
+DR   SMR; Q89ZL1; -.
+DR   STRING; 226186.BT_4366; -.
+DR   PaxDb; 226186-BT_4366; -.
+DR   EnsemblBacteria; AAO79471; AAO79471; BT_4366.
+DR   GeneID; 60925542; -.
+DR   KEGG; bth:BT_4366; -.
+DR   PATRIC; fig|226186.12.peg.4443; -.
+DR   eggNOG; COG1521; Bacteria.
+DR   HOGENOM; CLU_066627_2_0_10; -.
+DR   InParanoid; Q89ZL1; -.
+DR   OrthoDB; 9804707at2; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.420.40; -; 1.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   NCBIfam; TIGR00671; baf; 1.
+DR   PANTHER; PTHR34265; TYPE III PANTOTHENATE KINASE; 1.
+DR   PANTHER; PTHR34265:SF1; TYPE III PANTOTHENATE KINASE; 1.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Kinase; Metal-binding;
+KW   Nucleotide-binding; Potassium; Reference proteome; Transferase.
+FT   CHAIN           1..243
+FT                   /note="Type III pantothenate kinase"
+FT                   /id="PRO_0000270863"
+FT   ACT_SITE        95
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         6..13
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         86
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         93..96
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         116
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         119
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         171
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+SQ   SEQUENCE   243 AA;  27060 MW;  D0E21834C5E20877 CRC64;
+     MNLIIDIGNT TAKVALFNRS EMVEVLTESN QSLDSLEALC SKYRIERGIV ATVVDLNERI
+     LAELAALPFP LLWLNHETPL PVGNLYETPE TLGYDRIAAV VGANEQFPHN DILVIDAGTC
+     ITYEFIDSKG QYHGGNISPG MQMRYKALHQ FTGRLPLIDS NGRKLPMGRD TETAIRAGVL
+     KGMEYEISGY IEAMKHKYPE LLVFLTGGDD FSFDSSVKSA IFADRFLVLK GLNRILNYNN
+     GRI
+//

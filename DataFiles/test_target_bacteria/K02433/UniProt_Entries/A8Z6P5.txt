@@ -1,0 +1,94 @@
+ID   GATA_CAMC1              Reviewed;         452 AA.
+AC   A8Z6P5;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 76.
+DE   RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            Short=Glu-ADT subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            EC=6.3.5.7 {ECO:0000255|HAMAP-Rule:MF_00120};
+GN   Name=gatA {ECO:0000255|HAMAP-Rule:MF_00120};
+GN   OrderedLocusNames=Ccon26_16650; ORFNames=CCC13826_0277;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Allows the formation of correctly charged Gln-tRNA(Gln)
+CC       through the transamidation of misacylated Glu-tRNA(Gln) in organisms
+CC       which lack glutaminyl-tRNA synthetase. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated gamma-phospho-Glu-
+CC       tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamyl-tRNA(Gln) + L-glutamine + ATP + H2O = L-glutaminyl-
+CC         tRNA(Gln) + L-glutamate + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216; EC=6.3.5.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00120};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00120}.
+CC   -!- SIMILARITY: Belongs to the amidase family. GatA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; ABW74824.1; -; Genomic_DNA.
+DR   RefSeq; WP_048809879.1; NC_009802.2.
+DR   AlphaFoldDB; A8Z6P5; -.
+DR   SMR; A8Z6P5; -.
+DR   STRING; 360104.CCC13826_0277; -.
+DR   KEGG; cco:CCC13826_0277; -.
+DR   eggNOG; COG0154; Bacteria.
+DR   HOGENOM; CLU_009600_0_3_7; -.
+DR   OrthoDB; 9811471at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0030956; C:glutamyl-tRNA(Gln) amidotransferase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.1300.10; Amidase signature (AS) domain; 1.
+DR   HAMAP; MF_00120; GatA; 1.
+DR   InterPro; IPR000120; Amidase.
+DR   InterPro; IPR020556; Amidase_CS.
+DR   InterPro; IPR023631; Amidase_dom.
+DR   InterPro; IPR036928; AS_sf.
+DR   InterPro; IPR004412; GatA.
+DR   NCBIfam; TIGR00132; gatA; 1.
+DR   PANTHER; PTHR11895:SF151; GLUTAMYL-TRNA(GLN) AMIDOTRANSFERASE SUBUNIT A; 1.
+DR   PANTHER; PTHR11895; TRANSAMIDASE; 1.
+DR   Pfam; PF01425; Amidase; 1.
+DR   SUPFAM; SSF75304; Amidase signature (AS) enzymes; 1.
+DR   PROSITE; PS00571; AMIDASES; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..452
+FT                   /note="Glutamyl-tRNA(Gln) amidotransferase subunit A"
+FT                   /id="PRO_1000071365"
+FT   ACT_SITE        56
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        131
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        155
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+SQ   SEQUENCE   452 AA;  48642 MW;  F74127793F2FDE37 CRC64;
+     MVTLKEALKF SAEEIKNLRA ELEAKIIKEK ELGAYVEQLA NLEIAKLGEG VPIAIKDNIQ
+     VKGWSVTSAS KILQGYVAPY NATVIEKLLS KNLAPFGRTN MDEFAMGSTT ESSFYGKTLN
+     PLNHAHVPGG SSGGSAAAVA AGLAVAALGS DTGGSIRQPA AFCGCVGLKP TYGRVSRYGL
+     GAYSSSLDQI GPIAQNVEDA AILYDAIAGH DPKDSTSADV PFVSISDKID GNKKLKICVI
+     KNYVENASEQ TKAALNLAIE KLKSHGHSVT YTNFEDSKYD VAAYYIIATA EASANLSRYD
+     GVRYGRRAEA RNLKELYVNS RSEGFGEEVK RRILLGTFVL SSGYYDAYYI KAQKARAHIK
+     AQYEKILEEN DLIFMPVAPS TAYKFGAHSD PLQAYLSDIY TISVNLAGLP AISVPVGKDD
+     QNLNVSAQLI AKAWDEQTLI NGAKSLENLI KG
+//

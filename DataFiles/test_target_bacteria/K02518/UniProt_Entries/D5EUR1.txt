@@ -1,0 +1,85 @@
+ID   D5EUR1_XYLR2            Unreviewed;        72 AA.
+AC   D5EUR1;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   27-NOV-2024, entry version 79.
+DE   RecName: Full=Translation initiation factor IF-1 {ECO:0000256|HAMAP-Rule:MF_00075, ECO:0000256|NCBIfam:TIGR00008};
+GN   Name=infA {ECO:0000256|HAMAP-Rule:MF_00075,
+GN   ECO:0000313|EMBL:ADE82471.1};
+GN   OrderedLocusNames=PRU_2093 {ECO:0000313|EMBL:ADE82471.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82471.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82471.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: One of the essential components for the initiation of protein
+CC       synthesis. Stabilizes the binding of IF-2 and IF-3 on the 30S subunit
+CC       to which N-formylmethionyl-tRNA(fMet) subsequently binds. Helps
+CC       modulate mRNA selection, yielding the 30S pre-initiation complex (PIC).
+CC       Upon addition of the 50S ribosomal subunit IF-1, IF-2 and IF-3 are
+CC       released leaving the mature 70S translation initiation complex.
+CC       {ECO:0000256|HAMAP-Rule:MF_00075}.
+CC   -!- SUBUNIT: Component of the 30S ribosomal translation pre-initiation
+CC       complex which assembles on the 30S ribosome in the order IF-2 and IF-3,
+CC       IF-1 and N-formylmethionyl-tRNA(fMet); mRNA recruitment can occur at
+CC       any time during PIC assembly. {ECO:0000256|HAMAP-Rule:MF_00075}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00075}.
+CC   -!- SIMILARITY: Belongs to the IF-1 family. {ECO:0000256|ARBA:ARBA00010939,
+CC       ECO:0000256|HAMAP-Rule:MF_00075}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82471.1; -; Genomic_DNA.
+DR   RefSeq; WP_004341775.1; NC_014033.1.
+DR   AlphaFoldDB; D5EUR1; -.
+DR   STRING; 264731.PRU_2093; -.
+DR   GeneID; 82994884; -.
+DR   KEGG; pru:PRU_2093; -.
+DR   eggNOG; COG0361; Bacteria.
+DR   HOGENOM; CLU_151267_1_0_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0043022; F:ribosome binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019843; F:rRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003743; F:translation initiation factor activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd04451; S1_IF1; 1.
+DR   FunFam; 2.40.50.140:FF:000002; Translation initiation factor IF-1; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_00075; IF_1; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR006196; RNA-binding_domain_S1_IF1.
+DR   InterPro; IPR003029; S1_domain.
+DR   InterPro; IPR004368; TIF_IF1.
+DR   NCBIfam; TIGR00008; infA; 1.
+DR   PANTHER; PTHR33370; TRANSLATION INITIATION FACTOR IF-1, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR33370:SF1; TRANSLATION INITIATION FACTOR IF-1, CHLOROPLASTIC; 1.
+DR   Pfam; PF01176; eIF-1a; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS50832; S1_IF1_TYPE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00075};
+KW   Initiation factor {ECO:0000256|ARBA:ARBA00022540, ECO:0000256|HAMAP-
+KW   Rule:MF_00075};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00075}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_00075};
+KW   rRNA-binding {ECO:0000256|HAMAP-Rule:MF_00075}.
+FT   DOMAIN          1..72
+FT                   /note="S1-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS50832"
+SQ   SEQUENCE   72 AA;  8212 MW;  2148E42DD125D549 CRC64;
+     MAKQSAIEQD GTIVESLSNA MFRVELENGV QIIAHISGKM RMHYIKILPG DKVKVEMSPY
+     DLTKGRIVFR YK
+//

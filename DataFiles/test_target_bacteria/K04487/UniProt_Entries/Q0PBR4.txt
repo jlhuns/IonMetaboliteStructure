@@ -1,0 +1,99 @@
+ID   Q0PBR4_CAMJE            Unreviewed;       393 AA.
+AC   Q0PBR4;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=cysteine desulfurase {ECO:0000256|ARBA:ARBA00012239};
+DE            EC=2.8.1.7 {ECO:0000256|ARBA:ARBA00012239};
+GN   Name=iscS {ECO:0000313|EMBL:CAL34395.1};
+GN   OrderedLocusNames=Cj0240c {ECO:0000313|EMBL:CAL34395.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34395.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34395.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001357};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU004504};
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. NifS/IscS subfamily.
+CC       {ECO:0000256|ARBA:ARBA00006490}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34395.1; -; Genomic_DNA.
+DR   PIR; H81441; H81441.
+DR   RefSeq; WP_002858709.1; NZ_SZUC01000006.1.
+DR   RefSeq; YP_002343683.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PBR4; -.
+DR   IntAct; Q0PBR4; 38.
+DR   STRING; 192222.Cj0240c; -.
+DR   PaxDb; 192222-Cj0240c; -.
+DR   EnsemblBacteria; CAL34395; CAL34395; Cj0240c.
+DR   GeneID; 904567; -.
+DR   KEGG; cje:Cj0240c; -.
+DR   PATRIC; fig|192222.6.peg.234; -.
+DR   eggNOG; COG1104; Bacteria.
+DR   HOGENOM; CLU_003433_0_0_7; -.
+DR   OrthoDB; 9808002at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:InterPro.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IEA:UniProtKB-ARBA.
+DR   FunFam; 3.40.640.10:FF:000084; IscS-like cysteine desulfurase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR017773; Cys_deSase_NifS_proteobacteria.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR03403; nifS_epsilon; 1.
+DR   PANTHER; PTHR11601:SF34; CYSTEINE DESULFURASE; 1.
+DR   PANTHER; PTHR11601; CYSTEINE DESULFURYLASE FAMILY MEMBER; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transferase {ECO:0000313|EMBL:CAL34395.1}.
+FT   DOMAIN          3..366
+FT                   /note="Aminotransferase class V"
+FT                   /evidence="ECO:0000259|Pfam:PF00266"
+SQ   SEQUENCE   393 AA;  43053 MW;  A00111E6ABB66A7A CRC64;
+     MKVYLDNNAT TMLDPNAYEL MLPFLKDMYG NPNSLHQYGS ATHPALREAL DKLYAGLGAN
+     DLDDIVVTSC ATESINWVLK GVYFDHILDK ERNEVIISSV EHPAVTAAAY FLKSLGVKVI
+     ELPVNEEGVS TVEDLRKVIS DKTALVSVMW ANNETGMIFD IKAMAELAHE FGALFHTDAT
+     QAVGKIKVNL TQVGVDFASF SAHKFHGPKG VGGLFIKKGL KLTPLLHGGE HMGGRRSGTL
+     NVPYIVAMGE ALRIANTMLD FEDSHIRRLR DKLEDQILAL PDTTVVGKRE HRVPNTILAS
+     IKGVEGEAML WDLNKNGIAA STGSACASEA LESNPIMEAI GAEHDLAHTA LRLSLSRFNT
+     EEEIDYAAKQ IKNATQRLRA ISCTYAYNPN NYK
+//

@@ -1,0 +1,110 @@
+ID   W6RAW1_9HYPH            Unreviewed;       149 AA.
+AC   W6RAW1;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 53.
+DE   RecName: Full=3-dehydroquinate dehydratase {ECO:0000256|ARBA:ARBA00012060, ECO:0000256|HAMAP-Rule:MF_00169};
+DE            Short=3-dehydroquinase {ECO:0000256|HAMAP-Rule:MF_00169};
+DE            EC=4.2.1.10 {ECO:0000256|ARBA:ARBA00012060, ECO:0000256|HAMAP-Rule:MF_00169};
+DE   AltName: Full=Type II DHQase {ECO:0000256|HAMAP-Rule:MF_00169};
+GN   Name=aroQ {ECO:0000256|HAMAP-Rule:MF_00169,
+GN   ECO:0000313|EMBL:CDM57440.1};
+GN   ORFNames=LPU83_1775 {ECO:0000313|EMBL:CDM57440.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM57440.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM57440.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM57440.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes a trans-dehydration via an enolate intermediate.
+CC       {ECO:0000256|ARBA:ARBA00003924, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydroquinate = 3-dehydroshikimate + H2O;
+CC         Xref=Rhea:RHEA:21096, ChEBI:CHEBI:15377, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:32364; EC=4.2.1.10;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001864, ECO:0000256|HAMAP-
+CC         Rule:MF_00169};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       3/7. {ECO:0000256|ARBA:ARBA00004902, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- SUBUNIT: Homododecamer. {ECO:0000256|ARBA:ARBA00011193,
+CC       ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   -!- SIMILARITY: Belongs to the type-II 3-dehydroquinase family.
+CC       {ECO:0000256|ARBA:ARBA00011037, ECO:0000256|HAMAP-Rule:MF_00169}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM57440.1; -; Genomic_DNA.
+DR   AlphaFoldDB; W6RAW1; -.
+DR   KEGG; rhl:LPU83_1775; -.
+DR   PATRIC; fig|348824.6.peg.1902; -.
+DR   eggNOG; COG0757; Bacteria.
+DR   HOGENOM; CLU_090968_2_0_5; -.
+DR   UniPathway; UPA00053; UER00086.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019631; P:quinate catabolic process; IEA:TreeGrafter.
+DR   CDD; cd00466; DHQase_II; 1.
+DR   Gene3D; 3.40.50.9100; Dehydroquinase, class II; 1.
+DR   HAMAP; MF_00169; AroQ; 1.
+DR   InterPro; IPR001874; DHquinase_II.
+DR   InterPro; IPR018509; DHquinase_II_CS.
+DR   InterPro; IPR036441; DHquinase_II_sf.
+DR   NCBIfam; TIGR01088; aroQ; 1.
+DR   PANTHER; PTHR21272; CATABOLIC 3-DEHYDROQUINASE; 1.
+DR   PANTHER; PTHR21272:SF3; CATABOLIC 3-DEHYDROQUINASE; 1.
+DR   Pfam; PF01220; DHquinase_II; 1.
+DR   PIRSF; PIRSF001399; DHquinase_II; 1.
+DR   SUPFAM; SSF52304; Type II 3-dehydroquinate dehydratase; 1.
+DR   PROSITE; PS01029; DEHYDROQUINASE_II; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00169};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00169};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00169}.
+FT   ACT_SITE        28
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-1"
+FT   ACT_SITE        105
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-1"
+FT   BINDING         79
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         85
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         92
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         106..107
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   BINDING         116
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-2"
+FT   SITE            23
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00169,
+FT                   ECO:0000256|PIRSR:PIRSR001399-3"
+SQ   SEQUENCE   149 AA;  16255 MW;  7F3F0B4F2352E588 CRC64;
+     MEHSMTQTIF VLNGPNLNML GKREPGIYGG KTLQDIEADC KAAGQELGFD IDFRQSNHEG
+     MLVDWFHEAN DKAVGVAINA GAYTHTSVAL HDAIRAISIP VIELHISNVH AREEFRHKSM
+     IAPAVKGVIC GFGPHSYILA LHALKNLTA
+//

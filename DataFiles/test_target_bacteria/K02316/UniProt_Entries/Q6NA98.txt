@@ -1,0 +1,146 @@
+ID   Q6NA98_RHOPA            Unreviewed;       669 AA.
+AC   Q6NA98;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 140.
+DE   RecName: Full=DNA primase {ECO:0000256|HAMAP-Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811};
+DE            EC=2.7.7.101 {ECO:0000256|HAMAP-Rule:MF_00974};
+GN   Name=dnaG {ECO:0000256|HAMAP-Rule:MF_00974,
+GN   ECO:0000313|EMBL:CAE26730.1};
+GN   OrderedLocusNames=RPA1287 {ECO:0000313|EMBL:CAE26730.1};
+GN   ORFNames=TX73_006605 {ECO:0000313|EMBL:WCL91422.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE26730.1};
+RN   [1] {ECO:0000313|EMBL:WCL91422.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91422.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE26730.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE26730.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91422.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91422.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: RNA polymerase that catalyzes the synthesis of short RNA
+CC       molecules used as primers for DNA polymerase during DNA replication.
+CC       {ECO:0000256|HAMAP-Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ssDNA + n NTP = ssDNA/pppN(pN)n-1 hybrid + (n-1) diphosphate.;
+CC         EC=2.7.7.101; Evidence={ECO:0000256|HAMAP-Rule:MF_00974};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR002811};
+CC       Note=Binds 1 zinc ion per monomer. {ECO:0000256|PIRNR:PIRNR002811};
+CC   -!- SUBUNIT: Monomer. Interacts with DnaB. {ECO:0000256|HAMAP-
+CC       Rule:MF_00974}.
+CC   -!- SIMILARITY: Belongs to the DnaG primase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00974}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572597; CAE26730.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91422.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156851.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1287; -.
+DR   GeneID; 66892311; -.
+DR   KEGG; rpa:TX73_006605; -.
+DR   eggNOG; COG0358; Bacteria.
+DR   HOGENOM; CLU_013501_5_3_5; -.
+DR   PhylomeDB; Q6NA98; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0000428; C:DNA-directed RNA polymerase complex; IEA:UniProtKB-KW.
+DR   GO; GO:1990077; C:primosome complex; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003896; F:DNA primase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   CDD; cd03364; TOPRIM_DnaG_primases; 1.
+DR   FunFam; 3.40.1360.10:FF:000002; DNA primase; 1.
+DR   FunFam; 3.90.980.10:FF:000001; DNA primase; 1.
+DR   Gene3D; 3.40.1360.10; -; 1.
+DR   Gene3D; 3.90.980.10; DNA primase, catalytic core, N-terminal domain; 1.
+DR   Gene3D; 3.90.580.10; Zinc finger, CHC2-type domain; 1.
+DR   HAMAP; MF_00974; DNA_primase_DnaG; 1.
+DR   InterPro; IPR037068; DNA_primase_core_N_sf.
+DR   InterPro; IPR019475; DNA_primase_DnaB-bd.
+DR   InterPro; IPR006295; DNA_primase_DnaG.
+DR   InterPro; IPR036977; DNA_primase_Znf_CHC2.
+DR   InterPro; IPR030846; DnaG_bac.
+DR   InterPro; IPR013264; DNAG_N.
+DR   InterPro; IPR050219; DnaG_primase.
+DR   InterPro; IPR034151; TOPRIM_DnaG_bac.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR002694; Znf_CHC2.
+DR   NCBIfam; TIGR01391; dnaG; 1.
+DR   PANTHER; PTHR30313; DNA PRIMASE; 1.
+DR   PANTHER; PTHR30313:SF2; DNA PRIMASE; 1.
+DR   Pfam; PF10410; DnaB_bind; 1.
+DR   Pfam; PF08275; DNAG_N; 1.
+DR   Pfam; PF13662; Toprim_4; 1.
+DR   Pfam; PF01807; zf-CHC2; 1.
+DR   PIRSF; PIRSF002811; DnaG; 2.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SMART; SM00400; ZnF_CHCC; 1.
+DR   SUPFAM; SSF56731; DNA primase core; 1.
+DR   SUPFAM; SSF57783; Zinc beta-ribbon; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   DNA-directed RNA polymerase {ECO:0000256|ARBA:ARBA00022478,
+KW   ECO:0000256|HAMAP-Rule:MF_00974};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRNR:PIRNR002811};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Primosome {ECO:0000256|ARBA:ARBA00022515, ECO:0000256|HAMAP-Rule:MF_00974};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRNR:PIRNR002811};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771}.
+FT   DOMAIN          257..339
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000259|PROSITE:PS50880"
+FT   REGION          432..474
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   669 AA;  73013 MW;  3B01CAB6C9B182CD CRC64;
+     MRFSPQFLDD LKARLSVSEV VGRRVKLKKA GREWKGLSPF QQEKTPSFFV NDEKQAWFDF
+     SSGKNGSIFD FVMLTEGVDF PEAVERLAAM AGVALPVQSP DTARQEQRRK SLYDVMELAA
+     NYFAENLASR AGARARGYLA DRAILPGTQV KFRLGYASNE RYALKEHLGK HGVPVSDMIE
+     AGLLSAGPDI PVPFDKFRDR VMFPITDLRG RVIAFGGRAL EKDVAAKYLN SPETPLFHKG
+     DNLYNHAPAR KAAHDGGAVI VVEGYVDVIA LVTAGFPATV APLGTALTEA QLQHLWKMAD
+     EPILCFDGDR AGQKAAYRAA DLALPHLKPG KSLRFALLPE GQDPDDLARA GGRLAVEEVI
+     GAARPLADML WAREVEGGLF ATPERRAALE ARINELSNGI QDEVVRRYYR QDLAERLRAA
+     FAPPGGYGGG FGGGFRGGGG GDSGRRFAPR DGFPQGGGRF APRGRPGQPA PMLGRGPYQI
+     ASPDLISSPI MRGQRSAMSR REALILISLL NHPWLLDDHL EEIAALEFAH PEAHRLRAAI
+     IAAFAQHHHR GDDPVGQAEK LRADLVKAGL SEQLQRVERA ITTSAVWGSG PKAAREDVLS
+     TWQQLVALHR QSHSLLRELK DAELALGDDG SEANMRWLND VKARLAQVEG TEALIEGFGE
+     SSGRFQRSV
+//

@@ -1,0 +1,88 @@
+ID   Q819V5_BACCR            Unreviewed;       314 AA.
+AC   Q819V5;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=Malonyl CoA-acyl carrier protein transacylase {ECO:0000256|PIRNR:PIRNR000446};
+DE            EC=2.3.1.39 {ECO:0000256|PIRNR:PIRNR000446};
+GN   OrderedLocusNames=BC_3850 {ECO:0000313|EMBL:AAP10772.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10772.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10772.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=holo-[ACP] + malonyl-CoA = malonyl-[ACP] + CoA;
+CC         Xref=Rhea:RHEA:41792, Rhea:RHEA-COMP:9623, Rhea:RHEA-COMP:9685,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:64479,
+CC         ChEBI:CHEBI:78449; EC=2.3.1.39;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048462,
+CC         ECO:0000256|PIRNR:PIRNR000446};
+CC   -!- SIMILARITY: Belongs to the fabD family.
+CC       {ECO:0000256|PIRNR:PIRNR000446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10772.1; -; Genomic_DNA.
+DR   RefSeq; NP_833571.1; NC_004722.1.
+DR   RefSeq; WP_000515899.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819V5; -.
+DR   KEGG; bce:BC3850; -.
+DR   PATRIC; fig|226900.8.peg.3969; -.
+DR   HOGENOM; CLU_030558_0_1_9; -.
+DR   OrthoDB; 9805460at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004314; F:[acyl-carrier-protein] S-malonyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IBA:GO_Central.
+DR   FunFam; 3.30.70.250:FF:000001; Malonyl CoA-acyl carrier protein transacylase; 1.
+DR   Gene3D; 3.30.70.250; Malonyl-CoA ACP transacylase, ACP-binding; 1.
+DR   Gene3D; 3.40.366.10; Malonyl-Coenzyme A Acyl Carrier Protein, domain 2; 1.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR014043; Acyl_transferase_dom.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR050858; Mal-CoA-ACP_Trans/PKS_FabD.
+DR   InterPro; IPR024925; Malonyl_CoA-ACP_transAc.
+DR   InterPro; IPR004410; Malonyl_CoA-ACP_transAc_FabD.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   NCBIfam; TIGR00128; fabD; 1.
+DR   PANTHER; PTHR42681; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR42681:SF1; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   PIRSF; PIRSF000446; Mct; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   SUPFAM; SSF55048; Probable ACP-binding domain of malonyl-CoA ACP transacylase; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|PIRNR:PIRNR000446};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|PIRNR:PIRNR000446, ECO:0000313|EMBL:AAP10772.1}.
+FT   DOMAIN          7..314
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT)"
+FT                   /evidence="ECO:0000259|SMART:SM00827"
+FT   ACT_SITE        91
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+FT   ACT_SITE        201
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+SQ   SEQUENCE   314 AA;  33760 MW;  4BB19EB259E1F401 CRC64;
+     MGKIAFLFPG QGSQAVGMGK QLAENNKEVA KVFAKADEVL EDSLSEVIFE GPQEKLTLTT
+     NAQPALLTTS FAILTALKEY DITPDFVAGH SLGEYSALVA AGALTFEDAV YAVRKRGEYM
+     EEAVPGGEGA MAAILGADPH MLKQVTEEVT SEGYAVQIAN MNSTKQIVIS GTKQGVEVAS
+     QRAKENGAKR AIPLKVSGPF HSSLMKPAAE KFQSVLNEIT IHDTNIPVIA NVTAEVITRG
+     ADIQEKLIEQ LYSPVLWYPS IEYMVNQGVD TFIEIGPGKV LAGLMKSIDS SVKAYAIYDE
+     ETLKDTISNL RGEN
+//

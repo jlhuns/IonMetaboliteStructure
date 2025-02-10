@@ -1,0 +1,122 @@
+ID   C9RPU9_FIBSS            Unreviewed;       116 AA.
+AC   C9RPU9;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 88.
+DE   RecName: Full=Phosphoribosyl-AMP cyclohydrolase {ECO:0000256|HAMAP-Rule:MF_01021};
+DE            Short=PRA-CH {ECO:0000256|HAMAP-Rule:MF_01021};
+DE            EC=3.5.4.19 {ECO:0000256|HAMAP-Rule:MF_01021};
+GN   Name=hisI {ECO:0000256|HAMAP-Rule:MF_01021,
+GN   ECO:0000313|EMBL:ADL24760.1};
+GN   OrderedLocusNames=FSU_0317 {ECO:0000313|EMBL:ADL24760.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL24760.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolysis of the adenine ring of
+CC       phosphoribosyl-AMP. {ECO:0000256|HAMAP-Rule:MF_01021}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-5'-AMP + H2O = 1-(5-phospho-beta-
+CC         D-ribosyl)-5-[(5-phospho-beta-D-
+CC         ribosylamino)methylideneamino]imidazole-4-carboxamide;
+CC         Xref=Rhea:RHEA:20049, ChEBI:CHEBI:15377, ChEBI:CHEBI:58435,
+CC         ChEBI:CHEBI:59457; EC=3.5.4.19;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000024, ECO:0000256|HAMAP-
+CC         Rule:MF_01021};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01021};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01021};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01021};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01021};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 3/9.
+CC       {ECO:0000256|ARBA:ARBA00005169, ECO:0000256|HAMAP-Rule:MF_01021}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01021}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01021}.
+CC   -!- SIMILARITY: Belongs to the PRA-CH family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01021}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL24760.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545150.1; NC_017448.1.
+DR   AlphaFoldDB; C9RPU9; -.
+DR   STRING; 59374.FSU_0317; -.
+DR   KEGG; fsc:FSU_0317; -.
+DR   KEGG; fsu:Fisuc_3051; -.
+DR   PATRIC; fig|59374.8.peg.313; -.
+DR   eggNOG; COG0139; Bacteria.
+DR   HOGENOM; CLU_048577_5_3_0; -.
+DR   OrthoDB; 9795769at2; -.
+DR   UniPathway; UPA00031; UER00008.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004635; F:phosphoribosyl-AMP cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.10.20.810:FF:000001; Histidine biosynthesis bifunctional protein HisIE; 1.
+DR   Gene3D; 3.10.20.810; Phosphoribosyl-AMP cyclohydrolase; 1.
+DR   HAMAP; MF_01021; HisI; 1.
+DR   InterPro; IPR026660; PRA-CH.
+DR   InterPro; IPR002496; PRib_AMP_CycHydrolase_dom.
+DR   InterPro; IPR038019; PRib_AMP_CycHydrolase_sf.
+DR   PANTHER; PTHR42945; HISTIDINE BIOSYNTHESIS BIFUNCTIONAL PROTEIN; 1.
+DR   PANTHER; PTHR42945:SF1; HISTIDINE BIOSYNTHESIS BIFUNCTIONAL PROTEIN HIS7; 1.
+DR   Pfam; PF01502; PRA-CH; 1.
+DR   SUPFAM; SSF141734; HisI-like; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01021};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01021};
+KW   Histidine biosynthesis {ECO:0000256|ARBA:ARBA00023102, ECO:0000256|HAMAP-
+KW   Rule:MF_01021};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01021};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01021};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01021};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_01021}.
+FT   DOMAIN          36..111
+FT                   /note="Phosphoribosyl-AMP cyclohydrolase"
+FT                   /evidence="ECO:0000259|Pfam:PF01502"
+FT   BINDING         83
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+FT   BINDING         84
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+FT   BINDING         85
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+FT   BINDING         87
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+FT   BINDING         102
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+FT   BINDING         109
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01021"
+SQ   SEQUENCE   116 AA;  13258 MW;  B4DD068B6763F9BF CRC64;
+     MKFEDLIKEV KFEVEFGGVK LAPAIVQDAD KGDVLMMAWM NEEALRRTHE CGEMVFWSRS
+     RKEYWHKGDT SGNVMTVVEW AADCDSDALL FKVRMKGPQV ACHTGARSCF FKTCDK
+//

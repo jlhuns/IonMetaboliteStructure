@@ -1,0 +1,193 @@
+ID   C5CBJ7_MICLC            Unreviewed;       437 AA.
+AC   C5CBJ7;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=GTP cyclohydrolase-2 {ECO:0000256|HAMAP-Rule:MF_00179};
+DE            EC=3.5.4.25 {ECO:0000256|HAMAP-Rule:MF_00179};
+DE   AltName: Full=GTP cyclohydrolase II {ECO:0000256|HAMAP-Rule:MF_00179};
+GN   Name=ribBA {ECO:0000313|EMBL:SQG49551.1};
+GN   Synonyms=ribA {ECO:0000256|HAMAP-Rule:MF_00179};
+GN   OrderedLocusNames=Mlut_10870 {ECO:0000313|EMBL:ACS30594.1};
+GN   ORFNames=NCTC2665_02107 {ECO:0000313|EMBL:SQG49551.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30594.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30594.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30594.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49551.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49551.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of D-ribulose 5-phosphate to formate
+CC       and 3,4-dihydroxy-2-butanone 4-phosphate.
+CC       {ECO:0000256|ARBA:ARBA00002284}.
+CC   -!- FUNCTION: Catalyzes the conversion of GTP to 2,5-diamino-6-
+CC       ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and
+CC       pyrophosphate. {ECO:0000256|HAMAP-Rule:MF_00179}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribulose 5-phosphate = (2S)-2-hydroxy-3-oxobutyl phosphate +
+CC         formate + H(+); Xref=Rhea:RHEA:18457, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:58121, ChEBI:CHEBI:58830;
+CC         EC=4.1.99.12; Evidence={ECO:0000256|ARBA:ARBA00000141};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + 4 H2O = 2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)-
+CC         pyrimidine + formate + 2 phosphate + 3 H(+); Xref=Rhea:RHEA:23704,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:43474, ChEBI:CHEBI:58614; EC=3.5.4.25;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049295, ECO:0000256|HAMAP-
+CC         Rule:MF_00179};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00179};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_00179};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 2-hydroxy-3-
+CC       oxobutyl phosphate from D-ribulose 5-phosphate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004904}.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-6-(D-
+CC       ribitylamino)uracil from GTP: step 1/4. {ECO:0000256|ARBA:ARBA00004853,
+CC       ECO:0000256|HAMAP-Rule:MF_00179}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase II family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00179}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the DHBP synthase
+CC       family. {ECO:0000256|ARBA:ARBA00005520}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00179}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30594.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49551.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078769.1; NZ_WBMF01000082.1.
+DR   AlphaFoldDB; C5CBJ7; -.
+DR   STRING; 465515.Mlut_10870; -.
+DR   EnsemblBacteria; ACS30594; ACS30594; Mlut_10870.
+DR   KEGG; mlu:Mlut_10870; -.
+DR   PATRIC; fig|465515.4.peg.1030; -.
+DR   eggNOG; COG0108; Bacteria.
+DR   eggNOG; COG0807; Bacteria.
+DR   HOGENOM; CLU_020273_1_2_11; -.
+DR   UniPathway; UPA00275; UER00399.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008686; F:3,4-dihydroxy-2-butanone-4-phosphate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003935; F:GTP cyclohydrolase II activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00641; GTP_cyclohydro2; 1.
+DR   FunFam; 3.40.50.10990:FF:000001; Riboflavin biosynthesis protein RibBA; 1.
+DR   FunFam; 3.90.870.10:FF:000001; Riboflavin biosynthesis protein RibBA; 1.
+DR   Gene3D; 3.90.870.10; DHBP synthase; 1.
+DR   Gene3D; 3.40.50.10990; GTP cyclohydrolase II; 1.
+DR   HAMAP; MF_00179; RibA; 1.
+DR   InterPro; IPR017945; DHBP_synth_RibB-like_a/b_dom.
+DR   InterPro; IPR000422; DHBP_synthase_RibB.
+DR   InterPro; IPR032677; GTP_cyclohydro_II.
+DR   InterPro; IPR000926; RibA.
+DR   InterPro; IPR036144; RibA-like_sf.
+DR   NCBIfam; TIGR00505; ribA; 1.
+DR   NCBIfam; TIGR00506; ribB; 1.
+DR   PANTHER; PTHR21327:SF18; 3,4-DIHYDROXY-2-BUTANONE 4-PHOSPHATE SYNTHASE; 1.
+DR   PANTHER; PTHR21327; GTP CYCLOHYDROLASE II-RELATED; 1.
+DR   Pfam; PF00926; DHBP_synthase; 1.
+DR   Pfam; PF00925; GTP_cyclohydro2; 1.
+DR   PIRSF; PIRSF001259; RibA; 1.
+DR   SUPFAM; SSF142695; RibA-like; 1.
+DR   SUPFAM; SSF55821; YrdC/RibB; 1.
+PE   3: Inferred from homology;
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00179};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00179};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00179};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00179}; Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Riboflavin biosynthesis {ECO:0000256|ARBA:ARBA00022619, ECO:0000256|HAMAP-
+KW   Rule:MF_00179};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00179}.
+FT   DOMAIN          215..378
+FT                   /note="GTP cyclohydrolase II"
+FT                   /evidence="ECO:0000259|Pfam:PF00925"
+FT   REGION          406..437
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        336
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         257..261
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         262
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         273
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         275
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         278
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         300..302
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         322
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         357
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+FT   BINDING         362
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00179"
+SQ   SEQUENCE   437 AA;  45700 MW;  0FF72B4DE7432F94 CRC64;
+     MSEHIRLDPV PAAIAAIAAG RPVVVVDDAD RENEGDLIYA AALATDEVTA FTVRHTSGVI
+     CAPLPAGLAD RLALPPMTTV NEDPKGTAYT VSVDAAAGVT TGISAADRTR TLRVLADPGA
+     APGDLTRPGH VFPLRAVPGG VRARRGHTEA GVELCRLAGV APVAAIAELV HDDGTMMRLP
+     ALREFSDEHG LVLISIEDLV AHLEETTPAL TAVPAEATLP TRHGLFRVSV HVDAETGAEH
+     LLLVAGETDP ERPLTVRVHS ECLTGDVLGS LRCDCGPQLE DALARAAAEG GAVLYLRGHE
+     GRGIGLANKI RAYRLQEEGM DTVEANLALG LPAEARDWAG AAAVLTAAGH RRIRLVTNNP
+     AKVAGLRAAG IDVVERVPAP TPVTEHNVVY LRTKRDRMAH ALADRVLEPP TATGGPATPA
+     DDPTTDPTHP THQEDTP
+//

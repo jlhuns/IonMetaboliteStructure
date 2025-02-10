@@ -1,0 +1,77 @@
+ID   A7ZDQ7_CAMC1            Unreviewed;       181 AA.
+AC   A7ZDQ7;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   09-DEC-2015, sequence version 2.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase {ECO:0000256|NCBIfam:TIGR00560};
+DE            EC=2.7.8.5 {ECO:0000256|NCBIfam:TIGR00560};
+GN   Name=pgsA {ECO:0000313|EMBL:EAT97623.2};
+GN   ORFNames=CCC13826_0122 {ECO:0000313|EMBL:EAT97623.2};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT97623.2, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the CDP-alcohol phosphatidyltransferase class-I
+CC       family. {ECO:0000256|ARBA:ARBA00010441, ECO:0000256|RuleBase:RU003750}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97623.2; -; Genomic_DNA.
+DR   RefSeq; WP_009293904.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZDQ7; -.
+DR   STRING; 360104.CCC13826_0122; -.
+DR   KEGG; cco:CCC13826_0122; -.
+DR   eggNOG; COG0558; Bacteria.
+DR   OrthoDB; 9796672at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008444; F:CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046474; P:glycerophospholipid biosynthetic process; IEA:TreeGrafter.
+DR   Gene3D; 1.20.120.1760; -; 1.
+DR   InterPro; IPR050324; CDP-alcohol_PTase-I.
+DR   InterPro; IPR000462; CDP-OH_P_trans.
+DR   InterPro; IPR043130; CDP-OH_PTrfase_TM_dom.
+DR   InterPro; IPR048254; CDP_ALCOHOL_P_TRANSF_CS.
+DR   InterPro; IPR004570; Phosphatidylglycerol_P_synth.
+DR   NCBIfam; TIGR00560; pgsA; 1.
+DR   PANTHER; PTHR14269:SF62; CDP-DIACYLGLYCEROL--GLYCEROL-3-PHOSPHATE 3-PHOSPHATIDYLTRANSFERASE 1, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR14269; CDP-DIACYLGLYCEROL--GLYCEROL-3-PHOSPHATE 3-PHOSPHATIDYLTRANSFERASE-RELATED; 1.
+DR   Pfam; PF01066; CDP-OH_P_transf; 1.
+DR   PIRSF; PIRSF000847; Phos_ph_gly_syn; 1.
+DR   PROSITE; PS00379; CDP_ALCOHOL_P_TRANSF; 1.
+PE   3: Inferred from homology;
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003750};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        12..32
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        38..60
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        81..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   181 AA;  20136 MW;  BF662D091A2C905D CRC64;
+     MSLNLPNSLA FFRILLAPLM FFMLVNAPGI FTQIHISWIN YFAALIFVIA SVTDFFDGYI
+     ARSWDQKTKL GAILDPLADK MLILAAFLGL MMLGRASAWA VYLILIREFF ITGFRVVMAS
+     DGVEVAASMA GKVKTVSQMF AVGFLLMSWP GGELLLWIAV ALTLYSGFEY IFAYVKAMKK
+     S
+//

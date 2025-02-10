@@ -1,0 +1,86 @@
+ID   A7ZDR6_CAMC1            Unreviewed;       214 AA.
+AC   A7ZDR6;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   23-OCT-2007, sequence version 1.
+DT   29-MAY-2024, entry version 80.
+DE   RecName: Full=5-formyltetrahydrofolate cyclo-ligase {ECO:0000256|RuleBase:RU361279};
+DE            EC=6.3.3.2 {ECO:0000256|RuleBase:RU361279};
+GN   ORFNames=CCC13826_1310 {ECO:0000313|EMBL:EAT97315.1};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT97315.1, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5-formyl-5,6,7,8-tetrahydrofolate + ATP = (6R)-5,10-
+CC         methenyltetrahydrofolate + ADP + phosphate; Xref=Rhea:RHEA:10488,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:57455,
+CC         ChEBI:CHEBI:57457, ChEBI:CHEBI:456216; EC=6.3.3.2;
+CC         Evidence={ECO:0000256|RuleBase:RU361279};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU361279};
+CC   -!- SIMILARITY: Belongs to the 5-formyltetrahydrofolate cyclo-ligase
+CC       family. {ECO:0000256|ARBA:ARBA00010638, ECO:0000256|RuleBase:RU361279}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97315.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001846.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZDR6; -.
+DR   STRING; 360104.CCC13826_1310; -.
+DR   KEGG; cco:CCC13826_1310; -.
+DR   eggNOG; COG0212; Bacteria.
+DR   HOGENOM; CLU_066245_3_0_7; -.
+DR   OrthoDB; 9801938at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0030272; F:5-formyltetrahydrofolate cyclo-ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009396; P:folic acid-containing compound biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:TreeGrafter.
+DR   Gene3D; 3.40.50.10420; NagB/RpiA/CoA transferase-like; 1.
+DR   InterPro; IPR002698; FTHF_cligase.
+DR   InterPro; IPR024185; FTHF_cligase-like_sf.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   NCBIfam; TIGR02727; MTHFS_bact; 1.
+DR   PANTHER; PTHR23407:SF1; 5-FORMYLTETRAHYDROFOLATE CYCLO-LIGASE; 1.
+DR   PANTHER; PTHR23407; ATPASE INHIBITOR/5-FORMYLTETRAHYDROFOLATE CYCLO-LIGASE; 1.
+DR   Pfam; PF01812; 5-FTHF_cyc-lig; 1.
+DR   PIRSF; PIRSF006806; FTHF_cligase; 1.
+DR   SUPFAM; SSF100950; NagB/RpiA/CoA transferase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRSR:PIRSR006806-
+KW   1}; Ligase {ECO:0000313|EMBL:EAT97315.1};
+KW   Magnesium {ECO:0000256|RuleBase:RU361279};
+KW   Metal-binding {ECO:0000256|RuleBase:RU361279};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRSR:PIRSR006806-1}.
+FT   BINDING         7..11
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+FT   BINDING         53
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+FT   BINDING         58
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+FT   BINDING         129..137
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006806-1"
+SQ   SEQUENCE   214 AA;  24779 MW;  6661F8F3DA7515C3 CRC64;
+     MSVNLEKNEF RKNARANLIK LAKFRAKCTH HKAAKTLLNL INYTNSKKVL FYLPLNYEVD
+     VLKIRRNLSQ KCEIFAPFMV GLSLEMVRLR LPFLTYKFNV RQPSGKKMNN VKLDMAVVPA
+     IGVDGAMARI GHGKGFYDRF FDTLPIKPKL IVFLEVKDFY TKDVLSQAHD AVADFYITPS
+     KNYIKRGIND RGFNRLRSRC GGRWSRVSLR QKDK
+//

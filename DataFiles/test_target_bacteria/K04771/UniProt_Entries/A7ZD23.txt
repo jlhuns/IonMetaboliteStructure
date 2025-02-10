@@ -1,0 +1,98 @@
+ID   A7ZD23_CAMC1            Unreviewed;       467 AA.
+AC   A7ZD23;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   SubName: Full=Periplasmic heat shock serine protease HtrA, Do family {ECO:0000313|EMBL:EAT97802.1};
+DE            EC=3.4.21.- {ECO:0000313|EMBL:EAT97802.1};
+GN   Name=htrA {ECO:0000313|EMBL:EAT97802.1};
+GN   ORFNames=CCC13826_1064 {ECO:0000313|EMBL:EAT97802.1};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT97802.1, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97802.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001628.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZD23; -.
+DR   STRING; 360104.CCC13826_1064; -.
+DR   KEGG; cco:CCC13826_1064; -.
+DR   eggNOG; COG0265; Bacteria.
+DR   HOGENOM; CLU_020120_1_1_7; -.
+DR   OrthoDB; 9758917at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00987; PDZ_serine_protease; 2.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   Gene3D; 2.30.42.60; -; 1.
+DR   Gene3D; 2.40.10.120; -; 1.
+DR   InterPro; IPR051201; Chloro_Bact_Ser_Proteases.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR041489; PDZ_6.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   NCBIfam; TIGR02037; degP_htrA_DO; 1.
+DR   PANTHER; PTHR43343; PEPTIDASE S12; 1.
+DR   PANTHER; PTHR43343:SF3; PROTEASE DO-LIKE 8, CHLOROPLASTIC; 1.
+DR   Pfam; PF13180; PDZ_2; 1.
+DR   Pfam; PF17820; PDZ_6; 1.
+DR   Pfam; PF13365; Trypsin_2; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   4: Predicted;
+KW   Hydrolase {ECO:0000313|EMBL:EAT97802.1};
+KW   Periplasm {ECO:0000256|ARBA:ARBA00022764};
+KW   Protease {ECO:0000313|EMBL:EAT97802.1};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Serine protease {ECO:0000256|ARBA:ARBA00022825};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|SAM:SignalP};
+KW   Stress response {ECO:0000313|EMBL:EAT97802.1}.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           19..467
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5039155894"
+FT   DOMAIN          264..328
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+FT   DOMAIN          362..436
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+FT   ACT_SITE        115
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+FT   ACT_SITE        146
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+FT   ACT_SITE        220
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+SQ   SEQUENCE   467 AA;  49949 MW;  D5F7B1FB23CB21DE CRC64;
+     MKKFMLISLA AASLLMGADI KFNEANQDVT RVSPLSDKNS VLSYYDSIAQ AKLSVVNIST
+     TKTVSNAGIE QMFNDPFFNE FFGFNFAKPK EKEKTTSLGS GVIISNDGYI VTNNHVIEDS
+     DQIVVTLAKG GKEYKAKLIG SDPKTDLAVI KIEANGLNAI TFADSSKLLD ADVVFAIGNP
+     FGVGESITQG IVSGLNKDDI GLNQYENFIQ TDASINPGNS GGALVDSRGY LVGINSAILS
+     KSGGNNGIGF AIPSNMVKDI AKKLITDGKI ERGFIGVTIA NLTDEQKELY TNKEGALISG
+     VEQGMPADEA GLKRGDLVIS ANGKAIKNAN DLKNFIGSLT PNSSVDITYE RSNKVMNTKI
+     KLVNMDHNAK DATKSVIIEG LSVSNLSDEI RFKYKISPDT QGVLVTDVKS GSKAEDFGFE
+     RGDVIVQVGE ESIKDIQTFA STVKNAKGKK TLVWINRGGI MQGLVIK
+//

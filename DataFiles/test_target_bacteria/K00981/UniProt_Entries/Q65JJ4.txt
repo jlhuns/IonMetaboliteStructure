@@ -1,0 +1,110 @@
+ID   Q65JJ4_BACLD            Unreviewed;       267 AA.
+AC   Q65JJ4; Q62UZ9;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Phosphatidate cytidylyltransferase {ECO:0000256|ARBA:ARBA00019373, ECO:0000256|RuleBase:RU003938};
+DE            EC=2.7.7.41 {ECO:0000256|ARBA:ARBA00012487, ECO:0000256|RuleBase:RU003938};
+GN   Name=cdsA {ECO:0000313|EMBL:AAU23410.1};
+GN   OrderedLocusNames=BL01238 {ECO:0000313|EMBL:AAU23410.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23410.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23410.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphate + CTP + H(+) = a CDP-1,2-
+CC         diacyl-sn-glycerol + diphosphate; Xref=Rhea:RHEA:16229,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:58332, ChEBI:CHEBI:58608; EC=2.7.7.41;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001698,
+CC         ECO:0000256|RuleBase:RU003938};
+CC   -!- PATHWAY: Lipid metabolism. {ECO:0000256|ARBA:ARBA00005189}.
+CC   -!- PATHWAY: Phospholipid metabolism; CDP-diacylglycerol biosynthesis; CDP-
+CC       diacylglycerol from sn-glycerol 3-phosphate: step 3/3.
+CC       {ECO:0000256|ARBA:ARBA00005119, ECO:0000256|RuleBase:RU003938}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the CDS family. {ECO:0000256|ARBA:ARBA00010185,
+CC       ECO:0000256|RuleBase:RU003938}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23410.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197978.1; NC_006322.1.
+DR   AlphaFoldDB; Q65JJ4; -.
+DR   STRING; 279010.BL01238; -.
+DR   KEGG; bld:BLi01875; -.
+DR   KEGG; bli:BL01238; -.
+DR   PATRIC; fig|279010.13.peg.1874; -.
+DR   eggNOG; COG4589; Bacteria.
+DR   HOGENOM; CLU_037294_2_2_9; -.
+DR   UniPathway; UPA00557; UER00614.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004605; F:phosphatidate cytidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016024; P:CDP-diacylglycerol biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR000374; PC_trans.
+DR   PANTHER; PTHR46382; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR46382:SF1; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   Pfam; PF01148; CTP_transf_1; 1.
+DR   PROSITE; PS01315; CDS; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU003938};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003938};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU003938};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        6..39
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        46..65
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        77..97
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        109..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        131..152
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        173..191
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        197..215
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        248..266
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   267 AA;  29268 MW;  3D750E64E810D634 CRC64;
+     MKQRILTGVI AAAVFLPLVI FGELPFTLLV YAIGILALFE LLRMKGLKLI SAPGIISMLL
+     LAVLLCPSQY AEDAGLGITK GEVVFLAVLL LLAYTVLSKN SFTFDEAAFV ALAAVYIGFG
+     FYYFIEIRNI GLSYVFFAIG VVWSTDSGAY FIGKAFGKRK LWPEISPNKT VEGFWGGILT
+     AVVFSAIYQA ATGFPHAYLF VLIITVLLSI VGQIGDLAES AFKRHYQVKD SGRILPGHGG
+     MLDRFDSFLF VMPVLYFLLV LFQPFGL
+//

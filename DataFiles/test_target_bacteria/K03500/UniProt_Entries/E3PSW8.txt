@@ -1,0 +1,117 @@
+ID   E3PSW8_ACESD            Unreviewed;       444 AA.
+AC   E3PSW8;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 71.
+DE   RecName: Full=16S rRNA (cytosine(967)-C(5))-methyltransferase {ECO:0000256|ARBA:ARBA00012140};
+DE            EC=2.1.1.176 {ECO:0000256|ARBA:ARBA00012140};
+DE   AltName: Full=16S rRNA m5C967 methyltransferase {ECO:0000256|ARBA:ARBA00030399};
+DE   AltName: Full=rRNA (cytosine-C(5)-)-methyltransferase RsmB {ECO:0000256|ARBA:ARBA00031088};
+GN   Name=rsmB {ECO:0000313|EMBL:CBH21972.1};
+GN   OrderedLocusNames=CLOST_1852 {ECO:0000313|EMBL:CBH21972.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21972.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Specifically methylates the cytosine at position 967 (m5C967)
+CC       of 16S rRNA. {ECO:0000256|ARBA:ARBA00002724}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(967) in 16S rRNA + S-adenosyl-L-methionine = 5-
+CC         methylcytidine(967) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42748, Rhea:RHEA-COMP:10219, Rhea:RHEA-COMP:10220,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74483, ChEBI:CHEBI:82748; EC=2.1.1.176;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047283};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RsmB/NOP family. {ECO:0000256|PROSITE-ProRule:PRU01023}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21972.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PSW8; -.
+DR   STRING; 1511.CLOST_1852; -.
+DR   KEGG; cst:CLOST_1852; -.
+DR   eggNOG; COG0144; Bacteria.
+DR   eggNOG; COG0781; Bacteria.
+DR   HOGENOM; CLU_005316_0_1_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008649; F:rRNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:InterPro.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   FunFam; 3.40.50.150:FF:000022; Ribosomal RNA small subunit methyltransferase B; 1.
+DR   Gene3D; 1.10.940.10; NusB-like; 1.
+DR   Gene3D; 3.30.70.1170; Sun protein, domain 3; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR049560; MeTrfase_RsmB-F_NOP2_cat.
+DR   InterPro; IPR001678; MeTrfase_RsmB-F_NOP2_dom.
+DR   InterPro; IPR035926; NusB-like_sf.
+DR   InterPro; IPR006027; NusB_RsmB_TIM44.
+DR   InterPro; IPR023267; RCMT.
+DR   InterPro; IPR004573; rRNA_ssu_MeTfrase_B.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00563; rsmB; 1.
+DR   PANTHER; PTHR22807; NOP2 YEAST -RELATED NOL1/NOP2/FMU SUN DOMAIN-CONTAINING; 1.
+DR   PANTHER; PTHR22807:SF53; RIBOSOMAL RNA SMALL SUBUNIT METHYLTRANSFERASE B-RELATED; 1.
+DR   Pfam; PF01189; Methyltr_RsmB-F; 1.
+DR   Pfam; PF01029; NusB; 1.
+DR   PRINTS; PR02008; RCMTFAMILY.
+DR   SUPFAM; SSF48013; NusB-like; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51686; SAM_MT_RSMB_NOP; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}; Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}; rRNA processing {ECO:0000256|ARBA:ARBA00022552};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PROSITE-ProRule:PRU01023};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}.
+FT   DOMAIN          180..439
+FT                   /note="SAM-dependent MTase RsmB/NOP-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51686"
+FT   ACT_SITE        391
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         270..276
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         294
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         321
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         339
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+SQ   SEQUENCE   444 AA;  50834 MW;  E2D64FCD7CCE8597 CRC64;
+     MSNSIHKGAI MSNNARKIAY DIIYDVKYNK AYSNISINKA FNKNTIDNRE KGFVTELVYG
+     ALSRLIYLDY QIEQFLDMRA SKLSKQAKTV LEMGFYQLEF MDSVSDFASV DESVKLIKKV
+     DNRSAGIINA VMRKRVKEGK AEYTDKISDK AKSLSIEFSI SEYIARRFLK IYKEEFTRQL
+     LSSMLEKPSL FIRLNKLRST EAELFENLEQ QGIYSKKNDI IDSAYEISGM KNIGSNPLFV
+     KGGFVIQDLS SMLAVKALNP LPGDTVLDIC SAPGGKSFYI ADLMENKGQL DSMDISEHKI
+     QMLKKRAVEL GVDIINARVM DATVFNEEMT NRYDKILVDA PCSGFGIIRR KPEIRYKSYE
+     DVNQLPEIQY QILSNASKYL KDTGSLVYST CTLEKKENIE IVDKFLENNK EFYLEEEPKE
+     LYPHIHNTDG FFIAKFKKDI NKSV
+//

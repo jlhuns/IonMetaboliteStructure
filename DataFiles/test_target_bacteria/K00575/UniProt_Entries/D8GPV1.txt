@@ -1,0 +1,78 @@
+ID   D8GPV1_CLOLD            Unreviewed;       255 AA.
+AC   D8GPV1;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 55.
+DE   RecName: Full=protein-glutamate O-methyltransferase {ECO:0000256|ARBA:ARBA00012534};
+DE            EC=2.1.1.80 {ECO:0000256|ARBA:ARBA00012534};
+GN   Name=cheR {ECO:0000313|EMBL:ADK14010.1};
+GN   OrderedLocusNames=CLJU_c09420 {ECO:0000313|EMBL:ADK14010.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK14010.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK14010.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamyl-[protein] + S-adenosyl-L-methionine = [protein]-L-
+CC         glutamate 5-O-methyl ester + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:24452, Rhea:RHEA-COMP:10208, Rhea:RHEA-COMP:10311,
+CC         ChEBI:CHEBI:29973, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:82795; EC=2.1.1.80;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001541};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK14010.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237607.1; NZ_LITS01000009.1.
+DR   AlphaFoldDB; D8GPV1; -.
+DR   STRING; 748727.CLJU_c09420; -.
+DR   KEGG; clj:CLJU_c09420; -.
+DR   PATRIC; fig|748727.19.peg.3694; -.
+DR   eggNOG; COG1352; Bacteria.
+DR   HOGENOM; CLU_025854_1_1_9; -.
+DR   OrthoDB; 9816309at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0008983; F:protein-glutamate O-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.155.10; Chemotaxis receptor methyltransferase CheR, N-terminal domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR050903; Bact_Chemotaxis_MeTrfase.
+DR   InterPro; IPR022642; CheR_C.
+DR   InterPro; IPR000780; CheR_MeTrfase.
+DR   InterPro; IPR022641; CheR_N.
+DR   InterPro; IPR036804; CheR_N_sf.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR24422; CHEMOTAXIS PROTEIN METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR24422:SF19; CHEMOTAXIS PROTEIN METHYLTRANSFERASE; 1.
+DR   Pfam; PF01739; CheR; 1.
+DR   Pfam; PF03705; CheR_N; 1.
+DR   PRINTS; PR00996; CHERMTFRASE.
+DR   SMART; SM00138; MeTrc; 1.
+DR   SUPFAM; SSF47757; Chemotaxis receptor methyltransferase CheR, N-terminal domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS50123; CHER; 1.
+PE   4: Predicted;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000313|EMBL:ADK14010.1};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ADK14010.1}.
+FT   DOMAIN          1..255
+FT                   /note="CheR-type methyltransferase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50123"
+SQ   SEQUENCE   255 AA;  30192 MW;  4419608A1E9F6EA9 CRC64;
+     MDMAYFKQWV LREFNINLAA YKPNQLHRRI NSLMSRVGVK SIDEYIELLK RDGEQRQKFL
+     DFITINVSEF FRNPEIFEEL KVRLKEELLP RNSPLKIWSA ACSIGAEPYS VAMYLDELSH
+     GVRHTIIATD IDNTIIERAK RGEYVLSEVK NVKKEYLDKY FTIKDDKYII SPIIKNLITF
+     KKHDLILQNY ESNFDLIICR NVVIYFNQDV KDKIYEKFSK SLKKGGLLFV GATESIYNYR
+     DYGFEKASTF IYRKL
+//

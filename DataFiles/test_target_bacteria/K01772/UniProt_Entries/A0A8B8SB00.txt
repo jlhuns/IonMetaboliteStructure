@@ -1,0 +1,80 @@
+ID   A0A8B8SB00_CAMFR        Unreviewed;       419 AA.
+AC   A0A8B8SB00;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=Ferrochelatase {ECO:0000256|RuleBase:RU000607};
+DE            EC=4.98.1.1 {ECO:0000256|RuleBase:RU000607};
+GN   Name=FECH {ECO:0000313|RefSeq:XP_032326607.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032326607.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032326607.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032326607.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the ferrous insertion into protoporphyrin IX.
+CC       {ECO:0000256|ARBA:ARBA00002278, ECO:0000256|RuleBase:RU000607}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=heme b + 2 H(+) = protoporphyrin IX + Fe(2+);
+CC         Xref=Rhea:RHEA:22584, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:57306, ChEBI:CHEBI:60344; EC=4.98.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049380,
+CC         ECO:0000256|RuleBase:RU000607};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoheme
+CC       biosynthesis; protoheme from protoporphyrin-IX: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004943, ECO:0000256|RuleBase:RU000607}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000256|RuleBase:RU000607}.
+CC   -!- SIMILARITY: Belongs to the ferrochelatase family.
+CC       {ECO:0000256|ARBA:ARBA00007718, ECO:0000256|RuleBase:RU000607}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032326607.1; XM_032470716.1.
+DR   KEGG; cfr:102512920; -.
+DR   UniPathway; UPA00252; UER00325.
+DR   Proteomes; UP000694856; Chromosome 30.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004325; F:ferrochelatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006783; P:heme biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00419; Ferrochelatase_C; 1.
+DR   CDD; cd03411; Ferrochelatase_N; 1.
+DR   FunFam; 3.40.50.1400:FF:000003; Ferrochelatase; 1.
+DR   Gene3D; 3.40.50.1400; -; 2.
+DR   HAMAP; MF_00323; Ferrochelatase; 1.
+DR   InterPro; IPR001015; Ferrochelatase.
+DR   InterPro; IPR019772; Ferrochelatase_AS.
+DR   InterPro; IPR033644; Ferrochelatase_C.
+DR   InterPro; IPR033659; Ferrochelatase_N.
+DR   NCBIfam; TIGR00109; hemH; 1.
+DR   PANTHER; PTHR11108; FERROCHELATASE; 1.
+DR   PANTHER; PTHR11108:SF1; FERROCHELATASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00762; Ferrochelatase; 1.
+DR   SUPFAM; SSF53800; Chelatase; 1.
+DR   PROSITE; PS00534; FERROCHELATASE; 1.
+PE   3: Inferred from homology;
+KW   Heme biosynthesis {ECO:0000256|ARBA:ARBA00023133,
+KW   ECO:0000256|RuleBase:RU000607};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU000607};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU000607};
+KW   Membrane {ECO:0000256|RuleBase:RU000607};
+KW   Mitochondrion {ECO:0000256|RuleBase:RU000607};
+KW   Mitochondrion inner membrane {ECO:0000256|RuleBase:RU000607};
+KW   Porphyrin biosynthesis {ECO:0000256|ARBA:ARBA00023244,
+KW   ECO:0000256|RuleBase:RU000607}.
+FT   REGION          43..63
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   419 AA;  47065 MW;  1709A65234237E09 CRC64;
+     MAAALRSASV LLRDRLVCAG PRACQPWRCQ SGAATAAAAA TATETAQHAR SPKAQVQPGN
+     RKPKTGILML NMGGPETVGE VHDFLLRLFL DRDLMTLPIQ NKLAPIIAKR RTPKIQEQYR
+     RIGGGSPIKM WTSKQGEGMV KLLDELSPHT APHKYYIGFR YVHPLTEEAI EQMERDRLER
+     AIAFTQYPQY SCSTTGSSLN AIYRYYNEVG KKPTMKWSTI DRWPTHPLLI QCFADHILKE
+     LDCFPPEKRR EVVILFSAHS LPMSVVNRGD PYPQEVGATV QRVMDKLGYS NPYRLVWQSK
+     VGPMPWLGPQ TDEAIKGLCK KGRKNILLVP IAFTSDHIET LYELDIEYSQ GLAKECGAEN
+     IRRAESLNGN PLFSKALADL VHSHMQSKEL CSTQLTLSCP LCVNPVCRET KSFFTNQQL
+//

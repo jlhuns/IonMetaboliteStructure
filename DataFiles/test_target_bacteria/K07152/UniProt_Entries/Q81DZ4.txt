@@ -1,0 +1,82 @@
+ID   Q81DZ4_BACCR            Unreviewed;       195 AA.
+AC   Q81DZ4;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   SubName: Full=Cytochrome c oxidase Cu(A) center assembly protein {ECO:0000313|EMBL:AAP09168.1};
+GN   OrderedLocusNames=BC_2202 {ECO:0000313|EMBL:AAP09168.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP09168.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP09168.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- SIMILARITY: Belongs to the SCO1/2 family.
+CC       {ECO:0000256|ARBA:ARBA00010996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP09168.1; -; Genomic_DNA.
+DR   RefSeq; NP_831967.1; NC_004722.1.
+DR   RefSeq; WP_000833331.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81DZ4; -.
+DR   SMR; Q81DZ4; -.
+DR   KEGG; bce:BC2202; -.
+DR   PATRIC; fig|226900.8.peg.2224; -.
+DR   HOGENOM; CLU_050131_2_1_9; -.
+DR   OrthoDB; 9811998at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02968; SCO; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR003782; SCO1/SenC.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR12151; ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12151:SF25; LINALOOL DEHYDRATASE_ISOMERASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02630; SCO1-SenC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Copper {ECO:0000256|ARBA:ARBA00023008, ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Disulfide bond {ECO:0000256|PIRSR:PIRSR603782-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          31..195
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51352"
+FT   BINDING         69
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         73
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         158
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   DISULFID        69..73
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-2"
+SQ   SEQUENCE   195 AA;  22348 MW;  1435A07D9BBD4CA3 CRC64;
+     MKRYQKIIGL MVVFCLFVLA GCSESGSKLR KPLNWDLETF QFTNQDGKKF GTKDLKGKVW
+     VADFMFTNCQ TVCPPMTANM AKLQKMAKEE KLDVQFVSFS VDPDLDKPEN LKAFIQKFTE
+     DTSNWNLLTG YSLEDITKFS KDNFQSLVDK PENGQVMHGT SFYLIDQNGK VMKKYSGISN
+     TPYEDIIRDM KRLVG
+//

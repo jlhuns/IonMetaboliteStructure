@@ -1,0 +1,129 @@
+ID   W6RQ81_9HYPH            Unreviewed;       321 AA.
+AC   W6RQ81;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=Bifunctional protein FolD {ECO:0000256|HAMAP-Rule:MF_01576};
+DE   Includes:
+DE     RecName: Full=Methylenetetrahydrofolate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01576};
+DE              EC=1.5.1.5 {ECO:0000256|HAMAP-Rule:MF_01576};
+DE   Includes:
+DE     RecName: Full=Methenyltetrahydrofolate cyclohydrolase {ECO:0000256|HAMAP-Rule:MF_01576};
+DE              EC=3.5.4.9 {ECO:0000256|HAMAP-Rule:MF_01576};
+GN   Name=folD {ECO:0000256|HAMAP-Rule:MF_01576};
+GN   ORFNames=LPU83_0833 {ECO:0000313|EMBL:CDM56511.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM56511.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM56511.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM56511.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the oxidation of 5,10-methylenetetrahydrofolate to
+CC       5,10-methenyltetrahydrofolate and then the hydrolysis of 5,10-
+CC       methenyltetrahydrofolate to 10-formyltetrahydrofolate.
+CC       {ECO:0000256|HAMAP-Rule:MF_01576}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methenyltetrahydrofolate + H2O = (6R)-10-
+CC         formyltetrahydrofolate + H(+); Xref=Rhea:RHEA:23700,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57455,
+CC         ChEBI:CHEBI:195366; EC=3.5.4.9; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01576};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NADP(+) = (6R)-
+CC         5,10-methenyltetrahydrofolate + NADPH; Xref=Rhea:RHEA:22812,
+CC         ChEBI:CHEBI:15636, ChEBI:CHEBI:57455, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.5.1.5; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01576};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000256|ARBA:ARBA00004777, ECO:0000256|HAMAP-Rule:MF_01576}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01576}.
+CC   -!- SIMILARITY: Belongs to the tetrahydrofolate
+CC       dehydrogenase/cyclohydrolase family. {ECO:0000256|HAMAP-Rule:MF_01576}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01576}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM56511.1; -; Genomic_DNA.
+DR   AlphaFoldDB; W6RQ81; -.
+DR   KEGG; rhl:LPU83_0833; -.
+DR   PATRIC; fig|348824.6.peg.898; -.
+DR   eggNOG; COG0190; Bacteria.
+DR   HOGENOM; CLU_034045_1_2_5; -.
+DR   UniPathway; UPA00193; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004477; F:methenyltetrahydrofolate cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004488; F:methylenetetrahydrofolate dehydrogenase (NADP+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006164; P:purine nucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniRule.
+DR   CDD; cd01080; NAD_bind_m-THF_DH_Cyclohyd; 1.
+DR   FunFam; 3.40.50.720:FF:000006; Bifunctional protein FolD; 1.
+DR   FunFam; 3.40.50.10860:FF:000005; C-1-tetrahydrofolate synthase, cytoplasmic, putative; 1.
+DR   Gene3D; 3.40.50.10860; Leucine Dehydrogenase, chain A, domain 1; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_01576; THF_DHG_CYH; 1.
+DR   InterPro; IPR046346; Aminoacid_DH-like_N_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR000672; THF_DH/CycHdrlase.
+DR   InterPro; IPR020630; THF_DH/CycHdrlase_cat_dom.
+DR   InterPro; IPR020867; THF_DH/CycHdrlase_CS.
+DR   InterPro; IPR020631; THF_DH/CycHdrlase_NAD-bd_dom.
+DR   PANTHER; PTHR48099:SF5; C-1-TETRAHYDROFOLATE SYNTHASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR48099; C-1-TETRAHYDROFOLATE SYNTHASE, CYTOPLASMIC-RELATED; 1.
+DR   Pfam; PF00763; THF_DHG_CYH; 1.
+DR   Pfam; PF02882; THF_DHG_CYH_C; 1.
+DR   PRINTS; PR00085; THFDHDRGNASE.
+DR   SUPFAM; SSF53223; Aminoacid dehydrogenase-like, N-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+DR   PROSITE; PS00767; THF_DHG_CYH_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   Histidine biosynthesis {ECO:0000256|ARBA:ARBA00023102, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01576};
+KW   Methionine biosynthesis {ECO:0000256|ARBA:ARBA00023167, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_01576};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01576};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01576}.
+FT   DOMAIN          27..142
+FT                   /note="Tetrahydrofolate dehydrogenase/cyclohydrolase
+FT                   catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF00763"
+FT   DOMAIN          145..312
+FT                   /note="Tetrahydrofolate dehydrogenase/cyclohydrolase
+FT                   NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF02882"
+FT   BINDING         190..192
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01576"
+FT   BINDING         256
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01576"
+SQ   SEQUENCE   321 AA;  33541 MW;  72DCB261259318F9 CRC64;
+     MDRQIALSAI RYNERKQGQE TVLTTVIDGK QVAASVIETV KAATSALDKQ SGVKTGLAVV
+     IVGDDPASHA YVNSKGKMAK ECGFKSVQHT LPAETTQEEL AALVATLNSD PSIHGILVQL
+     PLPKHLKSEL IIQSILPEKD VDGLHVVNAG KLATGDLETG LVSCTPAGAM VFVRRTHGED
+     LSGLNAVVIG RSNLFGKPMA QLLLNANATV TIAHSRTKDL PAVCRNADIL VAAVGRPEMV
+     RSDWVKPGAT VIDVGINRIP APEKGEGKTR LVGDVAFEDA AKVAAVITPV PGGVGPMTIA
+     MLMANTVIAA HRAAGQTPPT F
+//

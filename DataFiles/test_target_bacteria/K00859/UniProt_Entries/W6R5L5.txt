@@ -1,0 +1,83 @@
+ID   W6R5L5_9HYPH            Unreviewed;       203 AA.
+AC   W6R5L5;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 51.
+DE   RecName: Full=Dephospho-CoA kinase {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000256|NCBIfam:TIGR00152};
+DE            EC=2.7.1.24 {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000256|NCBIfam:TIGR00152};
+DE   AltName: Full=Dephosphocoenzyme A kinase {ECO:0000256|HAMAP-Rule:MF_00376};
+GN   Name=coaE {ECO:0000256|HAMAP-Rule:MF_00376,
+GN   ECO:0000313|EMBL:CDM55695.1};
+GN   ORFNames=LPU83_0004 {ECO:0000313|EMBL:CDM55695.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM55695.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM55695.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM55695.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the 3'-hydroxyl group of
+CC       dephosphocoenzyme A to form coenzyme A. {ECO:0000256|HAMAP-
+CC       Rule:MF_00376}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-dephospho-CoA + ATP = ADP + CoA + H(+);
+CC         Xref=Rhea:RHEA:18245, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57328, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.24; Evidence={ECO:0000256|HAMAP-Rule:MF_00376};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 5/5. {ECO:0000256|HAMAP-Rule:MF_00376}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00376}.
+CC   -!- SIMILARITY: Belongs to the CoaE family. {ECO:0000256|ARBA:ARBA00009018,
+CC       ECO:0000256|HAMAP-Rule:MF_00376}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM55695.1; -; Genomic_DNA.
+DR   RefSeq; WP_024313207.1; NZ_JAIRAY010000001.1.
+DR   AlphaFoldDB; W6R5L5; -.
+DR   KEGG; rhl:LPU83_0004; -.
+DR   PATRIC; fig|348824.6.peg.4; -.
+DR   eggNOG; COG0237; Bacteria.
+DR   HOGENOM; CLU_057180_3_0_5; -.
+DR   UniPathway; UPA00241; UER00356.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004140; F:dephospho-CoA kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02022; DPCK; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00376; Dephospho_CoA_kinase; 1.
+DR   InterPro; IPR001977; Depp_CoAkinase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00152; dephospho-CoA kinase; 1.
+DR   PANTHER; PTHR10695:SF46; BIFUNCTIONAL COENZYME A SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR10695; DEPHOSPHO-COA KINASE-RELATED; 1.
+DR   Pfam; PF01121; CoaE; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51219; DPCK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00376};
+KW   Coenzyme A biosynthesis {ECO:0000256|ARBA:ARBA00022993, ECO:0000256|HAMAP-
+KW   Rule:MF_00376}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00376};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000313|EMBL:CDM55695.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00376};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00376, ECO:0000313|EMBL:CDM55695.1}.
+FT   BINDING         11..16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00376"
+SQ   SEQUENCE   203 AA;  22273 MW;  9505F050F03E512B CRC64;
+     MLRIGLTGSI GMGKSTMAKF FAEAGVPVND SDAVVHDLYA GEAAPLVDAA FPGTLKNGAV
+     DRQELGRQLA GSPDGFKRLE AIVHPLVRKR EAEFIEREQQ RSADMVLLDI PLLFETGAQS
+     RVDVIVVVSC DPQIQRERVL ARSGMTVEKF NMILARQTPD AEKRARADYV IDTGHSIETA
+     RKRVAEIVSD LRRRLASGEF LNA
+//

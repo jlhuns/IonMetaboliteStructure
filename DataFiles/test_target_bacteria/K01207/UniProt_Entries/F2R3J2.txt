@@ -1,0 +1,83 @@
+ID   F2R3J2_STRVP            Unreviewed;       593 AA.
+AC   F2R3J2;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 58.
+DE   RecName: Full=beta-N-acetylhexosaminidase {ECO:0000256|ARBA:ARBA00012663};
+DE            EC=3.2.1.52 {ECO:0000256|ARBA:ARBA00012663};
+GN   OrderedLocusNames=SVEN_2548 {ECO:0000313|EMBL:CCA55834.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA55834.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA55834.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of terminal non-reducing N-acetyl-D-hexosamine
+CC         residues in N-acetyl-beta-D-hexosaminides.; EC=3.2.1.52;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001231};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 3 family.
+CC       {ECO:0000256|ARBA:ARBA00005336, ECO:0000256|RuleBase:RU361161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA55834.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2R3J2; -.
+DR   STRING; 953739.SVEN_2548; -.
+DR   KEGG; sve:SVEN_2548; -.
+DR   PATRIC; fig|953739.5.peg.4737; -.
+DR   eggNOG; COG1472; Bacteria.
+DR   HOGENOM; CLU_008392_5_3_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0016231; F:beta-N-acetylglucosaminidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0009254; P:peptidoglycan turnover; IEA:TreeGrafter.
+DR   FunFam; 3.20.20.300:FF:000014; Beta-hexosaminidase, lipoprotein; 1.
+DR   FunFam; 3.40.50.1700:FF:000012; Glycoside hydrolase family 3 protein; 1.
+DR   Gene3D; 3.40.50.1700; Glycoside hydrolase family 3 C-terminal domain; 1.
+DR   Gene3D; 3.20.20.300; Glycoside hydrolase, family 3, N-terminal domain; 1.
+DR   InterPro; IPR019800; Glyco_hydro_3_AS.
+DR   InterPro; IPR002772; Glyco_hydro_3_C.
+DR   InterPro; IPR036881; Glyco_hydro_3_C_sf.
+DR   InterPro; IPR001764; Glyco_hydro_3_N.
+DR   InterPro; IPR036962; Glyco_hydro_3_N_sf.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR050226; NagZ_Beta-hexosaminidase.
+DR   PANTHER; PTHR30480:SF13; BETA-HEXOSAMINIDASE; 1.
+DR   PANTHER; PTHR30480; BETA-HEXOSAMINIDASE-RELATED; 1.
+DR   Pfam; PF00933; Glyco_hydro_3; 1.
+DR   Pfam; PF01915; Glyco_hydro_3_C; 1.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF52279; Beta-D-glucan exohydrolase, C-terminal domain; 1.
+DR   PROSITE; PS00775; GLYCOSYL_HYDROL_F3; 1.
+PE   3: Inferred from homology;
+KW   Glycosidase {ECO:0000256|ARBA:ARBA00023295, ECO:0000256|RuleBase:RU361161};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU361161};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   DOMAIN          38..377
+FT                   /note="Glycoside hydrolase family 3 N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00933"
+FT   DOMAIN          416..592
+FT                   /note="Glycoside hydrolase family 3 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01915"
+SQ   SEQUENCE   593 AA;  62124 MW;  F16B01A0685165A0 CRC64;
+     MTAAAAAAAV TGFATPAHAG QDRHDDRKLR RIIDRMSLEE KVGQLFVMRV YGHSATAPDQ
+     ADIDANLQDI GVRTAAELVE RYHVGGVIYF SWAHNTRDPR QIAELSNGIQ QAALAQPTPV
+     PALISTDQEH GIVCRVGEPA ALLPGAMALG AGGSRADARR AAQIAGEELA AVGIRQNYAP
+     VADVNVNPAN PVIGVRSFGS DPAAVAGLVA AQVTGYQRAG VAATSKHFPG HGDTTVDSHV
+     GLPTISHTRA QWSELDAPPF RSAIAAGIDS IMTAHIVVPA LDPSGDPATL SRPILTGILR
+     EELGYDGVVV TDSLGMEGVR TRYGDERVPV LALKAGVDQL LNPPKLDVAW NAVLRAVRDG
+     ELTEARLDES ILRILRLKAK LGLFRRAYVS RAGVDRVVGS AAHLAQADRI AEATTTLLRN
+     EGGFLPLNPA RHGSVLVVGA DPASPSGTTG PPTTTLATAL TELGFTATAL STGISPTAAR
+     IEEAVAAAAG KDVVVVGTYN VTGASPQRTL VARLVATGVP VVTVAIRNPY DIAWLEGQRA
+     TLATYSWTDV ELRAAVRVLA GRARPRGRLP VPVQDAEEPA KVLHPVGYGL SYR
+//

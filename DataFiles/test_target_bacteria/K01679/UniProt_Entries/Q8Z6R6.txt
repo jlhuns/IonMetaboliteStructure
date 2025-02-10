@@ -1,0 +1,153 @@
+ID   FUMC_SALTI              Reviewed;         467 AA.
+AC   Q8Z6R6;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 134.
+DE   RecName: Full=Fumarate hydratase class II {ECO:0000255|HAMAP-Rule:MF_00743};
+DE            Short=Fumarase C {ECO:0000255|HAMAP-Rule:MF_00743};
+DE            EC=4.2.1.2 {ECO:0000255|HAMAP-Rule:MF_00743};
+DE   AltName: Full=Aerobic fumarase {ECO:0000255|HAMAP-Rule:MF_00743};
+DE   AltName: Full=Iron-independent fumarase {ECO:0000255|HAMAP-Rule:MF_00743};
+GN   Name=fumC {ECO:0000255|HAMAP-Rule:MF_00743};
+GN   OrderedLocusNames=STY1653, t1337;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Involved in the TCA cycle. Catalyzes the stereospecific
+CC       interconversion of fumarate to L-malate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00743}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate = fumarate + H2O; Xref=Rhea:RHEA:12460,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15589, ChEBI:CHEBI:29806; EC=4.2.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00743};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; (S)-malate
+CC       from fumarate: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00743}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00743}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00743}.
+CC   -!- MISCELLANEOUS: There are 2 substrate-binding sites: the catalytic A
+CC       site, and the non-catalytic B site that may play a role in the transfer
+CC       of substrate or product between the active site and the solvent.
+CC       Alternatively, the B site may bind allosteric effectors.
+CC       {ECO:0000255|HAMAP-Rule:MF_00743}.
+CC   -!- SIMILARITY: Belongs to the class-II fumarase/aspartase family. Fumarase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00743}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01898.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68985.1; -; Genomic_DNA.
+DR   RefSeq; NP_456063.1; NC_003198.1.
+DR   RefSeq; WP_000259129.1; NZ_WSUR01000011.1.
+DR   AlphaFoldDB; Q8Z6R6; -.
+DR   SMR; Q8Z6R6; -.
+DR   STRING; 220341.gene:17585588; -.
+DR   KEGG; stt:t1337; -.
+DR   KEGG; sty:STY1653; -.
+DR   PATRIC; fig|220341.7.peg.1664; -.
+DR   eggNOG; COG0114; Bacteria.
+DR   HOGENOM; CLU_021594_4_1_6; -.
+DR   OMA; AKWRAQT; -.
+DR   OrthoDB; 9802809at2; -.
+DR   UniPathway; UPA00223; UER01007.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004333; F:fumarate hydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006106; P:fumarate metabolic process; IEA:InterPro.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   CDD; cd01362; Fumarase_classII; 1.
+DR   FunFam; 1.10.40.30:FF:000002; Fumarate hydratase class II; 1.
+DR   FunFam; 1.10.275.10:FF:000001; Fumarate hydratase, mitochondrial; 1.
+DR   FunFam; 1.20.200.10:FF:000001; Fumarate hydratase, mitochondrial; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   HAMAP; MF_00743; FumaraseC; 1.
+DR   InterPro; IPR005677; Fum_hydII.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR018951; Fumarase_C_C.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   NCBIfam; TIGR00979; fumC_II; 1.
+DR   PANTHER; PTHR11444; ASPARTATEAMMONIA/ARGININOSUCCINATE/ADENYLOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR11444:SF1; FUMARATE HYDRATASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF10415; FumaraseC_C; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00145; ARGSUCLYASE.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lyase; Tricarboxylic acid cycle.
+FT   CHAIN           1..467
+FT                   /note="Fumarate hydratase class II"
+FT                   /id="PRO_0000161308"
+FT   ACT_SITE        188
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   ACT_SITE        318
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         98..100
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         126
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         129..132
+FT                   /ligand="substrate"
+FT                   /note="in site B"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         139..141
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         319
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   BINDING         324..326
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+FT   SITE            331
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00743"
+SQ   SEQUENCE   467 AA;  50216 MW;  4D5E53A59EAE28F9 CRC64;
+     MVTVRREKDS MGVIEVPADK LWGAQTQRSL EHFRISTEKM PVSLIHALAL TKRAAAKVNQ
+     DLGLLAAEKA SAIIEAADEV LAGKHADEFP LAIWQTGSGT QSNMNMNEVL ANRASEILGG
+     VRGMERKVHP NDDVNKSQSS NDVFPTAMHV AALLALREHL IPQLSALTDT LRDKSHAFAD
+     IVKIGRTHLQ DATPLTLGQE ISGWVAMLEH NLRHIEHSLP HVAELALGGT AVGTGLNTHP
+     EYARRVAEEL ATITAAPFVT APNKFEALAT CDALVQAHGA LKGLAASLMK IANDVRWLAS
+     GPRCGIGEIA IPENEPGSSI MPGKVNPTQC EAVTMLCCQV MGNDVAINMG GASGNFELNV
+     YRPMVIHNFL QTVRLLADGM ASFNQHCASG IEPNRERITQ LLNESLMLVT ALNTHIGYDK
+     AAEIAKKAHK EGLTLKASAV ALGYLSDAEF DAWVRPELMV GSMTPGR
+//

@@ -1,0 +1,92 @@
+ID   COAE_STRA5              Reviewed;         195 AA.
+AC   Q8DYJ2;
+DT   16-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 109.
+DE   RecName: Full=Dephospho-CoA kinase {ECO:0000255|HAMAP-Rule:MF_00376};
+DE            EC=2.7.1.24 {ECO:0000255|HAMAP-Rule:MF_00376};
+DE   AltName: Full=Dephosphocoenzyme A kinase {ECO:0000255|HAMAP-Rule:MF_00376};
+GN   Name=coaE {ECO:0000255|HAMAP-Rule:MF_00376};
+GN   OrderedLocusNames=SAG1488;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the 3'-hydroxyl group of
+CC       dephosphocoenzyme A to form coenzyme A. {ECO:0000255|HAMAP-
+CC       Rule:MF_00376}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3'-dephospho-CoA + ATP = ADP + CoA + H(+);
+CC         Xref=Rhea:RHEA:18245, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57328, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.24; Evidence={ECO:0000255|HAMAP-Rule:MF_00376};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 5/5. {ECO:0000255|HAMAP-Rule:MF_00376}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00376}.
+CC   -!- SIMILARITY: Belongs to the CoaE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00376}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN00355.1; -; Genomic_DNA.
+DR   RefSeq; NP_688482.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DYJ2; -.
+DR   SMR; Q8DYJ2; -.
+DR   STRING; 208435.SAG1488; -.
+DR   KEGG; sag:SAG1488; -.
+DR   PATRIC; fig|208435.3.peg.1498; -.
+DR   HOGENOM; CLU_057180_0_0_9; -.
+DR   OrthoDB; 9812943at2; -.
+DR   UniPathway; UPA00241; UER00356.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004140; F:dephospho-CoA kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02022; DPCK; 1.
+DR   FunFam; 3.40.50.300:FF:000991; Dephospho-CoA kinase; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00376; Dephospho_CoA_kinase; 1.
+DR   InterPro; IPR001977; Depp_CoAkinase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00152; dephospho-CoA kinase; 1.
+DR   PANTHER; PTHR10695:SF46; BIFUNCTIONAL COENZYME A SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR10695; DEPHOSPHO-COA KINASE-RELATED; 1.
+DR   Pfam; PF01121; CoaE; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51219; DPCK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..195
+FT                   /note="Dephospho-CoA kinase"
+FT                   /id="PRO_0000173008"
+FT   DOMAIN          4..195
+FT                   /note="DPCK"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00376"
+FT   BINDING         12..17
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00376"
+SQ   SEQUENCE   195 AA;  22418 MW;  8AF119C37D655478 CRC64;
+     MTKIIGLTGG IASGKSTVTK IIRESGFKVI DADQVVHKLQ AKGGKLYQAL LEWLGPEILD
+     ADGELDRPKL SQMIFANPDN MKTSARLQNS IIRQELACQR DQLKQTEEIF FMDIPLLIEE
+     KYIKWFDEIW LVFVDKEKQL QRLMARNNYS REEAELRLSH QMPLTDKKSF ASLIIDNNGD
+     LITLKEQILD ALQRL
+//

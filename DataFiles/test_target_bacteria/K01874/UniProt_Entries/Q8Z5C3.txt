@@ -1,0 +1,173 @@
+ID   SYM_SALTI               Reviewed;         677 AA.
+AC   Q8Z5C3;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   05-FEB-2025, entry version 155.
+DE   RecName: Full=Methionine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            EC=6.1.1.10 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE   AltName: Full=Methionyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            Short=MetRS {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   Name=metG {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   OrderedLocusNames=STY2384, t0701;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Is required not only for elongation of protein synthesis but
+CC       also for the initiation of all mRNA translation through initiator
+CC       tRNA(fMet) aminoacylation. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Met) + L-methionine + ATP = L-methionyl-tRNA(Met) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667, Rhea:RHEA-
+CC         COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78530, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.10; Evidence={ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00098};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       MetG type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02534.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68398.1; -; Genomic_DNA.
+DR   RefSeq; NP_456714.1; NC_003198.1.
+DR   RefSeq; WP_000195338.1; NZ_WSUR01000002.1.
+DR   AlphaFoldDB; Q8Z5C3; -.
+DR   SMR; Q8Z5C3; -.
+DR   STRING; 220341.gene:17586289; -.
+DR   KEGG; stt:t0701; -.
+DR   KEGG; sty:STY2384; -.
+DR   PATRIC; fig|220341.7.peg.2408; -.
+DR   eggNOG; COG0073; Bacteria.
+DR   eggNOG; COG0143; Bacteria.
+DR   HOGENOM; CLU_009710_7_0_6; -.
+DR   OMA; NMFLPDR; -.
+DR   OrthoDB; 9810191at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07957; Anticodon_Ia_Met; 1.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   CDD; cd02800; tRNA_bind_EcMetRS_like; 1.
+DR   FunFam; 1.10.730.10:FF:000005; Methionine--tRNA ligase; 1.
+DR   FunFam; 2.20.28.20:FF:000001; Methionine--tRNA ligase; 1.
+DR   FunFam; 2.40.50.140:FF:000042; Methionine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 2.20.28.20; Methionyl-tRNA synthetase, Zn-domain; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_00098; Met_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR041872; Anticodon_Met.
+DR   InterPro; IPR004495; Met-tRNA-synth_bsu_C.
+DR   InterPro; IPR023458; Met-tRNA_ligase_1.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR029038; MetRS_Zn.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002547; tRNA-bd_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   NCBIfam; TIGR00398; metG; 1.
+DR   NCBIfam; TIGR00399; metG_C_term; 1.
+DR   PANTHER; PTHR45765; METHIONINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR45765:SF1; METHIONINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   Pfam; PF19303; Anticodon_3; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   Pfam; PF01588; tRNA_bind; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF57770; Methionyl-tRNA synthetase (MetRS), Zn-domain; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50886; TRBD; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding; tRNA-binding; Zinc.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..677
+FT                   /note="Methionine--tRNA ligase"
+FT                   /id="PRO_0000139161"
+FT   DOMAIN          575..677
+FT                   /note="tRNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   MOTIF           15..25
+FT                   /note="'HIGH' region"
+FT   MOTIF           333..337
+FT                   /note="'KMSKS' region"
+FT   BINDING         146
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         149
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         159
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         162
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         336
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   CONFLICT        667
+FT                   /note="D -> N (in Ref. 2; AAO68398)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   677 AA;  76274 MW;  358DD5D9544E7F8F CRC64;
+     MTQVAKKILV TCALPYANGS IHLGHMLEHI QADVWVRYQR MRGHEVNFIC ADDAHGTPIM
+     LKAQQLGITP EQMIGEMSQE HQTDFAGFNI SYDNYHSTHS DENRELSELI YTRLKENGFI
+     KNRTISQLYD PEKGMFLPDR FVKGTCPKCK SADQYGDNCE VCGATYSPTE LIEPKSVVSG
+     ATPVMRDSEH FFFDLPSFSE MLQAWTRSGA LQEQVANKMQ EWFESGLQQW DISRDAPYFG
+     FEIPNAPGKY FYVWLDAPIG YMGSFKNLCD KRGDTTSFDE YWKKDSDAEL YHFIGKDIVY
+     FHSLFWPAML EGSHFRKPTN LFVHGYVTVN GAKMSKSRGT FIKASTWLKH FDADSLRYYY
+     TAKLSSRIDD IDLNLEDFVQ RVNADIVNKV VNLASRNAGF INKRFDGVLA AELADPQLYK
+     TFTDAAAVIG EAWESREFGK AIREIMALAD VANRYVDEQA PWVVAKQEGR DADLQAICSM
+     GINLFRVLMT YLKPVLPTLS ERVEAFLNSE LNWDAIEQPL LSHKVNTFKA LYNRIDMKQV
+     EALVEASKEE VKAAAAPVTG PLADFPIQET ITFDDFAKID LRVALIENAE FVDGSDKLLR
+     LTLDLGGEKR NVFSGIRSAY PDPQALIGRQ TVMVANLAPR KMRFGVSEGM VMAAGPGGKD
+     IFLLSPDDGA KPGQQVK
+//

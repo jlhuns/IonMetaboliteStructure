@@ -1,0 +1,114 @@
+ID   A0AAF0BQW2_RHOPA        Unreviewed;       452 AA.
+AC   A0AAF0BQW2;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=Trigger factor {ECO:0000256|HAMAP-Rule:MF_00303, ECO:0000256|RuleBase:RU003914};
+DE            Short=TF {ECO:0000256|HAMAP-Rule:MF_00303};
+DE            EC=5.2.1.8 {ECO:0000256|HAMAP-Rule:MF_00303};
+DE   AltName: Full=PPIase {ECO:0000256|HAMAP-Rule:MF_00303};
+GN   Name=tig {ECO:0000256|HAMAP-Rule:MF_00303,
+GN   ECO:0000313|EMBL:WCL93134.1};
+GN   ORFNames=TX73_015360 {ECO:0000313|EMBL:WCL93134.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL93134.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL93134.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Involved in protein export. Acts as a chaperone by
+CC       maintaining the newly synthesized protein in an open conformation.
+CC       Functions as a peptidyl-prolyl cis-trans isomerase.
+CC       {ECO:0000256|ARBA:ARBA00024849, ECO:0000256|HAMAP-Rule:MF_00303}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000971, ECO:0000256|HAMAP-
+CC         Rule:MF_00303, ECO:0000256|PROSITE-ProRule:PRU00277};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00303}.
+CC       Note=About half TF is bound to the ribosome near the polypeptide exit
+CC       tunnel while the other half is free in the cytoplasm.
+CC       {ECO:0000256|HAMAP-Rule:MF_00303}.
+CC   -!- DOMAIN: Consists of 3 domains; the N-terminus binds the ribosome, the
+CC       middle domain has PPIase activity, while the C-terminus has intrinsic
+CC       chaperone activity on its own. {ECO:0000256|HAMAP-Rule:MF_00303}.
+CC   -!- SIMILARITY: Belongs to the FKBP-type PPIase family. Tig subfamily.
+CC       {ECO:0000256|ARBA:ARBA00005464, ECO:0000256|HAMAP-Rule:MF_00303,
+CC       ECO:0000256|RuleBase:RU003914}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL93134.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158511.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BQW2; -.
+DR   GeneID; 66894048; -.
+DR   KEGG; rpa:TX73_015360; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044183; F:protein folding chaperone; IEA:TreeGrafter.
+DR   GO; GO:0043022; F:ribosome binding; IEA:TreeGrafter.
+DR   GO; GO:0051083; P:'de novo' cotranslational protein folding; IEA:TreeGrafter.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0061077; P:chaperone-mediated protein folding; IEA:TreeGrafter.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043335; P:protein unfolding; IEA:TreeGrafter.
+DR   FunFam; 3.10.50.40:FF:000001; Trigger factor; 1.
+DR   Gene3D; 3.10.50.40; -; 1.
+DR   Gene3D; 3.30.70.1050; Trigger factor ribosome-binding domain; 1.
+DR   Gene3D; 1.10.3120.10; Trigger factor, C-terminal domain; 1.
+DR   HAMAP; MF_00303; Trigger_factor_Tig; 1.
+DR   InterPro; IPR046357; PPIase_dom_sf.
+DR   InterPro; IPR001179; PPIase_FKBP_dom.
+DR   InterPro; IPR005215; Trig_fac.
+DR   InterPro; IPR008880; Trigger_fac_C.
+DR   InterPro; IPR037041; Trigger_fac_C_sf.
+DR   InterPro; IPR008881; Trigger_fac_ribosome-bd_bac.
+DR   InterPro; IPR036611; Trigger_fac_ribosome-bd_sf.
+DR   InterPro; IPR027304; Trigger_fact/SurA_dom_sf.
+DR   NCBIfam; TIGR00115; tig; 1.
+DR   PANTHER; PTHR30560; TRIGGER FACTOR CHAPERONE AND PEPTIDYL-PROLYL CIS/TRANS ISOMERASE; 1.
+DR   PANTHER; PTHR30560:SF3; TRIGGER FACTOR-LIKE PROTEIN TIG, CHLOROPLASTIC; 1.
+DR   Pfam; PF00254; FKBP_C; 1.
+DR   Pfam; PF05698; Trigger_C; 1.
+DR   Pfam; PF05697; Trigger_N; 1.
+DR   PIRSF; PIRSF003095; Trigger_factor; 1.
+DR   SUPFAM; SSF54534; FKBP-like; 1.
+DR   SUPFAM; SSF109998; Triger factor/SurA peptide-binding domain-like; 1.
+DR   SUPFAM; SSF102735; Trigger factor ribosome-binding domain; 1.
+DR   PROSITE; PS50059; FKBP_PPIASE; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00303};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00303};
+KW   Chaperone {ECO:0000256|ARBA:ARBA00023186, ECO:0000256|HAMAP-Rule:MF_00303};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00303};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_00303};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Rotamase {ECO:0000256|ARBA:ARBA00023110, ECO:0000256|HAMAP-Rule:MF_00303}.
+FT   DOMAIN          171..256
+FT                   /note="PPIase FKBP-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS50059"
+SQ   SEQUENCE   452 AA;  50097 MW;  9DCE13323ABB5800 CRC64;
+     MQVKETVADG LKREFQVNVP AADIDAKIDE KLADLKDKVR LNGFRPGKVP TAHLKRVYGR
+     SVAAETIDKL VRDTNDGIFS ERGFRLATEP KITMPQDQKE IEDILEGKSD LTYTVAIEVV
+     PAIELADFKS FSVEKPVVDV ADSDVDEAIK RIADANRAYA DKAEGAKAET GDRVTVSFKG
+     TIDGVAFDGG TGEDIPVVIG SASFIPGFED QLVGIAVGET RTIKVTFPAN YASETLAGKP
+     AEFETTATKL EAPQETTIDD EFAKTLGLES LDKLKEAAKA RLAAEYAGAS RLKVKRQLLD
+     RLDEAHKFDA PPSLIEQEFE VMWRSINAEM QSTGKTFADE NTTEDAAKEE YRKIADRRVR
+     LGLVLSEIGE KNKIQVTDDE VSRAVIERAR QMPGREKEVW DFYRSNPEAL AQLRAPIYED
+     KVVDFILELA NVTEKKVTRE ELYKDEDDKT AA
+//

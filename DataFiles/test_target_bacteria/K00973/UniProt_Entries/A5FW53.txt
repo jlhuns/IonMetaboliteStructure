@@ -1,0 +1,84 @@
+ID   A5FW53_ACICJ            Unreviewed;       293 AA.
+AC   A5FW53;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 94.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+DE            EC=2.7.7.24 {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+GN   OrderedLocusNames=Acry_0613 {ECO:0000313|EMBL:ABQ29835.1}, Acry_1215
+GN   {ECO:0000313|EMBL:ABQ30426.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ29835.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ29835.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ29835.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000256|RuleBase:RU003706}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + alpha-D-glucose 1-phosphate + H(+) = dTDP-alpha-D-
+CC         glucose + diphosphate; Xref=Rhea:RHEA:15225, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37568, ChEBI:CHEBI:57477,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.24;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049336,
+CC         ECO:0000256|RuleBase:RU003706};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate thymidylyltransferase
+CC       family. {ECO:0000256|ARBA:ARBA00010480, ECO:0000256|RuleBase:RU003706}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ29835.1; -; Genomic_DNA.
+DR   EMBL; CP000697; ABQ30426.1; -; Genomic_DNA.
+DR   RefSeq; WP_011941645.1; NC_009484.1.
+DR   AlphaFoldDB; A5FW53; -.
+DR   STRING; 349163.Acry_0613; -.
+DR   KEGG; acr:Acry_0613; -.
+DR   KEGG; acr:Acry_1215; -.
+DR   eggNOG; COG1209; Bacteria.
+DR   HOGENOM; CLU_029499_9_0_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   CDD; cd02538; G1P_TT_short; 1.
+DR   FunFam; 3.90.550.10:FF:000023; Glucose-1-phosphate thymidylyltransferase; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   NCBIfam; TIGR01207; rmlA; 1.
+DR   PANTHER; PTHR43532; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43532:SF1; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE 1; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|RuleBase:RU003706};
+KW   Metal-binding {ECO:0000256|RuleBase:RU003706};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU003706};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Transferase {ECO:0000256|RuleBase:RU003706, ECO:0000313|EMBL:ABQ29835.1}.
+FT   DOMAIN          4..240
+FT                   /note="Nucleotidyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00483"
+SQ   SEQUENCE   293 AA;  31659 MW;  920078CD85C73B4B CRC64;
+     MIRKGIILAG GSGTRLHPST LAASKQLLPV YDKPMVYYPL STLLLAGIRD LLLISTPQDL
+     PQFRRLLGDG GQYGIRIGYA AQPSPDGLAQ AFLIGADWLA GEACALALGD NLIHADHLSL
+     ALRQAAGREA GATVFAYQVR DPERYGVVTF DSAGRAIDIV EKPAAPASSW AVTGLYFYDR
+     RVTEFARRIR PSARGELEIT DLNRLYLDDG SLAVERLGRG TAWLDAGTPD SLLQAATFVQ
+     TIQARQGQLV GCPEEVAFRM GFIDADTLRR HAARLGKTEL GRVLRELADG EAA
+//

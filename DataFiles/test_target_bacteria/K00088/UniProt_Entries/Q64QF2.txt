@@ -1,0 +1,123 @@
+ID   Q64QF2_BACFR            Unreviewed;       497 AA.
+AC   Q64QF2;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   SubName: Full=Inosine-5'-monophosphate dehydrogenase {ECO:0000313|EMBL:BAD50279.1};
+GN   OrderedLocusNames=BF3536 {ECO:0000313|EMBL:BAD50279.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50279.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50279.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50279.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + NAD(+) + H2O = XMP + NADH + H(+); Xref=Rhea:RHEA:11708,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57464,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58053;
+CC         EC=1.1.1.205; Evidence={ECO:0000256|ARBA:ARBA00048028};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001958};
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family.
+CC       {ECO:0000256|ARBA:ARBA00005502}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50279.1; -; Genomic_DNA.
+DR   RefSeq; WP_005802512.1; NC_006347.1.
+DR   RefSeq; YP_100813.1; NC_006347.1.
+DR   AlphaFoldDB; Q64QF2; -.
+DR   STRING; 295405.BF3536; -.
+DR   KEGG; bfr:BF3536; -.
+DR   PATRIC; fig|295405.11.peg.3396; -.
+DR   HOGENOM; CLU_022552_2_1_10; -.
+DR   OrthoDB; 9805398at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd04601; CBS_pair_IMPDH; 1.
+DR   CDD; cd00381; IMPDH; 1.
+DR   FunFam; 3.20.20.70:FF:000424; Inosine-5'-monophosphate dehydrogenase 2; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR046342; CBS_dom_sf.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   PANTHER; PTHR11911:SF111; INOSINE-5'-MONOPHOSPHATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR11911; INOSINE-5-MONOPHOSPHATE DEHYDROGENASE RELATED; 1.
+DR   Pfam; PF00571; CBS; 1.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   SMART; SM01240; IMPDH; 1.
+DR   SUPFAM; SSF54631; CBS-domain pair; 1.
+DR   SUPFAM; SSF51412; Inosine monophosphate dehydrogenase (IMPDH); 1.
+DR   PROSITE; PS51371; CBS; 2.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   CBS domain {ECO:0000256|ARBA:ARBA00023122, ECO:0000256|PROSITE-
+KW   ProRule:PRU00703}; GMP biosynthesis {ECO:0000256|ARBA:ARBA00022749};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRSR:PIRSR000130-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002};
+KW   Potassium {ECO:0000256|ARBA:ARBA00022958, ECO:0000256|PIRSR:PIRSR000130-4};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755}.
+FT   DOMAIN          103..166
+FT                   /note="CBS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51371"
+FT   DOMAIN          167..225
+FT                   /note="CBS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51371"
+FT   BINDING         261..263
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         312..314
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-3"
+FT   BINDING         314
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         316
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+FT   BINDING         319
+FT                   /ligand="K(+)"
+FT                   /ligand_id="ChEBI:CHEBI:29103"
+FT                   /ligand_note="ligand shared between two tetrameric
+FT                   partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000130-4"
+SQ   SEQUENCE   497 AA;  54558 MW;  9F2781127C8A758D CRC64;
+     MAVYVEEVSR TFGEYLLIPG LTTKQCVPSN VSLRTPLVKH AAGTQAAIEL NIPFVSAIMQ
+     SVSGPELAIE LARNGGLSFI FGSQPIASQA EMVRKVKKFK AGFVTSDSNL TPEHTLEDVL
+     RLLRQTGHST IGITDDGSPN GHLLGLVTSR DYRISRDPLD KKIKDFMTPF EKLIVGEVGL
+     TLSEANQIIW DHKLNTLPII DKEGRLAYFV FRKDYDSHKE NPNEVSSPDK KLLVGAGINT
+     RDYQERVPAL VEAGVDVLCI DSSDGYSEWQ YETLQWIKQQ YGDKVLVGAG NVVDKEGFLY
+     LAEAGADFVK VGIGGGSICI TREQKGIGRG QATALQDVAR ARDEYQARTG IYVPICSDGG
+     LVHDYHMVLA LAMGADFLMM GRYFARFDES PTKKLCIKNN YVKEYWGEGS NRAQNWQRYD
+     MGGTESLKFE EGVDSYVPYA GKMKDNLAAT LSKIKATMCS CGAVTIPDLQ QNAKITLVSS
+     TSIVEGGAHD VILKEKG
+//

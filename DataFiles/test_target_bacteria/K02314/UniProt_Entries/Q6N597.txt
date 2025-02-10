@@ -1,0 +1,134 @@
+ID   Q6N597_RHOPA            Unreviewed;       498 AA.
+AC   Q6N597;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Replicative DNA helicase {ECO:0000256|NCBIfam:TIGR00665, ECO:0000256|RuleBase:RU362085};
+DE            EC=5.6.2.3 {ECO:0000256|NCBIfam:TIGR00665, ECO:0000256|RuleBase:RU362085};
+GN   Name=dnaB {ECO:0000313|EMBL:CAE28525.1};
+GN   OrderedLocusNames=RPA3084 {ECO:0000313|EMBL:CAE28525.1};
+GN   ORFNames=TX73_015955 {ECO:0000313|EMBL:WCL93249.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28525.1};
+RN   [1] {ECO:0000313|EMBL:WCL93249.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93249.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28525.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28525.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93249.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93249.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The main replicative DNA helicase, it participates in
+CC       initiation and elongation during chromosome replication. Travels ahead
+CC       of the DNA replisome, separating dsDNA into templates for DNA
+CC       synthesis. A processive ATP-dependent 5'-3' DNA helicase it has DNA-
+CC       dependent ATPase activity. {ECO:0000256|ARBA:ARBA00044932,
+CC       ECO:0000256|RuleBase:RU362085}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=5.6.2.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048954,
+CC         ECO:0000256|RuleBase:RU362085};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Couples ATP hydrolysis with the unwinding of duplex DNA at the
+CC         replication fork by translocating in the 5'-3' direction. This
+CC         creates two antiparallel DNA single strands (ssDNA). The leading
+CC         ssDNA polymer is the template for DNA polymerase III holoenzyme which
+CC         synthesizes a continuous strand.; EC=5.6.2.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044875,
+CC         ECO:0000256|RuleBase:RU362085};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000256|ARBA:ARBA00011643}.
+CC   -!- SIMILARITY: Belongs to the helicase family. DnaB subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008428, ECO:0000256|RuleBase:RU362085}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572602; CAE28525.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93249.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158629.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3084; -.
+DR   GeneID; 66894166; -.
+DR   KEGG; rpa:TX73_015955; -.
+DR   eggNOG; COG0305; Bacteria.
+DR   HOGENOM; CLU_005373_0_2_5; -.
+DR   PhylomeDB; Q6N597; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:1990077; C:primosome complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036121; F:double-stranded DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061749; F:forked DNA-dependent helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009378; F:four-way junction helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:1990518; F:single-stranded 3'-5' DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006269; P:DNA replication, synthesis of primer; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006268; P:DNA unwinding involved in DNA replication; IEA:TreeGrafter.
+DR   CDD; cd00984; DnaB_C; 1.
+DR   FunFam; 3.40.50.300:FF:000076; Replicative DNA helicase; 1.
+DR   Gene3D; 1.10.860.10; DNAb Helicase, Chain A; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR036185; DNA_heli_DnaB-like_N_sf.
+DR   InterPro; IPR007692; DNA_helicase_DnaB.
+DR   InterPro; IPR007694; DNA_helicase_DnaB-like_C.
+DR   InterPro; IPR007693; DNA_helicase_DnaB-like_N.
+DR   InterPro; IPR016136; DNA_helicase_N/primase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00665; DnaB; 1.
+DR   PANTHER; PTHR30153:SF2; REPLICATIVE DNA HELICASE; 1.
+DR   PANTHER; PTHR30153; REPLICATIVE DNA HELICASE DNAB; 1.
+DR   Pfam; PF00772; DnaB; 1.
+DR   Pfam; PF03796; DnaB_C; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF48024; N-terminal domain of DnaB helicase; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51199; SF4_HELICASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|RuleBase:RU362085};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705,
+KW   ECO:0000256|RuleBase:RU362085};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|RuleBase:RU362085};
+KW   Helicase {ECO:0000256|ARBA:ARBA00022806, ECO:0000256|RuleBase:RU362085};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU362085};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|RuleBase:RU362085};
+KW   Primosome {ECO:0000256|ARBA:ARBA00022515, ECO:0000256|RuleBase:RU362085};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          195..492
+FT                   /note="SF4 helicase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51199"
+SQ   SEQUENCE   498 AA;  54629 MW;  0EE13C5C375E66AD CRC64;
+     MAASDSNVLK LAPEPGAPAF RTAPHNIEAE QALLGAILVN NDAFYRVSDF LEPKHFFEPI
+     HQTIFETAAS IIRAGKVATP VTLKTFLAAD LDLGGLTVAQ YLARLAAEAT TIINAQDYGR
+     TIYELSLRRD LIGIGTDMVN VAFDAPVDFA PKNQIEDAER RLYELAESGR YDGGFQKFSQ
+     ALTTAVDMAA KAFQRDGKLS GISTGLRDLD TRMGGLQHSD LIVLAGRPGM GKTALATNIA
+     YNVAKAYRGE VQPDGSTKTV NGGIVGFFSC EMSAEQLATR ILAEQAEIAS SKIRRGGISE
+     ADFDKLRDVS IELQSLPLFV DETGGLSIAQ LTARARRLKR QKGLDMIVVD YIQLLQGSSK
+     KGDNRVQEVT EITTSLKALA KELNVPVIAL SQLSRQVESR DDKRPQLSDL RESGSIEQDA
+     DVVIFVFREE YYLQNKEPRP GTPEHEKWAT DMELVHGKAE VIIAKQRHGP TGTVDLQFEG
+     QYTRFSDLTD DSHLPERI
+//

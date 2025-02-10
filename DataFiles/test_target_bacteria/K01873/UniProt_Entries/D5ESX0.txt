@@ -1,0 +1,151 @@
+ID   D5ESX0_XYLR2            Unreviewed;       902 AA.
+AC   D5ESX0;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Valine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_02004};
+DE            EC=6.1.1.9 {ECO:0000256|HAMAP-Rule:MF_02004};
+DE   AltName: Full=Valyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02004};
+DE            Short=ValRS {ECO:0000256|HAMAP-Rule:MF_02004};
+GN   Name=valS {ECO:0000256|HAMAP-Rule:MF_02004,
+GN   ECO:0000313|EMBL:ADE81852.1};
+GN   OrderedLocusNames=PRU_1414 {ECO:0000313|EMBL:ADE81852.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81852.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81852.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the attachment of valine to tRNA(Val). As ValRS can
+CC       inadvertently accommodate and process structurally similar amino acids
+CC       such as threonine, to avoid such errors, it has a 'posttransfer'
+CC       editing activity that hydrolyzes mischarged Thr-tRNA(Val) in a tRNA-
+CC       dependent manner. {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Val) + L-valine + ATP = L-valyl-tRNA(Val) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:10704, Rhea:RHEA-COMP:9672, Rhea:RHEA-
+CC         COMP:9708, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57762,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78537, ChEBI:CHEBI:456215; EC=6.1.1.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047552, ECO:0000256|HAMAP-
+CC         Rule:MF_02004};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: The C-terminal coiled-coil domain is crucial for aminoacylation
+CC       activity. {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: ValRS has two distinct active sites: one for aminoacylation and
+CC       one for editing. The misactivated threonine is translocated from the
+CC       active site to the editing site. {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       ValS type 1 subfamily. {ECO:0000256|HAMAP-Rule:MF_02004}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81852.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063839.1; NC_014033.1.
+DR   AlphaFoldDB; D5ESX0; -.
+DR   STRING; 264731.PRU_1414; -.
+DR   KEGG; pru:PRU_1414; -.
+DR   eggNOG; COG0525; Bacteria.
+DR   HOGENOM; CLU_001493_0_2_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004832; F:valine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006438; P:valyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07962; Anticodon_Ia_Val; 1.
+DR   CDD; cd00817; ValRS_core; 1.
+DR   FunFam; 1.10.287.380:FF:000001; Valine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000032; Valine--tRNA ligase; 1.
+DR   FunFam; 3.90.740.10:FF:000015; Valine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 1.10.287.380; Valyl-tRNA synthetase, C-terminal domain; 1.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   HAMAP; MF_02004; Val_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR033705; Anticodon_Ia_Val.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR037118; Val-tRNA_synth_C_sf.
+DR   InterPro; IPR019499; Val-tRNA_synth_tRNA-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   InterPro; IPR002303; Valyl-tRNA_ligase.
+DR   NCBIfam; TIGR00422; valS; 1.
+DR   PANTHER; PTHR11946:SF109; VALINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR11946; VALYL-TRNA SYNTHETASES; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF10458; Val_tRNA-synt_C; 1.
+DR   PRINTS; PR00986; TRNASYNTHVAL.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_02004};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_02004};
+KW   Coiled coil {ECO:0000256|ARBA:ARBA00023054, ECO:0000256|HAMAP-
+KW   Rule:MF_02004};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_02004};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_02004};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_02004};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_02004}; Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          15..592
+FT                   /note="Aminoacyl-tRNA synthetase class Ia"
+FT                   /evidence="ECO:0000259|Pfam:PF00133"
+FT   DOMAIN          634..782
+FT                   /note="Methionyl/Valyl/Leucyl/Isoleucyl-tRNA synthetase
+FT                   anticodon-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF08264"
+FT   DOMAIN          835..900
+FT                   /note="Valyl-tRNA synthetase tRNA-binding arm"
+FT                   /evidence="ECO:0000259|Pfam:PF10458"
+FT   COILED          446..473
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02004"
+FT   MOTIF           43..53
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02004"
+FT   MOTIF           554..558
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02004"
+FT   BINDING         557
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02004"
+SQ   SEQUENCE   902 AA;  103298 MW;  8CB1B59B42E308A3 CRC64;
+     MELASKYDPK EVESKWYQYW LDNKLFASKP DGRQPYTIVI PPPNVTGVLH MGHMLNNTIQ
+     DILVRRARME GKNACWVPGT DHASIATEAK VVKKLAGEGI KKRDLTREQF LKHAWDWTDE
+     HGGIILKQLR RLGASCDWDR TAFTMDETRS KSVIKVFVDL YNKGLIYRGL RMVNWDPKAL
+     TALSTEEVIY KEEKSHLFHL KYYVDGLTTL ENEEALKAEG NIIHKDEKGY YAVVATTRPE
+     TIMGDTAMCI NPKDAKNQWL KGRKVIVPLV GRVIPVIEDR YVDIEFGTGC LKVTPAHDTN
+     DYMLGKTHNL ETIDIFNPDG TISEQSPLYV GMDRMDCRKQ ISKDLQEAGL MERIEDYINK
+     VGYSERNPDT AIEPRLSLQW FLKMQHFADI ALPPVMNDEL KFYPAKYKNT YKNWLENIQD
+     WCISRQLWWG HRIPAYYYDE EKFVVAETAE EALELARKES GNANLQMSDL KQDEDALDTW
+     FSSWLWPISL FDGINTPGNE EIKYYYPTSD LVTGPDIIFF WVARMIMAGE EYMGTFPFKN
+     VYFTGIVRDK LGRKMSKSLG NSPDPIELIE KFGADGVRMG MMLSAPAGND ILFDEALCEQ
+     GRNFNNKIWN AFRLVKGWKV ADIEQAEAGK IATKWFEAKL KQTNAEVEDL FKKYRISEAL
+     MAVYKLFWDE FSSWYLEMVK PAYINGEPLP IDKATYDKTL EFFEILLKML HPFMPFITEE
+     LWQHLYDRKD GESIMKVSLK LDAPTKADEE LAAQIENVKQ IVSGVRMVRN QKNIAPKEQL
+     DLQVVSKNDY AAFDAVTIKM ANLKSINVVT EKDATASAFM VGTDEFAVPV GDMIDVEAEI
+     AKMEAQLQHL EGFLAGVKKK LSNERFVANA PEAVVALERK KQSDSEEKIA ALKESIAALK
+     NK
+//

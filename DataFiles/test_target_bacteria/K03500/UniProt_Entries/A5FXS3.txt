@@ -1,0 +1,91 @@
+ID   A5FXS3_ACICJ            Unreviewed;       426 AA.
+AC   A5FXS3;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 84.
+DE   SubName: Full=Fmu (Sun) domain protein {ECO:0000313|EMBL:ABQ30405.1};
+GN   OrderedLocusNames=Acry_1193 {ECO:0000313|EMBL:ABQ30405.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ30405.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ30405.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ30405.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RsmB/NOP family. {ECO:0000256|ARBA:ARBA00007494,
+CC       ECO:0000256|PROSITE-ProRule:PRU01023}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|PROSITE-ProRule:PRU01023}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30405.1; -; Genomic_DNA.
+DR   RefSeq; WP_011942063.1; NC_009484.1.
+DR   AlphaFoldDB; A5FXS3; -.
+DR   STRING; 349163.Acry_1193; -.
+DR   KEGG; acr:Acry_1193; -.
+DR   eggNOG; COG0144; Bacteria.
+DR   HOGENOM; CLU_005316_0_2_5; -.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008173; F:RNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0001510; P:RNA methylation; IEA:InterPro.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR049560; MeTrfase_RsmB-F_NOP2_cat.
+DR   InterPro; IPR001678; MeTrfase_RsmB-F_NOP2_dom.
+DR   InterPro; IPR023267; RCMT.
+DR   InterPro; IPR054728; RsmB-like_ferredoxin.
+DR   InterPro; IPR018314; RsmB/NOL1/NOP2-like_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR22807; NOP2 YEAST -RELATED NOL1/NOP2/FMU SUN DOMAIN-CONTAINING; 1.
+DR   PANTHER; PTHR22807:SF53; RIBOSOMAL RNA SMALL SUBUNIT METHYLTRANSFERASE B-RELATED; 1.
+DR   Pfam; PF01189; Methyltr_RsmB-F; 1.
+DR   Pfam; PF22458; RsmF-B_ferredox; 1.
+DR   PRINTS; PR02008; RCMTFAMILY.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS01153; NOL1_NOP2_SUN; 1.
+DR   PROSITE; PS51686; SAM_MT_RSMB_NOP; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}; Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PROSITE-ProRule:PRU01023};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}.
+FT   DOMAIN          153..425
+FT                   /note="SAM-dependent MTase RsmB/NOP-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51686"
+FT   ACT_SITE        366
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         267
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         313
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+SQ   SEQUENCE   426 AA;  46597 MW;  9C554A0CEB895CDA CRC64;
+     MTPAGRLQAA IELLGTIEAD RRPADAIAND FLRTRRFIGG GDRREIGEIV WSVLRARRRL
+     GWWLERVGAE ATPRLLIASL RVLTGMPAPR VAGLFGVMRF APPPLDAAER RALDRLDTHT
+     LDHPSMPEAV RLEMPDFVLP LLRERFGDKL ESECAALMQP APLDLRVNLL KATREEALAA
+     LAAAGLKAEP TRLSPWGLRL PGRQNVTVAA PFRDGLVEIQ DEGSQLVALL AGAQPGMRVA
+     DYCAGAGGKT LALAMTMANK GHIIACDVSA PRLDGAIRRL RRAGVHNAER HLLESGDKWV
+     KRQEKKFDRV LVDAPCTGAG TWRRNPDARL KLTETDLAEL TAKQAAILDA AQRLVKPGGR
+     LVYATCSVLR PENEAQIESF LARHSDFAIV PVADGLPAYL HGDMLRLSPA RDGTDGFFAC
+     RMERRG
+//

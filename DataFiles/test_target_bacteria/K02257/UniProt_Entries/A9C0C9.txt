@@ -1,0 +1,133 @@
+ID   A9C0C9_DELAS            Unreviewed;       301 AA.
+AC   A9C0C9;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 93.
+DE   RecName: Full=Protoheme IX farnesyltransferase {ECO:0000256|HAMAP-Rule:MF_00154};
+DE            EC=2.5.1.141 {ECO:0000256|HAMAP-Rule:MF_00154};
+DE   AltName: Full=Heme B farnesyltransferase {ECO:0000256|HAMAP-Rule:MF_00154};
+DE   AltName: Full=Heme O synthase {ECO:0000256|HAMAP-Rule:MF_00154};
+GN   Name=ctaB {ECO:0000256|HAMAP-Rule:MF_00154};
+GN   OrderedLocusNames=Daci_4064 {ECO:0000313|EMBL:ABX36695.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX36695.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX36695.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Converts heme B (protoheme IX) to heme O by substitution of
+CC       the vinyl group on carbon 2 of heme B porphyrin ring with a
+CC       hydroxyethyl farnesyl side group. {ECO:0000256|HAMAP-Rule:MF_00154}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=heme b + (2E,6E)-farnesyl diphosphate + H2O = Fe(II)-heme o +
+CC         diphosphate; Xref=Rhea:RHEA:28070, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:60344, ChEBI:CHEBI:60530,
+CC         ChEBI:CHEBI:175763; EC=2.5.1.141;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047690, ECO:0000256|HAMAP-
+CC         Rule:MF_00154};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; heme O biosynthesis;
+CC       heme O from protoheme: step 1/1. {ECO:0000256|ARBA:ARBA00004919,
+CC       ECO:0000256|HAMAP-Rule:MF_00154}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_00154}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_00154}. Cell membrane {ECO:0000256|ARBA:ARBA00004651}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- MISCELLANEOUS: Carbon 2 of the heme B porphyrin ring is defined
+CC       according to the Fischer nomenclature. {ECO:0000256|HAMAP-
+CC       Rule:MF_00154}.
+CC   -!- SIMILARITY: Belongs to the UbiA prenyltransferase family. Protoheme IX
+CC       farnesyltransferase subfamily. {ECO:0000256|HAMAP-Rule:MF_00154}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36695.1; -; Genomic_DNA.
+DR   RefSeq; WP_012205889.1; NC_010002.1.
+DR   AlphaFoldDB; A9C0C9; -.
+DR   STRING; 398578.Daci_4064; -.
+DR   GeneID; 24114370; -.
+DR   KEGG; dac:Daci_4064; -.
+DR   eggNOG; COG0109; Bacteria.
+DR   HOGENOM; CLU_029631_0_2_4; -.
+DR   UniPathway; UPA00834; UER00712.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008495; F:protoheme IX farnesyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048034; P:heme O biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13957; PT_UbiA_Cox10; 1.
+DR   FunFam; 1.10.357.140:FF:000001; Protoheme IX farnesyltransferase; 1.
+DR   Gene3D; 1.10.357.140; UbiA prenyltransferase; 1.
+DR   HAMAP; MF_00154; CyoE_CtaB; 1.
+DR   InterPro; IPR006369; Protohaem_IX_farnesylTrfase.
+DR   InterPro; IPR000537; UbiA_prenyltransferase.
+DR   InterPro; IPR030470; UbiA_prenylTrfase_CS.
+DR   InterPro; IPR044878; UbiA_sf.
+DR   NCBIfam; TIGR01473; cyoE_ctaB; 1.
+DR   PANTHER; PTHR43448:SF7; 4-HYDROXYBENZOATE SOLANESYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43448; PROTOHEME IX FARNESYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF01040; UbiA; 1.
+DR   PROSITE; PS00943; UBIA; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|ARBA:ARBA00022519, ECO:0000256|HAMAP-
+KW   Rule:MF_00154};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00154};
+KW   Heme biosynthesis {ECO:0000256|ARBA:ARBA00023133, ECO:0000256|HAMAP-
+KW   Rule:MF_00154};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_00154};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00154};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_00154};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_00154}.
+FT   TRANSMEM        25..44
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        50..74
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        95..116
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        122..142
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        149..170
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        176..197
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        218..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        245..266
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        278..299
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00154"
+SQ   SEQUENCE   301 AA;  33497 MW;  3028B4B517D7D882 CRC64;
+     MSKQASLSVE PSRWTQFYAL TKPRVVQLIV FCALIGMVLA VPGWPNADQW LHMALACLGI
+     WLVAGAAAAF NCLVERHIDA RMKRTSWRPT ARGELSSQQA LAFSAILCTL GALVLLLCTN
+     PLTMWLTLAT FVGYAVIYTV ILKPATPQNI VIGGASGAMP PVLGWAAMTG QVGPEALILF
+     LIIFLWTPPH FWALALYRVE DYRQSGLPML PVTHGSEYTR LQILLYTVIL FAACMLPFMY
+     GMSSWLYLVV AVVLSVGFCA YAFALWRNYS DQLSRKTFRF SLIHLSVLFL ALLIDHYLWL
+     G
+//

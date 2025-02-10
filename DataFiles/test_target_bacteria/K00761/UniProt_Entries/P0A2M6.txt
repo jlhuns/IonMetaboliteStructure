@@ -1,0 +1,134 @@
+ID   UPP_SALTI               Reviewed;         208 AA.
+AC   P0A2M6; Q93A76;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Uracil phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01218};
+DE            EC=2.4.2.9 {ECO:0000255|HAMAP-Rule:MF_01218};
+DE   AltName: Full=UMP pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_01218};
+DE   AltName: Full=UPRTase {ECO:0000255|HAMAP-Rule:MF_01218};
+GN   Name=upp {ECO:0000255|HAMAP-Rule:MF_01218};
+GN   OrderedLocusNames=STY2739, t0359;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of uracil and 5-phospho-alpha-D-
+CC       ribose 1-diphosphate (PRPP) to UMP and diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01218}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UMP + diphosphate = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         uracil; Xref=Rhea:RHEA:13017, ChEBI:CHEBI:17568, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57865, ChEBI:CHEBI:58017; EC=2.4.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01218};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01218};
+CC       Note=Binds 1 Mg(2+) ion per subunit. The magnesium is bound as Mg-PRPP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01218};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01218}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via salvage pathway;
+CC       UMP from uracil: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01218}.
+CC   -!- SIMILARITY: Belongs to the UPRTase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01218}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02700.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68078.1; -; Genomic_DNA.
+DR   RefSeq; NP_457033.1; NC_003198.1.
+DR   RefSeq; WP_000706208.1; NZ_WSUR01000007.1.
+DR   AlphaFoldDB; P0A2M6; -.
+DR   SMR; P0A2M6; -.
+DR   STRING; 220341.gene:17586634; -.
+DR   KEGG; stt:t0359; -.
+DR   KEGG; sty:STY2739; -.
+DR   PATRIC; fig|220341.7.peg.2777; -.
+DR   eggNOG; COG0035; Bacteria.
+DR   HOGENOM; CLU_067096_2_2_6; -.
+DR   OMA; KHKIGLM; -.
+DR   OrthoDB; 9781675at2; -.
+DR   UniPathway; UPA00574; UER00636.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044206; P:UMP salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006223; P:uracil salvage; IEA:InterPro.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   FunFam; 3.40.50.2020:FF:000003; Uracil phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01218_B; Upp_B; 1.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR034332; Upp_B.
+DR   InterPro; IPR050054; UPRTase/APRTase.
+DR   InterPro; IPR005765; Ura_phspho_trans.
+DR   NCBIfam; TIGR01091; upp; 1.
+DR   PANTHER; PTHR32315; ADENINE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR32315:SF4; URACIL PHOSPHORIBOSYLTRANSFERASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; Glycosyltransferase; GTP-binding; Magnesium;
+KW   Nucleotide-binding; Transferase.
+FT   CHAIN           1..208
+FT                   /note="Uracil phosphoribosyltransferase"
+FT                   /id="PRO_0000120875"
+FT   BINDING         78
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         103
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         130..138
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         193
+FT                   /ligand="uracil"
+FT                   /ligand_id="ChEBI:CHEBI:17568"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         198..200
+FT                   /ligand="uracil"
+FT                   /ligand_id="ChEBI:CHEBI:17568"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+FT   BINDING         199
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01218"
+SQ   SEQUENCE   208 AA;  22533 MW;  3EE574788F2DEF5B CRC64;
+     MKIVEVKHPL VKHKLGLMRE NDISTKRFRE LASEVGSLLT YEATADLETE KVTIEGWNGP
+     VEIDQIKGKK ITVVPILRAG LGMMEGVLEN VPSARISVVG MYRNEETLEP VPYFQKLVSN
+     IDERMALIVD PMLATGGSVI ATIDLLKKAG CSSIKVLVLV AAPEGIAALE KAHPDVELYT
+     ASIDQGLNEH GYIIPGLGDA GDKIFGTK
+//

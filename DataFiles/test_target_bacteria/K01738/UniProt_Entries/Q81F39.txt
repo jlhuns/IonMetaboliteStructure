@@ -1,0 +1,106 @@
+ID   Q81F39_BACCR            Unreviewed;       303 AA.
+AC   Q81F39;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=Cysteine synthase {ECO:0000256|ARBA:ARBA00012681, ECO:0000256|RuleBase:RU003985};
+DE            EC=2.5.1.47 {ECO:0000256|ARBA:ARBA00012681, ECO:0000256|RuleBase:RU003985};
+GN   OrderedLocusNames=BC_1763 {ECO:0000313|EMBL:AAP08739.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08739.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08739.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-acetyl-L-serine + hydrogen sulfide = L-cysteine + acetate;
+CC         Xref=Rhea:RHEA:14829, ChEBI:CHEBI:29919, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:58340; EC=2.5.1.47;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047931,
+CC         ECO:0000256|RuleBase:RU003985};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR605856-50, ECO:0000256|RuleBase:RU003985};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-cysteine biosynthesis; L-cysteine
+CC       from L-serine: step 2/2. {ECO:0000256|ARBA:ARBA00004962}.
+CC   -!- SIMILARITY: Belongs to the cysteine synthase/cystathionine beta-
+CC       synthase family. {ECO:0000256|ARBA:ARBA00007103,
+CC       ECO:0000256|RuleBase:RU003985}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08739.1; -; Genomic_DNA.
+DR   RefSeq; NP_831538.1; NC_004722.1.
+DR   AlphaFoldDB; Q81F39; -.
+DR   KEGG; bce:BC1763; -.
+DR   PATRIC; fig|226900.8.peg.1752; -.
+DR   HOGENOM; CLU_021018_1_0_9; -.
+DR   UniPathway; UPA00136; UER00200.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004124; F:cysteine synthase activity; IBA:GO_Central.
+DR   GO; GO:0080146; F:L-cysteine desulfhydrase activity; IBA:GO_Central.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IBA:GO_Central.
+DR   CDD; cd01561; CBS_like; 1.
+DR   FunFam; 3.40.50.1100:FF:000006; Cysteine synthase; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR005856; Cys_synth.
+DR   InterPro; IPR050214; Cys_Synth/Cystath_Beta-Synth.
+DR   InterPro; IPR005859; CysK.
+DR   InterPro; IPR001216; P-phosphate_BS.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR01139; cysK; 1.
+DR   NCBIfam; TIGR01136; cysKM; 1.
+DR   PANTHER; PTHR10314; CYSTATHIONINE BETA-SYNTHASE; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS00901; CYS_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU003985};
+KW   Cysteine biosynthesis {ECO:0000256|ARBA:ARBA00023192,
+KW   ECO:0000256|RuleBase:RU003985};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR605856-50};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003985}.
+FT   DOMAIN          5..291
+FT                   /note="Tryptophan synthase beta chain-like PALP"
+FT                   /evidence="ECO:0000259|Pfam:PF00291"
+FT   BINDING         72
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         176..180
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   BINDING         264
+FT                   /ligand="pyridoxal 5'-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:597326"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-50"
+FT   MOD_RES         42
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605856-51"
+SQ   SEQUENCE   303 AA;  32511 MW;  793ED06375BFE17A CRC64;
+     MCENVTELIG DTPVVRLSKF IPEDAADVYV KLEMFNPSRS VKDRAAYNLL HVAEENGLIK
+     PGDTIIEPTS GNTGIGLAMN AAAKGYKAIL IMPDNMSKER INLLKAYGAE VVLTPAEQRM
+     PGAIAKALEL QKQIPNSFIP QQFENPANPN IHRYTTALEI YEQMDGELDA FVATAGTGGT
+     ITGTGETLKE KLPNLYIAVV EPKGSPVLSG GVPGPHKLVG TSPGFIPKNL NTEVYNEIIQ
+     IADEEALTTM RNLARQEGLL VGPSSGASVY AAIMIAKRLG VGKKVLCIAP DTGERYLSMG
+     LFE
+//

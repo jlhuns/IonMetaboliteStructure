@@ -1,0 +1,124 @@
+ID   NUOH_CAMJE              Reviewed;         332 AA.
+AC   Q9PMA3; Q0P856;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 119.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NADH dehydrogenase I subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NDH-1 subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   Name=nuoH {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   OrderedLocusNames=Cj1572c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. This subunit may bind ubiquinone.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000255|HAMAP-Rule:MF_01350};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01350}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01350}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35669.1; -; Genomic_DNA.
+DR   PIR; B81252; B81252.
+DR   RefSeq; WP_002851149.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344941.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PMA3; -.
+DR   SMR; Q9PMA3; -.
+DR   STRING; 192222.Cj1572c; -.
+DR   TCDB; 3.D.1.7.1; the h+ or na+-translocating nadh dehydrogenase (ndh) family.
+DR   PaxDb; 192222-Cj1572c; -.
+DR   EnsemblBacteria; CAL35669; CAL35669; Cj1572c.
+DR   GeneID; 905843; -.
+DR   KEGG; cje:Cj1572c; -.
+DR   PATRIC; fig|192222.6.peg.1548; -.
+DR   eggNOG; COG1005; Bacteria.
+DR   HOGENOM; CLU_015134_0_1_7; -.
+DR   OrthoDB; 9803734at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009060; P:aerobic respiration; IEA:TreeGrafter.
+DR   HAMAP; MF_01350; NDH1_NuoH; 1.
+DR   InterPro; IPR001694; NADH_UbQ_OxRdtase_su1/FPO.
+DR   InterPro; IPR018086; NADH_UbQ_OxRdtase_su1_CS.
+DR   PANTHER; PTHR11432; NADH DEHYDROGENASE SUBUNIT 1; 1.
+DR   PANTHER; PTHR11432:SF3; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 1; 1.
+DR   Pfam; PF00146; NADHdh; 1.
+DR   PROSITE; PS00667; COMPLEX1_ND1_1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone;
+KW   Reference proteome; Translocase; Transmembrane; Transmembrane helix;
+KW   Ubiquinone.
+FT   CHAIN           1..332
+FT                   /note="NADH-quinone oxidoreductase subunit H"
+FT                   /id="PRO_0000240061"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        44..64
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        78..98
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        120..140
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        165..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        194..214
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        255..275
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        279..299
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        312..332
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+SQ   SEQUENCE   332 AA;  36707 MW;  965E6996317F63FE CRC64;
+     MSDFAFFALE TLIKCIIIIA IFASLAGLAT YAERKVLAYF QRRIGPDMVG PFGLIQLVAD
+     MIKLFTKEDI IPSNSQKFIF AIAPLISAIC AFVSLAAIPM LPEFTLFGRV IQPIVADINV
+     ALLFVIGTSG LCFYAVFLGG LASNNKWSIL GAARGLVSII SYESVGALAL IAIIMLVGSF
+     SLVDINNYQS DGFFSWLIFK QPLAFVLFII ALFIETNRTP LCLTENDAEI VAGYGTEYSG
+     LRWGMFFIGE YTSMIAGAIL VTLLFLGGFN SFWIIPGWIM MIVKSSFIFF WYFWARAAFP
+     QLRPDQVMKM CYLILIPLAV LNLLITALTV LL
+//

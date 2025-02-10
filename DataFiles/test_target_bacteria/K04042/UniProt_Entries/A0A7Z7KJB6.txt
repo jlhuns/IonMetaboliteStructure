@@ -1,0 +1,239 @@
+ID   A0A7Z7KJB6_MICLC        Unreviewed;       497 AA.
+AC   A0A7Z7KJB6;
+DT   02-JUN-2021, integrated into UniProtKB/TrEMBL.
+DT   02-JUN-2021, sequence version 1.
+DT   05-FEB-2025, entry version 18.
+DE   RecName: Full=Bifunctional protein GlmU {ECO:0000256|HAMAP-Rule:MF_01631};
+DE   Includes:
+DE     RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase {ECO:0000256|HAMAP-Rule:MF_01631};
+DE              EC=2.7.7.23 {ECO:0000256|HAMAP-Rule:MF_01631};
+DE     AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase {ECO:0000256|HAMAP-Rule:MF_01631};
+DE   Includes:
+DE     RecName: Full=Glucosamine-1-phosphate N-acetyltransferase {ECO:0000256|HAMAP-Rule:MF_01631};
+DE              EC=2.3.1.157 {ECO:0000256|HAMAP-Rule:MF_01631};
+GN   Name=glmU {ECO:0000256|HAMAP-Rule:MF_01631,
+GN   ECO:0000313|EMBL:SQG49035.1};
+GN   ORFNames=NCTC2665_01566 {ECO:0000313|EMBL:SQG49035.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:SQG49035.1, ECO:0000313|Proteomes:UP000248985};
+RN   [1] {ECO:0000313|EMBL:SQG49035.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49035.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the last two sequential reactions in the de novo
+CC       biosynthetic pathway for UDP-N-acetylglucosamine (UDP-GlcNAc). The C-
+CC       terminal domain catalyzes the transfer of acetyl group from acetyl
+CC       coenzyme A to glucosamine-1-phosphate (GlcN-1-P) to produce N-
+CC       acetylglucosamine-1-phosphate (GlcNAc-1-P), which is converted into
+CC       UDP-GlcNAc by the transfer of uridine 5-monophosphate (from uridine 5-
+CC       triphosphate), a reaction catalyzed by the N-terminal domain.
+CC       {ECO:0000256|ARBA:ARBA00049628, ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-alpha-D-glucosamine 1-phosphate + UTP + H(+) = UDP-N-
+CC         acetyl-alpha-D-glucosamine + diphosphate; Xref=Rhea:RHEA:13509,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:46398,
+CC         ChEBI:CHEBI:57705, ChEBI:CHEBI:57776; EC=2.7.7.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048493, ECO:0000256|HAMAP-
+CC         Rule:MF_01631};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 1-phosphate + acetyl-CoA = N-acetyl-alpha-
+CC         D-glucosamine 1-phosphate + CoA + H(+); Xref=Rhea:RHEA:13725,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57776, ChEBI:CHEBI:58516; EC=2.3.1.157;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048247, ECO:0000256|HAMAP-
+CC         Rule:MF_01631};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01631};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01631};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; N-acetyl-alpha-D-glucosamine 1-phosphate from
+CC       alpha-D-glucosamine 6-phosphate (route II): step 2/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; UDP-N-acetyl-alpha-D-glucosamine from N-
+CC       acetyl-alpha-D-glucosamine 1-phosphate: step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_01631}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the transferase
+CC       hexapeptide repeat family. {ECO:0000256|ARBA:ARBA00007707,
+CC       ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the N-
+CC       acetylglucosamine-1-phosphate uridyltransferase family.
+CC       {ECO:0000256|ARBA:ARBA00007947, ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01631}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LS483396; SQG49035.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079288.1; NZ_WBMF01000013.1.
+DR   AlphaFoldDB; A0A7Z7KJB6; -.
+DR   SMR; A0A7Z7KJB6; -.
+DR   KEGG; mlu:Mlut_05450; -.
+DR   UniPathway; UPA00113; UER00532.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:GOC.
+DR   GO; GO:0019134; F:glucosamine-1-phosphate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003977; F:UDP-N-acetylglucosamine diphosphorylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000902; P:cell morphogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0006048; P:UDP-N-acetylglucosamine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd02540; GT2_GlmU_N_bac; 1.
+DR   CDD; cd03353; LbH_GlmU_C; 1.
+DR   Gene3D; 2.160.10.10; Hexapeptide repeat proteins; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   HAMAP; MF_01631; GlmU; 1.
+DR   InterPro; IPR005882; Bifunctional_GlmU.
+DR   InterPro; IPR050065; GlmU-like.
+DR   InterPro; IPR038009; GlmU_C_LbH.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR025877; MobA-like_NTP_Trfase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   NCBIfam; TIGR01173; glmU; 1.
+DR   PANTHER; PTHR43584:SF3; BIFUNCTIONAL PROTEIN GLMU; 1.
+DR   PANTHER; PTHR43584; NUCLEOTIDYL TRANSFERASE; 1.
+DR   Pfam; PF00132; Hexapep; 1.
+DR   Pfam; PF12804; NTP_transf_3; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+DR   SUPFAM; SSF51161; Trimeric LpxA-like enzymes; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_01631};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01631};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_01631};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984, ECO:0000256|HAMAP-
+KW   Rule:MF_01631};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737, ECO:0000256|HAMAP-Rule:MF_01631};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01631}.
+FT   DOMAIN          11..145
+FT                   /note="MobA-like NTP transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF12804"
+FT   REGION          1..252
+FT                   /note="Pyrophosphorylase"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   REGION          253..273
+FT                   /note="Linker"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   REGION          274..497
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   REGION          473..497
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        385
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         14..17
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         28
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         86
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         91..92
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         115..117
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         117
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         154
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         169
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         192
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         250
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         250
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         355
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         373
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         388
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         399
+FT                   /ligand="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /ligand_id="ChEBI:CHEBI:57705"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         408..409
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         427
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+FT   BINDING         445
+FT                   /ligand="acetyl-CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57288"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01631"
+SQ   SEQUENCE   497 AA;  51635 MW;  A2182E7E60D4D5A3 CRC64;
+     MSQPSARPSA VIVLAAGQGT RMKSTTPKIM HAIGGRSLVG HALAAAWSLA PEHLVAVVRH
+     ERARVAEHIE TVAAQLGIDA LAIADQDDVP GTGRAVELGL AALPADLEGT VVVTYGDVPL
+     LTPETLARLV ADHEADGNAV TVLTATLEDA TGYGRIVRDA EGLVERIMEH KDALAHAEST
+     GDDSFVAIRE VNSGIYAFDA ALLRRTLPAI STDNVQGEKY LTDVLGMARD EGGRVASVGT
+     QDVWEVEGAN DRRQLSDLGR RLNERVLRHW MKEGVTVVDP SSTWVDVTVT LSSDVTLKPG
+     TQLHGATSVA TGAVVGPDST LTDTQVGERA VVKRTDATEA VIGADASIGP FTYLRPGTVL
+     GEEGRIGAFY ETKKVTIGRG AKLSHLGYAG DAEIGEYTNI GCGNITANYD GVNKHRTVIG
+     AHVRTGSNTV FTAPVTVGDG AYTGAGAVVR EDVPAGALAL NAVSQRTLEG WVPAKRPGTS
+     SAEAARAAGA EGSGAQG
+//

@@ -1,0 +1,104 @@
+ID   LEXA_CLOB1              Reviewed;         201 AA.
+AC   A7FUK4;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=LexA repressor {ECO:0000255|HAMAP-Rule:MF_00015};
+DE            EC=3.4.21.88 {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   Name=lexA {ECO:0000255|HAMAP-Rule:MF_00015};
+GN   OrderedLocusNames=CLB_1729;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Represses a number of genes involved in the response to DNA
+CC       damage (SOS response), including recA and lexA. In the presence of
+CC       single-stranded DNA, RecA interacts with LexA causing an autocatalytic
+CC       cleavage which disrupts the DNA-binding part of LexA, leading to
+CC       derepression of the SOS regulon and eventually DNA repair.
+CC       {ECO:0000255|HAMAP-Rule:MF_00015}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of Ala-|-Gly bond in repressor LexA.; EC=3.4.21.88;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00015};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00015}.
+CC   -!- SIMILARITY: Belongs to the peptidase S24 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00015}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS33610.1; -; Genomic_DNA.
+DR   RefSeq; WP_011986377.1; NC_009697.1.
+DR   AlphaFoldDB; A7FUK4; -.
+DR   SMR; A7FUK4; -.
+DR   MEROPS; S24.001; -.
+DR   GeneID; 5186050; -.
+DR   KEGG; cba:CLB_1729; -.
+DR   HOGENOM; CLU_066192_45_1_9; -.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd00090; HTH_ARSR; 1.
+DR   CDD; cd06529; S24_LexA-like; 1.
+DR   FunFam; 1.10.10.10:FF:000009; LexA repressor; 1.
+DR   FunFam; 2.10.109.10:FF:000001; LexA repressor; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00015; LexA; 1.
+DR   InterPro; IPR011991; ArsR-like_HTH.
+DR   InterPro; IPR006200; LexA.
+DR   InterPro; IPR039418; LexA-like.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR006199; LexA_DNA-bd_dom.
+DR   InterPro; IPR050077; LexA_repressor.
+DR   InterPro; IPR006197; Peptidase_S24_LexA.
+DR   InterPro; IPR015927; Peptidase_S24_S26A/B/C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00498; lexA; 1.
+DR   PANTHER; PTHR33516; LEXA REPRESSOR; 1.
+DR   PANTHER; PTHR33516:SF2; LEXA REPRESSOR-RELATED; 1.
+DR   Pfam; PF01726; LexA_DNA_bind; 1.
+DR   Pfam; PF00717; Peptidase_S24; 1.
+DR   PRINTS; PR00726; LEXASERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; Hydrolase; Repressor; SOS response; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..201
+FT                   /note="LexA repressor"
+FT                   /id="PRO_0000322721"
+FT   DNA_BIND        29..49
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        125
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        162
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+FT   SITE            89..90
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00015"
+SQ   SEQUENCE   201 AA;  22578 MW;  9329CD35E326D833 CRC64;
+     MNKSRIDKQN EVYNFIKLQI KEKGYPPSVR EICKAVGLSS TSSVHFHLKR LEKEGLIKRD
+     SSKTRAIEIV DPTSKKEVIN VPIVGTITAG NPILAIENIE DVFPLPIDYV KNTKDLFMLK
+     VSGESMIEAG ILNGDLAIIE KTDSANNGDI VVALIDNEAT LKRFFKESSY IRLQPENKSM
+     KPIILENCKV LGRLVGIYRK Y
+//

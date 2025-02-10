@@ -1,0 +1,87 @@
+ID   C9RLH6_FIBSS            Unreviewed;       185 AA.
+AC   C9RLH6;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 84.
+DE   RecName: Full=Ribosome maturation factor RimM {ECO:0000256|HAMAP-Rule:MF_00014};
+GN   Name=rimM {ECO:0000256|HAMAP-Rule:MF_00014,
+GN   ECO:0000313|EMBL:ADL26406.1};
+GN   OrderedLocusNames=FSU_2964 {ECO:0000313|EMBL:ADL26406.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26406.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: An accessory protein needed during the final step in the
+CC       assembly of 30S ribosomal subunit, possibly for assembly of the head
+CC       region. Essential for efficient processing of 16S rRNA. May be needed
+CC       both before and after RbfA during the maturation of 16S rRNA. It has
+CC       affinity for free ribosomal 30S subunits but not for 70S ribosomes.
+CC       {ECO:0000256|HAMAP-Rule:MF_00014}.
+CC   -!- SUBUNIT: Binds ribosomal protein uS19. {ECO:0000256|HAMAP-
+CC       Rule:MF_00014}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00014}.
+CC   -!- DOMAIN: The PRC barrel domain binds ribosomal protein uS19.
+CC       {ECO:0000256|HAMAP-Rule:MF_00014}.
+CC   -!- SIMILARITY: Belongs to the RimM family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00014}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26406.1; -; Genomic_DNA.
+DR   RefSeq; WP_014547028.1; NC_017448.1.
+DR   AlphaFoldDB; C9RLH6; -.
+DR   STRING; 59374.FSU_2964; -.
+DR   KEGG; fsc:FSU_2964; -.
+DR   KEGG; fsu:Fisuc_2405; -.
+DR   eggNOG; COG0806; Bacteria.
+DR   HOGENOM; CLU_077636_3_2_0; -.
+DR   OrthoDB; 9810331at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005840; C:ribosome; IEA:InterPro.
+DR   GO; GO:0043022; F:ribosome binding; IEA:InterPro.
+DR   GO; GO:0042274; P:ribosomal small subunit biogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.30.30.240; PRC-barrel domain; 1.
+DR   Gene3D; 2.40.30.60; RimM; 1.
+DR   HAMAP; MF_00014; Ribosome_mat_RimM; 1.
+DR   InterPro; IPR027275; PRC-brl_dom.
+DR   InterPro; IPR011033; PRC_barrel-like_sf.
+DR   InterPro; IPR011961; RimM.
+DR   InterPro; IPR002676; RimM_N.
+DR   InterPro; IPR036976; RimM_N_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   NCBIfam; TIGR02273; 16S_RimM; 1.
+DR   PANTHER; PTHR33692; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   PANTHER; PTHR33692:SF1; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   Pfam; PF05239; PRC; 1.
+DR   Pfam; PF01782; RimM; 1.
+DR   SUPFAM; SSF50346; PRC-barrel domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+PE   3: Inferred from homology;
+KW   Chaperone {ECO:0000256|ARBA:ARBA00023186, ECO:0000256|HAMAP-Rule:MF_00014};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00014};
+KW   Ribosome biogenesis {ECO:0000256|ARBA:ARBA00022517, ECO:0000256|HAMAP-
+KW   Rule:MF_00014};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552, ECO:0000256|HAMAP-
+KW   Rule:MF_00014}.
+FT   DOMAIN          11..91
+FT                   /note="RimM N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01782"
+FT   DOMAIN          98..175
+FT                   /note="PRC-barrel"
+FT                   /evidence="ECO:0000259|Pfam:PF05239"
+SQ   SEQUENCE   185 AA;  21130 MW;  B046C3D631326A04 CRC64;
+     MPDSEEYITV CQLMRAHGVK GYIKAMPLTH DLTRCKSLKD VRVQKRNGEV LELTLEDAKQ
+     ANNLWLLKFK GFDTPEALSP LVNGDVMIPE SERLPLPEGE YYLDDLEGFR VHTEDGRDVG
+     EVIEVQELMT VDAFLIKFDL AVQSEFSSKS ILAPWIDDCV KEINDEEKFI VCDSDYLKSV
+     CPEER
+//

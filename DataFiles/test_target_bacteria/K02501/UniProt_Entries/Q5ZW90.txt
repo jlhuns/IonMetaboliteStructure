@@ -1,0 +1,119 @@
+ID   HIS52_LEGPH             Reviewed;         199 AA.
+AC   Q5ZW90;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH 2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            EC=4.3.2.10 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase glutaminase subunit 2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            EC=3.5.1.2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase subunit HisH 2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=ImGP synthase subunit HisH 2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            Short=IGPS subunit HisH 2 {ECO:0000255|HAMAP-Rule:MF_00278};
+GN   Name=hisH2 {ECO:0000255|HAMAP-Rule:MF_00278};
+GN   OrderedLocusNames=lpg1196;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to IGP,
+CC       AICAR and glutamate. The HisH subunit provides the glutamine
+CC       amidotransferase activity that produces the ammonia necessary to HisF
+CC       for the synthesis of IGP and AICAR. {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-
+CC         phospho-beta-D-ribosyl)imidazole-4-carboxamide + L-glutamine = D-
+CC         erythro-1-(imidazol-4-yl)glycerol 3-phosphate + 5-amino-1-(5-phospho-
+CC         beta-D-ribosyl)imidazole-4-carboxamide + L-glutamate + H(+);
+CC         Xref=Rhea:RHEA:24793, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58278, ChEBI:CHEBI:58359, ChEBI:CHEBI:58475,
+CC         ChEBI:CHEBI:58525; EC=4.3.2.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00278};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamine + H2O = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00278};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000255|HAMAP-
+CC       Rule:MF_00278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27281.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946929.1; NC_002942.5.
+DR   RefSeq; YP_095228.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZW90; -.
+DR   SMR; Q5ZW90; -.
+DR   STRING; 272624.lpg1196; -.
+DR   MEROPS; C26.965; -.
+DR   PaxDb; 272624-lpg1196; -.
+DR   GeneID; 57035186; -.
+DR   KEGG; lpn:lpg1196; -.
+DR   PATRIC; fig|272624.6.peg.1258; -.
+DR   eggNOG; COG0118; Bacteria.
+DR   HOGENOM; CLU_071837_0_0_6; -.
+DR   OrthoDB; 9807137at2; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01748; GATase1_IGP_Synthase; 1.
+DR   FunFam; 3.40.50.880:FF:000009; Imidazole glycerol phosphate synthase subunit HisH; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   NCBIfam; TIGR01855; IMP_synth_hisH; 1.
+DR   PANTHER; PTHR42701; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   PANTHER; PTHR42701:SF1; IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISH; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   PRINTS; PR00097; ANTSNTHASEII.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Glutamine amidotransferase;
+KW   Histidine biosynthesis; Hydrolase; Lyase; Reference proteome.
+FT   CHAIN           1..199
+FT                   /note="Imidazole glycerol phosphate synthase subunit HisH
+FT                   2"
+FT                   /id="PRO_0000231733"
+FT   DOMAIN          1..199
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        76
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        177
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        179
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+SQ   SEQUENCE   199 AA;  21936 MW;  B7AA33EFF939A9FE CRC64;
+     MIAVIDVSGN NLTSLTNALI RLGGHFALTH DAEEIQKASH VILPGVGTAR SGMTALQQNG
+     LIDVLRTLTQ PLLGICLGMQ LLLEYSEEDD IPCLGLIPGV AELLKAERNH PVPHMGWNNL
+     HWQKTSSLQQ GLNNSDYVYF VHSYALKADN YALARCQYHE EFTAVVKKGN FYGMQFHPEK
+     SANVGMVLLN NFLSLESTC
+//

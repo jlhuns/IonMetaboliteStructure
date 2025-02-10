@@ -1,0 +1,113 @@
+ID   Q6N276_RHOPA            Unreviewed;       162 AA.
+AC   Q6N276;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 112.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            Short=N5-CAIR mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            EC=5.4.99.18 {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE   AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929};
+GN   Name=purE {ECO:0000256|HAMAP-Rule:MF_01929,
+GN   ECO:0000313|EMBL:CAE29615.1};
+GN   OrderedLocusNames=RPA4174 {ECO:0000313|EMBL:CAE29615.1};
+GN   ORFNames=TX73_021640 {ECO:0000313|EMBL:WCL94364.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29615.1};
+RN   [1] {ECO:0000313|EMBL:WCL94364.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94364.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29615.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29615.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94364.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94364.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of N5-carboxyaminoimidazole
+CC       ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole ribonucleotide
+CC       (CAIR). {ECO:0000256|HAMAP-Rule:MF_01929,
+CC       ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole + H(+) = 5-
+CC         amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
+CC         Xref=Rhea:RHEA:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:58730,
+CC         ChEBI:CHEBI:77657; EC=5.4.99.18; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole (N5-CAIR route): step 2/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- SIMILARITY: Belongs to the AIR carboxylase family. Class I subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572606; CAE29615.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94364.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159709.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4174; -.
+DR   GeneID; 66895299; -.
+DR   KEGG; rpa:TX73_021640; -.
+DR   eggNOG; COG0041; Bacteria.
+DR   HOGENOM; CLU_094982_2_2_5; -.
+DR   PhylomeDB; Q6N276; -.
+DR   UniPathway; UPA00074; UER00943.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0034023; F:5-(carboxyamino)imidazole ribonucleotide mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1970; -; 1.
+DR   HAMAP; MF_01929; PurE_classI; 1.
+DR   InterPro; IPR033747; PurE_ClassI.
+DR   InterPro; IPR000031; PurE_dom.
+DR   InterPro; IPR024694; PurE_prokaryotes.
+DR   NCBIfam; TIGR01162; purE; 1.
+DR   PANTHER; PTHR23046:SF2; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE; 1.
+DR   PANTHER; PTHR23046; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF00731; AIRC; 1.
+DR   PIRSF; PIRSF001338; AIR_carboxylase; 1.
+DR   SMART; SM01001; AIRC; 1.
+DR   SUPFAM; SSF52255; N5-CAIR mutase (phosphoribosylaminoimidazole carboxylase, PurE); 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01929};
+KW   Lyase {ECO:0000313|EMBL:CAE29615.1};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01929}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          3..154
+FT                   /note="PurE"
+FT                   /evidence="ECO:0000259|SMART:SM01001"
+FT   BINDING         11
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         14
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         41
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+SQ   SEQUENCE   162 AA;  16380 MW;  8044D42975EEC349 CRC64;
+     MTAPVAIIMG SQSDWETMRH AADTLTALGV AHDTQIVSAH RTPDRLYAFA KGAKAAGHRI
+     VIAGAGGAAH LPGMTAALTE LPVFGVPVES KTMSGLDSLY SIVQMPAGIP VGTLAIGKAG
+     AVNAALLAAS VLALTDSDLA TRLAAWRKAQ TDSVAARPEG AA
+//

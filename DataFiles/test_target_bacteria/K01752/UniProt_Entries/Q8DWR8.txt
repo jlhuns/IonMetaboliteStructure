@@ -1,0 +1,86 @@
+ID   Q8DWR8_STRA5            Unreviewed;       290 AA.
+AC   Q8DWR8;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 81.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   Name=sdhA {ECO:0000313|EMBL:AAN01004.1};
+GN   OrderedLocusNames=SAG2146 {ECO:0000313|EMBL:AAN01004.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAN01004.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAN01004.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN01004.1; -; Genomic_DNA.
+DR   RefSeq; NP_689131.1; NC_004116.1.
+DR   RefSeq; WP_000500146.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DWR8; -.
+DR   STRING; 208435.SAG2146; -.
+DR   KEGG; sag:SAG2146; -.
+DR   PATRIC; fig|208435.3.peg.2149; -.
+DR   HOGENOM; CLU_022305_2_0_9; -.
+DR   OrthoDB; 9805537at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR004642; Ser_deHydtase_asu.
+DR   NCBIfam; TIGR00718; sda_alpha; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000821}.
+FT   DOMAIN          16..275
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   290 AA;  30142 MW;  E1D468BFE615AF8D CRC64;
+     MFYTIEELVE QANSQHKGNI AELMIQTEIE MTGRSREEIR YIMSRNLEVM KASVIDGLTP
+     SKSISGLTGG DAVKMDQYLQ SGKTISDTTI LAAVRNAMAV NELNAKMGLV CATPTAGSAG
+     CLPAVISTAI EKLNLTEEEQ LDFLFTAGAF GLVIGNNASI SGAEGGCQAE VGSASAMAAA
+     ALVMAAGGTP FQASQAIAFV IKNMLGLICD PVAGLVEVPC VKRNALGSSF ALVAADMALA
+     GIESQIPVDE VIDAMYQVGS SLPTAFRETA EGGLAATPTG RRYSKEIFGE
+//

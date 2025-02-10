@@ -1,0 +1,101 @@
+ID   W6RQE5_9HYPH            Unreviewed;       231 AA.
+AC   W6RQE5;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   02-OCT-2024, entry version 52.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00020998, ECO:0000256|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRT {ECO:0000256|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRTase {ECO:0000256|HAMAP-Rule:MF_01018};
+DE            EC=2.4.2.17 {ECO:0000256|ARBA:ARBA00011946, ECO:0000256|HAMAP-Rule:MF_01018};
+GN   Name=hisG {ECO:0000256|HAMAP-Rule:MF_01018,
+GN   ECO:0000313|EMBL:CDM56611.1};
+GN   ORFNames=LPU83_0935 {ECO:0000313|EMBL:CDM56611.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM56611.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM56611.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM56611.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000256|ARBA:ARBA00024861, ECO:0000256|HAMAP-Rule:MF_01018}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000915, ECO:0000256|HAMAP-
+CC         Rule:MF_01018};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000256|ARBA:ARBA00004667, ECO:0000256|HAMAP-Rule:MF_01018}.
+CC   -!- SUBUNIT: Heteromultimer composed of HisG and HisZ subunits.
+CC       {ECO:0000256|ARBA:ARBA00011496, ECO:0000256|HAMAP-Rule:MF_01018}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01018}.
+CC   -!- DOMAIN: Lacks the C-terminal regulatory region which is replaced by
+CC       HisZ. {ECO:0000256|HAMAP-Rule:MF_01018}.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Short
+CC       subfamily. {ECO:0000256|ARBA:ARBA00009489, ECO:0000256|HAMAP-
+CC       Rule:MF_01018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM56611.1; -; Genomic_DNA.
+DR   RefSeq; WP_024317794.1; NZ_JAIRAY010000065.1.
+DR   AlphaFoldDB; W6RQE5; -.
+DR   KEGG; rhl:LPU83_0935; -.
+DR   PATRIC; fig|348824.6.peg.1009; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_0_1_5; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13593; PBP2_HisGL3; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_01018; HisG_Short; 1.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR024893; ATP_PRibTrfase_HisG_short.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01018};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01018};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01018};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676, ECO:0000256|HAMAP-
+KW   Rule:MF_01018};
+KW   Histidine biosynthesis {ECO:0000256|ARBA:ARBA00023102, ECO:0000256|HAMAP-
+KW   Rule:MF_01018};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01018};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01018}.
+FT   DOMAIN          54..228
+FT                   /note="ATP phosphoribosyltransferase catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF01634"
+SQ   SEQUENCE   231 AA;  25109 MW;  4EA831214AC9B114 CRC64;
+     MTITIALPSK GRMKDDASAI FERAGIRITA VGNDRSYRGR VEGWDDVEVA FLSASEISRE
+     LGNGTVDFGV TGEDLVREGL ADADKRVEFC ARLGFGHANV VVAVPEIWLD VDTMADLGDV
+     ASDFRARHGR RLAIATKYWR LTQQFFSSQH GIQLYRIVES LGATEGAPAS GSADIIVDIT
+     STGSTLRANN LKILSDGVIL RSEACFVRAR KESHVNDPTV QRLVDAVRSA L
+//

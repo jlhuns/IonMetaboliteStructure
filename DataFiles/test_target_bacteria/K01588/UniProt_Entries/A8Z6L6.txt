@@ -1,0 +1,92 @@
+ID   A8Z6L6_CAMC1            Unreviewed;       164 AA.
+AC   A8Z6L6;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-MAR-2024, entry version 88.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            Short=N5-CAIR mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            EC=5.4.99.18 {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE   AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929};
+GN   Name=purE {ECO:0000256|HAMAP-Rule:MF_01929,
+GN   ECO:0000313|EMBL:ABW74796.1};
+GN   ORFNames=CCC13826_1442 {ECO:0000313|EMBL:ABW74796.1};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:ABW74796.1, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of N5-carboxyaminoimidazole
+CC       ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole ribonucleotide
+CC       (CAIR). {ECO:0000256|HAMAP-Rule:MF_01929,
+CC       ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole + H(+) = 5-
+CC         amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
+CC         Xref=Rhea:RHEA:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:58730,
+CC         ChEBI:CHEBI:77657; EC=5.4.99.18; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole (N5-CAIR route): step 2/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- SIMILARITY: Belongs to the AIR carboxylase family. Class I subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; ABW74796.1; -; Genomic_DNA.
+DR   RefSeq; WP_048809829.1; NC_009802.2.
+DR   AlphaFoldDB; A8Z6L6; -.
+DR   STRING; 360104.CCC13826_1442; -.
+DR   KEGG; cco:CCC13826_1442; -.
+DR   eggNOG; COG0041; Bacteria.
+DR   HOGENOM; CLU_094982_2_0_7; -.
+DR   OrthoDB; 9791908at2; -.
+DR   UniPathway; UPA00074; UER00943.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0034023; F:5-(carboxyamino)imidazole ribonucleotide mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1970; -; 1.
+DR   HAMAP; MF_01929; PurE_classI; 1.
+DR   InterPro; IPR033747; PurE_ClassI.
+DR   InterPro; IPR000031; PurE_dom.
+DR   InterPro; IPR024694; PurE_prokaryotes.
+DR   NCBIfam; TIGR01162; purE; 1.
+DR   PANTHER; PTHR23046:SF2; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE; 1.
+DR   PANTHER; PTHR23046; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF00731; AIRC; 1.
+DR   PIRSF; PIRSF001338; AIR_carboxylase; 1.
+DR   SMART; SM01001; AIRC; 1.
+DR   SUPFAM; SSF52255; N5-CAIR mutase (phosphoribosylaminoimidazole carboxylase, PurE); 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01929};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01929}.
+FT   DOMAIN          2..153
+FT                   /note="PurE"
+FT                   /evidence="ECO:0000259|SMART:SM01001"
+FT   BINDING         10
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         13
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         40
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+SQ   SEQUENCE   164 AA;  16999 MW;  041E74314C2800EF CRC64;
+     MKFVSIIMGS KSDYEIVSET AKTLEKFGVK YELIISSAHR SPKRTSEYVA NAEKKGAKVF
+     IAAAGMAAHL AGAIAANTTK PVIGIPMAGS ALSGVDALYS TVQMPSGMPV ATLAIGKAGA
+     INAAYLAVQI LALEDEGLAS ALKADREAKI KALEDDSSKV EVIL
+//

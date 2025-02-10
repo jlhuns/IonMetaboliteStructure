@@ -1,0 +1,387 @@
+ID   A0A2X4H9G0_MICLC        Unreviewed;      1101 AA.
+AC   A0A2X4H9G0;
+DT   02-JUN-2021, integrated into UniProtKB/TrEMBL.
+DT   02-JUN-2021, sequence version 1.
+DT   05-FEB-2025, entry version 18.
+DE   RecName: Full=Carbamoyl phosphate synthase large chain {ECO:0000256|HAMAP-Rule:MF_01210};
+DE            EC=6.3.4.16 {ECO:0000256|HAMAP-Rule:MF_01210};
+DE            EC=6.3.5.5 {ECO:0000256|HAMAP-Rule:MF_01210};
+DE   AltName: Full=Carbamoyl phosphate synthetase ammonia chain {ECO:0000256|HAMAP-Rule:MF_01210};
+GN   Name=carB {ECO:0000256|HAMAP-Rule:MF_01210,
+GN   ECO:0000313|EMBL:SQG49721.1};
+GN   ORFNames=NCTC2665_02279 {ECO:0000313|EMBL:SQG49721.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:SQG49721.1, ECO:0000313|Proteomes:UP000248985};
+RN   [1] {ECO:0000313|EMBL:SQG49721.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49721.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Large subunit of the glutamine-dependent carbamoyl phosphate
+CC       synthetase (CPSase). CPSase catalyzes the formation of carbamoyl
+CC       phosphate from the ammonia moiety of glutamine, carbonate, and
+CC       phosphate donated by ATP, constituting the first step of 2 biosynthetic
+CC       pathways, one leading to arginine and/or urea and the other to
+CC       pyrimidine nucleotides. The large subunit (synthetase) binds the
+CC       substrates ammonia (free or transferred from glutamine from the small
+CC       subunit), hydrogencarbonate and ATP and carries out an ATP-coupled
+CC       ligase reaction, activating hydrogencarbonate by forming carboxy
+CC       phosphate which reacts with ammonia to form carbamoyl phosphate.
+CC       {ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate + L-glutamine + 2 ATP + H2O = carbamoyl
+CC         phosphate + L-glutamate + 2 ADP + phosphate + 2 H(+);
+CC         Xref=Rhea:RHEA:18633, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58228, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:456216; EC=6.3.5.5; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01210};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogencarbonate + NH4(+) + 2 ATP = carbamoyl phosphate + 2
+CC         ADP + phosphate + 2 H(+); Xref=Rhea:RHEA:18029, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:28938, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58228, ChEBI:CHEBI:456216;
+CC         EC=6.3.4.16; Evidence={ECO:0000256|ARBA:ARBA00047359,
+CC         ECO:0000256|HAMAP-Rule:MF_01210};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01210};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01210};
+CC       Note=Binds 4 Mg(2+) or Mn(2+) ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01210};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; carbamoyl
+CC       phosphate from bicarbonate: step 1/1. {ECO:0000256|ARBA:ARBA00005077,
+CC       ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 1/3. {ECO:0000256|HAMAP-
+CC       Rule:MF_01210}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by the
+CC       large (or ammonia) chain to synthesize carbamoyl phosphate. Tetramer of
+CC       heterodimers (alpha,beta)4. {ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   -!- DOMAIN: The large subunit is composed of 2 ATP-grasp domains that are
+CC       involved in binding the 2 ATP molecules needed for carbamoyl phosphate
+CC       synthesis. The N-terminal ATP-grasp domain (referred to as the
+CC       carboxyphosphate synthetic component) catalyzes the ATP-dependent
+CC       phosphorylation of hydrogencarbonate to carboxyphosphate and the
+CC       subsequent nucleophilic attack by ammonia to form a carbamate
+CC       intermediate. The C-terminal ATP-grasp domain (referred to as the
+CC       carbamoyl phosphate synthetic component) then catalyzes the
+CC       phosphorylation of carbamate with the second ATP to form the end
+CC       product carbamoyl phosphate. The reactive and unstable enzyme
+CC       intermediates are sequentially channeled from one active site to the
+CC       next through the interior of the protein over a distance of at least 96
+CC       A. {ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   -!- SIMILARITY: Belongs to the CarB family. {ECO:0000256|ARBA:ARBA00009799,
+CC       ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01210}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LS483396; SQG49721.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078599.1; NZ_WBMF01000005.1.
+DR   AlphaFoldDB; A0A2X4H9G0; -.
+DR   SMR; A0A2X4H9G0; -.
+DR   KEGG; mlu:Mlut_12580; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006526; P:L-arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01424; MGS_CPS_II; 1.
+DR   FunFam; 1.10.1030.10:FF:000002; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.30.1490.20:FF:000001; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.30.470.20:FF:000007; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.30.470.20:FF:000014; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.40.50.20:FF:000001; Carbamoyl-phosphate synthase large chain; 1.
+DR   FunFam; 3.40.50.20:FF:000003; Carbamoyl-phosphate synthase large chain; 1.
+DR   Gene3D; 3.40.50.20; -; 2.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 2.
+DR   Gene3D; 1.10.1030.10; Carbamoyl-phosphate synthetase, large subunit oligomerisation domain; 1.
+DR   Gene3D; 3.40.50.1380; Methylglyoxal synthase-like domain; 1.
+DR   HAMAP; MF_01210_B; CPSase_L_chain_B; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR006275; CarbamoylP_synth_lsu.
+DR   InterPro; IPR005480; CarbamoylP_synth_lsu_oligo.
+DR   InterPro; IPR036897; CarbamoylP_synth_lsu_oligo_sf.
+DR   InterPro; IPR005479; CbamoylP_synth_lsu-like_ATP-bd.
+DR   InterPro; IPR005483; CbamoylP_synth_lsu_CPSase_dom.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR033937; MGS_CPS_CarB.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   NCBIfam; TIGR01369; CPSaseII_lrg; 1.
+DR   PANTHER; PTHR11405:SF53; CARBAMOYL-PHOSPHATE SYNTHASE [AMMONIA], MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11405; CARBAMOYLTRANSFERASE FAMILY MEMBER; 1.
+DR   Pfam; PF02786; CPSase_L_D2; 2.
+DR   Pfam; PF02787; CPSase_L_D3; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PRINTS; PR00098; CPSASE.
+DR   SMART; SM01096; CPSase_L_D3; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF48108; Carbamoyl phosphate synthetase, large subunit connection domain; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 2.
+DR   SUPFAM; SSF52335; Methylglyoxal synthase-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 2.
+DR   PROSITE; PS50975; ATP_GRASP; 2.
+DR   PROSITE; PS00866; CPSASE_1; 2.
+DR   PROSITE; PS00867; CPSASE_2; 2.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01210};
+KW   Arginine biosynthesis {ECO:0000256|ARBA:ARBA00022571, ECO:0000256|HAMAP-
+KW   Rule:MF_01210};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01210};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_01210};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01210};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01210};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737, ECO:0000256|HAMAP-Rule:MF_01210}.
+FT   DOMAIN          133..328
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+FT   DOMAIN          675..866
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000259|PROSITE:PS50975"
+FT   DOMAIN          948..1093
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000259|PROSITE:PS51855"
+FT   REGION          1..402
+FT                   /note="Carboxyphosphate synthetic domain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   REGION          948..1101
+FT                   /note="Allosteric domain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         129
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         169
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         175
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         176
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         208
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         210
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         215
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         241
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         242
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         243
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         285
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         285
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         285
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         299
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         299
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         299
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         299
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         299
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         301
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         301
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         711
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         750
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         752
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         757
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         782
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         783
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         784
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         785
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         825
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         825
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         825
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         837
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         837
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         837
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         837
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="3"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         837
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         839
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+FT   BINDING         839
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /ligand_label="4"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01210"
+SQ   SEQUENCE   1101 AA;  117484 MW;  FAB40812F2D3438F CRC64;
+     MPKRTDLKSV LVIGSGPIVI GQAAEFDYSG TQAIRVLKEE GVRVVLVNSN PATIMTDPEL
+     ADATYVEPIT PAVVAKIIEK ERPDALLPTL GGQTALNTAI ALDKDGVLER FGVELIGANI
+     EAIELGENRE LFKGVVERAG GESARSHIVH TMEEALAAVE DLKYPVVVRP SFTMGGLGSG
+     MAYDEADLYR ICGAGLQYSP TSEVLLEESI LGWKEYELEM MRDKNDNVVV VCSIENVDPV
+     GVHTGDSITV APAMTLTDRE YQKLRDISIN VIREVGVDTG GCNIQFAVNP VDGRVVVIEM
+     NPRVSRSSAL ASKATGFAIA KIATKLALGY TMDEIPNDIT QKTPASFEPV LDYVVVKVPR
+     FAFEKFPAAD PTLTTTMKSV GEAMAIGRNF TEALQKALRS LEQKGSELAF PQDADPQALL
+     AAASTATTDR LSQTQQALYA GATIEEAFEA TAIDPWFLDQ FVLINEVADE IRDAEVLDEA
+     LLRRAKRHGF SDAQIGSLRH MDAAVVRGVR HALGVRPVYK TVDTCAAEFE AFTPYRYSSY
+     DLETEVAPHE GESVIILGSG PNRIGQGIEF DYSCVHATMA LREAGYETVM VNCNPETVST
+     DYDISDRLYF EPLTLEDVLE VIAAEEASGG VRGVFVQLGG QTPLKLAQQL ADAGVPILGT
+     SPAAIDLAEH RGEFALVLER AGLVAPKNGT AVSFDDAKRV ADEIGYPVLV RPSYVLGGRG
+     MEIVYSEEAL AHYVAHATEI TPDQPMLVDR FLEDAIEIDV DALYDGTELY LGGVMEHIEE
+     AGIHSGDSAC VLPPVTLGPD VLERVHRATE RIAAGVGVRG LINIQFALAS DVLYVIEANP
+     RASRTVPFVS KATGVQLAKA AARIGVGESI ADLRAAGMLP TAYDGGTLPI GAPVAVKEAV
+     LPFTRFRTAE GRVVDSLLGP EMRSTGEVMG IDKHFDTAFA KSQSAAGGPL PTSGRVFVSV
+     ANRDKRTLVG QAKRLVDLGF QVVSTGGTAE VLRRNGIPAE VVAKIADAGH EDGAGTVLEQ
+     LHAGTVDLVL NTPSGGDART DGYEIRAAAT SLGVPVITTT AEFGACLQAI EAMRSYEWSV
+     TSLQEHDARL QQAVAGPEAA A
+//

@@ -1,0 +1,137 @@
+ID   SYV_BACTN               Reviewed;         879 AA.
+AC   Q89ZM4;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Valine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02004};
+DE            EC=6.1.1.9 {ECO:0000255|HAMAP-Rule:MF_02004};
+DE   AltName: Full=Valyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02004};
+DE            Short=ValRS {ECO:0000255|HAMAP-Rule:MF_02004};
+GN   Name=valS {ECO:0000255|HAMAP-Rule:MF_02004};
+GN   OrderedLocusNames=BT_4353;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of valine to tRNA(Val). As ValRS can
+CC       inadvertently accommodate and process structurally similar amino acids
+CC       such as threonine, to avoid such errors, it has a 'posttransfer'
+CC       editing activity that hydrolyzes mischarged Thr-tRNA(Val) in a tRNA-
+CC       dependent manner. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Val) + L-valine + ATP = L-valyl-tRNA(Val) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:10704, Rhea:RHEA-COMP:9672, Rhea:RHEA-
+CC         COMP:9708, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57762,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78537, ChEBI:CHEBI:456215; EC=6.1.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02004};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: ValRS has two distinct active sites: one for aminoacylation and
+CC       one for editing. The misactivated threonine is translocated from the
+CC       active site to the editing site. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- DOMAIN: The C-terminal coiled-coil domain is crucial for aminoacylation
+CC       activity. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       ValS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02004}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79458.1; -; Genomic_DNA.
+DR   RefSeq; NP_813264.1; NC_004663.1.
+DR   RefSeq; WP_011109217.1; NC_004663.1.
+DR   AlphaFoldDB; Q89ZM4; -.
+DR   SMR; Q89ZM4; -.
+DR   STRING; 226186.BT_4353; -.
+DR   PaxDb; 226186-BT_4353; -.
+DR   EnsemblBacteria; AAO79458; AAO79458; BT_4353.
+DR   GeneID; 60925530; -.
+DR   KEGG; bth:BT_4353; -.
+DR   PATRIC; fig|226186.12.peg.4430; -.
+DR   eggNOG; COG0525; Bacteria.
+DR   HOGENOM; CLU_001493_0_2_10; -.
+DR   InParanoid; Q89ZM4; -.
+DR   OrthoDB; 9810365at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004832; F:valine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0006438; P:valyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd07962; Anticodon_Ia_Val; 1.
+DR   CDD; cd00817; ValRS_core; 1.
+DR   FunFam; 1.10.287.380:FF:000001; Valine--tRNA ligase; 1.
+DR   FunFam; 1.10.730.10:FF:000172; Valine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000032; Valine--tRNA ligase; 1.
+DR   FunFam; 3.90.740.10:FF:000015; Valine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   Gene3D; 1.10.287.380; Valyl-tRNA synthetase, C-terminal domain; 1.
+DR   Gene3D; 3.90.740.10; Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain; 1.
+DR   HAMAP; MF_02004; Val_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR033705; Anticodon_Ia_Val.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR037118; Val-tRNA_synth_C_sf.
+DR   InterPro; IPR019499; Val-tRNA_synth_tRNA-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   InterPro; IPR002303; Valyl-tRNA_ligase.
+DR   NCBIfam; TIGR00422; valS; 1.
+DR   PANTHER; PTHR11946:SF109; VALINE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR11946; VALYL-TRNA SYNTHETASES; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF10458; Val_tRNA-synt_C; 1.
+DR   PRINTS; PR00986; TRNASYNTHVAL.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF46589; tRNA-binding arm; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Coiled coil; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..879
+FT                   /note="Valine--tRNA ligase"
+FT                   /id="PRO_0000224439"
+FT   COILED          807..878
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02004"
+FT   MOTIF           43..53
+FT                   /note="'HIGH' region"
+FT   MOTIF           534..538
+FT                   /note="'KMSKS' region"
+FT   BINDING         537
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02004"
+SQ   SEQUENCE   879 AA;  99939 MW;  1D527CDE2914662B CRC64;
+     MELASKYNPA DVEGKWYQYW LEHRLFSSKP DGREPYTIVI PPPNVTGVLH MGHMLNNTIQ
+     DILVRRARME GKNACWVPGT DHASIATEAK VVNKLAAQGI KKTDLTRDEF LKHAWDWTEE
+     HGGIILKQLR KLGASCDWDR TAFTMDEERS KSVLKVFVDL YNKGLIYRGV RMVNWDPKAL
+     TALSDEEVIY KEEHGKLFYL RYKVEGDPEG RYAVVATTRP ETIMGDTAMC INPNDPKNAW
+     LKGKKVIVPL VNRVIPVIED DYVDIEFGTG CLKVTPAHDV NDYMLGEKYN LPSIDIFNDN
+     GTLSEAAGLY IGMDRFDVRK QIEKDLDAAG LLEKTEAYTN KVGYSERTNV VIEPKLSMQW
+     FLKMQHFADM ALPPVMNDEL KFYPAKYKNT YRHWMENIKD WCISRQLWWG HRIPAYFLPE
+     GGYVVAATPE EALAKAKEKT GNAALTMDDL RQDEDCLDTW FSSWLWPISL FDGINHPGNE
+     EISYYYPTSD LVTGPDIIFF WVARMIMVGY EYEGKMPFKN VYFTGIVRDK LGRKMSKSLG
+     NSPDPLELID KYGADGVRMG MMLAAPAGND ILFDDALCEQ GRNFCSKIWN AFRLIKGWTV
+     DDNIQASDAA KLAVHWFESK QNEVAAEVAD LFSKYRLSEA LMAVYKLFWD EFSSWYLEMI
+     KPAYGQGIDR TTYSATLCFL DNLLHLLHPF MPFITEELWQ QMYERNAEEG ESLMVSALSM
+     DTYVDTAFVA QFEVVKGVIS NIRSIRLQKN IAQKEPLDLQ VLGENPVAEF NAVIQKMCNL
+     SSITVVESKA EGASSFMVGT TEYAVPLGNM IDVEAEIARM EAELKHKEGF LQGVLKKLSN
+     EKFINNAPAA VLEMERKKQA DAESIISSLK ESIAALKKA
+//

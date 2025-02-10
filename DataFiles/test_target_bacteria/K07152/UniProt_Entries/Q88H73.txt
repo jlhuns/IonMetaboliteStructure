@@ -1,0 +1,87 @@
+ID   Q88H73_PSEPK            Unreviewed;       218 AA.
+AC   Q88H73;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   SubName: Full=Sco1/SenC family protein {ECO:0000313|EMBL:AAN69089.1};
+GN   OrderedLocusNames=PP_3488 {ECO:0000313|EMBL:AAN69089.1};
+OS   Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950
+OS   / KT2440).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=160488 {ECO:0000313|EMBL:AAN69089.1, ECO:0000313|Proteomes:UP000000556};
+RN   [1] {ECO:0000313|EMBL:AAN69089.1, ECO:0000313|Proteomes:UP000000556}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440
+RC   {ECO:0000313|Proteomes:UP000000556};
+RX   PubMed=12534463; DOI=10.1046/j.1462-2920.2002.00366.x;
+RA   Nelson K.E., Weinel C., Paulsen I.T., Dodson R.J., Hilbert H.,
+RA   Martins dos Santos V.A., Fouts D.E., Gill S.R., Pop M., Holmes M.,
+RA   Brinkac L., Beanan M., DeBoy R.T., Daugherty S., Kolonay J., Madupu R.,
+RA   Nelson W., White O., Peterson J., Khouri H., Hance I., Chris Lee P.,
+RA   Holtzapple E., Scanlan D., Tran K., Moazzez A., Utterback T., Rizzo M.,
+RA   Lee K., Kosack D., Moestl D., Wedler H., Lauber J., Stjepandic D.,
+RA   Hoheisel J., Straetz M., Heim S., Kiewitz C., Eisen J.A., Timmis K.N.,
+RA   Dusterhoft A., Tummler B., Fraser C.M.;
+RT   "Complete genome sequence and comparative analysis of the metabolically
+RT   versatile Pseudomonas putida KT2440.";
+RL   Environ. Microbiol. 4:799-808(2002).
+CC   -!- SIMILARITY: Belongs to the SCO1/2 family.
+CC       {ECO:0000256|ARBA:ARBA00010996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015451; AAN69089.1; -; Genomic_DNA.
+DR   RefSeq; NP_745625.1; NC_002947.4.
+DR   RefSeq; WP_010954351.1; NC_002947.4.
+DR   AlphaFoldDB; Q88H73; -.
+DR   STRING; 160488.PP_3488; -.
+DR   PaxDb; 160488-PP_3488; -.
+DR   DNASU; 1046481; -.
+DR   GeneID; 83679804; -.
+DR   KEGG; ppu:PP_3488; -.
+DR   PATRIC; fig|160488.4.peg.3708; -.
+DR   eggNOG; COG1999; Bacteria.
+DR   HOGENOM; CLU_050131_4_2_6; -.
+DR   OrthoDB; 5567697at2; -.
+DR   PhylomeDB; Q88H73; -.
+DR   BioCyc; PPUT160488:G1G01-3723-MONOMER; -.
+DR   Proteomes; UP000000556; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02968; SCO; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR003782; SCO1/SenC.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   PANTHER; PTHR12151; ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12151:SF25; LINALOOL DEHYDRATASE_ISOMERASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02630; SCO1-SenC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+PE   3: Inferred from homology;
+KW   Copper {ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Disulfide bond {ECO:0000256|PIRSR:PIRSR603782-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000556};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           24..218
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5004303967"
+FT   BINDING         82
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         86
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   DISULFID        82..86
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-2"
+SQ   SEQUENCE   218 AA;  23594 MW;  6C9F69A2DC780BEB CRC64;
+     MNAKPACTLL ALSLAFASHL AMAHAGHAHD GHAGQPPAAH QEKTSVRFAD VSLLNQDGMP
+     VRLEKDLVGD HLVVMGFIYT SCTTVCPVVS SIMGKVQQQL GGRVGEEVRL VSISVDPQRD
+     DAKRLQNYAK AFQKGPGWSW LTGTPYAITE TLKGLGSFNA DLSQHPPLIL VGDGRSGHWT
+     RYYGFTDPGV LIDEINRLSA RRVHAKSTAI ADHHEVQP
+//

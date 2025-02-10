@@ -1,0 +1,154 @@
+ID   A0AAF0BL18_RHOPA        Unreviewed;       212 AA.
+AC   A0AAF0BL18;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Pyridoxine/pyridoxamine 5'-phosphate oxidase {ECO:0000256|HAMAP-Rule:MF_01629};
+DE            EC=1.4.3.5 {ECO:0000256|HAMAP-Rule:MF_01629};
+DE   AltName: Full=PNP/PMP oxidase {ECO:0000256|HAMAP-Rule:MF_01629};
+DE            Short=PNPOx {ECO:0000256|HAMAP-Rule:MF_01629};
+DE   AltName: Full=Pyridoxal 5'-phosphate synthase {ECO:0000256|HAMAP-Rule:MF_01629};
+GN   Name=pdxH {ECO:0000256|HAMAP-Rule:MF_01629,
+GN   ECO:0000313|EMBL:WCL91330.1};
+GN   ORFNames=TX73_006145 {ECO:0000313|EMBL:WCL91330.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL91330.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL91330.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the oxidation of either pyridoxine 5'-phosphate
+CC       (PNP) or pyridoxamine 5'-phosphate (PMP) into pyridoxal 5'-phosphate
+CC       (PLP). {ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyridoxamine 5'-phosphate + O2 + H2O = pyridoxal 5'-phosphate
+CC         + H2O2 + NH4(+); Xref=Rhea:RHEA:15817, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:58451, ChEBI:CHEBI:597326; EC=1.4.3.5;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01629};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pyridoxine 5'-phosphate + O2 = pyridoxal 5'-phosphate + H2O2;
+CC         Xref=Rhea:RHEA:15149, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:58589, ChEBI:CHEBI:597326; EC=1.4.3.5;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01629};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01629, ECO:0000256|PIRSR:PIRSR000190-2};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000256|HAMAP-Rule:MF_01629,
+CC       ECO:0000256|PIRSR:PIRSR000190-2};
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxamine 5'-phosphate: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxine 5'-phosphate: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   -!- SIMILARITY: Belongs to the pyridoxamine 5'-phosphate oxidase family.
+CC       {ECO:0000256|ARBA:ARBA00007301, ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01629}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL91330.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156760.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BL18; -.
+DR   GeneID; 66892219; -.
+DR   KEGG; rpa:TX73_006145; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0010181; F:FMN binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004733; F:pyridoxamine phosphate oxidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008615; P:pyridoxine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 2.30.110.10:FF:000012; Predicted protein; 1.
+DR   Gene3D; 2.30.110.10; Electron Transport, Fmn-binding Protein, Chain A; 1.
+DR   HAMAP; MF_01629; PdxH; 1.
+DR   InterPro; IPR000659; Pyridox_Oxase.
+DR   InterPro; IPR019740; Pyridox_Oxase_CS.
+DR   InterPro; IPR011576; Pyridox_Oxase_N.
+DR   InterPro; IPR019576; Pyridoxamine_oxidase_dimer_C.
+DR   InterPro; IPR012349; Split_barrel_FMN-bd.
+DR   NCBIfam; TIGR00558; pdxH; 1.
+DR   PANTHER; PTHR10851:SF0; PYRIDOXINE-5'-PHOSPHATE OXIDASE; 1.
+DR   PANTHER; PTHR10851; PYRIDOXINE-5-PHOSPHATE OXIDASE; 1.
+DR   Pfam; PF10590; PNP_phzG_C; 1.
+DR   Pfam; PF01243; Putative_PNPOx; 1.
+DR   PIRSF; PIRSF000190; Pyd_amn-ph_oxd; 1.
+DR   SUPFAM; SSF50475; FMN-binding split barrel; 1.
+DR   PROSITE; PS01064; PYRIDOX_OXIDASE; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630, ECO:0000256|HAMAP-
+KW   Rule:MF_01629};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|HAMAP-Rule:MF_01629};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01629};
+KW   Pyridoxine biosynthesis {ECO:0000256|ARBA:ARBA00023096, ECO:0000256|HAMAP-
+KW   Rule:MF_01629}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          33..117
+FT                   /note="Pyridoxamine 5'-phosphate oxidase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01243"
+FT   DOMAIN          170..212
+FT                   /note="Pyridoxine 5'-phosphate oxidase dimerisation C-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF10590"
+FT   BINDING         59..64
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+FT   BINDING         64
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629"
+FT   BINDING         74..75
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629"
+FT   BINDING         81
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+FT   BINDING         103
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+FT   BINDING         121
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629"
+FT   BINDING         125
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629"
+FT   BINDING         138..139
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+FT   BINDING         183
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+FT   BINDING         189..191
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629"
+FT   BINDING         193
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01629,
+FT                   ECO:0000256|PIRSR:PIRSR000190-2"
+SQ   SEQUENCE   212 AA;  24203 MW;  A53B9DB2CD1F1140 CRC64;
+     MSDPTIRPQS ELTPGDFTAA ENPFALFAEW LAEANKSEPN DPNAMALATV DPDGLPDVRM
+     VLMKGYDEHG FVFYSHIASQ KGRELAANPK AALLFHWKSL RRQIRIRGTV TPVTDTEADA
+     YFATRPKQAQ IGAWASKQSQ PLESRFAFEQ AIAKVTARHL IGDVPRPPGW SGWRITPSRI
+     EFWHDRPFRL HDRIEFRRDT PDHPWTKTRL YP
+//

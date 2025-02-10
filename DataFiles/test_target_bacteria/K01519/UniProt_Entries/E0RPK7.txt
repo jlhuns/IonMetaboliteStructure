@@ -1,0 +1,152 @@
+ID   E0RPK7_SPITD            Unreviewed;       337 AA.
+AC   E0RPK7;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 70.
+DE   RecName: Full=dITP/XTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE            EC=3.6.1.66 {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_01405};
+DE            Short=NTPase {ECO:0000256|HAMAP-Rule:MF_01405};
+GN   OrderedLocusNames=STHERM_c18540 {ECO:0000313|EMBL:ADN02789.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02789.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02789.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Pyrophosphatase that catalyzes the hydrolysis of nucleoside
+CC       triphosphates to their monophosphate derivatives, with a high
+CC       preference for the non-canonical purine nucleotides XTP (xanthosine
+CC       triphosphate), dITP (deoxyinosine triphosphate) and ITP. Seems to
+CC       function as a house-cleaning enzyme that removes non-canonical purine
+CC       nucleotides from the nucleotide pool, thus preventing their
+CC       incorporation into DNA/RNA and avoiding chromosomal lesions.
+CC       {ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ITP + H2O = IMP + diphosphate + H(+); Xref=Rhea:RHEA:29399,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:61402; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=XTP + H2O = XMP + diphosphate + H(+); Xref=Rhea:RHEA:28610,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:61314; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dITP + H2O = dIMP + diphosphate + H(+); Xref=Rhea:RHEA:28342,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61194, ChEBI:CHEBI:61382; EC=3.6.1.66;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01405};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01405};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01405}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family.
+CC       {ECO:0000256|ARBA:ARBA00008023, ECO:0000256|HAMAP-Rule:MF_01405,
+CC       ECO:0000256|RuleBase:RU003781}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02789.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E0RPK7; -.
+DR   PaxDb; 665571-STHERM_c18540; -.
+DR   KEGG; sta:STHERM_c18540; -.
+DR   eggNOG; COG0127; Bacteria.
+DR   HOGENOM; CLU_823632_0_0_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0035870; F:dITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036220; F:ITP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:ribonucleoside triphosphate phosphatase activity; IEA:InterPro.
+DR   GO; GO:0036222; F:XTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009146; P:purine nucleoside triphosphate catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00515; HAM1; 1.
+DR   FunFam; 3.90.950.10:FF:000001; dITP/XTP pyrophosphatase; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_01405; Non_canon_purine_NTPase; 1.
+DR   InterPro; IPR020922; dITP/XTP_pyrophosphatase.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR002637; RdgB/HAM1.
+DR   NCBIfam; TIGR00042; RdgB/HAM1 family non-canonical purine NTP pyrophosphatase; 1.
+DR   PANTHER; PTHR11067:SF9; INOSINE TRIPHOSPHATE PYROPHOSPHATASE; 1.
+DR   PANTHER; PTHR11067; INOSINE TRIPHOSPHATE PYROPHOSPHATASE/HAM1 PROTEIN; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; ITPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01405};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_01405};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01405};
+KW   Nucleotide metabolism {ECO:0000256|ARBA:ARBA00023080, ECO:0000256|HAMAP-
+KW   Rule:MF_01405};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01405}.
+FT   REGION          1..100
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        17..35
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        53..68
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        82..93
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        210
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         150..155
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         181
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         210
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         211
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         294..297
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         316
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+FT   BINDING         321..322
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01405"
+SQ   SEQUENCE   337 AA;  37763 MW;  27250173714AB9FA CRC64;
+     MGEVELQDPH TTQAGLHGHH REARPAHHRG AHGARRPTGP PHRPAQIGTP RRRPADGRHD
+     RRREDRHPHL PLGSHGTTTS RRGCEGTPQD RRALQHPRCQ QQVDGRLHHL LPPLLSTVRA
+     RPEGLFRVPQ TEHPRRRRPR RSLVTIYLAS NNRHKKEEIA PLLSPHPLLL PEDAGIEFHC
+     EERGATFLEN ALTKAQTLYD LVKAPVLADD SGLSVEALGG APGVRSARFG EEAGRSLSTE
+     EKNALLLRML HGESDRRAAF VSCMVLLLSP QRFYIVQETL EGAIAHEARG THGFGYDPIF
+     LLPDGRHLAE LSLEEKNRIS HRGKAARKLR LLMEDLT
+//

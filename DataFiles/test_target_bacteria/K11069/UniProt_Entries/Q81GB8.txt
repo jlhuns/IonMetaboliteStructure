@@ -1,0 +1,79 @@
+ID   Q81GB8_BACCR            Unreviewed;       349 AA.
+AC   Q81GB8;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   SubName: Full=Spermidine/putrescine-binding protein {ECO:0000313|EMBL:AAP08272.1};
+GN   OrderedLocusNames=BC_1289 {ECO:0000313|EMBL:AAP08272.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08272.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08272.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08272.1; -; Genomic_DNA.
+DR   RefSeq; NP_831071.1; NC_004722.1.
+DR   RefSeq; WP_000772485.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GB8; -.
+DR   SMR; Q81GB8; -.
+DR   MetOSite; Q81GB8; -.
+DR   KEGG; bce:BC1289; -.
+DR   PATRIC; fig|226900.8.peg.1262; -.
+DR   HOGENOM; CLU_026974_1_3_9; -.
+DR   OrthoDB; 9769319at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019808; F:polyamine binding; IEA:InterPro.
+DR   GO; GO:0015846; P:polyamine transport; IEA:InterPro.
+DR   CDD; cd13590; PBP2_PotD_PotF_like; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR006059; SBP.
+DR   InterPro; IPR001188; Sperm_putr-bd.
+DR   PANTHER; PTHR30222; SPERMIDINE/PUTRESCINE-BINDING PERIPLASMIC PROTEIN; 1.
+DR   PANTHER; PTHR30222:SF17; SPERMIDINE_PUTRESCINE-BINDING PERIPLASMIC PROTEIN; 1.
+DR   Pfam; PF13416; SBP_bac_8; 1.
+DR   PIRSF; PIRSF019574; Periplasmic_polyamine_BP; 1.
+DR   PRINTS; PR00909; SPERMDNBNDNG.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   4: Predicted;
+KW   Periplasm {ECO:0000256|ARBA:ARBA00022764};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           23..349
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5039154004"
+FT   BINDING         86
+FT                   /ligand="spermidine"
+FT                   /ligand_id="ChEBI:CHEBI:57834"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR019574-1"
+FT   BINDING         168..171
+FT                   /ligand="spermidine"
+FT                   /ligand_id="ChEBI:CHEBI:57834"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR019574-1"
+SQ   SEQUENCE   349 AA;  39846 MW;  650B43C37EB2CA41 CRC64;
+     MKLMKRIAGA AISFSLVAGV LAGCGEKKEE LNIYSWADNF DEQVLKDFEK KYNVKINYDK
+     YASNEEMLAK LQAGGAKYDL IQPSDYMVKT MAKMDLLAPL DKKNIPNIEN MVSNFKTPAF
+     DPENKYSLVY TWGVTGIAYN KKYVKEAPTS WADLWNEKYK GHVTLLNDSR EVLGVGLKKH
+     GFSNSTKDDA QLKTAADDLK KLLPNLLAFD TDNIKQKFIT EDAWIGTVWS GDAAFIAKDN
+     KDVEYVVPKE GGTIWADTLA IPKGAKHKEL AEKFMNYLLD EKVSVKNYES IGYSNPNEKA
+     HPLHSKEYRD NHMIFLTKEE LDRTEWLVDV DDKLKDYDRY WTELKTKGK
+//

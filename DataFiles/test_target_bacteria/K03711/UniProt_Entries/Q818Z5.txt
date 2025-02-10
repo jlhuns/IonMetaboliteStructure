@@ -1,0 +1,103 @@
+ID   Q818Z5_BACCR            Unreviewed;       151 AA.
+AC   Q818Z5;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   SubName: Full=Ferric uptake regulation protein {ECO:0000313|EMBL:AAP11010.1};
+GN   OrderedLocusNames=BC_4091 {ECO:0000313|EMBL:AAP11010.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11010.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11010.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602481-2};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602481-2};
+CC       Note=Binds 1 Mn(2+) or Fe(2+) ion per subunit.
+CC       {ECO:0000256|PIRSR:PIRSR602481-2};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR602481-1};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|PIRSR:PIRSR602481-1};
+CC   -!- SIMILARITY: Belongs to the Fur family. {ECO:0000256|ARBA:ARBA00007957}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11010.1; -; Genomic_DNA.
+DR   RefSeq; NP_833809.1; NC_004722.1.
+DR   RefSeq; WP_000392657.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q818Z5; -.
+DR   SMR; Q818Z5; -.
+DR   GeneID; 72450776; -.
+DR   KEGG; bce:BC4091; -.
+DR   PATRIC; fig|226900.8.peg.4226; -.
+DR   HOGENOM; CLU_096072_3_1_9; -.
+DR   OrthoDB; 8659436at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IBA:GO_Central.
+DR   GO; GO:0000976; F:transcription cis-regulatory region binding; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IBA:GO_Central.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IBA:GO_Central.
+DR   GO; GO:1900376; P:regulation of secondary metabolite biosynthetic process; IBA:GO_Central.
+DR   CDD; cd07153; Fur_like; 1.
+DR   FunFam; 1.10.10.10:FF:000051; Fur family transcriptional regulator; 1.
+DR   FunFam; 3.30.1490.190:FF:000004; Transcriptional regulator (Fur family); 1.
+DR   Gene3D; 3.30.1490.190; -; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR002481; FUR.
+DR   InterPro; IPR043135; Fur_C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR33202:SF7; FERRIC UPTAKE REGULATION PROTEIN; 1.
+DR   PANTHER; PTHR33202; ZINC UPTAKE REGULATION PROTEIN; 1.
+DR   Pfam; PF01475; FUR; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Iron {ECO:0000256|PIRSR:PIRSR602481-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR602481-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Repressor {ECO:0000256|ARBA:ARBA00022491};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|PIRSR:PIRSR602481-1}.
+FT   BINDING         100
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602481-1"
+FT   BINDING         103
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602481-1"
+FT   BINDING         132
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602481-2"
+FT   BINDING         140
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602481-1"
+FT   BINDING         143
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR602481-1"
+SQ   SEQUENCE   151 AA;  17661 MW;  4414B65AF4D17B8E CRC64;
+     MEERIERIKK QLHAASYKLT PQREATVRVL LENEEDHLSA EDVYLLVKEK SPEIGLATVY
+     RTLELLSELK VVDKINFGDG VSRYDLRQEG AQRFHHHLIC TQCGAVQEIQ EDLLGEVERK
+     VERDWSFKVK DHRLTFHGIC KNCQENETDE K
+//

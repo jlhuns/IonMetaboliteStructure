@@ -1,0 +1,138 @@
+ID   Q650Q1_BACFR            Unreviewed;       447 AA.
+AC   Q650Q1;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 125.
+DE   RecName: Full=Dihydrolipoyl dehydrogenase {ECO:0000256|ARBA:ARBA00012608, ECO:0000256|RuleBase:RU003692};
+DE            EC=1.8.1.4 {ECO:0000256|ARBA:ARBA00012608, ECO:0000256|RuleBase:RU003692};
+GN   OrderedLocusNames=BF0024 {ECO:0000313|EMBL:BAD46773.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD46773.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD46773.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD46773.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-[(R)-dihydrolipoyl]-L-lysyl-[protein] + NAD(+) = N(6)-
+CC         [(R)-lipoyl]-L-lysyl-[protein] + NADH + H(+); Xref=Rhea:RHEA:15045,
+CC         Rhea:RHEA-COMP:10474, Rhea:RHEA-COMP:10475, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83100; EC=1.8.1.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00043836,
+CC         ECO:0000256|RuleBase:RU003692};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000350-3,
+CC         ECO:0000256|RuleBase:RU003692};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|PIRSR:PIRSR000350-3,
+CC       ECO:0000256|RuleBase:RU003692};
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC       {ECO:0000256|RuleBase:RU003692}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00007532,
+CC       ECO:0000256|RuleBase:RU003692}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD46773.1; -; Genomic_DNA.
+DR   RefSeq; WP_005797088.1; NC_006347.1.
+DR   RefSeq; YP_097307.1; NC_006347.1.
+DR   AlphaFoldDB; Q650Q1; -.
+DR   STRING; 295405.BF0024; -.
+DR   GeneID; 66330829; -.
+DR   KEGG; bfr:BF0024; -.
+DR   PATRIC; fig|295405.11.peg.64; -.
+DR   HOGENOM; CLU_016755_0_2_10; -.
+DR   OrthoDB; 9800167at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0004148; F:dihydrolipoyl dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   FunFam; 3.30.390.30:FF:000001; Dihydrolipoyl dehydrogenase; 1.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR050151; Class-I_Pyr_Nuc-Dis_Oxidored.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR006258; Lipoamide_DH.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   NCBIfam; TIGR01350; lipoamide_DH; 1.
+DR   PANTHER; PTHR22912:SF151; DIHYDROLIPOYL DEHYDROGENASE 1, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR22912; DISULFIDE OXIDOREDUCTASE; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Nucleotide-binding {ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284,
+KW   ECO:0000256|RuleBase:RU003692}.
+FT   DOMAIN          3..319
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+FT   DOMAIN          338..446
+FT                   /note="Pyridine nucleotide-disulphide oxidoreductase
+FT                   dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF02852"
+FT   ACT_SITE        436
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-2"
+FT   BINDING         49
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         136..138
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         173..180
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         196
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         263
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         304
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   DISULFID        40..45
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-4"
+SQ   SEQUENCE   447 AA;  47638 MW;  AB066BF63B46EA46 CRC64;
+     MKYQVIIIGG GPAGYTAAEA AGKAGLSVLL FEKQNLGGVC LNEGCIPTKT LLYSAKTYDG
+     AKHASKYAVT VPEVFFDLPK IIARKSKVVR KLVLGVKSKL TSNNVTIISG EATILDKNTV
+     RCGEETYECD NLILCTGSET FIPPIPGIDS VNYWTHREAL DNKELPASLA IVGGGVIGME
+     FASFFNSLGV KVTVIEMMDE ILGGMDKELS ALLRADYAKR GIQFLLSTKV VSLAQTEEGA
+     VVSYENAEGA GSVIAEKLLM SVGRRPVTKG FGLENLNLQR TERGSIVVNG QMESSLPGVY
+     VCGDLTGFSL LAHTAVREAE VAVHAILGKE DRMSYAAIPG VVYTNPEIAG VGQTEESLTA
+     KGIAYRAVKL PMAYSGRFVA ENEGVNGVCK VLLGEDDTIL GAHVLGNPAS EIITLAGMAV
+     EMKLKAAEWK KIVFPHPTVA EIFREAL
+//

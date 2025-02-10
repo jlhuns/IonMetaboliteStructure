@@ -1,0 +1,159 @@
+ID   A0A8B6Y6H3_CAMFR        Unreviewed;       968 AA.
+AC   A0A8B6Y6H3;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=Alanine--tRNA ligase {ECO:0000256|ARBA:ARBA00017959};
+DE            EC=6.1.1.7 {ECO:0000256|ARBA:ARBA00013168};
+DE   AltName: Full=Protein lactyltransferase AARS1 {ECO:0000256|ARBA:ARBA00047209};
+GN   Name=AARS1 {ECO:0000313|RefSeq:XP_006172795.1};
+GN   Synonyms=AARS {ECO:0000256|HAMAP-Rule:MF_03133};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_006172795.1};
+RN   [1] {ECO:0000313|RefSeq:XP_006172795.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006172795.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the attachment of alanine to tRNA(Ala) in a two-
+CC       step reaction: alanine is first activated by ATP to form Ala-AMP and
+CC       then transferred to the acceptor end of tRNA(Ala). Also edits
+CC       incorrectly charged tRNA(Ala) via its editing domain.
+CC       {ECO:0000256|HAMAP-Rule:MF_03133}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Ala) + L-alanine + ATP = L-alanyl-tRNA(Ala) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:12540, Rhea:RHEA-COMP:9657, Rhea:RHEA-
+CC         COMP:9923, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78497, ChEBI:CHEBI:456215; EC=6.1.1.7;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_03133};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_03133};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_03133};
+CC   -!- SUBUNIT: Monomer. Interacts with ANKRD16; the interaction is direct.
+CC       {ECO:0000256|HAMAP-Rule:MF_03133}.
+CC   -!- DOMAIN: Consists of three domains; the N-terminal catalytic domain, the
+CC       editing domain and the C-terminal C-Ala domain. The editing domain
+CC       removes incorrectly charged amino acids, while the C-Ala domain, along
+CC       with tRNA(Ala), serves as a bridge to cooperatively bring together the
+CC       editing and aminoacylation centers thus stimulating deacylation of
+CC       misacylated tRNAs. {ECO:0000256|HAMAP-Rule:MF_03133}.
+CC   -!- PTM: ISGylated. {ECO:0000256|HAMAP-Rule:MF_03133}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Alax-L subfamily. {ECO:0000256|ARBA:ARBA00008429}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006172795.1; XM_006172733.3.
+DR   GeneID; 102514408; -.
+DR   KEGG; cfr:102514408; -.
+DR   CTD; 16; -.
+DR   OrthoDB; 4035at91561; -.
+DR   Proteomes; UP000694856; Chromosome 9.
+DR   GO; GO:0005739; C:mitochondrion; IEA:TreeGrafter.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-KW.
+DR   GO; GO:0004813; F:alanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006419; P:alanyl-tRNA aminoacylation; IEA:InterPro.
+DR   CDD; cd00673; AlaRS_core; 1.
+DR   FunFam; 3.10.310.40:FF:000002; alanine--tRNA ligase, cytoplasmic; 1.
+DR   FunFam; 3.30.930.10:FF:000011; Alanine--tRNA ligase, cytoplasmic; 1.
+DR   FunFam; 3.30.980.10:FF:000004; Alanine--tRNA ligase, cytoplasmic; 1.
+DR   FunFam; 2.40.30.130:FF:000026; Alanyl-tRNA synthetase; 1.
+DR   Gene3D; 2.40.30.130; -; 1.
+DR   Gene3D; 3.10.310.40; -; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.980.10; Threonyl-trna Synthetase, Chain A, domain 2; 1.
+DR   HAMAP; MF_00036_B; Ala_tRNA_synth_B; 1.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR002318; Ala-tRNA-lgiase_IIc.
+DR   InterPro; IPR018162; Ala-tRNA-ligase_IIc_anticod-bd.
+DR   InterPro; IPR018165; Ala-tRNA-synth_IIc_core.
+DR   InterPro; IPR018164; Ala-tRNA-synth_IIc_N.
+DR   InterPro; IPR050058; Ala-tRNA_ligase.
+DR   InterPro; IPR023033; Ala_tRNA_ligase_euk/bac.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   NCBIfam; TIGR00344; alaS; 1.
+DR   PANTHER; PTHR11777:SF36; ALANINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR11777; ALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+DR   Pfam; PF01411; tRNA-synt_2c; 1.
+DR   Pfam; PF07973; tRNA_SAD; 1.
+DR   PRINTS; PR00980; TRNASYNTHALA.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF101353; Putative anticodon-binding domain of alanyl-tRNA synthetase (AlaRS); 1.
+DR   SUPFAM; SSF55186; ThrRS/AlaRS common domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+DR   PROSITE; PS50860; AA_TRNA_LIGASE_II_ALA; 1.
+PE   3: Inferred from homology;
+KW   Acetylation {ECO:0000256|ARBA:ARBA00022990, ECO:0000256|HAMAP-
+KW   Rule:MF_03133};
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_03133};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_03133};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_03133};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_03133};
+KW   Methylation {ECO:0000256|ARBA:ARBA00022481};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_03133}; Nucleus {ECO:0000256|ARBA:ARBA00023242};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_03133};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|HAMAP-
+KW   Rule:MF_03133};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555, ECO:0000256|HAMAP-
+KW   Rule:MF_03133};
+KW   Ubl conjugation {ECO:0000256|ARBA:ARBA00022843, ECO:0000256|HAMAP-
+KW   Rule:MF_03133}; Zinc {ECO:0000256|HAMAP-Rule:MF_03133}.
+FT   DOMAIN          5..766
+FT                   /note="Alanyl-transfer RNA synthetases family profile"
+FT                   /evidence="ECO:0000259|PROSITE:PS50860"
+FT   BINDING         605
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_03133"
+FT   BINDING         609
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_03133"
+FT   BINDING         723
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_03133"
+FT   BINDING         727
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_03133"
+FT   MOD_RES         1
+FT                   /note="N-acetylmethionine"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_03133"
+SQ   SEQUENCE   968 AA;  106671 MW;  D784A8CA09228324 CRC64;
+     MDSTLTASEI RQRFIDFFKR NEHTYVHSSA TIPLDDPTLL FANAGMNQFK PIFLNTIDPS
+     HPMAKLSRAA NTQKCIRAGG KHNDLDDVGK DVYHHTFFEM LGSWSFGDYF KGLACKMALE
+     LLTQEFGIPI ERLYVTYFGG DEAAGLEPDL ECKQIWQNLG LDDAKILPGN MKDNFWEMGD
+     TGPCGPCSEI HYDRIGGRDA AHLVNQDDPN VLEIWNLVFI QYNRENDGVL KPLPKKSIDT
+     GMGLERLVSV LQNKMSNYDT DLFVPYFEAI QKGTGARPYT GKVGADDADG IDMAYRVLAD
+     HARTITVALA DGGRPDNTGR GYVLRRILRR AVRYSHEKLN ASRGFFATLV DVVVQSLGDA
+     FPELKKDPDM VKDIINEEEV QFLKTLSRGR RILDRKIQSL GDNRTIPGDT AWLLYDTYGF
+     PVDLTGLIAE EKGLVVDMDG FEEERKLAQL KSQGKGASGE DLIMLDIYAI EELRERGLEA
+     TDDSPKYNYH SDSSGSYAFE SAVATVMALR RDKMFVEEVS TGQECGVVLD KTCFYAEQGG
+     QIYDEGYLVK VDDSSEDKTE FTVKNAQVRG GYVLHIGTVY GSLKVGDQVR LFIDEPRRRP
+     VMSNHTATHI LNFALRSVLG EADQRGSLVA PDRLRFDFTA KGAMSTQQIK KAEEIANEMI
+     EAAKPVYTQD CPLAAAKAIQ GLRAVFDETY PDPVRVVSIG VPVSELLDDP SGPAGSLTSV
+     EFCGGTHLQN SSHAGAFVIV SEEAIAKGIR RIVAVTGAEA QKALRKAESL KNSLSLMEAK
+     VKAQTAPNKD VQREIADLGE ALATAVIPQW QKDEFRENLR SLKKIMDDLD RASKADVQKR
+     VLEKTKQLID SNPNQPLVIL EMESGASAKA LNEALKLFKT HSPQTSAMLF TVDNEAGKIT
+     CLCQVPQNAA NRGLKASEWV QQVSGLMDGK GGGKDVSAQA TGKNVGCLQE ALQLATSFAQ
+     LHLGDVKN
+//

@@ -1,0 +1,122 @@
+ID   LEUC_HALLT              Reviewed;         473 AA.
+AC   B9LUZ3;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   05-FEB-2025, entry version 83.
+DE   RecName: Full=3-isopropylmalate dehydratase large subunit {ECO:0000255|HAMAP-Rule:MF_01026};
+DE            EC=4.2.1.33 {ECO:0000255|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Alpha-IPM isomerase {ECO:0000255|HAMAP-Rule:MF_01026};
+DE            Short=IPMI {ECO:0000255|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Isopropylmalate isomerase {ECO:0000255|HAMAP-Rule:MF_01026};
+GN   Name=leuC {ECO:0000255|HAMAP-Rule:MF_01026};
+GN   OrderedLocusNames=Hlac_0872;
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Methanobacteriati; Methanobacteriota; Stenosarchaea group;
+OC   Halobacteria; Halobacteriales; Haloferacaceae; Halorubrum.
+OX   NCBI_TaxID=416348;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34;
+RX   PubMed=27617060; DOI=10.1186/s40793-016-0194-2;
+RA   Anderson I.J., DasSarma P., Lucas S., Copeland A., Lapidus A.,
+RA   Del Rio T.G., Tice H., Dalin E., Bruce D.C., Goodwin L., Pitluck S.,
+RA   Sims D., Brettin T.S., Detter J.C., Han C.S., Larimer F., Hauser L.,
+RA   Land M., Ivanova N., Richardson P., Cavicchioli R., DasSarma S.,
+RA   Woese C.R., Kyrpides N.C.;
+RT   "Complete genome sequence of the Antarctic Halorubrum lacusprofundi type
+RT   strain ACAM 34.";
+RL   Stand. Genomic Sci. 11:70-70(2016).
+CC   -!- FUNCTION: Catalyzes the isomerization between 2-isopropylmalate and 3-
+CC       isopropylmalate, via the formation of 2-isopropylmaleate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01026}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate = (2S)-2-isopropylmalate;
+CC         Xref=Rhea:RHEA:32287, ChEBI:CHEBI:1178, ChEBI:CHEBI:35121;
+CC         EC=4.2.1.33; Evidence={ECO:0000255|HAMAP-Rule:MF_01026};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01026};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026}.
+CC   -!- SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family. LeuC type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01026}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM56470.1; -; Genomic_DNA.
+DR   RefSeq; WP_015909621.1; NC_012029.1.
+DR   AlphaFoldDB; B9LUZ3; -.
+DR   SMR; B9LUZ3; -.
+DR   GeneID; 7401242; -.
+DR   KEGG; hla:Hlac_0872; -.
+DR   eggNOG; arCOG01698; Archaea.
+DR   HOGENOM; CLU_006714_3_4_2; -.
+DR   UniPathway; UPA00048; UER00071.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0003861; F:3-isopropylmalate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01583; IPMI; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   HAMAP; MF_01026; LeuC_type1; 1.
+DR   InterPro; IPR004430; 3-IsopropMal_deHydase_lsu.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR050067; IPM_dehydratase_rel_enz.
+DR   InterPro; IPR033941; IPMI_cat.
+DR   NCBIfam; TIGR00170; leuC; 1.
+DR   PANTHER; PTHR43822:SF9; 3-ISOPROPYLMALATE DEHYDRATASE; 1.
+DR   PANTHER; PTHR43822; HOMOACONITASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Leucine biosynthesis; Lyase; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN           1..473
+FT                   /note="3-isopropylmalate dehydratase large subunit"
+FT                   /id="PRO_1000149365"
+FT   REGION          289..319
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        291..301
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        307..317
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         348
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+FT   BINDING         408
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+FT   BINDING         411
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+SQ   SEQUENCE   473 AA;  51198 MW;  DB645649DB472990 CRC64;
+     MSEGTLYDKV WDRHTVTKLP TGQDQLFVGL HLVHEVTSPQ AFGMLKERDQ EVAFPERTHA
+     TVDHIVPTGN RDRPYRDEAA ENMMAELEAN VRGSGIDFSD PDSGNQGIVH VIGPEQGLTQ
+     PGMTIVCGDS HTSTHGAFGA LAFGIGTSQI RDVLATGCIA MEKQQVRKIE VTGELGEGVT
+     AKDVILTIIG KLGTDGGVGY VYEYAGEAIE DLGMEGRMSI CNMSIEGGAR AGYVNPDETT
+     YEWLAETDAF ADDPEKFERL KPYWESIRSD ADAEYDDVVT IDGSAIEPTV TWGTTPGQTA
+     GITEPIPDPD DLPEEDRDTA KRAQKHMRVE PGDTMEGYDI DVAFLGSCTN ARLKDLREAA
+     AFVEGREVDD DVRAMVVPGS QRVRDAAEAE GIDEIFIEAG FDWREPGCSM CLGMNDDQLV
+     GDEASASSSN RNFVGRQGSK DGRTVLMSPI MVAAAAVTGE VTDVREMEEV ATV
+//

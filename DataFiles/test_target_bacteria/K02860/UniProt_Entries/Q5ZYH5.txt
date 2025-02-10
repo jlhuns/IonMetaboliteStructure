@@ -1,0 +1,92 @@
+ID   RIMM_LEGPH              Reviewed;         169 AA.
+AC   Q5ZYH5;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 93.
+DE   RecName: Full=Ribosome maturation factor RimM {ECO:0000255|HAMAP-Rule:MF_00014};
+GN   Name=rimM {ECO:0000255|HAMAP-Rule:MF_00014};
+GN   OrderedLocusNames=lpg0397;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: An accessory protein needed during the final step in the
+CC       assembly of 30S ribosomal subunit, possibly for assembly of the head
+CC       region. Essential for efficient processing of 16S rRNA. May be needed
+CC       both before and after RbfA during the maturation of 16S rRNA. It has
+CC       affinity for free ribosomal 30S subunits but not for 70S ribosomes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- SUBUNIT: Binds ribosomal protein uS19. {ECO:0000255|HAMAP-
+CC       Rule:MF_00014}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- DOMAIN: The PRC barrel domain binds ribosomal protein uS19.
+CC       {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- SIMILARITY: Belongs to the RimM family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00014}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26494.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946146.1; NC_002942.5.
+DR   RefSeq; YP_094441.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZYH5; -.
+DR   SMR; Q5ZYH5; -.
+DR   STRING; 272624.lpg0397; -.
+DR   PaxDb; 272624-lpg0397; -.
+DR   GeneID; 57034401; -.
+DR   KEGG; lpn:lpg0397; -.
+DR   PATRIC; fig|272624.6.peg.411; -.
+DR   eggNOG; COG0806; Bacteria.
+DR   HOGENOM; CLU_077636_1_0_6; -.
+DR   OrthoDB; 9783509at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005840; C:ribosome; IEA:InterPro.
+DR   GO; GO:0043022; F:ribosome binding; IEA:InterPro.
+DR   GO; GO:0042274; P:ribosomal small subunit biogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.30.30.240; PRC-barrel domain; 1.
+DR   Gene3D; 2.40.30.60; RimM; 1.
+DR   HAMAP; MF_00014; Ribosome_mat_RimM; 1.
+DR   InterPro; IPR027275; PRC-brl_dom.
+DR   InterPro; IPR011033; PRC_barrel-like_sf.
+DR   InterPro; IPR011961; RimM.
+DR   InterPro; IPR002676; RimM_N.
+DR   InterPro; IPR036976; RimM_N_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   NCBIfam; TIGR02273; 16S_RimM; 1.
+DR   PANTHER; PTHR33692; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   PANTHER; PTHR33692:SF1; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   Pfam; PF05239; PRC; 1.
+DR   Pfam; PF01782; RimM; 1.
+DR   SUPFAM; SSF50346; PRC-barrel domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+PE   3: Inferred from homology;
+KW   Chaperone; Cytoplasm; Reference proteome; Ribosome biogenesis;
+KW   rRNA processing.
+FT   CHAIN           1..169
+FT                   /note="Ribosome maturation factor RimM"
+FT                   /id="PRO_0000163307"
+FT   DOMAIN          97..169
+FT                   /note="PRC barrel"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00014"
+SQ   SEQUENCE   169 AA;  19229 MW;  4AE9788CCFC826A1 CRC64;
+     MNNKTNWVII GRFGRPHGIK GFVTVHSFTD PADNILRYND WHVFLNKQWQ PLKLLTIEVR
+     SKAIIAQIEG YPKRELVSAL TNLDIGVQES QLAALAPGEY YWYQLIGMSV INSKGDLFGK
+     VVEIMPTGSN DVLVVEGEKR HLIPYLPGQF VINVDESQQV ITVDWDMNF
+//

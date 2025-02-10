@@ -1,0 +1,124 @@
+ID   Q81I86_BACCR            Unreviewed;      1478 AA.
+AC   Q81I86;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   SubName: Full=Glutamate synthase [NADPH] large chain {ECO:0000313|EMBL:AAP07549.1};
+DE            EC=1.4.1.13 {ECO:0000313|EMBL:AAP07549.1};
+GN   OrderedLocusNames=BC_0511 {ECO:0000313|EMBL:AAP07549.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP07549.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP07549.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001917};
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001927};
+CC   -!- PATHWAY: Amino-acid biosynthesis. {ECO:0000256|ARBA:ARBA00029440}.
+CC   -!- SIMILARITY: Belongs to the glutamate synthase family.
+CC       {ECO:0000256|ARBA:ARBA00009716}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07549.1; -; Genomic_DNA.
+DR   RefSeq; NP_830348.1; NC_004722.1.
+DR   RefSeq; WP_000932762.1; NZ_CP034551.1.
+DR   SMR; Q81I86; -.
+DR   MEROPS; C44.003; -.
+DR   KEGG; bce:BC0511; -.
+DR   PATRIC; fig|226900.8.peg.485; -.
+DR   HOGENOM; CLU_000422_8_2_9; -.
+DR   OrthoDB; 9758182at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004152; F:dihydroorotate dehydrogenase activity; IBA:GO_Central.
+DR   GO; GO:0004355; F:glutamate synthase (NADPH) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006537; P:glutamate biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009220; P:pyrimidine ribonucleotide biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00713; GltS; 1.
+DR   CDD; cd02808; GltS_FMN; 1.
+DR   CDD; cd00504; GXGXG; 1.
+DR   FunFam; 3.20.20.70:FF:000097; Glutamate synthase, large subunit; 1.
+DR   FunFam; 3.60.20.10:FF:000082; Glutamate synthase, large subunit; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 2.
+DR   Gene3D; 2.160.20.60; Glutamate synthase, alpha subunit, C-terminal domain; 1.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR050711; ET-N_metabolism_enzyme.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR002489; Glu_synth_asu_C.
+DR   InterPro; IPR036485; Glu_synth_asu_C_sf.
+DR   InterPro; IPR006982; Glu_synth_centr_N.
+DR   InterPro; IPR002932; Glu_synthdom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   PANTHER; PTHR11938; FAD NADPH DEHYDROGENASE/OXIDOREDUCTASE; 1.
+DR   PANTHER; PTHR11938:SF133; GLUTAMATE SYNTHASE (NADH); 1.
+DR   Pfam; PF00310; GATase_2; 1.
+DR   Pfam; PF04898; Glu_syn_central; 1.
+DR   Pfam; PF01645; Glu_synthase; 1.
+DR   Pfam; PF01493; GXGXG; 1.
+DR   SUPFAM; SSF69336; Alpha subunit of glutamate synthase, C-terminal domain; 1.
+DR   SUPFAM; SSF51395; FMN-linked oxidoreductases; 1.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   3Fe-4S {ECO:0000256|ARBA:ARBA00023291};
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643};
+KW   Glutamate biosynthesis {ECO:0000256|ARBA:ARBA00023164};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:AAP07549.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          24..394
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+SQ   SEQUENCE   1478 AA;  162725 MW;  22031B0A136A069F CRC64;
+     MLNKKNTWTP SLFRDYRNAE HDACGIVSVM EKRKIATKEN IDLCIQSLVK MNHRAGFING
+     EGDGIGIHID IPKTLWNEKL KSSGYNPTIV DHPHFIVGHF FLNKKENITA LKDYIRTQLN
+     NKNFTIIFES DDATNSDALG PLGKQEEPLF WQVALIAENE IINIEQTLFS VTIKIEENEA
+     IHVASLSHDH VVYKVLGAGD TLVAYYNDLQ HPLIASTMTL GHNRYSTNTL SNFFRVQPFS
+     ILGHNGEINT IAKLRDQAEM IDVPLTAGGS DSQDLNRTLE TLLVQYGYSL FEAMEILFPP
+     IINEIKLYET PLQDLYTYIR EAWGHFAQGP AGIISRFKDE AVFSVDSLGL RPVWKVETES
+     SYIFSSEPGV VSPTKYVAEP KPLAPGEKVG LKWNEQDELV LYEYDKYQIQ VYNRFKKRID
+     TTNYHLNLSI PETKKIQGLC DSVQVETKEY VAFGWDREHI QLLEQMATKG VEPIRSLGHD
+     SPLAALDTDR RNIADFIKES VAVVTNPAID RDREIEHFST RTVLGERPSL LSGAKRPFVV
+     EMLSPIILEG SVAQPIAEEL HTITYEQLIE LFKTHNSIAT ISATFSSSET LQCALSRISS
+     EAIAAVNNGA SLLVLDDAKA HLNERLWIDP HLVTAKVHQA LSENKLRRNC SLVIRSGALR
+     SLHDIVTLYG LGADGINPYL LFATVNDGTK TPITNLYTAL NKGLEKVIST IGIHELRGYG
+     RLYSSIGLHE EIANILQITN FFGSNDLAFS LESLVEDAKI RAEDYNNPKI RMRKSFHIFP
+     RIWKAIGDVA KGNSYDDYRD KLSELEENNP IAIRHLVQTK QTKHVVPTEE VSIGIKNHNL
+     PFIISSMSFG SQNEIAFRAY AEAADQLNMI SLNGEGGEIK DMIGKYPHTR GQQVASGRFG
+     VNAELLNSSN LIEIKIGQGA KPGEGGHLPG SKVTAKIAEA RNATIGSDLI SPSNNHDIYS
+     IEDLAQMITE IKTANQLAKV AVKVPVVPNI GTIAVGIAKA GADFINISGF DGGTGAARIH
+     ALQHVGLPVE IGVKAAHNAL LEASMRHKVE IWADGGIRSV NDALKIMLLG ANRIGFGTLS
+     MIAIGCTTCR GCHLDTCHVG IATQIESEAQ AKEHGLRRFV PRELESAVAG LLNLFTSFGV
+     ELKRLTGQLG YTNLQAIVGR SDLLEQVRGE NLLNLRNLLQ IIEHPSVTTT EGVSEKQFKT
+     VHSADSKELV GVGVEQRVMG GLESCYRVRS KLYEATQLEP LTLKYTNGSI PGNGLGAYNS
+     ENLFIHVNGG AQDGIGKTSF GGGIYITKSK GKDGVYYNGS VGKGFGYGAQ KGALYVQGNA
+     DARAGIRLSG ADMIIGGRIT KPLREKEQGN IGAYSNIKGF AFEYMTNGRA LVLGDPGPWI
+     CAGMTGGVVY LRRDSNLGLT EQALKRRIAK GANVTLQPIS KNGLKDVTEL LLDYIRVLNE
+     HEQYEEVALL TPLLDDIQNK FFEIIPKKEQ ADPSISTE
+//

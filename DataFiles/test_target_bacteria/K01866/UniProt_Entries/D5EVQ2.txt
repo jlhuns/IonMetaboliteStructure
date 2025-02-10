@@ -1,0 +1,133 @@
+ID   D5EVQ2_XYLR2            Unreviewed;       431 AA.
+AC   D5EVQ2;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 91.
+DE   RecName: Full=Tyrosine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_02006};
+DE            EC=6.1.1.1 {ECO:0000256|HAMAP-Rule:MF_02006};
+DE   AltName: Full=Tyrosyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02006};
+DE            Short=TyrRS {ECO:0000256|HAMAP-Rule:MF_02006};
+GN   Name=tyrS {ECO:0000256|HAMAP-Rule:MF_02006,
+GN   ECO:0000313|EMBL:ADE82864.1};
+GN   OrderedLocusNames=PRU_2299 {ECO:0000313|EMBL:ADE82864.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE82864.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE82864.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-
+CC       step reaction: tyrosine is first activated by ATP to form Tyr-AMP and
+CC       then transferred to the acceptor end of tRNA(Tyr). {ECO:0000256|HAMAP-
+CC       Rule:MF_02006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Tyr) + L-tyrosine + ATP = L-tyrosyl-tRNA(Tyr) + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:10220, Rhea:RHEA-COMP:9706,
+CC         Rhea:RHEA-COMP:9707, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58315, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78536, ChEBI:CHEBI:456215; EC=6.1.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048248, ECO:0000256|HAMAP-
+CC         Rule:MF_02006};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_02006}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02006}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       TyrS type 1 subfamily. {ECO:0000256|HAMAP-Rule:MF_02006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE82864.1; -; Genomic_DNA.
+DR   RefSeq; WP_013064850.1; NC_014033.1.
+DR   AlphaFoldDB; D5EVQ2; -.
+DR   STRING; 264731.PRU_2299; -.
+DR   KEGG; pru:PRU_2299; -.
+DR   eggNOG; COG0162; Bacteria.
+DR   HOGENOM; CLU_024003_0_3_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00805; TyrRS_core; 1.
+DR   FunFam; 1.10.240.10:FF:000001; Tyrosine--tRNA ligase; 1.
+DR   FunFam; 3.10.290.10:FF:000014; Tyrosine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000008; Tyrosine--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 3.10.290.10; RNA-binding S4 domain; 1.
+DR   Gene3D; 1.10.240.10; Tyrosyl-Transfer RNA Synthetase; 1.
+DR   HAMAP; MF_02006; Tyr_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   InterPro; IPR054608; SYY-like_C.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024107; Tyr-tRNA-ligase_bac_1.
+DR   NCBIfam; TIGR00234; tyrS; 1.
+DR   PANTHER; PTHR11766:SF0; TYROSINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11766; TYROSYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF22421; SYY_C-terminal; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   SUPFAM; SSF55174; Alpha-L RNA-binding motif; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_02006};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_02006}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02006};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_02006};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_02006};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_02006}; Reference proteome {ECO:0000313|Proteomes:UP000000927};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|PROSITE-
+KW   ProRule:PRU00182}.
+FT   DOMAIN          346..428
+FT                   /note="Tyrosine--tRNA ligase SYY-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF22421"
+FT   MOTIF           38..47
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+FT   MOTIF           235..239
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+FT   BINDING         33
+FT                   /ligand="L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:58315"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+FT   BINDING         173
+FT                   /ligand="L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:58315"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+FT   BINDING         177
+FT                   /ligand="L-tyrosine"
+FT                   /ligand_id="ChEBI:CHEBI:58315"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+FT   BINDING         238
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02006"
+SQ   SEQUENCE   431 AA;  48913 MW;  96291476B460C6DF CRC64;
+     MKNFVEELKW RGMLAQMMPG TEELLQKEMV TAYLGTDPTA DSLHIGHLCG IMMLRHLQHC
+     GHRPVILVGG ATGMIGDPSG KSQERNLLNN ETLYHNQECI KKQVAKFLDF ESKEPNAALM
+     VNNYDWMKDF TFLDFAREVG KHITVNYMMA KESVQQRLNG TARDGLSFTE FTYQLLQGYD
+     FLYLYQHYGV KLQLGGNDQW GNMTTGTELI RRTLGNEVET FALTCPLITK SDGKKFGKTE
+     SGNIWLDPVR TTPYKFYQFW LNVSDDDAER YIKIFTSLEK DVIDALIEEH KQDPGRRVLQ
+     KRLAEEVTVL VHSKEALDTA IEASNILFGK STKEGLEKLD EQTLLDVFDG VPQFEISKDQ
+     LGQPAIELLT TVAPVFPSKG EMRKMVQGGG VSLNKEKITD QNRAITAEDL IDGKYLLAQK
+     GKKNYYLLIV K
+//

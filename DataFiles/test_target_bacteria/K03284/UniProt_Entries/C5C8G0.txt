@@ -1,0 +1,78 @@
+ID   C5C8G0_MICLC            Unreviewed;       361 AA.
+AC   C5C8G0;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   SubName: Full=Magnesium Mg(2+) and cobalt Co(2+) transport protein CorA {ECO:0000313|EMBL:ACS29762.1};
+GN   OrderedLocusNames=Mlut_02010 {ECO:0000313|EMBL:ACS29762.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS29762.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the CorA metal ion transporter (MIT) (TC 1.A.35)
+CC       family. {ECO:0000256|ARBA:ARBA00009765}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS29762.1; -; Genomic_DNA.
+DR   AlphaFoldDB; C5C8G0; -.
+DR   STRING; 465515.Mlut_02010; -.
+DR   EnsemblBacteria; ACS29762; ACS29762; Mlut_02010.
+DR   KEGG; mlu:Mlut_02010; -.
+DR   PATRIC; fig|465515.4.peg.176; -.
+DR   eggNOG; COG0598; Bacteria.
+DR   HOGENOM; CLU_007127_0_2_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:TreeGrafter.
+DR   GO; GO:0015087; F:cobalt ion transmembrane transporter activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0015095; F:magnesium ion transmembrane transporter activity; IEA:TreeGrafter.
+DR   CDD; cd12830; MtCorA-like; 1.
+DR   FunFam; 1.20.58.340:FF:000004; Magnesium transport protein CorA; 1.
+DR   Gene3D; 3.30.460.20; CorA soluble domain-like; 1.
+DR   Gene3D; 1.20.58.340; Magnesium transport protein CorA, transmembrane region; 2.
+DR   InterPro; IPR045861; CorA_cytoplasmic_dom.
+DR   InterPro; IPR045863; CorA_TM1_TM2.
+DR   InterPro; IPR002523; MgTranspt_CorA/ZnTranspt_ZntB.
+DR   PANTHER; PTHR46494; CORA FAMILY METAL ION TRANSPORTER (EUROFUNG); 1.
+DR   PANTHER; PTHR46494:SF1; CORA FAMILY METAL ION TRANSPORTER (EUROFUNG); 1.
+DR   Pfam; PF01544; CorA; 2.
+DR   SUPFAM; SSF143865; CorA soluble domain-like; 1.
+DR   SUPFAM; SSF144083; Magnesium transport protein CorA, transmembrane region; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        335..355
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   361 AA;  41250 MW;  4955C769930C6AD8 CRC64;
+     MIDNAVYVDG RRVHTPSTLE DTWEECERTG GMVWLGLYRP DVAELQAVAE ELRLHPLAVE
+     DALAGGERAK LDRYGEDSFM VLHPARYIDR TETVEFGELS VFTGEHYVVT VRHAEEPDLA
+     AVRRSLETEG RERLAMGPWQ VTLEILDRVV DDYVPVADGL EQDIEEIEGQ VFAGDGHVSR
+     RIYQLSREVL NFQHAIRALP SIVEQLQEEV RTRMHEDTRR LDADGLPRRD DAHGWEDEEL
+     SDQARLEVEN LHRLRDVHDH TVQINERVTT MRQMLHSALE LDSTLASKRL SEQSIAQNEQ
+     VKQISSWAAI IFAPQLVGSV YGMNFDGMPE LHWAFGYPFA LGLMLAVALT LFVLFKRADW
+     L
+//

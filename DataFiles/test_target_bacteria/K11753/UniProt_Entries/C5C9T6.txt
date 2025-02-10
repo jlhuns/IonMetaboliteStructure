@@ -1,0 +1,142 @@
+ID   C5C9T6_MICLC            Unreviewed;       325 AA.
+AC   C5C9T6;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 78.
+DE   RecName: Full=Riboflavin biosynthesis protein {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=Riboflavin kinase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.1.26 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=Flavokinase {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=FMN adenylyltransferase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.7.2 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD pyrophosphorylase {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD synthase {ECO:0000256|PIRNR:PIRNR004491};
+GN   Name=ribF {ECO:0000313|EMBL:SQG49192.1};
+GN   OrderedLocusNames=Mlut_07060 {ECO:0000313|EMBL:ACS30238.1};
+GN   ORFNames=NCTC2665_01726 {ECO:0000313|EMBL:SQG49192.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30238.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30238.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30238.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49192.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49192.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=FMN + ATP + H(+) = FAD + diphosphate; Xref=Rhea:RHEA:17237,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58210; EC=2.7.7.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049494,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=riboflavin + ATP = FMN + ADP + H(+); Xref=Rhea:RHEA:14357,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57986,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:456216; EC=2.7.1.26;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047880,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004726, ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from riboflavin
+CC       (ATP route): step 1/1. {ECO:0000256|ARBA:ARBA00005201,
+CC       ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- SIMILARITY: Belongs to the ribF family.
+CC       {ECO:0000256|PIRNR:PIRNR004491}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30238.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49192.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079125.1; NZ_WBMF01000008.1.
+DR   AlphaFoldDB; C5C9T6; -.
+DR   STRING; 465515.Mlut_07060; -.
+DR   EnsemblBacteria; ACS30238; ACS30238; Mlut_07060.
+DR   KEGG; mlu:Mlut_07060; -.
+DR   PATRIC; fig|465515.4.peg.669; -.
+DR   eggNOG; COG0196; Bacteria.
+DR   HOGENOM; CLU_048437_0_0_11; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   CDD; cd02064; FAD_synthetase_N; 1.
+DR   FunFam; 2.40.30.30:FF:000003; Riboflavin biosynthesis protein; 1.
+DR   FunFam; 3.40.50.620:FF:000021; Riboflavin biosynthesis protein; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 2.40.30.30; Riboflavin kinase-like; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR002606; Riboflavin_kinase_bac.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_dom_sf.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00125; cyt_tran_rel; 1.
+DR   NCBIfam; TIGR00083; ribF; 1.
+DR   PANTHER; PTHR22749:SF6; RIBOFLAVIN KINASE; 1.
+DR   PANTHER; PTHR22749; RIBOFLAVIN KINASE/FMN ADENYLYLTRANSFERASE; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   PIRSF; PIRSF004491; FAD_Synth; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF82114; Riboflavin kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRNR:PIRNR004491};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRNR:PIRNR004491};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|PIRNR:PIRNR004491};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|PIRNR:PIRNR004491};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR004491}.
+FT   DOMAIN          188..319
+FT                   /note="Riboflavin kinase"
+FT                   /evidence="ECO:0000259|SMART:SM00904"
+SQ   SEQUENCE   325 AA;  35680 MW;  C6DF2A1D5DB44771 CRC64;
+     MRVWNSLDEV PTDLPRTVVT LGNFDGVHRG HREVLRRVVE LARARGALAV AVTFTPHPRA
+     VHQPEVPHVD IISPEQRVVL LEEAGLDAVL LQRYTLEFAD QSPEEFVRGM LVHGLHAAVV
+     VVGHDVRFGR GNTGDVAEMV RLGAHYGFEV EAVEEFPAEH GAEPERRCSS TWVREALDAG
+     DVAQAAAVLG RHHVLTGEVV HGFARGRELG FPTANLETDV QGMIPADGVY AGWVHDAHGG
+     VWPAAISIGS NPTFEDVSRV VEAHVIDRHD ERVEDFDLYG QHIEVEFVAR LRGMVAYEGV
+     EKLVAQITQD VDEARAILAT TPSDR
+//

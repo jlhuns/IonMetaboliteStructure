@@ -1,0 +1,81 @@
+ID   NRDR_MICLC              Reviewed;         164 AA.
+AC   C5CA18;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   RecName: Full=Transcriptional repressor NrdR {ECO:0000255|HAMAP-Rule:MF_00440};
+GN   Name=nrdR {ECO:0000255|HAMAP-Rule:MF_00440};
+GN   OrderedLocusNames=Mlut_13480;
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 / CCUG 5858 / IAM
+RC   1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230;
+RX   PubMed=19948807; DOI=10.1128/jb.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- FUNCTION: Negatively regulates transcription of bacterial
+CC       ribonucleotide reductase nrd genes and operons by binding to NrdR-
+CC       boxes. {ECO:0000255|HAMAP-Rule:MF_00440}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00440};
+CC       Note=Binds 1 zinc ion. {ECO:0000255|HAMAP-Rule:MF_00440};
+CC   -!- SIMILARITY: Belongs to the NrdR family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00440}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30853.1; -; Genomic_DNA.
+DR   RefSeq; WP_002855838.1; NZ_WBMF01000049.1.
+DR   AlphaFoldDB; C5CA18; -.
+DR   SMR; C5CA18; -.
+DR   STRING; 465515.Mlut_13480; -.
+DR   EnsemblBacteria; ACS30853; ACS30853; Mlut_13480.
+DR   GeneID; 93362394; -.
+DR   KEGG; mlu:Mlut_13480; -.
+DR   eggNOG; COG1327; Bacteria.
+DR   HOGENOM; CLU_108412_1_0_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00440; NrdR; 1.
+DR   InterPro; IPR005144; ATP-cone_dom.
+DR   InterPro; IPR055173; NrdR-like_N.
+DR   InterPro; IPR003796; RNR_NrdR-like.
+DR   NCBIfam; TIGR00244; transcriptional regulator NrdR; 1.
+DR   PANTHER; PTHR30455; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   PANTHER; PTHR30455:SF2; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   Pfam; PF03477; ATP-cone; 1.
+DR   Pfam; PF22811; NrdR-like_N; 1.
+DR   PROSITE; PS51161; ATP_CONE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA-binding; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Repressor; Transcription; Transcription regulation;
+KW   Zinc; Zinc-finger.
+FT   CHAIN           1..164
+FT                   /note="Transcriptional repressor NrdR"
+FT                   /id="PRO_1000206123"
+FT   DOMAIN          46..136
+FT                   /note="ATP-cone"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+FT   ZN_FING         3..34
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+SQ   SEQUENCE   164 AA;  18355 MW;  E361951B5482B419 CRC64;
+     MHCPFCRHED SRVVDSRSLD DGSAIRRRRQ CQACGKRFTT METTALTVVK RSGVAEPFDR
+     SKVINGVRKA CQGRPVTSDD LAMLAQEVEE TVRATGNAEV DAHDVGLAIL DPLRRLDQVA
+     FLRFASVYRD FESLDDFEEA IAELRAGDGD DRGRPAVQPR LFTR
+//

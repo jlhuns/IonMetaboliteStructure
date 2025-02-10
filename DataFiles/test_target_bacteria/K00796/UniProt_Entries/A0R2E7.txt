@@ -1,0 +1,89 @@
+ID   A0R2E7_MYCS2            Unreviewed;       291 AA.
+AC   A0R2E7;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Dihydropteroate synthase {ECO:0000256|RuleBase:RU361205};
+DE            Short=DHPS {ECO:0000256|RuleBase:RU361205};
+DE            EC=2.5.1.15 {ECO:0000256|RuleBase:RU361205};
+DE   AltName: Full=Dihydropteroate pyrophosphorylase {ECO:0000256|RuleBase:RU361205};
+GN   Name=folP {ECO:0000313|EMBL:ABK74555.1};
+GN   OrderedLocusNames=MSMEG_5085 {ECO:0000313|EMBL:ABK74555.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK74555.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK74555.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of para-aminobenzoate (pABA) with
+CC       6-hydroxymethyl-7,8-dihydropterin diphosphate (DHPt-PP) to form 7,8-
+CC       dihydropteroate (H2Pte), the immediate precursor of folate derivatives.
+CC       {ECO:0000256|RuleBase:RU361205}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU361205};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolate biosynthesis; 7,8-
+CC       dihydrofolate from 2-amino-4-hydroxy-6-hydroxymethyl-7,8-
+CC       dihydropteridine diphosphate and 4-aminobenzoate: step 1/2.
+CC       {ECO:0000256|RuleBase:RU361205}.
+CC   -!- SIMILARITY: Belongs to the DHPS family.
+CC       {ECO:0000256|RuleBase:RU361205}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74555.1; -; Genomic_DNA.
+DR   RefSeq; WP_011730302.1; NZ_SIJM01000019.1.
+DR   RefSeq; YP_889335.1; NC_008596.1.
+DR   AlphaFoldDB; A0R2E7; -.
+DR   STRING; 246196.MSMEG_5085; -.
+DR   PaxDb; 246196-MSMEI_4959; -.
+DR   GeneID; 66736405; -.
+DR   KEGG; msb:LJ00_25150; -.
+DR   KEGG; msm:MSMEG_5085; -.
+DR   PATRIC; fig|246196.19.peg.4963; -.
+DR   eggNOG; COG0294; Bacteria.
+DR   OrthoDB; 9811744at2; -.
+DR   UniPathway; UPA00077; UER00156.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004156; F:dihydropteroate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00739; DHPS; 1.
+DR   FunFam; 3.20.20.20:FF:000008; Dihydropteroate synthase; 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   InterPro; IPR045031; DHP_synth-like.
+DR   InterPro; IPR006390; DHP_synth_dom.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   InterPro; IPR000489; Pterin-binding_dom.
+DR   NCBIfam; TIGR01496; DHPS; 1.
+DR   PANTHER; PTHR20941; FOLATE SYNTHESIS PROTEINS; 1.
+DR   PANTHER; PTHR20941:SF8; INACTIVE DIHYDROPTEROATE SYNTHASE 2; 1.
+DR   Pfam; PF00809; Pterin_bind; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+DR   PROSITE; PS00792; DHPS_1; 1.
+DR   PROSITE; PS00793; DHPS_2; 1.
+DR   PROSITE; PS50972; PTERIN_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Folate biosynthesis {ECO:0000256|RuleBase:RU361205};
+KW   Magnesium {ECO:0000256|RuleBase:RU361205};
+KW   Metal-binding {ECO:0000256|RuleBase:RU361205};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757};
+KW   Transferase {ECO:0000256|RuleBase:RU361205, ECO:0000313|EMBL:ABK74555.1}.
+FT   DOMAIN          15..272
+FT                   /note="Pterin-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50972"
+SQ   SEQUENCE   291 AA;  30973 MW;  938AC4CB0F379A0F CRC64;
+     MFSTFCGRPV AHDRALIMAI VNRTPDSFYD RGATFTDEAA KAAAHRVIDE GADVIDVGGV
+     KAGPGSNVDA EEEITRVVPF IEWLRSTFPD RLISIDTWRA AVAKQACAAG ADIINDTWAG
+     ADPGLAEVAA EFGAGLVCSH TGGATPRTRP FRVNYGISER GVVDDVIAEV TAAAERAVAT
+     GVQRDRILID PTHDFGKNTY HGLSLLRHVK DLVNTGWPVL MALSNKDFVG ETLGVDLTER
+     LEGTLAATAL AAADGAAMFR VHEVGPTRRV LEMVASIQGV RKPARTVRGL A
+//

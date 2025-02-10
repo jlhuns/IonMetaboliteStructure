@@ -1,0 +1,78 @@
+ID   Q8DXY4_STRA5            Unreviewed;       314 AA.
+AC   Q8DXY4;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 92.
+DE   SubName: Full=Magnesium transporter, CorA family {ECO:0000313|EMBL:AAN00574.1};
+GN   OrderedLocusNames=SAG1711 {ECO:0000313|EMBL:AAN00574.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAN00574.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAN00574.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the CorA metal ion transporter (MIT) (TC 1.A.35)
+CC       family. {ECO:0000256|ARBA:ARBA00009765}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAN00574.1; -; Genomic_DNA.
+DR   RefSeq; NP_688701.1; NC_004116.1.
+DR   RefSeq; WP_000812121.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DXY4; -.
+DR   STRING; 208435.SAG1711; -.
+DR   KEGG; sag:SAG1711; -.
+DR   PATRIC; fig|208435.3.peg.1719; -.
+DR   HOGENOM; CLU_007127_8_1_9; -.
+DR   OrthoDB; 9803416at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046873; F:metal ion transmembrane transporter activity; IEA:InterPro.
+DR   CDD; cd12827; EcCorA_ZntB-like_u2; 1.
+DR   Gene3D; 3.30.460.20; CorA soluble domain-like; 1.
+DR   Gene3D; 1.20.58.340; Magnesium transport protein CorA, transmembrane region; 2.
+DR   InterPro; IPR047199; CorA-like.
+DR   InterPro; IPR045861; CorA_cytoplasmic_dom.
+DR   InterPro; IPR045863; CorA_TM1_TM2.
+DR   InterPro; IPR002523; MgTranspt_CorA/ZnTranspt_ZntB.
+DR   PANTHER; PTHR47891:SF2; MAGNESIUM AND COBALT TRANSPORTER; 1.
+DR   PANTHER; PTHR47891; TRANSPORTER-RELATED; 1.
+DR   Pfam; PF01544; CorA; 1.
+DR   SUPFAM; SSF143865; CorA soluble domain-like; 1.
+DR   SUPFAM; SSF144083; Magnesium transport protein CorA, transmembrane region; 1.
+PE   3: Inferred from homology;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000821};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        255..274
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        286..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   314 AA;  36580 MW;  2C85601F81CCA318 CRC64;
+     MKQMFLSTAI EFKEIETFEP GAWINLVNPS QEESEQVADQ FGIDIDDLRA PLDVEETSRI
+     SVEDDYTLVI VDVPTYEERN NKSYYMTIPM GIIVTDNAVI TTCLEHLTLF DHFYRRRVKN
+     FYTFMKTRFV FQLLYRNAEL YLQALRTIDR QSDKIEAQLE SATRNEQLID MMELEKSIVY
+     LKASLKFNER IVKKLTSSTS SLKKYIEDED LLEDTLIETQ QAIEMANIYE NVLNAMTETT
+     ASIIGNNQNT IMKTLALVTM TLDIPTVIFS AYGMNFQNNW MPLNGLAHGF IYVVLLAFLM
+     SSFVVFYFIR KKWF
+//

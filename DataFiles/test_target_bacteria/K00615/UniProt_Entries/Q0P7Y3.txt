@@ -1,0 +1,268 @@
+ID   Q0P7Y3_CAMJE            Unreviewed;       632 AA.
+AC   Q0P7Y3;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 132.
+DE   RecName: Full=Transketolase {ECO:0000256|ARBA:ARBA00013152, ECO:0000256|NCBIfam:TIGR00232};
+DE            EC=2.2.1.1 {ECO:0000256|ARBA:ARBA00013152, ECO:0000256|NCBIfam:TIGR00232};
+GN   Name=tkt {ECO:0000313|EMBL:CAL35742.1};
+GN   OrderedLocusNames=Cj1645 {ECO:0000313|EMBL:CAL35742.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35742.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35742.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2] {ECO:0007829|PDB:3L84}
+RP   X-RAY CRYSTALLOGRAPHY (1.36 ANGSTROMS).
+RA   Nocek B., Makowska-Grzysa M., Maltseva N., Grimshaw S., Anderson W.F.,
+RA   Joachimiak A.;
+RT   "High resolution crystal structure of transketolase from Campylobacter
+RT   jejuni subsp. jejuni NCTC 11168.";
+RL   Submitted (DEC-2009) to the PDB data bank.
+RN   [3] {ECO:0007829|PDB:3M34}
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) IN COMPLEX WITH CALCIUM AND THIAMINE
+RP   PYROPHOSPHATE.
+RA   Nocek B., Makowska-Grzyska M., Maltseva N., Grimshaw S., Joachimiak A.,
+RA   Anderson W., CSGID., NIAID.;
+RT   "Crystal structure of transketolase in complex with thiamin diphosphate and
+RT   calcium ion.";
+RL   Submitted (MAR-2010) to the PDB data bank.
+RN   [4] {ECO:0007829|PDB:3M6L}
+RP   X-RAY CRYSTALLOGRAPHY (1.59 ANGSTROMS) IN COMPLEX WITH CALCIUM AND THIAMINE
+RP   PYROPHOSPHATE.
+RA   Nocek B., Makowska-Grzyska M., Maltseva N., Grimshaw S., Joachimiak A.,
+RA   Anderson W.;
+RT   "Crystal structure of transketolase in complex with thiamine diphosphate,
+RT   ribose-5-phosphate and calcium ion.";
+RL   Submitted (MAR-2010) to the PDB data bank.
+RN   [5] {ECO:0007829|PDB:3M7I}
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) IN COMPLEX WITH MAGNESIUM AND
+RP   THIAMINE PYROPHOSPHATE.
+RG   Center for Structural Genomics of Infectious Diseases (CSGID);
+RA   Nocek B., Makowska-Grzyska M., Maltseva N., Anderson W., Joachimiak A.;
+RT   "Crystal structure of transketolase in complex with thiamine diphosphate,
+RT   ribose-5-phosphate(pyranose form) and magnesium ion.";
+RL   Submitted (MAR-2010) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the transfer of a two-carbon ketol group from a
+CC       ketose donor to an aldose acceptor, via a covalent intermediate with
+CC       the cofactor thiamine pyrophosphate. {ECO:0000256|RuleBase:RU004996}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate =
+CC         aldehydo-D-ribose 5-phosphate + D-xylulose 5-phosphate;
+CC         Xref=Rhea:RHEA:10508, ChEBI:CHEBI:57483, ChEBI:CHEBI:57737,
+CC         ChEBI:CHEBI:58273, ChEBI:CHEBI:59776; EC=2.2.1.1;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049473,
+CC         ECO:0000256|RuleBase:RU004996};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000256|RuleBase:RU004996};
+CC       Note=Binds 1 Mg(2+) ion per subunit. Can also utilize other divalent
+CC       metal cations, such as Ca(2+), Mn(2+) and Co(2+).
+CC       {ECO:0000256|RuleBase:RU004996};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR605478-3};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit. During the reaction,
+CC       the substrate forms a covalent intermediate with the cofactor.
+CC       {ECO:0000256|PIRSR:PIRSR605478-3};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738,
+CC       ECO:0000256|RuleBase:RU004996}.
+CC   -!- SIMILARITY: Belongs to the transketolase family.
+CC       {ECO:0000256|ARBA:ARBA00007131, ECO:0000256|RuleBase:RU004996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35742.1; -; Genomic_DNA.
+DR   PIR; C81261; C81261.
+DR   RefSeq; WP_002858130.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002345014.1; NC_002163.1.
+DR   PDB; 3L84; X-ray; 1.36 A; A=1-632.
+DR   PDB; 3M34; X-ray; 1.65 A; A=1-632.
+DR   PDB; 3M6L; X-ray; 1.59 A; A=1-632.
+DR   PDB; 3M7I; X-ray; 1.75 A; A=1-632.
+DR   PDBsum; 3L84; -.
+DR   PDBsum; 3M34; -.
+DR   PDBsum; 3M6L; -.
+DR   PDBsum; 3M7I; -.
+DR   AlphaFoldDB; Q0P7Y3; -.
+DR   SMR; Q0P7Y3; -.
+DR   IntAct; Q0P7Y3; 10.
+DR   STRING; 192222.Cj1645; -.
+DR   PaxDb; 192222-Cj1645; -.
+DR   EnsemblBacteria; CAL35742; CAL35742; Cj1645.
+DR   GeneID; 905918; -.
+DR   KEGG; cje:Cj1645; -.
+DR   PATRIC; fig|192222.6.peg.1621; -.
+DR   eggNOG; COG0021; Bacteria.
+DR   HOGENOM; CLU_009227_0_0_7; -.
+DR   OrthoDB; 8732661at2; -.
+DR   EvolutionaryTrace; Q0P7Y3; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004802; F:transketolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:TreeGrafter.
+DR   CDD; cd07033; TPP_PYR_DXS_TK_like; 1.
+DR   CDD; cd02012; TPP_TK; 1.
+DR   FunFam; 3.40.50.970:FF:000045; Transketolase; 1.
+DR   FunFam; 3.40.50.970:FF:000081; Transketolase; 1.
+DR   Gene3D; 3.40.50.920; -; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR009014; Transketo_C/PFOR_II.
+DR   InterPro; IPR055152; Transketolase-like_C_2.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   InterPro; IPR005478; Transketolase_bac-like.
+DR   InterPro; IPR020826; Transketolase_BS.
+DR   InterPro; IPR049557; Transketolase_CS.
+DR   InterPro; IPR033247; Transketolase_fam.
+DR   InterPro; IPR005474; Transketolase_N.
+DR   NCBIfam; TIGR00232; tktlase_bact; 1.
+DR   PANTHER; PTHR43522; TRANSKETOLASE; 1.
+DR   PANTHER; PTHR43522:SF2; TRANSKETOLASE 1-RELATED; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   Pfam; PF22613; Transketolase_C_1; 1.
+DR   Pfam; PF00456; Transketolase_N; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+DR   SUPFAM; SSF52922; TK C-terminal domain-like; 1.
+DR   PROSITE; PS00801; TRANSKETOLASE_1; 1.
+DR   PROSITE; PS00802; TRANSKETOLASE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:3L84, ECO:0007829|PDB:3M34};
+KW   Calcium {ECO:0000256|RuleBase:RU004996, ECO:0007829|PDB:3M34};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU004996};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU004996};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Thiamine pyrophosphate {ECO:0000256|ARBA:ARBA00023052,
+KW   ECO:0000256|PIRSR:PIRSR605478-3};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU004996}.
+FT   DOMAIN          338..504
+FT                   /note="Transketolase-like pyrimidine-binding"
+FT                   /evidence="ECO:0000259|SMART:SM00861"
+FT   ACT_SITE        391
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-1"
+FT   BINDING         28
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         67
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3,
+FT                   ECO:0007829|PDB:3M34"
+FT   BINDING         114..116
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3"
+FT   BINDING         114
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0007829|PDB:3M34, ECO:0007829|PDB:3M6L"
+FT   BINDING         116
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0007829|PDB:3M34, ECO:0007829|PDB:3M6L"
+FT   BINDING         152
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3M34, ECO:0007829|PDB:3M6L"
+FT   BINDING         152
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007829|PDB:3M7I"
+FT   BINDING         153
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3,
+FT                   ECO:0007829|PDB:3M34"
+FT   BINDING         182
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3M34, ECO:0007829|PDB:3M6L"
+FT   BINDING         182
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007829|PDB:3M7I"
+FT   BINDING         182
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3,
+FT                   ECO:0007829|PDB:3M34"
+FT   BINDING         184
+FT                   /ligand="Ca(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29108"
+FT                   /evidence="ECO:0007829|PDB:3M34, ECO:0007829|PDB:3M6L"
+FT   BINDING         184
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0007829|PDB:3M7I"
+FT   BINDING         256
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         256
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3,
+FT                   ECO:0007829|PDB:3M34"
+FT   BINDING         341
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         368
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         417
+FT                   /ligand="thiamine diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58937"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-3,
+FT                   ECO:0007829|PDB:3M34"
+FT   BINDING         441
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         449
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         453
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   BINDING         499
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-2"
+FT   SITE            28
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-5"
+FT   SITE            256
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR605478-5"
+SQ   SEQUENCE   632 AA;  69636 MW;  FE55D337D3638D9F CRC64;
+     MNIQILQEQA NTLRFLSADM VQKANSGHPG APLGLADILS VLSYHLKHNP KNPTWLNRDR
+     LVFSGGHASA LLYSFLHLSG YDLSLEDLKN FRQLHSKTPG HPEISTLGVE IATGPLGQGV
+     ANAVGFAMAA KKAQNLLGSD LIDHKIYCLC GDGDLQEGIS YEACSLAGLH KLDNFILIYD
+     SNNISIEGDV GLAFNENVKM RFEAQGFEVL SINGHDYEEI NKALEQAKKS TKPCLIIAKT
+     TIAKGAGELE GSHKSHGAPL GEEVIKKAKE QAGFDPNISF HIPQASKIRF ESAVELGDLE
+     EAKWKDKLEK SAKKELLERL LNPDFNKIAY PDFKGKDLAT RDSNGEILNV LAKNLEGFLG
+     GSADLGPSNK TELHSMGDFV EGKNIHFGIR EHAMAAINNA FARYGIFLPF SATFFIFSEY
+     LKPAARIAAL MKIKHFFIFT HDSIGVGEDG PTHQPIEQLS TFRAMPNFLT FRPADGVENV
+     KAWQIALNAD IPSAFVLSRQ KLKALNEPVF GDVKNGAYLL KESKEAKFTL LASGSEVWLC
+     LESANELEKQ GFACNVVSMP CFELFEKQDK AYQERLLKGE VIGVEAAHSN ELYKFCHKVY
+     GIESFGESGK DKDVFERFGF SVSKLVNFIL SK
+//

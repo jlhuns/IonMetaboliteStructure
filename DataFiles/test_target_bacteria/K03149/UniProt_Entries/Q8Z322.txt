@@ -1,0 +1,121 @@
+ID   THIG_SALTI              Reviewed;         256 AA.
+AC   Q8Z322;
+DT   16-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=Thiazole synthase {ECO:0000255|HAMAP-Rule:MF_00443};
+DE            EC=2.8.1.10 {ECO:0000255|HAMAP-Rule:MF_00443};
+GN   Name=thiG {ECO:0000255|HAMAP-Rule:MF_00443};
+GN   OrderedLocusNames=STY3725, t3471;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the rearrangement of 1-deoxy-D-xylulose 5-phosphate
+CC       (DXP) to produce the thiazole phosphate moiety of thiamine. Sulfur is
+CC       provided by the thiocarboxylate moiety of the carrier protein ThiS. In
+CC       vitro, sulfur can be provided by H(2)S. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[ThiS sulfur-carrier protein]-C-terminal-Gly-
+CC         aminoethanethioate + 2-iminoacetate + 1-deoxy-D-xylulose 5-phosphate
+CC         = [ThiS sulfur-carrier protein]-C-terminal Gly-Gly + 2-[(2R,5Z)-2-
+CC         carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + 2 H2O + H(+);
+CC         Xref=Rhea:RHEA:26297, Rhea:RHEA-COMP:12909, Rhea:RHEA-COMP:19908,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:62899, ChEBI:CHEBI:77846, ChEBI:CHEBI:90778,
+CC         ChEBI:CHEBI:232372; EC=2.8.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00443};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBUNIT: Homotetramer. Forms heterodimers with either ThiH or ThiS.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SIMILARITY: Belongs to the ThiG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09484.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70987.1; -; Genomic_DNA.
+DR   RefSeq; NP_457914.1; NC_003198.1.
+DR   RefSeq; WP_000944065.1; NZ_WSUR01000043.1.
+DR   AlphaFoldDB; Q8Z322; -.
+DR   SMR; Q8Z322; -.
+DR   STRING; 220341.gene:17587585; -.
+DR   KEGG; stt:t3471; -.
+DR   KEGG; sty:STY3725; -.
+DR   PATRIC; fig|220341.7.peg.3797; -.
+DR   eggNOG; COG2022; Bacteria.
+DR   HOGENOM; CLU_062233_1_0_6; -.
+DR   OMA; PHNFQLI; -.
+DR   OrthoDB; 9805935at2; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:1990107; F:thiazole synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04728; ThiG; 1.
+DR   FunFam; 3.20.20.70:FF:000049; Thiazole synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00443; ThiG; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR033983; Thiazole_synthase_ThiG.
+DR   InterPro; IPR008867; ThiG.
+DR   PANTHER; PTHR34266; THIAZOLE SYNTHASE; 1.
+DR   PANTHER; PTHR34266:SF2; THIAZOLE SYNTHASE; 1.
+DR   Pfam; PF05690; ThiG; 1.
+DR   SUPFAM; SSF110399; ThiG-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Schiff base; Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..256
+FT                   /note="Thiazole synthase"
+FT                   /id="PRO_0000162856"
+FT   ACT_SITE        95
+FT                   /note="Schiff-base intermediate with DXP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         156
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         182..183
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         204..205
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+SQ   SEQUENCE   256 AA;  26782 MW;  3EB1E50A1A2D1260 CRC64;
+     MLRIADKTFD SHLFTGTGKF ASSQLMVEAI RASGSQLVTL AMKRVDLRQH NDAILAPLIE
+     AGVTLLPNTS GAKTAEEAIF AAQLALEALG THWLKLEIHP DARWLLPDPI ETLKAAEALV
+     KQGFVVLPYC GADPVLCKRL EEVGCAAVMP LGAPIGSNQG LETKAMLEII IQQATVPVVV
+     DAGIGVPSHA AQALEMGADA VLVNTAIAVA DDPVMMATAF RLAVEAGLLA RQAVPGNRST
+     YASATSPLTG FLEALA
+//

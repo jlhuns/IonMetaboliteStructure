@@ -1,0 +1,106 @@
+ID   Q0P9F8_CAMJE            Unreviewed;       398 AA.
+AC   Q0P9F8;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=Methionine adenosyltransferase {ECO:0000256|ARBA:ARBA00012828, ECO:0000256|NCBIfam:TIGR01034};
+DE            EC=2.5.1.6 {ECO:0000256|ARBA:ARBA00012828, ECO:0000256|NCBIfam:TIGR01034};
+GN   Name=metK {ECO:0000313|EMBL:CAL35213.1};
+GN   OrderedLocusNames=Cj1096c {ECO:0000313|EMBL:CAL35213.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35213.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35213.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001958};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine biosynthesis;
+CC       S-adenosyl-L-methionine from L-methionine: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005224}.
+CC   -!- SIMILARITY: Belongs to the AdoMet synthase family.
+CC       {ECO:0000256|ARBA:ARBA00009685, ECO:0000256|RuleBase:RU004462}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35213.1; -; Genomic_DNA.
+DR   PIR; C81313; C81313.
+DR   RefSeq; WP_002852836.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344489.1; NC_002163.1.
+DR   AlphaFoldDB; Q0P9F8; -.
+DR   SMR; Q0P9F8; -.
+DR   IntAct; Q0P9F8; 30.
+DR   STRING; 192222.Cj1096c; -.
+DR   PaxDb; 192222-Cj1096c; -.
+DR   EnsemblBacteria; CAL35213; CAL35213; Cj1096c.
+DR   GeneID; 905387; -.
+DR   KEGG; cje:Cj1096c; -.
+DR   PATRIC; fig|192222.6.peg.1078; -.
+DR   eggNOG; COG0192; Bacteria.
+DR   HOGENOM; CLU_041802_1_1_7; -.
+DR   OrthoDB; 9801686at2; -.
+DR   UniPathway; UPA00315; UER00080.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004478; F:methionine adenosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd18079; S-AdoMet_synt; 1.
+DR   Gene3D; 3.30.300.10; -; 3.
+DR   InterPro; IPR022631; ADOMET_SYNTHASE_CS.
+DR   InterPro; IPR022630; S-AdoMet_synt_C.
+DR   InterPro; IPR022629; S-AdoMet_synt_central.
+DR   InterPro; IPR022628; S-AdoMet_synt_N.
+DR   InterPro; IPR002133; S-AdoMet_synthetase.
+DR   InterPro; IPR022636; S-AdoMet_synthetase_sfam.
+DR   NCBIfam; TIGR01034; metK; 1.
+DR   PANTHER; PTHR11964; S-ADENOSYLMETHIONINE SYNTHETASE; 1.
+DR   Pfam; PF02773; S-AdoMet_synt_C; 1.
+DR   Pfam; PF02772; S-AdoMet_synt_M; 1.
+DR   Pfam; PF00438; S-AdoMet_synt_N; 1.
+DR   PIRSF; PIRSF000497; MAT; 1.
+DR   SUPFAM; SSF55973; S-adenosylmethionine synthetase; 3.
+DR   PROSITE; PS00376; ADOMET_SYNTHASE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563};
+KW   Potassium {ECO:0000256|ARBA:ARBA00022958};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:CAL35213.1}.
+FT   DOMAIN          2..107
+FT                   /note="S-adenosylmethionine synthetase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00438"
+FT   DOMAIN          119..242
+FT                   /note="S-adenosylmethionine synthetase central"
+FT                   /evidence="ECO:0000259|Pfam:PF02772"
+FT   DOMAIN          249..387
+FT                   /note="S-adenosylmethionine synthetase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02773"
+SQ   SEQUENCE   398 AA;  43655 MW;  B161821755D64228 CRC64;
+     MYLFTSEVVS AGHPDKCADI IADTIVDILL KNDKNSRVAS EVFVAGNKVV IGGEVKSNHK
+     LSKADYDNLV KDVLKNIGYD GAGHFSKEQC LHPDEVDVMV FLNEQSPDIN QGVDQEDGET
+     GAGDQGIMFG FASCEAEEYM PAAISYARML CDRVYAYAKA NPHELGVDIK TQVTIDYGTK
+     ANFENCKPQS IHTIVVSAPC VESMKIEDLR SLVMKLILDS NLPKELFDPN KTRILINPTG
+     KYVNHSSLHD SGLTGRKLIV DSFGGYSPIG GGAQSSKDYT KVDRSGLYAG RWLAKNIVAA
+     GLAKKCIVQL SYAIGVAKPT SVSVDCMGTN TSVNDDVLSD FVMQNFSLTP NWIRDKFHLD
+     KPSKETFLYA DVAARGQVGQ KDYPWEKLDA LEQFKKLL
+//

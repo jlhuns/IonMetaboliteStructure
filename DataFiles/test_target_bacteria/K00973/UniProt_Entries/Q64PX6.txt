@@ -1,0 +1,82 @@
+ID   Q64PX6_BACFR            Unreviewed;       287 AA.
+AC   Q64PX6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 101.
+DE   RecName: Full=Glucose-1-phosphate thymidylyltransferase {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+DE            EC=2.7.7.24 {ECO:0000256|ARBA:ARBA00012461, ECO:0000256|RuleBase:RU003706};
+GN   OrderedLocusNames=BF3712 {ECO:0000313|EMBL:BAD50455.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50455.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50455.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50455.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Catalyzes the formation of dTDP-glucose, from dTTP and
+CC       glucose 1-phosphate, as well as its pyrophosphorolysis.
+CC       {ECO:0000256|RuleBase:RU003706}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTTP + alpha-D-glucose 1-phosphate + H(+) = dTDP-alpha-D-
+CC         glucose + diphosphate; Xref=Rhea:RHEA:15225, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37568, ChEBI:CHEBI:57477,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.24;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049336,
+CC         ECO:0000256|RuleBase:RU003706};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the glucose-1-phosphate thymidylyltransferase
+CC       family. {ECO:0000256|ARBA:ARBA00010480, ECO:0000256|RuleBase:RU003706}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50455.1; -; Genomic_DNA.
+DR   RefSeq; WP_005790602.1; NC_006347.1.
+DR   RefSeq; YP_100989.1; NC_006347.1.
+DR   AlphaFoldDB; Q64PX6; -.
+DR   STRING; 295405.BF3712; -.
+DR   GeneID; 66331653; -.
+DR   KEGG; bfr:BF3712; -.
+DR   PATRIC; fig|295405.11.peg.3563; -.
+DR   HOGENOM; CLU_029499_9_0_10; -.
+DR   OrthoDB; 9803871at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0008879; F:glucose-1-phosphate thymidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:InterPro.
+DR   CDD; cd02538; G1P_TT_short; 1.
+DR   FunFam; 3.90.550.10:FF:000023; Glucose-1-phosphate thymidylyltransferase; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   InterPro; IPR005907; G1P_thy_trans_s.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   NCBIfam; TIGR01207; rmlA; 1.
+DR   PANTHER; PTHR43532; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43532:SF1; GLUCOSE-1-PHOSPHATE THYMIDYLYLTRANSFERASE 1; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|RuleBase:RU003706};
+KW   Metal-binding {ECO:0000256|RuleBase:RU003706};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU003706};
+KW   Transferase {ECO:0000256|RuleBase:RU003706, ECO:0000313|EMBL:BAD50455.1}.
+FT   DOMAIN          2..238
+FT                   /note="Nucleotidyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00483"
+SQ   SEQUENCE   287 AA;  31628 MW;  10D5DDCA344ADEDE CRC64;
+     MKGIILAGGS ATRLYPLSKA ISKQMMPVYD KPMIYYPLST LMLAGIREVL VISTPRDLPL
+     FRELLGSGEE FGMSFSYLVQ EQPNGLAQAF VLGADFLNGE PGCLILGDNL FYGQGFSAML
+     RRAATIEKGA CIFGYYVKDP RAYGVVEFDG SGKVVSLEEK PAVPKSNYAV PGLYFYDATV
+     TEKALALEPS ARGEYEITDL NKLYLDEGTL KVELFGRGFA WLDTGNCNSL LEASNFVATI
+     QNRQGFYVSC IEEIAWRNGW ISSAQLKALG EKLEKTEYGK YLIDLAN
+//

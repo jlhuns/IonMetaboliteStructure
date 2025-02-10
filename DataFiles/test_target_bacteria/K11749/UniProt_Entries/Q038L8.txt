@@ -1,0 +1,109 @@
+ID   Q038L8_LACP3            Unreviewed;       413 AA.
+AC   Q038L8;
+DT   14-NOV-2006, integrated into UniProtKB/TrEMBL.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 127.
+DE   RecName: Full=Zinc metalloprotease {ECO:0000256|RuleBase:RU362031};
+DE            EC=3.4.24.- {ECO:0000256|RuleBase:RU362031};
+GN   OrderedLocusNames=LSEI_1580 {ECO:0000313|EMBL:ABJ70354.1};
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967 {ECO:0000313|EMBL:ABJ70354.1, ECO:0000313|Proteomes:UP000001651};
+RN   [1] {ECO:0000313|EMBL:ABJ70354.1, ECO:0000313|Proteomes:UP000001651}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441 {ECO:0000313|Proteomes:UP000001651};
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K., Slesarev A., Wolf Y., Sorokin A., Mirkin B., Koonin E.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M., Klaenhammer T., Richardson P.,
+RA   Kozyavkin S., Weimer B., Mills D.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947,
+CC         ECO:0000256|RuleBase:RU362031};
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   -!- SIMILARITY: Belongs to the peptidase M50B family.
+CC       {ECO:0000256|ARBA:ARBA00007931, ECO:0000256|RuleBase:RU362031}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70354.1; -; Genomic_DNA.
+DR   RefSeq; WP_003565798.1; NC_008526.1.
+DR   RefSeq; YP_806796.1; NC_008526.1.
+DR   AlphaFoldDB; Q038L8; -.
+DR   STRING; 321967.LSEI_1580; -.
+DR   PaxDb; 321967-LSEI_1580; -.
+DR   GeneID; 57090234; -.
+DR   KEGG; lca:LSEI_1580; -.
+DR   PATRIC; fig|321967.11.peg.1560; -.
+DR   HOGENOM; CLU_025778_1_0_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00989; PDZ_metalloprotease; 1.
+DR   CDD; cd06163; S2P-M50_PDZ_RseP-like; 1.
+DR   Gene3D; 2.30.42.10; -; 1.
+DR   InterPro; IPR041489; PDZ_6.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR004387; Pept_M50_Zn.
+DR   InterPro; IPR008915; Peptidase_M50.
+DR   NCBIfam; TIGR00054; RIP metalloprotease RseP; 1.
+DR   PANTHER; PTHR42837:SF2; MEMBRANE METALLOPROTEASE ARASP2, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR42837; REGULATOR OF SIGMA-E PROTEASE RSEP; 1.
+DR   Pfam; PF17820; PDZ_6; 1.
+DR   Pfam; PF02163; Peptidase_M50; 1.
+DR   SUPFAM; SSF50156; PDZ domain-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|RuleBase:RU362031};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU362031};
+KW   Metal-binding {ECO:0000256|RuleBase:RU362031};
+KW   Metalloprotease {ECO:0000256|ARBA:ARBA00023049,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670, ECO:0000313|EMBL:ABJ70354.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001651};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU362031};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|RuleBase:RU362031}.
+FT   TRANSMEM        6..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        179..201
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        341..366
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   TRANSMEM        387..406
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU362031"
+FT   DOMAIN          6..400
+FT                   /note="Peptidase M50"
+FT                   /evidence="ECO:0000259|Pfam:PF02163"
+FT   DOMAIN          206..257
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|Pfam:PF17820"
+SQ   SEQUENCE   413 AA;  45108 MW;  348629572ACE8CDA CRC64;
+     MTTIIAFIVI FCILVVVHEF GHFYFAKRSG ILVREFSIGM GPKLWASHKN NTTYTLRLLP
+     LGGYVRMAGW QDEEDEIKPG TMLSLILNDQ GKVVRINASD KTTLAGGMPV QVSRVDLVKD
+     LVIEGYPNGD ETALQTWQVD HDATIIEEDG TEVQIAPEDV QFQNAPVWRR LLVNFAGPMN
+     NFLLAILAFI IYGLFFGVQV LNTNQIGTVV PGYPAAEAGL KSNATVQTID GQKMSSFTDL
+     SKIVSKNAGK SVTFTVKENG KSKNIVIKPN KEGKIGVEAH VDKSPANAIP FGFSQTWNLA
+     VRTWDVLKSM VTGGFSLNKL AGPVGIYTMT SQSAKGGIQG LLFFMGYLSL GLGITNLLPI
+     PVLDGGKILL NLIEIIRRKP LKPETEGVVT MIGLGLMVLL MLAVTINDIM RYF
+//

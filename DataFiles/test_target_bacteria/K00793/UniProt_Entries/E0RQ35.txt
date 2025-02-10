@@ -1,0 +1,90 @@
+ID   E0RQ35_SPITD            Unreviewed;       213 AA.
+AC   E0RQ35;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 65.
+DE   RecName: Full=Riboflavin synthase {ECO:0000256|ARBA:ARBA00013950, ECO:0000256|NCBIfam:TIGR00187};
+DE            EC=2.5.1.9 {ECO:0000256|ARBA:ARBA00012827, ECO:0000256|NCBIfam:TIGR00187};
+GN   OrderedLocusNames=STHERM_c04470 {ECO:0000313|EMBL:ADN01419.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01419.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01419.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Catalyzes the dismutation of two molecules of 6,7-dimethyl-8-
+CC       ribityllumazine, resulting in the formation of riboflavin and 5-amino-
+CC       6-(D-ribitylamino)uracil. {ECO:0000256|ARBA:ARBA00002803}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H(+) = 5-amino-6-(D-
+CC         ribitylamino)uracil + riboflavin; Xref=Rhea:RHEA:20772,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15934, ChEBI:CHEBI:57986,
+CC         ChEBI:CHEBI:58201; EC=2.5.1.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000968};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; riboflavin
+CC       from 2-hydroxy-3-oxobutyl phosphate and 5-amino-6-(D-
+CC       ribitylamino)uracil: step 2/2. {ECO:0000256|ARBA:ARBA00004887}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01419.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313260.1; NC_014484.1.
+DR   AlphaFoldDB; E0RQ35; -.
+DR   PaxDb; 665571-STHERM_c04470; -.
+DR   KEGG; sta:STHERM_c04470; -.
+DR   eggNOG; COG0307; Bacteria.
+DR   HOGENOM; CLU_034388_2_0_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0004746; F:riboflavin synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd00402; Riboflavin_synthase_like; 1.
+DR   Gene3D; 2.40.30.20; -; 2.
+DR   InterPro; IPR023366; ATP_synth_asu-like_sf.
+DR   InterPro; IPR001783; Lumazine-bd.
+DR   InterPro; IPR026017; Lumazine-bd_dom.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   NCBIfam; TIGR00187; ribE; 1.
+DR   PANTHER; PTHR21098:SF12; RIBOFLAVIN SYNTHASE; 1.
+DR   PANTHER; PTHR21098; RIBOFLAVIN SYNTHASE ALPHA CHAIN; 1.
+DR   Pfam; PF00677; Lum_binding; 2.
+DR   PIRSF; PIRSF000498; Riboflavin_syn_A; 1.
+DR   SUPFAM; SSF63380; Riboflavin synthase domain-like; 2.
+DR   PROSITE; PS51177; LUMAZINE_BIND; 2.
+PE   4: Predicted;
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Riboflavin biosynthesis {ECO:0000256|ARBA:ARBA00022619};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ADN01419.1}.
+FT   REPEAT          1..96
+FT                   /note="Lumazine-binding"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00524"
+FT   DOMAIN          1..96
+FT                   /note="Lumazine-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51177"
+FT   DOMAIN          97..193
+FT                   /note="Lumazine-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51177"
+FT   REPEAT          97..193
+FT                   /note="Lumazine-binding"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00524"
+SQ   SEQUENCE   213 AA;  22639 MW;  C3D34C6999FB7745 CRC64;
+     MFTGIVREIG VVREVRKEGG GLVVRVEGPG VVGVLEVGAS VAVDGVCLTV TALDERTFLA
+     DVSYETAARS TLGGVRVGRR VNLEPALAVG ERLGGHLVSG HVDGVGRVMV RERRSGGEYF
+     AFWVPPELRK YIASKASVAV DGVSLTVAEK LPEGFSVVVI PHTLAVTTLA DRRRADMVNL
+     ECDILAKYVE SLLLEGGPGT GDLTIERLRD LGF
+//

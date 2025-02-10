@@ -1,0 +1,79 @@
+ID   C9RQ74_FIBSS            Unreviewed;       217 AA.
+AC   C9RQ74;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000256|HAMAP-Rule:MF_00321};
+GN   Name=ysxC {ECO:0000313|EMBL:ADL25890.1};
+GN   Synonyms=engB {ECO:0000256|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=FSU_1605 {ECO:0000313|EMBL:ADL25890.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25890.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Necessary for normal cell division and for the maintenance of
+CC       normal septation. {ECO:0000256|HAMAP-Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngB GTPase family. {ECO:0000256|ARBA:ARBA00009638,
+CC       ECO:0000256|HAMAP-Rule:MF_00321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25890.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545874.1; NC_017448.1.
+DR   AlphaFoldDB; C9RQ74; -.
+DR   STRING; 59374.FSU_1605; -.
+DR   KEGG; fsc:FSU_1605; -.
+DR   KEGG; fsu:Fisuc_1147; -.
+DR   PATRIC; fig|59374.8.peg.1547; -.
+DR   eggNOG; COG0218; Bacteria.
+DR   HOGENOM; CLU_033732_3_0_0; -.
+DR   OrthoDB; 9804921at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000917; P:division septum assembly; IEA:UniProtKB-KW.
+DR   CDD; cd01876; YihA_EngB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03598; GTPase_YsxC; 1.
+DR   PANTHER; PTHR11649:SF13; ENGB-TYPE G DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11649; MSS1/TRME-RELATED GTP-BINDING PROTEIN; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|ARBA:ARBA00023306, ECO:0000256|HAMAP-
+KW   Rule:MF_00321};
+KW   Cell division {ECO:0000256|ARBA:ARBA00022618, ECO:0000256|HAMAP-
+KW   Rule:MF_00321};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00321}; Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00321};
+KW   Septation {ECO:0000256|ARBA:ARBA00023210, ECO:0000256|HAMAP-Rule:MF_00321}.
+FT   DOMAIN          39..210
+FT                   /note="EngB-type G"
+FT                   /evidence="ECO:0000259|PROSITE:PS51706"
+SQ   SEQUENCE   217 AA;  24011 MW;  F11691588FC97027 CRC64;
+     MSTKEKVVHQ APVEVGGYTV RSAKFVKAAV SLKGLPEEHL PQIAFLGRSN VGKSSLMNTL
+     MGQKKLVKIS STPGKTRELN FFKVNDEFFL VDLPGVGFAK VNNAKRDQMS DFIREYVEKC
+     KDLKGLIYLV DIRHGGTPID IETVESIRAT GCPVLVVASK RDKVNQSELA KGLRDIQQRL
+     DLDQKPLCVS SLKKTGLDEL WTEILEAIHS DNGKDAT
+//

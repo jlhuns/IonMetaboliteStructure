@@ -1,0 +1,145 @@
+ID   F2RIK3_STRVP            Unreviewed;       192 AA.
+AC   F2RIK3;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit I {ECO:0000256|HAMAP-Rule:MF_01351};
+DE            EC=7.1.1.- {ECO:0000256|HAMAP-Rule:MF_01351};
+DE   AltName: Full=NADH dehydrogenase I subunit I {ECO:0000256|HAMAP-Rule:MF_01351};
+DE   AltName: Full=NDH-1 subunit I {ECO:0000256|HAMAP-Rule:MF_01351};
+GN   Name=nuoI {ECO:0000256|HAMAP-Rule:MF_01351};
+GN   OrderedLocusNames=SVEN_4273 {ECO:0000313|EMBL:CCA57559.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA57559.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA57559.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA57559.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000256|HAMAP-Rule:MF_01351}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000256|HAMAP-Rule:MF_01351};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01351};
+CC       Note=Binds 2 [4Fe-4S] clusters per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01351};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000256|HAMAP-Rule:MF_01351}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_01351};
+CC       Peripheral membrane protein {ECO:0000256|HAMAP-Rule:MF_01351}.
+CC   -!- SIMILARITY: Belongs to the complex I 23 kDa subunit family.
+CC       {ECO:0000256|ARBA:ARBA00010277, ECO:0000256|HAMAP-Rule:MF_01351}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA57559.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2RIK3; -.
+DR   STRING; 953739.SVEN_4273; -.
+DR   KEGG; sve:SVEN_4273; -.
+DR   PATRIC; fig|953739.5.peg.6772; -.
+DR   eggNOG; COG1143; Bacteria.
+DR   HOGENOM; CLU_067218_4_0_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050136; F:NADH:ubiquinone reductase (non-electrogenic) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009060; P:aerobic respiration; IEA:TreeGrafter.
+DR   FunFam; 3.30.70.3270:FF:000007; NADH-quinone oxidoreductase subunit I; 1.
+DR   Gene3D; 3.30.70.3270; -; 1.
+DR   HAMAP; MF_01351; NDH1_NuoI; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR010226; NADH_quinone_OxRdtase_chainI.
+DR   NCBIfam; TIGR01971; NuoI; 1.
+DR   PANTHER; PTHR10849:SF20; NADH DEHYDROGENASE [UBIQUINONE] IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10849; NADH DEHYDROGENASE UBIQUINONE IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   Pfam; PF12838; Fer4_7; 1.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_01351}; Membrane {ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01351}; NAD {ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Oxidoreductase {ECO:0000313|EMBL:CCA57559.1};
+KW   Quinone {ECO:0000256|HAMAP-Rule:MF_01351};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Translocase {ECO:0000256|ARBA:ARBA00022967, ECO:0000256|HAMAP-
+KW   Rule:MF_01351};
+KW   Ubiquinone {ECO:0000256|HAMAP-Rule:MF_01351, ECO:0000313|EMBL:CCA57559.1}.
+FT   DOMAIN          44..74
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+FT   DOMAIN          90..119
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+FT   BINDING         54
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         57
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         60
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         64
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         99
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         102
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         105
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+FT   BINDING         109
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01351"
+SQ   SEQUENCE   192 AA;  21484 MW;  6BE6F9FF819FBFDD CRC64;
+     MSDFQNPVAG FGVTFKAMFK KRLTEQYPEQ QKTTAPRFHG RHQLNRHPDG LEKCVGCELC
+     AWACPADAIY VEGADNTDEE RYSPGERYGR VYQINYARCI LCGLCIEACP TRALTMTNEF
+     ELADSSRENL IYTKEQLLAG LEDTMVDTPH AIFPGMTEQD YYRGLVEEAA PGTVRQVAVS
+     KGEKDEPEGA DA
+//

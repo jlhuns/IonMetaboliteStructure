@@ -1,0 +1,142 @@
+ID   Q6N6F7_RHOPA            Unreviewed;       608 AA.
+AC   Q6N6F7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 135.
+DE   RecName: Full=Glutamine--fructose-6-phosphate aminotransferase [isomerizing] {ECO:0000256|ARBA:ARBA00016090, ECO:0000256|HAMAP-Rule:MF_00164};
+DE            EC=2.6.1.16 {ECO:0000256|ARBA:ARBA00012916, ECO:0000256|HAMAP-Rule:MF_00164};
+DE   AltName: Full=D-fructose-6-phosphate amidotransferase {ECO:0000256|HAMAP-Rule:MF_00164};
+DE   AltName: Full=GFAT {ECO:0000256|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Glucosamine-6-phosphate synthase {ECO:0000256|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Hexosephosphate aminotransferase {ECO:0000256|HAMAP-Rule:MF_00164};
+DE   AltName: Full=L-glutamine--D-fructose-6-phosphate amidotransferase {ECO:0000256|HAMAP-Rule:MF_00164};
+GN   Name=glmS {ECO:0000256|HAMAP-Rule:MF_00164,
+GN   ECO:0000313|EMBL:CAE28101.1};
+GN   OrderedLocusNames=RPA2660 {ECO:0000313|EMBL:CAE28101.1};
+GN   ORFNames=TX73_013785 {ECO:0000313|EMBL:WCL92825.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28101.1};
+RN   [1] {ECO:0000313|EMBL:WCL92825.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92825.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28101.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28101.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92825.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92825.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the first step in hexosamine metabolism, converting
+CC       fructose-6P into glucosamine-6P using glutamine as a nitrogen source.
+CC       {ECO:0000256|HAMAP-Rule:MF_00164}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-fructose 6-phosphate + L-glutamine = D-glucosamine 6-
+CC         phosphate + L-glutamate; Xref=Rhea:RHEA:13237, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:58725, ChEBI:CHEBI:61527; EC=2.6.1.16;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001031, ECO:0000256|HAMAP-
+CC         Rule:MF_00164};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00164}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00164}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572601; CAE28101.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92825.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158210.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2660; -.
+DR   GeneID; 66893734; -.
+DR   KEGG; rpa:TX73_013785; -.
+DR   eggNOG; COG0449; Bacteria.
+DR   HOGENOM; CLU_012520_5_2_5; -.
+DR   PhylomeDB; Q6N6F7; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0004360; F:glutamine-fructose-6-phosphate transaminase (isomerizing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IEA:TreeGrafter.
+DR   GO; GO:0006047; P:UDP-N-acetylglucosamine metabolic process; IEA:TreeGrafter.
+DR   CDD; cd00714; GFAT; 1.
+DR   CDD; cd05008; SIS_GlmS_GlmD_1; 1.
+DR   CDD; cd05009; SIS_GlmS_GlmD_2; 1.
+DR   FunFam; 3.40.50.10490:FF:000001; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   FunFam; 3.40.50.10490:FF:000057; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   FunFam; 3.60.20.10:FF:000006; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   Gene3D; 3.40.50.10490; Glucose-6-phosphate isomerase like protein, domain 1; 2.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   HAMAP; MF_00164; GlmS; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR005855; GFAT.
+DR   InterPro; IPR047084; GFAT_N.
+DR   InterPro; IPR035466; GlmS/AgaS_SIS.
+DR   InterPro; IPR035490; GlmS/FrlB_SIS.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001347; SIS_dom.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   NCBIfam; TIGR01135; glmS; 1.
+DR   PANTHER; PTHR10937; GLUCOSAMINE--FRUCTOSE-6-PHOSPHATE AMINOTRANSFERASE, ISOMERIZING; 1.
+DR   PANTHER; PTHR10937:SF0; GLUTAMINE--FRUCTOSE-6-PHOSPHATE TRANSAMINASE (ISOMERIZING); 1.
+DR   Pfam; PF13522; GATase_6; 1.
+DR   Pfam; PF01380; SIS; 2.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53697; SIS domain; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   3: Inferred from homology;
+KW   Aminotransferase {ECO:0000256|ARBA:ARBA00022576, ECO:0000256|HAMAP-
+KW   Rule:MF_00164}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00164};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00164}.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00164"
+FT   DOMAIN          2..217
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51278"
+FT   DOMAIN          284..423
+FT                   /note="SIS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51464"
+FT   DOMAIN          456..598
+FT                   /note="SIS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51464"
+FT   ACT_SITE        2
+FT                   /note="Nucleophile; for GATase activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00164"
+FT   ACT_SITE        603
+FT                   /note="For Fru-6P isomerization activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00164"
+SQ   SEQUENCE   608 AA;  65641 MW;  58B27BEC4F58647C CRC64;
+     MCGIIGILGR GPVAEQLVDS LKRLEYRGYD SAGVATLEDG ELVRRRAEGK LKNLEAVLKR
+     QPLAGHVGIG HTRWATHGKP NEANAHPHAA SGVAVVHNGI IENFRELRDE LEGGGATFAS
+     ETDTEVVAHL VNSFLVKGLS PQDAVKAALP RLRGAFALAF VFKGYDDLMI GARKGSPLAI
+     GYGDGEMYLG SDAIALAPLT DDISYLDDGD WVVLTHTTAE VRDAKGDVVK RDVMKSGASS
+     FVVDKANYRH FMAKEIHEQP EVVGHTLARY LDMASERIAL PMKLPFDFKD VQHLSITACG
+     TANYAGYVAK YWFEQFARLP VEIDIASEFR YREAPLRSGD LAIFISQSGE TADTLAALRY
+     AKEQGLHTLS VVNVPTSTIA RESEVVMPTL AGPEIGVAST KAFTCQLTAL AALAIAAGRA
+     RGTLTDADEA KLVHGLIELP RLMAAALTHE PQIERLARDI SKAQDVLYLG RGTSYPLALE
+     GALKLKEISY IHAEGYAAGE LKHGPIALID EKMPVVVIAP YDRVFEKTVS NMQEVAARGG
+     RIILMTDAKG AEEATVDSMV TIMMPDMPAA FTPMVYAIPV QLLAYHTAVV MGTDVDQPRN
+     LAKSVTVE
+//

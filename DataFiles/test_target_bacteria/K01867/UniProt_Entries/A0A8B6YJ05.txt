@@ -1,0 +1,78 @@
+ID   A0A8B6YJ05_CAMFR        Unreviewed;       360 AA.
+AC   A0A8B6YJ05;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=tryptophan--tRNA ligase {ECO:0000256|ARBA:ARBA00013161};
+DE            EC=6.1.1.2 {ECO:0000256|ARBA:ARBA00013161};
+DE   AltName: Full=Tryptophanyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00030268};
+GN   Name=WARS2 {ECO:0000313|RefSeq:XP_006184350.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_006184350.1};
+RN   [1] {ECO:0000313|RefSeq:XP_006184350.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006184350.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Trp) + L-tryptophan + ATP = L-tryptophyl-tRNA(Trp) + AMP
+CC         + diphosphate + H(+); Xref=Rhea:RHEA:24080, Rhea:RHEA-COMP:9671,
+CC         Rhea:RHEA-COMP:9705, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57912, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78535, ChEBI:CHEBI:456215; EC=6.1.1.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048677};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000256|ARBA:ARBA00004173}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00005594, ECO:0000256|RuleBase:RU363036}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006184350.1; XM_006184288.3.
+DR   GeneID; 102511966; -.
+DR   KEGG; cfr:102511966; -.
+DR   CTD; 10352; -.
+DR   OrthoDB; 3560at91561; -.
+DR   Proteomes; UP000694856; Chromosome 9.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004830; F:tryptophan-tRNA ligase activity; IEA:InterPro.
+DR   GO; GO:0070183; P:mitochondrial tryptophanyl-tRNA aminoacylation; IEA:TreeGrafter.
+DR   CDD; cd00806; TrpRS_core; 1.
+DR   FunFam; 3.40.50.620:FF:000082; MSW1p Mitochondrial tryptophanyl-tRNA synthetase; 1.
+DR   FunFam; 1.10.240.10:FF:000002; Tryptophan--tRNA ligase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.240.10; Tyrosyl-Transfer RNA Synthetase; 1.
+DR   HAMAP; MF_00140_B; Trp_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002306; Trp-tRNA-ligase.
+DR   InterPro; IPR024109; Trp-tRNA-ligase_bac-type.
+DR   InterPro; IPR050203; Trp-tRNA_synthetase.
+DR   NCBIfam; TIGR00233; trpS; 1.
+DR   PANTHER; PTHR43766; TRYPTOPHAN--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43766:SF1; TRYPTOPHAN--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01039; TRNASYNTHTRP.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|RuleBase:RU363036};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|RuleBase:RU363036};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|RuleBase:RU363036};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|RuleBase:RU363036};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917,
+KW   ECO:0000256|RuleBase:RU363036}.
+SQ   SEQUENCE   360 AA;  39985 MW;  D78D099D1BBAEA6F CRC64;
+     MALHSMRKAR GCWTFIRALH QGPEAVPAPQ KDATKRIFSG IQPTGIPHLG NYLGAIESWV
+     RLQDEHGSVL YSIVDLHSIT VPQDPAFLRQ SILDMTAALL ACGINPEKCI LFQQSQVSEH
+     TQLSWILTCM VRLPRLQHLH QWKAKTATEK HSGTVGLLTY PVLQAADILL YKSTHVPVGE
+     DQVQHMELVQ DLAHGFNKKF GEFFPVPKSI LTSMKKVKSL RDPSAKMSKS DPDKLATVRI
+     TDSPEEIVQK FRKAVTDFTS EVTYDPAQRG GVSNLVAIHA AVTGLPVEDV VRRSAGFDTA
+     RYKLVVADAV IEKFAPIKSE IEKLKMDKGY LDKVLRDGSA KAKELAYPVC QEVKKLVGFL
+//

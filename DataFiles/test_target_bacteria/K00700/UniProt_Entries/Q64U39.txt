@@ -1,0 +1,100 @@
+ID   Q64U39_BACFR            Unreviewed;       670 AA.
+AC   Q64U39;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 106.
+DE   RecName: Full=1,4-alpha-glucan branching enzyme {ECO:0000256|ARBA:ARBA00012541};
+DE            EC=2.4.1.18 {ECO:0000256|ARBA:ARBA00012541};
+GN   OrderedLocusNames=BF2243 {ECO:0000313|EMBL:BAD48990.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD48990.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD48990.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD48990.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Transfers a segment of a (1->4)-alpha-D-glucan chain to a
+CC         primary hydroxy group in a similar glucan chain.; EC=2.4.1.18;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000826};
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. GlgB
+CC       subfamily. {ECO:0000256|ARBA:ARBA00009000}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD48990.1; -; Genomic_DNA.
+DR   RefSeq; WP_005787605.1; NC_006347.1.
+DR   RefSeq; YP_099524.1; NC_006347.1.
+DR   AlphaFoldDB; Q64U39; -.
+DR   STRING; 295405.BF2243; -.
+DR   CAZy; CBM48; Carbohydrate-Binding Module Family 48.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   KEGG; bfr:BF2243; -.
+DR   PATRIC; fig|295405.11.peg.2176; -.
+DR   HOGENOM; CLU_011131_2_2_10; -.
+DR   OrthoDB; 9800174at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0003844; F:1,4-alpha-glucan branching enzyme activity; IEA:UniProtKB-EC.
+DR   GO; GO:0043169; F:cation binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:InterPro.
+DR   CDD; cd11321; AmyAc_bac_euk_BE; 1.
+DR   CDD; cd02854; E_set_GBE_euk_N; 1.
+DR   FunFam; 2.60.40.1180:FF:000050; 1,4-alpha-glucan branching enzyme; 1.
+DR   FunFam; 3.20.20.80:FF:000001; 1,4-alpha-glucan branching enzyme; 1.
+DR   Gene3D; 3.20.20.80; Glycosidases; 1.
+DR   Gene3D; 2.60.40.1180; Golgi alpha-mannosidase II; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   InterPro; IPR006048; A-amylase/branching_C.
+DR   InterPro; IPR037439; Branching_enzy.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR004193; Glyco_hydro_13_N.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   PANTHER; PTHR43651; 1,4-ALPHA-GLUCAN-BRANCHING ENZYME; 1.
+DR   PANTHER; PTHR43651:SF3; 1,4-ALPHA-GLUCAN-BRANCHING ENZYME; 1.
+DR   Pfam; PF00128; Alpha-amylase; 1.
+DR   Pfam; PF02806; Alpha-amylase_C; 1.
+DR   Pfam; PF02922; CBM_48; 1.
+DR   PIRSF; PIRSF000463; GlgB; 1.
+DR   SMART; SM00642; Aamy; 1.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF81296; E set domains; 1.
+DR   SUPFAM; SSF51011; Glycosyl hydrolase domain; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          182..544
+FT                   /note="Glycosyl hydrolase family 13 catalytic"
+FT                   /evidence="ECO:0000259|SMART:SM00642"
+FT   ACT_SITE        329
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000463-1"
+FT   ACT_SITE        383
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000463-1"
+SQ   SEQUENCE   670 AA;  77531 MW;  A274F30005D5B4AB CRC64;
+     MEKTLNLIKN DPWLEPYKDA IVGRFEHAMD KKAELTNGGK STLSDFASGY LYFGLHRTDK
+     GWIFREWAPN ASHIYMVGTF SNWEEKPAYK LKRLKNGSWE IKLPIDAIQH GDLYKLHVYW
+     EGGQGERIPA WANRVVQDDN TKIFSAQVWA PEKPFKFKKK TFKPSTDPLL IYECHIGMAQ
+     QEEKVGTYNE FREKILPRIA KEGYNCIQIM AIQEHPYYGS FGYHVSSFFA ASSRFGTPEE
+     LKQLIDTAHG LGIAVIMDIV HSHAVKNEVE GLGNFAGDPN QYFYPGGRRE HPAWDSLCFD
+     YGKNEVMHFL LSNCKYWLEE YHFDGFRFDG VTSMLYYSHG LGEAFCNYGD YFNGHQDDNA
+     ICYLTLANEL IHEVNPKAIT IAEEVSGMPG LAAKVEDGGY GFDYRMAMNI PDYWIKTIKE
+     KIDEDWKPSS MFWEVTNRRQ DEKTISYAES HDQALVGDKT IIFRLIDADM YWHMQKGDEN
+     YIVHRGVALH KMIRLLTAST INGGYLNFMG NEFGHPEWID FPREGNGWSC KYARRQWDLV
+     DNKNLTYHYL GDFDADMLKV IKSVKNIQQT PVQEIWHNDG DQVLAYQRKD LVFVFNFNPS
+     QSFTDYGFLV TPGTYEVVLN TDNIIYGGNG LSDDSVKHFT LPDPLYKKEK KEWLKLYIPA
+     RTAMVLRRTK
+//

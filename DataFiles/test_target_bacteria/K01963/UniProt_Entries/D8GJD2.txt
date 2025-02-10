@@ -1,0 +1,136 @@
+ID   D8GJD2_CLOLD            Unreviewed;       291 AA.
+AC   D8GJD2;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta {ECO:0000256|HAMAP-Rule:MF_01395};
+DE            Short=ACCase subunit beta {ECO:0000256|HAMAP-Rule:MF_01395};
+DE            Short=Acetyl-CoA carboxylase carboxyltransferase subunit beta {ECO:0000256|HAMAP-Rule:MF_01395};
+DE            EC=2.1.3.15 {ECO:0000256|HAMAP-Rule:MF_01395};
+GN   Name=accD {ECO:0000256|HAMAP-Rule:MF_01395,
+GN   ECO:0000313|EMBL:ADK17220.1};
+GN   OrderedLocusNames=CLJU_c42110 {ECO:0000313|EMBL:ADK17220.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK17220.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK17220.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Component of the acetyl coenzyme A carboxylase (ACC) complex.
+CC       Biotin carboxylase (BC) catalyzes the carboxylation of biotin on its
+CC       carrier protein (BCCP) and then the CO(2) group is transferred by the
+CC       transcarboxylase to acetyl-CoA to form malonyl-CoA.
+CC       {ECO:0000256|ARBA:ARBA00025280, ECO:0000256|HAMAP-Rule:MF_01395}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-carboxybiotinyl-L-lysyl-[protein] + acetyl-CoA = N(6)-
+CC         biotinyl-L-lysyl-[protein] + malonyl-CoA; Xref=Rhea:RHEA:54728,
+CC         Rhea:RHEA-COMP:10505, Rhea:RHEA-COMP:10506, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:83144, ChEBI:CHEBI:83145; EC=2.1.3.15;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01395};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01395};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01395};
+CC   -!- PATHWAY: Lipid metabolism; malonyl-CoA biosynthesis; malonyl-CoA from
+CC       acetyl-CoA: step 1/1. {ECO:0000256|HAMAP-Rule:MF_01395}.
+CC   -!- SUBUNIT: Acetyl-CoA carboxylase is a heterohexamer composed of biotin
+CC       carboxyl carrier protein (AccB), biotin carboxylase (AccC) and two
+CC       subunits each of ACCase subunit alpha (AccA) and ACCase subunit beta
+CC       (AccD). {ECO:0000256|HAMAP-Rule:MF_01395}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01395}.
+CC   -!- SIMILARITY: Belongs to the AccD/PCCB family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01395}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK17220.1; -; Genomic_DNA.
+DR   RefSeq; WP_013240782.1; NZ_LITS01000022.1.
+DR   AlphaFoldDB; D8GJD2; -.
+DR   STRING; 748727.CLJU_c42110; -.
+DR   KEGG; clj:CLJU_c42110; -.
+DR   PATRIC; fig|748727.19.peg.1487; -.
+DR   eggNOG; COG0777; Bacteria.
+DR   HOGENOM; CLU_015486_1_0_9; -.
+DR   UniPathway; UPA00655; UER00711.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0009317; C:acetyl-CoA carboxylase complex; IEA:InterPro.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016743; F:carboxyl- or carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:2001295; P:malonyl-CoA biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.226.10; 2-enoyl-CoA Hydratase, Chain A, domain 1; 1.
+DR   HAMAP; MF_01395; AcetylCoA_CT_beta; 1.
+DR   InterPro; IPR034733; AcCoA_carboxyl_beta.
+DR   InterPro; IPR000438; Acetyl_CoA_COase_Trfase_b_su.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR011762; COA_CT_N.
+DR   InterPro; IPR041010; Znf-ACC.
+DR   NCBIfam; TIGR00515; accD; 1.
+DR   PANTHER; PTHR42995; ACETYL-COENZYME A CARBOXYLASE CARBOXYL TRANSFERASE SUBUNIT BETA, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR42995:SF5; ACETYL-COENZYME A CARBOXYLASE CARBOXYL TRANSFERASE SUBUNIT BETA, CHLOROPLASTIC; 1.
+DR   Pfam; PF01039; Carboxyl_trans; 1.
+DR   Pfam; PF17848; zf-ACC; 1.
+DR   PRINTS; PR01070; ACCCTRFRASEB.
+DR   SUPFAM; SSF52096; ClpP/crotonase; 1.
+DR   PROSITE; PS50980; COA_CT_NTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01395}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01395};
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832, ECO:0000256|HAMAP-
+KW   Rule:MF_01395}; Ligase {ECO:0000313|EMBL:ADK17220.1};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01395};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_01395};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_01395}.
+FT   DOMAIN          36..291
+FT                   /note="CoA carboxyltransferase N-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS50980"
+FT   ZN_FING         40..62
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01395"
+FT   BINDING         40
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01395"
+FT   BINDING         43
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01395"
+FT   BINDING         59
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01395"
+FT   BINDING         62
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01395"
+SQ   SEQUENCE   291 AA;  32291 MW;  C0F64429B5CECE65 CRC64;
+     MLNKFFKKTK YITVSQRALN NIHEDLDSKP SIPNGMWVKC DGCGKVLYKQ DLEKNNRVCQ
+     YCKHHFRMNA KERIDLITDK DSFCQFDENM TSTNPIGFKG YEDKISNMQK KTNLKEAVIT
+     GKGTIGGESA VICVMDSNFM MGSMGSVVGE KITRAVEKAI ELKIPLIIFT ASGGARMQEG
+     IFSLMQMAKI SGAINRLNDA GLLYISVLTD PTTGGVTASF AMLGDIILAE PGALVGFAGK
+     RVIEQTIKQK LPDGFQSAEF LLKHGFVDSI VSRENLKSTL KKILYIHNRN R
+//

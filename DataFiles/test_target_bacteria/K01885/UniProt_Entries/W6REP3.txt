@@ -1,0 +1,122 @@
+ID   W6REP3_9HYPH            Unreviewed;       485 AA.
+AC   W6REP3;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   27-NOV-2024, entry version 55.
+DE   RecName: Full=Glutamate--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_00022};
+DE            EC=6.1.1.17 {ECO:0000256|HAMAP-Rule:MF_00022};
+DE   AltName: Full=Glutamyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_00022};
+DE            Short=GluRS {ECO:0000256|HAMAP-Rule:MF_00022};
+GN   Name=gltX1 {ECO:0000313|EMBL:CDM59329.1};
+GN   Synonyms=gltX {ECO:0000256|HAMAP-Rule:MF_00022};
+GN   ORFNames=LPU83_3686 {ECO:0000313|EMBL:CDM59329.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM59329.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM59329.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM59329.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of glutamate to tRNA(Glu) in a two-
+CC       step reaction: glutamate is first activated by ATP to form Glu-AMP and
+CC       then transferred to the acceptor end of tRNA(Glu). {ECO:0000256|HAMAP-
+CC       Rule:MF_00022}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Glu) + L-glutamate + ATP = L-glutamyl-tRNA(Glu) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:23540, Rhea:RHEA-COMP:9663, Rhea:RHEA-
+CC         COMP:9680, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78520, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.17; Evidence={ECO:0000256|HAMAP-Rule:MF_00022};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00022}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00022}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       Glutamate--tRNA ligase type 1 subfamily.
+CC       {ECO:0000256|ARBA:ARBA00007894, ECO:0000256|HAMAP-Rule:MF_00022}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00022}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM59329.1; -; Genomic_DNA.
+DR   RefSeq; WP_024314914.1; NZ_JAIRAY010000014.1.
+DR   AlphaFoldDB; W6REP3; -.
+DR   KEGG; rhl:LPU83_3686; -.
+DR   PATRIC; fig|348824.6.peg.3965; -.
+DR   eggNOG; COG0008; Bacteria.
+DR   HOGENOM; CLU_015768_6_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00808; GluRS_core; 1.
+DR   FunFam; 3.40.50.620:FF:000045; Glutamate--tRNA ligase, mitochondrial; 1.
+DR   Gene3D; 1.10.10.350; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00022; Glu_tRNA_synth_type1; 1.
+DR   InterPro; IPR045462; aa-tRNA-synth_I_cd-bd.
+DR   InterPro; IPR020751; aa-tRNA-synth_I_codon-bd_sub2.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR008925; aa_tRNA-synth_I_cd-bd_sf.
+DR   InterPro; IPR004527; Glu-tRNA-ligase_bac/mito.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR049940; GluQ/Sye.
+DR   InterPro; IPR033910; GluRS_core.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00464; gltX_bact; 1.
+DR   PANTHER; PTHR43311; GLUTAMATE--TRNA LIGASE; 1.
+DR   PANTHER; PTHR43311:SF2; GLUTAMATE--TRNA LIGASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF19269; Anticodon_2; 1.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF48163; An anticodon-binding domain of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00022};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00022};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00022};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00022};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00022};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00022}.
+FT   DOMAIN          6..322
+FT                   /note="Glutamyl/glutaminyl-tRNA synthetase class Ib
+FT                   catalytic"
+FT                   /evidence="ECO:0000259|Pfam:PF00749"
+FT   DOMAIN          337..472
+FT                   /note="Aminoacyl-tRNA synthetase class I anticodon-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF19269"
+FT   MOTIF           12..22
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00022"
+FT   MOTIF           253..257
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00022"
+FT   BINDING         256
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00022"
+SQ   SEQUENCE   485 AA;  54435 MW;  F5716115C538E939 CRC64;
+     MTASGVRVRI APSPTGEPHV GTAYIALFNY LFAKKNGGEF ILRIEDTDAT RSTPEFEKKV
+     LDALKWCGLE WKEGPDIGGP YGPYRQSDRK EIYTPYGQEL LDKGHAFRCF CTPERLEKMR
+     EEQRAAGKAP KYDGLCLKLT AEEVTSKMAA GESSVIRMKI PAEGSCDFTD GVYGDVSIPW
+     DSVDMQVLIK GDGMPTYHMA NVIDDHLMKI THVARGEEWL ASVPKHILLY RYFDWEAPVF
+     MHLSLMRNAD KSKLSKRKNP TSISYYSALG YIPEALMNFL GLFFVQIAEG EELLTMDELS
+     EKFDPDNLSK AGAIFDIQKL DWLNGRWIRE KLSEEEFQTR VLDWAMENDR LKAGLRLSQS
+     RISKLGELPD LAGFLLKSDL GLDLSAFAKI KSPPEEILEI LNTVQPDLEK ILEWNVETIE
+     AELRAIADRM GKKLKVVVAP LFVAVSGSSR SLPLFDSMAI LGRSVVRQRL KLASQAVASL
+     VGPKN
+//

@@ -1,0 +1,92 @@
+ID   Q0PAE9_CAMJE            Unreviewed;       279 AA.
+AC   Q0PAE9;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 100.
+DE   SubName: Full=ABC transport system permease {ECO:0000313|EMBL:CAL34867.1};
+GN   OrderedLocusNames=Cj0730 {ECO:0000313|EMBL:CAL34867.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34867.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34867.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. CysTW subfamily. {ECO:0000256|ARBA:ARBA00007069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34867.1; -; Genomic_DNA.
+DR   PIR; E81344; E81344.
+DR   RefSeq; WP_002784190.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344148.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PAE9; -.
+DR   IntAct; Q0PAE9; 6.
+DR   STRING; 192222.Cj0730; -.
+DR   PaxDb; 192222-Cj0730; -.
+DR   EnsemblBacteria; CAL34867; CAL34867; Cj0730.
+DR   GeneID; 905048; -.
+DR   KEGG; cje:Cj0730; -.
+DR   PATRIC; fig|192222.6.peg.722; -.
+DR   eggNOG; COG4132; Bacteria.
+DR   HOGENOM; CLU_016047_18_6_7; -.
+DR   OrthoDB; 8404154at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   PANTHER; PTHR42929:SF1; INNER MEMBRANE ABC TRANSPORTER PERMEASE PROTEIN YDCU-RELATED; 1.
+DR   PANTHER; PTHR42929; INNER MEMBRANE ABC TRANSPORTER PERMEASE PROTEIN YDCU-RELATED-RELATED; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}; Transport {ECO:0000256|ARBA:ARBA00022448}.
+FT   TRANSMEM        7..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        66..89
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        110..130
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        150..167
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        188..213
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        247..270
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          60..267
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   279 AA;  30979 MW;  9E5FD14794E940DB CRC64;
+     MKEKFLAFLS ILPFFIVFTF FMIAPLIWIV FNAFYVEEDE IYSLANFIHI FESKFYLQSI
+     INSLQISFIS SIFGLLIGLL ASYSLFVLAP SKICKFLFSL NTMISNFSGV PLAFAFIIVL
+     GSNGVVNVFL KNLGIEPFVS VYANFGVNIV YVYFQIPLAI LLLLPAFKSL ENSHLNACKM
+     LGGGNFLYWL KIALPLLAPA LFGVFVILFA NAFGAYATIY ALSSGNFNVA PVRIAALIAG
+     DINLDPYMAS ALSIIITIIM LVVTFIANFL SKKYNFKVL
+//

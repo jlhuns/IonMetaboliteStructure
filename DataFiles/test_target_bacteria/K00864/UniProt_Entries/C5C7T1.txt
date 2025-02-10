@@ -1,0 +1,225 @@
+ID   C5C7T1_MICLC            Unreviewed;       510 AA.
+AC   C5C7T1;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 100.
+DE   RecName: Full=Glycerol kinase {ECO:0000256|HAMAP-Rule:MF_00186};
+DE            EC=2.7.1.30 {ECO:0000256|HAMAP-Rule:MF_00186};
+DE   AltName: Full=ATP:glycerol 3-phosphotransferase {ECO:0000256|HAMAP-Rule:MF_00186};
+DE   AltName: Full=Glycerokinase {ECO:0000256|HAMAP-Rule:MF_00186};
+DE            Short=GK {ECO:0000256|HAMAP-Rule:MF_00186};
+GN   Name=glpK {ECO:0000256|HAMAP-Rule:MF_00186,
+GN   ECO:0000313|EMBL:SQG48203.1};
+GN   OrderedLocusNames=Mlut_23050 {ECO:0000313|EMBL:ACS31769.1};
+GN   ORFNames=NCTC2665_00977 {ECO:0000313|EMBL:SQG48203.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS31769.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS31769.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS31769.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG48203.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG48203.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Key enzyme in the regulation of glycerol uptake and
+CC       metabolism. Catalyzes the phosphorylation of glycerol to yield sn-
+CC       glycerol 3-phosphate. {ECO:0000256|HAMAP-Rule:MF_00186}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycerol + ATP = sn-glycerol 3-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:21644, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57597, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.30; Evidence={ECO:0000256|HAMAP-Rule:MF_00186};
+CC   -!- ACTIVITY REGULATION: Inhibited by fructose 1,6-bisphosphate (FBP).
+CC       {ECO:0000256|HAMAP-Rule:MF_00186}.
+CC   -!- PATHWAY: Polyol metabolism; glycerol degradation via glycerol kinase
+CC       pathway; sn-glycerol 3-phosphate from glycerol: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_00186}.
+CC   -!- SIMILARITY: Belongs to the FGGY kinase family.
+CC       {ECO:0000256|ARBA:ARBA00009156, ECO:0000256|HAMAP-Rule:MF_00186,
+CC       ECO:0000256|RuleBase:RU003733}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS31769.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG48203.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079812.1; NZ_WBMF01000194.1.
+DR   AlphaFoldDB; C5C7T1; -.
+DR   STRING; 465515.Mlut_23050; -.
+DR   EnsemblBacteria; ACS31769; ACS31769; Mlut_23050.
+DR   KEGG; mlu:Mlut_23050; -.
+DR   PATRIC; fig|465515.4.peg.2236; -.
+DR   eggNOG; COG0554; Bacteria.
+DR   HOGENOM; CLU_009281_2_3_11; -.
+DR   UniPathway; UPA00618; UER00672.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004370; F:glycerol kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006072; P:glycerol-3-phosphate metabolic process; IEA:InterPro.
+DR   CDD; cd07789; FGGY_CsGK_like; 1.
+DR   FunFam; 3.30.420.40:FF:000007; Glycerol kinase; 1.
+DR   FunFam; 3.30.420.40:FF:000008; Glycerol kinase; 1.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   HAMAP; MF_00186; Glycerol_kin; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000577; Carb_kinase_FGGY.
+DR   InterPro; IPR018483; Carb_kinase_FGGY_CS.
+DR   InterPro; IPR018485; FGGY_C.
+DR   InterPro; IPR018484; FGGY_N.
+DR   InterPro; IPR005999; Glycerol_kin.
+DR   NCBIfam; TIGR01311; glycerol_kin; 1.
+DR   PANTHER; PTHR10196:SF69; GLYCEROL KINASE; 1.
+DR   PANTHER; PTHR10196; SUGAR KINASE; 1.
+DR   Pfam; PF02782; FGGY_C; 1.
+DR   Pfam; PF00370; FGGY_N; 1.
+DR   PIRSF; PIRSF000538; GlpK; 1.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+DR   PROSITE; PS00933; FGGY_KINASES_1; 1.
+DR   PROSITE; PS00445; FGGY_KINASES_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00186};
+KW   Glycerol metabolism {ECO:0000256|ARBA:ARBA00022798, ECO:0000256|HAMAP-
+KW   Rule:MF_00186};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00186};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00186}; Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00186}.
+FT   DOMAIN          6..255
+FT                   /note="Carbohydrate kinase FGGY N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00370"
+FT   DOMAIN          265..454
+FT                   /note="Carbohydrate kinase FGGY C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02782"
+FT   BINDING         14
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         14
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         14
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         18
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         84
+FT                   /ligand="glycerol"
+FT                   /ligand_id="ChEBI:CHEBI:17754"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         84
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         85
+FT                   /ligand="glycerol"
+FT                   /ligand_id="ChEBI:CHEBI:17754"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         85
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         136
+FT                   /ligand="glycerol"
+FT                   /ligand_id="ChEBI:CHEBI:17754"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         136
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         248
+FT                   /ligand="glycerol"
+FT                   /ligand_id="ChEBI:CHEBI:17754"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         248
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         249
+FT                   /ligand="glycerol"
+FT                   /ligand_id="ChEBI:CHEBI:17754"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         270
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         270
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         314
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         314
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         318
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         415
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         415
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+FT   BINDING         419
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00186"
+SQ   SEQUENCE   510 AA;  55687 MW;  0773AD6FE0BF6B57 CRC64;
+     MTTPRYVMAI DQGTTSTRAI LFDHSGAIVS TGQREHEQIF PRAGWVEHDP VEIWKNTREV
+     IGEALARAEV TRHDVAAVGI TNQRETTVVW DRNTGKPVYN AIVWQDTRTD RLCERLAGDV
+     GADRYKERVG LPLATYFSGP KVAWILENVD GAREAAENGD LIFGTTDSWL VWNLTGGGEG
+     GRHVTDVTNA SRTMLMNLDT LDWNEEICAD MGIPMSMLPE IVSSSAEVGT VSGQQLLRET
+     PITGILGDQH AATFGQACFE VGQAKNTYGT GNFMLINTGE EPVHSDNGLL TTVAYRIGDQ
+     KPVYALEGSI AVTGSLIQWL RDNLGMIGSA PEVETLAAGV EDNGGVYFVP AFSGLFAPHW
+     DAAARGVMVG MTRYVNKGHI ARAALEATAF QSREVLDAMN ADSGVDLTEL KVDGGMVANE
+     LLMQFQADLL RVPVVRPKVI ETTALGAAYA AGLAVGFWAS QDELVANWEE DKRWEPTTDE
+     EEVERALRLW KKAVERSRDW VDEDVESAQG
+//

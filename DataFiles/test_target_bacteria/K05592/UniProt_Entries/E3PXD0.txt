@@ -1,0 +1,86 @@
+ID   E3PXD0_ACESD            Unreviewed;       423 AA.
+AC   E3PXD0;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 69.
+DE   SubName: Full=Atp-dependent rna helicase, dead/deah box family {ECO:0000313|EMBL:CBH21095.1};
+GN   OrderedLocusNames=CLOST_0972 {ECO:0000313|EMBL:CBH21095.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21095.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family.
+CC       {ECO:0000256|ARBA:ARBA00038437}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21095.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PXD0; -.
+DR   STRING; 1511.CLOST_0972; -.
+DR   KEGG; cst:CLOST_0972; -.
+DR   eggNOG; COG0513; Bacteria.
+DR   HOGENOM; CLU_003041_1_3_9; -.
+DR   BioCyc; CSTI499177:GJE9-1018-MONOMER; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:TreeGrafter.
+DR   CDD; cd00268; DEADc; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050079; DEAD_box_RNA_helicase.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR47959:SF1; ATP-DEPENDENT RNA HELICASE DBPA; 1.
+DR   PANTHER; PTHR47959; ATP-DEPENDENT RNA HELICASE RHLE-RELATED; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840};
+KW   Helicase {ECO:0000256|ARBA:ARBA00022806, ECO:0000313|EMBL:CBH21095.1};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022806, ECO:0000313|EMBL:CBH21095.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041}.
+FT   DOMAIN          33..203
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51192"
+FT   DOMAIN          214..374
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51194"
+FT   REGION          391..423
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        409..423
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   423 AA;  48603 MW;  AD8338F035A17DF1 CRC64;
+     MRTFYDLGIN TDNIDKLRNM YITKPTKIQE QAIPLILKGK DIIGKAQTGT GKTLAFVLPL
+     IQMLDENISI PQVLILTPTR ELALQITTVV EELLKDSAFD VVSVYGGHDV EKQKNQLKNN
+     AQFVVGTPGR ILDHIREGSI NFKNLKHVVI DEADQMMAFG FMEDLDLLFD KTPQKIQKMI
+     FSATIPDMIR KLARKIMNNA INIDIDPESV VIDNIRQVVV RTTEERRLQS LEMALKEFKP
+     FMAMIFCKSK ERANELYDNM VNLRYDVEIL HGDFSQNKRE NIMKRFRELK FPFLVTTDIS
+     ARGMDIDGIT HVFNYDIPRQ IEYYIHRVGR TGRAGEKGIA VSFVADKEVE QMKKIQKTVG
+     ISIPEVYDRS SDERKRMNIE TLLEGKVKTK EVRYRKTTKS KPSLVNARKS GKKRTNPRKG
+     SSK
+//

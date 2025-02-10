@@ -1,0 +1,111 @@
+ID   Q65IU6_BACLD            Unreviewed;       252 AA.
+AC   Q65IU6; Q62UA4;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Pyruvate formate-lyase-activating enzyme {ECO:0000256|ARBA:ARBA00021356, ECO:0000256|RuleBase:RU362053};
+DE            EC=1.97.1.4 {ECO:0000256|RuleBase:RU362053};
+GN   OrderedLocusNames=BL01864 {ECO:0000313|EMBL:AAU23655.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23655.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23655.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Activation of pyruvate formate-lyase under anaerobic
+CC       conditions by generation of an organic free radical, using S-
+CC       adenosylmethionine and reduced flavodoxin as cosubstrates to produce
+CC       5'-deoxy-adenosine. {ECO:0000256|ARBA:ARBA00003141,
+CC       ECO:0000256|RuleBase:RU362053}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-[formate C-acetyltransferase] + reduced [flavodoxin] +
+CC         S-adenosyl-L-methionine = glycin-2-yl radical-[formate C-
+CC         acetyltransferase] + semiquinone [flavodoxin] + 5'-deoxyadenosine +
+CC         L-methionine + H(+); Xref=Rhea:RHEA:19225, Rhea:RHEA-COMP:10622,
+CC         Rhea:RHEA-COMP:12190, Rhea:RHEA-COMP:12191, Rhea:RHEA-COMP:14480,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17319, ChEBI:CHEBI:29947,
+CC         ChEBI:CHEBI:32722, ChEBI:CHEBI:57618, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:140311; EC=1.97.1.4;
+CC         Evidence={ECO:0000256|RuleBase:RU362053};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|RuleBase:RU362053};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|RuleBase:RU362053};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|RuleBase:RU362053}.
+CC   -!- SIMILARITY: Belongs to the organic radical-activating enzymes family.
+CC       {ECO:0000256|ARBA:ARBA00009777, ECO:0000256|RuleBase:RU362053}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23655.1; -; Genomic_DNA.
+DR   RefSeq; WP_003182430.1; NC_006322.1.
+DR   AlphaFoldDB; Q65IU6; -.
+DR   STRING; 279010.BL01864; -.
+DR   GeneID; 66215867; -.
+DR   KEGG; bld:BLi02131; -.
+DR   KEGG; bli:BL01864; -.
+DR   PATRIC; fig|279010.13.peg.2138; -.
+DR   eggNOG; COG1180; Bacteria.
+DR   HOGENOM; CLU_058969_1_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043365; F:[formate-C-acetyltransferase]-activating enzyme activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR034457; Organic_radical-activating.
+DR   InterPro; IPR012839; Organic_radical_activase.
+DR   InterPro; IPR012838; PFL1_activating.
+DR   InterPro; IPR001989; Radical_activat_CS.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR02493; PFLA; 1.
+DR   PANTHER; PTHR30352:SF5; PYRUVATE FORMATE-LYASE 1-ACTIVATING ENZYME; 1.
+DR   PANTHER; PTHR30352; PYRUVATE FORMATE-LYASE-ACTIVATING ENZYME; 1.
+DR   Pfam; PF13353; Fer4_12; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000371; PFL_act_enz; 2.
+DR   SFLD; SFLDG01066; organic_radical-activating_enz; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS01087; RADICAL_ACTIVATING; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU362053};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|RuleBase:RU362053};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU362053};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU362053};
+KW   Lyase {ECO:0000313|EMBL:AAU23655.1};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU362053};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU362053}; Pyruvate {ECO:0000313|EMBL:AAU23655.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|RuleBase:RU362053}.
+FT   DOMAIN          14..242
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+SQ   SEQUENCE   252 AA;  27790 MW;  AF1DC33AC0AAAB44 CRC64;
+     MDGNIHSIET FGTVDGPGIR YVVFTQGCLM RCQFCHNADT WEIGTGKQMT VSEIVQDVQH
+     YLPFIQSSGG GITVSGGEPL LQLPFLIELF KACKSLGIHT ALDSSGGCYS AAPAFQEQIK
+     ELIQYTDLVL LDLKHHNRKK HINLTGMPND HILEFARFLA EHQVPVWIRH VLVPGISDID
+     ADLTALGTFI GTLANVQKVE VLPYHKLGVY KWEALGLDYP LKGVEPPSAD RAENAYRLLT
+     AHLQGGSLLQ ET
+//

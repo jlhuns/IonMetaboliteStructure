@@ -1,0 +1,82 @@
+ID   W6RZP2_9HYPH            Unreviewed;       302 AA.
+AC   W6RZP2;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 49.
+DE   SubName: Full=Citrate lyase subunit beta {ECO:0000313|EMBL:CDM59746.1};
+DE            EC=4.1.3.6 {ECO:0000313|EMBL:CDM59746.1};
+GN   Name=citE {ECO:0000313|EMBL:CDM59746.1};
+GN   ORFNames=LPU83_4111 {ECO:0000313|EMBL:CDM59746.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM59746.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM59746.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM59746.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the HpcH/HpaI aldolase family.
+CC       {ECO:0000256|ARBA:ARBA00005568}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM59746.1; -; Genomic_DNA.
+DR   RefSeq; WP_024313298.1; NZ_ATTO01000003.1.
+DR   AlphaFoldDB; W6RZP2; -.
+DR   KEGG; rhl:LPU83_4111; -.
+DR   PATRIC; fig|348824.6.peg.4405; -.
+DR   eggNOG; COG2301; Bacteria.
+DR   HOGENOM; CLU_044864_0_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0047777; F:(S)-citramalyl-CoA lyase activity; IEA:TreeGrafter.
+DR   GO; GO:0008815; F:citrate (pro-3S)-lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106064; P:regulation of cobalamin metabolic process; IEA:TreeGrafter.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR040186; Citramalyl-CoA_lyase.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   PANTHER; PTHR11105:SF0; CITRAMALYL-COA LYASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11105; CITRATE LYASE SUBUNIT BETA-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:CDM59746.1};
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR015582-2}.
+FT   DOMAIN          14..232
+FT                   /note="HpcH/HpaI aldolase/citrate lyase"
+FT                   /evidence="ECO:0000259|Pfam:PF03328"
+FT   BINDING         75
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         133
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+FT   BINDING         133
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         164
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+SQ   SEQUENCE   302 AA;  32797 MW;  C1F0499AAD2C8D36 CRC64;
+     MSSNSMPRSV SLRRSVLSVP AINSRALEKT HGLDCDAIIF DLEDSVAPEK KAEAREKLKA
+     FFSGKPLANK ERIIRINTLS STFGHADMEL VRTLEPDAVL LPKVNEPQDV MSVGDLLADA
+     DAPESLRIWA MIETPRGILN AAAIAEAGRT QGSRLDCFVL GLNDLRKETG VLPQPGRTYL
+     VPWLMQVVLA VRAYGLDAID SVFNDFRDAD AFDAECAHAR AMGFDGKMLI HPAQIDAANR
+     HFGPDASAIA EAEAIIAAFA DPAAEGLNVI NVNGRMIERL HLVQAEGLVH KARLIAERQT
+     AK
+//

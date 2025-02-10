@@ -1,0 +1,113 @@
+ID   A0AAE9Y353_RHOPA        Unreviewed;       597 AA.
+AC   A0AAE9Y353;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Arginine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_00123};
+DE            EC=6.1.1.19 {ECO:0000256|HAMAP-Rule:MF_00123};
+DE   AltName: Full=Arginyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_00123};
+DE            Short=ArgRS {ECO:0000256|HAMAP-Rule:MF_00123};
+GN   Name=argS {ECO:0000256|HAMAP-Rule:MF_00123,
+GN   ECO:0000313|EMBL:WCL93021.1};
+GN   ORFNames=TX73_014780 {ECO:0000313|EMBL:WCL93021.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL93021.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL93021.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Arg) + L-arginine + ATP = L-arginyl-tRNA(Arg) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:20301, Rhea:RHEA-COMP:9658, Rhea:RHEA-
+CC         COMP:9673, ChEBI:CHEBI:30616, ChEBI:CHEBI:32682, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78513, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.19; Evidence={ECO:0000256|ARBA:ARBA00049339,
+CC         ECO:0000256|HAMAP-Rule:MF_00123};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00123}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00123}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000256|ARBA:ARBA00005594, ECO:0000256|HAMAP-Rule:MF_00123,
+CC       ECO:0000256|RuleBase:RU363038}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL93021.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158403.1; NZ_CP116810.1.
+DR   SMR; A0AAE9Y353; -.
+DR   GeneID; 66893932; -.
+DR   KEGG; rpa:TX73_014780; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004814; F:arginine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006420; P:arginyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00671; ArgRS_core; 1.
+DR   FunFam; 1.10.730.10:FF:000008; Arginine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000062; Arginine--tRNA ligase; 1.
+DR   Gene3D; 3.30.1360.70; Arginyl tRNA synthetase N-terminal domain; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   HAMAP; MF_00123; Arg_tRNA_synth; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR001278; Arg-tRNA-ligase.
+DR   InterPro; IPR005148; Arg-tRNA-synth_N.
+DR   InterPro; IPR036695; Arg-tRNA-synth_N_sf.
+DR   InterPro; IPR035684; ArgRS_core.
+DR   InterPro; IPR008909; DALR_anticod-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   NCBIfam; TIGR00456; argS; 1.
+DR   PANTHER; PTHR11956:SF5; ARGININE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR11956; ARGINYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF03485; Arg_tRNA_synt_N; 1.
+DR   Pfam; PF05746; DALR_1; 1.
+DR   Pfam; PF00750; tRNA-synt_1d; 2.
+DR   PRINTS; PR01038; TRNASYNTHARG.
+DR   SMART; SM01016; Arg_tRNA_synt_N; 1.
+DR   SMART; SM00836; DALR_1; 1.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF55190; Arginyl-tRNA synthetase (ArgRS), N-terminal 'additional' domain; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00123};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00123};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00123};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00123};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00123};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00123}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          12..101
+FT                   /note="Arginyl tRNA synthetase N-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM01016"
+FT   DOMAIN          461..596
+FT                   /note="DALR anticodon binding"
+FT                   /evidence="ECO:0000259|SMART:SM00836"
+FT   MOTIF           138..148
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00123"
+SQ   SEQUENCE   597 AA;  65197 MW;  301A2725A2181383 CRC64;
+     MAELPMSTHL FARLLSRVHA VCAALIEEGA LPAGIDLSRV VVEPPKDASH GDMATNAAMV
+     LAKDAKAKPR DLADKIADKL RAEELIDQVA IAGPGFINLT LKPAVWAEAL RAVLDAGAGY
+     GRSTVGGGEK VNVEYVSANP TGPMHVGHCR GAVFGDALAN LLDTAGYDVT REYYINDAGA
+     QVDVLARSAF LRYREALGET IGEIPEGLYP GDYLKPVGEA LKAEHGAALK DMPEAQWLPT
+     VRATAIAMMM EAIKGDLAAL NITHEVFFSE RSLIEGGRNR VAETIEFLRA KGDVYQGRLP
+     PPKGAPVEDY EDREQTLFRA TAYGDDVDRP LLKSDGSYTY FASDIAYHKV KFDAGFANMV
+     DVWGADHGGY IKRMQAAIQA VTAGKGALDV KIVQLVRLLR NGEPVKMSKR AGDFVTLREV
+     VDEVGSDAVR FMMLFRKNDA VLDFDLAKVI EQSKDNPVFY VQYGHARGHS IFRNAREVVP
+     DLPEDSKARA AMLRQAPLER LNDPAELELL KRLALYPRIV EAAAQAHEPH RIAFYLNELA
+     SEFHALWTHG RDLPHLRFII NNDAEITRAR LAMVQGVVSV LASGLAILGV TAPDEMR
+//

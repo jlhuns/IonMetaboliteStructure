@@ -1,0 +1,94 @@
+ID   A0AAJ3D6Y0_ACIHA        Unreviewed;       458 AA.
+AC   A0AAJ3D6Y0;
+DT   24-JUL-2024, integrated into UniProtKB/TrEMBL.
+DT   24-JUL-2024, sequence version 1.
+DT   05-FEB-2025, entry version 4.
+DE   SubName: Full=Do family serine endopeptidase {ECO:0000313|EMBL:NAR71982.1};
+GN   ORFNames=GPS52_00460 {ECO:0000313|EMBL:NAR71982.1};
+OS   Acinetobacter haemolyticus.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Moraxellales; Moraxellaceae;
+OC   Acinetobacter.
+OX   NCBI_TaxID=29430 {ECO:0000313|EMBL:NAR71982.1, ECO:0000313|Proteomes:UP000451048};
+RN   [1] {ECO:0000313|EMBL:NAR71982.1, ECO:0000313|Proteomes:UP000451048}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AN10 {ECO:0000313|EMBL:NAR71982.1,
+RC   ECO:0000313|Proteomes:UP000451048};
+RA   Castro-Jaimes S., Bello-Lopez E., Velazquez-Acosta C., Volkow-Fernandez P.,
+RA   Lozano-Zarain P., Castillo Ramirez S., Cevallos M.A.;
+RT   "Acinetobacter haemolyticus comparative genomics.";
+RL   Submitted (DEC-2019) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:NAR71982.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; WTTO01000001; NAR71982.1; -; Genomic_DNA.
+DR   RefSeq; WP_005084574.1; NZ_WTTW01000030.1.
+DR   KEGG; ahl:AHTJS_04875; -.
+DR   Proteomes; UP000451048; Unassembled WGS sequence.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00987; PDZ_serine_protease; 2.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   Gene3D; 2.40.10.120; -; 1.
+DR   InterPro; IPR051201; Chloro_Bact_Ser_Proteases.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR011782; Pept_S1C_Do.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR001940; Peptidase_S1C.
+DR   NCBIfam; TIGR02037; degP_htrA_DO; 1.
+DR   PANTHER; PTHR43343; PEPTIDASE S12; 1.
+DR   PANTHER; PTHR43343:SF6; PROTEASE DO-LIKE 5, CHLOROPLASTIC ISOFORM X1; 1.
+DR   Pfam; PF13180; PDZ_2; 2.
+DR   Pfam; PF13365; Trypsin_2; 1.
+DR   PRINTS; PR00834; PROTEASES2C.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   SUPFAM; SSF50494; Trypsin-like serine proteases; 1.
+DR   PROSITE; PS50106; PDZ; 2.
+PE   4: Predicted;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022825};
+KW   Protease {ECO:0000256|ARBA:ARBA00022825};
+KW   Repeat {ECO:0000256|ARBA:ARBA00022737};
+KW   Serine protease {ECO:0000256|ARBA:ARBA00022825};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729, ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           21..458
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5042577496"
+FT   DOMAIN          245..341
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+FT   DOMAIN          358..423
+FT                   /note="PDZ"
+FT                   /evidence="ECO:0000259|PROSITE:PS50106"
+FT   REGION          350..373
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        362..373
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        103
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+FT   ACT_SITE        133
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+FT   ACT_SITE        206
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR611782-1"
+SQ   SEQUENCE   458 AA;  48875 MW;  7CDDAA5AEDD770BE CRC64;
+     MKSRYLQQGM YAAVFTVAAA HVNAAAPVDF SNLVEQVSPA VVSVNVVKKM TQEELLQQQV
+     PEILRRFFGN QVIIPQRQGP QEKTAFGSAF FISKDGYLVT NHHVIANASR ISITLNDRRE
+     FDATLVGSDE RTDVAVLKVE GANFPELRVG DVNQLRVGEP VLAIGSPFGF DYSASAGIVS
+     AKSRNMSGET SVPFIQTDAA LNPGNSGGPL FNQRGEVVGV NSRIFSGTGG YMGLSFSIPI
+     DVAMDVVQQL KANGKVTRSY LGIMLQDIDR NLAEAYKLPK PEGSLITQVA PKSPAEKAGL
+     KSGDVILKIN GAPISRTSDL LYTLNRISPN QTIRLEILRD ERVRTVSATL GTAPDDTPAT
+     GDKNSPTSGL GMSIRNLTPT EQSRLDVRGG ILVQEVQRGG LASLSNIVAG DVILQVNGTA
+     INDSAGFARV IAGLPKGSVA RVAIIRQGQR AILGLRLQ
+//

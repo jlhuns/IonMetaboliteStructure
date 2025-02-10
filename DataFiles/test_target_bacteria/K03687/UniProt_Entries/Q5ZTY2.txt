@@ -1,0 +1,96 @@
+ID   GRPE_LEGPH              Reviewed;         200 AA.
+AC   Q5ZTY2;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   RecName: Full=Protein GrpE {ECO:0000255|HAMAP-Rule:MF_01151};
+DE   AltName: Full=HSP-70 cofactor {ECO:0000255|HAMAP-Rule:MF_01151};
+GN   Name=grpE {ECO:0000255|HAMAP-Rule:MF_01151};
+GN   OrderedLocusNames=lpg2026;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Participates actively in the response to hyperosmotic and
+CC       heat shock by preventing the aggregation of stress-denatured proteins,
+CC       in association with DnaK and GrpE. It is the nucleotide exchange factor
+CC       for DnaK and may function as a thermosensor. Unfolded proteins bind
+CC       initially to DnaJ; upon interaction with the DnaJ-bound protein, DnaK
+CC       hydrolyzes its bound ATP, resulting in the formation of a stable
+CC       complex. GrpE releases ADP from DnaK; ATP binding to DnaK triggers the
+CC       release of the substrate protein, thus completing the reaction cycle.
+CC       Several rounds of ATP-dependent interactions between DnaJ, DnaK and
+CC       GrpE are required for fully efficient folding. {ECO:0000255|HAMAP-
+CC       Rule:MF_01151}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01151}.
+CC   -!- SIMILARITY: Belongs to the GrpE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28095.1; -; Genomic_DNA.
+DR   RefSeq; YP_096042.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZTY2; -.
+DR   SMR; Q5ZTY2; -.
+DR   STRING; 272624.lpg2026; -.
+DR   PaxDb; 272624-lpg2026; -.
+DR   KEGG; lpn:lpg2026; -.
+DR   PATRIC; fig|272624.6.peg.2122; -.
+DR   eggNOG; COG0576; Bacteria.
+DR   HOGENOM; CLU_057217_6_0_6; -.
+DR   OrthoDB; 9789811at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0000774; F:adenyl-nucleotide exchange factor activity; IEA:InterPro.
+DR   GO; GO:0042803; F:protein homodimerization activity; IEA:InterPro.
+DR   GO; GO:0051087; F:protein-folding chaperone binding; IEA:InterPro.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:TreeGrafter.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   CDD; cd00446; GrpE; 1.
+DR   FunFam; 2.30.22.10:FF:000001; Protein GrpE; 1.
+DR   Gene3D; 3.90.20.20; -; 1.
+DR   Gene3D; 2.30.22.10; Head domain of nucleotide exchange factor GrpE; 1.
+DR   HAMAP; MF_01151; GrpE; 1.
+DR   InterPro; IPR000740; GrpE.
+DR   InterPro; IPR013805; GrpE_coiled_coil.
+DR   InterPro; IPR009012; GrpE_head.
+DR   PANTHER; PTHR21237; GRPE PROTEIN; 1.
+DR   PANTHER; PTHR21237:SF23; GRPE PROTEIN HOMOLOG, MITOCHONDRIAL; 1.
+DR   Pfam; PF01025; GrpE; 1.
+DR   PRINTS; PR00773; GRPEPROTEIN.
+DR   SUPFAM; SSF58014; Coiled-coil domain of nucleotide exchange factor GrpE; 1.
+DR   SUPFAM; SSF51064; Head domain of nucleotide exchange factor GrpE; 1.
+DR   PROSITE; PS01071; GRPE; 1.
+PE   3: Inferred from homology;
+KW   Chaperone; Cytoplasm; Reference proteome; Stress response.
+FT   CHAIN           1..200
+FT                   /note="Protein GrpE"
+FT                   /id="PRO_1000053597"
+FT   REGION          1..52
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..25
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   200 AA;  22935 MW;  6518C28CCA118C45 CRC64;
+     MMSKQNKKDW KKFKDEHKEE HKVENEILEE ETDEESQHQE PALGHPSYTA LEEQLTLAEQ
+     KAHENWEKSV RALAELENVR RRMEREVANA HKYGVEKLIS ALLPVVDSLE QALQLADKNS
+     DPSMHEGLEL TMKLFLDALQ KFDVEQIDPL GQTFDPQQHE AMSMQPAPGA PPNSVITVFQ
+     KGYKLSDRVI RPARVIVSTK
+//

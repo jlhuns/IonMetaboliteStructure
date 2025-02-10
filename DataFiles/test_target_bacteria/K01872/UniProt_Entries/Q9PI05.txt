@@ -1,0 +1,154 @@
+ID   SYA_CAMJE               Reviewed;         842 AA.
+AC   Q9PI05; Q0PB09;
+DT   10-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Alanine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00036};
+DE            EC=6.1.1.7 {ECO:0000255|HAMAP-Rule:MF_00036};
+DE   AltName: Full=Alanyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00036};
+DE            Short=AlaRS {ECO:0000255|HAMAP-Rule:MF_00036};
+GN   Name=alaS {ECO:0000255|HAMAP-Rule:MF_00036}; OrderedLocusNames=Cj0506;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the attachment of alanine to tRNA(Ala) in a two-
+CC       step reaction: alanine is first activated by ATP to form Ala-AMP and
+CC       then transferred to the acceptor end of tRNA(Ala). Also edits
+CC       incorrectly charged Ser-tRNA(Ala) and Gly-tRNA(Ala) via its editing
+CC       domain. {ECO:0000255|HAMAP-Rule:MF_00036}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Ala) + L-alanine + ATP = L-alanyl-tRNA(Ala) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:12540, Rhea:RHEA-COMP:9657, Rhea:RHEA-
+CC         COMP:9923, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78497, ChEBI:CHEBI:456215; EC=6.1.1.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00036};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00036};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00036};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00036}.
+CC   -!- DOMAIN: Consists of three domains; the N-terminal catalytic domain, the
+CC       editing domain and the C-terminal C-Ala domain. The editing domain
+CC       removes incorrectly charged amino acids, while the C-Ala domain, along
+CC       with tRNA(Ala), serves as a bridge to cooperatively bring together the
+CC       editing and aminoacylation centers thus stimulating deacylation of
+CC       misacylated tRNAs. {ECO:0000255|HAMAP-Rule:MF_00036}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00036}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34653.1; -; Genomic_DNA.
+DR   PIR; C81396; C81396.
+DR   RefSeq; WP_002858583.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002343938.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PI05; -.
+DR   SMR; Q9PI05; -.
+DR   STRING; 192222.Cj0506; -.
+DR   PaxDb; 192222-Cj0506; -.
+DR   EnsemblBacteria; CAL34653; CAL34653; Cj0506.
+DR   GeneID; 904835; -.
+DR   KEGG; cje:Cj0506; -.
+DR   PATRIC; fig|192222.6.peg.499; -.
+DR   eggNOG; COG0013; Bacteria.
+DR   HOGENOM; CLU_004485_1_1_7; -.
+DR   OrthoDB; 9803884at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004813; F:alanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006419; P:alanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:TreeGrafter.
+DR   CDD; cd00673; AlaRS_core; 1.
+DR   FunFam; 3.10.310.40:FF:000001; Alanine--tRNA ligase; 1.
+DR   FunFam; 3.30.54.20:FF:000001; Alanine--tRNA ligase; 1.
+DR   FunFam; 3.30.930.10:FF:000004; Alanine--tRNA ligase; 1.
+DR   FunFam; 3.30.980.10:FF:000004; Alanine--tRNA ligase, cytoplasmic; 1.
+DR   Gene3D; 2.40.30.130; -; 1.
+DR   Gene3D; 3.10.310.40; -; 1.
+DR   Gene3D; 3.30.54.20; -; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.980.10; Threonyl-trna Synthetase, Chain A, domain 2; 1.
+DR   HAMAP; MF_00036_B; Ala_tRNA_synth_B; 1.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR002318; Ala-tRNA-lgiase_IIc.
+DR   InterPro; IPR018162; Ala-tRNA-ligase_IIc_anticod-bd.
+DR   InterPro; IPR018165; Ala-tRNA-synth_IIc_core.
+DR   InterPro; IPR018164; Ala-tRNA-synth_IIc_N.
+DR   InterPro; IPR050058; Ala-tRNA_ligase.
+DR   InterPro; IPR023033; Ala_tRNA_ligase_euk/bac.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   NCBIfam; TIGR00344; alaS; 1.
+DR   PANTHER; PTHR11777:SF9; ALANINE--TRNA LIGASE, CYTOPLASMIC; 1.
+DR   PANTHER; PTHR11777; ALANYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+DR   Pfam; PF01411; tRNA-synt_2c; 1.
+DR   Pfam; PF07973; tRNA_SAD; 1.
+DR   PRINTS; PR00980; TRNASYNTHALA.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF101353; Putative anticodon-binding domain of alanyl-tRNA synthetase (AlaRS); 1.
+DR   SUPFAM; SSF55186; ThrRS/AlaRS common domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+DR   PROSITE; PS50860; AA_TRNA_LIGASE_II_ALA; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding;
+KW   tRNA-binding; Zinc.
+FT   CHAIN           1..842
+FT                   /note="Alanine--tRNA ligase"
+FT                   /id="PRO_0000075083"
+FT   BINDING         549
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00036"
+FT   BINDING         553
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00036"
+FT   BINDING         650
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00036"
+FT   BINDING         654
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00036"
+SQ   SEQUENCE   842 AA;  94906 MW;  F571EA5A2B60A8B7 CRC64;
+     MDIRKAYLDF FASKGHEITP SSPLVPDDAT LLFTNAGMVP FKSIFTGEIP RPNPPRKTSC
+     QTCIRAGGKH NDLDNVGYTA RHHTFFEMLG NFSFGDYFKE QAIAYAWEFV TEVLKLPKDR
+     LYVTVHENDD EAFNLWQKHI QKERIYKFGD KDNFWQMGDT GPCGPCSEIF YDQGQEHFNS
+     SEDYMGGDGD RFLEIWNLVF MQYERSADGV LSPLPKPSID TGMGLERVTA IKEGKFSNFD
+     SSLFMPIINE ISKLCNKTYV YESGASFRVI ADHIRSSVFL LAQGVSFDKE GRGYVLRRIL
+     RRALRHGYLL GFKQAFMYKL VDVVCDLMGG HYTYLNEKKD FIKEQIRLEE ERFLSTIENG
+     IEIFNEELKN TKEIFSGEVA FKLYDTYGFP LDLTADMLRE KNLKVDEEKF ELFMNEQKAR
+     AKASWKGSGD KTASGDFKNL LEKFGENHFV GYEKAECESK ILALLDEDFK EVSTLKDAGW
+     VMLENTPFYA TSGGQSADSG FIAKREVLDT QKFFNLNLSF IKAGEELKVN DIVHARIDTE
+     KREQIARHHS ATHLLHHALR EILGSHVSQA GSLVESNKLR FDFTHHKALN KEELESIEKR
+     VNKMIINSSE AILENMPLEE AKKSGAIALF NEKYQGNVRV LTLGESKELC GGTHVKNTAQ
+     IGSFYIVKES GVSAGVRRIE AVVSKAALEF VKNQLEELSK VKDELKNNDI LSGIKKLKNE
+     ILSLKNELKN SSKTELDSKN IQGVEICVKR IDNGDIKAMI DDFKNKFAKA VILLIQVKDE
+     KITLAAGVKD VPLKAGALVK EAAQILGGNG GGRDDFATAG GKDLSKINEA LKQSLETIEK
+     AL
+//

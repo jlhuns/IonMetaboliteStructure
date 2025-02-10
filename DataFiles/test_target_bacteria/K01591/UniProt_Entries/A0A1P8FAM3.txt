@@ -1,0 +1,83 @@
+ID   A0A1P8FAM3_9CHLR        Unreviewed;       298 AA.
+AC   A0A1P8FAM3;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 27.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            EC=4.1.1.23 {ECO:0000256|HAMAP-Rule:MF_01215};
+DE   AltName: Full=OMP decarboxylase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            Short=OMPDCase {ECO:0000256|HAMAP-Rule:MF_01215};
+DE            Short=OMPdecase {ECO:0000256|HAMAP-Rule:MF_01215};
+GN   Name=pyrF {ECO:0000256|HAMAP-Rule:MF_01215,
+GN   ECO:0000313|EMBL:APV45509.1};
+GN   ORFNames=Dform_02207 {ECO:0000313|EMBL:APV45509.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV45509.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + H(+) = UMP + CO2;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049157, ECO:0000256|HAMAP-
+CC         Rule:MF_01215};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000256|ARBA:ARBA00004861,
+CC       ECO:0000256|HAMAP-Rule:MF_01215}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 2 subfamily.
+CC       {ECO:0000256|ARBA:ARBA00008847, ECO:0000256|HAMAP-Rule:MF_01215}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV45509.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A1P8FAM3; -.
+DR   STRING; 1839801.Dform_02207; -.
+DR   KEGG; dfo:Dform_02207; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04725; OMP_decarboxylase_like; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01215; OMPdecase_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR011995; OMPdecase_type-2.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   NCBIfam; TIGR02127; pyrF_sub2; 1.
+DR   PANTHER; PTHR43375; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43375:SF1; OROTIDINE 5'-PHOSPHATE DECARBOXYLASE; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_01215};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01215};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01215}; Reference proteome {ECO:0000313|Proteomes:UP000185934}.
+FT   DOMAIN          52..282
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /evidence="ECO:0000259|SMART:SM00934"
+FT   ACT_SITE        124
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01215"
+SQ   SEQUENCE   298 AA;  32127 MW;  4BC55B9609812B77 CRC64;
+     MPGLDATCRE ESTNKPKVLE HNILKPLIHT ASIVPMNFLT KIGGARRHNE SCLCVGLDPE
+     PARLPEGVGV EEFCRAIIGA TYDLVCAYKP NIAFFEALGP DGWRILKNII EATPRNIPVI
+     LDAKRGDIGN TAKAYARSAF DELGADAVTV NPYMGYDSLE PFIEYKDKGI FVLCRTSNPG
+     SADFQSLDCG GKPLYQVVAD KVESWNKNGN LGLVVGATQP DELKTIRESH PTLPLLIPGV
+     GSQGGSLELS VKNGITEEGL GIINVSRQVI YASSGLDYAA AARSAALKLR DEINRFLA
+//

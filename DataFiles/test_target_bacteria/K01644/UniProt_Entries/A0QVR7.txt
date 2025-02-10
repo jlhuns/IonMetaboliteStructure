@@ -1,0 +1,88 @@
+ID   A0QVR7_MYCS2            Unreviewed;       306 AA.
+AC   A0QVR7;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 119.
+DE   SubName: Full=HpcH/HpaI aldolase/citrate lyase family protein, putative {ECO:0000313|EMBL:ABK69611.1};
+GN   OrderedLocusNames=MSMEG_2667 {ECO:0000313|EMBL:ABK69611.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK69611.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK69611.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK69611.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728516.1; NZ_SIJM01000074.1.
+DR   RefSeq; YP_887005.1; NC_008596.1.
+DR   AlphaFoldDB; A0QVR7; -.
+DR   STRING; 246196.MSMEG_2667; -.
+DR   PaxDb; 246196-MSMEI_2604; -.
+DR   GeneID; 66734077; -.
+DR   KEGG; msb:LJ00_13280; -.
+DR   KEGG; msm:MSMEG_2667; -.
+DR   PATRIC; fig|246196.19.peg.2634; -.
+DR   eggNOG; COG2301; Bacteria.
+DR   OrthoDB; 4322898at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:TreeGrafter.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR005000; Aldolase/citrate-lyase_domain.
+DR   InterPro; IPR011206; Citrate_lyase_beta/mcl1/mcl2.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   PANTHER; PTHR32308:SF10; CITRATE LYASE SUBUNIT BETA; 1.
+DR   PANTHER; PTHR32308; LYASE BETA SUBUNIT, PUTATIVE (AFU_ORTHOLOGUE AFUA_4G13030)-RELATED; 1.
+DR   Pfam; PF03328; HpcH_HpaI; 1.
+DR   PIRSF; PIRSF015582; Cit_lyase_B; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   4: Predicted;
+KW   Lyase {ECO:0000313|EMBL:ABK69611.1};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR015582-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          25..195
+FT                   /note="HpcH/HpaI aldolase/citrate lyase"
+FT                   /evidence="ECO:0000259|Pfam:PF03328"
+FT   REGION          286..306
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        286..296
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         82
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         134
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+FT   BINDING         134
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-1"
+FT   BINDING         160
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR015582-2"
+SQ   SEQUENCE   306 AA;  33266 MW;  700479AE0AB5AE18 CRC64;
+     MYDQPIHDPD PSASPGFRID PVLARSWLLV NGAQYERFAP ASRSRADIVI LDIEDAVAPK
+     DKAAARDNVV RWLSEGNTDW VRVNGFGTPW WADDLDTLKG TSVGGIMLAM VESVDHVTET
+     ANRLPDVPIV ALVETARGLE RITEIAATKG TFRLAFGIGD FRRDTGFGEN PATLAYARSR
+     FTIAAKAAHL PSAIDGPTVG SSPLKLAEAT AVSAEFGMTG KICLTPDQCP TVNEGLSPSQ
+     DEISWAKEFF AEFQRDGGEI RNGSDLPRIA RANKILDLAR AYGIHEPEYS NDDPDHVPAP
+     SDTYHY
+//

@@ -1,0 +1,91 @@
+ID   A0A0H4VH63_9SPHN        Unreviewed;       408 AA.
+AC   A0A0H4VH63;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   14-OCT-2015, sequence version 1.
+DT   05-FEB-2025, entry version 37.
+DE   SubName: Full=Ornithine/diaminopimelate/arginine decarboxylase, family 2 {ECO:0000313|EMBL:AKQ42181.1};
+GN   ORFNames=CP97_09350 {ECO:0000313|EMBL:AKQ42181.1};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ42181.1, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ42181.1, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR600183-50};
+CC   -!- SIMILARITY: Belongs to the Orn/Lys/Arg decarboxylase class-II family.
+CC       {ECO:0000256|RuleBase:RU003737}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ42181.1; -; Genomic_DNA.
+DR   RefSeq; WP_048885707.1; NZ_CP011310.1.
+DR   AlphaFoldDB; A0A0H4VH63; -.
+DR   STRING; 1648404.CP97_09350; -.
+DR   KEGG; ery:CP97_09350; -.
+DR   PATRIC; fig|1648404.4.peg.1946; -.
+DR   OrthoDB; 9802241at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0008836; F:diaminopimelate decarboxylase activity; IEA:TreeGrafter.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:TreeGrafter.
+DR   CDD; cd06839; PLPDE_III_Btrk_like; 1.
+DR   Gene3D; 3.20.20.10; Alanine racemase; 1.
+DR   Gene3D; 2.40.37.10; Lyase, Ornithine Decarboxylase, Chain A, domain 1; 1.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR017530; DCO2ase_PEP1.
+DR   InterPro; IPR022643; De-COase2_C.
+DR   InterPro; IPR022657; De-COase2_CS.
+DR   InterPro; IPR022644; De-COase2_N.
+DR   InterPro; IPR000183; Orn/DAP/Arg_de-COase.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   NCBIfam; TIGR03099; dCO2ase_PEP1; 1.
+DR   PANTHER; PTHR43727; DIAMINOPIMELATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43727:SF2; GROUP IV DECARBOXYLASE; 1.
+DR   Pfam; PF02784; Orn_Arg_deC_N; 1.
+DR   Pfam; PF00278; Orn_DAP_Arg_deC; 1.
+DR   PRINTS; PR01179; ODADCRBXLASE.
+DR   SUPFAM; SSF50621; Alanine racemase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51419; PLP-binding barrel; 1.
+DR   PROSITE; PS00879; ODR_DC_2_2; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR600183-50};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          43..290
+FT                   /note="Orn/DAP/Arg decarboxylase 2 N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02784"
+FT   DOMAIN          291..386
+FT                   /note="Orn/DAP/Arg decarboxylase 2 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00278"
+FT   ACT_SITE        359
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600183-50"
+FT   MOD_RES         67
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600183-50"
+SQ   SEQUENCE   408 AA;  42979 MW;  259A54EA69CE3C68 CRC64;
+     MKPLGPIPDF YEAKGDELAI GGRSASALVT EAGSTPLFVY SRDAIATRMD ELRAAMPDRL
+     RIHYAMKANP YADLLEFIAD LVDGLDIASG GELQQAREAG FLPREISFAG PGKRDAELLA
+     AIRAGVTLNI ESEGEAERAL DTARTLGVTP RLAIRVNPSF ELRGSGMKMG GGAKPFGVDE
+     DRVPALARHL VDAGVNWRGF HIYSGSQALD STAIIEAQAN VIALAARLGK EAGVAVPHLN
+     MGGGFGIPYF DKDAPLDIAA IGEALKAQFA NLPGNLNDTE FAVELGRYLV GEAGVYLTRI
+     VDRKESHGIT FLVTDGGLHH QLAASGNFGT VVRRNYPVAI ASKFTEPPTE TVNVVGCLCT
+     PLDRLADLAQ LPAAEIGDLV AVFCAGAYGA SASPATFLGQ GPARELLV
+//

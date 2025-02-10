@@ -1,0 +1,122 @@
+ID   A9C0B5_DELAS            Unreviewed;       259 AA.
+AC   A9C0B5;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 98.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000256|HAMAP-Rule:MF_01057};
+GN   OrderedLocusNames=Daci_4050 {ECO:0000313|EMBL:ABX36681.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX36681.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX36681.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at position 46
+CC       (m7G46) in tRNA. {ECO:0000256|ARBA:ARBA00003015, ECO:0000256|HAMAP-
+CC       Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(46) in tRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(46) in tRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42708, Rhea:RHEA-COMP:10188, Rhea:RHEA-COMP:10189,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.33;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000142, ECO:0000256|HAMAP-
+CC         Rule:MF_01057};
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. TrmB family. {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36681.1; -; Genomic_DNA.
+DR   RefSeq; WP_012205875.1; NC_010002.1.
+DR   AlphaFoldDB; A9C0B5; -.
+DR   STRING; 398578.Daci_4050; -.
+DR   GeneID; 24119214; -.
+DR   KEGG; dac:Daci_4050; -.
+DR   eggNOG; COG0220; Bacteria.
+DR   HOGENOM; CLU_050910_0_1_4; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0043527; C:tRNA methyltransferase complex; IEA:TreeGrafter.
+DR   GO; GO:0008176; F:tRNA (guanine(46)-N7)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   NCBIfam; TIGR00091; tRNA (guanosine(46)-N7)-methyltransferase TrmB; 1.
+DR   PANTHER; PTHR23417; 3-DEOXY-D-MANNO-OCTULOSONIC-ACID TRANSFERASE/TRNA GUANINE-N 7 - -METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR23417:SF14; PENTACOTRIPEPTIDE-REPEAT REGION OF PRORP DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_01057}; Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_01057};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01057, ECO:0000313|EMBL:ABX36681.1};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01057}.
+FT   REGION          1..43
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          173..178
+FT                   /note="Interaction with RNA"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   COMPBIAS        1..10
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         92
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         117
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         144
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         167
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         171
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         203
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         238..241
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+SQ   SEQUENCE   259 AA;  28495 MW;  17C5D9A8AD5A4AEB CRC64;
+     MDGDTPNTMS AAPGAPHDSS SPSTPAAART GQPPEGVAHP KTIKSYVRRA GRTTTGQAKA
+     FEELGPRFVL NYQAAPLDAS ATYGRQAPLI LEIGFGMGEA TAHIARVRPD DNFLCCEVHE
+     PGVGALLKRI GEQDISNIRI LQHDAVEVID NMLPEASLDG IHIFFPDPWH KKKHNKRRLI
+     QEPLVAKLAR RLRPGGYIHC ATDWEPYAVQ MLEVLGAEPL LANTAEGYAA KPDYRPLTKF
+     ENRGIRLGHG VWDLVFERR
+//

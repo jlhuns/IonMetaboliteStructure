@@ -1,0 +1,79 @@
+ID   A0A8B8RAT9_CAMFR        Unreviewed;       570 AA.
+AC   A0A8B8RAT9;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 14.
+DE   RecName: Full=Xylulose kinase {ECO:0000256|ARBA:ARBA00019263, ECO:0000256|RuleBase:RU367058};
+DE            EC=2.7.1.17 {ECO:0000256|RuleBase:RU367058};
+GN   Name=XYLB {ECO:0000313|RefSeq:XP_032315087.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032315087.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032315087.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032315087.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Phosphorylates D-xylulose to produce D-xylulose 5-phosphate,
+CC       a molecule that may play an important role in the regulation of glucose
+CC       metabolism and lipogenesis. {ECO:0000256|ARBA:ARBA00003260,
+CC       ECO:0000256|RuleBase:RU367058}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-xylulose + ATP = D-xylulose 5-phosphate + ADP + H(+);
+CC         Xref=Rhea:RHEA:10964, ChEBI:CHEBI:15378, ChEBI:CHEBI:17140,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57737, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.17; Evidence={ECO:0000256|RuleBase:RU367058};
+CC   -!- SIMILARITY: Belongs to the FGGY kinase family.
+CC       {ECO:0000256|ARBA:ARBA00009156, ECO:0000256|RuleBase:RU367058}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032315087.1; XM_032459196.1.
+DR   KEGG; cfr:102517503; -.
+DR   Proteomes; UP000694856; Chromosome 17.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004856; F:D-xylulokinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042732; P:D-xylose metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005997; P:xylulose metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07776; FGGY_D-XK_euk; 1.
+DR   FunFam; 3.30.420.40:FF:000126; Xylulose kinase; 1.
+DR   Gene3D; 3.30.420.40; -; 2.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000577; Carb_kinase_FGGY.
+DR   InterPro; IPR042024; D-XK_euk.
+DR   InterPro; IPR018485; FGGY_C.
+DR   InterPro; IPR018484; FGGY_N.
+DR   PANTHER; PTHR10196; SUGAR KINASE; 1.
+DR   PANTHER; PTHR10196:SF57; XYLULOSE KINASE; 1.
+DR   Pfam; PF02782; FGGY_C; 1.
+DR   Pfam; PF00370; FGGY_N; 1.
+DR   PIRSF; PIRSF000538; GlpK; 2.
+DR   SUPFAM; SSF53067; Actin-like ATPase domain; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|RuleBase:RU367058};
+KW   Carbohydrate metabolism {ECO:0000256|RuleBase:RU367058};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|RuleBase:RU367058};
+KW   Nucleotide-binding {ECO:0000256|RuleBase:RU367058};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU367058};
+KW   Xylose metabolism {ECO:0000256|RuleBase:RU367058}.
+FT   DOMAIN          131..287
+FT                   /note="Carbohydrate kinase FGGY N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00370"
+FT   DOMAIN          296..479
+FT                   /note="Carbohydrate kinase FGGY C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02782"
+SQ   SEQUENCE   570 AA;  61839 MW;  8A6BFB65C42E4785 CRC64;
+     MAEPAARRCC LGWDFSTQQV KVVAVDAELN VFYEDSVHFD RDLLEFGTQG GVHVHEDGLT
+     VTSPVLMWVQ ALDIILEKMK ASGFDFSQVL ALSGAGQQHG SVYWKAGASR VLTSLLPDLL
+     LHEQLQACFS ITDCPVWMDS STTAQCRQLE AAVGGAQALS GLTGSRAYER FTGNQIAKIY
+     QQKPEAYSHT ERISLVSSFA ASLFLGSYSP IDHSDGSGMN LLRIQDKVWS QACLAACAPH
+     LEEKLGPAVP SCSVVGSISS YYVRRYGFSS GCKVVAFTGD NPASLAGMRL EEGDIAVSLG
+     TSDTLFLWLQ EPTPALEGHI FCSPVDPQHY MALLCFKNGS LMREKIRDES ASRSWGEFSK
+     ALQSTEMGNG GNLGFYFDVM EITPEIIGRH RFTAENREVS AFPGDVEIRA LIEGQFMAKK
+     IHAEGLGYRV MPKTKILATG GASHNRDILQ VLADVFGAPV YVIDTTNSAC VGSAYRAFHG
+     LAAGTGMPFS EVVKLAPNPR LAATPTLGAS QLLCENFGRF KSYAATNLAT IFSESGRCFK
+     SRKIISHALF PRVCTRSSMY QNVASISLCL
+//

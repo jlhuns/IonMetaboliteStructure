@@ -1,0 +1,105 @@
+ID   RECF_SALTI              Reviewed;         357 AA.
+AC   Q8Z2N4;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   27-NOV-2024, entry version 136.
+DE   RecName: Full=DNA replication and repair protein RecF;
+GN   Name=recF; OrderedLocusNames=STY3942, t3683;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: The RecF protein is involved in DNA metabolism; it is
+CC       required for DNA replication and normal SOS inducibility. RecF binds
+CC       preferentially to single-stranded, linear DNA. It also seems to bind
+CC       ATP (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the RecF family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03159.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71179.1; -; Genomic_DNA.
+DR   RefSeq; NP_458106.1; NC_003198.1.
+DR   RefSeq; WP_000059373.1; NZ_WSUR01000023.1.
+DR   AlphaFoldDB; Q8Z2N4; -.
+DR   SMR; Q8Z2N4; -.
+DR   STRING; 220341.gene:17587802; -.
+DR   KEGG; stt:t3683; -.
+DR   KEGG; sty:STY3942; -.
+DR   PATRIC; fig|220341.7.peg.4024; -.
+DR   eggNOG; COG1195; Bacteria.
+DR   HOGENOM; CLU_040267_0_0_6; -.
+DR   OMA; GESWSYA; -.
+DR   OrthoDB; 9803889at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000731; P:DNA synthesis involved in DNA repair; IEA:TreeGrafter.
+DR   GO; GO:0006302; P:double-strand break repair; IEA:TreeGrafter.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   FunFam; 1.20.1050.90:FF:000001; DNA replication and repair protein RecF; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.20.1050.90; RecF/RecN/SMC, N-terminal domain; 1.
+DR   HAMAP; MF_00365; RecF; 1.
+DR   InterPro; IPR001238; DNA-binding_RecF.
+DR   InterPro; IPR018078; DNA-binding_RecF_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003395; RecF/RecN/SMC_N.
+DR   InterPro; IPR042174; RecF_2.
+DR   NCBIfam; TIGR00611; recf; 1.
+DR   PANTHER; PTHR32182; DNA REPLICATION AND REPAIR PROTEIN RECF; 1.
+DR   PANTHER; PTHR32182:SF0; DNA REPLICATION AND REPAIR PROTEIN RECF; 1.
+DR   Pfam; PF02463; SMC_N; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00617; RECF_1; 1.
+DR   PROSITE; PS00618; RECF_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; Nucleotide-binding; SOS response.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..357
+FT                   /note="DNA replication and repair protein RecF"
+FT                   /id="PRO_0000196451"
+FT   BINDING         30..37
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   357 AA;  40470 MW;  F4ED280622BC19D6 CRC64;
+     MSLSRLLIKD FRNIENADLA LSPGFNFLVG ANGSGKTSVL EAIYTLGHGR AFRSLQPGRV
+     IRHEQEAFVL HGRLQGEERE TSIGLTKDKQ GDSKVRIDGT DGHKIAELAH LMPMQLITPE
+     GFTLLNGGPK YRRAFLDWGC FHNEAGFFTA WSNLKRLLKQ RNAALRQVSR YEQLRPWDKE
+     LIPLAEQIST WRAEYSSAIA QDMADTCQQF LPEFSLTFSF QRGWEKETDY ADVLERSFER
+     DRMLTYTAHG PHKADFRIRA DGAPVEDTLS RGQLKLLMCA LRLAQGEFLT RESGRRCLYL
+     IDDFASELDD ARRGLLASRL KATQSQVFVS AISAEHVIDM SDENSKMFTV EKGKITD
+//

@@ -1,0 +1,120 @@
+ID   NDK_DELAS               Reviewed;         141 AA.
+AC   A9BMV7;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Nucleoside diphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            Short=NDK {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            Short=NDP kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            EC=2.7.4.6 {ECO:0000255|HAMAP-Rule:MF_00451};
+DE   AltName: Full=Nucleoside-2-P kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+GN   Name=ndk {ECO:0000255|HAMAP-Rule:MF_00451};
+GN   OrderedLocusNames=Daci_5023;
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Major role in the synthesis of nucleoside triphosphates other
+CC       than ATP. The ATP gamma phosphate is transferred to the NDP beta
+CC       phosphate via a ping-pong mechanism, using a phosphorylated active-site
+CC       intermediate. {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + ATP = a 2'-
+CC         deoxyribonucleoside 5'-triphosphate + ADP; Xref=Rhea:RHEA:44640,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61560, ChEBI:CHEBI:73316,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + ATP = a ribonucleoside 5'-
+CC         triphosphate + ADP; Xref=Rhea:RHEA:18113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557, ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00451};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00451};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- SIMILARITY: Belongs to the NDK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00451}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37652.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206822.1; NC_010002.1.
+DR   AlphaFoldDB; A9BMV7; -.
+DR   SMR; A9BMV7; -.
+DR   STRING; 398578.Daci_5023; -.
+DR   GeneID; 24119353; -.
+DR   KEGG; dac:Daci_5023; -.
+DR   eggNOG; COG0105; Bacteria.
+DR   HOGENOM; CLU_060216_8_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004550; F:nucleoside diphosphate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006241; P:CTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006228; P:UTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04413; NDPk_I; 1.
+DR   FunFam; 3.30.70.141:FF:000001; Nucleoside diphosphate kinase; 1.
+DR   Gene3D; 3.30.70.141; Nucleoside diphosphate kinase-like domain; 1.
+DR   HAMAP; MF_00451; NDP_kinase; 1.
+DR   InterPro; IPR034907; NDK-like_dom.
+DR   InterPro; IPR036850; NDK-like_dom_sf.
+DR   InterPro; IPR001564; Nucleoside_diP_kinase.
+DR   PANTHER; PTHR46161; NUCLEOSIDE DIPHOSPHATE KINASE; 1.
+DR   PANTHER; PTHR46161:SF3; NUCLEOSIDE DIPHOSPHATE KINASE DDB_G0292928-RELATED; 1.
+DR   Pfam; PF00334; NDK; 1.
+DR   PRINTS; PR01243; NUCDPKINASE.
+DR   SMART; SM00562; NDK; 1.
+DR   SUPFAM; SSF54919; Nucleoside diphosphate kinase, NDK; 1.
+DR   PROSITE; PS51374; NDPK_LIKE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide metabolism; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..141
+FT                   /note="Nucleoside diphosphate kinase"
+FT                   /id="PRO_1000124953"
+FT   ACT_SITE        117
+FT                   /note="Pros-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         11
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         59
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         87
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         93
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         104
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         114
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+SQ   SEQUENCE   141 AA;  15348 MW;  B89156FC4516EC6A CRC64;
+     MAIERTLSII KPDAVAKNVI GQIYARFEGA GLKVIAAKMV HLSRGEAEQF YGVHKERPFF
+     KDLVDFMVSG PVMIQALEGE NAILKNRELM GATDPKKAEK GTIRADFADS IDANAVHGSD
+     AAETAAVEVA FFFPGMNVYS R
+//

@@ -1,0 +1,160 @@
+ID   DBPA_BACCR              Reviewed;         481 AA.
+AC   Q814I2;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 139.
+DE   RecName: Full=ATP-dependent RNA helicase DbpA {ECO:0000255|HAMAP-Rule:MF_00965};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_00965};
+GN   Name=dbpA {ECO:0000255|HAMAP-Rule:MF_00965}; Synonyms=cshD;
+GN   OrderedLocusNames=BC_5451;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+RN   [2]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=20709848; DOI=10.1128/aem.00782-10;
+RA   Pandiani F., Brillard J., Bornard I., Michaud C., Chamot S., Nguyen-the C.,
+RA   Broussolle V.;
+RT   "Differential involvement of the five RNA helicases in adaptation of
+RT   Bacillus cereus ATCC 14579 to low growth temperatures.";
+RL   Appl. Environ. Microbiol. 76:6692-6697(2010).
+RN   [3]
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=21705526; DOI=10.1128/aem.02974-10;
+RA   Pandiani F., Chamot S., Brillard J., Carlin F., Nguyen-the C.,
+RA   Broussolle V.;
+RT   "Role of the five RNA helicases in the adaptive response of Bacillus cereus
+RT   ATCC 14579 cells to temperature, pH, and oxidative stresses.";
+RL   Appl. Environ. Microbiol. 77:5604-5609(2011).
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in the assembly of the 50S
+CC       ribosomal subunit. Has an RNA-dependent ATPase activity, which is
+CC       specific for 23S rRNA, and a 3' to 5' RNA helicase activity that uses
+CC       the energy of ATP hydrolysis to destabilize and unwind short rRNA
+CC       duplexes. {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00965};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- INDUCTION: Induced at 10 degrees Celsius. {ECO:0000269|PubMed:20709848,
+CC       ECO:0000269|PubMed:21705526}.
+CC   -!- DOMAIN: Contains an N-terminal domain that binds non-specifically to
+CC       RNA and a C-terminal domain that binds specifically and tightly to
+CC       hairpin 92 of 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   -!- DISRUPTION PHENOTYPE: Wild-type growth rate at 10 and 30 degrees
+CC       Celsius, no change upon exposure to H(2)O(2) or diamide.
+CC       {ECO:0000269|PubMed:20709848, ECO:0000269|PubMed:21705526}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DbpA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00965}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12312.1; -; Genomic_DNA.
+DR   RefSeq; NP_835111.1; NC_004722.1.
+DR   RefSeq; WP_000039351.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q814I2; -.
+DR   SMR; Q814I2; -.
+DR   STRING; 226900.BC_5451; -.
+DR   KEGG; bce:BC5451; -.
+DR   PATRIC; fig|226900.8.peg.5632; -.
+DR   HOGENOM; CLU_003041_21_1_9; -.
+DR   OrthoDB; 9805696at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0034458; F:3'-5' RNA helicase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:RHEA.
+DR   GO; GO:0140849; F:ATP-dependent H2AZ histone chaperone activity; IEA:RHEA.
+DR   GO; GO:0140665; F:ATP-dependent H3-H4 histone complex chaperone activity; IEA:RHEA.
+DR   GO; GO:0140584; F:chromatin extrusion motor activity; IEA:RHEA.
+DR   GO; GO:0061775; F:cohesin loader activity; IEA:RHEA.
+DR   GO; GO:0003689; F:DNA clamp loader activity; IEA:RHEA.
+DR   GO; GO:0003724; F:RNA helicase activity; IBA:GO_Central.
+DR   GO; GO:0033592; F:RNA strand annealing activity; IBA:GO_Central.
+DR   GO; GO:0009409; P:response to cold; IBA:GO_Central.
+DR   GO; GO:0000027; P:ribosomal large subunit assembly; IEA:UniProtKB-UniRule.
+DR   CDD; cd00268; DEADc; 1.
+DR   CDD; cd12500; RRM_BsYxiN_like; 1.
+DR   CDD; cd18787; SF2_C_DEAD; 1.
+DR   FunFam; 3.30.70.330:FF:000068; ATP-dependent RNA helicase DeaD; 1.
+DR   Gene3D; 3.30.70.330; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   HAMAP; MF_00965; DEAD_helicase_DbpA; 1.
+DR   InterPro; IPR005580; DbpA/CsdA_RNA-bd_dom.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR050079; DEAD_box_RNA_helicase.
+DR   InterPro; IPR028619; DEAD_helicase_DbpA.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR012677; Nucleotide-bd_a/b_plait_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   PANTHER; PTHR47959:SF1; ATP-DEPENDENT RNA HELICASE DBPA; 1.
+DR   PANTHER; PTHR47959; ATP-DEPENDENT RNA HELICASE RHLE-RELATED; 1.
+DR   Pfam; PF03880; DbpA; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cytoplasm; Helicase; Hydrolase; Nucleotide-binding;
+KW   Reference proteome; Ribosome biogenesis; RNA-binding.
+FT   CHAIN           1..481
+FT                   /note="ATP-dependent RNA helicase DbpA"
+FT                   /id="PRO_0000430107"
+FT   DOMAIN          35..205
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+FT   DOMAIN          231..377
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+FT   REGION          406..481
+FT                   /note="Involved in 23S rRNA binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+FT   MOTIF           4..32
+FT                   /note="Q motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+FT   MOTIF           153..156
+FT                   /note="DEAD box"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+FT   BINDING         48..55
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00965"
+SQ   SEQUENCE   481 AA;  54174 MW;  BCAFAD3CE35CE7B9 CRC64;
+     MSKKSFSDYK LSKEIVRALT GLGYDHPTEV QGEVIPVALQ KKDLVVKSQT GSGKTASFGI
+     PLCEMVEWEE NKPQALVLTP TRELAVQVKE DITNIGRFKR IKAAAVYGKS PFARQKLELK
+     QKTHIVVGTP GRVLDHIEKG TLSLECLKYL VIDEADEMLN MGFIDQVEAI IDELPTKRMT
+     MLFSATLPED VEKLSRTYMN SPTHIEIKAA GITTDKIEHT LFEVIEDEKL SLLKDVTTIE
+     NPDSCIIFCR TQENVDHVYR QLKRANYPCD KIHGGMVQED RFEVMDDFRK GKFRYLVATD
+     VAARGIDIDN ITHVINYDIP LEKESYVHRT GRTGRAGNSG KAITFITPYE NRFLEEIEEY
+     IGFEIPKAIG PSKEEVMKEK AAFEEKLHAK PIIKKDKNAD INKGIMKLYF NGGKKKKIRA
+     VDFVGTIAKI KGVTAEDIGI ITIQDNVSYV EILNGKGPLV LKVMKTTTIK GKQLKVHEAI
+     K
+//

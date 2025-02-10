@@ -1,0 +1,112 @@
+ID   Q81GH0_BACCR            Unreviewed;       475 AA.
+AC   Q81GH0;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 114.
+DE   RecName: Full=Anthranilate synthase component 1 {ECO:0000256|ARBA:ARBA00020653, ECO:0000256|RuleBase:RU364045};
+DE            EC=4.1.3.27 {ECO:0000256|ARBA:ARBA00012266, ECO:0000256|RuleBase:RU364045};
+GN   Name=trpE {ECO:0000256|RuleBase:RU364045};
+GN   OrderedLocusNames=BC_1232 {ECO:0000313|EMBL:AAP08217.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08217.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08217.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Part of a heterotetrameric complex that catalyzes the two-
+CC       step biosynthesis of anthranilate, an intermediate in the biosynthesis
+CC       of L-tryptophan. In the first step, the glutamine-binding beta subunit
+CC       (TrpG) of anthranilate synthase (AS) provides the glutamine
+CC       amidotransferase activity which generates ammonia as a substrate that,
+CC       along with chorismate, is used in the second step, catalyzed by the
+CC       large alpha subunit of AS (TrpE) to produce anthranilate. In the
+CC       absence of TrpG, TrpE can synthesize anthranilate directly from
+CC       chorismate and high concentrations of ammonia.
+CC       {ECO:0000256|ARBA:ARBA00025634, ECO:0000256|RuleBase:RU364045}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chorismate + L-glutamine = anthranilate + pyruvate + L-
+CC         glutamate + H(+); Xref=Rhea:RHEA:21732, ChEBI:CHEBI:15361,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16567, ChEBI:CHEBI:29748,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=4.1.3.27;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047683,
+CC         ECO:0000256|RuleBase:RU364045};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946,
+CC         ECO:0000256|RuleBase:RU364045};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 1/5. {ECO:0000256|ARBA:ARBA00004873,
+CC       ECO:0000256|RuleBase:RU364045}.
+CC   -!- SUBUNIT: Heterotetramer consisting of two non-identical subunits: a
+CC       beta subunit (TrpG) and a large alpha subunit (TrpE).
+CC       {ECO:0000256|ARBA:ARBA00011575, ECO:0000256|RuleBase:RU364045}.
+CC   -!- SIMILARITY: Belongs to the anthranilate synthase component I family.
+CC       {ECO:0000256|ARBA:ARBA00009562, ECO:0000256|RuleBase:RU364045}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08217.1; -; Genomic_DNA.
+DR   RefSeq; NP_831016.1; NC_004722.1.
+DR   AlphaFoldDB; Q81GH0; -.
+DR   MetOSite; Q81GH0; -.
+DR   KEGG; bce:BC1232; -.
+DR   PATRIC; fig|226900.8.peg.1203; -.
+DR   HOGENOM; CLU_006493_9_3_9; -.
+DR   UniPathway; UPA00035; UER00040.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0004049; F:anthranilate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 3.60.120.10; Anthranilate synthase; 1.
+DR   InterPro; IPR005801; ADC_synthase.
+DR   InterPro; IPR019999; Anth_synth_I-like.
+DR   InterPro; IPR006805; Anth_synth_I_N.
+DR   InterPro; IPR005256; Anth_synth_I_PabB.
+DR   InterPro; IPR015890; Chorismate_C.
+DR   NCBIfam; TIGR00564; trpE_most; 1.
+DR   PANTHER; PTHR11236; AMINOBENZOATE/ANTHRANILATE SYNTHASE; 1.
+DR   PANTHER; PTHR11236:SF48; ISOCHORISMATE SYNTHASE MENF; 1.
+DR   Pfam; PF04715; Anth_synt_I_N; 1.
+DR   Pfam; PF00425; Chorismate_bind; 1.
+DR   PRINTS; PR00095; ANTSNTHASEI.
+DR   SUPFAM; SSF56322; ADC synthase; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU364045};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023141,
+KW   ECO:0000256|RuleBase:RU364045};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU364045};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU364045};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU364045};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Tryptophan biosynthesis {ECO:0000256|ARBA:ARBA00022822,
+KW   ECO:0000256|RuleBase:RU364045}.
+FT   DOMAIN          29..162
+FT                   /note="Anthranilate synthase component I N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF04715"
+FT   DOMAIN          213..466
+FT                   /note="Chorismate-utilising enzyme C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00425"
+SQ   SEQUENCE   475 AA;  54057 MW;  EF824C9CD3FF6119 CRC64;
+     MKDMMTKEEF IKQKRERKTF LVITEEEGDS ITPISLYRRM KGKQKFLLES SQLHQDKGRY
+     SYLGCNPYGE VKSVGTEVER TIYGRAEKLQ GNVLQVLEEV IAPSQVDSPF PFCGGAVGYI
+     GYDVIRQYEN IGADLHDPLN IPEVHLLLYR EFIVYDHLRQ KLSFVYVCRQ DDSADYEEVY
+     ERLRVYKEEV LQGEEAEVNT IQSPLSFTSS ITEKEFCEMV EMAKEYIRAG DIFQVVLSQR
+     LQSECIGDPF ALYRKLRIAN PSPYMFYIDF QDYVVLGSSP ESLLSVREDK VMTNPIAGTR
+     PRGKTKREDE EIAKELLGNE KERAEHMMLV DLGRNDIGRV SEIGSVTIDK YMKVEKYSHV
+     MHIVSEVYGT LQKQMGGFDA LAYCLPAGTV SGAPKIRAME IINELENEKR NVYAGAVGYV
+     SFSGNLDMAL AIRTMVVKDE KAYVQAGAGV VYDSDPVAEY EETLNKARAL LEVMK
+//

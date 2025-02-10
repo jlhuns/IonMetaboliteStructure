@@ -1,0 +1,133 @@
+ID   KAD_CAMC1               Reviewed;         189 AA.
+AC   A7ZEH4;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Adenylate kinase {ECO:0000255|HAMAP-Rule:MF_00235};
+DE            Short=AK {ECO:0000255|HAMAP-Rule:MF_00235};
+DE            EC=2.7.4.3 {ECO:0000255|HAMAP-Rule:MF_00235};
+DE   AltName: Full=ATP-AMP transphosphorylase {ECO:0000255|HAMAP-Rule:MF_00235};
+DE   AltName: Full=ATP:AMP phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00235};
+DE   AltName: Full=Adenylate monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_00235};
+GN   Name=adk {ECO:0000255|HAMAP-Rule:MF_00235};
+GN   OrderedLocusNames=Ccon26_13330; ORFNames=CCC13826_1980;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal phosphate
+CC       group between ATP and AMP. Plays an important role in cellular energy
+CC       homeostasis and in adenine nucleotide metabolism. {ECO:0000255|HAMAP-
+CC       Rule:MF_00235}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AMP + ATP = 2 ADP; Xref=Rhea:RHEA:12973, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216; EC=2.7.4.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00235};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via salvage pathway; AMP
+CC       from ADP: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00235}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00235}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00235}.
+CC   -!- DOMAIN: Consists of three domains, a large central CORE domain and two
+CC       small peripheral domains, NMPbind and LID, which undergo movements
+CC       during catalysis. The LID domain closes over the site of phosphoryl
+CC       transfer upon ATP binding. Assembling and dissambling the active center
+CC       during each catalytic cycle provides an effective means to prevent ATP
+CC       hydrolysis. {ECO:0000255|HAMAP-Rule:MF_00235}.
+CC   -!- SIMILARITY: Belongs to the adenylate kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00235}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98699.1; -; Genomic_DNA.
+DR   RefSeq; WP_012140087.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZEH4; -.
+DR   SMR; A7ZEH4; -.
+DR   STRING; 360104.CCC13826_1980; -.
+DR   KEGG; cco:CCC13826_1980; -.
+DR   eggNOG; COG0563; Bacteria.
+DR   HOGENOM; CLU_032354_4_1_7; -.
+DR   OrthoDB; 9805030at2; -.
+DR   UniPathway; UPA00588; UER00649.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004017; F:adenylate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044209; P:AMP salvage; IEA:UniProtKB-UniRule.
+DR   CDD; cd01428; ADK; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00235; Adenylate_kinase_Adk; 1.
+DR   InterPro; IPR000850; Adenylat/UMP-CMP_kin.
+DR   InterPro; IPR033690; Adenylat_kinase_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR23359; NUCLEOTIDE KINASE; 1.
+DR   Pfam; PF00406; ADK; 1.
+DR   PRINTS; PR00094; ADENYLTKNASE.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00113; ADENYLATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide biosynthesis;
+KW   Nucleotide-binding; Transferase.
+FT   CHAIN           1..189
+FT                   /note="Adenylate kinase"
+FT                   /id="PRO_1000071795"
+FT   REGION          33..62
+FT                   /note="NMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   REGION          129..135
+FT                   /note="LID"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         12..17
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         34
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         39
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         60..62
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         87..90
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         94
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         132
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         144
+FT                   /ligand="AMP"
+FT                   /ligand_id="ChEBI:CHEBI:456215"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+FT   BINDING         172
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00235"
+SQ   SEQUENCE   189 AA;  20659 MW;  31AC91F34F961E2F CRC64;
+     MKNLFLIIGA PGSGKTTDAS LIAQHDEKFA HFSTGDLLRA EVASGSELGK LIDGFISKGN
+     LVPLDVVVNA IVSAIKSSNK SNIIIDGYPR SVEQMTELDK VLSEQDEISL KGVIEVDVSE
+     DVARARVLGR ARGADDNNEV FNNRMKVYLD PIKPIRKFYS EKELLHVVNG ERGIDEIVAD
+     IKNLLAKLI
+//

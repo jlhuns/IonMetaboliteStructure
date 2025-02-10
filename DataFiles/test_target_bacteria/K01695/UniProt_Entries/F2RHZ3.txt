@@ -1,0 +1,95 @@
+ID   F2RHZ3_STRVP            Unreviewed;       277 AA.
+AC   F2RHZ3;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 80.
+DE   RecName: Full=Tryptophan synthase alpha chain {ECO:0000256|HAMAP-Rule:MF_00131};
+DE            EC=4.2.1.20 {ECO:0000256|HAMAP-Rule:MF_00131};
+GN   Name=trpA {ECO:0000256|HAMAP-Rule:MF_00131};
+GN   OrderedLocusNames=SVEN_1689 {ECO:0000313|EMBL:CCA54976.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA54976.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA54976.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- FUNCTION: The alpha subunit is responsible for the aldol cleavage of
+CC       indoleglycerol phosphate to indole and glyceraldehyde 3-phosphate.
+CC       {ECO:0000256|HAMAP-Rule:MF_00131}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + L-serine = D-
+CC         glyceraldehyde 3-phosphate + L-tryptophan + H2O;
+CC         Xref=Rhea:RHEA:10532, ChEBI:CHEBI:15377, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57912, ChEBI:CHEBI:58866, ChEBI:CHEBI:59776; EC=4.2.1.20;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049047, ECO:0000256|HAMAP-
+CC         Rule:MF_00131};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 5/5. {ECO:0000256|ARBA:ARBA00004733,
+CC       ECO:0000256|HAMAP-Rule:MF_00131}.
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta chains.
+CC       {ECO:0000256|ARBA:ARBA00011270, ECO:0000256|HAMAP-Rule:MF_00131}.
+CC   -!- SIMILARITY: Belongs to the TrpA family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00131, ECO:0000256|RuleBase:RU003662}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA54976.1; -; Genomic_DNA.
+DR   RefSeq; WP_015032894.1; NZ_JABVZO010000548.1.
+DR   AlphaFoldDB; F2RHZ3; -.
+DR   STRING; 953739.SVEN_1689; -.
+DR   GeneID; 69863863; -.
+DR   KEGG; sve:SVEN_1689; -.
+DR   PATRIC; fig|953739.5.peg.3797; -.
+DR   eggNOG; COG0159; Bacteria.
+DR   HOGENOM; CLU_016734_0_0_11; -.
+DR   OrthoDB; 9804578at2; -.
+DR   UniPathway; UPA00035; UER00044.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004834; F:tryptophan synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006568; P:tryptophan metabolic process; IEA:InterPro.
+DR   CDD; cd04724; Tryptophan_synthase_alpha; 1.
+DR   FunFam; 3.20.20.70:FF:000037; Tryptophan synthase alpha chain; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00131; Trp_synth_alpha; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   InterPro; IPR018204; Trp_synthase_alpha_AS.
+DR   InterPro; IPR002028; Trp_synthase_suA.
+DR   NCBIfam; TIGR00262; trpA; 1.
+DR   PANTHER; PTHR43406:SF1; TRYPTOPHAN SYNTHASE ALPHA CHAIN, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR43406; TRYPTOPHAN SYNTHASE, ALPHA CHAIN; 1.
+DR   Pfam; PF00290; Trp_syntA; 1.
+DR   SUPFAM; SSF51366; Ribulose-phoshate binding barrel; 1.
+DR   PROSITE; PS00167; TRP_SYNTHASE_ALPHA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00131};
+KW   Aromatic amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023141,
+KW   ECO:0000256|HAMAP-Rule:MF_00131};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00131};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Tryptophan biosynthesis {ECO:0000256|ARBA:ARBA00022822, ECO:0000256|HAMAP-
+KW   Rule:MF_00131}.
+FT   ACT_SITE        54
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00131"
+FT   ACT_SITE        65
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00131"
+SQ   SEQUENCE   277 AA;  28500 MW;  14C2AF5BE4500505 CRC64;
+     MTTGNIQLLS DTLAKAKAEN RAALIAYLPA GFPTVDGGIA AIKAAFDGGA DVVEVGLPHS
+     DPVLDGPVIQ TADDIALRGG VKIADVMRTV REAHEATGKP VLVMTYWNPI DRYGIERFTE
+     ELAAAGGAGC ILPDLPVQES AVWRENADKH GLATVFVVAP SSKDERLATI TAAGSGFVYA
+     ASLMGVTGTR ESVGEQAADL VRRARAAAAP GRELPVCVGL GVSNATQAKE VAAFADGVIV
+     GSAFVKRILD ADGDENAGLA AVKELAAELA EGVRRVS
+//

@@ -1,0 +1,127 @@
+ID   GLGB_BACCR              Reviewed;         645 AA.
+AC   Q816G6;
+DT   15-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 131.
+DE   RecName: Full=1,4-alpha-glucan branching enzyme GlgB {ECO:0000255|HAMAP-Rule:MF_00685};
+DE            EC=2.4.1.18 {ECO:0000255|HAMAP-Rule:MF_00685};
+DE   AltName: Full=1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase {ECO:0000255|HAMAP-Rule:MF_00685};
+DE   AltName: Full=Alpha-(1->4)-glucan branching enzyme {ECO:0000255|HAMAP-Rule:MF_00685};
+DE   AltName: Full=Glycogen branching enzyme {ECO:0000255|HAMAP-Rule:MF_00685};
+DE            Short=BE {ECO:0000255|HAMAP-Rule:MF_00685};
+GN   Name=glgB {ECO:0000255|HAMAP-Rule:MF_00685};
+GN   OrderedLocusNames=BC_4867;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the formation of the alpha-1,6-glucosidic linkages
+CC       in glycogen by scission of a 1,4-alpha-linked oligosaccharide from
+CC       growing alpha-1,4-glucan chains and the subsequent attachment of the
+CC       oligosaccharide to the alpha-1,6 position. {ECO:0000255|HAMAP-
+CC       Rule:MF_00685}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Transfers a segment of a (1->4)-alpha-D-glucan chain to a
+CC         primary hydroxy group in a similar glucan chain.; EC=2.4.1.18;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00685};
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00685}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00685}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. GlgB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00685}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11766.1; -; Genomic_DNA.
+DR   RefSeq; NP_834565.1; NC_004722.1.
+DR   RefSeq; WP_001100880.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q816G6; -.
+DR   SMR; Q816G6; -.
+DR   STRING; 226900.BC_4867; -.
+DR   CAZy; CBM48; Carbohydrate-Binding Module Family 48.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   KEGG; bce:BC4867; -.
+DR   PATRIC; fig|226900.8.peg.5040; -.
+DR   HOGENOM; CLU_004245_3_2_9; -.
+DR   OrthoDB; 9800174at2; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0003844; F:1,4-alpha-glucan branching enzyme activity; IBA:GO_Central.
+DR   GO; GO:0043169; F:cation binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IBA:GO_Central.
+DR   CDD; cd11322; AmyAc_Glg_BE; 1.
+DR   CDD; cd02855; E_set_GBE_prok_N; 1.
+DR   FunFam; 2.60.40.10:FF:000169; 1,4-alpha-glucan branching enzyme GlgB; 1.
+DR   FunFam; 2.60.40.1180:FF:000002; 1,4-alpha-glucan branching enzyme GlgB; 1.
+DR   FunFam; 3.20.20.80:FF:000003; 1,4-alpha-glucan branching enzyme GlgB; 1.
+DR   Gene3D; 3.20.20.80; Glycosidases; 1.
+DR   Gene3D; 2.60.40.1180; Golgi alpha-mannosidase II; 1.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   HAMAP; MF_00685; GlgB; 1.
+DR   InterPro; IPR006048; A-amylase/branching_C.
+DR   InterPro; IPR037439; Branching_enzy.
+DR   InterPro; IPR006407; GlgB.
+DR   InterPro; IPR044143; GlgB_N_E_set_prok.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR004193; Glyco_hydro_13_N.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   NCBIfam; TIGR01515; branching_enzym; 1.
+DR   PANTHER; PTHR43651; 1,4-ALPHA-GLUCAN-BRANCHING ENZYME; 1.
+DR   PANTHER; PTHR43651:SF3; 1,4-ALPHA-GLUCAN-BRANCHING ENZYME; 1.
+DR   Pfam; PF00128; Alpha-amylase; 2.
+DR   Pfam; PF02806; Alpha-amylase_C; 1.
+DR   Pfam; PF02922; CBM_48; 1.
+DR   PIRSF; PIRSF000463; GlgB; 1.
+DR   SMART; SM00642; Aamy; 1.
+DR   SUPFAM; SSF51445; (Trans)glycosidases; 1.
+DR   SUPFAM; SSF51011; Glycosyl hydrolase domain; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Glycogen biosynthesis; Glycogen metabolism;
+KW   Glycosyltransferase; Reference proteome; Transferase.
+FT   CHAIN           1..645
+FT                   /note="1,4-alpha-glucan branching enzyme GlgB"
+FT                   /id="PRO_0000188678"
+FT   REGION          619..645
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        636..645
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        309
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00685"
+FT   ACT_SITE        352
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00685"
+SQ   SEQUENCE   645 AA;  75891 MW;  A515CEA1A39F62E6 CRC64;
+     MNVINCEEVK RDEFHTEKYY ESYNIFGAHV VTEDEIQGVR FTVWAPHAKA MSVVGDFNEW
+     DYEQHKMLQV TEEGIWSLFI PHIEEGEIYK YAIETLAGDV ILKADPYAVY AEVRPNTASV
+     VFDIKGYEWN DKNWNRKKKK KSIYKEAMTV YELHFGSWKK KEDGTLYSYR EMVEELIPYV
+     VEHQFTHIEI MPLVEHPYDR SWGYQGTGYY AATSRFGTPH DLMHFVDECH KYGIGVILDW
+     VPGHFCKDAH GLYLFDGTPT YEYKDKDVQE NPVWGTVNFD LGKREVRNFL ISNALFWMRY
+     FHIDGFRVDA VANMLYWNKE GQEQSNEHAV SFLRELNEAV FAEDEDFLMT AEDSTAWPLV
+     TTPTYEGGLG FNYKWNMGWM NDVLKYMECA PEYRKHIHEK MTFSLLYAYS ENFILPLSHD
+     EVVHGKKSLL NKMPGDYWDK FAQLRLLYGY FFTHPGKKLL FMGGEFGQFD EWKDLEDLDW
+     NLHDFEMHRY MHDYFKELIA LYKRSKPLWQ LDHSPEGFQW IDANNNEQSI FSFIRQGDKQ
+     EDALVIVCNF TKATYENYKV GVPDFEYYNE ILNSDAQQYG GSGQVNKKRL KTILEPYHNQ
+     AAHVEITIPP FGVSILRPVK TRKGSKKQDG SKTKVRSNVT SRGKR
+//

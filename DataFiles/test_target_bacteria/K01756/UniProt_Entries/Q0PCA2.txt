@@ -1,0 +1,119 @@
+ID   Q0PCA2_CAMJE            Unreviewed;       442 AA.
+AC   Q0PCA2;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=Adenylosuccinate lyase {ECO:0000256|ARBA:ARBA00017058, ECO:0000256|NCBIfam:TIGR00928};
+DE            Short=ASL {ECO:0000256|RuleBase:RU361172};
+DE            EC=4.3.2.2 {ECO:0000256|ARBA:ARBA00012339, ECO:0000256|NCBIfam:TIGR00928};
+DE   AltName: Full=Adenylosuccinase {ECO:0000256|RuleBase:RU361172};
+GN   Name=purB {ECO:0000313|EMBL:CAL34204.1};
+GN   OrderedLocusNames=Cj0023 {ECO:0000313|EMBL:CAL34204.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34204.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34204.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-2-[5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+CC         carboxamido]succinate = 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide + fumarate; Xref=Rhea:RHEA:23920,
+CC         ChEBI:CHEBI:29806, ChEBI:CHEBI:58443, ChEBI:CHEBI:58475; EC=4.3.2.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024477};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23921;
+CC         Evidence={ECO:0000256|ARBA:ARBA00024477};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-(1,2-dicarboxyethyl)-AMP = fumarate + AMP;
+CC         Xref=Rhea:RHEA:16853, ChEBI:CHEBI:29806, ChEBI:CHEBI:57567,
+CC         ChEBI:CHEBI:456215; EC=4.3.2.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049115};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16854;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049115};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via de novo pathway; AMP
+CC       from IMP: step 2/2. {ECO:0000256|ARBA:ARBA00004734,
+CC       ECO:0000256|RuleBase:RU361172}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole-4-carboxylate: step 2/2.
+CC       {ECO:0000256|ARBA:ARBA00004706, ECO:0000256|RuleBase:RU361172}.
+CC   -!- SIMILARITY: Belongs to the lyase 1 family. Adenylosuccinate lyase
+CC       subfamily. {ECO:0000256|ARBA:ARBA00008273,
+CC       ECO:0000256|RuleBase:RU361172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34204.1; -; Genomic_DNA.
+DR   PIR; B81418; B81418.
+DR   RefSeq; WP_002865088.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002343495.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PCA2; -.
+DR   IntAct; Q0PCA2; 49.
+DR   STRING; 192222.Cj0023; -.
+DR   PaxDb; 192222-Cj0023; -.
+DR   EnsemblBacteria; CAL34204; CAL34204; Cj0023.
+DR   GeneID; 904425; -.
+DR   KEGG; cje:Cj0023; -.
+DR   PATRIC; fig|192222.6.peg.23; -.
+DR   eggNOG; COG0015; Bacteria.
+DR   HOGENOM; CLU_030949_0_1_7; -.
+DR   OrthoDB; 9768878at2; -.
+DR   UniPathway; UPA00074; UER00132.
+DR   UniPathway; UPA00075; UER00336.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0070626; F:(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido) succinate lyase (fumarate-forming) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004018; F:N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044208; P:'de novo' AMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01360; Adenylsuccinate_lyase_1; 1.
+DR   FunFam; 1.10.40.30:FF:000007; Adenylosuccinate lyase; 1.
+DR   FunFam; 1.20.200.10:FF:000008; Adenylosuccinate lyase; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   Gene3D; 1.10.275.10; Fumarase/aspartase (N-terminal domain); 1.
+DR   InterPro; IPR019468; AdenyloSucc_lyase_C.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   InterPro; IPR004769; Pur_lyase.
+DR   NCBIfam; TIGR00928; purB; 1.
+DR   PANTHER; PTHR43172; ADENYLOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR43172:SF1; ADENYLOSUCCINATE LYASE; 1.
+DR   Pfam; PF10397; ADSL_C; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00145; ARGSUCLYASE.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SMART; SM00998; ADSL_C; 1.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU361172};
+KW   Purine biosynthesis {ECO:0000256|RuleBase:RU361172};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          349..441
+FT                   /note="Adenylosuccinate lyase C-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00998"
+SQ   SEQUENCE   442 AA;  50201 MW;  BB6FDFEBE163D70F CRC64;
+     MVERYSREIM AKKWDMQAKY DAWLKVELAA VKAWNKLGLI DDTDCEKILK NAKFDIARID
+     EIEKTTKHDV IAFLTSVSES LGEESRFVHY AMTSSDCIDT AVALQIKESL ELILEDVSLL
+     LEAIKKRALE HKNTLMVGRS HGIHGEPITF GLVLAIWYDE ISHAKELLEH AKEVISYGKI
+     SGAMGNFAHA PLEFEEEVCK NLGLKAAPVS NQVIQRDRYA QVISAIAILA SSCEQIAVAI
+     RHFQRTEVYE AEEYFSVGQK GSSAMPHKRN PVLSENITGL CRVLRSFVTP ALENVALWHE
+     RDISHSSVER FILPDAFITA DFMLMRLTNL IDKLLVYPEN MMKNLNLTGG LVFSGRVLLE
+     LPFKGISREE AYKIVQRNAM KVWADLQNGK AAINEKNESL FLLALLSDED LRKSLSEEDV
+     RKCFDYNYYT KNVDAIFKRT FK
+//

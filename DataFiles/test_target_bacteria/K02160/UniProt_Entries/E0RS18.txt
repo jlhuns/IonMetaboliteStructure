@@ -1,0 +1,78 @@
+ID   E0RS18_SPITD            Unreviewed;       158 AA.
+AC   E0RS18;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 52.
+DE   RecName: Full=Biotin carboxyl carrier protein of acetyl-CoA carboxylase {ECO:0000256|ARBA:ARBA00017562, ECO:0000256|RuleBase:RU364072};
+GN   OrderedLocusNames=STHERM_c08560 {ECO:0000313|EMBL:ADN01805.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN01805.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN01805.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: This protein is a component of the acetyl coenzyme A
+CC       carboxylase complex; first, biotin carboxylase catalyzes the
+CC       carboxylation of the carrier protein and then the transcarboxylase
+CC       transfers the carboxyl group to form malonyl-CoA.
+CC       {ECO:0000256|RuleBase:RU364072}.
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC       {ECO:0000256|RuleBase:RU364072}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN01805.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313646.1; NC_014484.1.
+DR   AlphaFoldDB; E0RS18; -.
+DR   PaxDb; 665571-STHERM_c08560; -.
+DR   KEGG; sta:STHERM_c08560; -.
+DR   eggNOG; COG0511; Bacteria.
+DR   HOGENOM; CLU_016733_3_1_12; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0009317; C:acetyl-CoA carboxylase complex; IEA:InterPro.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd06850; biotinyl_domain; 1.
+DR   Gene3D; 2.40.50.100; -; 1.
+DR   InterPro; IPR001249; AcCoA_biotinCC.
+DR   InterPro; IPR050709; Biotin_Carboxyl_Carrier/Decarb.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   NCBIfam; TIGR00531; BCCP; 1.
+DR   PANTHER; PTHR45266; OXALOACETATE DECARBOXYLASE ALPHA CHAIN; 1.
+DR   PANTHER; PTHR45266:SF3; OXALOACETATE DECARBOXYLASE ALPHA CHAIN; 1.
+DR   Pfam; PF00364; Biotin_lipoyl; 1.
+DR   PRINTS; PR01071; ACOABIOTINCC.
+DR   SUPFAM; SSF51230; Single hybrid motif; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+PE   4: Predicted;
+KW   Biotin {ECO:0000256|ARBA:ARBA00023267, ECO:0000256|RuleBase:RU364072};
+KW   Fatty acid biosynthesis {ECO:0000256|RuleBase:RU364072};
+KW   Fatty acid metabolism {ECO:0000256|RuleBase:RU364072};
+KW   Lipid biosynthesis {ECO:0000256|RuleBase:RU364072};
+KW   Lipid metabolism {ECO:0000256|RuleBase:RU364072}.
+FT   DOMAIN          80..156
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50968"
+SQ   SEQUENCE   158 AA;  17210 MW;  095E2CE1834D21BE CRC64;
+     MNLEEIFALM DRFEKSGLDV LKIEQEDFTI VLKKHPAVPA SQPVMIAPHP ATPQAAPVAA
+     PTTQEGAEGI SAAAPGAPDL EVITSPIVGT FYRAPSPDAP PFVEEGQRVE RGQTLCIIEA
+     MKIMNELEAE FPMEIVRVLA ENGQMVEYGT PLFEVRRL
+//

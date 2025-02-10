@@ -1,0 +1,106 @@
+ID   Q62U84_BACLD            Unreviewed;       266 AA.
+AC   Q62U84;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=Pyrroline-5-carboxylate reductase {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE            Short=P5C reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            Short=P5CR {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            EC=1.5.1.2 {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE   AltName: Full=PCA reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+GN   Name=proH {ECO:0000313|EMBL:AAU23675.1};
+GN   Synonyms=proC {ECO:0000256|HAMAP-Rule:MF_01925};
+GN   OrderedLocusNames=BL01982 {ECO:0000313|EMBL:AAU23675.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23675.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23675.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the reduction of 1-pyrroline-5-carboxylate (PCA) to
+CC       L-proline. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NAD(+) = (S)-1-pyrroline-5-carboxylate + NADH + 2
+CC         H(+); Xref=Rhea:RHEA:14105, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NADP(+) = (S)-1-pyrroline-5-carboxylate + NADPH +
+CC         2 H(+); Xref=Rhea:RHEA:14109, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-proline
+CC       from L-glutamate 5-semialdehyde: step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_01925}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- SIMILARITY: Belongs to the pyrroline-5-carboxylate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00005525, ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23675.1; -; Genomic_DNA.
+DR   AlphaFoldDB; Q62U84; -.
+DR   STRING; 279010.BL01982; -.
+DR   KEGG; bli:BL01982; -.
+DR   PATRIC; fig|279010.13.peg.2158; -.
+DR   eggNOG; COG0345; Bacteria.
+DR   HOGENOM; CLU_042344_3_1_9; -.
+DR   UniPathway; UPA00098; UER00361.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004735; F:pyrroline-5-carboxylate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 1.10.3730.10:FF:000001; Pyrroline-5-carboxylate reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 1.10.3730.10; ProC C-terminal domain-like; 1.
+DR   HAMAP; MF_01925; P5C_reductase; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR028939; P5C_Rdtase_cat_N.
+DR   InterPro; IPR029036; P5CR_dimer.
+DR   InterPro; IPR000304; Pyrroline-COOH_reductase.
+DR   NCBIfam; TIGR00112; proC; 1.
+DR   PANTHER; PTHR11645; PYRROLINE-5-CARBOXYLATE REDUCTASE; 1.
+DR   PANTHER; PTHR11645:SF49; PYRROLINE-5-CARBOXYLATE REDUCTASE 1; 1.
+DR   Pfam; PF03807; F420_oxidored; 1.
+DR   Pfam; PF14748; P5CR_dimer; 1.
+DR   PIRSF; PIRSF000193; Pyrrol-5-carb_rd; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|PIRSR:PIRSR000193-1};
+KW   Oxidoreductase {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Proline biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          1..88
+FT                   /note="Pyrroline-5-carboxylate reductase catalytic N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF03807"
+FT   DOMAIN          151..254
+FT                   /note="Pyrroline-5-carboxylate reductase dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF14748"
+FT   BINDING         59..62
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000193-1"
+SQ   SEQUENCE   266 AA;  28585 MW;  3C4A322664845457 CRC64;
+     MAEGMISGIV QSKKLPASQI YVTNHTNHRR LEELQQKYGI QGVKKEQLDY QNIDCFILAM
+     KPKDAEGALN SMKPHIKPHQ LIVSVLAGIS ISFIENTLHD MQPVIRIMPN TSSAIGASAT
+     AMAEGSHVTA DLSKTAKQLL QCMGEVYSIE ESKMDIFTGI AGSGPAYFYY LMEHIEKAGA
+     EAGLSQKLTR EIGAQTLLGA AKMLLESPED TAVLKDNITS PNGTTAAGLK ALEESGGGEA
+     IEQAVKQAAK RSKTISLELE QLVAAK
+//

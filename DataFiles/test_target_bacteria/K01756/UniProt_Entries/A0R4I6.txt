@@ -1,0 +1,113 @@
+ID   A0R4I6_MYCS2            Unreviewed;       474 AA.
+AC   A0R4I6;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Adenylosuccinate lyase {ECO:0000256|NCBIfam:TIGR00928, ECO:0000256|RuleBase:RU361172};
+DE            Short=ASL {ECO:0000256|RuleBase:RU361172};
+DE            EC=4.3.2.2 {ECO:0000256|NCBIfam:TIGR00928, ECO:0000256|RuleBase:RU361172};
+DE   AltName: Full=Adenylosuccinase {ECO:0000256|RuleBase:RU361172};
+GN   Name=purB {ECO:0000313|EMBL:ABK73202.1};
+GN   OrderedLocusNames=MSMEG_5847 {ECO:0000313|EMBL:ABK73202.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK73202.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK73202.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0007829|PDB:4NLE}
+RP   X-RAY CRYSTALLOGRAPHY (2.16 ANGSTROMS).
+RX   PubMed=24479855; DOI=10.1111/febs.12730;
+RA   Banerjee S., Agrawal M.J., Mishra D., Sharan S., Balaram H., Savithri H.S.,
+RA   Murthy M.R.;
+RT   "Structural and kinetic studies on adenylosuccinate lyase from
+RT   Mycobacteriumsmegmatis and Mycobacteriumtuberculosis provide new insights
+RT   on the catalytic residues of the enzyme.";
+RL   FEBS J. 281:1642-1658(2014).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-2-[5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-
+CC         carboxamido]succinate = 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide + fumarate; Xref=Rhea:RHEA:23920,
+CC         ChEBI:CHEBI:29806, ChEBI:CHEBI:58443, ChEBI:CHEBI:58475; EC=4.3.2.2;
+CC         Evidence={ECO:0000256|RuleBase:RU361172};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-(1,2-dicarboxyethyl)-AMP = fumarate + AMP;
+CC         Xref=Rhea:RHEA:16853, ChEBI:CHEBI:29806, ChEBI:CHEBI:57567,
+CC         ChEBI:CHEBI:456215; EC=4.3.2.2;
+CC         Evidence={ECO:0000256|RuleBase:RU361172};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via de novo pathway; AMP
+CC       from IMP: step 2/2. {ECO:0000256|RuleBase:RU361172}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole-4-carboxylate: step 2/2.
+CC       {ECO:0000256|RuleBase:RU361172}.
+CC   -!- SIMILARITY: Belongs to the lyase 1 family. Adenylosuccinate lyase
+CC       subfamily. {ECO:0000256|RuleBase:RU361172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK73202.1; -; Genomic_DNA.
+DR   RefSeq; YP_890074.1; NC_008596.1.
+DR   PDB; 4NLE; X-ray; 2.16 A; A/B=1-474.
+DR   PDBsum; 4NLE; -.
+DR   AlphaFoldDB; A0R4I6; -.
+DR   SMR; A0R4I6; -.
+DR   MINT; A0R4I6; -.
+DR   STRING; 246196.MSMEG_5847; -.
+DR   PaxDb; 246196-MSMEI_5689; -.
+DR   KEGG; msm:MSMEG_5847; -.
+DR   PATRIC; fig|246196.19.peg.5690; -.
+DR   eggNOG; COG0015; Bacteria.
+DR   OrthoDB; 9768878at2; -.
+DR   BRENDA; 4.3.2.2; 3512.
+DR   UniPathway; UPA00074; UER00132.
+DR   UniPathway; UPA00075; UER00336.
+DR   EvolutionaryTrace; A0R4I6; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0070626; F:(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido) succinate lyase (fumarate-forming) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004018; F:N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044208; P:'de novo' AMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.275.60; -; 1.
+DR   Gene3D; 1.10.40.30; Fumarase/aspartase (C-terminal domain); 1.
+DR   Gene3D; 1.20.200.10; Fumarase/aspartase (Central domain); 1.
+DR   InterPro; IPR019468; AdenyloSucc_lyase_C.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   InterPro; IPR004769; Pur_lyase.
+DR   NCBIfam; TIGR00928; purB; 1.
+DR   PANTHER; PTHR43172; ADENYLOSUCCINATE LYASE; 1.
+DR   PANTHER; PTHR43172:SF1; ADENYLOSUCCINATE LYASE; 1.
+DR   Pfam; PF10397; ADSL_C; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SMART; SM00998; ADSL_C; 1.
+DR   SUPFAM; SSF48557; L-aspartase-like; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0007829|PDB:4NLE};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU361172};
+KW   Purine biosynthesis {ECO:0000256|RuleBase:RU361172};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          367..452
+FT                   /note="Adenylosuccinate lyase C-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00998"
+SQ   SEQUENCE   474 AA;  51605 MW;  BBB24E11942F9807 CRC64;
+     MFVTIPNVLA NRYASDEMVA IWSPEAKIIA ERRLWLAVLR AQAELGVAVP DGVVEDYERV
+     LENVDLESIA ARERVTRHDV KARIEEFNAL AGHEHVHKGM TSRDLTENVE QLQIRQSLEL
+     VFSHGVAVVA RLAERAVVYR DLVMAGRSHN VAAQATTLGK RFASAAEETL VALTRLRELI
+     DRYPLRGVKG PMGTAQDMLD LFGGDVGKLA DLERRVAEFL GFTEVFTSVG QVYPRSLDHD
+     VLSALVQFGA GPSSMAHTIR LMAGHELVTE GFAPGQVGSS AMPHKMNTRS CERVNGLQVV
+     LRGYASMAAE LAGAQWNEGD VFCSVVRRVA LPDAFFAIDG QTETFLTVLD EFGAYPAVIQ
+     RELDRYLPFL ATTRILMAAV RAGVGREAAH EVIKEHAVAV ALAMREQGRE PDLIDRLAGD
+     PRLPLDKVAL EAALEDKQAF TGAAGDQVDG VVAAVGELVS RYPEAAKYTS GAIL
+//

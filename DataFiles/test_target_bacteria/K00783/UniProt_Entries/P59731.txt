@@ -1,0 +1,95 @@
+ID   RLMH_BACCR              Reviewed;         159 AA.
+AC   P59731;
+DT   20-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   20-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_00658};
+DE            EC=2.1.1.177 {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA (pseudouridine1915-N3)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=23S rRNA m3Psi1915 methyltransferase {ECO:0000255|HAMAP-Rule:MF_00658};
+DE   AltName: Full=rRNA (pseudouridine-N3-)-methyltransferase RlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   Name=rlmH {ECO:0000255|HAMAP-Rule:MF_00658};
+GN   OrderedLocusNames=BC_5456;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Specifically methylates the pseudouridine at position 1915
+CC       (m3Psi1915) in 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=pseudouridine(1915) in 23S rRNA + S-adenosyl-L-methionine =
+CC         N(3)-methylpseudouridine(1915) in 23S rRNA + S-adenosyl-L-
+CC         homocysteine + H(+); Xref=Rhea:RHEA:42752, Rhea:RHEA-COMP:10221,
+CC         Rhea:RHEA-COMP:10222, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:65314, ChEBI:CHEBI:74486;
+CC         EC=2.1.1.177; Evidence={ECO:0000255|HAMAP-Rule:MF_00658};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase RlmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00658}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12317.1; -; Genomic_DNA.
+DR   RefSeq; NP_835116.1; NC_004722.1.
+DR   RefSeq; WP_001027000.1; NZ_CP034551.1.
+DR   AlphaFoldDB; P59731; -.
+DR   SMR; P59731; -.
+DR   STRING; 226900.BC_5456; -.
+DR   GeneID; 51137132; -.
+DR   KEGG; bce:BC5456; -.
+DR   PATRIC; fig|226900.8.peg.5637; -.
+DR   HOGENOM; CLU_100552_0_0_9; -.
+DR   OrthoDB; 9806643at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070038; F:rRNA (pseudouridine-N3-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd18081; RlmH-like; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00658; 23SrRNA_methyltr_H; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR003742; RlmH-like.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   NCBIfam; TIGR00246; tRNA_RlmH_YbeA; 1.
+DR   PANTHER; PTHR33603; METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR33603:SF1; RIBOSOMAL RNA LARGE SUBUNIT METHYLTRANSFERASE H; 1.
+DR   Pfam; PF02590; SPOUT_MTase; 1.
+DR   PIRSF; PIRSF004505; MT_bac; 1.
+DR   SUPFAM; SSF75217; alpha/beta knot; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..159
+FT                   /note="Ribosomal RNA large subunit methyltransferase H"
+FT                   /id="PRO_0000198082"
+FT   BINDING         76
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         108
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+FT   BINDING         127..132
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00658"
+SQ   SEQUENCE   159 AA;  17941 MW;  83AE1C5F34FEEB19 CRC64;
+     MNISIISIGK LKEKYLKQGI AEYLKRLSAY AKVEVIELPD EKAPENLSEA EMLIVKEKEG
+     IRILDKISDD THVIALAIEG KQKSSEEFAI SLDRLATYGK SKVAFVIGGS LGLSSEVMKR
+     SNESLSFSKM TLPHQLMRLV LLEQVYRAFR INRGEPYHK
+//

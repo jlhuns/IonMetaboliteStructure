@@ -1,0 +1,113 @@
+ID   HIS1_CAMJE              Reviewed;         299 AA.
+AC   Q9PM78; Q0P831;
+DT   03-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 130.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_00079};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_00079}; OrderedLocusNames=Cj1597;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00079};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00079};
+CC   -!- ACTIVITY REGULATION: Feedback inhibited by histidine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Long
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35694.1; -; Genomic_DNA.
+DR   PIR; C81255; C81255.
+DR   RefSeq; WP_002858407.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344966.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PM78; -.
+DR   SMR; Q9PM78; -.
+DR   IntAct; Q9PM78; 1.
+DR   STRING; 192222.Cj1597; -.
+DR   PaxDb; 192222-Cj1597; -.
+DR   EnsemblBacteria; CAL35694; CAL35694; Cj1597.
+DR   GeneID; 905867; -.
+DR   KEGG; cje:Cj1597; -.
+DR   PATRIC; fig|192222.6.peg.1573; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_1_0_7; -.
+DR   OrthoDB; 9801867at2; -.
+DR   BRENDA; 2.4.2.17; 1087.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13592; PBP2_HisGL2; 1.
+DR   FunFam; 3.30.70.120:FF:000002; ATP phosphoribosyltransferase; 1.
+DR   FunFam; 3.40.190.10:FF:000008; ATP phosphoribosyltransferase; 1.
+DR   Gene3D; 3.30.70.120; -; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_00079; HisG_Long; 1.
+DR   InterPro; IPR020621; ATP-PRT_HisG_long.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR013115; HisG_C.
+DR   InterPro; IPR011322; N-reg_PII-like_a/b.
+DR   InterPro; IPR015867; N-reg_PII/ATP_PRibTrfase_C.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   NCBIfam; TIGR03455; HisG_C-term; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   Pfam; PF08029; HisG_C; 1.
+DR   SUPFAM; SSF54913; GlnB-like; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..299
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_0000151839"
+SQ   SEQUENCE   299 AA;  33639 MW;  9362C62019697F4E CRC64;
+     MQENTRLRIA IQKSGRLSKE SIELLSECGV KMHIHEQSLI AFSTNLPIDI LRVRDDDIPG
+     LIFDGVVDLG IIGENVLEEN ELERQSLGEN PSYKLLKKLD FGYCRLSLAL PQENKFQNLK
+     DFEGLRIATS YPQLLKRFMK ENGINYKNCT LTGSVEVAPR ANLADAICDL VSSGATLQAN
+     NLKEVKVIYE SRACLIQKEN ALSKEKQALV DKIMLRVAGV MQARESKYIM LHAPKEKLDK
+     IQALLPGVER PTILPLAHDE KNVALHMVSK ENLFWETMEA LKEEGASSIL VLPIEKMLK
+//

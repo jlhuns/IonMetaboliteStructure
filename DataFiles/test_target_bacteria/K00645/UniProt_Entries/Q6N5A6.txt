@@ -1,0 +1,103 @@
+ID   Q6N5A6_RHOPA            Unreviewed;       319 AA.
+AC   Q6N5A6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=Malonyl CoA-acyl carrier protein transacylase {ECO:0000256|ARBA:ARBA00018953, ECO:0000256|PIRNR:PIRNR000446};
+DE            EC=2.3.1.39 {ECO:0000256|ARBA:ARBA00013258, ECO:0000256|PIRNR:PIRNR000446};
+GN   Name=fabD {ECO:0000313|EMBL:CAE28516.1};
+GN   OrderedLocusNames=RPA3075 {ECO:0000313|EMBL:CAE28516.1};
+GN   ORFNames=TX73_015905 {ECO:0000313|EMBL:WCL93239.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28516.1};
+RN   [1] {ECO:0000313|EMBL:WCL93239.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93239.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28516.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28516.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93239.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93239.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=holo-[ACP] + malonyl-CoA = malonyl-[ACP] + CoA;
+CC         Xref=Rhea:RHEA:41792, Rhea:RHEA-COMP:9623, Rhea:RHEA-COMP:9685,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384, ChEBI:CHEBI:64479,
+CC         ChEBI:CHEBI:78449; EC=2.3.1.39;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048462,
+CC         ECO:0000256|PIRNR:PIRNR000446};
+CC   -!- SIMILARITY: Belongs to the fabD family.
+CC       {ECO:0000256|PIRNR:PIRNR000446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572602; CAE28516.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93239.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158620.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3075; -.
+DR   GeneID; 66894157; -.
+DR   KEGG; rpa:TX73_015905; -.
+DR   eggNOG; COG0331; Bacteria.
+DR   HOGENOM; CLU_030558_0_1_5; -.
+DR   PhylomeDB; Q6N5A6; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004314; F:[acyl-carrier-protein] S-malonyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 3.30.70.250:FF:000001; Malonyl CoA-acyl carrier protein transacylase; 1.
+DR   Gene3D; 3.30.70.250; Malonyl-CoA ACP transacylase, ACP-binding; 1.
+DR   Gene3D; 3.40.366.10; Malonyl-Coenzyme A Acyl Carrier Protein, domain 2; 1.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR014043; Acyl_transferase_dom.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR050858; Mal-CoA-ACP_Trans/PKS_FabD.
+DR   InterPro; IPR024925; Malonyl_CoA-ACP_transAc.
+DR   InterPro; IPR004410; Malonyl_CoA-ACP_transAc_FabD.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   NCBIfam; TIGR00128; fabD; 1.
+DR   PANTHER; PTHR42681; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR42681:SF1; MALONYL-COA-ACYL CARRIER PROTEIN TRANSACYLASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   PIRSF; PIRSF000446; Mct; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   SUPFAM; SSF55048; Probable ACP-binding domain of malonyl-CoA ACP transacylase; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|PIRNR:PIRNR000446};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|PIRNR:PIRNR000446, ECO:0000313|EMBL:CAE28516.1}.
+FT   DOMAIN          6..303
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT)"
+FT                   /evidence="ECO:0000259|SMART:SM00827"
+FT   ACT_SITE        95
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+FT   ACT_SITE        204
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000446-1"
+SQ   SEQUENCE   319 AA;  32288 MW;  44CF85D422D0FC73 CRC64;
+     MTAAFTFPGQ GSQAVGMGKA LAEAFPAARA VFDEVDAALG EKLTSIIWEG PAETLQLTEN
+     AQPALMAVSL ATMRVLETEA GVSVGKDAAF VAGHSLGEYS ALAAAGSLSV SDTARLLRIR
+     GQAMQKAVPV GVGAMAALLG LDYDTAVAVA AEAAQGQVCQ AANDNGGGQV VVSGHKDAVE
+     RAVEIAKGKG AKRAMLLPVS APFHCSLMQP AAEAMAEALA GVTIKAPAAP LVANVLASPI
+     TDPHEIRRRL VEQVTGTVRW RESVAFMASQ GVNQFLEIGA GKVLSGLVKR IADGAIGISV
+     GGPNDIVSAK DALAAGRSA
+//

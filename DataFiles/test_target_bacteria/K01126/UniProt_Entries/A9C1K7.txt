@@ -1,0 +1,77 @@
+ID   A9C1K7_DELAS            Unreviewed;       406 AA.
+AC   A9C1K7;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 71.
+DE   RecName: Full=glycerophosphodiester phosphodiesterase {ECO:0000256|ARBA:ARBA00012247};
+DE            EC=3.1.4.46 {ECO:0000256|ARBA:ARBA00012247};
+GN   OrderedLocusNames=Daci_6042 {ECO:0000313|EMBL:ABX38670.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX38670.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX38670.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a sn-glycero-3-phosphodiester + H2O = an alcohol + sn-glycerol
+CC         3-phosphate + H(+); Xref=Rhea:RHEA:12969, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30879, ChEBI:CHEBI:57597,
+CC         ChEBI:CHEBI:83408; EC=3.1.4.46;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047512};
+CC   -!- SIMILARITY: Belongs to the glycerophosphoryl diester phosphodiesterase
+CC       family. {ECO:0000256|ARBA:ARBA00007277}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX38670.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A9C1K7; -.
+DR   STRING; 398578.Daci_6042; -.
+DR   KEGG; dac:Daci_6042; -.
+DR   eggNOG; COG0584; Bacteria.
+DR   HOGENOM; CLU_030226_0_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:TreeGrafter.
+DR   GO; GO:0008889; F:glycerophosphodiester phosphodiesterase activity; IEA:TreeGrafter.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:InterPro.
+DR   CDD; cd08602; GDPD_ScGlpQ1_like; 1.
+DR   Gene3D; 3.20.20.190; Phosphatidylinositol (PI) phosphodiesterase; 1.
+DR   InterPro; IPR030395; GP_PDE_dom.
+DR   InterPro; IPR017946; PLC-like_Pdiesterase_TIM-brl.
+DR   PANTHER; PTHR43620:SF7; GLYCEROPHOSPHODIESTER PHOSPHODIESTERASE GDPD5-RELATED; 1.
+DR   PANTHER; PTHR43620; GLYCEROPHOSPHORYL DIESTER PHOSPHODIESTERASE; 1.
+DR   Pfam; PF03009; GDPD; 1.
+DR   SUPFAM; SSF51695; PLC-like phosphodiesterases; 1.
+DR   PROSITE; PS51704; GP_PDE; 1.
+PE   3: Inferred from homology;
+KW   Glycerol metabolism {ECO:0000256|ARBA:ARBA00022798};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729}.
+FT   DOMAIN          62..398
+FT                   /note="GP-PDE"
+FT                   /evidence="ECO:0000259|PROSITE:PS51704"
+SQ   SEQUENCE   406 AA;  43929 MW;  C1782A601363AEE8 CRC64;
+     MPVSWVARTI DGLRTRKADM NRFPRRRALA LAGAAAGLLL AGCATPQAAN SPSQAADWPP
+     RPALIAHRGA SALRPEHTLE AYREAIRAGA DFIEPDLVIT RDGVLVARHE NAIAILAADG
+     SLKEATTNVA DRPEFAARKT TKTIEGQAIT GWFVEDFTLA ELKTLRARER IPAIRPANVQ
+     FNDRFEVPTL QEVIDLAKAE SARTNRTIGI YPETKHPSYF QSIGLPLEPV LLKLLADNGW
+     NHAQAPVFVQ SFEVENLRWM RARSSLRLVQ LLAPKGKPYD SVARGTGPGY ADMVTPAGLA
+     EIARYANGIG PSKSMVIPVV QGANAAPTAL VADAHRAGLL VHPWTLRPEN AFLPLSLKSP
+     PAQDGARRGN ARADMDDFLR TGIDGIFTDD PSVGRAAIDD LLKPKP
+//

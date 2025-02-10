@@ -1,0 +1,135 @@
+ID   Q6N1M6_RHOPA            Unreviewed;       322 AA.
+AC   Q6N1M6;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=Riboflavin biosynthesis protein {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=Riboflavin kinase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.1.26 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=Flavokinase {ECO:0000256|PIRNR:PIRNR004491};
+DE   Includes:
+DE     RecName: Full=FMN adenylyltransferase {ECO:0000256|PIRNR:PIRNR004491};
+DE              EC=2.7.7.2 {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD pyrophosphorylase {ECO:0000256|PIRNR:PIRNR004491};
+DE     AltName: Full=FAD synthase {ECO:0000256|PIRNR:PIRNR004491};
+GN   Name=ribF {ECO:0000313|EMBL:CAE29820.1};
+GN   OrderedLocusNames=RPA4379 {ECO:0000313|EMBL:CAE29820.1};
+GN   ORFNames=TX73_022700 {ECO:0000313|EMBL:WCL94575.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29820.1};
+RN   [1] {ECO:0000313|EMBL:WCL94575.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94575.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29820.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29820.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94575.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94575.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the phosphorylation of riboflavin to FMN followed
+CC       by the adenylation of FMN to FAD. {ECO:0000256|ARBA:ARBA00002121}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=FMN + ATP + H(+) = FAD + diphosphate; Xref=Rhea:RHEA:17237,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58210; EC=2.7.7.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049494,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=riboflavin + ATP = FMN + ADP + H(+); Xref=Rhea:RHEA:14357,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57986,
+CC         ChEBI:CHEBI:58210, ChEBI:CHEBI:456216; EC=2.7.1.26;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047880,
+CC         ECO:0000256|PIRNR:PIRNR004491};
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004726, ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- PATHWAY: Cofactor biosynthesis; FMN biosynthesis; FMN from riboflavin
+CC       (ATP route): step 1/1. {ECO:0000256|ARBA:ARBA00005201,
+CC       ECO:0000256|PIRNR:PIRNR004491}.
+CC   -!- SIMILARITY: Belongs to the ribF family.
+CC       {ECO:0000256|PIRNR:PIRNR004491}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE29820.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94575.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159913.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4379; -.
+DR   GeneID; 66895513; -.
+DR   KEGG; rpa:TX73_022700; -.
+DR   eggNOG; COG0196; Bacteria.
+DR   HOGENOM; CLU_048437_0_1_5; -.
+DR   PhylomeDB; Q6N1M6; -.
+DR   UniPathway; UPA00276; UER00406.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   CDD; cd02064; FAD_synthetase_N; 1.
+DR   FunFam; 2.40.30.30:FF:000003; Riboflavin biosynthesis protein; 1.
+DR   FunFam; 3.40.50.620:FF:000021; Riboflavin biosynthesis protein; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   Gene3D; 2.40.30.30; Riboflavin kinase-like; 1.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR002606; Riboflavin_kinase_bac.
+DR   InterPro; IPR015865; Riboflavin_kinase_bac/euk.
+DR   InterPro; IPR023465; Riboflavin_kinase_dom_sf.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00083; ribF; 1.
+DR   PANTHER; PTHR22749:SF6; RIBOFLAVIN KINASE; 1.
+DR   PANTHER; PTHR22749; RIBOFLAVIN KINASE/FMN ADENYLYLTRANSFERASE; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   Pfam; PF01687; Flavokinase; 1.
+DR   PIRSF; PIRSF004491; FAD_Synth; 1.
+DR   SMART; SM00904; Flavokinase; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF82114; Riboflavin kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRNR:PIRNR004491};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRNR:PIRNR004491};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|PIRNR:PIRNR004491};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|PIRNR:PIRNR004491};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|PIRNR:PIRNR004491};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR004491}.
+FT   DOMAIN          186..309
+FT                   /note="Riboflavin kinase"
+FT                   /evidence="ECO:0000259|SMART:SM00904"
+SQ   SEQUENCE   322 AA;  34784 MW;  9E4FB559A66930B0 CRC64;
+     MTGFAVIRDD TPTAAIPKGA VVAMGNFDGV HRGHRAVIGA CLDMARTKKA PALAVTFEPH
+     PRKFFSPDVP QFRLTDETAK LRLLAGTGLD GAVILSFDAR RASTTAHDFI QHELIGRLGV
+     QGIAIGYDFH FGKGRGGSPS MLVAEAPSLG IEVDVQPHVD FGDHPVSSSA IRKCLEEGHI
+     AAATEMLGGP WFVTGEVIHG DKRGRDLGYP TANIRLDPQC SLKHGIYAVR VGRGGRHYDA
+     VANFGRRPTF DNGAPLLEVF VFDFNEPLYG ETLDVAFIAF IRDEEKFESI EALIRQMDDD
+     SARARAALAA DHGAFPKLGA LR
+//

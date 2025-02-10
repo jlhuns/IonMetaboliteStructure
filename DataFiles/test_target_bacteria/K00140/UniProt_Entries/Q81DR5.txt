@@ -1,0 +1,141 @@
+ID   IOLA_BACCR              Reviewed;         486 AA.
+AC   Q81DR5;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Malonate-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            EC=1.2.1.27 {ECO:0000255|HAMAP-Rule:MF_01670};
+DE   AltName: Full=Methylmalonate-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MMSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MSDH {ECO:0000255|HAMAP-Rule:MF_01670};
+GN   Name=iolA {ECO:0000255|HAMAP-Rule:MF_01670};
+GN   OrderedLocusNames=BC_2290;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the oxidation of malonate semialdehyde (MSA) and
+CC       methylmalonate semialdehyde (MMSA) into acetyl-CoA and propanoyl-CoA,
+CC       respectively. Is involved in a myo-inositol catabolic pathway.
+CC       Bicarbonate, and not CO2, is the end-product of the enzymatic reaction.
+CC       {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-oxopropanoate + NAD(+) + CoA + H2O = hydrogencarbonate +
+CC         acetyl-CoA + NADH + H(+); Xref=Rhea:RHEA:76615, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17544, ChEBI:CHEBI:33190,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.27; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01670};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:76616;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01670};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-methyl-3-oxopropanoate + NAD(+) + CoA + H2O = propanoyl-CoA
+CC         + hydrogencarbonate + NADH + H(+); Xref=Rhea:RHEA:20804,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57392, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57700, ChEBI:CHEBI:57945; EC=1.2.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01670};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20805;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01670};
+CC   -!- PATHWAY: Polyol metabolism; myo-inositol degradation into acetyl-CoA;
+CC       acetyl-CoA from myo-inositol: step 7/7. {ECO:0000255|HAMAP-
+CC       Rule:MF_01670}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family. IolA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP09254.1; -; Genomic_DNA.
+DR   RefSeq; NP_832053.1; NC_004722.1.
+DR   RefSeq; WP_000633345.1; NC_004722.1.
+DR   AlphaFoldDB; Q81DR5; -.
+DR   SMR; Q81DR5; -.
+DR   STRING; 226900.BC_2290; -.
+DR   KEGG; bce:BC2290; -.
+DR   PATRIC; fig|226900.8.peg.2314; -.
+DR   HOGENOM; CLU_005391_1_10_9; -.
+DR   UniPathway; UPA00076; UER00148.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0018478; F:malonate-semialdehyde dehydrogenase (acetylating) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004491; F:methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity; IBA:GO_Central.
+DR   GO; GO:0019310; P:inositol catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006210; P:thymine catabolic process; IBA:GO_Central.
+DR   GO; GO:0006574; P:valine catabolic process; IBA:GO_Central.
+DR   CDD; cd07085; ALDH_F6_MMSDH; 1.
+DR   FunFam; 3.40.309.10:FF:000002; Methylmalonate-semialdehyde dehydrogenase (Acylating); 1.
+DR   FunFam; 3.40.605.10:FF:000003; Methylmalonate-semialdehyde dehydrogenase [acylating]; 1.
+DR   Gene3D; 3.40.605.10; Aldehyde Dehydrogenase, Chain A, domain 1; 1.
+DR   Gene3D; 3.40.309.10; Aldehyde Dehydrogenase, Chain A, domain 2; 1.
+DR   HAMAP; MF_01670; IolA; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR010061; MeMal-semiAld_DH.
+DR   InterPro; IPR023510; MSDH_GmP_bac.
+DR   NCBIfam; TIGR01722; MMSDH; 1.
+DR   PANTHER; PTHR43866; MALONATE-SEMIALDEHYDE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR43866:SF4; MALONATE-SEMIALDEHYDE DEHYDROGENASE; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+PE   3: Inferred from homology;
+KW   NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..486
+FT                   /note="Malonate-semialdehyde dehydrogenase"
+FT                   /id="PRO_0000352321"
+FT   ACT_SITE        286
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         154
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         178
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         181
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         182
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         231
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         386
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+SQ   SEQUENCE   486 AA;  52954 MW;  82FC20D727E4B83A CRC64;
+     MITTEIKRVK NHINGEWVES TGTEVEAVPN PATGKIIAYV PLSPKEDVEK AVEAAKAAFE
+     TWSKVPVPNR SRNLYKYLQL LQENKDELAK IITLENGKTL TDATGEVQRG IEAVELATST
+     PNLMMGQALP NIASGIDGSI WRYPIGVVAG ITPFNFPMMI PLWMFPLAIA CGNTFVLKTS
+     ERTPLLAERL VELFYEAGFP KGVLNLVQGG KDVVNSILEN KDIQAVSFVG SEPVARYVYE
+     TGTKHGKRVQ ALAGAKNHAI VMPDCNLEKT VQGVIGSAFA SSGERCMACS VVAVVDEIAD
+     EFIDVLVAET KKLKVGDGFN EDNYVGPLIR ESHKERVLGY INSGVADGAT LLVDGRKINE
+     EVGEGYFVGA TIFDGVNQEM KIWQDEIFAP VLSIVRVKDL EEGIKLTNQS KFANGAVIYT
+     SNGKHAQTFR DNIDAGMIGV NVNVPAPMAF FAFAGNKASF FGDLSTNGTD GVQFYTRKKV
+     VTERWF
+//

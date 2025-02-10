@@ -1,0 +1,74 @@
+ID   W6RAQ8_9HYPH            Unreviewed;       184 AA.
+AC   W6RAQ8;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 37.
+DE   RecName: Full=dTDP-4-dehydrorhamnose 3,5-epimerase {ECO:0000256|ARBA:ARBA00019595};
+DE            EC=5.1.3.13 {ECO:0000256|ARBA:ARBA00012098};
+DE   AltName: Full=Thymidine diphospho-4-keto-rhamnose 3,5-epimerase {ECO:0000256|ARBA:ARBA00031424};
+DE   AltName: Full=dTDP-4-keto-6-deoxyglucose 3,5-epimerase {ECO:0000256|ARBA:ARBA00029758};
+DE   AltName: Full=dTDP-6-deoxy-D-xylo-4-hexulose 3,5-epimerase {ECO:0000256|ARBA:ARBA00033311};
+GN   Name=rmlC {ECO:0000313|EMBL:CDM55778.1};
+GN   ORFNames=LPU83_0092 {ECO:0000313|EMBL:CDM55778.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM55778.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM55778.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM55778.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the epimerization of the C3' and C5'positions of
+CC       dTDP-6-deoxy-D-xylo-4-hexulose, forming dTDP-6-deoxy-L-lyxo-4-hexulose.
+CC       {ECO:0000256|ARBA:ARBA00001997}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-4-dehydro-6-deoxy-alpha-D-glucose = dTDP-4-dehydro-beta-
+CC         L-rhamnose; Xref=Rhea:RHEA:16969, ChEBI:CHEBI:57649,
+CC         ChEBI:CHEBI:62830; EC=5.1.3.13;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001298};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM55778.1; -; Genomic_DNA.
+DR   AlphaFoldDB; W6RAQ8; -.
+DR   KEGG; rhl:LPU83_0092; -.
+DR   PATRIC; fig|348824.6.peg.93; -.
+DR   eggNOG; COG1898; Bacteria.
+DR   HOGENOM; CLU_090940_1_0_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008830; F:dTDP-4-dehydrorhamnose 3,5-epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd00438; cupin_RmlC; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 1.
+DR   InterPro; IPR000888; RmlC-like.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR21047; DTDP-6-DEOXY-D-GLUCOSE-3,5 EPIMERASE; 1.
+DR   PANTHER; PTHR21047:SF2; THYMIDINE DIPHOSPHO-4-KETO-RHAMNOSE 3,5-EPIMERASE; 1.
+DR   Pfam; PF00908; dTDP_sugar_isom; 1.
+DR   SUPFAM; SSF51182; RmlC-like cupins; 1.
+PE   4: Predicted;
+KW   Isomerase {ECO:0000313|EMBL:CDM55778.1}.
+FT   ACT_SITE        72
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-1"
+FT   ACT_SITE        142
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-1"
+FT   SITE            148
+FT                   /note="Participates in a stacking interaction with the
+FT                   thymidine ring of dTDP-4-oxo-6-deoxyglucose"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600888-3"
+SQ   SEQUENCE   184 AA;  20697 MW;  C6A69DD9C2A38E45 CRC64;
+     MKTFRSSSMS RFTRIPTALS NLLVIERQRL GDERGFFSRF FCTEELADFG IGRIAQINHT
+     MTQAKGAIRG MHFQRPPDDE AKFVSCLAGA VFDVAVDLRP QSSTYLRWHG EVLSAENARS
+     MMIPPSFAHG FQTLTENCEL IYLHDKPYAP GAEGGVNALD PRISIAWPLP VAQMSERDRN
+     FPML
+//

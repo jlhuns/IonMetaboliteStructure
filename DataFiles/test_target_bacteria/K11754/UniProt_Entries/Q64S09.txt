@@ -1,0 +1,92 @@
+ID   Q64S09_BACFR            Unreviewed;       458 AA.
+AC   Q64S09;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   RecName: Full=tetrahydrofolate synthase {ECO:0000256|ARBA:ARBA00013025};
+DE            EC=6.3.2.17 {ECO:0000256|ARBA:ARBA00013025};
+DE   AltName: Full=Tetrahydrofolylpolyglutamate synthase {ECO:0000256|ARBA:ARBA00030592};
+GN   OrderedLocusNames=BF2974 {ECO:0000313|EMBL:BAD49722.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD49722.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD49722.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD49722.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-5,6,7,8-tetrahydrofolyl-(gamma-L-Glu)(n) + L-glutamate +
+CC         ATP = (6S)-5,6,7,8-tetrahydrofolyl-(gamma-L-Glu)(n+1) + ADP +
+CC         phosphate + H(+); Xref=Rhea:RHEA:10580, Rhea:RHEA-COMP:14738,
+CC         Rhea:RHEA-COMP:14740, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:141005,
+CC         ChEBI:CHEBI:456216; EC=6.3.2.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047493};
+CC   -!- SIMILARITY: Belongs to the folylpolyglutamate synthase family.
+CC       {ECO:0000256|ARBA:ARBA00008276, ECO:0000256|PIRNR:PIRNR001563}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD49722.1; -; Genomic_DNA.
+DR   RefSeq; WP_005788733.1; NZ_UYXF01000004.1.
+DR   RefSeq; YP_100256.1; NC_006347.1.
+DR   AlphaFoldDB; Q64S09; -.
+DR   STRING; 295405.BF2974; -.
+DR   KEGG; bfr:BF2974; -.
+DR   PATRIC; fig|295405.11.peg.2853; -.
+DR   HOGENOM; CLU_015869_1_1_10; -.
+DR   OrthoDB; 9809356at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008841; F:dihydrofolate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004326; F:tetrahydrofolylpolyglutamate synthase activity; IEA:InterPro.
+DR   FunFam; 3.40.1190.10:FF:000011; Folylpolyglutamate synthase/dihydrofolate synthase; 1.
+DR   Gene3D; 3.90.190.20; Mur ligase, C-terminal domain; 1.
+DR   Gene3D; 3.40.1190.10; Mur-like, catalytic domain; 1.
+DR   InterPro; IPR001645; Folylpolyglutamate_synth.
+DR   InterPro; IPR018109; Folylpolyglutamate_synth_CS.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   NCBIfam; TIGR01499; folC; 1.
+DR   PANTHER; PTHR11136:SF0; DIHYDROFOLATE SYNTHETASE-RELATED; 1.
+DR   PANTHER; PTHR11136; FOLYLPOLYGLUTAMATE SYNTHASE-RELATED; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   PIRSF; PIRSF001563; Folylpolyglu_synth; 1.
+DR   SUPFAM; SSF53623; MurD-like peptide ligases, catalytic domain; 1.
+DR   SUPFAM; SSF53244; MurD-like peptide ligases, peptide-binding domain; 1.
+DR   PROSITE; PS01012; FOLYLPOLYGLU_SYNT_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|PIRNR:PIRNR001563};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|PIRNR:PIRNR001563};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|PIRNR:PIRNR001563}.
+FT   DOMAIN          51..227
+FT                   /note="Mur ligase central"
+FT                   /evidence="ECO:0000259|Pfam:PF08245"
+FT   DOMAIN          324..441
+FT                   /note="Mur ligase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02875"
+SQ   SEQUENCE   458 AA;  50963 MW;  32869CBC77CE48EC CRC64;
+     MNYQETLDYL YNSVPMFQQV GSSAYKEGLE NTYALDEYLG HPHTAFQSIH IAGTNGKGSC
+     SHTLAAILQS AGYRVGLYTS PHLVDFRERI RINGEPIPQE YVIRFVEDHR LFFEPLHPSF
+     FELTTAMAFR YFADQHIDVA VIEVGLGGRL DCTNIIRPDL SIITNISFDH MQFLGNTLAQ
+     IATEKAGIIK RGIPVVVGET TEETKPVFYR KAQEMEAPVT FAEEEQRLKG ATKFKTRADR
+     KPGQYTDHQP NTAAEKDTEY ITGWIYENDA YPGLEGVLGG SYQLKNTNTL LSALPVLKSL
+     GYKIEDHDVR NGFLQVDKMT GLQGRWQKLS DSPTVICDTG HNVAGISYIV EQLKQMKYNR
+     LHMVIGMVND KDVSGVLSIL PENAVYYFTK ASVKRALPEA QLQQIGASAG LQGKAYPDVQ
+     SAVKAAQEKS LPEDLIFVGG SSFIVADLLS CRDALDLD
+//

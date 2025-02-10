@@ -1,0 +1,119 @@
+ID   E3PT54_ACESD            Unreviewed;       266 AA.
+AC   E3PT54;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 77.
+DE   RecName: Full=NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000256|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   OrderedLocusNames=CLOST_1938 {ECO:0000313|EMBL:CBH22058.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH22058.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance of
+CC       NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + ATP = ADP + NADP(+) + H(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047925, ECO:0000256|HAMAP-
+CC         Rule:MF_00361};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH22058.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PT54; -.
+DR   STRING; 1511.CLOST_1938; -.
+DR   KEGG; cst:CLOST_1938; -.
+DR   eggNOG; COG0061; Bacteria.
+DR   HOGENOM; CLU_008831_0_3_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:UniProtKB-ARBA.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10330; Probable inorganic polyphosphate/atp-NAD kinase, domain 1; 1.
+DR   Gene3D; 2.60.200.30; Probable inorganic polyphosphate/atp-NAD kinase, domain 2; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; NAD KINASE; 1.
+DR   PANTHER; PTHR20275:SF0; NAD KINASE; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   Pfam; PF20143; NAD_kinase_C; 1.
+DR   SUPFAM; SSF111331; NAD kinase/diacylglycerol kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00361}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00361};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00361}.
+FT   ACT_SITE        50
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         50..51
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         55
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         123..124
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         133
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         152
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+FT   BINDING         163..168
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00361"
+SQ   SEQUENCE   266 AA;  29877 MW;  4CE0584625A7B276 CRC64;
+     MKRKIIITYN SYDRSIRTAK ILRTKLASAG FEVLEKPDPE AELFIAIGGD GSFLKTLHDY
+     DFPEVPIIGI NTGHLGFFQE IMPPQIDNFI DAYINKRYTI QEIHPIEALI CTRTSCVELQ
+     AINEFVVKGD KSRTIHLNLS VNTNFIECFS GDGVILSTPT GSTAYNYSSG GSIVDPSLKL
+     IQVTPLSPIN TNAYRSFTSS IILPSDAIVK ISPEYRFEDS LVFVTDGIEH RYDQIVDLTF
+     QTSTINIKLL RLGGYEFWSK VTEKFL
+//

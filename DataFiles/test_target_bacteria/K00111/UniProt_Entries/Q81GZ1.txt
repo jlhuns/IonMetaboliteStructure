@@ -1,0 +1,103 @@
+ID   Q81GZ1_BACCR            Unreviewed;       560 AA.
+AC   Q81GZ1;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 121.
+DE   RecName: Full=Glycerol-3-phosphate dehydrogenase {ECO:0000256|RuleBase:RU361217};
+DE            EC=1.1.5.3 {ECO:0000256|RuleBase:RU361217};
+GN   OrderedLocusNames=BC_1036 {ECO:0000313|EMBL:AAP08023.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP08023.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP08023.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + sn-glycerol 3-phosphate = dihydroxyacetone
+CC         phosphate + a quinol; Xref=Rhea:RHEA:18977, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57597, ChEBI:CHEBI:57642, ChEBI:CHEBI:132124; EC=1.1.5.3;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049055,
+CC         ECO:0000256|RuleBase:RU361217};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU361217};
+CC   -!- PATHWAY: Polyol metabolism; glycerol degradation via glycerol kinase
+CC       pathway; glycerone phosphate from sn-glycerol 3-phosphate (aerobic
+CC       route): step 1/1. {ECO:0000256|ARBA:ARBA00004977}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent glycerol-3-phosphate
+CC       dehydrogenase family. {ECO:0000256|ARBA:ARBA00007330,
+CC       ECO:0000256|RuleBase:RU361217}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08023.1; -; Genomic_DNA.
+DR   RefSeq; NP_830822.1; NC_004722.1.
+DR   RefSeq; WP_000672833.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81GZ1; -.
+DR   SMR; Q81GZ1; -.
+DR   KEGG; bce:BC1036; -.
+DR   PATRIC; fig|226900.8.peg.994; -.
+DR   HOGENOM; CLU_015740_5_2_9; -.
+DR   OrthoDB; 9766796at2; -.
+DR   UniPathway; UPA00618; UER00674.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0009331; C:glycerol-3-phosphate dehydrogenase (FAD) complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004368; F:glycerol-3-phosphate dehydrogenase (quinone) activity; IBA:GO_Central.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0046168; P:glycerol-3-phosphate catabolic process; IBA:GO_Central.
+DR   Gene3D; 1.10.8.870; Alpha-glycerophosphate oxidase, cap domain; 1.
+DR   Gene3D; 3.30.9.10; D-Amino Acid Oxidase, subunit A, domain 2; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   InterPro; IPR031656; DAO_C.
+DR   InterPro; IPR038299; DAO_C_sf.
+DR   InterPro; IPR006076; FAD-dep_OxRdtase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR000447; G3P_DH_FAD-dep.
+DR   PANTHER; PTHR11985:SF35; ANAEROBIC GLYCEROL-3-PHOSPHATE DEHYDROGENASE SUBUNIT A; 1.
+DR   PANTHER; PTHR11985; GLYCEROL-3-PHOSPHATE DEHYDROGENASE; 1.
+DR   Pfam; PF01266; DAO; 1.
+DR   Pfam; PF16901; DAO_C; 1.
+DR   PRINTS; PR01001; FADG3PDH.
+DR   SUPFAM; SSF54373; FAD-linked reductases, C-terminal domain; 1.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   PROSITE; PS00977; FAD_G3PDH_1; 1.
+DR   PROSITE; PS00978; FAD_G3PDH_2; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU361217};
+KW   Glycerol metabolism {ECO:0000256|ARBA:ARBA00022798};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU361217};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          21..375
+FT                   /note="FAD dependent oxidoreductase"
+FT                   /evidence="ECO:0000259|Pfam:PF01266"
+FT   DOMAIN          404..531
+FT                   /note="Alpha-glycerophosphate oxidase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF16901"
+SQ   SEQUENCE   560 AA;  62521 MW;  F753C7F8A5645205 CRC64;
+     MKFSSKQRKD VLNGVNKQEL DVIVIGGGIT GSGIALDGAT RGLSTIVFEM QDFAAGTSSR
+     STKLVHGGLR YLKQLEVKMV AEVGKERAIV YENGPHVTTP EWMLLPFHTG GTFGSFSTSI
+     GLRVYDFLAG VKRSERRKMF NREETLNKEP LVKKEGLKGG GYYVEYRTDD ARLTIEVMKE
+     AIEHGAKAVN YAKVDSFLYK DGKVCGVRVI DLLDGEVYEV YGKKIVNAAG PWVDTLREKD
+     NSKKGKVLQL SKGVHLVIDQ KRFPLGQAIY FDTPDKRMVF AIPRGGKTYV GTTDTFYDKD
+     AAVPQMTTED RTYIINAINY MFPSVKITEK DIESSWAGVR PLIYEEGKSA SEISRKDEIW
+     TSESGLITIA GGKLTGYRKM AEMVVDYVTN LLQKEGHSAY PKSDTKHMPI SGGHVDGSHG
+     FPAFVAKKAG EGTKYGLTTA QAEEFAKFYG SNVDVLFDLA KKHKEEAKEY NMPLDVLIPL
+     VYAMDYEMTA KPVDFFVRRR GAVFFNIHWV YEWKEAVINY MAAKLGWSKE EQMKYTAELE
+     KALTDAVIPV DQQEQAAALA
+//

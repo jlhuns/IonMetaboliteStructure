@@ -1,0 +1,131 @@
+ID   GLYA_BACCR              Reviewed;         414 AA.
+AC   Q814V2;
+DT   31-OCT-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   OrderedLocusNames=BC_5316;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon carrier.
+CC       This reaction serves as the major source of one-carbon groups required
+CC       for the biosynthesis of purines, thymidylate, methionine, and other
+CC       important biomolecules. Also exhibits THF-independent aldolase activity
+CC       toward beta-hydroxyamino acids, producing glycine and aldehydes, via a
+CC       retro-aldol mechanism. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + glycine + H2O =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-serine; Xref=Rhea:RHEA:15481,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15636, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57453; EC=2.1.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine from L-
+CC       serine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12179.1; -; Genomic_DNA.
+DR   RefSeq; NP_834978.1; NC_004722.1.
+DR   AlphaFoldDB; Q814V2; -.
+DR   SMR; Q814V2; -.
+DR   STRING; 226900.BC_5316; -.
+DR   MetOSite; Q814V2; -.
+DR   KEGG; bce:BC5316; -.
+DR   PATRIC; fig|226900.8.peg.5489; -.
+DR   HOGENOM; CLU_022477_2_1_9; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IBA:GO_Central.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IBA:GO_Central.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046653; P:tetrahydrofolate metabolic process; IBA:GO_Central.
+DR   CDD; cd00378; SHMT; 1.
+DR   FunFam; 3.40.640.10:FF:000001; Serine hydroxymethyltransferase; 1.
+DR   FunFam; 3.90.1150.10:FF:000003; Serine hydroxymethyltransferase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR049943; Ser_HO-MeTrfase-like.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   InterPro; IPR039429; SHMT-like_dom.
+DR   PANTHER; PTHR11680; SERINE HYDROXYMETHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11680:SF35; SERINE HYDROXYMETHYLTRANSFERASE 1; 1.
+DR   Pfam; PF00464; SHMT; 1.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; One-carbon metabolism;
+KW   Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..414
+FT                   /note="Serine hydroxymethyltransferase"
+FT                   /id="PRO_0000113526"
+FT   BINDING         118
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         122..124
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         240
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         350..352
+FT                   /ligand="(6S)-5,6,7,8-tetrahydrofolate"
+FT                   /ligand_id="ChEBI:CHEBI:57453"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   SITE            226
+FT                   /note="Plays an important role in substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         227
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+SQ   SEQUENCE   414 AA;  45258 MW;  A1323079737D6D99 CRC64;
+     MVDHLKRQDE KVFAAIEAEL GRQRSKIELI ASENFVSEAV MEAQGSVLTN KYAEGYPGKR
+     YYGGCEHVDV VEDIARDRVK EIFGAEHVNV QPHSGAQANM AVYFTILEQG DTVLGMNLSH
+     GGHLTHGSPV NFSGVQYNFV EYGVDADSHR INYDDVLAKA KEHKPKLIVA GASAYPRVID
+     FKRFREIADE VGAYLMVDMA HIAGLVAAGL HPNPVPHAHF VTTTTHKTLR GPRGGMILCE
+     EQFAKQIDKS IFPGIQGGPL MHVIAAKAVA FGEALQDDFK TYAQNIINNA NRLAEGLQKE
+     GLTLVSGGTD NHLILIDVRN LEITGKVAEH VLDEVGITVN KNTIPFETAS PFVTSGVRIG
+     TAAVTSRGFG LEEMDEIASL IAYTLKNHEN EAALEEARKR VEALTSKFPM YPNL
+//

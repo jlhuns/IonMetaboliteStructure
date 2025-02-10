@@ -1,0 +1,162 @@
+ID   A0AAE9XYH0_RHOPA        Unreviewed;       336 AA.
+AC   A0AAE9XYH0;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   RecName: Full=Biotin synthase {ECO:0000256|ARBA:ARBA00012236, ECO:0000256|HAMAP-Rule:MF_01694};
+DE            EC=2.8.1.6 {ECO:0000256|ARBA:ARBA00012236, ECO:0000256|HAMAP-Rule:MF_01694};
+GN   Name=bioB {ECO:0000256|HAMAP-Rule:MF_01694,
+GN   ECO:0000313|EMBL:WCL92195.1};
+GN   ORFNames=TX73_010535 {ECO:0000313|EMBL:WCL92195.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92195.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92195.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the conversion of dethiobiotin (DTB) to biotin by
+CC       the insertion of a sulfur atom into dethiobiotin via a radical-based
+CC       mechanism. {ECO:0000256|HAMAP-Rule:MF_01694}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(4R,5S)-dethiobiotin + [sulfur carrier]-SH + 2 reduced [2Fe-
+CC         2S]-[ferredoxin] + 2 S-adenosyl-L-methionine = [sulfur carrier]-H +
+CC         biotin + 2 5'-deoxyadenosine + 2 L-methionine + 2 oxidized [2Fe-2S]-
+CC         [ferredoxin]; Xref=Rhea:RHEA:22060, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, Rhea:RHEA-COMP:14737, Rhea:RHEA-COMP:14739,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:29917, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57586, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:64428, ChEBI:CHEBI:149473; EC=2.8.1.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048225, ECO:0000256|HAMAP-
+CC         Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [2Fe-2S] cluster. The cluster is coordinated with 3
+CC       cysteines and 1 arginine. {ECO:0000256|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR001619-1};
+CC       Note=Binds 1 [2Fe-2S] cluster. The cluster is coordinated with 3
+CC       cysteines and 1 arginine. {ECO:0000256|PIRSR:PIRSR001619-1};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01694,
+CC         ECO:0000256|PIRSR:PIRSR001619-1};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|HAMAP-Rule:MF_01694, ECO:0000256|PIRSR:PIRSR001619-1};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis; biotin from 7,8-
+CC       diaminononanoate: step 2/2. {ECO:0000256|ARBA:ARBA00004942,
+CC       ECO:0000256|HAMAP-Rule:MF_01694}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01694}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Biotin synthase
+CC       family. {ECO:0000256|ARBA:ARBA00010765, ECO:0000256|HAMAP-
+CC       Rule:MF_01694}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92195.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157600.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XYH0; -.
+DR   GeneID; 66893089; -.
+DR   KEGG; rpa:TX73_010535; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004076; F:biotin synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 3.20.20.70:FF:000011; Biotin synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01694; BioB; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR010722; BATS_dom.
+DR   InterPro; IPR002684; Biotin_synth/BioAB.
+DR   InterPro; IPR024177; Biotin_synthase.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00433; bioB; 1.
+DR   PANTHER; PTHR22976; BIOTIN SYNTHASE; 1.
+DR   PANTHER; PTHR22976:SF2; BIOTIN SYNTHASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF06968; BATS; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF001619; Biotin_synth; 1.
+DR   SFLD; SFLDF00272; biotin_synthase; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SMART; SM00876; BATS; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S {ECO:0000256|ARBA:ARBA00022714, ECO:0000256|HAMAP-Rule:MF_01694};
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_01694};
+KW   Biotin biosynthesis {ECO:0000256|ARBA:ARBA00022756, ECO:0000256|HAMAP-
+KW   Rule:MF_01694};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01694};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_01694};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01694}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_01694};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01694, ECO:0000313|EMBL:WCL92195.1}.
+FT   DOMAIN          51..270
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   BINDING         66
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         70
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         73
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         110
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         141
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         201
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+FT   BINDING         274
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01694,
+FT                   ECO:0000256|PIRSR:PIRSR001619-1"
+SQ   SEQUENCE   336 AA;  36446 MW;  C97DA12473F5A4EF CRC64;
+     MNSIAHSTLA AASPTIRHDW TREEAAAIYH APFADLMFRA QTIHRQTFDP NQVQCNQLLN
+     VKTGGCAEDC GYCSQSAHHD TALPASKLME PAKVIEAAKA ARDAGATRYC MGAAWRSPKE
+     RDMAPVIEMV KGVKALGMEA CMTLGMLTDD QAKQLADAGL DYYNHNIDTS EEFYASVVKS
+     RSFGDRLDTL EKVQDAGIKV CCGGILGLGE KPTDRVEMLR TLANLPQHPE SVPINMLIPI
+     EGTPIAKTAT PVDPFEFVRT IALARIMMPK SDVRLAAGRT AMSDEMQALC FLAGANSIFI
+     GDTLLTTPNP GDSKDRALFN RLGITPRDDL GVHAHS
+//

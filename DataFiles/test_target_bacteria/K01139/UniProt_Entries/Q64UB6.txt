@@ -1,0 +1,102 @@
+ID   Q64UB6_BACFR            Unreviewed;       737 AA.
+AC   Q64UB6;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 110.
+DE   SubName: Full=GTP pyrophosphokinase {ECO:0000313|EMBL:BAD48913.1};
+GN   OrderedLocusNames=BF2166 {ECO:0000313|EMBL:BAD48913.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD48913.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD48913.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD48913.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: In eubacteria ppGpp (guanosine 3'-diphosphate 5'-diphosphate)
+CC       is a mediator of the stringent response that coordinates a variety of
+CC       cellular activities in response to changes in nutritional abundance.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   -!- SIMILARITY: Belongs to the relA/spoT family.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD48913.1; -; Genomic_DNA.
+DR   RefSeq; WP_005787468.1; NZ_UYXF01000031.1.
+DR   RefSeq; YP_099447.1; NC_006347.1.
+DR   AlphaFoldDB; Q64UB6; -.
+DR   STRING; 295405.BF2166; -.
+DR   GeneID; 66328830; -.
+DR   KEGG; bfr:BF2166; -.
+DR   PATRIC; fig|295405.11.peg.2104; -.
+DR   HOGENOM; CLU_012300_3_2_10; -.
+DR   OrthoDB; 9805041at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0015969; P:guanosine tetraphosphate metabolic process; IEA:InterPro.
+DR   CDD; cd04876; ACT_RelA-SpoT; 1.
+DR   CDD; cd05399; NT_Rel-Spo_like; 1.
+DR   CDD; cd01668; TGS_RSH; 1.
+DR   FunFam; 3.10.20.30:FF:000002; GTP pyrophosphokinase (RelA/SpoT); 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   Gene3D; 1.10.3210.10; Hypothetical protein af1432; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR004811; RelA/Spo_fam.
+DR   InterPro; IPR045600; RelA/SpoT_AH_RIS.
+DR   InterPro; IPR007685; RelA_SpoT.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR033655; TGS_RelA/SpoT.
+DR   NCBIfam; TIGR00691; spoT_relA; 1.
+DR   PANTHER; PTHR21262:SF31; GTP PYROPHOSPHOKINASE; 1.
+DR   PANTHER; PTHR21262; GUANOSINE-3',5'-BIS DIPHOSPHATE 3'-PYROPHOSPHOHYDROLASE; 1.
+DR   Pfam; PF13291; ACT_4; 1.
+DR   Pfam; PF13328; HD_4; 1.
+DR   Pfam; PF19296; RelA_AH_RIS; 1.
+DR   Pfam; PF04607; RelA_SpoT; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   SMART; SM00954; RelA_SpoT; 1.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Kinase {ECO:0000313|EMBL:BAD48913.1};
+KW   Transferase {ECO:0000313|EMBL:BAD48913.1}.
+FT   DOMAIN          402..463
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51880"
+FT   DOMAIN          665..737
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+SQ   SEQUENCE   737 AA;  85287 MW;  630CD4B624B2F29D CRC64;
+     MERDEFFTKE ERELLFSLYK KLLRLTGETL QKGDCRKLKK HLIDSTQNNT MQRDSFGLNP
+     VIKDMQTAVI VAEEIGMKRA SILGIMLHTP VRCHSYTIEY IQQEYGEDVA GIIRGLIKIN
+     DLYDKSPTIE SENFRNLLLS FAEDMRVILI MIADRVNVMR QIKDAENDEA RRRVANEAAY
+     LYAPLAHKLG LYKLKSELED LSLKYTEHDI YYHIKEKLNE TKKSRDRYIA NFIAPIQQKL
+     EEAGLHFHMK GRTKSIHSIY QKMKKQKCQF ENVYDLFAIR IILESQFEKE KQECWQAYSI
+     VTDMYQPNPK RLRDWLSVPK SNGYESLHIT VMGPEGKWVE VQIRTERMDD IAERGLAAHW
+     RYKGVKGESG LDEWLTSIRE ALENTENDLE MMDQFKLDLY EDEVFVFTPK GDLFKLGKGA
+     TVLDFAFHIH SKLGCKCIGA KVNGKNVQLR QKLNSGDQVE IMTSNTQTPK QDWLNIVTTS
+     KARTKIRQAL KEMVARQHDF AKETLERKFK NRKMEYDEAV MMRLIKRLGF KNVTEFYQKI
+     ADEVLDVNDI LDKYIEQQKR DSERDEVTYR SAEEYNLQNQ IDETTVTKED VLVIDQNLKG
+     LDFKLAKCCN PIYGDDVFGF VTVSGGIKIH RNDCPNAGQM RERFGYRIVK ARWAGKSEGT
+     QYPITLRVVG HDDIGIVTNI TSIISKENGI SLRSIGIDSN DGLFSGTLTI MVSDTGRLEA
+     LIKKLRTVKG VKQVSRN
+//

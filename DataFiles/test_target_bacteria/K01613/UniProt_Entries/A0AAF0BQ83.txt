@@ -1,0 +1,128 @@
+ID   A0AAF0BQ83_RHOPA        Unreviewed;       243 AA.
+AC   A0AAF0BQ83;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=Phosphatidylserine decarboxylase proenzyme {ECO:0000256|HAMAP-Rule:MF_00664};
+DE            EC=4.1.1.65 {ECO:0000256|HAMAP-Rule:MF_00664};
+DE   Contains:
+DE     RecName: Full=Phosphatidylserine decarboxylase alpha chain {ECO:0000256|HAMAP-Rule:MF_00664};
+DE   Contains:
+DE     RecName: Full=Phosphatidylserine decarboxylase beta chain {ECO:0000256|HAMAP-Rule:MF_00664};
+GN   Name=psd {ECO:0000256|HAMAP-Rule:MF_00664};
+GN   ORFNames=TX73_010340 {ECO:0000313|EMBL:WCL92157.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92157.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92157.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the formation of phosphatidylethanolamine (PtdEtn)
+CC       from phosphatidylserine (PtdSer). {ECO:0000256|HAMAP-Rule:MF_00664}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phospho-L-serine + H(+) = a 1,2-
+CC         diacyl-sn-glycero-3-phosphoethanolamine + CO2; Xref=Rhea:RHEA:20828,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57262,
+CC         ChEBI:CHEBI:64612; EC=4.1.1.65; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00664};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00664};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00664};
+CC   -!- PATHWAY: Phospholipid metabolism; phosphatidylethanolamine
+CC       biosynthesis; phosphatidylethanolamine from CDP-diacylglycerol: step
+CC       2/2. {ECO:0000256|HAMAP-Rule:MF_00664}.
+CC   -!- SUBUNIT: Heterodimer of a large membrane-associated beta subunit and a
+CC       small pyruvoyl-containing alpha subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00664}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_00664};
+CC       Peripheral membrane protein {ECO:0000256|HAMAP-Rule:MF_00664}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme. Formation of
+CC       the active enzyme involves a self-maturation process in which the
+CC       active site pyruvoyl group is generated from an internal serine residue
+CC       via an autocatalytic post-translational modification. Two non-identical
+CC       subunits are generated from the proenzyme in this reaction, and the
+CC       pyruvate is formed at the N-terminus of the alpha chain, which is
+CC       derived from the carboxyl end of the proenzyme. The post-translation
+CC       cleavage follows an unusual pathway, termed non-hydrolytic serinolysis,
+CC       in which the side chain hydroxyl group of the serine supplies its
+CC       oxygen atom to form the C-terminus of the beta chain, while the
+CC       remainder of the serine residue undergoes an oxidative deamination to
+CC       produce ammonia and the pyruvoyl prosthetic group on the alpha chain.
+CC       {ECO:0000256|HAMAP-Rule:MF_00664}.
+CC   -!- SIMILARITY: Belongs to the phosphatidylserine decarboxylase family.
+CC       PSD-A subfamily. {ECO:0000256|HAMAP-Rule:MF_00664}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92157.1; -; Genomic_DNA.
+DR   KEGG; rpa:TX73_010340; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004609; F:phosphatidylserine decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006646; P:phosphatidylethanolamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00664; PS_decarb_PSD_A; 1.
+DR   InterPro; IPR003817; PS_Dcarbxylase.
+DR   InterPro; IPR033175; PSD-A.
+DR   PANTHER; PTHR35809; ARCHAETIDYLSERINE DECARBOXYLASE PROENZYME-RELATED; 1.
+DR   PANTHER; PTHR35809:SF1; ARCHAETIDYLSERINE DECARBOXYLASE PROENZYME-RELATED; 1.
+DR   Pfam; PF02666; PS_Dcarbxylase; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00664};
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_00664};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_00664};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_00664};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_00664};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_00664, ECO:0000256|SAM:Phobius};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209,
+KW   ECO:0000256|HAMAP-Rule:MF_00664};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264, ECO:0000256|HAMAP-
+KW   Rule:MF_00664};
+KW   Pyruvate {ECO:0000256|ARBA:ARBA00023317, ECO:0000256|HAMAP-Rule:MF_00664};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius};
+KW   Zymogen {ECO:0000256|ARBA:ARBA00023145, ECO:0000256|HAMAP-Rule:MF_00664}.
+FT   CHAIN           1..200
+FT                   /note="Phosphatidylserine decarboxylase beta chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00664"
+FT                   /id="PRO_5041754444"
+FT   CHAIN           201..243
+FT                   /note="Phosphatidylserine decarboxylase alpha chain"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00664"
+FT                   /id="PRO_5041754443"
+FT   TRANSMEM        36..65
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   ACT_SITE        201
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00664"
+FT   SITE            200..201
+FT                   /note="Cleavage (non-hydrolytic); by autocatalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00664"
+FT   MOD_RES         201
+FT                   /note="Pyruvic acid (Ser); by autocatalysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00664"
+SQ   SEQUENCE   243 AA;  26640 MW;  9D6C4CC67809EC12 CRC64;
+     MQQAFEVRGR PMSIVNSVRA QIPPIHREGY PFVGGFALVT LILFWIWSPL GWIGTVLTIW
+     CAYFFRNPAR TTPVRDGLVV SPADGRVSMV VDIIPPPELG LGAKPLPRVS IFMSVFNCHV
+     NRSPVAGRIE RIVYSPGKFI NAELDKASED NERNSMVLST EHGQIGVIQI AGLIARRIVS
+     FVREGQPLVA GERFGLIRFG SRLDVYLPEG TKPLVAEGQT AIAGETILAD LKGGDAGRTY
+     RTD
+//

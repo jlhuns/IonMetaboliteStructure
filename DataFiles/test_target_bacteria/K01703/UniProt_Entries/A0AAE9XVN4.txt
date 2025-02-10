@@ -1,0 +1,121 @@
+ID   A0AAE9XVN4_RHOPA        Unreviewed;       469 AA.
+AC   A0AAE9XVN4;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=3-isopropylmalate dehydratase large subunit {ECO:0000256|HAMAP-Rule:MF_01026};
+DE            EC=4.2.1.33 {ECO:0000256|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Alpha-IPM isomerase {ECO:0000256|HAMAP-Rule:MF_01026};
+DE            Short=IPMI {ECO:0000256|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Isopropylmalate isomerase {ECO:0000256|HAMAP-Rule:MF_01026};
+GN   Name=leuC {ECO:0000256|HAMAP-Rule:MF_01026,
+GN   ECO:0000313|EMBL:WCL90367.1};
+GN   ORFNames=TX73_001245 {ECO:0000313|EMBL:WCL90367.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL90367.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL90367.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Catalyzes the isomerization between 2-isopropylmalate and 3-
+CC       isopropylmalate, via the formation of 2-isopropylmaleate.
+CC       {ECO:0000256|ARBA:ARBA00002695, ECO:0000256|HAMAP-Rule:MF_01026}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate = (2S)-2-isopropylmalate;
+CC         Xref=Rhea:RHEA:32287, ChEBI:CHEBI:1178, ChEBI:CHEBI:35121;
+CC         EC=4.2.1.33; Evidence={ECO:0000256|ARBA:ARBA00000491,
+CC         ECO:0000256|HAMAP-Rule:MF_01026};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01026};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01026};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 2/4. {ECO:0000256|ARBA:ARBA00004729,
+CC       ECO:0000256|HAMAP-Rule:MF_01026}.
+CC   -!- SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000256|HAMAP-
+CC       Rule:MF_01026}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family. LeuC type 1
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01026}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL90367.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155808.1; NZ_CP116810.1.
+DR   SMR; A0AAE9XVN4; -.
+DR   GeneID; 66891247; -.
+DR   KEGG; rpa:TX73_001245; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0003861; F:3-isopropylmalate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01583; IPMI; 1.
+DR   FunFam; 3.30.499.10:FF:000007; 3-isopropylmalate dehydratase large subunit; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   HAMAP; MF_01026; LeuC_type1; 1.
+DR   InterPro; IPR004430; 3-IsopropMal_deHydase_lsu.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR050067; IPM_dehydratase_rel_enz.
+DR   InterPro; IPR033941; IPMI_cat.
+DR   NCBIfam; TIGR00170; leuC; 1.
+DR   PANTHER; PTHR43822:SF9; 3-ISOPROPYLMALATE DEHYDRATASE; 1.
+DR   PANTHER; PTHR43822; HOMOACONITASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_01026};
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_01026};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|HAMAP-Rule:MF_01026};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01026};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_01026};
+KW   Leucine biosynthesis {ECO:0000256|ARBA:ARBA00022430, ECO:0000256|HAMAP-
+KW   Rule:MF_01026};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01026};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01026}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          10..460
+FT                   /note="Aconitase/3-isopropylmalate dehydratase large
+FT                   subunit alpha/beta/alpha"
+FT                   /evidence="ECO:0000259|Pfam:PF00330"
+FT   BINDING         350
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01026"
+FT   BINDING         410
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01026"
+FT   BINDING         413
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01026"
+SQ   SEQUENCE   469 AA;  50478 MW;  1BA35E38E944B633 CRC64;
+     MSAKPTTLYD KIWNDHLVHE AEDGTCLLYI DRHLVHEVTS PQAFEGLRTA GRKVHAPEKT
+     LAVVDHNVPT TDRSKPNPDP ESAEQIAALA ENARDFGITY YNEFDKRQGV VHVIGPEQGF
+     TLPGTTIVCG DSHTSTHGAF GALAHGIGTS EVEHVLATQT LIQKKAKNMR VTVDGQLPDG
+     VTAKDVILAI IGEIGTAGGT GYVLEYAGDA IRSLSMEGRM TVCNMSIEGG ARAGLIAPDE
+     RAYEFLKGRP LAPKGAAWDA ALRYWDTLRS DDGAHFDHEL KLDAAALPPI VTWGTSPEDV
+     ISVTGRVPNP ADIADEAKRL SKERALAYMG LTPGTKITDI KIDRMFIGSC TNGRIEDLRA
+     AAKVAEGKTV NANVNAIIVP GSGLVKEQAE AEGLDKIFIK AGFEWREPGC SMCLAMNPDK
+     LAPEERCAST SNRNFEGRQG FKGRTHLVSP AMAAAAAIAG HFVDIRDWH
+//

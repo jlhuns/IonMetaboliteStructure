@@ -1,0 +1,90 @@
+ID   A0R2D0_MYCS2            Unreviewed;       379 AA.
+AC   A0R2D0;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Iron-sulfur cluster carrier protein {ECO:0000256|HAMAP-Rule:MF_02040};
+GN   OrderedLocusNames=MSMEG_5068 {ECO:0000313|EMBL:ABK73693.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK73693.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK73693.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Binds and transfers iron-sulfur (Fe-S) clusters to target
+CC       apoproteins. Can hydrolyze ATP. {ECO:0000256|HAMAP-Rule:MF_02040}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_02040}.
+CC   -!- SIMILARITY: Belongs to the Mrp/NBP35 ATP-binding proteins family.
+CC       {ECO:0000256|HAMAP-Rule:MF_02040}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the Mrp/NBP35 ATP-
+CC       binding proteins family. {ECO:0000256|ARBA:ARBA00008205}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the MIP18 family.
+CC       {ECO:0000256|ARBA:ARBA00007352}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK73693.1; -; Genomic_DNA.
+DR   RefSeq; YP_889318.1; NC_008596.1.
+DR   AlphaFoldDB; A0R2D0; -.
+DR   STRING; 246196.MSMEG_5068; -.
+DR   PaxDb; 246196-MSMEI_4941; -.
+DR   KEGG; msm:MSMEG_5068; -.
+DR   PATRIC; fig|246196.19.peg.4946; -.
+DR   eggNOG; COG0489; Bacteria.
+DR   OrthoDB; 9809679at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0140663; F:ATP-dependent FeS chaperone activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IEA:InterPro.
+DR   CDD; cd02037; Mrp_NBP35; 1.
+DR   FunFam; 3.40.50.300:FF:000304; Iron-sulfur cluster carrier protein; 1.
+DR   Gene3D; 3.30.300.130; Fe-S cluster assembly (FSCA); 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_02040; Mrp_NBP35; 1.
+DR   InterPro; IPR034904; FSCA_dom_sf.
+DR   InterPro; IPR002744; MIP18-like.
+DR   InterPro; IPR000808; Mrp-like_CS.
+DR   InterPro; IPR019591; Mrp/NBP35_ATP-bd.
+DR   InterPro; IPR044304; NUBPL-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR033756; YlxH/NBP35.
+DR   PANTHER; PTHR42961; IRON-SULFUR PROTEIN NUBPL; 1.
+DR   PANTHER; PTHR42961:SF2; IRON-SULFUR PROTEIN NUBPL; 1.
+DR   Pfam; PF01883; FeS_assembly_P; 1.
+DR   Pfam; PF10609; ParA; 1.
+DR   SUPFAM; SSF117916; Fe-S cluster assembly (FSCA) domain-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS01215; MRP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_02040}; Hydrolase {ECO:0000256|HAMAP-Rule:MF_02040};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_02040};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_02040}; Metal-binding {ECO:0000256|HAMAP-Rule:MF_02040};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_02040}; Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          9..81
+FT                   /note="MIP18 family-like"
+FT                   /evidence="ECO:0000259|Pfam:PF01883"
+FT   BINDING         123..130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02040"
+SQ   SEQUENCE   379 AA;  39759 MW;  EB8B7717E80EAB85 CRC64;
+     MMSESELQSA VRAALAKVID PELRRPITEL GMVKSISIEP DHSVHVEIYL TTSACPKKNE
+     ISDLVSAAVT DVPGTGAVKV SLDVMNDEQR AELRKMLRGD SREPVIPFAQ PNSLTRVYAV
+     ASGKGGVGKS SVTVNLAAAM AARGLTVGVL DADIYGHSVP RMMGTTDRPT QVDSMILPPV
+     AHDVKVISIA MFTQGNTPVV WRGPMLHRAL QQFLADVYWG DLDVLLLDLP PGTGDVAISI
+     AQLIPGAEIL VVTTPQLAAA EVAERAGAIA LQTRQRIAGV VENMSGLLMP DGTVMQLFGE
+     GGGRLVAESL TRSIGAEVPL LGQVPLDPAL VSAGDAGVPL VLSAPDSPAG KELRKVADAL
+     SARKRGLAGM SLGLDPTRR
+//

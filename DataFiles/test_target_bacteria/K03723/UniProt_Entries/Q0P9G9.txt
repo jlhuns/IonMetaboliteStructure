@@ -1,0 +1,133 @@
+ID   Q0P9G9_CAMJE            Unreviewed;       978 AA.
+AC   Q0P9G9;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   27-NOV-2024, entry version 118.
+DE   RecName: Full=Transcription-repair-coupling factor {ECO:0000256|HAMAP-Rule:MF_00969};
+DE            Short=TRCF {ECO:0000256|HAMAP-Rule:MF_00969};
+DE            EC=3.6.4.- {ECO:0000256|HAMAP-Rule:MF_00969};
+GN   Name=mfd {ECO:0000256|HAMAP-Rule:MF_00969,
+GN   ECO:0000313|EMBL:CAL35202.1};
+GN   OrderedLocusNames=Cj1085c {ECO:0000313|EMBL:CAL35202.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35202.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35202.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Couples transcription and DNA repair by recognizing RNA
+CC       polymerase (RNAP) stalled at DNA lesions. Mediates ATP-dependent
+CC       release of RNAP and its truncated transcript from the DNA, and
+CC       recruitment of nucleotide excision repair machinery to the damaged
+CC       site. {ECO:0000256|HAMAP-Rule:MF_00969}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the helicase family.
+CC       RecG subfamily. {ECO:0000256|HAMAP-Rule:MF_00969}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the UvrB family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00969}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35202.1; -; Genomic_DNA.
+DR   PIR; H81311; H81311.
+DR   RefSeq; WP_002858240.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344478.1; NC_002163.1.
+DR   AlphaFoldDB; Q0P9G9; -.
+DR   STRING; 192222.Cj1085c; -.
+DR   PaxDb; 192222-Cj1085c; -.
+DR   EnsemblBacteria; CAL35202; CAL35202; Cj1085c.
+DR   GeneID; 905376; -.
+DR   KEGG; cje:Cj1085c; -.
+DR   PATRIC; fig|192222.6.peg.1067; -.
+DR   eggNOG; COG1197; Bacteria.
+DR   HOGENOM; CLU_005122_1_2_7; -.
+DR   OrthoDB; 9804325at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0003678; F:DNA helicase activity; IEA:TreeGrafter.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000716; P:transcription-coupled nucleotide-excision repair, DNA damage recognition; IEA:UniProtKB-UniRule.
+DR   CDD; cd17991; DEXHc_TRCF; 1.
+DR   Gene3D; 2.40.10.170; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   Gene3D; 3.30.2060.10; Penicillin-binding protein 1b domain; 1.
+DR   Gene3D; 3.90.1150.50; Transcription-repair-coupling factor, D7 domain; 1.
+DR   HAMAP; MF_00969; TRCF; 1.
+DR   InterPro; IPR003711; CarD-like/TRCF_RID.
+DR   InterPro; IPR036101; CarD-like/TRCF_RID_sf.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C-like.
+DR   InterPro; IPR004576; Mfd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR047112; RecG/Mfd.
+DR   InterPro; IPR037235; TRCF-like_C_D7.
+DR   InterPro; IPR005118; TRCF_C.
+DR   InterPro; IPR041471; UvrB_inter.
+DR   PANTHER; PTHR47964; ATP-DEPENDENT DNA HELICASE HOMOLOG RECG, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR47964:SF1; ATP-DEPENDENT DNA HELICASE HOMOLOG RECG, CHLOROPLASTIC; 1.
+DR   Pfam; PF02559; CarD_TRCF_RID; 1.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF03461; TRCF; 1.
+DR   Pfam; PF17757; UvrB_inter; 1.
+DR   SMART; SM01058; CarD_TRCF; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SMART; SM00982; TRCF; 1.
+DR   SUPFAM; SSF141259; CarD-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   SUPFAM; SSF143517; TRCF domain-like; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00969}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00969};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00969};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00969};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00969}; Helicase {ECO:0000256|ARBA:ARBA00022806};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00969};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00969}; Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          482..641
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS51192"
+FT   DOMAIN          662..816
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000259|PROSITE:PS51194"
+SQ   SEQUENCE   978 AA;  112718 MW;  DC603527925F7E66 CRC64;
+     MQASFYEYLQ NPKICELFLC KDEKQADLLA QVSRFKGLKT FVLPDFRAQF GDDLRAFSKE
+     LFDLCKILNA YHKEEEKKIL ISPLNTVLKK LPSKKHLQNY HIDKKQNFDL KCFEDEISRL
+     GYEFVDIVQD KGEISIRADI IDIFCINEEN PIRILLFGEE IESIRYFDLQ SQKSIPNELE
+     HFEICPFLKY FDKENYEIFK DKLEDFQSDA LIHDINSLGF WCIDDFFDYL ELDFLACEKF
+     DINEYEKDIS FVNAKILPQA KKFKELQSSY NKDFFEFHKN KKITLLAKNE ALFKALELED
+     TQNIHFVKSD LRLNLISPEE LIISLNQKEK QKTRKKASLI IDELKNGDYI VHEDYGVGKF
+     LGLEMIVISG AKKEFVAIEY QNSDKLLLPV ENLYLIDKYL GVSGSIPSLD KLGKTSFIKL
+     KEKLKTKLLA IASEIVIMAA KRSLVQAKKI TVDLNRQTDF IASAGFIYTS DQDKACHEIL
+     QDFQSGKVMD RLLSGDVGFG KTEVAMNAIY PVVKSGFCAF LFAPTTLLSH QHYKTLKKRF
+     DPFDIKVFKL DRFTSSAEKK QVLQNLKENK ACVVVGTHAL LSVECENLAL VIIDEEHKFG
+     VKQKEKLKEI TQNSHILSMS ATPIPRSLNQ ALSSIKSYSV LQTPPEDRMD VRTFVKENDD
+     ALLKEAIARE LRRGGQIFYI HNHIASIEQC KKHLLELFST LRILILHSKI DAKMQEEEML
+     KFENKEYDLL LSTSIVESGI DLPNANTIIV EKSDRFGMAD LHQLRGRVGR SDKQGYCYFL
+     IEDKNAITKD ALKRLVSLES NSFLGAGSIL AYHDLEIRGG GNLLGVDQSG HIEQIGYSLY
+     LKMLEDELNA LSKNEVDQKE NKLDLKLNVN AFLNSELISE DRLRLELYRR LSKCEQVHEV
+     YEIESEIEDR FGKLDIYTKQ FLSLITIKIL ALNKFKSISN YEQNIQFTAL NDEKELIKAK
+     SKDDDDILEA ILTHLRKA
+//

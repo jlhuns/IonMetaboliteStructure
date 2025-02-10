@@ -1,0 +1,119 @@
+ID   Q8E002_STRA5            Unreviewed;      1034 AA.
+AC   Q8E002;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=DNA polymerase III subunit alpha {ECO:0000256|ARBA:ARBA00019114};
+DE            EC=2.7.7.7 {ECO:0000256|ARBA:ARBA00012417};
+GN   Name=dnaE {ECO:0000313|EMBL:AAM99823.1};
+GN   OrderedLocusNames=SAG0939 {ECO:0000313|EMBL:AAM99823.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAM99823.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAM99823.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: DNA polymerase III is a complex, multichain enzyme
+CC       responsible for most of the replicative synthesis in bacteria. This DNA
+CC       polymerase also exhibits 3' to 5' exonuclease activity. The alpha chain
+CC       is the DNA polymerase. {ECO:0000256|ARBA:ARBA00025611}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=DNA(n) + a 2'-deoxyribonucleoside 5'-triphosphate = DNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339, Rhea:RHEA-
+CC         COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:173112;
+CC         EC=2.7.7.7; Evidence={ECO:0000256|ARBA:ARBA00049244};
+CC   -!- SUBUNIT: DNA polymerase III contains a core (composed of alpha, epsilon
+CC       and theta chains) that associates with a tau subunit. This core
+CC       dimerizes to form the POLIII' complex. PolIII' associates with the
+CC       gamma complex (composed of gamma, delta, delta', psi and chi chains)
+CC       and with the beta chain to form the complete DNA polymerase III
+CC       complex. {ECO:0000256|ARBA:ARBA00026073}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-C family. DnaE
+CC       subfamily. {ECO:0000256|ARBA:ARBA00009496}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99823.1; -; Genomic_DNA.
+DR   RefSeq; NP_687951.1; NC_004116.1.
+DR   RefSeq; WP_000457960.1; NC_004116.1.
+DR   AlphaFoldDB; Q8E002; -.
+DR   STRING; 208435.SAG0939; -.
+DR   KEGG; sag:SAG0939; -.
+DR   PATRIC; fig|208435.3.peg.944; -.
+DR   HOGENOM; CLU_001600_0_1_9; -.
+DR   OrthoDB; 9803237at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008408; F:3'-5' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   CDD; cd04485; DnaE_OBF; 1.
+DR   CDD; cd07431; PHP_PolIIIA; 1.
+DR   Gene3D; 1.10.10.1600; Bacterial DNA polymerase III alpha subunit, thumb domain; 1.
+DR   Gene3D; 3.20.20.140; Metal-dependent hydrolases; 2.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   InterPro; IPR011708; DNA_pol3_alpha_NTPase_dom.
+DR   InterPro; IPR041931; DNA_pol3_alpha_thumb_dom.
+DR   InterPro; IPR040982; DNA_pol3_finger.
+DR   InterPro; IPR004805; DnaE2/DnaE/PolC.
+DR   InterPro; IPR029460; DNAPol_HHH.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   InterPro; IPR004013; PHP_dom.
+DR   InterPro; IPR003141; Pol/His_phosphatase_N.
+DR   InterPro; IPR016195; Pol/histidinol_Pase-like.
+DR   NCBIfam; TIGR00594; polc; 1.
+DR   PANTHER; PTHR32294; DNA POLYMERASE III SUBUNIT ALPHA; 1.
+DR   PANTHER; PTHR32294:SF0; DNA POLYMERASE III SUBUNIT ALPHA; 1.
+DR   Pfam; PF07733; DNA_pol3_alpha; 1.
+DR   Pfam; PF17657; DNA_pol3_finger; 1.
+DR   Pfam; PF14579; HHH_6; 1.
+DR   Pfam; PF02811; PHP; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   SMART; SM00481; POLIIIAc; 1.
+DR   SUPFAM; SSF89550; PHP domain-like; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705};
+KW   DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00022932};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000821};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          3..70
+FT                   /note="Polymerase/histidinol phosphatase N-terminal"
+FT                   /evidence="ECO:0000259|SMART:SM00481"
+SQ   SEQUENCE   1034 AA;  119068 MW;  E45B4DE61829E896 CRC64;
+     MFAQLDTRTV YSFMDSLVDL KTYVSKSKSL GYQTIGILDH SNLYAAYHFI QEAQKANLRP
+     IVGFSFDIVV ENRSIEVYCI AINTVGYKNL LKLSTAQMSE KMSLNLLTEH LEGVQLILPY
+     QDVLDQLNLP FDYVIGVNLT SPQIPYTKPI IAIDTVRYFQ KNDIETLQML HAIRDNVLLK
+     DAQYASKNQE LKPCQEMTLA FKERFPEALA NLESLVENVA YHFDSDFKLP IFNREIPAGE
+     ELRTLTQNNL KSKGLWSDAY QERLEKELTI IHKMGFDDYF LIVWDLLRFG RSKGYYMGMG
+     RGSAAGSLVS YALNITGIDP VKHNLIFERF LNEERYSMPD IDIDLPDIYR GEFLRYVRNR
+     YGSMHSAQIV TFSTFGAKQA IRDVFKRFGA SEYELTNITK KIHFRDNLTS VYNRNLAFRQ
+     IIDSKIEYQK AYDIAKRIEG NPRQTSIHAA GVVMSDDLLT DHIPLKNGED MMITQYDASS
+     VEDNGLLKMD FLGLRNLTFV QKMKEKVDKD YGISIQLETI DLEDKETLKL FAAGQTKGIF
+     QFEQSGAINL LRRIRPECFE DVVATTSLNR PGASDYTENF INRRFGKEKI DLVDPVIAPI
+     LQPTYGIMLY QEQVMQIAQT YAGFTLGKSD LLRRAMSKKN SKEMQKMSQS FLEGAVSKGH
+     RQEDARLIFE RMAKFAGYGF NRSHAFAYSA LAFQLAYFKA HYSDVFYDIM INYSNSDYLI
+     DAIDFGFVIE KPSINTISYR DRIYKKKIYL GLKNIKGVPN DLAYWISKNQ PFQSIEDFLM
+     RLPQQFQKSG FISPLIAIGA FDEFDNNRRK ITSNLDSLFT FVNELGSLFA DTSYHWLEVE
+     DFSNSEKYEM EQDILGVGIS PHPLVGISQK ASRPFIPISQ VQENSEATIL VQLKQVKVIR
+     TKSSGQQMAF LTVMDINSKM DITVFPETFN IVRDDLQEGK YYYLHGKIQK RDERLQMVLN
+     GVQEATEERF WILLKNHDND KKISEILSKY KGHIPVYLHY ETTKETIQSK VHLVRKDSGL
+     ALDLSEFVVK TVYQ
+//

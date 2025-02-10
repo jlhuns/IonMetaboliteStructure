@@ -1,0 +1,87 @@
+ID   F2RDQ1_STRVP            Unreviewed;       432 AA.
+AC   F2RDQ1;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   SubName: Full=Diaminopimelate decarboxylase {ECO:0000313|EMBL:CCA59543.1};
+DE            EC=4.1.1.20 {ECO:0000313|EMBL:CCA59543.1};
+GN   OrderedLocusNames=SVEN_6257 {ECO:0000313|EMBL:CCA59543.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA59543.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA59543.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA59543.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|PIRSR:PIRSR600183-50};
+CC   -!- SIMILARITY: Belongs to the Orn/Lys/Arg decarboxylase class-II family.
+CC       {ECO:0000256|RuleBase:RU003737}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA59543.1; -; Genomic_DNA.
+DR   RefSeq; WP_015037438.1; NZ_JABVZO010000282.1.
+DR   AlphaFoldDB; F2RDQ1; -.
+DR   STRING; 953739.SVEN_6257; -.
+DR   GeneID; 69868279; -.
+DR   KEGG; sve:SVEN_6257; -.
+DR   PATRIC; fig|953739.5.peg.1464; -.
+DR   eggNOG; COG0019; Bacteria.
+DR   HOGENOM; CLU_026444_0_3_11; -.
+DR   OrthoDB; 9802241at2; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0008836; F:diaminopimelate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:TreeGrafter.
+DR   CDD; cd06839; PLPDE_III_Btrk_like; 1.
+DR   Gene3D; 3.20.20.10; Alanine racemase; 1.
+DR   Gene3D; 2.40.37.10; Lyase, Ornithine Decarboxylase, Chain A, domain 1; 1.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR022643; De-COase2_C.
+DR   InterPro; IPR022644; De-COase2_N.
+DR   InterPro; IPR000183; Orn/DAP/Arg_de-COase.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   PANTHER; PTHR43727; DIAMINOPIMELATE DECARBOXYLASE; 1.
+DR   PANTHER; PTHR43727:SF2; GROUP IV DECARBOXYLASE; 1.
+DR   Pfam; PF02784; Orn_Arg_deC_N; 1.
+DR   Pfam; PF00278; Orn_DAP_Arg_deC; 1.
+DR   PRINTS; PR01179; ODADCRBXLASE.
+DR   SUPFAM; SSF50621; Alanine racemase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51419; PLP-binding barrel; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:CCA59543.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR600183-50};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854}.
+FT   DOMAIN          23..374
+FT                   /note="Orn/DAP/Arg decarboxylase 2 C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00278"
+FT   DOMAIN          31..279
+FT                   /note="Orn/DAP/Arg decarboxylase 2 N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02784"
+FT   ACT_SITE        347
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600183-50"
+FT   MOD_RES         53
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600183-50"
+SQ   SEQUENCE   432 AA;  46398 MW;  FF7E5020F552FB4E CRC64;
+     MSTRHEVQGI PVAELAETYG TPFYLYDGDA LEGRMRALRE AFDPRLEFFF SLKSNPNIAV
+     CALLHAHGAR AEVCSMTELL TARQAGVAPE DIIFLGPGKS RDEIAACLDE GISALVCEST
+     QELALIDELA RERGVRAPVA LRVNPAFSVK GSGLTMGGKP RQFGIDEAQL LADPDLAARH
+     PHVRLMGVQV YMGTRILSEQ SVVENSTRIF DLAERLSAAL GFPLELVDIG GGLGVAYFDG
+     ENDLDLSVLA TDLNPVLAGF ADRHPSTRLV MELGRYLTAE AGTYVLRVRY VKTSLGENFA
+     VTDGGTHHHM AAVGIGSFVK RNFPMRLLSG AGEETGTETW NVTGPLCTPN DTLAKKIQLP
+     PLAPGDLLGV DRSGAYGPTA SPVNFLSHGY PAEVLVVDGR AHLVREPDRP ADLLSKQRLP
+     QAVLHARATA AN
+//

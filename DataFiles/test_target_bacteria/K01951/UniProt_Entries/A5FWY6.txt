@@ -1,0 +1,130 @@
+ID   A5FWY6_ACICJ            Unreviewed;       520 AA.
+AC   A5FWY6;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 122.
+DE   RecName: Full=GMP synthase [glutamine-hydrolyzing] {ECO:0000256|ARBA:ARBA00021562, ECO:0000256|HAMAP-Rule:MF_00344};
+DE            EC=6.3.5.2 {ECO:0000256|ARBA:ARBA00012746, ECO:0000256|HAMAP-Rule:MF_00344};
+DE   AltName: Full=GMP synthetase {ECO:0000256|HAMAP-Rule:MF_00344};
+DE   AltName: Full=Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00031356, ECO:0000256|HAMAP-Rule:MF_00344};
+GN   Name=guaA {ECO:0000256|HAMAP-Rule:MF_00344};
+GN   OrderedLocusNames=Acry_0899 {ECO:0000313|EMBL:ABQ30118.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ30118.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ30118.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ30118.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the synthesis of GMP from XMP.
+CC       {ECO:0000256|ARBA:ARBA00002332, ECO:0000256|HAMAP-Rule:MF_00344}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=XMP + L-glutamine + ATP + H2O = GMP + L-glutamate + AMP +
+CC         diphosphate + 2 H(+); Xref=Rhea:RHEA:11680, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57464, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00344};
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis; GMP from XMP (L-Gln
+CC       route): step 1/1. {ECO:0000256|ARBA:ARBA00005153, ECO:0000256|HAMAP-
+CC       Rule:MF_00344}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00344}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ30118.1; -; Genomic_DNA.
+DR   RefSeq; WP_007424436.1; NC_009484.1.
+DR   AlphaFoldDB; A5FWY6; -.
+DR   STRING; 349163.Acry_0899; -.
+DR   MEROPS; C26.957; -.
+DR   KEGG; acr:Acry_0899; -.
+DR   eggNOG; COG0518; Bacteria.
+DR   eggNOG; COG0519; Bacteria.
+DR   HOGENOM; CLU_014340_0_5_5; -.
+DR   UniPathway; UPA00189; UER00296.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003921; F:GMP synthase activity; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01742; GATase1_GMP_Synthase; 1.
+DR   CDD; cd01997; GMP_synthase_C; 1.
+DR   FunFam; 3.30.300.10:FF:000002; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   FunFam; 3.40.50.620:FF:000001; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   FunFam; 3.40.50.880:FF:000001; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   Gene3D; 3.30.300.10; -; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00344; GMP_synthase; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR001674; GMP_synth_C.
+DR   InterPro; IPR004739; GMP_synth_GATase.
+DR   InterPro; IPR022955; GMP_synthase.
+DR   InterPro; IPR025777; GMPS_ATP_PPase_dom.
+DR   InterPro; IPR022310; NAD/GMP_synthase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00884; guaA_Cterm; 1.
+DR   NCBIfam; TIGR00888; guaA_Nterm; 1.
+DR   PANTHER; PTHR11922:SF2; GMP SYNTHASE [GLUTAMINE-HYDROLYZING]; 1.
+DR   PANTHER; PTHR11922; GMP SYNTHASE-RELATED; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   Pfam; PF00958; GMP_synt_C; 1.
+DR   Pfam; PF02540; NAD_synthase; 1.
+DR   PRINTS; PR00097; ANTSNTHASEII.
+DR   PRINTS; PR00099; CPSGATASE.
+DR   PRINTS; PR00096; GATASE.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   SUPFAM; SSF54810; GMP synthetase C-terminal dimerisation domain; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+DR   PROSITE; PS51553; GMPS_ATP_PPASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00344};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|HAMAP-Rule:MF_00344};
+KW   GMP biosynthesis {ECO:0000256|ARBA:ARBA00022749, ECO:0000256|HAMAP-
+KW   Rule:MF_00344};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00344};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00344};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_00344}; Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          203..395
+FT                   /note="GMPS ATP-PPase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51553"
+FT   ACT_SITE        86
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00344,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        176
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00344,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        178
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00344,
+FT                   ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   BINDING         230..236
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00886"
+SQ   SEQUENCE   520 AA;  56253 MW;  1D3C52C80DE03B65 CRC64;
+     MSDAPSADRI LILDFGSQVT QLIARRLRET GVYCEIWPFD ADPARMAAFA PKGIILSGGP
+     ASVIEEVAPK PPADVFGAGV PVLGICYGEQ AICDALGGAV EGSDHREFGR AFIDVTADCA
+     LFEGVWARGQ RAQVWMSHGD RVTALPPGFR AVAVSEGAPF AAIADDARRI YGVQFHPEVV
+     HTPDGARLLA NFAHKVCGLA GGWTMANFRE TARDAIRAQV GTGRVICGLS GGVDSSVAAA
+     LIHEAIGDQL VCIFVDHGLL RAGEADEVVR VFRDRFNIRL VHRDASDLFF AALEGVTDPE
+     VKRKTIGRLF IEVFEEEAKN LGGADFLAQG TLYPDVIESV SARGGPSAVI KSHHNVGGLP
+     DRMRMKLVEP LRELFKDEVR ELGRELGLPE TIVGRHPFPG PGLAIRIPGP VDREKVRILQ
+     KADAIYLEEI RNAGLYDAIW QAFVALLPVR SVGVMGDGRT YDFACALRAV TSTDGMTADV
+     YPFDMSFLTR VAGRIVNEVR GINRVTYDIT SKPPGTIEWE
+//

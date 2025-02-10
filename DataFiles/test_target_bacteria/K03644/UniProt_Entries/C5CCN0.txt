@@ -1,0 +1,158 @@
+ID   LIPA_MICLC              Reviewed;         335 AA.
+AC   C5CCN0;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 86.
+DE   RecName: Full=Lipoyl synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE            EC=2.8.1.8 {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lip-syn {ECO:0000255|HAMAP-Rule:MF_00206};
+DE            Short=LS {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoate synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Lipoic acid synthase {ECO:0000255|HAMAP-Rule:MF_00206};
+DE   AltName: Full=Sulfur insertion protein LipA {ECO:0000255|HAMAP-Rule:MF_00206};
+GN   Name=lipA {ECO:0000255|HAMAP-Rule:MF_00206};
+GN   OrderedLocusNames=Mlut_13370;
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 / CCUG 5858 / IAM
+RC   1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230;
+RX   PubMed=19948807; DOI=10.1128/jb.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+CC   -!- FUNCTION: Catalyzes the radical-mediated insertion of two sulfur atoms
+CC       into the C-6 and C-8 positions of the octanoyl moiety bound to the
+CC       lipoyl domains of lipoate-dependent enzymes, thereby converting the
+CC       octanoylated domains into lipoylated derivatives. {ECO:0000255|HAMAP-
+CC       Rule:MF_00206}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[[Fe-S] cluster scaffold protein carrying a second [4Fe-
+CC         4S](2+) cluster] + N(6)-octanoyl-L-lysyl-[protein] + 2 oxidized [2Fe-
+CC         2S]-[ferredoxin] + 2 S-adenosyl-L-methionine + 4 H(+) = [[Fe-S]
+CC         cluster scaffold protein] + N(6)-[(R)-dihydrolipoyl]-L-lysyl-
+CC         [protein] + 4 Fe(3+) + 2 hydrogen sulfide + 2 5'-deoxyadenosine + 2
+CC         L-methionine + 2 reduced [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:16585,
+CC         Rhea:RHEA-COMP:9928, Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001,
+CC         Rhea:RHEA-COMP:10475, Rhea:RHEA-COMP:14568, Rhea:RHEA-COMP:14569,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17319, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:29919, ChEBI:CHEBI:33722, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57844, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:78809, ChEBI:CHEBI:83100; EC=2.8.1.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00206};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00206};
+CC       Note=Binds 2 [4Fe-4S] clusters per subunit. One cluster is coordinated
+CC       with 3 cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00206};
+CC   -!- PATHWAY: Protein modification; protein lipoylation via endogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from octanoyl-[acyl-carrier-
+CC       protein]: step 2/2. {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Lipoyl synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00206}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30842.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078524.1; NZ_WBMF01000064.1.
+DR   AlphaFoldDB; C5CCN0; -.
+DR   SMR; C5CCN0; -.
+DR   STRING; 465515.Mlut_13370; -.
+DR   EnsemblBacteria; ACS30842; ACS30842; Mlut_13370.
+DR   GeneID; 93343219; -.
+DR   KEGG; mlu:Mlut_13370; -.
+DR   PATRIC; fig|465515.4.peg.1279; -.
+DR   eggNOG; COG0320; Bacteria.
+DR   HOGENOM; CLU_033144_2_1_11; -.
+DR   UniPathway; UPA00538; UER00593.
+DR   Proteomes; UP000000738; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016992; F:lipoate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00206; Lipoyl_synth; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR031691; LIAS_N.
+DR   InterPro; IPR003698; Lipoyl_synth.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00510; lipA; 1.
+DR   PANTHER; PTHR10949; LIPOYL SYNTHASE; 1.
+DR   PANTHER; PTHR10949:SF0; LIPOYL SYNTHASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF16881; LIAS_N; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF005963; Lipoyl_synth; 1.
+DR   SFLD; SFLDF00271; lipoyl_synthase; 1.
+DR   SFLD; SFLDG01058; lipoyl_synthase_like; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..335
+FT                   /note="Lipoyl synthase"
+FT                   /id="PRO_1000204152"
+FT   DOMAIN          67..281
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   BINDING         55
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         60
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         66
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         81
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         85
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         88
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+FT   BINDING         292
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00206"
+SQ   SEQUENCE   335 AA;  37637 MW;  A43AE97B4F469D3F CRC64;
+     MSLAPEGRRL LRVEARNAEV PVERKPEWIK AKVHMGPEYI GLKNKVKSAG LHTVCEEAGC
+     PNIFECWEDR EATFLIGGDI CTRRCDFCDI TSGKPRPLDM EEPQKVAENI REMDLRYATV
+     TGVARDDQKD GAAWLYAETI RRIHALNPGT GVEILPPDFG AVPELVQQVF DARPEVFAHN
+     LETVPRIFKR IRPAFTYEKS LRVLTMAKAD GLVTKSNLIL GMGEEDHEID QALVDLHESG
+     CDIITITQYV RPSKLHHPID RWVKPQEFVQ WSQRAEEIGF QGVMAGPLVR SSYRAGKLYA
+     QAMQRLGRTL PENLAHLAGE KTARQEASAV VAQMS
+//

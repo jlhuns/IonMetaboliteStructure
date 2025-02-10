@@ -1,0 +1,158 @@
+ID   Q5ZX08_LEGPH            Unreviewed;       794 AA.
+AC   Q5ZX08;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 112.
+DE   RecName: Full=Penicillin-binding protein 1A {ECO:0000256|ARBA:ARBA00018638};
+DE            EC=2.4.99.28 {ECO:0000256|ARBA:ARBA00044770};
+DE            EC=3.4.16.4 {ECO:0000256|ARBA:ARBA00012448};
+GN   Name=ponA {ECO:0000313|EMBL:AAU27012.1};
+GN   OrderedLocusNames=lpg0925 {ECO:0000313|EMBL:AAU27012.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU27012.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU27012.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Cell wall formation. Synthesis of cross-linked peptidoglycan
+CC       from the lipid intermediates. The enzyme has a penicillin-insensitive
+CC       transglycosylase N-terminal domain (formation of linear glycan strands)
+CC       and a penicillin-sensitive transpeptidase C-terminal domain (cross-
+CC       linking of the peptide subunits). {ECO:0000256|ARBA:ARBA00002624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential cleavage: (Ac)2-L-Lys-D-Ala-|-D-Ala. Also
+CC         transpeptidation of peptidyl-alanyl moieties that are N-acyl
+CC         substituents of D-alanine.; EC=3.4.16.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00034000};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-
+CC         Ala)](n)-di-trans,octa-cis-undecaprenyl diphosphate + beta-D-GlcNAc-
+CC         (1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-di-trans,octa-
+CC         cis-undecaprenyl diphosphate = [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-
+CC         D-Glu-L-Lys-D-Ala-D-Ala)](n+1)-di-trans,octa-cis-undecaprenyl
+CC         diphosphate + di-trans,octa-cis-undecaprenyl diphosphate + H(+);
+CC         Xref=Rhea:RHEA:23708, Rhea:RHEA-COMP:9602, Rhea:RHEA-COMP:9603,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58405, ChEBI:CHEBI:60033,
+CC         ChEBI:CHEBI:78435; EC=2.4.99.28;
+CC         Evidence={ECO:0000256|ARBA:ARBA00044715};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00004752}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|ARBA:ARBA00004249}; Single-pass type II membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004249}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the transpeptidase
+CC       family. {ECO:0000256|ARBA:ARBA00007090}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the
+CC       glycosyltransferase 51 family. {ECO:0000256|ARBA:ARBA00007739}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27012.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946660.1; NC_002942.5.
+DR   RefSeq; YP_094959.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZX08; -.
+DR   STRING; 272624.lpg0925; -.
+DR   CAZy; GT51; Glycosyltransferase Family 51.
+DR   PaxDb; 272624-lpg0925; -.
+DR   KEGG; lpn:lpg0925; -.
+DR   PATRIC; fig|272624.6.peg.957; -.
+DR   eggNOG; COG5009; Bacteria.
+DR   HOGENOM; CLU_006354_2_4_6; -.
+DR   OrthoDB; 9766909at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:TreeGrafter.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008658; F:penicillin binding; IEA:InterPro.
+DR   GO; GO:0008955; F:peptidoglycan glycosyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0009002; F:serine-type D-Ala-D-Ala carboxypeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   FunFam; 1.10.3810.10:FF:000003; Penicillin-binding protein 1a; 1.
+DR   Gene3D; 1.10.3810.10; Biosynthetic peptidoglycan transglycosylase-like; 1.
+DR   Gene3D; 3.40.710.10; DD-peptidase/beta-lactamase superfamily; 2.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR001264; Glyco_trans_51.
+DR   InterPro; IPR050396; Glycosyltr_51/Transpeptidase.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   InterPro; IPR036950; PBP_transglycosylase.
+DR   InterPro; IPR031376; PCB_OB.
+DR   InterPro; IPR001460; PCN-bd_Tpept.
+DR   NCBIfam; TIGR02074; PBP_1a_fam; 1.
+DR   PANTHER; PTHR32282; BINDING PROTEIN TRANSPEPTIDASE, PUTATIVE-RELATED; 1.
+DR   PANTHER; PTHR32282:SF27; PENICILLIN-BINDING PROTEIN 1A; 1.
+DR   Pfam; PF17092; PCB_OB; 1.
+DR   Pfam; PF00912; Transgly; 1.
+DR   Pfam; PF00905; Transpeptidase; 1.
+DR   SUPFAM; SSF56601; beta-lactamase/transpeptidase-like; 1.
+DR   SUPFAM; SSF53955; Lysozyme-like; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance {ECO:0000256|ARBA:ARBA00023251};
+KW   Carboxypeptidase {ECO:0000256|ARBA:ARBA00022645};
+KW   Cell inner membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022519};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316};
+KW   Glycosyltransferase {ECO:0000256|ARBA:ARBA00022676};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Multifunctional enzyme {ECO:0000256|ARBA:ARBA00023268};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984};
+KW   Protease {ECO:0000256|ARBA:ARBA00022670};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Signal-anchor {ECO:0000256|ARBA:ARBA00022968};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022676};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        12..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          61..233
+FT                   /note="Glycosyl transferase family 51"
+FT                   /evidence="ECO:0000259|Pfam:PF00912"
+FT   DOMAIN          320..428
+FT                   /note="Penicillin-binding protein OB-like"
+FT                   /evidence="ECO:0000259|Pfam:PF17092"
+FT   DOMAIN          431..699
+FT                   /note="Penicillin-binding protein transpeptidase"
+FT                   /evidence="ECO:0000259|Pfam:PF00905"
+FT   REGION          767..794
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        782..794
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   794 AA;  88714 MW;  3A9FFA8C4DD71361 CRC64;
+     MKKMAYFWRK GLWALMSLFF LLIVAGSLLY LYLESQLPNV DSLKTVQLQV PLQIFSKEGL
+     LIQEYGEKKR IPVTYDEIPP TLIHALIATE DQRFFEHPGV DVMGLGRAAV SMLKTGTKSQ
+     GGSTITMQVA RNFFLSRKKT FLRKFNEIML AIKIDRELSK EKILELYLNR VYLGNRAYGV
+     GAAAMVYFGK SLKDLNLAEL AMIAGLPQAP STQNPIANPL AAKKRRDHVL ERLLEEHYIN
+     EEQYQNAVNQ PITAKYHGTN IKVKAPYVAE MIRQSLYDNF GPEAYTKGYK VYTTIDGKLQ
+     NTANEVVEKN LIDYDHRHGY RGPIANIGEK DSQSPKIRQK YLRQYPELNS LIPAVVTEVR
+     EKEATAALQN GQIIIIPWEG MSWARPALKR GGWVGKSPTK AQQVVAAGDI IYVHPTEKSW
+     QLAQIPEAES AMVAMNPKNG AIEVLVGGFN FSKSKFNRAT QSSRQPGSSF KPFVYAAALN
+     NGYNLATLIN DAPIVVDDPS QPNLWRPHNV NLKFNGPTRL KQALVQSKNL VSIRILDDIG
+     IDYTIDFLTR FGFNKKSLPR ALSLALGSLS ISPMDLTTAY AVFANGGYKV EPYLIDHITD
+     ADGKILLQAK PSVVCDPCDK DKVDASTLAP RVISEDIAFL MNTALRDVIQ HGTGRAARVL
+     NRQDIAGKTG TTNDQVDAWF AGFNSNLVVT TWIGFDNPKS LHEYAANLAL PLWIDFMKVA
+     LKDKPETELK QPENVIAVRI DPVSGLLAKP NQENGIIEYF RQNEVPSEED QGPVYNAHND
+     QQEEELAPVE ESLF
+//

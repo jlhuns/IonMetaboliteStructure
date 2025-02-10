@@ -1,0 +1,90 @@
+ID   A0AAF0BPD3_RHOPA        Unreviewed;       271 AA.
+AC   A0AAF0BPD3;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   05-FEB-2025, entry version 5.
+DE   SubName: Full=3'(2'),5'-bisphosphate nucleotidase CysQ {ECO:0000313|EMBL:WCL91288.1};
+GN   ORFNames=TX73_005935 {ECO:0000313|EMBL:WCL91288.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL91288.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL91288.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR600760-2};
+CC   -!- SIMILARITY: Belongs to the inositol monophosphatase superfamily.
+CC       {ECO:0000256|ARBA:ARBA00009759}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL91288.1; -; Genomic_DNA.
+DR   RefSeq; WP_042440838.1; NZ_CP116810.1.
+DR   GeneID; 66892177; -.
+DR   KEGG; rpa:TX73_005935; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0008934; F:inositol monophosphate 1-phosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006020; P:inositol metabolic process; IEA:TreeGrafter.
+DR   GO; GO:0007165; P:signal transduction; IEA:TreeGrafter.
+DR   CDD; cd01638; CysQ; 1.
+DR   Gene3D; 3.40.190.80; -; 1.
+DR   Gene3D; 3.30.540.10; Fructose-1,6-Bisphosphatase, subunit A, domain 1; 1.
+DR   InterPro; IPR000760; Inositol_monophosphatase-like.
+DR   PANTHER; PTHR20854; INOSITOL MONOPHOSPHATASE; 1.
+DR   PANTHER; PTHR20854:SF4; INOSITOL-1-MONOPHOSPHATASE-RELATED; 1.
+DR   Pfam; PF00459; Inositol_P; 1.
+DR   PRINTS; PR00377; IMPHPHTASES.
+DR   SUPFAM; SSF56655; Carbohydrate phosphatase; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR600760-2};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR600760-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   BINDING         78
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600760-2"
+FT   BINDING         96
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600760-2"
+FT   BINDING         98
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600760-2"
+FT   BINDING         99
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600760-2"
+FT   BINDING         215
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR600760-2"
+SQ   SEQUENCE   271 AA;  29156 MW;  78C1D657CF4522A1 CRC64;
+     MPDANPDTRH IETSDSDAAL LADTVREAGA LALSMFRTEL RTWTKGASSP VSEADIAVDE
+     LIRRRLQDAT PHYGWLSEES ADDLVRLDKD WVWIVDPIDG TRAYLAGRED WCVSVALIAN
+     AKPMLAAVFA PVSGEFFFAT RGAGASLNGA SLHASVGTTL EGAKVAGPKP LIERLALPPT
+     AHILPRIGSL ALRLCRVADR QVDVAFAGGQ SRDWDLAAAD LIVHEADGTM TTLAGEDIVY
+     NRPEVTHGVL VAAGRERHAH IVEHFRVSPR G
+//

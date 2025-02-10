@@ -1,0 +1,83 @@
+ID   Q5ZVD9_LEGPH            Unreviewed;       154 AA.
+AC   Q5ZVD9;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 93.
+DE   RecName: Full=[Ribosomal protein bS18]-alanine N-acetyltransferase {ECO:0000256|RuleBase:RU363094};
+DE            EC=2.3.1.266 {ECO:0000256|RuleBase:RU363094};
+GN   OrderedLocusNames=lpg1501 {ECO:0000313|EMBL:AAU27583.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU27583.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU27583.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Acetylates the N-terminal alanine of ribosomal protein bS18.
+CC       {ECO:0000256|RuleBase:RU363094}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-terminal L-alanyl-[ribosomal protein bS18] + acetyl-CoA = N-
+CC         terminal N(alpha)-acetyl-L-alanyl-[ribosomal protein bS18] + CoA +
+CC         H(+); Xref=Rhea:RHEA:43756, Rhea:RHEA-COMP:10676, Rhea:RHEA-
+CC         COMP:10677, ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:64718, ChEBI:CHEBI:83683; EC=2.3.1.266;
+CC         Evidence={ECO:0000256|RuleBase:RU363094};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|RuleBase:RU363094}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. RimI subfamily.
+CC       {ECO:0000256|RuleBase:RU363094}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27583.1; -; Genomic_DNA.
+DR   RefSeq; WP_010947230.1; NC_002942.5.
+DR   RefSeq; YP_095530.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZVD9; -.
+DR   STRING; 272624.lpg1501; -.
+DR   PaxDb; 272624-lpg1501; -.
+DR   GeneID; 66490632; -.
+DR   KEGG; lpn:lpg1501; -.
+DR   PATRIC; fig|272624.6.peg.1573; -.
+DR   eggNOG; COG0456; Bacteria.
+DR   HOGENOM; CLU_013985_23_2_6; -.
+DR   OrthoDB; 9796919at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0031415; C:NatA complex; IEA:InterPro.
+DR   GO; GO:0008999; F:peptide-alanine-alpha-N-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   CDD; cd04301; NAT_SF; 1.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   InterPro; IPR006464; AcTrfase_RimI/Ard1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR045047; Ard1-like.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   NCBIfam; TIGR01575; rimI; 1.
+DR   PANTHER; PTHR23091; N-TERMINAL ACETYLTRANSFERASE; 1.
+DR   PANTHER; PTHR23091:SF4; N-TERMINAL AMINO-ACID N(ALPHA)-ACETYLTRANSFERASE NATA; 1.
+DR   Pfam; PF13673; Acetyltransf_10; 1.
+DR   SUPFAM; SSF55729; Acyl-CoA N-acyltransferases (Nat); 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000313|EMBL:AAU27583.1}; Cytoplasm {ECO:0000256|RuleBase:RU363094};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:AAU27583.1}.
+FT   DOMAIN          3..153
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51186"
+SQ   SEQUENCE   154 AA;  17568 MW;  90681259E9126954 CRC64;
+     MILNIRRMKD SDIENVYSIE TNVHIAPWSK DILRDCVLVG YDCRVLEINN GDSSILAGYI
+     ISRISNNSCH ILNLCIAKPL QSKGLGRKLL QTVLYSLSKY TQTESVILEV RPSNSAALHL
+     YETMGFEKVE IKKDYYKDKN SVEDAILLKK LLHH
+//

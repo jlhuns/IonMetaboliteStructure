@@ -1,0 +1,125 @@
+ID   GLMS_BACCR              Reviewed;         600 AA.
+AC   Q81J01;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=Glutamine--fructose-6-phosphate aminotransferase [isomerizing] {ECO:0000255|HAMAP-Rule:MF_00164};
+DE            EC=2.6.1.16 {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=D-fructose-6-phosphate amidotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=GFAT {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Glucosamine-6-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=Hexosephosphate aminotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+DE   AltName: Full=L-glutamine--D-fructose-6-phosphate amidotransferase {ECO:0000255|HAMAP-Rule:MF_00164};
+GN   Name=glmS {ECO:0000255|HAMAP-Rule:MF_00164};
+GN   OrderedLocusNames=BC_0190;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the first step in hexosamine metabolism, converting
+CC       fructose-6P into glucosamine-6P using glutamine as a nitrogen source.
+CC       {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-fructose 6-phosphate + L-glutamine = D-glucosamine 6-
+CC         phosphate + L-glutamate; Xref=Rhea:RHEA:13237, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:58725, ChEBI:CHEBI:61527; EC=2.6.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00164};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00164}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07259.1; -; Genomic_DNA.
+DR   RefSeq; NP_830058.1; NC_004722.1.
+DR   RefSeq; WP_000334164.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81J01; -.
+DR   SMR; Q81J01; -.
+DR   STRING; 226900.BC_0190; -.
+DR   KEGG; bce:BC0190; -.
+DR   PATRIC; fig|226900.8.peg.181; -.
+DR   HOGENOM; CLU_012520_7_1_9; -.
+DR   OrthoDB; 106547at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0004360; F:glutamine-fructose-6-phosphate transaminase (isomerizing) activity; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006002; P:fructose 6-phosphate metabolic process; IBA:GO_Central.
+DR   GO; GO:0006487; P:protein N-linked glycosylation; IBA:GO_Central.
+DR   GO; GO:0006047; P:UDP-N-acetylglucosamine metabolic process; IBA:GO_Central.
+DR   CDD; cd00714; GFAT; 1.
+DR   CDD; cd05008; SIS_GlmS_GlmD_1; 1.
+DR   CDD; cd05009; SIS_GlmS_GlmD_2; 1.
+DR   FunFam; 3.40.50.10490:FF:000022; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   FunFam; 3.60.20.10:FF:000006; Glutamine--fructose-6-phosphate aminotransferase [isomerizing]; 1.
+DR   Gene3D; 3.40.50.10490; Glucose-6-phosphate isomerase like protein, domain 1; 2.
+DR   Gene3D; 3.60.20.10; Glutamine Phosphoribosylpyrophosphate, subunit 1, domain 1; 1.
+DR   HAMAP; MF_00164; GlmS; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR005855; GFAT.
+DR   InterPro; IPR047084; GFAT_N.
+DR   InterPro; IPR035466; GlmS/AgaS_SIS.
+DR   InterPro; IPR035490; GlmS/FrlB_SIS.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001347; SIS_dom.
+DR   InterPro; IPR046348; SIS_dom_sf.
+DR   NCBIfam; TIGR01135; glmS; 1.
+DR   PANTHER; PTHR10937; GLUCOSAMINE--FRUCTOSE-6-PHOSPHATE AMINOTRANSFERASE, ISOMERIZING; 1.
+DR   PANTHER; PTHR10937:SF0; GLUTAMINE--FRUCTOSE-6-PHOSPHATE TRANSAMINASE (ISOMERIZING); 1.
+DR   Pfam; PF13522; GATase_6; 1.
+DR   Pfam; PF01380; SIS; 2.
+DR   SUPFAM; SSF56235; N-terminal nucleophile aminohydrolases (Ntn hydrolases); 1.
+DR   SUPFAM; SSF53697; SIS domain; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS51464; SIS; 2.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Cytoplasm; Glutamine amidotransferase;
+KW   Reference proteome; Repeat; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   CHAIN           2..600
+FT                   /note="Glutamine--fructose-6-phosphate aminotransferase
+FT                   [isomerizing]"
+FT                   /id="PRO_0000135295"
+FT   DOMAIN          2..217
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   DOMAIN          283..422
+FT                   /note="SIS 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   DOMAIN          452..590
+FT                   /note="SIS 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   ACT_SITE        2
+FT                   /note="Nucleophile; for GATase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+FT   ACT_SITE        595
+FT                   /note="For Fru-6P isomerization activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00164"
+SQ   SEQUENCE   600 AA;  65822 MW;  4B09F34374ED1F88 CRC64;
+     MCGIVGFIGE QDAKEILLKG LEKLEYRGYD SAGIAVQAEN GVVVYKEKGR IAKLREIVDE
+     NVAASVGIGH TRWATHGVPS KVNAHPHQST SKRFTLVHNG VIENYELVKK EYLQDVTFVS
+     ETDTEVIVQL MEQQVSTGLS VEEAFRNTLS LLHGSYAIGL LDAENPNMIY VAKNKSPLLV
+     GVGDNFNVVA SDAMAMLQVT DQFIELMDKE IVIVTKESIT IKNLQGETIE RAPFTAELDA
+     SDIEKGTYPH FMLKEIDEQP LVIRNIIQKY QDENGEIELN QDIRNAILDS DRIYIIACGT
+     SYHAGLVGKQ FIEKFAKMPV EVHVASEFSY NMPLLTERPF FIYISQSGET ADSRAVLVQT
+     NEMGHKALTI TNVPGSTLSR EADYTLPLYA GPEIAVASTK AYTAQLAVLS ILAADIAKAK
+     GEVLDFDLTH ELGLVANAMI ELCDQKEEMD ALAKQFLATT RNCFFIGRSV DFYVGLEGAL
+     KLKEISYIQA EGFAGGELKH GTIALIENGT PVIALATQEH VNLGIRGNVK EVVARGANPC
+     IISMKGLEME GDSFVLPTVH EALAPLVAVI PLQLISYYAA LHRECDVDKP RNLAKSVTVE
+//

@@ -1,0 +1,85 @@
+ID   Q0P889_CAMJE            Unreviewed;       274 AA.
+AC   Q0P889;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=UTP--glucose-1-phosphate uridylyltransferase {ECO:0000256|ARBA:ARBA00012415, ECO:0000256|RuleBase:RU361259};
+DE            EC=2.7.7.9 {ECO:0000256|ARBA:ARBA00012415, ECO:0000256|RuleBase:RU361259};
+DE   AltName: Full=UDP-glucose pyrophosphorylase {ECO:0000256|RuleBase:RU361259};
+GN   Name=galU {ECO:0000313|EMBL:CAL35636.1};
+GN   OrderedLocusNames=Cj1536c {ECO:0000313|EMBL:CAL35636.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35636.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35636.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate + UTP + H(+) = UDP-alpha-D-glucose
+CC         + diphosphate; Xref=Rhea:RHEA:19889, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:46398, ChEBI:CHEBI:58601,
+CC         ChEBI:CHEBI:58885; EC=2.7.7.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048128,
+CC         ECO:0000256|RuleBase:RU361259};
+CC   -!- SIMILARITY: Belongs to the UDPGP type 2 family.
+CC       {ECO:0000256|ARBA:ARBA00006890, ECO:0000256|RuleBase:RU361259}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35636.1; -; Genomic_DNA.
+DR   PIR; F81300; F81300.
+DR   RefSeq; WP_002851421.1; NZ_SZUC01000003.1.
+DR   RefSeq; YP_002344908.1; NC_002163.1.
+DR   AlphaFoldDB; Q0P889; -.
+DR   SMR; Q0P889; -.
+DR   IntAct; Q0P889; 24.
+DR   STRING; 192222.Cj1536c; -.
+DR   PaxDb; 192222-Cj1536c; -.
+DR   EnsemblBacteria; CAL35636; CAL35636; Cj1536c.
+DR   GeneID; 905818; -.
+DR   KEGG; cje:Cj1536c; -.
+DR   PATRIC; fig|192222.6.peg.1513; -.
+DR   eggNOG; COG1210; Bacteria.
+DR   HOGENOM; CLU_029499_1_2_7; -.
+DR   OrthoDB; 9803306at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0003983; F:UTP:glucose-1-phosphate uridylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006011; P:UDP-alpha-D-glucose metabolic process; IEA:InterPro.
+DR   CDD; cd02541; UGPase_prokaryotic; 1.
+DR   FunFam; 3.90.550.10:FF:000045; UTP--glucose-1-phosphate uridylyltransferase; 1.
+DR   Gene3D; 3.90.550.10; Spore Coat Polysaccharide Biosynthesis Protein SpsA, Chain A; 1.
+DR   InterPro; IPR005771; GalU_uridylyltTrfase_bac/arc.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   NCBIfam; TIGR01099; galU; 1.
+DR   PANTHER; PTHR43197; UTP--GLUCOSE-1-PHOSPHATE URIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR43197:SF1; UTP--GLUCOSE-1-PHOSPHATE URIDYLYLTRANSFERASE; 1.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF53448; Nucleotide-diphospho-sugar transferases; 1.
+PE   3: Inferred from homology;
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU361259};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transferase {ECO:0000256|RuleBase:RU361259, ECO:0000313|EMBL:CAL35636.1}.
+FT   DOMAIN          9..266
+FT                   /note="Nucleotidyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF00483"
+SQ   SEQUENCE   274 AA;  30522 MW;  712F04678B09D811 CRC64;
+     MLQTCIFPAA GYGTRFLPAT KTLPKEMLPI LTKPLIHYGV DEALEAGMEN MGFVTGRGKR
+     ALEDYFDISY ELEHQISGTK KEYLLDEIRS LINRCTFTFT RQNQMKGLGD AVLKGRPLVG
+     DEAFGVILAD DLCVNEEGLN VMAQMVKIYE KYRCTIIAVM EVPKEQVSNY GVISGNFVEE
+     NLIMVNSMIE KPSPDEAPSN LAIIGRYILT PDIFGILENT KAGKNGEIQL TDALLTQATN
+     GMVLAYKFQG KRFDCGSVEG FVEATNYFYE KSKC
+//

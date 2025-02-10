@@ -1,0 +1,84 @@
+ID   A7ZBV2_CAMC1            Unreviewed;       388 AA.
+AC   A7ZBV2;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Cytosine-specific methyltransferase {ECO:0000256|RuleBase:RU000417};
+DE            EC=2.1.1.37 {ECO:0000256|RuleBase:RU000417};
+GN   ORFNames=CCC13826_0819 {ECO:0000313|EMBL:EAT98887.1};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT98887.1, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxycytidine in DNA + S-adenosyl-L-methionine = a 5-
+CC         methyl-2'-deoxycytidine in DNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:13681, Rhea:RHEA-COMP:11369, Rhea:RHEA-COMP:11370,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:85452, ChEBI:CHEBI:85454; EC=2.1.1.37;
+CC         Evidence={ECO:0000256|RuleBase:RU000417};
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. C5-methyltransferase family. {ECO:0000256|PROSITE-
+CC       ProRule:PRU01016, ECO:0000256|RuleBase:RU000416}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT98887.1; -; Genomic_DNA.
+DR   RefSeq; WP_012001261.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZBV2; -.
+DR   STRING; 360104.CCC13826_0819; -.
+DR   REBASE; 16134; M1.Cco13826ORF819P.
+DR   KEGG; cco:CCC13826_0819; -.
+DR   eggNOG; COG0270; Bacteria.
+DR   HOGENOM; CLU_006958_2_4_7; -.
+DR   OrthoDB; 9813719at2; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0051719; F:DNA (cytosine-5-)-methyltransferase activity, acting on CpN substrates; IEA:UniProtKB-EC.
+DR   GO; GO:0051720; F:DNA (cytosine-5-)-methyltransferase activity, acting on CpNpG substrates; IEA:UniProtKB-EC.
+DR   GO; GO:0003677; F:DNA binding; IEA:TreeGrafter.
+DR   GO; GO:0009307; P:DNA restriction-modification system; IEA:UniProtKB-KW.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0044027; P:negative regulation of gene expression via chromosomal CpG island methylation; IEA:TreeGrafter.
+DR   Gene3D; 3.90.120.10; DNA Methylase, subunit A, domain 2; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR050390; C5-Methyltransferase.
+DR   InterPro; IPR018117; C5_DNA_meth_AS.
+DR   InterPro; IPR001525; C5_MeTfrase.
+DR   InterPro; IPR031303; C5_meth_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00675; dcm; 1.
+DR   PANTHER; PTHR10629; CYTOSINE-SPECIFIC METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10629:SF52; DNA (CYTOSINE-5)-METHYLTRANSFERASE 1; 1.
+DR   Pfam; PF00145; DNA_methylase; 1.
+DR   PRINTS; PR00105; C5METTRFRASE.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS00094; C5_MTASE_1; 1.
+DR   PROSITE; PS00095; C5_MTASE_2; 1.
+DR   PROSITE; PS51679; SAM_MT_C5; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|PROSITE-
+KW   ProRule:PRU01016}; Restriction system {ECO:0000256|ARBA:ARBA00022747};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PROSITE-ProRule:PRU01016};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PROSITE-
+KW   ProRule:PRU01016}.
+FT   ACT_SITE        91
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01016"
+SQ   SEQUENCE   388 AA;  44972 MW;  AEBC99B8CDCD533C CRC64;
+     MKKHTFIDLF AGAGGMAEGF YQEGYMALTH IELDKYACLT LQERMRHYGY HENEINKIKP
+     TDITDKNIIS IIESNIGKTS DIDVIIGGPP CQSFSSHGKA RDPFSMKKDP RNYLYENYLN
+     ILNYFKPKFF VFENVSGILS TKIKGKSIIK DIFDGMKKNY NIIENKDMIL LNAVDFGVPQ
+     DRKRIIIIGT RKDLSINPKS IYDELKNITK KLKKTTVRDA ISDLPKLKPS EGMQTVNFNP
+     TNKSSYLKLI RQNNYNLLHG HIARNHNELD RKRYRLMAKN KWDLSDLYKN EPSLIHIKKR
+     LFNNSYCVQN YDAPSKTIIA HLYKDGNQFI HPDYTQERSI TPREAARLQS FPDDFVFPCS
+     ITQQYKQIGN AVPPLMSKYI AMVLKKYL
+//

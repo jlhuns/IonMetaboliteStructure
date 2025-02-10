@@ -1,0 +1,99 @@
+ID   C9RK32_FIBSS            Unreviewed;       247 AA.
+AC   C9RK32;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase {ECO:0000256|ARBA:ARBA00012618, ECO:0000256|NCBIfam:TIGR00222};
+DE            EC=2.1.2.11 {ECO:0000256|ARBA:ARBA00012618, ECO:0000256|NCBIfam:TIGR00222};
+GN   Name=panB {ECO:0000313|EMBL:ADL25762.1};
+GN   OrderedLocusNames=FSU_2718 {ECO:0000313|EMBL:ADL25762.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25762.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000388-3};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000256|PIRSR:PIRSR000388-3};
+CC   -!- SUBUNIT: Homodecamer; pentamer of dimers.
+CC       {ECO:0000256|ARBA:ARBA00011424}.
+CC   -!- SIMILARITY: Belongs to the PanB family.
+CC       {ECO:0000256|ARBA:ARBA00008676}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25762.1; -; Genomic_DNA.
+DR   RefSeq; WP_014546826.1; NC_017448.1.
+DR   AlphaFoldDB; C9RK32; -.
+DR   STRING; 59374.FSU_2718; -.
+DR   KEGG; fsc:FSU_2718; -.
+DR   KEGG; fsu:Fisuc_2179; -.
+DR   PATRIC; fig|59374.8.peg.2603; -.
+DR   eggNOG; COG0413; Bacteria.
+DR   HOGENOM; CLU_036645_1_0_0; -.
+DR   OrthoDB; 9781789at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0003864; F:3-methyl-2-oxobutanoate hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:TreeGrafter.
+DR   GO; GO:0008168; F:methyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06557; KPHMT-like; 1.
+DR   Gene3D; 3.20.20.60; Phosphoenolpyruvate-binding domains; 1.
+DR   InterPro; IPR003700; Pantoate_hydroxy_MeTrfase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_kinase-like_dom_sf.
+DR   NCBIfam; TIGR00222; panB; 1.
+DR   PANTHER; PTHR20881; 3-METHYL-2-OXOBUTANOATE HYDROXYMETHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR20881:SF0; 3-METHYL-2-OXOBUTANOATE HYDROXYMETHYLTRANSFERASE; 1.
+DR   Pfam; PF02548; Pantoate_transf; 1.
+DR   PIRSF; PIRSF000388; Pantoate_hydroxy_MeTrfase; 1.
+DR   SUPFAM; SSF51621; Phosphoenolpyruvate/pyruvate domain; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|PIRSR:PIRSR000388-3};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR000388-3};
+KW   Methyltransferase {ECO:0000313|EMBL:ADL25762.1};
+KW   Pantothenate biosynthesis {ECO:0000256|ARBA:ARBA00022655};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ADL25762.1}.
+FT   ACT_SITE        173
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-1"
+FT   BINDING         43..44
+FT                   /ligand="3-methyl-2-oxobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:11851"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-2"
+FT   BINDING         43
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-3"
+FT   BINDING         82
+FT                   /ligand="3-methyl-2-oxobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:11851"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-2"
+FT   BINDING         82
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-3"
+FT   BINDING         110
+FT                   /ligand="3-methyl-2-oxobutanoate"
+FT                   /ligand_id="ChEBI:CHEBI:11851"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-2"
+FT   BINDING         112
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000388-3"
+SQ   SEQUENCE   247 AA;  26825 MW;  C2826FEE3FA32E28 CRC64;
+     MLTPEDIKAK KSKHEMISMI TAYDFAFANI AEAAGIDQIL VGDSLANTML GYKSTREIGM
+     TEMLIFTAAV CRGAPNTHVV ADMPYLSDKD PQTAYDNARR LMDVGASSVK IEGTPAGVLE
+     FLHEKGIPVC GHLGLLPQTA ENFKQKGRTE EEARAIEEAA KFVEGLCFET VLEHIPEELG
+     KKITDEISIP TIGIGGGKFT DGHVLVMHDA LGMHPNKIPP FATKFVDMYS VGVQGVKKYI
+     ESVKARA
+//

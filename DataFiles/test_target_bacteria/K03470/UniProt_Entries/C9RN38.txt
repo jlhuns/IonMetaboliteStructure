@@ -1,0 +1,116 @@
+ID   C9RN38_FIBSS            Unreviewed;       247 AA.
+AC   C9RN38;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   RecName: Full=Ribonuclease HII {ECO:0000256|HAMAP-Rule:MF_00052};
+DE            Short=RNase HII {ECO:0000256|HAMAP-Rule:MF_00052};
+DE            EC=3.1.26.4 {ECO:0000256|HAMAP-Rule:MF_00052};
+GN   Name=rnhB {ECO:0000256|HAMAP-Rule:MF_00052,
+GN   ECO:0000313|EMBL:ADL25880.1};
+GN   OrderedLocusNames=FSU_3275 {ECO:0000313|EMBL:ADL25880.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL25880.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000256|ARBA:ARBA00004065, ECO:0000256|HAMAP-
+CC       Rule:MF_00052, ECO:0000256|RuleBase:RU003515}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000077, ECO:0000256|HAMAP-
+CC         Rule:MF_00052, ECO:0000256|PROSITE-ProRule:PRU01319,
+CC         ECO:0000256|RuleBase:RU003515};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00052, ECO:0000256|PROSITE-ProRule:PRU01319};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00052, ECO:0000256|PROSITE-ProRule:PRU01319};
+CC       Note=Manganese or magnesium. Binds 1 divalent metal ion per monomer in
+CC       the absence of substrate. May bind a second metal ion after substrate
+CC       binding. {ECO:0000256|HAMAP-Rule:MF_00052, ECO:0000256|PROSITE-
+CC       ProRule:PRU01319};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_00052}.
+CC   -!- SIMILARITY: Belongs to the RNase HII family.
+CC       {ECO:0000256|ARBA:ARBA00007383, ECO:0000256|HAMAP-Rule:MF_00052,
+CC       ECO:0000256|RuleBase:RU003515}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL25880.1; -; Genomic_DNA.
+DR   RefSeq; WP_014547301.1; NC_017448.1.
+DR   AlphaFoldDB; C9RN38; -.
+DR   STRING; 59374.FSU_3275; -.
+DR   KEGG; fsc:FSU_3275; -.
+DR   KEGG; fsu:Fisuc_2707; -.
+DR   PATRIC; fig|59374.8.peg.3133; -.
+DR   eggNOG; COG0164; Bacteria.
+DR   HOGENOM; CLU_036532_3_2_0; -.
+DR   OrthoDB; 9803420at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032299; C:ribonuclease H2 complex; IEA:TreeGrafter.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043137; P:DNA replication, removal of RNA primer; IEA:TreeGrafter.
+DR   GO; GO:0006298; P:mismatch repair; IEA:TreeGrafter.
+DR   CDD; cd07182; RNase_HII_bacteria_HII_like; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   HAMAP; MF_00052_B; RNase_HII_B; 1.
+DR   InterPro; IPR022898; RNase_HII.
+DR   InterPro; IPR001352; RNase_HII/HIII.
+DR   InterPro; IPR024567; RNase_HII/HIII_dom.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   PANTHER; PTHR10954; RIBONUCLEASE H2 SUBUNIT A; 1.
+DR   PANTHER; PTHR10954:SF18; RIBONUCLEASE HII; 1.
+DR   Pfam; PF01351; RNase_HII; 2.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS51975; RNASE_H_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00052};
+KW   Endonuclease {ECO:0000256|ARBA:ARBA00022759, ECO:0000256|HAMAP-
+KW   Rule:MF_00052};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00052};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211, ECO:0000256|HAMAP-Rule:MF_00052};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00052};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|HAMAP-Rule:MF_00052}.
+FT   DOMAIN          31..247
+FT                   /note="RNase H type-2"
+FT                   /evidence="ECO:0000259|PROSITE:PS51975"
+FT   BINDING         37
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00052,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01319"
+FT   BINDING         38
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00052,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01319"
+FT   BINDING         161
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00052,
+FT                   ECO:0000256|PROSITE-ProRule:PRU01319"
+SQ   SEQUENCE   247 AA;  26488 MW;  0B374B06682C83E2 CRC64;
+     MKFKLPAFLE NIESPVEGEV ALRKFAAENS AIVVGIDEVG RGPLAGPVVA CAAVLKSPDA
+     LLTLNDSKKL SRPKREAMFD AVKDACACYA IASASVEEID EINILEADFL AMRRALQALG
+     FPGLNESAPE IPIEVKGSLN DVMPDSVPAS ALSSNVLIAV DGNLKIRGVP AENQMPIVKG
+     DGRIASISAA SILAKVFRDR YMDKLEELYP GYGFDKHAGY GTKAHLDAIR RQGFSPAHRK
+     SFHPKSL
+//

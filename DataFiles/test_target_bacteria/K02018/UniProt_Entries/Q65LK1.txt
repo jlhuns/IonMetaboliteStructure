@@ -1,0 +1,98 @@
+ID   Q65LK1_BACLD            Unreviewed;       218 AA.
+AC   Q65LK1; Q62WZ2;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Molybdenum transport system permease {ECO:0000256|RuleBase:RU365097};
+GN   Name=yvgM {ECO:0000313|EMBL:AAU22716.1};
+GN   OrderedLocusNames=BL01352 {ECO:0000313|EMBL:AAU22716.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22716.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22716.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Part of the binding-protein-dependent transport system for
+CC       molybdenum; probably responsible for the translocation of the substrate
+CC       across the membrane. {ECO:0000256|RuleBase:RU365097}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. CysTW subfamily. {ECO:0000256|ARBA:ARBA00007069,
+CC       ECO:0000256|RuleBase:RU365097}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22716.1; -; Genomic_DNA.
+DR   RefSeq; WP_009328900.1; NC_006322.1.
+DR   AlphaFoldDB; Q65LK1; -.
+DR   STRING; 279010.BL01352; -.
+DR   KEGG; bld:BLi01155; -.
+DR   KEGG; bli:BL01352; -.
+DR   PATRIC; fig|279010.13.peg.1138; -.
+DR   eggNOG; COG4149; Bacteria.
+DR   HOGENOM; CLU_016047_14_3_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015098; F:molybdate ion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   InterPro; IPR011867; ModB_ABC.
+DR   NCBIfam; TIGR02141; modB_ABC; 1.
+DR   PANTHER; PTHR30183; MOLYBDENUM TRANSPORT SYSTEM PERMEASE PROTEIN MODB; 1.
+DR   PANTHER; PTHR30183:SF3; MOLYBDENUM TRANSPORT SYSTEM PERMEASE PROTEIN MODB; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|RuleBase:RU365097};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Molybdenum {ECO:0000256|ARBA:ARBA00022505, ECO:0000256|RuleBase:RU365097};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        12..35
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        47..68
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        88..106
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        134..156
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        162..187
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        194..215
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          9..217
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   218 AA;  23577 MW;  5B0262325F09CA02 CRC64;
+     MLEEFLSPIE ISIQVSAAAG IIAVLLGTAA ARLLANRNFK GKSIIETVMM LPLVLPPTVV
+     GFFLIVIFGR QSVIGRLIEN VFQAPVIFTW WAAVIAAAVV AFPLMYQSAK SGFLAVDRDI
+     EDAARVDGAN EWRVFLFVTV PLASNGIMTG IVLSFARALG EFGATLMFAG IIPGVTQTVP
+     TAIYLAIDSG NMTLAWMWVA SIAIISFLML FFVQFKQK
+//

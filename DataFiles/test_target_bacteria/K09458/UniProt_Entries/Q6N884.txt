@@ -1,0 +1,80 @@
+ID   Q6N884_RHOPA            Unreviewed;       402 AA.
+AC   Q6N884;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 98.
+DE   SubName: Full=3-oxoacyl-acyl carrier protein synthase {ECO:0000313|EMBL:CAE27461.1};
+DE            EC=2.3.1.41 {ECO:0000313|EMBL:CAE27461.1};
+DE   SubName: Full=Beta-ketoacyl-ACP synthase {ECO:0000313|EMBL:WCL92171.1};
+DE            EC=2.3.1.179 {ECO:0000313|EMBL:WCL92171.1};
+GN   OrderedLocusNames=RPA2020 {ECO:0000313|EMBL:CAE27461.1};
+GN   ORFNames=TX73_010410 {ECO:0000313|EMBL:WCL92171.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27461.1};
+RN   [1] {ECO:0000313|EMBL:WCL92171.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92171.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27461.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27461.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92171.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92171.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572599; CAE27461.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92171.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157575.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2020; -.
+DR   GeneID; 66893064; -.
+DR   KEGG; rpa:TX73_010410; -.
+DR   eggNOG; COG0304; Bacteria.
+DR   HOGENOM; CLU_000022_69_3_5; -.
+DR   PhylomeDB; Q6N884; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:TreeGrafter.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR000794; Beta-ketoacyl_synthase.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   PANTHER; PTHR11712:SF336; 3-OXOACYL-[ACYL-CARRIER-PROTEIN] SYNTHASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11712; POLYKETIDE SYNTHASE-RELATED; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 1.
+DR   SUPFAM; SSF53901; Thiolase-like; 2.
+PE   4: Predicted;
+KW   Acyltransferase {ECO:0000313|EMBL:CAE27461.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000313|EMBL:CAE27461.1}.
+FT   DOMAIN          16..257
+FT                   /note="Beta-ketoacyl synthase-like N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00109"
+SQ   SEQUENCE   402 AA;  42291 MW;  F5DE976D6C35CBF0 CRC64;
+     MADTTTSRAE PIEAWITGIG LATSLAEGLD AHWDALTERR VNVDTAAFAP YVVHPLAPLS
+     FDKQIPKKGD QRQMEAWQRI GTYAAGLALE SAGIKGNTEI LSRMDMIVAA GGGERDLAVD
+     SAVLNAEGYG TVPPSALNER LMNDLRPTLF LAQLSNLLAG NIAIVHGVTG SSRTFMGEEE
+     AGVDAARIAL ARIAAGQSDI ALIGAAQNGE RKDLLMLYEF GDFNLKDNYA PVFARGPKGG
+     FALGSGSAFL VIESKAHAEA RGAKPYARLK NVVADQSRRR NAGDVTASLE KLWSKLGPRD
+     GATAIITGAT GAEPVTAEET AFLRNHANAP VRGTATPFGH VMEAQFPLGI ALAALSLSRG
+     ALYPPNDPTG LEVEMGSTPD QIVVIGAGHW RGEGMALVEA VR
+//

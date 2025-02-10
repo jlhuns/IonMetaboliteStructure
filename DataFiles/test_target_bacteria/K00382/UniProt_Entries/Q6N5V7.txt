@@ -1,0 +1,155 @@
+ID   Q6N5V7_RHOPA            Unreviewed;       473 AA.
+AC   Q6N5V7;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   27-NOV-2024, entry version 136.
+DE   RecName: Full=Dihydrolipoyl dehydrogenase {ECO:0000256|ARBA:ARBA00012608, ECO:0000256|RuleBase:RU003692};
+DE            EC=1.8.1.4 {ECO:0000256|ARBA:ARBA00012608, ECO:0000256|RuleBase:RU003692};
+GN   Name=lpdA {ECO:0000313|EMBL:WCL93032.1};
+GN   OrderedLocusNames=RPA2863 {ECO:0000313|EMBL:CAE28304.1};
+GN   ORFNames=TX73_014835 {ECO:0000313|EMBL:WCL93032.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28304.1};
+RN   [1] {ECO:0000313|EMBL:WCL93032.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93032.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28304.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28304.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93032.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93032.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(6)-[(R)-dihydrolipoyl]-L-lysyl-[protein] + NAD(+) = N(6)-
+CC         [(R)-lipoyl]-L-lysyl-[protein] + NADH + H(+); Xref=Rhea:RHEA:15045,
+CC         Rhea:RHEA-COMP:10474, Rhea:RHEA-COMP:10475, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83100; EC=1.8.1.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00043836,
+CC         ECO:0000256|RuleBase:RU003692};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR000350-3,
+CC         ECO:0000256|RuleBase:RU003692};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000256|PIRSR:PIRSR000350-3,
+CC       ECO:0000256|RuleBase:RU003692};
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC       {ECO:0000256|RuleBase:RU003692}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000256|ARBA:ARBA00007532,
+CC       ECO:0000256|RuleBase:RU003692}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572602; CAE28304.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93032.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158412.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2863; -.
+DR   GeneID; 66893943; -.
+DR   KEGG; rpa:TX73_014835; -.
+DR   eggNOG; COG1249; Bacteria.
+DR   HOGENOM; CLU_016755_0_2_5; -.
+DR   PhylomeDB; Q6N5V7; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0004148; F:dihydrolipoyl dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   FunFam; 3.30.390.30:FF:000001; Dihydrolipoyl dehydrogenase; 1.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 2.
+DR   InterPro; IPR050151; Class-I_Pyr_Nuc-Dis_Oxidored.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR006258; Lipoamide_DH.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   NCBIfam; TIGR01350; lipoamide_DH; 1.
+DR   PANTHER; PTHR22912:SF151; DIHYDROLIPOYL DEHYDROGENASE 1, CHLOROPLASTIC; 1.
+DR   PANTHER; PTHR22912; DISULFIDE OXIDOREDUCTASE; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF55424; FAD/NAD-linked reductases, dimerisation (C-terminal) domain; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond {ECO:0000256|ARBA:ARBA00023157};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027, ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Nucleotide-binding {ECO:0000256|PIRSR:PIRSR000350-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU003692}; Pyruvate {ECO:0000313|EMBL:CAE28304.1};
+KW   Redox-active center {ECO:0000256|ARBA:ARBA00023284,
+KW   ECO:0000256|RuleBase:RU003692};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          6..334
+FT                   /note="FAD/NAD(P)-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF07992"
+FT   DOMAIN          354..462
+FT                   /note="Pyridine nucleotide-disulphide oxidoreductase
+FT                   dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF02852"
+FT   ACT_SITE        452
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-2"
+FT   BINDING         52
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         188..195
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         211
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         279
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         319
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   BINDING         325..328
+FT                   /ligand="FAD"
+FT                   /ligand_id="ChEBI:CHEBI:57692"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-3"
+FT   DISULFID        43..48
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000350-4"
+SQ   SEQUENCE   473 AA;  50406 MW;  45B2E93385AA2E69 CRC64;
+     MSETSFDVII IGSGPGGYVA AIRAAQLGFK TAIVEKSYLG GICLNWGCIP TKALLRSAEI
+     YHYMQHAKDY GLSADNISFD PKAIVQRSRG VSKRLNDGVG FLMKKNKISI IWGQATIDAP
+     GKLTVAASKT DAPKGALPPG SYQAKHIIVA TGARPRVLPG LEPDKKLVWT YFEAMVPEVM
+     PKSLLVVGSG AIGIEFASFF HTMGAKVTVV EVLPQILPVE DAEIAALARK RFEKQGIKIL
+     TGAKVTKLDK KADSVVATID PGNGKPETAE FDRVISAVGV VGNVENLGLD KLGVKLDRGT
+     IVTDGLGRTN VPGLYAIGDV AGPPMLAHKA EHEGVICVEA IKGLHPHPLD KSLIPGCTYC
+     QPQVASVGLT EAKAKEQGRE IRVGRFPFTA NGKAIALGED QGLVKVIFDK KTGQLLGAHM
+     IGAEVTELIQ GYVVAMNLET TEEELMHTVF PHPTLSEMMK EAVLDAYGKV LNA
+//

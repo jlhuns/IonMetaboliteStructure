@@ -1,0 +1,95 @@
+ID   Q6N971_RHOPA            Unreviewed;       291 AA.
+AC   Q6N971;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 99.
+DE   RecName: Full=protein-glutamate O-methyltransferase {ECO:0000256|ARBA:ARBA00012534};
+DE            EC=2.1.1.80 {ECO:0000256|ARBA:ARBA00012534};
+GN   Name=cheR3 {ECO:0000313|EMBL:CAE27119.1};
+GN   OrderedLocusNames=RPA1678 {ECO:0000313|EMBL:CAE27119.1};
+GN   ORFNames=TX73_008625 {ECO:0000313|EMBL:WCL91819.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27119.1};
+RN   [1] {ECO:0000313|EMBL:WCL91819.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91819.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27119.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27119.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91819.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91819.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamyl-[protein] + S-adenosyl-L-methionine = [protein]-L-
+CC         glutamate 5-O-methyl ester + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:24452, Rhea:RHEA-COMP:10208, Rhea:RHEA-COMP:10311,
+CC         ChEBI:CHEBI:29973, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:82795; EC=2.1.1.80;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001541};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572598; CAE27119.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91819.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157235.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1678; -.
+DR   GeneID; 66892712; -.
+DR   KEGG; rpa:TX73_008625; -.
+DR   eggNOG; COG1352; Bacteria.
+DR   HOGENOM; CLU_025854_0_2_5; -.
+DR   PhylomeDB; Q6N971; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0008983; F:protein-glutamate O-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.155.10; Chemotaxis receptor methyltransferase CheR, N-terminal domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR050903; Bact_Chemotaxis_MeTrfase.
+DR   InterPro; IPR022642; CheR_C.
+DR   InterPro; IPR000780; CheR_MeTrfase.
+DR   InterPro; IPR022641; CheR_N.
+DR   InterPro; IPR036804; CheR_N_sf.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR24422; CHEMOTAXIS PROTEIN METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR24422:SF21; CHEMOTAXIS PROTEIN METHYLTRANSFERASE 1; 1.
+DR   Pfam; PF01739; CheR; 1.
+DR   Pfam; PF03705; CheR_N; 1.
+DR   PRINTS; PR00996; CHERMTFRASE.
+DR   SMART; SM00138; MeTrc; 1.
+DR   SUPFAM; SSF47757; Chemotaxis receptor methyltransferase CheR, N-terminal domain; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS50123; CHER; 1.
+PE   4: Predicted;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000313|EMBL:CAE27119.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:CAE27119.1}.
+FT   DOMAIN          1..253
+FT                   /note="CheR-type methyltransferase"
+FT                   /evidence="ECO:0000259|PROSITE:PS50123"
+SQ   SEQUENCE   291 AA;  32542 MW;  4EDD914978DFA100 CRC64;
+     MTPLDYEYLQ KLLKDRSGLV LSADKKYLLE SRLLPLARKA GVPGITDLVQ KMKAGSDSLI
+     NDVVEAMTTN ETFFFRDKTP FDHFKDSVIP ELIKARAGRK SLRIWCAASS TGQEPYSLAM
+     LLKEKASELA GWRIEIVATD LSPEVLEKSK AGLYTQFEVQ RGLPIQLLVK YFKQVGTMWQ
+     LNADVRSMVQ YRLFNLLQDF TALGKFDVIF CRNVLIYFDQ ATKSDIFNRL MKVNEPDGYL
+     FLGAAETVVG LTDSYRICPK RRGVYLPNSS AASTAPGLAL GGLKTSALTG R
+//

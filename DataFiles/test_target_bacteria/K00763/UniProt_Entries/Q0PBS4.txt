@@ -1,0 +1,113 @@
+ID   Q0PBS4_CAMJE            Unreviewed;       457 AA.
+AC   Q0PBS4;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 116.
+DE   RecName: Full=Nicotinate phosphoribosyltransferase {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|RuleBase:RU365100};
+DE            EC=6.3.4.21 {ECO:0000256|ARBA:ARBA00013236, ECO:0000256|RuleBase:RU365100};
+GN   OrderedLocusNames=Cj0230c {ECO:0000313|EMBL:CAL34385.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34385.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34385.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the first step in the biosynthesis of NAD from
+CC       nicotinic acid, the ATP-dependent synthesis of beta-nicotinate D-
+CC       ribonucleotide from nicotinate and 5-phospho-D-ribose 1-phosphate.
+CC       {ECO:0000256|RuleBase:RU365100}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + ATP +
+CC         H2O = nicotinate beta-D-ribonucleotide + ADP + phosphate +
+CC         diphosphate; Xref=Rhea:RHEA:36163, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32544, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57502, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:456216; EC=6.3.4.21;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048668,
+CC         ECO:0000256|RuleBase:RU365100};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; nicotinate D-
+CC       ribonucleotide from nicotinate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004952, ECO:0000256|RuleBase:RU365100}.
+CC   -!- PTM: Transiently phosphorylated on a His residue during the reaction
+CC       cycle. Phosphorylation strongly increases the affinity for substrates
+CC       and increases the rate of nicotinate D-ribonucleotide production.
+CC       Dephosphorylation regenerates the low-affinity form of the enzyme,
+CC       leading to product release. {ECO:0000256|RuleBase:RU365100}.
+CC   -!- SIMILARITY: Belongs to the NAPRTase family.
+CC       {ECO:0000256|ARBA:ARBA00010897, ECO:0000256|RuleBase:RU365100}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34385.1; -; Genomic_DNA.
+DR   PIR; F81440; F81440.
+DR   RefSeq; WP_002851910.1; NZ_SZUC01000006.1.
+DR   RefSeq; YP_002343673.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PBS4; -.
+DR   STRING; 192222.Cj0230c; -.
+DR   PaxDb; 192222-Cj0230c; -.
+DR   EnsemblBacteria; CAL34385; CAL34385; Cj0230c.
+DR   GeneID; 904557; -.
+DR   KEGG; cje:Cj0230c; -.
+DR   PATRIC; fig|192222.6.peg.224; -.
+DR   eggNOG; COG1488; Bacteria.
+DR   HOGENOM; CLU_025154_2_1_7; -.
+DR   OrthoDB; 9771406at2; -.
+DR   UniPathway; UPA00253; UER00457.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016757; F:glycosyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004516; F:nicotinate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034355; P:NAD salvage; IEA:TreeGrafter.
+DR   CDD; cd01570; NAPRTase_A; 1.
+DR   FunFam; 3.20.20.70:FF:000076; Nicotinate phosphoribosyltransferase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   Gene3D; 3.20.140.10; nicotinate phosphoribosyltransferase; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR041525; N/Namide_PRibTrfase.
+DR   InterPro; IPR040727; NAPRTase_N.
+DR   InterPro; IPR007229; Nic_PRibTrfase-Fam.
+DR   InterPro; IPR006405; Nic_PRibTrfase_pncB.
+DR   InterPro; IPR036068; Nicotinate_pribotase-like_C.
+DR   NCBIfam; TIGR01513; NAPRTase_put; 1.
+DR   PANTHER; PTHR11098; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11098:SF1; NICOTINATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   Pfam; PF04095; NAPRTase; 1.
+DR   Pfam; PF17767; NAPRTase_N; 1.
+DR   PIRSF; PIRSF000484; NAPRT; 1.
+DR   SUPFAM; SSF51690; Nicotinate/Quinolinate PRTase C-terminal domain-like; 1.
+DR   SUPFAM; SSF54675; Nicotinate/Quinolinate PRTase N-terminal domain-like; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase {ECO:0000313|EMBL:CAL34385.1};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|RuleBase:RU365100};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|RuleBase:RU365100};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   Transferase {ECO:0000256|RuleBase:RU365100, ECO:0000313|EMBL:CAL34385.1}.
+FT   DOMAIN          10..134
+FT                   /note="Nicotinate phosphoribosyltransferase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17767"
+FT   DOMAIN          154..335
+FT                   /note="Nicotinate/nicotinamide phosphoribosyltransferase"
+FT                   /evidence="ECO:0000259|Pfam:PF04095"
+SQ   SEQUENCE   457 AA;  52263 MW;  C99F7BD67F1FF12E CRC64;
+     MMTSKTSLAL LCDFYEFTMS QGYFKNNKKD QICYFDIFFR KIPDSGSFAI FAGLEDILDF
+     VENLSFDAED IEFLRKQGIF DTEFLDFLAN FKFKGEIYAM REGEVIFPNE PLLCIKATTI
+     EAQLLETFLL LSLNHQSLIA TKTNRIVRAA KDSKILEFGS RRAQGSEAAL KGARAAFIGG
+     CIGSACTLAG KIYNIPINGT MAHSWVQMFE NELEAFKAYV KIYPKNPVFL IDTYDCLNSG
+     LKNAIKVFKE FGIQEGGVRI DSGNLLELSL KIRQELDQAG LQKCKIIVSN ALDEWSIKKL
+     KEQNAPIDIF GVGERLITAS SDPIFSCVYK LAALEDQGIK PKIKISENNE KSTLPHFKKL
+     FRVYDKNTQK ILFDELYVFD ENPNQDENLE RKELLELVYK EKRLLKKSSL NTIQDYTKEQ
+     ISKLDESFLD LDRFVKFEVK LSPKLQNITE DLLKTRF
+//

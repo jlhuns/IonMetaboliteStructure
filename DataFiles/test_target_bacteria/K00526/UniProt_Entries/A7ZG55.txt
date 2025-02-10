@@ -1,0 +1,120 @@
+ID   A7ZG55_CAMC1            Unreviewed;       340 AA.
+AC   A7ZG55;
+DT   23-OCT-2007, integrated into UniProtKB/TrEMBL.
+DT   23-OCT-2007, sequence version 1.
+DT   27-NOV-2024, entry version 95.
+DE   RecName: Full=Ribonucleoside-diphosphate reductase subunit beta {ECO:0000256|PIRNR:PIRNR000355};
+DE            EC=1.17.4.1 {ECO:0000256|PIRNR:PIRNR000355};
+GN   Name=nrdB {ECO:0000313|EMBL:EAT97692.1};
+GN   ORFNames=CCC13826_0297 {ECO:0000313|EMBL:EAT97692.1};
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104 {ECO:0000313|EMBL:EAT97692.1, ECO:0000313|Proteomes:UP000001121};
+RN   [1] {ECO:0000313|Proteomes:UP000001121}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826 {ECO:0000313|Proteomes:UP000001121};
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Provides the precursors necessary for DNA synthesis.
+CC       Catalyzes the biosynthesis of deoxyribonucleotides from the
+CC       corresponding ribonucleotides. {ECO:0000256|PIRNR:PIRNR000355}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         disulfide + H2O = a ribonucleoside 5'-diphosphate + [thioredoxin]-
+CC         dithiol; Xref=Rhea:RHEA:23252, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15377, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:73316; EC=1.17.4.1;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000355};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR000355,
+CC         ECO:0000256|PIRSR:PIRSR000355-2};
+CC       Note=Binds 2 iron ions per subunit. {ECO:0000256|PIRNR:PIRNR000355,
+CC       ECO:0000256|PIRSR:PIRSR000355-2};
+CC   -!- SIMILARITY: Belongs to the ribonucleoside diphosphate reductase small
+CC       chain family. {ECO:0000256|ARBA:ARBA00009303,
+CC       ECO:0000256|PIRNR:PIRNR000355}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97692.1; -; Genomic_DNA.
+DR   RefSeq; WP_009494790.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZG55; -.
+DR   STRING; 360104.CCC13826_0297; -.
+DR   KEGG; cco:CCC13826_0297; -.
+DR   eggNOG; COG0208; Bacteria.
+DR   HOGENOM; CLU_035339_1_0_7; -.
+DR   OrthoDB; 9766544at2; -.
+DR   UniPathway; UPA00326; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004748; F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor; IEA:UniProtKB-EC.
+DR   GO; GO:0009263; P:deoxyribonucleotide biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01049; RNRR2; 1.
+DR   Gene3D; 1.10.620.20; Ribonucleotide Reductase, subunit A; 1.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR012348; RNR-like.
+DR   InterPro; IPR033909; RNR_small.
+DR   InterPro; IPR000358; RNR_small_fam.
+DR   PANTHER; PTHR23409; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE SMALL CHAIN; 1.
+DR   PANTHER; PTHR23409:SF18; RIBONUCLEOSIDE-DIPHOSPHATE REDUCTASE SUBUNIT M2; 1.
+DR   Pfam; PF00268; Ribonuc_red_sm; 1.
+DR   PIRSF; PIRSF000355; NrdB; 1.
+DR   SUPFAM; SSF47240; Ferritin-like; 1.
+PE   3: Inferred from homology;
+KW   Deoxyribonucleotide synthesis {ECO:0000256|PIRNR:PIRNR000355};
+KW   Iron {ECO:0000256|PIRNR:PIRNR000355, ECO:0000256|PIRSR:PIRSR000355-2};
+KW   Metal-binding {ECO:0000256|PIRNR:PIRNR000355,
+KW   ECO:0000256|PIRSR:PIRSR000355-2};
+KW   Oxidoreductase {ECO:0000256|PIRNR:PIRNR000355,
+KW   ECO:0000313|EMBL:EAT97692.1}.
+FT   ACT_SITE        126
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-1"
+FT   BINDING         88
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         119
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         119
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         122
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         184
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         218
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+FT   BINDING         221
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000355-2"
+SQ   SEQUENCE   340 AA;  39751 MW;  E736407A2F71EB5C CRC64;
+     MNRKRIYNPS SNENLTDRRV FNGNPHGILN FTKAKYEWAL KLWDLMEANT WFPKEVDTTD
+     DVRDYAYNLT EAEKRMYDLV WSQLISMDSF QTNNLADNIN PYITAPEINA VLSRQAYEEA
+     NHSKSYAVMV EAICDNTDLI YEMEKHDDVL REKNDYISSV YEELAGEVTD EKLLLAMVAN
+     QILEGIYFYS GFTAIYALAR AGKMLGSAQM IRFIQRDEIT HLLLFQNMIN SVRKERPDLF
+     TPETEAKIYD MFEKAGNLEI KWGKYITQNQ IMGFTDDIIE QYIHYLIDQR LVAIGLKRKY
+     NVAHPIKWVD DFAKFNDQKS NFFEAKVTNY SKGSISFDDF
+//

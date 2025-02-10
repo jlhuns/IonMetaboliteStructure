@@ -1,0 +1,106 @@
+ID   RIMM_SALTI              Reviewed;         182 AA.
+AC   P0A2B6; P36246;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   27-NOV-2024, entry version 103.
+DE   RecName: Full=Ribosome maturation factor RimM {ECO:0000255|HAMAP-Rule:MF_00014};
+GN   Name=rimM {ECO:0000255|HAMAP-Rule:MF_00014};
+GN   OrderedLocusNames=STY2862, t2630;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: An accessory protein needed during the final step in the
+CC       assembly of 30S ribosomal subunit, possibly for assembly of the head
+CC       region. Essential for efficient processing of 16S rRNA. May be needed
+CC       both before and after RbfA during the maturation of 16S rRNA. It has
+CC       affinity for free ribosomal 30S subunits but not for 70S ribosomes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- SUBUNIT: Binds ribosomal protein uS19. {ECO:0000255|HAMAP-
+CC       Rule:MF_00014}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- DOMAIN: The PRC barrel domain binds ribosomal protein uS19.
+CC       {ECO:0000255|HAMAP-Rule:MF_00014}.
+CC   -!- SIMILARITY: Belongs to the RimM family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00014}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD05854.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70201.1; -; Genomic_DNA.
+DR   RefSeq; NP_457145.1; NC_003198.1.
+DR   RefSeq; WP_000043266.1; NZ_WSUR01000036.1.
+DR   AlphaFoldDB; P0A2B6; -.
+DR   SMR; P0A2B6; -.
+DR   STRING; 220341.gene:17586758; -.
+DR   KEGG; stt:t2630; -.
+DR   KEGG; sty:STY2862; -.
+DR   PATRIC; fig|220341.7.peg.2912; -.
+DR   eggNOG; COG0806; Bacteria.
+DR   HOGENOM; CLU_077636_1_0_6; -.
+DR   OMA; IKVDWDP; -.
+DR   OrthoDB; 9783509at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005840; C:ribosome; IEA:InterPro.
+DR   GO; GO:0043022; F:ribosome binding; IEA:InterPro.
+DR   GO; GO:0042274; P:ribosomal small subunit biogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   FunFam; 2.30.30.240:FF:000001; Ribosome maturation factor RimM; 1.
+DR   FunFam; 2.40.30.60:FF:000001; Ribosome maturation factor RimM; 1.
+DR   Gene3D; 2.30.30.240; PRC-barrel domain; 1.
+DR   Gene3D; 2.40.30.60; RimM; 1.
+DR   HAMAP; MF_00014; Ribosome_mat_RimM; 1.
+DR   InterPro; IPR027275; PRC-brl_dom.
+DR   InterPro; IPR011033; PRC_barrel-like_sf.
+DR   InterPro; IPR011961; RimM.
+DR   InterPro; IPR002676; RimM_N.
+DR   InterPro; IPR036976; RimM_N_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   NCBIfam; TIGR02273; 16S_RimM; 1.
+DR   PANTHER; PTHR33692; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   PANTHER; PTHR33692:SF1; RIBOSOME MATURATION FACTOR RIMM; 1.
+DR   Pfam; PF05239; PRC; 1.
+DR   Pfam; PF01782; RimM; 1.
+DR   SUPFAM; SSF50346; PRC-barrel domain; 1.
+DR   SUPFAM; SSF50447; Translation proteins; 1.
+PE   3: Inferred from homology;
+KW   Chaperone; Cytoplasm; Ribosome biogenesis; rRNA processing.
+FT   CHAIN           1..182
+FT                   /note="Ribosome maturation factor RimM"
+FT                   /id="PRO_0000163346"
+FT   DOMAIN          103..182
+FT                   /note="PRC barrel"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00014"
+SQ   SEQUENCE   182 AA;  20468 MW;  63B3DF62B0EEB7E8 CRC64;
+     MSKQLAAQVP AEPVVLGKMG SSYGIRGWLR VFSSTEDAES IFDYQPWFIQ KAGQWQQVQL
+     ESWKHHNQDL IIKLKGVDDR DAANLLTNCE IVVDSSQLPA LEEGDYYWKD LMGCQVVTAE
+     GYDLGKVIDM METGSNDVLV IKANLKDAFG IKERLVPFLD GQVIKKVDLA TRTIEVDWDP
+     GF
+//

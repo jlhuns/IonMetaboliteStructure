@@ -1,0 +1,187 @@
+ID   ACSA_SALTI              Reviewed;         652 AA.
+AC   Q8Z1R0;
+DT   26-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 126.
+DE   RecName: Full=Acetyl-coenzyme A synthetase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            Short=AcCoA synthetase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            Short=Acs {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            EC=6.2.1.1 {ECO:0000255|HAMAP-Rule:MF_01123};
+DE   AltName: Full=Acetate--CoA ligase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE   AltName: Full=Acyl-activating enzyme {ECO:0000255|HAMAP-Rule:MF_01123};
+GN   Name=acs {ECO:0000255|HAMAP-Rule:MF_01123};
+GN   OrderedLocusNames=STY4473, t4181;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of acetate into acetyl-CoA (AcCoA),
+CC       an essential intermediate at the junction of anabolic and catabolic
+CC       pathways. Acs undergoes a two-step reaction. In the first half
+CC       reaction, Acs combines acetate with ATP to form acetyl-adenylate
+CC       (AcAMP) intermediate. In the second half reaction, it can then transfer
+CC       the acetyl group from AcAMP to the sulfhydryl group of CoA, forming the
+CC       product AcCoA. {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   -!- FUNCTION: Enables the cell to use acetate during aerobic growth to
+CC       generate energy via the TCA cycle, and biosynthetic compounds via the
+CC       glyoxylate shunt. Acetylates CheY, the response regulator involved in
+CC       flagellar movement and chemotaxis. {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetate + ATP + CoA = acetyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:23176, ChEBI:CHEBI:30089, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:456215; EC=6.2.1.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01123};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01123};
+CC   -!- PTM: Acetylated. Deacetylation by the SIR2-homolog deacetylase
+CC       activates the enzyme. {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09259.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71645.1; -; Genomic_DNA.
+DR   RefSeq; NP_458573.1; NC_003198.1.
+DR   RefSeq; WP_000083869.1; NZ_WSUR01000035.1.
+DR   AlphaFoldDB; Q8Z1R0; -.
+DR   SMR; Q8Z1R0; -.
+DR   STRING; 220341.gene:17588303; -.
+DR   KEGG; stt:t4181; -.
+DR   KEGG; sty:STY4473; -.
+DR   PATRIC; fig|220341.7.peg.4575; -.
+DR   eggNOG; COG0365; Bacteria.
+DR   HOGENOM; CLU_000022_3_6_6; -.
+DR   OMA; INVSYNC; -.
+DR   OrthoDB; 9803968at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003987; F:acetate-CoA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016208; F:AMP binding; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019427; P:acetyl-CoA biosynthetic process from acetate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-UniRule.
+DR   CDD; cd05966; ACS; 1.
+DR   FunFam; 3.30.300.30:FF:000004; Acetyl-coenzyme A synthetase; 1.
+DR   FunFam; 3.40.50.12780:FF:000001; Acetyl-coenzyme A synthetase; 1.
+DR   Gene3D; 3.30.300.30; -; 1.
+DR   Gene3D; 3.40.50.12780; N-terminal domain of ligase-like; 1.
+DR   HAMAP; MF_01123; Ac_CoA_synth; 1.
+DR   InterPro; IPR011904; Ac_CoA_lig.
+DR   InterPro; IPR032387; ACAS_N.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR045851; AMP-bd_C_sf.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_synth/lig_dom.
+DR   InterPro; IPR042099; ANL_N_sf.
+DR   NCBIfam; TIGR02188; Ac_CoA_lig_AcsA; 1.
+DR   PANTHER; PTHR24095; ACETYL-COENZYME A SYNTHETASE; 1.
+DR   PANTHER; PTHR24095:SF243; ACETYL-COENZYME A SYNTHETASE; 1.
+DR   Pfam; PF16177; ACAS_N; 1.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   SUPFAM; SSF56801; Acetyl-CoA synthetase-like; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; ATP-binding; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding.
+FT   CHAIN           1..652
+FT                   /note="Acetyl-coenzyme A synthetase"
+FT                   /id="PRO_0000208385"
+FT   BINDING         191..194
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         311
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         335
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         387..389
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         411..416
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         500
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         515
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         523
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         526
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         537
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         539
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         542
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         584
+FT                   /ligand="CoA"
+FT                   /ligand_id="ChEBI:CHEBI:57287"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   MOD_RES         609
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+SQ   SEQUENCE   652 AA;  72164 MW;  1586F56B2B1695DA CRC64;
+     MSQTHKHAIP ANIADRCLIN PEQYETKYKQ SINDPDTFWG EQGKILDWIT PYQKVKNTSF
+     APGNVSIKWY EDGTLNLAAN CLDRHLQENG DRTAIIWEGD DASQSKHISY RELHRDVCRF
+     ANTLLDLGIK KGDVVAIYMP MVPEAAVAML ACARIGAVHS VIFGGFSPEA IAGRIIDSSS
+     RLVITADEGV RAGRSIPLKK NVDDALKNPN VTSVEHVIVL KRTGNDIDWQ EGRDLWWRDL
+     IEKASPEHQP EAMNAEDPLF ILYTSGSTGK PKGVLHTTGG YLVYAATTFK YVFDYHPGDI
+     YWCTADVGWV TGHSYLLYGP LACGATTLMF EGVPNWPTPA RMCQVVDKHQ VNILYTAPTA
+     IRALMAEGDK AIEGTDRSSL RILGSVGEPI NPEAWEWYWK KIGKEKCPVV DTWWQTETGG
+     FMITPLPGAI ELKAGSATRP FFGVQPALVD NEGHPQEGAT EGNLVITDSW PGQARTLFGD
+     HERFEQTYFS TFKNMYFSGD GARRDEDGYY WITGRVDDVL NVSGHRLGTA EIESALVAHP
+     KIAEAAVVGI PHAIKGQAIY AYVTLNHGEE PSPELYAEVR NWVRKEIGPL ATPDVLHWTD
+     SLPKTRSGKI MRRILRKIAA GDTSNLGDTS TLADPGVVEK LLEEKQAIAM PS
+//

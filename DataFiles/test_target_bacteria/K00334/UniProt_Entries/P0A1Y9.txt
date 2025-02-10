@@ -1,0 +1,125 @@
+ID   NUOE_SALTI              Reviewed;         166 AA.
+AC   P0A1Y9; P33903;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit E;
+DE            EC=7.1.1.-;
+DE   AltName: Full=NADH dehydrogenase I subunit E;
+DE   AltName: Full=NDH-1 subunit E;
+GN   Name=nuoE; OrderedLocusNames=STY2555, t0539;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124;
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135; Evidence={ECO:0000305};
+CC       Note=Binds 1 [2Fe-2S] cluster. {ECO:0000305};
+CC   -!- SUBUNIT: Composed of 13 different subunits. Subunits NuoCD, E, F, and G
+CC       constitute the peripheral sector of the complex (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the complex I 24 kDa subunit family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07557.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68245.1; -; Genomic_DNA.
+DR   RefSeq; NP_456867.1; NC_003198.1.
+DR   RefSeq; WP_000545038.1; NZ_WSUR01000029.1.
+DR   AlphaFoldDB; P0A1Y9; -.
+DR   SMR; P0A1Y9; -.
+DR   STRING; 220341.gene:17586454; -.
+DR   KEGG; stt:t0539; -.
+DR   KEGG; sty:STY2555; -.
+DR   PATRIC; fig|220341.7.peg.2585; -.
+DR   eggNOG; COG1905; Bacteria.
+DR   HOGENOM; CLU_054362_2_0_6; -.
+DR   OMA; HIIRYCD; -.
+DR   OrthoDB; 9807941at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IEA:TreeGrafter.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   CDD; cd03064; TRX_Fd_NuoE; 1.
+DR   FunFam; 1.10.10.1590:FF:000001; NADH-quinone oxidoreductase subunit E; 1.
+DR   FunFam; 3.40.30.10:FF:000015; NADH-quinone oxidoreductase subunit E; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   Gene3D; 1.10.10.1590; NADH-quinone oxidoreductase subunit E; 1.
+DR   InterPro; IPR002023; NuoE-like.
+DR   InterPro; IPR042128; NuoE_dom.
+DR   InterPro; IPR041921; NuoE_N.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   NCBIfam; TIGR01958; nuoE_fam; 1.
+DR   PANTHER; PTHR10371:SF3; NADH DEHYDROGENASE [UBIQUINONE] FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10371; NADH DEHYDROGENASE UBIQUINONE FLAVOPROTEIN 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF01257; 2Fe-2S_thioredx; 1.
+DR   PIRSF; PIRSF000216; NADH_DH_24kDa; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS01099; COMPLEX1_24K; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Iron; Iron-sulfur; Metal-binding; NAD; Quinone; Translocase;
+KW   Ubiquinone.
+FT   CHAIN           1..166
+FT                   /note="NADH-quinone oxidoreductase subunit E"
+FT                   /id="PRO_0000118693"
+FT   BINDING         92
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         97
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         133
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         137
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   166 AA;  18602 MW;  86D4EC905E1021E3 CRC64;
+     MHENQQPQTE AFELSAAERE AIEHEKHHYE DPRAASIEAL KIVQKQRGWV PDGAIYAIAD
+     VLGIPASDVE GVATFYSQIF RQPVGRHVIR YCDSVVCHIT GYQGIQAALE KNLNIKPGQT
+     TFDGRFTLLP TCCLGNCDKG PNMMIDEDTH SHLTPEAIPE LLERYK
+//

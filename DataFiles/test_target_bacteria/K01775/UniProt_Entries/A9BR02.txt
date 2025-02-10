@@ -1,0 +1,102 @@
+ID   ALR_DELAS               Reviewed;         367 AA.
+AC   A9BR02;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=Alanine racemase {ECO:0000255|HAMAP-Rule:MF_01201};
+DE            EC=5.1.1.1 {ECO:0000255|HAMAP-Rule:MF_01201};
+GN   Name=alr; OrderedLocusNames=Daci_0311;
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the interconversion of L-alanine and D-alanine. May
+CC       also act on other amino acids. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine = D-alanine; Xref=Rhea:RHEA:20249,
+CC         ChEBI:CHEBI:57416, ChEBI:CHEBI:57972; EC=5.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- PATHWAY: Amino-acid biosynthesis; D-alanine biosynthesis; D-alanine
+CC       from L-alanine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- SIMILARITY: Belongs to the alanine racemase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01201}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX32957.1; -; Genomic_DNA.
+DR   RefSeq; WP_012202250.1; NC_010002.1.
+DR   AlphaFoldDB; A9BR02; -.
+DR   SMR; A9BR02; -.
+DR   STRING; 398578.Daci_0311; -.
+DR   GeneID; 24115112; -.
+DR   KEGG; dac:Daci_0311; -.
+DR   eggNOG; COG0787; Bacteria.
+DR   HOGENOM; CLU_028393_1_0_4; -.
+DR   UniPathway; UPA00042; UER00497.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008784; F:alanine racemase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030632; P:D-alanine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06827; PLPDE_III_AR_proteobact; 1.
+DR   FunFam; 3.20.20.10:FF:000002; Alanine racemase; 1.
+DR   Gene3D; 3.20.20.10; Alanine racemase; 1.
+DR   Gene3D; 2.40.37.10; Lyase, Ornithine Decarboxylase, Chain A, domain 1; 1.
+DR   HAMAP; MF_01201; Ala_racemase; 1.
+DR   InterPro; IPR000821; Ala_racemase.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR011079; Ala_racemase_C.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR020622; Ala_racemase_pyridoxalP-BS.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   NCBIfam; TIGR00492; alr; 1.
+DR   PANTHER; PTHR30511; ALANINE RACEMASE; 1.
+DR   PANTHER; PTHR30511:SF0; ALANINE RACEMASE, CATABOLIC-RELATED; 1.
+DR   Pfam; PF00842; Ala_racemase_C; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   PRINTS; PR00992; ALARACEMASE.
+DR   SMART; SM01005; Ala_racemase_C; 1.
+DR   SUPFAM; SSF50621; Alanine racemase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51419; PLP-binding barrel; 1.
+DR   PROSITE; PS00395; ALANINE_RACEMASE; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..367
+FT                   /note="Alanine racemase"
+FT                   /id="PRO_1000138594"
+FT   ACT_SITE        35
+FT                   /note="Proton acceptor; specific for D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   ACT_SITE        259
+FT                   /note="Proton acceptor; specific for L-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         130
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         307
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   MOD_RES         35
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+SQ   SEQUENCE   367 AA;  39850 MW;  988524DDF92AF2B9 CRC64;
+     MPRPILATIH SAALRHNLER VRQAVPDAKL WAVVKANAYG HGIENVFEAL RGADGFAMLD
+     LAEAERVRQL GWRGPILLLE GVFEPRDLEL CSRLSIWHAV HCDAQIDWLA AHKTQNGHRV
+     FLKMNSGMNR LGFTPERYRA AWARLNALPQ VEEISFMTHF SDADAGAGQP GISAQLQRFH
+     DATRDLPGER SVGNSAATLR QGDDALVRCD WVRPGIVLYG SSPDYPQHTA AHWDLQPTQT
+     LSSRIIGVQQ LTEGQSVGYG SRFTAEGPLR LGTVACGYAD GYPRHCGTGT PVLVNGVRTR
+     TLGCVSMDML AVDLTPVPDA GMGSEVTLWG RASNGAVLPI DEVAEAAGTL GYELMCAVAP
+     RVNKTID
+//

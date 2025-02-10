@@ -1,0 +1,136 @@
+ID   Q65GQ9_BACLD            Unreviewed;       733 AA.
+AC   Q65GQ9; Q62S68;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 136.
+DE   RecName: Full=GTP pyrophosphokinase {ECO:0000256|ARBA:ARBA00019852};
+DE            EC=2.7.6.5 {ECO:0000256|ARBA:ARBA00013251};
+DE   AltName: Full=(p)ppGpp synthase {ECO:0000256|ARBA:ARBA00032407};
+DE   AltName: Full=ATP:GTP 3'-pyrophosphotransferase {ECO:0000256|ARBA:ARBA00029754};
+DE   AltName: Full=ppGpp synthase I {ECO:0000256|ARBA:ARBA00033308};
+GN   Name=relA {ECO:0000313|EMBL:AAU24392.1};
+GN   OrderedLocusNames=BL01124 {ECO:0000313|EMBL:AAU24392.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24392.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24392.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: In eubacteria ppGpp (guanosine 3'-diphosphate 5'-diphosphate)
+CC       is a mediator of the stringent response that coordinates a variety of
+CC       cellular activities in response to changes in nutritional abundance.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + ATP = guanosine 3'-diphosphate 5'-triphosphate + AMP;
+CC         Xref=Rhea:RHEA:22088, ChEBI:CHEBI:30616, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:142410, ChEBI:CHEBI:456215; EC=2.7.6.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048244};
+CC   -!- PATHWAY: Purine metabolism; ppGpp biosynthesis; ppGpp from GTP: step
+CC       1/2. {ECO:0000256|ARBA:ARBA00004976}.
+CC   -!- SIMILARITY: Belongs to the relA/spoT family.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24392.1; -; Genomic_DNA.
+DR   RefSeq; WP_003183962.1; NC_006322.1.
+DR   AlphaFoldDB; Q65GQ9; -.
+DR   STRING; 279010.BL01124; -.
+DR   GeneID; 66215127; -.
+DR   KEGG; bld:BLi02887; -.
+DR   KEGG; bli:BL01124; -.
+DR   PATRIC; fig|279010.13.peg.2944; -.
+DR   eggNOG; COG0317; Bacteria.
+DR   HOGENOM; CLU_012300_3_0_9; -.
+DR   UniPathway; UPA00908; UER00884.
+DR   Proteomes; UP000000606; Chromosome.
+DR   Bgee; BL01124; Expressed in skin epidermis and 12 other cell types or tissues.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0008728; F:GTP diphosphokinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0015970; P:guanosine tetraphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04876; ACT_RelA-SpoT; 1.
+DR   CDD; cd00077; HDc; 1.
+DR   CDD; cd05399; NT_Rel-Spo_like; 1.
+DR   CDD; cd01668; TGS_RSH; 1.
+DR   FunFam; 3.10.20.30:FF:000002; GTP pyrophosphokinase (RelA/SpoT); 1.
+DR   FunFam; 1.10.3210.10:FF:000001; GTP pyrophosphokinase RelA; 1.
+DR   FunFam; 3.30.460.10:FF:000001; GTP pyrophosphokinase RelA; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   Gene3D; 1.10.3210.10; Hypothetical protein af1432; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR004811; RelA/Spo_fam.
+DR   InterPro; IPR045600; RelA/SpoT_AH_RIS.
+DR   InterPro; IPR007685; RelA_SpoT.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR033655; TGS_RelA/SpoT.
+DR   NCBIfam; TIGR00691; spoT_relA; 1.
+DR   PANTHER; PTHR21262:SF31; GTP PYROPHOSPHOKINASE; 1.
+DR   PANTHER; PTHR21262; GUANOSINE-3',5'-BIS DIPHOSPHATE 3'-PYROPHOSPHOHYDROLASE; 1.
+DR   Pfam; PF13291; ACT_4; 1.
+DR   Pfam; PF13328; HD_4; 1.
+DR   Pfam; PF19296; RelA_AH_RIS; 1.
+DR   Pfam; PF04607; RelA_SpoT; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   SMART; SM00954; RelA_SpoT; 1.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS51831; HD; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134};
+KW   Kinase {ECO:0000313|EMBL:AAU24392.1};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00023134};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000313|EMBL:AAU24392.1}.
+FT   DOMAIN          50..149
+FT                   /note="HD"
+FT                   /evidence="ECO:0000259|PROSITE:PS51831"
+FT   DOMAIN          392..453
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51880"
+FT   DOMAIN          659..733
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+FT   COILED          543..570
+FT                   /evidence="ECO:0000256|SAM:Coils"
+SQ   SEQUENCE   733 AA;  84598 MW;  CFFD17D2263DE4E2 CRC64;
+     MANEQVLTAE QVIEKAKSYL SDEHVAFIKK AYQYAEDAHR EQYRKSGEPY IIHPIQVAGI
+     LVDLEMDPAT IAGGFLHDVV EDTSVTLEDL KEAFNEEVAM LVDGVTKLGK IKYKSQEEQQ
+     AENHRKMFVA MAQDIRVILI KLADRLHNMR TLKHLPQEKQ RRISNETLEI FAPLAHRLGI
+     SKIKWELEDT ALRYLNPQQY YRIVNLMKKK RAERELYVEE VVNEVKSRVE EVNIKADFSG
+     RPKHIYSIYR KMAMQNKQFN EIYDLLAVRI LVNSIKDCYA VLGIIHTCWK PMPGRFKDYI
+     AMPKPNMYQS LHTTVIGPKG DPLEVQIRTF EMHEIAEYGI AAHWAYKEGK NANEDSSFDK
+     KLSWFREILE FQNESSDAEE FMESLKIDLF SDMVFVFTPK GDVIELPSGS VPIDFSYRIH
+     SEIGNKTIGA KVNGKMVTLD YKLRTGDIVE ILTSKHSYGP SQDWINLAQT SQAKHKIRQF
+     FKKQRREENV EKGRELVEKE IKNLDFEVKD VLTAENLQKV ADKFNFANEE DMYAAVGYNG
+     ITAAQVANRL TEKERKIRDQ EEQVKSVQDV TPEVKPYQGK KREAGVRVKG VDNLLIRLSK
+     CCNPVPGDPI VGFITKGRGV SVHREDCPNV LTNEALDRLI QVEWEHEPQT QRRKEYNVEI
+     EILGYDRRGL LNEVLQAVNE TKTNISSVSG KSDRNKVATI HMAIFIQNIN HLHKVVERIK
+     QIKDIYSVRR VMN
+//

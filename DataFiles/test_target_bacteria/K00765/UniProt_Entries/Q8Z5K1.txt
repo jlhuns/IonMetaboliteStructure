@@ -1,0 +1,128 @@
+ID   HIS1_SALTI              Reviewed;         299 AA.
+AC   Q8Z5K1;
+DT   03-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 138.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_00079};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_00079};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_00079};
+GN   OrderedLocusNames=STY2280, t0802;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00079};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00079};
+CC   -!- ACTIVITY REGULATION: Feedback inhibited by histidine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- SUBUNIT: Equilibrium between an active dimeric form, an inactive
+CC       hexameric form and higher aggregates. Interconversion between the
+CC       various forms is largely reversible and is influenced by the natural
+CC       substrates and inhibitors of the enzyme. {ECO:0000255|HAMAP-
+CC       Rule:MF_00079}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Long
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00079}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02433.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO68493.1; -; Genomic_DNA.
+DR   RefSeq; NP_456619.1; NC_003198.1.
+DR   RefSeq; WP_000886604.1; NZ_WSUR01000002.1.
+DR   AlphaFoldDB; Q8Z5K1; -.
+DR   SMR; Q8Z5K1; -.
+DR   STRING; 220341.gene:17586188; -.
+DR   KEGG; stt:t0802; -.
+DR   KEGG; sty:STY2280; -.
+DR   PATRIC; fig|220341.7.peg.2300; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_1_0_6; -.
+DR   OMA; YVMMDYD; -.
+DR   OrthoDB; 9801867at2; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13592; PBP2_HisGL2; 1.
+DR   FunFam; 3.30.70.120:FF:000002; ATP phosphoribosyltransferase; 1.
+DR   FunFam; 3.40.190.10:FF:000008; ATP phosphoribosyltransferase; 1.
+DR   Gene3D; 3.30.70.120; -; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_00079; HisG_Long; 1.
+DR   InterPro; IPR020621; ATP-PRT_HisG_long.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR013115; HisG_C.
+DR   InterPro; IPR011322; N-reg_PII-like_a/b.
+DR   InterPro; IPR015867; N-reg_PII/ATP_PRibTrfase_C.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   NCBIfam; TIGR03455; HisG_C-term; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   Pfam; PF08029; HisG_C; 1.
+DR   SUPFAM; SSF54913; GlnB-like; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Transferase.
+FT   CHAIN           1..299
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_0000151863"
+SQ   SEQUENCE   299 AA;  33211 MW;  F2179D85908E77AC CRC64;
+     MLDNTRLRIA IQKSGRLSDD SRELLARCGI KINLHTQRLI AMAENMPIDI LRVRDDDIPG
+     LVMDGVVDLG IIGENVLEEE LLNRRAQGED PRYLTLRRLD FGGCRLSLAT PVDEAWDGPA
+     ALDGKRIATS YPHLLKRYLD QKGVSFKSCL LNGSVEVAPR AGLADAICDL VSTGATLEAN
+     GLREVEVIYR SKACLIQRDG EMAQSKQQLI DKLLTRIQGV IQARESKYIM MHAPSERLEE
+     VIALLPGAER PTILPLAGEQ QRVAMHMVSS ETLFWETMEK LKALGASSIL VLPIEKMME
+//

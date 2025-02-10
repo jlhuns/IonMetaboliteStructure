@@ -1,0 +1,114 @@
+ID   ENGB_CAMJE              Reviewed;         198 AA.
+AC   Q9PHL7; Q0PAL8;
+DT   21-FEB-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   27-NOV-2024, entry version 128.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321}; OrderedLocusNames=Cj0650;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Necessary for normal cell division and for the maintenance of
+CC       normal septation. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34795.1; -; Genomic_DNA.
+DR   PIR; A81414; A81414.
+DR   RefSeq; WP_002852258.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344079.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PHL7; -.
+DR   SMR; Q9PHL7; -.
+DR   STRING; 192222.Cj0650; -.
+DR   PaxDb; 192222-Cj0650; -.
+DR   EnsemblBacteria; CAL34795; CAL34795; Cj0650.
+DR   GeneID; 904977; -.
+DR   KEGG; cje:Cj0650; -.
+DR   PATRIC; fig|192222.6.peg.642; -.
+DR   eggNOG; COG0218; Bacteria.
+DR   HOGENOM; CLU_033732_3_2_7; -.
+DR   OrthoDB; 9804921at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000917; P:division septum assembly; IEA:UniProtKB-KW.
+DR   CDD; cd01876; YihA_EngB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd.
+DR   NCBIfam; TIGR03598; GTPase_YsxC; 1.
+DR   NCBIfam; TIGR00231; small_GTP; 1.
+DR   PANTHER; PTHR11649:SF13; ENGB-TYPE G DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11649; MSS1/TRME-RELATED GTP-BINDING PROTEIN; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; GTP-binding; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Septation.
+FT   CHAIN           1..198
+FT                   /note="Probable GTP-binding protein EngB"
+FT                   /id="PRO_0000157742"
+FT   DOMAIN          21..195
+FT                   /note="EngB-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         29..36
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         36
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         56..60
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         58
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         81..84
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         151..154
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         174..176
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+SQ   SEQUENCE   198 AA;  22775 MW;  BE1BED7C28D59996 CRC64;
+     MIISAKFITS LVKFDENLSS NFSEVAFLGR SNVGKSSLIN SLCKQKNLAK SSATPGKTQL
+     INFFEVICRR NEEKFNINFI DLPGFGYAKV SKNLKEIWNQ NLDEFLKLRT SIKLFIHLID
+     SRHTHLEIDV NLNDYLKRFL RPDQKILKVF TKCDKLNQSE KAKLKNEFKD SILVSNLNKF
+     GLDSLEDIII NQTLGLDK
+//

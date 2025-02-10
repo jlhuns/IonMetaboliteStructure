@@ -1,0 +1,105 @@
+ID   RECA_BACFR              Reviewed;         318 AA.
+AC   P22841; Q64X13;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   27-NOV-2024, entry version 135.
+DE   RecName: Full=Protein RecA {ECO:0000255|HAMAP-Rule:MF_00268};
+DE   AltName: Full=Recombinase A {ECO:0000255|HAMAP-Rule:MF_00268};
+GN   Name=recA {ECO:0000255|HAMAP-Rule:MF_00268}; OrderedLocusNames=BF1213;
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2227455; DOI=10.1016/0378-1119(90)90470-c;
+RA   Goodman H.J.K., Woods D.R.;
+RT   "Molecular analysis of the Bacteroides fragilis recA gene.";
+RL   Gene 94:77-82(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46;
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: Can catalyze the hydrolysis of ATP in the presence of single-
+CC       stranded DNA, the ATP-dependent uptake of single-stranded DNA by duplex
+CC       DNA, and the ATP-dependent hybridization of homologous single-stranded
+CC       DNAs. It interacts with LexA causing its activation and leading to its
+CC       autocatalytic cleavage. {ECO:0000255|HAMAP-Rule:MF_00268}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00268}.
+CC   -!- SIMILARITY: Belongs to the RecA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00268}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAD47963.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M63029; AAA22918.1; -; Genomic_DNA.
+DR   EMBL; AP006841; BAD47963.1; ALT_INIT; Genomic_DNA.
+DR   PIR; JQ0758; JQ0758.
+DR   RefSeq; YP_098497.1; NC_006347.1.
+DR   AlphaFoldDB; P22841; -.
+DR   SMR; P22841; -.
+DR   STRING; 295405.BF1213; -.
+DR   KEGG; bfr:BF1213; -.
+DR   PATRIC; fig|295405.11.peg.1202; -.
+DR   HOGENOM; CLU_040469_3_2_10; -.
+DR   OrthoDB; 9776733at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0140664; F:ATP-dependent DNA damage sensor activity; IEA:InterPro.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003697; F:single-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd00983; RecA; 1.
+DR   FunFam; 3.40.50.300:FF:000087; Recombinase RecA; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00268; RecA; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR013765; DNA_recomb/repair_RecA.
+DR   InterPro; IPR020584; DNA_recomb/repair_RecA_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR049261; RecA-like_C.
+DR   InterPro; IPR049428; RecA-like_N.
+DR   InterPro; IPR020588; RecA_ATP-bd.
+DR   InterPro; IPR023400; RecA_C_sf.
+DR   InterPro; IPR020587; RecA_monomer-monomer_interface.
+DR   NCBIfam; TIGR02012; tigrfam_recA; 1.
+DR   PANTHER; PTHR45900:SF1; MITOCHONDRIAL DNA REPAIR PROTEIN RECA HOMOLOG-RELATED; 1.
+DR   PANTHER; PTHR45900; RECA; 1.
+DR   Pfam; PF00154; RecA; 1.
+DR   Pfam; PF21096; RecA_C; 1.
+DR   PRINTS; PR00142; RECA.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF54752; RecA protein, C-terminal domain; 1.
+DR   PROSITE; PS00321; RECA_1; 1.
+DR   PROSITE; PS50162; RECA_2; 1.
+DR   PROSITE; PS50163; RECA_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; DNA damage; DNA recombination; DNA repair;
+KW   DNA-binding; Nucleotide-binding; SOS response.
+FT   CHAIN           1..318
+FT                   /note="Protein RecA"
+FT                   /id="PRO_0000122651"
+FT   BINDING         53..60
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00268"
+SQ   SEQUENCE   318 AA;  34344 MW;  52F445320F863D54 CRC64;
+     MDKIEKSFGK GSIMKMGEEV VEQVEVIPTG SIALNAALGV GGYPRGRIIE IYGPESSGKT
+     TLAIHAIAEA QKAGGIAAFI DAEHAFDRFY AAKLGVDVDN LFISQPDNGE QALEIAEQLI
+     RSSAIDIIVV DSVAALTPKA EIEGDMGDNK VGLQARLMSQ ALRKLTSAVS KTRTTCIFIN
+     QLREKIGVMF GNPETTTGGN ALKFYASVRL DIRGSQQIKD GEEVIGKQTK VKVVKNKVAP
+     PFRKAEFDIM FGEGISHSGE IIDLGADLGI IKKSGSWYSY NDTKLGQGRD AAKQCIADNP
+     ELAEELEGLI FEKLREHK
+//

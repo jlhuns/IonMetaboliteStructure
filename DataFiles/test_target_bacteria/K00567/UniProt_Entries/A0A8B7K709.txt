@@ -1,0 +1,118 @@
+ID   A0A8B7K709_CAMFR        Unreviewed;       211 AA.
+AC   A0A8B7K709;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=Methylated-DNA--protein-cysteine methyltransferase {ECO:0000256|ARBA:ARBA00015377};
+DE            EC=2.1.1.63 {ECO:0000256|ARBA:ARBA00011918};
+DE   AltName: Full=6-O-methylguanine-DNA methyltransferase {ECO:0000256|ARBA:ARBA00030795};
+DE   AltName: Full=O-6-methylguanine-DNA-alkyltransferase {ECO:0000256|ARBA:ARBA00031621};
+GN   Name=MGMT {ECO:0000313|RefSeq:XP_006179714.1,
+GN   ECO:0000313|RefSeq:XP_014410485.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_014410485.1};
+RN   [1] {ECO:0000313|RefSeq:XP_006179714.1, ECO:0000313|RefSeq:XP_014410485.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006179714.1,
+RC   ECO:0000313|RefSeq:XP_014410485.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Involved in the cellular defense against the biological
+CC       effects of O6-methylguanine (O6-MeG) and O4-methylthymine (O4-MeT) in
+CC       DNA. Repairs the methylated nucleobase in DNA by stoichiometrically
+CC       transferring the methyl group to a cysteine residue in the enzyme. This
+CC       is a suicide reaction: the enzyme is irreversibly inactivated.
+CC       {ECO:0000256|ARBA:ARBA00003317}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 4-O-methyl-thymidine in DNA + L-cysteinyl-[protein] = a
+CC         thymidine in DNA + S-methyl-L-cysteinyl-[protein];
+CC         Xref=Rhea:RHEA:53428, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:13555, Rhea:RHEA-COMP:13556, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:137386, ChEBI:CHEBI:137387;
+CC         EC=2.1.1.63; Evidence={ECO:0000256|ARBA:ARBA00001286};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 6-O-methyl-2'-deoxyguanosine in DNA + L-cysteinyl-[protein]
+CC         = S-methyl-L-cysteinyl-[protein] + a 2'-deoxyguanosine in DNA;
+CC         Xref=Rhea:RHEA:24000, Rhea:RHEA-COMP:10131, Rhea:RHEA-COMP:10132,
+CC         Rhea:RHEA-COMP:11367, Rhea:RHEA-COMP:11368, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:82612, ChEBI:CHEBI:85445, ChEBI:CHEBI:85448; EC=2.1.1.63;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049348};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001947};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000256|ARBA:ARBA00004123}.
+CC   -!- SIMILARITY: Belongs to the MGMT family.
+CC       {ECO:0000256|ARBA:ARBA00008711}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006179714.1; XM_006179652.3.
+DR   RefSeq; XP_014410484.1; XM_014554998.1.
+DR   RefSeq; XP_014410485.1; XM_014554999.2.
+DR   GeneID; 102512109; -.
+DR   KEGG; cfr:102512109; -.
+DR   CTD; 4255; -.
+DR   OrthoDB; 5377at91561; -.
+DR   Proteomes; UP000694856; Chromosome 11.
+DR   GO; GO:0005654; C:nucleoplasm; IEA:TreeGrafter.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003908; F:methylated-DNA-[protein]-cysteine S-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd06445; ATase; 1.
+DR   FunFam; 1.10.10.10:FF:000214; Methylated-DNA--protein-cysteine methyltransferase; 1.
+DR   FunFam; 3.30.160.70:FF:000001; Methylated-DNA--protein-cysteine methyltransferase; 1.
+DR   Gene3D; 3.30.160.70; Methylated DNA-protein cysteine methyltransferase domain; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR001497; MethylDNA_cys_MeTrfase_AS.
+DR   InterPro; IPR014048; MethylDNA_cys_MeTrfase_DNA-bd.
+DR   InterPro; IPR036217; MethylDNA_cys_MeTrfase_DNAb.
+DR   InterPro; IPR008332; MethylG_MeTrfase_N.
+DR   InterPro; IPR036631; MGMT_N_sf.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   NCBIfam; TIGR00589; ogt; 1.
+DR   PANTHER; PTHR46460; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR46460:SF1; METHYLATED-DNA--PROTEIN-CYSTEINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF01035; DNA_binding_1; 1.
+DR   Pfam; PF02870; Methyltransf_1N; 1.
+DR   SUPFAM; SSF53155; Methylated DNA-protein cysteine methyltransferase domain; 1.
+DR   SUPFAM; SSF46767; Methylated DNA-protein cysteine methyltransferase, C-terminal domain; 1.
+DR   PROSITE; PS00374; MGMT; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000313|RefSeq:XP_006179714.1};
+KW   Nucleus {ECO:0000256|ARBA:ARBA00023242};
+KW   Phosphoprotein {ECO:0000256|ARBA:ARBA00022553};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833}.
+FT   DOMAIN          7..86
+FT                   /note="Methylguanine DNA methyltransferase ribonuclease-
+FT                   like"
+FT                   /evidence="ECO:0000259|Pfam:PF02870"
+FT   DOMAIN          101..177
+FT                   /note="Methylated-DNA-[protein]-cysteine S-
+FT                   methyltransferase DNA binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01035"
+FT   REGION          35..59
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          182..211
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        202..211
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   211 AA;  22469 MW;  B7D8425785B7BD3A CRC64;
+     MERTCEVKYK VMDSPLGKIE LSGCEQGLHG IRLRCQKTPG TDPAEAPTSP EMPGGPEGMT
+     EPLTQCAAWL EAYFHKPAVL EELPVPALHH PIFQQDSFTR QVLWKLLKAV KFGETVSYQQ
+     LAALAGKPKA ARAVGGAMRS NPVAILVPCH RVVCSSGAMG NYSGGMAVKE WLLAHEGSLA
+     GKPARAGRSR PASTWRGALG GTASTQPAGR N
+//

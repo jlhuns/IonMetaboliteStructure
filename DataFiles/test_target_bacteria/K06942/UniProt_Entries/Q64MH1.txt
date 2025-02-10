@@ -1,0 +1,103 @@
+ID   Q64MH1_BACFR            Unreviewed;       367 AA.
+AC   Q64MH1;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 112.
+DE   RecName: Full=Ribosome-binding ATPase YchF {ECO:0000256|HAMAP-Rule:MF_00944};
+GN   Name=ychF {ECO:0000256|HAMAP-Rule:MF_00944};
+GN   OrderedLocusNames=BF4579 {ECO:0000313|EMBL:BAD51316.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD51316.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD51316.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD51316.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- FUNCTION: ATPase that binds to both the 70S ribosome and the 50S
+CC       ribosomal subunit in a nucleotide-independent manner.
+CC       {ECO:0000256|HAMAP-Rule:MF_00944}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. YchF/OLA1 subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_00944}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD51316.1; -; Genomic_DNA.
+DR   RefSeq; WP_011203749.1; NC_006347.1.
+DR   RefSeq; YP_101850.1; NC_006347.1.
+DR   AlphaFoldDB; Q64MH1; -.
+DR   STRING; 295405.BF4579; -.
+DR   KEGG; bfr:BF4579; -.
+DR   PATRIC; fig|295405.11.peg.4404; -.
+DR   HOGENOM; CLU_018395_0_1_10; -.
+DR   OrthoDB; 9807318at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0043023; F:ribosomal large subunit binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd04867; TGS_YchF_OLA1; 1.
+DR   CDD; cd01900; YchF; 1.
+DR   FunFam; 1.10.150.300:FF:000001; Ribosome-binding ATPase YchF; 1.
+DR   FunFam; 3.10.20.30:FF:000001; Ribosome-binding ATPase YchF; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.10.150.300; TGS-like domain; 1.
+DR   HAMAP; MF_00944; YchF_OLA1_ATPase; 1.
+DR   InterPro; IPR004396; ATPase_YchF/OLA1.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR031167; G_OBG.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR023192; TGS-like_dom_sf.
+DR   InterPro; IPR013029; YchF_C.
+DR   InterPro; IPR041706; YchF_N.
+DR   NCBIfam; TIGR00092; redox-regulated ATPase YchF; 1.
+DR   PANTHER; PTHR23305; OBG GTPASE FAMILY; 1.
+DR   PANTHER; PTHR23305:SF18; OBG-TYPE G DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF06071; YchF-GTPase_C; 1.
+DR   PIRSF; PIRSF006641; CHP00092; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00944}; Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00944}.
+FT   DOMAIN          3..259
+FT                   /note="OBG-type G"
+FT                   /evidence="ECO:0000259|PROSITE:PS51710"
+FT   DOMAIN          282..365
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51880"
+FT   BINDING         12..17
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00944"
+SQ   SEQUENCE   367 AA;  40662 MW;  AF231908039B58B5 CRC64;
+     MALQCGIVGL PNVGKSTLFN CLSNAKAQAA NFPFCTIEPN VGVITVPDER LNKLAELVHP
+     NRIVPTTVEI VDIAGLVKGA SKGEGLGNKF LANIRETDAI IHVLRCFDDD NVTHVDGSVN
+     PVRDKEIIDY ELQLKDLETI ESRIQKVQKQ AQTGGDKAAK QAYDVLVQFK DALEQGKSAR
+     TVTFETKDEQ KIAKELFLLT SKPVMYVCNV DEASAVNGNK YVDMVREAVK DEDAEILVVA
+     GKTEADIAEL ETYEDRQMFL AEIGLEESGV ARLIKSAYKL LNLETYFTAG IQEVRAWTYE
+     KGWKAPQCAG VIHTDFEKGF IRAEVIKYED FLQYGSEAAV KEAGKLGVEG KEYVVQDGDI
+     MHFRFNV
+//

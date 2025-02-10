@@ -1,0 +1,92 @@
+ID   D8GK71_CLOLD            Unreviewed;       198 AA.
+AC   D8GK71;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 68.
+DE   RecName: Full=Recombination protein RecR {ECO:0000256|HAMAP-Rule:MF_00017};
+GN   Name=recR {ECO:0000256|HAMAP-Rule:MF_00017,
+GN   ECO:0000313|EMBL:ADK13189.1};
+GN   OrderedLocusNames=CLJU_c00870 {ECO:0000313|EMBL:ADK13189.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13189.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13189.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: May play a role in DNA repair. It seems to be involved in an
+CC       RecBC-independent recombinational process of DNA repair. It may act
+CC       with RecF and RecO. {ECO:0000256|HAMAP-Rule:MF_00017}.
+CC   -!- SIMILARITY: Belongs to the RecR family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00017}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13189.1; -; Genomic_DNA.
+DR   RefSeq; WP_013236789.1; NZ_LITS01000024.1.
+DR   AlphaFoldDB; D8GK71; -.
+DR   STRING; 748727.CLJU_c00870; -.
+DR   KEGG; clj:CLJU_c00870; -.
+DR   PATRIC; fig|748727.19.peg.1708; -.
+DR   eggNOG; COG0353; Bacteria.
+DR   HOGENOM; CLU_060739_1_0_9; -.
+DR   OrthoDB; 9802672at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd01025; TOPRIM_recR; 1.
+DR   Gene3D; 3.30.60.80; -; 1.
+DR   Gene3D; 3.40.1360.10; -; 1.
+DR   Gene3D; 6.10.250.240; -; 1.
+DR   Gene3D; 1.10.8.420; RecR Domain 1; 1.
+DR   HAMAP; MF_00017; RecR; 1.
+DR   InterPro; IPR000093; DNA_Rcmb_RecR.
+DR   InterPro; IPR023627; Rcmb_RecR.
+DR   InterPro; IPR015967; Rcmb_RecR_CS.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034137; TOPRIM_RecR.
+DR   NCBIfam; TIGR00615; recR; 1.
+DR   PANTHER; PTHR30446; RECOMBINATION PROTEIN RECR; 1.
+DR   PANTHER; PTHR30446:SF0; RECOMBINATION PROTEIN RECR; 1.
+DR   Pfam; PF21175; RecR_C; 1.
+DR   Pfam; PF21176; RecR_HhH; 1.
+DR   Pfam; PF02132; RecR_ZnF; 1.
+DR   Pfam; PF13662; Toprim_4; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF111304; Recombination protein RecR; 1.
+DR   PROSITE; PS01300; RECR; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   DNA recombination {ECO:0000256|ARBA:ARBA00023172, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00017};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00017};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00017}.
+FT   DOMAIN          81..175
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000259|PROSITE:PS50880"
+FT   ZN_FING         58..73
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00017"
+SQ   SEQUENCE   198 AA;  21774 MW;  03A4DBEC4F67FA4B CRC64;
+     MDFYPAAIEK LIEEFAKLPG IGYKTAQRLT LYILNLPGDE VKEFAKALVN ARGTIRYCSV
+     CGNFTDSDPC AICSNPNRDK SVICVVEQPK DIMAMERIKE YNGVYHVLHG NISPMAGRGP
+     NDIKLKELIT RINGNVKEVI VATNPNVEGE ATAMYISKIL KHLGVKVTRI AHGIPVGGNL
+     EYADEITLSK ALEGRVEI
+//

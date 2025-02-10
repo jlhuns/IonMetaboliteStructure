@@ -1,0 +1,94 @@
+ID   A9BWQ0_DELAS            Unreviewed;       305 AA.
+AC   A9BWQ0;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   24-JUL-2024, entry version 67.
+DE   SubName: Full=Pirin domain protein {ECO:0000313|EMBL:ABX36577.1};
+GN   OrderedLocusNames=Daci_3946 {ECO:0000313|EMBL:ABX36577.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX36577.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX36577.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006232-1};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000256|PIRSR:PIRSR006232-1};
+CC   -!- SIMILARITY: Belongs to the pirin family.
+CC       {ECO:0000256|ARBA:ARBA00008416, ECO:0000256|RuleBase:RU003457}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36577.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A9BWQ0; -.
+DR   STRING; 398578.Daci_3946; -.
+DR   KEGG; dac:Daci_3946; -.
+DR   eggNOG; COG1741; Bacteria.
+DR   HOGENOM; CLU_045717_5_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02247; cupin_pirin_C; 1.
+DR   CDD; cd02909; cupin_pirin_N; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 2.
+DR   InterPro; IPR012093; Pirin.
+DR   InterPro; IPR008778; Pirin_C_dom.
+DR   InterPro; IPR003829; Pirin_N_dom.
+DR   InterPro; IPR053186; QDO-related.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR43594; QUERCETIN 2,3-DIOXYGENASE; 1.
+DR   PANTHER; PTHR43594:SF1; QUERCETIN 2,3-DIOXYGENASE PA2418-RELATED; 1.
+DR   Pfam; PF02678; Pirin; 1.
+DR   Pfam; PF05726; Pirin_C; 1.
+DR   PIRSF; PIRSF006232; Pirin; 1.
+DR   SUPFAM; SSF51182; RmlC-like cupins; 1.
+PE   3: Inferred from homology;
+KW   Iron {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784}.
+FT   DOMAIN          39..144
+FT                   /note="Pirin N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02678"
+FT   DOMAIN          199..301
+FT                   /note="Pirin C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF05726"
+FT   BINDING         78
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         80
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         122
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         124
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+SQ   SEQUENCE   305 AA;  32604 MW;  9FB2B87415C97B2B CRC64;
+     MAGANAAAAT IPKEKQMLKK MLGVYSAPRA HWVGDGFPVR SLFSYGNHGA ALSPFLLLDH
+     AGPASFEPAA QPRGVGVHPH RGFETVTIVY EGEVEHRDST GAGGLIGPGD VQWMTAGAGI
+     LHEEFHSHAF TERGGRLEMV QLWVNLPARD KSVAPGYQTL VDGQIPSVEL PGGSGRVRVI
+     AGAFGNSQGP ARTFTPINVW DLRLKAGSST ELCAKPGHTL ALVVLHGTVL VNDDEVVREG
+     QLVHFDREAD MVRLEANNDA TVLWLEGEPI EEPVVGHGPF VMNSEAEIRE AIADFNAGRF
+     GRMAA
+//

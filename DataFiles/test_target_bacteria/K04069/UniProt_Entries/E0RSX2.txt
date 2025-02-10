@@ -1,0 +1,102 @@
+ID   E0RSX2_SPITD            Unreviewed;       291 AA.
+AC   E0RSX2;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 64.
+DE   RecName: Full=Radical SAM core domain-containing protein {ECO:0000259|PROSITE:PS51918};
+GN   OrderedLocusNames=STHERM_c11670 {ECO:0000313|EMBL:ADN02109.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02109.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02109.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004869-50};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000256|PIRSR:PIRSR004869-50};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02109.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313950.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSX2; -.
+DR   PaxDb; 665571-STHERM_c11670; -.
+DR   KEGG; sta:STHERM_c11670; -.
+DR   eggNOG; COG1180; Bacteria.
+DR   HOGENOM; CLU_044176_1_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003824; F:catalytic activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR027596; AmmeMemoSam_rS.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR034457; Organic_radical-activating.
+DR   InterPro; IPR016431; Pyrv-formate_lyase-activ_prd.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR04337; AmmeMemoSam_rS; 1.
+DR   PANTHER; PTHR30352:SF5; PYRUVATE FORMATE-LYASE 1-ACTIVATING ENZYME; 1.
+DR   PANTHER; PTHR30352; PYRUVATE FORMATE-LYASE-ACTIVATING ENZYME; 1.
+DR   Pfam; PF13353; Fer4_12; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF004869; PflX_prd; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SFLD; SFLDG01101; Uncharacterised_Radical_SAM_Su; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   4: Predicted;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|PIRSR:PIRSR004869-50};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|PIRSR:PIRSR004869-
+KW   50};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR004869-50};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRSR:PIRSR004869-50}.
+FT   DOMAIN          73..290
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   BINDING         88
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+FT   BINDING         92
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+FT   BINDING         95
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR004869-50"
+SQ   SEQUENCE   291 AA;  33280 MW;  A266B3103D359302 CRC64;
+     MTMDDALPEA RYYTPFEDSA VRCELCPHRC IIREGKTGVC TVRLNRDGRL ILPYYGKISS
+     IALDPIEKKP LYHFHPGSVI LSIGFFGCSF KCPFCQNFEI SQEYRTYLRT ALEIPTERLI
+     HQAKAYHSIG IAYTYSEPLI HFEYVMEVAV EARRHGLKNV LVTNGYINPE PSDELLEVVD
+     AANVDLKSFN DEFYRKEIKG SLEPVLAFIE KAAKKIHVEV TTLLIPGKND SEEEVRSIAR
+     RLAGIRKDIP LHLSAYFPRY KYTIPPTPRA TVYRAVEIAK EYLDYVHAGN V
+//

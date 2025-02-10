@@ -1,0 +1,105 @@
+ID   A0A8B8S6R8_CAMFR        Unreviewed;       395 AA.
+AC   A0A8B8S6R8;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=S-adenosylmethionine synthase {ECO:0000256|RuleBase:RU000541};
+DE            EC=2.5.1.6 {ECO:0000256|RuleBase:RU000541};
+GN   Name=MAT2A {ECO:0000313|RefSeq:XP_032325384.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032325384.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032325384.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032325384.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the formation of S-adenosylmethionine from
+CC       methionine and ATP. {ECO:0000256|RuleBase:RU000541}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-methionine + ATP + H2O = S-adenosyl-L-methionine + phosphate
+CC         + diphosphate; Xref=Rhea:RHEA:21080, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:59789; EC=2.5.1.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048344,
+CC         ECO:0000256|RuleBase:RU000541};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|RuleBase:RU000541};
+CC       Note=Binds 1 potassium ion per subunit. The potassium ion interacts
+CC       primarily with the substrate. {ECO:0000256|RuleBase:RU000541};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|RuleBase:RU000541};
+CC       Note=Binds 2 magnesium ions per subunit. The magnesium ions interact
+CC       primarily with the substrate. {ECO:0000256|RuleBase:RU000541};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine biosynthesis;
+CC       S-adenosyl-L-methionine from L-methionine: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005224, ECO:0000256|RuleBase:RU000541}.
+CC   -!- SIMILARITY: Belongs to the AdoMet synthase family.
+CC       {ECO:0000256|ARBA:ARBA00009685, ECO:0000256|RuleBase:RU004462}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032325384.1; XM_032469493.1.
+DR   SMR; A0A8B8S6R8; -.
+DR   KEGG; cfr:102506642; -.
+DR   UniPathway; UPA00315; UER00080.
+DR   Proteomes; UP000694856; Chromosome 28.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004478; F:methionine adenosyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd18079; S-AdoMet_synt; 1.
+DR   FunFam; 3.30.300.10:FF:000001; S-adenosylmethionine synthase; 1.
+DR   FunFam; 3.30.300.10:FF:000003; S-adenosylmethionine synthase; 1.
+DR   FunFam; 3.30.300.10:FF:000004; S-adenosylmethionine synthase; 1.
+DR   Gene3D; 3.30.300.10; -; 3.
+DR   HAMAP; MF_00086; S_AdoMet_synth1; 1.
+DR   InterPro; IPR022631; ADOMET_SYNTHASE_CS.
+DR   InterPro; IPR022630; S-AdoMet_synt_C.
+DR   InterPro; IPR022629; S-AdoMet_synt_central.
+DR   InterPro; IPR022628; S-AdoMet_synt_N.
+DR   InterPro; IPR002133; S-AdoMet_synthetase.
+DR   InterPro; IPR022636; S-AdoMet_synthetase_sfam.
+DR   NCBIfam; TIGR01034; metK; 1.
+DR   PANTHER; PTHR11964; S-ADENOSYLMETHIONINE SYNTHETASE; 1.
+DR   Pfam; PF02773; S-AdoMet_synt_C; 1.
+DR   Pfam; PF02772; S-AdoMet_synt_M; 1.
+DR   Pfam; PF00438; S-AdoMet_synt_N; 1.
+DR   PIRSF; PIRSF000497; MAT; 1.
+DR   SUPFAM; SSF55973; S-adenosylmethionine synthetase; 3.
+DR   PROSITE; PS00376; ADOMET_SYNTHASE_1; 1.
+DR   PROSITE; PS00377; ADOMET_SYNTHASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|RuleBase:RU000541};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU000541};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU000541};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|RuleBase:RU000541};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563,
+KW   ECO:0000256|RuleBase:RU000541};
+KW   Potassium {ECO:0000256|ARBA:ARBA00022958, ECO:0000256|RuleBase:RU000541};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU000541}.
+FT   DOMAIN          18..115
+FT                   /note="S-adenosylmethionine synthetase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00438"
+FT   DOMAIN          130..250
+FT                   /note="S-adenosylmethionine synthetase central"
+FT                   /evidence="ECO:0000259|Pfam:PF02772"
+FT   DOMAIN          252..388
+FT                   /note="S-adenosylmethionine synthetase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02773"
+SQ   SEQUENCE   395 AA;  43691 MW;  992FCD8DA829416E CRC64;
+     MNGQLNGFHD AFIEEGTFLF TSESVGEGHP DKICDQISDA VLDAHLQQDP DAKVACETVA
+     KTGMILLAGE ITSRAAVDYQ KVVRETIKHI GYDDSSKGFD YKTCNVLVAL EQQSPDIAQG
+     VHLDRNEEDI GAGDQGLMFG YATDETEECM PLTIVLAHKL NAKLAELRRN GTLPWLRPDS
+     KTQVTVQYMQ DRGAVLPIRV HTIVISVQHD EEVCLDEMRD ALKEKVIKAV VPAKYLDEDT
+     IYHLQPSGRF VIGGPQGDAG LTGRKIIVDT YGGWGAHGGG AFSGKDYTKV DRSAAYAARW
+     VAKSLVKGGL CRRVLVQVSY AIGVSHPLSI SIFHYGTSQK SERELLEIVK KNFDLRPGVI
+     VRDLDLKKPI YQRTAAYGHF GRDSFPWEVP KKLKY
+//

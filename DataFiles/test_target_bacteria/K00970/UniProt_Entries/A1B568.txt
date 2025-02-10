@@ -1,0 +1,83 @@
+ID   A1B568_PARDP            Unreviewed;       388 AA.
+AC   A1B568;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 100.
+DE   SubName: Full=Polynucleotide adenylyltransferase region {ECO:0000313|EMBL:ABL70662.1};
+GN   OrderedLocusNames=Pden_2575 {ECO:0000313|EMBL:ABL70662.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL70662.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- SIMILARITY: Belongs to the tRNA nucleotidyltransferase/poly(A)
+CC       polymerase family. {ECO:0000256|RuleBase:RU003953}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL70662.1; -; Genomic_DNA.
+DR   RefSeq; WP_011748855.1; NC_008686.1.
+DR   AlphaFoldDB; A1B568; -.
+DR   STRING; 318586.Pden_2575; -.
+DR   EnsemblBacteria; ABL70662; ABL70662; Pden_2575.
+DR   GeneID; 75502038; -.
+DR   KEGG; pde:Pden_2575; -.
+DR   eggNOG; COG0617; Bacteria.
+DR   HOGENOM; CLU_015961_2_3_5; -.
+DR   OrthoDB; 9805698at2; -.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000049; F:tRNA binding; IEA:TreeGrafter.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   CDD; cd05398; NT_ClassII-CCAase; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   Gene3D; 1.10.3090.10; cca-adding enzyme, domain 2; 1.
+DR   InterPro; IPR050264; Bact_CCA-adding_enz_type3_sf.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR002646; PolA_pol_head_dom.
+DR   InterPro; IPR032828; PolyA_RNA-bd.
+DR   PANTHER; PTHR46173; CCA TRNA NUCLEOTIDYLTRANSFERASE 1, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR46173:SF1; CCA TRNA NUCLEOTIDYLTRANSFERASE 1, MITOCHONDRIAL; 1.
+DR   Pfam; PF01743; PolyA_pol; 1.
+DR   Pfam; PF12627; PolyA_pol_RNAbd; 1.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81891; Poly A polymerase C-terminal region-like; 1.
+PE   3: Inferred from homology;
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000313|EMBL:ABL70662.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   RNA-binding {ECO:0000256|RuleBase:RU003953};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU003953};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694}.
+FT   DOMAIN          29..150
+FT                   /note="Poly A polymerase head"
+FT                   /evidence="ECO:0000259|Pfam:PF01743"
+FT   DOMAIN          183..237
+FT                   /note="tRNA nucleotidyltransferase/poly(A) polymerase RNA
+FT                   and SrmB- binding"
+FT                   /evidence="ECO:0000259|Pfam:PF12627"
+SQ   SEQUENCE   388 AA;  41626 MW;  5DDF34C52452D1D5 CRC64;
+     MTRLTAPFLD DPALKQVLAA LAAGGAQALI VGGAVRNALL GEPVADVDIS TSARPEDTVR
+     LAEAAGLRSV PTGIEHGTVT VIADGRGFEV TSFRRDVETF GRRAVVAYSD RIEDDAHRRD
+     FTMNALYATA SGEVLDPVGG LPDLAARRLR FVGNPHARIA EDYLRILRFF RLLAWYGREA
+     ELQALAACRE LREGLTGISR ERIGHEIRKL LDAPDPSRAV ALMAEAGVLP LVLPGADAGD
+     LPDLVEVERE YGTGALPCWP RRLALLAPQD AEGALRLSRD EARAQDHIAA ALALPAPAAA
+     YRFGRASAAQ AVLIRAARGE RPAFGWCHDL ARGAAAQFPL TARDLMPELS GPALGEALRR
+     AEAAFVESDF TLPRDALLRI ALQHEARA
+//

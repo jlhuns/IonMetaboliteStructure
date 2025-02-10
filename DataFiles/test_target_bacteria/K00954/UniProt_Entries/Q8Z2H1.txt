@@ -1,0 +1,143 @@
+ID   COAD_SALTI              Reviewed;         159 AA.
+AC   Q8Z2H1;
+DT   28-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 127.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151};
+GN   OrderedLocusNames=STY4069, t3793;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-4'-phosphopantetheine + ATP + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD03268.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71275.1; -; Genomic_DNA.
+DR   RefSeq; NP_458201.1; NC_003198.1.
+DR   RefSeq; WP_001171888.1; NZ_WSUR01000001.1.
+DR   AlphaFoldDB; Q8Z2H1; -.
+DR   SMR; Q8Z2H1; -.
+DR   STRING; 220341.gene:17587912; -.
+DR   KEGG; stt:t3793; -.
+DR   KEGG; sty:STY4069; -.
+DR   PATRIC; fig|220341.7.peg.4154; -.
+DR   eggNOG; COG0669; Bacteria.
+DR   HOGENOM; CLU_100149_0_1_6; -.
+DR   OMA; MALMNRK; -.
+DR   OrthoDB; 9806661at2; -.
+DR   UniPathway; UPA00241; UER00355.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02163; PPAT; 1.
+DR   FunFam; 3.40.50.620:FF:000012; Phosphopantetheine adenylyltransferase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR01510; coaD_prev_kdtB; 1.
+DR   NCBIfam; TIGR00125; cyt_tran_rel; 1.
+DR   PANTHER; PTHR21342; PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21342:SF1; PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..159
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_0000156266"
+FT   BINDING         10..11
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         10
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         18
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         42
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         74
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         88
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         89..91
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         99
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         124..130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            18
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+SQ   SEQUENCE   159 AA;  17925 MW;  D9E7D0DF59612BD2 CRC64;
+     MQKRAIYPGT FDPITNGHLD IVTRATQMFD HVILAIAASP GKKPMFTLNE RVALAQKATA
+     HLGNVEVVGF SDLMANFARD RQANILIRGL RAVADFEYEM QLAHMNRHLM PQLESVFLMP
+     SKEWSFISSS LVKEVARHQG DVTHFLPDNV HQALMDKLK
+//

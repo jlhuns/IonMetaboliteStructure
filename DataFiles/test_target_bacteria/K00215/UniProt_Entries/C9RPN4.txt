@@ -1,0 +1,91 @@
+ID   C9RPN4_FIBSS            Unreviewed;       276 AA.
+AC   C9RPN4;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   05-FEB-2025, entry version 84.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase {ECO:0000256|ARBA:ARBA00038983};
+DE            EC=1.17.1.8 {ECO:0000256|ARBA:ARBA00038983};
+GN   Name=dapB {ECO:0000313|EMBL:ADL26332.1};
+GN   OrderedLocusNames=FSU_0251 {ECO:0000313|EMBL:ADL26332.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL26332.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NAD(+) + H2O = (2S,4S)-4-
+CC         hydroxy-2,3,4,5-tetrahydrodipicolinate + NADH + H(+);
+CC         Xref=Rhea:RHEA:35323, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049396};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + NADP(+) + H2O = (2S,4S)-
+CC         4-hydroxy-2,3,4,5-tetrahydrodipicolinate + NADPH + H(+);
+CC         Xref=Rhea:RHEA:35331, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049080};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 4/4.
+CC       {ECO:0000256|ARBA:ARBA00037922}.
+CC   -!- SIMILARITY: Belongs to the DapB family.
+CC       {ECO:0000256|ARBA:ARBA00006642}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL26332.1; -; Genomic_DNA.
+DR   RefSeq; WP_014545090.1; NC_017448.1.
+DR   AlphaFoldDB; C9RPN4; -.
+DR   STRING; 59374.FSU_0251; -.
+DR   KEGG; fsc:FSU_0251; -.
+DR   KEGG; fsu:Fisuc_2986; -.
+DR   eggNOG; COG0289; Bacteria.
+DR   HOGENOM; CLU_067216_0_0_0; -.
+DR   OrthoDB; 9790352at2; -.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0008839; F:4-hydroxy-tetrahydrodipicolinate reductase; IEA:UniProtKB-EC.
+DR   GO; GO:0070402; F:NADPH binding; IEA:InterPro.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:InterPro.
+DR   Gene3D; 3.30.360.10; Dihydrodipicolinate Reductase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR022663; DapB_C.
+DR   InterPro; IPR000846; DapB_N.
+DR   InterPro; IPR023940; DHDPR_bac.
+DR   InterPro; IPR011859; Dihydrodipicolinate_Rdtase_pln.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR02130; dapB_plant; 1.
+DR   PANTHER; PTHR20836:SF0; 4-HYDROXY-TETRAHYDRODIPICOLINATE REDUCTASE 1, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR20836; DIHYDRODIPICOLINATE REDUCTASE; 1.
+DR   Pfam; PF05173; DapB_C; 1.
+DR   Pfam; PF01113; DapB_N; 1.
+DR   PIRSF; PIRSF000161; DHPR; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Diaminopimelate biosynthesis {ECO:0000256|ARBA:ARBA00022915};
+KW   Lysine biosynthesis {ECO:0000256|ARBA:ARBA00023154};
+KW   NAD {ECO:0000256|ARBA:ARBA00023027}; NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:ADL26332.1}.
+FT   DOMAIN          3..127
+FT                   /note="Dihydrodipicolinate reductase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01113"
+FT   DOMAIN          134..270
+FT                   /note="Dihydrodipicolinate reductase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF05173"
+SQ   SEQUENCE   276 AA;  30395 MW;  B0D71C3E375B7DE5 CRC64;
+     MSVQVMVNGI PGNMGRIVAE TCVARGLELV PYSLTGEIIV ENEAEVAGKT IQLLKPSNRE
+     ARIGEVLAKY PNMICIDYTH PTAVNDNAAF YVKHKIPFVM GTTGGDREAL AKLVADANHP
+     SVIAPNMAKQ IVAFQMMIEF LAKEFPTAFE GYKLSVVESH QKTKADTSGT ARAVVGTFQK
+     MGFDYTPDDI EKVRNEKEQM ERMHVPEEYL GGHAFHTYSL DSADGTVHFE FQHNVCGRKI
+     YAEGTVDAVN FLADQIAAGT AKPFNMMDVL RSGKMR
+//

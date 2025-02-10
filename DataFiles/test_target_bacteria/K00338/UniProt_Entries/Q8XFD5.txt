@@ -1,0 +1,160 @@
+ID   NUOI_SALTI              Reviewed;         180 AA.
+AC   Q8XFD5; Q7AML8;
+DT   11-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 141.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit I {ECO:0000255|HAMAP-Rule:MF_01351};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01351};
+DE   AltName: Full=NADH dehydrogenase I subunit I {ECO:0000255|HAMAP-Rule:MF_01351};
+DE   AltName: Full=NDH-1 subunit I {ECO:0000255|HAMAP-Rule:MF_01351};
+GN   Name=nuoI {ECO:0000255|HAMAP-Rule:MF_01351};
+GN   OrderedLocusNames=STY2551, t0543;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01351}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000255|HAMAP-Rule:MF_01351};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01351};
+CC       Note=Binds 2 [4Fe-4S] clusters per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01351};
+CC   -!- SUBUNIT: NDH-1 is composed of 13 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01351}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01351}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01351}.
+CC   -!- SIMILARITY: Belongs to the complex I 23 kDa subunit family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01351}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO68249.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD07553.1; -; Genomic_DNA.
+DR   RefSeq; NP_456863.1; NC_003198.1.
+DR   RefSeq; WP_000172747.1; NZ_WSUR01000039.1.
+DR   AlphaFoldDB; Q8XFD5; -.
+DR   SMR; Q8XFD5; -.
+DR   STRING; 220341.gene:17586450; -.
+DR   KEGG; stt:t0543; -.
+DR   KEGG; sty:STY2551; -.
+DR   PATRIC; fig|220341.7.peg.2581; -.
+DR   eggNOG; COG1143; Bacteria.
+DR   HOGENOM; CLU_067218_4_3_6; -.
+DR   OMA; WYPDFFR; -.
+DR   OrthoDB; 9808559at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050136; F:NADH:ubiquinone reductase (non-electrogenic) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009060; P:aerobic respiration; IEA:TreeGrafter.
+DR   FunFam; 3.30.70.3270:FF:000002; NADH-quinone oxidoreductase subunit I; 1.
+DR   Gene3D; 3.30.70.3270; -; 1.
+DR   HAMAP; MF_01351; NDH1_NuoI; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR010226; NADH_quinone_OxRdtase_chainI.
+DR   NCBIfam; TIGR01971; NuoI; 1.
+DR   PANTHER; PTHR10849:SF20; NADH DEHYDROGENASE [UBIQUINONE] IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR10849; NADH DEHYDROGENASE UBIQUINONE IRON-SULFUR PROTEIN 8, MITOCHONDRIAL; 1.
+DR   Pfam; PF12838; Fer4_7; 1.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cell inner membrane; Cell membrane; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; NAD; Quinone; Repeat; Translocase; Ubiquinone.
+FT   CHAIN           1..180
+FT                   /note="NADH-quinone oxidoreductase subunit I"
+FT                   /id="PRO_0000245743"
+FT   DOMAIN          50..80
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   DOMAIN          90..119
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         60
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         63
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         66
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         70
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         99
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         102
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         105
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+FT   BINDING         109
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01351"
+SQ   SEQUENCE   180 AA;  20520 MW;  B31861412433C071 CRC64;
+     MTLKELLVGF GTQVRSIWMI GLHAFAKRET RMYPEEPVYL PPRYRGRIVL TRDPDGEERC
+     VACNLCAVAC PVGCISLQKA ETKDGRWYPE FFRINFSRCI FCGLCEEACP TTAIQLTPDF
+     ELGEYKRQDL VYEKEDLLIS GPGKYPEYNF YRMAGMAIDG KDKGEAENEA KPIDVKSLLP
+//

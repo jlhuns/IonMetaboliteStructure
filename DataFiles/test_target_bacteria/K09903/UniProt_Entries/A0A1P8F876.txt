@@ -1,0 +1,130 @@
+ID   A0A1P8F876_9CHLR        Unreviewed;       244 AA.
+AC   A0A1P8F876;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 35.
+DE   RecName: Full=Uridylate kinase {ECO:0000256|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000256|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000256|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000256|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000256|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000256|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000256|HAMAP-Rule:MF_01220,
+GN   ECO:0000313|EMBL:APV44602.1};
+GN   ORFNames=Dform_01274 {ECO:0000313|EMBL:APV44602.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44602.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UMP + ATP = UDP + ADP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047767, ECO:0000256|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Inhibited by UTP. {ECO:0000256|HAMAP-
+CC       Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000256|ARBA:ARBA00004791,
+CC       ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family.
+CC       {ECO:0000256|ARBA:ARBA00007614, ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44602.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004270.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F876; -.
+DR   STRING; 1839801.Dform_01274; -.
+DR   KEGG; dfo:Dform_01274; -.
+DR   OrthoDB; 9807458at2; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006225; P:UDP biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   FunFam; 3.40.1160.10:FF:000001; Uridylate kinase; 1.
+DR   Gene3D; 3.40.1160.10; Acetylglutamate kinase-like; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   NCBIfam; TIGR02075; pyrH_bact; 1.
+DR   PANTHER; PTHR42833; URIDYLATE KINASE; 1.
+DR   PANTHER; PTHR42833:SF4; URIDYLATE KINASE PUMPKIN, CHLOROPLASTIC; 1.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; Carbamate kinase-like; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_01220};
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_01220};
+KW   Kinase {ECO:0000256|ARBA:ARBA00022777, ECO:0000256|HAMAP-Rule:MF_01220};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01220};
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_01220}; Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01220}.
+FT   DOMAIN          8..217
+FT                   /note="Aspartate/glutamate/uridylate kinase"
+FT                   /evidence="ECO:0000259|Pfam:PF00696"
+FT   BINDING         12..15
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         55
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         59
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         74
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         135..142
+FT                   /ligand="UMP"
+FT                   /ligand_id="ChEBI:CHEBI:57865"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         163
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+FT   BINDING         172
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   244 AA;  26259 MW;  71C5D67D70F82EB9 CRC64;
+     MTELKYRRVL LKLSGEAFAG TGNSIIDIPI VRGIARQIKA LSQMGVQVGI VVGAGNIWRG
+     ATVSRHGIDR VTADYAGMLA TVINALALQD SLEKEGVTTR TQSAITVQQV AEPFIYRRAI
+     RHMEKGRVVI FAGGTGNPYM TTDTAAALRA IEIEAQVLLM AKNRVDGVYS ADPLKHKDAV
+     KFDRLTHIEA LSKRLMVMDS TALSLCLENK LPIIVFDMTA PGNLERAVAG EAVGTLISSE
+     GVTP
+//

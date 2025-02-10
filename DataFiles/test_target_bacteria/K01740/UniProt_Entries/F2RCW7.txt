@@ -1,0 +1,81 @@
+ID   F2RCW7_STRVP            Unreviewed;       439 AA.
+AC   F2RCW7;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 63.
+DE   SubName: Full=O-acetylhomoserine sulfhydrylase or O-succinylhomoserine sulfhydrylase {ECO:0000313|EMBL:CCA56863.1};
+DE            EC=2.5.1.49 {ECO:0000313|EMBL:CCA56863.1};
+GN   OrderedLocusNames=SVEN_3577 {ECO:0000313|EMBL:CCA56863.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA56863.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA56863.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 {ECO:0000313|EMBL:CCA56863.1};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU362118};
+CC   -!- SIMILARITY: Belongs to the trans-sulfuration enzymes family.
+CC       {ECO:0000256|RuleBase:RU362118}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA56863.1; -; Genomic_DNA.
+DR   RefSeq; WP_015034778.1; NZ_CP029197.1.
+DR   AlphaFoldDB; F2RCW7; -.
+DR   STRING; 953739.SVEN_3577; -.
+DR   GeneID; 69865674; -.
+DR   KEGG; sve:SVEN_3577; -.
+DR   PATRIC; fig|953739.5.peg.6052; -.
+DR   eggNOG; COG0626; Bacteria.
+DR   HOGENOM; CLU_018986_2_0_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004123; F:cystathionine gamma-lyase activity; IEA:TreeGrafter.
+DR   GO; GO:0003961; F:O-acetylhomoserine aminocarboxypropyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0019343; P:cysteine biosynthetic process via cystathionine; IEA:TreeGrafter.
+DR   GO; GO:0019346; P:transsulfuration; IEA:InterPro.
+DR   CDD; cd00614; CGS_like; 1.
+DR   FunFam; 3.40.640.10:FF:000046; Cystathionine gamma-lyase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000277; Cys/Met-Metab_PyrdxlP-dep_enz.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   PANTHER; PTHR11808:SF85; CYSTATHIONINE GAMMA-LYASE-RELATED; 1.
+DR   PANTHER; PTHR11808; TRANS-SULFURATION ENZYME FAMILY MEMBER; 1.
+DR   Pfam; PF01053; Cys_Met_Meta_PP; 1.
+DR   PIRSF; PIRSF001434; CGS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   3: Inferred from homology;
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR001434-2};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   Transferase {ECO:0000313|EMBL:CCA56863.1}.
+FT   REGION          29..53
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   MOD_RES         252
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001434-2"
+SQ   SEQUENCE   439 AA;  45272 MW;  EA1C1549C79B27AA CRC64;
+     MSTADSAAAS ALTLPTTAHA PALPTSALPA SAHAPAAPLP APALPAPAST RPETLAVHPP
+     HVEITGSRPL GVPLHQGHVF AFDSADALAT AFTSTDAFLY SRLGNPTVRT LEDAVARLEG
+     GIAGLSFASG MGAVNGVLLG LLAGGDHVIA QTCLYGGTYA VLDDLATRWG IDVTYVSGTD
+     PEEVRAALRP ETRLLYLETI ANPTTRVSDL PALAAVAAGA RVPVVVDNTF ASPLLCRPLD
+     HGADIVVHSA TKYLAGHADV LGGVAVFKDD GLYRRVRRHA VEQGASTDPF AAWLTLRGMQ
+     TLSLRMERQC ASAADLAARF AAHPAVAAVR HPALDSHPDR EIAARLLPRG GGGVVLVDLA
+     GGREAGRTFV EAVRLASLSV SLGDVKTLVM HPASTSHHQL DAAALDAAGI GPGTVRISVG
+     IEHVEDLWTD LEQALTKAA
+//

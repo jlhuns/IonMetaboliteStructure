@@ -1,0 +1,91 @@
+ID   NRDR_LACP3              Reviewed;         155 AA.
+AC   Q037Z3;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=Transcriptional repressor NrdR {ECO:0000255|HAMAP-Rule:MF_00440};
+GN   Name=nrdR {ECO:0000255|HAMAP-Rule:MF_00440};
+GN   OrderedLocusNames=LSEI_1706;
+OS   Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 /
+OS   CIP 107868 / KCTC 3260 / NRRL B-441) (Lactobacillus paracasei).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lacticaseibacillus.
+OX   NCBI_TaxID=321967;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 /
+RC   NRRL B-441;
+RX   PubMed=17030793; DOI=10.1073/pnas.0607117103;
+RA   Makarova K.S., Slesarev A., Wolf Y.I., Sorokin A., Mirkin B., Koonin E.V.,
+RA   Pavlov A., Pavlova N., Karamychev V., Polouchine N., Shakhova V.,
+RA   Grigoriev I., Lou Y., Rohksar D., Lucas S., Huang K., Goodstein D.M.,
+RA   Hawkins T., Plengvidhya V., Welker D., Hughes J., Goh Y., Benson A.,
+RA   Baldwin K., Lee J.-H., Diaz-Muniz I., Dosti B., Smeianov V., Wechter W.,
+RA   Barabote R., Lorca G., Altermann E., Barrangou R., Ganesan B., Xie Y.,
+RA   Rawsthorne H., Tamir D., Parker C., Breidt F., Broadbent J.R., Hutkins R.,
+RA   O'Sullivan D., Steele J., Unlu G., Saier M.H. Jr., Klaenhammer T.,
+RA   Richardson P., Kozyavkin S., Weimer B.C., Mills D.A.;
+RT   "Comparative genomics of the lactic acid bacteria.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15611-15616(2006).
+CC   -!- FUNCTION: Negatively regulates transcription of bacterial
+CC       ribonucleotide reductase nrd genes and operons by binding to NrdR-
+CC       boxes. {ECO:0000255|HAMAP-Rule:MF_00440}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00440};
+CC       Note=Binds 1 zinc ion. {ECO:0000255|HAMAP-Rule:MF_00440};
+CC   -!- SIMILARITY: Belongs to the NrdR family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00440}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000423; ABJ70479.1; -; Genomic_DNA.
+DR   RefSeq; WP_003565887.1; NC_008526.1.
+DR   RefSeq; YP_806921.1; NC_008526.1.
+DR   AlphaFoldDB; Q037Z3; -.
+DR   SMR; Q037Z3; -.
+DR   STRING; 321967.LSEI_1706; -.
+DR   PaxDb; 321967-LSEI_1706; -.
+DR   GeneID; 57090409; -.
+DR   KEGG; lca:LSEI_1706; -.
+DR   PATRIC; fig|321967.11.peg.1686; -.
+DR   HOGENOM; CLU_108412_0_0_9; -.
+DR   Proteomes; UP000001651; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00440; NrdR; 1.
+DR   InterPro; IPR005144; ATP-cone_dom.
+DR   InterPro; IPR055173; NrdR-like_N.
+DR   InterPro; IPR003796; RNR_NrdR-like.
+DR   NCBIfam; TIGR00244; transcriptional regulator NrdR; 1.
+DR   PANTHER; PTHR30455; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   PANTHER; PTHR30455:SF2; TRANSCRIPTIONAL REPRESSOR NRDR; 1.
+DR   Pfam; PF03477; ATP-cone; 1.
+DR   Pfam; PF22811; NrdR-like_N; 1.
+DR   PROSITE; PS51161; ATP_CONE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA-binding; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Repressor; Transcription; Transcription regulation;
+KW   Zinc; Zinc-finger.
+FT   CHAIN           1..155
+FT                   /note="Transcriptional repressor NrdR"
+FT                   /id="PRO_1000080763"
+FT   DOMAIN          49..139
+FT                   /note="ATP-cone"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+FT   ZN_FING         3..34
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+FT   REGION          1..21
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        1..10
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   155 AA;  18049 MW;  6C6F7649A5D26CE4 CRC64;
+     MQCPHCHHNS SRVVDSRPTD GGRAIRRRRE CENCGFRFTT FERVEQTPLL VIKKNGTREE
+     FNREKILKGL IRAAEKRPVT MEQMQSIVDS VENQLRAIGE NEVSSQAIGE FVMSKLADVD
+     DVAYIRFASV YRQFKDMSVF MQELQDMMKK EKTKK
+//

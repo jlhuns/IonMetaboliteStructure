@@ -1,0 +1,86 @@
+ID   E0RSS3_SPITD            Unreviewed;       263 AA.
+AC   E0RSS3;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 65.
+DE   RecName: Full=FAD synthase {ECO:0000256|ARBA:ARBA00012393};
+DE            EC=2.7.7.2 {ECO:0000256|ARBA:ARBA00012393};
+GN   Name=ribF {ECO:0000313|EMBL:ADN02060.1};
+GN   OrderedLocusNames=STHERM_c11150 {ECO:0000313|EMBL:ADN02060.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02060.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02060.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=FMN + ATP + H(+) = FAD + diphosphate; Xref=Rhea:RHEA:17237,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58210; EC=2.7.7.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049494};
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN: step
+CC       1/1. {ECO:0000256|ARBA:ARBA00004726}.
+CC   -!- SIMILARITY: Belongs to the RibF family.
+CC       {ECO:0000256|ARBA:ARBA00010214}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02060.1; -; Genomic_DNA.
+DR   RefSeq; WP_013313901.1; NC_014484.1.
+DR   AlphaFoldDB; E0RSS3; -.
+DR   PaxDb; 665571-STHERM_c11150; -.
+DR   KEGG; sta:STHERM_c11150; -.
+DR   eggNOG; COG0196; Bacteria.
+DR   HOGENOM; CLU_048437_1_0_12; -.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008531; F:riboflavin kinase activity; IEA:TreeGrafter.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009398; P:FMN biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:InterPro.
+DR   CDD; cd02064; FAD_synthetase_N; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR015864; FAD_synthase.
+DR   InterPro; IPR023468; Riboflavin_kinase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR22749:SF6; RIBOFLAVIN KINASE; 1.
+DR   PANTHER; PTHR22749; RIBOFLAVIN KINASE/FMN ADENYLYLTRANSFERASE; 1.
+DR   Pfam; PF06574; FAD_syn; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840};
+KW   FAD {ECO:0000256|ARBA:ARBA00022827};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000313|EMBL:ADN02060.1};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ADN02060.1}.
+FT   DOMAIN          18..167
+FT                   /note="FAD synthetase"
+FT                   /evidence="ECO:0000259|Pfam:PF06574"
+SQ   SEQUENCE   263 AA;  29447 MW;  CE79FD6185BE059D CRC64;
+     MCASVDRLTW AEFLSLPRNP EDSAVTIGVF DGVHLGHQEL LETLLSSSLH PLVITFDKNP
+     EELFSPDKRY ERLTSLRQKV SRIREMGIPD VLVIDFSRDF STIEGREFLE RVIDVTRMKR
+     LLVGKDFRCG RGGAVGIAEA EELCARRGVE LVVMEDVTQN GTRVSSTEIR KRILEGELDA
+     AEQMLGRPHT LDLRGLVGEG RGTLCIPRWK IPQILPPPGE YAGRGTGGEP LRISIHPSEI
+     WISPLDERDS SSLEVMILHK QGE
+//

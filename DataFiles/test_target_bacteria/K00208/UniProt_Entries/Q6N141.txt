@@ -1,0 +1,120 @@
+ID   Q6N141_RHOPA            Unreviewed;       253 AA.
+AC   Q6N141;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=Enoyl-[acyl-carrier-protein] reductase [NADH] {ECO:0000256|PIRNR:PIRNR000094};
+DE            EC=1.3.1.9 {ECO:0000256|PIRNR:PIRNR000094};
+GN   Name=fabI {ECO:0000313|EMBL:WCL94772.1};
+GN   OrderedLocusNames=RPA4568 {ECO:0000313|EMBL:CAE30008.1};
+GN   ORFNames=TX73_023730 {ECO:0000313|EMBL:WCL94772.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE30008.1};
+RN   [1] {ECO:0000313|EMBL:WCL94772.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94772.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE30008.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE30008.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94772.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94772.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2,3-saturated acyl-[ACP] + NAD(+) = a (2E)-enoyl-[ACP] +
+CC         NADH + H(+); Xref=Rhea:RHEA:10240, Rhea:RHEA-COMP:9925, Rhea:RHEA-
+CC         COMP:9926, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:78784, ChEBI:CHEBI:78785; EC=1.3.1.9;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048572,
+CC         ECO:0000256|PIRNR:PIRNR000094};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC       {ECO:0000256|ARBA:ARBA00005194}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. FabI subfamily. {ECO:0000256|ARBA:ARBA00009233,
+CC       ECO:0000256|PIRNR:PIRNR000094}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE30008.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94772.1; -; Genomic_DNA.
+DR   RefSeq; WP_011160100.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4568; -.
+DR   GeneID; 66895719; -.
+DR   KEGG; rpa:TX73_023730; -.
+DR   eggNOG; COG0623; Bacteria.
+DR   HOGENOM; CLU_010194_10_1_5; -.
+DR   PhylomeDB; Q6N141; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0004318; F:enoyl-[acyl-carrier-protein] reductase (NADH) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd05372; ENR_SDR; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   InterPro; IPR014358; Enoyl-ACP_Rdtase_NADH.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PANTHER; PTHR43159; ENOYL-[ACYL-CARRIER-PROTEIN] REDUCTASE; 1.
+DR   PANTHER; PTHR43159:SF2; ENOYL-[ACYL-CARRIER-PROTEIN] REDUCTASE [NADH], CHLOROPLASTIC; 1.
+DR   Pfam; PF13561; adh_short_C2; 1.
+DR   PIRSF; PIRSF000094; Enoyl-ACP_rdct; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160,
+KW   ECO:0000256|PIRNR:PIRNR000094};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516,
+KW   ECO:0000256|PIRNR:PIRNR000094};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098};
+KW   NAD {ECO:0000256|PIRNR:PIRNR000094, ECO:0000256|PIRSR:PIRSR000094-3};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|PIRNR:PIRNR000094};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   BINDING         12
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-3"
+FT   BINDING         18..19
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-3"
+FT   BINDING         63..64
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-3"
+FT   BINDING         91
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-3"
+FT   BINDING         94
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-2"
+FT   BINDING         161
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000094-3"
+SQ   SEQUENCE   253 AA;  27174 MW;  16558F8E56A29BF6 CRC64;
+     MNLQGKKGLV VGIANDQSIA FGCARAFRDA GAELAVTYLN DKAAPHVVPL AEQLGCPIVV
+     PCDVREPGQL EAVFERISQQ WGRLDFLLHS IAFAPKEDLH GRVVDCSQAG FAMAMDVSCH
+     SFIRMAKLAE PLMPDGGCLL TVSFYGSEKV VEDYNLMGPV KAALESSVRY IAAELAPKKI
+     RVHALSPGPL MTRAASGIAR FDELLERTRA RLPAHQLVSI EDVGAVAAFL VGDSARSLTG
+     NIEYIDAGYH VIG
+//

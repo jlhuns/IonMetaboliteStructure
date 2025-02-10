@@ -1,0 +1,118 @@
+ID   Q6N872_RHOPA            Unreviewed;       180 AA.
+AC   Q6N872;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Acetolactate synthase small subunit {ECO:0000256|RuleBase:RU368092};
+DE            Short=AHAS {ECO:0000256|RuleBase:RU368092};
+DE            Short=ALS {ECO:0000256|RuleBase:RU368092};
+DE            EC=2.2.1.6 {ECO:0000256|RuleBase:RU368092};
+DE   AltName: Full=Acetohydroxy-acid synthase small subunit {ECO:0000256|RuleBase:RU368092};
+GN   Name=ilvH {ECO:0000313|EMBL:CAE27473.1};
+GN   Synonyms=ilvN {ECO:0000313|EMBL:WCL92182.1};
+GN   OrderedLocusNames=RPA2032 {ECO:0000313|EMBL:CAE27473.1};
+GN   ORFNames=TX73_010470 {ECO:0000313|EMBL:WCL92182.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE27473.1};
+RN   [1] {ECO:0000313|EMBL:WCL92182.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92182.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE27473.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE27473.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL92182.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL92182.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the conversion of 2 pyruvate molecules into
+CC       acetolactate in the first common step of the biosynthetic pathway of
+CC       the branched-amino acids such as leucine, isoleucine, and valine.
+CC       {ECO:0000256|RuleBase:RU368092}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 pyruvate + H(+) = (2S)-2-acetolactate + CO2;
+CC         Xref=Rhea:RHEA:25249, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:58476; EC=2.2.1.6;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048670,
+CC         ECO:0000256|RuleBase:RU368092};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 1/4.
+CC       {ECO:0000256|ARBA:ARBA00004974, ECO:0000256|RuleBase:RU368092}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 1/4. {ECO:0000256|ARBA:ARBA00005025,
+CC       ECO:0000256|RuleBase:RU368092}.
+CC   -!- SUBUNIT: Dimer of large and small chains.
+CC       {ECO:0000256|ARBA:ARBA00011744, ECO:0000256|RuleBase:RU368092}.
+CC   -!- SIMILARITY: Belongs to the acetolactate synthase small subunit family.
+CC       {ECO:0000256|ARBA:ARBA00006341, ECO:0000256|RuleBase:RU368092}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572599; CAE27473.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL92182.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157587.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA2032; -.
+DR   GeneID; 66893076; -.
+DR   KEGG; rpa:TX73_010470; -.
+DR   eggNOG; COG0440; Bacteria.
+DR   HOGENOM; CLU_055003_1_2_5; -.
+DR   PhylomeDB; Q6N872; -.
+DR   UniPathway; UPA00047; UER00055.
+DR   UniPathway; UPA00049; UER00059.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0003984; F:acetolactate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:1990610; F:acetolactate synthase regulator activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:L-valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04878; ACT_AHAS; 1.
+DR   FunFam; 3.30.70.1150:FF:000001; Acetolactate synthase small subunit; 1.
+DR   FunFam; 3.30.70.260:FF:000001; Acetolactate synthase, small subunit; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.70.1150; ACT-like. Chain A, domain 2; 1.
+DR   InterPro; IPR004789; Acetalactate_synth_ssu.
+DR   InterPro; IPR027271; Acetolactate_synth/TF_NikR_C.
+DR   InterPro; IPR019455; Acetolactate_synth_ssu_C.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR039557; AHAS_ACT.
+DR   InterPro; IPR054480; AHAS_small-like_ACT.
+DR   NCBIfam; TIGR00119; acolac_sm; 1.
+DR   PANTHER; PTHR30239; ACETOLACTATE SYNTHASE SMALL SUBUNIT; 1.
+DR   PANTHER; PTHR30239:SF0; ACETOLACTATE SYNTHASE SMALL SUBUNIT 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF22629; AHAS-like_ACT; 1.
+DR   Pfam; PF10369; ALS_ss_C; 1.
+DR   SUPFAM; SSF55021; ACT-like; 2.
+DR   PROSITE; PS51671; ACT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605,
+KW   ECO:0000256|RuleBase:RU368092};
+KW   Branched-chain amino acid biosynthesis {ECO:0000256|ARBA:ARBA00023304,
+KW   ECO:0000256|RuleBase:RU368092};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|RuleBase:RU368092, ECO:0000313|EMBL:CAE27473.1}.
+FT   DOMAIN          21..96
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+SQ   SEQUENCE   180 AA;  19942 MW;  84225FCB07D20FC1 CRC64;
+     MTQPASAYFM EERHDPNETH TLSVIVQNEP GVLARVIGLF SGRGYNIESL TVSETEAQKH
+     LSRITIVTTG TPMVIQQIKN QLDRMVPVYR VVDMTLSGRS IERELAMVKL RGVGDHRVES
+     LRLAEAFRAR VIDASTESFV FEITGNSSKI NQFIELMRPL GLVEVVRTGV AAIGRGAEGM
+//

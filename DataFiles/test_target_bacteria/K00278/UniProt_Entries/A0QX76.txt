@@ -1,0 +1,115 @@
+ID   A0QX76_MYCS2            Unreviewed;       531 AA.
+AC   A0QX76;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 133.
+DE   RecName: Full=L-aspartate oxidase {ECO:0000256|ARBA:ARBA00012173, ECO:0000256|NCBIfam:TIGR00551};
+DE            EC=1.4.3.16 {ECO:0000256|ARBA:ARBA00012173, ECO:0000256|NCBIfam:TIGR00551};
+GN   Name=nadB {ECO:0000313|EMBL:ABK75184.1};
+GN   OrderedLocusNames=MSMEG_3200 {ECO:0000313|EMBL:ABK75184.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK75184.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK75184.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the oxidation of L-aspartate to iminoaspartate, the
+CC       first step in the de novo biosynthesis of NAD(+).
+CC       {ECO:0000256|ARBA:ARBA00029426}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate + O2 = iminosuccinate + H2O2;
+CC         Xref=Rhea:RHEA:25876, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:77875; EC=1.4.3.16;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048305};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25877;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048305};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU362049};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; iminoaspartate
+CC       from L-aspartate (oxidase route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004950, ECO:0000256|RuleBase:RU362049}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|RuleBase:RU362049}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent oxidoreductase 2 family. NadB
+CC       subfamily. {ECO:0000256|ARBA:ARBA00008562,
+CC       ECO:0000256|RuleBase:RU362049}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK75184.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728891.1; NZ_SIJM01000015.1.
+DR   RefSeq; YP_887514.1; NC_008596.1.
+DR   AlphaFoldDB; A0QX76; -.
+DR   STRING; 246196.MSMEG_3200; -.
+DR   PaxDb; 246196-MSMEI_3118; -.
+DR   GeneID; 66734600; -.
+DR   KEGG; msb:LJ00_15910; -.
+DR   KEGG; msm:MSMEG_3200; -.
+DR   PATRIC; fig|246196.19.peg.3162; -.
+DR   eggNOG; COG0029; Bacteria.
+DR   OrthoDB; 9805351at2; -.
+DR   UniPathway; UPA00253; UER00326.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008734; F:L-aspartate oxidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034628; P:'de novo' NAD biosynthetic process from aspartate; IEA:TreeGrafter.
+DR   FunFam; 3.90.700.10:FF:000002; L-aspartate oxidase; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   Gene3D; 1.20.58.100; Fumarate reductase/succinate dehydrogenase flavoprotein-like, C-terminal domain; 1.
+DR   Gene3D; 3.90.700.10; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   InterPro; IPR003953; FAD-dep_OxRdtase_2_FAD-bd.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR037099; Fum_R/Succ_DH_flav-like_C_sf.
+DR   InterPro; IPR015939; Fum_Rdtase/Succ_DH_flav-like_C.
+DR   InterPro; IPR005288; NadB.
+DR   InterPro; IPR027477; Succ_DH/fumarate_Rdtase_cat_sf.
+DR   NCBIfam; TIGR00551; nadB; 1.
+DR   PANTHER; PTHR42716; L-ASPARTATE OXIDASE; 1.
+DR   PANTHER; PTHR42716:SF2; L-ASPARTATE OXIDASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF00890; FAD_binding_2; 1.
+DR   Pfam; PF02910; Succ_DH_flav_C; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   PRINTS; PR00411; PNDRDTASEI.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF46977; Succinate dehydrogenase/fumarate reductase flavoprotein C-terminal domain; 1.
+DR   SUPFAM; SSF56425; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU362049};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU362049};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU362049};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|RuleBase:RU362049};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          20..391
+FT                   /note="FAD-dependent oxidoreductase 2 FAD binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00890"
+FT   DOMAIN          430..516
+FT                   /note="Fumarate reductase/succinate dehydrogenase
+FT                   flavoprotein-like C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02910"
+FT   REGION          489..508
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        491..502
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   531 AA;  54036 MW;  351C75413E72705B CRC64;
+     MTGAGTFACG TSAYWQQRTD VVVIGTGVAG LVAALAAHRA GRRVTVLSKV SETATFYAQG
+     GIAVVLPAGV GSADDTIEAH VADTLAAGGG LCDAEAVRSI VADGAKAITD LVADGALFDE
+     SAPGRWALTR EGGHTRRRII HAGGDATGAE VQRTLNHAAA HLDIRHNHVA LRILQDEAGV
+     TGVLVHNDDG PGILHAPSVV LATGGLGHLY AATTNPVGST GDGIALALWA GVAVSDIEFV
+     QFHPTMLFGA AAGGRRPLIT EALRGEGAVL IDAQGHPVTA GVHPMGDLAP RDVVAAAINA
+     RLAATGDPCV YLDARGVAGV ADRFPTVTAA CLAAGIDPAR EPIPVVPGAH YSCGGVVTDV
+     YGRTALPGLF AAGEVARTGM HGANRLASNS LLEGLVVGSR AGRAAAAHAE QAGSVRAVVP
+     QQVRRDAVDR QVLQAAMSTH ASVVRDAQGL HRLAETLDAA RAVVPSDRAS FEDAALTSVA
+     RAVVRAATAR TESRGSHHRG DFPDTDPTQE VSMTVRIHDG DVAVDIPTAV C
+//

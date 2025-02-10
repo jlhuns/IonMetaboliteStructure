@@ -1,0 +1,106 @@
+ID   Q6N1U5_RHOPA            Unreviewed;       390 AA.
+AC   Q6N1U5;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=phosphoserine transaminase {ECO:0000256|ARBA:ARBA00013030};
+DE            EC=2.6.1.52 {ECO:0000256|ARBA:ARBA00013030};
+GN   Name=serC {ECO:0000313|EMBL:CAE29750.1};
+GN   OrderedLocusNames=RPA4309 {ECO:0000313|EMBL:CAE29750.1};
+GN   ORFNames=TX73_022330 {ECO:0000313|EMBL:WCL94501.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29750.1};
+RN   [1] {ECO:0000313|EMBL:WCL94501.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94501.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29750.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29750.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94501.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94501.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O-phospho-L-serine + 2-oxoglutarate = 3-phosphooxypyruvate +
+CC         L-glutamate; Xref=Rhea:RHEA:14329, ChEBI:CHEBI:16810,
+CC         ChEBI:CHEBI:18110, ChEBI:CHEBI:29985, ChEBI:CHEBI:57524; EC=2.6.1.52;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049007};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine from
+CC       3-phospho-D-glycerate: step 2/3. {ECO:0000256|ARBA:ARBA00005099}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. SerC subfamily.
+CC       {ECO:0000256|ARBA:ARBA00006904}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572606; CAE29750.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94501.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159843.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4309; -.
+DR   GeneID; 66895439; -.
+DR   KEGG; rpa:TX73_022330; -.
+DR   eggNOG; COG1932; Bacteria.
+DR   HOGENOM; CLU_040283_0_0_5; -.
+DR   PhylomeDB; Q6N1U5; -.
+DR   UniPathway; UPA00135; UER00197.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005777; C:peroxisome; IEA:TreeGrafter.
+DR   GO; GO:0008453; F:alanine-glyoxylate transaminase activity; IEA:TreeGrafter.
+DR   GO; GO:0004760; F:L-serine-pyruvate transaminase activity; IEA:TreeGrafter.
+DR   GO; GO:0004648; F:O-phospho-L-serine:2-oxoglutarate aminotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019265; P:glycine biosynthetic process, by transamination of glyoxylate; IEA:TreeGrafter.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd01494; AAT_I; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR022278; Pser_aminoTfrase.
+DR   InterPro; IPR006271; Pser_aminoTfrase_methanosarc.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01365; serC_2; 1.
+DR   PANTHER; PTHR21152:SF40; ALANINE--GLYOXYLATE AMINOTRANSFERASE; 1.
+DR   PANTHER; PTHR21152; AMINOTRANSFERASE CLASS V; 1.
+DR   PIRSF; PIRSF000525; SerC; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605};
+KW   Aminotransferase {ECO:0000256|ARBA:ARBA00022576,
+KW   ECO:0000313|EMBL:CAE29750.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Serine biosynthesis {ECO:0000256|ARBA:ARBA00023299};
+KW   Transferase {ECO:0000313|EMBL:CAE29750.1}.
+FT   REGION          1..38
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   390 AA;  41933 MW;  42FE6EB57D40948A CRC64;
+     MTVAKPASRP NAPQFSSGPC AKRPGWTPEN LKDAPLGRSH RAKVGKAKLK LAIDLTRDVL
+     EVPADYKIGI VPASDTGAVE MALWSLLGPR PVTTLAWESF GDGWVGDITK ELKLPNVTKL
+     KAGYGEIPDL SKVDCNTDVV FTWNGTTSGV RVPNADWIKA DREGLTICDA TSAAFAQPLD
+     WAKLDVVTFS WQKALGGEAA HGMLILSPRA VARLESYTPT WPMPKIFRLT KGGKLMEGIF
+     QGETINTPSM LCVEDYIDAL QWAKSVGGLK GLIARADANT KVLTDWQAKT PWVDFLAKDP
+     AIRSNTSVCL KVVDPAITAL SPEAQADFAK KLVAAVEKEG AGFDLGAYRD APPGLRIWCG
+     ATVEAADVAA LTQWLDWAFE TTKASLTQAA
+//

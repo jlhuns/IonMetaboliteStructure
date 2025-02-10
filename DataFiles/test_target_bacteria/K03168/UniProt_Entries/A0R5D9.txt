@@ -1,0 +1,395 @@
+ID   TOP1_MYCS2              Reviewed;         936 AA.
+AC   A0R5D9;
+DT   17-FEB-2016, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 140.
+DE   RecName: Full=DNA topoisomerase 1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE            EC=5.6.2.1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=DNA topoisomerase I {ECO:0000255|HAMAP-Rule:MF_00952};
+GN   Name=topA {ECO:0000255|HAMAP-Rule:MF_00952};
+GN   OrderedLocusNames=MSMEG_6157, MSMEI_5999;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-11, FUNCTION, COFACTOR, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, ACTIVE SITE, AND DNA-BINDING.
+RC   STRAIN=ATCC 27204 / DSM 43464 / SN2;
+RX   PubMed=9593741; DOI=10.1074/jbc.273.22.13925;
+RA   Bhaduri T., Bagui T.K., Sikder D., Nagaraja V.;
+RT   "DNA topoisomerase I from Mycobacterium smegmatis. An enzyme with distinct
+RT   features.";
+RL   J. Biol. Chem. 273:13925-13932(1998).
+RN   [5]
+RP   FUNCTION, SUBSTRATE SPECIFICITY, AND DNA-BINDING.
+RC   STRAIN=ATCC 27204 / DSM 43464 / SN2;
+RX   PubMed=10734203; DOI=10.1093/nar/28.8.1830;
+RA   Sikder D., Nagaraja V.;
+RT   "Determination of the recognition sequence of Mycobacterium smegmatis
+RT   topoisomerase I on mycobacterial genomic sequences.";
+RL   Nucleic Acids Res. 28:1830-1837(2000).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA, which
+CC       is introduced during the DNA replication and transcription, by
+CC       transiently cleaving and rejoining one strand of the DNA duplex.
+CC       Introduces a single-strand break via transesterification at a target
+CC       site in duplex DNA. The scissile phosphodiester is attacked by the
+CC       catalytic tyrosine of the enzyme, resulting in the formation of a DNA-
+CC       (5'-phosphotyrosyl)-enzyme intermediate (PubMed:9593741) and the
+CC       expulsion of a 3'-OH DNA strand. The free DNA strand then undergoes
+CC       passage around the unbroken strand, thus removing DNA supercoils.
+CC       Finally, in the religation step, the DNA 3'-OH attacks the covalent
+CC       intermediate to expel the active-site tyrosine and restore the DNA
+CC       phosphodiester backbone (By similarity). {ECO:0000255|HAMAP-
+CC       Rule:MF_00952, ECO:0000269|PubMed:9593741}.
+CC   -!- FUNCTION: Relaxes negatively (but not positively) supercoiled DNA,
+CC       concatanates and knots circular ssDNA at 52 but not 37 degrees Celsius
+CC       (PubMed:9593741). Preferentially nicks supercoiled DNA at C(G/T)CTT,
+CC       cutting between the TT residues, binds ss and dsDNA with the
+CC       recognition site (PubMed:10734203). {ECO:0000269|PubMed:10734203,
+CC       ECO:0000269|PubMed:9593741}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-independent breakage of single-stranded DNA, followed by
+CC         passage and rejoining.; EC=5.6.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00952, ECO:0000269|PubMed:9593741};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Optimum temperature is 30-42 degrees Celsius. Partially active up to
+CC         65 degrees Celsius (PubMed:9593741). {ECO:0000269|PubMed:9593741};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Belongs to the type IA topoisomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK69586.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP42431.1; -; Genomic_DNA.
+DR   RefSeq; WP_011731080.1; NZ_SIJM01000072.1.
+DR   RefSeq; YP_890377.1; NC_008596.1.
+DR   PDB; 6PCM; X-ray; 3.11 A; A/B=1-839.
+DR   PDBsum; 6PCM; -.
+DR   AlphaFoldDB; A0R5D9; -.
+DR   SMR; A0R5D9; -.
+DR   STRING; 246196.MSMEG_6157; -.
+DR   PaxDb; 246196-MSMEI_5999; -.
+DR   GeneID; 93460786; -.
+DR   KEGG; msb:LJ00_30450; -.
+DR   KEGG; msg:MSMEI_5999; -.
+DR   KEGG; msm:MSMEG_6157; -.
+DR   PATRIC; fig|246196.19.peg.5996; -.
+DR   eggNOG; COG0550; Bacteria.
+DR   eggNOG; COG1754; Bacteria.
+DR   OrthoDB; 9804262at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I (single strand cut, ATP-independent) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-UniRule.
+DR   CDD; cd00186; TOP1Ac; 1.
+DR   CDD; cd03363; TOPRIM_TopoIA_TopoI; 1.
+DR   FunFam; 1.10.290.10:FF:000002; DNA topoisomerase 1; 1.
+DR   FunFam; 3.40.50.140:FF:000001; DNA topoisomerase 1; 1.
+DR   Gene3D; 3.40.50.140; -; 1.
+DR   Gene3D; 1.10.460.10; Topoisomerase I, domain 2; 1.
+DR   Gene3D; 2.70.20.10; Topoisomerase I, domain 3; 1.
+DR   Gene3D; 1.10.290.10; Topoisomerase I, domain 4; 1.
+DR   HAMAP; MF_00952; Topoisom_1_prok; 1.
+DR   InterPro; IPR000380; Topo_IA.
+DR   InterPro; IPR003601; Topo_IA_2.
+DR   InterPro; IPR023406; Topo_IA_AS.
+DR   InterPro; IPR013497; Topo_IA_cen.
+DR   InterPro; IPR013824; Topo_IA_cen_sub1.
+DR   InterPro; IPR013825; Topo_IA_cen_sub2.
+DR   InterPro; IPR013826; Topo_IA_cen_sub3.
+DR   InterPro; IPR023405; Topo_IA_core_domain.
+DR   InterPro; IPR003602; Topo_IA_DNA-bd_dom.
+DR   InterPro; IPR005733; TopoI_bac-type.
+DR   InterPro; IPR028612; Topoisom_1_IA.
+DR   InterPro; IPR025589; Toprim_C_rpt.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR034149; TOPRIM_TopoI.
+DR   NCBIfam; TIGR01051; topA_bact; 1.
+DR   PANTHER; PTHR42785:SF1; DNA TOPOISOMERASE; 1.
+DR   PANTHER; PTHR42785; DNA TOPOISOMERASE, TYPE IA, CORE; 1.
+DR   Pfam; PF01131; Topoisom_bac; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF13368; Toprim_C_rpt; 4.
+DR   PRINTS; PR00417; PRTPISMRASEI.
+DR   SMART; SM00437; TOP1Ac; 1.
+DR   SMART; SM00436; TOP1Bc; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF56712; Prokaryotic type I DNA topoisomerase; 1.
+DR   PROSITE; PS00396; TOPO_IA_1; 1.
+DR   PROSITE; PS52039; TOPO_IA_2; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; DNA-binding; Isomerase; Magnesium;
+KW   Metal-binding; Reference proteome; Topoisomerase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:9593741"
+FT   CHAIN           2..936
+FT                   /note="DNA topoisomerase 1"
+FT                   /id="PRO_0000435621"
+FT   DOMAIN          15..139
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   DOMAIN          154..611
+FT                   /note="Topo IA-type catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383"
+FT   REGION          188..193
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   REGION          661..688
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          732..767
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          841..884
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          903..936
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        910..936
+FT                   /note="Basic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        339
+FT                   /note="O-(5'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01383,
+FT                   ECO:0000305|PubMed:9593741"
+FT   BINDING         21
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   BINDING         108
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            45
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            164
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            165
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            168
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            173
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            180
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            341
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   SITE            542
+FT                   /note="Interaction with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00952"
+FT   CONFLICT        5
+FT                   /note="D -> S (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        11
+FT                   /note="T -> A (in Ref. 4; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          16..21
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           23..32
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          37..41
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          46..48
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            53..55
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           58..62
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          67..71
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           72..74
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            84..86
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           87..97
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          101..105
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           111..124
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          130..132
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           140..148
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           155..182
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           193..208
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          214..222
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           224..226
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          236..243
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          246..248
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            255..257
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            263..265
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           271..280
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          285..294
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           306..316
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           321..333
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           349..362
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          391..395
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           399..402
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            403..405
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           408..423
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          429..439
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          443..445
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          448..459
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           461..465
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          493..495
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          499..505
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           514..522
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            523..525
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            529..531
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           532..540
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            541..543
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          544..547
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          549..554
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           556..568
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           570..573
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           576..589
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           595..604
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          610..612
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            615..618
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           620..625
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           633..637
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          649..653
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          655..658
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          660..665
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          668..673
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          675..680
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           687..689
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           692..700
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          703..710
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            712..714
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          717..722
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          724..731
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          762..764
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            771..773
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           776..782
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          786..791
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   TURN            793..795
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          798..804
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          807..812
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   STRAND          815..818
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           824..827
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+FT   HELIX           830..836
+FT                   /evidence="ECO:0007829|PDB:6PCM"
+SQ   SEQUENCE   936 AA;  102499 MW;  CCFB66C8A9AD3F22 CRC64;
+     MAGGDRGSGG TGNVRRLVIV ESPTKARKIA GYLGSNYVVE SSRGHIRDLP RNAADVPAKF
+     KSEPWARLGV NVDQNFEPLY IVSPEKKSTV TELKGLLKDV DELYLATDGD REGEAIAWHL
+     LETLKPRVPV KRMVFHEITE PAIRNAAENP RDLDIALVDA QETRRILDRL YGYEVSPVLW
+     KKVAPKLSAG RVQSVATRII VQRERERMAF HSASYWDVTA ELDASVSDPS ASPPKFTAKL
+     NTVDGRRVAT GRDFDSLGQL KRPDEVLVLD EASAGALASG LRGAQLAVTS VEQKPYTRRP
+     YAPFMTSTLQ QEAARKLRFS SERTMSIAQR LYENGYITYM RTDSTTLSES AINAARTQAR
+     QLYGEEYVHP SPRQYTRKVK NAQEAHEAIR PAGDVFQTPG QLHSALDTDE FRLYELIWQR
+     TVASQMADAR GTTLSLRIGG SASSGEQVVF NASGRTITFP GFLKAYVESI DELAGGESDD
+     AESRLPNLTQ GQRVDAADLS ADGHQTSPPA RYTEASLIKA LEELGIGRPS TYSSIIKTIQ
+     DRGYVQKKGS ALVPSWVAFA VVGLLEQHFG RLVDYDFTAA MEDELDEIAN GQEQRTNWLN
+     NFYFGGEHGV EGSIARAGGL KQLVGGNLEG IDAREVNSIK VFDDSEGRPV YVRVGRNGPY
+     LERMVDDPDN PGEQKPQRAN LKEDLTPDEL TPELAEKLFA TPQEGRSLGI DPETGHEIVA
+     KDGRFGPYVT EVLPEPEDGG DDGTAGTPAK KGKKPTGPKP RTGSLFRSMD LETVTLEDAL
+     KLLSLPRVVG VDPTTNEEIT AQNGRYGPYL KRGTDSRSLA TEDQIFTITL DEALKIYAEP
+     KRRGRQAASA PPLRELGNDP VSGKPMVIKD GRFGPYVTDG ETNASLRKGD DVLTITDERA
+     SELLADRRAR GPVKKKAPAK KAAKKAPAKK AAAKKA
+//

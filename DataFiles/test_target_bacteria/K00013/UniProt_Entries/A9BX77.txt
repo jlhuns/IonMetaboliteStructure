@@ -1,0 +1,177 @@
+ID   A9BX77_DELAS            Unreviewed;       438 AA.
+AC   A9BX77;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   27-NOV-2024, entry version 106.
+DE   RecName: Full=Histidinol dehydrogenase {ECO:0000256|HAMAP-Rule:MF_01024};
+DE            Short=HDH {ECO:0000256|HAMAP-Rule:MF_01024};
+DE            EC=1.1.1.23 {ECO:0000256|HAMAP-Rule:MF_01024};
+GN   Name=hisD {ECO:0000256|HAMAP-Rule:MF_01024};
+GN   OrderedLocusNames=Daci_5524 {ECO:0000313|EMBL:ABX38153.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX38153.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX38153.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the sequential NAD-dependent oxidations of L-
+CC       histidinol to L-histidinaldehyde and then to L-histidine.
+CC       {ECO:0000256|HAMAP-Rule:MF_01024}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-histidinol + 2 NAD(+) + H2O = L-histidine + 2 NADH + 3 H(+);
+CC         Xref=Rhea:RHEA:20641, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57595, ChEBI:CHEBI:57699,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.23; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01024};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01024, ECO:0000256|PIRSR:PIRSR000099-4};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000256|HAMAP-Rule:MF_01024,
+CC       ECO:0000256|PIRSR:PIRSR000099-4};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 9/9.
+CC       {ECO:0000256|HAMAP-Rule:MF_01024}.
+CC   -!- SIMILARITY: Belongs to the histidinol dehydrogenase family.
+CC       {ECO:0000256|ARBA:ARBA00010178, ECO:0000256|HAMAP-Rule:MF_01024,
+CC       ECO:0000256|PIRNR:PIRNR000099, ECO:0000256|RuleBase:RU004175}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX38153.1; -; Genomic_DNA.
+DR   RefSeq; WP_012207322.1; NC_010002.1.
+DR   AlphaFoldDB; A9BX77; -.
+DR   STRING; 398578.Daci_5524; -.
+DR   GeneID; 24117821; -.
+DR   KEGG; dac:Daci_5524; -.
+DR   eggNOG; COG0141; Bacteria.
+DR   HOGENOM; CLU_006732_3_3_4; -.
+DR   UniPathway; UPA00031; UER00014.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004399; F:histidinol dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06572; Histidinol_dh; 1.
+DR   FunFam; 3.40.50.1980:FF:000001; Histidinol dehydrogenase; 1.
+DR   FunFam; 3.40.50.1980:FF:000026; Histidinol dehydrogenase; 1.
+DR   Gene3D; 1.20.5.1300; -; 1.
+DR   Gene3D; 3.40.50.1980; Nitrogenase molybdenum iron protein domain; 2.
+DR   HAMAP; MF_01024; HisD; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR001692; Histidinol_DH_CS.
+DR   InterPro; IPR022695; Histidinol_DH_monofunct.
+DR   InterPro; IPR012131; Hstdl_DH.
+DR   NCBIfam; TIGR00069; hisD; 1.
+DR   PANTHER; PTHR21256:SF2; HISTIDINE BIOSYNTHESIS TRIFUNCTIONAL PROTEIN; 1.
+DR   PANTHER; PTHR21256; HISTIDINOL DEHYDROGENASE HDH; 1.
+DR   Pfam; PF00815; Histidinol_dh; 1.
+DR   PIRSF; PIRSF000099; Histidinol_dh; 1.
+DR   PRINTS; PR00083; HOLDHDRGNASE.
+DR   SUPFAM; SSF53720; ALDH-like; 1.
+DR   PROSITE; PS00611; HISOL_DEHYDROGENASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01024};
+KW   Histidine biosynthesis {ECO:0000256|HAMAP-Rule:MF_01024};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01024};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_01024, ECO:0000256|PIRSR:PIRSR000099-2};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01024}; Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_01024}.
+FT   ACT_SITE        336
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-1"
+FT   ACT_SITE        337
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-1"
+FT   BINDING         139
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-2"
+FT   BINDING         200
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-2"
+FT   BINDING         223
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-2"
+FT   BINDING         246
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         268
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-4"
+FT   BINDING         268
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         271
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-4"
+FT   BINDING         271
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         337
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         370
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-4"
+FT   BINDING         370
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         424
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+FT   BINDING         429
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-4"
+FT   BINDING         429
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01024,
+FT                   ECO:0000256|PIRSR:PIRSR000099-3"
+SQ   SEQUENCE   438 AA;  46753 MW;  36D114BB8483D550 CRC64;
+     MEYVAAPARL STADANFEHD FAQRLHWSAD TDAAIEQRVA DILADVQKRG DAAVLEYTAR
+     FDGLQVDGMA ALELTQAELK AAFNSLGDEQ RDALTAAAQR VRTYHEAQKR ASGESWSYRD
+     ADGTLLGQKV TPLDRVGIYV PGGKAAYPSS VLMNAIPAHV AGVQEIIMVV PTPRGEKNAL
+     VLAAAYVAGV TRGFTIGGAQ AVAALAYGTA TIPKVDKITG PGNAYVASAK KRVFGTVGID
+     MIAGPSEILV LADGSTPPDW VAMDLFSQAE HDELAQSILL CPDADYIAAV QREIDRLLPE
+     MPRRAIIAKS LSDRGALILT RDMQEACAIS NRIAPEHLEV SSNDPHQWEP LLRHAGAIFL
+     GAYTSESLGD YCAGPNHVLP TSGTARFSSP LGVYDFQKRS SLIEVSEQGA QTLGRIASVL
+     AHGEGLQGHA RAAEMRLK
+//

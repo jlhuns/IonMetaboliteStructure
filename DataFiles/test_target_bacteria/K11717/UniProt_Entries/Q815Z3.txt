@@ -1,0 +1,97 @@
+ID   Q815Z3_BACCR            Unreviewed;       406 AA.
+AC   Q815Z3;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 136.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+DE            EC=2.8.1.7 {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+GN   OrderedLocusNames=BC_4981 {ECO:0000313|EMBL:AAP11853.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11853.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11853.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the removal of elemental sulfur and selenium atoms
+CC       from L-cysteine, L-cystine, L-selenocysteine, and L-selenocystine to
+CC       produce L-alanine. {ECO:0000256|RuleBase:RU004506}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001357,
+CC         ECO:0000256|RuleBase:RU004506};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU004504};
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. Csd subfamily. {ECO:0000256|ARBA:ARBA00010447,
+CC       ECO:0000256|RuleBase:RU004506}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11853.1; -; Genomic_DNA.
+DR   RefSeq; NP_834652.1; NC_004722.1.
+DR   RefSeq; WP_001020767.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q815Z3; -.
+DR   SMR; Q815Z3; -.
+DR   MetOSite; Q815Z3; -.
+DR   GeneID; 72451655; -.
+DR   KEGG; bce:BC4981; -.
+DR   PATRIC; fig|226900.8.peg.5131; -.
+DR   HOGENOM; CLU_003433_2_5_9; -.
+DR   OrthoDB; 9804366at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06453; SufS_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010970; Cys_dSase_SufS.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01979; sufS; 1.
+DR   PANTHER; PTHR43586; CYSTEINE DESULFURASE; 1.
+DR   PANTHER; PTHR43586:SF8; CYSTEINE DESULFURASE 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:AAP11853.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|RuleBase:RU004506};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|RuleBase:RU004506}.
+FT   DOMAIN          23..391
+FT                   /note="Aminotransferase class V"
+FT                   /evidence="ECO:0000259|Pfam:PF00266"
+SQ   SEQUENCE   406 AA;  45248 MW;  0BE9CAEFD6EF73C9 CRC64;
+     MNIHEIRKQF PILDQKVNGK QLVYFDSAAT SQKPIQVIET LERYYKEYNS NVHRGVHTLG
+     TKATDAYEGA REKVRKFINA KSMEEIIFTR GTTTALNTVA ASYGLENVKE GDEIVISYME
+     HHSNIIPWQQ VAKKTGATLK YLPLQPDGTI SLEDVRQTVT PNTKIVSIMQ VSNVLGTINP
+     VKEIGAIAHE NGAIMVVDGA QSTPHMKVDV QDLNCDFYAL SAHKMCGPTG IGVLYGKKEL
+     LNNMEPIEFG GEMIDFVDLQ ESTWKELPWK FEAGTPIIGN AIGLGAAIDF LEEIGLDNIE
+     KHEHELAQYA LERLSEVDGV TIYGPKHRAG LVTFNIEDVH PHDVATVLDV EGIAVRAGHH
+     CAQPLMKWLK ASSTARASFY LYNTKEEIDT FVESLIKTKE YFTNVI
+//

@@ -1,0 +1,125 @@
+ID   MIAA_MYCS2              Reviewed;         302 AA.
+AC   A0QVX9; I7FC77;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 107.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=MSMEG_2734, MSMEI_2667;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK71690.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP39135.1; -; Genomic_DNA.
+DR   RefSeq; WP_003894118.1; NZ_SIJM01000032.1.
+DR   RefSeq; YP_887067.1; NC_008596.1.
+DR   AlphaFoldDB; A0QVX9; -.
+DR   SMR; A0QVX9; -.
+DR   STRING; 246196.MSMEG_2734; -.
+DR   PaxDb; 246196-MSMEI_2667; -.
+DR   GeneID; 93457517; -.
+DR   KEGG; msb:LJ00_13595; -.
+DR   KEGG; msg:MSMEI_2667; -.
+DR   KEGG; msm:MSMEG_2734; -.
+DR   PATRIC; fig|246196.19.peg.2702; -.
+DR   eggNOG; COG0324; Bacteria.
+DR   OrthoDB; 9776390at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006400; P:tRNA modification; IEA:TreeGrafter.
+DR   FunFam; 1.10.20.140:FF:000001; tRNA dimethylallyltransferase; 1.
+DR   Gene3D; 1.10.20.140; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF60; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Reference proteome;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..302
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_1000020621"
+FT   BINDING         9..16
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         11..16
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            100
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            121
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   302 AA;  32577 MW;  FA6921666A199A04 CRC64;
+     MNRPLAVIGP TGTGKSALAL EFAERVGGEI VNADAMQQYR GMDIGTAKLT VEERRGIPHH
+     QLDVLDVVET ATVARYQQAA AADIETIAAR GATPVIVGGS MLYIQSLLDE WSFPATDPAV
+     RAKYEARLAE IGVAALHAEL ARVDAAAAAS ILPTDGRRIV RALEVVELTG EPFAASAPTI
+     GAPRWDTAII GLDWDTAVLD ERLAQRTDKM FADGLVREVV DLLERGLRDG VTAARALGYA
+     QVLADLDAGG DGSGAREPTF IGTRRYVRRQ RSWFRRDHRV VWLDGASEGL VDDALRVWRA
+     VS
+//

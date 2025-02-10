@@ -1,0 +1,150 @@
+ID   RSEP_SALTI              Reviewed;         450 AA.
+AC   Q8Z9A4;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 134.
+DE   RecName: Full=Regulator of sigma E protease;
+DE            EC=3.4.24.-;
+DE   AltName: Full=S2P endopeptidase;
+DE   AltName: Full=Site-2 protease RseP;
+DE            Short=S2P protease RseP;
+DE   AltName: Full=Site-2-type intramembrane protease;
+GN   Name=rseP; OrderedLocusNames=STY0246, t0224;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: A site-2 regulated intramembrane protease (S2P) that cleaves
+CC       the peptide bond between 'Ala-108' and 'Cys-109' in the transmembrane
+CC       region of RseA. Part of a regulated intramembrane proteolysis (RIP)
+CC       cascade. Acts on DegS-cleaved RseA to release the cytoplasmic domain of
+CC       RseA. This provides the cell with sigma-E (RpoE) activity through the
+CC       proteolysis of RseA (By similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Interacts with RseA. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- DOMAIN: The 2 circularly premutated PDZ domains act to negatively
+CC       regulate protease action on intact RseA. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Regulated intramembrane proteolysis (RIP) occurs when an
+CC       extracytoplasmic signal triggers a concerted proteolytic cascade to
+CC       transmit information and elicit cellular responses. A membrane-spanning
+CC       regulatory substrate protein is first cut extracytoplasmically (site-1
+CC       protease, S1P), then within the membrane itself (site-2 protease, S2P,
+CC       this enzyme), while cytoplasmic proteases finish degrading the
+CC       regulatory protein, liberating the effector protein (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M50B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08681.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67954.1; -; Genomic_DNA.
+DR   RefSeq; NP_454830.1; NC_003198.1.
+DR   RefSeq; WP_000949016.1; NZ_WSUR01000009.1.
+DR   AlphaFoldDB; Q8Z9A4; -.
+DR   SMR; Q8Z9A4; -.
+DR   STRING; 220341.gene:17584279; -.
+DR   MEROPS; M50.004; -.
+DR   KEGG; stt:t0224; -.
+DR   KEGG; sty:STY0246; -.
+DR   PATRIC; fig|220341.7.peg.246; -.
+DR   eggNOG; COG0750; Bacteria.
+DR   HOGENOM; CLU_025778_0_2_6; -.
+DR   OMA; EYGHFWA; -.
+DR   OrthoDB; 9782003at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd00989; PDZ_metalloprotease; 2.
+DR   CDD; cd06163; S2P-M50_PDZ_RseP-like; 1.
+DR   FunFam; 2.30.42.10:FF:000094; Zinc metalloprotease; 1.
+DR   FunFam; 2.30.42.10:FF:000095; Zinc metalloprotease; 1.
+DR   Gene3D; 2.30.42.10; -; 2.
+DR   InterPro; IPR001478; PDZ.
+DR   InterPro; IPR041489; PDZ_6.
+DR   InterPro; IPR036034; PDZ_sf.
+DR   InterPro; IPR004387; Pept_M50_Zn.
+DR   InterPro; IPR008915; Peptidase_M50.
+DR   NCBIfam; TIGR00054; RIP metalloprotease RseP; 1.
+DR   PANTHER; PTHR42837:SF2; MEMBRANE METALLOPROTEASE ARASP2, CHLOROPLASTIC-RELATED; 1.
+DR   PANTHER; PTHR42837; REGULATOR OF SIGMA-E PROTEASE RSEP; 1.
+DR   Pfam; PF17820; PDZ_6; 1.
+DR   Pfam; PF02163; Peptidase_M50; 1.
+DR   SMART; SM00228; PDZ; 2.
+DR   SUPFAM; SSF50156; PDZ domain-like; 2.
+DR   PROSITE; PS50106; PDZ; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Hydrolase; Membrane; Metal-binding;
+KW   Metalloprotease; Protease; Repeat; Transmembrane; Transmembrane helix;
+KW   Zinc.
+FT   CHAIN           1..450
+FT                   /note="Regulator of sigma E protease"
+FT                   /id="PRO_0000088420"
+FT   TRANSMEM        98..120
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        376..398
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        426..445
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          115..186
+FT                   /note="PDZ 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   DOMAIN          199..291
+FT                   /note="PDZ 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00143"
+FT   ACT_SITE        23
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         22
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         26
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+SQ   SEQUENCE   450 AA;  49211 MW;  BD05018CE5058153 CRC64;
+     MLSILWNLAA FIIALGVLIT VHEFGHFWVA RRCGVRVERF SIGFGKALWR RTDRYGTEYV
+     IALIPLGGYV KMLDERAEPV APELRRHAFN NKTVGQRAAI IAAGPVANFI FAIFAYWLVF
+     IIGVPGVRPV IGEITPNSIA AQAQIAPGTE LKAVDGIETP DWDAVRLQLV SKIGDQQTTV
+     SVAPFGSDQR QDKTLDLRHW AFEPDKQDPV SSLGIRPRGP QIEPVLSEVQ ANSAASKAGL
+     QAGDRIVKVD GQPLTQWMKF VTFVRDNPGK PLALEIERQG SALSLTLTPD TKSVNGKAEG
+     FAGVVPKIIP LPEEYKTIRQ YGPFSAILEA TDKTWQLMKL TVNMLGKLIT GDVKLNNLSG
+     PISIAQGAGM SAEFGVIYYL MFLALISVNL GIINLFPLPV LDGGHLLFLA IEKLKGGPVS
+     ERVQDFSYRI GSILLVLLMG LALFNDFSRL
+//

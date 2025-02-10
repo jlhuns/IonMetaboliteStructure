@@ -1,0 +1,137 @@
+ID   RSMA_SALTI              Reviewed;         273 AA.
+AC   Q8Z9J7;
+DT   13-DEC-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 128.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase A {ECO:0000255|HAMAP-Rule:MF_00607};
+DE            EC=2.1.1.182 {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA dimethyladenosine transferase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA dimethylase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   Name=rsmA {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   Synonyms=ksgA {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   OrderedLocusNames=STY0105, t0093;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Specifically dimethylates two adjacent adenosines (A1518 and
+CC       A1519) in the loop of a conserved hairpin near the 3'-end of 16S rRNA
+CC       in the 30S particle. May play a critical role in biogenesis of 30S
+CC       subunits. {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(1518)/adenosine(1519) in 16S rRNA + 4 S-adenosyl-L-
+CC         methionine = N(6)-dimethyladenosine(1518)/N(6)-
+CC         dimethyladenosine(1519) in 16S rRNA + 4 S-adenosyl-L-homocysteine + 4
+CC         H(+); Xref=Rhea:RHEA:19609, Rhea:RHEA-COMP:10232, Rhea:RHEA-
+CC         COMP:10233, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74493; EC=2.1.1.182;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00607};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. rRNA adenine N(6)-methyltransferase family. RsmA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01246.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67826.1; -; Genomic_DNA.
+DR   RefSeq; NP_454702.1; NC_003198.1.
+DR   RefSeq; WP_001065397.1; NZ_WSUR01000028.1.
+DR   AlphaFoldDB; Q8Z9J7; -.
+DR   SMR; Q8Z9J7; -.
+DR   STRING; 220341.gene:17584148; -.
+DR   KEGG; stt:t0093; -.
+DR   KEGG; sty:STY0105; -.
+DR   PATRIC; fig|220341.7.peg.104; -.
+DR   eggNOG; COG0030; Bacteria.
+DR   HOGENOM; CLU_041220_0_1_6; -.
+DR   OMA; GMFQKEV; -.
+DR   OrthoDB; 9814755at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0052908; F:16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   FunFam; 1.10.8.100:FF:000001; Ribosomal RNA small subunit methyltransferase A; 1.
+DR   FunFam; 3.40.50.150:FF:000006; Ribosomal RNA small subunit methyltransferase A; 1.
+DR   Gene3D; 1.10.8.100; Ribosomal RNA adenine dimethylase-like, domain 2; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_00607; 16SrRNA_methyltr_A; 1.
+DR   InterPro; IPR001737; KsgA/Erm.
+DR   InterPro; IPR023165; rRNA_Ade_diMease-like_C.
+DR   InterPro; IPR020596; rRNA_Ade_Mease_Trfase_CS.
+DR   InterPro; IPR020598; rRNA_Ade_methylase_Trfase_N.
+DR   InterPro; IPR011530; rRNA_adenine_dimethylase.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00755; ksgA; 1.
+DR   PANTHER; PTHR11727; DIMETHYLADENOSINE TRANSFERASE; 1.
+DR   PANTHER; PTHR11727:SF7; DIMETHYLADENOSINE TRANSFERASE-RELATED; 1.
+DR   Pfam; PF00398; RrnaAD; 1.
+DR   SMART; SM00650; rADc; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS01131; RRNA_A_DIMETH; 1.
+DR   PROSITE; PS51689; SAM_RNA_A_N6_MT; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..273
+FT                   /note="Ribosomal RNA small subunit methyltransferase A"
+FT                   /id="PRO_0000101598"
+FT   BINDING         18
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         20
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         45
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         66
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         91
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         113
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+SQ   SEQUENCE   273 AA;  30516 MW;  313CD2DA31ED3737 CRC64;
+     MNNRVHQGHL ARKRFGQNFL NDRFVIDSIV SAINPQKGQA MVEIGPGLAA LTEPVGERLD
+     KLTVIELDRD LAARLQTHPF LGPKLTIYQQ DAMTMNFGEL SAQLGQPLRV FGNLPYNIST
+     PLMFHLFSYT DAIADMHFML QKEVVNRLVA GPNSKAYGRL SVMAQYYCQV IPVLEVPPSA
+     FTPPPKVDSA VVRLVPHATM PYPVKDIRVL SRITTEAFNQ RRKTIRNSLG NLFSVETLTE
+     MGIDPAMRAE NISVAQYCQM ANYLSENAPL KES
+//

@@ -1,0 +1,121 @@
+ID   Q6N1N9_RHOPA            Unreviewed;       280 AA.
+AC   Q6N1N9;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=Pyrroline-5-carboxylate reductase {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE            Short=P5C reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            Short=P5CR {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            EC=1.5.1.2 {ECO:0000256|HAMAP-Rule:MF_01925, ECO:0000256|NCBIfam:TIGR00112};
+DE   AltName: Full=PCA reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+GN   Name=proC {ECO:0000256|HAMAP-Rule:MF_01925,
+GN   ECO:0000313|EMBL:CAE29807.1};
+GN   OrderedLocusNames=RPA4366 {ECO:0000313|EMBL:CAE29807.1};
+GN   ORFNames=TX73_022630 {ECO:0000313|EMBL:WCL94561.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE29807.1};
+RN   [1] {ECO:0000313|EMBL:WCL94561.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94561.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE29807.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE29807.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL94561.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL94561.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reduction of 1-pyrroline-5-carboxylate (PCA) to
+CC       L-proline. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NAD(+) = (S)-1-pyrroline-5-carboxylate + NADH + 2
+CC         H(+); Xref=Rhea:RHEA:14105, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-proline + NADP(+) = (S)-1-pyrroline-5-carboxylate + NADPH +
+CC         2 H(+); Xref=Rhea:RHEA:14109, ChEBI:CHEBI:15378, ChEBI:CHEBI:17388,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:60039; EC=1.5.1.2;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01925};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-proline
+CC       from L-glutamate 5-semialdehyde: step 1/1. {ECO:0000256|HAMAP-
+CC       Rule:MF_01925}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- SIMILARITY: Belongs to the pyrroline-5-carboxylate reductase family.
+CC       {ECO:0000256|ARBA:ARBA00005525, ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572607; CAE29807.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL94561.1; -; Genomic_DNA.
+DR   RefSeq; WP_011159900.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA4366; -.
+DR   GeneID; 66895499; -.
+DR   KEGG; rpa:TX73_022630; -.
+DR   eggNOG; COG0345; Bacteria.
+DR   HOGENOM; CLU_042344_0_2_5; -.
+DR   PhylomeDB; Q6N1N9; -.
+DR   UniPathway; UPA00098; UER00361.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004735; F:pyrroline-5-carboxylate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniRule.
+DR   FunFam; 1.10.3730.10:FF:000001; Pyrroline-5-carboxylate reductase; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 1.10.3730.10; ProC C-terminal domain-like; 1.
+DR   HAMAP; MF_01925; P5C_reductase; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR028939; P5C_Rdtase_cat_N.
+DR   InterPro; IPR029036; P5CR_dimer.
+DR   InterPro; IPR000304; Pyrroline-COOH_reductase.
+DR   NCBIfam; TIGR00112; proC; 1.
+DR   PANTHER; PTHR11645; PYRROLINE-5-CARBOXYLATE REDUCTASE; 1.
+DR   PANTHER; PTHR11645:SF0; PYRROLINE-5-CARBOXYLATE REDUCTASE 3; 1.
+DR   Pfam; PF03807; F420_oxidored; 1.
+DR   Pfam; PF14748; P5CR_dimer; 1.
+DR   PIRSF; PIRSF000193; Pyrrol-5-carb_rd; 1.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857, ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_01925}; Proline biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   DOMAIN          21..111
+FT                   /note="Pyrroline-5-carboxylate reductase catalytic N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF03807"
+FT   DOMAIN          173..278
+FT                   /note="Pyrroline-5-carboxylate reductase dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF14748"
+FT   BINDING         82..85
+FT                   /ligand="NADP(+)"
+FT                   /ligand_id="ChEBI:CHEBI:58349"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000193-1"
+SQ   SEQUENCE   280 AA;  27919 MW;  31A9C519D5FB8267 CRC64;
+     MFAMTSSAQS PLQQLGGTVV LAGAGKMGGA LLTGWLAQGL DGGDVVVIEP HPTEEIAALS
+     ARGVRLNASA GDVGAVSTLV VAVKPQMFAE AAAALRGYVG PSTLVVSIMA GKPIAALSEQ
+     LGGHVVRAMP NTPAAIGRGI TVAVAAGNVT AAQRGIADAL LRATGGVEWV DDEALIDAVT
+     AVSGSGPAYV FLLAEELARA GVEAGLPEGL AMTLARATVA GSGELLHRSD LDAATLRKNV
+     TSPGGTTAAA LEVLMANDGF RPLLTRAVAA ATKRSKELAK
+//

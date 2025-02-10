@@ -1,0 +1,118 @@
+ID   PYRE_STRA5              Reviewed;         209 AA.
+AC   P65918; Q8DZQ3; Q8E5F1;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   OrderedLocusNames=SAG1046;
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R;
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.N.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R., Lewis M.R., Radune D.,
+RA   Fedorova N.B., Scanlan D., Khouri H.M., Mulligan S., Carty H.A.,
+RA   Cline R.T., Van Aken S.E., Gill J., Scarselli M., Mora M., Iacobini E.T.,
+RA   Brettoni C., Galli G., Mariani M., Vegni F., Maione D., Rinaudo D.,
+RA   Rappuoli R., Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from 5-
+CC       phosphoribose 1-diphosphate to orotate, leading to the formation of
+CC       orotidine monophosphate (OMP). {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=orotidine 5'-phosphate + diphosphate = orotate + 5-phospho-
+CC         alpha-D-ribose 1-diphosphate; Xref=Rhea:RHEA:10380,
+CC         ChEBI:CHEBI:30839, ChEBI:CHEBI:33019, ChEBI:CHEBI:57538,
+CC         ChEBI:CHEBI:58017; EC=2.4.2.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. PyrE subfamily. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99928.1; -; Genomic_DNA.
+DR   RefSeq; NP_688056.1; NC_004116.1.
+DR   RefSeq; WP_000362328.1; NC_004116.1.
+DR   AlphaFoldDB; P65918; -.
+DR   SMR; P65918; -.
+DR   STRING; 208435.SAG1046; -.
+DR   GeneID; 66885975; -.
+DR   KEGG; sag:SAG1046; -.
+DR   PATRIC; fig|208435.3.peg.1057; -.
+DR   HOGENOM; CLU_074878_1_1_9; -.
+DR   OrthoDB; 9802134at2; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR004467; Or_phspho_trans_dom.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   NCBIfam; TIGR00336; pyrE; 1.
+DR   PANTHER; PTHR19278; OROTATE PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR19278:SF9; URIDINE 5'-MONOPHOSPHATE SYNTHASE; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; PRTase-like; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase; Magnesium; Pyrimidine biosynthesis;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..209
+FT                   /note="Orotate phosphoribosyltransferase"
+FT                   /id="PRO_0000110747"
+FT   BINDING         96
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         100
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         102
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         122..130
+FT                   /ligand="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58017"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         126
+FT                   /ligand="orotate"
+FT                   /ligand_id="ChEBI:CHEBI:30839"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+SQ   SEQUENCE   209 AA;  23112 MW;  AE6061043EE47BD2 CRC64;
+     MDLARQIAME LLDIQAVYLR PQQPFTWASG VKSPIYTDNR VTLSYPETRT LIENGFVKQI
+     QKHFPNVDII AGTATAGIPH GAIIADKMNL PFAYIRSKAK DHGVGNQIEG RVYSGQKMVI
+     IEDLISTGGS VLEAVTAAQS QGIEVLGVVA IFTYQLAKAE QAFREADIPL VTLTDYNQLI
+     KVAKVNGYIT ADQLVLLKKF KEDQMNWQS
+//

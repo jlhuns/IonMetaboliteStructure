@@ -1,0 +1,112 @@
+ID   LEUC_CAMC1              Reviewed;         421 AA.
+AC   A7ZFP0;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   05-FEB-2025, entry version 100.
+DE   RecName: Full=3-isopropylmalate dehydratase large subunit {ECO:0000255|HAMAP-Rule:MF_01027};
+DE            EC=4.2.1.33 {ECO:0000255|HAMAP-Rule:MF_01027};
+DE   AltName: Full=Alpha-IPM isomerase {ECO:0000255|HAMAP-Rule:MF_01027};
+DE            Short=IPMI {ECO:0000255|HAMAP-Rule:MF_01027};
+DE   AltName: Full=Isopropylmalate isomerase {ECO:0000255|HAMAP-Rule:MF_01027};
+GN   Name=leuC {ECO:0000255|HAMAP-Rule:MF_01027};
+GN   OrderedLocusNames=Ccon26_17620; ORFNames=CCC13826_2194;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the isomerization between 2-isopropylmalate and 3-
+CC       isopropylmalate, via the formation of 2-isopropylmaleate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01027}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate = (2S)-2-isopropylmalate;
+CC         Xref=Rhea:RHEA:32287, ChEBI:CHEBI:1178, ChEBI:CHEBI:35121;
+CC         EC=4.2.1.33; Evidence={ECO:0000255|HAMAP-Rule:MF_01027};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01027};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01027};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01027}.
+CC   -!- SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000255|HAMAP-
+CC       Rule:MF_01027}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family. LeuC type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01027}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT97952.1; -; Genomic_DNA.
+DR   RefSeq; WP_012140464.1; NC_009802.2.
+DR   AlphaFoldDB; A7ZFP0; -.
+DR   SMR; A7ZFP0; -.
+DR   STRING; 360104.CCC13826_2194; -.
+DR   KEGG; cco:CCC13826_2194; -.
+DR   eggNOG; COG0065; Bacteria.
+DR   HOGENOM; CLU_006714_3_4_7; -.
+DR   OrthoDB; 9764318at2; -.
+DR   UniPathway; UPA00048; UER00071.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0003861; F:3-isopropylmalate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:L-leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01583; IPMI; 1.
+DR   Gene3D; 3.30.499.10; Aconitase, domain 3; 2.
+DR   HAMAP; MF_01027; LeuC_type2; 1.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR011826; HAcnase/IPMdehydase_lsu_prok.
+DR   InterPro; IPR006251; Homoacnase/IPMdehydase_lsu.
+DR   InterPro; IPR050067; IPM_dehydratase_rel_enz.
+DR   InterPro; IPR033941; IPMI_cat.
+DR   InterPro; IPR011823; IsopropMal_deHydtase_lsu_bac.
+DR   NCBIfam; TIGR01343; hacA_fam; 1.
+DR   NCBIfam; TIGR02086; IPMI_arch; 1.
+DR   NCBIfam; TIGR02083; LEU2; 1.
+DR   PANTHER; PTHR43822:SF16; 3-ISOPROPYLMALATE DEHYDRATASE LARGE SUBUNIT 2; 1.
+DR   PANTHER; PTHR43822; HOMOACONITASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; Aconitase iron-sulfur domain; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Leucine biosynthesis; Lyase; Metal-binding.
+FT   CHAIN           1..421
+FT                   /note="3-isopropylmalate dehydratase large subunit"
+FT                   /id="PRO_1000072950"
+FT   BINDING         302
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01027"
+FT   BINDING         362
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01027"
+FT   BINDING         365
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01027"
+SQ   SEQUENCE   421 AA;  45764 MW;  0D677FC5E9711007 CRC64;
+     MKQTITEKIF SDHVGKEVSA GEIIESKIDM IIGNDITTPI SIKQFERSGA KKLANPDGFA
+     IVMDHYIPTK DILSANQAKI SREFAYKHDL KNYFDEKDMG IEHAILPEKG LVIPGDVIIG
+     ADSHTCTHGA LGAFSTGMGS TDLAYAMITG KNWFKVPESI KVVFKGKLDK HVYGKDLILE
+     IIRQIGVDGA LYKALEFSGE VIDGLSMDDR FSMCNMAIEA GAKSGIIAVD EITKEFLKDK
+     NLRDKPKFFY SDEGAKYDKI LEIDVTNLDP VIAYPFLPSN GKSVRQAVRD DLAIDQAFIG
+     SCTNGRLSDL RIAAQILKGK KVARKTRLII TPATQKIARA AEKEGLIDIF IEAGAVVSNP
+     TCGACLGGYM GILGANERCI STTNRNFVGR MGDRTSEIYL ANSAVVAASA IAGKIADPRD
+     L
+//

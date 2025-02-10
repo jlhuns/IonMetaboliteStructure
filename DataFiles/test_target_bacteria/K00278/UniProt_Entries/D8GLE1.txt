@@ -1,0 +1,97 @@
+ID   D8GLE1_CLOLD            Unreviewed;       511 AA.
+AC   D8GLE1;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 72.
+DE   RecName: Full=L-aspartate oxidase {ECO:0000256|ARBA:ARBA00012173, ECO:0000256|NCBIfam:TIGR00551};
+DE            EC=1.4.3.16 {ECO:0000256|ARBA:ARBA00012173, ECO:0000256|NCBIfam:TIGR00551};
+GN   Name=nadB {ECO:0000313|EMBL:ADK15500.1};
+GN   OrderedLocusNames=CLJU_c24420 {ECO:0000313|EMBL:ADK15500.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK15500.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK15500.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Catalyzes the oxidation of L-aspartate to iminoaspartate.
+CC       {ECO:0000256|RuleBase:RU362049}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate + O2 = iminosuccinate + H2O2;
+CC         Xref=Rhea:RHEA:25876, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:77875; EC=1.4.3.16;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048305};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25877;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048305};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001974,
+CC         ECO:0000256|RuleBase:RU362049};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; iminoaspartate
+CC       from L-aspartate (oxidase route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004950, ECO:0000256|RuleBase:RU362049}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|RuleBase:RU362049}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent oxidoreductase 2 family. NadB
+CC       subfamily. {ECO:0000256|ARBA:ARBA00008562,
+CC       ECO:0000256|RuleBase:RU362049}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK15500.1; -; Genomic_DNA.
+DR   AlphaFoldDB; D8GLE1; -.
+DR   STRING; 748727.CLJU_c24420; -.
+DR   KEGG; clj:CLJU_c24420; -.
+DR   eggNOG; COG0029; Bacteria.
+DR   HOGENOM; CLU_014312_3_0_9; -.
+DR   UniPathway; UPA00253; UER00326.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008734; F:L-aspartate oxidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034628; P:'de novo' NAD biosynthetic process from aspartate; IEA:TreeGrafter.
+DR   FunFam; 3.90.700.10:FF:000002; L-aspartate oxidase; 1.
+DR   Gene3D; 3.50.50.60; FAD/NAD(P)-binding domain; 1.
+DR   Gene3D; 1.20.58.100; Fumarate reductase/succinate dehydrogenase flavoprotein-like, C-terminal domain; 1.
+DR   Gene3D; 3.90.700.10; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+DR   InterPro; IPR003953; FAD-dep_OxRdtase_2_FAD-bd.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR037099; Fum_R/Succ_DH_flav-like_C_sf.
+DR   InterPro; IPR005288; NadB.
+DR   InterPro; IPR027477; Succ_DH/fumarate_Rdtase_cat_sf.
+DR   NCBIfam; TIGR00551; nadB; 1.
+DR   PANTHER; PTHR42716; L-ASPARTATE OXIDASE; 1.
+DR   PANTHER; PTHR42716:SF2; L-ASPARTATE OXIDASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF00890; FAD_binding_2; 1.
+DR   PRINTS; PR00368; FADPNR.
+DR   SUPFAM; SSF51905; FAD/NAD(P)-binding domain; 1.
+DR   SUPFAM; SSF46977; Succinate dehydrogenase/fumarate reductase flavoprotein C-terminal domain; 1.
+DR   SUPFAM; SSF56425; Succinate dehydrogenase/fumarate reductase flavoprotein, catalytic domain; 1.
+PE   3: Inferred from homology;
+KW   FAD {ECO:0000256|ARBA:ARBA00022827, ECO:0000256|RuleBase:RU362049};
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|RuleBase:RU362049};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|RuleBase:RU362049};
+KW   Pyridine nucleotide biosynthesis {ECO:0000256|ARBA:ARBA00022642,
+KW   ECO:0000256|RuleBase:RU362049}.
+FT   DOMAIN          10..381
+FT                   /note="FAD-dependent oxidoreductase 2 FAD binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00890"
+SQ   SEQUENCE   511 AA;  57393 MW;  8D8840EBA49FCC55 CRC64;
+     MNSCESKSFD VVIIGAGIAG LYTALMLSKN LRVAVLSKKD VYDCDSYLAQ GGIAASIQND
+     DRQLHVKDTI NAGCYVNDLE AVNVLVNESE KAINDLVRLG VKFDKNSQGN FYRSFEGNHS
+     IARILHVNGD STGKAIMEVL VNQAKNASNI EIIPNIFALD IVDNKNKYCG IMAFYKNKVV
+     YLKSKCCIIA SGGIGQLFSK TTNVDVLTGD GIAMAIRAKV TLEDMEYIQF HPTALYSKNN
+     EEKMFLISEA VRGEGAVLKN KCGSRFMKEY DSRMELAPRD IVARAISDQM KKTDSNYVYL
+     DATMYEKNFL KNRFNKIYSE CEENGIEIYK DYIPVTPAEH YFMGGIKVDL FGRASMENLY
+     AVGECACTGV HGANRLASNS LMEALVFGKR VAEDILNKIK VIDEDNFEDS VFIPQCKESY
+     MDFSKLKQNL KILMENNLGI VRRIDNIKSA LEVVDEVLFK FQYINFKSIE QVEVYNMYEV
+     ARSIIMATLE SKTSIGSNYI EDYSKDNVVL R
+//

@@ -1,0 +1,159 @@
+ID   Q5ZZ54_LEGPH            Unreviewed;       257 AA.
+AC   Q5ZZ54;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 129.
+DE   RecName: Full=Methionine aminopeptidase {ECO:0000256|HAMAP-Rule:MF_01974, ECO:0000256|RuleBase:RU003653};
+DE            Short=MAP {ECO:0000256|HAMAP-Rule:MF_01974};
+DE            Short=MetAP {ECO:0000256|HAMAP-Rule:MF_01974};
+DE            EC=3.4.11.18 {ECO:0000256|HAMAP-Rule:MF_01974, ECO:0000256|RuleBase:RU003653};
+DE   AltName: Full=Peptidase M {ECO:0000256|HAMAP-Rule:MF_01974};
+GN   Name=map-1 {ECO:0000313|EMBL:AAU26264.1};
+GN   Synonyms=map {ECO:0000256|HAMAP-Rule:MF_01974};
+GN   OrderedLocusNames=lpg0157 {ECO:0000313|EMBL:AAU26264.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26264.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26264.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Removes the N-terminal methionine from nascent proteins. The
+CC       N-terminal methionine is often cleaved when the second residue in the
+CC       primary sequence is small and uncharged (Met-Ala-, Cys, Gly, Pro, Ser,
+CC       Thr, or Val). Requires deformylation of the N(alpha)-formylated
+CC       initiator methionine before it can be hydrolyzed.
+CC       {ECO:0000256|ARBA:ARBA00002521, ECO:0000256|HAMAP-Rule:MF_01974}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of N-terminal amino acids, preferentially methionine,
+CC         from peptides and arylamides.; EC=3.4.11.18;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01974,
+CC         ECO:0000256|RuleBase:RU003653};
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01974};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01974};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01974};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01974};
+CC       Note=Binds 2 divalent metal cations per subunit. Has a high-affinity
+CC       and a low affinity metal-binding site. The true nature of the
+CC       physiological cofactor is under debate. The enzyme is active with
+CC       cobalt, zinc, manganese or divalent iron ions. Most likely, methionine
+CC       aminopeptidases function as mononuclear Fe(2+)-metalloproteases under
+CC       physiological conditions, and the catalytically relevant metal-binding
+CC       site has been assigned to the histidine-containing high-affinity site.
+CC       {ECO:0000256|HAMAP-Rule:MF_01974};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01974}.
+CC   -!- SIMILARITY: Belongs to the peptidase M24A family. Methionine
+CC       aminopeptidase type 1 subfamily. {ECO:0000256|HAMAP-Rule:MF_01974}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01974}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26264.1; -; Genomic_DNA.
+DR   RefSeq; YP_094211.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZZ54; -.
+DR   STRING; 272624.lpg0157; -.
+DR   MEROPS; M24.001; -.
+DR   PaxDb; 272624-lpg0157; -.
+DR   KEGG; lpn:lpg0157; -.
+DR   PATRIC; fig|272624.6.peg.168; -.
+DR   eggNOG; COG0024; Bacteria.
+DR   HOGENOM; CLU_015857_0_0_6; -.
+DR   OrthoDB; 9802055at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004239; F:initiator methionyl aminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:UniProtKB-KW.
+DR   CDD; cd01086; MetAP1; 1.
+DR   Gene3D; 3.90.230.10; Creatinase/methionine aminopeptidase superfamily; 1.
+DR   HAMAP; MF_01974; MetAP_1; 1.
+DR   InterPro; IPR036005; Creatinase/aminopeptidase-like.
+DR   InterPro; IPR000994; Pept_M24.
+DR   InterPro; IPR001714; Pept_M24_MAP.
+DR   InterPro; IPR002467; Pept_M24A_MAP1.
+DR   NCBIfam; TIGR00500; met_pdase_I; 1.
+DR   PANTHER; PTHR43330; METHIONINE AMINOPEPTIDASE; 1.
+DR   PANTHER; PTHR43330:SF27; METHIONINE AMINOPEPTIDASE; 1.
+DR   Pfam; PF00557; Peptidase_M24; 1.
+DR   PRINTS; PR00599; MAPEPTIDASE.
+DR   SUPFAM; SSF55920; Creatinase/aminopeptidase; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase {ECO:0000256|ARBA:ARBA00022438, ECO:0000256|HAMAP-
+KW   Rule:MF_01974};
+KW   Hydrolase {ECO:0000256|HAMAP-Rule:MF_01974, ECO:0000313|EMBL:AAU26264.1};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01974,
+KW   ECO:0000256|RuleBase:RU003653};
+KW   Protease {ECO:0000256|HAMAP-Rule:MF_01974, ECO:0000256|RuleBase:RU003653};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609}.
+FT   DOMAIN          14..243
+FT                   /note="Peptidase M24"
+FT                   /evidence="ECO:0000259|Pfam:PF00557"
+FT   BINDING         81
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         98
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         109
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         109
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         172
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         205
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         236
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="2"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+FT   BINDING         236
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01974"
+SQ   SEQUENCE   257 AA;  28625 MW;  CB003EFA111B368D CRC64;
+     MKYTMLVKTP EEIKKMRVAG QLAASVLEMI EPYVIAGTST KELEQICRQY IVEDLKAIPS
+     TLNHYGFPAC ICTSINHVVC HGIPSEKKLK NGDIINIDVT VQKDGYIGDT SKMFLVGNIK
+     PFAKKLVEVT QECLYKAISI VRPGAHLGDI GNIIQTHAEQ HGYSIVREFG GHGIGKSMWE
+     DPHIMHFGKP NTGLRLQAGM TFTIEPMLNL GRKEVKTLGD GWTVVTKDHK LSAQWEHTIL
+     VTDNGHEILT LRADEHL
+//

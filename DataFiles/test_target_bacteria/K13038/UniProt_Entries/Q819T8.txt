@@ -1,0 +1,177 @@
+ID   Q819T8_BACCR            Unreviewed;       401 AA.
+AC   Q819T8;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=Coenzyme A biosynthesis bifunctional protein CoaBC {ECO:0000256|HAMAP-Rule:MF_02225};
+DE   AltName: Full=DNA/pantothenate metabolism flavoprotein {ECO:0000256|HAMAP-Rule:MF_02225};
+DE   AltName: Full=Phosphopantothenoylcysteine synthetase/decarboxylase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE            Short=PPCS-PPCDC {ECO:0000256|HAMAP-Rule:MF_02225};
+DE   Includes:
+DE     RecName: Full=Phosphopantothenoylcysteine decarboxylase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              Short=PPC decarboxylase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              Short=PPC-DC {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              EC=4.1.1.36 {ECO:0000256|HAMAP-Rule:MF_02225};
+DE     AltName: Full=CoaC {ECO:0000256|HAMAP-Rule:MF_02225};
+DE   Includes:
+DE     RecName: Full=Phosphopantothenate--cysteine ligase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              EC=6.3.2.5 {ECO:0000256|HAMAP-Rule:MF_02225};
+DE     AltName: Full=CoaB {ECO:0000256|HAMAP-Rule:MF_02225};
+DE     AltName: Full=Phosphopantothenoylcysteine synthetase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              Short=PPC synthetase {ECO:0000256|HAMAP-Rule:MF_02225};
+DE              Short=PPC-S {ECO:0000256|HAMAP-Rule:MF_02225};
+GN   Name=coaBC {ECO:0000256|HAMAP-Rule:MF_02225};
+GN   OrderedLocusNames=BC_3867 {ECO:0000313|EMBL:AAP10789.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10789.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10789.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes two sequential steps in the biosynthesis of
+CC       coenzyme A. In the first step cysteine is conjugated to 4'-
+CC       phosphopantothenate to form 4-phosphopantothenoylcysteine. In the
+CC       second step the latter compound is decarboxylated to form 4'-
+CC       phosphopantotheine. {ECO:0000256|HAMAP-Rule:MF_02225}.
+CC   -!- FUNCTION: Catalyzes two steps in the biosynthesis of coenzyme A. In the
+CC       first step cysteine is conjugated to 4'-phosphopantothenate to form 4-
+CC       phosphopantothenoylcysteine, in the latter compound is decarboxylated
+CC       to form 4'-phosphopantotheine. {ECO:0000256|RuleBase:RU364078}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-4'-phosphopantothenate + L-cysteine + CTP = N-[(R)-4-
+CC         phosphopantothenoyl]-L-cysteine + CMP + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:19397, ChEBI:CHEBI:10986, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:35235, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:59458, ChEBI:CHEBI:60377; EC=6.3.2.5;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_02225,
+CC         ECO:0000256|RuleBase:RU364078};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-[(R)-4-phosphopantothenoyl]-L-cysteine + H(+) = (R)-4'-
+CC         phosphopantetheine + CO2; Xref=Rhea:RHEA:16793, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:59458, ChEBI:CHEBI:61723; EC=4.1.1.36;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_02225,
+CC         ECO:0000256|RuleBase:RU364078};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_02225};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000256|HAMAP-Rule:MF_02225};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_02225};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 2/5. {ECO:0000256|HAMAP-Rule:MF_02225,
+CC       ECO:0000256|RuleBase:RU364078}.
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 3/5. {ECO:0000256|HAMAP-Rule:MF_02225,
+CC       ECO:0000256|RuleBase:RU364078}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the PPC synthetase
+CC       family. {ECO:0000256|HAMAP-Rule:MF_02225,
+CC       ECO:0000256|RuleBase:RU364078}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the HFCD (homo-
+CC       oligomeric flavin containing Cys decarboxylase) superfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_02225, ECO:0000256|RuleBase:RU364078}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_02225}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10789.1; -; Genomic_DNA.
+DR   RefSeq; NP_833588.1; NC_004722.1.
+DR   RefSeq; WP_000911762.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819T8; -.
+DR   KEGG; bce:BC3867; -.
+DR   PATRIC; fig|226900.8.peg.3986; -.
+DR   HOGENOM; CLU_033319_0_1_9; -.
+DR   OrthoDB; 9802554at2; -.
+DR   UniPathway; UPA00241; UER00353.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0071513; C:phosphopantothenoylcysteine decarboxylase complex; IBA:GO_Central.
+DR   GO; GO:0010181; F:FMN binding; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004632; F:phosphopantothenate--cysteine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004633; F:phosphopantothenoylcysteine decarboxylase activity; IBA:GO_Central.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0015941; P:pantothenate catabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10300; CoaB-like; 1.
+DR   Gene3D; 3.40.50.1950; Flavin prenyltransferase-like; 1.
+DR   HAMAP; MF_02225; CoaBC; 1.
+DR   InterPro; IPR035929; CoaB-like_sf.
+DR   InterPro; IPR005252; CoaBC.
+DR   InterPro; IPR007085; DNA/pantothenate-metab_flavo_C.
+DR   InterPro; IPR036551; Flavin_trans-like.
+DR   InterPro; IPR003382; Flavoprotein.
+DR   NCBIfam; TIGR00521; coaBC_dfp; 1.
+DR   PANTHER; PTHR14359; HOMO-OLIGOMERIC FLAVIN CONTAINING CYS DECARBOXYLASE FAMILY; 1.
+DR   PANTHER; PTHR14359:SF6; PHOSPHOPANTOTHENOYLCYSTEINE DECARBOXYLASE; 1.
+DR   Pfam; PF04127; DFP; 1.
+DR   Pfam; PF02441; Flavoprotein; 1.
+DR   SUPFAM; SSF102645; CoaB-like; 1.
+DR   SUPFAM; SSF52507; Homo-oligomeric flavin-containing Cys decarboxylases, HFCD; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase {ECO:0000256|ARBA:ARBA00022793, ECO:0000256|HAMAP-
+KW   Rule:MF_02225};
+KW   Flavoprotein {ECO:0000256|HAMAP-Rule:MF_02225,
+KW   ECO:0000256|RuleBase:RU364078};
+KW   FMN {ECO:0000256|HAMAP-Rule:MF_02225, ECO:0000256|RuleBase:RU364078};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02225, ECO:0000256|RuleBase:RU364078};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_02225};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_02225};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_02225};
+KW   Multifunctional enzyme {ECO:0000256|HAMAP-Rule:MF_02225};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          5..178
+FT                   /note="Flavoprotein"
+FT                   /evidence="ECO:0000259|Pfam:PF02441"
+FT   DOMAIN          185..366
+FT                   /note="DNA/pantothenate metabolism flavoprotein C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF04127"
+FT   REGION          1..189
+FT                   /note="Phosphopantothenoylcysteine decarboxylase"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   REGION          190..401
+FT                   /note="Phosphopantothenate--cysteine ligase"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   ACT_SITE        157
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   BINDING         278
+FT                   /ligand="CTP"
+FT                   /ligand_id="ChEBI:CHEBI:37563"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   BINDING         288
+FT                   /ligand="CTP"
+FT                   /ligand_id="ChEBI:CHEBI:37563"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   BINDING         322
+FT                   /ligand="CTP"
+FT                   /ligand_id="ChEBI:CHEBI:37563"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   BINDING         336
+FT                   /ligand="CTP"
+FT                   /ligand_id="ChEBI:CHEBI:37563"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+FT   BINDING         340
+FT                   /ligand="CTP"
+FT                   /ligand_id="ChEBI:CHEBI:37563"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02225"
+SQ   SEQUENCE   401 AA;  43848 MW;  BBC7801AD50699C9 CRC64;
+     MLKGKKILLC VTGGIAVFKA AALTSKLTQS GASVKVMMSE SAMKFVTPLT FQALSRHDVY
+     TDTFDEKDSA VIAHIDLADW ADVVLVAPAT ANCIGKLAGG IADDMITTTL LATTAPVWIA
+     PAMNVHMYEN KIVQKNMMTL KTLGYTFIEP GEGFLACGYV AKGRLEEPEA IIARLEEAFS
+     EHKPLQGKRI LITAGPTREK VDPVRFMTNF SSGKMGYAIA EVAANLGADV ILVSGPTALN
+     PPLHVTTVQV ESAQDMLEAV LQHYQNVDVV IKTAAVADYR PKYVHENKMK KQNGDAVIEL
+     ERTVDILKTL GQKKDKQLLI GFAAETTNVE EYATKKLREK NADMIVANDV KAQGAGFGTD
+     TNIVTMYRKD GKVIELPLLM KKEVAREILK QIEMMLEDDR L
+//

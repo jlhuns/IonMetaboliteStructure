@@ -1,0 +1,114 @@
+ID   A0A1L6KNH6_ACIHA        Unreviewed;       238 AA.
+AC   A0A1L6KNH6;
+DT   15-MAR-2017, integrated into UniProtKB/TrEMBL.
+DT   15-MAR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 38.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000256|HAMAP-Rule:MF_01057,
+GN   ECO:0000313|EMBL:QBQ16532.1};
+GN   ORFNames=AHTJR_09670 {ECO:0000313|EMBL:QBQ16532.1}, J5N55_09335
+GN   {ECO:0000313|EMBL:MBO3658284.1};
+OS   Acinetobacter haemolyticus.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Moraxellales; Moraxellaceae;
+OC   Acinetobacter.
+OX   NCBI_TaxID=29430 {ECO:0000313|EMBL:QBQ16532.1, ECO:0000313|Proteomes:UP000294395};
+RN   [1] {ECO:0000313|EMBL:QBQ16532.1, ECO:0000313|Proteomes:UP000294395}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TJR01 {ECO:0000313|EMBL:QBQ16532.1,
+RC   ECO:0000313|Proteomes:UP000294395};
+RA   Bai L., Zhang S.-C., Deng Y., Song C.-C., Kang G.-B., Dong Y., Wang Y.,
+RA   Gao F., Huang H.;
+RT   "Complete genome sequence of two outbreak-associated Acinetobacter
+RT   haemolyticus strains.";
+RL   Submitted (MAR-2019) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:MBO3658284.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=AC1502 {ECO:0000313|EMBL:MBO3658284.1};
+RA   Mohd Rani F.;
+RT   "Acinetobacter spp. whole-genome sequenced from Terengganu.";
+RL   Submitted (MAR-2021) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at position 46
+CC       (m7G46) in tRNA. {ECO:0000256|ARBA:ARBA00003015, ECO:0000256|HAMAP-
+CC       Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(46) in tRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(46) in tRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42708, Rhea:RHEA-COMP:10188, Rhea:RHEA-COMP:10189,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.33;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000142, ECO:0000256|HAMAP-
+CC         Rule:MF_01057};
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. TrmB family. {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JAGFOT010000008; MBO3658284.1; -; Genomic_DNA.
+DR   EMBL; CP038009; QBQ16532.1; -; Genomic_DNA.
+DR   RefSeq; WP_005082143.1; NZ_WTTX01000088.1.
+DR   STRING; 29430.AHTJS_09655; -.
+DR   GeneID; 56329567; -.
+DR   KEGG; ahl:AHTJS_09655; -.
+DR   OrthoDB; 9802090at2; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000294395; Chromosome.
+DR   Proteomes; UP000670925; Unassembled WGS sequence.
+DR   GO; GO:0043527; C:tRNA methyltransferase complex; IEA:TreeGrafter.
+DR   GO; GO:0008176; F:tRNA (guanine(46)-N7)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   NCBIfam; TIGR00091; tRNA (guanosine(46)-N7)-methyltransferase TrmB; 1.
+DR   PANTHER; PTHR23417; 3-DEOXY-D-MANNO-OCTULOSONIC-ACID TRANSFERASE/TRNA GUANINE-N 7 - -METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR23417:SF14; PENTACOTRIPEPTIDE-REPEAT REGION OF PRORP DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|HAMAP-
+KW   Rule:MF_01057};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_01057};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01057, ECO:0000313|EMBL:QBQ16532.1};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694, ECO:0000256|HAMAP-
+KW   Rule:MF_01057}.
+FT   BINDING         69
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         94
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         121
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         143
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         147
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+FT   BINDING         216..219
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01057"
+SQ   SEQUENCE   238 AA;  27710 MW;  03AFF7FCEA2653DD CRC64;
+     MSTDQLETQI TELDNLPEHR EIVTFMRRSA PLNTSQRTAL ENYRDLILEY PVGDLRQHFE
+     HPERPLTVEI GFGMGRSLVL MAKANPERNF VGIEVHVPGI AQCVYEAGMA ELKNLRVLDA
+     DAIQVLREMP DNSIDCVQLY FPDPWQKKRH FKRRFVIHER MQLVEQKLAL GGTFHAATDW
+     EPYAEWMLDV LDNRPNLENL AGKGNSYPRP DWRPVTKFER RGIESGHKIN DFIFKKIN
+//

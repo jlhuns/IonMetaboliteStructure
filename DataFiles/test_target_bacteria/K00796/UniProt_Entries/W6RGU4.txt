@@ -1,0 +1,92 @@
+ID   W6RGU4_9HYPH            Unreviewed;       288 AA.
+AC   W6RGU4;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   29-MAY-2024, entry version 44.
+DE   RecName: Full=Dihydropteroate synthase {ECO:0000256|ARBA:ARBA00012458, ECO:0000256|RuleBase:RU361205};
+DE            Short=DHPS {ECO:0000256|RuleBase:RU361205};
+DE            EC=2.5.1.15 {ECO:0000256|ARBA:ARBA00012458, ECO:0000256|RuleBase:RU361205};
+DE   AltName: Full=Dihydropteroate pyrophosphorylase {ECO:0000256|RuleBase:RU361205};
+GN   Name=folP {ECO:0000313|EMBL:CDM57923.1};
+GN   ORFNames=LPU83_2266 {ECO:0000313|EMBL:CDM57923.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM57923.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM57923.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM57923.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of para-aminobenzoate (pABA) with
+CC       6-hydroxymethyl-7,8-dihydropterin diphosphate (DHPt-PP) to form 7,8-
+CC       dihydropteroate (H2Pte), the immediate precursor of folate derivatives.
+CC       {ECO:0000256|RuleBase:RU361205}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(7,8-dihydropterin-6-yl)methyl diphosphate + 4-aminobenzoate =
+CC         7,8-dihydropteroate + diphosphate; Xref=Rhea:RHEA:19949,
+CC         ChEBI:CHEBI:17836, ChEBI:CHEBI:17839, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:72950; EC=2.5.1.15;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000012};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946,
+CC         ECO:0000256|RuleBase:RU361205};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolate biosynthesis; 7,8-
+CC       dihydrofolate from 2-amino-4-hydroxy-6-hydroxymethyl-7,8-
+CC       dihydropteridine diphosphate and 4-aminobenzoate: step 1/2.
+CC       {ECO:0000256|ARBA:ARBA00004763, ECO:0000256|RuleBase:RU361205}.
+CC   -!- SIMILARITY: Belongs to the DHPS family.
+CC       {ECO:0000256|RuleBase:RU361205}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM57923.1; -; Genomic_DNA.
+DR   RefSeq; WP_024312778.1; NZ_JAIRAY010000007.1.
+DR   AlphaFoldDB; W6RGU4; -.
+DR   KEGG; rhl:LPU83_2266; -.
+DR   PATRIC; fig|348824.6.peg.2448; -.
+DR   eggNOG; COG0294; Bacteria.
+DR   HOGENOM; CLU_008023_0_2_5; -.
+DR   UniPathway; UPA00077; UER00156.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004156; F:dihydropteroate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00739; DHPS; 1.
+DR   Gene3D; 3.20.20.20; Dihydropteroate synthase-like; 1.
+DR   InterPro; IPR045031; DHP_synth-like.
+DR   InterPro; IPR006390; DHP_synth_dom.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like_sf.
+DR   InterPro; IPR000489; Pterin-binding_dom.
+DR   NCBIfam; TIGR01496; DHPS; 1.
+DR   PANTHER; PTHR20941; FOLATE SYNTHESIS PROTEINS; 1.
+DR   PANTHER; PTHR20941:SF1; FOLIC ACID SYNTHESIS PROTEIN FOL1; 1.
+DR   Pfam; PF00809; Pterin_bind; 1.
+DR   SUPFAM; SSF51717; Dihydropteroate synthetase-like; 1.
+DR   PROSITE; PS00792; DHPS_1; 1.
+DR   PROSITE; PS00793; DHPS_2; 1.
+DR   PROSITE; PS50972; PTERIN_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Folate biosynthesis {ECO:0000256|ARBA:ARBA00022909,
+KW   ECO:0000256|RuleBase:RU361205};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|RuleBase:RU361205};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU361205};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU361205}.
+FT   DOMAIN          23..270
+FT                   /note="Pterin-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS50972"
+SQ   SEQUENCE   288 AA;  30427 MW;  2330B9181C5EC4FA CRC64;
+     MARLGSSFWR VGHGREIGLG ARAVIMAIVN VTPDSFSDGG RYETVDAAVT HALQAASEGA
+     GIIDIGGEST RPDADVVSPS EEQARVLPVI EALRGKTDAL ISIDTYRAET ARLAVGAGAH
+     IVNDVFGLQK EREIGKIVAD TGAGLCLMHT GRDREKLPDV IADQFFFLER SLEIASAAGV
+     SRDRIVLDPG FGFAKDTEEN VELMARFGEL HRLGLPLLAG TSRKRFVGAI TGRQAAERDA
+     GTAATSVLLR LAGASIFRVH DVAINRDALA IADAMLAASH SCEQGNLA
+//

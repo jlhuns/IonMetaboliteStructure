@@ -1,0 +1,210 @@
+ID   DXR_SALTI               Reviewed;         398 AA.
+AC   Q8Z9A6;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   05-FEB-2025, entry version 137.
+DE   RecName: Full=1-deoxy-D-xylulose 5-phosphate reductoisomerase {ECO:0000255|HAMAP-Rule:MF_00183};
+DE            Short=DXP reductoisomerase {ECO:0000255|HAMAP-Rule:MF_00183};
+DE            EC=1.1.1.267 {ECO:0000255|HAMAP-Rule:MF_00183};
+DE   AltName: Full=1-deoxyxylulose-5-phosphate reductoisomerase {ECO:0000255|HAMAP-Rule:MF_00183};
+DE   AltName: Full=2-C-methyl-D-erythritol 4-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00183};
+GN   Name=dxr {ECO:0000255|HAMAP-Rule:MF_00183};
+GN   OrderedLocusNames=STY0243, t0221;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent rearrangement and reduction of
+CC       1-deoxy-D-xylulose-5-phosphate (DXP) to 2-C-methyl-D-erythritol 4-
+CC       phosphate (MEP). {ECO:0000255|HAMAP-Rule:MF_00183}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-C-methyl-D-erythritol 4-phosphate + NADP(+) = 1-deoxy-D-
+CC         xylulose 5-phosphate + NADPH + H(+); Xref=Rhea:RHEA:13717,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:58262, ChEBI:CHEBI:58349; EC=1.1.1.267;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00183};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:13719;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00183};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00183};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00183};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 1/6. {ECO:0000255|HAMAP-Rule:MF_00183}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00183}.
+CC   -!- SIMILARITY: Belongs to the DXR family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00183}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD08678.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67951.1; -; Genomic_DNA.
+DR   RefSeq; NP_454827.1; NC_003198.1.
+DR   RefSeq; WP_000811892.1; NZ_WSUR01000009.1.
+DR   AlphaFoldDB; Q8Z9A6; -.
+DR   SMR; Q8Z9A6; -.
+DR   STRING; 220341.gene:17584276; -.
+DR   KEGG; stt:t0221; -.
+DR   KEGG; sty:STY0243; -.
+DR   PATRIC; fig|220341.7.peg.243; -.
+DR   eggNOG; COG0743; Bacteria.
+DR   HOGENOM; CLU_035714_4_0_6; -.
+DR   OMA; AHPNWVM; -.
+DR   OrthoDB; 9806546at2; -.
+DR   UniPathway; UPA00056; UER00092.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0030604; F:1-deoxy-D-xylulose-5-phosphate reductoisomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:TreeGrafter.
+DR   GO; GO:0070402; F:NADPH binding; IEA:InterPro.
+DR   GO; GO:0051484; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway involved in terpenoid biosynthetic process; IEA:TreeGrafter.
+DR   FunFam; 1.10.1740.10:FF:000004; 1-deoxy-D-xylulose 5-phosphate reductoisomerase; 1.
+DR   FunFam; 3.40.50.720:FF:000045; 1-deoxy-D-xylulose 5-phosphate reductoisomerase; 1.
+DR   Gene3D; 1.10.1740.10; -; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00183; DXP_reductoisom; 1.
+DR   InterPro; IPR003821; DXP_reductoisomerase.
+DR   InterPro; IPR013644; DXP_reductoisomerase_C.
+DR   InterPro; IPR013512; DXP_reductoisomerase_N.
+DR   InterPro; IPR026877; DXPR_C.
+DR   InterPro; IPR036169; DXPR_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   NCBIfam; TIGR00243; Dxr; 1.
+DR   PANTHER; PTHR30525; 1-DEOXY-D-XYLULOSE 5-PHOSPHATE REDUCTOISOMERASE; 1.
+DR   PANTHER; PTHR30525:SF0; 1-DEOXY-D-XYLULOSE 5-PHOSPHATE REDUCTOISOMERASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF08436; DXP_redisom_C; 1.
+DR   Pfam; PF02670; DXP_reductoisom; 1.
+DR   Pfam; PF13288; DXPR_C; 1.
+DR   PIRSF; PIRSF006205; Dxp_reductismrs; 1.
+DR   SUPFAM; SSF69055; 1-deoxy-D-xylulose-5-phosphate reductoisomerase, C-terminal domain; 1.
+DR   SUPFAM; SSF55347; Glyceraldehyde-3-phosphate dehydrogenase-like, C-terminal domain; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Isoprene biosynthesis; Manganese; Metal-binding; NADP; Oxidoreductase.
+FT   CHAIN           1..398
+FT                   /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase"
+FT                   /id="PRO_0000163709"
+FT   BINDING         10
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         11
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         12
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         13
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         36
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         37
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         38
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         124
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         125
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         126
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         150
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         151
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         152
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         152
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         186
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         209
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         215
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         222
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         227
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         228
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         231
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+FT   BINDING         231
+FT                   /ligand="Mn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29035"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00183"
+SQ   SEQUENCE   398 AA;  43329 MW;  89BA627582BC0E05 CRC64;
+     MKQLTILGST GSIGCSTLDV VHHNPDSFRV IALVAGKNVA RMAEQCLEFS PRYAVMDDTS
+     SAEQLKIMLQ QHGSRTEVLS GQQAACEMAA LDEVGHVMAA IVGAAGLLPT LAAIRAGKTI
+     LLANKESLVT CGRLFMDEVK RSNARLLPVD SEHNAIFQSL PQSIQHNLGY ADLEQNGVTS
+     ILLTGSGGPF RETPMCDLAA MTPDQACRHP NWSMGRKISV DSATMMNKGL EYIEARWLFN
+     ASARQMEVLI HPQSVIHSMV RYQDGSVLAQ LGEPDMRTPI AHTMAWPNRV TSGAQPLDFC
+     KLSALTFSAP DYQRYPCLKL AMEAFEQGQA ATTALNAANE ITVAAFLAQQ IRFTDIAGLN
+     LAVLERMDLH EPASVDDVLQ VDAIAREVAR KQVIRLSR
+//

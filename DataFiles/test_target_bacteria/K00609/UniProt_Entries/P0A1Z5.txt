@@ -1,0 +1,159 @@
+ID   PYRB_SALTI              Reviewed;         311 AA.
+AC   P0A1Z5; P08420;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   05-FEB-2025, entry version 117.
+DE   RecName: Full=Aspartate carbamoyltransferase catalytic subunit {ECO:0000255|HAMAP-Rule:MF_00001};
+DE            EC=2.1.3.2 {ECO:0000255|HAMAP-Rule:MF_00001};
+DE   AltName: Full=Aspartate transcarbamylase {ECO:0000255|HAMAP-Rule:MF_00001};
+DE            Short=ATCase {ECO:0000255|HAMAP-Rule:MF_00001};
+GN   Name=pyrB {ECO:0000255|HAMAP-Rule:MF_00001};
+GN   OrderedLocusNames=STY4800, t4495;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the condensation of carbamoyl phosphate and
+CC       aspartate to form carbamoyl aspartate and inorganic phosphate, the
+CC       committed step in the de novo pyrimidine nucleotide biosynthesis
+CC       pathway. {ECO:0000255|HAMAP-Rule:MF_00001}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-aspartate = N-carbamoyl-L-aspartate +
+CC         phosphate + H(+); Xref=Rhea:RHEA:20013, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:32814, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00001};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 2/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00001}.
+CC   -!- SUBUNIT: Heterododecamer (2C3:3R2) of six catalytic PyrB chains
+CC       organized as two trimers (C3), and six regulatory PyrI chains organized
+CC       as three dimers (R2). {ECO:0000255|HAMAP-Rule:MF_00001}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. ATCase family. {ECO:0000255|HAMAP-Rule:MF_00001,
+CC       ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06921.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71942.1; -; Genomic_DNA.
+DR   RefSeq; NP_458878.1; NC_003198.1.
+DR   RefSeq; WP_000013055.1; NZ_WSUR01000016.1.
+DR   AlphaFoldDB; P0A1Z5; -.
+DR   SMR; P0A1Z5; -.
+DR   STRING; 220341.gene:17588621; -.
+DR   KEGG; stt:t4495; -.
+DR   KEGG; sty:STY4800; -.
+DR   PATRIC; fig|220341.7.peg.4906; -.
+DR   eggNOG; COG0540; Bacteria.
+DR   HOGENOM; CLU_043846_1_2_6; -.
+DR   OMA; VLIMHPG; -.
+DR   OrthoDB; 9774690at2; -.
+DR   UniPathway; UPA00070; UER00116.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004070; F:aspartate carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006520; P:amino acid metabolic process; IEA:InterPro.
+DR   FunFam; 3.40.50.1370:FF:000001; Aspartate carbamoyltransferase; 1.
+DR   FunFam; 3.40.50.1370:FF:000002; Aspartate carbamoyltransferase 2; 1.
+DR   Gene3D; 3.40.50.1370; Aspartate/ornithine carbamoyltransferase; 2.
+DR   HAMAP; MF_00001; Asp_carb_tr; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR002082; Asp_carbamoyltransf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   NCBIfam; TIGR00670; asp_carb_tr; 1.
+DR   PANTHER; PTHR45753:SF6; ASPARTATE CARBAMOYLTRANSFERASE; 1.
+DR   PANTHER; PTHR45753; ORNITHINE CARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00101; ATCASE.
+DR   SUPFAM; SSF53671; Aspartate/ornithine carbamoyltransferase; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   3: Inferred from homology;
+KW   Pyrimidine biosynthesis; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..311
+FT                   /note="Aspartate carbamoyltransferase catalytic subunit"
+FT                   /id="PRO_0000113188"
+FT   BINDING         55
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         56
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         85
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         106
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         135
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         138
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         168
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         230
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         268
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+FT   BINDING         269
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00001"
+SQ   SEQUENCE   311 AA;  34384 MW;  8F512750433ADBB7 CRC64;
+     MANPLYQKHI ISINDLSRDD LNLVLATAAK LKANPQPELL KHKVIASCFF EASTRTRLSF
+     ETSMHRLGAS VVGFSDSANT SLGKKGETLA DTISVISTYV DAIVMRHPQE GAARLATEFS
+     GQVPVLNAGD GSNQHPTQTL LDLFTIQETQ GRLDNLHIAM VGDLKYGRTV HSLTQALAKF
+     SGNRFYFIAP DALAMPQYIL DMLDEKGMAW SLHGSIEEVM ADVDILYMTR VQKERLDPSE
+     YANVKAQFVL RASDLNGARE NMKVLHPLPR IDEITTDVDK TPHAWYFQQA GNGIFARQAL
+     LALVLNSELS L
+//

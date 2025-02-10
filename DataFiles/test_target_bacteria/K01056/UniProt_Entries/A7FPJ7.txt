@@ -1,0 +1,108 @@
+ID   PTH_CLOB1               Reviewed;         189 AA.
+AC   A7FPJ7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 81.
+DE   RecName: Full=Peptidyl-tRNA hydrolase {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            Short=Pth {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            EC=3.1.1.29 {ECO:0000255|HAMAP-Rule:MF_00083};
+GN   Name=pth {ECO:0000255|HAMAP-Rule:MF_00083};
+GN   OrderedLocusNames=CLB_3621;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Hydrolyzes ribosome-free peptidyl-tRNAs (with 1 or more amino
+CC       acids incorporated), which drop off the ribosome during protein
+CC       synthesis, or as a result of ribosome stalling. {ECO:0000255|HAMAP-
+CC       Rule:MF_00083}.
+CC   -!- FUNCTION: Catalyzes the release of premature peptidyl moieties from
+CC       peptidyl-tRNA molecules trapped in stalled 50S ribosomal subunits, and
+CC       thus maintains levels of free tRNAs and 50S ribosomes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acyl-L-alpha-aminoacyl-tRNA + H2O = an N-acyl-L-amino
+CC         acid + a tRNA + H(+); Xref=Rhea:RHEA:54448, Rhea:RHEA-COMP:10123,
+CC         Rhea:RHEA-COMP:13883, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:59874, ChEBI:CHEBI:78442, ChEBI:CHEBI:138191;
+CC         EC=3.1.1.29; Evidence={ECO:0000255|HAMAP-Rule:MF_00083};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SIMILARITY: Belongs to the PTH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00083}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS33523.1; -; Genomic_DNA.
+DR   RefSeq; WP_012048384.1; NC_009697.1.
+DR   AlphaFoldDB; A7FPJ7; -.
+DR   SMR; A7FPJ7; -.
+DR   GeneID; 5187794; -.
+DR   KEGG; cba:CLB_3621; -.
+DR   HOGENOM; CLU_062456_4_1_9; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004045; F:aminoacyl-tRNA hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00462; PTH; 1.
+DR   FunFam; 3.40.50.1470:FF:000001; Peptidyl-tRNA hydrolase; 1.
+DR   Gene3D; 3.40.50.1470; Peptidyl-tRNA hydrolase; 1.
+DR   HAMAP; MF_00083; Pept_tRNA_hydro_bact; 1.
+DR   InterPro; IPR001328; Pept_tRNA_hydro.
+DR   InterPro; IPR018171; Pept_tRNA_hydro_CS.
+DR   InterPro; IPR036416; Pept_tRNA_hydro_sf.
+DR   NCBIfam; TIGR00447; pth; 1.
+DR   PANTHER; PTHR17224; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   PANTHER; PTHR17224:SF1; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   Pfam; PF01195; Pept_tRNA_hydro; 1.
+DR   SUPFAM; SSF53178; Peptidyl-tRNA hydrolase-like; 1.
+DR   PROSITE; PS01195; PEPT_TRNA_HYDROL_1; 1.
+DR   PROSITE; PS01196; PEPT_TRNA_HYDROL_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; RNA-binding; tRNA-binding.
+FT   CHAIN           1..189
+FT                   /note="Peptidyl-tRNA hydrolase"
+FT                   /id="PRO_1000010583"
+FT   ACT_SITE        19
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         14
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         64
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         66
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         112
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   SITE            9
+FT                   /note="Discriminates between blocked and unblocked
+FT                   aminoacyl-tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   SITE            91
+FT                   /note="Stabilizes the basic form of H active site to accept
+FT                   a proton"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+SQ   SEQUENCE   189 AA;  21112 MW;  2187B5DAF446E695 CRC64;
+     MYLVVGLGNI GKEYKKTRHN IGFDVVDIIA EKYNIEINRQ KFKGSYGEGR IGNEKIILLK
+     PSTYMNLSGE SVIEAANFYK IDKENIIVIY DDMSIDIGKL RVRSKGSAGG HNGIKNIIQH
+     LNSDIFPRVR VGIGQPDENV VNYVLGKFSK DEREIIEKVL AMSAKACISI VEDGVTEAMN
+     KYNGVKIEV
+//

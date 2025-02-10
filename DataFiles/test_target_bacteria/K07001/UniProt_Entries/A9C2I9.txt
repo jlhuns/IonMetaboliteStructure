@@ -1,0 +1,94 @@
+ID   A9C2I9_DELAS            Unreviewed;       348 AA.
+AC   A9C2I9;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 75.
+DE   SubName: Full=Patatin {ECO:0000313|EMBL:ABX36338.1};
+GN   OrderedLocusNames=Daci_3706 {ECO:0000313|EMBL:ABX36338.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX36338.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX36338.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|PROSITE-ProRule:PRU01161}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX36338.1; -; Genomic_DNA.
+DR   RefSeq; WP_012205534.1; NC_010002.1.
+DR   AlphaFoldDB; A9C2I9; -.
+DR   STRING; 398578.Daci_3706; -.
+DR   GeneID; 24118083; -.
+DR   KEGG; dac:Daci_3706; -.
+DR   eggNOG; COG1752; Bacteria.
+DR   HOGENOM; CLU_047251_1_0_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07205; Pat_PNPLA6_PNPLA7_NTE1_like; 1.
+DR   Gene3D; 3.40.1090.10; Cytosolic phospholipase A2 catalytic domain; 2.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR050301; NTE.
+DR   InterPro; IPR002641; PNPLA_dom.
+DR   PANTHER; PTHR14226; NEUROPATHY TARGET ESTERASE/SWISS CHEESE D.MELANOGASTER; 1.
+DR   PANTHER; PTHR14226:SF76; NTE FAMILY PROTEIN RSSA; 1.
+DR   Pfam; PF01734; Patatin; 1.
+DR   SUPFAM; SSF52151; FabD/lysophospholipase-like; 1.
+DR   PROSITE; PS51635; PNPLA; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161};
+KW   Lipid degradation {ECO:0000256|ARBA:ARBA00022963, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|PROSITE-
+KW   ProRule:PRU01161}; Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           31..348
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5002736235"
+FT   DOMAIN          51..209
+FT                   /note="PNPLA"
+FT                   /evidence="ECO:0000259|PROSITE:PS51635"
+FT   COILED          290..317
+FT                   /evidence="ECO:0000256|SAM:Coils"
+FT   MOTIF           82..86
+FT                   /note="GXSXG"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   MOTIF           196..198
+FT                   /note="DGA/G"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        84
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+FT   ACT_SITE        196
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01161"
+SQ   SEQUENCE   348 AA;  36031 MW;  14C1BA4ED7480553 CRC64;
+     MRLKALLRPL VYLSLAGLAA CGSNPPSPSA ATPESTPTAP STPVAPIRIG LALGGGAVKG
+     FAHIGVIKML EANGLAPAVV SGTSAGSVVG ALYASGMNAF ELQEKAVALD ETRIRDLQLS
+     SGGLLVGQKL EDYVNEQVGR KPLEQLAKPF VAVSTRLEDG ERTVFARGNT GQAVRASSSI
+     PGVFQPVAIG KFHFVDGGIT SPVPVDAARQ LGADLVIAVD ISNKARGKAP ENMLGALGQS
+     IAIMGQKLGQ AELARADITI RPKVLDIGPA DFTQRASAIL EGEKAAVAAM PQIRERIAQL
+     QAERAKAAKL AQQKAAEAQH QACLDQRSRM QKLAEMAGMD GACANPNP
+//

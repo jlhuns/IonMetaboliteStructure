@@ -1,0 +1,140 @@
+ID   A0A1P8F8E1_9CHLR        Unreviewed;       325 AA.
+AC   A0A1P8F8E1;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 35.
+DE   RecName: Full=Aspartate carbamoyltransferase {ECO:0000256|HAMAP-Rule:MF_00001};
+DE            EC=2.1.3.2 {ECO:0000256|HAMAP-Rule:MF_00001};
+DE   AltName: Full=Aspartate transcarbamylase {ECO:0000256|HAMAP-Rule:MF_00001};
+DE            Short=ATCase {ECO:0000256|HAMAP-Rule:MF_00001};
+GN   Name=pyrB {ECO:0000256|HAMAP-Rule:MF_00001,
+GN   ECO:0000313|EMBL:APV44744.1};
+GN   ORFNames=Dform_01420 {ECO:0000313|EMBL:APV44744.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44744.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of carbamoyl phosphate and
+CC       aspartate to form carbamoyl aspartate and inorganic phosphate, the
+CC       committed step in the de novo pyrimidine nucleotide biosynthesis
+CC       pathway. {ECO:0000256|ARBA:ARBA00043884, ECO:0000256|HAMAP-
+CC       Rule:MF_00001}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-aspartate = N-carbamoyl-L-aspartate +
+CC         phosphate + H(+); Xref=Rhea:RHEA:20013, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:32814, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.2;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048859, ECO:0000256|HAMAP-
+CC         Rule:MF_00001};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 2/3.
+CC       {ECO:0000256|ARBA:ARBA00004852, ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   -!- SUBUNIT: Heterododecamer (2C3:3R2) of six catalytic PyrB chains
+CC       organized as two trimers (C3), and six regulatory PyrI chains organized
+CC       as three dimers (R2). {ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. ATCase family. {ECO:0000256|ARBA:ARBA00008896,
+CC       ECO:0000256|HAMAP-Rule:MF_00001}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44744.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004394.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F8E1; -.
+DR   STRING; 1839801.Dform_01420; -.
+DR   KEGG; dfo:Dform_01420; -.
+DR   OrthoDB; 9774690at2; -.
+DR   UniPathway; UPA00070; UER00116.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004070; F:aspartate carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006520; P:amino acid metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.1370; Aspartate/ornithine carbamoyltransferase; 2.
+DR   HAMAP; MF_00001; Asp_carb_tr; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR002082; Asp_carbamoyltransf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   NCBIfam; TIGR00670; asp_carb_tr; 1.
+DR   PANTHER; PTHR45753:SF6; ASPARTATE CARBAMOYLTRANSFERASE; 1.
+DR   PANTHER; PTHR45753; ORNITHINE CARBAMOYLTRANSFERASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00101; ATCASE.
+DR   SUPFAM; SSF53671; Aspartate/ornithine carbamoyltransferase; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   3: Inferred from homology;
+KW   Pyrimidine biosynthesis {ECO:0000256|ARBA:ARBA00022975, ECO:0000256|HAMAP-
+KW   Rule:MF_00001}; Reference proteome {ECO:0000313|Proteomes:UP000185934};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00001}.
+FT   DOMAIN          17..159
+FT                   /note="Aspartate/ornithine carbamoyltransferase carbamoyl-P
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF02729"
+FT   DOMAIN          167..318
+FT                   /note="Aspartate/ornithine carbamoyltransferase Asp/Orn-
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF00185"
+FT   BINDING         69
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         70
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         97
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         119
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         147
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         150
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         180
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         239
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         280
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+FT   BINDING         281
+FT                   /ligand="carbamoyl phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58228"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00001"
+SQ   SEQUENCE   325 AA;  35604 MW;  9B3D2E41A062862A CRC64;
+     MLNETTAAPK TNAWNHRHLL DVDDFTPEEF EIVFSTADAM SEILSRPIKK VPALRGQTVV
+     NLFYENSTRT RASFEIAAKN LSADVLNVTS TASSITKGES LIDTLKTLEA LGANIIVMRH
+     NFSGAPYLAA KHSKASIINA GDGWHAHPTQ ALLDLYTIRK HKGSLAGLKA TIVGDVRHSR
+     VAHSNIWGMT KLGMEVTLCG PPTLLPYGLD NPGANFPKVR VENQVEKAVA NADVVMALRL
+     QRERQQSGLL PSVREYVERY QITSERLKKA AKDVLVMHPG PVNEDIELAT ESAYGEKSVI
+     NEQVSNGVAI RMAILYLLSG RQGEL
+//

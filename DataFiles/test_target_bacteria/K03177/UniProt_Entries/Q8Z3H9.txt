@@ -1,0 +1,124 @@
+ID   TRUB_SALTI              Reviewed;         314 AA.
+AC   Q8Z3H9;
+DT   26-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 126.
+DE   RecName: Full=tRNA pseudouridine synthase B {ECO:0000255|HAMAP-Rule:MF_01080};
+DE            EC=5.4.99.25 {ECO:0000255|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridine(55) synthase {ECO:0000255|HAMAP-Rule:MF_01080};
+DE            Short=Psi55 synthase {ECO:0000255|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA pseudouridylate synthase {ECO:0000255|HAMAP-Rule:MF_01080};
+DE   AltName: Full=tRNA-uridine isomerase {ECO:0000255|HAMAP-Rule:MF_01080};
+GN   Name=truB {ECO:0000255|HAMAP-Rule:MF_01080};
+GN   OrderedLocusNames=STY3465, t3202;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Responsible for synthesis of pseudouridine from uracil-55 in
+CC       the psi GC loop of transfer RNAs. {ECO:0000255|HAMAP-Rule:MF_01080}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(55) in tRNA = pseudouridine(55) in tRNA;
+CC         Xref=Rhea:RHEA:42532, Rhea:RHEA-COMP:10101, Rhea:RHEA-COMP:10102,
+CC         ChEBI:CHEBI:65314, ChEBI:CHEBI:65315; EC=5.4.99.25;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01080};
+CC   -!- SIMILARITY: Belongs to the pseudouridine synthase TruB family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01080}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD07804.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70740.1; -; Genomic_DNA.
+DR   RefSeq; NP_457666.1; NC_003198.1.
+DR   RefSeq; WP_000089682.1; NZ_WSUR01000003.1.
+DR   AlphaFoldDB; Q8Z3H9; -.
+DR   SMR; Q8Z3H9; -.
+DR   STRING; 220341.gene:17587315; -.
+DR   KEGG; stt:t3202; -.
+DR   KEGG; sty:STY3465; -.
+DR   PATRIC; fig|220341.7.peg.3527; -.
+DR   eggNOG; COG0130; Bacteria.
+DR   HOGENOM; CLU_032087_0_3_6; -.
+DR   OMA; VDKPSGF; -.
+DR   OrthoDB; 9802309at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0160148; F:tRNA pseudouridine(55) synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:1990481; P:mRNA pseudouridine synthesis; IEA:TreeGrafter.
+DR   GO; GO:0031119; P:tRNA pseudouridine synthesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd02573; PseudoU_synth_EcTruB; 1.
+DR   CDD; cd21152; PUA_TruB_bacterial; 1.
+DR   FunFam; 2.30.130.10:FF:000004; tRNA pseudouridine synthase B; 1.
+DR   FunFam; 3.30.2350.10:FF:000003; tRNA pseudouridine synthase B; 1.
+DR   Gene3D; 3.30.2350.10; Pseudouridine synthase; 1.
+DR   Gene3D; 2.30.130.10; PUA domain; 1.
+DR   HAMAP; MF_01080; TruB_bact; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom_sf.
+DR   InterPro; IPR002501; PsdUridine_synth_N.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   InterPro; IPR014780; tRNA_psdUridine_synth_TruB.
+DR   InterPro; IPR015240; tRNA_sdUridine_synth_fam1_C.
+DR   InterPro; IPR032819; TruB_C.
+DR   NCBIfam; TIGR00431; TruB; 1.
+DR   PANTHER; PTHR13767:SF2; PSEUDOURIDYLATE SYNTHASE TRUB1; 1.
+DR   PANTHER; PTHR13767; TRNA-PSEUDOURIDINE SYNTHASE; 1.
+DR   Pfam; PF09157; TruB-C_2; 1.
+DR   Pfam; PF16198; TruB_C_2; 1.
+DR   Pfam; PF01509; TruB_N; 1.
+DR   SUPFAM; SSF55120; Pseudouridine synthase; 1.
+DR   SUPFAM; SSF88697; PUA domain-like; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; tRNA processing.
+FT   CHAIN           1..314
+FT                   /note="tRNA pseudouridine synthase B"
+FT                   /id="PRO_0000121898"
+FT   ACT_SITE        48
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01080"
+FT   BINDING         43
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01080"
+FT   BINDING         76
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01080"
+FT   BINDING         179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01080"
+FT   BINDING         200
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01080"
+SQ   SEQUENCE   314 AA;  35070 MW;  C3377BF0E6032CA8 CRC64;
+     MSRPRRRGRD IHGVLLLDKP QGMSSNDVLQ KVKRIYNANR AGHTGALDPL ATGMLPICLG
+     EATKFSQYLL DSDKRYRVIA RLGQRTDTSD ADGQIVQERP VTFSAEQLAS ALETFRGDIE
+     QIPSMYSALK YQGRKLYEYA RQGIEVPREA RPITVYELLF IRHEGNELEL EVHCSKGTYI
+     RTIIDDLGEK LGCGAHVTYL RRLTVSKYPV DRMVTLEHLQ TLVAQAEQQG VPAAQLLDPL
+     LMPMDSPASD YPVVNLPLTS SVYFKNGNPV RTTGAPLKGL VRVTEGEDDK FIGMGEIDDE
+     GRVAPRRLVV EYPA
+//

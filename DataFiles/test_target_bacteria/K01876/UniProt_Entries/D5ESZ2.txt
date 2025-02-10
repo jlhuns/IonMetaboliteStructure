@@ -1,0 +1,150 @@
+ID   D5ESZ2_XYLR2            Unreviewed;       593 AA.
+AC   D5ESZ2;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   RecName: Full=Aspartate--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_00044};
+DE            EC=6.1.1.12 {ECO:0000256|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Aspartyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_00044};
+DE            Short=AspRS {ECO:0000256|HAMAP-Rule:MF_00044};
+GN   Name=aspS {ECO:0000256|HAMAP-Rule:MF_00044,
+GN   ECO:0000313|EMBL:ADE83088.1};
+GN   OrderedLocusNames=PRU_1439 {ECO:0000313|EMBL:ADE83088.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE83088.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE83088.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the attachment of L-aspartate to tRNA(Asp) in a
+CC       two-step reaction: L-aspartate is first activated by ATP to form Asp-
+CC       AMP and then transferred to the acceptor end of tRNA(Asp).
+CC       {ECO:0000256|HAMAP-Rule:MF_00044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Asp) + L-aspartate + ATP = L-aspartyl-tRNA(Asp) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:19649, Rhea:RHEA-COMP:9660, Rhea:RHEA-
+CC         COMP:9678, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78516, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.12; Evidence={ECO:0000256|HAMAP-Rule:MF_00044};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00044}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00044}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type 1 subfamily. {ECO:0000256|ARBA:ARBA00006303, ECO:0000256|HAMAP-
+CC       Rule:MF_00044}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE83088.1; -; Genomic_DNA.
+DR   RefSeq; WP_013065074.1; NC_014033.1.
+DR   AlphaFoldDB; D5ESZ2; -.
+DR   STRING; 264731.PRU_1439; -.
+DR   KEGG; pru:PRU_1439; -.
+DR   eggNOG; COG0173; Bacteria.
+DR   HOGENOM; CLU_014330_3_2_10; -.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004815; F:aspartate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006422; P:aspartyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00777; AspRS_core; 1.
+DR   CDD; cd04317; EcAspRS_like_N; 1.
+DR   Gene3D; 3.30.930.10; Bira Bifunctional Protein, Domain 2; 1.
+DR   Gene3D; 3.30.1360.30; GAD-like domain; 1.
+DR   Gene3D; 2.40.50.140; Nucleic acid-binding proteins; 1.
+DR   HAMAP; MF_00044; Asp_tRNA_synth_type1; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR045864; aa-tRNA-synth_II/BPL/LPL.
+DR   InterPro; IPR004524; Asp-tRNA-ligase_1.
+DR   InterPro; IPR047089; Asp-tRNA-ligase_1_N.
+DR   InterPro; IPR002312; Asp/Asn-tRNA-synth_IIb.
+DR   InterPro; IPR047090; AspRS_core.
+DR   InterPro; IPR004115; GAD-like_sf.
+DR   InterPro; IPR029351; GAD_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   NCBIfam; TIGR00459; aspS_bact; 1.
+DR   PANTHER; PTHR22594:SF5; ASPARTATE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR22594; ASPARTYL/LYSYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF02938; GAD; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR01042; TRNASYNTHASP.
+DR   SUPFAM; SSF55681; Class II aaRS and biotin synthetases; 1.
+DR   SUPFAM; SSF55261; GAD domain-like; 1.
+DR   SUPFAM; SSF50249; Nucleic acid-binding proteins; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|ARBA:ARBA00023146,
+KW   ECO:0000256|HAMAP-Rule:MF_00044};
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|HAMAP-
+KW   Rule:MF_00044}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00044};
+KW   Ligase {ECO:0000256|ARBA:ARBA00022598, ECO:0000256|HAMAP-Rule:MF_00044};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00044};
+KW   Protein biosynthesis {ECO:0000256|ARBA:ARBA00022917, ECO:0000256|HAMAP-
+KW   Rule:MF_00044}; Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   DOMAIN          140..566
+FT                   /note="Aminoacyl-transfer RNA synthetases class-II family
+FT                   profile"
+FT                   /evidence="ECO:0000259|PROSITE:PS50862"
+FT   REGION          197..200
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         173
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         219..221
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         219
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         228
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         446
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         480
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         487
+FT                   /ligand="L-aspartate"
+FT                   /ligand_id="ChEBI:CHEBI:29991"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+FT   BINDING         532..535
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00044"
+SQ   SEQUENCE   593 AA;  67259 MW;  254A75A1A152494B CRC64;
+     MYRSKTCGEL RLQDAGSVVT LAGWVQRSRK MGGMTFVDLR DRYGLTQLVF NEADDAELCE
+     RANKLGREFC IQIKGEVSER QSKNPKMPTG DIEILVKELN VLSESLTPPF TIEDNTDGGD
+     DIRMKYRYLD LRRAAVRKNL ELRHRMTILI RNFLDAQNFI EVETPILIGS TPEGARDFVV
+     PSRMNPGQFY ALPQSPQTLK QLLMVSGFDR YFQIAKCFRD EDLRADRQPE FTQIDCEMSF
+     VDQEDVLQIF EDLARHLFKE VRGIELPALQ RMTWNEAMRR FGSDKPDLRF GMEFVELMDQ
+     LKGTGTFPVF NEATYIGGIC VPGCANYSRK QLDELTEFVK RPQVGAKGLV YVKFNEDGTV
+     KSSIDKFYTP EVWAQVKEAC GAKDGDLVLI LSGDNANKTR VQLCTLRLEM GDRLGLRDKD
+     KFVCLWIVDF PLFEWSDEEQ RLMATHHPFT MPNPDDIPLL DTDPAKVRAV AYDFVCNGVE
+     VGGGSLRIHD GKLQEKMFQI LGFTPERAMA QFGFLINAFK YGAPPHAGLA FGLDRFVSLM
+     AGLDSIRDCI AFPKNNSGRD VMLDAPGELD QKQLDELQLK VELRSTSSLQ GSE
+//

@@ -1,0 +1,189 @@
+ID   RLMN_SALTI              Reviewed;         388 AA.
+AC   Q8Z4P2; Q7CBK0;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 139.
+DE   RecName: Full=Dual-specificity RNA methyltransferase RlmN {ECO:0000255|HAMAP-Rule:MF_01849};
+DE            EC=2.1.1.192 {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=23S rRNA m2A2503 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=Ribosomal RNA large subunit methyltransferase N {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+DE   AltName: Full=tRNA m2A37 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01849};
+GN   Name=rlmN {ECO:0000255|HAMAP-Rule:MF_01849};
+GN   OrderedLocusNames=STY2770, t0331;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Specifically methylates position 2 of adenine 2503 in 23S
+CC       rRNA and position 2 of adenine 37 in tRNAs. m2A2503 modification seems
+CC       to play a crucial role in the proofreading step occurring at the
+CC       peptidyl transferase center and thus would serve to optimize ribosomal
+CC       fidelity. {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(2503) in 23S rRNA + 2 reduced [2Fe-2S]-[ferredoxin]
+CC         + 2 S-adenosyl-L-methionine = 2-methyladenosine(2503) in 23S rRNA +
+CC         5'-deoxyadenosine + L-methionine + 2 oxidized [2Fe-2S]-[ferredoxin] +
+CC         S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:42916, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, Rhea:RHEA-COMP:10152, Rhea:RHEA-
+CC         COMP:10282, ChEBI:CHEBI:17319, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74497; EC=2.1.1.192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + 2 reduced [2Fe-2S]-[ferredoxin] + 2 S-
+CC         adenosyl-L-methionine = 2-methyladenosine(37) in tRNA + 5'-
+CC         deoxyadenosine + L-methionine + 2 oxidized [2Fe-2S]-[ferredoxin] + S-
+CC         adenosyl-L-homocysteine; Xref=Rhea:RHEA:43332, Rhea:RHEA-COMP:10000,
+CC         Rhea:RHEA-COMP:10001, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10485,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74497; EC=2.1.1.192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01849};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   -!- MISCELLANEOUS: Reaction proceeds by a ping-pong mechanism involving
+CC       intermediate methylation of a conserved cysteine residue.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. RlmN family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01849}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO68054.1; -; Genomic_DNA.
+DR   EMBL; AL513382; CAD02728.1; -; Genomic_DNA.
+DR   RefSeq; NP_457057.1; NC_003198.1.
+DR   RefSeq; WP_000003206.1; NZ_WSUR01000007.1.
+DR   AlphaFoldDB; Q8Z4P2; -.
+DR   SMR; Q8Z4P2; -.
+DR   STRING; 220341.gene:17586662; -.
+DR   KEGG; stt:t0331; -.
+DR   KEGG; sty:STY2770; -.
+DR   PATRIC; fig|220341.7.peg.2812; -.
+DR   eggNOG; COG0820; Bacteria.
+DR   HOGENOM; CLU_029101_0_0_6; -.
+DR   OMA; GTIKWAM; -.
+DR   OrthoDB; 9793973at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070040; F:rRNA (adenine(2503)-C2-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019843; F:rRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002935; F:tRNA (adenine(37)-C2)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030488; P:tRNA methylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 1.10.150.530:FF:000001; Dual-specificity RNA methyltransferase RlmN; 1.
+DR   FunFam; 3.20.20.70:FF:000008; Dual-specificity RNA methyltransferase RlmN; 1.
+DR   Gene3D; 1.10.150.530; -; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01849; RNA_methyltr_RlmN; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR040072; Methyltransferase_A.
+DR   InterPro; IPR048641; RlmN_N.
+DR   InterPro; IPR027492; RNA_MTrfase_RlmN.
+DR   InterPro; IPR004383; rRNA_lsu_MTrfase_RlmN/Cfr.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00048; rRNA_mod_RlmN; 1.
+DR   PANTHER; PTHR30544; 23S RRNA METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR30544:SF5; RADICAL SAM CORE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   Pfam; PF21016; RlmN_N; 1.
+DR   PIRSF; PIRSF006004; CHP00048; 1.
+DR   SFLD; SFLDF00275; adenosine_C2_methyltransferase; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Disulfide bond; Iron; Iron-sulfur; Metal-binding;
+KW   Methyltransferase; rRNA processing; S-adenosyl-L-methionine; Transferase;
+KW   tRNA processing.
+FT   CHAIN           1..388
+FT                   /note="Dual-specificity RNA methyltransferase RlmN"
+FT                   /id="PRO_0000350389"
+FT   DOMAIN          115..354
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   ACT_SITE        109
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   ACT_SITE        359
+FT                   /note="S-methylcysteine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         129
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         133
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         136
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         183..184
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         215
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         237..239
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   BINDING         316
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+FT   DISULFID        122..359
+FT                   /note="(transient)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01849"
+SQ   SEQUENCE   388 AA;  43512 MW;  02D5566B8DAED67C CRC64;
+     MSEQIVTPES STPVVLNNET KINLLDLNRQ QMREFFKNLG EKPFRADQVM KWMYHYCCDN
+     FDEMTDINKV LRGKLKEVAE IRAPEVVEEQ RSSDGTIKWA IAVGDQRVET VYIPEDDRAT
+     LCVSSQVGCA LECKFCSTAQ QGFNRNLRVS EIIGQVWRAA KIVGAAKVTG QRPITNVVMM
+     GMGEPLLNLT NVVPAMEIML DDFGFGLSKR RVTLSTSGVV PALDKLGDMI DVALAISLHA
+     PNDTIRDEIV PINKKYNIET FLGAVRRYLE KSNANQGRVT IEYVMLDHVN DGTEHAHQLA
+     ELLKETPCKI NLIPWNPFPG APYGRSSNSR IDRFSKVLMS YGFTTIVRKT RGDDIDAACG
+     QLAGDVIDRT KRTLRKRMQG EVIDIKAI
+//

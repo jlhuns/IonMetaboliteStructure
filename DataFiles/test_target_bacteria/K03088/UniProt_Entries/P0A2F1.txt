@@ -1,0 +1,156 @@
+ID   RPOE_SALTI              Reviewed;         191 AA.
+AC   P0A2F1; P37401;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   05-FEB-2025, entry version 118.
+DE   RecName: Full=ECF RNA polymerase sigma-E factor;
+DE   AltName: Full=RNA polymerase sigma-E factor;
+DE   AltName: Full=Sigma-24;
+GN   Name=rpoE; Synonyms=sigE; OrderedLocusNames=STY2833, t0270;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Sigma factors are initiation factors that promote the
+CC       attachment of RNA polymerase (RNAP) to specific initiation sites and
+CC       are then released. Extracytoplasmic function (ECF) sigma-E controls the
+CC       envelope stress response, responding to periplasmic protein stress,
+CC       increased levels of periplasmic lipopolysaccharide (LPS) as well as
+CC       acid stress, heat shock and oxidative stress; it controls protein
+CC       processing in the extracytoplasmic compartment (By similarity).
+CC       {ECO:0000250}.
+CC   -!- ACTIVITY REGULATION: ECF sigma-E is held in an inactive form by its
+CC       cognate anti-sigma factor (RseA) until released by regulated
+CC       intramembrane proteolysis (RIP). RIP occurs when an extracytoplasmic
+CC       signal (periplasmic stress and excess LPS) triggers a concerted
+CC       proteolytic cascade to transmit information and elicit cellular
+CC       responses. The anti-sigma factor RseA is an inner membrane protein,
+CC       binding sigma-E in the cytoplasm and RseB in the periplasm. RseA is
+CC       first cut extracytoplasmically (site-1 protease, S1P, by DegS), then
+CC       within the membrane itself (site-2 protease, S2P, by RseP), while
+CC       cytoplasmic proteases (predominantly ClpX-ClpP) finish degrading the
+CC       regulatory protein, liberating sigma-E. Degradation of RseA requires 2
+CC       signals to activate DegS; an outer membrane protein (OMP) signal
+CC       activates DegS, while an LPS signal causes release of RseB from RseA,
+CC       freeing RseA to be cleaved (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts transiently with the RNAP catalytic core formed by
+CC       RpoA, RpoB, RpoC and RpoZ (2 alpha, 1 beta, 1 beta' and 1 omega
+CC       subunit) to form the RNAP holoenzyme that can initiate transcription.
+CC       Interacts 1:1 with anti-sigma-E factor RseA which prevents binding to
+CC       RNAP catalytic core (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Note=Associates with the
+CC       inner membrane via RseA. {ECO:0000250}.
+CC   -!- DOMAIN: The sigma-70 factor domain-2 mediates sequence-specific
+CC       interaction with the -10 element in promoter DNA, and plays an
+CC       important role in melting the double-stranded DNA and the formation of
+CC       the transcription bubble. The sigma-70 factor domain-2 mediates
+CC       interaction with the RNA polymerase subunits RpoB and RpoC (By
+CC       similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The sigma-70 factor domain-4 contains a helix-turn-helix (H-T-
+CC       H) motif that mediates interaction with the -35 element in promoter
+CC       DNA. The domain also mediates interaction with the RNA polymerase
+CC       subunit RpoA. Interactions between sigma-70 factor domain-4 and anti-
+CC       sigma factors prevents interaction of sigma factors with the RNA
+CC       polymerase catalytic core (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the sigma-70 factor family. ECF subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD02789.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67995.1; -; Genomic_DNA.
+DR   RefSeq; NP_457116.1; NC_003198.1.
+DR   RefSeq; WP_000003307.1; NZ_WSUR01000007.1.
+DR   AlphaFoldDB; P0A2F1; -.
+DR   BMRB; P0A2F1; -.
+DR   SMR; P0A2F1; -.
+DR   STRING; 220341.gene:17586723; -.
+DR   GeneID; 92972160; -.
+DR   KEGG; stt:t0270; -.
+DR   KEGG; sty:STY2833; -.
+DR   PATRIC; fig|220341.7.peg.2881; -.
+DR   eggNOG; COG1595; Bacteria.
+DR   HOGENOM; CLU_047691_3_0_6; -.
+DR   OMA; QFYTWLY; -.
+DR   OrthoDB; 9780326at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016987; F:sigma factor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006352; P:DNA-templated transcription initiation; IEA:InterPro.
+DR   CDD; cd06171; Sigma70_r4; 1.
+DR   FunFam; 1.10.10.10:FF:000043; RNA polymerase sigma factor; 1.
+DR   FunFam; 1.10.1740.10:FF:000001; RNA polymerase sigma factor; 1.
+DR   Gene3D; 1.10.1740.10; -; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   InterPro; IPR039425; RNA_pol_sigma-70-like.
+DR   InterPro; IPR014284; RNA_pol_sigma-70_dom.
+DR   InterPro; IPR000838; RNA_pol_sigma70_ECF_CS.
+DR   InterPro; IPR007627; RNA_pol_sigma70_r2.
+DR   InterPro; IPR013249; RNA_pol_sigma70_r4_t2.
+DR   InterPro; IPR014286; RNA_pol_sigma70_RpoE.
+DR   InterPro; IPR013325; RNA_pol_sigma_r2.
+DR   InterPro; IPR013324; RNA_pol_sigma_r3/r4-like.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   NCBIfam; TIGR02939; RpoE_Sigma70; 1.
+DR   NCBIfam; TIGR02937; sigma70-ECF; 1.
+DR   PANTHER; PTHR43133:SF53; ECF RNA POLYMERASE SIGMA-E FACTOR; 1.
+DR   PANTHER; PTHR43133; RNA POLYMERASE ECF-TYPE SIGMA FACTO; 1.
+DR   Pfam; PF04542; Sigma70_r2; 1.
+DR   Pfam; PF08281; Sigma70_r4_2; 1.
+DR   SUPFAM; SSF88946; Sigma2 domain of RNA polymerase sigma factors; 1.
+DR   SUPFAM; SSF88659; Sigma3 and sigma4 domains of RNA polymerase sigma factors; 1.
+DR   PROSITE; PS01063; SIGMA70_ECF; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA-binding; Sigma factor; Stress response; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..191
+FT                   /note="ECF RNA polymerase sigma-E factor"
+FT                   /id="PRO_0000094000"
+FT   DNA_BIND        156..175
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1..153
+FT                   /note="Binds RNAP core"
+FT                   /evidence="ECO:0000250"
+FT   REGION          25..92
+FT                   /note="Sigma-70 factor domain-2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          129..180
+FT                   /note="Sigma-70 factor domain-4"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           48..61
+FT                   /note="Polymerase core binding"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   191 AA;  21712 MW;  D91F0782CF19611E CRC64;
+     MSEQLTDQVL VERVQKGDQK AFNLLVVRYQ HKVASLVSRY VPSGDVPDVV QESFIKAYRA
+     LDSFRGDSAF YTWLYRIAVN TAKNYLVAQG RRPPSSDVDA IEAENFESGG ALKEISNPEN
+     LMLSEELRQI VFRTIESLPE DLRMAITLRE LDGLSYEEIA AIMDCPVGTV RSRIFRAREA
+     IDNKVQPLIR R
+//

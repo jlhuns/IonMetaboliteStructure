@@ -1,0 +1,90 @@
+ID   A0A8B6YJQ3_CAMFR        Unreviewed;       465 AA.
+AC   A0A8B6YJQ3;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 17.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000256|PIRNR:PIRNR039110};
+DE            EC=2.5.1.75 {ECO:0000256|PIRNR:PIRNR039110};
+GN   Name=TRIT1 {ECO:0000313|RefSeq:XP_006188096.2};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_006188096.2};
+RN   [1] {ECO:0000313|RefSeq:XP_006188096.2}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_006188096.2};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37. {ECO:0000256|PIRNR:PIRNR039110}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75;
+CC         Evidence={ECO:0000256|PIRNR:PIRNR039110};
+CC   -!- SIMILARITY: Belongs to the IPP transferase family.
+CC       {ECO:0000256|ARBA:ARBA00005842, ECO:0000256|PIRNR:PIRNR039110,
+CC       ECO:0000256|RuleBase:RU003785}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_006188096.2; XM_006188034.3.
+DR   GeneID; 102511236; -.
+DR   KEGG; cfr:102511236; -.
+DR   CTD; 54802; -.
+DR   OrthoDB; 30166at91561; -.
+DR   Proteomes; UP000694856; Chromosome 13.
+DR   GO; GO:0005739; C:mitochondrion; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006400; P:tRNA modification; IEA:TreeGrafter.
+DR   CDD; cd02019; NK; 1.
+DR   FunFam; 3.40.50.300:FF:001625; tRNA dimethylallyltransferase isoform X2; 1.
+DR   FunFam; 1.10.20.140:FF:000002; tRNA dimethylallyltransferase, mitochondrial; 1.
+DR   Gene3D; 1.10.20.140; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR030666; IPP_transferase_euk.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR022755; Znf_C2H2_jaz.
+DR   InterPro; IPR036236; Znf_C2H2_sf.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF89; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   Pfam; PF12171; zf-C2H2_jaz; 1.
+DR   PIRSF; PIRSF039110; IPP_transferase; 1.
+DR   SUPFAM; SSF57667; beta-beta-alpha zinc fingers; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PIRNR:PIRNR039110};
+KW   Cytoplasm {ECO:0000256|PIRNR:PIRNR039110};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741,
+KW   ECO:0000256|PIRNR:PIRNR039110};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR039110};
+KW   tRNA processing {ECO:0000256|PIRNR:PIRNR039110};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771}.
+FT   DOMAIN          394..418
+FT                   /note="Zinc finger double-stranded RNA binding"
+FT                   /evidence="ECO:0000259|Pfam:PF12171"
+FT   REGION          433..465
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   465 AA;  52018 MW;  EF0477FECF230757 CRC64;
+     MAAAAARAVS VGTGLGGLQR TLPLVVILGA TGTGKSTLAL QLGQRLGGEI VSADSMQVYE
+     GLDIITNKVS AQEQKMCQHH MISFVDPLVT NYTVVDFRNK ATALIEDIFA RDKIPIVVGG
+     TNYYIESLLW KVLISAKPQG MGTAKVIDRK VELEKEDGHA LHKRLSQVDP EMAAKLHPHD
+     KRKVARSLQV FEETGISHSE FLHRQHAEEG GGPLGGPLKF PNPCILWLHA EQTVLDKRLD
+     KRVDNMLAAG LLDELRDFHR RYNEKKVAEN SQDYQHGIFQ SIGFKEFHEY LITEGKCTPE
+     TSNQLLKKGI EALKQVTKRY ARKQNRWVKN RFLSRPGPGV PPVYGLEVSD TSKWEESVLE
+     PALEIVQSFI QGQKPAAAPV KMPSNETENK RSYHMCDLCD RIIIGDREWA AHVKSKSHLH
+     QLKKRRLDSD AITTIESQSI SPDRDEELEE KGSLGQNDEE LKSSI
+//

@@ -1,0 +1,94 @@
+ID   W6RH40_9HYPH            Unreviewed;       492 AA.
+AC   W6RH40;
+DT   16-APR-2014, integrated into UniProtKB/TrEMBL.
+DT   16-APR-2014, sequence version 1.
+DT   05-FEB-2025, entry version 43.
+DE   SubName: Full=D-alanyl-D-alanine carboxypeptidase {ECO:0000313|EMBL:CDM58043.1};
+DE            EC=3.4.16.4 {ECO:0000313|EMBL:CDM58043.1};
+GN   Name=dacF3 {ECO:0000313|EMBL:CDM58043.1};
+GN   ORFNames=LPU83_2387 {ECO:0000313|EMBL:CDM58043.1};
+OS   Rhizobium favelukesii.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=348824 {ECO:0000313|EMBL:CDM58043.1, ECO:0000313|Proteomes:UP000019443};
+RN   [1] {ECO:0000313|EMBL:CDM58043.1, ECO:0000313|Proteomes:UP000019443}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LPU83 {ECO:0000313|EMBL:CDM58043.1,
+RC   ECO:0000313|Proteomes:UP000019443};
+RA   Wibberg D., Puehler A., Schlueter A.;
+RT   "Draft genome sequence of the broad-host-range Rhizobium sp. LPU83 strain,
+RT   a member of the low-genetic diversity Oregon-like Rhizobium sp. group.";
+RL   Submitted (NOV-2013) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the peptidase S11 family.
+CC       {ECO:0000256|ARBA:ARBA00007164, ECO:0000256|RuleBase:RU004016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HG916852; CDM58043.1; -; Genomic_DNA.
+DR   AlphaFoldDB; W6RH40; -.
+DR   KEGG; rhl:LPU83_2387; -.
+DR   PATRIC; fig|348824.6.peg.2573; -.
+DR   eggNOG; COG1686; Bacteria.
+DR   HOGENOM; CLU_027070_1_1_5; -.
+DR   Proteomes; UP000019443; Chromosome.
+DR   GO; GO:0042834; F:peptidoglycan binding; IEA:InterPro.
+DR   GO; GO:0009002; F:serine-type D-Ala-D-Ala carboxypeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.710.10; DD-peptidase/beta-lactamase superfamily; 1.
+DR   Gene3D; 3.30.70.1070; Sporulation related repeat; 1.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR018044; Peptidase_S11.
+DR   InterPro; IPR001967; Peptidase_S11_N.
+DR   InterPro; IPR007730; SPOR-like_dom.
+DR   InterPro; IPR036680; SPOR-like_sf.
+DR   PANTHER; PTHR21581; D-ALANYL-D-ALANINE CARBOXYPEPTIDASE; 1.
+DR   PANTHER; PTHR21581:SF6; TRAFFICKING PROTEIN PARTICLE COMPLEX SUBUNIT 12; 1.
+DR   Pfam; PF00768; Peptidase_S11; 1.
+DR   Pfam; PF05036; SPOR; 1.
+DR   PRINTS; PR00725; DADACBPTASE1.
+DR   SUPFAM; SSF56601; beta-lactamase/transpeptidase-like; 1.
+DR   SUPFAM; SSF110997; Sporulation related repeat; 1.
+DR   PROSITE; PS51724; SPOR; 1.
+PE   3: Inferred from homology;
+KW   Carboxypeptidase {ECO:0000313|EMBL:CDM58043.1};
+KW   Cell shape {ECO:0000256|ARBA:ARBA00022960};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:CDM58043.1};
+KW   Peptidoglycan synthesis {ECO:0000256|ARBA:ARBA00022984};
+KW   Protease {ECO:0000313|EMBL:CDM58043.1};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729}.
+FT   DOMAIN          412..492
+FT                   /note="SPOR"
+FT                   /evidence="ECO:0000259|PROSITE:PS51724"
+FT   REGION          296..346
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          367..402
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        83
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR618044-1"
+FT   ACT_SITE        86
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR618044-1"
+FT   ACT_SITE        143
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR618044-1"
+FT   BINDING         245
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR618044-2"
+SQ   SEQUENCE   492 AA;  51620 MW;  04CE772A0A12AEB8 CRC64;
+     MSEMQAKSRI VSRSVSSVFS SLSRSSLVKA IAALSLAVGI VMVDSVNADA EAANSKYAGI
+     VVDTKTGNVL YSENADRLQY PASLTKMMTL YLTFEALEQG RIRLDTSVPF SAHASAQAPT
+     KLGVRPGGTI TVEQAVLGLV TLSANDASTA LGELLAGTED RFAQVMTAKA HALGMTRTTY
+     RNANGLPNTA QMTTARDQAR LGIALRQHFP QYYGYFSTQS FKFGNRVIRS HNRLVGSVRG
+     VDGIKTGYTR AAGFNLVSSV QVDGKSIVGV VLGGASTPAR DNQMRKLIAA YLPKASSRGG
+     SSDLIAQTAP RPAAPVAETR VASAAPEVSP PRPAPTPDTR YQPASAQVAY ADVAKSTSDN
+     PLLQQEIPAP TKVKTPAVKQ ASVATPTPAP AYMPPEQGDT SVDELTTAST KEPQQTGWAV
+     QIGVSGSKEG AMDLLDNAKN KAGKALRSAK PLAVANAGSY RARFGGFDDQ RAAVNACNAL
+     KRAGVKCWAT AQ
+//

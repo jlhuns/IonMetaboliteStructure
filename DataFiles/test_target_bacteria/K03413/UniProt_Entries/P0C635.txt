@@ -1,0 +1,103 @@
+ID   CHEY_CAMJE              Reviewed;         130 AA.
+AC   P0C635; P71129; Q0P9D6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 81.
+DE   RecName: Full=Chemotaxis protein CheY homolog;
+GN   Name=cheY; OrderedLocusNames=Cj1118c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Involved in the transmission of sensory signals from the
+CC       chemoreceptors to the flagellar motors. CheY seems to regulate the
+CC       clockwise (CW) rotation (By similarity).
+CC       {ECO:0000250|UniProtKB:P0AE67}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P0AE67};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:P0AE67};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35235.1; -; Genomic_DNA.
+DR   PIR; A81316; A81316.
+DR   RefSeq; WP_002866134.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344511.1; NC_002163.1.
+DR   AlphaFoldDB; P0C635; -.
+DR   SMR; P0C635; -.
+DR   IntAct; P0C635; 6.
+DR   STRING; 192222.Cj1118c; -.
+DR   PaxDb; 192222-Cj1118c; -.
+DR   EnsemblBacteria; CAL35235; CAL35235; Cj1118c.
+DR   GeneID; 905409; -.
+DR   KEGG; cje:Cj1118c; -.
+DR   PATRIC; fig|192222.6.peg.1100; -.
+DR   eggNOG; COG0745; Bacteria.
+DR   HOGENOM; CLU_000445_69_12_7; -.
+DR   OrthoDB; 9786548at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0097588; P:archaeal or bacterial-type flagellum-dependent cell motility; IEA:UniProtKB-KW.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   CDD; cd19923; REC_CheY_CheY3; 1.
+DR   Gene3D; 3.40.50.2300; -; 1.
+DR   InterPro; IPR050595; Bact_response_regulator.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   PANTHER; PTHR44591:SF14; PROTEIN PILG; 1.
+DR   PANTHER; PTHR44591; STRESS RESPONSE REGULATOR PROTEIN 1; 1.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; CheY-like; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Chemotaxis; Cytoplasm; Flagellar rotation; Magnesium; Metal-binding;
+KW   Phosphoprotein; Reference proteome; Two-component regulatory system.
+FT   CHAIN           1..130
+FT                   /note="Chemotaxis protein CheY homolog"
+FT                   /id="PRO_0000081049"
+FT   DOMAIN          2..120
+FT                   /note="Response regulatory"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+FT   BINDING         7
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A0H3AMJ9"
+FT   BINDING         8
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AE67"
+FT   BINDING         53
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AE67"
+FT   BINDING         55
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AE67"
+FT   MOD_RES         53
+FT                   /note="4-aspartylphosphate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+SQ   SEQUENCE   130 AA;  14437 MW;  41634D8ADE6C5081 CRC64;
+     MKLLVVDDSS TMRRIIKNTL TRLGHDDVLE AEHGVEAWDL LTKNEDVKVL ITDWNMPEMN
+     GLELVKKVRA EKKYEDMPII MVTTEGGKAE VITALKAGVN NYIVKPFTPQ VLKEKLEDVL
+     GTGSGEGAAE
+//

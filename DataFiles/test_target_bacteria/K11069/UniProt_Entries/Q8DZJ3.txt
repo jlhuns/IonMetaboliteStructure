@@ -1,0 +1,78 @@
+ID   Q8DZJ3_STRA5            Unreviewed;       357 AA.
+AC   Q8DZJ3;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   05-FEB-2025, entry version 93.
+DE   SubName: Full=Spermidine/putrescine ABC transporter, spermidine/putrescine-binding protein {ECO:0000313|EMBL:AAM99989.1};
+GN   Name=potD {ECO:0000313|EMBL:AAM99989.1};
+GN   OrderedLocusNames=SAG1108 {ECO:0000313|EMBL:AAM99989.1};
+OS   Streptococcus agalactiae serotype V (strain ATCC BAA-611 / 2603 V/R).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=208435 {ECO:0000313|EMBL:AAM99989.1, ECO:0000313|Proteomes:UP000000821};
+RN   [1] {ECO:0000313|EMBL:AAM99989.1, ECO:0000313|Proteomes:UP000000821}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-611 / 2603 V/R {ECO:0000313|Proteomes:UP000000821};
+RX   PubMed=12200547; DOI=10.1073/pnas.182380799;
+RA   Tettelin H., Masignani V., Cieslewicz M.J., Eisen J.A., Peterson S.,
+RA   Wessels M.R., Paulsen I.T., Nelson K.E., Margarit I., Read T.D.,
+RA   Madoff L.C., Wolf A.M., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S., Kolonay J.F., Umayam L.A., Madupu R., Lewis M.R.,
+RA   Radune D., Fedorova N.B., Scanlan D., Khouri H., Mulligan S., Carty H.A.,
+RA   Cline R.T., Gill J., Scarselli M., Mora M., Iacobini E.T., Brettoni C.,
+RA   Galli G., Mariani M., Vegni F., Maione D., Rinaudo D., Rappuoli R.,
+RA   Telford J.L., Kasper D.L., Grandi G., Fraser C.M.;
+RT   "Complete genome sequence and comparative genomic analysis of an emerging
+RT   human pathogen, serotype V Streptococcus agalactiae.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:12391-12396(2002).
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000256|ARBA:ARBA00004418}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009948; AAM99989.1; -; Genomic_DNA.
+DR   RefSeq; NP_688117.1; NC_004116.1.
+DR   RefSeq; WP_001255373.1; NC_004116.1.
+DR   AlphaFoldDB; Q8DZJ3; -.
+DR   STRING; 208435.SAG1108; -.
+DR   KEGG; sag:SAG1108; -.
+DR   PATRIC; fig|208435.3.peg.1116; -.
+DR   HOGENOM; CLU_026974_1_3_9; -.
+DR   OrthoDB; 9769319at2; -.
+DR   Proteomes; UP000000821; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019808; F:polyamine binding; IEA:InterPro.
+DR   GO; GO:0015846; P:polyamine transport; IEA:InterPro.
+DR   CDD; cd13663; PBP2_PotD_PotF_like_2; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   InterPro; IPR006059; SBP.
+DR   InterPro; IPR001188; Sperm_putr-bd.
+DR   PANTHER; PTHR30222; SPERMIDINE/PUTRESCINE-BINDING PERIPLASMIC PROTEIN; 1.
+DR   PANTHER; PTHR30222:SF17; SPERMIDINE_PUTRESCINE-BINDING PERIPLASMIC PROTEIN; 1.
+DR   Pfam; PF13416; SBP_bac_8; 1.
+DR   PIRSF; PIRSF019574; Periplasmic_polyamine_BP; 1.
+DR   PRINTS; PR00909; SPERMDNBNDNG.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+PE   4: Predicted;
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Periplasm {ECO:0000256|ARBA:ARBA00022764};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000821};
+KW   Signal {ECO:0000256|ARBA:ARBA00022729};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        7..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   BINDING         93
+FT                   /ligand="spermidine"
+FT                   /ligand_id="ChEBI:CHEBI:57834"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR019574-1"
+SQ   SEQUENCE   357 AA;  40666 MW;  8C3818BB971DAC35 CRC64;
+     MRRVYSFLGG IVLVILILFG LTTYLEKKSS STPNSDKLVI YNWGDYIDPA LLKKFTKETG
+     IEVQYETFDS NEAMHTKIKQ GGTTYDIAVP SDYMIDKMIK ENLLVKLDHS KIANWDAIGA
+     RFKNLSFDPK NKYSIPYFWG TVGIVYNDQL VKTPPKHWDD LWRPEFRNKI MLVDSAREVI
+     GVGLNSLGYG LNTKNISELK AASKKLDALT PNVKAIVADE MKGYMIQGDA AIGVTFSGEA
+     REMLDGNKHL HYVVPSEGSN LWFDNIVIPK TVKHRKEAYA FINFMMEPKN AAQNAEYIGY
+     ATPNLKAKAL LPADIKNDKA FYPPDKTIDH LEVYNNLGQK WLGIYNDLYL QFKMYRK
+//

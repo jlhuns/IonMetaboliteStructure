@@ -1,0 +1,89 @@
+ID   HIS1_CLOB1              Reviewed;         212 AA.
+AC   A7FU76;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   05-FEB-2025, entry version 87.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   OrderedLocusNames=CLB_1586;
+OS   Clostridium botulinum (strain ATCC 19397 / Type A).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=441770;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19397 / Type A;
+RX   PubMed=18060065; DOI=10.1371/journal.pone.0001271;
+RA   Smith T.J., Hill K.K., Foley B.T., Detter J.C., Munk A.C., Bruce D.C.,
+RA   Doggett N.A., Smith L.A., Marks J.D., Xie G., Brettin T.S.;
+RT   "Analysis of the neurotoxin complex genes in Clostridium botulinum A1-A4
+RT   and B1 strains: BoNT/A3, /Ba4 and /B1 clusters are located within
+RT   plasmids.";
+RL   PLoS ONE 2:E1271-E1271(2007).
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01018};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBUNIT: Heteromultimer composed of HisG and HisZ subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- DOMAIN: Lacks the C-terminal regulatory region which is replaced by
+CC       HisZ.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Short
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000726; ABS34056.1; -; Genomic_DNA.
+DR   RefSeq; WP_003358779.1; NC_009697.1.
+DR   AlphaFoldDB; A7FU76; -.
+DR   SMR; A7FU76; -.
+DR   GeneID; 5185821; -.
+DR   KEGG; cba:CLB_1586; -.
+DR   HOGENOM; CLU_038115_2_0_9; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:L-histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13595; PBP2_HisGs; 1.
+DR   FunFam; 3.40.190.10:FF:000008; ATP phosphoribosyltransferase; 1.
+DR   FunFam; 3.40.190.10:FF:000011; ATP phosphoribosyltransferase; 1.
+DR   Gene3D; 3.40.190.10; Periplasmic binding protein-like II; 2.
+DR   HAMAP; MF_01018; HisG_Short; 1.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR024893; ATP_PRibTrfase_HisG_short.
+DR   NCBIfam; TIGR00070; hisG; 1.
+DR   PANTHER; PTHR21403:SF8; ATP PHOSPHORIBOSYLTRANSFERASE; 1.
+DR   PANTHER; PTHR21403; ATP PHOSPHORIBOSYLTRANSFERASE ATP-PRTASE; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Nucleotide-binding; Transferase.
+FT   CHAIN           1..212
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_0000319515"
+SQ   SEQUENCE   212 AA;  24011 MW;  D0D38CF1542E3C98 CRC64;
+     MKNVKIALTK GRLEKKAIEI FKTININTRE LEDKGRKLIF NCENEEYNIE LFLVKAKDVE
+     TYVEYGAADI GIVGKDTLME TNKEFYEVLD LNVGKCKFAL AALPSFKLDQ GYNRKKIATK
+     YPNIAREYFR KKGMDVELIK IEGSVELGPI VGLADAIVDI VETGNTLREN GLVVVEDICE
+     ISARMIVNKA SMKTKKDEII KIIENVSEVI RQ
+//

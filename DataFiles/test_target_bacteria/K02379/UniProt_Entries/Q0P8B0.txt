@@ -1,0 +1,86 @@
+ID   Q0P8B0_CAMJE            Unreviewed;       260 AA.
+AC   Q0P8B0;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   27-MAR-2024, entry version 111.
+DE   RecName: Full=Sulfur carrier protein FdhD {ECO:0000256|HAMAP-Rule:MF_00187};
+GN   Name=fdhD {ECO:0000256|HAMAP-Rule:MF_00187,
+GN   ECO:0000313|EMBL:CAL35614.1};
+GN   OrderedLocusNames=Cj1508c {ECO:0000313|EMBL:CAL35614.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL35614.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL35614.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Required for formate dehydrogenase (FDH) activity. Acts as a
+CC       sulfur carrier protein that transfers sulfur from IscS to the
+CC       molybdenum cofactor prior to its insertion into FDH.
+CC       {ECO:0000256|HAMAP-Rule:MF_00187}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00187}.
+CC   -!- SIMILARITY: Belongs to the FdhD family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00187}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35614.1; -; Genomic_DNA.
+DR   PIR; H81297; H81297.
+DR   RefSeq; WP_002851178.1; NZ_SZUC01000003.1.
+DR   RefSeq; YP_002344887.1; NC_002163.1.
+DR   AlphaFoldDB; Q0P8B0; -.
+DR   IntAct; Q0P8B0; 12.
+DR   STRING; 192222.Cj1508c; -.
+DR   PaxDb; 192222-Cj1508c; -.
+DR   EnsemblBacteria; CAL35614; CAL35614; Cj1508c.
+DR   GeneID; 905799; -.
+DR   KEGG; cje:Cj1508c; -.
+DR   PATRIC; fig|192222.6.peg.1487; -.
+DR   eggNOG; COG1526; Bacteria.
+DR   HOGENOM; CLU_056887_4_1_7; -.
+DR   OrthoDB; 3197277at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0097163; F:sulfur carrier activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:InterPro.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.10.20.10; -; 1.
+DR   Gene3D; 3.40.140.10; Cytidine Deaminase, domain 2; 1.
+DR   HAMAP; MF_00187; FdhD; 1.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR003786; FdhD.
+DR   NCBIfam; TIGR00129; fdhD_narQ; 1.
+DR   PANTHER; PTHR30592; FORMATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR30592:SF1; SULFUR CARRIER PROTEIN FDHD; 1.
+DR   Pfam; PF02634; FdhD-NarQ; 1.
+DR   PIRSF; PIRSF015626; FdhD; 1.
+DR   SUPFAM; SSF53927; Cytidine deaminase-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00187};
+KW   Molybdenum cofactor biosynthesis {ECO:0000256|ARBA:ARBA00023150,
+KW   ECO:0000256|HAMAP-Rule:MF_00187};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   ACT_SITE        105
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00187"
+FT   BINDING         243..248
+FT                   /ligand="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /ligand_id="ChEBI:CHEBI:60539"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00187"
+SQ   SEQUENCE   260 AA;  28614 MW;  42EF2FEB615332BD CRC64;
+     MDPLFTTQIL KYKGDESFTC NDTLVREIKL EIFINDEKVG ALMATPVDEQ ALAIGYLMSE
+     NIIAKVSDIE SIETKDDGMS VHIKAKIDKE NLAKLNAEGV VISGCGRAHT ANIDPEAIEA
+     SKISSDAKFS KDEILKQMST FYTQCELYEK TGCVHTAKLF VDEKTFFIGE DIAQHNTIDK
+     ALGKACLAGV DLSQCFLMVS GRLSSEMVAK AVMHKIPVLV SRTAPTCLGV MIARKFDLTL
+     CGFARENKIN IYSGEFRIHG
+//

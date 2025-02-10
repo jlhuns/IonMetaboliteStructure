@@ -1,0 +1,99 @@
+ID   Q650Q5_BACFR            Unreviewed;       559 AA.
+AC   Q650Q5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 103.
+DE   SubName: Full=Putative sulfate transporter permease {ECO:0000313|EMBL:BAD46769.1};
+GN   OrderedLocusNames=BF0020 {ECO:0000313|EMBL:BAD46769.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD46769.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD46769.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD46769.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000256|ARBA:ARBA00004141}; Multi-
+CC       pass membrane protein {ECO:0000256|ARBA:ARBA00004141}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD46769.1; -; Genomic_DNA.
+DR   RefSeq; WP_005797091.1; NC_006347.1.
+DR   RefSeq; YP_097303.1; NC_006347.1.
+DR   AlphaFoldDB; Q650Q5; -.
+DR   STRING; 295405.BF0020; -.
+DR   KEGG; bfr:BF0020; -.
+DR   PATRIC; fig|295405.11.peg.60; -.
+DR   HOGENOM; CLU_003182_13_1_10; -.
+DR   OrthoDB; 9771198at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008509; F:monoatomic anion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0098661; P:inorganic anion transmembrane transport; IEA:UniProtKB-UniRule.
+DR   CDD; cd07042; STAS_SulP_like_sulfate_transporter; 1.
+DR   Gene3D; 3.30.750.24; STAS domain; 1.
+DR   InterPro; IPR011547; SLC26A/SulP_dom.
+DR   InterPro; IPR001902; SLC26A/SulP_fam.
+DR   InterPro; IPR002645; STAS_dom.
+DR   InterPro; IPR036513; STAS_dom_sf.
+DR   NCBIfam; TIGR00815; sulP; 1.
+DR   PANTHER; PTHR11814; SULFATE TRANSPORTER; 1.
+DR   Pfam; PF01740; STAS; 1.
+DR   Pfam; PF00916; Sulfate_transp; 1.
+DR   SUPFAM; SSF52091; SpoIIaa-like; 1.
+DR   PROSITE; PS50801; STAS; 1.
+PE   4: Predicted;
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        26..46
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        58..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        96..115
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        127..146
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        176..193
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        205..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        328..346
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        351..368
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        388..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          452..554
+FT                   /note="STAS"
+FT                   /evidence="ECO:0000259|PROSITE:PS50801"
+SQ   SEQUENCE   559 AA;  60545 MW;  39302A259C14EB6A CRC64;
+     MKVLDFKPRL FSTLKNYSKE TFMSDLMAGI IVGIVALPLA IAFGIASGVS PEKGIITAII
+     AGFIISLLGG SKVQIGGPTG AFIVIIYGII QQYGEAGLIV ATLMAGILLI LLGVFKLGAI
+     IKFIPYPIIV GFTSGIAVTI FTTQIADIFG LNFGGEKVPG DFIGKWMIYF RHFDTVNWWN
+     AVVSILSIII IAITPRFSKK IPGSLIAIIV VTIGVYVLKT YAGINSIDTI GDRFTIKSEL
+     PEAAIPTLNW EAIKDLFPVA ITIAVLGAIE SLLSATVADG VTGDKHDSNT ELIAQGTANL
+     ITPLFGGIPA TGAIARTMTN INNGGKTPVA GIIHAIVLLL ILLFLMPLAQ YIPMACLAGV
+     LVIVSYNMSE WRTFKALLKN PKSDVTVLLI TFFLTIIFDL TIAIEVGLVI ACILFMRRVM
+     ETTEISVIKD EIDPNDELDI AVCEEHLIIP AGVEVYEING PYFFGIATKF EETMAQLGDR
+     PKVRIIRMRK VPFIDSTGIH NLTSLCKMSQ KEKITIVLSG VNEKVHKTLE KSGFYELLGK
+     QNICPNINVA LDRAKEIIN
+//

@@ -1,0 +1,126 @@
+ID   Q6NCQ8_RHOPA            Unreviewed;       178 AA.
+AC   Q6NCQ8;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 102.
+DE   RecName: Full=Inorganic pyrophosphatase {ECO:0000256|HAMAP-Rule:MF_00209};
+DE            EC=3.6.1.1 {ECO:0000256|HAMAP-Rule:MF_00209};
+DE   AltName: Full=Pyrophosphate phospho-hydrolase {ECO:0000256|HAMAP-Rule:MF_00209};
+DE            Short=PPase {ECO:0000256|HAMAP-Rule:MF_00209};
+GN   Name=ppa {ECO:0000256|HAMAP-Rule:MF_00209,
+GN   ECO:0000313|EMBL:CAE25855.1};
+GN   OrderedLocusNames=RPA0411 {ECO:0000313|EMBL:CAE25855.1};
+GN   ORFNames=TX73_002135 {ECO:0000313|EMBL:WCL90542.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE25855.1};
+RN   [1] {ECO:0000313|EMBL:WCL90542.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90542.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE25855.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE25855.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL90542.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL90542.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolysis of inorganic pyrophosphate (PPi)
+CC       forming two phosphate ions. {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + H2O = 2 phosphate + H(+); Xref=Rhea:RHEA:24576,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474; EC=3.6.1.1; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00209};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946, ECO:0000256|HAMAP-
+CC         Rule:MF_00209};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00209}.
+CC   -!- SIMILARITY: Belongs to the PPase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00209}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572594; CAE25855.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL90542.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155979.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA0411; -.
+DR   GeneID; 66891425; -.
+DR   KEGG; rpa:TX73_002135; -.
+DR   eggNOG; COG0221; Bacteria.
+DR   HOGENOM; CLU_073198_1_0_5; -.
+DR   PhylomeDB; Q6NCQ8; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004427; F:inorganic diphosphate phosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006796; P:phosphate-containing compound metabolic process; IEA:InterPro.
+DR   CDD; cd00412; pyrophosphatase; 1.
+DR   Gene3D; 3.90.80.10; Inorganic pyrophosphatase; 1.
+DR   HAMAP; MF_00209; Inorganic_PPase; 1.
+DR   InterPro; IPR008162; Pyrophosphatase.
+DR   InterPro; IPR036649; Pyrophosphatase_sf.
+DR   PANTHER; PTHR10286; INORGANIC PYROPHOSPHATASE; 1.
+DR   Pfam; PF00719; Pyrophosphatase; 1.
+DR   SUPFAM; SSF50324; Inorganic pyrophosphatase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00209};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00209}; Reference proteome {ECO:0000313|Proteomes:UP000001426}.
+FT   BINDING         30
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         44
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         56
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         66
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         71
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         71
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         103
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+FT   BINDING         142
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00209"
+SQ   SEQUENCE   178 AA;  19752 MW;  4047466D92E6D6FC CRC64;
+     MRIDAIPVGV NPPYDVNVII EVPVGGEPIK YEMDKAAGTL VVDRFLYTAM HYPGNYGFIP
+     HTLSDDGDPC DVLVANTRGI VPGAVMSVRP VGVLYMSDEA GHDEKIIAVP SSKLTQRYDR
+     IKTYSDLPEI TLAQFQHFFE HYKDLEPGKW VKVVRWGGAD EAHKLILEGL DRAKKAKG
+//

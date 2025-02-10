@@ -1,0 +1,127 @@
+ID   Q819W0_BACCR            Unreviewed;       329 AA.
+AC   Q819W0;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 136.
+DE   RecName: Full=Signal recognition particle receptor FtsY {ECO:0000256|HAMAP-Rule:MF_00920};
+DE            Short=SRP receptor {ECO:0000256|HAMAP-Rule:MF_00920};
+DE            EC=3.6.5.4 {ECO:0000256|HAMAP-Rule:MF_00920};
+GN   Name=ftsY {ECO:0000256|HAMAP-Rule:MF_00920};
+GN   OrderedLocusNames=BC_3845 {ECO:0000313|EMBL:AAP10767.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP10767.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP10767.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Involved in targeting and insertion of nascent membrane
+CC       proteins into the cytoplasmic membrane. Acts as a receptor for the
+CC       complex formed by the signal recognition particle (SRP) and the
+CC       ribosome-nascent chain (RNC). {ECO:0000256|HAMAP-Rule:MF_00920}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + phosphate + H(+); Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189; EC=3.6.5.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048027, ECO:0000256|HAMAP-
+CC         Rule:MF_00920};
+CC   -!- SUBUNIT: Part of the signal recognition particle protein translocation
+CC       system, which is composed of SRP and FtsY. {ECO:0000256|HAMAP-
+CC       Rule:MF_00920}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_00920};
+CC       Peripheral membrane protein {ECO:0000256|HAMAP-Rule:MF_00920};
+CC       Cytoplasmic side {ECO:0000256|HAMAP-Rule:MF_00920}. Cytoplasm
+CC       {ECO:0000256|HAMAP-Rule:MF_00920}.
+CC   -!- SIMILARITY: Belongs to the GTP-binding SRP family. FtsY subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_00920}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10767.1; -; Genomic_DNA.
+DR   RefSeq; NP_833566.1; NC_004722.1.
+DR   RefSeq; WP_000007656.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q819W0; -.
+DR   KEGG; bce:BC3845; -.
+DR   PATRIC; fig|226900.8.peg.3964; -.
+DR   HOGENOM; CLU_009301_3_4_9; -.
+DR   OrthoDB; 9804720at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IBA:GO_Central.
+DR   GO; GO:0005047; F:signal recognition particle binding; IBA:GO_Central.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006605; P:protein targeting; IBA:GO_Central.
+DR   GO; GO:0006614; P:SRP-dependent cotranslational protein targeting to membrane; IEA:InterPro.
+DR   CDD; cd17874; FtsY; 1.
+DR   FunFam; 1.20.120.140:FF:000002; Signal recognition particle receptor FtsY; 1.
+DR   FunFam; 3.40.50.300:FF:000053; Signal recognition particle receptor FtsY; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.20.120.140; Signal recognition particle SRP54, nucleotide-binding domain; 1.
+DR   HAMAP; MF_00920; FtsY; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR013822; Signal_recog_particl_SRP54_hlx.
+DR   InterPro; IPR004390; SR_rcpt_FtsY.
+DR   InterPro; IPR036225; SRP/SRP_N.
+DR   InterPro; IPR000897; SRP54_GTPase_dom.
+DR   InterPro; IPR042101; SRP54_N_sf.
+DR   NCBIfam; TIGR00064; ftsY; 1.
+DR   PANTHER; PTHR43134; SIGNAL RECOGNITION PARTICLE RECEPTOR SUBUNIT ALPHA; 1.
+DR   PANTHER; PTHR43134:SF1; SIGNAL RECOGNITION PARTICLE RECEPTOR SUBUNIT ALPHA; 1.
+DR   Pfam; PF00448; SRP54; 1.
+DR   Pfam; PF02881; SRP54_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00962; SRP54; 1.
+DR   SMART; SM00963; SRP54_N; 1.
+DR   SUPFAM; SSF47364; Domain of the SRP/SRP receptor G-proteins; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00300; SRP54; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000313|EMBL:AAP10767.1};
+KW   Cell division {ECO:0000313|EMBL:AAP10767.1};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_00920}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00920};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_00920}; Hydrolase {ECO:0000256|HAMAP-Rule:MF_00920};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_00920};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00920};
+KW   Receptor {ECO:0000256|ARBA:ARBA00023170, ECO:0000256|HAMAP-Rule:MF_00920};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417}.
+FT   DOMAIN          294..307
+FT                   /note="SRP54-type proteins GTP-binding"
+FT                   /evidence="ECO:0000259|PROSITE:PS00300"
+FT   BINDING         127..134
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00920"
+FT   BINDING         209..213
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00920"
+FT   BINDING         273..276
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00920"
+SQ   SEQUENCE   329 AA;  36465 MW;  7D183C026C2E0792 CRC64;
+     MSFFKKLKEK ISKQTDTVTE KFKQGLEKTR NSFADKVNDL VYRYRKVDED FFEELEEILI
+     GADVGVATVM ELIDQLKEEV QRRNIQDPKE VQAVISEKLV GIYKGDSDFS NEINMQEDQL
+     TVVLFVGVNG VGKTTTIGKL AHKFKSEGKS VLLAAGDTFR AGAIEQLEVW GDRVGVEVIK
+     QGSGSDPAAV MYDAVQAAKA RKVDVLLCDT AGRLQNKVNL MKELEKVKRV IEREVPGAPH
+     EVLLVIDATT GQNGLSQAKT FRETTNVTGI VLTKLDGTAK GGIVLAIRNE MDVPVKFVGL
+     GEQMDDLQQF DPEQYVYGLF ANLVETEEV
+//

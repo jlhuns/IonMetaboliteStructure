@@ -1,0 +1,104 @@
+ID   THIG_PARDP              Reviewed;         254 AA.
+AC   A1AY12;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 95.
+DE   RecName: Full=Thiazole synthase {ECO:0000255|HAMAP-Rule:MF_00443};
+DE            EC=2.8.1.10 {ECO:0000255|HAMAP-Rule:MF_00443};
+GN   Name=thiG {ECO:0000255|HAMAP-Rule:MF_00443};
+GN   OrderedLocusNames=Pden_0039;
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 1 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the rearrangement of 1-deoxy-D-xylulose 5-phosphate
+CC       (DXP) to produce the thiazole phosphate moiety of thiamine. Sulfur is
+CC       provided by the thiocarboxylate moiety of the carrier protein ThiS. In
+CC       vitro, sulfur can be provided by H(2)S. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[ThiS sulfur-carrier protein]-C-terminal-Gly-
+CC         aminoethanethioate + 2-iminoacetate + 1-deoxy-D-xylulose 5-phosphate
+CC         = [ThiS sulfur-carrier protein]-C-terminal Gly-Gly + 2-[(2R,5Z)-2-
+CC         carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + 2 H2O + H(+);
+CC         Xref=Rhea:RHEA:26297, Rhea:RHEA-COMP:12909, Rhea:RHEA-COMP:19908,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:62899, ChEBI:CHEBI:77846, ChEBI:CHEBI:90778,
+CC         ChEBI:CHEBI:232372; EC=2.8.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00443};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBUNIT: Homotetramer. Forms heterodimers with either ThiH or ThiS.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SIMILARITY: Belongs to the ThiG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000489; ABL68156.1; -; Genomic_DNA.
+DR   RefSeq; WP_011746389.1; NC_008686.1.
+DR   AlphaFoldDB; A1AY12; -.
+DR   SMR; A1AY12; -.
+DR   STRING; 318586.Pden_0039; -.
+DR   EnsemblBacteria; ABL68156; ABL68156; Pden_0039.
+DR   GeneID; 93451270; -.
+DR   KEGG; pde:Pden_0039; -.
+DR   eggNOG; COG2022; Bacteria.
+DR   HOGENOM; CLU_062233_1_0_5; -.
+DR   OrthoDB; 9805935at2; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000000361; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:1990107; F:thiazole synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04728; ThiG; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00443; ThiG; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR033983; Thiazole_synthase_ThiG.
+DR   InterPro; IPR008867; ThiG.
+DR   PANTHER; PTHR34266; THIAZOLE SYNTHASE; 1.
+DR   PANTHER; PTHR34266:SF2; THIAZOLE SYNTHASE; 1.
+DR   Pfam; PF05690; ThiG; 1.
+DR   SUPFAM; SSF110399; ThiG-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Reference proteome; Schiff base; Thiamine biosynthesis;
+KW   Transferase.
+FT   CHAIN           1..254
+FT                   /note="Thiazole synthase"
+FT                   /id="PRO_1000196879"
+FT   ACT_SITE        93
+FT                   /note="Schiff-base intermediate with DXP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         154
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         181..182
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         203..204
+FT                   /ligand="1-deoxy-D-xylulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57792"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+SQ   SEQUENCE   254 AA;  26792 MW;  A675641EFA466FB4 CRC64;
+     MPVFYGTRVE SPLMLGTAQY PSPAIMAEAF RASRAGIATV SLRREGGAGQ DFHRLIKDLG
+     IPVLPNTAGC HSVREAVTTA QMARELFETP WLKLEVIRDD DTLCPDVIAL VEAARVLSDD
+     GFQVFPYCTE DLSVCGRLLD AGCQVLMPWG APIGSGRGLN NPYGLRSLRA HFPDVPLVVD
+     AGIGLPSHAA QAMELGYDAV LLNTAVAKAG DPVAMARAMA LAIEAGQLAH GANPIEARDM
+     AAPSTPLFGM AVLG
+//

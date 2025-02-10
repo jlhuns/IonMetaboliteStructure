@@ -1,0 +1,277 @@
+ID   PURA_CAMJE              Reviewed;         416 AA.
+AC   Q9PMG4; Q0P8B9;
+DT   27-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=Adenylosuccinate synthetase {ECO:0000255|HAMAP-Rule:MF_00011};
+DE            Short=AMPSase {ECO:0000255|HAMAP-Rule:MF_00011};
+DE            Short=AdSS {ECO:0000255|HAMAP-Rule:MF_00011};
+DE            EC=6.3.4.4 {ECO:0000255|HAMAP-Rule:MF_00011};
+DE   AltName: Full=IMP--aspartate ligase {ECO:0000255|HAMAP-Rule:MF_00011};
+GN   Name=purA {ECO:0000255|HAMAP-Rule:MF_00011};
+GN   OrderedLocusNames=Cj1498c;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Plays an important role in the de novo pathway of purine
+CC       nucleotide biosynthesis. Catalyzes the first committed step in the
+CC       biosynthesis of AMP from IMP. {ECO:0000255|HAMAP-Rule:MF_00011}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + L-aspartate + GTP = N(6)-(1,2-dicarboxyethyl)-AMP + GDP
+CC         + phosphate + 2 H(+); Xref=Rhea:RHEA:15753, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:37565, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57567, ChEBI:CHEBI:58053, ChEBI:CHEBI:58189; EC=6.3.4.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00011};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00011};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00011};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via de novo pathway; AMP
+CC       from IMP: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00011}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00011}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00011}.
+CC   -!- SIMILARITY: Belongs to the adenylosuccinate synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00011}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35605.1; -; Genomic_DNA.
+DR   PIR; G81296; G81296.
+DR   RefSeq; WP_002851458.1; NZ_SZUC01000003.1.
+DR   RefSeq; YP_002344878.1; NC_002163.1.
+DR   PDB; 3R7T; X-ray; 2.30 A; A=1-416.
+DR   PDBsum; 3R7T; -.
+DR   AlphaFoldDB; Q9PMG4; -.
+DR   SMR; Q9PMG4; -.
+DR   STRING; 192222.Cj1498c; -.
+DR   PaxDb; 192222-Cj1498c; -.
+DR   EnsemblBacteria; CAL35605; CAL35605; Cj1498c.
+DR   GeneID; 905786; -.
+DR   KEGG; cje:Cj1498c; -.
+DR   PATRIC; fig|192222.6.peg.1478; -.
+DR   eggNOG; COG0104; Bacteria.
+DR   HOGENOM; CLU_029848_0_0_7; -.
+DR   OrthoDB; 9807553at2; -.
+DR   UniPathway; UPA00075; UER00335.
+DR   EvolutionaryTrace; Q9PMG4; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004019; F:adenylosuccinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044208; P:'de novo' AMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046040; P:IMP metabolic process; IEA:TreeGrafter.
+DR   CDD; cd03108; AdSS; 1.
+DR   FunFam; 1.10.300.10:FF:000001; Adenylosuccinate synthetase; 1.
+DR   FunFam; 3.90.170.10:FF:000001; Adenylosuccinate synthetase; 1.
+DR   Gene3D; 3.40.440.10; Adenylosuccinate Synthetase, subunit A, domain 1; 1.
+DR   Gene3D; 1.10.300.10; Adenylosuccinate Synthetase, subunit A, domain 2; 1.
+DR   Gene3D; 3.90.170.10; Adenylosuccinate Synthetase, subunit A, domain 3; 1.
+DR   HAMAP; MF_00011; Adenylosucc_synth; 1.
+DR   InterPro; IPR018220; Adenylosuccin_syn_GTP-bd.
+DR   InterPro; IPR033128; Adenylosuccin_syn_Lys_AS.
+DR   InterPro; IPR042109; Adenylosuccinate_synth_dom1.
+DR   InterPro; IPR042110; Adenylosuccinate_synth_dom2.
+DR   InterPro; IPR042111; Adenylosuccinate_synth_dom3.
+DR   InterPro; IPR001114; Adenylosuccinate_synthetase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00184; purA; 1.
+DR   PANTHER; PTHR11846; ADENYLOSUCCINATE SYNTHETASE; 1.
+DR   PANTHER; PTHR11846:SF0; ADENYLOSUCCINATE SYNTHETASE; 1.
+DR   Pfam; PF00709; Adenylsucc_synt; 1.
+DR   SMART; SM00788; Adenylsucc_synt; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS01266; ADENYLOSUCCIN_SYN_1; 1.
+DR   PROSITE; PS00513; ADENYLOSUCCIN_SYN_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; GTP-binding; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Purine biosynthesis; Reference proteome.
+FT   CHAIN           1..416
+FT                   /note="Adenylosuccinate synthetase"
+FT                   /id="PRO_0000095160"
+FT   ACT_SITE        14
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   ACT_SITE        42
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         13..19
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         14..17
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         14
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         39..42
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         41..43
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         41
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         126
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         140
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         220
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         235
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         295..301
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         299
+FT                   /ligand="IMP"
+FT                   /ligand_id="ChEBI:CHEBI:58053"
+FT                   /ligand_note="ligand shared between dimeric partners"
+FT                   /note="in other chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         301
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         327..329
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   BINDING         405..407
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00011"
+FT   STRAND          4..9
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          11..13
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           17..25
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          29..33
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          40..46
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          49..56
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           58..61
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          66..69
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           77..84
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   TURN            91..93
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          94..97
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          100..102
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           105..117
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           130..138
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           145..149
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           151..164
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           166..171
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           179..193
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           194..196
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           200..209
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          214..217
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           222..224
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   TURN            226..228
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           241..247
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           252..254
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          255..272
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           281..289
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   TURN            295..297
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          302..304
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           308..318
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          321..326
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           328..331
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          335..345
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          348..352
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           357..359
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          360..368
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           379..381
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   HELIX           384..397
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          401..405
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          407..409
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+FT   STRAND          413..415
+FT                   /evidence="ECO:0007829|PDB:3R7T"
+SQ   SEQUENCE   416 AA;  46124 MW;  8EA47E95AD1E919B CRC64;
+     MSKADIIVGI QWGDEGKGKV VDKLCENYDF VCRSAGGHNA GHTIWVNGVR YALHLMPSGV
+     LHPRCINIIG NGVVVSPEVL IAEMAQFENL KGRLYISDRA HLNLKHHSLI DIAKEKLKGK
+     NAIGTTGKGI GPSYADKINR TGHRVGELLE PQRLCEALIK DFEANKTFFE MLEIEIPSAE
+     ELLADLKRFN EILTPYITDT TRMLWKALDE DKRVLLEGAQ GSMLDIDHGT YPYVTSSSTI
+     SAGTLTGLGL NPKEAGNIIG IVKAYATRVG NGAFPTEDKG EDGEKIAQIG KEIGVSTGRK
+     RRCGWFDAVA VRYTARLNGL DALSLMKLDV LDGFEKIKIC RAYEYKGMEI DYIPSDLENV
+     QPIYEEMDGW DKVFGIKDYD LLPENAKKYI ARLEELAGVK VKYISTSPER DDTIIL
+//

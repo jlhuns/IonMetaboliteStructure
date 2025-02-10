@@ -1,0 +1,197 @@
+ID   Q816U2_BACCR            Unreviewed;       337 AA.
+AC   Q816U2;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 149.
+DE   RecName: Full=GTP 3',8-cyclase {ECO:0000256|ARBA:ARBA00012167, ECO:0000256|HAMAP-Rule:MF_01225};
+DE            EC=4.1.99.22 {ECO:0000256|ARBA:ARBA00012167, ECO:0000256|HAMAP-Rule:MF_01225};
+DE   AltName: Full=Molybdenum cofactor biosynthesis protein A {ECO:0000256|HAMAP-Rule:MF_01225};
+GN   Name=moaA {ECO:0000256|HAMAP-Rule:MF_01225};
+GN   OrderedLocusNames=BC_4724 {ECO:0000313|EMBL:AAP11629.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11629.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11629.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the cyclization of GTP to (8S)-3',8-cyclo-7,8-
+CC       dihydroguanosine 5'-triphosphate. {ECO:0000256|HAMAP-Rule:MF_01225}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + AH2 + S-adenosyl-L-methionine = (8S)-3',8-cyclo-7,8-
+CC         dihydroguanosine 5'-triphosphate + 5'-deoxyadenosine + L-methionine +
+CC         A + H(+); Xref=Rhea:RHEA:49576, ChEBI:CHEBI:13193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:17499, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:59789, ChEBI:CHEBI:131766;
+CC         EC=4.1.99.22; Evidence={ECO:0000256|ARBA:ARBA00048697,
+CC         ECO:0000256|HAMAP-Rule:MF_01225};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01225};
+CC       Note=Binds 2 [4Fe-4S] clusters. Binds 1 [4Fe-4S] cluster coordinated
+CC       with 3 cysteines and an exchangeable S-adenosyl-L-methionine and 1
+CC       [4Fe-4S] cluster coordinated with 3 cysteines and the GTP-derived
+CC       substrate. {ECO:0000256|HAMAP-Rule:MF_01225};
+CC   -!- PATHWAY: Cofactor biosynthesis; molybdopterin biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_01225}.
+CC   -!- SUBUNIT: Monomer and homodimer. {ECO:0000256|HAMAP-Rule:MF_01225}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. MoaA family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01225}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11629.1; -; Genomic_DNA.
+DR   RefSeq; NP_834428.1; NC_004722.1.
+DR   RefSeq; WP_001157119.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q816U2; -.
+DR   KEGG; bce:BC4724; -.
+DR   PATRIC; fig|226900.8.peg.4886; -.
+DR   HOGENOM; CLU_009273_0_1_9; -.
+DR   OrthoDB; 9763993at2; -.
+DR   UniPathway; UPA00344; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061799; F:cyclic pyranopterin monophosphate synthase activity; IBA:GO_Central.
+DR   GO; GO:0061798; F:GTP 3',8'-cyclase activity; IBA:GO_Central.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:1904047; F:S-adenosyl-L-methionine binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IBA:GO_Central.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   CDD; cd21117; Twitch_MoaA; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01225_B; MoaA_B; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR013483; MoaA.
+DR   InterPro; IPR000385; MoaA_NifB_PqqE_Fe-S-bd_CS.
+DR   InterPro; IPR010505; MoaA_twitch.
+DR   InterPro; IPR050105; MoCo_biosynth_MoaA/MoaC.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR02666; moaA; 1.
+DR   PANTHER; PTHR22960:SF0; MOLYBDENUM COFACTOR BIOSYNTHESIS PROTEIN 1; 1.
+DR   PANTHER; PTHR22960; MOLYBDOPTERIN COFACTOR SYNTHESIS PROTEIN A; 1.
+DR   Pfam; PF06463; Mob_synth_C; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   SFLD; SFLDG01383; cyclic_pyranopterin_phosphate; 1.
+DR   SFLD; SFLDG01386; main_SPASM_domain-containing; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS01305; MOAA_NIFB_PQQE; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_01225};
+KW   GTP-binding {ECO:0000256|ARBA:ARBA00023134, ECO:0000256|HAMAP-
+KW   Rule:MF_01225};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_01225};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_01225};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_01225};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_01225};
+KW   Molybdenum cofactor biosynthesis {ECO:0000256|ARBA:ARBA00023150,
+KW   ECO:0000256|HAMAP-Rule:MF_01225};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_01225}; Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691, ECO:0000256|HAMAP-
+KW   Rule:MF_01225}.
+FT   DOMAIN          8..227
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000259|PROSITE:PS51918"
+FT   REGION          315..337
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        315..330
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         17
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         24
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         28
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         30
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         31
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         71
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         75
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         102
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         126
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         163
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         197
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         261
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         264
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         266..268
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+FT   BINDING         278
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /ligand_note="4Fe-4S-substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01225"
+SQ   SEQUENCE   337 AA;  38326 MW;  A8BA343DE8B4B4B7 CRC64;
+     MQEMVKDFFG RPLQDLRISV IDRCNFRCTY CMPAEIFGSD YAFLKDEFLL TFDEIERLAK
+     LFVNIGVRKI RITGGEPLLR KDLTKLIARL VKIDGLIDIG LTTNAVHLTK QAKALKEAGL
+     HRVNVSLDAI DDDIFKNING RNINTKPVIK GIIAAKEAGL EVKVNMVVKK GMNDHQVLPM
+     AAYFKEQGIT LRFIEFMDVG STNGWNFDQV VTKRELIEMI HKMDPLEPAE AHYFGEVAKR
+     YRYVGTNVEV GFITSVSESF CVSCTRARIS ADGKFYTCLF ATEGLDVREL LRGNLSDEEL
+     LSVIQDVWMN RKDRYSDERT EESAKNRPKI EMSYIGG
+//

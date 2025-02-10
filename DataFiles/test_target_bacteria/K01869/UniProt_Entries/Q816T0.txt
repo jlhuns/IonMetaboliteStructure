@@ -1,0 +1,119 @@
+ID   SYL_BACCR               Reviewed;         802 AA.
+AC   Q816T0;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 127.
+DE   RecName: Full=Leucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            EC=6.1.1.4 {ECO:0000255|HAMAP-Rule:MF_00049};
+DE   AltName: Full=Leucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            Short=LeuRS {ECO:0000255|HAMAP-Rule:MF_00049};
+GN   Name=leuS {ECO:0000255|HAMAP-Rule:MF_00049};
+GN   OrderedLocusNames=BC_4737;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=tRNA(Leu) + L-leucine + ATP = L-leucyl-tRNA(Leu) + AMP +
+CC         diphosphate; Xref=Rhea:RHEA:11688, Rhea:RHEA-COMP:9613, Rhea:RHEA-
+CC         COMP:9622, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57427,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78494, ChEBI:CHEBI:456215; EC=6.1.1.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00049};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11642.1; -; Genomic_DNA.
+DR   RefSeq; NP_834441.1; NC_004722.1.
+DR   RefSeq; WP_000009461.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q816T0; -.
+DR   SMR; Q816T0; -.
+DR   STRING; 226900.BC_4737; -.
+DR   KEGG; bce:BC4737; -.
+DR   PATRIC; fig|226900.8.peg.4899; -.
+DR   HOGENOM; CLU_004427_0_0_9; -.
+DR   OrthoDB; 9810365at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004823; F:leucine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0006429; P:leucyl-tRNA aminoacylation; IBA:GO_Central.
+DR   CDD; cd07958; Anticodon_Ia_Leu_BEm; 1.
+DR   CDD; cd00812; LeuRS_core; 1.
+DR   FunFam; 1.10.730.10:FF:000012; Leucine--tRNA ligase; 1.
+DR   FunFam; 1.10.730.10:FF:000018; Leucine--tRNA ligase; 1.
+DR   FunFam; 3.10.20.590:FF:000001; Leucine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000056; Leucine--tRNA ligase; 1.
+DR   FunFam; 3.40.50.620:FF:000077; Leucine--tRNA ligase; 1.
+DR   Gene3D; 3.10.20.590; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 2.
+DR   Gene3D; 1.10.730.10; Isoleucyl-tRNA Synthetase, Domain 1; 1.
+DR   HAMAP; MF_00049_B; Leu_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002302; Leu-tRNA-ligase.
+DR   InterPro; IPR025709; Leu_tRNA-synth_edit.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   NCBIfam; TIGR00396; leuS_bact; 1.
+DR   PANTHER; PTHR43740:SF2; LEUCINE--TRNA LIGASE, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43740; LEUCYL-TRNA SYNTHETASE; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   Pfam; PF13603; tRNA-synt_1_2; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR00985; TRNASYNTHLEU.
+DR   SUPFAM; SSF47323; Anticodon-binding domain of a subclass of class I aminoacyl-tRNA synthetases; 1.
+DR   SUPFAM; SSF52374; Nucleotidylyl transferase; 1.
+DR   SUPFAM; SSF50677; ValRS/IleRS/LeuRS editing domain; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..802
+FT                   /note="Leucine--tRNA ligase"
+FT                   /id="PRO_0000151966"
+FT   MOTIF           40..51
+FT                   /note="'HIGH' region"
+FT   MOTIF           576..580
+FT                   /note="'KMSKS' region"
+FT   BINDING         579
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00049"
+SQ   SEQUENCE   802 AA;  91353 MW;  59934062A37C2DC8 CRC64;
+     MSFNHQEIEK KWQGYWEENK TFRTPDETEK PKFYALDMFP YPSGAGLHVG HPEGYTATDI
+     LSRMKRMQGY NVLHPMGWDA FGLPAEQYAL DTGNSPAEFT EHNINTFRNQ IKSLGFSYDW
+     DREVNTTDPN YYKWTQWIFL KLFEKGLAYV DEVPVNWCPA LGTVLANEEI IDGKSERGGH
+     PVERRPMRQW MLKITAYGDR LLEDLDELDW PESLKDMQRN WIGRSEGAEV HFNIDGTDEK
+     FTVFTTRPDT LFGATYCVLA PEHALVAEIT TAEQKEAVEA YINAVKMKSD LERTELAKEK
+     TGVFTGAYAV NPVNGEKLPI WIADYVLATY GTGAVMAVPA HDERDYEFAS VFNLPMKEVV
+     KGGDITKEVY TGDGAHVNSA FLDGLNKEEA IAKMIEWLEA TSAGNQKVTY RLRDWLFSRQ
+     RYWGEPIPVI HWEDGTMTAV KEEELPLVLP KTENIRPSGT GESPLANIDE WVNVVDPETG
+     KKGRRETNTM PQWAGSCWYY LRYIDPNNSE ALVDPEKVKQ WLPVDIYIGG AEHAVLHLLY
+     ARFWHKVLYD IGVVPTKEPF QQLFNQGMIL GENNEKMSKS KGNVVNPDDI VASHGADTLR
+     LYEMFMGPLD ASIAWSENGL DGARRFLDRV WRLFVQDNGE LSEKITDAPN KELEKAYHQT
+     VKKVTEDYAE LRFNTAISQM MVFINDAYKA ETLPREYVEG FVKMIAPVAP HIGEELWSKL
+     GYNETITYAS WPTFDESKLV EDEVEIVVQV MGKVRAKLTM SKDASKEEME QLALEAIQDQ
+     IEGKTVRKVI VVPGKLVNVV AN
+//

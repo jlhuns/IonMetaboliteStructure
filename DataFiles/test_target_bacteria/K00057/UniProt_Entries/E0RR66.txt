@@ -1,0 +1,209 @@
+ID   E0RR66_SPITD            Unreviewed;       380 AA.
+AC   E0RR66;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Glycerol-3-phosphate dehydrogenase [NAD(P)+] {ECO:0000256|HAMAP-Rule:MF_00394};
+DE            EC=1.1.1.94 {ECO:0000256|HAMAP-Rule:MF_00394};
+DE   AltName: Full=NAD(P)(+)-dependent glycerol-3-phosphate dehydrogenase {ECO:0000256|HAMAP-Rule:MF_00394};
+DE   AltName: Full=NAD(P)H-dependent dihydroxyacetone-phosphate reductase {ECO:0000256|HAMAP-Rule:MF_00394};
+GN   Name=gpsA {ECO:0000256|HAMAP-Rule:MF_00394};
+GN   OrderedLocusNames=STHERM_c21120 {ECO:0000313|EMBL:ADN03043.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN03043.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN03043.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- FUNCTION: Catalyzes the reduction of the glycolytic intermediate
+CC       dihydroxyacetone phosphate (DHAP) to sn-glycerol 3-phosphate (G3P), the
+CC       key precursor for phospholipid synthesis. {ECO:0000256|HAMAP-
+CC       Rule:MF_00394}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=sn-glycerol 3-phosphate + NAD(+) = dihydroxyacetone phosphate
+CC         + NADH + H(+); Xref=Rhea:RHEA:11092, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57597, ChEBI:CHEBI:57642,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.94; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=sn-glycerol 3-phosphate + NADP(+) = dihydroxyacetone phosphate
+CC         + NADPH + H(+); Xref=Rhea:RHEA:11096, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57597, ChEBI:CHEBI:57642, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.1.1.94; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00394, ECO:0000256|RuleBase:RU000439};
+CC   -!- PATHWAY: Membrane lipid metabolism; glycerophospholipid metabolism.
+CC       {ECO:0000256|HAMAP-Rule:MF_00394}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00394}.
+CC   -!- SIMILARITY: Belongs to the NAD-dependent glycerol-3-phosphate
+CC       dehydrogenase family. {ECO:0000256|ARBA:ARBA00011009,
+CC       ECO:0000256|HAMAP-Rule:MF_00394, ECO:0000256|RuleBase:RU000437}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00394}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN03043.1; -; Genomic_DNA.
+DR   RefSeq; WP_013314881.1; NC_014484.1.
+DR   AlphaFoldDB; E0RR66; -.
+DR   PaxDb; 665571-STHERM_c21120; -.
+DR   KEGG; sta:STHERM_c21120; -.
+DR   eggNOG; COG0240; Bacteria.
+DR   HOGENOM; CLU_033449_0_0_12; -.
+DR   UniPathway; UPA00940; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0047952; F:glycerol-3-phosphate dehydrogenase [NAD(P)+] activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0046167; P:glycerol-3-phosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046168; P:glycerol-3-phosphate catabolic process; IEA:InterPro.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006116; P:NADH oxidation; IEA:TreeGrafter.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.1040.10; N-(1-d-carboxylethyl)-l-norvaline Dehydrogenase, domain 2; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   HAMAP; MF_00394; NAD_Glyc3P_dehydrog; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR006168; G3P_DH_NAD-dep.
+DR   InterPro; IPR006109; G3P_DH_NAD-dep_C.
+DR   InterPro; IPR011128; G3P_DH_NAD-dep_N.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR11728; GLYCEROL-3-PHOSPHATE DEHYDROGENASE; 1.
+DR   PANTHER; PTHR11728:SF1; GLYCEROL-3-PHOSPHATE DEHYDROGENASE [NAD(+)] 2, CHLOROPLASTIC; 1.
+DR   Pfam; PF07479; NAD_Gly3P_dh_C; 1.
+DR   Pfam; PF01210; NAD_Gly3P_dh_N; 1.
+DR   PIRSF; PIRSF000114; Glycerol-3-P_dh; 1.
+DR   PRINTS; PR00077; GPDHDRGNASE.
+DR   SUPFAM; SSF48179; 6-phosphogluconate dehydrogenase C-terminal domain-like; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00394};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_00394};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_00394};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_00394, ECO:0000256|PIRSR:PIRSR000114-3};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_00394};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00394};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002, ECO:0000256|HAMAP-
+KW   Rule:MF_00394};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209,
+KW   ECO:0000256|HAMAP-Rule:MF_00394};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264, ECO:0000256|HAMAP-
+KW   Rule:MF_00394}.
+FT   DOMAIN          13..176
+FT                   /note="Glycerol-3-phosphate dehydrogenase NAD-dependent N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01210"
+FT   DOMAIN          197..353
+FT                   /note="Glycerol-3-phosphate dehydrogenase NAD-dependent C-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF07479"
+FT   ACT_SITE        208
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394,
+FT                   ECO:0000256|PIRSR:PIRSR000114-1"
+FT   BINDING         18..23
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-3"
+FT   BINDING         22
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         59
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         93
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-3"
+FT   BINDING         119
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         119
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         119
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-2"
+FT   BINDING         153
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         155
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         157
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-3"
+FT   BINDING         157
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         208
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         268
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         279..280
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-2"
+FT   BINDING         279
+FT                   /ligand="NAD(+)"
+FT                   /ligand_id="ChEBI:CHEBI:57540"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR000114-3"
+FT   BINDING         279
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         279
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         280
+FT                   /ligand="sn-glycerol 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57597"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         312
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+FT   BINDING         314
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00394"
+SQ   SEQUENCE   380 AA;  42226 MW;  4A6E63E86E32033B CRC64;
+     MRVNFQVPIL RSKIGVIGAG AWGTAIAQVV AEKGHHVDLW VYEQEVAEEI NRLHENMRYL
+     PGVRLSSRIR ATTDLAEAVQ KKEYLLLVPP SPFLLKITSG ISSLPDITKG RPIIAVFTKG
+     FIPDEGGRPR LILEAMEDHL PPFYKDNLVY VSGPSHAEEV GRGKLTGLIS ASKNPKHSIK
+     VRNLLTSHRL LVFSSLDTIG VQVSAAIKNV IAIAFGVLDA LIETGSEFVG DNTESLLLAA
+     GLNEIQALGT AMGSTHPETF TSIAGVGDLD VTCRSKYGRN RRFGREILLK NILRPFKDID
+     DLIRNISRLD YLPEGVFAAT HAHTLAKTYN LRLPIIRSVY RILNKEDQPV DIIEDLLVKL
+     LTRTRNTGLI ERFRERFLKD
+//

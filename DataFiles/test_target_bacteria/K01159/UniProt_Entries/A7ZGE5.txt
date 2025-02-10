@@ -1,0 +1,117 @@
+ID   RUVC_CAMC1              Reviewed;         157 AA.
+AC   A7ZGE5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   27-NOV-2024, entry version 84.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE            EC=3.1.21.10 {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction nuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction resolvase RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   Name=ruvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   OrderedLocusNames=Ccon26_20240; ORFNames=CCC13826_1854;
+OS   Campylobacter concisus (strain 13826).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360104;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=13826;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., On S., Nelson K.E.;
+RT   "Genome sequence of Campylobacter concisus 13826 isolated from human
+RT   feces.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The RuvA-RuvB-RuvC complex processes Holliday junction (HJ)
+CC       DNA during genetic recombination and DNA repair. Endonuclease that
+CC       resolves HJ intermediates. Cleaves cruciform DNA by making single-
+CC       stranded nicks across the HJ at symmetrical positions within the
+CC       homologous arms, yielding a 5'-phosphate and a 3'-hydroxyl group;
+CC       requires a central core of homology in the junction. The consensus
+CC       cleavage sequence is 5'-(A/T)TT(C/G)-3'. Cleavage occurs on the 3'-side
+CC       of the TT dinucleotide at the point of strand exchange. HJ branch
+CC       migration catalyzed by RuvA-RuvB allows RuvC to scan DNA until it finds
+CC       its consensus sequence, where it cleaves and resolves the cruciform
+CC       DNA. {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage at a junction such as a reciprocal
+CC         single-stranded crossover between two homologous DNA duplexes
+CC         (Holliday junction).; EC=3.1.21.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00034};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00034};
+CC       Note=Binds 2 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00034};
+CC   -!- SUBUNIT: Homodimer which binds Holliday junction (HJ) DNA. The HJ
+CC       becomes 2-fold symmetrical on binding to RuvC with unstacked arms; it
+CC       has a different conformation from HJ DNA in complex with RuvA. In the
+CC       full resolvosome a probable DNA-RuvA(4)-RuvB(12)-RuvC(2) complex forms
+CC       which resolves the HJ. {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00034}.
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000792; EAT99112.1; -; Genomic_DNA.
+DR   AlphaFoldDB; A7ZGE5; -.
+DR   SMR; A7ZGE5; -.
+DR   STRING; 360104.CCC13826_1854; -.
+DR   KEGG; cco:CCC13826_1854; -.
+DR   eggNOG; COG0817; Bacteria.
+DR   HOGENOM; CLU_091257_3_0_7; -.
+DR   Proteomes; UP000001121; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048476; C:Holliday junction resolvase complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008821; F:crossover junction DNA endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd16962; RuvC; 1.
+DR   FunFam; 3.30.420.10:FF:000002; Crossover junction endodeoxyribonuclease RuvC; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   NCBIfam; TIGR00228; ruvC; 1.
+DR   PANTHER; PTHR30194; CROSSOVER JUNCTION ENDODEOXYRIBONUCLEASE RUVC; 1.
+DR   PANTHER; PTHR30194:SF3; CROSSOVER JUNCTION ENDODEOXYRIBONUCLEASE RUVC; 1.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA recombination; DNA repair; DNA-binding;
+KW   Endonuclease; Hydrolase; Magnesium; Metal-binding; Nuclease.
+FT   CHAIN           1..157
+FT                   /note="Crossover junction endodeoxyribonuclease RuvC"
+FT                   /id="PRO_1000002736"
+FT   ACT_SITE        7
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   ACT_SITE        66
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   ACT_SITE        139
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   BINDING         7
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   BINDING         66
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   BINDING         139
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+SQ   SEQUENCE   157 AA;  17571 MW;  99C890CC9056C0BC CRC64;
+     MKILGIDPGT KNCGYAILEK SKFKTILLEA GLIKIKPNTL QYQITELCEG LDLIFKNHKF
+     DEVAIEDIFF AYNPKTVLKL AQFRGALSLK ILQLHGDFAE YTPLQVKKTV TGKAKADKEQ
+     VAFMVKKILG INKEIKPLDI TDAIAIALTH ANNLRIN
+//

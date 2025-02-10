@@ -1,0 +1,89 @@
+ID   Q81E01_BACCR            Unreviewed;       239 AA.
+AC   Q81E01;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase {ECO:0000256|RuleBase:RU361267};
+DE            EC=2.3.1.51 {ECO:0000256|RuleBase:RU361267};
+GN   OrderedLocusNames=BC_2195 {ECO:0000313|EMBL:AAP09161.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP09161.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP09161.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphate + an acyl-CoA = a 1,2-diacyl-
+CC         sn-glycero-3-phosphate + CoA; Xref=Rhea:RHEA:19709,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57970, ChEBI:CHEBI:58342,
+CC         ChEBI:CHEBI:58608; EC=2.3.1.51;
+CC         Evidence={ECO:0000256|RuleBase:RU361267};
+CC   -!- PATHWAY: Lipid metabolism. {ECO:0000256|ARBA:ARBA00005189}.
+CC   -!- DOMAIN: The HXXXXD motif is essential for acyltransferase activity and
+CC       may constitute the binding site for the phosphate moiety of the
+CC       glycerol-3-phosphate. {ECO:0000256|RuleBase:RU361267}.
+CC   -!- SIMILARITY: Belongs to the 1-acyl-sn-glycerol-3-phosphate
+CC       acyltransferase family. {ECO:0000256|ARBA:ARBA00008655,
+CC       ECO:0000256|RuleBase:RU361267}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP09161.1; -; Genomic_DNA.
+DR   RefSeq; NP_831960.1; NC_004722.1.
+DR   RefSeq; WP_000616577.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81E01; -.
+DR   SMR; Q81E01; -.
+DR   KEGG; bce:BC2195; -.
+DR   PATRIC; fig|226900.8.peg.2217; -.
+DR   HOGENOM; CLU_027938_6_1_9; -.
+DR   OrthoDB; 9803035at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0003841; F:1-acylglycerol-3-phosphate O-acyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006654; P:phosphatidic acid biosynthetic process; IBA:GO_Central.
+DR   CDD; cd07989; LPLAT_AGPAT-like; 1.
+DR   InterPro; IPR004552; AGP_acyltrans.
+DR   InterPro; IPR002123; Plipid/glycerol_acylTrfase.
+DR   NCBIfam; TIGR00530; AGP_acyltrn; 1.
+DR   PANTHER; PTHR10434; 1-ACYL-SN-GLYCEROL-3-PHOSPHATE ACYLTRANSFERASE; 1.
+DR   PANTHER; PTHR10434:SF64; 1-ACYL-SN-GLYCEROL-3-PHOSPHATE ACYLTRANSFERASE-RELATED; 1.
+DR   Pfam; PF01553; Acyltransferase; 1.
+DR   SMART; SM00563; PlsC; 1.
+DR   SUPFAM; SSF69593; Glycerol-3-phosphate (1)-acyltransferase; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|ARBA:ARBA00023315,
+KW   ECO:0000256|RuleBase:RU361267};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516,
+KW   ECO:0000256|RuleBase:RU361267};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098,
+KW   ECO:0000256|RuleBase:RU361267}; Membrane {ECO:0000256|SAM:Phobius};
+KW   Phospholipid biosynthesis {ECO:0000256|RuleBase:RU361267};
+KW   Phospholipid metabolism {ECO:0000256|RuleBase:RU361267};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|RuleBase:RU361267, ECO:0000313|EMBL:AAP09161.1};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        6..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   DOMAIN          74..188
+FT                   /note="Phospholipid/glycerol acyltransferase"
+FT                   /evidence="ECO:0000259|SMART:SM00563"
+SQ   SEQUENCE   239 AA;  26827 MW;  D468CBEB1BF8A42E CRC64;
+     MIQTFFKIFY LILIVIAITP RMWRLKRQVN TMAPKEKDNA VYKTTNWFGK KMVRVAGGAV
+     EVKGLENVPK DKPVLVVSNH QSNMDIPVLL GYLNKPIGFV SKAEIKKFPV VPTWMELMNC
+     VFMDRSDRRQ SLQAIKDGIE LLKNGHSIVI FPEGTRSKGG EVGEFKAGSF HLAVKSGVAI
+     LPVTLDGTYK MFEANGNRMK PAHATVTISK PITPEDYANM DIKELTKHTQ EVIASQLHK
+//

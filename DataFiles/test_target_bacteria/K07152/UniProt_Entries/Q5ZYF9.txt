@@ -1,0 +1,87 @@
+ID   Q5ZYF9_LEGPH            Unreviewed;       213 AA.
+AC   Q5ZYF9;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 97.
+DE   SubName: Full=Hypothetical, SCO1/SenC family protein {ECO:0000313|EMBL:AAU26510.1};
+GN   OrderedLocusNames=lpg0413 {ECO:0000313|EMBL:AAU26510.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU26510.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU26510.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- SIMILARITY: Belongs to the SCO1/2 family.
+CC       {ECO:0000256|ARBA:ARBA00010996}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU26510.1; -; Genomic_DNA.
+DR   RefSeq; WP_010946162.1; NC_002942.5.
+DR   RefSeq; YP_094457.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZYF9; -.
+DR   STRING; 272624.lpg0413; -.
+DR   PaxDb; 272624-lpg0413; -.
+DR   DNASU; 3080382; -.
+DR   GeneID; 66489611; -.
+DR   KEGG; lpn:lpg0413; -.
+DR   PATRIC; fig|272624.6.peg.429; -.
+DR   eggNOG; COG1999; Bacteria.
+DR   HOGENOM; CLU_050131_3_2_6; -.
+DR   OrthoDB; 9790194at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02968; SCO; 1.
+DR   Gene3D; 3.40.30.10; Glutaredoxin; 1.
+DR   InterPro; IPR003782; SCO1/SenC.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR12151; ELECTRON TRANSPORT PROTIN SCO1/SENC FAMILY MEMBER; 1.
+DR   PANTHER; PTHR12151:SF25; LINALOOL DEHYDRATASE_ISOMERASE DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02630; SCO1-SenC; 1.
+DR   SUPFAM; SSF52833; Thioredoxin-like; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Copper {ECO:0000256|ARBA:ARBA00023008, ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Disulfide bond {ECO:0000256|PIRSR:PIRSR603782-2};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|PIRSR:PIRSR603782-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609}.
+FT   DOMAIN          46..213
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000259|PROSITE:PS51352"
+FT   BINDING         84
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         88
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   BINDING         178
+FT                   /ligand="Cu cation"
+FT                   /ligand_id="ChEBI:CHEBI:23378"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-1"
+FT   DISULFID        84..88
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR603782-2"
+SQ   SEQUENCE   213 AA;  23788 MW;  6BCDBC8522D19E9C CRC64;
+     MNIKIKGGAV TITVLALVSL LAGIYISQNF HFKKKINVAD FHGTYLENPR TVNNFSLTGT
+     DQKVFDNSSL QGRWTLVFFG FTNCGYLCPT TMAELGKMYR ILEKKGVKNL PQVVMISIDP
+     QRDSLDKLGS YVTSFHKSFY GARGEEDSIK SMTHEMGIAY AKINSKESSE PENYDIQHSG
+     AVMLFNPQGE LNAFFTTPHH ADLLAKDYVL LVS
+//

@@ -1,0 +1,114 @@
+ID   Q6N9W2_RHOPA            Unreviewed;       657 AA.
+AC   Q6N9W2;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 130.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+DE            EC=2.8.1.7 {ECO:0000256|ARBA:ARBA00012239, ECO:0000256|RuleBase:RU004506};
+GN   OrderedLocusNames=RPA1424 {ECO:0000313|EMBL:CAE26867.1};
+GN   ORFNames=TX73_007310 {ECO:0000313|EMBL:WCL91560.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE26867.1};
+RN   [1] {ECO:0000313|EMBL:WCL91560.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91560.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE26867.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE26867.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL91560.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL91560.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the removal of elemental sulfur and selenium atoms
+CC       from L-cysteine, L-cystine, L-selenocysteine, and L-selenocystine to
+CC       produce L-alanine. {ECO:0000256|RuleBase:RU004506}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001357,
+CC         ECO:0000256|RuleBase:RU004506};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU004504};
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. Csd subfamily. {ECO:0000256|ARBA:ARBA00010447,
+CC       ECO:0000256|RuleBase:RU004506}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572597; CAE26867.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL91560.1; -; Genomic_DNA.
+DR   RefSeq; WP_011156987.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA1424; -.
+DR   GeneID; 66892451; -.
+DR   KEGG; rpa:TX73_007310; -.
+DR   eggNOG; COG0520; Bacteria.
+DR   HOGENOM; CLU_003433_7_2_5; -.
+DR   PhylomeDB; Q6N9W2; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06453; SufS_like; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010970; Cys_dSase_SufS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; NF041166; f2_encap_cargo1; 1.
+DR   NCBIfam; TIGR01979; sufS; 1.
+DR   PANTHER; PTHR43586; CYSTEINE DESULFURASE; 1.
+DR   PANTHER; PTHR43586:SF8; CYSTEINE DESULFURASE 1, CHLOROPLASTIC; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:CAE26867.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|RuleBase:RU004506};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|RuleBase:RU004506}.
+FT   DOMAIN          274..643
+FT                   /note="Aminotransferase class V"
+FT                   /evidence="ECO:0000259|Pfam:PF00266"
+FT   REGION          1..35
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   657 AA;  69072 MW;  427E85063E38162E CRC64;
+     MSTPEPTLPH PGSAALPQGG ALPHPASLEQ ASAAAVGAPD VASIARLANA FFSALPTGAV
+     PEPGAALGSA PLFVAEPLHN AIPGTPALSP SYKPNHNPGA ASPIPTIGAA RPSGPIFALD
+     PKLGPEPTTA VSSVPQELKV PLAAPPVAPP PPSAPAVQPV FARDTDLAAL PGRLDESRSF
+     VPRTALPSAG PFGAAAAATA APLYFLADNP ALTHATPASA AQPRVETFDL TGLAPQHRPD
+     VHVLDLSGAR PFDANVFKRD FPILRETING RPLVWLDNGA TTQKPQCVID RLVQFYTHEN
+     SNIHRAAHTL AARSTDAYEA ARDKVRRFIN ASSVKDIVFV RGATEAINLV AQAWGRRNVG
+     EGDEIVVSHL EHHANIVPWQ QLAAEKGARL RVAPVDDHGQ ILLDEYEKLL GPKTKIVAFT
+     QVSNALGTVT PVAEMTALAH RHGAKVLVDG AQGVCHMPVD VQALDVDFYA FSGHKMFAPT
+     GIGVLYGKAD VLEAMPPWQG GGNMIADVTF EKTIFQGPPD RFEAGTGNIA DAVGLGAAID
+     YLSRIGMANI AAHEHELLAY GTEHLLTVPG LKLIGTAREK AGILSFVLDG CRSEDVGKAL
+     DREGIAVRAG HHCAQPILRR FGLESTVRPS LALYNTHDDI DVLVDALQRL QSGRGVR
+//

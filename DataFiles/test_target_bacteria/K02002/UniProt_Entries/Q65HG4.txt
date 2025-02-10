@@ -1,0 +1,81 @@
+ID   Q65HG4_BACLD            Unreviewed;       294 AA.
+AC   Q65HG4; Q62SW8;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 106.
+DE   SubName: Full=Glycine betaine ABC transporter (Glycine betaine-binding protein) {ECO:0000313|EMBL:AAU24141.1};
+GN   Name=opuAC {ECO:0000313|EMBL:AAU24141.1};
+GN   OrderedLocusNames=BL01556 {ECO:0000313|EMBL:AAU24141.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24141.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24141.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004236}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24141.1; -; Genomic_DNA.
+DR   RefSeq; WP_003183430.1; NC_006322.1.
+DR   AlphaFoldDB; Q65HG4; -.
+DR   STRING; 279010.BL01556; -.
+DR   GeneID; 66215382; -.
+DR   KEGG; bld:BLi02626; -.
+DR   KEGG; bli:BL01556; -.
+DR   PATRIC; fig|279010.13.peg.2668; -.
+DR   eggNOG; COG2113; Bacteria.
+DR   HOGENOM; CLU_082654_0_0_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0005275; F:amine transmembrane transporter activity; IEA:TreeGrafter.
+DR   GO; GO:0015226; F:carnitine transmembrane transporter activity; IEA:TreeGrafter.
+DR   GO; GO:0015871; P:choline transport; IEA:TreeGrafter.
+DR   GO; GO:0031460; P:glycine betaine transport; IEA:TreeGrafter.
+DR   CDD; cd13639; PBP2_OpuAC_like; 1.
+DR   Gene3D; 3.10.105.10; Dipeptide-binding Protein, Domain 3; 1.
+DR   Gene3D; 3.40.190.100; Glycine betaine-binding periplasmic protein, domain 2; 1.
+DR   InterPro; IPR007210; ABC_Gly_betaine_transp_sub-bd.
+DR   PANTHER; PTHR47737; GLYCINE BETAINE/PROLINE BETAINE TRANSPORT SYSTEM PERMEASE PROTEIN PROW; 1.
+DR   PANTHER; PTHR47737:SF1; GLYCINE BETAINE_PROLINE BETAINE TRANSPORT SYSTEM PERMEASE PROTEIN PROW; 1.
+DR   Pfam; PF04069; OpuAC; 2.
+DR   SUPFAM; SSF53850; Periplasmic binding protein-like II; 2.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   4: Predicted;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Signal {ECO:0000256|SAM:SignalP};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448}.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT   CHAIN           20..294
+FT                   /evidence="ECO:0000256|SAM:SignalP"
+FT                   /id="PRO_5038717866"
+FT   DOMAIN          29..173
+FT                   /note="ABC-type glycine betaine transport system substrate-
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF04069"
+FT   DOMAIN          192..294
+FT                   /note="ABC-type glycine betaine transport system substrate-
+FT                   binding"
+FT                   /evidence="ECO:0000259|Pfam:PF04069"
+SQ   SEQUENCE   294 AA;  31997 MW;  EBA3D13F636D0424 CRC64;
+     MWKKIAGIGT AAVLTLGLAA CGSSNNNENA SVGDQVNYKI TGIDPGAGIM NATDQALKDY
+     DLSKWTVTSG SSSAMTAALK KAYDKKDPII ITGWTPHWMF AKYDLKYLKD PKGSYGDAEE
+     IHTVTRKGFK DDHPGANKLL SQFSWTEDDM GEVMLAVQEG KKPEEAAADF VKKHQDLVKK
+     WTKGVDKADG EKIKLGYVAW DSEIASTNVI AKVLEDLGYN VTLSQVEAGP MWTGIANGSV
+     DASLAAWLPQ THKTYAEKYK GKYEDIGTSM TGVKIGLVVP TYMKDVNSIE DLKK
+//

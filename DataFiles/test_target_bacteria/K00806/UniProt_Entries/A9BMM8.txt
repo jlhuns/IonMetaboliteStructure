@@ -1,0 +1,123 @@
+ID   A9BMM8_DELAS            Unreviewed;       248 AA.
+AC   A9BMM8;
+DT   15-JAN-2008, integrated into UniProtKB/TrEMBL.
+DT   15-JAN-2008, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Isoprenyl transferase {ECO:0000256|HAMAP-Rule:MF_01139};
+DE            EC=2.5.1.- {ECO:0000256|HAMAP-Rule:MF_01139};
+GN   OrderedLocusNames=Daci_4944 {ECO:0000313|EMBL:ABX37573.1};
+OS   Delftia acidovorans (strain DSM 14801 / SPH-1).
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Delftia.
+OX   NCBI_TaxID=398578 {ECO:0000313|EMBL:ABX37573.1, ECO:0000313|Proteomes:UP000000784};
+RN   [1] {ECO:0000313|EMBL:ABX37573.1, ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RX   PubMed=15240283; DOI=10.1128/AEM.70.7.4053-4063.2004;
+RA   Schleheck D., Knepper T.P., Fischer K., Cook A.M.;
+RT   "Mineralization of individual congeners of linear alkylbenzenesulfonate by
+RT   defined pairs of heterotrophic bacteria.";
+RL   Appl. Environ. Microbiol. 70:4053-4063(2004).
+RN   [2] {ECO:0000313|Proteomes:UP000000784}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14801 / SPH-1 {ECO:0000313|Proteomes:UP000000784};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Lowry S., Clum A., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Schleheck D., Richardson P.;
+RT   "Complete sequence of Delftia acidovorans DSM 14801 / SPH-1.";
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)
+CC       with allylic pyrophosphates generating different type of terpenoids.
+CC       {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01139};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000884; ABX37573.1; -; Genomic_DNA.
+DR   RefSeq; WP_012206743.1; NC_010002.1.
+DR   AlphaFoldDB; A9BMM8; -.
+DR   STRING; 398578.Daci_4944; -.
+DR   GeneID; 24115463; -.
+DR   KEGG; dac:Daci_4944; -.
+DR   eggNOG; COG0020; Bacteria.
+DR   HOGENOM; CLU_038505_1_1_4; -.
+DR   Proteomes; UP000000784; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0045547; F:dehydrodolichyl diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0008834; F:di-trans,poly-cis-undecaprenyl-diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016094; P:polyprenol biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   FunFam; 3.40.1180.10:FF:000001; (2E,6E)-farnesyl-diphosphate-specific ditrans,polycis-undecaprenyl-diphosphate synthase; 1.
+DR   Gene3D; 3.40.1180.10; Decaprenyl diphosphate synthase-like; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   NCBIfam; TIGR00055; uppS; 1.
+DR   PANTHER; PTHR10291:SF0; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE 2; 1.
+DR   PANTHER; PTHR10291; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE FAMILY MEMBER; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; Undecaprenyl diphosphate synthase; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000784};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01139}.
+FT   ACT_SITE        18
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        66
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         18
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         19..22
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         23
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         31
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         35
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         63..65
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         67
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         69
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         179
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         185..187
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         198
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+SQ   SEQUENCE   248 AA;  27456 MW;  F17CFB0AD7CFD761 CRC64;
+     MTNQDSGAVP RHIAVIMDGN GRWANRRFLP RLAGHKQGVE SLRRCARACV QRGVQVLTVF
+     AFSSENWNRP EEEVSGLMGL LANALAKEVQ QLSRDGVRLH FIGDRSGLSE KVCAGLAQAE
+     QVTAHNNRLV LNVCFNYGGR WDIAQAAARL AEQGEPITPQ NLDRALALAH VPDPDLLIRT
+     GGEMRISNFL LWQAAYSELF FSASLWPDFD EACLDEAIAA FTSRERRFGQ TSAQVHQSQS
+     KSSHQQTT
+//

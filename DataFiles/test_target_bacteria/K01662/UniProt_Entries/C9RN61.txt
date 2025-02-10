@@ -1,0 +1,97 @@
+ID   C9RN61_FIBSS            Unreviewed;       582 AA.
+AC   C9RN61;
+DT   24-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   24-NOV-2009, sequence version 1.
+DT   27-NOV-2024, entry version 91.
+DE   RecName: Full=1-deoxy-D-xylulose-5-phosphate synthase {ECO:0000256|ARBA:ARBA00013150};
+DE            EC=2.2.1.7 {ECO:0000256|ARBA:ARBA00013150};
+GN   OrderedLocusNames=FSU_3301 {ECO:0000313|EMBL:ADL27377.1};
+OS   Fibrobacter succinogenes (strain ATCC 19169 / S85).
+OC   Bacteria; Fibrobacterota; Fibrobacteria; Fibrobacterales; Fibrobacteraceae;
+OC   Fibrobacter.
+OX   NCBI_TaxID=59374 {ECO:0000313|EMBL:ADL27377.1, ECO:0000313|Proteomes:UP000000517};
+RN   [1] {ECO:0000313|Proteomes:UP000000517}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19169 / S85 {ECO:0000313|Proteomes:UP000000517};
+RA   Durkin A.S., Nelson K.E., Morrison M., Forsberg C.W., Wilson D.B.,
+RA   Russell J.B., Cann I.K.O., Mackie R.I., White B.A.;
+RT   "Complete sequence of Fibrobacter succinogenes subsp. succinogenes S85.";
+RL   Submitted (AUG-2010) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001964};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; 1-deoxy-D-xylulose 5-
+CC       phosphate biosynthesis; 1-deoxy-D-xylulose 5-phosphate from D-
+CC       glyceraldehyde 3-phosphate and pyruvate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004980}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738}.
+CC   -!- SIMILARITY: Belongs to the transketolase family. DXPS subfamily.
+CC       {ECO:0000256|ARBA:ARBA00011081}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002158; ADL27377.1; -; Genomic_DNA.
+DR   RefSeq; WP_014547321.1; NC_017448.1.
+DR   AlphaFoldDB; C9RN61; -.
+DR   STRING; 59374.FSU_3301; -.
+DR   KEGG; fsc:FSU_3301; -.
+DR   KEGG; fsu:Fisuc_2730; -.
+DR   PATRIC; fig|59374.8.peg.3154; -.
+DR   eggNOG; COG1154; Bacteria.
+DR   HOGENOM; CLU_009227_1_4_0; -.
+DR   OrthoDB; 9803371at2; -.
+DR   UniPathway; UPA00064; UER00091.
+DR   Proteomes; UP000000517; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008661; F:1-deoxy-D-xylulose-5-phosphate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052865; P:1-deoxy-D-xylulose 5-phosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:TreeGrafter.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:InterPro.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd02007; TPP_DXS; 1.
+DR   CDD; cd07033; TPP_PYR_DXS_TK_like; 1.
+DR   FunFam; 3.40.50.970:FF:000010; 1-deoxy-D-xylulose-5-phosphate synthase; 1.
+DR   Gene3D; 3.40.50.920; -; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   InterPro; IPR005477; Dxylulose-5-P_synthase.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR009014; Transketo_C/PFOR_II.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   InterPro; IPR033248; Transketolase_C.
+DR   InterPro; IPR049557; Transketolase_CS.
+DR   PANTHER; PTHR43322; 1-D-DEOXYXYLULOSE 5-PHOSPHATE SYNTHASE-RELATED; 1.
+DR   PANTHER; PTHR43322:SF1; 1-DEOXY-D-XYLULOSE-5-PHOSPHATE SYNTHASE; 1.
+DR   Pfam; PF13292; DXP_synthase_N; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   Pfam; PF02780; Transketolase_C; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; Thiamin diphosphate-binding fold (THDP-binding); 2.
+DR   SUPFAM; SSF52922; TK C-terminal domain-like; 1.
+DR   PROSITE; PS00801; TRANSKETOLASE_1; 1.
+PE   3: Inferred from homology;
+KW   Isoprene biosynthesis {ECO:0000256|ARBA:ARBA00023229};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723};
+KW   Thiamine biosynthesis {ECO:0000256|ARBA:ARBA00022977};
+KW   Thiamine pyrophosphate {ECO:0000256|ARBA:ARBA00023052};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          277..443
+FT                   /note="Transketolase-like pyrimidine-binding"
+FT                   /evidence="ECO:0000259|SMART:SM00861"
+SQ   SEQUENCE   582 AA;  63860 MW;  90F283E1EA082575 CRC64;
+     MLLEKIKSPA DVKALDIKSL EQLAAEMRTA LLKKLSKRGG HVAPNLGFVE GTIALHYVFD
+     SPRDKIVYDV SHQSYSHKML TGRAQAFLEE SHYGDVTGYS EPTESEHDFF MVGHTSTSVS
+     LALGLATARD VLRESGNVIA VIGDGSLSGG EAFEGLDNAG EYATNFIVVV NDNEMSIAEN
+     HGGLYKSLAE LRTTAGKSEN NYFKSLGFDY KYLEQGNDIA SLIEIFKSVK NSTRPVVVHL
+     HTQKGRGYSY AEQNREGWHW AAPFNIETSE INWGSGENYG EILGLYLMAK IKSDPKVVVI
+     HSAVPAGIGF YEARRKEAGK QYIDVGIAEE HAVALASGLA KGGAKPIYST HGTFIQRTYD
+     QLSQDLCANN NPATILVTMS GADGMNDTTH LCIFDIPMLS NIPNLVYLCP TCVEEFKTMA
+     DWAIDQTEHP VAIRVPNAVH HRSDIFEKDY SRLNKFKVVH RGERVALIGL GDFYQRAAAV
+     ALELRREGID ATLVNPRYAS GVDKDLLLEL AKTHDVFVTL ENGVIEGGFG QKVATALGDT
+     CAKVLVRGLS KEFYDKVSFA DLCEKNHLNP SQVAKDVMQL LS
+//

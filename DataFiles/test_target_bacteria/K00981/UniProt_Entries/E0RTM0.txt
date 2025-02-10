@@ -1,0 +1,104 @@
+ID   E0RTM0_SPITD            Unreviewed;       278 AA.
+AC   E0RTM0;
+DT   02-NOV-2010, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2010, sequence version 1.
+DT   05-FEB-2025, entry version 56.
+DE   RecName: Full=Phosphatidate cytidylyltransferase {ECO:0000256|ARBA:ARBA00019373};
+DE            EC=2.7.7.41 {ECO:0000256|ARBA:ARBA00012487};
+DE   AltName: Full=CDP-DAG synthase {ECO:0000256|ARBA:ARBA00032253};
+DE   AltName: Full=CDP-DG synthase {ECO:0000256|ARBA:ARBA00032743};
+DE   AltName: Full=CDP-diacylglycerol synthase {ECO:0000256|ARBA:ARBA00029893};
+DE   AltName: Full=CDP-diglyceride pyrophosphorylase {ECO:0000256|ARBA:ARBA00032396};
+DE   AltName: Full=CDP-diglyceride synthase {ECO:0000256|ARBA:ARBA00033406};
+DE   AltName: Full=CTP:phosphatidate cytidylyltransferase {ECO:0000256|ARBA:ARBA00031825};
+GN   OrderedLocusNames=STHERM_c13100 {ECO:0000313|EMBL:ADN02251.1};
+OS   Spirochaeta thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1).
+OC   Bacteria; Spirochaetota; Spirochaetia; Spirochaetales; Spirochaetaceae;
+OC   Spirochaeta.
+OX   NCBI_TaxID=665571 {ECO:0000313|EMBL:ADN02251.1, ECO:0000313|Proteomes:UP000001296};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=DSM 6192;
+RA   Angelov A., Mientus M., Wittenberg S., Lehmann R., Liesegang H., Daniel R.,
+RA   Liebl W.;
+RT   "The genome sequence of Spirochaeta thermophila DSM6192.";
+RL   Submitted (AUG-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:ADN02251.1, ECO:0000313|Proteomes:UP000001296}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49972 / DSM 6192 / RI 19.B1
+RC   {ECO:0000313|Proteomes:UP000001296};
+RX   PubMed=20935097; DOI=10.1128/JB.01023-10;
+RA   Angelov A., Liebl S., Ballschmiter M., Bomeke M., Lehmann R., Liesegang H.,
+RA   Daniel R., Liebl W.;
+RT   "Genome sequence of the polysaccharide-degrading, thermophilic anaerobe
+RT   Spirochaeta thermophila DSM 6192.";
+RL   J. Bacteriol. 192:6492-6493(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphate + CTP + H(+) = a CDP-1,2-
+CC         diacyl-sn-glycerol + diphosphate; Xref=Rhea:RHEA:16229,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:58332, ChEBI:CHEBI:58608; EC=2.7.7.41;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001698};
+CC   -!- PATHWAY: Lipid metabolism. {ECO:0000256|ARBA:ARBA00005189}.
+CC   -!- PATHWAY: Phospholipid metabolism; CDP-diacylglycerol biosynthesis; CDP-
+CC       diacylglycerol from sn-glycerol 3-phosphate: step 3/3.
+CC       {ECO:0000256|ARBA:ARBA00005119}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651};
+CC       Multi-pass membrane protein {ECO:0000256|ARBA:ARBA00004651}.
+CC   -!- SIMILARITY: Belongs to the CDS family. {ECO:0000256|ARBA:ARBA00010185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001698; ADN02251.1; -; Genomic_DNA.
+DR   RefSeq; WP_013314092.1; NC_014484.1.
+DR   AlphaFoldDB; E0RTM0; -.
+DR   PaxDb; 665571-STHERM_c13100; -.
+DR   KEGG; sta:STHERM_c13100; -.
+DR   eggNOG; COG4589; Bacteria.
+DR   HOGENOM; CLU_037294_3_1_12; -.
+DR   Proteomes; UP000001296; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004605; F:phosphatidate cytidylyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0016024; P:CDP-diacylglycerol biosynthetic process; IEA:TreeGrafter.
+DR   PANTHER; PTHR46382; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR46382:SF1; PHOSPHATIDATE CYTIDYLYLTRANSFERASE; 1.
+DR   Pfam; PF01148; CTP_transf_1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|SAM:Phobius};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000313|EMBL:ADN02251.1};
+KW   Phospholipid biosynthesis {ECO:0000256|ARBA:ARBA00023209};
+KW   Phospholipid metabolism {ECO:0000256|ARBA:ARBA00023264};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000313|EMBL:ADN02251.1};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM        7..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        82..99
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        120..139
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        145..164
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        184..203
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+FT   TRANSMEM        215..232
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|SAM:Phobius"
+SQ   SEQUENCE   278 AA;  29881 MW;  4C902035EE5A8550 CRC64;
+     MSNLLQRILL FSIGLPALLA LVIFLPYYND IGINLVAIMV GGMSGLEMRR MLKEEGPRSA
+     TWAFLLGAGL PLAAYLGLLF SLGWAPVILV ITLVLLATLS RETFVSRESD VPHITHRMSA
+     AAFILLYPGA FLMFVPHITA FPRGALLMAV FILAVYLNDS MAYLTGKLWG RGGVLFISPN
+     KSIAGFIGGF FTSPLVLLVS RALVPDVFPG PAWKALLFGS LVGIAAILGD LAESAIKRAC
+     RTKDSGAIIP GRGGILDSVD SPVFAAPVFY YLYLILFT
+//

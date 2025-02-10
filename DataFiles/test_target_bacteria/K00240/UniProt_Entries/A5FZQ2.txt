@@ -1,0 +1,120 @@
+ID   A5FZQ2_ACICJ            Unreviewed;       260 AA.
+AC   A5FZQ2;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   27-NOV-2024, entry version 100.
+DE   RecName: Full=Succinate dehydrogenase iron-sulfur subunit {ECO:0000256|ARBA:ARBA00022131, ECO:0000256|RuleBase:RU361237};
+DE            EC=1.3.5.1 {ECO:0000256|ARBA:ARBA00012792, ECO:0000256|RuleBase:RU361237};
+GN   OrderedLocusNames=Acry_1882 {ECO:0000313|EMBL:ABQ31084.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31084.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31084.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31084.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + succinate = fumarate + a quinol;
+CC         Xref=Rhea:RHEA:40523, ChEBI:CHEBI:24646, ChEBI:CHEBI:29806,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:132124; EC=1.3.5.1;
+CC         Evidence={ECO:0000256|RuleBase:RU361237};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000256|RuleBase:RU361237};
+CC       Note=Binds 1 [2Fe-2S] cluster. {ECO:0000256|RuleBase:RU361237};
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC         Evidence={ECO:0000256|RuleBase:RU361237};
+CC       Note=Binds 1 [3Fe-4S] cluster. {ECO:0000256|RuleBase:RU361237};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|RuleBase:RU361237};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000256|RuleBase:RU361237};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; fumarate
+CC       from succinate (bacterial route): step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00004894}.
+CC   -!- SUBUNIT: Part of an enzyme complex containing four subunits: a
+CC       flavoprotein, an iron-sulfur, cytochrome b-556, and a hydrophobic
+CC       anchor protein. {ECO:0000256|ARBA:ARBA00011294}.
+CC   -!- SIMILARITY: Belongs to the succinate dehydrogenase/fumarate reductase
+CC       iron-sulfur protein family. {ECO:0000256|ARBA:ARBA00009433,
+CC       ECO:0000256|RuleBase:RU361237}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31084.1; -; Genomic_DNA.
+DR   RefSeq; WP_012039695.1; NC_009484.1.
+DR   AlphaFoldDB; A5FZQ2; -.
+DR   STRING; 349163.Acry_1882; -.
+DR   KEGG; acr:Acry_1882; -.
+DR   eggNOG; COG0479; Bacteria.
+DR   HOGENOM; CLU_044838_0_2_5; -.
+DR   UniPathway; UPA00223; UER01005.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008177; F:succinate dehydrogenase (quinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0022904; P:respiratory electron transport chain; IEA:TreeGrafter.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   FunFam; 3.10.20.30:FF:000007; Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial; 1.
+DR   FunFam; 1.10.1060.10:FF:000001; Succinate dehydrogenase iron-sulfur subunit SdhB; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 1.10.1060.10; Alpha-helical ferredoxin; 1.
+DR   InterPro; IPR036010; 2Fe-2S_ferredoxin-like_sf.
+DR   InterPro; IPR001041; 2Fe-2S_ferredoxin-type.
+DR   InterPro; IPR006058; 2Fe2S_fd_BS.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR009051; Helical_ferredxn.
+DR   InterPro; IPR050573; SDH/FRD_Iron-Sulfur.
+DR   InterPro; IPR004489; Succ_DH/fum_Rdtase_Fe-S.
+DR   InterPro; IPR025192; Succ_DH/fum_Rdtase_N.
+DR   NCBIfam; TIGR00384; dhsB; 1.
+DR   PANTHER; PTHR11921:SF29; SUCCINATE DEHYDROGENASE [UBIQUINONE] IRON-SULFUR SUBUNIT, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR11921; SUCCINATE DEHYDROGENASE IRON-SULFUR PROTEIN; 1.
+DR   Pfam; PF13085; Fer2_3; 1.
+DR   Pfam; PF13534; Fer4_17; 1.
+DR   SUPFAM; SSF54292; 2Fe-2S ferredoxin-like; 1.
+DR   SUPFAM; SSF46548; alpha-helical ferredoxin; 1.
+DR   PROSITE; PS00197; 2FE2S_FER_1; 1.
+DR   PROSITE; PS51085; 2FE2S_FER_2; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S {ECO:0000256|ARBA:ARBA00022714, ECO:0000256|RuleBase:RU361237};
+KW   3Fe-4S {ECO:0000256|ARBA:ARBA00023291, ECO:0000256|RuleBase:RU361237};
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU361237};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU361237};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU361237};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU361237};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000313|EMBL:ABQ31084.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245};
+KW   Tricarboxylic acid cycle {ECO:0000256|ARBA:ARBA00022532}.
+FT   DOMAIN          30..119
+FT                   /note="2Fe-2S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51085"
+FT   DOMAIN          161..191
+FT                   /note="4Fe-4S ferredoxin-type"
+FT                   /evidence="ECO:0000259|PROSITE:PS51379"
+SQ   SEQUENCE   260 AA;  29324 MW;  3EA71FC189253074 CRC64;
+     MAELTLPKNS RVTQGKTYKA EPGATRVKSF KVYRWNPDED ANPRADTYEI DLDKCGPMVL
+     DALIKIKNEI DPTLTFRRSC REGICGSCAM NIDGTNTLAC LKPIEEVKEA VNINPLPHMP
+     VVKDLVPDLN QAYAQYRSIE PWLQAETAPP PDGERKQSVE ERAELDGLWE CILCFCCTTS
+     CPSYWWNGDR YLGPAVLMAA YRWIADSRDE ATGKRLDALE DPFKLYRCHT IMNCTQTCPK
+     GLNPAKAIGK IKQMMVERQG
+//

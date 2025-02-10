@@ -1,0 +1,144 @@
+ID   QUEE_BACCR              Reviewed;         238 AA.
+AC   Q81G67;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 104.
+DE   RecName: Full=7-carboxy-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            Short=CDG synthase {ECO:0000255|HAMAP-Rule:MF_00917};
+DE            EC=4.3.99.3 {ECO:0000255|HAMAP-Rule:MF_00917};
+DE   AltName: Full=Queuosine biosynthesis protein QueE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   Name=queE {ECO:0000255|HAMAP-Rule:MF_00917};
+GN   OrderedLocusNames=BC_1343;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the complex heterocyclic radical-mediated
+CC       conversion of 6-carboxy-5,6,7,8-tetrahydropterin (CPH4) to 7-carboxy-7-
+CC       deazaguanine (CDG), a step common to the biosynthetic pathways of all
+CC       7-deazapurine-containing compounds. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-carboxy-5,6,7,8-tetrahydropterin + H(+) = 7-carboxy-7-
+CC         deazaguanine + NH4(+); Xref=Rhea:RHEA:27974, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:61032, ChEBI:CHEBI:61036; EC=4.3.99.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=S-adenosyl-L-methionine; Xref=ChEBI:CHEBI:59789;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00917};
+CC       Note=Binds 1 S-adenosyl-L-methionine per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00917};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00917};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. 7-carboxy-7-
+CC       deazaguanine synthase family. {ECO:0000255|HAMAP-Rule:MF_00917}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08325.1; -; Genomic_DNA.
+DR   RefSeq; NP_831124.1; NC_004722.1.
+DR   RefSeq; WP_000036294.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81G67; -.
+DR   SMR; Q81G67; -.
+DR   STRING; 226900.BC_1343; -.
+DR   KEGG; bce:BC1343; -.
+DR   PATRIC; fig|226900.8.peg.1319; -.
+DR   HOGENOM; CLU_066739_2_3_9; -.
+DR   OrthoDB; 9792276at2; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016840; F:carbon-nitrogen lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:1904047; F:S-adenosyl-L-methionine binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_00917; QueE; 1.
+DR   InterPro; IPR024924; 7-CO-7-deazaguanine_synth-like.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR017742; Deazaguanine_synth.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR03365; Bsubt_queE; 1.
+DR   PANTHER; PTHR42836; 7-CARBOXY-7-DEAZAGUANINE SYNTHASE; 1.
+DR   PANTHER; PTHR42836:SF1; 7-CARBOXY-7-DEAZAGUANINE SYNTHASE; 1.
+DR   Pfam; PF13353; Fer4_12; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000370; QueE; 1.
+DR   SFLD; SFLDF00300; 7-carboxy-7-deazaguanine_synth; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Lyase; Magnesium; Metal-binding;
+KW   Queuosine biosynthesis; Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN           1..238
+FT                   /note="7-carboxy-7-deazaguanine synthase"
+FT                   /id="PRO_0000416195"
+FT   DOMAIN          20..234
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   BINDING         14..16
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         29
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         33
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         37
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         40
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         42
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         80
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         82
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+FT   BINDING         126..128
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00917"
+SQ   SEQUENCE   238 AA;  26872 MW;  48D1086D4B62FCC9 CRC64;
+     MSKIPVLEIF GPTIQGEGMV VGQKTMFIRT AGCDYSCAWC DSAFTWDGSA KDQIRQMTPE
+     DIWDELVAIG GENFSHVTIS GGNPALLKNI EFLLSILKEN GMRTAIETQG SKWQDWLLQI
+     DEITISPKPP SSTMKTDFQR LDAIIQKLAG KDISLKVVVF DDHDFEYAVK MHERYPKVPF
+     FLQVGNDDTK TVDDAMLIKK LLDKYEWLID KAVNCKEMND AKVLPQLHAL VWGNKRGV
+//

@@ -1,0 +1,116 @@
+ID   Q6N5B0_RHOPA            Unreviewed;       418 AA.
+AC   Q6N5B0;
+DT   05-JUL-2004, integrated into UniProtKB/TrEMBL.
+DT   05-JUL-2004, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=Endolytic murein transglycosylase {ECO:0000256|HAMAP-Rule:MF_02065};
+DE            EC=4.2.2.29 {ECO:0000256|HAMAP-Rule:MF_02065};
+DE   AltName: Full=Peptidoglycan lytic transglycosylase {ECO:0000256|HAMAP-Rule:MF_02065};
+DE   AltName: Full=Peptidoglycan polymerization terminase {ECO:0000256|HAMAP-Rule:MF_02065};
+GN   Name=mltG {ECO:0000256|HAMAP-Rule:MF_02065,
+GN   ECO:0000313|EMBL:WCL93235.1};
+GN   OrderedLocusNames=RPA3071 {ECO:0000313|EMBL:CAE28512.1};
+GN   ORFNames=TX73_015885 {ECO:0000313|EMBL:WCL93235.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:CAE28512.1};
+RN   [1] {ECO:0000313|EMBL:WCL93235.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93235.1};
+RG   Rhodopseudomonas genome consortium;
+RA   Larimer F., Harwood C.;
+RL   Submitted (JUL-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:CAE28512.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426}, and
+RC   CGA009 {ECO:0000313|EMBL:CAE28512.1};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+RN   [3] {ECO:0000313|EMBL:WCL93235.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=CGA009 {ECO:0000313|EMBL:WCL93235.1};
+RA   Mazny B.R., Sheff O.F., LaSarre B., McKinlay A., McKinlay J.B.;
+RT   "Complete genome sequence of Rhodopseudomonas palustris CGA0092 and
+RT   corrections to the R. palustris CGA009 genome sequence.";
+RL   Submitted (DEC-2022) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Functions as a peptidoglycan terminase that cleaves nascent
+CC       peptidoglycan strands endolytically to terminate their elongation.
+CC       {ECO:0000256|HAMAP-Rule:MF_02065}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a peptidoglycan chain = a peptidoglycan chain with N-
+CC         acetyl-1,6-anhydromuramyl-[peptide] at the reducing end + a
+CC         peptidoglycan chain with N-acetylglucosamine at the non-reducing
+CC         end.; EC=4.2.2.29; Evidence={ECO:0000256|HAMAP-Rule:MF_02065};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_02065}; Single-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_02065}.
+CC   -!- SIMILARITY: Belongs to the transglycosylase MltG family.
+CC       {ECO:0000256|HAMAP-Rule:MF_02065}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572602; CAE28512.1; -; Genomic_DNA.
+DR   EMBL; CP116810; WCL93235.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158617.1; NZ_CP116810.1.
+DR   STRING; 258594.RPA3071; -.
+DR   GeneID; 66894153; -.
+DR   KEGG; rpa:TX73_015885; -.
+DR   eggNOG; COG1559; Bacteria.
+DR   HOGENOM; CLU_025574_0_0_5; -.
+DR   PhylomeDB; Q6N5B0; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008932; F:lytic endotransglycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd08010; MltG_like; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 1.
+DR   Gene3D; 3.30.1490.480; Endolytic murein transglycosylase; 1.
+DR   HAMAP; MF_02065; MltG; 1.
+DR   InterPro; IPR003770; MLTG-like.
+DR   NCBIfam; TIGR00247; endolytic transglycosylase MltG; 1.
+DR   PANTHER; PTHR30518; ENDOLYTIC MUREIN TRANSGLYCOSYLASE; 1.
+DR   PANTHER; PTHR30518:SF2; ENDOLYTIC MUREIN TRANSGLYCOSYLASE; 1.
+DR   Pfam; PF02618; YceG; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_02065};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_02065};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_02065}.
+FT   TRANSMEM        35..59
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02065"
+FT   REGION          1..30
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          350..418
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   SITE            238
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02065"
+SQ   SEQUENCE   418 AA;  45213 MW;  D728159ADA458F79 CRC64;
+     MSERPPISPR SPRAALEPEQ LPPPPKRSDH ARNPLVIIGN AIITFIVVVM IGAGGLYVYG
+     KNKLEAPGPL AQDKTVNIPQ RAGLDDIAQI LKREGVIEDG WLVFAGGVMA LRARTELKPG
+     EYLFQKNASL RDVIGTIVEG KVVQHAVTIP EGLTSEQIVE RLSDNPIFTG SIREIPREGT
+     LLPETYKFPR GTPREQVIHR LQQAQKRVLS EIWERRSPDL PIKTPEQLVT LASLVEKETG
+     KPDERTRVAA VFVNRLQKKM RLQSDPTIIY GLVGGKGTLG RPIKRSEITQ PSPYNTYVID
+     GLPPGPIANP GRASLEAAAN PARTRDLYFV ADGSGGHAFS DNYEVHQKNV GKLRAQEKQL
+     QNDTVEPPEE TPPTAAAPAA EPAGDPAAAA PAGAPKAAGK NGAQKRRARN ATPNGATE
+//

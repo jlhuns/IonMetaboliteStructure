@@ -1,0 +1,119 @@
+ID   A0A0H4VGC0_9SPHN        Unreviewed;       751 AA.
+AC   A0A0H4VGC0;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   06-JUL-2016, sequence version 2.
+DT   05-FEB-2025, entry version 34.
+DE   RecName: Full=GTP pyrophosphokinase rsh {ECO:0000256|ARBA:ARBA00014315};
+DE            EC=2.7.6.5 {ECO:0000256|ARBA:ARBA00013251};
+DE   AltName: Full=(p)ppGpp synthase {ECO:0000256|ARBA:ARBA00032407};
+DE   AltName: Full=ATP:GTP 3'-pyrophosphotransferase {ECO:0000256|ARBA:ARBA00029754};
+GN   ORFNames=CP97_12730 {ECO:0000313|EMBL:AKQ43445.2};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ43445.2, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ43445.2, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: In eubacteria ppGpp (guanosine 3'-diphosphate 5'-diphosphate)
+CC       is a mediator of the stringent response that coordinates a variety of
+CC       cellular activities in response to changes in nutritional abundance.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + ATP = guanosine 3'-diphosphate 5'-triphosphate + AMP;
+CC         Xref=Rhea:RHEA:22088, ChEBI:CHEBI:30616, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:142410, ChEBI:CHEBI:456215; EC=2.7.6.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048244};
+CC   -!- SIMILARITY: Belongs to the relA/spoT family.
+CC       {ECO:0000256|RuleBase:RU003847}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ43445.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VGC0; -.
+DR   STRING; 1648404.CP97_12730; -.
+DR   KEGG; ery:CP97_12730; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:TreeGrafter.
+DR   GO; GO:0008728; F:GTP diphosphokinase activity; IEA:TreeGrafter.
+DR   GO; GO:0008893; F:guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0015969; P:guanosine tetraphosphate metabolic process; IEA:InterPro.
+DR   GO; GO:0042594; P:response to starvation; IEA:TreeGrafter.
+DR   CDD; cd04876; ACT_RelA-SpoT; 1.
+DR   CDD; cd00077; HDc; 1.
+DR   CDD; cd05399; NT_Rel-Spo_like; 1.
+DR   CDD; cd01668; TGS_RSH; 1.
+DR   FunFam; 3.10.20.30:FF:000002; GTP pyrophosphokinase (RelA/SpoT); 1.
+DR   FunFam; 1.10.3210.10:FF:000001; GTP pyrophosphokinase RelA; 1.
+DR   FunFam; 3.30.460.10:FF:000001; GTP pyrophosphokinase RelA; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.30.460.10; Beta Polymerase, domain 2; 1.
+DR   Gene3D; 1.10.3210.10; Hypothetical protein af1432; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR004811; RelA/Spo_fam.
+DR   InterPro; IPR045600; RelA/SpoT_AH_RIS.
+DR   InterPro; IPR007685; RelA_SpoT.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR033655; TGS_RelA/SpoT.
+DR   NCBIfam; TIGR00691; spoT_relA; 1.
+DR   PANTHER; PTHR21262:SF36; BIFUNCTIONAL (P)PPGPP SYNTHASE_HYDROLASE SPOT; 1.
+DR   PANTHER; PTHR21262; GUANOSINE-3',5'-BIS DIPHOSPHATE 3'-PYROPHOSPHOHYDROLASE; 1.
+DR   Pfam; PF13291; ACT_4; 1.
+DR   Pfam; PF13328; HD_4; 1.
+DR   Pfam; PF19296; RelA_AH_RIS; 1.
+DR   Pfam; PF04607; RelA_SpoT; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   SMART; SM00954; RelA_SpoT; 1.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF109604; HD-domain/PDEase-like; 1.
+DR   SUPFAM; SSF81301; Nucleotidyltransferase; 1.
+DR   SUPFAM; SSF81271; TGS-like; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS51831; HD; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113}.
+FT   DOMAIN          103..202
+FT                   /note="HD"
+FT                   /evidence="ECO:0000259|PROSITE:PS51831"
+FT   DOMAIN          440..501
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000259|PROSITE:PS51880"
+FT   DOMAIN          679..751
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+SQ   SEQUENCE   751 AA;  84499 MW;  A52756BF8A0D3B70 CRC64;
+     MSGLRCYATA SSDFAIPGGE IAFAQSTGPV HVFRQLANLA IADAFPLAET RVAPHIEIML
+     RQYELVERVK EYDPDADEAL LNRAYVYTVQ KHGSQKRASG DPYFSHPVEV AGLMTDLKLD
+     QETIITALLH DTVEDTLATI EDVEKNFGPK VARLVDGVTK LSKIEQMPED ERAAENLRKF
+     LLAMSEDLRV LLVKLADRLH NMRTLHHIKN PDKRRRIARE TMDIYAPLAE RVGMYEYMRE
+     MQLLAFEQLE PEAYDIITKR LEQLRQTDTG QVDRIALDIK QALSEAGLDV GVWGREKHPY
+     SIWRKMAERH LPFEQISDIM AFRVLTENPE DCYRALGKLH RTFQFVPGRF KDYISTPKNN
+     GYRSLHTTLF YDRSMRVEVQ IRTREMNQTN EFGLAAHWAY KQGDRPDGAV GWLRDLIEIV
+     DASHDAEELL EHTKLAIYQD RIFAFTPRGS LFQMPKGATA VDFAFAVHTD LGAQTVGAKI
+     NGRHMPLRTP LNNGDVVEII KSGNAQPQLS WLGFVVTGKA RAAIRRAVRM KERDEVAEIG
+     RKLFDEIVER LPTKVGKKAI AQATERLEFA EVEDMMYAIG SSKLSDRDVM EAIVPGSTAD
+     MPKELSQGRA ISIKGLPPGV AFELAQCCHP VPGDRIVGLR IKGVGVQVHA IDCLELANGV
+     DADWVDLSWG ERSRGAIGRL NIVLYNRAGT LAEMAGVFAR NNSNVINLEL THRDEPFHTY
+     EVDIEVQDLA HLTRIISSLR ASDAVAQADR I
+//

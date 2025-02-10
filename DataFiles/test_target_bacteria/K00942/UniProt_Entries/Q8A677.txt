@@ -1,0 +1,91 @@
+ID   KGUA_BACTN              Reviewed;         204 AA.
+AC   Q8A677;
+DT   15-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=Guanylate kinase {ECO:0000255|HAMAP-Rule:MF_00328};
+DE            EC=2.7.4.8 {ECO:0000255|HAMAP-Rule:MF_00328};
+DE   AltName: Full=GMP kinase {ECO:0000255|HAMAP-Rule:MF_00328};
+GN   Name=gmk {ECO:0000255|HAMAP-Rule:MF_00328}; OrderedLocusNames=BT_2009;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 /
+OS   CCUG 10774 / NCTC 10582 / VPI-5482 / E50).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 /
+RC   VPI-5482 / E50;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Essential for recycling GMP and indirectly, cGMP.
+CC       {ECO:0000255|HAMAP-Rule:MF_00328}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GMP + ATP = GDP + ADP; Xref=Rhea:RHEA:20780,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58115, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00328};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00328}.
+CC   -!- SIMILARITY: Belongs to the guanylate kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00328}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO77116.1; -; Genomic_DNA.
+DR   RefSeq; NP_810922.1; NC_004663.1.
+DR   AlphaFoldDB; Q8A677; -.
+DR   SMR; Q8A677; -.
+DR   STRING; 226186.BT_2009; -.
+DR   PaxDb; 226186-BT_2009; -.
+DR   EnsemblBacteria; AAO77116; AAO77116; BT_2009.
+DR   KEGG; bth:BT_2009; -.
+DR   PATRIC; fig|226186.12.peg.2062; -.
+DR   eggNOG; COG0194; Bacteria.
+DR   HOGENOM; CLU_001715_1_1_10; -.
+DR   InParanoid; Q8A677; -.
+DR   OrthoDB; 9808150at2; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004385; F:guanylate kinase activity; IBA:GO_Central.
+DR   CDD; cd00071; GMPK; 1.
+DR   FunFam; 3.30.63.10:FF:000005; Guanylate kinase; 1.
+DR   Gene3D; 3.30.63.10; Guanylate Kinase phosphate binding domain; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00328; Guanylate_kinase; 1.
+DR   InterPro; IPR008145; GK/Ca_channel_bsu.
+DR   InterPro; IPR008144; Guanylate_kin-like_dom.
+DR   InterPro; IPR017665; Guanylate_kinase.
+DR   InterPro; IPR020590; Guanylate_kinase_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03263; guanyl_kin; 1.
+DR   PANTHER; PTHR23117:SF13; GUANYLATE KINASE; 1.
+DR   PANTHER; PTHR23117; GUANYLATE KINASE-RELATED; 1.
+DR   Pfam; PF00625; Guanylate_kin; 1.
+DR   SMART; SM00072; GuKc; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS00856; GUANYLATE_KINASE_1; 1.
+DR   PROSITE; PS50052; GUANYLATE_KINASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..204
+FT                   /note="Guanylate kinase"
+FT                   /id="PRO_0000170499"
+FT   DOMAIN          18..198
+FT                   /note="Guanylate kinase-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00328"
+FT   BINDING         25..32
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00328"
+SQ   SEQUENCE   204 AA;  23464 MW;  2EEC38C3F761B848 CRC64;
+     MSTFSVFNFQ FSIKQMTGKL IIFSAPSGSG KSTIINYLLT QNLNLAFSIS ATSRPPRGTE
+     KHGVEYFFLT PEEFRCRIEN NEFLEYEEVY KDRYYGTLKE QVEKQLEKGQ NVVFDLDVVG
+     GCNIKKYYGE RALSIFVQPP SIEELRCRLT GRGTDEPEVI ECRIAKAEYE MTFAPQFDRV
+     IVNDDLEAAK AETLEVIKEF LNKE
+//

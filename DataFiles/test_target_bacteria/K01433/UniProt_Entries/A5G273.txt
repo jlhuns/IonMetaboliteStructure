@@ -1,0 +1,91 @@
+ID   A5G273_ACICJ            Unreviewed;       283 AA.
+AC   A5G273;
+DT   12-JUN-2007, integrated into UniProtKB/TrEMBL.
+DT   12-JUN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 88.
+DE   RecName: Full=Formyltetrahydrofolate deformylase {ECO:0000256|HAMAP-Rule:MF_01927, ECO:0000256|NCBIfam:TIGR00655};
+DE            EC=3.5.1.10 {ECO:0000256|HAMAP-Rule:MF_01927, ECO:0000256|NCBIfam:TIGR00655};
+DE   AltName: Full=Formyl-FH(4) hydrolase {ECO:0000256|HAMAP-Rule:MF_01927};
+GN   Name=purU {ECO:0000256|HAMAP-Rule:MF_01927};
+GN   OrderedLocusNames=Acry_2764 {ECO:0000313|EMBL:ABQ31955.1};
+OS   Acidiphilium cryptum (strain JF-5).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Acidiphilium.
+OX   NCBI_TaxID=349163 {ECO:0000313|EMBL:ABQ31955.1, ECO:0000313|Proteomes:UP000000245};
+RN   [1] {ECO:0000313|EMBL:ABQ31955.1, ECO:0000313|Proteomes:UP000000245}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JF-5 {ECO:0000313|EMBL:ABQ31955.1,
+RC   ECO:0000313|Proteomes:UP000000245};
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Sims D., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Magnuson T., Richardson P.;
+RT   "Complete sequence of chromosome of Acidiphilium cryptum JF-5.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolysis of 10-formyltetrahydrofolate
+CC       (formyl-FH4) to formate and tetrahydrofolate (FH4). {ECO:0000256|HAMAP-
+CC       Rule:MF_01927}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-10-formyltetrahydrofolate + H2O = (6S)-5,6,7,8-
+CC         tetrahydrofolate + formate + H(+); Xref=Rhea:RHEA:19833,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:57453, ChEBI:CHEBI:195366; EC=3.5.1.10;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01927};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway;
+CC       formate from 10-formyl-5,6,7,8-tetrahydrofolate: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_01927}.
+CC   -!- SIMILARITY: Belongs to the PurU family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01927}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000697; ABQ31955.1; -; Genomic_DNA.
+DR   RefSeq; WP_007422984.1; NC_009484.1.
+DR   AlphaFoldDB; A5G273; -.
+DR   STRING; 349163.Acry_2764; -.
+DR   KEGG; acr:Acry_2764; -.
+DR   eggNOG; COG0788; Bacteria.
+DR   HOGENOM; CLU_038395_3_0_5; -.
+DR   UniPathway; UPA00074; UER00170.
+DR   Proteomes; UP000000245; Chromosome.
+DR   GO; GO:0008864; F:formyltetrahydrofolate deformylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd04875; ACT_F4HF-DF; 1.
+DR   CDD; cd08648; FMT_core_Formyl-FH4-Hydrolase_C; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.40.50.170; Formyl transferase, N-terminal domain; 1.
+DR   HAMAP; MF_01927; PurU; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR041729; Formyl-FH4-Hydrolase_C.
+DR   InterPro; IPR002376; Formyl_transf_N.
+DR   InterPro; IPR036477; Formyl_transf_N_sf.
+DR   InterPro; IPR004810; PurU.
+DR   InterPro; IPR044074; PurU_ACT.
+DR   NCBIfam; TIGR00655; PurU; 1.
+DR   PANTHER; PTHR42706; FORMYLTETRAHYDROFOLATE DEFORMYLASE; 1.
+DR   PANTHER; PTHR42706:SF1; FORMYLTETRAHYDROFOLATE DEFORMYLASE 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF00551; Formyl_trans_N; 1.
+DR   PIRSF; PIRSF036480; FormyFH4_hydr; 1.
+DR   PRINTS; PR01575; FFH4HYDRLASE.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF53328; Formyltransferase; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01927};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563, ECO:0000256|HAMAP-
+KW   Rule:MF_01927}; Purine biosynthesis {ECO:0000256|HAMAP-Rule:MF_01927};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000245}.
+FT   DOMAIN          85..263
+FT                   /note="Formyl transferase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF00551"
+FT   ACT_SITE        226
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01927"
+SQ   SEQUENCE   283 AA;  31419 MW;  38FD6E685859B137 CRC64;
+     MSSILTLSCR NRPGIVGAVG HFLHAHGQDI REAQQFDDRA SGRFFMRVVF APVGDAPSSG
+     LEAEFAAVGR EFGMDWEITP SGHRMRTMIL VSRFDHCLVD LVYRQRIGEL PMDIVGVIAN
+     HPRESYAHLD LDGIPFHHLP IAPDTKMEQE AEVWRLMRES GAELAILARY MQVLSDGLVA
+     KLAGRCINIH HSFLPGFKGA KPYHQAYARG VKLIGATAHY VTTALDEGPI IEQDVERISH
+     GDTPEALVRK GRDIERRVLA RAVLGHLERR VFISGSKTVV FAG
+//

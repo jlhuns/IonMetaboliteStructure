@@ -1,0 +1,210 @@
+ID   D5EW04_XYLR2            Unreviewed;       291 AA.
+AC   D5EW04;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 82.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-enyl diphosphate reductase {ECO:0000256|HAMAP-Rule:MF_00191};
+DE            Short=HMBPP reductase {ECO:0000256|HAMAP-Rule:MF_00191};
+DE            EC=1.17.7.4 {ECO:0000256|HAMAP-Rule:MF_00191};
+GN   Name=ispH {ECO:0000256|HAMAP-Rule:MF_00191,
+GN   ECO:0000313|EMBL:ADE81506.1};
+GN   OrderedLocusNames=PRU_0161 {ECO:0000313|EMBL:ADE81506.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81506.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81506.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the conversion of 1-hydroxy-2-methyl-2-(E)-butenyl
+CC       4-diphosphate (HMBPP) into a mixture of isopentenyl diphosphate (IPP)
+CC       and dimethylallyl diphosphate (DMAPP). Acts in the terminal step of the
+CC       DOXP/MEP pathway for isoprenoid precursor biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00191}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dimethylallyl diphosphate + 2 oxidized [2Fe-2S]-[ferredoxin] +
+CC         H2O = (2E)-4-hydroxy-3-methylbut-2-enyl diphosphate + 2 reduced [2Fe-
+CC         2S]-[ferredoxin] + 2 H(+); Xref=Rhea:RHEA:24825, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57623, ChEBI:CHEBI:128753; EC=1.17.7.4;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00191};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopentenyl diphosphate + 2 oxidized [2Fe-2S]-[ferredoxin] +
+CC         H2O = (2E)-4-hydroxy-3-methylbut-2-enyl diphosphate + 2 reduced [2Fe-
+CC         2S]-[ferredoxin] + 2 H(+); Xref=Rhea:RHEA:24488, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:128753, ChEBI:CHEBI:128769; EC=1.17.7.4;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00191};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00191};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00191};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from (2E)-4-hydroxy-3-
+CC       methylbutenyl diphosphate: step 1/1. {ECO:0000256|HAMAP-Rule:MF_00191}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 6/6. {ECO:0000256|HAMAP-Rule:MF_00191}.
+CC   -!- SIMILARITY: Belongs to the IspH family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00191}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81506.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063493.1; NC_014033.1.
+DR   AlphaFoldDB; D5EW04; -.
+DR   STRING; 264731.PRU_0161; -.
+DR   GeneID; 69976584; -.
+DR   KEGG; pru:PRU_0161; -.
+DR   eggNOG; COG0761; Bacteria.
+DR   HOGENOM; CLU_027486_0_1_10; -.
+DR   UniPathway; UPA00056; UER00097.
+DR   UniPathway; UPA00059; UER00105.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051745; F:4-hydroxy-3-methylbut-2-enyl diphosphate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13944; lytB_ispH; 1.
+DR   Gene3D; 3.40.50.11270; -; 1.
+DR   Gene3D; 3.40.1010.20; 4-hydroxy-3-methylbut-2-enyl diphosphate reductase, catalytic domain; 2.
+DR   HAMAP; MF_00191; IspH; 1.
+DR   InterPro; IPR003451; LytB/IspH.
+DR   NCBIfam; TIGR00216; ispH_lytB; 1.
+DR   PANTHER; PTHR30426; 4-HYDROXY-3-METHYLBUT-2-ENYL DIPHOSPHATE REDUCTASE; 1.
+DR   PANTHER; PTHR30426:SF0; 4-HYDROXY-3-METHYLBUT-2-ENYL DIPHOSPHATE REDUCTASE; 1.
+DR   Pfam; PF02401; LYTB; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|HAMAP-Rule:MF_00191};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|HAMAP-Rule:MF_00191};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|HAMAP-
+KW   Rule:MF_00191}; Isoprene biosynthesis {ECO:0000256|HAMAP-Rule:MF_00191};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00191};
+KW   Oxidoreductase {ECO:0000256|HAMAP-Rule:MF_00191,
+KW   ECO:0000313|EMBL:ADE81506.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   ACT_SITE        134
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         12
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         40
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         40
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         40
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         74
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         74
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         74
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         96
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         132
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         132
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         132
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         170
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         201
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         229
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         229
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         229
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         230
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         230
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         230
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         231
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         231
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         231
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         273
+FT                   /ligand="(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128753"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         273
+FT                   /ligand="dimethylallyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57623"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+FT   BINDING         273
+FT                   /ligand="isopentenyl diphosphate"
+FT                   /ligand_id="ChEBI:CHEBI:128769"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00191"
+SQ   SEQUENCE   291 AA;  32911 MW;  189A1517C091AB33 CRC64;
+     MIIEIDNGSG FCFGVTTAIK KAEEELAQGE TLYCLGDIVH NGMECERLRE MGLITINHDQ
+     MRELHNAKVL LRAHGEPPET YELARKNNIE IIDATCPVVL KLQKRIKEQY ETSPNLPEGE
+     EAQIVIFGKK GHAEVLGLVG QTHSSAIVIE SSDEVTKLDF TRDIYLYSQT TKSLDEFRRI
+     IDYIQTHISP NATFKSFDTI CRSVANRMPN ISQFATKHDL VLFVCGRKSS NGKVLYNECL
+     RVNPNTHLIE DPQEIEPEWL KGIESVGICG ATSTPRWLME QCRDAIQNMQ Q
+//

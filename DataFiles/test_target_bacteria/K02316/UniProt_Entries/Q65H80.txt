@@ -1,0 +1,151 @@
+ID   Q65H80_BACLD            Unreviewed;       607 AA.
+AC   Q65H80; Q62SN8;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 163.
+DE   RecName: Full=DNA primase {ECO:0000256|HAMAP-Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811};
+DE            EC=2.7.7.101 {ECO:0000256|HAMAP-Rule:MF_00974};
+GN   Name=dnaG {ECO:0000256|HAMAP-Rule:MF_00974,
+GN   ECO:0000313|EMBL:AAU24221.1};
+GN   OrderedLocusNames=BL03681 {ECO:0000313|EMBL:AAU24221.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24221.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24221.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: RNA polymerase that catalyzes the synthesis of short RNA
+CC       molecules used as primers for DNA polymerase during DNA replication.
+CC       {ECO:0000256|HAMAP-Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ssDNA + n NTP = ssDNA/pppN(pN)n-1 hybrid + (n-1) diphosphate.;
+CC         EC=2.7.7.101; Evidence={ECO:0000256|HAMAP-Rule:MF_00974};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811,
+CC         ECO:0000256|PIRSR:PIRSR002811-1};
+CC       Note=Binds 1 zinc ion per monomer. {ECO:0000256|HAMAP-Rule:MF_00974,
+CC       ECO:0000256|PIRNR:PIRNR002811, ECO:0000256|PIRSR:PIRSR002811-1};
+CC   -!- SUBUNIT: Monomer. Interacts with DnaB. {ECO:0000256|HAMAP-
+CC       Rule:MF_00974}.
+CC   -!- DOMAIN: Contains an N-terminal zinc-binding domain, a central core
+CC       domain that contains the primase activity, and a C-terminal DnaB-
+CC       binding domain. {ECO:0000256|HAMAP-Rule:MF_00974}.
+CC   -!- SIMILARITY: Belongs to the DnaG primase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00974, ECO:0000256|PIRNR:PIRNR002811}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24221.1; -; Genomic_DNA.
+DR   RefSeq; WP_003183611.1; NC_006322.1.
+DR   AlphaFoldDB; Q65H80; -.
+DR   STRING; 279010.BL03681; -.
+DR   GeneID; 66215301; -.
+DR   KEGG; bld:BLi02713; -.
+DR   KEGG; bli:BL03681; -.
+DR   PATRIC; fig|279010.13.peg.2756; -.
+DR   eggNOG; COG0358; Bacteria.
+DR   HOGENOM; CLU_013501_3_3_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0000428; C:DNA-directed RNA polymerase complex; IEA:UniProtKB-KW.
+DR   GO; GO:1990077; C:primosome complex; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003678; F:DNA helicase activity; IEA:InterPro.
+DR   GO; GO:0003896; F:DNA primase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd03364; TOPRIM_DnaG_primases; 1.
+DR   FunFam; 3.90.580.10:FF:000001; DNA primase; 1.
+DR   FunFam; 3.90.980.10:FF:000001; DNA primase; 1.
+DR   Gene3D; 3.40.1360.10; -; 1.
+DR   Gene3D; 6.10.140.360; -; 1.
+DR   Gene3D; 3.90.980.10; DNA primase, catalytic core, N-terminal domain; 1.
+DR   Gene3D; 1.10.860.10; DNAb Helicase, Chain A; 1.
+DR   Gene3D; 3.90.580.10; Zinc finger, CHC2-type domain; 1.
+DR   HAMAP; MF_00974; DNA_primase_DnaG; 1.
+DR   InterPro; IPR036185; DNA_heli_DnaB-like_N_sf.
+DR   InterPro; IPR016136; DNA_helicase_N/primase_C.
+DR   InterPro; IPR037068; DNA_primase_core_N_sf.
+DR   InterPro; IPR019475; DNA_primase_DnaB-bd.
+DR   InterPro; IPR006295; DNA_primase_DnaG.
+DR   InterPro; IPR036977; DNA_primase_Znf_CHC2.
+DR   InterPro; IPR030846; DnaG_bac.
+DR   InterPro; IPR013264; DNAG_N.
+DR   InterPro; IPR050219; DnaG_primase.
+DR   InterPro; IPR034151; TOPRIM_DnaG_bac.
+DR   InterPro; IPR006171; TOPRIM_dom.
+DR   InterPro; IPR002694; Znf_CHC2.
+DR   NCBIfam; TIGR01391; dnaG; 1.
+DR   PANTHER; PTHR30313; DNA PRIMASE; 1.
+DR   PANTHER; PTHR30313:SF2; DNA PRIMASE; 1.
+DR   Pfam; PF10410; DnaB_bind; 1.
+DR   Pfam; PF08275; DNAG_N; 1.
+DR   Pfam; PF13155; Toprim_2; 1.
+DR   Pfam; PF01807; zf-CHC2; 1.
+DR   PIRSF; PIRSF002811; DnaG; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SMART; SM00400; ZnF_CHCC; 1.
+DR   SUPFAM; SSF56731; DNA primase core; 1.
+DR   SUPFAM; SSF48024; N-terminal domain of DnaB helicase; 1.
+DR   SUPFAM; SSF57783; Zinc beta-ribbon; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   DNA-directed RNA polymerase {ECO:0000256|ARBA:ARBA00022478,
+KW   ECO:0000256|HAMAP-Rule:MF_00974};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Primosome {ECO:0000256|ARBA:ARBA00022515, ECO:0000256|HAMAP-Rule:MF_00974};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00974};
+KW   Zinc {ECO:0000256|ARBA:ARBA00022833, ECO:0000256|HAMAP-Rule:MF_00974};
+KW   Zinc-finger {ECO:0000256|ARBA:ARBA00022771, ECO:0000256|HAMAP-
+KW   Rule:MF_00974}.
+FT   DOMAIN          262..343
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000259|PROSITE:PS50880"
+FT   ZN_FING         40..64
+FT                   /note="CHC2-type"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00974,
+FT                   ECO:0000256|PIRSR:PIRSR002811-1"
+FT   REGION          439..471
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        441..454
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   607 AA;  69356 MW;  FF1BF3E0E70EB3DF CRC64;
+     MGNRIPDEIV EQVQKSADIV EVIGEYVQLR KQGRNYFGLC PFHGENTPSF SVSGEKQIFH
+     CFGCGAGGNV FSFLRQMEGY SFTEAVSHLA DKYQIDLPEQ VAAVSAYSTG SSDEQKMAEA
+     HDLLKKFYHH LLVNTKEGQA ALDYLLERGF KMEQIEQFEI GCALDSWDFI TKFLERRGFD
+     LALMERAGLI IRRENGDGYF DRFRNRIMFP IHDHHGTTVA FSGRTFTGEQ PKYMNSPETP
+     LFRKSKLLYH FHQARLHIRK EERAVLFEGF ADVISAVTSG VKESIATMGT SLTEEHAKII
+     RRNVGEVILC YDSDHAGYEA TLKAAEILQK KGCNVKVAMI PDGLDPDDYI KKFGSEKFKN
+     DVIGASVTMM TFKMNYFRKG RNLSDEGDRL AYINDVLKEV SLLSGPLEQE IYIKQLANEF
+     SISFESLKDQ LSVFEKQAAS RSRESSRQDS KERQAAVSRA PRRKTGLRPA HENAERMLLA
+     HMIHDRDVIR KVLERVGFEF NLDQHRAIAA YLYAMYEEGA DISIQELFKR VEDQELGQLL
+     TDILMLQVNE ELSEAELSDY VKKVLNYRNW SMIKEKEAAR AEAERQKDFI KAATLAQEIV
+     KLNRSLK
+//

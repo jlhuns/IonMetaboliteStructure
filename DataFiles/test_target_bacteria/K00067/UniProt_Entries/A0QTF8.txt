@@ -1,0 +1,184 @@
+ID   RMLD_MYCS2              Reviewed;         327 AA.
+AC   A0QTF8; I7G6I9;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 108.
+DE   RecName: Full=dTDP-4-dehydrorhamnose reductase {ECO:0000250|UniProtKB:P26392};
+DE            EC=1.1.1.133 {ECO:0000250|UniProtKB:P26392};
+DE   AltName: Full=dTDP-4-keto-L-rhamnose reductase {ECO:0000250|UniProtKB:P26392};
+DE   AltName: Full=dTDP-6-deoxy-L-lyxo-4-hexulose reductase {ECO:0000303|PubMed:12029057};
+DE   AltName: Full=dTDP-6-deoxy-L-mannose dehydrogenase {ECO:0000250|UniProtKB:P26392};
+DE   AltName: Full=dTDP-L-rhamnose synthase {ECO:0000250|UniProtKB:P26392};
+GN   Name=rmlD {ECO:0000303|PubMed:12029057}; Synonyms=rfbD;
+GN   OrderedLocusNames=MSMEG_1825, MSMEI_1782;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION IN DTDP-RHAMNOSE BIOSYNTHESIS, AND PATHWAY.
+RX   PubMed=12029057; DOI=10.1128/jb.184.12.3392-3395.2002;
+RA   Ma Y., Pan F., McNeil M.;
+RT   "Formation of dTDP-rhamnose is essential for growth of mycobacteria.";
+RL   J. Bacteriol. 184:3392-3395(2002).
+CC   -!- FUNCTION: Involved in the biosynthesis of the dTDP-L-rhamnose which is
+CC       a component of the critical linker, D-N-acetylglucosamine-L-rhamnose
+CC       disaccharide, which connects the galactan region of arabinogalactan to
+CC       peptidoglycan via a phosphodiester linkage (PubMed:12029057). Catalyzes
+CC       the reduction of dTDP-6-deoxy-L-lyxo-4-hexulose to yield dTDP-L-
+CC       rhamnose (By similarity). {ECO:0000250|UniProtKB:P26392,
+CC       ECO:0000269|PubMed:12029057}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-beta-L-rhamnose + NADP(+) = dTDP-4-dehydro-beta-L-
+CC         rhamnose + NADPH + H(+); Xref=Rhea:RHEA:21796, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57510, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:62830; EC=1.1.1.133;
+CC         Evidence={ECO:0000250|UniProtKB:P26392};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P26392};
+CC       Note=Binds 1 Mg(2+) ion per monomer. {ECO:0000250|UniProtKB:P26392};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; dTDP-L-rhamnose biosynthesis.
+CC       {ECO:0000305|PubMed:12029057}.
+CC   -!- SIMILARITY: Belongs to the dTDP-4-dehydrorhamnose reductase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AFP38254.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74972.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP38254.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_886196.1; NC_008596.1.
+DR   AlphaFoldDB; A0QTF8; -.
+DR   SMR; A0QTF8; -.
+DR   STRING; 246196.MSMEG_1825; -.
+DR   PaxDb; 246196-MSMEI_1782; -.
+DR   KEGG; msg:MSMEI_1782; -.
+DR   KEGG; msm:MSMEG_1825; -.
+DR   PATRIC; fig|246196.19.peg.1807; -.
+DR   eggNOG; COG1091; Bacteria.
+DR   OrthoDB; 9803892at2; -.
+DR   UniPathway; UPA00124; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008831; F:dTDP-4-dehydrorhamnose reductase activity; IGI:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019305; P:dTDP-rhamnose biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; IGI:UniProtKB.
+DR   CDD; cd05254; dTDP_HR_like_SDR_e; 1.
+DR   Gene3D; 3.40.50.720; NAD(P)-binding Rossmann-like Domain; 1.
+DR   Gene3D; 3.90.25.10; UDP-galactose 4-epimerase, domain 1; 1.
+DR   InterPro; IPR005913; dTDP_dehydrorham_reduct.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR029903; RmlD-like-bd.
+DR   NCBIfam; TIGR01214; rmlD; 1.
+DR   PANTHER; PTHR10491; DTDP-4-DEHYDRORHAMNOSE REDUCTASE; 1.
+DR   PANTHER; PTHR10491:SF4; METHIONINE ADENOSYLTRANSFERASE 2 SUBUNIT BETA; 1.
+DR   Pfam; PF04321; RmlD_sub_bind; 1.
+DR   SUPFAM; SSF51735; NAD(P)-binding Rossmann-fold domains; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Magnesium; Metal-binding; NAD; NADP;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN           1..327
+FT                   /note="dTDP-4-dehydrorhamnose reductase"
+FT                   /id="PRO_0000399900"
+FT   REGION          1..22
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          264..292
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        264..276
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        157
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         43..45
+FT                   /ligand="NADH"
+FT                   /ligand_id="ChEBI:CHEBI:57945"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         44..45
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         69..70
+FT                   /ligand="NADH"
+FT                   /ligand_id="ChEBI:CHEBI:57945"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         69..70
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         91..93
+FT                   /ligand="NADH"
+FT                   /ligand_id="ChEBI:CHEBI:57945"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         91..93
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         132..133
+FT                   /ligand="dTDP-beta-L-rhamnose"
+FT                   /ligand_id="ChEBI:CHEBI:57510"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         157
+FT                   /ligand="NADH"
+FT                   /ligand_id="ChEBI:CHEBI:57945"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         157
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         161
+FT                   /ligand="NADH"
+FT                   /ligand_id="ChEBI:CHEBI:57945"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         161
+FT                   /ligand="NADPH"
+FT                   /ligand_id="ChEBI:CHEBI:57783"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   BINDING         182
+FT                   /ligand="dTDP-beta-L-rhamnose"
+FT                   /ligand_id="ChEBI:CHEBI:57510"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+FT   SITE            132
+FT                   /note="Could provide a fine-tuning to achieve optimal pKa
+FT                   matching between active site and substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P26392"
+SQ   SEQUENCE   327 AA;  34254 MW;  5AD5A5F7337A7276 CRC64;
+     MDLINGMGTS PGYWRTPREP GNDHRRARLD VMAQRIVITG AGGMVGRVLA DQAAAKGHTV
+     LALTSSQCDI TDEDAVRRFV ANGDVVINCA AYTQVDKAED EPERAHAVNA VGPGNLAKAC
+     AAVDAGLIHI STDYVFGAVD RDTPYEVDDE TGPVNIYGRT KLAGEQAVLA AKPDAYVVRT
+     AWVYRGGDGS DFVATMRRLA AGDGAIDVVA DQVGSPTYTG DLVGALLQIV DGGVEPGILH
+     AANAGVASRF DQARATFEAV GADPERVRPC GSDRHPRPAP RPSYTVLSSQ RSAQAGLTPL
+     RDWREALQDA VAAVVGATTD GPLPSTP
+//

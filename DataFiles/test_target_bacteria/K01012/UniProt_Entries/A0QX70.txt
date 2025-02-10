@@ -1,0 +1,179 @@
+ID   BIOB_MYCS2              Reviewed;         353 AA.
+AC   A0QX70; I7G8Q7;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 105.
+DE   RecName: Full=Biotin synthase {ECO:0000255|HAMAP-Rule:MF_01694, ECO:0000303|PubMed:38755122};
+DE            EC=2.8.1.6 {ECO:0000255|HAMAP-Rule:MF_01694};
+GN   Name=bioB {ECO:0000255|HAMAP-Rule:MF_01694,
+GN   ECO:0000303|PubMed:38755122};
+GN   OrderedLocusNames=MSMEG_3194, MSMEI_3112;
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION, ACTIVITY REGULATION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=38755122; DOI=10.1038/s41467-024-48448-1;
+RA   Qu D., Ge P., Botella L., Park S.W., Lee H.N., Thornton N., Bean J.M.,
+RA   Krieger I.V., Sacchettini J.C., Ehrt S., Aldrich C.C., Schnappinger D.;
+RT   "Mycobacterial biotin synthases require an auxiliary protein to convert
+RT   dethiobiotin into biotin.";
+RL   Nat. Commun. 15:4161-4161(2024).
+CC   -!- FUNCTION: Catalyzes the conversion of dethiobiotin (DTB) to biotin by
+CC       the insertion of a sulfur atom into dethiobiotin via a radical-based
+CC       mechanism. {ECO:0000255|HAMAP-Rule:MF_01694,
+CC       ECO:0000269|PubMed:38755122}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(4R,5S)-dethiobiotin + [sulfur carrier]-SH + 2 reduced [2Fe-
+CC         2S]-[ferredoxin] + 2 S-adenosyl-L-methionine = [sulfur carrier]-H +
+CC         biotin + 2 5'-deoxyadenosine + 2 L-methionine + 2 oxidized [2Fe-2S]-
+CC         [ferredoxin]; Xref=Rhea:RHEA:22060, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, Rhea:RHEA-COMP:14737, Rhea:RHEA-COMP:14739,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:29917, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57586, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:64428, ChEBI:CHEBI:149473; EC=2.8.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:190135;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01694};
+CC       Note=Binds 1 [2Fe-2S] cluster. The cluster is coordinated with 3
+CC       cysteines and 1 arginine. {ECO:0000255|HAMAP-Rule:MF_01694};
+CC   -!- ACTIVITY REGULATION: Requires the biotin synthase auxiliary protein
+CC       BsaP for activity. {ECO:0000269|PubMed:38755122}.
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis; biotin from 7,8-
+CC       diaminononanoate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- DISRUPTION PHENOTYPE: The deletion mutant is unable to grow without
+CC       extrabacterial biotin. {ECO:0000269|PubMed:38755122}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. Biotin synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01694}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AFP39576.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK73579.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP39576.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_887508.1; NC_008596.1.
+DR   AlphaFoldDB; A0QX70; -.
+DR   SMR; A0QX70; -.
+DR   STRING; 246196.MSMEG_3194; -.
+DR   PaxDb; 246196-MSMEI_3112; -.
+DR   KEGG; msg:MSMEI_3112; -.
+DR   KEGG; msm:MSMEG_3194; -.
+DR   PATRIC; fig|246196.19.peg.3156; -.
+DR   eggNOG; COG0502; Bacteria.
+DR   OrthoDB; 9786826at2; -.
+DR   UniPathway; UPA00078; UER00162.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004076; F:biotin synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01335; Radical_SAM; 1.
+DR   FunFam; 3.20.20.70:FF:000026; Biotin synthase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   HAMAP; MF_01694; BioB; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR010722; BATS_dom.
+DR   InterPro; IPR002684; Biotin_synth/BioAB.
+DR   InterPro; IPR024177; Biotin_synthase.
+DR   InterPro; IPR006638; Elp3/MiaA/NifB-like_rSAM.
+DR   InterPro; IPR007197; rSAM.
+DR   NCBIfam; TIGR00433; bioB; 1.
+DR   PANTHER; PTHR22976; BIOTIN SYNTHASE; 1.
+DR   PANTHER; PTHR22976:SF2; BIOTIN SYNTHASE, MITOCHONDRIAL; 1.
+DR   Pfam; PF06968; BATS; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF001619; Biotin_synth; 1.
+DR   SFLD; SFLDG01082; B12-binding_domain_containing; 1.
+DR   SFLD; SFLDG01278; biotin_synthase_like; 1.
+DR   SFLD; SFLDS00029; Radical_SAM; 1.
+DR   SMART; SM00876; BATS; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   SUPFAM; SSF102114; Radical SAM enzymes; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; 4Fe-4S; Biotin biosynthesis; Iron; Iron-sulfur; Metal-binding;
+KW   Reference proteome; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..353
+FT                   /note="Biotin synthase"
+FT                   /id="PRO_0000381482"
+FT   DOMAIN          74..299
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   BINDING         89
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         93
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         96
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_note="4Fe-4S-S-AdoMet"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         132
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         165
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         224
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+FT   BINDING         294
+FT                   /ligand="[2Fe-2S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:190135"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01694"
+SQ   SEQUENCE   353 AA;  38396 MW;  DC0B6115C06BEB0D CRC64;
+     MFEVFRDLFN PQEDGVTQAA INGTDVLDVA REQVLERGVG LDQAQTLQVL QLPDERLDDL
+     LSLAHEVRMR WCGPDVEVEG IISLKTGGCP EDCHFCSQSG LFASPVRSAW LDVPSLVEAA
+     KQTAKTGATE FCIVAAVRGP DERLLAQVAA GIEAIRNEVD IQIACSLGML TEEQVQRLAD
+     MGVHRYNHNL ETARSFFPNV VTTHTWEERW DTLNMVREAG MEVCCGGILG MGETLEQRAE
+     FAANLAELNP HEVPLNFLNP RPGTPFGDLE VLPASEALKA VAAFRLALPR TMLRFAGGRE
+     ITLGDLGAKK GILGGINAVI VGNYLTTLGR PAEADLQLLD DLQMPIKALN ATL
+//

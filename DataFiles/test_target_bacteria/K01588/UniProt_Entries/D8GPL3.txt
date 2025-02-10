@@ -1,0 +1,97 @@
+ID   D8GPL3_CLOLD            Unreviewed;       159 AA.
+AC   D8GPL3;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 68.
+DE   RecName: Full=N5-carboxyaminoimidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            Short=N5-CAIR mutase {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE            EC=5.4.99.18 {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+DE   AltName: Full=5-(carboxyamino)imidazole ribonucleotide mutase {ECO:0000256|HAMAP-Rule:MF_01929};
+GN   Name=purE {ECO:0000256|HAMAP-Rule:MF_01929,
+GN   ECO:0000313|EMBL:ADK13922.1};
+GN   OrderedLocusNames=CLJU_c08540 {ECO:0000313|EMBL:ADK13922.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK13922.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK13922.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- FUNCTION: Catalyzes the conversion of N5-carboxyaminoimidazole
+CC       ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole ribonucleotide
+CC       (CAIR). {ECO:0000256|HAMAP-Rule:MF_01929,
+CC       ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole + H(+) = 5-
+CC         amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate;
+CC         Xref=Rhea:RHEA:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:58730,
+CC         ChEBI:CHEBI:77657; EC=5.4.99.18; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate from 5-amino-1-(5-
+CC       phospho-D-ribosyl)imidazole (N5-CAIR route): step 2/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929, ECO:0000256|PIRNR:PIRNR001338}.
+CC   -!- SIMILARITY: Belongs to the AIR carboxylase family. Class I subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01929}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK13922.1; -; Genomic_DNA.
+DR   RefSeq; WP_013237519.1; NZ_LITS01000009.1.
+DR   AlphaFoldDB; D8GPL3; -.
+DR   STRING; 748727.CLJU_c08540; -.
+DR   KEGG; clj:CLJU_c08540; -.
+DR   PATRIC; fig|748727.19.peg.3604; -.
+DR   eggNOG; COG0041; Bacteria.
+DR   HOGENOM; CLU_094982_2_0_9; -.
+DR   OrthoDB; 9791908at2; -.
+DR   UniPathway; UPA00074; UER00943.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0034023; F:5-(carboxyamino)imidazole ribonucleotide mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1970; -; 1.
+DR   HAMAP; MF_01929; PurE_classI; 1.
+DR   InterPro; IPR033747; PurE_ClassI.
+DR   InterPro; IPR000031; PurE_dom.
+DR   InterPro; IPR024694; PurE_prokaryotes.
+DR   NCBIfam; TIGR01162; purE; 1.
+DR   PANTHER; PTHR23046:SF2; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE; 1.
+DR   PANTHER; PTHR23046; PHOSPHORIBOSYLAMINOIMIDAZOLE CARBOXYLASE CATALYTIC SUBUNIT; 1.
+DR   Pfam; PF00731; AIRC; 1.
+DR   PIRSF; PIRSF001338; AIR_carboxylase; 1.
+DR   SMART; SM01001; AIRC; 1.
+DR   SUPFAM; SSF52255; N5-CAIR mutase (phosphoribosylaminoimidazole carboxylase, PurE); 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_01929};
+KW   Lyase {ECO:0000313|EMBL:ADK13922.1};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|HAMAP-
+KW   Rule:MF_01929}.
+FT   DOMAIN          1..149
+FT                   /note="PurE"
+FT                   /evidence="ECO:0000259|SMART:SM01001"
+FT   BINDING         9
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         12
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+FT   BINDING         39
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01929,
+FT                   ECO:0000256|PIRSR:PIRSR001338-1"
+SQ   SEQUENCE   159 AA;  17162 MW;  C5139CC777B90E07 CRC64;
+     MKVAIIFGSS SDIDKMKGAA KALKEFDIQY EAYILSAHRV PEKLLETVKK LEEEGCECII
+     SGAGLAAHLP GVIAANTIIP VIGVPLNAAI SGLDSLFSIV QMPKSIPVAT VGINNSYNAG
+     MLAVEILALK YSEIKKKLIE YRKNMKEKFI NENGKGVEL
+//

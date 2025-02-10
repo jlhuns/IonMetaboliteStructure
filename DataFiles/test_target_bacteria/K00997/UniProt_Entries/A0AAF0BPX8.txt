@@ -1,0 +1,96 @@
+ID   A0AAF0BPX8_RHOPA        Unreviewed;       146 AA.
+AC   A0AAF0BPX8;
+DT   29-MAY-2024, integrated into UniProtKB/TrEMBL.
+DT   29-MAY-2024, sequence version 1.
+DT   27-NOV-2024, entry version 4.
+DE   RecName: Full=Holo-[acyl-carrier-protein] synthase {ECO:0000256|HAMAP-Rule:MF_00101};
+DE            Short=Holo-ACP synthase {ECO:0000256|HAMAP-Rule:MF_00101};
+DE            EC=2.7.8.7 {ECO:0000256|HAMAP-Rule:MF_00101};
+DE   AltName: Full=4'-phosphopantetheinyl transferase AcpS {ECO:0000256|HAMAP-Rule:MF_00101};
+GN   Name=acpS {ECO:0000256|HAMAP-Rule:MF_00101,
+GN   ECO:0000313|EMBL:WCL92861.1};
+GN   ORFNames=TX73_013965 {ECO:0000313|EMBL:WCL92861.1};
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Hyphomicrobiales;
+OC   Nitrobacteraceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594 {ECO:0000313|EMBL:WCL92861.1, ECO:0000313|Proteomes:UP000001426};
+RN   [1] {ECO:0000313|EMBL:WCL92861.1, ECO:0000313|Proteomes:UP000001426}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009 {ECO:0000313|Proteomes:UP000001426};
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres J.L., Peres C., Harrison F.H.,
+RA   Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Transfers the 4'-phosphopantetheine moiety from coenzyme A to
+CC       a Ser of acyl-carrier-protein. {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=apo-[ACP] + CoA = holo-[ACP] + adenosine 3',5'-bisphosphate +
+CC         H(+); Xref=Rhea:RHEA:12068, Rhea:RHEA-COMP:9685, Rhea:RHEA-COMP:9690,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:58343, ChEBI:CHEBI:64479; EC=2.7.8.7;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00101};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_00101};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   -!- SIMILARITY: Belongs to the P-Pant transferase superfamily. AcpS family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00101}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP116810; WCL92861.1; -; Genomic_DNA.
+DR   RefSeq; WP_011158245.1; NZ_CP116810.1.
+DR   SMR; A0AAF0BPX8; -.
+DR   GeneID; 66893770; -.
+DR   KEGG; rpa:TX73_013965; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008897; F:holo-[acyl-carrier-protein] synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.470.20; 4'-phosphopantetheinyl transferase domain; 1.
+DR   HAMAP; MF_00101; AcpS; 1.
+DR   InterPro; IPR008278; 4-PPantetheinyl_Trfase_dom.
+DR   InterPro; IPR037143; 4-PPantetheinyl_Trfase_dom_sf.
+DR   InterPro; IPR002582; ACPS.
+DR   InterPro; IPR004568; Ppantetheine-prot_Trfase_dom.
+DR   NCBIfam; TIGR00516; acpS; 1.
+DR   NCBIfam; TIGR00556; pantethn_trn; 1.
+DR   Pfam; PF01648; ACPS; 1.
+DR   SUPFAM; SSF56214; 4'-phosphopantetheinyl transferase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00101};
+KW   Fatty acid biosynthesis {ECO:0000256|ARBA:ARBA00023160, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Fatty acid metabolism {ECO:0000256|ARBA:ARBA00022832, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Lipid biosynthesis {ECO:0000256|ARBA:ARBA00022516, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Lipid metabolism {ECO:0000256|ARBA:ARBA00023098, ECO:0000256|HAMAP-
+KW   Rule:MF_00101};
+KW   Magnesium {ECO:0000256|ARBA:ARBA00022842, ECO:0000256|HAMAP-Rule:MF_00101};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00101}; Reference proteome {ECO:0000313|Proteomes:UP000001426};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_00101}.
+FT   DOMAIN          4..99
+FT                   /note="4'-phosphopantetheinyl transferase"
+FT                   /evidence="ECO:0000259|Pfam:PF01648"
+FT   BINDING         8
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00101"
+FT   BINDING         61
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00101"
+SQ   SEQUENCE   146 AA;  15786 MW;  DCDF05CC0C8E68FB CRC64;
+     MIIGIGSDLI DITRIAKVIE RHGERFLDRV FTEAERAKAE RRAKKSELVA ATYAKRFAAK
+     EACSKALGTG IRQGVWWRDM GVVNLPGGRP TMVLTGGAKT RLDALTPPGM TARIDLSITD
+     EWPLAQAFVV ISAIPAAAEQ AVHTSS
+//

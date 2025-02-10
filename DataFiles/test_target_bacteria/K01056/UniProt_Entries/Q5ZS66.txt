@@ -1,0 +1,117 @@
+ID   PTH_LEGPH               Reviewed;         189 AA.
+AC   Q5ZS66;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   05-FEB-2025, entry version 96.
+DE   RecName: Full=Peptidyl-tRNA hydrolase {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            Short=Pth {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            EC=3.1.1.29 {ECO:0000255|HAMAP-Rule:MF_00083};
+GN   Name=pth {ECO:0000255|HAMAP-Rule:MF_00083}; OrderedLocusNames=lpg2653;
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC
+OS   33152 / DSM 7513).
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513;
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M., Asamani G.,
+RA   Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J., Steshenko V.,
+RA   Park S.H., Zhao B., Teplitskaya E., Edwards J.R., Pampou S., Georghiou A.,
+RA   Chou I.-C., Iannuccilli W., Ulz M.E., Kim D.H., Geringer-Sameth A.,
+RA   Goldsberry C., Morozov P., Fischer S.G., Segal G., Qu X., Rzhetsky A.,
+RA   Zhang P., Cayanis E., De Jong P.J., Ju J., Kalachikov S., Shuman H.A.,
+RA   Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Hydrolyzes ribosome-free peptidyl-tRNAs (with 1 or more amino
+CC       acids incorporated), which drop off the ribosome during protein
+CC       synthesis, or as a result of ribosome stalling. {ECO:0000255|HAMAP-
+CC       Rule:MF_00083}.
+CC   -!- FUNCTION: Catalyzes the release of premature peptidyl moieties from
+CC       peptidyl-tRNA molecules trapped in stalled 50S ribosomal subunits, and
+CC       thus maintains levels of free tRNAs and 50S ribosomes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-acyl-L-alpha-aminoacyl-tRNA + H2O = an N-acyl-L-amino
+CC         acid + a tRNA + H(+); Xref=Rhea:RHEA:54448, Rhea:RHEA-COMP:10123,
+CC         Rhea:RHEA-COMP:13883, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:59874, ChEBI:CHEBI:78442, ChEBI:CHEBI:138191;
+CC         EC=3.1.1.29; Evidence={ECO:0000255|HAMAP-Rule:MF_00083};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SIMILARITY: Belongs to the PTH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00083}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28711.1; -; Genomic_DNA.
+DR   RefSeq; WP_010948353.1; NC_002942.5.
+DR   RefSeq; YP_096658.1; NC_002942.5.
+DR   AlphaFoldDB; Q5ZS66; -.
+DR   SMR; Q5ZS66; -.
+DR   STRING; 272624.lpg2653; -.
+DR   PaxDb; 272624-lpg2653; -.
+DR   GeneID; 57036652; -.
+DR   KEGG; lpn:lpg2653; -.
+DR   PATRIC; fig|272624.6.peg.2831; -.
+DR   eggNOG; COG0193; Bacteria.
+DR   HOGENOM; CLU_062456_3_1_6; -.
+DR   OrthoDB; 9800507at2; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004045; F:aminoacyl-tRNA hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00462; PTH; 1.
+DR   FunFam; 3.40.50.1470:FF:000001; Peptidyl-tRNA hydrolase; 1.
+DR   Gene3D; 3.40.50.1470; Peptidyl-tRNA hydrolase; 1.
+DR   HAMAP; MF_00083; Pept_tRNA_hydro_bact; 1.
+DR   InterPro; IPR001328; Pept_tRNA_hydro.
+DR   InterPro; IPR018171; Pept_tRNA_hydro_CS.
+DR   InterPro; IPR036416; Pept_tRNA_hydro_sf.
+DR   NCBIfam; TIGR00447; pth; 1.
+DR   PANTHER; PTHR17224; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   PANTHER; PTHR17224:SF1; PEPTIDYL-TRNA HYDROLASE; 1.
+DR   Pfam; PF01195; Pept_tRNA_hydro; 1.
+DR   SUPFAM; SSF53178; Peptidyl-tRNA hydrolase-like; 1.
+DR   PROSITE; PS01196; PEPT_TRNA_HYDROL_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Reference proteome; RNA-binding; tRNA-binding.
+FT   CHAIN           1..189
+FT                   /note="Peptidyl-tRNA hydrolase"
+FT                   /id="PRO_0000187758"
+FT   ACT_SITE        21
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         16
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         67
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         69
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   BINDING         115
+FT                   /ligand="tRNA"
+FT                   /ligand_id="ChEBI:CHEBI:17843"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   SITE            11
+FT                   /note="Discriminates between blocked and unblocked
+FT                   aminoacyl-tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+FT   SITE            94
+FT                   /note="Stabilizes the basic form of H active site to accept
+FT                   a proton"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00083"
+SQ   SEQUENCE   189 AA;  21062 MW;  BD1BD1472F6CFB25 CRC64;
+     MVIKLIVGLR NPGSAYEQTR HNAGAWLVTA LAQRHNSHFK IDKKMQAELT EIDINNHPCR
+     LVLPLTFMNH SGQTTRIISQ FYKIEPGEIL IVHDELDLPV GRIKLKTGGG HGGHNGLRDI
+     TAQLGTGEFH RLRIGIGHPG HKDLVHQYVL SRPSMHDRQQ IYDAIDRGIA IIPIVLSGDM
+     ARAMNQVNA
+//

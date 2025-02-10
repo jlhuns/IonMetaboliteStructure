@@ -1,0 +1,128 @@
+ID   A1B7U1_PARDP            Unreviewed;       412 AA.
+AC   A1B7U1;
+DT   23-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   23-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 90.
+DE   SubName: Full=Amidase, hydantoinase/carbamoylase family {ECO:0000313|EMBL:ABL71585.1};
+DE            EC=3.5.1.87 {ECO:0000313|EMBL:ABL71585.1};
+GN   OrderedLocusNames=Pden_3515 {ECO:0000313|EMBL:ABL71585.1};
+OS   Paracoccus denitrificans (strain Pd 1222).
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Rhodobacterales;
+OC   Paracoccaceae; Paracoccus.
+OX   NCBI_TaxID=318586 {ECO:0000313|EMBL:ABL71585.1, ECO:0000313|Proteomes:UP000000361};
+RN   [1] {ECO:0000313|Proteomes:UP000000361}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pd 1222 {ECO:0000313|Proteomes:UP000000361};
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Spiro S.,
+RA   Richardson D.J., Moir J.W.B., Ferguson S.J., van Spanning R.J.M.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome 2 of Paracoccus denitrificans PD1222.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001936};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR001235-1};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000256|PIRSR:PIRSR001235-
+CC       1};
+CC   -!- SIMILARITY: Belongs to the peptidase M20 family.
+CC       {ECO:0000256|ARBA:ARBA00006153}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000490; ABL71585.1; -; Genomic_DNA.
+DR   RefSeq; WP_011749761.1; NC_008687.1.
+DR   AlphaFoldDB; A1B7U1; -.
+DR   STRING; 318586.Pden_3515; -.
+DR   EnsemblBacteria; ABL71585; ABL71585; Pden_3515.
+DR   GeneID; 75502912; -.
+DR   KEGG; pde:Pden_3515; -.
+DR   eggNOG; COG0624; Bacteria.
+DR   HOGENOM; CLU_024588_6_1_5; -.
+DR   OrthoDB; 9808195at2; -.
+DR   Proteomes; UP000000361; Chromosome 2.
+DR   GO; GO:0016813; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050538; F:N-carbamoyl-L-amino-acid hydrolase activity; IEA:UniProtKB-EC.
+DR   CDD; cd03884; M20_bAS; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   Gene3D; 3.40.630.10; Zn peptidases; 1.
+DR   InterPro; IPR010158; Amidase_Cbmase.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   NCBIfam; TIGR01879; hydantase; 1.
+DR   PANTHER; PTHR32494; ALLANTOATE DEIMINASE-RELATED; 1.
+DR   PANTHER; PTHR32494:SF19; ALLANTOATE DEIMINASE-RELATED; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF001235; Amidase_carbamoylase; 1.
+DR   SUPFAM; SSF55031; Bacterial exopeptidase dimerisation domain; 1.
+DR   SUPFAM; SSF53187; Zn-dependent exopeptidases; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000313|EMBL:ABL71585.1};
+KW   Manganese {ECO:0000256|ARBA:ARBA00023211};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR001235-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000361};
+KW   Zinc {ECO:0000256|PIRSR:PIRSR001235-1}.
+FT   DOMAIN          210..302
+FT                   /note="Peptidase M20 dimerisation"
+FT                   /evidence="ECO:0000259|Pfam:PF07687"
+FT   BINDING         83
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         94
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         94
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         129
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         190
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+FT   BINDING         215
+FT                   /ligand="allantoate"
+FT                   /ligand_id="ChEBI:CHEBI:17536"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-2"
+FT   BINDING         278
+FT                   /ligand="allantoate"
+FT                   /ligand_id="ChEBI:CHEBI:17536"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-2"
+FT   BINDING         291
+FT                   /ligand="allantoate"
+FT                   /ligand_id="ChEBI:CHEBI:17536"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-2"
+FT   BINDING         381
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001235-1"
+SQ   SEQUENCE   412 AA;  43714 MW;  7E9E04D43182BDA4 CRC64;
+     MRRNLDASAE AIGRDIDALA RITDPGRPWT RRAFSPRFDE GRDHLRRRFV AGGLQVSTDA
+     GGNLIGLRKG TRPGAGTIML GSHSDTVPDG GRFDGIAGVV VALEVARILA RRGAVLRHDL
+     AVVDFLAEEV SVFGVSCIGS RAMAGVLPQD WLGRTSDGRD LARAMADVGG VPESLHGPLR
+     DDLKAFLELH IEQGPVLEAE RIGLGIVTAI VGITRVEIVI SGRPDHAGTT PMGLRADALA
+     ASARIVTQIE ARATELSAGP AHFTATVGEF EISPNAANVV PARVRMLVDI RAERARDKEA
+     FVTWLTGLEA APGITVETRL ISDNPGVGMD DGLQRKLAEA ADGLGAACRR MVSGAGHDAA
+     FMARLCPSAM VFVPCREGRS HCPEEWAETA DLALAAEVLA NTVMELDRKR EG
+//

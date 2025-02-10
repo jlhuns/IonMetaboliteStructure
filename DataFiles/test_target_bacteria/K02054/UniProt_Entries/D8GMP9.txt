@@ -1,0 +1,87 @@
+ID   D8GMP9_CLOLD            Unreviewed;       288 AA.
+AC   D8GMP9;
+DT   05-OCT-2010, integrated into UniProtKB/TrEMBL.
+DT   05-OCT-2010, sequence version 1.
+DT   05-FEB-2025, entry version 61.
+DE   SubName: Full=Predicted ABC transporter, permease component {ECO:0000313|EMBL:ADK15687.1};
+GN   OrderedLocusNames=CLJU_c26290 {ECO:0000313|EMBL:ADK15687.1};
+OS   Clostridium ljungdahlii (strain ATCC 55383 / DSM 13528 / PETC).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Eubacteriales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=748727 {ECO:0000313|EMBL:ADK15687.1, ECO:0000313|Proteomes:UP000001656};
+RN   [1] {ECO:0000313|EMBL:ADK15687.1, ECO:0000313|Proteomes:UP000001656}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55383 / DSM 13528 /
+RC   PETC {ECO:0000313|Proteomes:UP000001656};
+RX   PubMed=20616070; DOI=10.1073/pnas.1004716107;
+RA   Kopke M., Held C., Hujer S., Liesegang H., Wiezer A., Wollherr A.,
+RA   Ehrenreich A., Liebl W., Gottschalk G., Durre P.;
+RT   "Clostridium ljungdahlii represents a microbial production platform based
+RT   on syngas.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 107:13087-13092(2010).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|ARBA:ARBA00004651,
+CC       ECO:0000256|RuleBase:RU363032}; Multi-pass membrane protein
+CC       {ECO:0000256|ARBA:ARBA00004651, ECO:0000256|RuleBase:RU363032}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. CysTW subfamily. {ECO:0000256|ARBA:ARBA00007069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001666; ADK15687.1; -; Genomic_DNA.
+DR   RefSeq; WP_013239277.1; NZ_LITS01000012.1.
+DR   AlphaFoldDB; D8GMP9; -.
+DR   STRING; 748727.CLJU_c26290; -.
+DR   KEGG; clj:CLJU_c26290; -.
+DR   PATRIC; fig|748727.19.peg.4069; -.
+DR   eggNOG; COG4132; Bacteria.
+DR   HOGENOM; CLU_016047_18_6_9; -.
+DR   OrthoDB; 8404154at2; -.
+DR   Proteomes; UP000001656; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; MetI-like; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   PANTHER; PTHR42929:SF1; INNER MEMBRANE ABC TRANSPORTER PERMEASE PROTEIN YDCU-RELATED; 1.
+DR   PANTHER; PTHR42929; INNER MEMBRANE ABC TRANSPORTER PERMEASE PROTEIN YDCU-RELATED-RELATED; 1.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   SUPFAM; SSF161098; MetI-like; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989,
+KW   ECO:0000256|RuleBase:RU363032};
+KW   Transport {ECO:0000256|ARBA:ARBA00022448, ECO:0000256|RuleBase:RU363032}.
+FT   TRANSMEM        20..43
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        74..95
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        116..139
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        154..177
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        214..236
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   TRANSMEM        260..279
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU363032"
+FT   DOMAIN          70..280
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50928"
+SQ   SEQUENCE   288 AA;  31305 MW;  08871B838E7800CC CRC64;
+     METKYISTIK NEIRRRSLLW LPFIFLIILV LSFEIIPGIY VLINSFITNS GIGLSNYIKV
+     FTSKFYLMSL TNGLTVSICS SLVGLIIGTC AAICLKSLKK DIAERLVSIV NMTSNFSGVP
+     LAFAFIVLLG ANGLITIFFK SKLGINLYSS GFDLYSWMGI ILVYIYFQIP LAIMLMYPAV
+     YAINDDIIEA ASTLGASKFT IWTKIEIPTL IPSLAGSLCI LLANSLGAYA TAYALVGSNK
+     NLVAITIANL VSNDIASDPS LASALSMVLG GILMIFVFVK IKLIKNID
+//

@@ -1,0 +1,90 @@
+ID   A0A0H4VG29_9SPHN        Unreviewed;       205 AA.
+AC   A0A0H4VG29;
+DT   14-OCT-2015, integrated into UniProtKB/TrEMBL.
+DT   06-JUL-2016, sequence version 2.
+DT   27-NOV-2024, entry version 24.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit J {ECO:0000256|RuleBase:RU004429};
+DE            EC=7.1.1.- {ECO:0000256|RuleBase:RU004429};
+GN   ORFNames=CP97_09535 {ECO:0000313|EMBL:AKQ43345.2};
+OS   Aurantiacibacter atlanticus.
+OC   Bacteria; Pseudomonadota; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Aurantiacibacter.
+OX   NCBI_TaxID=1648404 {ECO:0000313|EMBL:AKQ43345.2, ECO:0000313|Proteomes:UP000059113};
+RN   [1] {ECO:0000313|EMBL:AKQ43345.2, ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RX   PubMed=26220886; DOI=10.1099/ijsem.0.000481;
+RA   Zhuang L., Liu Y., Wang L., Wang W., Shao Z.;
+RT   "Erythrobacter atlanticus sp. nov., a bacterium from ocean sediment able to
+RT   degrade polycyclic aromatic hydrocarbons.";
+RL   Int. J. Syst. Evol. Microbiol. 65:3714-3719(2015).
+RN   [2] {ECO:0000313|Proteomes:UP000059113}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=s21-N3 {ECO:0000313|Proteomes:UP000059113};
+RA   Zhuang L., Liu Y., Shao Z.;
+RT   "The complete genome sequence of Erythrobacter sp. s21-N3.";
+RL   Submitted (APR-2015) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. Couples the redox
+CC       reaction to proton translocation (for every two electrons transferred,
+CC       four hydrogen ions are translocated across the cytoplasmic membrane),
+CC       and thus conserves the redox energy in a proton gradient.
+CC       {ECO:0000256|RuleBase:RU004429}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000256|RuleBase:RU004429};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|RuleBase:RU004429};
+CC       Multi-pass membrane protein {ECO:0000256|RuleBase:RU004429}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 6 family.
+CC       {ECO:0000256|ARBA:ARBA00005698, ECO:0000256|RuleBase:RU004429}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP011310; AKQ43345.2; -; Genomic_DNA.
+DR   AlphaFoldDB; A0A0H4VG29; -.
+DR   STRING; 1648404.CP97_09535; -.
+DR   KEGG; ery:CP97_09535; -.
+DR   OrthoDB; 9795409at2; -.
+DR   Proteomes; UP000059113; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.120.1200; NADH-ubiquinone/plastoquinone oxidoreductase chain 6, subunit NuoJ; 1.
+DR   InterPro; IPR001457; NADH_UbQ/plastoQ_OxRdtase_su6.
+DR   InterPro; IPR042106; Nuo/plastoQ_OxRdtase_6_NuoJ.
+DR   PANTHER; PTHR33269; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 6; 1.
+DR   PANTHER; PTHR33269:SF17; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 6; 1.
+DR   Pfam; PF00499; Oxidored_q3; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|RuleBase:RU004429};
+KW   Membrane {ECO:0000256|RuleBase:RU004429};
+KW   NAD {ECO:0000256|RuleBase:RU004429};
+KW   Quinone {ECO:0000256|RuleBase:RU004429};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000059113};
+KW   Transmembrane {ECO:0000256|RuleBase:RU004429};
+KW   Transmembrane helix {ECO:0000256|RuleBase:RU004429};
+KW   Ubiquinone {ECO:0000313|EMBL:AKQ43345.2}.
+FT   TRANSMEM        6..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU004429"
+FT   TRANSMEM        30..49
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU004429"
+FT   TRANSMEM        55..77
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU004429"
+FT   TRANSMEM        89..111
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU004429"
+FT   TRANSMEM        145..166
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|RuleBase:RU004429"
+SQ   SEQUENCE   205 AA;  21966 MW;  79371EFB83F7E8F0 CRC64;
+     MIVFAFYLFA ALVIASAAMT VLARNPVHSV LWLIMAFFNA AGLMVLVGAE FLAMLLIVVY
+     VGAVAVLFLF VVMMLNIDFA ELRAGFMKNA PLGFAIALIL LAELVLGIGA YRAGKLELGT
+     PMGDAAPLLG QSNVESIGAM LYGQYLFLFE VAGIILLVAM VGAIVLTHRE QRSSRGHQNI
+     AKQNARRPDE ATVNVKPEVG KGVEL
+//

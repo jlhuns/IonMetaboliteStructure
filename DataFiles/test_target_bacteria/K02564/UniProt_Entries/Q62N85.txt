@@ -1,0 +1,109 @@
+ID   Q62N85_BACLD            Unreviewed;       248 AA.
+AC   Q62N85;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   RecName: Full=Glucosamine-6-phosphate deaminase {ECO:0000256|HAMAP-Rule:MF_01241};
+DE            EC=3.5.99.6 {ECO:0000256|HAMAP-Rule:MF_01241};
+DE   AltName: Full=GlcN6P deaminase {ECO:0000256|HAMAP-Rule:MF_01241};
+DE            Short=GNPDA {ECO:0000256|HAMAP-Rule:MF_01241};
+DE   AltName: Full=Glucosamine-6-phosphate isomerase {ECO:0000256|HAMAP-Rule:MF_01241};
+GN   Name=nagB {ECO:0000256|HAMAP-Rule:MF_01241,
+GN   ECO:0000313|EMBL:AAU25776.1};
+GN   OrderedLocusNames=BL00085 {ECO:0000313|EMBL:AAU25776.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25776.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25776.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the reversible isomerization-deamination of
+CC       glucosamine 6-phosphate (GlcN6P) to form fructose 6-phosphate (Fru6P)
+CC       and ammonium ion. {ECO:0000256|HAMAP-Rule:MF_01241}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 6-phosphate + H2O = beta-D-fructose 6-
+CC         phosphate + NH4(+); Xref=Rhea:RHEA:12172, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57634, ChEBI:CHEBI:75989; EC=3.5.99.6;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01241};
+CC   -!- PATHWAY: Amino-sugar metabolism; N-acetylneuraminate degradation; D-
+CC       fructose 6-phosphate from N-acetylneuraminate: step 5/5.
+CC       {ECO:0000256|HAMAP-Rule:MF_01241}.
+CC   -!- SIMILARITY: Belongs to the glucosamine/galactosamine-6-phosphate
+CC       isomerase family. NagB subfamily. {ECO:0000256|HAMAP-Rule:MF_01241}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_01241}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25776.1; -; Genomic_DNA.
+DR   RefSeq; WP_011198499.1; NC_006270.3.
+DR   AlphaFoldDB; Q62N85; -.
+DR   STRING; 279010.BL00085; -.
+DR   KEGG; bli:BL00085; -.
+DR   PATRIC; fig|279010.13.peg.4429; -.
+DR   eggNOG; COG0363; Bacteria.
+DR   HOGENOM; CLU_049611_1_1_9; -.
+DR   UniPathway; UPA00629; UER00684.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004342; F:glucosamine-6-phosphate deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042802; F:identical protein binding; IEA:TreeGrafter.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006043; P:glucosamine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006046; P:N-acetylglucosamine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0019262; P:N-acetylneuraminate catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01399; GlcN6P_deaminase; 1.
+DR   FunFam; 3.40.50.1360:FF:000003; Glucosamine-6-phosphate deaminase; 1.
+DR   Gene3D; 3.40.50.1360; -; 1.
+DR   HAMAP; MF_01241; GlcN6P_deamin; 1.
+DR   InterPro; IPR006148; Glc/Gal-6P_isomerase.
+DR   InterPro; IPR004547; Glucosamine6P_isomerase.
+DR   InterPro; IPR018321; Glucosamine6P_isomerase_CS.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   NCBIfam; TIGR00502; nagB; 1.
+DR   PANTHER; PTHR11280; GLUCOSAMINE-6-PHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR11280:SF5; GLUCOSAMINE-6-PHOSPHATE ISOMERASE; 1.
+DR   Pfam; PF01182; Glucosamine_iso; 1.
+DR   SUPFAM; SSF100950; NagB/RpiA/CoA transferase-like; 1.
+DR   PROSITE; PS01161; GLC_GALNAC_ISOMERASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism {ECO:0000256|ARBA:ARBA00023277, ECO:0000256|HAMAP-
+KW   Rule:MF_01241};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01241};
+KW   Isomerase {ECO:0000313|EMBL:AAU25776.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          8..229
+FT                   /note="Glucosamine/galactosamine-6-phosphate isomerase"
+FT                   /evidence="ECO:0000259|Pfam:PF01182"
+FT   ACT_SITE        67
+FT                   /note="Proton acceptor; for enolization step"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        136
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        138
+FT                   /note="Proton acceptor; for ring-opening step"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        143
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01241"
+SQ   SEQUENCE   248 AA;  27360 MW;  03E5769861014F88 CRC64;
+     MKIIEAKDYQ DMSQSAARFI IEQVNRLSAP VLGLATGGTP LGTYQVLRED HARNKTTYKH
+     VYTVNLDEYV GVSPDHENSY TFYMKKQLFD HIDIPLSHTH LPNGMACDQD AECSRYEALI
+     ERLGGIDLQV LGLGLNGHIG FNEPGTPFSS KTHTVELTQS TKEANARYFD SYDAVPSQAI
+     TMGISTIMKS KQILLLVSGE KKAGILAKLL TEEPNEDTPA SVLKTHQDVV IIADSDALSI
+     VKERGMAF
+//

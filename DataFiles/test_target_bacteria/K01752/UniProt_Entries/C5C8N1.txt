@@ -1,0 +1,116 @@
+ID   C5C8N1_MICLC            Unreviewed;       472 AA.
+AC   C5C8N1;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 71.
+DE   RecName: Full=L-serine dehydratase {ECO:0000256|RuleBase:RU366059};
+DE            EC=4.3.1.17 {ECO:0000256|RuleBase:RU366059};
+GN   Name=sdaB {ECO:0000313|EMBL:SQG48712.1};
+GN   OrderedLocusNames=Mlut_02760 {ECO:0000313|EMBL:ACS29833.1};
+GN   ORFNames=NCTC2665_01298 {ECO:0000313|EMBL:SQG48712.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS29833.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS29833.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS29833.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG48712.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG48712.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-serine = pyruvate + NH4(+); Xref=Rhea:RHEA:19169,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:28938, ChEBI:CHEBI:33384; EC=4.3.1.17;
+CC         Evidence={ECO:0000256|ARBA:ARBA00049406,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001966,
+CC         ECO:0000256|RuleBase:RU366059};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000256|ARBA:ARBA00004742}.
+CC   -!- SIMILARITY: Belongs to the iron-sulfur dependent L-serine dehydratase
+CC       family. {ECO:0000256|ARBA:ARBA00008636, ECO:0000256|RuleBase:RU366059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS29833.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG48712.1; -; Genomic_DNA.
+DR   RefSeq; WP_010079534.1; NZ_WBMF01000042.1.
+DR   AlphaFoldDB; C5C8N1; -.
+DR   STRING; 465515.Mlut_02760; -.
+DR   EnsemblBacteria; ACS29833; ACS29833; Mlut_02760.
+DR   KEGG; mlu:Mlut_02760; -.
+DR   PATRIC; fig|465515.4.peg.253; -.
+DR   eggNOG; COG1760; Bacteria.
+DR   HOGENOM; CLU_022305_0_1_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-KW.
+DR   FunFam; 3.30.1330.90:FF:000001; L-serine ammonia-lyase 1; 1.
+DR   Gene3D; 3.30.1330.90; D-3-phosphoglycerate dehydrogenase, domain 3; 1.
+DR   InterPro; IPR029009; ASB_dom_sf.
+DR   InterPro; IPR051318; Fe-S_L-Ser.
+DR   InterPro; IPR004644; Fe-S_L-Ser_mono.
+DR   InterPro; IPR005130; Ser_deHydtase-like_asu.
+DR   InterPro; IPR005131; Ser_deHydtase_bsu.
+DR   NCBIfam; TIGR00720; sda_mono; 1.
+DR   PANTHER; PTHR30182; L-SERINE DEHYDRATASE; 1.
+DR   PANTHER; PTHR30182:SF1; L-SERINE DEHYDRATASE 1; 1.
+DR   Pfam; PF03313; SDH_alpha; 1.
+DR   Pfam; PF03315; SDH_beta; 1.
+DR   SUPFAM; SSF143548; Serine metabolism enzymes domain; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S {ECO:0000256|ARBA:ARBA00022485, ECO:0000256|RuleBase:RU366059};
+KW   Gluconeogenesis {ECO:0000256|ARBA:ARBA00022432,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Iron {ECO:0000256|ARBA:ARBA00023004, ECO:0000256|RuleBase:RU366059};
+KW   Iron-sulfur {ECO:0000256|ARBA:ARBA00023014, ECO:0000256|RuleBase:RU366059};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|RuleBase:RU366059};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723,
+KW   ECO:0000256|RuleBase:RU366059};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738}.
+FT   DOMAIN          4..157
+FT                   /note="Serine dehydratase beta chain"
+FT                   /evidence="ECO:0000259|Pfam:PF03315"
+FT   DOMAIN          195..466
+FT                   /note="Serine dehydratase-like alpha subunit"
+FT                   /evidence="ECO:0000259|Pfam:PF03313"
+SQ   SEQUENCE   472 AA;  50074 MW;  492B99A3CE398CC9 CRC64;
+     MALSVLDLFS IGIGPSSSHT VGPMRAARRF TDSMGQHGVL ERTARVHAEL FGSLAATGVG
+     HGSDTAVLLG LAGQDPETID PDACTGLVEE IVTGGRLPLD GRHEIAFDRQ ADLTLHMRES
+     LPGHPNGMRL TAYDDAGEQL HTRDYYSVGG GFVVTSDELE AELDATKDVN RTDDGDTGEP
+     YPFSTGAELA ARCHEAGLSI AELMLANEAT RHDLDALRTQ LLAIWAVMEE CVHNGVTRTE
+     PILPGGLQVR RRAPALREHL LQTTNRTDPM WAMEWVNLFA LAVNEENASG GRIVTAPTNG
+     AAGIIPAVML YYMRFVLPEG ATQQERDDKV VEFLLTAAAI GILYKRNASI SGAEVGCQGE
+     VGSACSMAAG ALCAVLGGTV DQVENAAEIG IEHNLGLTCD PVGGLVQVPC IERNAIASVK
+     AINAARLALL GDGSHRVTLD QAIKTMRDTG ADMKSKYKET SRGGLAVNVI EC
+//

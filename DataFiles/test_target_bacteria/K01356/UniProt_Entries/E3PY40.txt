@@ -1,0 +1,126 @@
+ID   E3PY40_ACESD            Unreviewed;       208 AA.
+AC   E3PY40;
+DT   11-JAN-2011, integrated into UniProtKB/TrEMBL.
+DT   11-JAN-2011, sequence version 1.
+DT   05-FEB-2025, entry version 80.
+DE   RecName: Full=LexA repressor {ECO:0000256|HAMAP-Rule:MF_00015};
+DE            EC=3.4.21.88 {ECO:0000256|HAMAP-Rule:MF_00015};
+GN   Name=lexA {ECO:0000256|HAMAP-Rule:MF_00015,
+GN   ECO:0000313|EMBL:CBH21355.1};
+GN   OrderedLocusNames=CLOST_1235 {ECO:0000313|EMBL:CBH21355.1};
+OS   Acetoanaerobium sticklandii (strain ATCC 12662 / DSM 519 / JCM 1433 / CCUG
+OS   9281 / NCIMB 10654 / HF) (Clostridium sticklandii).
+OC   Bacteria; Bacillati; Bacillota; Clostridia; Peptostreptococcales;
+OC   Filifactoraceae; Acetoanaerobium.
+OX   NCBI_TaxID=499177 {ECO:0000313|EMBL:CBH21355.1, ECO:0000313|Proteomes:UP000007041};
+RN   [1] {ECO:0000313|Proteomes:UP000007041}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12662 / DSM 519 / JCM 1433 / CCUG 9281 / NCIMB 10654 / HF
+RC   {ECO:0000313|Proteomes:UP000007041};
+RX   PubMed=20937090; DOI=10.1186/1471-2164-11-555;
+RA   Fonknechten N., Chaussonnerie S., Tricot S., Lajus A., Andreesen J.R.,
+RA   Perchat N., Pelletier E., Gouyvenoux M., Barbe V., Salanoubat M.,
+RA   Le Paslier D., Weissenbach J., Cohen G.N., Kreimeyer A.;
+RT   "Clostridium sticklandii, a specialist in amino acid degradation:revisiting
+RT   its metabolism through its genome sequence.";
+RL   BMC Genomics 11:555-555(2010).
+CC   -!- FUNCTION: Represses a number of genes involved in the response to DNA
+CC       damage (SOS response), including recA and lexA. In the presence of
+CC       single-stranded DNA, RecA interacts with LexA causing an autocatalytic
+CC       cleavage which disrupts the DNA-binding part of LexA, leading to
+CC       derepression of the SOS regulon and eventually DNA repair.
+CC       {ECO:0000256|HAMAP-Rule:MF_00015}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of Ala-|-Gly bond in repressor LexA.; EC=3.4.21.88;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00015};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00015}.
+CC   -!- SIMILARITY: Belongs to the peptidase S24 family.
+CC       {ECO:0000256|ARBA:ARBA00007484, ECO:0000256|HAMAP-Rule:MF_00015,
+CC       ECO:0000256|RuleBase:RU003991}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FP565809; CBH21355.1; -; Genomic_DNA.
+DR   AlphaFoldDB; E3PY40; -.
+DR   STRING; 1511.CLOST_1235; -.
+DR   MEROPS; S24.001; -.
+DR   KEGG; cst:CLOST_1235; -.
+DR   eggNOG; COG1974; Bacteria.
+DR   HOGENOM; CLU_066192_45_1_9; -.
+DR   Proteomes; UP000007041; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of DNA-templated transcription; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006508; P:proteolysis; IEA:InterPro.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   CDD; cd00090; HTH_ARSR; 1.
+DR   CDD; cd06529; S24_LexA-like; 1.
+DR   FunFam; 2.10.109.10:FF:000001; LexA repressor; 1.
+DR   Gene3D; 2.10.109.10; Umud Fragment, subunit A; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00015; LexA; 1.
+DR   InterPro; IPR011991; ArsR-like_HTH.
+DR   InterPro; IPR006200; LexA.
+DR   InterPro; IPR039418; LexA-like.
+DR   InterPro; IPR036286; LexA/Signal_pep-like_sf.
+DR   InterPro; IPR006199; LexA_DNA-bd_dom.
+DR   InterPro; IPR050077; LexA_repressor.
+DR   InterPro; IPR006197; Peptidase_S24_LexA.
+DR   InterPro; IPR015927; Peptidase_S24_S26A/B/C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00498; lexA; 1.
+DR   PANTHER; PTHR33516; LEXA REPRESSOR; 1.
+DR   PANTHER; PTHR33516:SF2; LEXA REPRESSOR-RELATED; 1.
+DR   Pfam; PF01726; LexA_DNA_bind; 1.
+DR   Pfam; PF00717; Peptidase_S24; 1.
+DR   PRINTS; PR00726; LEXASERPTASE.
+DR   SUPFAM; SSF51306; LexA/Signal peptidase; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage {ECO:0000256|ARBA:ARBA00022813, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00015};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000007041};
+KW   Repressor {ECO:0000256|ARBA:ARBA00022491, ECO:0000256|HAMAP-Rule:MF_00015};
+KW   SOS response {ECO:0000256|ARBA:ARBA00023236, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Transcription {ECO:0000256|ARBA:ARBA00023163, ECO:0000256|HAMAP-
+KW   Rule:MF_00015};
+KW   Transcription regulation {ECO:0000256|ARBA:ARBA00023015, ECO:0000256|HAMAP-
+KW   Rule:MF_00015}.
+FT   DOMAIN          4..66
+FT                   /note="LexA repressor DNA-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01726"
+FT   DOMAIN          87..199
+FT                   /note="Peptidase S24/S26A/S26B/S26C"
+FT                   /evidence="ECO:0000259|Pfam:PF00717"
+FT   DNA_BIND        29..49
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        129
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   ACT_SITE        167
+FT                   /note="For autocatalytic cleavage activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+FT   SITE            94..95
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00015"
+SQ   SEQUENCE   208 AA;  23588 MW;  551B5EEECBA9C239 CRC64;
+     MYSKINQKQL EILLYIKEEI QKKGYPPSVR EICSAVDLKS TSTVHSHLNK LEEYGYIKKD
+     PTKPRAIEVI LSDDEEGFYR RSSVDIPLLG VVTAGAPILA VENIEEFLPI PSSWVNNGTY
+     FMLKVKGDSM INAGIYDKDT IIVEKTEYAK NGDIVVALIN DDETTVKRFF KEKNRIRLQP
+     ENEAYSPIYP ENISILGVVK TLIRTDVS
+//

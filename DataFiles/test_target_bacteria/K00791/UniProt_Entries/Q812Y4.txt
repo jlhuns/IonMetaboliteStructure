@@ -1,0 +1,109 @@
+ID   MIAA_BACCR              Reviewed;         317 AA.
+AC   Q812Y4;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 122.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=BC_3714;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate = N(6)-
+CC         dimethylallyladenosine(37) in tRNA + diphosphate;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10641.1; -; Genomic_DNA.
+DR   RefSeq; NP_833440.1; NC_004722.1.
+DR   RefSeq; WP_000504930.1; NC_004722.1.
+DR   AlphaFoldDB; Q812Y4; -.
+DR   SMR; Q812Y4; -.
+DR   STRING; 226900.BC_3714; -.
+DR   KEGG; bce:BC3714; -.
+DR   PATRIC; fig|226900.8.peg.3826; -.
+DR   HOGENOM; CLU_032616_0_1_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006400; P:tRNA modification; IBA:GO_Central.
+DR   FunFam; 1.10.20.140:FF:000001; tRNA dimethylallyltransferase; 1.
+DR   Gene3D; 1.10.20.140; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR00174; miaA; 1.
+DR   PANTHER; PTHR11088; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11088:SF60; TRNA DIMETHYLALLYLTRANSFERASE; 1.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Reference proteome;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..317
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_0000163870"
+FT   REGION          39..42
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         14..21
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   BINDING         16..21
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            105
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            128
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   317 AA;  36647 MW;  381B425B835588C6 CRC64;
+     MGEVQREKVA VIIGPTAVGK TKLSIDLAKA LNGEIISGDS MQIYRTMDIG TAKVTKAEMD
+     GIPHYMIDIK NPEDSFSVAE FQERVRKHIR EITERGKLPI IVGGTGLYIQ SVLFDYQFTD
+     DAGDVIYREQ REKLALERGV EYVHEKLQEV DPESAERIHA NNVRRVIRAL EIFHTTGEKM
+     SEQIEKQEKE LLYDVSLIGL TMDREMLYDR INLRVDLMME QGLLEEVEGL YNRGIRDCQS
+     IQAIGYKEIY DYFENRASLE DAVSQLKTNS RRYAKRQLTW FRNKMDVTWF DVTDGEKTSE
+     ILRYIEGKLQ VKSNNSK
+//

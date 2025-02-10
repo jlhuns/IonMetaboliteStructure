@@ -1,0 +1,89 @@
+ID   F2R9C9_STRVP            Unreviewed;       676 AA.
+AC   F2R9C9;
+DT   31-MAY-2011, integrated into UniProtKB/TrEMBL.
+DT   31-MAY-2011, sequence version 1.
+DT   05-FEB-2025, entry version 67.
+DE   RecName: Full=Protein-L-isoaspartate O-methyltransferase {ECO:0000256|ARBA:ARBA00013346};
+DE            EC=2.1.1.77 {ECO:0000256|ARBA:ARBA00011890};
+DE   AltName: Full=L-isoaspartyl protein carboxyl methyltransferase {ECO:0000256|ARBA:ARBA00031350};
+DE   AltName: Full=Protein L-isoaspartyl methyltransferase {ECO:0000256|ARBA:ARBA00030757};
+DE   AltName: Full=Protein-beta-aspartate methyltransferase {ECO:0000256|ARBA:ARBA00031323};
+GN   OrderedLocusNames=SVEN_5686 {ECO:0000313|EMBL:CCA58972.1};
+OS   Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM
+OS   4526 / NBRC 13096 / PD 04745).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Kitasatosporales;
+OC   Streptomycetaceae; Streptomyces.
+OX   NCBI_TaxID=953739 {ECO:0000313|EMBL:CCA58972.1, ECO:0000313|Proteomes:UP000006854};
+RN   [1] {ECO:0000313|EMBL:CCA58972.1, ECO:0000313|Proteomes:UP000006854}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 /
+RC   PD 04745 {ECO:0000313|Proteomes:UP000006854};
+RX   PubMed=21463507; DOI=10.1186/1471-2164-12-175;
+RA   Pullan S.T., Bibb M.J., Merrick M.;
+RT   "Genome-wide analysis of the role of GlnR in Streptomyces venezuelae
+RT   provides new insights into global nitrogen regulation in actinomycetes.";
+RL   BMC Genomics 12:175-175(2011).
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. L-
+CC       isoaspartyl/D-aspartyl protein methyltransferase family.
+CC       {ECO:0000256|ARBA:ARBA00005369}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR845719; CCA58972.1; -; Genomic_DNA.
+DR   AlphaFoldDB; F2R9C9; -.
+DR   STRING; 953739.SVEN_5686; -.
+DR   KEGG; sve:SVEN_5686; -.
+DR   PATRIC; fig|953739.5.peg.908; -.
+DR   eggNOG; COG1051; Bacteria.
+DR   eggNOG; COG2518; Bacteria.
+DR   HOGENOM; CLU_406480_0_0_11; -.
+DR   Proteomes; UP000006854; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004719; F:protein-L-isoaspartate (D-aspartate) O-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0036211; P:protein modification process; IEA:InterPro.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   CDD; cd02883; Nudix_Hydrolase; 1.
+DR   Gene3D; 3.90.79.10; Nucleoside Triphosphate Pyrophosphohydrolase; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR027573; Methyltran_FxLD.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR000682; PCMT.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR04364; methyltran_FxLD; 1.
+DR   PANTHER; PTHR11579; PROTEIN-L-ISOASPARTATE O-METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR11579:SF0; PROTEIN-L-ISOASPARTATE(D-ASPARTATE) O-METHYLTRANSFERASE; 1.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   Pfam; PF01135; PCMT; 1.
+DR   SUPFAM; SSF55811; Nudix; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000006854};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022603}.
+FT   DOMAIN          89..217
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51462"
+SQ   SEQUENCE   676 AA;  72242 MW;  CBE9E88FA7E7A685 CRC64;
+     MYPFVRDRGR TVHGLGERLR DGGALVVITP VVESTPEERR GIALDEDEIT LLGAGWETVE
+     RLDADGLAFL VLRGPCHVDT RAVEKRPTTG HALTGALAVV TDSAGRVLLG RSRRGMLELP
+     GGKTTGPEDF ASAAVRELAE ETGLVANPAD AHVVTMLVDD SHGVPRLTAV VRITAWTGTL
+     TNPEPDKFDR WEFFDLHALA CAGDVFVPAA LAIDAVWPGI IPGLPLATSY PIAAAQPPVP
+     GEPAEAARLR AAMTQTVIDG GWAPSAPVQE ALRTVPRHRF APEVNFLAAY DGGDRAVITR
+     YDETGTAISS VSAAWLQADM IEHLGLKPGA VVFEAGSGGY NAELIAHVTG PGGRVVTVDI
+     DPWVVRRTRR FLTEAGSGRV TAVEADAALG APAPLVPRGG FDASMITYNC WDIAPAWREQ
+     LTEGGRLVLP LEMGGYTRAV TFERRGQVLH ALHFTYCGFV RDQGQQARTI PVLSLLDGGL
+     TLRFEHGAAA DTTGLEEALR GPRHEVPTGV TMGANAYFGS LQLYAATTLA GFCRLAAHQE
+     PDEGVTGIAK DRDAPAIVGD ASFAYLIHVK TKDGDSPQDK KWEWTVHAFG EQGPALAERL
+     ADTVRAWDRH IRAEANDQHA DPVLTVHPAG TPDHALPAGD VLDKDLCRLV FRWPGRDVPP
+     PRPVEHSGAD IVTKGV
+//

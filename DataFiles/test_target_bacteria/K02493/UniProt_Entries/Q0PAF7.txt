@@ -1,0 +1,91 @@
+ID   Q0PAF7_CAMJE            Unreviewed;       271 AA.
+AC   Q0PAF7;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 110.
+DE   RecName: Full=peptide chain release factor N(5)-glutamine methyltransferase {ECO:0000256|ARBA:ARBA00012771};
+DE            EC=2.1.1.297 {ECO:0000256|ARBA:ARBA00012771};
+GN   OrderedLocusNames=Cj0722c {ECO:0000313|EMBL:CAL34859.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34859.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34859.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutaminyl-[peptide chain release factor] + S-adenosyl-L-
+CC         methionine = N(5)-methyl-L-glutaminyl-[peptide chain release factor]
+CC         + S-adenosyl-L-homocysteine + H(+); Xref=Rhea:RHEA:42896, Rhea:RHEA-
+CC         COMP:10271, Rhea:RHEA-COMP:10272, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30011, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:61891; EC=2.1.1.297;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048391};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34859.1; -; Genomic_DNA.
+DR   PIR; E81343; E81343.
+DR   RefSeq; WP_002858549.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344140.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PAF7; -.
+DR   IntAct; Q0PAF7; 4.
+DR   STRING; 192222.Cj0722c; -.
+DR   PaxDb; 192222-Cj0722c; -.
+DR   EnsemblBacteria; CAL34859; CAL34859; Cj0722c.
+DR   GeneID; 905040; -.
+DR   KEGG; cje:Cj0722c; -.
+DR   PATRIC; fig|192222.6.peg.714; -.
+DR   eggNOG; COG2890; Bacteria.
+DR   HOGENOM; CLU_018398_3_2_7; -.
+DR   OrthoDB; 9800643at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0036009; F:protein-glutamine N-methyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 1.10.8.10; DNA helicase RuvA subunit, C-terminal domain; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR004556; HemK-like.
+DR   InterPro; IPR050320; N5-glutamine_MTase.
+DR   InterPro; IPR040758; PrmC_N.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR007848; Small_mtfrase_dom.
+DR   NCBIfam; TIGR00536; hemK_fam; 1.
+DR   PANTHER; PTHR18895; HEMK METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR18895:SF74; MTRF1L RELEASE FACTOR GLUTAMINE METHYLTRANSFERASE; 1.
+DR   Pfam; PF05175; MTS; 1.
+DR   Pfam; PF17827; PrmC_N; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS00092; N6_MTASE; 1.
+PE   4: Predicted;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000313|EMBL:CAL34859.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679}.
+FT   DOMAIN          6..65
+FT                   /note="Release factor glutamine methyltransferase N-
+FT                   terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF17827"
+FT   DOMAIN          100..181
+FT                   /note="Methyltransferase small"
+FT                   /evidence="ECO:0000259|Pfam:PF05175"
+SQ   SEQUENCE   271 AA;  31904 MW;  1649F309FE3B846D CRC64;
+     MTIKNALMEA KSSLKGYENE AVFILCEYLK KDKAWLFLNQ DIKIDHEPYF ELIKRFKSGE
+     PFEYIFEKVD FWGLEFKIKK GILIPRYDSE ILLFQILNLC KKNTFNGILE IGFGSGILSI
+     VLAKELGLKI TACDINPKAL ELALENAQLH KVDHLIDFKL CNFKQIKENY DFIFSNPPYI
+     KNSYPIDIWV QKEPKEALFG GEKGYEILEE IIHFSLDKKV KFLACEFGYD QKEILEKILY
+     QNNFIVDFFK DEQGYNRAFI AKFTNMRYDK K
+//

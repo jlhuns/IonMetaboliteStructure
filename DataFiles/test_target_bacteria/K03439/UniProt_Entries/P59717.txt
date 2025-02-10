@@ -1,0 +1,112 @@
+ID   TRMB_BACCR              Reviewed;         217 AA.
+AC   P59717;
+DT   16-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   OrderedLocusNames=BC_4696;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at position 46
+CC       (m7G46) in tRNA. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(46) in tRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(46) in tRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42708, Rhea:RHEA-COMP:10188, Rhea:RHEA-COMP:10189,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.33; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01057};
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. TrmB family. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11603.1; -; Genomic_DNA.
+DR   RefSeq; NP_834402.1; NC_004722.1.
+DR   RefSeq; WP_001239385.1; NZ_CP034551.1.
+DR   AlphaFoldDB; P59717; -.
+DR   SMR; P59717; -.
+DR   STRING; 226900.BC_4696; -.
+DR   KEGG; bce:BC4696; -.
+DR   PATRIC; fig|226900.8.peg.4859; -.
+DR   HOGENOM; CLU_050910_2_1_9; -.
+DR   OrthoDB; 9802090at2; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0043527; C:tRNA methyltransferase complex; IBA:GO_Central.
+DR   GO; GO:0008176; F:tRNA (guanine(46)-N7)-methyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0036265; P:RNA (guanine-N7)-methylation; IBA:GO_Central.
+DR   GO; GO:0030488; P:tRNA methylation; IBA:GO_Central.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   FunFam; 3.40.50.150:FF:000035; tRNA (guanine-N(7)-)-methyltransferase; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   NCBIfam; TIGR00091; tRNA (guanosine(46)-N7)-methyltransferase TrmB; 1.
+DR   PANTHER; PTHR23417; 3-DEOXY-D-MANNO-OCTULOSONIC-ACID TRANSFERASE/TRNA GUANINE-N 7 - -METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR23417:SF14; PENTACOTRIPEPTIDE-REPEAT REGION OF PRORP DOMAIN-CONTAINING PROTEIN; 1.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..217
+FT                   /note="tRNA (guanine-N(7)-)-methyltransferase"
+FT                   /id="PRO_0000171290"
+FT   ACT_SITE        118
+FT                   /evidence="ECO:0000250"
+FT   BINDING         44
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         69
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         96
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         118
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         122
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         154
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         191..194
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+SQ   SEQUENCE   217 AA;  25573 MW;  BAD77596E615D77A CRC64;
+     MRLRHKPYAM DRINEYSHIV IGNPEERAGS WKEVFGNEQP IHIEVGTGRG RFMYDMAKAN
+     PHINYIGIEK FTSVVVDALD KLIEEELPNL KLINKDAEDL TVFFAKGEID RVYLNFSDPW
+     PKKRHTKRRL TYKTFLRNYE EVLVEGGEIH FKTDNQGLFE YSLMSMAEYG MLLTYLSLDL
+     HNSDFEGNIM TEYEEKFSSK GHRIYRVEAK YRTEPMQ
+//

@@ -1,0 +1,99 @@
+ID   MIMR_MYCS2              Reviewed;         583 AA.
+AC   A0QTU7;
+DT   31-JAN-2018, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 132.
+DE   RecName: Full=Propane 2-monooxygenase operon transcriptional activator MimR {ECO:0000303|PubMed:21856847};
+GN   Name=mimR {ECO:0000303|PubMed:21856847};
+GN   OrderedLocusNames=MSMEG_1970 {ECO:0000312|EMBL:ABK75314.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000312|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=21856847; DOI=10.1128/jb.05525-11;
+RA   Furuya T., Hirose S., Semba H., Kino K.;
+RT   "Identification of the regulator gene responsible for the acetone-
+RT   responsive expression of the binuclear iron monooxygenase gene cluster in
+RT   mycobacteria.";
+RL   J. Bacteriol. 193:5817-5823(2011).
+CC   -!- FUNCTION: Acts as a transcriptional activator of the mimABCD operon
+CC       encoding the propane 2-monooxygenase complex.
+CC       {ECO:0000269|PubMed:21856847}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene are unable to express the
+CC       mimABCD operon. {ECO:0000269|PubMed:21856847}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK75314.1; -; Genomic_DNA.
+DR   RefSeq; WP_011728053.1; NZ_SIJM01000020.1.
+DR   RefSeq; YP_886335.1; NC_008596.1.
+DR   AlphaFoldDB; A0QTU7; -.
+DR   SMR; A0QTU7; -.
+DR   STRING; 246196.MSMEG_1970; -.
+DR   PaxDb; 246196-MSMEI_1926; -.
+DR   GeneID; 93456777; -.
+DR   KEGG; msm:MSMEG_1970; -.
+DR   PATRIC; fig|246196.19.peg.1947; -.
+DR   eggNOG; COG3284; Bacteria.
+DR   OrthoDB; 5496274at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of DNA-templated transcription; IEA:InterPro.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 3.30.450.40; -; 1.
+DR   Gene3D; 1.10.10.60; Homeodomain-like; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   InterPro; IPR029016; GAF-like_dom_sf.
+DR   InterPro; IPR009057; Homeodomain-like_sf.
+DR   InterPro; IPR002197; HTH_Fis.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR002078; Sigma_54_int.
+DR   PANTHER; PTHR32071:SF122; SIGMA FACTOR; 1.
+DR   PANTHER; PTHR32071; TRANSCRIPTIONAL REGULATORY PROTEIN; 1.
+DR   Pfam; PF02954; HTH_8; 1.
+DR   PRINTS; PR01590; HTHFIS.
+DR   SUPFAM; SSF46689; Homeodomain-like; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS50045; SIGMA54_INTERACT_4; 1.
+PE   4: Predicted;
+KW   Activator; ATP-binding; DNA-binding; Nucleotide-binding;
+KW   Reference proteome; Transcription; Transcription regulation.
+FT   CHAIN           1..583
+FT                   /note="Propane 2-monooxygenase operon transcriptional
+FT                   activator MimR"
+FT                   /id="PRO_0000442976"
+FT   DOMAIN          320..513
+FT                   /note="Sigma-54 factor interaction"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00193"
+FT   BINDING         349..356
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00193"
+FT   BINDING         395..404
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00193"
+SQ   SEQUENCE   583 AA;  64130 MW;  A9C1CFBA55F16885 CRC64;
+     MVRHADTPTD AQRAREQFLS TGALQPDAVA SSVLNSWQRS RELHVHPDRV ELPYVRDPDT
+     DTPLMHAAAP VLRRMAEDLS DQSVSVVLTS ADGLVLDRVA ADTEFERVLD DVRLARGYSY
+     AEEFAGTNGI GTALETGRPA FIRGSEHYVG TLGGLACAGS PIREPVTRRI LGVIDLTCRA
+     RQADPLLFVL AKSAGSQIED RLRTMNNETE TALLDAYLKQ SRRYPGGVLA IGGDVVLMNR
+     YLRQALDAAD QTVLLDHAAE LTRSSFTSTT VAHLPSGASV KISAAERIIV GVRSDSVVFH
+     VSVHVAESIP VRSSQHIPRL AGQSSSFRRS AQQVERCYRD REWVVIEGER GSGRTYLGYS
+     VVHFVTPERS IPVLHIDNFD TPESFVAAFE SETDSADFAV IVSDVDELPD EVLNPMAAIM
+     QTRAGRGWIA ATTSTERDSQ LVDLLMLPFF THTVTVPALR HRIEDLQELV PMILNELSRG
+     EARMDGEAMR QLAKLPWPGN IAQLRHVLTE TVRRQRSGVI GVDKLPAECR SVTRRKLTPL
+     EAMERDAIVR SLLENDGNKA DAAAALGMSR ATIYRKIKDF GIA
+//

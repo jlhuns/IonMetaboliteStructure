@@ -1,0 +1,92 @@
+ID   A0A2U2BHT4_ALCFA        Unreviewed;       421 AA.
+AC   A0A2U2BHT4;
+DT   18-JUL-2018, integrated into UniProtKB/TrEMBL.
+DT   18-JUL-2018, sequence version 1.
+DT   05-FEB-2025, entry version 28.
+DE   SubName: Full=RsmB/NOP family class I SAM-dependent RNA methyltransferase {ECO:0000313|EMBL:PWE13585.1};
+GN   ORFNames=DF183_15660 {ECO:0000313|EMBL:PWE13585.1};
+OS   Alcaligenes faecalis.
+OC   Bacteria; Pseudomonadota; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511 {ECO:0000313|EMBL:PWE13585.1, ECO:0000313|Proteomes:UP000245216};
+RN   [1] {ECO:0000313|EMBL:PWE13585.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE13585.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Yang B.;
+RT   "Genome Sequence of an Efficient Indole-Degrading Bacterium, Alcaligenes
+RT   sp.YBY.";
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|EMBL:PWE13585.1, ECO:0000313|Proteomes:UP000245216}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YBY {ECO:0000313|EMBL:PWE13585.1,
+RC   ECO:0000313|Proteomes:UP000245216};
+RA   Lanie J.A., Ng W.-L., Kazmierczak K.M., Andrzejewski T.M., Davidsen T.M.,
+RA   Wayne K.J., Tettelin H., Glass J.I., Rusch D., Podicherti R., Tsui H.-C.T.,
+RA   Winkler M.E.;
+RL   Submitted (MAY-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RsmB/NOP family. {ECO:0000256|PROSITE-ProRule:PRU01023}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|PROSITE-ProRule:PRU01023}.
+CC   -!- CAUTION: The sequence shown here is derived from an EMBL/GenBank/DDBJ
+CC       whole genome shotgun (WGS) entry which is preliminary data.
+CC       {ECO:0000313|EMBL:PWE13585.1}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; QEXO01000004; PWE13585.1; -; Genomic_DNA.
+DR   RefSeq; WP_045931823.1; NZ_SRIW01000018.1.
+DR   AlphaFoldDB; A0A2U2BHT4; -.
+DR   STRING; 511.UZ73_16745; -.
+DR   GeneID; 29371558; -.
+DR   KEGG; afa:UZ73_16745; -.
+DR   Proteomes; UP000245216; Unassembled WGS sequence.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008173; F:RNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0001510; P:RNA methylation; IEA:InterPro.
+DR   CDD; cd02440; AdoMet_MTases; 1.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   InterPro; IPR049560; MeTrfase_RsmB-F_NOP2_cat.
+DR   InterPro; IPR001678; MeTrfase_RsmB-F_NOP2_dom.
+DR   InterPro; IPR023267; RCMT.
+DR   InterPro; IPR054728; RsmB-like_ferredoxin.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   PANTHER; PTHR22807; NOP2 YEAST -RELATED NOL1/NOP2/FMU SUN DOMAIN-CONTAINING; 1.
+DR   PANTHER; PTHR22807:SF53; RIBOSOMAL RNA SMALL SUBUNIT METHYLTRANSFERASE B-RELATED; 1.
+DR   Pfam; PF01189; Methyltr_RsmB-F; 1.
+DR   Pfam; PF22458; RsmF-B_ferredox; 1.
+DR   PRINTS; PR02008; RCMTFAMILY.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+DR   PROSITE; PS51686; SAM_MT_RSMB_NOP; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PROSITE-ProRule:PRU01023};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PROSITE-
+KW   ProRule:PRU01023}.
+FT   ACT_SITE        353
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         253
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+FT   BINDING         300
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU01023"
+SQ   SEQUENCE   421 AA;  47306 MW;  36C971588F9714C0 CRC64;
+     MAQRRLEQVS SALGEVLQWK HPADLALTRW ARTRPKMGSR DRAEIREAVF DVLRHLRQYR
+     NWAESGVGPS TRRLAILGLS TAIGQESLSL GLTEEERQWL GHIRALNVDG LPVGVRLSLP
+     EWLEERLKEI PDSYKLMAAM NEQALLDLRV NPMKAERDTV LRQLQNGPMA RFKPVAMPFS
+     PWGIRIEGRP SVAVWPQYEK GELEIQEEGS QLLTALLEPR RGEMVIDYCA GAGGKSLLLG
+     ALMRSTGRLY AFDVSATRLN KAKPRFARAG LSNVVPVVIQ EAGDQRVRRL HGKAQRVLVD
+     APCSGLGTLR RNPDLKWRQH PQALEQYTQM QADILEQAAA CVAPGGRLVY ATCSFLPEEN
+     EQQVQAFLDK HPEFKLLDAR EILKDKCPAL ALEGPYLNLR TDRHQTDCFF GAALERITES
+     A
+//

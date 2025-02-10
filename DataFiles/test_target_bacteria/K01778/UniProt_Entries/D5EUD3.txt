@@ -1,0 +1,123 @@
+ID   D5EUD3_XYLR2            Unreviewed;       267 AA.
+AC   D5EUD3;
+DT   15-JUN-2010, integrated into UniProtKB/TrEMBL.
+DT   15-JUN-2010, sequence version 1.
+DT   05-FEB-2025, entry version 79.
+DE   RecName: Full=Diaminopimelate epimerase {ECO:0000256|ARBA:ARBA00013080, ECO:0000256|HAMAP-Rule:MF_00197};
+DE            Short=DAP epimerase {ECO:0000256|HAMAP-Rule:MF_00197};
+DE            EC=5.1.1.7 {ECO:0000256|ARBA:ARBA00013080, ECO:0000256|HAMAP-Rule:MF_00197};
+DE   AltName: Full=PLP-independent amino acid racemase {ECO:0000256|HAMAP-Rule:MF_00197};
+GN   Name=dapF {ECO:0000256|HAMAP-Rule:MF_00197,
+GN   ECO:0000313|EMBL:ADE81319.1};
+GN   OrderedLocusNames=PRU_1958 {ECO:0000313|EMBL:ADE81319.1};
+OS   Xylanibacter ruminicola (strain ATCC 19189 / DSM 19721 / CIP 105475 / JCM
+OS   8958 / 23) (Prevotella ruminicola).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Prevotellaceae;
+OC   Xylanibacter.
+OX   NCBI_TaxID=264731 {ECO:0000313|EMBL:ADE81319.1, ECO:0000313|Proteomes:UP000000927};
+RN   [1] {ECO:0000313|EMBL:ADE81319.1, ECO:0000313|Proteomes:UP000000927}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19189 / JCM 8958 / 23 {ECO:0000313|Proteomes:UP000000927};
+RX   PubMed=20585943; DOI=10.1007/s00248-010-9692-8;
+RG   North American Consortium for Rumen Bacteria;
+RA   Purushe J., Fouts D.E., Morrison M., White B.A., Mackie R.I.,
+RA   Coutinho P.M., Henrissat B., Nelson K.E.;
+RT   "Comparative genome analysis of Prevotella ruminicola and Prevotella
+RT   bryantii: insights into their environmental niche.";
+RL   Microb. Ecol. 60:721-729(2010).
+CC   -!- FUNCTION: Catalyzes the stereoinversion of LL-2,6-diaminoheptanedioate
+CC       (L,L-DAP) to meso-diaminoheptanedioate (meso-DAP), a precursor of L-
+CC       lysine and an essential component of the bacterial peptidoglycan.
+CC       {ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,6S)-2,6-diaminoheptanedioate = meso-2,6-
+CC         diaminoheptanedioate; Xref=Rhea:RHEA:15393, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:57791; EC=5.1.1.7;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000599, ECO:0000256|HAMAP-
+CC         Rule:MF_00197};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; DL-2,6-diaminopimelate from LL-2,6-diaminopimelate: step 1/1.
+CC       {ECO:0000256|ARBA:ARBA00005196, ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   -!- SIMILARITY: Belongs to the diaminopimelate epimerase family.
+CC       {ECO:0000256|ARBA:ARBA00010219, ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00197}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002006; ADE81319.1; -; Genomic_DNA.
+DR   RefSeq; WP_013063306.1; NC_014033.1.
+DR   AlphaFoldDB; D5EUD3; -.
+DR   STRING; 264731.PRU_1958; -.
+DR   KEGG; pru:PRU_1958; -.
+DR   eggNOG; COG0253; Bacteria.
+DR   HOGENOM; CLU_053306_3_0_10; -.
+DR   UniPathway; UPA00034; UER00025.
+DR   Proteomes; UP000000927; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0008837; F:diaminopimelate epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   FunFam; 3.10.310.10:FF:000001; Diaminopimelate epimerase; 1.
+DR   Gene3D; 3.10.310.10; Diaminopimelate Epimerase, Chain A, domain 1; 2.
+DR   HAMAP; MF_00197; DAP_epimerase; 1.
+DR   InterPro; IPR018510; DAP_epimerase_AS.
+DR   InterPro; IPR001653; DAP_epimerase_DapF.
+DR   NCBIfam; TIGR00652; DapF; 1.
+DR   PANTHER; PTHR31689:SF0; DIAMINOPIMELATE EPIMERASE; 1.
+DR   PANTHER; PTHR31689; DIAMINOPIMELATE EPIMERASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF01678; DAP_epimerase; 2.
+DR   SUPFAM; SSF54506; Diaminopimelate epimerase-like; 1.
+DR   PROSITE; PS01326; DAP_EPIMERASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|ARBA:ARBA00022605, ECO:0000256|HAMAP-
+KW   Rule:MF_00197}; Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00197};
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000256|HAMAP-Rule:MF_00197};
+KW   Lysine biosynthesis {ECO:0000256|ARBA:ARBA00023154, ECO:0000256|HAMAP-
+KW   Rule:MF_00197}; Reference proteome {ECO:0000313|Proteomes:UP000000927}.
+FT   ACT_SITE        76
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU10125"
+FT   ACT_SITE        76
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        210
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         14
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         67
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         77..78
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         152
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         183
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         201..202
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   BINDING         211..212
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   SITE            154
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+FT   SITE            201
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00197"
+SQ   SEQUENCE   267 AA;  28921 MW;  8EA1658F447AE805 CRC64;
+     MSKIHFTKMH GCGNDYIYVD TTQYNIPDPE AASIKWSHRH KGIGSDGLVL IGKSTVPEAD
+     FTMRIFNADG SEAMMCGNAS RCIGKYLYER GMTDLTEIRL LTLSGVKVLS LHVTDGFVES
+     VTVDMGEPVL ENESQFLPSR NPGHGTFVSM GNPHYVIFTD DVDQVGEAGP ALEYHPAFPQ
+     RCNIEFARVE ADGGIRTRVW ERGSGITQAC GTGACATAVA AALTGKASRT SQIVMDGGTL
+     TIEWSEQDNH VYMTGPAEFV CDGEIAL
+//

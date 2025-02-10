@@ -1,0 +1,82 @@
+ID   Q64QE3_BACFR            Unreviewed;       426 AA.
+AC   Q64QE3;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 92.
+DE   SubName: Full=O-acetylhomoserine (Thiol)-lyase {ECO:0000313|EMBL:BAD50288.1};
+GN   OrderedLocusNames=BF3545 {ECO:0000313|EMBL:BAD50288.1};
+OS   Bacteroides fragilis (strain YCH46).
+OC   Bacteria; Bacteroidota; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=295405 {ECO:0000313|EMBL:BAD50288.1, ECO:0000313|Proteomes:UP000002197};
+RN   [1] {ECO:0000313|EMBL:BAD50288.1, ECO:0000313|Proteomes:UP000002197}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YCH46 {ECO:0000313|EMBL:BAD50288.1,
+RC   ECO:0000313|Proteomes:UP000002197};
+RX   PubMed=15466707; DOI=10.1073/pnas.0404172101;
+RA   Kuwahara T., Yamashita A., Hirakawa H., Nakayama H., Toh H., Okada N.,
+RA   Kuhara S., Hattori M., Hayashi T., Ohnishi Y.;
+RT   "Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions
+RT   regulating cell surface adaptation.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14919-14924(2004).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933,
+CC         ECO:0000256|RuleBase:RU362118};
+CC   -!- SIMILARITY: Belongs to the trans-sulfuration enzymes family.
+CC       {ECO:0000256|ARBA:ARBA00009077, ECO:0000256|RuleBase:RU362118}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006841; BAD50288.1; -; Genomic_DNA.
+DR   RefSeq; WP_005790318.1; NZ_UYXF01000009.1.
+DR   RefSeq; YP_100822.1; NC_006347.1.
+DR   AlphaFoldDB; Q64QE3; -.
+DR   STRING; 295405.BF3545; -.
+DR   GeneID; 66331852; -.
+DR   KEGG; bfr:BF3545; -.
+DR   PATRIC; fig|295405.11.peg.3405; -.
+DR   HOGENOM; CLU_018986_4_2_10; -.
+DR   OrthoDB; 9803729at2; -.
+DR   Proteomes; UP000002197; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:TreeGrafter.
+DR   GO; GO:0004124; F:cysteine synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003961; F:O-acetylhomoserine aminocarboxypropyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0006535; P:cysteine biosynthetic process from serine; IEA:TreeGrafter.
+DR   GO; GO:0071269; P:L-homocysteine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0019346; P:transsulfuration; IEA:InterPro.
+DR   CDD; cd00614; CGS_like; 1.
+DR   FunFam; 3.40.640.10:FF:000035; O-succinylhomoserine sulfhydrylase; 1.
+DR   Gene3D; 3.90.1150.10; Aspartate Aminotransferase, domain 1; 1.
+DR   Gene3D; 3.40.640.10; Type I PLP-dependent aspartate aminotransferase-like (Major domain); 1.
+DR   InterPro; IPR000277; Cys/Met-Metab_PyrdxlP-dep_enz.
+DR   InterPro; IPR006235; OAc-hSer/O-AcSer_sulfhydrylase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   NCBIfam; TIGR01326; OAH_OAS_sulfhy; 1.
+DR   PANTHER; PTHR43797; HOMOCYSTEINE/CYSTEINE SYNTHASE; 1.
+DR   PANTHER; PTHR43797:SF3; O-ACETYLHOMOSERINE SULFHYDRYLASE; 1.
+DR   Pfam; PF01053; Cys_Met_Meta_PP; 1.
+DR   PIRSF; PIRSF001434; CGS; 1.
+DR   SUPFAM; SSF53383; PLP-dependent transferases; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000313|EMBL:BAD50288.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898,
+KW   ECO:0000256|PIRSR:PIRSR001434-2}.
+FT   MOD_RES         208
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR001434-2"
+SQ   SEQUENCE   426 AA;  46454 MW;  A1C78293A608F0B9 CRC64;
+     MAKQFKPETL CVQAGWTPKK GEPRVLPIYQ STTFKYETSE QMARLFDLED SGYFYTRLQN
+     PTNDAVAAKI AALEGGVGAM LTSSGQAANF YAIFNICQAG DHFVCSSAIY GGTFNLFGVT
+     MKKLGIDVTF VSPDAGEEEI SAAFRPNTKA LFGETISNPS LEVLDIEKFA RIAHSHGVPL
+     IVDNTFPTPI NCRPFEWGAD IVVHSTTKYM DGHATSVGGC IVDSGNFDWE AHADKFPGLC
+     TPDESYHGLT YTKAFGKGAY MTKATAQLMR DLGSIQSPQN AFLLNLGLET LHLRMPQHCG
+     NAQKVAEYLA QNDKVAWVNY CGLPGNKYYE LAQKYMPNGS CGVISFGLKG GRELSIKFMD
+     SLKLAAIVTH VADARTCVLH PASHTHRQLT DEQLIEAGVR PDLIRLSVGI ENADDIIADI
+     EQALNA
+//

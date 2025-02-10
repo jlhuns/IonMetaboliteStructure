@@ -1,0 +1,118 @@
+ID   A0A7Z7P7Y7_MICLC        Unreviewed;       193 AA.
+AC   A0A7Z7P7Y7;
+DT   02-JUN-2021, integrated into UniProtKB/TrEMBL.
+DT   02-JUN-2021, sequence version 1.
+DT   05-FEB-2025, entry version 16.
+DE   RecName: Full=dCTP deaminase, dUMP-forming {ECO:0000256|HAMAP-Rule:MF_00146};
+DE            EC=3.5.4.30 {ECO:0000256|HAMAP-Rule:MF_00146};
+DE   AltName: Full=Bifunctional dCTP deaminase:dUTPase {ECO:0000256|HAMAP-Rule:MF_00146};
+DE   AltName: Full=DCD-DUT {ECO:0000256|HAMAP-Rule:MF_00146};
+GN   Name=dcd {ECO:0000256|HAMAP-Rule:MF_00146,
+GN   ECO:0000313|EMBL:SQG47809.1};
+GN   ORFNames=NCTC2665_00574 {ECO:0000313|EMBL:SQG47809.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:SQG47809.1, ECO:0000313|Proteomes:UP000248985};
+RN   [1] {ECO:0000313|EMBL:SQG47809.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG47809.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes both the deamination of
+CC       dCTP to dUTP and the hydrolysis of dUTP to dUMP without releasing the
+CC       toxic dUTP intermediate. {ECO:0000256|HAMAP-Rule:MF_00146}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dCTP + 2 H2O = dUMP + NH4(+) + diphosphate;
+CC         Xref=Rhea:RHEA:19205, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:61481, ChEBI:CHEBI:246422;
+CC         EC=3.5.4.30; Evidence={ECO:0000256|HAMAP-Rule:MF_00146};
+CC   -!- PATHWAY: Pyrimidine metabolism; dUMP biosynthesis; dUMP from dCTP: step
+CC       1/1. {ECO:0000256|HAMAP-Rule:MF_00146}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_00146}.
+CC   -!- SIMILARITY: Belongs to the dCTP deaminase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00146}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation of
+CC       feature annotation. {ECO:0000256|HAMAP-Rule:MF_00146}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LS483396; SQG47809.1; -; Genomic_DNA.
+DR   RefSeq; WP_010080211.1; NZ_WBMF01000073.1.
+DR   AlphaFoldDB; A0A7Z7P7Y7; -.
+DR   SMR; A0A7Z7P7Y7; -.
+DR   KEGG; mlu:Mlut_18990; -.
+DR   UniPathway; UPA00610; UER00667.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0033973; F:dCTP deaminase (dUMP-forming) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008829; F:dCTP deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006226; P:dUMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006229; P:dUTP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0015949; P:nucleobase-containing small molecule interconversion; IEA:TreeGrafter.
+DR   CDD; cd07557; trimeric_dUTPase; 1.
+DR   FunFam; 2.70.40.10:FF:000005; dCTP deaminase, dUMP-forming; 1.
+DR   Gene3D; 2.70.40.10; -; 1.
+DR   HAMAP; MF_00146; dCTP_deaminase; 1.
+DR   InterPro; IPR011962; dCTP_deaminase.
+DR   InterPro; IPR036157; dUTPase-like_sf.
+DR   InterPro; IPR033704; dUTPase_trimeric.
+DR   NCBIfam; TIGR02274; dCTP_deam; 1.
+DR   PANTHER; PTHR42680; DCTP DEAMINASE; 1.
+DR   PANTHER; PTHR42680:SF3; DCTP DEAMINASE; 1.
+DR   Pfam; PF22769; DCD; 1.
+DR   SUPFAM; SSF51283; dUTPase-like; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00146};
+KW   Nucleotide metabolism {ECO:0000256|ARBA:ARBA00023080, ECO:0000256|HAMAP-
+KW   Rule:MF_00146}; Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00146}.
+FT   REGION          163..193
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        163..177
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        182..193
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        129
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         101..106
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         119
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         127..129
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         148
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         162
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   BINDING         174
+FT                   /ligand="dCTP"
+FT                   /ligand_id="ChEBI:CHEBI:61481"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+FT   SITE            116..117
+FT                   /note="Important for bifunctional activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00146"
+SQ   SEQUENCE   193 AA;  21571 MW;  AF678E4152C02894 CRC64;
+     MLLSDRDIRA ELDSGRVGLD PLDPTMVQPA SVDVRLDRFF RLFDNHRYAH IDPRQEQDEL
+     TRLVEVDPDE AFILHPGEFV LGSTYEQVTL PDDLAARLEG KSSLGRLGLL THSTAGFIDP
+     GFSGHVTLEL SNVATLPITL WPGMKIGQLC FFRLSSSAQS PYGTGANQNR YQGQRGPTAS
+     RAHRDFHLTR IER
+//

@@ -1,0 +1,90 @@
+ID   Q0PA62_CAMJE            Unreviewed;       403 AA.
+AC   Q0PA62;
+DT   19-SEP-2006, integrated into UniProtKB/TrEMBL.
+DT   19-SEP-2006, sequence version 1.
+DT   05-FEB-2025, entry version 107.
+DE   RecName: Full=threonine ammonia-lyase {ECO:0000256|ARBA:ARBA00012096};
+DE            EC=4.3.1.19 {ECO:0000256|ARBA:ARBA00012096};
+GN   Name=ilvA {ECO:0000313|EMBL:CAL34956.1};
+GN   OrderedLocusNames=Cj0828c {ECO:0000313|EMBL:CAL34956.1};
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222 {ECO:0000313|EMBL:CAL34956.1, ECO:0000313|Proteomes:UP000000799};
+RN   [1] {ECO:0000313|EMBL:CAL34956.1, ECO:0000313|Proteomes:UP000000799}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168 {ECO:0000313|Proteomes:UP000000799};
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K., Ketley J.M., Churcher C., Basham D.,
+RA   Chillingworth T., Davies R.M., Feltwell T., Holroyd S., Jagels K.,
+RA   Karlyshev A., Moule S., Pallen M.J., Penn C.W., Quail M., Rajandream M.A.,
+RA   Rutherford K.M., VanVliet A., Whitehead S., Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001933};
+CC   -!- SIMILARITY: Belongs to the serine/threonine dehydratase family.
+CC       {ECO:0000256|ARBA:ARBA00010869}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34956.1; -; Genomic_DNA.
+DR   PIR; D81355; D81355.
+DR   RefSeq; WP_002858758.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344235.1; NC_002163.1.
+DR   AlphaFoldDB; Q0PA62; -.
+DR   IntAct; Q0PA62; 10.
+DR   STRING; 192222.Cj0828c; -.
+DR   PaxDb; 192222-Cj0828c; -.
+DR   EnsemblBacteria; CAL34956; CAL34956; Cj0828c.
+DR   GeneID; 904335; -.
+DR   KEGG; cje:Cj0828c; -.
+DR   PATRIC; fig|192222.6.peg.816; -.
+DR   eggNOG; COG1171; Bacteria.
+DR   HOGENOM; CLU_021152_4_1_7; -.
+DR   OrthoDB; 9811476at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0003941; F:L-serine ammonia-lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0004794; F:threonine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:TreeGrafter.
+DR   GO; GO:0006565; P:L-serine catabolic process; IEA:TreeGrafter.
+DR   GO; GO:0006567; P:threonine catabolic process; IEA:InterPro.
+DR   CDD; cd04886; ACT_ThrD-II-like; 1.
+DR   CDD; cd01562; Thr-dehyd; 1.
+DR   FunFam; 3.40.50.1100:FF:000007; L-threonine dehydratase catabolic TdcB; 1.
+DR   Gene3D; 3.40.50.1100; -; 2.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR044561; ACT_ThrD-II-like.
+DR   InterPro; IPR050147; Ser/Thr_Dehydratase.
+DR   InterPro; IPR000634; Ser/Thr_deHydtase_PyrdxlP-BS.
+DR   InterPro; IPR005789; Thr_deHydtase_catblc.
+DR   InterPro; IPR001926; TrpB-like_PALP.
+DR   InterPro; IPR036052; TrpB-like_PALP_sf.
+DR   NCBIfam; TIGR01127; ilvA_1Cterm; 1.
+DR   PANTHER; PTHR48078:SF6; L-THREONINE DEHYDRATASE CATABOLIC TDCB; 1.
+DR   PANTHER; PTHR48078; THREONINE DEHYDRATASE, MITOCHONDRIAL-RELATED; 1.
+DR   Pfam; PF00291; PALP; 1.
+DR   SUPFAM; SSF53686; Tryptophan synthase beta subunit-like PLP-dependent enzymes; 1.
+DR   PROSITE; PS51671; ACT; 1.
+DR   PROSITE; PS00165; DEHYDRATASE_SER_THR; 1.
+PE   3: Inferred from homology;
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000313|EMBL:CAL34956.1};
+KW   Pyridoxal phosphate {ECO:0000256|ARBA:ARBA00022898};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000799}.
+FT   DOMAIN          328..403
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+SQ   SEQUENCE   403 AA;  44138 MW;  4815C4481FB88494 CRC64;
+     MLELNKIYKA KQQISGFVNK TPFIYSSFLS DICQSEIYLK NENLQITGAY KIRGAYNKIA
+     NLSTEQKQHG VIAASAGNHA QGVAISAKKF SIKAVIVMPE STPLLKVSAT KALGAEVILR
+     GDNFDEAYAF ATSYAKENNL SFIHPFEDEF VMAGQGTLML EMLDEISDLD MIIAPVGGGG
+     LISGISSTAK QINPNIKIIG VGAKGAPAMY ESFHAKKIKN AKSVRTIADG IAVRDANPIN
+     FNIILECVDD FIQVDDEEIA NAVLFLLEKH KIIVEGAGAA SVAALLHQKI NTQNHKKIGV
+     VLSGGNIDAQ MLNIIIEKGL FKSYRKMQIY VTLVDKPGAL LHLTDSLKIA NANIVKIDYD
+     RFSTKLDYGD AMISITLETK GKEHQEEIRK ILTQKAFNFY ESF
+//

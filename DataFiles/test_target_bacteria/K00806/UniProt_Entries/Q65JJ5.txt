@@ -1,0 +1,124 @@
+ID   Q65JJ5_BACLD            Unreviewed;       260 AA.
+AC   Q65JJ5; Q62V00;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 129.
+DE   RecName: Full=Isoprenyl transferase {ECO:0000256|HAMAP-Rule:MF_01139};
+DE            EC=2.5.1.- {ECO:0000256|HAMAP-Rule:MF_01139};
+GN   Name=uppS {ECO:0000313|EMBL:AAU23409.1};
+GN   OrderedLocusNames=BL01239 {ECO:0000313|EMBL:AAU23409.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU23409.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU23409.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)
+CC       with allylic pyrophosphates generating different type of terpenoids.
+CC       {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|HAMAP-
+CC         Rule:MF_01139};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01139}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU23409.1; -; Genomic_DNA.
+DR   RefSeq; WP_003181841.1; NC_006322.1.
+DR   AlphaFoldDB; Q65JJ5; -.
+DR   STRING; 279010.BL01239; -.
+DR   GeneID; 66216115; -.
+DR   KEGG; bld:BLi01874; -.
+DR   KEGG; bli:BL01239; -.
+DR   PATRIC; fig|279010.13.peg.1873; -.
+DR   eggNOG; COG0020; Bacteria.
+DR   HOGENOM; CLU_038505_1_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0045547; F:dehydrodolichyl diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0008834; F:di-trans,poly-cis-undecaprenyl-diphosphate synthase activity; IEA:TreeGrafter.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:TreeGrafter.
+DR   GO; GO:0016094; P:polyprenol biosynthetic process; IEA:TreeGrafter.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   FunFam; 3.40.1180.10:FF:000001; (2E,6E)-farnesyl-diphosphate-specific ditrans,polycis-undecaprenyl-diphosphate synthase; 1.
+DR   Gene3D; 3.40.1180.10; Decaprenyl diphosphate synthase-like; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   NCBIfam; TIGR00055; uppS; 1.
+DR   PANTHER; PTHR10291:SF0; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE 2; 1.
+DR   PANTHER; PTHR10291; DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE FAMILY MEMBER; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; Undecaprenyl diphosphate synthase; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01139};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|HAMAP-
+KW   Rule:MF_01139}.
+FT   ACT_SITE        40
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        88
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         40
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         41..44
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         45
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         53
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         57
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         85..87
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         89
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         91
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         208
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         214..216
+FT                   /ligand="substrate"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+FT   BINDING         227
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01139"
+SQ   SEQUENCE   260 AA;  29921 MW;  EC2F62A09249EC59 CRC64;
+     MLNILKNWKN QHSAASNMEC YTKENILKGE IPEHIAIIMD GNGRWAKKRA MPRIAGHHEG
+     MKVVRQTTKL ANELGVKALT LYAFSTENWK RPKLEVDFLM KLPEEFLGTY LPELVEENVR
+     VRMTGDREGL PPHTIRAVEK AIRDTENNDG LILNFALNYG GRAEIVRAAK KIAEEAKKGT
+     LNTEEIDEKL FSDYLMTETL QDPDLLIRTS GEIRLSNFML WQLAYSEFLF TDVLWPDFKD
+     VHLLQAIGEY QRRGRRFGGI
+//

@@ -1,0 +1,141 @@
+ID   Q817G4_BACCR            Unreviewed;       891 AA.
+AC   Q817G4;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 160.
+DE   RecName: Full=DNA polymerase I {ECO:0000256|ARBA:ARBA00020311, ECO:0000256|NCBIfam:TIGR00593};
+DE            EC=2.7.7.7 {ECO:0000256|ARBA:ARBA00012417, ECO:0000256|NCBIfam:TIGR00593};
+GN   Name=polA {ECO:0000256|RuleBase:RU004460};
+GN   OrderedLocusNames=BC_4587 {ECO:0000313|EMBL:AAP11494.1};
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900 {ECO:0000313|EMBL:AAP11494.1, ECO:0000313|Proteomes:UP000001417};
+RN   [1] {ECO:0000313|EMBL:AAP11494.1, ECO:0000313|Proteomes:UP000001417}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711 {ECO:0000313|Proteomes:UP000001417};
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Involved in the transposition of the insertion sequence.
+CC       {ECO:0000256|ARBA:ARBA00002286}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=DNA(n) + a 2'-deoxyribonucleoside 5'-triphosphate = DNA(n+1) +
+CC         diphosphate; Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:17339, Rhea:RHEA-
+CC         COMP:17340, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:173112;
+CC         EC=2.7.7.7; Evidence={ECO:0000256|ARBA:ARBA00049244,
+CC         ECO:0000256|RuleBase:RU004460};
+CC   -!- SUBUNIT: Single-chain monomer with multiple functions.
+CC       {ECO:0000256|ARBA:ARBA00011541, ECO:0000256|RuleBase:RU004460}.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-A family.
+CC       {ECO:0000256|ARBA:ARBA00007705, ECO:0000256|RuleBase:RU004460}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11494.1; -; Genomic_DNA.
+DR   RefSeq; NP_834293.1; NC_004722.1.
+DR   AlphaFoldDB; Q817G4; -.
+DR   KEGG; bce:BC4587; -.
+DR   PATRIC; fig|226900.8.peg.4749; -.
+DR   HOGENOM; CLU_004675_0_0_9; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0008408; F:3'-5' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0008409; F:5'-3' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IBA:GO_Central.
+DR   GO; GO:0006261; P:DNA-templated DNA replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006302; P:double-strand break repair; IBA:GO_Central.
+DR   CDD; cd08637; DNA_pol_A_pol_I_C; 1.
+DR   CDD; cd06140; DNA_polA_I_Bacillus_like_exo; 1.
+DR   CDD; cd09898; H3TH_53EXO; 1.
+DR   CDD; cd09859; PIN_53EXO; 1.
+DR   FunFam; 1.10.150.20:FF:000002; DNA polymerase I; 1.
+DR   FunFam; 1.10.150.20:FF:000003; DNA polymerase I; 1.
+DR   FunFam; 1.20.1060.10:FF:000001; DNA polymerase I; 1.
+DR   FunFam; 3.40.50.1010:FF:000001; DNA polymerase I; 1.
+DR   Gene3D; 3.30.70.370; -; 1.
+DR   Gene3D; 1.10.150.20; 5' to 3' exonuclease, C-terminal subdomain; 2.
+DR   Gene3D; 3.40.50.1010; 5'-nuclease; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   Gene3D; 1.20.1060.10; Taq DNA Polymerase, Chain T, domain 4; 1.
+DR   InterPro; IPR002562; 3'-5'_exonuclease_dom.
+DR   InterPro; IPR020046; 5-3_exonucl_a-hlix_arch_N.
+DR   InterPro; IPR002421; 5-3_exonuclease.
+DR   InterPro; IPR036279; 5-3_exonuclease_C_sf.
+DR   InterPro; IPR019760; DNA-dir_DNA_pol_A_CS.
+DR   InterPro; IPR001098; DNA-dir_DNA_pol_A_palm_dom.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR054690; DNA_polI_exonuclease.
+DR   InterPro; IPR020045; DNA_polI_H3TH.
+DR   InterPro; IPR018320; DNA_polymerase_1.
+DR   InterPro; IPR002298; DNA_polymerase_A.
+DR   InterPro; IPR008918; HhH2.
+DR   InterPro; IPR029060; PIN-like_dom_sf.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   NCBIfam; TIGR00593; pola; 1.
+DR   PANTHER; PTHR10133; DNA POLYMERASE I; 1.
+DR   PANTHER; PTHR10133:SF27; DNA POLYMERASE NU; 1.
+DR   Pfam; PF01367; 5_3_exonuc; 1.
+DR   Pfam; PF02739; 5_3_exonuc_N; 1.
+DR   Pfam; PF00476; DNA_pol_A; 1.
+DR   Pfam; PF22619; DNA_polI_exo1; 1.
+DR   PRINTS; PR00868; DNAPOLI.
+DR   SMART; SM00474; 35EXOc; 1.
+DR   SMART; SM00475; 53EXOc; 1.
+DR   SMART; SM00279; HhH2; 1.
+DR   SMART; SM00482; POLAc; 1.
+DR   SUPFAM; SSF47807; 5' to 3' exonuclease, C-terminal subdomain; 1.
+DR   SUPFAM; SSF56672; DNA/RNA polymerases; 1.
+DR   SUPFAM; SSF88723; PIN domain-like; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS00447; DNA_POLYMERASE_A; 1.
+PE   3: Inferred from homology;
+KW   DNA damage {ECO:0000256|ARBA:ARBA00022763, ECO:0000256|RuleBase:RU004460};
+KW   DNA repair {ECO:0000256|ARBA:ARBA00023204, ECO:0000256|RuleBase:RU004460};
+KW   DNA replication {ECO:0000256|ARBA:ARBA00022705,
+KW   ECO:0000256|RuleBase:RU004460};
+KW   DNA-binding {ECO:0000256|ARBA:ARBA00023125, ECO:0000256|RuleBase:RU004460};
+KW   DNA-directed DNA polymerase {ECO:0000256|ARBA:ARBA00022932,
+KW   ECO:0000256|RuleBase:RU004460};
+KW   Exonuclease {ECO:0000256|ARBA:ARBA00022839};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722};
+KW   Nucleotidyltransferase {ECO:0000256|ARBA:ARBA00022695,
+KW   ECO:0000256|RuleBase:RU004460};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001417};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|RuleBase:RU004460}.
+FT   DOMAIN          17..276
+FT                   /note="5'-3' exonuclease"
+FT                   /evidence="ECO:0000259|SMART:SM00475"
+FT   DOMAIN          315..481
+FT                   /note="3'-5' exonuclease"
+FT                   /evidence="ECO:0000259|SMART:SM00474"
+FT   DOMAIN          648..855
+FT                   /note="DNA-directed DNA polymerase family A palm"
+FT                   /evidence="ECO:0000259|SMART:SM00482"
+SQ   SEQUENCE   891 AA;  100918 MW;  E184917B5B439723 CRC64;
+     MKKIISNLYG EVSILEKKVV LVDGNNIAYR AFFALPLLNN DKGIHTNAIY GFTMMLMRIL
+     EEEKPTHMLV AFDAGKTTFR HKTYSEYKGG RQKTPPELSE QFPFIREMLD AFNVPRYELE
+     NYEADDIMGT LAKEASEQGA SVKVISGDKD LLQLVSDNTL VCIPRKGITE VDEYTKEALF
+     EKYSLSPKQI IDMKGLMGDQ SDNIPGVPGV GEKTAIKLLT QFGTVEEVYE NLDQVSGKKL
+     KEKLEENKEQ ALMSKDLATI ITDAPITVHV DDMAYKGYEA SDVIPMFESL GFTSLLNKLG
+     VTPEETAPAE LDDITFDIVE EVTEEMLQQD SALIVEVQED NYHKADIQGF GIQNENGCYF
+     IQTDIALKSD AFKEWLADGE MRKHTFDAKR AIVALKWNGI DMQGIDFDLL IAAYLLDPAD
+     TDKDFCTVAK MKETHAVKSD EEVYGKGAKR AVPELKVVAE HVARKVHVLY DVKQTFVEEL
+     KKNEQYELFT ELELPLARVL ADMEVKGVKV DTERLRNMGE ELAGRLKEME QEIYKLAGTE
+     FNINSPKQLG VILFENLNLP VIKKTKTGYS TSADVLDKLM NHHEIIPNIL HYRQLGKLNS
+     TYIEGLLKVV HEDSSKIHTR FNQVLTQTGR LSSTDPNLQN IPIRLEEGRK IRQAFVPSEE
+     GWIMYAADYS QIELRVLAHI ANDKGLVEAF QHDMDIHTKT AMDVFGVEKD EVTSNMRRQA
+     KAVNFGIVYG ISDYGLSQNL GITRKAAAEF IEKYLESFPG VQEYMEDIVK DAKQKGYVAT
+     LLNRRRYIPE ITSRNFNLRS FAERTAMNTP IQGTAADIIK KAMIIMADRL EEEGLQARLL
+     LQVHDELIFE APKEEIEKLE QLVPEVMEHA IELAVPLKVD YSYGPTWYDA K
+//

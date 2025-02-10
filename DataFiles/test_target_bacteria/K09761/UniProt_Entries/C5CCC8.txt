@@ -1,0 +1,121 @@
+ID   C5CCC8_MICLC            Unreviewed;       253 AA.
+AC   C5CCC8;
+DT   28-JUL-2009, integrated into UniProtKB/TrEMBL.
+DT   28-JUL-2009, sequence version 1.
+DT   05-FEB-2025, entry version 76.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase E {ECO:0000256|PIRNR:PIRNR015601};
+DE            EC=2.1.1.193 {ECO:0000256|PIRNR:PIRNR015601};
+GN   Name=rsmE {ECO:0000313|EMBL:SQG49698.1};
+GN   OrderedLocusNames=Mlut_12350 {ECO:0000313|EMBL:ACS30740.1};
+GN   ORFNames=NCTC2665_02256 {ECO:0000313|EMBL:SQG49698.1};
+OS   Micrococcus luteus (strain ATCC 4698 / DSM 20030 / JCM 1464 / CCM 169 /
+OS   CCUG 5858 / IAM 1056 / NBRC 3333 / NCIMB 9278 / NCTC 2665 / VKM Ac-2230)
+OS   (Micrococcus lysodeikticus).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Micrococcales;
+OC   Micrococcaceae; Micrococcus.
+OX   NCBI_TaxID=465515 {ECO:0000313|EMBL:ACS30740.1, ECO:0000313|Proteomes:UP000000738};
+RN   [1] {ECO:0000313|EMBL:ACS30740.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=NCTC 2665 {ECO:0000313|EMBL:ACS30740.1};
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Lowry S., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Lykidis A., Young M., Greenblatt C.;
+RT   "Complete sequence of Micrococcus luteus NCTC 2665.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+RN   [2] {ECO:0000313|Proteomes:UP000000738}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 4698 / DSM 20030 / JCM 1464 / NBRC 3333 / NCIMB 9278 /
+RC   NCTC 2665 / VKM Ac-2230 {ECO:0000313|Proteomes:UP000000738};
+RX   PubMed=19948807; DOI=10.1128/JB.01254-09;
+RA   Young M., Artsatbanov V., Beller H.R., Chandra G., Chater K.F., Dover L.G.,
+RA   Goh E.B., Kahan T., Kaprelyants A.S., Kyrpides N., Lapidus A., Lowry S.R.,
+RA   Lykidis A., Mahillon J., Markowitz V., Mavromatis K., Mukamolova G.V.,
+RA   Oren A., Rokem J.S., Smith M.C., Young D.I., Greenblatt C.L.;
+RT   "Genome sequence of the Fleming strain of Micrococcus luteus, a simple
+RT   free-living actinobacterium.";
+RL   J. Bacteriol. 192:841-860(2010).
+RN   [3] {ECO:0000313|EMBL:SQG49698.1, ECO:0000313|Proteomes:UP000248985}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC2665 {ECO:0000313|EMBL:SQG49698.1,
+RC   ECO:0000313|Proteomes:UP000248985};
+RG   Pathogen Informatics;
+RA   Doyle S.;
+RL   Submitted (JUN-2018) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the N3 position of the uracil ring of
+CC       uridine 1498 (m3U1498) in 16S rRNA. Acts on the fully assembled 30S
+CC       ribosomal subunit. {ECO:0000256|ARBA:ARBA00025699,
+CC       ECO:0000256|PIRNR:PIRNR015601}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=uridine(1498) in 16S rRNA + S-adenosyl-L-methionine = N(3)-
+CC         methyluridine(1498) in 16S rRNA + S-adenosyl-L-homocysteine + H(+);
+CC         Xref=Rhea:RHEA:42920, Rhea:RHEA-COMP:10283, Rhea:RHEA-COMP:10284,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74502; EC=2.1.1.193;
+CC         Evidence={ECO:0000256|ARBA:ARBA00047944,
+CC         ECO:0000256|PIRNR:PIRNR015601};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|ARBA:ARBA00004496,
+CC       ECO:0000256|PIRNR:PIRNR015601}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase RsmE family.
+CC       {ECO:0000256|ARBA:ARBA00005528, ECO:0000256|PIRNR:PIRNR015601}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001628; ACS30740.1; -; Genomic_DNA.
+DR   EMBL; LS483396; SQG49698.1; -; Genomic_DNA.
+DR   RefSeq; WP_010078620.1; NZ_WBMF01000079.1.
+DR   AlphaFoldDB; C5CCC8; -.
+DR   STRING; 465515.Mlut_12350; -.
+DR   EnsemblBacteria; ACS30740; ACS30740; Mlut_12350.
+DR   KEGG; mlu:Mlut_12350; -.
+DR   PATRIC; fig|465515.4.peg.1176; -.
+DR   eggNOG; COG1385; Bacteria.
+DR   HOGENOM; CLU_067442_2_0_11; -.
+DR   Proteomes; UP000000738; Chromosome.
+DR   Proteomes; UP000248985; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070042; F:rRNA (uridine-N3-)-methyltransferase activity; IEA:TreeGrafter.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:TreeGrafter.
+DR   CDD; cd18084; RsmE-like; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   Gene3D; 2.40.240.20; Hypothetical PUA domain-like, domain 1; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR006700; RsmE.
+DR   InterPro; IPR046886; RsmE_MTase_dom.
+DR   InterPro; IPR046887; RsmE_PUA-like.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   NCBIfam; TIGR00046; RsmE family RNA methyltransferase; 1.
+DR   PANTHER; PTHR30027:SF3; 16S RRNA (URACIL(1498)-N(3))-METHYLTRANSFERASE; 1.
+DR   PANTHER; PTHR30027; RIBOSOMAL RNA SMALL SUBUNIT METHYLTRANSFERASE E; 1.
+DR   Pfam; PF04452; Methyltrans_RNA; 1.
+DR   Pfam; PF20260; PUA_4; 1.
+DR   PIRSF; PIRSF015601; MTase_slr0722; 1.
+DR   SUPFAM; SSF75217; alpha/beta knot; 1.
+DR   SUPFAM; SSF88697; PUA domain-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|PIRNR:PIRNR015601};
+KW   Methyltransferase {ECO:0000256|ARBA:ARBA00022603,
+KW   ECO:0000256|PIRNR:PIRNR015601};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000738};
+KW   rRNA processing {ECO:0000256|ARBA:ARBA00022552,
+KW   ECO:0000256|PIRNR:PIRNR015601};
+KW   S-adenosyl-L-methionine {ECO:0000256|ARBA:ARBA00022691,
+KW   ECO:0000256|PIRNR:PIRNR015601};
+KW   Transferase {ECO:0000256|ARBA:ARBA00022679, ECO:0000256|PIRNR:PIRNR015601}.
+FT   DOMAIN          26..70
+FT                   /note="Ribosomal RNA small subunit methyltransferase E PUA-
+FT                   like"
+FT                   /evidence="ECO:0000259|Pfam:PF20260"
+FT   DOMAIN          79..247
+FT                   /note="Ribosomal RNA small subunit methyltransferase E
+FT                   methyltransferase"
+FT                   /evidence="ECO:0000259|Pfam:PF04452"
+SQ   SEQUENCE   253 AA;  25652 MW;  8F86D6B0D44C97CA CRC64;
+     MTAPLFHLEP GALAGASAGV EVDFGGPEAR HAAAAMRLAP GETVILADGS GTLGHGTVLA
+     AAPDGVSVRL DAVAEEPAPT PALVLVQALA KGDRDLMAVQ AAVELGVDAV VPWEAERSIV
+     RWKGPKAAKA RQKWADTARA AAKQARRARV PAVRDHVSGT AVAGLVRDDG GGRLVLVLHE
+     DVEHGVSSVP AERLSEAAEI AVVVGPEGGI GPAELEACVA AGAVPVRLGP HVLRASTAGP
+     AALAVLQHRL GRW
+//

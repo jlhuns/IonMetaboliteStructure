@@ -1,0 +1,287 @@
+ID   RUVB_CAMJE              Reviewed;         335 AA.
+AC   Q9PMT7; Q0P8P7;
+DT   03-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-FEB-2025, entry version 135.
+DE   RecName: Full=Holliday junction branch migration complex subunit RuvB {ECO:0000255|HAMAP-Rule:MF_00016};
+DE            EC=3.6.4.- {ECO:0000255|HAMAP-Rule:MF_00016};
+GN   Name=ruvB {ECO:0000255|HAMAP-Rule:MF_00016,
+GN   ECO:0000303|PubMed:10688204}; OrderedLocusNames=Cj1362;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+RN   [2] {ECO:0007744|PDB:3PFI}
+RP   X-RAY CRYSTALLOGRAPHY (2.69 ANGSTROMS) IN COMPLEX WITH ADP.
+RA   Halavaty A.S., Wawrzak Z., Skarina T., Onopriyenko O., Edwards A.,
+RA   Savchenko A., Anderson W.F.;
+RT   "2.7 Angstrom resolution crystal structure of a probable holliday junction
+RT   DNA helicase (ruvB) from Campylobacter jejuni subsp. jejuni NCTC 11168 in
+RT   complex with adenosine-5'-diphosphate.";
+RL   Submitted (OCT-2010) to the PDB data bank.
+CC   -!- FUNCTION: The RuvA-RuvB-RuvC complex processes Holliday junction (HJ)
+CC       DNA during genetic recombination and DNA repair, while the RuvA-RuvB
+CC       complex plays an important role in the rescue of blocked DNA
+CC       replication forks via replication fork reversal (RFR). RuvA
+CC       specifically binds to HJ cruciform DNA, conferring on it an open
+CC       structure. The RuvB hexamer acts as an ATP-dependent pump, pulling
+CC       dsDNA into and through the RuvAB complex. RuvB forms 2 homohexamers on
+CC       either side of HJ DNA bound by 1 or 2 RuvA tetramers; 4 subunits per
+CC       hexamer contact DNA at a time. Coordinated motions by a converter
+CC       formed by DNA-disengaged RuvB subunits stimulates ATP hydrolysis and
+CC       nucleotide exchange. Immobilization of the converter enables RuvB to
+CC       convert the ATP-contained energy into a lever motion, pulling 2
+CC       nucleotides of DNA out of the RuvA tetramer per ATP hydrolyzed, thus
+CC       driving DNA branch migration. The RuvB motors rotate together with the
+CC       DNA substrate, which together with the progressing nucleotide cycle
+CC       form the mechanistic basis for DNA recombination by continuous HJ
+CC       branch migration. Branch migration allows RuvC to scan DNA until it
+CC       finds its consensus sequence, where it cleaves and resolves cruciform
+CC       DNA. {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + phosphate + H(+); Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00016};
+CC   -!- SUBUNIT: Homohexamer. Forms an RuvA(8)-RuvB(12)-Holliday junction (HJ)
+CC       complex. HJ DNA is sandwiched between 2 RuvA tetramers; dsDNA enters
+CC       through RuvA and exits via RuvB. An RuvB hexamer assembles on each DNA
+CC       strand where it exits the tetramer. Each RuvB hexamer is contacted by
+CC       two RuvA subunits (via domain III) on 2 adjacent RuvB subunits; this
+CC       complex drives branch migration. In the full resolvosome a probable
+CC       DNA-RuvA(4)-RuvB(12)-RuvC(2) complex forms which resolves the HJ.
+CC       {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- DOMAIN: Has 3 domains, the large (RuvB-L) and small ATPase (RuvB-S)
+CC       domains and the C-terminal head (RuvB-H) domain. The head domain binds
+CC       DNA, while the ATPase domains jointly bind ATP, ADP or are empty
+CC       depending on the state of the subunit in the translocation cycle.
+CC       During a single DNA translocation step the structure of each domain
+CC       remains the same, but their relative positions change.
+CC       {ECO:0000255|HAMAP-Rule:MF_00016}.
+CC   -!- SIMILARITY: Belongs to the RuvB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35474.1; -; Genomic_DNA.
+DR   PIR; G81280; G81280.
+DR   RefSeq; WP_002856258.1; NZ_SZUC01000003.1.
+DR   RefSeq; YP_002344750.1; NC_002163.1.
+DR   PDB; 3PFI; X-ray; 2.69 A; A/B=1-335.
+DR   PDBsum; 3PFI; -.
+DR   AlphaFoldDB; Q9PMT7; -.
+DR   SMR; Q9PMT7; -.
+DR   IntAct; Q9PMT7; 9.
+DR   STRING; 192222.Cj1362; -.
+DR   PaxDb; 192222-Cj1362; -.
+DR   EnsemblBacteria; CAL35474; CAL35474; Cj1362.
+DR   GeneID; 905655; -.
+DR   KEGG; cje:Cj1362; -.
+DR   PATRIC; fig|192222.6.peg.1343; -.
+DR   eggNOG; COG2255; Bacteria.
+DR   HOGENOM; CLU_055599_1_0_7; -.
+DR   OrthoDB; 9804478at2; -.
+DR   EvolutionaryTrace; Q9PMT7; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048476; C:Holliday junction resolvase complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0140849; F:ATP-dependent H2AZ histone chaperone activity; IEA:RHEA.
+DR   GO; GO:0140665; F:ATP-dependent H3-H4 histone complex chaperone activity; IEA:RHEA.
+DR   GO; GO:0140584; F:chromatin extrusion motor activity; IEA:RHEA.
+DR   GO; GO:0061775; F:cohesin loader activity; IEA:RHEA.
+DR   GO; GO:0003689; F:DNA clamp loader activity; IEA:RHEA.
+DR   GO; GO:0036121; F:double-stranded DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061749; F:forked DNA-dependent helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000400; F:four-way junction DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009378; F:four-way junction helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:1990518; F:single-stranded 3'-5' DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd00009; AAA; 1.
+DR   Gene3D; 1.10.8.60; -; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   Gene3D; 1.10.10.10; Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain; 1.
+DR   HAMAP; MF_00016; DNA_HJ_migration_RuvB; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR041445; AAA_lid_4.
+DR   InterPro; IPR004605; DNA_helicase_Holl-junc_RuvB.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR008824; RuvB-like_N.
+DR   InterPro; IPR008823; RuvB_C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   NCBIfam; TIGR00635; ruvB; 1.
+DR   PANTHER; PTHR42848; -; 1.
+DR   PANTHER; PTHR42848:SF1; HOLLIDAY JUNCTION BRANCH MIGRATION COMPLEX SUBUNIT RUVB; 1.
+DR   Pfam; PF17864; AAA_lid_4; 1.
+DR   Pfam; PF05491; RuvB_C; 1.
+DR   Pfam; PF05496; RuvB_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   SUPFAM; SSF46785; Winged helix' DNA-binding domain; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cytoplasm; DNA damage; DNA recombination;
+KW   DNA repair; DNA-binding; Hydrolase; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..335
+FT                   /note="Holliday junction branch migration complex subunit
+FT                   RuvB"
+FT                   /id="PRO_0000165510"
+FT   REGION          1..181
+FT                   /note="Large ATPase domain (RuvB-L)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   REGION          182..252
+FT                   /note="Small ATPAse domain (RuvB-S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   REGION          255..335
+FT                   /note="Head domain (RuvB-H)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   BINDING         20
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   BINDING         21
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         28
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0007744|PDB:3PFI"
+FT   BINDING         29
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0007744|PDB:3PFI"
+FT   BINDING         62
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         63
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0007744|PDB:3PFI"
+FT   BINDING         64
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0007744|PDB:3PFI"
+FT   BINDING         65
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         66
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         67
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         128..130
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   BINDING         171
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   BINDING         181
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         218
+FT                   /ligand="ADP"
+FT                   /ligand_id="ChEBI:CHEBI:456216"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016,
+FT                   ECO:0007744|PDB:3PFI"
+FT   BINDING         309
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   BINDING         314
+FT                   /ligand="DNA"
+FT                   /ligand_id="ChEBI:CHEBI:16991"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00016"
+FT   HELIX           25..27
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           32..47
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          55..58
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           65..75
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          80..84
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           85..87
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           91..99
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          106..110
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           112..114
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           117..128
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          153..159
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           161..163
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           166..169
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          173..177
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           183..196
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           203..211
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   TURN            212..215
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           217..233
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          237..239
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           241..251
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           260..271
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           279..285
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           290..295
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           298..303
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          306..310
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   STRAND          313..316
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+FT   HELIX           318..327
+FT                   /evidence="ECO:0007829|PDB:3PFI"
+SQ   SEQUENCE   335 AA;  37312 MW;  84C75FBCB75F4441 CRC64;
+     MDRIVEIEKY SFDETYETSL RPSNFDGYIG QESIKKNLNV FIAAAKKRNE CLDHILFSGP
+     AGLGKTTLAN IISYEMSANI KTTAAPMIEK SGDLAAILTN LSEGDILFID EIHRLSPAIE
+     EVLYPAMEDY RLDIIIGSGP AAQTIKIDLP KFTLIGATTR AGMLSNPLRD RFGMQFRLEF
+     YKDSELALIL QKAALKLNKT CEEKAALEIA KRSRSTPRIA LRLLKRVRDF ADVNDEEIIT
+     EKRANEALNS LGVNELGFDA MDLRYLELLT AAKQKPIGLA SIAAALSEDE NTIEDVIEPY
+     LLANGYIERT AKGRIASAKS YSALKLNYEK TLFEE
+//

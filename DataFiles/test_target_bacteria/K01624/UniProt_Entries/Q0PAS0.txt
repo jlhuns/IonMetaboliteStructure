@@ -1,0 +1,208 @@
+ID   ALF_CAMJE               Reviewed;         354 AA.
+AC   Q0PAS0; P53818;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2006, sequence version 1.
+DT   27-NOV-2024, entry version 99.
+DE   RecName: Full=Fructose-bisphosphate aldolase;
+DE            Short=FBP aldolase;
+DE            Short=FBPA;
+DE            EC=4.1.2.13;
+DE   AltName: Full=Fructose-1,6-bisphosphate aldolase;
+GN   Name=fba; Synonyms=fda, fdaC; OrderedLocusNames=Cj0597;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Catalyzes the aldol condensation of dihydroxyacetone
+CC       phosphate (DHAP or glycerone-phosphate) with glyceraldehyde 3-phosphate
+CC       (G3P) to form fructose 1,6-bisphosphate (FBP) in gluconeogenesis and
+CC       the reverse reaction in glycolysis. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-fructose 1,6-bisphosphate = D-glyceraldehyde 3-
+CC         phosphate + dihydroxyacetone phosphate; Xref=Rhea:RHEA:14729,
+CC         ChEBI:CHEBI:32966, ChEBI:CHEBI:57642, ChEBI:CHEBI:59776; EC=4.1.2.13;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 2 Zn(2+) ions per subunit. One is catalytic and the other
+CC       provides a structural contribution. {ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 4/4.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class II fructose-bisphosphate aldolase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL34743.1; -; Genomic_DNA.
+DR   PIR; S52413; S52413.
+DR   RefSeq; WP_002852272.1; NZ_SZUC01000002.1.
+DR   RefSeq; YP_002344027.1; NC_002163.1.
+DR   PDB; 3QM3; X-ray; 1.85 A; A/B/C/D/E/F/G/H=1-354.
+DR   PDBsum; 3QM3; -.
+DR   AlphaFoldDB; Q0PAS0; -.
+DR   SMR; Q0PAS0; -.
+DR   IntAct; Q0PAS0; 9.
+DR   STRING; 192222.Cj0597; -.
+DR   PaxDb; 192222-Cj0597; -.
+DR   EnsemblBacteria; CAL34743; CAL34743; Cj0597.
+DR   GeneID; 904922; -.
+DR   KEGG; cje:Cj0597; -.
+DR   PATRIC; fig|192222.6.peg.589; -.
+DR   eggNOG; COG0191; Bacteria.
+DR   HOGENOM; CLU_036923_0_0_7; -.
+DR   OrthoDB; 9803995at2; -.
+DR   UniPathway; UPA00109; UER00183.
+DR   EvolutionaryTrace; Q0PAS0; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0004332; F:fructose-bisphosphate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:TreeGrafter.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00946; FBP_aldolase_IIA; 1.
+DR   FunFam; 3.20.20.70:FF:000013; Class II fructose-bisphosphate aldolase; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000771; FBA_II.
+DR   InterPro; IPR006411; Fruct_bisP_bact.
+DR   NCBIfam; TIGR00167; cbbA; 1.
+DR   NCBIfam; TIGR01520; FruBisAldo_II_A; 1.
+DR   PANTHER; PTHR30559:SF0; FRUCTOSE-BISPHOSPHATE ALDOLASE; 1.
+DR   PANTHER; PTHR30559; FRUCTOSE-BISPHOSPHATE ALDOLASE CLASS 2; 1.
+DR   Pfam; PF01116; F_bP_aldolase; 1.
+DR   PIRSF; PIRSF001359; F_bP_aldolase_II; 1.
+DR   SUPFAM; SSF51569; Aldolase; 1.
+DR   PROSITE; PS00602; ALDOLASE_CLASS_II_1; 1.
+DR   PROSITE; PS00806; ALDOLASE_CLASS_II_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Glycolysis; Lyase; Metal-binding; Reference proteome; Zinc.
+FT   CHAIN           1..354
+FT                   /note="Fructose-bisphosphate aldolase"
+FT                   /id="PRO_0000178711"
+FT   ACT_SITE        104
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         61
+FT                   /ligand="D-glyceraldehyde 3-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:59776"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         105
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         139
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         169
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         221
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         222
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         260
+FT                   /ligand="Zn(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:29105"
+FT                   /ligand_label="1"
+FT                   /ligand_note="catalytic"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         261..263
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         282..285
+FT                   /ligand="dihydroxyacetone phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:57642"
+FT                   /evidence="ECO:0000250"
+FT   HELIX           3..5
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          9..11
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           14..16
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           17..27
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          31..35
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           39..52
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          56..60
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           62..69
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           76..95
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          98..103
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           108..110
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           111..128
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          134..137
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           145..161
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          165..169
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   TURN            188..190
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           194..204
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   TURN            205..207
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          211..214
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           234..246
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          257..259
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           267..275
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          278..283
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           285..302
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           303..305
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          306..312
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   STRAND          315..319
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           321..324
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+FT   HELIX           326..347
+FT                   /evidence="ECO:0007829|PDB:3QM3"
+SQ   SEQUENCE   354 AA;  38730 MW;  E4ACB44EA1860135 CRC64;
+     MGVLDIVKAG VISGDELNKI YDYAKAEGFA IPAVNVVGTD SINAVLEAAK KVNSPVIIQF
+     SNGGAKFYAG KNCPNGEVLG AISGAKHVHL LAKAYGVPVI LHTDHAARKL LPWIDGLIEA
+     NAQYKKTHGQ ALFSSHMLDL SEESLEENLS TCEVYLQKLD ALGVALEIEL GCTGGEEDGV
+     DNTGIDNSKL YTQPEDVALA YERLGKISDK FSIAASFGNV HGVYKPGNVS LQPEILKNSQ
+     KFVKDKFALN SDKPINFVFH GGSGSELKDI KNAVSYGVIK MNIDTDTQWA FWDGVREYEL
+     KNRAYLQGQI GNPEGDDKPN KKYYDPRVWL RSGEESMIKR LEIAFEDLNC INKN
+//

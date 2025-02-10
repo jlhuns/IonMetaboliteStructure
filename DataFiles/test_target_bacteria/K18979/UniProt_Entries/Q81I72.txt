@@ -1,0 +1,160 @@
+ID   QUEG_BACCR              Reviewed;         380 AA.
+AC   Q81I72;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 134.
+DE   RecName: Full=Epoxyqueuosine reductase {ECO:0000255|HAMAP-Rule:MF_00916};
+DE            EC=1.17.99.6 {ECO:0000255|HAMAP-Rule:MF_00916};
+DE   AltName: Full=Queuosine biosynthesis protein QueG {ECO:0000255|HAMAP-Rule:MF_00916};
+GN   Name=queG {ECO:0000255|HAMAP-Rule:MF_00916};
+GN   OrderedLocusNames=BC_0544;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of epoxyqueuosine (oQ) to queuosine
+CC       (Q), which is a hypermodified base found in the wobble positions of
+CC       tRNA(Asp), tRNA(Asn), tRNA(His) and tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_00916}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=epoxyqueuosine(34) in tRNA + AH2 = queuosine(34) in tRNA + A +
+CC         H2O; Xref=Rhea:RHEA:32159, Rhea:RHEA-COMP:18571, Rhea:RHEA-
+CC         COMP:18582, ChEBI:CHEBI:13193, ChEBI:CHEBI:15377, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:194431, ChEBI:CHEBI:194443; EC=1.17.99.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00916};
+CC   -!- COFACTOR:
+CC       Name=cob(II)alamin; Xref=ChEBI:CHEBI:16304;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00916};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00916};
+CC       Note=Binds 2 [4Fe-4S] clusters per monomer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00916};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00916}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00916}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00916}.
+CC   -!- SIMILARITY: Belongs to the QueG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00916}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP07564.1; -; Genomic_DNA.
+DR   RefSeq; NP_830363.1; NC_004722.1.
+DR   RefSeq; WP_000345215.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q81I72; -.
+DR   SMR; Q81I72; -.
+DR   STRING; 226900.BC_0544; -.
+DR   KEGG; bce:BC0544; -.
+DR   PATRIC; fig|226900.8.peg.500; -.
+DR   HOGENOM; CLU_030790_2_0_9; -.
+DR   OrthoDB; 9784571at2; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052693; F:epoxyqueuosine reductase activity; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   FunFam; 1.25.10.10:FF:000327; Epoxyqueuosine reductase; 1.
+DR   FunFam; 3.30.70.20:FF:000037; Epoxyqueuosine reductase; 1.
+DR   Gene3D; 3.30.70.20; -; 1.
+DR   Gene3D; 1.25.10.10; Leucine-rich Repeat Variant; 1.
+DR   HAMAP; MF_00916; QueG; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   InterPro; IPR004155; PBS_lyase_HEAT.
+DR   InterPro; IPR004453; QueG.
+DR   InterPro; IPR013542; QueG_DUF1730.
+DR   NCBIfam; TIGR00276; tRNA epoxyqueuosine(34) reductase QueG; 1.
+DR   PANTHER; PTHR30002; EPOXYQUEUOSINE REDUCTASE; 1.
+DR   PANTHER; PTHR30002:SF4; EPOXYQUEUOSINE REDUCTASE; 1.
+DR   Pfam; PF13484; Fer4_16; 1.
+DR   Pfam; PF13646; HEAT_2; 1.
+DR   Pfam; PF08331; QueG_DUF1730; 1.
+DR   SMART; SM00567; EZ_HEAT; 2.
+DR   SUPFAM; SSF54862; 4Fe-4S ferredoxins; 1.
+DR   SUPFAM; SSF48371; ARM repeat; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Oxidoreductase;
+KW   Queuosine biosynthesis; Reference proteome; Repeat; tRNA processing.
+FT   CHAIN           1..380
+FT                   /note="Epoxyqueuosine reductase"
+FT                   /id="PRO_0000416065"
+FT   DOMAIN          178..208
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   DOMAIN          226..258
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   ACT_SITE        134
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         188
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         191
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         194
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         198
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         214
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         240
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         243
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+FT   BINDING         247
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00916"
+SQ   SEQUENCE   380 AA;  42398 MW;  551F430DDE70E409 CRC64;
+     MDFEQLKQDV IAYSKTIGID KIGFASASPF EELKQRLIQQ QQLNYQSGFE EPDIEKRTNP
+     QLLLPGAKSI IAIALAYPSK LKNAPLSKRG ERRGIFCRAS WGQDYHLVLR DRLQKLEAYL
+     IEKLPDIEVK SMVDTGELSD RAVSERAGIG WSGKNCSIIT PEFGSYVYLG EMITNVPFPP
+     DKPIEDQCGG CTKCIDICPT GALIQGGQLD SKKCIAFLTQ TKGFLPEEYR DKIGNRIYGC
+     DTCQTVCPKN KGMDFHNHPE MEPDPELVKP LLTPLLTISN RDFKEKYGIM SGSWRGKKPL
+     QRNAILALAH FKEASAIPDL IGVMKDDPRP VLRGTAAWAL GKIGGDGVGE AIEKAMEREK
+     DEEVLHEMNR GLELLAQKKE
+//

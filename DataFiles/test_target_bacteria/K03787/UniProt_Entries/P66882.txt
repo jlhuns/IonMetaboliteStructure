@@ -1,0 +1,139 @@
+ID   SURE_SALTI              Reviewed;         253 AA.
+AC   P66882; Q8XFG4;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   27-NOV-2024, entry version 110.
+DE   RecName: Full=5'/3'-nucleotidase SurE {ECO:0000255|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.5 {ECO:0000255|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.6 {ECO:0000255|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Exopolyphosphatase {ECO:0000255|HAMAP-Rule:MF_00060};
+DE            EC=3.6.1.11 {ECO:0000255|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Nucleoside monophosphate phosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00060};
+GN   Name=surE {ECO:0000255|HAMAP-Rule:MF_00060};
+GN   OrderedLocusNames=STY3052, t2828;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Nucleotidase with a broad substrate specificity as it can
+CC       dephosphorylate various ribo- and deoxyribonucleoside 5'-monophosphates
+CC       and ribonucleoside 3'-monophosphates with highest affinity to 3'-AMP.
+CC       Also hydrolyzes polyphosphate (exopolyphosphatase activity) with the
+CC       preference for short-chain-length substrates (P20-25). Might be
+CC       involved in the regulation of dNTP and NTP pools, and in the turnover
+CC       of 3'-mononucleotides produced by numerous intracellular RNases (T1,
+CC       T2, and F) during the degradation of various RNAs. {ECO:0000255|HAMAP-
+CC       Rule:MF_00060}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 3'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:10144, ChEBI:CHEBI:13197,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:18254, ChEBI:CHEBI:43474; EC=3.1.3.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[phosphate](n) + H2O = [phosphate](n-1) + phosphate + H(+);
+CC         Xref=Rhea:RHEA:21528, Rhea:RHEA-COMP:9859, Rhea:RHEA-COMP:14279,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16838,
+CC         ChEBI:CHEBI:43474; EC=3.6.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00060};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00060};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06033.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70385.1; -; Genomic_DNA.
+DR   RefSeq; NP_457316.1; NC_003198.1.
+DR   RefSeq; WP_001221538.1; NZ_WSUR01000005.1.
+DR   AlphaFoldDB; P66882; -.
+DR   SMR; P66882; -.
+DR   STRING; 220341.gene:17586943; -.
+DR   KEGG; stt:t2828; -.
+DR   KEGG; sty:STY3052; -.
+DR   PATRIC; fig|220341.7.peg.3105; -.
+DR   eggNOG; COG0496; Bacteria.
+DR   HOGENOM; CLU_045192_1_2_6; -.
+DR   OMA; DCVHIAL; -.
+DR   OrthoDB; 9780815at2; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008254; F:3'-nucleotidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004309; F:exopolyphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106411; F:XMP 5'-nucleosidase activity; IEA:UniProtKB-EC.
+DR   FunFam; 3.40.1210.10:FF:000001; 5'/3'-nucleotidase SurE; 1.
+DR   Gene3D; 3.40.1210.10; Survival protein SurE-like phosphatase/nucleotidase; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   InterPro; IPR036523; SurE-like_sf.
+DR   NCBIfam; TIGR00087; surE; 1.
+DR   PANTHER; PTHR30457; 5'-NUCLEOTIDASE SURE; 1.
+DR   PANTHER; PTHR30457:SF12; 5'_3'-NUCLEOTIDASE SURE; 1.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SurE-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Nucleotide-binding.
+FT   CHAIN           1..253
+FT                   /note="5'/3'-nucleotidase SurE"
+FT                   /id="PRO_0000111840"
+FT   BINDING         8
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   BINDING         9
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   BINDING         39
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   BINDING         92
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+SQ   SEQUENCE   253 AA;  26980 MW;  A8C4DD6EE42372F8 CRC64;
+     MRILLSNDDG VHAPGIQTLA KALREFADVQ VVAPDRNRSG ASNSLTLESS LRTFTFDNGD
+     IAVQMGTPTD CVYLGVNALM RPRPDIVVSG INAGPNLGDD VIYSGTVAAA MEGRHLGFPA
+     LAVSLNGYQH YDTAAAVTCA LLRGLSREPL RTGRILNVNV PDLPLAQVKG IRVTRCGSRH
+     PADKVIPQED PRGNTLYWIG PPGDKYDAGP DTDFAAVDEG YVSVTPLHVD LTAHSAHDVV
+     SDWLDSVGVG TQW
+//

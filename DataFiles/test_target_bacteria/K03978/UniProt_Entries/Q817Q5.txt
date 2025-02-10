@@ -1,0 +1,109 @@
+ID   ENGB_BACCR              Reviewed;         198 AA.
+AC   Q817Q5;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 123.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   OrderedLocusNames=BC_4476;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Necessary for normal cell division and for the maintenance of
+CC       normal septation. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP11389.1; -; Genomic_DNA.
+DR   RefSeq; NP_834188.1; NC_004722.1.
+DR   RefSeq; WP_000869116.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q817Q5; -.
+DR   SMR; Q817Q5; -.
+DR   STRING; 226900.BC_4476; -.
+DR   KEGG; bce:BC4476; -.
+DR   PATRIC; fig|226900.8.peg.4629; -.
+DR   HOGENOM; CLU_033732_3_0_9; -.
+DR   OrthoDB; 9804921at2; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000917; P:division septum assembly; IEA:UniProtKB-KW.
+DR   CDD; cd01876; YihA_EngB; 1.
+DR   FunFam; 3.40.50.300:FF:000098; Probable GTP-binding protein EngB; 1.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   NCBIfam; TIGR03598; GTPase_YsxC; 1.
+DR   PANTHER; PTHR11649:SF13; ENGB-TYPE G DOMAIN-CONTAINING PROTEIN; 1.
+DR   PANTHER; PTHR11649; MSS1/TRME-RELATED GTP-BINDING PROTEIN; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; GTP-binding; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Septation.
+FT   CHAIN           1..198
+FT                   /note="Probable GTP-binding protein EngB"
+FT                   /id="PRO_0000266813"
+FT   DOMAIN          22..195
+FT                   /note="EngB-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         30..37
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         37
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         57..61
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         59
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         75..78
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         142..145
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   BINDING         174..176
+FT                   /ligand="GTP"
+FT                   /ligand_id="ChEBI:CHEBI:37565"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+SQ   SEQUENCE   198 AA;  22371 MW;  CE81B6F8557AC81F CRC64;
+     MKVTKADIVI SAVKPEQYPD SDLPEIALAG RSNVGKSSFI NKILNRKKLV RISSKPGKTQ
+     TLNFFLINEM MHFVDVPGYG YAKVSKSERA AWGKMIETYF TTREQLDAAV LVVDLRHQPT
+     SDDVMMYDFL KHYEIPTIII ATKADKIPKG KWQKHLKVVK ETLAVEIGDE IVLFSSETGL
+     GKEEAWKAIH KFTKTKNA
+//

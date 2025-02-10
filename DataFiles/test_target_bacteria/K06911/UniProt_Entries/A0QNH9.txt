@@ -1,0 +1,92 @@
+ID   A0QNH9_MYCS2            Unreviewed;       321 AA.
+AC   A0QNH9;
+DT   09-JAN-2007, integrated into UniProtKB/TrEMBL.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 115.
+DE   SubName: Full=Pirin domain protein {ECO:0000313|EMBL:ABK71091.1};
+GN   OrderedLocusNames=MSMEG_0049 {ECO:0000313|EMBL:ABK71091.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196 {ECO:0000313|EMBL:ABK71091.1, ECO:0000313|Proteomes:UP000000757};
+RN   [1] {ECO:0000313|EMBL:ABK71091.1, ECO:0000313|Proteomes:UP000000757}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155 {ECO:0000313|Proteomes:UP000000757};
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR006232-1};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000256|PIRSR:PIRSR006232-1};
+CC   -!- SIMILARITY: Belongs to the pirin family.
+CC       {ECO:0000256|ARBA:ARBA00008416, ECO:0000256|RuleBase:RU003457}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK71091.1; -; Genomic_DNA.
+DR   RefSeq; WP_011726632.1; NZ_SIJM01000001.1.
+DR   RefSeq; YP_884467.1; NC_008596.1.
+DR   AlphaFoldDB; A0QNH9; -.
+DR   STRING; 246196.MSMEG_0049; -.
+DR   PaxDb; 246196-MSMEI_0051; -.
+DR   GeneID; 66738239; -.
+DR   KEGG; msb:LJ00_00245; -.
+DR   KEGG; msm:MSMEG_0049; -.
+DR   PATRIC; fig|246196.19.peg.47; -.
+DR   eggNOG; COG1741; Bacteria.
+DR   OrthoDB; 9780903at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd02909; cupin_pirin_N; 1.
+DR   Gene3D; 2.60.120.10; Jelly Rolls; 1.
+DR   InterPro; IPR012093; Pirin.
+DR   InterPro; IPR008778; Pirin_C_dom.
+DR   InterPro; IPR003829; Pirin_N_dom.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR13903:SF8; PIRIN; 1.
+DR   PANTHER; PTHR13903; PIRIN-RELATED; 1.
+DR   Pfam; PF02678; Pirin; 1.
+DR   Pfam; PF05726; Pirin_C; 1.
+DR   PIRSF; PIRSF006232; Pirin; 1.
+DR   SUPFAM; SSF51182; RmlC-like cupins; 1.
+PE   3: Inferred from homology;
+KW   Iron {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Metal-binding {ECO:0000256|PIRSR:PIRSR006232-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000757}.
+FT   DOMAIN          37..136
+FT                   /note="Pirin N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF02678"
+FT   DOMAIN          188..286
+FT                   /note="Pirin C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF05726"
+FT   REGION          301..321
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   BINDING         74
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         76
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         118
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+FT   BINDING         120
+FT                   /ligand="Fe cation"
+FT                   /ligand_id="ChEBI:CHEBI:24875"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006232-1"
+SQ   SEQUENCE   321 AA;  34246 MW;  5267395FB12C55F2 CRC64;
+     MSNTDVAPSE VTCGPSRFTG VLHAREVPLG GPRAIAVRRT LPQRDRTLIG AWCFADHYGP
+     HDVRSGPGMD VPPHPHTGLQ TVSWLFAGEI EHRDSGGVHA MVRPGELNLM TAGAGICHSE
+     VSTKAASVLH GVQLWVALPA AARDTDRDFA HYAPTPRVIG SSTLRVFLGE LGDSRSPVHT
+     FTPLLGAQID LAPGAELTLD VDATFEHGVL LDRGAVEVAG TPLAVADLAY QRPGCHELHL
+     ANTGTGPARV ILLGGLPFGE ELVMWWNFVG RSHDDIAAYR ELWQDHDARF GAVSGYTGTL
+     SRLPAPPLPN GRLKPRPNPA G
+//

@@ -1,0 +1,146 @@
+ID   PUR2_SALTI              Reviewed;         429 AA.
+AC   Q8Z334;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 1.
+DT   27-NOV-2024, entry version 134.
+DE   RecName: Full=Phosphoribosylamine--glycine ligase {ECO:0000255|HAMAP-Rule:MF_00138};
+DE            EC=6.3.4.13 {ECO:0000255|HAMAP-Rule:MF_00138};
+DE   AltName: Full=GARS {ECO:0000255|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Glycinamide ribonucleotide synthetase {ECO:0000255|HAMAP-Rule:MF_00138};
+DE   AltName: Full=Phosphoribosylglycinamide synthetase {ECO:0000255|HAMAP-Rule:MF_00138};
+GN   Name=purD {ECO:0000255|HAMAP-Rule:MF_00138};
+GN   OrderedLocusNames=STY3710, t3456;
+OS   Salmonella typhi.
+OC   Bacteria; Pseudomonadota; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + glycine + ATP = N(1)-(5-
+CC         phospho-beta-D-ribosyl)glycinamide + ADP + phosphate + H(+);
+CC         Xref=Rhea:RHEA:17453, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57305, ChEBI:CHEBI:58681,
+CC         ChEBI:CHEBI:143788, ChEBI:CHEBI:456216; EC=6.3.4.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00138};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_00138}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00138}.
+CC   -!- SIMILARITY: Belongs to the GARS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00138}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD09469.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO70972.1; -; Genomic_DNA.
+DR   RefSeq; NP_457899.1; NC_003198.1.
+DR   RefSeq; WP_000866776.1; NZ_WSUR01000043.1.
+DR   AlphaFoldDB; Q8Z334; -.
+DR   SMR; Q8Z334; -.
+DR   STRING; 220341.gene:17587570; -.
+DR   KEGG; stt:t3456; -.
+DR   KEGG; sty:STY3710; -.
+DR   PATRIC; fig|220341.7.peg.3782; -.
+DR   eggNOG; COG0151; Bacteria.
+DR   HOGENOM; CLU_027420_3_1_6; -.
+DR   OMA; KATVCKY; -.
+DR   OrthoDB; 9807240at2; -.
+DR   UniPathway; UPA00074; UER00125.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004637; F:phosphoribosylamine-glycine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   FunFam; 3.30.470.20:FF:000031; Phosphoribosylamine--glycine ligase; 1.
+DR   FunFam; 3.40.50.20:FF:000006; Phosphoribosylamine--glycine ligase, chloroplastic; 1.
+DR   FunFam; 3.30.1490.20:FF:000006; phosphoribosylamine--glycine ligase, chloroplastic-like; 1.
+DR   FunFam; 3.90.600.10:FF:000001; Trifunctional purine biosynthetic protein adenosine-3; 1.
+DR   Gene3D; 3.40.50.20; -; 1.
+DR   Gene3D; 3.30.1490.20; ATP-grasp fold, A domain; 1.
+DR   Gene3D; 3.30.470.20; ATP-grasp fold, B domain; 1.
+DR   Gene3D; 3.90.600.10; Phosphoribosylglycinamide synthetase, C-terminal domain; 1.
+DR   HAMAP; MF_00138; GARS; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR020561; PRibGlycinamid_synth_ATP-grasp.
+DR   InterPro; IPR000115; PRibGlycinamide_synth.
+DR   InterPro; IPR020560; PRibGlycinamide_synth_C-dom.
+DR   InterPro; IPR037123; PRibGlycinamide_synth_C_sf.
+DR   InterPro; IPR020559; PRibGlycinamide_synth_CS.
+DR   InterPro; IPR020562; PRibGlycinamide_synth_N.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   NCBIfam; TIGR00877; purD; 1.
+DR   PANTHER; PTHR43472; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE; 1.
+DR   PANTHER; PTHR43472:SF1; PHOSPHORIBOSYLAMINE--GLYCINE LIGASE, CHLOROPLASTIC; 1.
+DR   Pfam; PF01071; GARS_A; 1.
+DR   Pfam; PF02843; GARS_C; 1.
+DR   Pfam; PF02844; GARS_N; 1.
+DR   SMART; SM01209; GARS_A; 1.
+DR   SMART; SM01210; GARS_C; 1.
+DR   SUPFAM; SSF56059; Glutathione synthetase ATP-binding domain-like; 1.
+DR   SUPFAM; SSF52440; PreATP-grasp domain; 1.
+DR   SUPFAM; SSF51246; Rudiment single hybrid motif; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00184; GARS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide-binding; Purine biosynthesis.
+FT   CHAIN           1..429
+FT                   /note="Phosphoribosylamine--glycine ligase"
+FT                   /id="PRO_0000151476"
+FT   DOMAIN          109..316
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00138"
+FT   BINDING         135..196
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00138"
+FT   BINDING         286
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00138"
+FT   BINDING         288
+FT                   /ligand="Mg(2+)"
+FT                   /ligand_id="ChEBI:CHEBI:18420"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00138"
+SQ   SEQUENCE   429 AA;  45670 MW;  943A77FF1E8702BE CRC64;
+     MKVLVIGNGG REHALAWKAA QSPLVDTVFV APGNAGTALE PALQNVAIGV TDIPALLSFA
+     QNEKIDLTIV GPEAPLVIGV VDAFRAAGLK IFGPTEGAAQ LEGSKAFTKD FLARHQIPTA
+     EYQNFTEIEP ALAYLREKGA PIVIKADGLA AGKGVIVAMT LEEAEAAVHD MLAGNAFGDA
+     GHRIVIEEFL DGEEASFIVM VDGEHVLPMA TSQDHKRVGN GDTGPNTGGM GAYSPAPVVT
+     DEVHQRTMER IIWPTVKGMA AEGNTYTGFL YAGLMIDKQG NPKVIEFNCR FGDPETQPIM
+     LRMKSDLVDL CLAACDGKLD EKTSEWDERA SLGVVIAAGG YPGSYSTGDE IHGLPLEEVA
+     DGKVFHAGTK LADDDRVLTS GGRVLCATAL GHTVAEAQKR AYALMTDIRW DGSFSRNDIG
+     WRAIEREQN
+//

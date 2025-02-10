@@ -1,0 +1,114 @@
+ID   NUOH_BACCR              Reviewed;         333 AA.
+AC   Q814X0;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   05-FEB-2025, entry version 113.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NADH dehydrogenase I subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NDH-1 subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   Name=nuoH {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   OrderedLocusNames=BC_5297;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC
+OS   15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB
+RC   9373 / NCTC 2599 / NRRL B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. This subunit may bind ubiquinone.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + NADH + 5 H(+)(in) = a quinol + NAD(+) + 4
+CC         H(+)(out); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:132124; Evidence={ECO:0000255|HAMAP-Rule:MF_01350};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01350};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP12161.1; -; Genomic_DNA.
+DR   RefSeq; NP_834960.1; NC_004722.1.
+DR   RefSeq; WP_000573426.1; NZ_CP034551.1.
+DR   AlphaFoldDB; Q814X0; -.
+DR   SMR; Q814X0; -.
+DR   STRING; 226900.BC_5297; -.
+DR   GeneID; 67469497; -.
+DR   KEGG; bce:BC5297; -.
+DR   PATRIC; fig|226900.8.peg.5468; -.
+DR   HOGENOM; CLU_015134_0_1_9; -.
+DR   OrthoDB; 9803734at2; -.
+DR   PRO; PR:Q814X0; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009060; P:aerobic respiration; IBA:GO_Central.
+DR   HAMAP; MF_01350; NDH1_NuoH; 1.
+DR   InterPro; IPR001694; NADH_UbQ_OxRdtase_su1/FPO.
+DR   InterPro; IPR018086; NADH_UbQ_OxRdtase_su1_CS.
+DR   PANTHER; PTHR11432; NADH DEHYDROGENASE SUBUNIT 1; 1.
+DR   PANTHER; PTHR11432:SF3; NADH-UBIQUINONE OXIDOREDUCTASE CHAIN 1; 1.
+DR   Pfam; PF00146; NADHdh; 1.
+DR   PROSITE; PS00668; COMPLEX1_ND1_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Membrane; NAD; Quinone; Reference proteome; Translocase;
+KW   Transmembrane; Transmembrane helix; Ubiquinone.
+FT   CHAIN           1..333
+FT                   /note="NADH-quinone oxidoreductase subunit H"
+FT                   /id="PRO_0000240056"
+FT   TRANSMEM        15..35
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        117..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        191..211
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        239..259
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        274..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        313..333
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+SQ   SEQUENCE   333 AA;  36909 MW;  295CB420127B8694 CRC64;
+     MIETLLQSPS SWTNFFIFFG LAVLLLFAVL GFVTYGILAE RKVMGFMQGR IGPNQVGGRF
+     GLLQTVADVL KLLLKEDSIP KAADKPLFIL APVIAFAPAF MVLAVIPFTD KFQFADIGVG
+     LLYYIAVSGI TTIGVVTGGW ASNNKYSLLG GMRAAAQMIS YEIPLVMSVI GIVLLAGSLN
+     LNEIVAAQEK VWYIFVQPIG FVVFLIAAVA ELNRTPFDLP EAESELVSGY HTEYSGFRWA
+     FFMLSEYVYF FGMASLITVL FLGGWNPVMF LGFIPGAVWF ALKFSSVVFL LIWFRVTFPR
+     IRGDQLMEFG WKVLLPIALA NIFLTALIKE LFF
+//

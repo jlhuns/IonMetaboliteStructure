@@ -1,0 +1,128 @@
+ID   Q65PE1_BACLD            Unreviewed;       333 AA.
+AC   Q65PE1; Q62ZS9;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 124.
+DE   RecName: Full=tRNA-dihydrouridine synthase {ECO:0000256|PIRNR:PIRNR006621};
+DE            EC=1.3.1.- {ECO:0000256|PIRNR:PIRNR006621};
+GN   Name=dus1 {ECO:0000313|EMBL:AAU21729.1};
+GN   OrderedLocusNames=BL03311 {ECO:0000313|EMBL:AAU21729.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU21729.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU21729.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the synthesis of 5,6-dihydrouridine (D), a modified
+CC       base found in the D-loop of most tRNAs, via the reduction of the C5-C6
+CC       double bond in target uridines. {ECO:0000256|ARBA:ARBA00002790,
+CC       ECO:0000256|PIRNR:PIRNR006621}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5,6-dihydrouridine in tRNA + NAD(+) = a uridine in tRNA +
+CC         NADH + H(+); Xref=Rhea:RHEA:54452, Rhea:RHEA-COMP:13339, Rhea:RHEA-
+CC         COMP:13887, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74443;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048802};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5,6-dihydrouridine in tRNA + NADP(+) = a uridine in tRNA +
+CC         NADPH + H(+); Xref=Rhea:RHEA:23624, Rhea:RHEA-COMP:13339, Rhea:RHEA-
+CC         COMP:13887, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74443;
+CC         Evidence={ECO:0000256|ARBA:ARBA00048205};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001917,
+CC         ECO:0000256|PIRNR:PIRNR006621, ECO:0000256|PIRSR:PIRSR006621-2};
+CC   -!- SIMILARITY: Belongs to the dus family. {ECO:0000256|PIRNR:PIRNR006621}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU21729.1; -; Genomic_DNA.
+DR   RefSeq; WP_003178264.1; NC_006322.1.
+DR   AlphaFoldDB; Q65PE1; -.
+DR   STRING; 279010.BL03311; -.
+DR   GeneID; 66213612; -.
+DR   KEGG; bld:BLi00096; -.
+DR   KEGG; bli:BL03311; -.
+DR   PATRIC; fig|279010.13.peg.87; -.
+DR   eggNOG; COG0042; Bacteria.
+DR   HOGENOM; CLU_013299_0_3_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017150; F:tRNA dihydrouridine synthase activity; IEA:InterPro.
+DR   CDD; cd02801; DUS_like_FMN; 1.
+DR   Gene3D; 3.20.20.70; Aldolase class I; 1.
+DR   Gene3D; 1.10.1200.80; Putative flavin oxidoreducatase, domain 2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR035587; DUS-like_FMN-bd.
+DR   InterPro; IPR001269; DUS_fam.
+DR   InterPro; IPR004652; DusB-like.
+DR   InterPro; IPR024036; tRNA-dHydroUridine_Synthase_C.
+DR   InterPro; IPR018517; tRNA_hU_synthase_CS.
+DR   NCBIfam; TIGR00737; nifR3_yhdG; 1.
+DR   PANTHER; PTHR45846; TRNA-DIHYDROURIDINE(47) SYNTHASE [NAD(P)(+)]-LIKE; 1.
+DR   PANTHER; PTHR45846:SF1; TRNA-DIHYDROURIDINE(47) SYNTHASE [NAD(P)(+)]-LIKE; 1.
+DR   Pfam; PF01207; Dus; 1.
+DR   PIRSF; PIRSF006621; Dus; 1.
+DR   SUPFAM; SSF51395; FMN-linked oxidoreductases; 1.
+DR   PROSITE; PS01136; UPF0034; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein {ECO:0000256|ARBA:ARBA00022630,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   FMN {ECO:0000256|ARBA:ARBA00022643, ECO:0000256|PIRNR:PIRNR006621};
+KW   NADP {ECO:0000256|ARBA:ARBA00022857};
+KW   Nucleotide-binding {ECO:0000256|PIRSR:PIRSR006621-2};
+KW   Oxidoreductase {ECO:0000256|ARBA:ARBA00023002,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   RNA-binding {ECO:0000256|ARBA:ARBA00022884};
+KW   tRNA processing {ECO:0000256|ARBA:ARBA00022694,
+KW   ECO:0000256|PIRNR:PIRNR006621};
+KW   tRNA-binding {ECO:0000256|ARBA:ARBA00022555}.
+FT   DOMAIN          15..319
+FT                   /note="DUS-like FMN-binding"
+FT                   /evidence="ECO:0000259|Pfam:PF01207"
+FT   ACT_SITE        102
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-1"
+FT   BINDING         17..19
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         71
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         141
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         171
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+FT   BINDING         226..227
+FT                   /ligand="FMN"
+FT                   /ligand_id="ChEBI:CHEBI:58210"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR006621-2"
+SQ   SEQUENCE   333 AA;  37014 MW;  F16555859CE071C8 CRC64;
+     MFKIGDIELK NRVVLAPMAG VCNSAFRLTV KEFGAGLVCA EMVSDKAILY NNAKTMGMLY
+     IDEREKPLSL QIFGGEKETL VEAAKFVDQN TTADIIDINM GCPVPKITKC DAGAKWLLDP
+     NKIYEMVSAV VEAVDKPVTV KMRMGWDEDH IFAVENARAV ERAGGKAVAL HGRTRVQMYE
+     GTANWDIIKE VKQSVSIPVI GNGDVKTPQD AKRMLDETGV DGVMIGRAAL GNPWMIYRTV
+     HYLETGELKD EPKVREKISV CKLHLDRLIG LKGENVAVRE MRKHAAWYLK GIRGNAKVRN
+     EINHCETRDE LVQLLDAFTI EAEAKELQDA KVG
+//

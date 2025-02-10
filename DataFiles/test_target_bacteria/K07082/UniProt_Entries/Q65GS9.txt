@@ -1,0 +1,96 @@
+ID   Q65GS9_BACLD            Unreviewed;       370 AA.
+AC   Q65GS9; Q62S88;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   RecName: Full=Endolytic murein transglycosylase {ECO:0000256|HAMAP-Rule:MF_02065};
+DE            EC=4.2.2.29 {ECO:0000256|HAMAP-Rule:MF_02065};
+DE   AltName: Full=Peptidoglycan lytic transglycosylase {ECO:0000256|HAMAP-Rule:MF_02065};
+DE   AltName: Full=Peptidoglycan polymerization terminase {ECO:0000256|HAMAP-Rule:MF_02065};
+GN   Name=yrrL {ECO:0000313|EMBL:AAU24371.1};
+GN   Synonyms=mltG {ECO:0000256|HAMAP-Rule:MF_02065};
+GN   OrderedLocusNames=BL02029 {ECO:0000313|EMBL:AAU24371.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU24371.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU24371.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Functions as a peptidoglycan terminase that cleaves nascent
+CC       peptidoglycan strands endolytically to terminate their elongation.
+CC       {ECO:0000256|HAMAP-Rule:MF_02065}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a peptidoglycan chain = a peptidoglycan chain with N-
+CC         acetyl-1,6-anhydromuramyl-[peptide] at the reducing end + a
+CC         peptidoglycan chain with N-acetylglucosamine at the non-reducing
+CC         end.; EC=4.2.2.29; Evidence={ECO:0000256|HAMAP-Rule:MF_02065};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-Rule:MF_02065};
+CC       Single-pass membrane protein {ECO:0000256|HAMAP-Rule:MF_02065}.
+CC   -!- SIMILARITY: Belongs to the transglycosylase MltG family.
+CC       {ECO:0000256|HAMAP-Rule:MF_02065}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU24371.1; -; Genomic_DNA.
+DR   RefSeq; WP_009327783.1; NC_006322.1.
+DR   AlphaFoldDB; Q65GS9; -.
+DR   STRING; 279010.BL02029; -.
+DR   GeneID; 66215148; -.
+DR   KEGG; bld:BLi02865; -.
+DR   KEGG; bli:BL02029; -.
+DR   PATRIC; fig|279010.13.peg.2922; -.
+DR   eggNOG; COG1559; Bacteria.
+DR   HOGENOM; CLU_025574_2_3_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008932; F:lytic endotransglycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd08010; MltG_like; 1.
+DR   Gene3D; 3.30.160.60; Classic Zinc Finger; 1.
+DR   Gene3D; 3.30.1490.480; Endolytic murein transglycosylase; 1.
+DR   HAMAP; MF_02065; MltG; 1.
+DR   InterPro; IPR003770; MLTG-like.
+DR   NCBIfam; TIGR00247; endolytic transglycosylase MltG; 1.
+DR   PANTHER; PTHR30518; ENDOLYTIC MUREIN TRANSGLYCOSYLASE; 1.
+DR   PANTHER; PTHR30518:SF2; ENDOLYTIC MUREIN TRANSGLYCOSYLASE; 1.
+DR   Pfam; PF02618; YceG; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane {ECO:0000256|ARBA:ARBA00022475, ECO:0000256|HAMAP-
+KW   Rule:MF_02065};
+KW   Cell wall biogenesis/degradation {ECO:0000256|ARBA:ARBA00023316,
+KW   ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Lyase {ECO:0000256|ARBA:ARBA00023239, ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Membrane {ECO:0000256|ARBA:ARBA00023136, ECO:0000256|HAMAP-Rule:MF_02065};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606};
+KW   Transmembrane {ECO:0000256|ARBA:ARBA00022692, ECO:0000256|HAMAP-
+KW   Rule:MF_02065};
+KW   Transmembrane helix {ECO:0000256|ARBA:ARBA00022989, ECO:0000256|HAMAP-
+KW   Rule:MF_02065}.
+FT   TRANSMEM        21..41
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02065"
+FT   SITE            248
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_02065"
+SQ   SEQUENCE   370 AA;  41901 MW;  32CC257ECD6D350E CRC64;
+     MFEDQTKKPF IKRLLKHKIK FWLTVVAVLL ILTAGAVSLY VKSALEPVDK NNAKTVNVYI
+     PEGSTVTSIA AKLKKEDLIK NEKVFIAYVK FKNASGFQAG NFQLSQSMDA AGMINKLTTA
+     SHVPAFKITV PEGRQLQEIA DIIAGQTNYS AKDIMKKLDD REFISRLKQK YPKLITDDVL
+     NKNIKHPLEG YLHPATYPFY DPETKLDAII EAMIKQTDQL AEKYEKQMKD KKMSVHKALT
+     MASLIEEEAT EKADRHKISS VFYNRISKNM PLQTDPTVLY ALGEHKNRVM YKDLEADSPY
+     NTYKHTGLPP GPIANAGETS WEAALNPEQT DYVYFLAKKN GEVVFTKTLE EHNKAKAKYI
+     TNTQDEEKGE
+//

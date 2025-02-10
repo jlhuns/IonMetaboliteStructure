@@ -1,0 +1,84 @@
+ID   A0A8B8UFH7_CAMFR        Unreviewed;       286 AA.
+AC   A0A8B8UFH7;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=Ribonuclease H1 {ECO:0000256|PIRNR:PIRNR036852};
+DE            Short=RNase H1 {ECO:0000256|PIRNR:PIRNR036852};
+DE            EC=3.1.26.4 {ECO:0000256|PIRNR:PIRNR036852};
+GN   Name=RNASEH1 {ECO:0000313|RefSeq:XP_032352850.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032352850.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032352850.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032352850.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000256|PIRNR:PIRNR036852}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000077,
+CC         ECO:0000256|PIRNR:PIRNR036852};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|ARBA:ARBA00001946,
+CC         ECO:0000256|PIRNR:PIRNR036852};
+CC   -!- SIMILARITY: Belongs to the RNase H family.
+CC       {ECO:0000256|ARBA:ARBA00005300, ECO:0000256|PIRNR:PIRNR036852}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032352850.1; XM_032496959.1.
+DR   KEGG; cfr:102510774; -.
+DR   Proteomes; UP000694856; Chromosome 15.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043137; P:DNA replication, removal of RNA primer; IEA:TreeGrafter.
+DR   CDD; cd09280; RNase_HI_eukaryote_like; 1.
+DR   FunFam; 3.30.420.10:FF:000049; Ribonuclease H1; 1.
+DR   FunFam; 3.40.970.10:FF:000001; Ribonuclease H1; 1.
+DR   Gene3D; 3.30.420.10; Ribonuclease H-like superfamily/Ribonuclease H; 1.
+DR   Gene3D; 3.40.970.10; Ribonuclease H1, N-terminal domain; 1.
+DR   InterPro; IPR009027; Ribosomal_bL9/RNase_H1_N.
+DR   InterPro; IPR050092; RNase_H.
+DR   InterPro; IPR017067; RNase_H1_euk.
+DR   InterPro; IPR011320; RNase_H1_N.
+DR   InterPro; IPR037056; RNase_H1_N_sf.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR002156; RNaseH_domain.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   PANTHER; PTHR10642; RIBONUCLEASE H1; 1.
+DR   PANTHER; PTHR10642:SF26; RIBONUCLEASE H1; 1.
+DR   Pfam; PF01693; Cauli_VI; 1.
+DR   Pfam; PF00075; RNase_H; 1.
+DR   PIRSF; PIRSF036852; Ribonuclease_H1_euk; 1.
+DR   SUPFAM; SSF55658; L9 N-domain-like; 1.
+DR   SUPFAM; SSF53098; Ribonuclease H-like; 1.
+DR   PROSITE; PS50879; RNASE_H_1; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease {ECO:0000256|ARBA:ARBA00022759,
+KW   ECO:0000256|PIRNR:PIRNR036852}; Hydrolase {ECO:0000256|PIRNR:PIRNR036852};
+KW   Magnesium {ECO:0000256|PIRNR:PIRNR036852};
+KW   Metal-binding {ECO:0000256|PIRNR:PIRNR036852};
+KW   Nuclease {ECO:0000256|ARBA:ARBA00022722, ECO:0000256|PIRNR:PIRNR036852}.
+FT   DOMAIN          136..282
+FT                   /note="RNase H type-1"
+FT                   /evidence="ECO:0000259|PROSITE:PS50879"
+FT   REGION          75..114
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        84..103
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+SQ   SEQUENCE   286 AA;  32028 MW;  8E987CA846215581 CRC64;
+     MTRLLEVAHR VVLAAVRCSG RGCHGLAMFY AVRRGRKAGV FLSWNECRAQ VDRFPAARFK
+     KFATEEEAWA FVRDSASPDG SEGQNKHVQE SQVKADKRLR EPWDEGEGEN TEPCAKHVKQ
+     DVEPLPSGHR DTFSYMGDYV VVYTDGCCSS NGRRRARAGI GVYWGPGHPL NVGIRLPGRQ
+     TNQRAEIHAA CKAIQQAKAQ SISKLVLYTD SMFTINGITS WVPGWKRNGW RTSTGKEVIN
+     KEDFVELDRL AQDMDIRWMH VPGHSGFIGN EEADRLAREG AKQPGD
+//

@@ -1,0 +1,95 @@
+ID   Q65DW3_BACLD            Unreviewed;       149 AA.
+AC   Q65DW3; Q62PD5;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 111.
+DE   SubName: Full=Ribose/galactose isomerase {ECO:0000313|EMBL:AAU25376.1};
+GN   Name=ywlF {ECO:0000313|EMBL:AAU25376.1};
+GN   OrderedLocusNames=BL03989 {ECO:0000313|EMBL:AAU25376.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU25376.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU25376.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- SIMILARITY: Belongs to the LacAB/RpiB family.
+CC       {ECO:0000256|ARBA:ARBA00008754}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU25376.1; -; Genomic_DNA.
+DR   RefSeq; WP_003186021.1; NC_006322.1.
+DR   AlphaFoldDB; Q65DW3; -.
+DR   SMR; Q65DW3; -.
+DR   STRING; 279010.BL03989; -.
+DR   GeneID; 66214116; -.
+DR   KEGG; bld:BLi03937; -.
+DR   KEGG; bli:BL03989; -.
+DR   PATRIC; fig|279010.13.peg.4006; -.
+DR   eggNOG; COG0698; Bacteria.
+DR   HOGENOM; CLU_091396_4_1_9; -.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0016861; F:intramolecular oxidoreductase activity, interconverting aldoses and ketoses; IEA:UniProtKB-ARBA.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.1400.10; Sugar-phosphate isomerase, RpiB/LacA/LacB; 1.
+DR   InterPro; IPR004785; RpiB.
+DR   InterPro; IPR003500; RpiB_LacA_LacB.
+DR   InterPro; IPR036569; RpiB_LacA_LacB_sf.
+DR   InterPro; IPR051812; SPI_LacAB/RpiB.
+DR   NCBIfam; TIGR01120; rpiB; 1.
+DR   NCBIfam; TIGR00689; rpiB_lacA_lacB; 1.
+DR   PANTHER; PTHR43732:SF1; RIBOSE 5-PHOSPHATE ISOMERASE; 1.
+DR   PANTHER; PTHR43732; RIBOSE 5-PHOSPHATE ISOMERASE-RELATED; 1.
+DR   Pfam; PF02502; LacAB_rpiB; 1.
+DR   PIRSF; PIRSF005384; RpiB_LacA_B; 1.
+DR   SUPFAM; SSF89623; Ribose/Galactose isomerase RpiB/AlsB; 1.
+PE   3: Inferred from homology;
+KW   Isomerase {ECO:0000256|ARBA:ARBA00023235, ECO:0000313|EMBL:AAU25376.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   ACT_SITE        66
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-1"
+FT   ACT_SITE        99
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-1"
+FT   BINDING         8..9
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         67..71
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         100
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         110
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         133
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+FT   BINDING         137
+FT                   /ligand="D-ribulose 5-phosphate"
+FT                   /ligand_id="ChEBI:CHEBI:58121"
+FT                   /evidence="ECO:0000256|PIRSR:PIRSR005384-2"
+SQ   SEQUENCE   149 AA;  16229 MW;  C6A145CABD18DBF4 CRC64;
+     MKVIIASDHG GINIRKEIMA LMDELNIEYE DYGCECGSGS VDYPDYAFPV AQKVANGEAD
+     RGILICGTGI GMSISANKVK GIRCALVHDV FSAKMTREHN DTNVLAMGER VIGPGLAREI
+     AKVWLTTEFS AGRHAVRIGK IADYEDKHE
+//

@@ -1,0 +1,100 @@
+ID   Q65KU9_BACLD            Unreviewed;       300 AA.
+AC   Q65KU9; Q62W96;
+DT   25-OCT-2004, integrated into UniProtKB/TrEMBL.
+DT   25-OCT-2004, sequence version 1.
+DT   05-FEB-2025, entry version 125.
+DE   RecName: Full=Formyltetrahydrofolate deformylase {ECO:0000256|HAMAP-Rule:MF_01927, ECO:0000256|NCBIfam:TIGR00655};
+DE            EC=3.5.1.10 {ECO:0000256|HAMAP-Rule:MF_01927, ECO:0000256|NCBIfam:TIGR00655};
+DE   AltName: Full=Formyl-FH(4) hydrolase {ECO:0000256|HAMAP-Rule:MF_01927};
+GN   Name=purU {ECO:0000256|HAMAP-Rule:MF_01927,
+GN   ECO:0000313|EMBL:AAU22962.1};
+GN   OrderedLocusNames=BL03753 {ECO:0000313|EMBL:AAU22962.1};
+OS   Bacillus licheniformis (strain ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 /
+OS   NBRC 12200 / NCIMB 9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46).
+OC   Bacteria; Bacillati; Bacillota; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=279010 {ECO:0000313|EMBL:AAU22962.1, ECO:0000313|Proteomes:UP000000606};
+RN   [1] {ECO:0000313|EMBL:AAU22962.1, ECO:0000313|Proteomes:UP000000606}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14580 / DSM 13 / JCM 2505 / CCUG 7422 / NBRC 12200 / NCIMB
+RC   9375 / NCTC 10341 / NRRL NRS-1264 / Gibson 46
+RC   {ECO:0000313|Proteomes:UP000000606};
+RX   PubMed=15461803; DOI=10.1186/gb-2004-5-10-r77;
+RA   Rey M.W., Ramaiya P., Nelson B.A., Brody-Karpin S.D., Zaretsky E.J.,
+RA   Tang M., Lopez de Leon A., Xiang H., Gusti V., Clausen I.G., Olsen P.B.,
+RA   Rasmussen M.D., Andersen J.T., Jorgensen P.L., Larsen T.S., Sorokin A.,
+RA   Bolotin A., Lapidus A., Galleron N., Ehrlich S.D., Berka R.M.;
+RT   "Complete genome sequence of the industrial bacterium Bacillus
+RT   licheniformis and comparisons with closely related Bacillus species.";
+RL   Genome Biol. 5:R77.1-R77.12(2004).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of 10-formyltetrahydrofolate
+CC       (formyl-FH4) to formate and tetrahydrofolate (FH4). {ECO:0000256|HAMAP-
+CC       Rule:MF_01927}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-10-formyltetrahydrofolate + H2O = (6S)-5,6,7,8-
+CC         tetrahydrofolate + formate + H(+); Xref=Rhea:RHEA:19833,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:57453, ChEBI:CHEBI:195366; EC=3.5.1.10;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01927};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway;
+CC       formate from 10-formyl-5,6,7,8-tetrahydrofolate: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_01927}.
+CC   -!- SIMILARITY: Belongs to the PurU family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01927}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000002; AAU22962.1; -; Genomic_DNA.
+DR   RefSeq; WP_003180984.1; NC_006322.1.
+DR   AlphaFoldDB; Q65KU9; -.
+DR   STRING; 279010.BL03753; -.
+DR   GeneID; 66216456; -.
+DR   KEGG; bld:BLi01411; -.
+DR   KEGG; bli:BL03753; -.
+DR   PATRIC; fig|279010.13.peg.1402; -.
+DR   eggNOG; COG0788; Bacteria.
+DR   HOGENOM; CLU_038395_3_0_9; -.
+DR   UniPathway; UPA00074; UER00170.
+DR   Proteomes; UP000000606; Chromosome.
+DR   GO; GO:0008864; F:formyltetrahydrofolate deformylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd04875; ACT_F4HF-DF; 1.
+DR   CDD; cd08648; FMT_core_Formyl-FH4-Hydrolase_C; 1.
+DR   Gene3D; 3.30.70.260; -; 1.
+DR   Gene3D; 3.40.50.170; Formyl transferase, N-terminal domain; 1.
+DR   HAMAP; MF_01927; PurU; 1.
+DR   InterPro; IPR045865; ACT-like_dom_sf.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR041729; Formyl-FH4-Hydrolase_C.
+DR   InterPro; IPR002376; Formyl_transf_N.
+DR   InterPro; IPR036477; Formyl_transf_N_sf.
+DR   InterPro; IPR004810; PurU.
+DR   InterPro; IPR044074; PurU_ACT.
+DR   NCBIfam; TIGR00655; PurU; 1.
+DR   PANTHER; PTHR42706; FORMYLTETRAHYDROFOLATE DEFORMYLASE; 1.
+DR   PANTHER; PTHR42706:SF1; FORMYLTETRAHYDROFOLATE DEFORMYLASE 2, MITOCHONDRIAL; 1.
+DR   Pfam; PF01842; ACT; 1.
+DR   Pfam; PF00551; Formyl_trans_N; 1.
+DR   PIRSF; PIRSF036480; FormyFH4_hydr; 1.
+DR   PRINTS; PR01575; FFH4HYDRLASE.
+DR   SUPFAM; SSF55021; ACT-like; 1.
+DR   SUPFAM; SSF53328; Formyltransferase; 1.
+DR   PROSITE; PS51671; ACT; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_01927};
+KW   One-carbon metabolism {ECO:0000256|ARBA:ARBA00022563, ECO:0000256|HAMAP-
+KW   Rule:MF_01927}; Purine biosynthesis {ECO:0000256|HAMAP-Rule:MF_01927};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000606}.
+FT   DOMAIN          21..98
+FT                   /note="ACT"
+FT                   /evidence="ECO:0000259|PROSITE:PS51671"
+FT   ACT_SITE        244
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_01927"
+SQ   SEQUENCE   300 AA;  34529 MW;  B8B090AC877063D3 CRC64;
+     MNAYMKQQLS QYQEINNDKA RLLVSCPDQP GIVAAVSSFL FENGANIIES NQYTTDPEGG
+     RFFLRIEFEV QGIREKIEQM KAAFASVAES FQMTWSMNLA SELKRVAIFV SKELHCLHEL
+     LWEWQSGNLM AEIAAVISNH EDARETVESL NIPFLYMKAN KDIRQEVEKQ QLKWLEEYRA
+     DVIVLARYMQ ILTPDFVSAH PNKIINIHHS FLPAFIGANP YKRAYERGVK LIGATSHYVT
+     NELDEGPIIE QDIERVDHRD NVEALKNIGR TIERSVLARA VKWHLEDRII VHGNKTIVFN
+//

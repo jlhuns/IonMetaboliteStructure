@@ -1,0 +1,99 @@
+ID   A0A1P8F7D4_9CHLR        Unreviewed;       260 AA.
+AC   A0A1P8F7D4;
+DT   12-APR-2017, integrated into UniProtKB/TrEMBL.
+DT   12-APR-2017, sequence version 1.
+DT   05-FEB-2025, entry version 29.
+DE   RecName: Full=5'-nucleotidase SurE {ECO:0000256|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.5 {ECO:0000256|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Nucleoside 5'-monophosphate phosphohydrolase {ECO:0000256|HAMAP-Rule:MF_00060};
+GN   Name=surE {ECO:0000256|HAMAP-Rule:MF_00060,
+GN   ECO:0000313|EMBL:APV44343.1};
+GN   ORFNames=Dform_01002 {ECO:0000313|EMBL:APV44343.1};
+OS   Dehalogenimonas formicexedens.
+OC   Bacteria; Bacillati; Chloroflexota; Dehalococcoidia; Dehalococcoidales;
+OC   Dehalococcoidaceae; Dehalogenimonas.
+OX   NCBI_TaxID=1839801 {ECO:0000313|EMBL:APV44343.1, ECO:0000313|Proteomes:UP000185934};
+RN   [1] {ECO:0000313|Proteomes:UP000185934}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NSZ-14 {ECO:0000313|Proteomes:UP000185934};
+RA   Key T.A., Bowman K.S., Lee I., Chun J., Albuquerque L., da Costa M.S.,
+RA   Rainey F.A., Moe W.M.;
+RT   "Dehalogenimonas formicexedens sp. nov., a chlorinated alkane respiring
+RT   bacterium isolated from contaminated groundwater.";
+RL   Submitted (NOV-2016) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Nucleotidase that shows phosphatase activity on nucleoside
+CC       5'-monophosphates. {ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC         Evidence={ECO:0000256|ARBA:ARBA00000815, ECO:0000256|HAMAP-
+CC         Rule:MF_00060};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00060};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00060};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000256|ARBA:ARBA00011062, ECO:0000256|HAMAP-Rule:MF_00060}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP018258; APV44343.1; -; Genomic_DNA.
+DR   RefSeq; WP_076004033.1; NZ_CP018258.1.
+DR   AlphaFoldDB; A0A1P8F7D4; -.
+DR   STRING; 1839801.Dform_01002; -.
+DR   KEGG; dfo:Dform_01002; -.
+DR   OrthoDB; 9780815at2; -.
+DR   Proteomes; UP000185934; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008254; F:3'-nucleotidase activity; IEA:TreeGrafter.
+DR   GO; GO:0004309; F:exopolyphosphatase activity; IEA:TreeGrafter.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106411; F:XMP 5'-nucleosidase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.1210.10; Survival protein SurE-like phosphatase/nucleotidase; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   InterPro; IPR036523; SurE-like_sf.
+DR   NCBIfam; TIGR00087; surE; 1.
+DR   PANTHER; PTHR30457; 5'-NUCLEOTIDASE SURE; 1.
+DR   PANTHER; PTHR30457:SF12; 5'_3'-NUCLEOTIDASE SURE; 1.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SurE-like; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm {ECO:0000256|ARBA:ARBA00022490, ECO:0000256|HAMAP-Rule:MF_00060};
+KW   Hydrolase {ECO:0000256|ARBA:ARBA00022801, ECO:0000256|HAMAP-Rule:MF_00060};
+KW   Metal-binding {ECO:0000256|ARBA:ARBA00022723, ECO:0000256|HAMAP-
+KW   Rule:MF_00060};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|HAMAP-
+KW   Rule:MF_00060}; Reference proteome {ECO:0000313|Proteomes:UP000185934}.
+FT   DOMAIN          3..186
+FT                   /note="Survival protein SurE-like phosphatase/nucleotidase"
+FT                   /evidence="ECO:0000259|Pfam:PF01975"
+FT   BINDING         8
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         9
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         39
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+FT   BINDING         96
+FT                   /ligand="a divalent metal cation"
+FT                   /ligand_id="ChEBI:CHEBI:60240"
+FT                   /evidence="ECO:0000256|HAMAP-Rule:MF_00060"
+SQ   SEQUENCE   260 AA;  28306 MW;  C6FF198E290A7391 CRC64;
+     MKILISNDDG IHSAGLWVLA NHLRTVGSVT IVAPDREQSA TGTSLTLRHP LRVSKVASQL
+     EGVECWATEG LPGDAVILGL EHVLEKPVDL VVSGINNGPN VGDDVLISGT VGAVLQAYLR
+     NVPAIAVSTF NIESTNHETP ARLAAIIAKD IADGKLSGDI FLNINTPDIP LDNIKGIRLC
+     HLAHKTHIDT VKEGHDGRRE FYWLVRRKLD LEAADGTDIK AIERDCISVT ELHVDLFRTA
+     PISNLETLCQ EWFKKLESPK
+//

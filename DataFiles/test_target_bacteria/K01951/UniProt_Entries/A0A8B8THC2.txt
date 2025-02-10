@@ -1,0 +1,112 @@
+ID   A0A8B8THC2_CAMFR        Unreviewed;       858 AA.
+AC   A0A8B8THC2;
+DT   19-JAN-2022, integrated into UniProtKB/TrEMBL.
+DT   19-JAN-2022, sequence version 1.
+DT   05-FEB-2025, entry version 15.
+DE   RecName: Full=GMP synthase (glutamine-hydrolyzing) {ECO:0000256|ARBA:ARBA00012746};
+DE            EC=6.3.5.2 {ECO:0000256|ARBA:ARBA00012746};
+DE   AltName: Full=Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00031356};
+GN   Name=GMPS {ECO:0000313|RefSeq:XP_032341626.1};
+OS   Camelus ferus (Wild bactrian camel) (Camelus bactrianus ferus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Tylopoda; Camelidae; Camelus.
+OX   NCBI_TaxID=419612 {ECO:0000313|Proteomes:UP000694856, ECO:0000313|RefSeq:XP_032341626.1};
+RN   [1] {ECO:0000313|RefSeq:XP_032341626.1}
+RP   IDENTIFICATION.
+RC   TISSUE=Ear skin {ECO:0000313|RefSeq:XP_032341626.1};
+RG   RefSeq;
+RL   Submitted (OCT-2024) to UniProtKB.
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis; GMP from XMP (L-Gln
+CC       route): step 1/1. {ECO:0000256|ARBA:ARBA00005153}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   RefSeq; XP_032341626.1; XM_032485735.1.
+DR   KEGG; cfr:102509770; -.
+DR   UniPathway; UPA00189; UER00296.
+DR   Proteomes; UP000694856; Chromosome 1.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003921; F:GMP synthase activity; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01742; GATase1_GMP_Synthase; 1.
+DR   CDD; cd01997; GMP_synthase_C; 1.
+DR   FunFam; 3.30.300.10:FF:000008; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   FunFam; 3.30.300.10:FF:000009; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   FunFam; 3.40.50.620:FF:000044; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   FunFam; 3.40.50.880:FF:000013; GMP synthase [glutamine-hydrolyzing]; 1.
+DR   Gene3D; 3.30.300.10; -; 2.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR001674; GMP_synth_C.
+DR   InterPro; IPR004739; GMP_synth_GATase.
+DR   InterPro; IPR025777; GMPS_ATP_PPase_dom.
+DR   InterPro; IPR022310; NAD/GMP_synthase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR00888; guaA_Nterm; 1.
+DR   PANTHER; PTHR11922:SF2; GMP SYNTHASE [GLUTAMINE-HYDROLYZING]; 1.
+DR   PANTHER; PTHR11922; GMP SYNTHASE-RELATED; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   Pfam; PF00958; GMP_synt_C; 1.
+DR   Pfam; PF02540; NAD_synthase; 1.
+DR   PRINTS; PR00097; ANTSNTHASEII.
+DR   PRINTS; PR00096; GATASE.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+DR   SUPFAM; SSF52317; Class I glutamine amidotransferase-like; 1.
+DR   SUPFAM; SSF54810; GMP synthetase C-terminal dimerisation domain; 2.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+DR   PROSITE; PS51553; GMPS_ATP_PPASE; 1.
+PE   4: Predicted;
+KW   ATP-binding {ECO:0000256|ARBA:ARBA00022840, ECO:0000256|PROSITE-
+KW   ProRule:PRU00886};
+KW   Glutamine amidotransferase {ECO:0000256|ARBA:ARBA00022962,
+KW   ECO:0000256|PROSITE-ProRule:PRU00605};
+KW   GMP biosynthesis {ECO:0000256|ARBA:ARBA00022749, ECO:0000256|PROSITE-
+KW   ProRule:PRU00886}; Ligase {ECO:0000256|ARBA:ARBA00022598};
+KW   Nucleotide-binding {ECO:0000256|ARBA:ARBA00022741, ECO:0000256|PROSITE-
+KW   ProRule:PRU00886};
+KW   Purine biosynthesis {ECO:0000256|ARBA:ARBA00022755, ECO:0000256|PROSITE-
+KW   ProRule:PRU00886}.
+FT   DOMAIN          382..600
+FT                   /note="GMPS ATP-PPase"
+FT                   /evidence="ECO:0000259|PROSITE:PS51553"
+FT   REGION          1..89
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          125..148
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        130..148
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        269
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        355
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        357
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00605"
+FT   BINDING         409..415
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /evidence="ECO:0000256|PROSITE-ProRule:PRU00886"
+SQ   SEQUENCE   858 AA;  92864 MW;  A66B93F9A595D2E5 CRC64;
+     MTGVGRGQTP QDPPLRGGQA GDARVSSPGA GLGGGGDGPG GGASRRSPHL RRRAYLVAAA
+     AGGVPAARQP RQTGSGSSQW PAGAEAGGGG SVRAAGLFSR GAGARAPRLL LESALRRRPA
+     LLRAARPPAS YSTRPPSQSW PVASTPPTLS RPVSSLAAAT AAPAPMALCN GDSKLENAGG
+     DLKDGHHHYE GAVVILDAGA QYGKVIDRRV RELFVQSEIF PLETPAFAIK EQGFRAIIIS
+     GGPNSVYAED APWFDPAIFT IGKPVLGICY GMQMMNKVFG GTVHKKSVRE DGVFSVSVDN
+     TCSLFRGLQK EEIVLLTHGD SVDKVADGFK VVARSGNIVA GIANESKKLY GAQFHPEVGL
+     TENGKVILKN FLYDIAGCSG TFTVQNRELE CIREIKERVG TSKVLVLLSG GVDSTVCTAL
+     LNRALNQDQV IAVHIDNGFM RKRESQSVEE ALKKLGIQVK VINAAHSFYN GTTTLPISDE
+     DRTPRKRISK TLNMTTSPEE KRKIIGDTFV KIANEVIGEM NLKPEEVFLA QGTLRPDLIE
+     SASLVASGKA ELIKTHHNDT ELIRKLREEG KVIEPLKDFH KDEVRILGRE LGLPEELVSR
+     HPFPGPGLAI RVICAEEPYI CKDFPETNNI LKIVADFSAS VKKPHTLLQR VKACTTEEDQ
+     EKLMQITSLH SLNAFLLPIK TVGVQGDCRS YSYVCGISSK DEPDWESLIF LARLIPRMCH
+     NINRVVYIFG PPVKEPPTDV TPTFLTTGVL STLRQADFEA HNILRESGYA GKISQMPVIL
+     TPLHFDRDPL QKQPSCQRSV VIRTFITSDF MTGIPATPGN EIPVEVVLKM VTEIKKIPGI
+     SRIMYDLTSK PPGTTEWE
+//

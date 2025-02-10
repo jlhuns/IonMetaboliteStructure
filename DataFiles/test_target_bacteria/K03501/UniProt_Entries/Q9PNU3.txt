@@ -1,0 +1,100 @@
+ID   RSMG_CAMJE              Reviewed;         188 AA.
+AC   Q9PNU3; Q0P9Q5;
+DT   16-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   29-MAY-2024, entry version 113.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.170 {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+GN   Name=rsmG {ECO:0000255|HAMAP-Rule:MF_00074}; OrderedLocusNames=Cj0997;
+OS   Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 /
+OS   NCTC 11168).
+OC   Bacteria; Campylobacterota; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=192222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700819 / NCTC 11168;
+RX   PubMed=10688204; DOI=10.1038/35001088;
+RA   Parkhill J., Wren B.W., Mungall K.L., Ketley J.M., Churcher C.M.,
+RA   Basham D., Chillingworth T., Davies R.M., Feltwell T., Holroyd S.,
+RA   Jagels K., Karlyshev A.V., Moule S., Pallen M.J., Penn C.W., Quail M.A.,
+RA   Rajandream M.A., Rutherford K.M., van Vliet A.H.M., Whitehead S.,
+RA   Barrell B.G.;
+RT   "The genome sequence of the food-borne pathogen Campylobacter jejuni
+RT   reveals hypervariable sequences.";
+RL   Nature 403:665-668(2000).
+CC   -!- FUNCTION: Specifically methylates the N7 position of guanine in
+CC       position 527 of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(527) in 16S rRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(527) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42732, Rhea:RHEA-COMP:10209, Rhea:RHEA-COMP:10210,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.170; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00074};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL111168; CAL35115.1; -; Genomic_DNA.
+DR   PIR; B81375; B81375.
+DR   RefSeq; WP_002853035.1; NZ_SZUC01000001.1.
+DR   RefSeq; YP_002344392.1; NC_002163.1.
+DR   AlphaFoldDB; Q9PNU3; -.
+DR   SMR; Q9PNU3; -.
+DR   IntAct; Q9PNU3; 7.
+DR   STRING; 192222.Cj0997; -.
+DR   PaxDb; 192222-Cj0997; -.
+DR   EnsemblBacteria; CAL35115; CAL35115; Cj0997.
+DR   GeneID; 905288; -.
+DR   KEGG; cje:Cj0997; -.
+DR   PATRIC; fig|192222.6.peg.979; -.
+DR   eggNOG; COG0357; Bacteria.
+DR   HOGENOM; CLU_065341_2_1_7; -.
+DR   OrthoDB; 9808773at2; -.
+DR   Proteomes; UP000000799; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:TreeGrafter.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.150; Vaccinia Virus protein VP39; 1.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases_sf.
+DR   NCBIfam; TIGR00138; rsmG_gidB; 1.
+DR   PANTHER; PTHR31760; S-ADENOSYL-L-METHIONINE-DEPENDENT METHYLTRANSFERASES SUPERFAMILY PROTEIN; 1.
+DR   PANTHER; PTHR31760:SF0; S-ADENOSYL-L-METHIONINE-DEPENDENT METHYLTRANSFERASES SUPERFAMILY PROTEIN; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   PIRSF; PIRSF003078; GidB; 1.
+DR   SUPFAM; SSF53335; S-adenosyl-L-methionine-dependent methyltransferases; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..188
+FT                   /note="Ribosomal RNA small subunit methyltransferase G"
+FT                   /id="PRO_0000184231"
+FT   BINDING         69
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         74
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         119..120
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         134
+FT                   /ligand="S-adenosyl-L-methionine"
+FT                   /ligand_id="ChEBI:CHEBI:59789"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   188 AA;  22407 MW;  898C30DE02A9F2ED CRC64;
+     MIFKDYDFLQ NYDLKNFEEK VKIYKELLSK FNRIHNLTHL KNIDENIFDS IKILDFYDFS
+     KAKNIADIGS GAGFPVVFLA FLLQSNFHLF EPNPKKAAFL RTLKIECELP NLHIYKEKVQ
+     EYKNTFKADI ITSRALMDVK PLLEICKNLK DENTVFILWK GSEIYQELEN IKDYEIFENN
+     LRRYCILK
+//

@@ -1,0 +1,151 @@
+ID   CYSH_MYCS2              Reviewed;         236 AA.
+AC   A0R0W2; I7GDN9;
+DT   02-JUN-2021, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   05-FEB-2025, entry version 120.
+DE   RecName: Full=Adenosine 5'-phosphosulfate reductase {ECO:0000255|HAMAP-Rule:MF_00063, ECO:0000303|PubMed:12072441};
+DE            Short=APS reductase {ECO:0000255|HAMAP-Rule:MF_00063, ECO:0000303|PubMed:12072441};
+DE            EC=1.8.4.10 {ECO:0000255|HAMAP-Rule:MF_00063, ECO:0000269|PubMed:12072441};
+DE   AltName: Full=5'-adenylylsulfate reductase {ECO:0000255|HAMAP-Rule:MF_00063};
+DE   AltName: Full=Thioredoxin-dependent 5'-adenylylsulfate reductase {ECO:0000255|HAMAP-Rule:MF_00063};
+GN   Name=cysH {ECO:0000255|HAMAP-Rule:MF_00063,
+GN   ECO:0000303|PubMed:12072441};
+GN   OrderedLocusNames=MSMEG_4528 {ECO:0000312|EMBL:ABK74710.1}, MSMEI_4415
+GN   {ECO:0000312|EMBL:AFP40869.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Bacillati; Actinomycetota; Actinomycetes; Mycobacteriales;
+OC   Mycobacteriaceae; Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=17295914; DOI=10.1186/gb-2007-8-2-r20;
+RA   Deshayes C., Perrodou E., Gallien S., Euphrasie D., Schaeffer C.,
+RA   Van-Dorsselaer A., Poch O., Lecompte O., Reyrat J.-M.;
+RT   "Interrupted coding sequences in Mycobacterium smegmatis: authentic
+RT   mutations or sequencing errors?";
+RL   Genome Biol. 8:R20.1-R20.9(2007).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=18955433; DOI=10.1101/gr.081901.108;
+RA   Gallien S., Perrodou E., Carapito C., Deshayes C., Reyrat J.-M.,
+RA   Van Dorsselaer A., Poch O., Schaeffer C., Lecompte O.;
+RT   "Ortho-proteogenomics: multiple proteomes investigation through orthology
+RT   and a new MS-based protocol.";
+RL   Genome Res. 19:128-135(2009).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=12072441; DOI=10.1074/jbc.m204613200;
+RA   Williams S.J., Senaratne R.H., Mougous J.D., Riley L.W., Bertozzi C.R.;
+RT   "5'-adenosinephosphosulfate lies at a metabolic branch point in
+RT   mycobacteria.";
+RL   J. Biol. Chem. 277:32606-32615(2002).
+CC   -!- FUNCTION: Catalyzes the formation of sulfite from adenosine 5'-
+CC       phosphosulfate (APS) using thioredoxin as an electron donor.
+CC       {ECO:0000255|HAMAP-Rule:MF_00063, ECO:0000269|PubMed:12072441}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + sulfite + AMP + 2 H(+) = adenosine
+CC         5'-phosphosulfate + [thioredoxin]-dithiol; Xref=Rhea:RHEA:21976,
+CC         Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17359, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:58243, ChEBI:CHEBI:456215; EC=1.8.4.10;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00063,
+CC         ECO:0000269|PubMed:12072441};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00063};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00063};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; sulfite from
+CC       sulfate. {ECO:0000255|HAMAP-Rule:MF_00063,
+CC       ECO:0000305|PubMed:12072441}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00063}.
+CC   -!- DISRUPTION PHENOTYPE: Deletion of the gene confers cysteine and
+CC       methionine auxotrophy. {ECO:0000269|PubMed:12072441}.
+CC   -!- SIMILARITY: Belongs to the PAPS reductase family. CysH subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00063}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AFP40869.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74710.1; -; Genomic_DNA.
+DR   EMBL; CP001663; AFP40869.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_011729897.1; NZ_SIJM01000052.1.
+DR   RefSeq; YP_888800.1; NC_008596.1.
+DR   AlphaFoldDB; A0R0W2; -.
+DR   SMR; A0R0W2; -.
+DR   STRING; 246196.MSMEG_4528; -.
+DR   PaxDb; 246196-MSMEI_4415; -.
+DR   GeneID; 93459226; -.
+DR   KEGG; msb:LJ00_22400; -.
+DR   KEGG; msg:MSMEI_4415; -.
+DR   KEGG; msm:MSMEG_4528; -.
+DR   PATRIC; fig|246196.19.peg.4430; -.
+DR   eggNOG; COG0175; Bacteria.
+DR   OrthoDB; 9794018at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   Proteomes; UP000006158; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043866; F:adenylyl-sulfate reductase (thioredoxin) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004604; F:phosphoadenylyl-sulfate reductase (thioredoxin) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019344; P:cysteine biosynthetic process; IEA:InterPro.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019379; P:sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin); IEA:UniProtKB-UniRule.
+DR   CDD; cd01713; PAPS_reductase; 1.
+DR   Gene3D; 3.40.50.620; HUPs; 1.
+DR   HAMAP; MF_00063; CysH; 1.
+DR   InterPro; IPR011798; APS_reductase.
+DR   InterPro; IPR004511; PAPS/APS_Rdtase.
+DR   InterPro; IPR002500; PAPS_reduct.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   NCBIfam; TIGR02055; APS_reductase; 1.
+DR   NCBIfam; TIGR00434; cysH; 1.
+DR   PANTHER; PTHR46509; PHOSPHOADENOSINE PHOSPHOSULFATE REDUCTASE; 1.
+DR   PANTHER; PTHR46509:SF1; PHOSPHOADENOSINE PHOSPHOSULFATE REDUCTASE; 1.
+DR   Pfam; PF01507; PAPS_reduct; 1.
+DR   PIRSF; PIRSF000857; PAPS_reductase; 1.
+DR   SUPFAM; SSF52402; Adenine nucleotide alpha hydrolases-like; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Iron; Iron-sulfur; Metal-binding; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..236
+FT                   /note="Adenosine 5'-phosphosulfate reductase"
+FT                   /id="PRO_0000452768"
+FT   ACT_SITE        231
+FT                   /note="Nucleophile; cysteine thiosulfonate intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00063"
+FT   BINDING         122
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00063"
+FT   BINDING         123
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00063"
+FT   BINDING         205
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00063"
+FT   BINDING         208
+FT                   /ligand="[4Fe-4S] cluster"
+FT                   /ligand_id="ChEBI:CHEBI:49883"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00063"
+SQ   SEQUENCE   236 AA;  25692 MW;  27267B9EF0E96746 CRC64;
+     MTDVTTSTEN ELRELAERGA AELADASAEE LLRWTDEHFG GNYVVASNMQ DAVLVEMAAK
+     VRPGVDVLFL DTGYHFAETI GTRDAVEAVY DVHVVNVTPE RTVAEQDELL GKNLFARDPG
+     ECCRLRKVVP LTNALKGYSA WVTGIRRVEA PTRANAPLIS WDNAFGLVKI NPIAAWTDED
+     MQNYIDANGI LVNPLVYEGY PSIGCAPCTS KPIPGADPRS GRWAGLSKTE CGLHVS
+//
