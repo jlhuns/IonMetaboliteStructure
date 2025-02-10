@@ -1,6 +1,8 @@
 from Ortholog_Identificiation import create_uniprot_entries, get_orthologs_uniprotID
 from MSA import analyze_active_sites, run_msa
 from Analysis import conservation_analysis
+from FileCare import CleanKOIDs
+
 import time
 import sys
 import file_paths as FILE_PATHS
@@ -23,24 +25,6 @@ def save_seen_koid(koid, filename="seenKOIDS.txt"):
 def main(KOID_FILE, target_organism_file):
     start_time = time.time()
     seenKOIDS = load_seen_koids()
-
-    # Create a temporary file for logging errors
-
-        # target_organism_pd = pd.read_csv(target_organism_file)
-        # genes = []
-        # for index, row in target_organism_pd.iterrows():
-        #     genes.append(row["kegg_organism_code"])
-        # print(genes)
-
-        # KOIDS = []
-        # for gene in genes:
-        #     KOIDS.append(Kegg_API.link_gene_to_KOID(gene))
-
-        # with open("all_target_organism_KOIDS.txt", 'w') as inF:
-        #     for koid in KOIDS:
-        #         print(koid)
-        #         inF.write(f"{koid}\n")
-        #     print("KOID FILE CREATED")
     all_koids = []
 
     # Regular expression to match KOIDs like 'K12345'
@@ -56,8 +40,6 @@ def main(KOID_FILE, target_organism_file):
     for KOID in all_koids:
         try:
             seenKOIDS = load_seen_koids()
-            # try:
-                # print(KOID)
 
             folder_path = os.path.join(FILE_PATHS.GET_ORGANISM_FOLDER_PATH(target_organism_file).replace('.csv', ""), KOID)
             if KOID not in seenKOIDS:
@@ -77,14 +59,12 @@ def main(KOID_FILE, target_organism_file):
             create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
             run_msa.create_msa_file(KOID, target_organism_file)
             analyze_active_sites.analyze_MSA(KOID, target_organism_file)
-            # except Exception as e:
-            #     # Log the error and skip to the next KOID
-            #     print(f"Skipping {KOID}")
-            #     continue  # Continue to the next KOID if an error occurs
             FILE_PATHS.crate_target_analysis_file(target_organism_file)
         except:
             print(f"{KOID} ran into an error")
             continue
+
+        
 
     end_time = time.time()
     elapsed_time = end_time - start_time
