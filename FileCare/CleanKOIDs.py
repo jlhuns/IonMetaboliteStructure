@@ -2,7 +2,7 @@ import file_paths as FILE_PATHS
 import os
 import shutil
 
-def remove_empty_KOID(KOID: str, targetOrganism: str):
+def remove_empty_KOID(targetOrganism: str):
     def get_K_folders(directory: str):
         return [f for f in os.listdir(directory) if f.startswith("K") and os.path.isdir(os.path.join(directory, f))]
     

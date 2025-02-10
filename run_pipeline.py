@@ -22,6 +22,18 @@ def save_seen_koid(koid, filename="seenKOIDS.txt"):
     with open(filename, "a") as f:
         f.write(koid + "\n")
 
+def remove_seen_koids_from_file(KOID_FILE, seenKOIDS):
+    """Remove all seen KOIDs from the KOID_FILE."""
+    with open(KOID_FILE, 'r') as f:
+        lines = f.readlines()
+
+    with open(KOID_FILE, 'w') as f:
+        for line in lines:
+            # Filter out KOIDs that are in seenKOIDS
+            new_line = re.sub(r"'(K\d+)'", lambda m: '' if m.group(1) in seenKOIDS else m.group(0), line)
+            if new_line.strip():  # Don't write empty lines back to the file
+                f.write(new_line)
+
 def main(KOID_FILE, target_organism_file):
     start_time = time.time()
     seenKOIDS = load_seen_koids()
@@ -47,6 +59,7 @@ def main(KOID_FILE, target_organism_file):
                 save_seen_koid(KOID)
             else:
                 print(f"Skipping {KOID}: Already Seen KOID.")
+                analyze_active_sites.analyze_MSA(KOID, target_organism_file) #Temporary Line
                 continue
             
             if os.path.exists(folder_path) and os.path.isdir(folder_path):
@@ -63,6 +76,12 @@ def main(KOID_FILE, target_organism_file):
         except:
             print(f"{KOID} ran into an error")
             continue
+
+        finally:
+            #this runs every time and defineitly doesn't need to.
+            CleanKOIDs.remove_empty_KOID(target_organism_file)
+            # remove_seen_koids_from_file(KOID_FILE, seenKOIDS)
+
 
         
 
