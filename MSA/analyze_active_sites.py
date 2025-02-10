@@ -74,7 +74,7 @@ def get_conservation_score(analysisDF, KOID: str, target_organism: str):
             if value not in ("-", "\n", " "):
                 residue_index += 1
             if(residue_index == seq_position):
-                return MSA_index, value     
+                return MSA_index, value
             
     MSA_RESULTS_FILE_PATH = FILE_PATH.GET_KOID_MSA_ANALYSIS_FILE_PATH(KOID, target_organism)
     alignment = AlignIO.read(MSA_RESULTS_FILE_PATH, "clustal")
