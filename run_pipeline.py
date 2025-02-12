@@ -72,16 +72,12 @@ def main(KOID_FILE, target_organism_file):
             create_uniprot_entries.create_uniprot_entires(uniprot_ids, KOID, target_organism_file)
             run_msa.create_msa_file(KOID, target_organism_file)
             analyze_active_sites.analyze_MSA(KOID, target_organism_file)
-            FILE_PATHS.crate_target_analysis_file(target_organism_file)
         except:
             print(f"{KOID} ran into an error")
             continue
-
-        finally:
-            #this runs every time and defineitly doesn't need to.
-            CleanKOIDs.remove_empty_KOID(target_organism_file)
-            # remove_seen_koids_from_file(KOID_FILE, seenKOIDS)
-
+    #After each KOID runs
+    CleanKOIDs.remove_empty_KOID(target_organism_file)
+    FILE_PATHS.crate_target_analysis_file(target_organism_file)
 
         
 
