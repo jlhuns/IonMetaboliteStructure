@@ -4,26 +4,35 @@ from typing import Counter
 import pandas as pd
 import file_paths as FILE_PATH
 from Bio import AlignIO
+from UniprotAnnotate import annotate
 
 CWD = os.getcwd()
 PARENT_DIR = os.path.dirname(CWD)
 
+
+
 def create_analysis_df(KOID: str, target_organism: str):
     uniprotEntryFolder = FILE_PATH.GET_KOID_UNIPROT_ENTRIES_PATH(KOID, target_organism)
     data = []
+    file_count = 0
 
     for file_name in os.listdir(uniprotEntryFolder):
+        file_count += 1
         file_path = os.path.join(uniprotEntryFolder, file_name)
         proteinKOID = ""
         siteType = ""
         location = ""
         conservationScore = "TBD"
         locationDescription = ""
+        cofactor_bool = ""
+        
 
         if os.path.isfile(file_path):
             with open(file_path, 'r') as inF:
                 lines = inF.readlines()
+                cofactors = annotate.get_cofactors(lines)
                 for i, line in enumerate(lines[:-1]):
+                    annotate.check_for_potential_allosteric(KOID, target_organism, line, file_name.replace(".txt", ""), file_count)
                     nextLine = lines[i + 1] if i + 1 < len(lines) else ""
                     if(line.startswith("ID")):
                         proteinKOID = line.split()[1]
@@ -39,6 +48,16 @@ def create_analysis_df(KOID: str, target_organism: str):
                                 
                             else:
                                 locationDescription = quotes_match[0] if quotes_match else ""
+                                if locationDescription in cofactors:
+                                    cofactor_bool = "Yes" 
+                                else:
+                                    cofactor_bool = ""
+                                if "note" in lines[i+2]:
+                                    quotes_match = re.findall(r'"([^"]+)"', lines[i+2])
+                                    locationDescription += ' ' + quotes_match[0] if quotes_match else ""
+                                if "ligand_label" in lines[i+3]:
+                                    quotes_match = re.findall(r'"([^"]+)"', lines[i+3])
+                                    locationDescription += ' ' + quotes_match[0] if quotes_match else ""
 
                             data.append({
                                 "KOID": KOID,
@@ -48,7 +67,9 @@ def create_analysis_df(KOID: str, target_organism: str):
                                 "Binding_Location": location,
                                 "conservationScore": conservationScore,
                                 "Value": "",
-                                "Description": locationDescription
+                                "Description": locationDescription,
+                                "Ligand_Type": "",
+                                "Cofactor": cofactor_bool
                             })
     analysisDF = pd.DataFrame(data)
     return analysisDF
@@ -188,17 +209,20 @@ def analyze_MSA(KOID: str, target_organism: str):
         target_organism = target_organism.replace('.csv', "")
     
     analysisDF = create_analysis_df(KOID, target_organism)
-    resultsDF = get_conservation_score(analysisDF, KOID, target_organism)    
+    resultsDF = get_conservation_score(analysisDF, KOID, target_organism)   
+    resultDF = annotate.check_ion_metabolite(resultsDF)
+     
     if(resultsDF.empty):
         print(f"analysisDF is empty for K0: {KOID}. No Binding or Active Sites Found")
         with open(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "EmptyDF.txt"), 'w') as file:
             file.write(f"analysisDF is empty for K0: {KOID}. No Binding or Active Sites Found")
         return resultsDF
-    clear_results = resultsDF.drop_duplicates(subset="MSA_Binding_Location")
-    clear_results = clear_results.drop("Binding_Location", axis=1)
+    clear_results = resultsDF.drop_duplicates(subset=["MSA_Binding_Location", "Type"])
+    clear_results = clear_results.drop(["Binding_Location", "UniProtID"], axis=1)
     clear_results.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Simple_Conservation_DF.csv"))
     resultsDF.to_csv(os.path.join(FILE_PATH.GET_KOID_MSA_FOLDER_PATH(KOID, target_organism), "Conservation_DF.csv"))
 
 
 if __name__ == "__main__":
-    analyze_MSA("K00134", "target_bacteria.csv")
+    #K01679
+    (analyze_MSA("K01679", "target_bacteria"))

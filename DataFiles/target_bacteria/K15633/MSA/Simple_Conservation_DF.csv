@@ -1,14 +1,15 @@
-,KOID,UniProtID,Type,MSA_Binding_Location,conservationScore,Value,Description,Residue_Counts
-0,K15633,A0AAE9XTV9_RHOPA,ACT_SITE,99,*,S,Phosphoserine intermediate,{'S': 21}
-1,K15633,A0AAE9XTV9_RHOPA,BINDING,32,*,D,Mn(2+),{'D': 21}
-3,K15633,A0AAE9XTV9_RHOPA,BINDING,160,*,H,substrate,{'H': 21}
-4,K15633,A0AAE9XTV9_RHOPA,BINDING,191..192,**,RD,substrate,"[{'R': 21}, {'D': 21}]"
-5,K15633,A0AAE9XTV9_RHOPA,BINDING,227,*,R,substrate,{'R': 21}
-6,K15633,A0AAE9XTV9_RHOPA,BINDING,234,*,R,substrate,{'R': 21}
-7,K15633,A0AAE9XTV9_RHOPA,BINDING,308..311,*-**,RADR,substrate,"[{'R': 21}, {'G': 2, 'S': 1, 'N': 5, 'A': 7, 'P': 6}, {'D': 21}, {'R': 21}]"
-8,K15633,A0AAE9XTV9_RHOPA,BINDING,385,*,K,substrate,{'K': 21}
-9,K15633,A0AAE9XTV9_RHOPA,BINDING,453,*,D,Mn(2+),{'D': 21}
-10,K15633,A0AAE9XTV9_RHOPA,BINDING,457,*,H,Mn(2+),{'H': 21}
-11,K15633,A0AAE9XTV9_RHOPA,BINDING,494,*,D,Mn(2+),{'D': 21}
-12,K15633,A0AAE9XTV9_RHOPA,BINDING,495,*,H,Mn(2+),{'H': 21}
-13,K15633,A0AAE9XTV9_RHOPA,BINDING,525,*,H,Mn(2+),{'H': 21}
+,KOID,Type,MSA_Binding_Location,conservationScore,Value,Description,Ligand_Type,Cofactor,Residue_Counts
+0,K15633,ACT_SITE,99,*,S,Phosphoserine intermediate,Metabolite,,{'S': 21}
+1,K15633,BINDING,32,*,D,Mn(2+) 2,Ion,Yes,{'D': 21}
+2,K15633,BINDING,99,*,S,Mn(2+) 2,Ion,Yes,{'S': 21}
+3,K15633,BINDING,160,*,H,substrate,Metabolite,,{'H': 21}
+4,K15633,BINDING,191..192,**,RD,substrate,Metabolite,,"[{'R': 21}, {'D': 21}]"
+5,K15633,BINDING,227,*,R,substrate,Metabolite,,{'R': 21}
+6,K15633,BINDING,234,*,R,substrate,Metabolite,,{'R': 21}
+7,K15633,BINDING,308..311,*-**,RADR,substrate,Metabolite,,"[{'R': 21}, {'G': 2, 'S': 1, 'N': 5, 'A': 7, 'P': 6}, {'D': 21}, {'R': 21}]"
+8,K15633,BINDING,385,*,K,substrate,Metabolite,,{'K': 21}
+9,K15633,BINDING,453,*,D,Mn(2+) 1,Ion,Yes,{'D': 21}
+10,K15633,BINDING,457,*,H,Mn(2+) 1,Ion,Yes,{'H': 21}
+11,K15633,BINDING,494,*,D,Mn(2+) 2,Ion,Yes,{'D': 21}
+12,K15633,BINDING,495,*,H,Mn(2+) 2,Ion,Yes,{'H': 21}
+13,K15633,BINDING,525,*,H,Mn(2+) 1,Ion,Yes,{'H': 21}

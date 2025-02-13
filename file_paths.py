@@ -83,6 +83,17 @@ def crate_target_analysis_file(targetOrganism: str):
     else:
         print("No valid data found to analyze.")
 
+def LOAD_PERSISTANCE_FILE_ALLOSTERIC():
+    file_path = os.path.join(PERSISTANCE_FILE_LOCATION, "potential_allosteric.csv")
+    if(not os.path.exists(file_path)):
+        df = pd.DataFrame(columns=["KOID", "target_organism", "mentions", "UniProtID", "mentioned_files", "total_files"])
+        return df
+    return pd.read_csv(file_path)
+
+def SAVE_PERSISTANCE_FILE_ALLOSTERIC(df):
+    file_path = os.path.join(PERSISTANCE_FILE_LOCATION, "potential_allosteric.csv")
+    return df.to_csv(file_path, index=False)
+
 #Concatenates all files from a specified folder
 def readDirectoryContents(folder_path):
     fileList = os.listdir(folder_path)
@@ -95,4 +106,5 @@ def readDirectoryContents(folder_path):
     return data
 
 if __name__ == "__main__":
-    crate_target_analysis_file("target_bacteria.csv")
+    df = LOAD_PERSISTANCE_FILE_ALLOSTERIC()
+    print(df)
