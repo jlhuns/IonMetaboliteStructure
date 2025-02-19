@@ -1,18 +1,19 @@
-,KOID,UniProtID,Type,MSA_Binding_Location,conservationScore,Value,Description,Residue_Counts
-0,K00382,A0A0H4VKF8_9SPHN,ACT_SITE,629,*,H,Proton acceptor,{'H': 28}
-1,K00382,A0A0H4VKF8_9SPHN,BINDING,178,*,K,FAD,{'K': 28}
-2,K00382,A0A0H4VKF8_9SPHN,BINDING,248,-,G,FAD,"{'A': 15, 'G': 13}"
-3,K00382,A0A0H4VKF8_9SPHN,BINDING,332..339,*-*-:*-*,GSGAIGIE,NAD(+),"[{'G': 28}, {'L': 1, 'G': 14, 'S': 5, 'A': 8}, {'G': 28}, {'P': 1, 'V': 15, 'Y': 3, 'I': 3, 'A': 6}, {'L': 1, 'I': 26, 'V': 1}, {'G': 28}, {'V': 2, 'M': 5, 'L': 16, 'I': 5}, {'E': 28}]"
-4,K00382,A0A0H4VKF8_9SPHN,BINDING,355,:,E,NAD(+),"{'G': 1, 'E': 27}"
-5,K00382,A0A0H4VKF8_9SPHN,BINDING,428,*,G,NAD(+),{'G': 28}
-6,K00382,A0A0H4VKF8_9SPHN,BINDING,470,*,D,FAD,{'D': 28}
-9,K00382,A0A0H4VXN1_9SPHN,BINDING,293..295,.*:,TGS,FAD,"[{'P': 1, 'T': 22, 'V': 1, 'A': 2, 'S': 2}, {'G': 28}, {'S': 23, 'A': 5}]"
-14,K00382,A0A0H4VXN1_9SPHN,BINDING,476..479,.*:*,MLAH,FAD,"[{'P': 1, 'L': 4, 'M': 19, 'Q': 1, 'W': 3}, {'L': 28}, {'L': 1, 'A': 27}, {'H': 28}]"
-163,K00382,Q88FB1_PSEPK,BINDING,135,.,G,FAD,"{'A': 6, 'G': 22}"
-164,K00382,Q88FB1_PSEPK,BINDING,154,:,E,FAD,"{'N': 1, 'E': 24, 'D': 3}"
-165,K00382,Q88FB1_PSEPK,BINDING,155,:,K,FAD,"{'-': 24, 'K': 2, 'A': 1, 'E': 1}"
-166,K00382,Q88FB1_PSEPK,BINDING,168,-,T,FAD,"{'T': 15, 'V': 8, 'I': 5}"
-167,K00382,Q88FB1_PSEPK,BINDING,169,*,C,FAD,{'C': 28}
-170,K00382,Q88FB1_PSEPK,BINDING,295,:,S,FAD,"{'S': 23, 'A': 5}"
-174,K00382,Q88FB1_PSEPK,BINDING,390,:,V,AMP,"{'E': 1, 'V': 23, 'A': 2, 'T': 1, 'I': 1}"
-178,K00382,Q88FB1_PSEPK,BINDING,478,:,A,FAD,"{'L': 1, 'A': 27}"
+,KOID,Type,MSA_Binding_Location,conservationScore,Value,Description,Ligand_Type,Cofactor,Residue_Counts
+0,K00382,ACT_SITE,629,*,H,Proton acceptor,Metabolite,,{'H': 28}
+1,K00382,BINDING,178,*,K,FAD,Metabolite,Yes,{'K': 28}
+2,K00382,BINDING,248,.,G,FAD,Metabolite,Yes,"{'A': 15, 'G': 13}"
+3,K00382,BINDING,332..339,*-*-:*:*,GSGAIGIE,NAD(+),Metabolite,,"[{'G': 28}, {'L': 1, 'G': 14, 'S': 5, 'A': 8}, {'G': 28}, {'P': 1, 'V': 15, 'Y': 3, 'I': 3, 'A': 6}, {'L': 1, 'I': 26, 'V': 1}, {'G': 28}, {'V': 2, 'M': 5, 'L': 16, 'I': 5}, {'E': 28}]"
+4,K00382,BINDING,355,-,E,NAD(+),Metabolite,,"{'G': 1, 'E': 27}"
+5,K00382,BINDING,428,*,G,NAD(+),Metabolite,,{'G': 28}
+6,K00382,BINDING,470,*,D,FAD,Metabolite,Yes,{'D': 28}
+9,K00382,BINDING,293..295,-*:,TGS,FAD,Metabolite,Yes,"[{'P': 1, 'T': 22, 'V': 1, 'A': 2, 'S': 2}, {'G': 28}, {'S': 23, 'A': 5}]"
+14,K00382,BINDING,476..479,-*-*,MLAH,FAD,Metabolite,Yes,"[{'P': 1, 'L': 4, 'M': 19, 'Q': 1, 'W': 3}, {'L': 28}, {'L': 1, 'A': 27}, {'H': 28}]"
+163,K00382,BINDING,135,.,G,FAD,Metabolite,Yes,"{'A': 6, 'G': 22}"
+164,K00382,BINDING,154,:,E,FAD,Metabolite,Yes,"{'N': 1, 'E': 24, 'D': 3}"
+165,K00382,BINDING,155,-,K,FAD,Metabolite,Yes,"{'-': 24, 'K': 2, 'A': 1, 'E': 1}"
+166,K00382,BINDING,168,-,T,FAD,Metabolite,Yes,"{'T': 15, 'V': 8, 'I': 5}"
+167,K00382,BINDING,169,*,C,FAD,Metabolite,Yes,{'C': 28}
+170,K00382,BINDING,295,:,S,FAD,Metabolite,Yes,"{'S': 23, 'A': 5}"
+174,K00382,BINDING,390,-,V,AMP,Metabolite,,"{'E': 1, 'V': 23, 'A': 2, 'T': 1, 'I': 1}"
+178,K00382,BINDING,478,-,A,FAD,Metabolite,Yes,"{'L': 1, 'A': 27}"
+179,K00382,BINDING,629,*,H,FAD,Metabolite,Yes,{'H': 28}

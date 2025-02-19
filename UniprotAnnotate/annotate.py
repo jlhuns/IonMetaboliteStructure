@@ -93,32 +93,37 @@ def check_ion_metabolite(df):
 
 
 if __name__ == "__main__":
-    koid = "K01679"
-    lines = get_file_lines(FILEPATH.GET_UNPROT_ENTRY_FILE_PATH(koid, "A0R2U8", ".txt", "target_bacteria"))
-    section_cc = get_section_data(lines, 'cC')
+    # koid = "K01679"
+    # lines = get_file_lines(FILEPATH.GET_UNPROT_ENTRY_FILE_PATH(koid, "A0R2U8", ".txt", "target_bacteria"))
+    # section_cc = get_section_data(lines, 'cC')
 
 
-    #A Test
-    df = pd.read_csv(FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH(koid, "target_bacteria"))
-    ions = [
-    "Na(+)", "K(+)", "Ca(2+)", "Mg(2+)", "Fe(3+)", "fe-su", "Mn(2+) 2"
-    ]
+    # #A Test
+    # df = pd.read_csv(FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH(koid, "target_bacteria"))
+    # ions = [
+    # "Na(+)", "K(+)", "Ca(2+)", "Mg(2+)", "Fe(3+)", "fe-su", "Mn(2+) 2"
+    # ]
 
-    # List of random metabolites
-    metabolites = [
-        "Glucose", "Lactate", "Pyruvate", "Citrate", "ATP", "NADH", "FADH2", "Urea", "Creatinine", "Acetyl-CoA"
-    ]
+    # # List of random metabolites
+    # metabolites = [
+    #     "Glucose", "Lactate", "Pyruvate", "Citrate", "ATP", "NADH", "FADH2", "Urea", "Creatinine", "Acetyl-CoA"
+    # ]
 
-    # Combine ions and metabolites
-    data = ions + metabolites
+    # # Combine ions and metabolites
+    # data = ions + metabolites
 
-    # Create DataFrame dictionary
-    dataDF = {
-        "Description": data
-    }
+    # # Create DataFrame dictionary
+    # dataDF = {
+    #     "Description": data
+    # }
 
-    # Convert to DataFrame
-    test_df = pd.DataFrame(dataDF)
-    check_ion_metabolite(test_df)
+    # # Convert to DataFrame
+    # test_df = pd.DataFrame(dataDF)
+    # check_ion_metabolite(test_df)
+
+    file_path = FILEPATH.GET_ANALYSIS_RESULT_FILE("test_target_bacteria")
+    df = pd.read_csv(file_path)
+    check_ion_metabolite(df)
+    df.to_csv(file_path)
 
     

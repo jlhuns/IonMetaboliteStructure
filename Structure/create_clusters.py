@@ -162,13 +162,13 @@ def plot_dendrogram(linkage_matrix, threshold):
 # After performing hierarchical clustering
 
 if __name__ == "__main__":
-    KOID = "A0A0H4VG32"
+    KOID = "D4K0B4"
     try:
         atomsdf = create_structure_atoms_df(KOID)
     except Exception as e:
         print("Error creating structure df: ", e)
         exit()
-    conservation_df_file_path = FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH("K01803", "target_bacteria")
+    conservation_df_file_path = FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH("K00611", "target_bacteria")
     conservation_df = pd.read_csv(conservation_df_file_path)
     binding_sites_df = find_binding_atoms_X_Y_Z(KOID, atomsdf, conservation_df)
     pdb_parser = PDB.PDBParser(QUIET=True)
@@ -182,6 +182,9 @@ if __name__ == "__main__":
     threshold = 20
     clustered_binding_sites_df, linkage_matrix = hierarchical_clustering(binding_sites_df, threshold)
     print("Clustered Binding Sites DataFrame:")
+    print(linkage_matrix)
     print(clustered_binding_sites_df)
+    print(linkage_matrix)
+
     plot_dendrogram(linkage_matrix, threshold)
 
