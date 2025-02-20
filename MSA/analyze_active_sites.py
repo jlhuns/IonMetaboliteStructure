@@ -225,4 +225,4 @@ def analyze_MSA(KOID: str, target_organism: str):
 
 if __name__ == "__main__":
     #K01679
-    (analyze_MSA("K01679", "target_bacteria"))
+    (analyze_MSA("K01659", "target_bacteria"))

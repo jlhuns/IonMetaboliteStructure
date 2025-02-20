@@ -1,9 +1,7 @@
-from exceptiongroup import catch
 from API import PDB_API
 import pandas as pd
 from Bio import PDB
 import numpy as np
-import Structure.graphStrucutre as graphStrucutre
 import scipy.cluster.hierarchy as sch
 from scipy.spatial.distance import pdist
 
@@ -154,7 +152,7 @@ def plot_dendrogram(linkage_matrix, threshold):
     # Customize labels and title
     plt.title(f"Hierarchical Clustering Dendrogram: {KOID}")
     plt.xlabel("Binding Sites")
-    plt.ylabel("Distance")
+    plt.ylabel("Distance (angstrom)")
     
     # Show plot
     plt.show()
@@ -162,13 +160,13 @@ def plot_dendrogram(linkage_matrix, threshold):
 # After performing hierarchical clustering
 
 if __name__ == "__main__":
-    KOID = "D4K0B4"
+    KOID = "A0A3R9E617"
     try:
         atomsdf = create_structure_atoms_df(KOID)
     except Exception as e:
         print("Error creating structure df: ", e)
         exit()
-    conservation_df_file_path = FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH("K00611", "target_bacteria")
+    conservation_df_file_path = FILEPATH.GET_KOID_MSA_ANALYSIS_DF_FILE_PATH("K01903", "target_bacteria")
     conservation_df = pd.read_csv(conservation_df_file_path)
     binding_sites_df = find_binding_atoms_X_Y_Z(KOID, atomsdf, conservation_df)
     pdb_parser = PDB.PDBParser(QUIET=True)

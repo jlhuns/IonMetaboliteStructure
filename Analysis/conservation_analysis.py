@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def load_and_categorize_data(file_path):
     # Load the CSV data
@@ -59,14 +60,58 @@ def visualize_results(ion_scores, metabolite_scores):
     
     # Create a box plot to compare the conservation scores between ions and metabolites.
     # Note: Use 'tick_labels' instead of 'labels' if using Matplotlib 3.9+.
-    plt.boxplot([ion_scores, metabolite_scores], tick_labels=['Ions', 'Metabolites'])
+    plt.boxplot([ion_scores, metabolite_scores], labels=['Ions', 'Metabolites'])
     
     plt.title('Conservation Scores for Ions and Metabolites')
     plt.ylabel('Average Conservation Score')
     plt.show()
+def visualize_results_violin(ion_scores, metabolite_scores):
+    plt.figure(figsize=(10, 6))
+
+    # Convert data into a format suitable for Seaborn
+    data = {
+        'Conservation Score': list(ion_scores) + list(metabolite_scores),
+        'Group': ['Ions'] * len(ion_scores) + ['Metabolites'] * len(metabolite_scores)
+    }
+    df = pd.DataFrame(data)
+
+    # Create a violin plot
+    sns.violinplot(x='Group', y='Conservation Score', data=df, inner="quartile", palette="muted")
+
+    plt.title('Distribution of Conservation Scores for Ions and Metabolites')
+    plt.ylabel('Average Conservation Score')
+    plt.xlabel('Ligand Type')
+    plt.show()
+
+def visualize_both_results(ion_scores, metabolite_scores):
+    # Create a figure with 2 subplots (side by side)
+    fig, axes = plt.subplots(1, 2, figsize=(15, 6))
+    
+    # First plot: Boxplot for Ion vs. Metabolite scores
+    axes[0].boxplot([ion_scores, metabolite_scores], labels=['Ions', 'Metabolites'])
+    axes[0].set_title('Conservation Scores for Ions and Metabolites')
+    axes[0].set_ylabel('Average Conservation Score')
+
+    # Second plot: Violin plot for Ion vs. Metabolite scores
+    data = {
+        'Conservation Score': list(ion_scores) + list(metabolite_scores),
+        'Group': ['Ions'] * len(ion_scores) + ['Metabolites'] * len(metabolite_scores)
+    }
+    df = pd.DataFrame(data)
+
+    sns.violinplot(x='Group', y='Conservation Score', data=df, inner="quartile", palette="muted", ax=axes[1])
+    axes[1].set_title('Distribution of Conservation Scores for Ions and Metabolites')
+    axes[1].set_ylabel('Average Conservation Score')
+    axes[1].set_xlabel('Ligand Type')
+
+    # Adjust layout for better spacing
+    plt.tight_layout()
+
+    # Show both plots
+    plt.show()
 
 if __name__ == "__main__":
-    file_path = FILE_PATHS.GET_ANALYSIS_RESULT_FILE("test_target_bacteria")  # Replace with your actual file path
+    file_path = FILE_PATHS.GET_ANALYSIS_RESULT_FILE("target_bacteria")  # Replace with your actual file path
 
     # Load and categorize the data.
     ion_data, metabolite_data = load_and_categorize_data(file_path)
@@ -91,6 +136,13 @@ if __name__ == "__main__":
     ion_avg_scores = ion_data['avgConservation'].dropna()
     metabolite_avg_scores = metabolite_data['avgConservation'].dropna()
 
+    #check distribution
+    shapiro_ion = stats.shapiro(ion_avg_scores)
+    shapiro_metabolite = stats.shapiro(metabolite_avg_scores)
+
+    print(f"Shapiro-Wilk Test for Ion Scores: W={shapiro_ion[0]}, p={shapiro_ion[1]}")
+    print(f"Shapiro-Wilk Test for Metabolite Scores: W={shapiro_metabolite[0]}, p={shapiro_metabolite[1]}")
+
     # Perform statistical comparison.
     t_stat, p_value_ttest, u_stat, p_value_u = statistical_comparison(ion_avg_scores, metabolite_avg_scores)
 
@@ -99,4 +151,6 @@ if __name__ == "__main__":
     print(f"Mann-Whitney U test: U-statistic = {u_stat}, p-value = {p_value_u}")
 
     # Visualize the results.
-    visualize_results(ion_avg_scores, metabolite_avg_scores)
+    # visualize_results(ion_avg_scores, metabolite_avg_scores)
+    # visualize_results_violin(ion_avg_scores, metabolite_avg_scores)
+    visualize_both_results(ion_avg_scores, metabolite_avg_scores)
